@@ -1,0 +1,33 @@
+---
+// Página para direcciones que no existen. Netlify y Cloudflare Pages sirven dist/404.html con estado 404;
+// sin ella, Cloudflare devolvía la página de inicio (con estado 200) para cualquier dirección.
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Página no encontrada" description="La página que buscas no existe en CodeBooks.">
+  <section class="pb-12 pt-6">
+    <p class="font-mono text-xs uppercase tracking-widest text-[var(--accent)]">Error 404</p>
+    <h1 class="mt-3 max-w-3xl text-balance text-5xl font-bold leading-[1.05] sm:text-6xl">Esta página no existe.</h1>
+    <p class="mt-5 max-w-xl text-lg text-muted">
+      Puede que el enlace esté mal escrito o que el libro haya cambiado de sección. Búscalo por título o autor, o vuelve al
+      inicio para recorrer las categorías.
+    </p>
+    <div class="mt-8 flex flex-wrap gap-3 font-mono text-sm">
+      <button
+        type="button"
+        data-open-search
+        class="rounded-md bg-[var(--accent)] px-4 py-2 font-medium text-black transition hover:opacity-90"
+      >
+        Buscar un libro
+      </button>
+      <a href="/" class="rounded-md border border-line px-4 py-2 transition hover:border-[var(--accent)]">Ir al inicio</a>
+    </div>
+  </section>
+</Layout>
+
+<script>
+  // Abre la misma búsqueda del encabezado (SearchPalette), también en el celular, donde su botón está oculto.
+  document.addEventListener('click', (ev) => {
+    if ((ev.target as Element).closest?.('[data-open-search]')) document.getElementById('search-open')?.click();
+  });
+</script>
