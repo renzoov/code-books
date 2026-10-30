@@ -121,9 +121,11 @@ export const pageOf = (b: Book) => Math.floor(booksOf(b.techSlug).findIndex((x) 
 
 // --- URLs y textos compartidos --------------------------------------------------------------------
 
-export const categoryHref = (c: Category) => `/categoria/${c.slug}`;
-export const techHref = (techSlug: string, page = 1) => (page > 1 ? `/${techSlug}/${page}` : `/${techSlug}`);
-export const bookHref = (b: Book) => `/libros/${b.techSlug}/${b.slug}`;
+// Con barra final: Netlify publica cada página como carpeta (/csharp/index.html) y redirige /csharp → /csharp/,
+// lo que costaba una petición extra en cada clic.
+export const categoryHref = (c: Category) => `/categoria/${c.slug}/`;
+export const techHref = (techSlug: string, page = 1) => (page > 1 ? `/${techSlug}/${page}/` : `/${techSlug}/`);
+export const bookHref = (b: Book) => `/libros/${b.techSlug}/${b.slug}/`;
 
 export const authorsText = (b: Book) => (b.autores.length ? b.autores.join(', ') : 'Autor no indicado');
 

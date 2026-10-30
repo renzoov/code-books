@@ -22,6 +22,9 @@ const excludeSourceExcels = () => ({
 // https://astro.build/config
 export default defineConfig({
   integrations: [excludeSourceExcels()],
+  // Pide en segundo plano las páginas de los enlaces que están en pantalla, para que el clic sea inmediato
+  // también en el celular (donde no hay "hover"). Astro lo omite en conexiones lentas o con ahorro de datos.
+  prefetch: { prefetchAll: true, defaultStrategy: 'viewport' },
   vite: {
     plugins: [tailwindcss()],
   },

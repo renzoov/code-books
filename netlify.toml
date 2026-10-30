@@ -4,3 +4,10 @@
 
 [build.environment]
   NODE_VERSION = "24"
+
+# Los archivos de /_astro llevan un hash en el nombre: si cambian, cambia la URL. Se pueden guardar en el
+# navegador sin volver a preguntar a Netlify en cada página.
+[[headers]]
+  for = "/_astro/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

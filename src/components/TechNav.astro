@@ -68,7 +68,7 @@ const current = active ? techBySlug(active) : undefined;
       if (!panel || panel.querySelector('[data-tech-menu-list]')) return;
       panel.innerHTML = await loadList();
       const active = panel.dataset.active;
-      if (active) panel.querySelector(`a[href="/${active}"]`)?.setAttribute('aria-current', 'page');
+      if (active) panel.querySelector(`a[href="/${active}/"]`)?.setAttribute('aria-current', 'page');
     },
     true,
   );
