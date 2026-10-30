@@ -11,3 +11,11 @@
   for = "/_astro/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+# Las fichas de libro se precargan cuando su tarjeta aparece en pantalla (prefetch de Astro). Con el
+# max-age=0 por defecto de Netlify el navegador descarta esa copia y vuelve a pedirla al hacer clic, y si el
+# CDN no la tiene en caché el clic tarda segundos. 5 minutos basta para que el clic use la copia precargada.
+[[headers]]
+  for = "/libros/*"
+  [headers.values]
+    Cache-Control = "public, max-age=300, must-revalidate"
