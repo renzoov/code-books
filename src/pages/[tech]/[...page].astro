@@ -1,10 +1,11 @@
 ---
 import type { GetStaticPaths } from 'astro';
+import { getImage } from 'astro:assets';
 import Layout from '../../layouts/Layout.astro';
 import BackLink from '../../components/BackLink.astro';
 import BookCard from '../../components/BookCard.astro';
 import Pagination from '../../components/Pagination.astro';
-import { techs, booksOf, techBySlug, categoryOf, categoryHref, PAGE_SIZE } from '../../lib/data';
+import { techs, booksOf, techBySlug, categoryOf, categoryHref, getCover, PAGE_SIZE } from '../../lib/data';
 
 export const getStaticPaths = (({ paginate }) =>
   techs.flatMap((t) =>
@@ -14,6 +15,20 @@ export const getStaticPaths = (({ paginate }) =>
 const { page } = Astro.props;
 const tech = techBySlug(Astro.params.tech!);
 const category = categoryOf(tech);
+
+// Portadas de la página siguiente (mismo ancho que BookCard, así es el mismo archivo): se precargan con
+// prioridad baja mientras se mira esta página para que al pasar de página las tarjetas aparezcan completas.
+// Lo hace el script de abajo, que se salta la precarga en modo ahorro de datos o con conexión lenta.
+const nextCovers = (
+  await Promise.all(
+    booksOf(tech.slug)
+      .slice(page.end + 1, page.end + 1 + PAGE_SIZE)
+      .map(async (b) => {
+        const cover = await getCover(b.slug);
+        return cover && (await getImage({ src: cover, width: 160 })).src;
+      }),
+  )
+).filter(Boolean);
 ---
 
 <Layout title={`${tech.nombre} · página ${page.currentPage}`} accent={tech.color} activeTech={tech.slug}>
@@ -33,4 +48,21 @@ const category = categoryOf(tech);
   </div>
 
   <Pagination techSlug={tech.slug} current={page.currentPage} last={page.lastPage} />
+  <div hidden data-next-covers={JSON.stringify(nextCovers)}></div>
 </Layout>
+
+<script>
+  document.addEventListener('astro:page-load', () => {
+    const list = document.querySelector<HTMLElement>('[data-next-covers]');
+    if (!list) return;
+    const conn = (navigator as Navigator & { connection?: { saveData?: boolean; effectiveType?: string } }).connection;
+    if (conn?.saveData || /2g|3g/.test(conn?.effectiveType ?? '')) return;
+    for (const src of JSON.parse(list.dataset.nextCovers!) as string[]) {
+      const link = document.createElement('link');
+      link.rel = 'prefetch';
+      link.as = 'image';
+      link.href = src;
+      document.head.append(link);
+    }
+  });
+</script>

@@ -15,11 +15,14 @@ const size = (p: number) =>
 const extentSize = book.paginas ? `Extensión ${size(book.paginas)}` : '';
 const extentScale = `La barra se llena con ${MAX_PAGES} páginas o más`;
 const extentLabel = `${extentSize}. ${extentScale}`;
+// La ficha se precarga apenas abre el listado (data-astro-prefetch="load") y no solo cuando la tarjeta entra en
+// pantalla: así el clic es inmediato aunque se elija un libro de más abajo nada más cambiar de página.
 ---
 
 <a
   href={bookHref(book)}
   data-book={`${book.techSlug}-${book.slug}`}
+  data-astro-prefetch="load"
   class="group flex gap-4 rounded-xl border border-line bg-panel p-4 transition hover:border-[var(--accent)] hover:bg-panel/60 sm:gap-5"
 >
   <BookCover book={book} width={160} class="w-24 shrink-0 sm:w-32" />
