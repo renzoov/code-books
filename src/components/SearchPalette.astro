@@ -85,6 +85,11 @@
     if ((ev.ctrlKey || ev.metaKey) && ev.key.toLowerCase() === 'k') {
       ev.preventDefault();
       dialog?.open ? dialog.close() : open();
+    } else if (ev.key === 'Escape' && dialog?.open) {
+      // Con texto escrito, el primer Escape solo borraba la casilla (comportamiento de input type="search"):
+      // se cierra siempre al primero. El texto se conserva y queda seleccionado al volver a abrir.
+      ev.preventDefault();
+      dialog.close();
     } else if (ev.key === 'Enter' && (ev.target as HTMLElement).id === 'search-input') {
       ($('search-results')?.querySelector('a') as HTMLAnchorElement | null)?.click();
     }
