@@ -1,0 +1,749 @@
+{
+  "effective-ruby-2014": {
+    "descripcion": "Guía especializada de Peter J. Jones publicada por Addison-Wesley en 2014. Ofrece 48 pautas y recomendaciones concretas para escribir código en Ruby idiomático, seguro y con un rendimiento optimizado.\n\nCubre la semántica de Ruby: el funcionamiento de `nil` y valores booleanos, el uso maestro de colecciones y bloques (`yield`), metaprogramación responsable con `method_missing` y `define_method`, gestión del Garbage Collector y profiling de memoria, y diseño de gemas profesionales.\n\nCada elemento contrasta malas prácticas habituales con soluciones idiomáticas y eficientes. Una lectura imprescindible para desarrolladores intermedios de Ruby y Rails que buscan elevar el nivel técnico de sus proyectos.",
+    "temas": [
+      "Effective Ruby",
+      "Ruby Idiomático",
+      "Metaprogramación",
+      "Garbage Collection",
+      "Bloques y Closures",
+      "Gemas",
+      "Addison-Wesley"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/effective-ruby-48-specific-ways-to-write-better-ruby-9780321902405"
+    ]
+  },
+  "eloquent-ruby-2011": {
+    "descripcion": "Obra maestra de Russ Olsen publicada por Addison-Wesley en 2011. Enseña a pensar en Ruby, transformando la mentalidad de programadores acostumbrados a lenguajes tradicionales hacia la naturalidad, elegancia y dinamismo de Ruby.\n\nExplora la sintaxis idiomática de Ruby: uso expresivo de hashes y símbolos, bloques e iteradores, el modelo de clases y módulos como mixins, diseño de DSLs internos sencillos, metaprogramación dinámica (`eval`, `send`, `instance_eval`) y empaquetado de librerías.\n\nEscrito con un tono ingenioso, cercano y riguroso, es considerado de forma unánime uno de los mejores libros jamás escritos sobre el estilo y la filosofía de Ruby. Lectura de cabecera para todo programador del ecosistema.",
+    "temas": [
+      "Eloquent Ruby",
+      "Russ Olsen",
+      "Ruby Idiomático",
+      "DSLs",
+      "Mixins",
+      "Metaprogramación",
+      "Filosofía Ruby"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "DSL Interno de Automatización de Tareas en Ruby",
+        "descripcion": "Diseño e implementación de un lenguaje de dominio específico interno con sintaxis declarativa limpia utilizando bloques y metaprogramación."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/eloquent-ruby-9780321584106"
+    ]
+  },
+  "practical-object-oriented-design-in-ruby-2012": {
+    "descripcion": "Conocido universalmente en la industria como POODR, escrito por la célebre Sandi Metz y publicado por Addison-Wesley en 2012. Es un clásico indiscutible sobre el diseño orientado a objetos y la mantenibilidad del código.\n\nExplica con claridad magistral los principios SOLID aplicados al dinamismo de Ruby: diseño de clases con una única responsabilidad (SRP), gestión inteligente de dependencias, definición de interfaces flexibles mediante Duck Typing, composición frente a herencia, y técnicas de diseño de pruebas unitarias ágiles y no acopladas.\n\nSandi Metz acompaña cada explicación con refactorizaciones graduales de un sistema de modelado de bicicletas, demostrando cómo escribir software que sea fácil de cambiar hoy y en el futuro. Una lectura obligatoria para cualquier profesional del software.",
+    "temas": [
+      "POODR",
+      "Sandi Metz",
+      "POO",
+      "SOLID",
+      "Duck Typing",
+      "Composición",
+      "Refactorización",
+      "Testing Ágil"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Refactorización de Sistema de Dominio según Principios POODR",
+        "descripcion": "Transformación de una base de código acoplada hacia un diseño desacoplado basado en composición, interfaces por roles y duck typing."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.poodr.com/",
+      "https://www.informit.com/store/practical-object-oriented-design-in-ruby-an-agile-9780321721334"
+    ]
+  },
+  "refactoring-ruby-edition-2009": {
+    "descripcion": "Adaptación a Ruby del inmortal clásico de Martin Fowler, escrita junto a Jay Fields, Shane Harvie y Kent Beck, publicada por Addison-Wesley en 2009. Adapta el catálogo canónico de refactorizaciones a la naturaleza dinámica de Ruby.\n\nExplora la detección de 'malos olores' en el código (code smells) y detalla decenas de refactorizaciones concretas: extracción de métodos, sustitución de condicionales por polimorfismo, simplificación de llamadas de métodos, aprovechamiento de la metaprogramación de Ruby para eliminar código duplicado y diseño de pruebas automatizadas continuas.\n\nCada patrón de refactorización muestra ejemplos de antes y después con pasos seguros y graduales. Es una guía de consulta permanente para mantener bases de código limpias, legibles y adaptables.",
+    "temas": [
+      "Refactorización",
+      "Martin Fowler",
+      "Kent Beck",
+      "Code Smells",
+      "Ruby",
+      "Clean Code",
+      "TDD",
+      "Addison-Wesley"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://martinfowler.com/books/refactoringRuby.html"
+    ]
+  },
+  "ruby-on-rails-tutorial-2nd-edition-2012": {
+    "descripcion": "Segunda edición del aclamado curso de Michael Hartl, publicado por Addison-Wesley en 2012. Es la guía más célebre del mundo para aprender desarrollo web completo con Ruby on Rails (Rails 3.2/4) y TDD.\n\nEnseña el flujo integral del desarrollo profesional: uso de Git y GitHub, despliegue continuo en Heroku, pruebas automatizadas con RSpec y Capybara, diseño del patrón MVC, autenticación de usuarios desde cero con contraseñas seguras (`bcrypt`), asociaciones complejas en ActiveRecord y diseño de relaciones de seguidores (tipo Twitter).\n\nEl autor guía la construcción paso a paso de una red social completa y funcional. Ampliamente considerada la mejor formación inicial para adentrarse en el desarrollo de aplicaciones web de producción.",
+    "temas": [
+      "Ruby on Rails",
+      "Michael Hartl",
+      "TDD",
+      "RSpec",
+      "ActiveRecord",
+      "Heroku",
+      "MVC",
+      "Autenticación"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Red Social Completa con Ruby on Rails (Sample App)",
+        "descripcion": "Construcción integral de una plataforma tipo Twitter con gestión de cuentas, microposts, imágenes y relaciones sociales de seguimiento."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.railstutorial.org/"
+    ]
+  },
+  "the-rails-4-way-3rd-edition-2014": {
+    "descripcion": "Tercera edición de la biblia definitiva de Rails escrita por Obie Fernandez y Kevin Faustino, publicada por Addison-Wesley en 2014. Con casi 900 páginas, es el manual de referencia más exhaustivo sobre Rails 4.\n\nCubre con minuciosidad cada subsistema: el enrutador HTTP, ActionPack, ActionController, ActiveRecord en profundidad (consultas Arel, migraciones, callbacks, validaciones), ActionView y helpers, Asset Pipeline, ActionMailer, seguridad y autenticación, y pruebas de integración.\n\nProporciona criterios arquitectónicos fundamentados en años de desarrollo corporativo en Ruby on Rails. El libro de cabecera indispensable para ingenieros y arquitectos que desarrollan soluciones con Rails.",
+    "temas": [
+      "The Rails Way",
+      "Obie Fernandez",
+      "Rails 4",
+      "ActiveRecord",
+      "Arel",
+      "ActionPack",
+      "Asset Pipeline",
+      "Arquitectura"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de Plataforma Empresarial con Rails 4",
+        "descripcion": "Diseño de un sistema de comercio electrónico de alta escala con consultas Arel optimizadas, caché multinivel y pasarelas de pago."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://leanpub.com/tr4w",
+      "https://www.informit.com/store/rails-4-way-9780321944276"
+    ]
+  },
+  "beginning-ruby-3rd-edition-2016": {
+    "descripcion": "Tercera edición del exitoso manual introductorio de Peter Cooper, publicado por Apress en 2016. Diseñado como una guía accesible y completa para comenzar a programar en Ruby desde cero.\n\nCubre la sintaxis fundamental, tipos de datos, control de flujo, métodos y clases, manejo de excepciones, manipulación de archivos y bases de datos SQLite/MySQL, consumo de APIs web, pruebas unitarias básicas y una introducción al desarrollo web con Sinatra y Rails.\n\nAcompaña al lector a través de la creación de múltiples proyectos prácticos: un analizador de texto, un bot de conversación y un gestor de información personal. Muy recomendado para principiantes.",
+    "temas": [
+      "Beginning Ruby",
+      "Peter Cooper",
+      "Sintaxis Ruby",
+      "POO",
+      "SQLite",
+      "Sinatra",
+      "Principiantes",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Analizador de Frecuencia de Texto y Bot Interactivo",
+        "descripcion": "Desarrollo de un analizador lingüístico que evalúa legibilidad de textos y un bot conversacional basado en reglas en Ruby."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1279-0"
+    ]
+  },
+  "clean-ruby-2019": {
+    "descripcion": "Manual conciso y directo de Carleton DiLeo publicado por Apress en 2019. Adapta las directrices de código limpio (Clean Code) a las particularidades dinámicas de Ruby.\n\nExplora la nomenclatura clara de clases y métodos, diseño de funciones de responsabilidad única, eliminación de efectos secundarios indeseados, reducción de la complejidad ciclomática, formato consistente y técnicas de refactorización rápida.\n\nEl autor utiliza ejemplos de código real para contrastar implementaciones descuidadas con sus versiones limpias y legibles. Una lectura ágil de gran utilidad para elevar los estándares de calidad en equipos de desarrollo.",
+    "temas": [
+      "Clean Ruby",
+      "Clean Code",
+      "Refactorización",
+      "Buenas Prácticas",
+      "Responsabilidad Única",
+      "Legibilidad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5367-0"
+    ]
+  },
+  "learn-rails-5-2-2018": {
+    "descripcion": "Guía práctica escrita por Stefan Wintermeyer y publicada por Apress en 2018. Enseña a construir aplicaciones web modernas utilizando las nuevas características de Ruby on Rails 5.2.\n\nCubre la arquitectura MVC, el generador de aplicaciones, Active Storage para subida directa de archivos a la nube (AWS S3, Google Cloud), credenciales cifradas del sistema (`credentials.yml.enc`), Action Cable para WebSockets y el framework de renderizado en segundo plano Active Job.\n\nEl autor estructura el aprendizaje en torno a proyectos funcionales explicados con código reproducible. Una excelente opción para ponerse al día con las innovaciones introducidas en Rails 5.2.",
+    "temas": [
+      "Rails 5.2",
+      "Active Storage",
+      "Action Cable",
+      "WebSockets",
+      "Active Job",
+      "Credentials",
+      "Apress",
+      "MVC"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Web con Subida de Archivos y Chat en Rails 5.2",
+        "descripcion": "Construcción de una aplicación web con gestión de medios mediante Active Storage y comunicación en tiempo real con Action Cable."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3486-0"
+    ]
+  },
+  "learn-rails-6-2021": {
+    "descripcion": "Manual exhaustivo y moderno de Adam Notodikromo publicado por Apress en 2021. Ofrece una guía integral para dominar el desarrollo web con Ruby on Rails 6.\n\nDetalla las principales novedades de Rails 6: Action Mailbox para procesar correos entrantes, Action Text para edición de contenido enriquecido con Trix, Webpacker como empaquetador de JavaScript moderno, soporte nativo para múltiples bases de datos concurrentes y pruebas en paralelo con subprocesos.\n\nAcompaña al lector a través de la construcción de un producto web comercial completo desde el diseño de la base de datos hasta el despliegue en producción. Una de las guías más actualizadas y completas para aprender Rails moderno.",
+    "temas": [
+      "Rails 6",
+      "Action Text",
+      "Action Mailbox",
+      "Webpacker",
+      "Múltiples Bases de Datos",
+      "Trix",
+      "Testing Paralelo",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Publicación de Contenidos SaaS con Rails 6",
+        "descripcion": "Desarrollo de una aplicación SaaS completa con editor enriquecido Action Text, gestión de emails con Action Mailbox y arquitectura multi-DB."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-6667-0"
+    ]
+  },
+  "rails-5-revealed-2016": {
+    "descripcion": "Monografía concisa escrita por Alan Bradburne y publicada por Apress en 2016. Analiza con lupa técnica las transformaciones y novedades introducidas en el lanzamiento de Rails 5.\n\nExplora la incorporación oficial de Action Cable para sockets en tiempo real, el modo API nativo (`--api`) para servicios REST puros sin vistas HTML, la consolidación de comandos en la herramienta `bin/rails` sustituyendo a Rake, y mejoras en ActiveRecord y controladores.\n\nDiseñado para desarrolladores experimentados de Rails que buscan entender el impacto de la versión 5 en sus aplicaciones existentes. Muy útil como resumen arquitectónico y guía de migración.",
+    "temas": [
+      "Rails 5",
+      "Action Cable",
+      "Rails API Mode",
+      "bin/rails",
+      "ActiveRecord 5",
+      "Migración",
+      "Apress"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1678-1"
+    ]
+  },
+  "ruby-recipes-2017": {
+    "descripcion": "Recetario práctico escrito por Malay Mandal y publicado por Apress en 2017. Contiene soluciones directas a más de un centenar de desafíos cotidianos de programación en Ruby.\n\nCubre manipulación de números, cadenas de caracteres y expresiones regulares, estructuras de datos avanzadas, trabajo con archivos y directorios, networking y peticiones HTTP, consumo de bases de datos y creación de utilidades para línea de comandos.\n\nSu estructura directa permite resolver problemas de desarrollo al instante con fragmentos de código listos para copiar y adaptar. Una referencia de escritorio ágil para programadores de Ruby.",
+    "temas": [
+      "Ruby",
+      "Recetas",
+      "Networking",
+      "E/S de Archivos",
+      "Regex",
+      "Estructuras de Datos",
+      "CLI",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2468-7"
+    ]
+  },
+  "test-driven-development-in-ruby-2017": {
+    "descripcion": "Guía especializada escrita por Bala Paranj y publicada por Apress en 2017. Enseña a dominar el desarrollo guiado por pruebas (TDD) en el ecosistema Ruby y Rails.\n\nExplora los fundamentos del ciclo Red-Green-Refactor, especificaciones con RSpec, dobles de prueba (mocks, stubs y espías), pruebas de integración y aceptación con Capybara y Selenium, fábricas de datos con FactoryBot y análisis de cobertura de código con SimpleCov.\n\nA través de ejemplos paso a paso, el autor demuestra cómo las pruebas bien diseñadas actúan como documentación viva y reducen el miedo a la refactorización continua. Un recurso valioso para la disciplina de la calidad de software.",
+    "temas": [
+      "TDD",
+      "Ruby",
+      "RSpec",
+      "Capybara",
+      "FactoryBot",
+      "Mocks y Stubs",
+      "SimpleCov",
+      "Testing"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite TDD Completa para Aplicación de Comercio Electrónico",
+        "descripcion": "Desarrollo guiado por pruebas de un motor de reservas y facturación utilizando RSpec y Capybara para cobertura de extremo a extremo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2638-4"
+    ]
+  },
+  "macruby-in-action-2012": {
+    "descripcion": "Libro técnico especializado escrito por Brendan G. Lim, Jerry Cheung y Jeremy McAnally, publicado por Manning en 2012. Enseña a desarrollar aplicaciones nativas para el sistema operativo Mac OS X utilizando MacRuby y el framework Cocoa de Apple.\n\nExplora la integración de Ruby con el runtime de Objective-C, diseño de interfaces gráficas nativas con Interface Builder y Xcode, enlace de datos (Cocoa Bindings), gestión de memoria y el compilador LLVM de MacRuby para crear binarios nativos optimizados.\n\nLos autores guían el desarrollo de múltiples herramientas y aplicaciones de escritorio completas. Una obra histórica de gran interés sobre la convergencia entre el dinamismo de Ruby y la plataforma Cocoa de Apple.",
+    "temas": [
+      "MacRuby",
+      "Cocoa",
+      "Mac OS X",
+      "Objective-C Runtime",
+      "Interface Builder",
+      "LLVM",
+      "Desktop Apps",
+      "Manning"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Reproductor Multimedia y Utilidad Nativa para macOS en MacRuby",
+        "descripcion": "Construcción de una aplicación de escritorio Cocoa con interfaz nativa de macOS y controles de audio usando bindings de MacRuby."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/macruby-in-action"
+    ]
+  },
+  "phoenix-in-action-2019": {
+    "descripcion": "Manual exhaustivo publicado por Manning en 2019 y escrito por Geoffrey Lessel. Enseña a construir aplicaciones web en tiempo real, distribuidas y de muy alto rendimiento utilizando el framework Phoenix sobre Elixir y la máquina virtual Erlang (BEAM).\n\nCubre la arquitectura de Phoenix: enrutador, controladores, vistas y plantillas EEx, modelado y validaciones de datos con Ecto sobre PostgreSQL, canales de comunicación en tiempo real con WebSockets (Phoenix Channels) y presencia de usuarios distribuidos (Phoenix Presence).\n\nA través de la construcción de una aplicación de subastas en vivo, el autor demuestra por qué Phoenix representa la evolución moderna de la productividad web nacida en Rails, combinada con la concurrencia masiva de Erlang. Lectura sumamente formativa para cualquier desarrollador de backend.",
+    "temas": [
+      "Phoenix Framework",
+      "Elixir",
+      "Erlang BEAM",
+      "Ecto",
+      "WebSockets",
+      "Phoenix Channels",
+      "Tiempo Real",
+      "Manning"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Subastas en Vivo con Phoenix y Ecto",
+        "descripcion": "Desarrollo completo de una aplicación web en tiempo real con pujas instantáneas vía WebSockets, persistencia con Ecto y presencia distribuida."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/phoenix-in-action"
+    ]
+  },
+  "rails-4-in-action-second-edition-2015": {
+    "descripcion": "Segunda edición del aclamado manual formativo de Ryan Bigg, Yehuda Katz, Steve Klabnik y Rebecca Skinner, publicado por Manning en 2015. Enseña el desarrollo profesional con Rails 4 a través de la metodología guiada por pruebas (BDD/TDD).\n\nCubre la creación de una aplicación de gestión de proyectos y venta de entradas paso a paso: pruebas con RSpec y Capybara, diseño modular con motores de Rails (Rails Engines), autenticación personalizada, control de permisos y autorización con Pundit, y consumo y exposición de APIs RESTful.\n\nDestaca por su enfoque meticuloso en la arquitectura de software sostenible y las mejores prácticas respaldadas por líderes del equipo central de Rails. Uno de los mejores textos prácticos jamás publicados sobre el framework.",
+    "temas": [
+      "Rails 4",
+      "RSpec",
+      "Capybara",
+      "BDD",
+      "Steve Klabnik",
+      "Yehuda Katz",
+      "Rails Engines",
+      "Pundit"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Tickets y Gestión de Proyectos Ticketee",
+        "descripcion": "Construcción completa de una plataforma multiusuario con roles, carga de archivos, motores de Rails modulares y suite integral de RSpec."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/rails-4-in-action"
+    ]
+  },
+  "the-well-grounded-rubyist-3rd-edition-2019": {
+    "descripcion": "Tercera edición de la obra cumbre escrita por David A. Black y Joseph Leo III, publicada por Manning en 2019. Considerada de forma unánime el libro de referencia definitivo para dominar el lenguaje Ruby desde sus fundamentos hasta su nivel más avanzado.\n\nExplica con precisión conceptual insuperable el modelo de objetos de Ruby: clases singulares (singleton classes/eigenclasses), cadena de búsqueda de métodos, módulos y mixins (`include`, `prepend`, `extend`), bloques, procs y lambdas, manipulación de hilos y fibras, expresiones regulares y técnicas avanzadas de metaprogramación.\n\nActualizado a Ruby 2.5/2.6, no asume atajos ni simplificaciones, dotando al lector de una comprensión sólida e íntima de cómo funciona el intérprete. La lectura más formativa y enriquecedora para cualquier programador de Ruby.",
+    "temas": [
+      "Ruby Canónico",
+      "David A. Black",
+      "Modelo de Objetos",
+      "Eigenclasses",
+      "Mixins",
+      "Procs y Lambdas",
+      "Metaprogramación",
+      "Manning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework de Procesamiento Dinámico de Eventos en Ruby",
+        "descripcion": "Construcción de un motor extensible basado en callbacks dinámicos, eigenclasses y enrutamiento reflexivo de mensajes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/the-well-grounded-rubyist-third-edition"
+    ]
+  },
+  "rails-crash-course-2014": {
+    "descripcion": "Manual ágil y directo escrito por Anthony Lewis y publicado por No Starch Press en 2014. Diseñado como una inmersión acelerada en el desarrollo web moderno con Ruby on Rails.\n\nEnseña los conceptos esenciales de Ruby para la web, la arquitectura Modelo-Vista-Controlador de Rails, el modelado relacional con ActiveRecord, la creación de vistas dinámicas con ERB, el uso de formularios y validaciones, y el despliegue de aplicaciones en la nube con Heroku.\n\nEl autor guía la creación de una aplicación web completa y práctica, desglosando cada paso con claridad y sin abrumar con teoría innecesaria. Ideal para principiantes que buscan resultados inmediatos.",
+    "temas": [
+      "Rails Crash Course",
+      "No Starch Press",
+      "MVC",
+      "ActiveRecord",
+      "ERB",
+      "Heroku",
+      "Principiantes"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web Completa de Reseñas y Catálogo en Rails",
+        "descripcion": "Desarrollo paso a paso de un portal de recomendación con autenticación, base de datos relacional y despliegue en Heroku."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/railscrashcourse"
+    ]
+  },
+  "ruby-under-a-microscope-2013": {
+    "descripcion": "Fascinante tratado de ingeniería interna escrito por Pat Shaughnessy y publicado por No Starch Press en 2013. Es la obra de referencia definitiva sobre el funcionamiento interno de las máquinas virtuales de Ruby (MRI / YARV, Rubinius y JRuby).\n\nExplica con diagramas visuales extraordinarios cómo Ruby analiza el código fuente: análisis léxico con Ripper, tokenización, generación del Abstract Syntax Tree (AST), compilación a bytecode de YARV, el funcionamiento de la pila de llamadas, la implementación de objetos y hashes en lenguaje C, y el recolector de basura (Garbage Collector).\n\nDesmitifica por completo la magia del lenguaje, mostrando exactamente qué sucede en memoria y CPU cuando se ejecutan métodos o closures. Una obra maestra técnica elogiada por toda la comunidad internacional de Ruby.",
+    "temas": [
+      "Ruby Internals",
+      "Pat Shaughnessy",
+      "YARV",
+      "Bytecode",
+      "AST",
+      "Garbage Collection",
+      "Ripper",
+      "No Starch Press"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://patshaughnessy.net/ruby-under-a-microscope",
+      "https://nostarch.com/rum"
+    ]
+  },
+  "the-book-of-ruby-2011": {
+    "descripcion": "Manual exhaustivo de 400 páginas escrito por Huw Collingbourne y publicado por No Starch Press en 2011. Ofrece una guía detallada y estructurada para dominar la programación en Ruby.\n\nCubre variables y constantes, clases y objetos, cadenas y expresiones regulares, arrays y hashes, bucles e iteradores, bloques y procs, gestión de excepciones, serialización de datos con YAML y Marshal, y programación modular con mixins.\n\nIncluye explicaciones pausadas con cientos de pequeños programas de ejemplo que facilitan la comprensión de las sutiles características del lenguaje. Muy apreciado por programadores autodidactas.",
+    "temas": [
+      "The Book of Ruby",
+      "No Starch Press",
+      "Fundamentos Ruby",
+      "POO",
+      "YAML",
+      "Serialización",
+      "Mixins",
+      "Iteradores"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/ruby"
+    ]
+  },
+  "exploring-everyday-things-with-r-and-ruby-2012": {
+    "descripcion": "Libro original y fascinante escrito por Sau Sheong Chang y publicado por O'Reilly en 2012. Muestra cómo utilizar Ruby para capturar, limpiar y extraer datos del mundo cotidiano, y R para analizarlos, modelarlos y visualizarlos gráficamente.\n\nPresenta una decena de proyectos singulares: análisis del sueño y ritmo cardíaco con dispositivos corporales, simulación de la difusión de epidemias, análisis de la distribución de nombres de bebés, optimización de colas de supermercado y extracción de datos web de precios.\n\nEl autor demuestra con maestría la sinergia entre la agilidad de scripting de Ruby y la potencia matemática de R. Una lectura sumamente divertida e instructiva sobre la ciencia de datos aplicada a la vida real.",
+    "temas": [
+      "Ruby y R",
+      "Data Scraping",
+      "Modelado Estadístico",
+      "Simulación",
+      "Sau Sheong Chang",
+      "Visualización",
+      "O'Reilly"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Análisis Cotidiano con Scripts de Ruby y Modelos en R",
+        "descripcion": "Desarrollo de pipelines que extraen datos mediante scripts en Ruby y ejecutan simulaciones estadísticas y gráficos con R."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/exploring-everyday-things/9781449322847/"
+    ]
+  },
+  "head-first-rails-2008": {
+    "descripcion": "Guía visual introductoria escrita por David Griffiths y publicada por O'Reilly en 2008. Aplica la célebre pedagogía multiformato de Head First para enseñar el desarrollo web con Ruby on Rails a principiantes.\n\nExplora la arquitectura MVC, el generador de código scaffolding, la magia de las convenciones sobre configuración, consultas básicas con ActiveRecord, creación de vistas con ERB, manejo de formularios y validaciones, y peticiones Ajax con RJS.\n\nRepleto de ilustraciones humorísticas, rompecabezas, diagramas intuitivos y ejercicios de código. Excelente para personas que aprenden de forma visual y buscan una introducción amena a Rails.",
+    "temas": [
+      "Head First Rails",
+      "O'Reilly",
+      "David Griffiths",
+      "MVC",
+      "ActiveRecord",
+      "Scaffolding",
+      "Principiantes"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web de Gestión de Viajes y Tickets con Rails",
+        "descripcion": "Desarrollo visual guiado de un portal de reservas con persistencia en base de datos, validaciones y vistas dinámicas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/head-first-rails/9780596515775/"
+    ]
+  },
+  "head-first-ruby-2015": {
+    "descripcion": "Manual didáctico y visual escrito por Jay McGavren y publicado por O'Reilly en 2015. Diseñado para aprender el lenguaje Ruby moderno de manera divertida, intuitiva y visualmente estimulante.\n\nCubre la sintaxis fundamental, métodos y clases, herencia y sobreescritura de métodos, colecciones (arrays y hashes), el uso de bloques y el método `yield`, manejo de excepciones, pruebas unitarias con Minitest y diseño modular con mixins.\n\nUtiliza la metodología cognitiva de la serie Head First, con ejercicios prácticos, historias gráficas y retos interactivos que garantizan una asimilación rápida. Muy recomendado para programadores noveles.",
+    "temas": [
+      "Head First Ruby",
+      "O'Reilly",
+      "Jay McGavren",
+      "Bloques",
+      "Minitest",
+      "Mixins",
+      "POO",
+      "Visual Learning"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Simulador de Nóminas y Gestor de Empleados en Ruby",
+        "descripcion": "Construcción de un sistema orientado a objetos con jerarquía de clases, validaciones de datos y suite de pruebas unitarias en Minitest."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/head-first-ruby/9781449372644/"
+    ]
+  },
+  "learning-rails-5-2016": {
+    "descripcion": "Manual formativo escrito por J. Mark Locklear, Eric J. Gruber y Barnabas Bulpett, publicado por O'Reilly en 2016. Enseña a construir aplicaciones web completas utilizando las convenciones de Ruby on Rails 5.\n\nCubre los fundamentos del desarrollo web moderno: el patrón MVC, generación y ejecución de migraciones de bases de datos, consultas con ActiveRecord, renderizado de plantillas HTML con ERB, validación de formularios, pruebas automatizadas y despliegue continuo.\n\nEstructurado con tutoriales paso a paso y proyectos claros, proporciona las bases técnicas necesarias para desarrollar aplicaciones web seguras y mantenibles. Muy recomendado para quienes se inician en Rails.",
+    "temas": [
+      "Rails 5",
+      "O'Reilly",
+      "ActiveRecord",
+      "MVC",
+      "Migraciones",
+      "Testing",
+      "Desarrollo Web"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web de Directorio de Eventos en Rails 5",
+        "descripcion": "Desarrollo de un portal de eventos con gestión de inscripciones, autenticación, base de datos relacional y pruebas unitarias."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-rails-5/9781491963470/"
+    ]
+  },
+  "ruby-best-practices-2006": {
+    "descripcion": "Clásico influyente escrito por Gregory T. Brown y publicado por O'Reilly en 2009. Se enfoca en las técnicas, patrones y principios de diseño que distinguen a los programadores profesionales de Ruby.\n\nExplora el diseño de código hermoso y legible, técnicas para construir librerías elegantes y flexibles, pruebas basadas en comportamiento con RSpec, diseño de DSLs limpios, programación funcional en Ruby y análisis de optimización de rendimiento y memoria.\n\nEl autor analiza código fuente extraído de proyectos reales de código abierto para ilustrar virtudes y defectos de diseño. Una obra muy valorada por la comunidad por su énfasis en la artesanía del software.",
+    "temas": [
+      "Ruby Best Practices",
+      "Gregory Brown",
+      "Clean Code",
+      "DSLs",
+      "RSpec",
+      "Diseño de APIs",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Gema de Procesamiento de Documentos con API Idiomática",
+        "descripcion": "Diseño de una librería en Ruby con interfaz fluida, configuración modular y conjunto completo de especificaciones en RSpec."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/ruby-best-practices/9780596523008/"
+    ]
+  },
+  "ruby-cookbook-2nd-edition-2015": {
+    "descripcion": "Segunda edición de la monumental enciclopedia de soluciones prácticas de Lucas Carlson y Leonard Richardson, publicada por O'Reilly en 2015. Con casi 1.000 páginas, contiene más de 350 recetas con código listo para usar.\n\nCubre operaciones con cadenas y números, colecciones, closures y bloques, manipulación de archivos y XML/JSON, networking, bases de datos (ActiveRecord, Sequel), metaprogramación, optimización y concurrencia multihilo en Ruby 2.x.\n\nEl formato de problema-solución-discusión resuelve al instante las dudas cotidianas más complejas. Es la referencia de consulta más amplia y exhaustiva disponible para el desarrollo diario en Ruby.",
+    "temas": [
+      "Ruby Cookbook",
+      "O'Reilly",
+      "Recetas Ruby",
+      "ActiveRecord",
+      "Networking",
+      "Metaprogramación",
+      "E/S de Datos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/ruby-cookbook-2nd/9781449373702/"
+    ]
+  },
+  "the-ruby-programming-language-2008": {
+    "descripcion": "La obra canónica definitiva sobre el lenguaje Ruby, coescrita por David Flanagan (autor de JavaScript: The Definitive Guide) y Yukihiro Matsumoto 'Matz' (el creador de Ruby), publicada por O'Reilly en 2008.\n\nOfrece una descripción exhaustiva y autorizada de Ruby 1.8 y 1.9: estructura léxica, tipos de datos y objetos, expresiones y operadores, sentencias de control, métodos, procs y lambdas, closures, clases, módulos, metaprogramación dinámica y la biblioteca estándar básica de Ruby.\n\nCon un rigor enciclopédico insuperable y la visión directa del creador del lenguaje, es la biblia técnica por excelencia para comprender la semántica exacta de cada rincón de Ruby. Una obra clásica e imprescindible.",
+    "temas": [
+      "Ruby Canónico",
+      "Matz (Yukihiro Matsumoto)",
+      "David Flanagan",
+      "Semántica de Lenguajes",
+      "Metaprogramación",
+      "O'Reilly"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/the-ruby-programming/9780596516178/"
+    ]
+  },
+  "metaprogramming-ruby-2nd-edition-2014": {
+    "descripcion": "Segunda edición de la prestigiosa obra de Paolo Perrotta, publicada por The Pragmatic Programmers en 2014. Es el libro definitivo y más aclamado sobre la metaprogramación y el modelo de objetos dinámico de Ruby.\n\nEstructurado como una narrativa didáctica entre mentor y aprendiz, desvela los misterios del código dinámico: llamadas mágicas a métodos (`method_missing`), llamadas dinámicas (`send`), evaluación de código en contextos (`instance_eval`), clases abiertas (monkey patching), eigenclasses y ganchos del ciclo de vida (`inherited`, `included`).\n\nAnaliza código fuente real extraído de Active Record en Ruby on Rails, demostrando cómo se construyen las librerías más mágicas de la industria. Una lectura entretenida, brillante e indispensable para alcanzar la madurez técnica en Ruby.",
+    "temas": [
+      "Metaprogramación",
+      "Paolo Perrotta",
+      "Pragmatic Programmers",
+      "method_missing",
+      "Eigenclasses",
+      "ActiveRecord Internals"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Mini-ActiveRecord y Framework de Inyección Dinámica",
+        "descripcion": "Construcción desde cero de un ORM minimalista que genera atributos y consultas automáticas mediante metaprogramación en Ruby."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://pragprog.com/titles/ppmetr2/metaprogramming-ruby-2/"
+    ]
+  },
+  "rails-4-test-prescriptions-2014": {
+    "descripcion": "Tratado técnico sobre calidad y pruebas de software escrito por Noel Rappin y publicado por The Pragmatic Programmers en 2014. Enseña a diseñar una suite de pruebas rápida, mantenible y fiable en proyectos de Ruby on Rails 4.\n\nCubre la redacción de especificaciones con RSpec, pruebas de modelos y controladores, pruebas de vistas y helpers, pruebas de integración y aceptación en navegadores reales con Capybara, generación de datos de prueba con FactoryGirl (FactoryBot), y pruebas de código JavaScript con Jasmine.\n\nEl autor enseña a evitar suites lentas y quebradizas, aplicando patrones de diseño para desacoplar las pruebas de la base de datos cuando sea conveniente. Esencial para equipos que buscan confianza y agilidad en sus despliegues.",
+    "temas": [
+      "Rails Testing",
+      "Noel Rappin",
+      "Pragmatic Programmers",
+      "RSpec",
+      "Capybara",
+      "FactoryBot",
+      "CI/CD",
+      "Calidad de Software"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Pruebas de Alta Velocidad para Plataforma Rails",
+        "descripcion": "Diseño y optimización de una batería de pruebas con RSpec y Capybara reduciendo tiempos de ejecución en pipelines de CI."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://pragprog.com/titles/nrtest2/rails-4-test-prescriptions/"
+    ]
+  },
+  "rails-angular-postgres-and-bootstrap-2016": {
+    "descripcion": "Guía práctica de desarrollo full-stack escrita por David B. Copeland y publicada por The Pragmatic Programmers en 2016. Enseña a integrar Ruby on Rails como API backend sólida con un frontend reactivo en AngularJS sobre PostgreSQL.\n\nCubre el diseño de servicios RESTful en Rails, consultas avanzadas y búsqueda de texto completo con PostgreSQL, autenticación segura con Devise, diseño de componentes de interfaz reactivos en AngularJS y estilización responsiva con Bootstrap.\n\nAcompaña paso a paso la construcción de una aplicación empresarial completa de administración y soporte al cliente (Customer Support Hub). Muy instructivo para entender arquitecturas híbridas de desarrollo web moderno.",
+    "temas": [
+      "Rails Fullstack",
+      "AngularJS",
+      "PostgreSQL",
+      "Bootstrap",
+      "Devise",
+      "Full-Text Search",
+      "Pragmatic Programmers"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Atención al Cliente con Rails, Angular y Postgres",
+        "descripcion": "Construcción de una aplicación de soporte con API REST en Rails, búsqueda rápida en PostgreSQL y panel de control dinámico en Angular."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://pragprog.com/titles/dcbang/rails-angular-postgres-and-bootstrap/"
+    ]
+  },
+  "ruby-performance-optimization-2015": {
+    "descripcion": "Tratado técnico especializado de Alexander Dymo publicado por The Pragmatic Programmers en 2015. Es la obra de referencia definitiva sobre la optimización de velocidad y consumo de memoria en aplicaciones Ruby y Ruby on Rails.\n\nExplora la medición rigurosa de rendimiento con benchmarks, profiling con `ruby-prof` y `stackprof`, análisis de consumo de memoria con `memory_profiler`, optimización de consultas SQL en ActiveRecord para eliminar el problema N+1, y ajuste de los parámetros del Garbage Collector de Ruby.\n\nCada capítulo analiza casos reales de cuellos de botella y muestra cómo refactorizar código para lograr reducciones drásticas en tiempos de respuesta y uso de RAM. Imprescindible para arquitectos e ingenieros de backend que gestionan aplicaciones de gran escala.",
+    "temas": [
+      "Optimización",
+      "Rendimiento Ruby",
+      "Memory Profiler",
+      "ruby-prof",
+      "Garbage Collection",
+      "ActiveRecord N+1",
+      "Pragmatic Programmers"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Auditoría y Optimización de Rendimiento de una API en Rails",
+        "descripcion": "Identificación y resolución de cuellos de botella de CPU y memoria en una API Rails, logrando un 400% de incremento en throughput."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://pragprog.com/titles/adrpo/ruby-performance-optimization/"
+    ]
+  }
+}

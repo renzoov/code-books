@@ -1,0 +1,466 @@
+{
+  "building-progressive-web-applications-with-vuejs-2019": {
+    "descripcion": "Guía de Carlos Rojas, ingeniero front-end con más de diez años de experiencia y especializado en Web Components y Progressive Web Apps, para convertir aplicaciones hechas con Vue.js en PWA: aplicaciones web que se comportan como un sitio adaptable pero ofrecen una experiencia parecida a la de una app nativa, incluido el funcionamiento sin conexión. Se publicó a finales de 2019, así que trabaja con el ecosistema de Vue 2. Está dirigida a desarrolladores web de nivel intermedio que ya manejan HTML, CSS y JavaScript y quieren dar el salto a las PWA. No hace falta experiencia previa con service workers.\n\nLos nueve capítulos siguen un orden muy claro. Arranca con una primera PWA sencilla para fijar los conceptos básicos y la estructura de la app shell, y sigue con el Web App Manifest, el ciclo de vida de los service workers, la Cache API y las distintas estrategias de caché. Después integra todo esto en un proyecto Vue.js y avanza hacia el almacenamiento local con IndexedDB, la sincronización en segundo plano (Background Sync) y las notificaciones push. También usa Firebase como backend y servicio de alojamiento, y la librería Workbox de Google para generar y gestionar los service workers con menos código. El último capítulo trata la publicación de la aplicación.\n\nEs un libro práctico: cada capítulo agrega una capacidad PWA a una aplicación de ejemplo, así que al terminar se tiene una visión completa de lo que hace falta para que una app sea fiable, rápida y funcione sin conexión. Su punto fuerte es explicar las APIs del navegador antes de recurrir a Workbox, lo que ayuda a entender qué pasa por debajo. Ten en cuenta que se basa en Vue 2 y en las herramientas de 2019: hoy los proyectos usan Vue 3 con Vite y plugins como vite-plugin-pwa, y el soporte de algunas APIs (como Background Sync o push en iOS) ha cambiado. Los conceptos siguen vigentes, pero tendrás que adaptar la configuración.",
+    "temas": [
+      "Vue.js 2",
+      "Progressive Web Apps",
+      "App Shell",
+      "Web App Manifest",
+      "Service Workers",
+      "Cache API",
+      "Estrategias de caché",
+      "IndexedDB",
+      "Background Sync",
+      "Notificaciones push",
+      "Workbox",
+      "Firebase"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Primera PWA",
+        "descripcion": "Aplicación sencilla con la que se presentan los conceptos básicos de una PWA y la estructura de la app shell, y que sirve de punto de partida para agregar el manifest y el service worker."
+      },
+      {
+        "nombre": "Aplicación PWA con Vue.js y Firebase",
+        "descripcion": "Aplicación de ejemplo hecha con Vue.js que, capítulo a capítulo, gana caché sin conexión con service workers y Workbox, datos locales en IndexedDB, sincronización en segundo plano y notificaciones push, y que al final se publica."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://web20.lib.cgu.edu.tw/detail/1044016",
+      "https://books.apple.com/ca/book/building-progressive-web-applications-with-vue-js/id1491825859",
+      "https://link.springer.com/978-1-4842-5333-5"
+    ]
+  },
+  "getting-to-know-vue-js-2018": {
+    "descripcion": "Introducción a Vue.js de Brett Nelson, un desarrollador de software que trabaja con Salesforce, para aprender a crear aplicaciones de una sola página (SPA) desde cero. Se publicó en 2018 y usa Vue 2. Está pensada para desarrolladores que ya conocen HTML, CSS y JavaScript. Haber usado otro framework de SPA ayuda, pero no es obligatorio, así que funciona bien como primer contacto con Vue.\n\nLos doce capítulos recorren el framework de forma gradual. Empieza explicando por qué usar Vue y crea una primera aplicación, y luego cubre la instancia de Vue y la sintaxis de plantillas, el renderizado condicional y de listas, las propiedades computadas y los watchers, los eventos y sus modificadores, y los bindings de formularios, clases y estilos. Más adelante compara tres formas de manejar el estado: un objeto de datos simple, un store hecho a mano y la librería Vuex. Después vienen los componentes personalizados (props, eventos y slots), el código reutilizable con mixins, directivas personalizadas y funciones render, y la extensión de Vue con plugins y filtros. Cierra con las herramientas (Single File Components, Vue CLI y la transpilación a ES5) y el enrutamiento con Vue Router, Page.js y un router propio.\n\nEs un libro conceptual con ejemplos cortos en cada capítulo, no un tutorial guiado por un proyecto grande. Su valor está en mostrar alternativas, por ejemplo para el estado o el enrutamiento, para entender qué resuelve cada herramienta. Ten en cuenta que todo está escrito para Vue 2 y la API de opciones: en Vue 3 los filtros desaparecieron, Pinia reemplazó a Vuex como store recomendado y Vite reemplazó a Vue CLI. Además, no trata la Composition API, las pruebas ni el despliegue. Sirve para entender los fundamentos, pero conviene complementarlo con material actual.",
+    "temas": [
+      "Vue.js 2",
+      "SPA",
+      "Plantillas y directivas",
+      "Propiedades computadas",
+      "Watchers",
+      "Eventos",
+      "Componentes",
+      "Vuex",
+      "Mixins",
+      "Plugins y filtros",
+      "Vue CLI",
+      "Vue Router"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.springerprofessional.de/getting-to-know-vue-js/16086386",
+      "https://www.apress.com/de/book/9781484237809"
+    ]
+  },
+  "master-vue-js-in-6-days-2024": {
+    "descripcion": "Curso intensivo de Eric Sarrion, formador y consultor de París con más de 30 años de experiencia en informática y autor de muchos libros de desarrollo web, que organiza el aprendizaje de Vue.js en seis jornadas temáticas. Por su fecha (2024) y por dedicar un día entero a los composables, trabaja con Vue 3 y la Composition API. Está dirigido a desarrolladores web, programadores, estudiantes y docentes que quieren aprender Vue o ponerse al día. Basta con conocer HTML y JavaScript, y un capítulo de repaso de JavaScript cubre lo que falte.\n\nCada día se dedica a un pilar del framework. El día 1 trata los componentes y el Virtual DOM, con la instalación del entorno mediante Node.js y Vue CLI. El día 2 cubre las directivas integradas, el día 3 el manejo de eventos y la comunicación entre componentes, y el día 4 las peticiones HTTP para consumir servicios externos. Los dos últimos días son más avanzados: el día 5 enseña a crear directivas personalizadas y el día 6 a escribir composables propios para reutilizar lógica reactiva. El libro cierra con un recordatorio de JavaScript moderno y un resumen general.\n\nEl estilo es didáctico, con explicaciones, ejemplos y ejercicios prácticos en cada jornada, y avanza a buen ritmo para quien quiere una base sólida en poco tiempo. Su punto fuerte es tratar a fondo las directivas personalizadas y los composables, que muchos libros de iniciación apenas tocan. En cambio, por la información disponible no parece cubrir en profundidad Vue Router, Pinia, las pruebas o el despliegue, que habrá que aprender aparte. También hay que saber que Vue CLI está en modo de mantenimiento y que hoy se recomienda crear los proyectos con Vite (create-vue).",
+    "temas": [
+      "Vue.js 3",
+      "Composition API",
+      "Componentes",
+      "Virtual DOM",
+      "Directivas",
+      "Eventos",
+      "Peticiones HTTP",
+      "Directivas personalizadas",
+      "Composables",
+      "Vue CLI",
+      "JavaScript moderno"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://attatroll.e-bookshelf.de/master-vuejs-in-6-days-23595949.html",
+      "https://shop.heise.de/9798868803642-master-vuejs-in-6-days-pdf"
+    ]
+  },
+  "pro-vuejs-2-2018": {
+    "descripcion": "Manual extenso de más de 700 páginas en el que Adam Freeman, autor de la conocida serie «Pro» de Apress, cubre Vue.js 2 a fondo. Parte del patrón Modelo-Vista-Controlador aplicado al cliente y avanza desde lo básico hasta las funciones avanzadas del framework, señalando los problemas habituales y cómo evitarlos. Está dirigido a desarrolladores JavaScript que crean aplicaciones del lado del cliente. Incluye capítulos de repaso de HTML, CSS (con Bootstrap) y JavaScript esencial, así que el nivel de entrada es accesible, aunque el ritmo y la extensión lo hacen más adecuado para quien busca dominar el framework.\n\nEstá dividido en tres partes. La primera crea una primera aplicación y luego un proyecto completo, SportsStore, a lo largo de cuatro capítulos. La segunda estudia Vue en detalle: la estructura de proyectos y las herramientas de @vue/cli, los bindings de datos, las directivas básicas y la de repetición (v-for), los eventos, los formularios y los componentes. La tercera aborda temas avanzados: el ciclo de vida de los componentes, los componentes poco acoplados, el consumo de servicios web RESTful, el almacén de datos con Vuex, los componentes dinámicos, el enrutamiento con Vue Router (con tres capítulos dedicados), las transiciones y la extensión de Vue con funciones propias. También enseña a probar los proyectos.\n\nEl caso práctico SportsStore es lo más valioso para quien aprende construyendo, porque reúne en una sola aplicación catálogo, carrito, pedidos, administración y despliegue. El resto del libro funciona como una referencia muy completa, con el estilo meticuloso y detallado típico de Freeman. Ten en cuenta que todo está escrito para Vue 2 con la API de opciones y Vuex: no cubre la Composition API, Pinia ni Vite, y Vue 2 ya llegó al final de su soporte. Es una buena referencia para mantener proyectos Vue 2 o para entender a fondo la arquitectura de una SPA, pero para proyectos nuevos conviene la edición de Freeman dedicada a Vue 3 u otro material actual.",
+    "temas": [
+      "Vue.js 2",
+      "Patrón MVC",
+      "Vue CLI",
+      "Data bindings",
+      "Directivas",
+      "Componentes",
+      "Ciclo de vida",
+      "Servicios RESTful",
+      "Vuex",
+      "Vue Router",
+      "Transiciones",
+      "Bootstrap"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "SportsStore",
+        "descripcion": "Tienda en línea de artículos deportivos hecha con Vue.js 2 a lo largo de cuatro capítulos: catálogo de productos, carrito y checkout que envía pedidos a un servicio web, manejo de grandes volúmenes de datos, panel de administración y despliegue a producción, usando Vuex, Vue Router y Bootstrap."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.springerprofessional.de/pro-vue-js-2/16111326",
+      "https://www.apress.com/9781484238042"
+    ]
+  },
+  "vue-on-rails-2019": {
+    "descripcion": "Guía de principio a fin para crear aplicaciones web combinando Vue.js en el frontend con Ruby on Rails en el backend. Uno de sus autores, Bryan Lim, colaboró con Webpacker de Rails y creó la gema vueonrails. Se publicó en 2019, cuando Rails 5.x/6 integraba JavaScript mediante Webpacker y el frontend se hacía con Vue 2. Va dirigida a desarrolladores Rails que quieren sumar un frontend moderno, y también a desarrolladores, diseñadores, responsables técnicos y de producto que evalúan esta combinación. Conviene saber algo de Rails y de JavaScript.\n\nTiene tres partes. La primera explica cómo integrar herramientas de frontend en Rails, cuándo conviene una SPA y cuándo componentes dentro de vistas de servidor, cómo configurar Vue en un proyecto Rails con Webpacker y cómo pasar datos entre componentes Vue y controladores Rails, siguiendo una lectura «Model, Vue and Controller» del patrón MVC. También muestra cómo generar componentes con scaffolding y reutilizarlos mediante props, eventos y slots. La segunda parte es práctica: tutoriales cortos de casos reales y dos proyectos más grandes que usan Action Cable (WebSockets) y Active Storage. La tercera trata las pruebas, el despliegue, la resolución de problemas y la elección de la configuración del router.\n\nAporta lo que pocos libros de Vue explican: cómo encaja el framework en una aplicación Rails ya existente sin rehacerla como SPA, con ejemplos que aprovechan las funciones propias de Rails como el tiempo real y la subida de archivos. Es breve (unas 200 páginas), así que no profundiza ni en Vue ni en Rails por separado. Además, su base técnica envejeció: Rails 7 dejó Webpacker en favor de importmaps, jsbundling y Vite Ruby, y Vue pasó a la versión 3. Los conceptos de integración siguen siendo útiles, pero la configuración habrá que actualizarla.",
+    "temas": [
+      "Vue.js 2",
+      "Ruby on Rails",
+      "Webpacker",
+      "Integración frontend-backend",
+      "Componentes",
+      "Props, eventos y slots",
+      "Action Cable",
+      "Active Storage",
+      "SPA vs. vistas de servidor",
+      "Testing",
+      "Despliegue"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Juego de dos jugadores en tiempo real",
+        "descripcion": "Juego multijugador en el que dos usuarios juegan en tiempo real, con la interfaz en Vue.js y la comunicación por WebSockets mediante Action Cable de Rails."
+      },
+      {
+        "nombre": "Herramienta de recorte de imágenes",
+        "descripcion": "Utilidad para subir y recortar imágenes desde un componente Vue, guardando los archivos en el servidor con Active Storage de Rails."
+      },
+      {
+        "nombre": "Tutoriales cortos de casos reales",
+        "descripcion": "Serie de ejemplos breves que muestran patrones habituales de integración entre componentes Vue y una aplicación Rails."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://eld.bl.uk/catalog/019535505",
+      "https://www.jarir.com/sa-en/vue-on-rails-end-to-end-guide-to-building-web-apps-using-vue-js-and-rails-9781484251157.html",
+      "https://www.apress.com/9781484251157"
+    ]
+  },
+  "large-scale-apps-with-vue-vite-and-typescript-2023": {
+    "descripcion": "Libro autopublicado en Leanpub en el que Damiano Fusco, desarrollador web y consultor con unos veinte años de experiencia, explica cómo organizar un frontend con Vue 3, Vite y TypeScript para que pueda crecer sin volverse inmanejable. Esta edición de 2023 sustituye a la anterior, «Large Scale Apps with Vue 3 and TypeScript». Está pensado para desarrolladores de nivel intermedio que ya manejan Vue y JavaScript y quieren dar el salto a una arquitectura profesional, con tipado y convenciones claras.\n\nEl índice avanza en orden: preparar el proyecto con Vite, crear el primer componente, definir interfaces para el modelo de datos y gestionar eventos en un componente de lista de elementos. Luego introduce las pruebas unitarias aprovechando una refactorización, un gestor de estado centralizado y dividido en módulos por dominio, y un cliente de API que se puede cambiar entre datos simulados (mocks) y datos reales servidos por JSONPlaceholder. Siguen la configuración de la aplicación, la internacionalización (textos traducidos y formateo de números y fechas), la incorporación de Tailwind CSS y la creación de componentes «primitivos» (botones, modales, etc.) sobre los que se montan componentes de más alto nivel. Cierra con la creación de una librería de componentes y otra de JavaScript, y su publicación como paquetes de NPM. Incluye además un anexo de convenciones de nombres.\n\nEl hilo conductor es una pequeña aplicación de listado de elementos que va ganando capas de arquitectura en cada capítulo. Lo que aporta es criterio sobre cómo aislar componentes, separar el acceso a datos y estructurar carpetas y nombres, algo que los tutoriales básicos suelen pasar por alto. En cambio, el dominio de la aplicación es deliberadamente simple: no trata backend, autenticación, SSR ni despliegue. Para aprovecharlo conviene llegar con soltura en la Composition API y nociones de TypeScript.",
+    "temas": [
+      "Vue 3",
+      "Vite",
+      "TypeScript",
+      "Arquitectura frontend",
+      "Gestión de estado modular",
+      "Cliente de API y mocks",
+      "Internacionalización",
+      "Tailwind CSS",
+      "Pruebas unitarias",
+      "Librería de componentes",
+      "Paquetes NPM",
+      "Convenciones de código"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de listado de elementos escalable",
+        "descripcion": "Frontend en Vue 3 + Vite + TypeScript que crece capítulo a capítulo: lista de elementos con eventos, estado centralizado en módulos, cliente de API intercambiable entre mocks y JSONPlaceholder, i18n y estilos con Tailwind CSS."
+      },
+      {
+        "nombre": "Librería de componentes y librería JavaScript en NPM",
+        "descripcion": "Extracción de los componentes primitivos y de alto nivel a una librería reutilizable, junto con una librería de JavaScript, ambas empaquetadas y publicadas como paquetes de NPM."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://leanpub.com/vue-vite-typescript",
+      "https://leanpub.com/c/vue-vite-typescript-course"
+    ]
+  },
+  "vue-js-in-action-2018": {
+    "descripcion": "Introducción a Vue.js de Manning, escrita por Erik Hanchett y Benjamin Listwon, con prólogo de Chris Fritz, del equipo central de Vue. Trabaja con Vue 2 y su ecosistema de 2018. Está dirigida a desarrolladores web con algo de experiencia en JavaScript, HTML y CSS que se acercan a Vue por primera vez, así que no exige conocer otros frameworks.\n\nEstá dividido en tres partes. La primera presenta Vue, su modelo de interfaz reactiva y el patrón MVVM, y repasa la instancia de Vue y su ciclo de vida. La segunda se dedica a la vista y al ViewModel: interactividad, formularios y vinculación de datos con v-model, condicionales, bucles y listas, componentes, componentes avanzados y enrutamiento con Vue Router, transiciones y animaciones, y formas de extender Vue como los mixins, las directivas personalizadas y las funciones de renderizado. La tercera parte trata el modelado de datos, el consumo de APIs y las pruebas: gestión de estado con Vuex, comunicación con un servidor y pruebas de componentes. Los apéndices explican cómo preparar el entorno y traen las soluciones de los ejercicios de cada capítulo.\n\nEl libro se apoya en un único proyecto que crece de principio a fin: una tienda web con listado de productos, carrito, proceso de compra y un panel de administración con control de stock, que al final se pule con transiciones y pruebas para dejarla lista para producción. Su punto fuerte es la progresión didáctica y los ejercicios de repaso. Su mayor limitación hoy es la versión: usa Vue 2, la Options API y Vuex, sin Composition API, Pinia ni Vite. Sirve para entender los fundamentos, pero conviene completarlo con material de Vue 3.",
+    "temas": [
+      "Vue 2",
+      "Instancia de Vue",
+      "Data binding",
+      "Formularios y v-model",
+      "Directivas",
+      "Componentes",
+      "Vue Router",
+      "Transiciones y animaciones",
+      "Mixins y directivas personalizadas",
+      "Vuex",
+      "Pruebas de componentes"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tienda web con panel de administración",
+        "descripcion": "Aplicación de comercio electrónico con Vue.js que incluye listado de productos, carrito, checkout y un panel de administración con gestión de stock. Se completa con Vue Router, Vuex, transiciones y pruebas para dejarla lista para producción."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/vue-js-in-action",
+      "https://livebook.manning.com/book/vue-js-in-action/chapter-1",
+      "https://oreilly.com/library/view/vuejs-in-action/9781617294624/kindle_split_013.html",
+      "https://oreilly.com/library/view/vuejs-in-action/9781617294624/kindle_split_021.html"
+    ]
+  },
+  "fullstack-vue-3-the-complete-guide-to-vue-js-2018": {
+    "descripcion": "Guía extensa de Newline (la serie «Fullstack» de Nate Murray y Ari Lerner), escrita principalmente por Hassan Djirdeh, que trabajó como ingeniero en Shopify. La primera edición, de 2018, se basaba en Vue 2. Esta versión está actualizada para Vue 3 y amplía el contenido con capítulos avanzados. Está pensada para desarrolladores con buena base de JavaScript que quieren aprender Vue de forma práctica y llegar a estructurar aplicaciones medianas y grandes.\n\nEl temario básico abarca la preparación del entorno y la primera aplicación, los componentes de un solo archivo (SFC) y un store global sencillo, los eventos personalizados y el event bus, y los conceptos de Flux con Vuex, primero en local y luego conectado a un servidor. A eso se suman el manejo de formularios con librerías de validación y persistencia asíncrona, el enrutamiento con Vue Router (rutas autenticadas y navigation guards) y las pruebas unitarias con vue-test-utils. Los capítulos avanzados tratan la Composition API, el uso de TypeScript con Vue (tipado de props, tsconfig.json y composables propios) y el consumo de GraphQL con Vue Apollo, incluidas las mutaciones.\n\nCada capítulo gira en torno a un proyecto ejecutable, por lo que se aprende sobre todo construyendo. Su valor está en la amplitud y en que explica con mucho detalle cada paso, desde una app vacía hasta una arquitectura con estado, rutas y pruebas. Hay que tener en cuenta que la gestión de estado se enseña con Vuex en lugar de Pinia, y que los temas de Composition API, TypeScript y GraphQL solo están en el paquete avanzado. No cubre SSR ni Nuxt.",
+    "temas": [
+      "Vue 3",
+      "Single-File Components",
+      "Eventos personalizados",
+      "Vuex",
+      "Comunicación con servidor",
+      "Formularios y validación",
+      "Vue Router",
+      "Autenticación por token",
+      "vue-test-utils",
+      "Composition API",
+      "TypeScript",
+      "GraphQL y Vue Apollo"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de votación",
+        "descripcion": "Primera app del libro que renderiza componentes dinámicos y practica las directivas estándar de Vue y el enlace de datos."
+      },
+      {
+        "nombre": "Calendario de eventos",
+        "descripcion": "Aplicación con componentes de un solo archivo que introduce la arquitectura basada en componentes y una gestión de estado simple con un store propio."
+      },
+      {
+        "nombre": "Carrito de compras persistido en servidor",
+        "descripcion": "Tienda que usa Vuex para gestionar el carrito y guarda los datos en un servidor local. Más adelante se amplía con rutas dinámicas y autenticación por token mediante Vue Router."
+      },
+      {
+        "nombre": "Formularios con validación",
+        "descripcion": "Formularios que reciben datos del usuario, muestran mensajes claros cuando el formato no es válido y guardan la información de forma asíncrona."
+      },
+      {
+        "nombre": "App del clima con pruebas",
+        "descripcion": "Aplicación que consume una API meteorológica externa y se prueba con vue-test-utils."
+      },
+      {
+        "nombre": "Modo oscuro y notificaciones con Composition API",
+        "descripcion": "Ejemplos de los capítulos avanzados que reorganizan la lógica en composables para implementar un modo oscuro y un sistema de notificaciones."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://newline.co/vue",
+      "https://madewithvuejs.com/fullstack-vue",
+      "https://www.goodreads.com/book/show/39957496-fullstack-vue"
+    ]
+  },
+  "learning-vue-2024": {
+    "descripcion": "Guía de O'Reilly (subtítulo: «Core Concepts and Practical Patterns for Reusable, Composable, and Scalable User Interfaces») escrita por Maya Shavin, ingeniera sénior en Microsoft, fundadora de la comunidad VueJS Israel y mantenedora de StorefrontUI. Salió a finales de 2023 con Vue 3 y su ecosistema actual. Está dirigida a programadores que quieren crear aplicaciones web con Vue usando JavaScript y TypeScript: parte desde cero, pero da por hecho que el lector conoce bien JavaScript, HTML y CSS.\n\nEmpieza explicando cómo funciona Vue por dentro (reactividad y DOM virtual), cómo configurar un proyecto con Vite y cómo componer componentes y hacer que se comuniquen entre sí. Después dedica un capítulo a la Composition API y a los composables, y otro a incorporar datos externos desde un servidor. También trata técnicas de renderizado avanzado, componentes dinámicos y plugins, el enrutamiento estático y dinámico con Vue Router, la gestión de estado con Pinia, las transiciones y animaciones, y las pruebas, tanto unitarias con Vitest como de extremo a extremo con Playwright. Cierra con temas de puesta en producción como la integración continua y el renderizado del lado del servidor (SSR).\n\nEl ejemplo de Pinia, por ejemplo, construye el store y el carrito de una pizzería, y el resto del libro funciona igual: cada concepto se acompaña de ejemplos prácticos y patrones reutilizables, sin una única aplicación que crezca de principio a fin. Es de los textos más actualizados para aprender Vue 3 «a la manera moderna» (Composition API, Vite, Pinia, Vitest). Como el SSR se trata solo al final y de forma introductoria, quien busque dominar Nuxt necesitará material específico.",
+    "temas": [
+      "Vue 3",
+      "Reactividad",
+      "Vite",
+      "Componentes",
+      "Composition API",
+      "Composables",
+      "Datos externos",
+      "Vue Router",
+      "Pinia",
+      "Vitest",
+      "Playwright",
+      "SSR"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://oreilly.com/library/view/learning-vue/9781492098812",
+      "https://www.oreilly.com/library/view/learning-vue/9781492098812/preface01.html",
+      "https://search.library.wisc.edu/catalog/9914034615302121",
+      "https://www.hatchards.co.uk/book/learning-vue/maya-shavin/9781492098829"
+    ]
+  },
+  "vue-js-up-and-running-2018": {
+    "descripcion": "Introducción breve y directa de O'Reilly (subtítulo: «Building Accessible and Performant Web Apps») escrita por Callum Macrae para Vue 2. Es un libro corto, de algo más de 170 páginas, que en poco espacio lleva de los fundamentos a temas avanzados. Está pensado para desarrolladores frontend que ya dominan JavaScript, HTML y CSS y quieren aprender a crear aplicaciones de página única (SPA) con Vue sin rodeos.\n\nEmpieza con lo básico: plantillas para mostrar datos y reactividad, y cómo arrancar un proyecto desde cero o con vue-cli. Luego explica cómo dividir el código en componentes autocontenidos, cómo dar estilos con CSS (incluidos los estilos con ámbito en los componentes) y cómo usar funciones de renderizado y JSX en lugar de plantillas. También recorre las librerías principales del ecosistema: vue-router para el enrutamiento del lado del cliente, Vuex para centralizar el estado y vue-test-utils para escribir pruebas unitarias de componentes.\n\nNo construye una aplicación completa: cada capítulo usa ejemplos cortos y concretos. Su mayor virtud es la concisión, que lo convierte en una buena puesta al día para quien ya programa en otro framework. Hoy está bastante desfasado: usa Vue 2, vue-cli y la Options API, y no trata Composition API, Vite ni Pinia. Conviene leerlo como introducción conceptual y pasar después a material de Vue 3.",
+    "temas": [
+      "Vue 2",
+      "Plantillas",
+      "Reactividad",
+      "vue-cli",
+      "Componentes",
+      "Estilos con CSS",
+      "Render functions",
+      "JSX",
+      "vue-router",
+      "Vuex",
+      "vue-test-utils"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://oreilly.com/library/view/vuejs-up-and/9781491997239",
+      "https://www.i-programmer.info/book-watch-archive/11710-vuejs-up-and-running-oreilly.html"
+    ]
+  },
+  "architecting-vue-js-3-enterprise-ready-web-applications-2023": {
+    "descripcion": "Libro de Packt en el que Solomon Eseme explica cómo diseñar, escalar, probar y desplegar aplicaciones empresariales grandes con Vue.js 3, la versión actual del framework, con Composition API y Vite. No es un libro de introducción: está pensado para desarrolladores Vue y frontend profesionales que ya trabajan con Vue.js y JavaScript y quieren llevar sus proyectos a nivel de producción, con bases de código grandes y equipos que crecen.\n\nLos trece capítulos van desde un repaso de Vue 3 y de las librerías que suelen usarse en aplicaciones a gran escala hasta técnicas de rendimiento como la carga diferida (lazy loading), la división de código (code splitting) y el tree shaking. Después se ocupa de la arquitectura: cómo organizar estructuras de archivos grandes y cuándo conviene pasar a micro frontends. También dedica un bloque a GraphQL frente a las API REST, con queries y mutations, y explica cómo contenerizar una aplicación Vue 3 con Docker y docker-compose. La parte más extensa es la de pruebas: qué conviene probar, buenas prácticas de pruebas unitarias, pruebas de integración y pruebas end-to-end con herramientas habituales en la industria. Cierra con el despliegue de la aplicación y un repaso de frameworks avanzados construidos sobre Vue. El código de ejemplo usa Vite, Tailwind CSS y Yarn.\n\nLa pieza práctica central es un clon de Pinterest que consume una API GraphQL. Sirve para aplicar en un caso real lo que se explica sobre arquitectura, Docker y pruebas. Lo mejor del libro es que reúne en un solo lugar preocupaciones que en otros textos aparecen sueltas: rendimiento, organización del código, testing y despliegue. Su principal limitación es que, con 272 páginas, varios temas (micro frontends, pruebas end-to-end, despliegue) se tratan más como panorama que en profundidad. Conviene llegar con soltura en Vue 3 y nociones de Node.js y de línea de comandos. No enseña los fundamentos del framework ni a construir un backend propio.",
+    "temas": [
+      "Vue.js 3",
+      "Composition API",
+      "Rendimiento",
+      "Lazy loading y code splitting",
+      "Arquitectura a gran escala",
+      "Micro frontends",
+      "GraphQL",
+      "API REST",
+      "Docker",
+      "Pruebas unitarias y de integración",
+      "Pruebas end-to-end",
+      "Despliegue"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Clon de Pinterest con GraphQL",
+        "descripcion": "Aplicación Vue 3 que imita Pinterest y obtiene sus datos mediante queries y mutations GraphQL. Se usa como base para practicar la arquitectura, la contenerización con Docker y las pruebas que se explican en el resto del libro."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/PacktPublishing/Architecting-Vue.js-3-Enterprise-Ready-Web-Applications",
+      "https://reference-global.com/chapter/9781801071734/10.0000/9781801071734-001",
+      "https://www.oreilly.com/library/view/-/9781801073905"
+    ]
+  },
+  "building-vue-js-applications-with-graphql-2020": {
+    "descripcion": "Guía de Packt, organizada en recetas, en la que Heitor Ramon Ribeiro enseña a construir desde cero una aplicación de chat full-stack en tiempo real con Vue.js, GraphQL y AWS Amplify. Es de la etapa de Vue 2: trabaja con Vue CLI 4.x, Quasar CLI 1.x, Amplify 3.x y Node.js 12 o superior. Está dirigida a desarrolladores Vue de nivel intermedio que quieren dar el salto al desarrollo full-stack y que ya conocen Vue.js y JavaScript.\n\nLos dos primeros capítulos repasan los fundamentos de Vue: enlace de datos (data binding), eventos, propiedades computadas, componentes, mixins y componentes funcionales. A partir de ahí entra en el backend como servicio: preparar el entorno de AWS Amplify, escribir el primer esquema GraphQL, añadir el cliente GraphQL de AWS AppSync y crear mutations y queries para leer y escribir datos. En el frontend se usa Quasar Framework para construir componentes y layouts propios, Vue Router para las páginas y Vuex, organizado en módulos, para manejar el estado de los usuarios, los chats y los mensajes. El último capítulo convierte la aplicación en una PWA y la publica en la web.\n\nLo que se construye es una sola aplicación de mensajería que crece capítulo a capítulo, con usuarios, conversaciones y mensajes conectados a una API GraphQL gestionada por AppSync. Su valor está en mostrar de forma muy guiada cómo se monta un backend GraphQL sin servidor propio y cómo se conecta con una interfaz Vue completa. Hay que tener en cuenta dos cosas. Primero, el contenido está atado a Vue 2, Vuex y Quasar 1, que hoy se reemplazan por Vue 3, Pinia y Quasar 2, así que muchos fragmentos de código habrá que adaptarlos. Segundo, depende mucho del ecosistema de AWS, de modo que no enseña a montar un servidor GraphQL propio (por ejemplo, con Apollo Server). Se necesita una cuenta de AWS para seguir los capítulos.",
+    "temas": [
+      "Vue.js 2",
+      "GraphQL",
+      "AWS Amplify",
+      "AWS AppSync",
+      "Quasar Framework",
+      "Vuex",
+      "Vue Router",
+      "Componentes y mixins",
+      "Chat en tiempo real",
+      "PWA",
+      "Despliegue"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de chat full-stack en tiempo real",
+        "descripcion": "Aplicación de mensajería construida con Vue.js y Quasar, con estado en módulos de Vuex y un backend GraphQL en AWS AppSync configurado con Amplify. Gestiona usuarios, conversaciones y mensajes, y al final se convierte en una PWA que se despliega en la web."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/PacktPublishing/Building-Vue.js-Applications-with-GraphQL",
+      "https://www.oreilly.com/library/view/building-vue-js-applications/9781800565074"
+    ]
+  },
+  "frontend-development-projects-with-vue-js-3-2023": {
+    "descripcion": "Segunda edición de este libro de Packt, actualizada a Vue.js 3, escrita por Maya Shavin y Raymond Camden junto con Clifford Gurney y Hugo Di Francesco. Es una introducción práctica al framework para quien quiere crear aplicaciones web con Vue 3 y no sabe por dónde empezar, incluidos quienes vienen de React o Angular. Solo se necesita conocer HTML, CSS, JavaScript y lo básico de npm o Yarn.\n\nEl libro se divide en cuatro partes: introducción y curso intensivo, construcción de la primera aplicación, estado global, y pruebas y despliegue. Empieza creando un proyecto con Vite y explica las propiedades de datos como estado local, los componentes con <script setup>, las directivas (v-model, v-for), los métodos, los hooks del ciclo de vida y CSS Modules. Después trata la composición de componentes en jerarquías y su comunicación mediante props y eventos, el enrutado estático y dinámico con Vue Router, las animaciones y transiciones (también con librerías JavaScript externas), y el uso de Vue DevTools. La parte de estado global se centra en Pinia y en el consumo de API remotas con Axios. La última parte cubre las pruebas unitarias y end-to-end y el despliegue de la aplicación en la web.\n\nCada capítulo combina explicación, ejercicios guiados cortos y actividades en forma de miniproyectos que imitan aplicaciones reales, como una interfaz de chat, un carrito de compras, una calculadora de precios, una aplicación de tareas y un generador de tarjetas de perfil. Su punto fuerte es la práctica constante: con más de 600 páginas, se aprende Vue 3 haciendo, no solo leyendo. A cambio, los proyectos son pequeños y aislados: no hay una aplicación grande de principio a fin, ni se tratan temas como TypeScript a fondo, el renderizado en servidor con Nuxt o la arquitectura de aplicaciones grandes. Es un buen primer libro antes de pasar a textos de arquitectura o full-stack.",
+    "temas": [
+      "Vue.js 3",
+      "Vite",
+      "Componentes",
+      "<script setup>",
+      "Directivas",
+      "Vue Router",
+      "Animaciones y transiciones",
+      "Pinia",
+      "Axios",
+      "Vue DevTools",
+      "Pruebas unitarias y E2E",
+      "Despliegue"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Interfaz de chat",
+        "descripcion": "Miniproyecto en Vue 3 que simula una interfaz de mensajería. Sirve para practicar componentes, manejo de datos y comunicación entre componentes."
+      },
+      {
+        "nombre": "Carrito de compras",
+        "descripcion": "Actividad que construye un carrito de compras con Vue 3, con estado compartido entre componentes y cálculos derivados de los productos seleccionados."
+      },
+      {
+        "nombre": "Calculadora de precios",
+        "descripcion": "Pequeña aplicación que calcula precios de forma reactiva a partir de los datos que introduce el usuario. Sirve para practicar la reactividad y las propiedades computadas."
+      },
+      {
+        "nombre": "Aplicación de tareas (to-do)",
+        "descripcion": "Lista de tareas clásica hecha con Vue 3, con directivas como v-for y v-model, para practicar la gestión del estado local y los eventos."
+      },
+      {
+        "nombre": "Generador de tarjetas de perfil",
+        "descripcion": "Aplicación que crea tarjetas de perfil para guardar datos de contacto. Sirve para practicar formularios, componentes y manejo de estado."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/PacktPublishing/Frontend-Development-Projects-with-Vue.js-3",
+      "https://ebooki.swiatczytnikow.pl/ebook/9781803236315,maya-shavin--raymond-camden--frontend-development-projects-with-vue-js-3-second-.html"
+    ]
+  },
+  "vue-js-framework-2023": {
+    "descripcion": "Traducción al inglés, publicada por Springer, del conocido libro chino «Vue.js 设计与实现» de HcySun Yang (Huo Chunyang), miembro del equipo oficial de Vue.js, colaborador central de Vue.js 3 y creador de Vuese, un generador de documentación para componentes Vue. No es un manual para aprender a usar Vue, sino un estudio a fondo de cómo está diseñado e implementado Vue.js 3 por dentro. Está pensado para desarrolladores frontend de nivel intermedio o avanzado que ya trabajan con Vue 2 o Vue 3 y quieren entender lo que pasa bajo el capó; también sirve a quien se interese por el diseño de frameworks en general. Es necesario dominar bien JavaScript moderno (ES2015+).\n\nEl libro se organiza en seis partes. La primera trata el diseño de frameworks: las ventajas y desventajas entre lo imperativo y lo declarativo y entre el DOM virtual y el código compilado, los elementos clave de un framework (avisos en desarrollo, tree-shaking, formatos de salida, manejo de errores, compatibilidad con TypeScript) y la arquitectura general de Vue.js 3. La segunda construye el sistema de reactividad: efectos, seguimiento de dependencias, computed, watch y planificador, la reactividad de objetos, arrays, Map y Set con Proxy y Reflect, y la de valores primitivos con ref. La tercera desarrolla el renderizador: diseño, montaje y actualización de vnodes, y los tres algoritmos de diff (simple, de doble extremo y rápido, que es el que usa Vue 3). Después vienen los componentes (cómo se implementan, componentes asíncronos y funcionales, y los integrados KeepAlive, Teleport y Transition), el compilador (análisis de plantillas, transformación del AST, generación de código y optimizaciones como bloques y patch flags) y, para terminar, el renderizado en el servidor y la hidratación en la renderización isomórfica.\n\nEl método consiste en reimplementar paso a paso versiones simplificadas de cada módulo del framework a partir de su código fuente, con muchos diagramas, así que el lector termina con una especie de mini Vue propio que explica cada decisión. Es una de las mejores referencias para entender la reactividad y el diff de Vue 3, y resulta muy útil para depurar, optimizar el rendimiento o contribuir al ecosistema. A cambio, no cubre el uso cotidiano del framework: no trata Vue Router, Pinia, Vite, Nuxt ni buenas prácticas de aplicación, y el tratamiento de TypeScript es mínimo. Conviene leerlo después de haber hecho proyectos reales con Vue; la traducción a veces es algo literal (por ejemplo, «Response System» por sistema de reactividad).",
+    "temas": [
+      "Vue.js 3",
+      "Diseño de frameworks",
+      "Reactividad",
+      "Proxy y Reflect",
+      "ref y computed",
+      "DOM virtual",
+      "Renderizador",
+      "Algoritmos diff",
+      "Componentes",
+      "KeepAlive y Teleport",
+      "Compilador de plantillas",
+      "SSR e hidratación"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.hoepli.it/libro/vue-js-framework/9789819949465.html",
+      "https://link.springer.com/book/10.1007/978-981-99-4947-2"
+    ]
+  }
+}

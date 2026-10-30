@@ -1,0 +1,1076 @@
+{
+  "pro-javascript-with-mootools-2010": {
+    "descripcion": "Libro avanzado de Mark Joseph Obcena, desarrollador de Manila y miembro del equipo oficial de la comunidad MooTools, publicado por Apress en 2010 con el subtítulo «Learning Advanced JavaScript Programming». Se sitúa entre dos tipos de libros: los que explican JavaScript como lenguaje y los que enseñan a usar un framework. Su propuesta es estudiar las características avanzadas de JavaScript y ver cómo MooTools (la rama 1.3 de aquella época) las aprovecha para extender y mejorar el propio lenguaje. Está dirigido a programadores intermedios que ya escriben JavaScript en el navegador y quieren entender a fondo lo que ocurre bajo el capó.\n\nLa primera parte, centrada en el lenguaje, trata las funciones (ámbito, closures, contexto), los objetos y la herencia por prototipos, el sistema de clases de MooTools (Class, mutadores como Extends e Implements, y los «extras» de clases) y el sistema de tipos con el que el framework envuelve los nativos de JavaScript. La segunda parte se ocupa del cliente: el entorno window, los elementos del DOM, los motores de selectores CSS, el modelo de eventos, las peticiones Ajax con Request y el sistema de animaciones Fx. La parte final sale del navegador y explica JavaScript en el servidor con CommonJS y el uso de MooTools en aplicaciones del lado del servidor.\n\nEs un libro explicativo, con abundante código de ejemplo pero sin un proyecto guiado. Su mayor valor hoy no está en MooTools, que quedó prácticamente en desuso frente a jQuery y luego a los frameworks modernos, sino en la explicación detallada de prototipos, closures, diseño de clases y funcionamiento interno del DOM y los eventos, conceptos que siguen siendo vigentes. Ten en cuenta que es anterior a ES2015: no cubre class nativas, módulos ES ni promesas, y la parte de servidor refleja el ecosistema CommonJS previo a la consolidación de Node.js.",
+    "temas": [
+      "JavaScript avanzado",
+      "MooTools 1.3",
+      "Funciones y closures",
+      "Prototipos",
+      "Clases MooTools",
+      "Tipos nativos",
+      "DOM",
+      "Selectores CSS",
+      "Eventos",
+      "Ajax (Request)",
+      "Animaciones Fx",
+      "CommonJS"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://skillsoft.com/book/pro-javascript-with-mootools-learning-advanced-javascript-programming-e56290b0-f02f-11e6-be4a-0242c0a80906",
+      "https://ebook.library.uitm.edu.my/Record/8641/Description",
+      "https://discover.knoxcountylibrary.org/oreilly/ocn711782270"
+    ]
+  },
+  "essential-gwt-2010": {
+    "descripcion": "Libro de Federico Kereki publicado por Addison-Wesley (colección Developer's Library) dedicado a Google Web Toolkit 2, el framework de Google que compila código Java a JavaScript para crear aplicaciones web ricas. Está pensado para desarrolladores Java con experiencia que quieren construir aplicaciones y sitios completos con las herramientas y el IDE que ya conocen. Repasa rápido lo básico y se centra en temas intermedios y avanzados, con mucho peso en metodología, buenas prácticas y patrones de diseño.\n\nEl recorrido empieza con las aplicaciones RIA, las ventajas de GWT y la creación de proyectos con el plugin de Eclipse y el modo de desarrollo. Luego trata los problemas de los navegadores (el botón «atrás» y la detección del navegador), la interfaz de usuario con el patrón MVP y la UI declarativa con UiBinder, la comunicación con el servidor por RPC, la política del mismo origen y la comunicación con otros servidores mediante proxy y XML, y la integración con JavaScript a través de JSNI, JSON y JSONP. También incluye APIs externas (visualizaciones para paneles, mapas y datos del tiempo), temas de servidor como criptografía y servidores con o sin estado, subida y descarga de archivos, internacionalización, pruebas con JUnit y despliegue. Los ejemplos usan herramientas libres como Eclipse, Subversion, Apache, Tomcat y MySQL.\n\nMás que un tutorial paso a paso, es una visión de cómo diseñar aplicaciones GWT serias y mantenibles. La reseña de i-Programmer destaca la cantidad de información útil, pero también que es bastante teórico y que algunos ejemplos (sobre todo los de MVP y RPC) resultan largos para una introducción. Conviene dominar Java y tener nociones de desarrollo web. Hoy GWT tiene un uso muy limitado y el libro no cubre versiones posteriores a GWT 2.0/2.1, así que interesa sobre todo para mantener proyectos heredados o por sus ideas de arquitectura.",
+    "temas": [
+      "GWT 2",
+      "Java",
+      "MVP",
+      "UiBinder",
+      "RPC",
+      "Política del mismo origen",
+      "JSNI",
+      "JSON y JSONP",
+      "Internacionalización",
+      "JUnit",
+      "Eclipse",
+      "Despliegue con Tomcat"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/essential-gwt-building-for-the-web-with-google-web-9780321705624",
+      "https://www.i-programmer.info/bookreviews/23-java/1354-essential-gwt.html",
+      "https://www.goodreads.com/work/editions/13468873-essential-gwt-building-for-the-web-with-google-web-toolkit-2-developer"
+    ]
+  },
+  "create-web-charts-with-jqplot-2014": {
+    "descripcion": "Libro de Fabio Nelli publicado por Apress en 2014 que enseña a crear gráficos interactivos y animados en el navegador con jqPlot, la librería de gráficos basada en jQuery. Reutiliza y amplía el material de jqPlot de su libro anterior «Beginning JavaScript Charts». Es para desarrolladores web con conocimientos básicos de HTML y JavaScript que necesitan visualizar datos sin pasar por herramientas de escritorio; no hace falta saber jQuery de antemano, porque el libro dedica un capítulo a sus fundamentos.\n\nTras una visión general de las tecnologías de gráficos en la web y un repaso de jQuery, presenta jqPlot y recorre por capítulos los tipos de gráfico principales: líneas y áreas (con líneas de tendencia y zoom), barras, circulares y de anillo, velas japonesas (candlestick y OHLC, para datos financieros), dispersión y burbujas, y embudo. Luego explica cómo añadir controles interactivos a los gráficos, cómo insertarlos en widgets de jQuery UI (pestañas, acordeones y similares) y cómo manejar los datos de entrada desde tablas HTML, archivos JSON y fuentes externas como hojas de Excel, MATLAB o placas Arduino. Los apéndices dan pautas para ejecutar los ejemplos y repasan los plugins de jqPlot.\n\nEl libro se aprende con ejemplos paso a paso: cada capítulo construye varios gráficos concretos que puedes adaptar. Es claro y muy práctico para quien deba resolver gráficos estándar con pocas líneas de código. Ten en cuenta que jqPlot dejó de mantenerse activamente hace años y depende de jQuery, así que para proyectos nuevos suelen preferirse Chart.js, D3.js o Highcharts. Tampoco profundiza en visualización avanzada ni en datos en tiempo real a gran escala.",
+    "temas": [
+      "jqPlot",
+      "jQuery",
+      "jQuery UI",
+      "Gráficos de líneas",
+      "Gráficos de barras",
+      "Gráficos circulares",
+      "Candlestick y OHLC",
+      "Burbujas y dispersión",
+      "Gráficos de embudo",
+      "JSON",
+      "Plugins de jqPlot"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.springerprofessional.de/create-web-charts-with-jqplot/1906626",
+      "https://tenlong.com.tw/products/9781484208632",
+      "https://discover.knoxcountylibrary.org/oreilly/ocn899594629"
+    ]
+  },
+  "mootools-essentials-2008": {
+    "descripcion": "Guía de referencia publicada en 2008 por Apress, en su colección firstPress, con el subtítulo «The Official MooTools Reference for JavaScript and Ajax Development». La escribió Aaron Newton, colaborador del proyecto MooTools y autor del popular tutorial en línea Mootorial. Se escribió para la generación de MooTools de aquella época (en torno a la versión 1.2) y está pensada para desarrolladores con conocimientos básicos de JavaScript que quieren empezar a trabajar con el framework.\n\nSu objetivo es recorrer casi todas las clases y funciones de la librería con ejemplos realistas. Empieza por los fundamentos de MooTools y cómo descargar y montar una compilación a medida. Luego pasa por las extensiones de los objetos nativos (Array, String, Function, Hash y similares), el trabajo con elementos del DOM y sus eventos, el sistema de clases con herencia e Implements, los efectos y animaciones con Fx, las peticiones Ajax con Request y el uso de plugins. Cierra con ejemplos aplicados, como escribir una clase de pestañas (tabs) reutilizable.\n\nFunciona a medio camino entre una referencia de la API y un manual introductorio: los ejemplos cortos permiten probar cada función, y el ejemplo final de la clase de pestañas muestra cómo combinar todo en un componente propio. Hoy tiene sobre todo valor histórico o para mantener sitios heredados que usan MooTools, ya que la API cambió en versiones posteriores (1.3 y 1.4) y el framework dejó de usarse en proyectos nuevos. Para entender a fondo el lenguaje que hay detrás, «Pro JavaScript with MooTools» es un buen complemento.",
+    "temas": [
+      "MooTools 1.2",
+      "JavaScript",
+      "DOM",
+      "Eventos",
+      "Clases y herencia",
+      "Objetos nativos",
+      "Fx (animaciones)",
+      "Ajax con Request",
+      "Plugins",
+      "Componentes reutilizables"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://tenlong.com.tw/products/9781430209836",
+      "https://ebooks.mpdl.mpg.de/ebooks/Record/EB000360683",
+      "https://www.goodreads.com/topic/list_book/3426964-mootools-essentials"
+    ]
+  },
+  "practical-ext-js-4-2013": {
+    "descripcion": "Libro práctico de Prabhu Sunderaraman, consultor de DuraSoft (India), publicado por Apress en 2013 y centrado en Ext JS 4.2, el framework de Sencha para crear aplicaciones web empresariales con interfaces ricas. Está pensado para desarrolladores web que quieren empezar a crear aplicaciones con Ext JS 4. Se da por hecho que manejas las tecnologías web y JavaScript, aunque el primer capítulo repasa los fundamentos del lenguaje.\n\nTras un repaso de JavaScript y de los frameworks del momento, presenta Ext JS 4 y sus características orientadas a objetos: el sistema de clases, Ext.define y la carga dinámica. Luego recorre los controles de interfaz y los layouts, el trabajo con datos (modelos, stores y proxies), los controles enlazados a datos como grids, árboles y gráficos, el arrastrar y soltar (drag and drop), la creación de temas y estilos y la arquitectura MVC de Ext JS. Los capítulos finales tratan cómo extender componentes, las pruebas unitarias con Jasmine y el empaquetado y despliegue con Sencha Cmd.\n\nEl libro avanza con muchos ejemplos prácticos y culmina en una aplicación completa creada desde cero con los componentes de Ext JS, la arquitectura MVC, pruebas y empaquetado. Es breve (unas 200 páginas) y va al grano, así que sirve como introducción, pero no como referencia exhaustiva de un framework tan amplio. Ten en cuenta que no cubre Ext JS 5 ni posteriores (que introdujeron MVVM), por lo que hoy encaja sobre todo para mantener aplicaciones Ext JS 4 heredadas.",
+    "temas": [
+      "Ext JS 4.2",
+      "JavaScript",
+      "Sistema de clases",
+      "Layouts",
+      "Data stores",
+      "Grids",
+      "Árboles",
+      "Gráficos",
+      "Drag and drop",
+      "Temas",
+      "MVC",
+      "Jasmine",
+      "Sencha Cmd"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Ext JS completa desde cero",
+        "descripcion": "Aplicación construida a lo largo del libro con los componentes de interfaz y de datos de Ext JS 4.2 y la arquitectura MVC. Al final se prueba con Jasmine y se empaqueta para despliegue con Sencha Cmd."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://skillsoft.com/book/practical-ext-js-4-a6b086b0-f2c3-11e6-adc4-0242c0a80902",
+      "https://discover.knoxcountylibrary.org/oreilly/ocn859525422",
+      "https://ebook.library.uitm.edu.my/Record/12353"
+    ]
+  },
+  "practical-hapi-2020": {
+    "descripcion": "Guía breve y práctica de Apress en la que Kanika Sud enseña a desarrollar aplicaciones de servidor con hapi, el framework ligero para Node.js creado en Walmart Labs y usado en empresas como PayPal y Mozilla. Trabaja con las versiones de hapi vigentes en 2020 (el paquete @hapi/hapi) y está pensada para desarrolladores con algo de experiencia en programación. Incluye una introducción a JavaScript y Node.js para quien llegue sin mucha base, aunque se aprovecha mejor si ya se ha tocado algo de backend.\n\nEl libro recorre los fundamentales de hapi: crear y configurar el servidor, definir rutas y handlers, trabajar con plugins y organizar el código de una aplicación. Dedica espacio a la programación asíncrona con promesas, que es la base del hapi moderno, y al acceso a datos con el ORM Sequelize sobre una base de datos MySQL. Con esas piezas se construye tanto una aplicación web como una API REST, y la autora complementa la parte técnica con casos de estudio de la industria que muestran cómo se usa hapi en proyectos reales.\n\nLa práctica culmina en un proyecto final (capstone) que integra lo aprendido: servidor hapi, rutas REST y persistencia en MySQL mediante Sequelize. Con unas 130 páginas, es una puerta de entrada rápida y no una referencia exhaustiva: temas como la validación avanzada, la autenticación, las pruebas o el despliegue se tratan poco o nada. Conviene tener MySQL instalado y saber que el ecosistema de hapi ha cambiado de versión desde entonces, así que algunos detalles de la API pueden requerir ajustes.",
+    "temas": [
+      "hapi",
+      "Node.js",
+      "Rutas y handlers",
+      "Plugins",
+      "Promesas",
+      "Programación asíncrona",
+      "API REST",
+      "Sequelize",
+      "MySQL",
+      "Casos de estudio"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación web y API REST con MySQL",
+        "descripcion": "Aplicación construida con hapi que expone una API REST y persiste los datos en MySQL mediante el ORM Sequelize, usando promesas para el código asíncrono."
+      },
+      {
+        "nombre": "Proyecto final integrador",
+        "descripcion": "Proyecto capstone con el que cierra el libro y que reúne servidor hapi, rutas, plugins y acceso a base de datos en una aplicación completa."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://skillsoft.com/book/practical-hapi-your-own-hapi-apps-and-learn-from-industry-case-studies-87767665-d3ad-48fa-8b47-cf423a9d073f",
+      "https://tenlong.com.tw/products/9781484258040"
+    ]
+  },
+  "pro-grunt-js-2015": {
+    "descripcion": "Libro de Apress en el que James Cryer explica cómo automatizar el flujo de trabajo del desarrollo frontend con Grunt.js, el ejecutor de tareas para Node.js que dominaba el ecosistema JavaScript a mediados de la década de 2010. Está dirigido a desarrolladores web de nivel intermedio que ya conocen JavaScript, HTML y CSS y se manejan con npm y la línea de comandos, y que quieren dejar de hacer a mano tareas repetitivas como minificar, compilar o ejecutar pruebas.\n\nEn sus siete capítulos va desde la instalación de Grunt y la estructura del Gruntfile hasta la escritura y publicación de plugins propios. Cubre linting, concatenación, compilación y minificación de CSS; linting de JavaScript; módulos AMD; plantillas; procesamiento de imágenes y la creación de un servidor local. Después aborda LiveReload, la automatización de pruebas, la configuración modular del Gruntfile y la combinación de tareas. La última parte explica cómo generar la estructura de un plugin con grunt-init y Yeoman, probarlo con Mocha y Chai y publicarlo en npm.\n\nLos capítulos son prácticos: cada tarea se configura y se ejecuta sobre ejemplos concretos, y el lector termina creando un plugin propio. Hoy Grunt se usa poco frente a herramientas como Gulp, los scripts de npm, webpack o Vite, así que el libro sirve sobre todo para mantener proyectos heredados basados en Grunt o para entender los conceptos de automatización de builds. No trata los bundlers modernos ni los módulos ES nativos.",
+    "temas": [
+      "Grunt.js",
+      "Gruntfile",
+      "Automatización de tareas",
+      "Minificación",
+      "Linting",
+      "Módulos AMD",
+      "LiveReload",
+      "Pruebas automatizadas",
+      "Plugins de Grunt",
+      "Yeoman",
+      "Mocha",
+      "Chai"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://oreilly.com/library/view/pro-gruntjs/9781484200131",
+      "https://www.apress.com/9781484200148?gtmf=r"
+    ]
+  },
+  "manual-de-mootools": {
+    "descripcion": "Manual gratuito en español publicado por DesarrolloWeb.com que introduce MooTools, el framework JavaScript orientado a objetos muy popular a finales de la década de 2000 (la época de MooTools 1.2, aunque el manual no indica una versión concreta). Está pensado para principiantes que ya saben algo de HTML y JavaScript y quieren aprender a usar una librería para manipular la página, crear efectos y hacer peticiones Ajax sin pelearse con las diferencias entre navegadores.\n\nSus 49 artículos empiezan con la descarga, los componentes del framework y el evento domready, y siguen con el núcleo (Core.js y $merge). Después explican el sistema de clases de MooTools: constructores, herencia con Extends e Implement. También cubren la clase Element y los métodos $(), $$(), getElement() y getElements() para seleccionar y crear nodos, los eventos (bind, fireEvent, eventos de teclado) y los tipos nativos extendidos (Array, Function, Number, String, Hash). Cierran con los efectos (fade, highlight, tween, Fx.Tween y Chain para encadenarlos), las opciones de clase, window.getSize y Ajax con la clase Request, enviando datos por GET y POST.\n\nLa práctica se hace con ejemplos breves: un primer efecto, un desplazamiento dentro de una capa, la creación e inserción de elementos, un textarea con contador de caracteres y el envío de un formulario por Ajax sin recargar la página. Es una introducción clara y progresiva, pero hoy tiene sobre todo valor histórico o de mantenimiento: MooTools quedó en desuso y buena parte de lo que resolvía ya lo cubre el JavaScript moderno (querySelector, clases de ES6, fetch, animaciones CSS). Conviene leerlo si hay que mantener código heredado que use esta librería.",
+    "temas": [
+      "MooTools",
+      "DOM",
+      "Clases y herencia",
+      "Element",
+      "Eventos",
+      "Tipos nativos",
+      "Efectos",
+      "Fx.Tween",
+      "Chain",
+      "Ajax",
+      "Request"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://desarrolloweb.com/manuales/manual-mootools.html"
+    ]
+  },
+  "coffeescript-in-action-2014": {
+    "descripcion": "Tutorial de Manning que explica cómo, dónde y por qué usar CoffeeScript, el lenguaje que se compila a JavaScript con una sintaxis más compacta inspirada en Ruby y Python. Está escrito por Patrick Lee, desarrollador y consultor vinculado a Canva, y se basa en la versión 1.x de CoffeeScript, la que estaba vigente en 2014. Está dirigido a personas con nociones básicas de desarrollo web y de cómo funciona JavaScript; no hace falta conocer CoffeeScript.\n\nEmpieza por la sintaxis y la estructura del lenguaje y luego la aplica a problemas de programación que muestran sus ventajas. Trata las funciones de primera clase y la programación funcional, los objetos dinámicos y la programación orientada a objetos basada en prototipos (y las clases de CoffeeScript), la composición, la metaprogramación y las técnicas de programación asíncrona. También aborda patrones y buenas prácticas para aplicaciones web, pruebas, módulos y builds con herramientas del ecosistema Node.js como Cake, y una mirada a la evolución de ECMAScript.\n\nEl código está organizado por capítulos y cuenta con una carpeta de ejercicios, de modo que se aprende practicando con ejemplos que crecen a lo largo del libro. Su mayor aporte es que, además de enseñar CoffeeScript, enseña a pensar en JavaScript de forma más funcional e idiomática. Hoy hay que leerlo sabiendo que ES2015 y TypeScript absorbieron muchas de las ideas de CoffeeScript (funciones flecha, clases, desestructuración) y que CoffeeScript 2 cambió algunos detalles, por lo que conviene más por sus conceptos que como guía de una herramienta actual.",
+    "temas": [
+      "CoffeeScript",
+      "Sintaxis",
+      "Programación funcional",
+      "POO con prototipos",
+      "Clases",
+      "Metaprogramación",
+      "Programación asíncrona",
+      "Pruebas",
+      "Módulos y builds",
+      "Node.js"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://manning.com/books/coffeescript-in-action",
+      "https://www.manning.com/authors/patrick-lee",
+      "https://github.com/boundvariable/coffeescript-in-action"
+    ]
+  },
+  "ember-js-in-action-2014": {
+    "descripcion": "Libro de Manning en el que Joachim Haagen Skeie, autor de la herramienta de monitorización de código abierto Montric, enseña a construir aplicaciones web completas con Ember.js 1.0, el framework MVC para aplicaciones de una sola página (SPA). Requiere conocer JavaScript, pero no experiencia previa con Ember, y es útil para desarrolladores que quieran entender cómo se organiza una aplicación de cliente grande con convenciones claras.\n\nComienza por la arquitectura: MVC en cliente y en servidor, el router, controladores y vistas, y las plantillas con Handlebars. Sigue con Ember Data para modelar y sincronizar los datos y con la integración de Ember con distintos backends. En la parte avanzada trata los componentes personalizados, las pruebas, la autenticación con un sistema externo (Mozilla Persona), el run loop de Ember implementado con Backburner.js y el empaquetado y despliegue de la aplicación.\n\nLos ejemplos van creciendo: primero unos ejemplos de notas y un blog, y luego, durante buena parte del libro, la aplicación Montric; también se analiza el sitio web de la conferencia EmberFest. Explica bien la filosofía de Ember, pero está muy anclado a la versión 1.0: Ember CLI, Octane, los componentes Glimmer y el Ember Data actual cambiaron mucho el framework, y Mozilla Persona ya no existe. Sirve para entender los conceptos o mantener aplicaciones antiguas; para empezar hoy con Ember hay que complementarlo con la documentación oficial.",
+    "temas": [
+      "Ember.js 1.0",
+      "MVC",
+      "Router",
+      "Handlebars",
+      "Ember Data",
+      "Componentes",
+      "Integración con backend",
+      "Pruebas",
+      "Mozilla Persona",
+      "Run loop",
+      "Despliegue"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Notas y blog",
+        "descripcion": "Ejemplos iniciales con los que se presentan el router, las plantillas Handlebars y la estructura básica de una aplicación Ember."
+      },
+      {
+        "nombre": "Montric",
+        "descripcion": "Herramienta de monitorización de código abierto creada por el autor con Ember.js, que sirve de hilo conductor para trabajar con Ember Data, componentes personalizados, autenticación con Mozilla Persona y despliegue."
+      },
+      {
+        "nombre": "Sitio web de EmberFest",
+        "descripcion": "Sitio de la conferencia EmberFest que se analiza como caso práctico de una aplicación Ember real."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/ember-js-in-action",
+      "https://www.manning.com/authors/joachim-haagen-skeie",
+      "https://www.oreilly.com/library/view/-/9781617291456/"
+    ]
+  },
+  "ext-js-in-action-2nd-edition-2014": {
+    "descripcion": "Segunda edición, revisada a fondo, del clásico de Manning sobre Ext JS, el framework de Sencha para construir aplicaciones web empresariales ricas en interfaz. Jesus (Jay) Garcia, Grgur Grisogono y Jacob K. Andresen la actualizan para Ext JS 4, la versión que trajo el nuevo sistema de clases y la arquitectura MVC del framework. Está dirigida a desarrolladores que ya manejan JavaScript con soltura, pero no exige experiencia previa con Ext JS.\n\nEl libro se organiza en tres partes. La primera presenta el enfoque del framework, la manipulación del DOM con sus utilidades y el modelo de componentes y contenedores. La segunda recorre los componentes principales: widgets básicos de interfaz, layouts, formularios, el data store (modelos, proxies y lectores), el grid panel, los árboles, el dibujo y los gráficos, la invocación remota de métodos con Ext Direct y el arrastrar y soltar. La tercera explica a fondo el sistema de clases (incluida la herencia prototípica de JavaScript en la que se apoya) y cómo extender o crear widgets propios.\n\nTodo se explica con ejemplos completos, ilustraciones y explicaciones paso a paso, y el último capítulo une las piezas en la construcción de una aplicación completa siguiendo buenas prácticas de estructura y escalabilidad. Su valor está en lo sistemático: cubre casi todo el catálogo de componentes de Ext JS 4. Conviene saber que está fijado en esa versión, así que los cambios posteriores (Ext JS 5 y 6, ViewModels, MVVM y el toolkit moderno) no aparecen, y que Ext JS es un framework comercial de nicho, sobre todo en aplicaciones corporativas heredadas.",
+    "temas": [
+      "Ext JS 4",
+      "Componentes y contenedores",
+      "Layouts",
+      "Formularios",
+      "Data store",
+      "Grid panel",
+      "Árboles",
+      "Gráficos",
+      "Ext Direct",
+      "Drag and drop",
+      "Sistema de clases"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Ext JS completa",
+        "descripcion": "En el capítulo final se construye una aplicación que integra los componentes vistos (grids, formularios, data stores y layouts) sobre el sistema de clases y la estructura de aplicación de Ext JS 4."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/ext-js-in-action-second-edition",
+      "https://livebook.manning.com/book/ext-js-in-action-second-edition/",
+      "https://bookshare.org/browse/book/4060475"
+    ]
+  },
+  "getting-mean-with-mongo-express-angular-and-node-2015": {
+    "descripcion": "Primera edición de la guía de Simon Holmes para aprender desarrollo full-stack solo con JavaScript usando el stack MEAN: MongoDB, Express, AngularJS y Node.js. Se basa en MongoDB 2, Express 4, Angular 1 (AngularJS) y Node.js 4. Está pensada para quien ya tiene algo de experiencia en desarrollo web y quiere entender cómo encajan todas las capas de una aplicación moderna escrita con un único lenguaje de punta a punta.\n\nEl libro avanza capa por capa, como en un proyecto real. Empieza con un sitio estático en Express y Node, con plantillas del lado del servidor, una arquitectura MVC y Twitter Bootstrap para el diseño responsive, y lo publica en un servidor en vivo (Heroku). Luego incorpora MongoDB mediante Mongoose, construye una API REST que la propia aplicación consume y pasa a AngularJS para manejar datos y lógica en el navegador, primero como componentes y después como aplicación de una sola página (SPA). Cierra con un sistema de autenticación que atraviesa todo el stack, además de buenas prácticas de eficiencia y reutilización del código.\n\nTodo gira en torno a Loc8r, una aplicación basada en ubicación que lista lugares cercanos con wifi para ir a trabajar. Su gran acierto es mostrar la evolución de un proyecto completo, del prototipo estático al despliegue con datos y usuarios. La pega es la fecha: AngularJS 1.x está descontinuado y no se parece al Angular actual, así que hoy interesa sobre todo por la parte de Node, Express y MongoDB; para el frontend es mejor la segunda edición. Conviene llegar con soltura en JavaScript.",
+    "temas": [
+      "MEAN stack",
+      "Node.js",
+      "Express 4",
+      "MongoDB",
+      "Mongoose",
+      "API REST",
+      "AngularJS",
+      "SPA",
+      "Bootstrap",
+      "Autenticación",
+      "Heroku"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Loc8r",
+        "descripcion": "Aplicación basada en ubicación que lista lugares cercanos con wifi para trabajar. Se construye por etapas con Express y Node, MongoDB y Mongoose con API REST, AngularJS en el navegador y autenticación de usuarios, y se despliega en Heroku."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/getting-mean-with-mongo-express-angular-and-node",
+      "https://livebook.manning.com/book/getting-mean-with-mongo-express-angular-and-node/",
+      "https://www.sitepoint.com/planning-mean-stack-application/"
+    ]
+  },
+  "getting-mean-with-mongo-express-angular-and-node-2nd-edition-2019": {
+    "descripcion": "Segunda edición, escrita por Simon Holmes y Clive Herber, de la guía de Manning para crear aplicaciones web full-stack con el stack MEAN. Se actualiza a MongoDB 4, Express 4, Angular 7, Node 11 y JavaScript moderno (ES2015 en adelante), y sustituye el AngularJS de la primera edición por el Angular actual con TypeScript. Es de nivel intermedio: los autores dan por hecho que el lector conoce el diseño típico de una aplicación web y escribe JavaScript al estilo ES2015.\n\nEn 12 capítulos repartidos en cuatro partes, el libro sigue el mismo método de construir capa por capa. Empieza con un sitio estático en Node y Express, con plantillas del lado del servidor y Bootstrap, y lo despliega en la nube. Después modela los datos en MongoDB con Mongoose, diseña y consume una API REST, y desarrolla el frontend en Angular con componentes, servicios, routing y una SPA completa escrita en TypeScript. El cierre es un sistema de autenticación de usuarios que integra todo el stack, con buenas prácticas de organización del código.\n\nEl hilo conductor vuelve a ser Loc8r, la aplicación que localiza lugares cercanos con wifi para trabajar, que se reconstruye con las nuevas versiones. Es una buena forma de ver cómo se comunican frontend, API y base de datos en un proyecto completo. Conviene saber que Angular 7 y Node 11 ya quedaron atrás, así que algunos comandos de Angular CLI, la configuración y los servicios de alojamiento pueden requerir ajustes, aunque la arquitectura que enseña sigue siendo válida.",
+    "temas": [
+      "MEAN stack",
+      "Node.js",
+      "Express 4",
+      "MongoDB 4",
+      "Mongoose",
+      "API REST",
+      "Angular 7",
+      "TypeScript",
+      "SPA",
+      "Autenticación",
+      "Despliegue"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Loc8r",
+        "descripcion": "Aplicación de lugares cercanos con wifi que evoluciona de sitio estático en Express a SPA en Angular 7 y TypeScript, con datos en MongoDB y Mongoose expuestos por una API REST, autenticación de usuarios y despliegue en la nube."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/getting-mean-with-mongo-express-angular-and-node-second-edition",
+      "https://livebook.manning.com/book/getting-mean-with-mongo-express-angular-and-node-second-edition/"
+    ]
+  },
+  "gwt-in-action-2007": {
+    "descripcion": "Primera edición del tutorial de Manning sobre Google Web Toolkit (GWT), escrita por Robert Hanson (creador de GWT Widget Library) y Adam Tacy, uno de sus principales colaboradores. Salió alrededor de un año después de que Google liberara GWT, así que trabaja con la rama 1.x del toolkit (1.3/1.4). Está pensada para desarrolladores Java que quieren crear aplicaciones web enriquecidas con Ajax sin escribir JavaScript a mano. Hay que saber Java; no se necesita experiencia previa con GWT.\n\nSus 17 capítulos, en cuatro partes, explican cómo el compilador de GWT traduce Java a JavaScript y cómo es el ciclo de desarrollo, desde la aplicación por defecto que genera el toolkit hasta su ampliación. Trata widgets, paneles y paneles compuestos, el manejo de eventos de usuario, la interoperabilidad con JavaScript mediante JSNI, la modularización del código y la internacionalización. La parte de comunicación con el servidor cubre GWT-RPC, Ajax clásico con HTTPRequest y RequestBuilder, formularios con FormPanel e intercambio de datos en JSON. También aborda la generación automática de código, las propiedades de GWT, las pruebas con JUnit, la depuración, el despliegue y el funcionamiento interno del toolkit.\n\nSe aprende construyendo paso a paso una aplicación de ejemplo, el Dashboard, que se va ampliando a lo largo del libro. Sus puntos fuertes son el enfoque práctico y una cobertura del despliegue poco común. En contra, algunas reseñas critican que el orden de los temas sigue al ejemplo más que a la progresión natural del aprendizaje, que la primera parte es floja y que hay repeticiones. Hoy tiene sobre todo valor histórico o de mantenimiento: no cubre UiBinder, ClientBundle, MVP ni RequestFactory, que llegaron con GWT 2.x y se tratan en la segunda edición.",
+    "temas": [
+      "GWT 1.x",
+      "Java a JavaScript",
+      "Widgets y paneles",
+      "Eventos",
+      "JSNI",
+      "GWT-RPC",
+      "RequestBuilder",
+      "JSON",
+      "Internacionalización",
+      "JUnit",
+      "Despliegue"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Dashboard",
+        "descripcion": "Aplicación de ejemplo que se construye a lo largo del libro con GWT y sirve para mostrar widgets, paneles compuestos, JSNI, internacionalización y la comunicación con el servidor."
+      },
+      {
+        "nombre": "Aplicación por defecto de GWT (tres en raya)",
+        "descripcion": "Ejemplo inicial a partir de la aplicación que genera GWT, que se amplía para explicar el ciclo de desarrollo, la compilación y la internacionalización."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/gwt-in-action",
+      "https://news.slashdot.org/story/07/08/29/1418229/gwt-in-action"
+    ]
+  },
+  "hapi-js-in-action-2018": {
+    "descripcion": "Guía de Matt Harrison, con prólogo de Eran Hammer (creador de hapi), para crear APIs, servidores y aplicaciones web con Node.js y el framework hapi.js. Se escribió con las versiones de hapi de 2016, anteriores a hapi 17, que pasó a async/await y cambió la interfaz de los handlers. Por eso muchos ejemplos usan callbacks y la función reply, que ya no existen. Pide un buen dominio de JavaScript; la experiencia con Node.js ayuda, pero no es imprescindible.\n\nEmpieza con un modelo mental de cómo funciona una aplicación web en Node.js y dónde encaja hapi. Después construye una API, la convierte en un sitio web y estudia en detalle las rutas y los handlers, el ciclo de vida de peticiones y respuestas, la validación con Joi y la arquitectura modular con plugins. Los capítulos finales cubren el caché, la autenticación y la seguridad, las pruebas con Lab y el paso a producción. En todo el libro se insiste en las buenas prácticas para diseñar, mantener y escalar aplicaciones Node.\n\nSe practica con un proyecto que evoluciona: una API con base de datos SQLite, que luego se convierte en sitio web, y ejemplos por capítulo disponibles en GitHub. Su gran aporte es enseñar la filosofía de hapi: configuración antes que código, plugins y validación declarativa. Antes de leerlo conviene saber que, para hapi moderno (versión 17 en adelante, hoy @hapi/hapi), hay que adaptar la sintaxis de los handlers, extensiones y plugins. Los conceptos siguen siendo válidos, pero el código no siempre funciona tal cual.",
+    "temas": [
+      "hapi.js",
+      "Node.js",
+      "APIs REST",
+      "Rutas y handlers",
+      "Joi",
+      "Plugins",
+      "Caché",
+      "Autenticación",
+      "Lab",
+      "Producción",
+      "SQLite"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "DinDin (API y sitio web)",
+        "descripcion": "Aplicación que vertebra los primeros capítulos: se crea una API con hapi sobre una base de datos SQLite y luego se compone en un sitio web que la consume."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/hapi-js-in-action",
+      "https://github.com/mtharrison/Hapi.js-in-action"
+    ]
+  },
+  "meteor-in-action-2015": {
+    "descripcion": "Libro de Stephan Hochhaus y Manuel Schoebel, que trabajan con Meteor desde sus primeras versiones, sobre desarrollo full-stack con este framework JavaScript para crear aplicaciones web y móviles con el mismo código en cliente y servidor. Corresponde a la etapa Meteor 1.0–1.2 (2015). Está dirigido a desarrolladores con nociones básicas de JavaScript y de diseño de aplicaciones web; no requiere experiencia previa con Meteor.\n\nExplica el modelo de aplicación de extremo a extremo de Meteor y su reactividad, las plantillas con Blaze, el trabajo con MongoDB y otras fuentes de datos reactivas, y la edición reactiva completa. También cubre usuarios, autenticación, permisos y roles; el intercambio de datos mediante publicaciones, suscripciones y métodos; el enrutamiento con Iron Router; el sistema de paquetes; métodos de servidor avanzados (asincronía y llamadas externas); la compilación y la depuración; y, por último, el despliegue y el escalado.\n\nCada capítulo tiene su propio repositorio de código. Se empieza con un pequeño juego reactivo y luego se desarrolla una aplicación más completa a lo largo de varios capítulos. Es una introducción clara a los conceptos que hicieron popular a Meteor, como la reactividad, el protocolo DDP y la compensación de latencia. Hoy está bastante desfasado: Iron Router dio paso a Flow Router, Blaze perdió terreno frente a React y Vue, y las versiones modernas de Meteor (2.x/3.x) cambiaron a ES modules, async/await y Node.js actual. Sirve más para entender la arquitectura de Meteor que como receta lista para usar.",
+    "temas": [
+      "Meteor",
+      "Full-stack JavaScript",
+      "Reactividad",
+      "Blaze",
+      "MongoDB",
+      "Publicaciones y métodos",
+      "Iron Router",
+      "Cuentas y permisos",
+      "Paquetes",
+      "Despliegue y escalado"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "My fridge!",
+        "descripcion": "Juego reactivo del capítulo 2 que sirve como primera aplicación en tiempo real con Meteor, plantillas Blaze y colecciones de MongoDB."
+      },
+      {
+        "nombre": "houseSitter",
+        "descripcion": "Aplicación que se desarrolla en los capítulos sobre datos y que se amplía con edición reactiva, usuarios y permisos, publicaciones y métodos, y rutas con Iron Router."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/meteor-in-action",
+      "https://github.com/meteorinaction",
+      "https://github.com/meteorinaction/ch02-myfridge",
+      "https://github.com/meteorinaction/ch04-workingwithdata"
+    ]
+  },
+  "webassembly-in-action-2019": {
+    "descripcion": "Introducción completa a WebAssembly en la que Gerard Gallant, que participó en el grupo comunitario de WebAssembly del W3C, explica qué es la tecnología, cómo funciona por dentro y cómo usarla para llevar código C y C++ al navegador con rendimiento casi nativo. Los ejemplos usan C++ y el kit de herramientas Emscripten en la versión de WebAssembly MVP vigente en 2019. Está pensado para desarrolladores que ya tienen nociones básicas de C o C++, JavaScript y HTML. No hace falta experiencia previa con compiladores ni con WebAssembly.\n\nEl libro se divide en cuatro partes. La primera presenta WebAssembly, la estructura interna de un módulo (secciones, importaciones y exportaciones, memoria lineal) y la creación del primer módulo con Emscripten, tanto con el JavaScript de apoyo que este genera como con la API JavaScript de WebAssembly directamente, usando Promises. La segunda muestra cómo reutilizar código C++ existente y cómo comunicar el módulo con JavaScript en ambas direcciones: llamadas a JavaScript desde C++ y uso de punteros a funciones. En la parte avanzada se tratan el enlazado dinámico de módulos en tiempo de ejecución (dlopen, dynamicLibraries y side modules), los hilos con web workers y pthreads, y la ejecución de módulos en Node.js. La última parte se dedica al formato de texto de WebAssembly (WAT), a la depuración en el navegador y a las pruebas automatizadas. Los apéndices cubren la instalación de herramientas, ccall, cwrap y las macros de Emscripten.\n\nEs un libro muy práctico: cada capítulo construye ejemplos que se pueden ejecutar y termina con ejercicios, cuyas soluciones están en un apéndice. Su punto fuerte es explicar con calma la frontera entre JavaScript y WebAssembly: el manejo de memoria, el paso de cadenas y las llamadas en ambos sentidos. Esa parte suele ser la más confusa para quien empieza. Conviene saber que se centra en C++ y Emscripten, así que no enseña Rust ni AssemblyScript, y que es anterior a WASI, al component model y a extensiones como el GC o las excepciones nativas. Algunas opciones de Emscripten han cambiado desde entonces, pero los fundamentos siguen siendo válidos.",
+    "temas": [
+      "WebAssembly",
+      "C++",
+      "Emscripten",
+      "API JavaScript de WebAssembly",
+      "Interoperabilidad con JavaScript",
+      "Enlazado dinámico",
+      "Web workers",
+      "pthreads",
+      "Node.js",
+      "Formato de texto WAT",
+      "Depuración",
+      "Pruebas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Validación de formularios con código C++ reutilizado",
+        "descripcion": "Una lógica de validación escrita en C++ se compila a WebAssembly con Emscripten y se usa desde la página web mediante JavaScript, para mostrar cómo aprovechar código nativo existente en el navegador."
+      },
+      {
+        "nombre": "Juego programado en formato de texto WebAssembly",
+        "descripcion": "En la parte de depuración se construye a mano un pequeño juego en formato de texto (WAT), que luego se integra con JavaScript y HTML y sirve para practicar la depuración de módulos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/webassembly-in-action",
+      "https://livebook.manning.com/book/webassembly-in-action",
+      "https://livebook.manning.com/book/webassembly-in-action/chapter-10",
+      "https://www.schweitzer-online.de/ebook/Gallant/WebAssembly-Action/9781638355304/A61120052/"
+    ]
+  },
+  "building-web-apps-with-ember-js-2014": {
+    "descripcion": "Guía práctica de O'Reilly en la que Jesse Cravens y Thomas Q. Brady enseñan a crear aplicaciones de una sola página (SPA) con Ember.js, el framework MVC de JavaScript basado en la convención sobre la configuración. El libro trabaja con la rama 1.x de Ember (la de 2014, con Ember Data todavía en beta). Está dirigido a desarrolladores web de nivel intermedio que dominan JavaScript, HTML y CSS y quieren dar el salto a aplicaciones ambiciosas en el navegador conectadas a un backend.\n\nTras presentar la filosofía de Ember y sus conceptos básicos, los autores dedican un capítulo al flujo de trabajo y al código base del proyecto: gestión de dependencias, generación de código y automatización de tareas. Después explican las plantillas con Handlebars.js, el router y las rutas para gestionar el estado de la aplicación sin recargar la página, los modelos, y los controladores y vistas conectados mediante eventos y enlace de datos (data binding). Los capítulos finales tratan la persistencia con la librería Ember Data, la construcción de un backend como API REST o con Ruby on Rails, los componentes reutilizables y encapsulados, y las pruebas de aplicaciones Ember.\n\nTodo el libro gira en torno a un prototipo que crece capítulo a capítulo, así que se aprende sobre la marcha y no con ejemplos sueltos. Es breve (unas 190 páginas) y va al grano, pero ha envejecido mucho: está escrito para Ember 1.x, con vistas y controladores que desaparecieron en Ember 2 y en la era Octane. Hoy se usan Ember CLI, componentes Glimmer y clases nativas. Por eso sirve sobre todo para entender los fundamentos y la historia del framework, o para mantener aplicaciones antiguas. Para proyectos nuevos conviene acudir a la guía oficial actual de Ember.",
+    "temas": [
+      "Ember.js 1.x",
+      "SPA",
+      "MVC",
+      "Handlebars",
+      "Router y rutas",
+      "Controladores y vistas",
+      "Data binding",
+      "Ember Data",
+      "API REST",
+      "Ruby on Rails",
+      "Componentes",
+      "Testing"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "RocknRollCall",
+        "descripcion": "Índice de músicos construido como SPA con Ember.js: plantillas Handlebars, router, modelos, controladores y vistas. Después se le añade persistencia con Ember Data y un backend en forma de API REST o con Ruby on Rails, además de componentes reutilizables y pruebas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/building-web-apps/9781449370916/",
+      "https://www.oreilly.com/library/view/building-web-apps/9781449370916/ch04.html",
+      "https://helion.pl/ksiazki/building-web-apps-with-emberjs-jesse-cravens-thomas-q-brady,e_e006.htm"
+    ]
+  },
+  "dojo-the-definitive-guide-2008": {
+    "descripcion": "Guía de referencia y aprendizaje sobre Dojo Toolkit, una de las grandes librerías JavaScript de la época Ajax. La escribió Matthew A. Russell y lleva un prólogo de Alex Russell, fundador de Dojo. Está escrita para la rama Dojo 1.x (su lanzamiento coincidió con Dojo 1.1) y se plantea como complemento de la documentación oficial. Va dirigida a desarrolladores web que conocen JavaScript, HTML y CSS y quieren crear interfaces ricas, parecidas a las de escritorio, en el navegador.\n\nLa primera parte cubre Base y Core. Arranca con la arquitectura del toolkit, su instalación y la carga de módulos, y sigue con las utilidades de lenguaje y navegador, los eventos y la mensajería publish/subscribe. Después aborda la comunicación con el servidor: XHR, Deferreds, JSONP, transporte por iframe, JSON-RPC y OpenAjax. Completan esta parte la manipulación del DOM con selectores y NodeList, la internacionalización de textos, fechas, números y monedas, el arrastrar y soltar, las animaciones, la API de datos (dojo.data) y la simulación de clases y herencia con dojo.declare. La segunda parte se dedica a Dijit: accesibilidad, el parser, el ciclo de vida de los widgets, la creación de widgets propios y los widgets de formulario, de maquetación y de aplicación (diálogos, menús, árboles, editor). También cubre las herramientas de build, el framework de pruebas DOH y la puesta en producción. Los apéndices incluyen una introducción a Firebug y un repaso de los subproyectos de DojoX.\n\nEs un libro de corte conceptual y de referencia, con muchos fragmentos de código probados, pero sin un proyecto guiado de principio a fin. En su momento fue la obra más completa sobre Dojo. Hoy tiene sobre todo valor histórico o de mantenimiento: Dojo 1.x pasó después al formato AMD (desde la 1.7), lo que cambió la carga de módulos que se explica aquí, y el proyecto evolucionó hacia el moderno Dojo 2+ en TypeScript, que no tiene nada que ver. Resulta útil a quien deba mantener aplicaciones empresariales antiguas basadas en Dijit. Para desarrollo actual no es recomendable.",
+    "temas": [
+      "Dojo Toolkit 1.x",
+      "Ajax",
+      "Manipulación del DOM",
+      "Eventos y pub/sub",
+      "Deferreds",
+      "Internacionalización",
+      "Drag and drop",
+      "Animaciones",
+      "dojo.data",
+      "Dijit",
+      "Herramientas de build",
+      "DOH"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/dojo-the-definitive/9780596516482/",
+      "https://helion.pl/ksiazki/e_2gix.htm"
+    ]
+  },
+  "enyo-up-and-running-2nd-edition-2015": {
+    "descripcion": "Introducción breve y práctica a Enyo, el framework JavaScript de código abierto nacido en Palm/HP para webOS y mantenido después por LG, escrita por Roy Sutton, colaborador del propio proyecto. Esta segunda edición, revisada y ampliada en 2015, se basa en la rama Enyo 2.5 e incorpora sus novedades: modelos, colecciones, data binding y propiedades calculadas. Está dirigida a desarrolladores que ya conocen HTML, CSS y JavaScript y quieren crear aplicaciones multiplataforma con apariencia nativa para móviles, tablets, escritorio y televisores inteligentes.\n\nEl libro arranca con un pequeño proyecto de ejemplo que se va modificando ante requisitos cambiantes y luego explica los conceptos centrales: los «kinds» (el sistema de clases de Enyo), la encapsulación con propiedades, bindings, observadores y eventos, la herencia, los constructores de instancia y los miembros estáticos. Después repasa componentes y controles (núcleo, librería de widgets Onyx y la librería Moonstone para Smart TV), objetos como Application, Router, Animator, Ajax y JsonpRequest, y la galería de componentes de la comunidad. El capítulo de layout cubre diseño responsivo con Scroller, Repeater, Fittable, List y Panels; el de datos trata modelos, colecciones, componentes enlazados a datos y carga remota. Cierra con estilos (incluido Less), ajuste de rendimiento, depuración, globalización y despliegue mediante la plantilla Bootplate, Grunt, Node.js, PhoneGap Build, Cordova y televisores webOS.\n\nEs un recorrido de unas 90 páginas que funciona como puesta en marcha rápida, con ejemplos de código en cada capítulo más que con un proyecto grande. Su valor actual es sobre todo histórico o para quien mantenga aplicaciones webOS heredadas: Enyo dejó de evolucionar y su sucesor es Enact (basado en React), así que conviene tomarlo como referencia de un framework concreto y no como inversión de futuro. Por su brevedad, no profundiza en arquitectura de aplicaciones grandes ni en pruebas automatizadas.",
+    "temas": [
+      "Enyo 2.5",
+      "Kinds",
+      "Componentes",
+      "Data binding",
+      "Modelos y colecciones",
+      "Onyx",
+      "Moonstone",
+      "Layout responsivo",
+      "Bootplate",
+      "Cordova / PhoneGap",
+      "webOS",
+      "Globalización"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/enyo-up-and/9781491921210/",
+      "https://helion.pl/ksiazki/enyo-up-and-running-build-native-quality-cross-platform-javascript-apps-2nd-edition-roy-sutton,e_e04d.htm",
+      "https://i-programmer.info/book-watch-archive/8349-enyo-up-and-running-2nd-ed-oreilly-.html"
+    ]
+  },
+  "yui-3-cookbook-2012": {
+    "descripcion": "Recetario de Evan Goer, miembro del equipo de YUI en Yahoo!, dedicado a la versión 3 de la Yahoo! User Interface Library. Cubre YUI 3.5 (la mayoría de recetas se estandarizaron sobre 3.4.1, con el App Framework actualizado a 3.5) e incluye más de 200 recetas con el formato problema, solución y discusión. Sirve tanto a quien empieza con YUI 3 como a desarrolladores con experiencia que quieren dominar temas avanzados; se asume buen conocimiento de JavaScript, HTML y CSS.\n\nLos capítulos recorren carga de módulos (rollups, SimpleYUI, módulos de la Gallery, carga bajo demanda y módulos propios), manipulación del DOM, efectos e interacciones de interfaz (animaciones, drag and drop), eventos (delegación, eventos sintéticos y personalizados), Ajax (IO, JSONP, YQL), CSS (Reset, Base, Fonts y Grids), la infraestructura de clases de YUI (Base, Attribute, Widget, Plugin y extensiones), el uso de widgets como Overlay, Slider, TabView, AutoComplete o ScrollView, utilidades del lenguaje, historial y formularios, YUI en el servidor con Node.js, accesibilidad universal (ARIA y navegación por teclado) y herramientas profesionales: consola de depuración, pruebas unitarias con YUI Test, mocks, minificación y generación de documentación. También trata el App Framework con Models, Views y Routers para aplicaciones de una sola página.\n\nEs un libro de consulta para resolver problemas concretos, no un tutorial lineal ni un proyecto guiado. Hoy su interés es sobre todo para mantener código heredado: Yahoo! detuvo el desarrollo de YUI en 2014, y muchas de sus ideas (módulos, carga bajo demanda, MVC en el cliente) se resuelven ahora con módulos ES, bundlers y frameworks modernos. Aun así, sus capítulos sobre accesibilidad, eventos y pruebas siguen siendo una buena lectura conceptual.",
+    "temas": [
+      "YUI 3.5",
+      "Carga de módulos",
+      "Manipulación del DOM",
+      "Eventos",
+      "Ajax y JSONP",
+      "Widgets",
+      "App Framework",
+      "YUI en Node.js",
+      "Accesibilidad ARIA",
+      "YUI Test",
+      "Recetas"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://oreilly.com/library/view/~/9781449339685",
+      "https://app.oreilly.com/pub/pr/3063",
+      "https://goer.org/Journal/?p=473",
+      "https://www.goer.org/Journal/?p=442"
+    ]
+  },
+  "coffeescript-application-development-2013": {
+    "descripcion": "Libro de Ian Greenleaf Young que enseña CoffeeScript (la versión 1.x vigente en 2013) mientras el lector construye, capítulo a capítulo, una aplicación web funcional. Está pensado para desarrolladores que ya programan en JavaScript y quieren escribir código más conciso y legible. No es adecuado para quien no tiene experiencia previa en programación.\n\nEmpieza con la instalación de Node.js y del compilador de CoffeeScript en OS X, Windows y Linux, y con el soporte en editores como TextMate, Sublime Text, Vim y Emacs. Luego recorre la sintaxis: variables, condicionales (incluido unless), rangos, comprensiones de bucles, objetos, interpolación de cadenas, funciones, switch, el operador existencial, desestructuración, argumentos por defecto y splats. Después explica las clases, constructores, métodos estáticos y la herencia, cómo se traducen a JavaScript y cómo combinarlas con Backbone y Ember. La parte avanzada trata las fat arrows para el contexto de this, la memoización, los objetos de opciones y la programación asíncrona con callbacks, promesas, Async.js e IcedCoffeeScript. Cierra con depuración mediante source maps en las herramientas de Firefox y Chrome, CoffeeScript en el navegador, Rails (asset pipeline), Brunch y Node.js, y el uso de CoffeeScript en el servidor con una base de datos y tareas de Cakefile.\n\nEl hilo conductor es una única aplicación web que se amplía y se refactoriza con clases, consume una API remota de forma asíncrona y acaba con un backend propio en Node.js. Es un enfoque práctico y bien graduado. Hoy hay que leerlo como contexto histórico: muchas de sus ventajas (clases, arrow functions, desestructuración, parámetros por defecto, interpolación) ya están en ES2015+. Por eso sirve sobre todo para mantener proyectos en CoffeeScript o entender de dónde vienen esas ideas. Las versiones de Rails y de las herramientas que usa están anticuadas.",
+    "temas": [
+      "CoffeeScript 1.x",
+      "Node.js",
+      "Sintaxis y comprensiones",
+      "Clases y herencia",
+      "Backbone y Ember",
+      "Programación asíncrona",
+      "Promesas y Async.js",
+      "IcedCoffeeScript",
+      "Source maps",
+      "Rails asset pipeline",
+      "Brunch",
+      "Cakefile"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación web desarrollada a lo largo del libro",
+        "descripcion": "Aplicación de cliente escrita en CoffeeScript que crece en cada capítulo: lógica dinámica, refactorización con clases para los datos y la presentación, y consultas asíncronas a una API remota con promesas o Async.js. Al final se le añade un servidor Node.js en CoffeeScript con un endpoint de datos, una base de datos y tareas de Cakefile."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-fr/product/coffeescript-application-development-9781782162667",
+      "https://helion.pl/ksiazki/coffeescript-application-development-what-javascript-user-wouldn-t-want-to-be-able-to-dramatically-ian-young-ian-greenleaf-young,e_3aw1.htm"
+    ]
+  },
+  "ember-js-application-development-how-to-2013": {
+    "descripcion": "Guía breve de la serie «Instant» de Packt en la que Marc Bodmer presenta Ember.js en formato de recetas prácticas, paso a paso y con muchas capturas de pantalla. Se escribió en 2013, en la época de Ember 1.0 (antes de Ember CLI y de Ember Data estable), y está dirigida a desarrolladores que dominan HTML y JavaScript pero nunca han usado Ember.js y quieren ponerse al día con rapidez, o resolver problemas concretos.\n\nEl libro explica primero dónde conviene usar Ember.js y cómo aplica la arquitectura Modelo-Vista-Controlador (MVC) en el frontend. Luego enseña a crear modelos, vistas y controladores de Ember, a escribir plantillas semánticas con Handlebars, y a usar propiedades computadas y bindings para mantener la interfaz sincronizada con los datos. También muestra cómo importar datos externos y cómo construir el router de la aplicación, para entender cómo cambia el estado de la aplicación a medida que el usuario interactúa con ella. La idea de fondo es mantener organizado un código frontend que crece.\n\nCon unas 40 páginas, sirve como introducción exprés a los conceptos de Ember más que como curso completo. Las recetas van montando una aplicación de ejemplo sencilla, pero no hay un proyecto extenso ni se tratan pruebas, despliegue o herramientas de build. Además, hay que leerlo con perspectiva histórica: las vistas (Ember.View), los controladores de arreglos y la forma de definir el router quedaron obsoletos con Ember 2.x y Octane, que se basan en componentes, Ember CLI y clases nativas. Hoy tiene sobre todo valor para entender código Ember heredado.",
+    "temas": [
+      "Ember.js 1.x",
+      "MVC",
+      "Handlebars",
+      "Modelos",
+      "Vistas",
+      "Controladores",
+      "Propiedades computadas",
+      "Bindings",
+      "Router",
+      "Datos externos"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.bookshare.org/browse/book/1570702",
+      "https://www.allbookstores.com/Instant-Ember-Application-Development-How/9781782163381"
+    ]
+  },
+  "ember-js-web-development-with-ember-cli-2015": {
+    "descripcion": "Libro de Suchit Puri, un desarrollador full-stack que pasó por ThoughtWorks, Huawei y Progress Software, sobre cómo construir aplicaciones web de una sola página (SPA) con Ember.js, poniendo Ember CLI en el centro del flujo de trabajo. Se publicó en 2015, en la transición de Ember 1.x a la entonces próxima Ember 2.0, y está pensado para desarrolladores de JavaScript de nivel intermedio que quieren adoptar Ember y su herramienta oficial de línea de comandos.\n\nEl recorrido empieza con la instalación y el uso de Ember CLI: generadores, estructura de proyecto, servidor de desarrollo, y cómo migrar una aplicación ya existente a este sistema. Después explica el modelo de objetos de Ember (clases, herencia y propiedades, incluidas las propiedades computadas y los observers), las plantillas Handlebars y HTMLBars, la definición de rutas para organizar la aplicación, y el uso de controladores de objeto y de arreglo (ObjectController y ArrayController) para la lógica de presentación. Completan el libro los otros pilares de Ember de esa época: los componentes reutilizables, Ember Data para modelos y comunicación con el servidor, y el despliegue de la aplicación.\n\nEl libro es práctico y con ejemplos que se ejecutan con Ember CLI, pero no gira en torno a un gran proyecto. Su aporte es explicar desde temprano por qué Ember CLI iba a ser la forma estándar de trabajar con Ember, algo que se cumplió. Su punto débil es la fecha: los controladores de objeto y de arreglo se eliminaron en Ember 2.0, y la edición Octane cambió por completo el modelo de componentes (Glimmer, clases nativas, tracked properties). Conviene conocer JavaScript y npm, y contrastar lo que enseña con la documentación actual de Ember.",
+    "temas": [
+      "Ember.js 2.0",
+      "Ember CLI",
+      "SPA",
+      "Modelo de objetos",
+      "Propiedades computadas",
+      "Handlebars y HTMLBars",
+      "Routing",
+      "Controladores",
+      "Componentes",
+      "Ember Data",
+      "Migración a Ember CLI",
+      "Despliegue"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://univ-senegal.scholarvox.com/catalog/book/88852981",
+      "https://www.goodreads.com/work/editions/45505484-ember-js-web-development-with-ember-cli",
+      "https://eld.bl.uk/catalog/018007179",
+      "https://www.packtpub.com/product/emberjs-web-development-with-ember-cli/9781784395841",
+      "https://www.oreilly.com/library/view/emberjs-web-development/9781784395841/ch03s02.html"
+    ]
+  },
+  "ext-js-4-web-application-development-cookbook-2012": {
+    "descripcion": "Recetario extenso de Stuart Ashworth y Andrew Duncan sobre Ext JS 4, el framework JavaScript de Sencha para crear aplicaciones web empresariales que funcionan en distintos navegadores, con una amplia biblioteca de widgets de interfaz y de clases para manipular datos. Ofrece más de un centenar de recetas (según la fuente, más de 110 o de 130) que se pueden leer en cualquier orden, y sirve tanto a quienes empiezan con Ext JS como a quienes vienen de Ext JS 3 y quieren aprovechar las novedades de la versión 4.\n\nArranca con los fundamentos del nuevo sistema de clases: definición de clases, herencia, mixins y búsqueda de componentes con ComponentQuery. Sigue con la manipulación del DOM, los eventos y las peticiones AJAX, y con el sistema de layouts (por ejemplo, FitLayout para que un componente llene su contenedor). A partir de ahí profundiza en los widgets centrales del framework: formularios y validación, grids, data views y paneles, además del paquete de datos (modelos, stores y proxies) para guardar y manipular información. También cubre las novedades estrella de Ext JS 4: la arquitectura MVC para estructurar el código de la aplicación, los temas personalizables y los gráficos nativos, que ya no necesitan plugins.\n\nEs un libro de consulta práctica: cada receta resuelve un problema concreto con código listo para adaptar, y al final se incluyen buenas prácticas de diseño de aplicaciones. No hay un proyecto único de principio a fin, sino muchas piezas sueltas. Conviene dominar JavaScript y tener nociones de HTML y CSS. Hay que tener en cuenta que se centra en Ext JS 4: Ext JS 5 y posteriores añadieron MVVM, ViewModels y data binding, y el framework cambió de dueño y de licencia, por lo que hoy es útil sobre todo para mantener aplicaciones Ext JS 4 heredadas.",
+    "temas": [
+      "Ext JS 4",
+      "Sencha",
+      "Sistema de clases",
+      "ComponentQuery",
+      "Eventos y AJAX",
+      "Layouts",
+      "Formularios",
+      "Grids",
+      "Data views",
+      "Stores y modelos",
+      "Arquitectura MVC",
+      "Gráficos y temas"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://ebooki.swiatczytnikow.pl/ebook/9781849516877,andrew-duncan--stuart-ashworth--andrew-duncan-and-stuart-ashworth--ext-js-4-web-.html",
+      "https://www.bookshare.org/browse/book/1590322",
+      "https://eld.bl.uk/catalog/018014792"
+    ]
+  },
+  "ext-js-6-by-example-2015": {
+    "descripcion": "Guía práctica de Anand Dayalan para aprender a crear aplicaciones web ricas (RIA) con Ext JS 6, el framework empresarial de Sencha que unificó en una sola base de código las antiguas ramas Ext JS y Sencha Touch. Está dirigida a desarrolladores front-end que empiezan con Ext JS y a quienes ya lo conocen pero quieren ejemplos realistas basados en proyectos. Solo exige conocimientos básicos de HTML, CSS y JavaScript.\n\nEl libro arranca con la instalación de Ext JS, de Sencha Cmd 6 y de herramientas de depuración en Windows y Mac, y repasa los fundamentos del framework y su sistema de consultas de componentes. Luego recorre los controles básicos de interfaz (botones, cuadros de mensaje, menús), los formularios con campos de texto, numéricos y de fecha, botones de opción y validación, y la organización del código con los patrones MVC y MVVM. La parte central trata los componentes avanzados: grids, árboles, data views y gráficos (de barras, de áreas, circulares, de líneas y 3D). Para comunicarse con el servidor usa AJAX y REST mediante stores y proxies. Cierra con diseño responsive, enrutamiento del lado del cliente, accesibilidad, localización, arrastrar y soltar, temas visuales y plugins.\n\nCada bloque temático se apoya en pequeñas aplicaciones de ejemplo que el lector construye y amplía, entre ellas un proyecto que consume una API RESTful. Es una introducción compacta (unas 220 páginas) y bien ordenada que recorre gran parte del framework. Sin embargo, por su extensión no profundiza en arquitectura de aplicaciones grandes, pruebas automatizadas ni rendimiento. Además, Ext JS es un producto comercial con licencia y su API ha cambiado en versiones posteriores (7.x), así que conviene contrastar los ejemplos con la documentación actual de Sencha.",
+    "temas": [
+      "Ext JS 6",
+      "Sencha Cmd",
+      "MVVM",
+      "MVC",
+      "Formularios",
+      "Grids",
+      "Árboles",
+      "Gráficos",
+      "Stores y proxies",
+      "REST",
+      "Routing",
+      "Temas"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicaciones de ejemplo por capítulo",
+        "descripcion": "Pequeños proyectos que el lector construye y amplía para practicar los controles básicos, los formularios, los grids, los árboles y los gráficos de Ext JS 6, organizados con MVC/MVVM."
+      },
+      {
+        "nombre": "Proyecto con API RESTful",
+        "descripcion": "Aplicación Ext JS 6 que se comunica con un servidor mediante stores y proxies REST para leer y guardar datos remotos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bookshare.org/browse/book/1577270",
+      "https://eld.bl.uk/catalog/018006693"
+    ]
+  },
+  "ext-js-application-development-blueprints-2015": {
+    "descripcion": "Libro de Colin Ramsay, coautor de los títulos de Packt Learning Ext JS y Learning Ext JS 3.2, centrado en la arquitectura de aplicaciones con Ext JS. Aunque se publicó en 2015, trabaja con Ext JS 5, la versión que introdujo MVVM, los view models y el data binding. No es un libro introductorio: está pensado para desarrolladores de nivel intermedio a avanzado que ya dominan los fundamentos del framework y quieren aprender a estructurar proyectos sólidos, mantenibles y a la altura de lo que espera un cliente.\n\nLa primera parte es conceptual. Explica los patrones MVC y MVVM y cómo los aplica Ext JS, cómo organizar la estructura de una aplicación y cómo usar Sencha Cmd para generar, compilar y gestionar el proyecto. También trata view models, data binding, sesiones de datos, reutilización de código y diseño responsive. Los capítulos finales abordan el rendimiento, la depuración y las pruebas de aplicaciones Ext JS.\n\nEl núcleo del libro son varios casos prácticos completos, cada uno precedido de una fase de diseño: el autor analiza requisitos, define la arquitectura y después la implementa. Esa forma de pensar antes de programar es lo más valioso del libro y sirve también fuera de Ext JS. Por otro lado, no explica los componentes básicos, y algunos detalles de API pueden diferir en Ext JS 6 y 7 (por ejemplo, el toolkit moderno frente al clásico). Conviene llegar con experiencia previa en Ext JS y una licencia o versión de prueba del framework.",
+    "temas": [
+      "Ext JS 5",
+      "Arquitectura de aplicaciones",
+      "MVC",
+      "MVVM",
+      "Data binding",
+      "Sencha Cmd",
+      "Diseño responsive",
+      "Rendimiento",
+      "Depuración",
+      "Testing"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Interfaz CRUD con árbol",
+        "descripcion": "Aplicación de gestión de contenidos que usa un treeview de Ext JS para navegar y editar registros con operaciones de creación, lectura, actualización y borrado."
+      },
+      {
+        "nombre": "Visor de logs y estadísticas",
+        "descripcion": "Panel de monitorización que muestra registros y estadísticas con grids y gráficos de Ext JS alimentados por stores."
+      },
+      {
+        "nombre": "Aplicación de correo responsive",
+        "descripcion": "Cliente de email cuya interfaz se adapta a distintos tamaños de pantalla mediante las capacidades responsive de Ext JS 5."
+      },
+      {
+        "nombre": "Interfaz de cuestionarios",
+        "descripcion": "Aplicación para crear y responder cuestionarios en varios pasos, con formularios y data binding."
+      },
+      {
+        "nombre": "Tienda para tabletas",
+        "descripcion": "Aplicación de compras pensada para tabletas, adaptada a pantallas táctiles con Ext JS."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://ebookpoint.pl/ksiazki/ext-js-application-development-blueprints-develop-robust-and-maintainable-projects-that-exceed-clie-abdullah-al-mohammad-colin-ramsay,e_3c5c.htm",
+      "https://www.packtpub.com/product/ext-js-application-development-blueprints/9781784395308"
+    ]
+  },
+  "getting-started-with-meteor-js-javascript-framework-2012": {
+    "descripcion": "Introducción breve a Meteor, la plataforma JavaScript full-stack que permite escribir cliente y servidor en el mismo lenguaje con datos reactivos en tiempo real. Isaac Strack, uno de los primeros en adoptar el framework, escribió esta primera edición a finales de 2012, cuando Meteor aún estaba en versiones previas a la 1.0. Está dirigida a desarrolladores o estudiantes que saben HTML y JavaScript y se manejan con la terminal. Tener experiencia con servidores web o bases de datos ayuda, pero no es imprescindible.\n\nEl libro avanza paso a paso. Primero instala Meteor y pone en marcha una aplicación en pocos minutos. Después explica la programación reactiva, el concepto central de Meteor, y por qué el framework aprovecha las tecnologías web más recientes y los patrones de diseño modernos. Luego se ocupa de las plantillas HTML (Handlebars/Spacebars en esa época) y de su combinación con una base de datos documental NoSQL (MongoDB) mediante colecciones sincronizadas entre cliente y servidor. Termina con la estructura de carpetas de una aplicación, buenas prácticas de seguridad y rendimiento, y el empaquetado y despliegue.\n\nA lo largo de los capítulos se construye una única aplicación web completa y funcional, que sirve para practicar cada concepto. Es una lectura rápida para entender la filosofía de Meteor, pero ha envejecido mucho. Meteor cambió de forma notable desde la 1.0: Blaze, el sistema de paquetes de Atmosphere/npm, la eliminación de autopublish e insecure por defecto y la integración con React o Vue. El despliegue gratuito en meteor.com que se usaba entonces ya no existe. Para aprender Meteor hoy conviene recurrir a la segunda edición (2015) o a la documentación oficial actual.",
+    "temas": [
+      "Meteor",
+      "JavaScript full-stack",
+      "Programación reactiva",
+      "Plantillas HTML",
+      "MongoDB",
+      "NoSQL",
+      "Colecciones",
+      "Estructura de aplicaciones",
+      "Seguridad",
+      "Despliegue"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación web completa con Meteor",
+        "descripcion": "Aplicación funcional que se construye a lo largo del libro con plantillas HTML reactivas y colecciones de MongoDB sincronizadas en tiempo real, y que al final se empaqueta y despliega."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://skoobe.de/books/isaac-strack/getting-started-with-meteor-js-javascript-framework",
+      "https://www.goodreads.com/book/show/17218284-getting-started-with-meteor-js-javascript-framework"
+    ]
+  },
+  "highcharts-cookbook-2014": {
+    "descripcion": "Recetario de Packt (serie «Quick answers to common problems») en el que Nicholas Terwoord reúne más de 80 recetas prácticas para crear, integrar y ampliar gráficos dinámicos e interactivos con Highcharts, la librería de gráficos en JavaScript. Se publicó en 2014, así que trabaja con la rama 3.x de Highcharts de esa época. Está pensado para desarrolladores web y de JavaScript que quieren añadir gráficos a sus aplicaciones: los primeros capítulos guían a quien empieza con Highcharts y el resto sirve de consulta para usuarios con experiencia. Conviene manejar bien JavaScript y HTML.\n\nEl libro empieza con una página sencilla con Highcharts y los casos más habituales, y luego se dedica al procesamiento de datos: cómo cargar en un gráfico datos remotos en CSV, XML y JSON, también vía AJAX. Sigue con la interacción del usuario (eventos de ratón y entrada de datos) y con cómo compartir gráficos: renderizado en el servidor, exportación de imágenes a varios formatos, envío de gráficos estáticos y dinámicos por correo y preparación para imprimir. Una parte importante trata de la integración con otros frameworks. Con Ext JS se prepara un proyecto, se conectan los gráficos a Ext.data.Store y a Ext.app.Controller, se observan datos en vivo y se crean gráficos que heredan de otros. También se integra con jQuery y sus plugins, y en el backend con el framework PHP Yii. Además, hay ejemplos en Python, PHP y Node.js.\n\nNo hay un proyecto conductor: son recetas independientes con el formato problema-solución. Su principal aporte es cubrir el «alrededor» de Highcharts (fuentes de datos, exportación, integración con frameworks frontend y backend), algo que la documentación oficial trata solo de pasada. Hay que tener en cuenta que la API de Highcharts ha cambiado mucho desde entonces (módulos, servidor de exportación, licencias), y que Ext JS 4, jQuery y Yii 1 ya están anticuados, así que algunos fragmentos necesitarán ajustes. Conviene leerlo junto con la documentación actual de Highcharts.",
+    "temas": [
+      "Highcharts",
+      "Gráficos interactivos",
+      "Datos JSON, CSV y XML",
+      "AJAX",
+      "Eventos de usuario",
+      "Exportación de gráficos",
+      "Renderizado en servidor",
+      "Ext JS",
+      "jQuery",
+      "Yii (PHP)",
+      "Node.js"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.scribd.com/document/212235610/9781783559688-Highcharts-Cookbook-Sample-Chapter",
+      "https://subscription.packtpub.com/book/web-development/9781783559688/6",
+      "https://www.oreilly.com/library/view/highcharts-cookbook/9781783559688/ch05.html"
+    ]
+  },
+  "learning-extjs-4th-edition-2015": {
+    "descripcion": "Guía paso a paso de Carlos A. Méndez, Crysfel Villa y Armando Gonzalez dedicada a Sencha Ext JS 5, el framework de JavaScript para crear aplicaciones web empresariales ricas y parecidas a las de escritorio. Esta cuarta edición (2015) se actualizó por completo a Ext JS 5 y está pensada tanto para desarrolladores de JavaScript que llegan nuevos al framework como para quienes vienen de versiones anteriores y quieren conocer sus novedades. Hay que saber JavaScript con soltura, incluida la orientación a objetos.\n\nEl libro empieza con la instalación del SDK, el uso de Sencha Cmd y la organización del proyecto. Después explica los fundamentos: el sistema de clases, la herencia, los mixins y el loader. Sigue con los componentes, contenedores y layouts (y su ciclo de vida) y con el paquete de datos: modelos, stores, proxies y validadores. Luego recorre los widgets principales: botones, barras de herramientas, menús, formularios con distintos tipos de campos, grids con sus features y plugins, DataViews con plantillas y el Tree Panel. El capítulo de arquitectura trata MVC y la novedad de Ext JS 5, MVVM, con ViewControllers, ViewModels, data binding, el router y el archivo app.json. Cierra con la personalización de temas mediante Sass y Compass, las configuraciones responsivas y el soporte para tabletas, el paquete de dibujo y gráficos, y la preparación, compilación y despliegue de la aplicación para producción.\n\nA lo largo de los capítulos se construye una aplicación de ejemplo que va sumando funciones: una app modular con árbol de módulos, menú principal y barra de navegación, a la que luego se añaden gráficos y configuración responsiva antes de empaquetarla. Es una introducción amplia y ordenada a todo el framework, útil sobre todo para entender bien MVVM y el paquete de datos. Ten en cuenta que trata exclusivamente Ext JS 5: no cubre la unificación con Sencha Touch que llegó en Ext JS 6 (toolkits classic y modern), ni las versiones modernas ni las herramientas basadas en npm. Además, Ext JS es un producto comercial con licencia.",
+    "temas": [
+      "Ext JS 5",
+      "Sencha Cmd",
+      "Sistema de clases",
+      "Componentes y layouts",
+      "Modelos y stores",
+      "Formularios",
+      "Grids",
+      "Tree Panel",
+      "MVC y MVVM",
+      "Data binding",
+      "Temas con Sass",
+      "Gráficos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación modular de ejemplo con Ext JS 5",
+        "descripcion": "Aplicación que crece capítulo a capítulo, con árbol de módulos, menú principal y barra de navegación, construida con componentes, stores, grids, formularios y la arquitectura MVVM de Ext JS 5. Al final se le añaden gráficos y configuración responsiva, y se empaqueta para producción con Sencha Cmd."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.everand.com/book/274184316/Learning-Ext-JS-Fourth-Edition",
+      "https://www.packtpub.com/en-co/product/learning-ext-js-fourth-edition-9781784394387",
+      "https://www.scribd.com/document/273795312/Learning-Ext-JS-Fourth-Edition-Sample-Chapter"
+    ]
+  },
+  "learning-underscore-js-2015": {
+    "descripcion": "Introducción práctica de Alexandru Vasile «Alex» Pop a Underscore.js, la popular librería de utilidades y programación funcional para JavaScript, publicada por Packt en 2015, cuando la librería estaba en su rama 1.x y ECMAScript 6 acababa de estandarizarse. Está dirigida a desarrolladores con conocimientos básicos de JavaScript que quieren escribir código más expresivo y reutilizable. El libro empieza repasando poco a poco los conceptos clave del lenguaje, así que no hace falta experiencia previa en programación funcional.\n\nTras un primer capítulo con las funciones clave de Underscore.js, el autor prepara un flujo de trabajo ligero guiado por pruebas, es decir, desarrollo dirigido por tests, con el que se validan todos los ejemplos. Después repasa la API en profundidad: funciones para colecciones (each, map, reduce, filter, groupBy y otras) y para arreglos, funciones y objetos. Dedica un capítulo a los paradigmas de programación y muestra cómo usar Underscore.js como base de módulos propios, tanto en estilo orientado a objetos como en estilo funcional. También trata su uso en el navegador, en el servidor con Node.js y junto a una base de datos, cómo compartir código entre cliente y servidor, las librerías relacionadas con Underscore.js, la preparación para ECMAScript 6, la automatización del build y la reutilización de código.\n\nNo construye una aplicación completa: aprendes con ejemplos pequeños, cada uno acompañado de sus pruebas, lo que de paso enseña buenas prácticas de testing en JavaScript. Es una buena puerta de entrada al estilo funcional en JavaScript. Hoy, sin embargo, buena parte de lo que aportaba Underscore.js lo cubren los métodos nativos de ES2015+ (map, filter, reduce, find, Object.assign, etc.) o Lodash, así que su valor actual está más en los conceptos que en la librería concreta. Además, las herramientas de build que usa son de 2015.",
+    "temas": [
+      "Underscore.js",
+      "Programación funcional",
+      "Colecciones",
+      "Arreglos y objetos",
+      "Funciones de orden superior",
+      "Desarrollo guiado por pruebas",
+      "Node.js",
+      "Código compartido cliente-servidor",
+      "Módulos reutilizables",
+      "ECMAScript 6",
+      "Automatización del build"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://ebookpoint.pl/ksiazki/learning-underscorejs-explore-the-underscore-js-library-by-example-using-a-test-driven-development-alexandru-vasile-pop,e_3c8j.htm",
+      "https://www.packtpub.com/en-us/product/learning-underscorejs-9781784397067",
+      "https://www.goodreads.com/book/show/21544683-highcharts-cookbook"
+    ]
+  },
+  "mastering-dojo-2008": {
+    "descripcion": "Libro de The Pragmatic Programmers dedicado a Dojo Toolkit, uno de los grandes frameworks JavaScript de la época de la Web 2.0, escrito por Craig Riecke y Rawld Gill junto a Alex Russell, cofundador y líder del proyecto Dojo. Trabaja con la rama 1.x del toolkit (la que estaba vigente en 2008, cuando la API se estabilizó tras la gran reescritura de la versión 1.0). Está pensado para desarrolladores con experiencia en JavaScript, HTML y CSS que quieren crear aplicaciones web ricas y no solo añadir efectos sueltos a una página; no es un libro para quien empieza a programar.\n\nEl recorrido empieza por Dojo Core, la base sobre la que se apoya todo lo demás: utilidades del lenguaje, manipulación del DOM, eventos, animaciones y comunicación Ajax con el servidor. Después explica cómo modularizar un proyecto con el sistema de módulos y paquetes de Dojo y cómo prepararlo para producción con su sistema de build. La segunda gran parte se centra en Dijit, el sistema de widgets, con más de 40 componentes que incluyen formularios, layouts y controles complejos como árboles (tree) y rejillas (grid), además de la forma de crear widgets propios. Gracias a la participación de Russell, el libro no se limita a enseñar la API: explica las razones de diseño del toolkit y los compromisos que implica para la experiencia de usuario.\n\nLa obra culmina con la construcción de una aplicación de una sola página (RIA) que integra las piezas vistas. Su gran aporte es el «cómo» y el «porqué» de Dojo, a diferencia de títulos de referencia como Dojo: The Definitive Guide. Hoy tiene sobre todo valor histórico o de mantenimiento: Dojo 1.x usa un sistema de módulos anterior a AMD (dojo.require/dojo.provide), que cambió en versiones posteriores, y el proyecto ha quedado superado por frameworks modernos. Es útil si debes mantener aplicaciones heredadas con Dojo o si te interesa entender cómo se diseñaban los toolkits de widgets antes de React o Angular.",
+    "temas": [
+      "Dojo Toolkit 1.x",
+      "Dojo Core",
+      "Manipulación del DOM",
+      "Eventos",
+      "Ajax",
+      "Animaciones",
+      "Módulos y paquetes",
+      "Sistema de build",
+      "Dijit",
+      "Widgets personalizados",
+      "Tree y Grid",
+      "Aplicaciones de una sola página"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación web rica de una sola página",
+        "descripcion": "Aplicación RIA que se desarrolla al final del libro combinando Dojo Core, el sistema de módulos y los widgets de Dijit para ofrecer una interfaz interactiva de escritorio en el navegador. No encontré el nombre ni los detalles exactos de la aplicación."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/pub/pr/2030",
+      "https://infrequently.org/page/109",
+      "https://www.abebooks.com/9781934356111/Mastering-Dojo-JavaScript-Ajax-Tools-1934356115/plp"
+    ]
+  },
+  "prototype-and-script-aculo-us-2007": {
+    "descripcion": "Guía de The Pragmatic Programmers (subtitulada «You Never Knew JavaScript Could Do This!») sobre Prototype y script.aculo.us, las dos librerías JavaScript que dominaban el desarrollo web interactivo a mediados de los 2000 y que venían integradas en Ruby on Rails. La escribió Christophe Porteneuve, miembro del equipo central de Prophet desde 2006, y trata las versiones de entonces (Prototype 1.6 y script.aculo.us 1.8). Está dirigida a desarrolladores web de nivel intermedio que ya conocen JavaScript y el DOM y quieren aprovechar a fondo estas librerías.\n\nLa parte de Prototype muestra cómo resuelve las diferencias entre navegadores y simplifica tareas habituales: extensiones al lenguaje y a los objetos nativos (con un estilo que recuerda a Ruby), recorrido y manipulación del DOM, manejo de eventos, formularios y peticiones Ajax. La parte de script.aculo.us cubre efectos visuales, construcción eficiente de fragmentos del DOM, campos de texto con autocompletado, editores en el lugar (in-place editors) y arrastrar y soltar personalizado. Los ejemplos de servidor que acompañan a las llamadas Ajax usan PHP, Ruby simple y Ruby on Rails. Para usuarios avanzados, el libro explica también la filosofía de diseño de ambas librerías y cómo extenderlas o contribuir a ellas.\n\nEl libro funciona como referencia práctica, con muchos ejemplos de código para cada funcionalidad, y no tiene un proyecto que lo recorra de principio a fin. Las opiniones están divididas: en el entorno de Rails se lo consideró el libro definitivo sobre ambas librerías, pero algunas reseñas critican explicaciones difíciles de seguir, un tono demasiado coloquial y ejemplos complejos. Hoy tiene sobre todo valor histórico o de mantenimiento: jQuery y después los frameworks modernos y el propio DOM estándar dejaron atrás a Prototype. Solo conviene si debes mantener código heredado, por ejemplo una aplicación Rails antigua.",
+    "temas": [
+      "Prototype 1.6",
+      "script.aculo.us 1.8",
+      "Compatibilidad entre navegadores",
+      "Manipulación del DOM",
+      "Eventos",
+      "Ajax",
+      "Efectos visuales",
+      "Autocompletado",
+      "Edición en el lugar",
+      "Drag and drop",
+      "Ruby on Rails",
+      "Extensión de librerías"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://app.oreilly.com/pub/pr/1898",
+      "https://discuss.rubyonrails.org/t/adv-new-pragmatic-book-on-prototype-and-script-aculo-us/12619",
+      "https://www.i-programmer.info/bookreviews/29-javascript/57-prototype-and-scriptaculous-you-never-knew-javascript-could-do-this-.html"
+    ]
+  },
+  "hands-on-sencha-touch-2-2014": {
+    "descripcion": "Libro práctico de O'Reilly (subtitulado «A Real-World App Approach») en el que Lee Boonstra, exformadora técnica de Sencha, enseña a crear aplicaciones web móviles rápidas con Sencha Touch 2.3, el framework de interfaz en JavaScript de Sencha para dispositivos táctiles. Está pensado para desarrolladores de nivel intermedio que ya conocen JavaScript, HTML5, CSS3 y JSON y quieren crear aplicaciones con aspecto y comportamiento nativos para Android, iOS, Windows Phone y BlackBerry desde una misma base de código.\n\nLa primera parte cubre lo esencial: qué es Sencha Touch, la instalación con Sencha Cmd, los fundamentos, el sistema de clases y el de layouts. La segunda parte sigue el desarrollo de una aplicación real y explica la arquitectura MVC de Sencha y la organización del código, los modelos de datos, las conexiones remotas mediante proxies de servidor (AJAX y JSONP), los stores, el almacenamiento sin conexión mediante proxies de cliente (Local Storage y Web SQL), los componentes de vista como mapas, listas y paneles flotantes, los formularios con validación, y los temas personalizados con Sass. Termina con las builds de producción y el empaquetado nativo, y añade apéndices sobre certificados y perfiles de aprovisionamiento de iOS y la hoja de estilos completa de la aplicación.\n\nTodo el libro gira en torno a FindACab, una aplicación para buscar taxis cercanos que se construye capítulo a capítulo, lo que da un hilo conductor claro y un código reutilizable. Explica bien el «modo Sencha» de estructurar aplicaciones, que también es útil para Ext JS. La advertencia principal es la vigencia: Sencha Touch dejó de evolucionar y se integró en Ext JS 6 como el kit moderno, y hoy las aplicaciones móviles híbridas suelen hacerse con otras tecnologías. Resulta valioso sobre todo para mantener proyectos existentes de Sencha Touch o Ext JS.",
+    "temas": [
+      "Sencha Touch 2.3",
+      "Sencha Cmd",
+      "Sistema de clases",
+      "Layouts",
+      "Arquitectura MVC",
+      "Modelos y stores",
+      "Proxies de servidor",
+      "Almacenamiento offline",
+      "Mapas y listas",
+      "Formularios",
+      "Temas con Sass",
+      "Builds nativas"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "FindACab",
+        "descripcion": "Aplicación móvil para buscar taxis que se desarrolla a lo largo de la segunda parte del libro con Sencha Touch 2.3: arquitectura MVC, datos remotos mediante proxies de servidor, almacenamiento offline, mapas, listas, formularios y un tema propio. Al final se empaqueta como build de producción y como aplicación nativa para distintas plataformas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/hands-on-sencha-touch-2-a-real-world-app-approach-lee-boonstra,e_2gey.htm",
+      "https://www.oreilly.com/pub/au/6134"
+    ]
+  },
+  "kendo-ui-cookbook-2014": {
+    "descripcion": "Recetario de Packt en el que Sagar Ganatra, arquitecto frontend y autor de Instant Kendo UI Mobile, reúne más de 50 recetas para crear aplicaciones web vistosas con Kendo UI, la biblioteca de componentes de Telerik basada en jQuery, en la versión vigente en 2014 (antes de las ediciones para Angular, React o Vue). Está pensado para desarrolladores web que ya manejan HTML y JavaScript, y algo de jQuery, y quieren pasar del uso básico de los widgets a resolver problemas concretos con ellos.\n\nEl primer capítulo se dedica al framework de aplicación de Kendo UI: plantillas del lado del cliente con etiquetas script de tipo personalizado, enlace de datos bidireccional con el patrón MVVM, enlaces source y template con un ViewModel y validación de formularios con el Validator integrado. Luego repasa los widgets principales: Grid (crearlo a partir de una tabla o un div, enlazarlo a un DataSource local o remoto, ordenar, filtrar, operaciones CRUD, virtualización y estilos), TreeView, Editor, PanelBar, File Uploader y Window modal. Los capítulos finales tratan Kendo UI Mobile (su framework de aplicación y sus widgets móviles) y Kendo UI DataViz para gráficos, con un capítulo propio de gráficos avanzados.\n\nNo se construye una aplicación completa: cada receta resuelve una tarea concreta con un widget, así que funciona mejor como libro de consulta que como curso de principio a fin. Su principal limitación hoy es la vigencia, porque Kendo UI ha cambiado mucho (DataViz se integró en el paquete general y el producto se reparte entre Kendo UI para jQuery y versiones nativas para frameworks), y la parte móvil quedó obsoleta. Sigue sirviendo a quien mantiene proyectos heredados con Kendo UI para jQuery, sobre todo por las recetas del Grid y del DataSource, que se parecen mucho a las actuales.",
+    "temas": [
+      "Kendo UI",
+      "jQuery",
+      "MVVM",
+      "Plantillas del cliente",
+      "DataSource",
+      "Kendo UI Grid",
+      "TreeView",
+      "Editor",
+      "Window",
+      "Kendo UI Mobile",
+      "DataViz",
+      "Gráficos"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/product/kendo-ui-cookbook/9781783980000",
+      "https://www.everand.com/book/272081491/Kendo-UI-Cookbook",
+      "https://tenlong.com.tw/products/9781783980000"
+    ]
+  },
+  "sencha-touch-cookbook-2nd-edition-2013": {
+    "descripcion": "Segunda edición, reescrita para Sencha Touch 2, del recetario de Ajit Kumar, fundador de una empresa especializada en los frameworks de Sencha y autor de Sencha MVC Architecture. A lo largo de 17 capítulos con recetas, muestra cómo crear aplicaciones móviles táctiles multiplataforma con HTML5 y JavaScript. Está dirigido a desarrolladores que empiezan con Sencha Touch y ya tienen experiencia con HTML, CSS, el DOM y JavaScript. Se recomienda tener a mano uno o más dispositivos móviles para probar.\n\nEmpieza preparando el entorno de desarrollo para Android, iOS, BlackBerry y navegadores de escritorio, y enseña a construir, empaquetar y ejecutar la aplicación en un navegador, un emulador o un dispositivo real, además de detectar el dispositivo y gestionar los cambios de orientación. Después trabaja con formularios (FormPanel, selectores de fecha, sliders y validación), contenedores y layouts, y vistas personalizadas con plantillas y DataView. Sigue con el modelado de datos del lado del cliente: modelos, stores, proxies y lectores JSON/XML, persistencia con el proxy LocalStorage y la sincronización sin conexión. Además, cubre la geolocalización y otras funciones del dispositivo, y termina con la generación de paquetes nativos con Sencha Cmd, sin usar PhoneGap ni Cordova.\n\nEl formato de recetario permite ir directo a un tema o leer un capítulo completo, pero no hay una aplicación completa que se construya de principio a fin, así que la arquitectura MVC de Sencha queda menos desarrollada que en un libro centrado en ella. Conviene saber que Sencha Touch está descontinuado: Sencha lo integró en Ext JS como su toolkit moderno, y BlackBerry ya no es una plataforma relevante. Por eso hoy interesa sobre todo a quien mantiene aplicaciones heredadas o migra a Ext JS, que conserva buena parte de los conceptos de componentes, stores y layouts.",
+    "temas": [
+      "Sencha Touch 2",
+      "Aplicaciones móviles HTML5",
+      "Formularios",
+      "Contenedores y layouts",
+      "DataView y plantillas",
+      "Modelos y stores",
+      "Proxies",
+      "LocalStorage",
+      "Sincronización offline",
+      "Geolocalización",
+      "Sencha Cmd",
+      "Empaquetado nativo"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/application-development/sencha-touch-cookbook-second-edition",
+      "https://books.apple.com/us/book/sencha-touch-cookbook-second-edition/id694386573",
+      "https://www.bookshare.org/browse/book/1572556",
+      "https://tenlong.com.tw/products/9781782169185"
+    ]
+  }
+}

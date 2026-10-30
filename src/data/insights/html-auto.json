@@ -1,0 +1,475 @@
+{
+  "custom-sharepoint-solutions-with-html-and-javascript-2015": {
+    "descripcion": "Libro de Brandon Atkinson, arquitecto y desarrollador en CapTech Consulting, que enseña a personalizar sitios de SharePoint 2013 y SharePoint Online casi por completo desde el frontend, con HTML, JavaScript y CSS, sin el desarrollo clásico del lado del servidor en .NET. Está pensado para desarrolladores web y frontend, desarrolladores .NET y usuarios avanzados de SharePoint. No exige experiencia previa con tecnologías de Microsoft, pero quien ya maneja JavaScript le sacará más partido a los capítulos centrales. Las técnicas sirven también para SharePoint 2016.\n\nEl recorrido va de lo más sencillo a lo más técnico. Primero se prepara el entorno y se ve qué es una solución frontend en SharePoint. Luego se colocan web parts estándar desde el navegador y se modifican con los web parts Content Editor y Script Editor. Después se trabaja con los métodos y propiedades JavaScript que SharePoint trae de serie, el modelo de objetos de JavaScript (JSOM) y la API REST para leer y manipular listas y otros datos. Los capítulos finales tratan la creación de web parts personalizados con HTML y JavaScript, el uso de JSLink para cambiar la presentación de los web parts de lista y el Content Search Web Part con sus plantillas de visualización (display templates).\n\nSe aprende con ejemplos de código aplicados a un sitio de SharePoint, no construyendo una aplicación completa. Su gran ventaja es que muestra cómo hacer personalizaciones serias sin desplegar soluciones de granja, algo clave en SharePoint Online. Hay que saber que se centra en SharePoint 2013: no cubre SharePoint Framework (SPFx), las páginas modernas ni React, que hoy son el estándar en Microsoft 365. Por eso conviene leerlo como base conceptual de JSOM, REST y JSLink, o para mantener sitios clásicos.",
+    "temas": [
+      "SharePoint 2013",
+      "SharePoint Online",
+      "Content Editor Web Part",
+      "Script Editor Web Part",
+      "JSOM",
+      "API REST de SharePoint",
+      "JSLink",
+      "Web parts personalizados",
+      "Content Search Web Part",
+      "Display templates",
+      "JavaScript"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.bookshare.org/browse/book/2102246",
+      "https://www.oreilly.com/library/view/-/9781484205440/",
+      "https://link.springer.com/978-1-4842-0545-7"
+    ]
+  },
+  "introduccion-xhtml-2013": {
+    "descripcion": "Libro gratuito en español de Javier Eguíluz Pérez, publicado en su sitio LibrosWeb con licencia Creative Commons (reconocimiento, no comercial, sin obra derivada). Es una introducción al lenguaje de marcado XHTML 1.0, la reformulación de HTML 4 con la sintaxis estricta de XML, que dominó el desarrollo web antes de HTML5. Está dirigido a principiantes absolutos que quieren aprender a escribir páginas web y no requiere conocimientos previos de programación.\n\nEmpieza explicando qué es HTML, su historia, la especificación oficial del W3C, la relación entre HTML y XHTML y cómo se reparten el trabajo el marcado (HTML) y el diseño (CSS). Después repasa las características básicas del lenguaje y la estructura de un documento, y sigue con los elementos de uso diario: marcado de texto, enlaces, listas, imágenes, tablas y formularios. Pone el acento en las buenas prácticas de la época: marcado semántico, separación entre contenido y presentación y validación de documentos según los estándares.\n\nEs un texto claro y bien ordenado, típico del estilo didáctico de LibrosWeb, y sirve para entender los fundamentos del marcado web y la disciplina de escribir código válido. Hoy está desfasado: no cubre los elementos semánticos de HTML5 (header, nav, article, section), los nuevos tipos de input ni los elementos multimedia, y algunas prácticas de XHTML (como la declaración DOCTYPE estricta) ya no se usan. El sitio LibrosWeb/Uniwebsidad ya cerró, y su propio autor recomienda la sección \"Aprende desarrollo web\" de MDN como alternativa actual. Conviene leerlo como contexto histórico o complementarlo con un recurso de HTML5.",
+    "temas": [
+      "XHTML 1.0",
+      "HTML 4",
+      "Estructura del documento",
+      "Texto y marcado semántico",
+      "Enlaces",
+      "Listas",
+      "Imágenes",
+      "Tablas",
+      "Formularios",
+      "Estándares W3C",
+      "Validación"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "media",
+    "fuentes": [
+      "https://uniwebsidad.com/libros/xhtml"
+    ]
+  },
+  "html-css-the-complete-reference-5th-edition-2010": {
+    "descripcion": "Quinta edición de la conocida obra de consulta de Thomas A. Powell, presidente de PINT, Inc. y autor también de Ajax: The Complete Reference y coautor de JavaScript: The Complete Reference. Esta edición de 2010 se renovó para centrarse en HTML5, cuando la especificación todavía era un borrador, frente a ediciones anteriores dedicadas sobre todo a HTML 4 y XHTML. Va dirigida a desarrolladores y diseñadores web con cierta experiencia que buscan una referencia exhaustiva más que un curso desde cero.\n\nTiene dos grandes bloques. El de marcado repasa el HTML y XHTML tradicionales, presenta HTML5 (nuevos elementos semánticos, formularios, audio, video, canvas) e incluye una referencia de elementos con sus atributos y su compatibilidad con los navegadores de la época. El de estilos introduce CSS, documenta la sintaxis y todas las propiedades de CSS 2.1 y recoge las propiedades de CSS3 y las propiedades propietarias con prefijo que los navegadores soportaban entonces. Cinco apéndices cubren entidades de caracteres, fuentes, colores, URLs y cómo leer una DTD.\n\nNo se aprende construyendo proyectos. Es un manual de consulta con ejemplos breves de marcado y estilo para cada elemento y propiedad, útil para tener en la mesa y resolver dudas de sintaxis o compatibilidad. Su rigor y amplitud son notables, pero ha envejecido mucho: es anterior a Flexbox y CSS Grid, a las variables CSS, a las media queries como base del diseño responsive y a muchos cambios del HTML Living Standard. La información de compatibilidad también está superada. Hoy tiene sobre todo valor histórico o para entender código heredado, y MDN es una referencia más actual.",
+    "temas": [
+      "HTML5",
+      "XHTML",
+      "HTML 4",
+      "Referencia de elementos",
+      "CSS 2.1",
+      "CSS3",
+      "Propiedades propietarias",
+      "Compatibilidad de navegadores",
+      "Entidades de caracteres",
+      "DTD"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/html-css/9780071496292",
+      "https://skillsoft.com/book/html-css-the-complete-reference-fifth-edition-daa315d0-f3b5-11e6-bb2f-0242c0a80b05"
+    ]
+  },
+  "programming-windows-store-apps-with-html-css-and-javascript-2nd-edition-2014": {
+    "descripcion": "Libro electrónico gratuito de 1311 páginas publicado por Microsoft Press y escrito por Kraig Brockschmidt, miembro del equipo de ecosistema de Windows, sobre el desarrollo de aplicaciones de la Tienda Windows con HTML, CSS y JavaScript para Windows 8.1. Esta segunda edición añade casi 480 páginas a la primera y cuenta el estado de la plataforma en Windows 8.1, no solo lo que cambió respecto a Windows 8. Gran parte del contenido también sirve para Windows Phone 8.1. Va dirigido a desarrolladores que ya conocen los estándares web: el libro no enseña HTML, CSS ni JavaScript, sino cómo aplicarlos dentro de la plataforma Windows.\n\nRecorre el ciclo de vida de una app de la Tienda, la anatomía de la aplicación, la navegación entre páginas y las promesas de WinJS, con un apéndice dedicado a explicarlas a fondo. Usa la biblioteca WinJS y las APIs de Windows Runtime (WinRT) para el diseño con CSS Grid y las vistas de tamaño variable, los controles, el elemento webview para contenido web, las peticiones con Windows.Web.Http.HttpClient, las transferencias en segundo plano, la autenticación, los servicios Live y OneDrive, los mosaicos y las notificaciones, los medios, los dispositivos periféricos y las compras dentro de la app en la Tienda Windows. También cubre la depuración y el perfilado de rendimiento. Las herramientas son Visual Studio 2013, Blend y el SDK de Windows 8.1, y el autor se apoya mucho en los ejemplos oficiales del SDK, que comenta y a veces modifica.\n\nEn la práctica, el lector construye una app propia a lo largo del libro, \"Here My Am!\", que se amplía capítulo a capítulo hasta quedar localizada en varios idiomas. Además, el contenido complementario trae ejemplos propios del autor y versiones adaptadas de los ejemplos del SDK. Es probablemente el tratamiento más completo que existió de las apps WinJS, con mucho conocimiento obtenido de revisar apps reales. Su gran limitación es que la plataforma quedó obsoleta: Windows 10 la sustituyó por UWP, WinJS quedó abandonada y Microsoft dejó de promover las apps JavaScript nativas. Hoy interesa sobre todo como referencia histórica o para mantener aplicaciones heredadas.",
+    "temas": [
+      "Windows 8.1",
+      "Windows Store apps",
+      "WinJS",
+      "Windows Runtime (WinRT)",
+      "Promesas",
+      "CSS Grid",
+      "HttpClient",
+      "Mosaicos y notificaciones",
+      "OneDrive",
+      "Compras dentro de la app",
+      "Visual Studio 2013",
+      "Localización"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Here My Am!",
+        "descripcion": "App de la Tienda Windows que se empieza en el capítulo de inicio rápido y se va ampliando a lo largo del libro: usa la geolocalización y la cámara con WinRT y WinJS, y al final queda localizada en varios idiomas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://learn.microsoft.com/en-us/archive/blogs/microsoft_press/free-ebook-programming-windows-store-apps-with-html-css-and-javascript-second-edition",
+      "https://learn.microsoft.com/en-us/archive/blogs/microsoft_press/first-preview-programming-windows-store-apps-with-html-css-and-javascript-second-edition"
+    ]
+  },
+  "dom-enlightenment-2013": {
+    "descripcion": "Libro breve de Cody Lindley, autor de jQuery Cookbook, publicado por O'Reilly en 2013. Explica cómo funciona realmente el Document Object Model (DOM) y cómo manipular HTML con JavaScript nativo, sin bibliotecas como jQuery. Se dirige a desarrolladores de nivel intermedio o avanzado que ya conocen JavaScript, que quizá se formaron con jQuery y quieren entender lo que hay por debajo o necesitan trabajar con poca carga en navegadores modernos y móviles.\n\nAvanza con ejemplos de código cortos, al estilo de un cookbook, centrados en los distintos tipos de nodos. Empieza con una visión general de los nodos y sigue con los nodos Document, Element, Text y DocumentFragment. Explica la selección de elementos (querySelector, querySelectorAll y colecciones), la geometría y el desplazamiento de los elementos (offset, client, scroll y getBoundingClientRect) y los estilos inline. También trata las hojas de estilo y las reglas CSS desde el DOM, la carga y ejecución de JavaScript en el documento y los eventos del DOM con su propagación (captura y burbujeo), la delegación y los objetos de evento.\n\nEl último capítulo reúne lo aprendido en dom.js, una pequeña biblioteca de manipulación del DOM inspirada en jQuery para navegadores modernos. Así se ve cómo se construye una abstracción a partir de las APIs nativas. Es un texto conciso y muy didáctico que sigue siendo útil, porque las APIs básicas del DOM apenas han cambiado. Eso sí, es anterior a ES2015 y a APIs como MutationObserver, IntersectionObserver o los Web Components, y algunos comentarios sobre compatibilidad de navegadores han quedado viejos. No es un libro de JavaScript general: conviene llegar sabiendo el lenguaje.",
+    "temas": [
+      "DOM",
+      "JavaScript nativo",
+      "Nodos y tipos de nodo",
+      "Selección de elementos",
+      "Geometría y scroll",
+      "Estilos inline",
+      "CSSOM",
+      "DocumentFragment",
+      "Eventos del DOM",
+      "Propagación de eventos",
+      "Construir una biblioteca DOM"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "dom.js",
+        "descripcion": "Pequeña biblioteca de manipulación del DOM inspirada en jQuery, que se construye en el último capítulo con APIs nativas de JavaScript para navegadores modernos (selección de elementos, recorrido y operaciones encadenables)."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/dom-enlightenment/9781449344498/",
+      "https://helion.pl/ksiazki/dom-enlightenment-exploring-javascript-and-the-modern-dom-cody-lindley,e_2grk.htm"
+    ]
+  },
+  "head-first-html-and-css-2nd-edition-2012": {
+    "descripcion": "Segunda edición del clásico de la serie Head First en el que Elisabeth Robson y Eric Freeman enseñan a crear páginas web basadas en estándares con HTML y CSS. Actualizada en 2012 para incorporar HTML5 y CSS moderno, está pensada para principiantes absolutos: no exige conocimientos previos de HTML, CSS ni programación, y sigue el formato visual de la colección, con ilustraciones, diálogos, crucigramas y preguntas que obligan a pensar en lugar de solo leer.\n\nEl libro arranca explicando el papel del servidor web y del navegador y creando la primera página para la cafetería ficticia Starbuzz Coffee. A partir de ahí recorre el hipertexto y los enlaces, la estructura de las páginas con elementos de bloque y en línea, cómo publicar un sitio en un servidor (FTP, URLs, rutas relativas y absolutas), imágenes y sus formatos, y la importancia de los estándares y la validación. La segunda mitad se dedica a CSS: selectores, fuentes y colores (incluidos los códigos hexadecimales), el modelo de caja, div y span, maquetación con float y posicionamiento, el marcado semántico de HTML5, tablas y listas, y finalmente formularios HTML. También desaconseja prácticas obsoletas como maquetar con tablas o depender de los colores web-safe.\n\nTodo se aprende modificando una y otra vez sitios de ejemplo de pequeña escala, así que la práctica es constante. Su gran aporte es que el lector entiende de verdad el modelo de caja y la separación entre estructura y presentación. Como contrapartida, el ritmo es lento y repetitivo para quien ya tiene alguna base, enseña técnicas de maquetación anteriores a Flexbox y Grid (que hoy hay que aprender aparte) y no cubre JavaScript ni herramientas de desarrollo modernas. Es una excelente primera lectura para quien parte de cero.",
+    "temas": [
+      "HTML5",
+      "CSS",
+      "Enlaces e hipertexto",
+      "Imágenes",
+      "Estándares web",
+      "Selectores CSS",
+      "Modelo de caja",
+      "Maquetación con float",
+      "Posicionamiento CSS",
+      "Tablas",
+      "Formularios HTML",
+      "Publicación web"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio web de Starbuzz Coffee",
+        "descripcion": "Sitio de una cafetería ficticia que se crea en el primer capítulo con HTML básico y se va ampliando y estilizando con CSS a lo largo del libro."
+      },
+      {
+        "nombre": "Sitios de ejemplo de la serie (p. ej. Head First Lounge)",
+        "descripcion": "Pequeños sitios que se construyen y refactorizan capítulo a capítulo para practicar enlaces, imágenes, maquetación con CSS, tablas y formularios."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://oreilly.com/library/view/head-first-html/9781449324469",
+      "https://helion.pl/ksiazki/e_2gxd.htm",
+      "https://www.i-programmer.info/bookreviews/12-web-design-and-development-/5285-head-first-html-and-css.html"
+    ]
+  },
+  "html-css-the-good-parts-2010": {
+    "descripcion": "Libro de Ben Henick dentro de la serie «The Good Parts» de O'Reilly que busca conectar la teoría y el diseño de HTML y CSS con el trabajo diario de maquetación. Publicado en 2010, se sitúa en la época de HTML 4.01/XHTML 1.0 y CSS 2.1, justo antes de la adopción masiva de HTML5 y CSS3. La editorial lo dirige a lectores de nivel intermedio a avanzado: quienes ya escriben HTML y CSS y quieren entender por qué las cosas funcionan como funcionan.\n\nEl recorrido empieza con lo que diferencia a la web de otros medios (su naturaleza no lineal), sigue con la sintaxis de HTML y sus variantes, una introducción a CSS, los estándares, la relación entre estilo y estructura y la maquetación con CSS. Después dedica capítulos a listas; encabezados, hipervínculos, elementos en línea y citas; colores y fondos; tablas; imágenes y multimedia; tipografía web (desde la imprenta hasta Unicode) y formularios. Cierra con un capítulo sobre «las partes malas» de HTML y CSS, es decir, los elementos y prácticas que conviene evitar.\n\nEs un libro más reflexivo que práctico: contiene poco código, los ejemplos llegan tarde y casi no toca JavaScript ni el DOM. Las críticas destacan que se toma en serio el marcado semántico, pero también que su estilo es denso y académico. Hoy su valor es sobre todo conceptual (semántica, tipografía, buenas prácticas de estructura); las técnicas de maquetación que describe han quedado superadas por Flexbox, Grid y el HTML5 moderno, así que conviene leerlo como complemento de un texto actualizado.",
+    "temas": [
+      "HTML 4.01",
+      "XHTML",
+      "CSS 2.1",
+      "Marcado semántico",
+      "Estándares web",
+      "Maquetación CSS",
+      "Tipografía web",
+      "Colores y fondos",
+      "Tablas",
+      "Formularios",
+      "Malas prácticas"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/html-css/9781449381943",
+      "https://i-programmer.info/bookreviews/12-web-design-and-development-/1433-html-a-css-the-good-parts.html",
+      "https://www.tenlong.com.tw/products/9780596157609"
+    ]
+  },
+  "html-xhtml-pocket-reference-4th-edition-2009": {
+    "descripcion": "Guía de bolsillo de Jennifer Niederst Robbins que condensa el material de referencia más importante de su libro «Web Design in a Nutshell», con algunos añadidos. La cuarta edición, de finales de 2009, cubre HTML 4.01, XHTML 1.0 y CSS 2.1. Está dirigida a diseñadores, autores y programadores web que ya conocen el lenguaje y necesitan una consulta rápida, no a quien empieza desde cero.\n\nReúne todas las etiquetas de HTML y XHTML, con sus atributos y notas de uso, y todos los valores de las propiedades de CSS. Las entradas están organizadas según las necesidades habituales del desarrollador web y tienen referencias cruzadas entre sí, para pasar con facilidad del elemento a la propiedad de estilo relacionada. La edición está orientada a abandonar técnicas antiguas, como los GIF espaciadores y las tablas anidadas para maquetar, en favor de un marcado basado en estándares.\n\nNo hay proyectos ni ejercicios: es un libro de consulta para tener junto al teclado. Su punto fuerte es la concisión y la cobertura completa de las especificaciones de su época. A cambio, no incluye HTML5 ni CSS3 (eso llegó con la posterior «HTML5 Pocket Reference») y hoy la documentación en línea, como MDN, cumple mejor esa función, así que su interés es sobre todo histórico o para mantener sitios basados en XHTML.",
+    "temas": [
+      "HTML 4.01",
+      "XHTML 1.0",
+      "CSS 2.1",
+      "Referencia de etiquetas",
+      "Atributos HTML",
+      "Propiedades CSS",
+      "Estándares web"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/html-xhtml/9780596808259",
+      "https://ebooki.swiatczytnikow.pl/ebook/9781449382988,jennifer-robbins--html-xhtml-pocket-reference-quick-comprehensive-indispensible-.html"
+    ]
+  },
+  "html-xhtml-the-definitive-guide-6th-edition-2006": {
+    "descripcion": "Sexta edición de la extensa obra de Chuck Musciano y Bill Kennedy, que funciona a la vez como tutorial y como referencia del desarrollo web basado en estándares. Cubre HTML 4.01, XHTML 1.0 y CSS2, con un adelanto de lo que iban a ser XHTML2 y CSS3. Sirve para quien empieza, gracias a su «Quick Start» y sus capítulos de fundamentos, pero también para profesionales que buscan una explicación detallada de cada elemento.\n\nTras presentar la relación entre HTML, XHTML y la web y la anatomía de un documento, recorre texto, reglas horizontales, imágenes y multimedia, enlaces, listas, hojas de estilo en cascada, formularios, tablas y frames. Después aborda el contenido ejecutable (applets y scripts), los documentos dinámicos, los dispositivos móviles de la época, los fundamentos de XML y XHTML (incluidos XForms, XFrames y la modularización) y un capítulo de trucos y consejos. Los apéndices incluyen la gramática de HTML, referencias rápidas de etiquetas y de propiedades CSS, los DTD de HTML 4.01 y XHTML 1.0, entidades de caracteres y nombres de colores.\n\nEl libro explica cada elemento en detalle, cómo interactúa con los demás y cómo lo soportaba cada navegador, con ejemplos de código pero sin proyectos guiados. Es muy exhaustivo y riguroso para su época, aunque hoy está claramente desfasado: los frames, los extensiones de Netscape y el XHTML2 son historia, y no trata HTML5, CSS3 moderno ni diseño responsive. Conviene leerlo como referencia histórica o para mantener código heredado.",
+    "temas": [
+      "HTML 4.01",
+      "XHTML 1.0",
+      "CSS2",
+      "Formularios",
+      "Tablas",
+      "Frames",
+      "XML",
+      "XForms",
+      "Contenido dinámico",
+      "DTD"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/-/0596527322",
+      "https://helion.pl/ksiazki/html-xhtml-the-definitive-guide-the-definitive-guide-6th-edition-chuck-musciano-bill-kennedy,e_2g22.htm",
+      "https://tenlong.com.tw/products/9780596527327"
+    ]
+  },
+  "html-css-javascript-web-publishing-in-one-hour-a-day-7th-edition-2015": {
+    "descripcion": "Séptima edición del manual de la serie Sams Teach Yourself de Laura Lemay, Rafe Colburn y Jennifer Kyrnin, actualizada para HTML5, CSS3, JavaScript y jQuery, con todos los ejemplos reescritos según los estándares de 2015. Está pensado para principiantes sin experiencia previa y se organiza en lecciones cortas, de aproximadamente una hora cada una, que se apoyan en las anteriores. Se puede leer en orden o ir directo a los temas que interesen.\n\nSe divide en seis partes. Primero explica qué es la publicación web, qué herramientas hacen falta y qué son HTML y CSS. Luego enseña lo básico de HTML, listas y enlaces. La parte central, la más extensa, trata el formato de texto, la aplicación de estilos con CSS, imágenes, tablas, posicionamiento, formularios, la estructura semántica de HTML5, vídeo y audio, maquetación avanzada con CSS y diseño responsive. Después introduce JavaScript y jQuery para añadir interactividad, además de frames y ventanas enlazadas. Las últimas partes tratan el diseño para la web móvil y la experiencia de usuario, la publicación del sitio, el aprovechamiento del servidor y el SEO.\n\nCada lección termina con un «Workshop» de preguntas, respuestas y ejercicios, por lo que la práctica es constante aunque no hay un proyecto único que atraviese todo el libro. Su valor está en ofrecer una visión completa del ciclo de publicación web, desde la primera página hasta el posicionamiento en buscadores. Como conviene saber, jQuery ha perdido protagonismo frente al JavaScript moderno y no se cubren Flexbox a fondo, Grid, frameworks ni herramientas de build actuales.",
+    "temas": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Diseño responsive",
+      "Formularios",
+      "Multimedia",
+      "Web móvil",
+      "Experiencia de usuario",
+      "Publicación web",
+      "SEO"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://informit.com/store/html-css-javascript-web-publishing-in-one-hour-a-day-9780133132380",
+      "https://www.oreilly.com/library/view/-/9780133132397",
+      "https://atlas-stg.pearson.com/products/9780133132380"
+    ]
+  },
+  "create-stunning-html-email-that-just-works-2010": {
+    "descripcion": "Guía breve de SitePoint en la que Mathew Patterson explica cómo diseñar y programar correos HTML que se vean bien en los distintos clientes de correo. Corresponde a la situación de 2010, con HTML 4/XHTML y CSS básico, cuando Outlook, Gmail, Hotmail y los clientes de escritorio interpretaban el código cada uno a su manera. Está pensada para diseñadores y desarrolladores web que ya saben HTML y CSS pero no han trabajado con email, o que se han frustrado al intentarlo.\n\nEl libro empieza explicando por qué usar el email y en qué se diferencia del diseño web, además de los tipos de correo que existen y sus partes. Luego aborda la planificación de una campaña (extensión, frecuencia de envío y métricas de éxito) y el diseño pensado para la bandeja de entrada: maquetas estrechas y no depender de las imágenes. La parte técnica defiende maquetar con tablas y estilos en línea en lugar de usar CSS moderno, y aporta tablas de compatibilidad por cliente de correo. Cierra con las pruebas en distintos clientes, los permisos y requisitos legales contra el spam (para no acabar en listas negras ni tener problemas con los ISP), los trucos y soluciones conocidos, y consejos para vender servicios de email marketing a clientes.\n\nNo hay un proyecto guiado: se practica construyendo plantillas de correo cada vez más complejas, codificadas a mano y sin depender de ningún editor ni plataforma. Su punto fuerte es el criterio: diseño, permisos, aspectos legales y relación con el cliente, todo explicado con claridad. Su punto débil es la profundidad técnica, que es limitada. Además, las tablas de compatibilidad han quedado muy desactualizadas, porque hoy existen el diseño responsive, el modo oscuro y otros clientes de correo. Sirve como introducción conceptual, pero conviene completarlo con recursos actuales sobre compatibilidad.",
+    "temas": [
+      "HTML email",
+      "Email marketing",
+      "Maquetación con tablas",
+      "CSS en línea",
+      "Compatibilidad entre clientes de correo",
+      "Diseño para la bandeja de entrada",
+      "Pruebas de email",
+      "Anti-spam y permisos",
+      "Requisitos legales",
+      "Plantillas de correo"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/lpt/pr/2563",
+      "https://i-programmer.info/bookreviews/12-web-design-and-development-/1092-create-stunning-html-email-that-just-works-.html",
+      "https://lib.hpu.edu.vn/handle/123456789/30516?show=full"
+    ]
+  },
+  "creating-web-sites-bible-2nd-edition-2004": {
+    "descripcion": "Obra de referencia de la serie Bible de Wiley en la que David A. Crowder y Andrew Bailey explican cómo crear sitios web completos, ya sean personales o de negocio. Esta segunda edición, de 2004, refleja la web de entonces: HTML 4/XHTML, CSS 2, JavaScript del lado del cliente y Flash. Está dirigida a principiantes e intermedios que quieren un único manual extenso que cubra desde la primera página hasta la publicación y la monetización del sitio.\n\nRecorre los fundamentos de HTML (texto, enlaces, imágenes, tablas y formularios), el diseño con hojas de estilo en cascada y la interactividad con JavaScript y Flash. Según la editorial, las novedades de esta edición son capítulos para atraer visitas con Google AdWords, montar tiendas en Yahoo! y Amazon.com, crear subastas atractivas en eBay y cobrar con PayPal. También incorpora la sindicación de contenidos con RSS y la creación de un blog.\n\nEl libro funciona más como una enciclopedia práctica, con ejemplos en cada tema, que como un curso guiado por proyectos. Su valor está en la amplitud: une la parte técnica con la presencia comercial en línea, algo poco habitual en los manuales de HTML. Hoy buena parte del contenido está obsoleto: Flash ya no existe, la maquetación con tablas se abandonó y las plataformas de comercio que describe han cambiado por completo. Conviene leerlo como documento histórico o solo para repasar conceptos básicos de HTML.",
+    "temas": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tablas y formularios",
+      "Flash",
+      "RSS",
+      "Blogs",
+      "Google AdWords",
+      "Tiendas Yahoo! y Amazon",
+      "eBay",
+      "PayPal"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Creating+Web+Sites+Bible%2C+2nd+Edition-p-9780764574986",
+      "https://www.goodreads.com/book/show/127825496-creating-web-sites-bible-2nd-edition-by-crowder-david-a-bailey-andre"
+    ]
+  },
+  "html-and-css-design-and-build-websites-2011": {
+    "descripcion": "Introducción muy visual a HTML y CSS en la que Jon Duckett presenta cada concepto en páginas a todo color con diagramas, fotografías y código anotado. Trabaja con HTML 4/XHTML e introduce las novedades de HTML5 y algunas propiedades de CSS3 vigentes en 2011. Está pensado para quien empieza desde cero, como estudiantes, diseñadores, profesionales de marketing o quien gestiona un CMS o una tienda en línea, y no exige ningún conocimiento previo de programación.\n\nLa primera mitad cubre HTML: estructura del documento, texto, listas, enlaces, imágenes, tablas, formularios, marcado adicional y contenido multimedia (Flash, vídeo y audio). La segunda mitad está dedicada a CSS: selectores y cascada, color, tipografía, el modelo de cajas, estilos para listas, tablas y formularios, maquetación (posicionamiento, floats, diseños de ancho fijo y fluido, rejillas) e imágenes. Cierra con los nuevos elementos de maquetación de HTML5, un capítulo sobre proceso y diseño (público objetivo, mapa del sitio, wireframes y jerarquía visual) y otro de información práctica: SEO, analítica con Google Analytics y publicación del sitio en un hosting por FTP.\n\nNo hay un proyecto continuo: cada capítulo termina con un ejemplo completo que aplica lo visto y un resumen de ideas clave. Su gran aporte es la claridad pedagógica: es de los libros más amables para aprender a escribir marcado y estilos con criterio. Deja fuera JavaScript, que el autor trata en un libro aparte, y técnicas modernas como Flexbox, Grid o el diseño responsive con media queries, así que conviene completarlo con material actual sobre maquetación.",
+    "temas": [
+      "HTML",
+      "CSS",
+      "HTML5",
+      "Formularios",
+      "Tablas",
+      "Modelo de cajas",
+      "Maquetación CSS",
+      "Tipografía web",
+      "Multimedia",
+      "Diseño web",
+      "SEO",
+      "Google Analytics"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/HTML+and+CSS%3A+Design+and+Build+Websites-p-9781118008188"
+    ]
+  },
+  "html-xhtml-and-css-all-in-one-for-dummies-2nd-edition-2010": {
+    "descripcion": "Volumen de más de mil páginas de la serie For Dummies en el que Andy Harris, profesor universitario de informática y programación web, reúne en varios minilibros independientes todo lo necesario para pasar de páginas estáticas a sitios web dinámicos. La segunda edición, de finales de 2010, trabaja con XHTML y CSS 2, introduce HTML5 y CSS3 e incorpora novedades sobre la Web 2.0 y Ajax. Es apto para principiantes, aunque también resulta útil a quien ya sabe algo de HTML y quiere avanzar hacia la programación.\n\nEl primer bloque trata los fundamentos de HTML/XHTML: estructura, validación del código, herramientas de edición, listas, tablas, enlaces, imágenes, formularios y una introducción a HTML5. El segundo se dedica a CSS: color, texto, selectores, bordes y fondos, y los niveles de CSS. El tercero aborda la maquetación con CSS, empezando por los floats y el posicionamiento. A partir de ahí el libro pasa a la programación del lado del cliente con JavaScript y la manipulación de la página, a Ajax con la librería jQuery y a la programación del servidor con PHP y bases de datos MySQL. Termina uniendo todo para convertir páginas sueltas en sitios completos, con temas como el alojamiento y la gestión de contenidos. Incluía un CD con programas para desarrollo web y un sitio complementario con el código del libro.\n\nCada capítulo avanza con ejemplos pequeños y ejecutables, no con una aplicación guiada de principio a fin. Su valor está en ofrecer en un solo volumen una ruta completa y coherente del front-end al back-end, explicada con el tono accesible de la serie. A cambio, cada tema se trata de forma introductoria, y hoy tanto XHTML como las versiones de PHP, jQuery y las técnicas de maquetación que usa están desfasadas. Sirve para entender cómo encajan las piezas, pero conviene actualizar después cada tecnología por separado.",
+    "temas": [
+      "HTML",
+      "XHTML",
+      "CSS",
+      "HTML5",
+      "Maquetación CSS",
+      "JavaScript",
+      "jQuery",
+      "Ajax",
+      "PHP",
+      "MySQL",
+      "Validación",
+      "Alojamiento web"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/-/9780470537558/",
+      "https://gov.wiley.com/WileyCDA/WileyTitle/productCd-0470537558,descCd-tableOfContents.html"
+    ]
+  },
+  "html-xhtml-and-css-bible-5th-edition-2010": {
+    "descripcion": "Tutorial y referencia de la serie Bible de Wiley en el que Steven M. Schafer explica a fondo los tres estándares de autoría web de su época: HTML 4.01, XHTML 1.1 y CSS 2.1. Además adelanta lo que estaba por llegar con HTML5 y CSS3. Publicado a comienzos de 2010, el propio autor aclara que no es un libro de diseño web, sino de lenguajes de marcado y estilos. Es adecuado desde el nivel inicial hasta el intermedio para quien quiere entender bien cada elemento y atributo, y no solo copiar plantillas.\n\nLa primera parte, «Creating Content with HTML», va desde qué es un lenguaje de marcado, los valores y unidades de HTML y la estructura del documento hasta los elementos del HEAD, el formato de texto y caracteres, listas, enlaces, tablas, frames y formularios. Continúa con colores e imágenes, multimedia, caracteres especiales, internacionalización, scripts, HTML dinámico y un capítulo sobre el futuro del lenguaje con HTML5. Las partes siguientes tratan CSS en profundidad (selectores, cascada, formato de texto, el modelo de cajas, posicionamiento y maquetación), además de XHTML y XML, y buenas prácticas con herramientas y utilidades de desarrollo. El libro tiene un sitio complementario con los ejemplos.\n\nNo propone proyectos ni ejercicios guiados: cada capítulo explica los elementos con fragmentos de código de ejemplo y un resumen final. Es útil como consulta exhaustiva y para comprender el porqué de la sintaxis. Su enfoque centrado en XHTML y CSS 2.1 ha envejecido, y temas como los frames o el HTML dinámico de la época ya no tienen uso práctico. Para trabajar hoy conviene complementarlo con material actualizado de HTML5 y CSS moderno (Flexbox, Grid, diseño responsive).",
+    "temas": [
+      "HTML 4.01",
+      "XHTML 1.1",
+      "CSS 2.1",
+      "HTML5",
+      "CSS3",
+      "Tablas",
+      "Formularios",
+      "Frames",
+      "Multimedia",
+      "Internacionalización",
+      "HTML dinámico"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/HTML%2C+XHTML%2C+and+CSS+Bible%2C+5th+Edition-p-9780470523964",
+      "https://katalog.bibliothek.kit.edu/bib/423029"
+    ]
+  },
+  "beginning-html-and-css-2013": {
+    "descripcion": "Manual introductorio de la serie Beginning de Wrox en el que Rob Larsen, ingeniero front-end con más de una década de experiencia en proyectos para marcas como Samsung o Adidas, enseña a crear páginas web con HTML5 y CSS3. Es la actualización moderna del clásico de Jon Duckett publicado por la misma editorial y está pensado para quien parte de cero: aficionados que quieren hacer su primer sitio y personas que se plantean dedicarse al desarrollo web. No exige conocimientos previos de programación.\n\nEl recorrido sigue el orden clásico de la serie: estructura de un documento web, ajuste fino del texto, enlaces y navegación, imágenes, audio y video con los elementos nativos de HTML5, tablas y formularios. Después dedica varios capítulos a las hojas de estilo en cascada: selectores, propiedades de texto y color, modelo de caja, maquetación y recursos de CSS3. La parte final introduce JavaScript y la librería jQuery para añadir comportamientos habituales, como contenido en pestañas y carruseles de imágenes, y cierra con listas de comprobación para publicar el sitio. Los apéndices sirven de referencia: caracteres especiales, códigos de idioma, tipos MIME y diferencias entre HTML4 y HTML5.\n\nSigue el formato didáctico de Wrox, con secciones guiadas de tipo «Try It Out» y ejercicios al final de cada capítulo, así que se aprende escribiendo código de forma gradual y no a través de un único proyecto completo. Su punto fuerte es la base sólida y bien explicada de HTML semántico y CSS. Hay que tener en cuenta su fecha: no cubre Flexbox ni CSS Grid, el diseño responsive se trata de forma básica y jQuery ha perdido protagonismo frente a JavaScript moderno y a frameworks como React. Sirve como primer libro, pero conviene completarlo con recursos actuales de maquetación.",
+    "temas": [
+      "HTML5",
+      "CSS3",
+      "Texto y semántica",
+      "Enlaces y navegación",
+      "Audio y video",
+      "Tablas",
+      "Formularios",
+      "Selectores CSS",
+      "Maquetación",
+      "JavaScript",
+      "jQuery"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://oreilly.com/library/view/beginning-html-and/9781118416518",
+      "https://skillsoft.com/book/beginning-html-and-css-e13f5bd0-f1fb-11e6-b696-0242c0a80a09"
+    ]
+  },
+  "beginning-html-xhtml-css-and-javascript-2010": {
+    "descripcion": "Extenso manual de iniciación de Wrox en el que Jon Duckett, programador web y consultor con más de diez libros sobre diseño web, enseña a construir sitios con XHTML, CSS y JavaScript tal como se hacía a finales de la década de 2000 (salió entre finales de 2009 y 2010, antes de que HTML5 se generalizara). Está dirigido a principiantes absolutos que quieren aprender a crear páginas web desde los fundamentos, sin experiencia previa en programación.\n\nLos primeros capítulos cubren la estructura de los documentos, los enlaces y la navegación, imágenes, audio y video, tablas, formularios y frames (con la advertencia de que hoy casi solo se usan los iframes). Siguen dos capítulos de CSS y otros dos sobre maquetación de páginas y cuestiones de diseño, donde se explica cómo repartir los estilos en varias hojas (estructura, tipografía, colores y formularios) y cómo diseñar para pantallas grandes, navegadores modernos y dispositivos móviles de la época, como el iPhone y la BlackBerry. La parte de JavaScript enseña lo básico del lenguaje para entender y reutilizar scripts existentes, y aplica ese conocimiento a la validación y mejora de formularios, a las librerías de JavaScript y a la interactividad con AJAX. Termina con la publicación del sitio en la web y con listas de comprobación de buenas prácticas, accesibilidad y compatibilidad entre navegadores.\n\nTiene un enfoque muy didáctico, con muchos ejemplos, ejercicios por capítulo (las respuestas están en un apéndice) y apéndices de referencia de elementos XHTML, propiedades CSS y nombres de colores. Es completo y claro, pero hoy tiene sobre todo valor histórico: XHTML, los frames y los móviles que menciona están obsoletos, y no cubre HTML5 semántico, Flexbox, Grid ni JavaScript moderno (ES6+). Para aprender desde cero hoy conviene elegir su sucesor de Rob Larsen o un texto más reciente.",
+    "temas": [
+      "XHTML",
+      "CSS",
+      "Enlaces y navegación",
+      "Tablas",
+      "Formularios",
+      "Frames",
+      "Maquetación",
+      "Diseño web",
+      "JavaScript",
+      "AJAX",
+      "Accesibilidad",
+      "Compatibilidad entre navegadores"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.goodreads.com/book/show/33128247",
+      "https://www.oreilly.com/library/view/beginning-html-xhtml/9780470540701/ch06.html",
+      "https://www.oreilly.com/library/view/beginning-html-xhtml/9780470540701/ch11.html"
+    ]
+  },
+  "html-and-css-2023": {
+    "descripcion": "Guía exhaustiva de Rheinwerk Computing (publicada en inglés como «HTML and CSS: The Comprehensive Guide») en la que Jürgen Wolf, desarrollador web y de software y autor de varias obras de referencia sobre programación, recorre el desarrollo front-end actual con HTML5 y CSS modernos. Está pensada para principiantes que quieren aprender de forma ordenada y completa, y también sirve como obra de consulta para quienes ya hacen páginas web y buscan ordenar sus conocimientos. No se requiere experiencia previa.\n\nLa primera mitad trata HTML: el ecosistema de la web, la estructura básica de un documento, los metadatos del head, los elementos semánticos del cuerpo, las tablas e hipervínculos, los gráficos y la multimedia, y los formularios y elementos interactivos. La segunda parte se centra en CSS: selectores, herencia y cascada, modelo de caja, posicionamiento, diseños responsive para distintos tamaños de pantalla, aplicación de estilos, pruebas y organización del código para conseguir resultados uniformes en todos los navegadores, y el preprocesador Sass/SCSS para escribir hojas de estilo más mantenibles. Los últimos capítulos ofrecen una introducción a JavaScript: variables, arrays, funciones y objetos, eventos, manipulación del DOM para modificar páginas de forma dinámica y un primer contacto con Ajax.\n\nEs un libro de referencia de gran tamaño, con explicaciones detalladas y muchos ejemplos de código para probar, aunque no se organiza en torno a un proyecto concreto. Su mayor aporte es la cobertura actualizada y sistemática de HTML y CSS, incluidos el diseño responsive y Sass, en un solo volumen. La parte de JavaScript es solo una introducción: no llega a frameworks, herramientas de build ni JavaScript avanzado, por lo que habrá que continuar con libros específicos. Existe una reedición de 2025 con un contenido muy similar.",
+    "temas": [
+      "HTML5",
+      "HTML semántico",
+      "Formularios",
+      "Multimedia",
+      "Selectores CSS",
+      "Cascada y herencia",
+      "Modelo de caja",
+      "Posicionamiento CSS",
+      "Diseño responsive",
+      "Sass/SCSS",
+      "JavaScript",
+      "DOM y Ajax"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/html-and-css-the-comprehensive-guide-rheinwerk-publishing-inc-jurgen-wolf,e_4hzm.htm",
+      "https://www.oreilly.com/library/view/html-and-css/9781806111831"
+    ]
+  }
+}

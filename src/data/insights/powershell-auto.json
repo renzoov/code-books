@@ -1,0 +1,284 @@
+{
+  "pro-powershell-for-amazon-web-services-2nd-edition-2019": {
+    "descripcion": "Guía avanzada de ingeniería de infraestructura en la nube escrita por Brian Beach, Steven Armentrout, Rodney Bozo y Emmanuel Tsouris, publicada por Apress. El libro enseña a administrar y aprovisionar Amazon Web Services utilizando el módulo oficial `AWS Tools for PowerShell` (tanto `AWSPowerShell` como la versión modular `AWS.Tools`) sobre PowerShell 5.1 y PowerShell Core. Está enfocado a administradores de sistemas Windows, especialistas en infraestructura cloud y profesionales de DevOps con conocimientos previos de PowerShell que desean automatizar el ciclo de vida y la gobernanza de entornos empresariales en AWS.\n\nEl contenido ofrece un recorrido integral por los principales servicios de la nube de Amazon a través de cmdlets: configuración de identidades, credenciales, políticas y roles en AWS IAM; diseño y despliegue de redes virtuales seguras en Amazon VPC (subredes, tablas de enrutamiento y Security Groups); aprovisionamiento y mantenimiento de instancias EC2 con Windows Server y Linux; gestión de volúmenes EBS y creación automatizada de imágenes AMI. También aborda esquemas de alta disponibilidad con Elastic Load Balancing y Auto Scaling, supervisión de rendimiento con métricas y alarmas en Amazon CloudWatch, administración de almacenamiento de objetos en Amazon S3 y despliegue de bases de datos relacionales en Amazon RDS con foco en Microsoft SQL Server. Como novedad de esta segunda edición, profundiza en la gestión corporativa de escritorios y parches a escala con AWS Systems Manager, despliegue serverless con AWS Lambda, Amazon WorkSpaces, AppStream 2.0 y AWS Directory Service.\n\nEl aprendizaje se articula a través de recetas procedimentales y secuencias de comandos orientadas a la automatización de la infraestructura operativa real, prescindiendo de proyectos monolíticos o ejercicios teóricos al final de los capítulos. Es una obra valiosa por cubrir el ecosistema AWS desde la perspectiva del ecosistema Windows y PowerShell; no obstante, no abarca herramientas de infraestructura como código declarativas de terceros (como Terraform) ni orquestación de contenedores en Kubernetes (EKS). Se recomienda tener conocimientos consolidados de redes, Windows Server y una cuenta activa de AWS con permisos de laboratorio.",
+    "temas": [
+      "PowerShell",
+      "AWS Tools for PowerShell",
+      "Amazon Web Services (AWS)",
+      "Amazon EC2",
+      "Amazon S3",
+      "Amazon VPC",
+      "AWS IAM",
+      "Amazon RDS",
+      "AWS Systems Manager",
+      "AWS Lambda",
+      "CloudWatch",
+      "DevOps"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4850-8",
+      "https://www.apress.com/gp/book/9781484248492",
+      "https://www.amazon.com/PowerShell-Amazon-Web-Services-Cloud/dp/1484248498"
+    ]
+  },
+  "pro-powershell-for-microsoft-azure-2015": {
+    "descripcion": "Manual técnico elaborado por Sherif Talaat y publicado por Apress, orientado a la administración, configuración y automatización de la nube de Microsoft Azure mediante Azure PowerShell, abarcando la etapa de coexistencia entre el modelo clásico de administración de servicios (Azure Service Management / ASM) y la introducción de Azure Resource Manager (ARM). Está dirigido a administradores de sistemas, ingenieros de operaciones y especialistas en infraestructura Microsoft de nivel intermedio que ya conocen la sintaxis básica de PowerShell y desean gestionar infraestructuras híbridas o nativas en la nube de forma programática.\n\nEl libro detalla paso a paso la arquitectura de Azure y el uso de cmdlets para el aprovisionamiento de recursos: administración de almacenamiento con Azure Storage (cuentas de almacenamiento, blobs en bloque y en página, contenedores, tablas y colas), despliegue y configuración de máquinas virtuales (VMs) de Windows y Linux con discos de datos y conjuntos de disponibilidad (Availability Sets), configuración de redes virtuales (VNets, subredes, endpoints de seguridad y pasarelas VPN sitio a sitio) y publicación de aplicaciones web mediante Azure Web Apps y Cloud Services. Además, cubre el diseño de recursos mediante plantillas y cmdlets de ARM, la automatización desatendida con Azure Automation y Runbooks, la gestión de bases de datos relacionales en Azure SQL Database, el despliegue de clusters Hadoop con Azure HDInsight y el control de identidades y accesos corporativos con Azure Active Directory (Azure AD) y Azure Rights Management Services (RMS).\n\nEl enfoque es estrictamente operativo y procedimental, brindando scripts funcionales para tareas de administración cotidiana en producción, sin plantear ejercicios académicos de fin de capítulo ni proyectos integrales de software. Aporta una visión estructurada de la gobernanza de IaaS y PaaS con PowerShell; no obstante, al reflejar el estado de la plataforma en 2015 con el módulo `Azure`, debe tenerse en cuenta que muchos comandos clásicos han sido sucedidos por el módulo moderno `Az`. Resulta muy útil para comprender la evolución arquitectónica de Azure y la lógica de automatización de cargas de trabajo con scripts.",
+    "temas": [
+      "PowerShell",
+      "Microsoft Azure",
+      "Azure PowerShell",
+      "Azure Resource Manager (ARM)",
+      "Máquinas virtuales (IaaS)",
+      "Azure Storage",
+      "Redes virtuales (VNets)",
+      "Azure Web Apps",
+      "Azure SQL Database",
+      "Azure Automation",
+      "Azure Active Directory"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-0665-2",
+      "https://www.apress.com/gp/book/9781484206669",
+      "https://www.oreilly.com/library/view/pro-powershell-for/9781484206652/",
+      "https://www.amazon.com/Pro-PowerShell-Microsoft-Azure-Talaat/dp/1484206663"
+    ]
+  },
+  "learn-windows-powershell-3-in-a-month-of-lunches-2nd-edition-2012": {
+    "descripcion": "Segunda edición de la reconocida guía de iniciación a PowerShell creada por los MVPs de Microsoft Don Jones y Jeffery Hicks, publicada por Manning Publications. Está diseñada para cubrir Windows PowerShell 3.0 (incorporado de forma nativa en Windows Server 2012 y Windows 8, y disponible para Windows 7) y va dirigida a administradores de sistemas Windows, personal de soporte técnico y técnicos de TI sin experiencia previa en programación o scripting que necesitan aprender a utilizar la consola para automatizar tareas administrativas desde cero.\n\nEl libro adopta un formato estructurado de lecciones diarias de una hora de duración para enseñar PowerShell tanto como shell interactiva como lenguaje de secuencias de comandos. Explora la filosofía orientada a objetos de los cmdlets con convención verbo-nombre, el uso de proveedores (`PSProvider` y `PSDrive`) para navegar el registro de Windows o almacenes de certificados como si fueran unidades de disco, y el aprovechamiento del sistema de ayuda integrado (`Get-Help`, `Get-Command` y `Get-Member`) para descubrir comandos y propiedades de forma autónoma. Profundiza en el funcionamiento de la tubería (pipeline) y el paso de objetos mediante vinculación por valor (`ByValue`) y por nombre de propiedad (`ByPropertyName`), técnicas de filtrado (`Where-Object`) y selección (`Select-Object`), formateo de salidas (`Format-Table`, `Format-List`), administración remota masiva vía WinRM (`Enter-PSSession`, `Invoke-Command`), consulta de hardware y sistema operativo mediante WMI y la arquitectura CIM (`Get-CimInstance`), trabajos en segundo plano (Background Jobs), directivas de seguridad de ejecución (`ExecutionPolicy`) y creación de scripts modulares parametrizados con exportación a CSV, XML y HTML.\n\nEl libro está concebido en torno a la práctica guiada mediante laboratorios de ejercicios (\"Lab\") al final de cada lección, acompañados de capítulos de consolidación práctica para aplicar los conocimientos en escenarios administrativos realistas. No aborda el desarrollo de aplicaciones ni la creación de módulos binarios en C#, enfocándose deliberadamente en la productividad del administrador en la consola de comandos. Es una de las mejores obras para adquirir bases sólidas en PowerShell y ganar confianza antes de afrontar tareas complejas de automatización corporativa.",
+    "temas": [
+      "Windows PowerShell 3.0",
+      "Línea de comandos Windows",
+      "Cmdlets",
+      "Pipeline de objetos",
+      "Administración remota (WinRM)",
+      "CIM y WMI",
+      "Filtrado y formato",
+      "Automatización de sistemas",
+      "Scripts parametrizados",
+      "Background Jobs",
+      "Proveedores PSDrive"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/learn-windows-powershell-in-a-month-of-lunches-second-edition",
+      "https://www.oreilly.com/library/view/learn-windows-powershell/9781617291104/",
+      "https://www.amazon.com/Learn-Windows-PowerShell-Month-Lunches/dp/1617291109"
+    ]
+  },
+  "powershell-in-depth-2nd-edition-2014": {
+    "descripcion": "Manual de referencia exhaustivo publicado por Manning y elaborado por tres de los referentes más reconocidos de la comunidad PowerShell (Don Jones, Jeffery Hicks y Richard Siddaway). Esta segunda edición está orientada a Windows PowerShell 3.0 y 4.0 (Windows Server 2012 R2 y Windows 8.1). Está dirigido a administradores de sistemas, ingenieros de soporte y especialistas en operaciones de nivel intermedio a avanzado que ya dominan los comandos básicos de la consola y buscan un manual de cabecera riguroso para diseñar herramientas de automatización robustas y estandarizadas.\n\nEl libro profundiza en los mecanismos internos del pipeline, el sistema extendido de tipos (ETS), el formateo personalizado mediante archivos .ps1xml y la creación de funciones avanzadas con atributos de cmdlet ([CmdletBinding()]). Aborda detalladamente la administración remota a través de WinRM y WS-Man (Enter-PSSession, Invoke-Command), el uso de trabajos en segundo plano (Start-Job) y tareas programadas, así como la gestión de credenciales y seguridad de ejecución. Asimismo, enseña a interactuar con la infraestructura moderna de gestión mediante CIM (Get-CimInstance) y WMI, flujos de trabajo persistentes (PowerShell Workflows), manipulación de datos estructurados (XML, JSON, CSV), interoperabilidad con el runtime de .NET Framework y la base declarativa de Desired State Configuration (DSC).\n\nNo está estructurado como un cuaderno de ejercicios escolares ni plantea la construcción de una aplicación monolítica; su enfoque consiste en proporcionar patrones de código reales, funciones reutilizables y módulos de administración listos para el entorno de producción. Destaca notablemente por su profundidad técnica y su claridad para explicar cómo transformar scripts frágiles en herramientas de nivel empresarial con manejo robusto de excepciones (try/catch/finally). Quedan fuera las novedades multiplataforma introducidas años más tarde con PowerShell Core (versiones 6 y 7), por lo que está estrictamente enfocado en la administración de entornos Windows.",
+    "temas": [
+      "PowerShell 4.0",
+      "PowerShell Remoting",
+      "Desired State Configuration (DSC)",
+      "CIM y WMI",
+      "Funciones avanzadas",
+      "Módulos y manifiestos",
+      "Manejo de errores",
+      "PowerShell Workflows",
+      "Integración con .NET",
+      "Automatización de Windows Server"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/powershell-in-depth-second-edition",
+      "https://www.amazon.com/PowerShell-Depth-Don-Jones/dp/1617292184"
+    ]
+  },
+  "windows-powershell-in-action-3rd-edition-2017": {
+    "descripcion": "Considerada la obra definitiva y más autorizada sobre el lenguaje, esta tercera edición fue coescrita por Bruce Payette —diseñador principal y creador de la sintaxis de PowerShell en Microsoft— junto al MVP Richard Siddaway. La edición cubre exhaustivamente Windows PowerShell 5.0 y 5.1 (con perspectiva hacia la transición multiplataforma del motor). Aunque parte desde los fundamentos sintácticos del intérprete, su nivel de profundidad lo convierte en un texto indispensable para administradores veteranos, arquitectos de infraestructura y desarrolladores de .NET o C# que buscan entender no solo cómo usar la herramienta, sino las decisiones de diseño que rigen su funcionamiento interno.\n\nEl texto desglosa minuciosamente el árbol de sintaxis abstracta (AST) del lenguaje, el motor de análisis sintáctico (parser), el sistema extendido de tipos (ETS), los bloques de script (scriptblocks) y las clausuras (closures). Examina la creación de clases nativas y tipos enumerados incorporados en PowerShell 5, la arquitectura de módulos dinámicos y manifiestos (.psd1), metaprogramación y depuración avanzada. En el ámbito corporativo y de sistemas, cubre Desired State Configuration (DSC), flujos de trabajo (workflows), administración remota (WS-Management, remoting), seguridad avanzada con JEA (Just Enough Administration), así como la integración profunda con eventos de .NET, objetos COM, CIM y consumo de servicios REST.\n\nA diferencia de guías introductorias orientadas a tareas mecánicas, el libro no contiene ejercicios de autoevaluación ni un proyecto de software único guiado paso a paso; en su lugar, está repleto de fragmentos de código arquitectónicos, extensiones del lenguaje y técnicas de bajo nivel que ilustran el comportamiento interno del entorno de ejecución. Su principal valor radica en la visión de primera mano que ofrece sobre por qué PowerShell se comporta como lo hace, resolviendo peculiaridades que otros libros omiten. Como advertencia, su curva de aprendizaje puede resultar densa para quien no cuente con una base sólida en programación o conceptos orientados a objetos.",
+    "temas": [
+      "PowerShell 5.1",
+      "Arquitectura del lenguaje",
+      "Abstract Syntax Tree (AST)",
+      "Clases y enumeraciones",
+      "Extended Type System (ETS)",
+      "PowerShell Remoting",
+      "Desired State Configuration (DSC)",
+      "Just Enough Administration (JEA)",
+      "Integración con .NET",
+      "Metaprogramación"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/windows-powershell-in-action-third-edition",
+      "https://www.amazon.com/Windows-PowerShell-Action-Bruce-Payette/dp/1633430294"
+    ]
+  },
+  "windows-powershell-step-by-step-3rd-edition-2015": {
+    "descripcion": "Guía formativa oficial de Microsoft Press escrita por Ed Wilson, reconocido formador interno de Microsoft conocido en la comunidad como \"The Scripting Guy\". Esta tercera edición está totalmente actualizada para Windows PowerShell 5.0 (el estándar distribuido con Windows 10 y Windows Server 2016). Ha sido concebida especialmente para administradores de sistemas Windows, técnicos de soporte y operadores de TI que dan sus primeros pasos en la automatización o que migran desde interfaces gráficas y secuencias de comandos heredadas en VBScript o archivos Batch.\n\nEl contenido guía al lector a través de los conceptos nucleares de la consola y del entorno interactivo PowerShell ISE, enseñando la estructura verbo-nombre de los cmdlets, el sistema de ayuda (Get-Help, Get-Command) y el filtrado por canalización con Where-Object y Select-Object. Conforme avanza, enseña a automatizar la administración del registro de Windows, procesos, servicios y sistemas de archivos; el aprovisionamiento de usuarios y grupos en Active Directory Domain Services (AD DS); la consulta de contadores de rendimiento y visor de eventos; y la transición hacia estándares modernos mediante cmdlets CIM (Get-CimInstance), repositorios con PowerShell Gallery (Install-Module), conceptos iniciales de DSC (Desired State Configuration) y clases en PowerShell 5.0.\n\nSiguiendo la metodología pedagógica de la serie Step by Step, el libro se apoya en prácticas guiadas paso a paso, procedimientos estructurados y ejercicios de consolidación denominados \"One Step Further\" al final de cada capítulo, acompañados de plantillas de script de ejemplo. No construye una aplicación completa, sino una colección metódica de soluciones a las tareas diarias del administrador corporativo. Constituye un punto de entrada inmejorable y seguro para el aprendizaje práctico, dejando deliberadamente de lado la teoría interna del compilador o metaprogramación avanzada en favor de una productividad inmediata.",
+    "temas": [
+      "PowerShell 5.0",
+      "Administración de Windows",
+      "Active Directory",
+      "CIM y WMI",
+      "PowerShell Gallery",
+      "Pipeline de objetos",
+      "PowerShell ISE",
+      "Servicios y procesos de Windows",
+      "PowerShell Remoting",
+      "Automatización de tareas"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/windows-powershell-step-by-step-9780735675117",
+      "https://www.pearson.com/en-us/subject-catalog/p/windows-powershell-step-by-step/P200000009506",
+      "https://www.amazon.com/Windows-PowerShell-Step-Ed-Wilson/dp/0735675112"
+    ]
+  },
+  "windows-powershell-cookbook-3rd-edition-2012": {
+    "descripcion": "Extenso recetario técnico publicado por O'Reilly y elaborado por Lee Holmes, miembro veterano del equipo de desarrollo central de PowerShell en Microsoft. Esta tercera edición comprende más de mil páginas optimizadas para Windows PowerShell 3.0 (en conjunto con Windows 8 y Windows Server 2012). Está pensado para administradores de sistemas, ingenieros de soporte e integradores de nivel intermedio a avanzado que necesitan resolver de inmediato problemas específicos de gestión y automatización sin tener que leer un manual teórico de principio a fin.\n\nEl volumen recopila más de 400 recetas prácticas estructuradas en el formato de Problema, Solución y Discusión, además de más de 100 scripts completos. Cubre en profundidad el manejo de la consola interactiva, personalización del entorno, manipulación de expresiones regulares y tratamiento de texto, fechas y cadenas estructuradas. Detalla ampliamente las novedades de PowerShell 3.0: automatización web con Invoke-WebRequest e Invoke-RestMethod, gestión moderna de hardware y sistema operativo mediante CIM (sustituyendo las llamadas clásicas a WMI), flujos de trabajo (PowerShell Workflows), trabajos programados en disco (Register-ScheduledJob), administración de Active Directory, firmas digitales de scripts y conexión a APIs de .NET y COM.\n\nSu estructura es netamente práctica y orientada a recetas aplicadas: cada entrada presenta un reto de administración cotidiano o avanzado junto con la solución exacta en código y una explicación técnica de por qué funciona y qué alternativas existen. No propone un proyecto de software integral, pero capacita al lector para ensamblar complejas herramientas operativas a partir de sus componentes probados. Aporta un valor incalculable como catálogo de consulta rápida y resolución de incidencias en entornos Windows, si bien no abarca las versiones modernas multiplataforma surgidas con PowerShell 6 y 7.",
+    "temas": [
+      "PowerShell 3.0",
+      "Recetas de automatización",
+      "Invoke-WebRequest",
+      "PowerShell Workflows",
+      "CIM y WMI",
+      "Active Directory",
+      "Trabajos programados",
+      "PowerShell Remoting",
+      "Integración con .NET",
+      "Administración de Windows Server"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/windows-powershell-cookbook/9781449320683/",
+      "https://www.amazon.com/Windows-PowerShell-Cookbook-Scripting-Microsofts/dp/1449320686",
+      "https://www.leeholmes.com/blog/2012/12/28/powershell-cookbook-3rd-edition/"
+    ]
+  },
+  "windows-powershell-pocket-reference-2nd-edition-2012": {
+    "descripcion": "Guía de bolsillo sumamente condensada publicada por O'Reilly y creada por Lee Holmes, desarrollador del equipo original de PowerShell en Microsoft. Esta segunda edición sintetiza los aspectos fundamentales de Windows PowerShell 3.0 en un formato portátil de poco más de doscientas páginas. Está concebida para administradores de sistemas, especialistas en soporte técnico y desarrolladores de nivel intermedio que ya conocen los principios del entorno pero necesitan una referencia inmediata junto al teclado para refrescar sintaxis, parámetros y construcciones sin recurrir al navegador o a manuales voluminosos.\n\nEl manual condensa las reglas del lenguaje, abarcando operadores lógicos, de comparación, aritméticos y de manipulación de tipos; estructuras de control de flujo (if, switch, bucles); gestión de variables, ámbitos (scoping) y secuencias de escape. Incluye tablas de consulta rápida con parámetros comunes (-Verbose, -ErrorAction), verbos estandarizados por Microsoft, sintaxis de expresiones regulares (RegEx), consultas XPath y códigos de formato para fechas y números en .NET. También resume cmdlets indispensables para el trabajo diario, invocación de clases de .NET Framework, objetos COM y consultas a interfaces CIM y WMI.\n\nPor su propia naturaleza de prontuario de consulta, la obra carece de ejercicios prácticos, proyectos guiados o desarrollos tutoriales paso a paso; su función es servir de mapa sintáctico y recordatorio inmediato de comandos frente a la terminal. Destaca por su alta densidad informativa y portabilidad, permitiendo resolver dudas de sintaxis al instante durante sesiones de depuración o administración remota. Resulta indispensable tener conocimientos previos de la plataforma, ya que omite explicaciones introductorias o conceptos pedagógicos básicos.",
+    "temas": [
+      "PowerShell 3.0",
+      "Referencia rápida",
+      "Sintaxis de PowerShell",
+      "Operadores y expresiones",
+      "Expresiones regulares",
+      "Parámetros comunes",
+      "Clases .NET frecuentes",
+      "CIM y WMI",
+      "Formato de cadenas",
+      "Scripting en consola"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/windows-powershell-pocket/9781449320966/",
+      "https://www.amazon.com/Windows-PowerShell-Pocket-Reference-Scripters/dp/1449320961"
+    ]
+  },
+  "mastering-windows-powershell-scripting-2015": {
+    "descripcion": "Guía técnica y avanzada orientada a la ingeniería de automatización y administración de sistemas en entornos corporativos Microsoft Windows mediante Windows PowerShell (centrado principalmente en las capacidades de las versiones 4.0 y 5.0). El texto está dirigido a administradores de sistemas, ingenieros de operaciones y profesionales de TI con experiencia previa en la consola de comandos de Windows y en la sintaxis básica de PowerShell, que buscan dar el salto desde la ejecución de comandos puntuales y scripts improvisados hacia el diseño de herramientas estructuradas, robustas y orientadas a objetos.\n\nEl contenido profundiza en el modelo de objetos del pipeline y el tratamiento estructurado de datos, abarcando matrices, tablas hash y conversión estricta de tipos. Enseña a modularizar código mediante funciones avanzadas con atributos de cmdlet ([CmdletBinding()]), validación exhaustiva de parámetros y creación de módulos reutilizables junto a sus archivos de manifiesto (.psd1). También detalla la interacción con la infraestructura del sistema operativo mediante Windows Management Instrumentation (WMI) y Common Information Model (CIM) a través de cmdlets CIM, la gestión del registro de Windows y el sistema de archivos, el control riguroso de excepciones mediante bloques try/catch/finally, y el procesamiento distribuido o asíncrono con PowerShell Remoting (WinRM) y tareas en segundo plano (Jobs).\n\nA lo largo de los capítulos se construyen y prueban scripts modulares de automatización para tareas habituales de administración empresarial: inventario de hardware y software, auditoría de sistemas, mantenimiento de servicios y manipulación de archivos de configuración. La obra aporta una metodología clara de ingeniería de software aplicada a la administración de sistemas, elevando notablemente la calidad del código de infraestructura. Como contrapartida, al ser una primera edición de 2015, se circunscribe al ecosistema clásico de Windows Server y .NET Framework sin abordar el PowerShell Core multiplataforma ni contenedores, pero sus explicaciones sobre buenas prácticas, CIM, control de errores y arquitectura del lenguaje siguen siendo un referente técnico sólido.",
+    "temas": [
+      "PowerShell 4.0",
+      "PowerShell 5.0",
+      "Automatización de Windows",
+      "Funciones avanzadas",
+      "CmdletBinding",
+      "Módulos PowerShell",
+      "WMI y CIM",
+      "PowerShell Remoting",
+      "WinRM",
+      "Manejo de errores",
+      "PowerShell Jobs",
+      "Expresiones regulares"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-windows-powershell-scripting-9781782173557",
+      "https://www.oreilly.com/library/view/mastering-windows-powershell/9781782173557/",
+      "https://www.amazon.com/Mastering-Windows-PowerShell-Scripting-Brenton/dp/1782173551"
+    ]
+  },
+  "powershell-for-sql-server-essentials-2015": {
+    "descripcion": "Manual práctico enfocado en la administración, monitorización y optimización de instancias de Microsoft SQL Server (versiones 2012 y 2014) utilizando Windows PowerShell 3.0 y 4.0. Está orientado a administradores de bases de datos (DBAs), ingenieros de soporte y desarrolladores de SQL Server con nivel intermedio que conocen T-SQL y la gestión cotidiana del motor de datos, pero que necesitan incorporar la automatización mediante scripting para estandarizar sus tareas operativas y reducir el trabajo manual repetitivo.\n\nLa obra enseña a conectar y operar bases de datos combinando cmdlets nativos y componentes especializados de Microsoft. Aborda el uso del módulo SQLPS, el proveedor SQL Server Provider (para navegar por las instancias y objetos de base de datos como si fueran unidades de almacenamiento) y la biblioteca de objetos de administración SQL Server Management Objects (SMO) mediante ensamblados de .NET. Explica cómo ejecutar scripts y consultas T-SQL con Invoke-Sqlcmd, extraer y formatear resultados hacia CSV, XML o reportes web en HTML, y obtener métricas de recursos del servidor (uso de procesador, memoria, espacio en disco y configuración de red). Asimismo, cubre la automatización de planes de mantenimiento, copias de seguridad (backups), restauraciones y la supervisión de trabajos y alertas en el Agente SQL Server (SQL Server Agent).\n\nEl aprendizaje se realiza implementando scripts específicos para las rutinas del DBA: listas de comprobación matutinas, revisiones de salud de las instancias, generación de informes periódicos de capacidad y comprobaciones de integridad de respaldos. Su principal virtud reside en su enfoque directo y conciso, pensado para que el administrador comience a automatizar sin necesidad de leer una enciclopedia general de PowerShell. Como limitación, deja fuera la automatización de escenarios de alta disponibilidad complejos (como Always On Availability Groups a gran escala) y utiliza el módulo legacy SQLPS previo a la llegada del módulo moderno SqlServer, aunque los fundamentos de SMO y la manipulación de datos desde PowerShell continúan siendo plenamente vigentes.",
+    "temas": [
+      "PowerShell",
+      "SQL Server 2014",
+      "Módulo SQLPS",
+      "SMO (SQL Server Management Objects)",
+      "Invoke-Sqlcmd",
+      "Backups y Restore",
+      "SQL Server Agent",
+      "Monitoreo de bases de datos",
+      "T-SQL",
+      "Reportes HTML",
+      "Automatización DBA"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/powershell-for-sql-server-essentials-9781784391492",
+      "https://www.oreilly.com/library/view/powershell-for-sql/9781784391492/",
+      "https://www.amazon.com/PowerShell-SQL-Server-Essentials-Donabel/dp/1784391491"
+    ]
+  },
+  "windows-powershell-4-0-for-net-developers-2014": {
+    "descripcion": "Guía concisa que aborda Windows PowerShell 4.0 (incluido en Windows Management Framework 4.0) desde la óptica del desarrollo de software en el ecosistema Microsoft .NET. Está pensada para desarrolladores .NET, ingenieros de software y profesionales DevOps que ya dominan C#, Visual Studio y el Common Language Runtime (CLR), y que desean aprovechar esa experiencia previa para automatizar tareas del ciclo de vida de las aplicaciones, pruebas e infraestructura sin limitarse a la perspectiva tradicional de un administrador de sistemas.\n\nEl libro profundiza en cómo PowerShell interactúa de forma nativa con el .NET Framework, explicando cómo instanciar clases, invocar métodos estáticos y compilar fragmentos de código C# en tiempo de ejecución usando el cmdlet Add-Type. Detalla el consumo de servicios web y APIs RESTful mediante Invoke-WebRequest e Invoke-RestMethod, la manipulación de estructuras XML y llamadas a componentes COM, y el diseño de utilidades internas con interfaz gráfica de usuario (GUI) apoyadas en Windows Forms y Windows Presentation Foundation (WPF). Además, explora la automatización de entornos de control de versiones y compilación mediante la integración con Team Foundation Server (TFS) a través de TFS Power Tools y PowerShell Workflows (PSW).\n\nEn lugar de proyectos completos de software, el lector desarrolla herramientas auxiliares de ingeniería: scripts para probar endpoints HTTP/REST, utilidades administrativas de escritorio con ventanas y botones interactivos para uso interno del equipo, y automatizaciones de compilación y gestión de código fuente en TFS. Su gran valor está en conectar las habilidades de desarrollo en C# con la agilidad de la consola interactiva de PowerShell, ahorrando tiempo en tareas repetitivas de desarrollo y despliegue. Conviene tener presente que sus referencias a TFS corresponden al ecosistema previo a Azure DevOps o GitHub Actions, pero su método para integrar ensamblados .NET y construir herramientas internas sigue siendo muy formativo.",
+    "temas": [
+      "PowerShell 4.0",
+      ".NET Framework",
+      "C#",
+      "Add-Type",
+      "WinForms",
+      "WPF",
+      "Invoke-RestMethod",
+      "Invoke-WebRequest",
+      "Team Foundation Server (TFS)",
+      "APIs REST",
+      "PowerShell Workflows",
+      "Automatización de desarrollo"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/windows-powershell-40-for-net-developers-9781849688765",
+      "https://www.oreilly.com/library/view/windows-powershell-40/9781849688765/",
+      "https://www.amazon.com/Windows-PowerShell-4-0-NET-Developers/dp/1849688766"
+    ]
+  }
+}

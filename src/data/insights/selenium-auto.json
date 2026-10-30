@@ -1,0 +1,203 @@
+{
+  "hands-on-functional-test-automation-2019": {
+    "descripcion": "Guía práctica de Chaminda Chandrasekara y Pushpa Herath publicada por Apress en 2019. Enseña a implementar marcos de automatización de pruebas funcionales de extremo a extremo utilizando Selenium WebDriver en C# y Visual Studio. Orientada a ingenieros de control de calidad (QA), evaluadores de software y desarrolladores de .NET que buscan modernizar sus procesos de testing.\n\nEl contenido cubre la configuración de entornos de pruebas con NUnit, la identificación robusta de elementos en el DOM mediante selectores avanzados (XPath, CSS), y la implementación del patrón de diseño Page Object Model (POM) para maximizar la reutilización del código. Explora la integración continua en canalizaciones de Azure DevOps y Jenkins, la ejecución distribuida de pruebas en Selenium Grid y plataformas en la nube como BrowserStack y Sauce Labs, así como la generación automática de reportes de ejecución.\n\nA través de laboratorios guiados paso a paso, los autores muestran cómo estructurar un framework de pruebas mantenible y desacoplado, reduciendo los falsos positivos por cambios en la interfaz de usuario. Es un recurso indispensable para equipos que desarrollan y prueban aplicaciones web sobre la plataforma de Microsoft.",
+    "temas": [
+      "Selenium WebDriver",
+      "C#",
+      "NUnit",
+      "Page Object Model (POM)",
+      "Azure DevOps",
+      "Pruebas funcionales",
+      "Selenium Grid",
+      "Automatización QA"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework de Pruebas Automatizadas con Selenium y C#",
+        "descripcion": "Desarrollo de un marco de automatización modular basado en Page Object Model con NUnit, capturas de pantalla automáticas en fallos e integración en Azure Pipelines."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4503-3",
+      "https://github.com/Apress/hands-on-functional-test-automation"
+    ]
+  },
+  "selenium-webdriver-recipes-in-c-2nd-edition-2015": {
+    "descripcion": "Segunda edición del práctico recetario de Zhimin Zhan, publicado por Apress en 2015. Diseñado como un compendio de soluciones inmediatas a los problemas y escenarios más habituales que enfrentan los ingenieros de automatización al probar aplicaciones web con Selenium WebDriver en C#. Orientado a testers y programadores que buscan respuestas concisas y código listo para copiar y pegar.\n\nEl texto reúne cientos de recetas clasificadas por temática: interacción con todo tipo de controles web (botones, listas desplegables, tablas dinámicas, ventanas modales, iframes y alertas JavaScript), manejo de esperas explícitas e implícitas para soportar aplicaciones AJAX, automatización de descargas y subidas de archivos, y gestión de cookies y autenticación básica HTTP. Además, cubre la ejecución sin cabeza (headless), pruebas de diseño responsive y captura de evidencias en fallos.\n\nCada receta va directa al grano: plantea el desafío, expone el fragmento HTML típico del elemento web y proporciona la solución exacta en C# con explicaciones puntuales. Su principal valor es el ahorro de tiempo, sirviendo como una chuleta de cabecera para desbloquear atascos cotidianos en la automatización de pruebas web.",
+    "temas": [
+      "Selenium WebDriver",
+      "C#",
+      "Recetas de testing",
+      "Esperas AJAX",
+      "Manejo de iframes",
+      "Controles web",
+      "Automatización de pruebas",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1674-3",
+      "https://zhiminzhan.medium.com/"
+    ]
+  },
+  "learning-selenium-testing-tools-with-python-2014": {
+    "descripcion": "Manual introductorio de Unmesh Gundecha publicado por Packt en 2014. Enseña a programar suites de pruebas funcionales para aplicaciones web combinando la potencia y simplicidad de Python con la librería Selenium WebDriver. Pensado para analistas de calidad, probadores de software y desarrolladores Python que se inician en el testing automatizado.\n\nEl autor explica la configuración del WebDriver en Python, la interacción con navegadores (Firefox, Chrome e Internet Explorer) y el uso de los frameworks de pruebas `unittest` y `pytest`. Cubre la localización eficiente de elementos web, el control de eventos del ratón y teclado mediante la API ActionChains, la sincronización frente a interfaces dinámicas mediante WebDriverWait, y la implementación del patrón Page Object Model en Python para organizar el código de manera modular y escalable.\n\nA lo largo de los capítulos se construyen casos de prueba reales sobre aplicaciones de comercio electrónico, verificando flujos de autenticación, catálogos y carritos de compra. Destaca por su claridad expositiva y por mostrar cómo la sintaxis limpia de Python hace que las pruebas automatizadas sean fáciles de escribir, leer y mantener.",
+    "temas": [
+      "Selenium WebDriver",
+      "Python",
+      "unittest",
+      "Page Object Model",
+      "ActionChains",
+      "WebDriverWait",
+      "Testing funcional",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Pruebas de E-commerce con Python y Selenium",
+        "descripcion": "Creación de un conjunto de pruebas automatizadas en Python utilizando unittest y el patrón Page Object para validar el flujo completo de compra en una tienda web."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/learning-selenium-testing-tools-with-python-9781783983506",
+      "https://github.com/PacktPublishing/Learning-Selenium-Testing-Tools-with-Python"
+    ]
+  },
+  "mastering-selenium-webdriver-2015": {
+    "descripcion": "Tratado avanzado de Mark Collin publicado por Packt en 2015. Diseñado para elevar el nivel de ingenieros de QA y desarrolladores de software que ya dominan lo básico de Selenium y necesitan construir frameworks de automatización de grado empresarial, rápidos, mantenibles y preparados para integrarse en pipelines de entrega continua (CI/CD) en Java.\n\nEl libro aborda la arquitectura de frameworks robustos: gestión del ciclo de vida del WebDriver con hilos concurrentes para ejecución paralela segura, configuración de Maven y Gradle, uso avanzado de selectores y JavaScriptExecutor, y patrones de diseño más allá del Page Object básico. Profundiza en el despliegue y escalado de Selenium Grid con Docker para pruebas en múltiples navegadores y sistemas operativos, la emulación de dispositivos móviles y la captura de registros de red y rendimiento.\n\nEl enfoque es eminentemente técnico y pragmático, centrado en resolver problemas reales de estabilidad, cuellos de botella de tiempo de ejecución y mantenimiento a largo plazo en grandes suites de pruebas corporativas. Es una referencia obligada para arquitectos de automatización y líderes de calidad de software.",
+    "temas": [
+      "Selenium WebDriver",
+      "Java",
+      "Ejecución en paralelo",
+      "Selenium Grid",
+      "Docker",
+      "Maven",
+      "Arquitectura de frameworks",
+      "CI/CD"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework de Automatización Escalable en Paralelo",
+        "descripcion": "Diseño de un marco de pruebas en Java con Maven, ejecución concurrente multi-hilo, gestión dinámica de drivers y despliegue distribuido sobre Selenium Grid y Docker."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-selenium-webdriver-9781784394301",
+      "https://github.com/PacktPublishing/Mastering-Selenium-WebDriver"
+    ]
+  },
+  "selenium-design-patterns-and-best-practices-2014": {
+    "descripcion": "Guía arquitectónica de Dima Kovalenko publicado por Packt en 2014. Se centra en la aplicación de patrones de diseño de software probados y principios de ingeniería de código a la creación y mantenimiento de suites de pruebas automatizadas con Selenium WebDriver. Orientada a ingenieros de automatización y desarrolladores que sufren con pruebas frágiles y difíciles de mantener.\n\nEl autor analiza en detalle el patrón Page Object y sus variantes avanzadas (Page Components, LoadableComponent), el patrón Factory para la instanciación limpia de drivers en diferentes navegadores, y el patrón Decorator para añadir esperas automáticas y logging sin ensuciar la lógica de prueba. Además, aborda la separación limpia de datos de prueba mediante Data-Driven Testing, el diseño de selectores resilientes a cambios en el DOM y la estructuración de aserciones legibles y expresivas.\n\nA través de ejemplos claros en Java, el libro demuestra cómo transformar scripts de prueba desordenados y quebradizos en una arquitectura de pruebas sólida, modular y fácil de escalar en equipos multidisciplinares. Su valor radica en aplicar buenas prácticas de ingeniería de software al mundo del testing.",
+    "temas": [
+      "Selenium WebDriver",
+      "Patrones de diseño",
+      "Page Object Model",
+      "LoadableComponent",
+      "Data-Driven Testing",
+      "Arquitectura de software",
+      "Java",
+      "Buenas prácticas QA"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de Pruebas basada en Componentes Reutilizables",
+        "descripcion": "Implementación de una suite de pruebas automatizadas aplicando patrones Page Component y Factory para desacoplar componentes de interfaz y lógica de navegación."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/selenium-design-patterns-and-best-practices-9781783982707",
+      "https://github.com/dimval/Selenium-Design-Patterns-and-Best-Practices"
+    ]
+  },
+  "selenium-essentials-2015": {
+    "descripcion": "Guía práctica y condensada de Prashanth Sams, publicada por Packt en 2015. Proporciona una introducción rápida y sin rodeos a los fundamentos de la automatización web con Selenium WebDriver en Java. Diseñada para probadores de software manuales y nuevos desarrolladores que necesitan automatizar pruebas funcionales en poco tiempo.\n\nEl temario cubre la instalación y configuración del entorno en Eclipse con JUnit y TestNG, la anatomía básica de un script de prueba, técnicas de localización de elementos web (ID, nombre, XPath y selectores CSS), y el manejo de eventos de usuario comunes como clicks, ingreso de texto, selecciones en menús desplegables y alertas modales. Explica además la captura de pantallas en caso de error, lectura de datos desde archivos Excel para pruebas dirigidas por datos y ejecución básica en paralelo con TestNG.\n\nEl autor emplea un tono directo y ejemplos breves orientados a resultados inmediatos, permitiendo al lector poner en marcha sus primeras pruebas automatizadas sin enredarse en complejidades avanzadas. Es un manual introductorio eficaz para asimilar la base de Selenium WebDriver.",
+    "temas": [
+      "Selenium WebDriver",
+      "Java",
+      "TestNG",
+      "JUnit",
+      "Localizadores web",
+      "Captura de pantallas",
+      "Data-Driven Testing",
+      "Testing funcional"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/selenium-essentials-9781784394332",
+      "https://github.com/PacktPublishing/Selenium-Essentials"
+    ]
+  },
+  "selenium-testing-tools-cookbook-2nd-edition-2015": {
+    "descripcion": "Segunda edición del aclamado recetario de Unmesh Gundecha, publicado por Packt en 2015. Reúne más de 90 recetas prácticas en Java que abarcan el ecosistema completo de herramientas de automatización de pruebas web con Selenium WebDriver. Dirigido a ingenieros de QA y desarrolladores de software que buscan soluciones listas para aplicar en sus proyectos de testing.\n\nLa obra ofrece soluciones para escenarios complejos: sincronización con componentes AJAX y AngularJS, interacción con elementos SVG y canvas HTML5, manejo de ventanas emergentes y pestañas múltiples, emulación de dispositivos móviles mediante Chrome DevTools, y pruebas de rendimiento front-end integrando herramientas como BrowserMob Proxy. Además, incluye recetas para testing móvil con Appium, automatización dirigida por comportamiento (BDD) con Cucumber y ejecución masiva distribuida con Selenium Grid.\n\nCada receta sigue una estructura rigurosa de problema, solución en código Java probado y explicación detallada de su funcionamiento. Es una de las referencias más completas y consultadas para superar los obstáculos técnicos del día a día en la automatización web corporativa.",
+    "temas": [
+      "Selenium WebDriver",
+      "Java",
+      "Recetas de testing",
+      "Cucumber BDD",
+      "Appium",
+      "Selenium Grid",
+      "AJAX y Angular",
+      "BrowserMob Proxy"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/selenium-testing-tools-cookbook-second-edition-9781784392512",
+      "https://github.com/PacktPublishing/Selenium-Testing-Tools-Cookbook-Second-Edition"
+    ]
+  },
+  "selenium-webdriver-practical-guide-2014": {
+    "descripcion": "Guía paso a paso de Satya Avasarala publicada por Packt en 2014. Diseñada para enseñar a desarrolladores y evaluadores cómo automatizar pruebas de aplicaciones web dinámicas modernas utilizando Selenium WebDriver con Java. Pensada para quienes buscan un equilibrio entre conceptos teóricos y práctica guiada.\n\nEl recorrido formativo aborda la arquitectura del WebDriver y sus diferencias con el antiguo Selenium RC, estrategias de localización de elementos por XPath y selectores CSS robustos, y el manejo de esperas explícitas con WebDriverWait para evitar fallos intermitentes. Enseña a manipular controles ricos de usuario (arrastrar y soltar, menús contextuales con Actions), gestionar alertas y cuadros de diálogo del navegador, ejecutar scripts de JavaScript personalizados y estructurar pruebas limpias mediante el patrón Page Object Model en combinación con TestNG.\n\nEl autor estructura los ejemplos sobre escenarios web reales que van incrementando en complejidad, culminando en la configuración de ejecuciones distribuidas mediante Selenium Grid. Es un excelente texto formativo para asentar bases firmes en la automatización de pruebas de software web.",
+    "temas": [
+      "Selenium WebDriver",
+      "Java",
+      "TestNG",
+      "Page Object Model",
+      "Actions API",
+      "WebDriverWait",
+      "Selenium Grid",
+      "Testing web"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Automatización Web con TestNG y Page Objects",
+        "descripcion": "Construcción de un proyecto de pruebas con TestNG que automatiza flujos interactivos complejos, gestiona esperas dinámicas y genera reportes de resultados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/selenium-webdriver-practical-guide-9781782168850",
+      "https://github.com/PacktPublishing/Selenium-WebDriver-Practical-Guide"
+    ]
+  }
+}

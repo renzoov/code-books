@@ -1,0 +1,539 @@
+{
+  "scala-for-the-impatient-2nd-edition-2016": {
+    "descripcion": "Segunda edición de la reconocida guía de Cay S. Horstmann publicada por Addison-Wesley en 2016. Diseñada específicamente para desarrolladores experimentados de Java, C++ u otros lenguajes orientados a objetos que desean aprender Scala de manera rápida, concisa y sin rodeos teóricos innecesarios.\n\nEl texto cubre la sintaxis básica de Scala 2.12, estructuras de control, funciones de orden superior, colecciones inmutables y mutables, clases, traits y herencia. Aborda con especial claridad el sistema de tipos avanzado de Scala, parámetros de tipo, varianza (covarianza y contravarianza), conversiones y parámetros implícitos, pattern matching y procesamiento de XML/JSON.\n\nCada capítulo concluye con ejercicios prácticos y concisos que refuerzan el aprendizaje mediante ejemplos aplicados. Es una referencia de escritorio indispensable para dominar los aspectos más productivos de Scala sin perder tiempo en conceptos elementales de programación.",
+    "temas": [
+      "Scala 2.12",
+      "Programación Funcional",
+      "POO",
+      "Traits",
+      "Colecciones",
+      "Pattern Matching",
+      "Implicits",
+      "Sistemas de Tipos"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://horstmann.com/scala/",
+      "https://www.informit.com/store/scala-for-the-impatient-9780134540566"
+    ]
+  },
+  "software-engineering-from-scratch-2019": {
+    "descripcion": "Obra de Jason Lee Hodges publicada por Apress en 2019, que introduce los principios fundamentales de la ingeniería de software y ciencias de la computación utilizando Scala como lenguaje principal de enseñanza. Dirigido a estudiantes y desarrolladores noveles que buscan una base técnica rigurosa.\n\nEl autor explora estructuras de datos fundamentales, algoritmos clásicos, análisis de complejidad asintótica (Big O), diseño modular y patrones de arquitectura. Enseña a implementar listas enlazadas, árboles binarios, grafos y algoritmos de búsqueda y ordenamiento aprovechando la expresividad y tipado estático de Scala.\n\nEl libro combina explicaciones conceptuales con proyectos y ejercicios prácticos de desarrollo de software desde cero. Constituye un excelente puente entre los fundamentos teóricos de la computación y la programación moderna con un lenguaje robusto de la JVM.",
+    "temas": [
+      "Scala",
+      "Ingeniería de Software",
+      "Estructuras de Datos",
+      "Algoritmos",
+      "Big O",
+      "JVM",
+      "Arquitectura de Software"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Biblioteca de estructuras de datos y algoritmos en Scala",
+        "descripcion": "Implementación desde cero de listas, pilas, colas, árboles y grafos con bancos de pruebas unitarias y análisis de rendimiento."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5205-5",
+      "https://github.com/Apress/software-engineering-from-scratch"
+    ]
+  },
+  "functional-programming-in-scala-2013": {
+    "descripcion": "Conocido en la industria como el 'Red Book', escrito por Paul Chiusano y Rúnar Bjarnason y publicado por Manning en 2013. Es la obra cumbre y referencia definitiva sobre programación funcional pura sin efectos secundarios utilizando el lenguaje Scala.\n\nEl libro guía al lector a través de la construcción desde cero de las abstracciones funcionales más potentes: estructuras de datos inmutables puras, manejo de errores sin excepciones (Option, Either), evaluación perezosa (lazy evaluation y Streams), estado funcional, monoides, functores, mónadas y aplicativos. Todos los conceptos matemáticos se derivan de primeros principios en código Scala.\n\nAltamente riguroso y formativo, contiene más de un centenar de ejercicios con soluciones progresivas que transforman la forma de pensar y diseñar software del desarrollador. Una lectura obligatoria para cualquier ingeniero que aspire a dominar el paradigma funcional en la JVM.",
+    "temas": [
+      "Programación Funcional Pura",
+      "Scala",
+      "Mónadas",
+      "Functores",
+      "Option/Either",
+      "Inmutabilidad",
+      "Evaluación Perezosa",
+      "Efectos Funcionales"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Librería de Combinadores y Mónadas Funcionales",
+        "descripcion": "Implementación paso a paso de tipos de datos puros como Stream, State, Monad y un motor de parsing funcional combinatorio."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/functional-programming-in-scala",
+      "https://github.com/fpinscala/fpinscala"
+    ]
+  },
+  "lift-in-action-2011": {
+    "descripcion": "Guía completa escrita por Timothy Perrett y publicada por Manning en 2011, enfocada en Lift, uno de los frameworks web pioneros y más seguros construidos sobre el lenguaje Scala.\n\nEl temario aborda la arquitectura de Lift centrada en 'view-first', su motor de renderizado basado en snippets y transformación de plantillas XML/HTML, gestión de estado en el servidor, seguridad contra vulnerabilidades web (CSRF, XSS, inyección) y manejo de peticiones asíncronas mediante Comet y Ajax nativo en Scala.\n\nEl autor guía la construcción de aplicaciones web interactivas en tiempo real, persistencia de datos mediante Mapper y Record, y despliegue en contenedores de servlets. Es un testimonio histórico fundamental del auge de Scala en el desarrollo web interactivo.",
+    "temas": [
+      "Lift Framework",
+      "Scala",
+      "Desarrollo Web",
+      "Comet y Ajax",
+      "Seguridad Web",
+      "View-First",
+      "Snippets"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web en Tiempo Real con Lift",
+        "descripcion": "Construcción de una plataforma interactiva con mensajería instantánea y paneles dinámicos impulsados por Lift Comet y Scala."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/lift-in-action",
+      "https://liftweb.net/"
+    ]
+  },
+  "play-for-scala-2013": {
+    "descripcion": "Manual exhaustivo escrito por Peter Hilton, Erik Bakker y Francisco Canedo, publicado por Manning en 2013. Cubre en profundidad el framework Play 2.x para Scala, diseñado para aplicaciones web reactivas, sin estado (stateless) y de alto rendimiento.\n\nEl libro detalla el ciclo de vida HTTP de Play, el motor de rutas compiladas, plantillas basadas en Scala (Twirl), formularios reactivos y validaciones, persistencia con Anorm y Slick, integración de WebSockets y manejo de concurrencia y streaming de datos mediante Iteratees y Akka.\n\nA través del desarrollo de un proyecto web comercial completo, enseña a diseñar APIs RESTful y servicios web escalables. Su valor radica en consolidar las mejores prácticas de la arquitectura reactiva en el backend con Scala.",
+    "temas": [
+      "Play Framework",
+      "Scala",
+      "Arquitectura Reactiva",
+      "APIs REST",
+      "Akka",
+      "Slick",
+      "WebSockets",
+      "Twirl"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tienda y Catálogo Reactivo con Play",
+        "descripcion": "Desarrollo de una aplicación web completa con autenticación, persistencia en base de datos relacional y streaming asíncrono."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/play-for-scala",
+      "https://www.playframework.com/"
+    ]
+  },
+  "sbt-in-action-2015": {
+    "descripcion": "Guía práctica escrita por Josh Suereth y Matthew Farwell, publicada por Manning en 2015. Es la obra de referencia sobre sbt (Simple Build Tool), la herramienta estándar de automatización de compilación y empaquetado del ecosistema Scala.\n\nExplora la sintaxis de archivos `build.sbt`, el grafo de dependencias de tareas (settings y tasks), gestión de dependencias con Ivy y Maven, configuración de compilación incremental, testing automatizado, creación de proyectos multimodulares y desarrollo de plugins personalizados para sbt.\n\nIncluye numerosos ejemplos orientados a resolver los retos diarios de configuración en proyectos empresariales con Scala y Java. Indispensable para cualquier desarrollador que necesite optimizar los flujos de compilación, empaquetado y despliegue en la JVM.",
+    "temas": [
+      "sbt",
+      "Scala",
+      "Build Tools",
+      "Automatización",
+      "Maven e Ivy",
+      "Plugins sbt",
+      "Multimodular",
+      "JVM"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plugin Personalizado de Despliegue para sbt",
+        "descripcion": "Creación de un plugin que analiza métricas de código, compila artefactos multimodulares y publica binarios en repositorios remotos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/sbt-in-action",
+      "https://www.scala-sbt.org/"
+    ]
+  },
+  "scala-in-action-2013": {
+    "descripcion": "Obra orientada a la práctica escrita por Nilanjan Raychaudhuri y publicada por Manning en 2013. Presenta el lenguaje Scala como una herramienta de ingeniería de software moderna que integra la orientación a objetos con la programación funcional.\n\nCubre las bases del lenguaje, jerarquía de tipos, traits como mixins, funciones de primera clase, colecciones, el modelo de actores con Akka para concurrencia masiva, interoperabilidad fluida con Java y desarrollo de aplicaciones web con frameworks modernos.\n\nEl libro estructura su contenido en torno a la evolución de proyectos realistas, demostrando cómo Scala reduce la verbosidad de Java y permite diseñar sistemas concurrentes seguros y fáciles de mantener.",
+    "temas": [
+      "Scala",
+      "Akka",
+      "Actores",
+      "Concurrencia",
+      "Traits",
+      "Interoperabilidad Java",
+      "Programación Funcional"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Procesamiento Concurrente con Actores Akka",
+        "descripcion": "Construcción de un servicio distribuido de procesamiento de eventos y mensajes en segundo plano utilizando el modelo de actores."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/scala-in-action",
+      "https://github.com/nraychaudhuri/scalainaction"
+    ]
+  },
+  "scala-in-depth-2012": {
+    "descripcion": "Tratado técnico avanzado escrito por Joshua D. Suereth y publicado por Manning en 2012. Se enfoca en las características más sutiles y sofisticadas de Scala para desarrolladores que ya conocen la sintaxis pero desean dominar el diseño idiomático de librerías.\n\nProfundiza en el sistema de tipos de Scala (tipos existenciales, tipos estructurales, type members vs type parameters, cotas de tipos), implicits para polimorfismo ad-hoc (type classes), diseño de colecciones avanzadas, DSLs internos y gestión de recursos con monadic patterns.\n\nOfrece recomendaciones de arquitectura de código limpio, consejos de rendimiento y patrones de diseño idiomáticos para la JVM. Es una lectura esencial para desarrolladores senior y creadores de librerías en Scala.",
+    "temas": [
+      "Scala Avanzado",
+      "Sistemas de Tipos",
+      "Type Classes",
+      "Implicits",
+      "DSLs",
+      "Arquitectura JVM",
+      "Polimorfismo Ad-hoc"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/scala-in-depth",
+      "https://github.com/jsuereth/scala-in-depth-source"
+    ]
+  },
+  "learning-scala-2014": {
+    "descripcion": "Manual introductorio publicado por O'Reilly en 2014 y escrito por Jason Swartz. Diseñado como una guía amigable y paso a paso para programadores principiantes en Scala o desarrolladores Java que buscan una transición suave.\n\nExplora la sintaxis básica, tipos de datos inmutables, expresiones vs sentencias, funciones de primera clase, pattern matching, colecciones estándar (List, Set, Map, Vector), clases y objetos complementarios (companion objects), y polimorfismo básico con traits.\n\nIncluye explicaciones claras, diagramas conceptuales y ejercicios al final de cada capítulo que facilitan el aprendizaje progresivo. Muy valorado por su accesibilidad y enfoque didáctico para iniciarse en el ecosistema Scala.",
+    "temas": [
+      "Scala",
+      "Fundamentos",
+      "Colecciones",
+      "Pattern Matching",
+      "Funciones",
+      "Traits",
+      "POO",
+      "JVM"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-scala/9781449368814/",
+      "https://github.com/jasonswartz/learning-scala"
+    ]
+  },
+  "programming-scala-2nd-edition-2014": {
+    "descripcion": "Segunda edición de la guía canónica de Dean Wampler y Alex Payne, publicada por O'Reilly en 2014. Ofrece una cobertura exhaustiva de Scala 2.11 para ingenieros de software profesionales que desarrollan aplicaciones en la nube y Big Data.\n\nDetalla la fusión de programación funcional y orientada a objetos, pattern matching avanzado, sistema de tipos (varianza, higher-kinded types, path-dependent types), metaprogramación con macros y reflection, librerías concurrentes con Akka y Futures, y diseño de DSLs.\n\nPresenta una gran variedad de ejemplos prácticos y proyectos orientados a la producción. Es ampliamente considerado uno de los textos de referencia más equilibrados y profundos para aprender a programar idiomáticamente en Scala.",
+    "temas": [
+      "Scala 2.11",
+      "Higher-Kinded Types",
+      "Akka",
+      "Futures",
+      "Macros",
+      "DSLs",
+      "Programación Funcional",
+      "Big Data"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor DSL de Procesamiento y Reglas de Negocio",
+        "descripcion": "Diseño e implementación de un lenguaje de dominio específico interno en Scala con validación estática de tipos y ejecución asíncrona."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/programming-scala-2nd/9781491950135/",
+      "https://github.com/deanwampler/programming-scala-book-code-examples"
+    ]
+  },
+  "scala-cookbook-2013": {
+    "descripcion": "Voluminoso recetario de soluciones prácticas escrito por Alvin Alexander y publicado por O'Reilly en 2013. Contiene más de 250 recetas con código listo para usar que abordan los problemas más frecuentes en el desarrollo cotidiano con Scala.\n\nCubre manipulación de cadenas de texto, números y fechas, métodos y funciones, clases y paquetes, programación funcional, colecciones en profundidad, concurrencia con Futures y actores Akka, interacción con bases de datos y consumo de servicios web JSON/XML.\n\nEl formato de problema-solución-discusión permite resolver dudas puntuales de manera instantánea. Es la guía de consulta más recomendada tanto para programadores noveles como para veteranos de Scala que necesitan soluciones idiomáticas comprobadas.",
+    "temas": [
+      "Scala",
+      "Recetas",
+      "Colecciones",
+      "Concurrencia",
+      "Akka",
+      "Futures",
+      "E/S de Datos",
+      "JSON",
+      "Patrones"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de utilidades y clientes HTTP concurrentes",
+        "descripcion": "Colección de componentes reutilizables para procesamiento de archivos, llamadas REST asíncronas y transformación de colecciones."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://alvinalexander.com/scala/scala-cookbook/",
+      "https://www.oreilly.com/library/view/scala-cookbook/9781449340292/"
+    ]
+  },
+  "testing-in-scala-2013": {
+    "descripcion": "Guía práctica escrita por Daniel Hinojosa y publicada por O'Reilly en 2013. Está íntegramente orientada a las pruebas automatizadas de software en proyectos Scala y mixtos Scala/Java.\n\nExplora los principales frameworks de testing del ecosistema: ScalaTest (FlatSpec, FunSpec, WordSpec), Specs2, ScalaCheck para pruebas basadas en propiedades (property-based testing), Mockito para dobles de pruebas y técnicas de mocking en lenguajes fuertemente tipados.\n\nEl autor enseña a formular especificaciones legibles y robustas mediante BDD y TDD, demostrando cómo validar tanto código funcional puro como sistemas concurrentes y asíncronos. Una herramienta esencial para garantizar la calidad del software en la JVM.",
+    "temas": [
+      "Testing",
+      "ScalaTest",
+      "Specs2",
+      "ScalaCheck",
+      "Property-Based Testing",
+      "BDD",
+      "TDD",
+      "Mocks"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/testing-in-scala/9781449367787/",
+      "https://github.com/dhinojosa/testing-in-scala"
+    ]
+  },
+  "learning-concurrent-programming-in-scala-2nd-edition-2017": {
+    "descripcion": "Segunda edición de la destacada obra de Aleksandar Prokopec publicada por Packt en 2017. Presenta un panorama completo y riguroso sobre la programación concurrente y paralela moderna en la JVM con Scala.\n\nCubre desde los primitivos de hilos y sincronización de memoria de la JVM, Futures y Promises, colecciones paralelas y concurrentes (TrieMap), Software Transactional Memory (STM), el modelo de actores con Akka, hasta programación reactiva con flujos de datos y extensiones reactivas (RxScala).\n\nCada capítulo incluye diagramas ilustrativos, ejemplos matemáticos y computacionales precisos, así como ejercicios de optimización de rendimiento. Muy elogiado por ingenieros de sistemas distribuidos y computación de alto rendimiento.",
+    "temas": [
+      "Concurrencia",
+      "Scala",
+      "Futures y Promises",
+      "Akka",
+      "STM",
+      "Colecciones Paralelas",
+      "RxScala",
+      "Multithreading"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor Concurrente de Procesamiento de Datos Masivos",
+        "descripcion": "Implementación de un sistema de análisis paralelo en memoria utilizando Futures, TrieMaps y actores Akka coordinados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/learning-concurrent-programming-in-scala-second-edition-9781786466891",
+      "https://github.com/axel22/Scala-Concurrency-Programming-2nd-Edition"
+    ]
+  },
+  "mastering-play-framework-for-scala-2015": {
+    "descripcion": "Guía avanzada escrita por Shiti Saxena y publicada por Packt en 2015. Se centra en el desarrollo y despliegue a escala de aplicaciones web reactivas empresariales con Play Framework 2.x y Scala.\n\nAborda temas avanzados de arquitectura web: inyección de dependencias modular (Macwire, Guice), integración con Slick 3 para acceso a datos reactivo y no bloqueante, autenticación segura con Deadbolt, pruebas de integración exhaustivas con ScalaTest, y monitorización y métricas con StatsD y Kamon.\n\nProporciona pautas rigurosas para optimizar la latencia, gestionar la memoria y empaquetar aplicaciones en contenedores para producción. Ideal para arquitectos de backend e ingenieros senior de Scala.",
+    "temas": [
+      "Play Framework",
+      "Scala",
+      "Slick 3",
+      "Inyección de Dependencias",
+      "Seguridad Deadbolt",
+      "Kamon",
+      "Rendimiento Web",
+      "Producción"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Web Empresarial Asíncrona con Play y Slick",
+        "descripcion": "Arquitectura de backend reactiva con acceso a bases de datos relacionales no bloqueante, autorización por roles y telemetría en tiempo real."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-play-framework-for-scala-9781783984367"
+    ]
+  },
+  "scala-for-java-developers-2014": {
+    "descripcion": "Libro de transición técnica escrito por Thomas Alexandre y publicado por Packt en 2014. Enseña a desarrolladores experimentados de Java cómo incorporar Scala en sus proyectos sin descartar su conocimiento ni su base de código existente.\n\nCompara la sintaxis idiomática de Java y Scala, explica la interoperabilidad bidireccional, el uso de colecciones funcionales, pattern matching en sustitución de complejas cadenas de `if/else`, y la creación de APIs concisas. Analiza el ecosistema de herramientas: sbt, Maven, Gradle y los frameworks Spring y Play.\n\nA través de casos de uso prácticos, demuestra cómo refactorizar módulos Java a Scala para ganar expresividad y reducir drásticamente el código boilerplate manteniendo total compatibilidad con la JVM.",
+    "temas": [
+      "Scala",
+      "Java",
+      "Interoperabilidad JVM",
+      "Refactorización",
+      "Colecciones",
+      "Spring",
+      "Play Framework",
+      "sbt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Migración de Servicio Backend de Java a Scala",
+        "descripcion": "Refactorización de una aplicación empresarial basada en Spring a módulos Scala idiomáticos reduciendo el código boilerplate en un 60%."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/scala-for-java-developers-9781783283637"
+    ]
+  },
+  "scala-functional-programming-patterns-2015": {
+    "descripcion": "Monografía técnica escrita por Atul S. Khot y publicada por Packt en 2015. Analiza cómo los patrones de diseño clásicos de la orientación a objetos (GoF) se transforman y simplifican radicalmente mediante el paradigma funcional en Scala.\n\nExamina patrones funcionales como Functor, Monad, Monoid, Reader/Writer, State monad, Currying, composición de funciones, Lens para transformación de estructuras inmutables y el patrón Type Class para polimorfismo ad-hoc sin herencia rígida.\n\nOfrece ejemplos de código detallados que contrastan la implementación orientada a objetos frente a la funcional pura. Es una lectura fundamental para comprender cómo estructurar sistemas de software mantenibles con diseño funcional.",
+    "temas": [
+      "Patrones Funcionales",
+      "Scala",
+      "Type Classes",
+      "Mónadas",
+      "Functores",
+      "Monoides",
+      "Lenses",
+      "Arquitectura Limpia"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework de Transformación de Datos con Patrones Funcionales",
+        "descripcion": "Implementación de pipelines de datos y validaciones compuestas utilizando State Monads, Type Classes y Lenses."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/scala-functional-programming-patterns-9781783984367"
+    ]
+  },
+  "scala-high-performance-programming-2016": {
+    "descripcion": "Guía especializada escrita por Vincent Theron y Michael Diamant, publicada por Packt en 2016. Aborda las técnicas de bajo nivel y optimizaciones arquitectónicas necesarias para exprimir el máximo rendimiento de aplicaciones Scala en la JVM.\n\nAnaliza el coste oculto de las abstracciones de Scala (boxing/unboxing de tipos primitivos, creación de objetos efímeros, llamadas polimórficas), optimizaciones del compilador `scalac`, profiling de memoria y CPU con Java Flight Recorder y VisualVM, algoritmos concurrentes lock-free y programación paralela eficiente.\n\nProporciona benchmarks rigurosos con JMH (Java Microbenchmark Harness) y pautas concretas para reducir la presión sobre el Garbage Collector. Imprescindible para ingenieros dedicados a sistemas de baja latencia y procesamiento masivo.",
+    "temas": [
+      "Rendimiento",
+      "Scala",
+      "JVM Internals",
+      "Garbage Collection",
+      "JMH Benchmarks",
+      "Lock-free",
+      "Optimizaciones scalac",
+      "Baja Latencia"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de Mensajería de Alta Frecuencia y Baja Latencia",
+        "descripcion": "Diseño de un canal de procesamiento con estructuras de datos primitivas sin boxing y memoria eficiente evaluado con JMH."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/scala-high-performance-programming-9781786461483"
+    ]
+  },
+  "professional-scala-2016": {
+    "descripcion": "Manual exhaustivo escrito por Alessandro Lacava, Aliaksandr Bedrytski, Benjamin Neil, Janek Bogucki y Matthew de Detrich, publicado por Wrox en 2016. Diseñado como una referencia completa para el desarrollo profesional corporativo con Scala.\n\nCubre la sintaxis integral del lenguaje, orientación a objetos con traits, programación funcional pura, concurrencia con Akka y Futures, persistencia y acceso a datos relacionales y NoSQL, desarrollo web con Play y Spray/Akka HTTP, y procesamiento de Big Data con Apache Spark.\n\nIncluye análisis de arquitecturas empresariales, patrones de testing y despliegue continuo en entornos de producción. Es una guía muy sólida para equipos de ingeniería que adoptan Scala en proyectos de gran envergadura.",
+    "temas": [
+      "Scala",
+      "Akka",
+      "Apache Spark",
+      "Big Data",
+      "Play Framework",
+      "Arquitectura Empresarial",
+      "Concurrencia",
+      "Wrox"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline Empresarial de Big Data con Scala y Spark",
+        "descripcion": "Construcción de un sistema distribuido de ingesta y análisis de datos en tiempo real conectado a APIs REST con Akka HTTP."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Professional+Scala-p-9781119077657"
+    ]
+  },
+  "introducing-play-framework-2nd-edition-2020": {
+    "descripcion": "Segunda edición de la guía introductoria de Prem Kumar Karunakaran, publicada por Apress en 2020. Enseña a construir aplicaciones web y microservicios modernos utilizando Play Framework en sus versiones recientes con Scala.\n\nExplora la arquitectura sin estado de Play, configuración de rutas y controladores asíncronos, plantillas Twirl, inyección de dependencias con Guice, conexión a bases de datos con Slick y Ebean, autenticación mediante tokens JWT y diseño de APIs RESTful limpias.\n\nEl autor guía paso a paso la creación de una aplicación web completa desde la inicialización del proyecto con sbt hasta el despliegue en plataformas en la nube. Muy recomendable para principiantes que buscan un camino claro y directo en el desarrollo web con Play.",
+    "temas": [
+      "Play Framework",
+      "Scala",
+      "APIs REST",
+      "Slick",
+      "Guice",
+      "JWT",
+      "Microservicios",
+      "sbt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servicio Web RESTful Seguro con Play Framework",
+        "descripcion": "Desarrollo de un microservicio completo con autenticación JWT, validación de esquemas JSON y persistencia reactiva en base de datos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5645-9"
+    ]
+  },
+  "practical-probabilistic-programming-2016": {
+    "descripcion": "Obra pionera de Avi Pfeffer publicada por Manning en 2016. Introduce la programación probabilística y el aprendizaje automático bayesiano utilizando Figaro, una potente librería construida sobre Scala.\n\nExplora cómo modelar situaciones de incertidumbre mediante variables probabilísticas, grafos de decisión, redes bayesianas, cadenas de Markov y algoritmos de inferencia (Metropolis-Hastings, muestreo de Gibbs, inferencia exacta por eliminación de variables) integrados directamente en código Scala.\n\nA través de modelos prácticos en diagnosis médica, predicción financiera y procesamiento de lenguaje natural, el autor demuestra cómo razonar con datos incompletos. Un texto fascinante para científicos de datos y programadores que buscan una comprensión profunda del modelado probabilístico.",
+    "temas": [
+      "Programación Probabilística",
+      "Scala",
+      "Figaro",
+      "Redes Bayesianas",
+      "Inferencia Estadística",
+      "Machine Learning",
+      "Markov"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema Probabilístico de Diagnóstico y Toma de Decisiones",
+        "descripcion": "Modelado de una red bayesiana compleja en Figaro/Scala para inferencia y razonamiento probabilístico ante escenarios de datos inciertos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/practical-probabilistic-programming",
+      "https://github.com/pfeffer-avi/PracticalProbabilisticProgramming"
+    ]
+  },
+  "scalatra-in-action-2016": {
+    "descripcion": "Guía práctica escrita por Dave Hrycyszyn, Stefan Ollinger y Ross A. Baker, publicada por Manning en 2016. Está dedicada a Scalatra, el framework web minimalista y ligero de Scala inspirado en Sinatra de Ruby.\n\nCubre la definición concisa de rutas HTTP, manejo de sesiones y cookies, renderizado de respuestas JSON, validación de peticiones, soporte para Swagger/OpenAPI, testing con ScalatraTest y comunicación bidireccional en tiempo real con WebSockets y Atmosphere.\n\nEl texto demuestra cómo construir microservicios y APIs ágiles sin la sobrecarga ni complejidad de frameworks más pesados. Ideal para desarrolladores que buscan una solución directa y rápida para servicios backend en Scala.",
+    "temas": [
+      "Scalatra",
+      "Scala",
+      "Microservicios",
+      "APIs REST",
+      "WebSockets",
+      "Swagger",
+      "Sinatra-like",
+      "Atmosphere"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Microservicio de Notificaciones y Chat con Scalatra",
+        "descripcion": "Construcción de un servicio web ligero con documentación Swagger integrada y comunicación en tiempo real vía WebSockets."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/scalatra-in-action",
+      "https://scalatra.org/"
+    ]
+  }
+}

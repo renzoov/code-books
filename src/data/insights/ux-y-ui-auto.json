@@ -1,0 +1,1781 @@
+{
+  "form-design-patterns-2018": {
+    "descripcion": "Libro de Adam Silver, publicado por Smashing Media en octubre de 2018, dedicado por completo al diseño de formularios web accesibles e inclusivos. Parte de una idea sencilla: los formularios parecen triviales, pero son el centro de casi toda interacción con valor en la web (registrarse, pagar, reservar, buscar), y hacerlos simples para todo tipo de personas, navegadores y dispositivos es un problema serio. Está dirigido a diseñadores y desarrolladores de interfaces con nivel intermedio que ya manejan HTML, CSS y algo de JavaScript.\n\nCada uno de sus diez capítulos resuelve paso a paso un caso real: un formulario de registro (cualidades básicas de un buen formulario, el «protocolo de preguntas» para reducir fricción y la validación de errores), un checkout con el patrón «una cosa por página» y los tipos de input adecuados en móvil y escritorio, una reserva de vuelos con componentes personalizados (destinos, fechas, pasajeros y asientos) construidos con mejora progresiva y ARIA, un login y sus fallos de usabilidad habituales (incluido el acceso con redes sociales), una bandeja de entrada con acciones masivas y selección múltiple, un buscador responsive, filtros para grandes listados de resultados, la subida de varios archivos con arrastrar y soltar mejorada con Ajax pero usable por teclado y lector de pantalla, un formulario de gastos con el patrón «añadir otro» y, por último, estrategias para formularios muy largos y complejos.\n\nNo es un libro de un framework concreto: los patrones se entregan como un pequeño sistema de diseño reutilizable basado en HTML semántico, CSS y JavaScript sin dependencias, que el lector puede adaptar a su propio stack. Su gran aporte es combinar usabilidad, accesibilidad e ingeniería frontend con argumentos razonados (a veces cuestionando las «buenas prácticas» de moda). Deja fuera la parte de servidor y no trata librerías como React o Angular, así que habrá que trasladar las ideas a cada framework. Conviene leerlo con conocimientos básicos de ARIA y de lectores de pantalla para sacarle todo el partido.",
+    "temas": [
+      "Diseño de formularios",
+      "Accesibilidad",
+      "Diseño inclusivo",
+      "Validación de errores",
+      "Mejora progresiva",
+      "ARIA",
+      "Checkout",
+      "Componentes personalizados",
+      "Subida de archivos",
+      "Búsqueda y filtros",
+      "Sistema de diseño"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.smashingmagazine.com/printed-books/form-design-patterns",
+      "https://www.smashingmagazine.com/2018/10/form-design-patterns-release/"
+    ]
+  },
+  "essential-mobile-interaction-design-2014": {
+    "descripcion": "Guía de Cameron Banga y Josh Weinhold, publicada en 2014 por Addison-Wesley dentro de su serie de usabilidad, sobre los principios y técnicas para diseñar aplicaciones intuitivas para smartphones y tablets, sin atarse a una plataforma concreta aunque con ejemplos de iOS y Android de la época. Está pensada para personas con poca o ninguna formación en diseño o programación que se inician en las apps móviles, y también para desarrolladores y diseñadores sin formación formal en diseño de interacción o que necesitan colaborar mejor entre sí.\n\nLos once capítulos recorren el proceso completo: un panorama del ecosistema móvil y sus principales actores, el diseño centrado en las personas, las diferencias entre diseñar para móvil, tablet y escritorio, los primeros bocetos y wireframes, cómo encontrar el flujo de navegación adecuado a partir de la estructura de la app, el atractivo visual equilibrado con la usabilidad, el trabajo con programadores, la accesibilidad, la simplicidad, la obtención e interpretación de feedback de usuarios y la renovación de un diseño en nuevas versiones. Los autores, que acumulan más de cien apps publicadas, tratan además temas que las guías de cada plataforma suelen omitir, como la internacionalización, las apps híbridas, el sandboxing y el trabajo posterior al lanzamiento; los apéndices recogen apps destacadas y herramientas para diseñadores.\n\nEs un libro conceptual y de proceso: no hay código ni se construye una app guiada, sino criterios para planificar el diseño en lugar de ir sumando elementos de interfaz al azar. Su valor está en ofrecer una visión ordenada de todo el ciclo de diseño de una app y en el énfasis en la colaboración entre diseño y desarrollo. Hay que tener en cuenta su fecha: las referencias a plataformas, dispositivos y estilos visuales (la transición de iOS 6 a iOS 7, Android de 2013) han envejecido, aunque los principios siguen siendo válidos.",
+    "temas": [
+      "Diseño de interacción",
+      "Apps móviles",
+      "iOS",
+      "Android",
+      "Bocetos y wireframes",
+      "Flujo de navegación",
+      "Diseño visual",
+      "Accesibilidad",
+      "Internacionalización",
+      "Apps híbridas",
+      "Feedback de usuarios"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/essential-mobile-interaction-design-perfecting-interface-9780133563474",
+      "https://ptgmedia.pearsoncmg.com/images/9780321961570/samplepages/0321961579.pdf"
+    ]
+  },
+  "discussions-in-user-experience-2017": {
+    "descripcion": "Libro breve de Dave Lull, arquitecto de UX con base en Chicago que ha trabajado para empresas como Rockwell, John Deere, Chase, Sears y Redbox, publicado por Apress en 2017 con el subtítulo «Healthcare for User Frustration». Es una colección de debates parafraseados, reunidos a lo largo de años de discusiones en línea y experiencia profesional, que exploran la psicología y la filosofía detrás de las decisiones de experiencia de usuario. Va dirigido a profesionales de UX y a diseñadores o desarrolladores con algo de experiencia que quieran reflexionar sobre su práctica, más que aprender una técnica desde cero.\n\nSus quince capítulos, cortos, abordan la UX en el entorno laboral y su relación con la sociedad, algo de filosofía y ética del diseño, fundamentos y herramientas de psicología aplicados a la UX, aspectos específicos de la disciplina, la planificación, las preocupaciones de diseño, herramientas y métodos de diseño, investigación y pruebas con usuarios, la contratación de perfiles de UX, el futuro de la profesión, consejos prácticos y notas sobre las propias discusiones en línea, antes de un resumen final. No se apoya en herramientas o software concretos: el foco está en el razonamiento y en los argumentos.\n\nNo hay proyectos ni ejercicios; es un libro de lectura rápida, casi de ensayo y notas, útil para iniciar conversaciones en un equipo o revisar los propios supuestos sobre por qué los usuarios se frustran. Su formato de discusiones parafraseadas lo hace ágil pero poco profundo y algo disperso, así que no sustituye a un manual de investigación o de diseño de interacción. Conviene llegar con experiencia previa en proyectos de UX para aprovechar los matices de cada debate.",
+    "temas": [
+      "Experiencia de usuario",
+      "Psicología de la UX",
+      "Ética del diseño",
+      "Investigación con usuarios",
+      "Pruebas de usabilidad",
+      "Métodos de diseño",
+      "UX en la empresa",
+      "Contratación de UX",
+      "Futuro de la UX"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.springer.com/us/book/9781484232668",
+      "https://eld.bl.uk/catalog/019140129"
+    ]
+  },
+  "introducing-materialize-2016": {
+    "descripcion": "Introducción práctica a Materialize, el framework frontend responsive basado en el lenguaje Material Design de Google, escrita por Anirudh Prabhu (desarrollador de interfaces con más de siete años de experiencia) y Aravind Shenoy (redactor técnico), y publicada por Apress en 2016, cuando el framework estaba en sus versiones 0.x. Se presenta como una alternativa a Bootstrap o Foundation con estética Material, y está pensada para desarrolladores y diseñadores web que ya conocen HTML, CSS, JavaScript y jQuery, desde principiantes hasta perfiles con experiencia.\n\nA lo largo de seis capítulos breves explica los principios de Material Design y qué es Materialize, cómo descargarlo y configurarlo (incluida la versión con Sass), y luego recorre el sistema de rejilla de 12 columnas con contenedores, offsets, push y pull, la navegación lateral responsive y las clases helper (alineación, floats, ocultar contenido, truncado, efectos hover). Sigue con el estilo de elementos: paleta de colores, imágenes y vídeos responsive, sombras, tablas, tipografía y citas; los componentes JavaScript basados en jQuery (collapsibles, toasts, tooltips, dropdowns, modales, ScrollFire, ScrollSpy, SideNav, pestañas, efecto Waves, transiciones y carruseles); y los componentes de interfaz como badges, botones, tarjetas, chips, colecciones, pies de página y elementos de formulario (inputs, textareas, selects, radios, checkboxes, switches y date picker).\n\nFunciona como una guía de referencia comentada con fragmentos de código para cada componente, más que como un proyecto guiado de principio a fin. Es útil para maquetar rápido interfaces con aspecto Material sin diseñar desde cero, pero hay que tener en cuenta que el contenido corresponde a versiones antiguas del framework, dependientes de jQuery: Materialize 1.0 (2018) eliminó esa dependencia y cambió parte de la inicialización de componentes, y el proyecto original quedó después sin mantenimiento activo. Conviene contrastarlo con la documentación actual o con el fork comunitario antes de usarlo en proyectos nuevos.",
+    "temas": [
+      "Materialize",
+      "Material Design",
+      "CSS responsive",
+      "Sistema de rejilla",
+      "Sass",
+      "Clases helper",
+      "Componentes JavaScript",
+      "jQuery",
+      "Formularios",
+      "Tipografía y color"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/978-1-4842-2348-2",
+      "https://www.oreilly.com/library/view/introducing-materialize/9781484223499/A431780_1_En_BookFrontmatter_OnlinePDF.html",
+      "https://lib.hpu.edu.vn/items/4875f593-9e80-4f09-8f63-94236a904d3d/full"
+    ]
+  },
+  "modular-design-frameworks-2017": {
+    "descripcion": "Guía breve basada en proyectos de James Cabrera, diseñador visual que trabaja en diseño de interfaces y desarrollo de prototipos en Refinery29 (y con formación en matemáticas y física), publicada por Apress en 2017 con el subtítulo «A Projects-based Guide for UI/UX Designers». Propone un método casi científico para crear una estrategia de diseño sólida y escalable a partir de módulos, y está dirigida a diseñadores de UI/UX de nivel intermedio que ya conocen lo básico de HTML y CSS y quieren estructurar mejor sus sitios.\n\nLos capítulos tratan la idea de un «futuro modular» del diseño, la elección de tipografías y colores, la definición de una unidad básica de medida a partir de la cual se construye todo el sistema, la adaptación, reutilización, iteración y variación de los módulos, y la organización del contenido en grupos, páginas y navegación; un apéndice descompone ejemplos reales en sistemas modulares. Según la ficha del editor, el lector aprende a examinar el proceso de diseño de forma modular, adaptar el HTML a distintos tipos de aplicación, construir un framework alineado con los objetivos de cada sitio, diseñar pensando en la escala y crear un esqueleto base reutilizable.\n\nLo práctico del libro es que trabaja sobre un único proyecto que evoluciona: primero un sitio sencillo de tipo «nameplate» y luego su adaptación a otros tipos de web. Su aporte está en enseñar a pensar el diseño como un sistema de piezas reutilizables, una base útil para entender los design systems actuales. Por su extensión (unas 86 páginas) es más una introducción a la metodología que un tratado: no profundiza en herramientas de diseño, frameworks CSS ni en el desarrollo de la parte de servidor de los sitios de ejemplo.",
+    "temas": [
+      "Diseño modular",
+      "Frameworks de diseño",
+      "UI/UX",
+      "Tipografía",
+      "Color",
+      "Unidad base",
+      "Navegación",
+      "Escalabilidad",
+      "HTML",
+      "Design systems"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio nameplate",
+        "descripcion": "Proyecto base del libro: una web sencilla de presentación sobre la que se definen la unidad básica, tipografía, colores y navegación del framework modular en HTML y CSS."
+      },
+      {
+        "nombre": "Sitio de portafolio",
+        "descripcion": "Adaptación del mismo esqueleto modular a un portafolio, reorganizando módulos y contenido según los objetivos de este tipo de sitio."
+      },
+      {
+        "nombre": "Sitio de comercio electrónico",
+        "descripcion": "Reutilización del framework para una tienda en línea, ajustando la estructura HTML y los módulos a las necesidades de un catálogo de productos."
+      },
+      {
+        "nombre": "Sitio de noticias/publicación",
+        "descripcion": "Versión del sistema modular orientada a un medio editorial, con mayor peso en la organización y navegación de contenidos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/modular-design-frameworks/9781484216880/",
+      "https://link.springer.com/978-1-4842-1687-3",
+      "https://skillsoft.com/book/modular-design-frameworks-a-projects-based-guide-for-uiux-designers-1ab4d590-b5e0-11e7-9103-0a2959e30b42"
+    ]
+  },
+  "moving-to-responsive-web-design-2016": {
+    "descripcion": "Libro breve de Apress en el que Inayaili de León, diseñadora web principal en Canonical (la empresa detrás de Ubuntu) y autora habitual de A List Apart y Smashing Magazine, explica cómo convertir un sitio web estático de ancho fijo en uno responsivo sin rehacerlo desde cero. Escrito en 2016, cuando el diseño responsivo con HTML5, CSS3 y media queries ya era lo estándar, está pensado para diseñadores y desarrolladores con poco tiempo y para equipos con recursos limitados que ya saben maquetar con HTML y CSS y tienen que adaptar un sitio existente al mundo multidispositivo.\n\nEl libro sigue las etapas de un proyecto de migración real: planificación (cómo plantear el cambio, priorizar y organizar al equipo), desarrollo de contenido (por qué el contenido cobra más importancia en un diseño responsivo y cómo revisarlo y prepararlo), diseño (decidir cómo se adapta la interfaz en cada punto de quiebre o breakpoint) y construcción. En esta última etapa enseña a pasar de cuadrículas fijas en píxeles a cuadrículas fluidas con unidades relativas como porcentajes y ems, a definir los breakpoints con media queries y a resolver el problema de las imágenes responsivas. Termina con un apéndice de recursos para seguir aprendiendo.\n\nNo se construye un proyecto paso a paso: es una guía del proceso, con ejemplos, pensada para aplicarla al sitio propio. Su mayor valor está en la parte de planificación y contenido, que muchos manuales técnicos pasan por alto, y en su enfoque realista de mejorar de forma progresiva lo que ya existe. Lo que no cubre son las herramientas que se volvieron comunes después, como CSS Grid, Flexbox de uso generalizado o container queries, así que la parte técnica conviene completarla con documentación actual. Es muy útil para quien tenga que modernizar un sitio heredado.",
+    "temas": [
+      "Diseño responsivo",
+      "Migración de sitios estáticos",
+      "Planificación de proyectos",
+      "Estrategia de contenido",
+      "Cuadrículas fluidas",
+      "Unidades relativas",
+      "Breakpoints",
+      "Media queries",
+      "Imágenes responsivas",
+      "CSS"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.apress.com/9781484219867",
+      "https://www.oreilly.com/library/view/moving-to-responsive/9781484219874/A417115_1_En_BookFrontmatter_OnlinePDF.html",
+      "https://www.oreilly.com/library/view/moving-to-responsive/9781484219874/A417115_1_En_2_Chapter.html",
+      "https://skillsoft.com/book/moving-to-responsive-web-design-bring-existing-static-sites-into-todays-multi-device-world-with-responsive-web-design-8fa431b0-f412-11e6-bb2f-0242c0a80b05"
+    ]
+  },
+  "practical-ui-patterns-for-design-systems-2019": {
+    "descripcion": "Guía concisa de Diana MacDonald, diseñadora de producto en Melbourne que dirigió el equipo de sistemas de diseño de Culture Amp, sobre los patrones de interfaz de usuario: soluciones reutilizables para problemas de interfaz que se repiten, de modo que no haya que reinventarlas en cada proyecto. Publicada por Apress en 2019, no depende de ningún framework ni versión concreta. Sirve tanto a quienes vienen de fuera del mundo web o empiezan en él como a diseñadores y desarrolladores de nivel intermedio que participan en la creación de un sistema de diseño.\n\nEn siete capítulos explica qué es un patrón de UI y cómo encontrar el adecuado para un problema, cómo descomponerlo para entender sus restricciones y cómo decidir cuál usar y cuándo, según el contexto. También trata los antipatrones y los patrones oscuros (dark patterns), cómo combinar patrones y cómo estos sirven de base para construir un sistema de diseño y organizar el trabajo de DesignOps. En el camino aborda la usabilidad, la accesibilidad, la microcopia, el diseño de movimiento, la arquitectura de la información y las convenciones y estándares web, y se asoma a interfaces emergentes como la realidad virtual, aumentada y mixta, las interfaces conversacionales y de voz, la interacción por gestos y el aprendizaje automático.\n\nEs un libro conceptual con muchos ejemplos de interfaces reales: no incluye código ni proyectos guiados, sino criterios para tomar decisiones de diseño. Su aporte está en dar un vocabulario común a diseñadores y desarrolladores y en enseñar a valorar un patrón en lugar de copiarlo sin pensar. Quien busque implementar componentes en React, Vue o una librería concreta deberá complementarlo con material técnico. Es ideal antes de crear o ampliar una librería de componentes.",
+    "temas": [
+      "Patrones de UI",
+      "Sistemas de diseño",
+      "Antipatrones",
+      "Dark patterns",
+      "Usabilidad",
+      "Accesibilidad",
+      "Microcopia",
+      "Diseño de movimiento",
+      "Arquitectura de la información",
+      "DesignOps",
+      "Interfaces emergentes"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.apress.com/us/book/9781484249376",
+      "https://www.oreilly.com/library/view/practical-ui-patterns/9781484249383",
+      "https://www.deceptive.design/articles/practical-ui-patterns-for-design-systems",
+      "https://www.goodreads.com/book/show/45007565"
+    ]
+  },
+  "practical-user-research-2020": {
+    "descripcion": "Manual práctico de la Dra. Emmanuelle Savarit, fundadora de la consultora Analyse-Concept, que ha trabajado para clientes como HSBC y el Ministerio del Interior británico (Home Office), sobre cómo integrar la investigación de usuarios en el desarrollo de productos digitales. Publicado por Apress en 2020 y sin depender de ninguna herramienta concreta, se dirige a profesionales de UX, estudiantes y responsables de producto u otros interesados que quieren entender el proceso de principio a fin. No requiere experiencia previa en investigación.\n\nEmpieza con la historia de la investigación de usuarios y el desarrollo de producto tradicional. Luego explica cómo introducir o hacer crecer la investigación en una organización según su grado de madurez, cómo justificar el presupuesto ante la dirección y cómo ajustar los métodos a las fases de producto (Discovery, Alpha, Beta y Live). Dedica varios capítulos a preparar la investigación y a redactar un plan. Recorre los métodos cuantitativos (analítica, encuestas, card sorting abierto, cerrado e híbrido, la escala SUS) y los cualitativos (investigación contextual o etnografía, entrevistas, grupos focales, pruebas de usabilidad y estudios de diario). Para el análisis usa diagramas de afinidad y análisis temático, y también diferencia los perfiles de usuario de las personas. Incluye un capítulo sobre reclutamiento de participantes, ética, consentimiento y accesibilidad, y apéndices con un cuestionario de selección (screener) y un modelo de formulario de consentimiento.\n\nEl último capítulo ofrece diez briefs de proyecto de distintos sectores y culturas para practicar lo aprendido. Su punto fuerte es ver la investigación como una actividad continua y dar indicaciones concretas, como el tamaño de las muestras, el número de tarjetas o la estructura del plan. Algunas recomendaciones se presentan como reglas fijas sin discutir mucho el contexto, y los casos se tratan de forma breve. No cubre en profundidad las herramientas de software ni la estadística avanzada. Es una buena base para montar una práctica de investigación en un equipo de producto.",
+    "temas": [
+      "Investigación de usuarios",
+      "Fases de producto",
+      "Plan de investigación",
+      "Analítica",
+      "Encuestas",
+      "Card sorting",
+      "Entrevistas",
+      "Pruebas de usabilidad",
+      "Estudios de diario",
+      "Diagramas de afinidad",
+      "Reclutamiento de participantes",
+      "Ética y consentimiento"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.apress.com/us/book/9781484255957",
+      "https://www.oreilly.com/library/view/practical-user-research/9781484255964/html/481693_1_En_1_Chapter.xhtml",
+      "https://www.amazon.com/Practical-User-Research-Everything-Development/dp/148425595X",
+      "https://www.goodreads.com/book/show/48816294-practical-user-research",
+      "https://productsummaries.com/2020/09/06/book-review-practical-user-research-everything-you-need-to-know-to-by-dr-emmanuelle-savarit/"
+    ]
+  },
+  "practical-web-design-for-absolute-beginners-2016": {
+    "descripcion": "Curso de iniciación de Adrian W. West, que lleva unos quince años creando y manteniendo sitios con su negocio de diseño web AM Web Design, para aprender a hacer sitios web desde cero con HTML y CSS escritos a mano, sin recurrir a gestores de contenido como WordPress o Joomla. Publicado por Apress en 2016, es para principiantes absolutos: no hace falta saber nada de programación, y el libro enseña justo el HTML y el CSS necesarios para terminar todos los ejercicios.\n\nSon unos cuarenta capítulos cortos que van sumando poco código nuevo cada vez, a partir de plantillas que se reutilizan de un capítulo a otro. Empieza por instalar un editor de texto gratuito y crear la estructura de una primera página, y continúa con hipervínculos y con las bases del buen diseño. Después vienen los menús de navegación (botones con efecto rollover, menús verticales y horizontales con galerías de imágenes, menús de pestañas y desplegables) y los formularios: de comentarios, de contacto con envío por correo, un formulario de pedido imprimible y un campo de búsqueda. Una serie de cuatro capítulos enseña a crear sitios responsivos para móviles. Por último explica el SEO básico, el registro de un dominio y la publicación del sitio en un hosting remoto.\n\nCasi todos los capítulos son una pequeña práctica que deja como resultado una plantilla reutilizable, así que al terminar el lector tiene un repertorio de diseños para adaptar a sus propios sitios. Es muy accesible y práctico para dar los primeros pasos. Hay que tener en cuenta que algunas técnicas de 2016 ya no son las actuales: no trata JavaScript a fondo, ni Flexbox o CSS Grid como herramientas principales de maquetación, ni frameworks modernos. Sirve como introducción, y conviene seguir después con un libro de CSS más actual.",
+    "temas": [
+      "HTML",
+      "CSS",
+      "Plantillas web",
+      "Menús de navegación",
+      "Galerías de imágenes",
+      "Formularios",
+      "Diseño responsivo",
+      "SEO básico",
+      "Dominios",
+      "Hosting y publicación"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Primer sitio web con hipervínculos",
+        "descripcion": "Sitio inicial en HTML y CSS creado con un editor de texto gratuito, que sirve de base para las plantillas de los capítulos siguientes."
+      },
+      {
+        "nombre": "Menús y galerías de imágenes",
+        "descripcion": "Plantillas con botones rollover, menús verticales y horizontales con galerías de imágenes, menús de pestañas y desplegables, hechos solo con HTML y CSS."
+      },
+      {
+        "nombre": "Formularios de contacto, comentarios y pedidos",
+        "descripcion": "Formulario de comentarios, página 'Contáctanos' que envía los mensajes por correo, formulario de pedido imprimible y campo de búsqueda para el sitio."
+      },
+      {
+        "nombre": "Sitio responsivo para móviles",
+        "descripcion": "Serie de cuatro capítulos en la que se adapta un sitio a los dispositivos móviles con técnicas de diseño responsivo en CSS, antes de publicarlo en un hosting remoto."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.springer.com/gp/book/9781484219928",
+      "https://www.barnesandnoble.com/w/practical-web-design-for-absolute-beginners-adrian-w-west/1126361892",
+      "https://www.skillsoft.com/book/practical-web-design-for-absolute-beginners-aa2d4580-165e-11e7-ad19-0242c0a80c02",
+      "https://www.oreilly.com/library/view/practical-web-design/9781484219935/A418477_1_En_BookFrontmatter_OnlinePDF.html"
+    ]
+  },
+  "practical-webix-2018": {
+    "descripcion": "Primer libro publicado sobre Webix, el framework de JavaScript para crear interfaces web ricas con componentes listos para usar. Lo escribe Frank Zammetti, desarrollador con más de 25 años de experiencia y autor de varios libros técnicos de Apress. El código del libro está probado con Webix 4.4 (edición GPL). Va dirigido a desarrolladores frontend con algo de experiencia que ya dominan HTML, CSS y JavaScript y quieren acelerar el desarrollo de aplicaciones web multiplataforma.\n\nLos primeros capítulos presentan Webix y su modo de definir interfaces de forma declarativa con objetos de configuración. Luego repasan sus componentes de interfaz (layouts, formularios, tablas de datos, listas, árboles y otros) y sus utilidades, y dedican un capítulo a los componentes premium de pago. También muestra las herramientas que acompañan al framework: el Skin Builder para crear temas, el Form Builder y el entorno de pruebas de fragmentos de código (Snippet). Además explica cómo integrar Webix con Angular, Vue y React y con componentes de terceros como dhtmlx o editores de texto enriquecido, y cómo comunicarse con un backend en Node.js. Cierra con el empaquetado de la aplicación con Cordova/PhoneGap y su distribución como Progressive Web App.\n\nLa mitad práctica del libro gira alrededor de wxPIM, un gestor de información personal que se construye a lo largo de varios capítulos y después se lleva al escritorio, a la nube y a los móviles. El último capítulo construye un juego con Webix. Es un buen recorrido para evaluar si Webix encaja en un proyecto, sobre todo en aplicaciones de gestión con muchos datos. Conviene saber que Webix es un producto comercial con edición GPL, que los componentes premium requieren licencia y que la versión cubierta (4.4) es ya antigua, así que algunas APIs pueden haber cambiado.",
+    "temas": [
+      "Webix 4.4",
+      "JavaScript",
+      "Componentes de UI",
+      "Skin Builder",
+      "Form Builder",
+      "Angular, Vue y React",
+      "Node.js",
+      "Cordova/PhoneGap",
+      "Progressive Web Apps",
+      "Aplicaciones multiplataforma",
+      "Desarrollo de juegos"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "wxPIM",
+        "descripcion": "Gestor de información personal hecho con componentes de Webix que se construye a lo largo de varios capítulos. Luego se adapta para ejecutarse en el escritorio, se conecta a la nube y se empaqueta como aplicación móvil con PhoneGap."
+      },
+      {
+        "nombre": "wxGame",
+        "descripcion": "Juego desarrollado con Webix en el capítulo final, que muestra el lado más lúdico del framework y cómo usar sus componentes fuera de las aplicaciones de gestión."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.apress.com/gp/book/9781484233832",
+      "https://www.bookshare.org/browse/book/2268624",
+      "https://github.com/Apress/practical-webix",
+      "https://www.oreilly.com/library/view/practical-webix-learn/9781484233849/html/455420_1_En_4_Chapter.xhtml"
+    ]
+  },
+  "principles-of-package-design-2018": {
+    "descripcion": "Segunda edición, publicada por Apress, del libro que Matthias Noback lanzó primero por su cuenta como «Principles of PHP Package Design». Explica cómo preparar el código para reutilizarlo, compartirlo y distribuirlo como paquetes independientes. Aunque los ejemplos y el contexto vienen sobre todo del ecosistema PHP, los principios sirven para cualquier lenguaje orientado a objetos. Está pensado para desarrolladores de distintos niveles. Para aprovecharlo hay que dominar la programación orientada a objetos (clases, interfaces, herencia) y haber trabajado con dependencias de terceros.\n\nEl libro tiene dos partes. La primera repasa los cinco principios SOLID de diseño de clases, uno por capítulo: responsabilidad única, abierto/cerrado, sustitución de Liskov, segregación de interfaces e inversión de dependencias. La segunda trata el diseño de paquetes. Primero vienen los tres principios de cohesión, que deciden qué clases van juntas y cuándo conviene dividir un paquete: equivalencia entre publicación y reutilización, reutilización común y cierre común. Después llegan los tres principios de acoplamiento, que orientan la elección y la dirección de las dependencias entre paquetes: dependencias acíclicas, dependencias estables y abstracciones estables. Incluye métricas de inestabilidad y de abstracción. También toca aspectos prácticos de publicar un paquete, como el control de versiones, la definición del paquete con Composer, los archivos de metadatos y la carga automática de clases.\n\nNo es un libro de proyectos: cada principio se presenta con ejemplos de código que muestran el problema y su refactorización. Su gran aporte es llevar a los paquetes las ideas de Robert C. Martin sobre componentes y explicarlas de forma clara y aplicada. Es muy útil para quien mantiene librerías o una base de código modular. Aunque el catálogo lo marca como nivel básico, rinde más con algo de experiencia en diseño orientado a objetos. No cubre herramientas concretas de integración continua ni la gestión de repositorios de paquetes más allá de lo esencial.",
+    "temas": [
+      "SOLID",
+      "Responsabilidad única",
+      "Inversión de dependencias",
+      "Diseño de paquetes",
+      "Cohesión",
+      "Acoplamiento",
+      "Dependencias acíclicas",
+      "Dependencias estables",
+      "Abstracciones estables",
+      "PHP",
+      "Composer",
+      "Reutilización de código"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://matthiasnoback.nl/book/principles-of-package-design/",
+      "https://www.springer.com/9781484241189",
+      "https://www.oreilly.com/library/view/principles-of-package/9781484241196/html/471891_1_En_10_Chapter.xhtml",
+      "https://www.oreilly.com/library/view/principles-of-package/9781484241196/html/471891_1_En_11_Chapter.xhtml"
+    ]
+  },
+  "the-full-stack-developer-2018": {
+    "descripcion": "Guía general escrita por Chris Northwood, ingeniero sénior de BBC Research & Development, sobre las habilidades del día a día que se esperan de un desarrollador web full stack moderno. No se ata a un framework concreto: trata los fundamentos de la web tal como era en 2018. Está pensada para desarrolladores con algo de experiencia, o recién llegados a equipos ágiles, que quieren una visión de conjunto de todo el ciclo de vida de un producto web y no solo de la programación.\n\nSus 16 capítulos recorren la web moderna, la planificación del trabajo (ágil frente a cascada, Scrum, Kanban y entrega continua), la experiencia de usuario, el diseño de sistemas y la arquitectura, y la ética profesional. Después pasan al front end y sus patrones, las pruebas y el aseguramiento de la calidad, JavaScript y la accesibilidad. En la parte de servidor revisa los estilos de API (SOAP, AJAX y REST) y cómo definir sus dominios, el almacenamiento de datos y la seguridad. Cierra con el despliegue, la operación de un sistema en producción y la necesidad de aprender de forma constante.\n\nNo tiene un proyecto guiado: es una obra de referencia y orientación con ejemplos puntuales de código. Su valor está en conectar disciplinas que suelen enseñarse por separado (UX, gestión de proyectos, calidad, producto, seguridad y operaciones) y en dar criterio para trabajar en equipo. Cada tema se trata de forma introductoria, así que para dominar cualquiera de ellos hacen falta lecturas específicas. Al haberse escrito en 2018, conviene complementar las herramientas que menciona con las actuales.",
+    "temas": [
+      "Desarrollo full stack",
+      "Agile",
+      "Scrum y Kanban",
+      "Experiencia de usuario",
+      "Diseño de sistemas",
+      "Front end",
+      "Testing",
+      "JavaScript",
+      "Accesibilidad",
+      "APIs REST",
+      "Seguridad web",
+      "Despliegue"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4152-3",
+      "https://www.springer.com/de/book/9781484241516",
+      "https://www.oreilly.com/library/view/the-full-stack/9781484241523/html/471976_1_En_1_Chapter.xhtml",
+      "https://www.barnesandnoble.com/w/the-full-stack-developer-chris-northwood/1129472277"
+    ]
+  },
+  "ux-for-developers-2019": {
+    "descripcion": "Libro breve de Westley Knight, un desarrollador web que se pasó al diseño de experiencia de usuario, sobre cómo integrar los principios del diseño centrado en el usuario en el trabajo diario de desarrollo. Va dirigido a desarrolladores web y de aplicaciones de nivel intermedio que ya saben construir productos y quieren entender mejor a sus usuarios y colaborar mejor con diseñadores, producto y negocio. No hace falta experiencia previa en UX.\n\nSus diez capítulos empiezan definiendo qué es la experiencia de usuario y por qué importa, y abordan la tensión entre los objetivos del negocio y los objetivos del usuario. Luego proponen cambiar la perspectiva del desarrollador y destacan la comunicación con perfiles no técnicos. Siguen con técnicas para centrarse en el usuario y desarrollar empatía con él, la importancia del diseño visual y un capítulo dedicado al ciclo de prototipar, evaluar e iterar. Termina con recomendaciones para seguir avanzando en el campo. Presenta herramientas y técnicas de UX de forma accesible, pensando en perfiles técnicos.\n\nEs un libro conceptual y de cambio de mentalidad: no hay proyectos ni ejercicios guiados, y no enseña a usar herramientas de diseño concretas ni métodos de investigación en profundidad. Su mayor aporte son las habilidades blandas: empatía, comunicación y saber priorizar al usuario frente a la comodidad técnica. Es muy recomendable para desarrolladores en equipos pequeños sin diseñador dedicado. Quien busque métricas, pruebas de usabilidad formales o guías de interfaz detalladas tendrá que complementarlo.",
+    "temas": [
+      "Experiencia de usuario",
+      "Diseño centrado en el usuario",
+      "Empatía",
+      "Objetivos de negocio",
+      "Comunicación en equipo",
+      "Diseño visual",
+      "Prototipado",
+      "Iteración",
+      "Habilidades blandas"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4227-8",
+      "https://www.apress.com/gp/book/9781484242261",
+      "https://books.google.com/books/about/UX_for_Developers.html?id=yLd9DwAAQBAJ",
+      "https://westleyknight.com/about/"
+    ]
+  },
+  "ux-optimization-2018": {
+    "descripcion": "Libro de W. Craig Tomlin, estratega e investigador sénior de UX, especialista en optimización de la conversión y analista de usabilidad certificado, sobre cómo optimizar sitios web y aplicaciones combinando dos fuentes de evidencia. La primera son los datos de comportamiento (cuantitativos), que muestran qué hacen los usuarios. La segunda son las pruebas de usabilidad (cualitativas), que explican por qué lo hacen. Se dirige a analistas de datos, investigadores de UX, especialistas en usabilidad, gerentes de producto y estudiantes con nociones básicas de analítica web y diseño de experiencia.\n\nTras un capítulo de introducción a la optimización de UX, dedica varios a las personas (perfiles de usuario): qué son, qué tipos existen, por qué importan y cómo crearlas, ya que sirven de marco para interpretar los datos. Luego explica dónde encontrar datos de comportamiento, cuándo conviene usarlos y cómo analizarlos de forma cuantitativa. Después muestra cómo planificar y evaluar pruebas de UX y de usabilidad para detectar errores recurrentes en los flujos de tareas. Dos capítulos finales enseñan a combinar ambos tipos de datos, convertir los hallazgos en recomendaciones de optimización y comprobar si los cambios mejoran realmente los resultados.\n\nEl libro propone un método de trabajo más que un proyecto: guía paso a paso un proceso de análisis que el lector puede aplicar a su propio sitio. Su aporte está en unir la analítica con la investigación de usuarios, dos disciplinas que en muchas empresas viven separadas, con una orientación clara al retorno de la inversión. No es un manual de herramientas concretas de analítica, mapas de calor ni pruebas A/B, así que conviene conocer alguna plataforma de analítica web para llevar el método a la práctica.",
+    "temas": [
+      "Optimización de UX",
+      "Personas",
+      "Datos de comportamiento",
+      "Análisis cuantitativo",
+      "Pruebas de usabilidad",
+      "Investigación cualitativa",
+      "Flujos de tareas",
+      "Optimización de conversión",
+      "Recomendaciones de mejora"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3867-7",
+      "https://apress.com/gp/book/9781484238660",
+      "https://link.springer.com/chapter/10.1007/978-1-4842-3867-7_7",
+      "https://books.google.com/books/about/UX_Optimization.html?id=7rJwDwAAQBAJ"
+    ]
+  },
+  "voice-user-interface-design-2019": {
+    "descripcion": "Libro corto de Ritwik Dasgupta, diseñador de UX en Microsoft (India) que trabajó en el equipo de Cortana para Windows 10, dispositivos con asistente y aplicaciones para iOS y Android. Trata el diseño de interfaces de voz (VUI) y el paso de las interfaces gráficas a la interacción multimodal. Aunque el catálogo lo fecha en 2019, las fuentes oficiales lo sitúan en 2018. Está dirigido a diseñadores de interacción, emprendedores y entusiastas de la inteligencia artificial. No exige conocimientos de programación, pero sí cierta familiaridad con el diseño de experiencia de usuario.\n\nSe organiza en cuatro capítulos. El primero presenta las interfaces de voz y su contexto. El segundo expone los principios de diseño de una VUI. El tercero trata la personalidad del asistente, es decir, cómo definir el tono y el carácter con que se comunica con el usuario. El cuarto analiza la potencia de las interacciones multimodales. El autor se centra en la fase de diseño y compara las experiencias que combinan pantalla y voz con las puramente de voz. También aborda los modelos de interacción con bots conversacionales basados en chat y apoya las explicaciones en ejemplos reales y casos de estudio.\n\nEs una introducción conceptual y muy breve, sin proyectos ni ejercicios, y no enseña a programar skills ni acciones para plataformas como Alexa, Google Assistant o el propio Cortana. Su valor está en la mirada de alguien que diseñó un asistente real y en el énfasis en la multimodalidad, que suele quedar fuera de las guías centradas solo en la voz. Sirve como punto de partida para diseñadores. Quien quiera implementar una interfaz de voz necesitará después documentación técnica de la plataforma elegida.",
+    "temas": [
+      "Interfaces de voz",
+      "VUI",
+      "Principios de diseño",
+      "Personalidad del asistente",
+      "Interacción multimodal",
+      "Asistentes virtuales",
+      "Cortana",
+      "Chatbots",
+      "Diseño de interacción"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/978-1-4842-4124-0",
+      "https://apress.com/gp/book/9781484241240",
+      "https://www.oreilly.com/library/view/voice-user-interface/9781484241257/html/464509_1_En_1_Chapter.xhtml",
+      "https://books.google.com/books/about/Voice_User_Interface_Design.html?id=Q3B_DwAAQBAJ"
+    ]
+  },
+  "web-based-projects-that-rock-the-class-2019": {
+    "descripcion": "Libro de Apress en el que Christos Karayiannis enseña cómo funcionan por dentro las aplicaciones web cliente-servidor a partir de proyectos completos: cada capítulo trata un tema desde cero y lo cierra con un proyecto funcional, con el código fuente y los pasos de configuración. Está pensado para estudiantes universitarios y para quien quiere iniciarse en serio en la programación web. Supone que el lector ya ha usado sitios web, tiene nociones básicas de Linux y de programación y sabe qué es una base de datos. La pila tecnológica es la clásica de finales de los 2010: PHP y MySQL sobre servidores Linux.\n\nEl recorrido abarca las dos capas de una aplicación web. Del lado del cliente usa HTML, CSS, JavaScript y AJAX; del lado del servidor, PHP y MySQL. Lo que lo distingue de otros libros introductorios es cuánto se detiene en la infraestructura: instala y configura dos servidores web distintos, Apache y Lighttpd, y explica cómo conseguir un nombre de dominio mediante DNS y DNS dinámico (DDNS). También muestra cómo activar HTTPS con certificados SSL/TLS y toca scripts de shell, programación con sockets y el análisis de tráfico con Wireshark. Por último, enseña a probar la aplicación con herramientas en línea y a programar herramientas de prueba parecidas.\n\nEs un libro práctico y orientado a proyectos: el código está en un repositorio de GitHub que el autor actualiza al cambiar las versiones de los lenguajes. Su mayor aporte es que muestra todo el camino, desde el navegador hasta un servidor propio publicado en internet con su dominio y su certificado, algo que los tutoriales de frameworks suelen esconder. A cambio, no trata frameworks modernos de frontend ni de backend (React, Laravel, Node.js), contenedores ni servicios en la nube, y su estilo PHP es sencillo y didáctico más que profesional. Conviene tener a mano una máquina Linux o una máquina virtual para seguir las configuraciones de los servidores.",
+    "temas": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "AJAX",
+      "PHP",
+      "MySQL",
+      "Apache",
+      "Lighttpd",
+      "DNS y DDNS",
+      "SSL/TLS y HTTPS",
+      "Sockets",
+      "Wireshark"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Proyectos web cliente-servidor por capítulo",
+        "descripcion": "Cada capítulo cierra con una aplicación completa que integra HTML, CSS, JavaScript y AJAX en el cliente con PHP y MySQL en el servidor, con el código fuente y los pasos de configuración."
+      },
+      {
+        "nombre": "Servidor web propio con dominio y HTTPS",
+        "descripcion": "Montaje y configuración de los servidores Apache y Lighttpd, publicación con un nombre de dominio vía DNS o DDNS y protección de la conexión con certificados SSL/TLS."
+      },
+      {
+        "nombre": "Herramientas de prueba de aplicaciones web",
+        "descripcion": "Se prueba la aplicación con servicios en línea y luego se construyen herramientas similares, con apoyo de sockets, scripts de shell y análisis de tráfico con Wireshark."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.goodreads.com/book/show/43586009-web-based-projects-that-rock-the-class",
+      "https://tenlong.com.tw/products/9781484244623",
+      "https://www.amazon.com/Web-Based-Projects-that-Rock-Class/dp/1484244621"
+    ]
+  },
+  "principles-of-web-design-6th-edition-2014": {
+    "descripcion": "Libro de texto universitario de la serie Web Warrior de Cengage, en el que Joel Sklar enseña a diseñar sitios web con criterios de usabilidad, legibilidad y accesibilidad. La sexta edición, de 2014, se actualiza a HTML5 y CSS3 y añade el diseño para teléfonos inteligentes y tabletas con técnicas de diseño responsive. Es para principiantes absolutos o estudiantes de un curso introductorio: no hace falta saber programar, solo manejar un navegador y un editor de texto.\n\nLos doce capítulos siguen un orden progresivo. Empieza con HTML5 y los principios de diseño de sitios web, sigue con la planificación de un sitio y pasa a las hojas de estilo en cascada (CSS). Después trata la tipografía web, el modelo de caja y sus propiedades, y la maquetación de páginas. Más adelante aborda los gráficos y el color, la navegación del sitio, las tablas de datos y los formularios web, y termina con un capítulo dedicado al diseño responsive con media queries para adaptar el sitio a cada pantalla. Todo se apoya en estándares web, sin frameworks ni herramientas de terceros.\n\nComo manual académico, combina explicaciones con ejemplos, preguntas de repaso y actividades prácticas al final de cada capítulo, que suelen llevar a construir y mejorar un sitio de ejemplo paso a paso. Aporta una base ordenada y muy completa sobre los fundamentos del diseño web: es útil para quien quiere entender el porqué de cada decisión y no solo copiar código. A cambio, por su fecha no cubre CSS Grid, cuyo soporte llegó a los navegadores en 2017, y apenas aprovecha Flexbox. Tampoco toca JavaScript, preprocesadores ni herramientas de diseño de interfaces, así que conviene completarlo con recursos más recientes sobre maquetación moderna.",
+    "temas": [
+      "HTML5",
+      "CSS3",
+      "Principios de diseño web",
+      "Planificación de sitios",
+      "Tipografía web",
+      "Modelo de caja",
+      "Maquetación",
+      "Color y gráficos",
+      "Navegación",
+      "Tablas y formularios",
+      "Diseño responsive"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.cengage.com/c/principles-of-web-design-the-web-warrior-series-6e-sklar/9781285852645/",
+      "https://libexplorer.upnm.edu.my/home/Record/98114/TOC"
+    ]
+  },
+  "micro-frontends-in-action-2020": {
+    "descripcion": "Libro de Manning en el que Michael Geers, creador del sitio de referencia micro-frontends.org, lleva las ideas de los microservicios al frontend. Propone dividir una aplicación web grande en piezas independientes, cada una con su propia interfaz, lógica y datos, que construyen y despliegan equipos distintos y que luego se combinan en una sola experiencia en el navegador. Está dirigido a desarrolladores web, arquitectos de software y líderes técnicos. Aunque arranca desde lo básico, se aprovecha mejor si ya conoces HTML, JavaScript, el desarrollo de SPAs y algo de servidores web.\n\nEl libro tiene tres partes. La primera presenta el concepto y las formas más simples de integración: enlaces entre páginas e iframes. La segunda, sobre rutas y composición, compara la composición en el servidor (Server Side Includes con Nginx, manejo de tiempos de espera y alternativas de respaldo, y la librería Podium) con la composición en el cliente mediante Web Components y Shadow DOM para aislar estilos. También cubre la comunicación entre fragmentos con eventos, el enrutado en el cliente plano y en dos niveles con single-spa, y el renderizado universal. La tercera parte trata la carga de recursos, el rendimiento, cómo compartir librerías comunes (con el DllPlugin de Webpack o con módulos ES y Rollup), los sistemas de diseño para mantener una apariencia coherente, la organización de equipos, la migración desde un monolito y el desarrollo local.\n\nTodo se practica sobre una tienda en línea de ejemplo (un comercio de tractores) que se va ampliando con más de veinte ejemplos ejecutables con Node.js y publicados en GitHub. Su gran aporte es que no casa al lector con un framework: explica los compromisos de cada técnica para que pueda elegir según su contexto, y une la arquitectura técnica con la organización de equipos. No cubre Module Federation de Webpack 5, que se popularizó justo después de su publicación, y algunos ejemplos dependen de tener Nginx instalado. Interesa sobre todo a organizaciones con varios equipos trabajando en un mismo frontend; en proyectos pequeños, la complejidad añadida rara vez compensa.",
+    "temas": [
+      "Micro frontends",
+      "Arquitectura frontend",
+      "Composición en servidor",
+      "SSI y Nginx",
+      "Web Components",
+      "Shadow DOM",
+      "Enrutado en el cliente",
+      "single-spa",
+      "Podium",
+      "Renderizado universal",
+      "Sistemas de diseño",
+      "Organización de equipos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tienda en línea de ejemplo compuesta por micro frontends",
+        "descripcion": "Comercio electrónico que se construye a lo largo del libro: varios equipos aportan fragmentos independientes que se combinan con iframes, SSI en Nginx, Podium, Web Components o single-spa, con comunicación entre fragmentos, enrutado y renderizado universal."
+      },
+      {
+        "nombre": "Librerías compartidas y rendimiento",
+        "descripcion": "Ejemplos para compartir dependencias entre micro frontends con el DllPlugin de Webpack o con módulos ES absolutos y Rollup, y para registrar y cargar recursos de forma eficiente."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/micro-frontends-in-action",
+      "https://github.com/naltatis/micro-frontends-in-action-code",
+      "https://www.manning.com/authors/michael-geers"
+    ]
+  },
+  "the-responsive-web-2014": {
+    "descripcion": "Introducción práctica y concisa al diseño web responsive, escrita por Matthew Carver, desarrollador frontend y diseñador web que ha trabajado para clientes como American Airlines, Home Depot y Google. Publicada por Manning en 2014, trabaja con HTML5 y CSS3. Está dirigida a diseñadores y desarrolladores que ya crean interfaces web y quieren adaptar sus conocimientos para que un sitio funcione bien en móviles, tabletas y escritorio. Hace falta manejar HTML y CSS con soltura.\n\nTiene nueve capítulos en tres partes. La primera presenta un flujo de trabajo responsive con media queries y puntos de quiebre, y crea un prototipo rápido con la cuadrícula de 12 columnas de Foundation (Zurb). También trata el diseño mobile-first, el diseño para pantallas táctiles y las fuentes web (Typekit, Google Fonts o fuentes alojadas en el propio servidor). La segunda parte trata las guías de estilo y los style tiles, los patrones de navegación principal (menú desplegable y menú tipo select), los layouts fluidos con porcentajes y sistemas de cuadrícula, y cómo adaptar el contenido a cada tamaño de pantalla. La tercera pasa al código: imágenes y vídeo de fondo responsive, fuentes de iconos y SVG, mejora progresiva frente a degradación elegante con Modernizr, y pruebas con simuladores (el simulador de iOS de Xcode, Parallels) y con las herramientas de desarrollo del navegador. Además menciona el preprocesado de CSS y la tipografía fluida.\n\nEl libro construye un mismo sitio de principio a fin, con listados de código comentados y recuadros con consejos para diseñadores y para desarrolladores. Se valora mucho su organización y su equilibrio entre diseño y código. Su principal limitación es la edad: se basa en Foundation 3 (ya superada cuando salió), es anterior a Flexbox y CSS Grid tal como se usan hoy y no trata imágenes responsive con srcset ni container queries. Sigue siendo útil para entender el enfoque mobile-first y el trabajo conjunto entre diseño y desarrollo, pero las técnicas concretas conviene contrastarlas con prácticas actuales.",
+    "temas": [
+      "Diseño responsive",
+      "Media queries",
+      "Mobile-first",
+      "Foundation",
+      "Layouts fluidos",
+      "Sistemas de cuadrícula",
+      "Fuentes web",
+      "Patrones de navegación",
+      "SVG y fuentes de iconos",
+      "Modernizr",
+      "Mejora progresiva",
+      "Pruebas en dispositivos"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio web responsive desarrollado a lo largo del libro",
+        "descripcion": "Sitio de ejemplo que parte de un prototipo mobile-first hecho con la cuadrícula de Foundation y se amplía capítulo a capítulo con navegación adaptable, layouts fluidos, fuentes web, imágenes de fondo, SVG y detección de capacidades con Modernizr."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://manning.com/books/the-responsive-web",
+      "https://www.i-programmer.info/bookreviews/12-web-design-and-development-/8732-the-responsive-web-.html",
+      "https://www.manning.com/authors/matthew-carver"
+    ]
+  },
+  "don-t-make-me-think-revisited-3rd-edition-2014": {
+    "descripcion": "Tercera edición, revisada y ampliada, del clásico de Steve Krug sobre usabilidad web, publicada por New Riders a finales de 2013. Desde su primera edición en 2000 es una de las lecturas más recomendadas para diseñadores, desarrolladores, gestores de producto y cualquier persona que participe en la creación de sitios o aplicaciones. No exige conocimientos técnicos: se lee en pocas horas y está pensado para entenderse sin formación previa en diseño. Esta edición revisa los principios originales con comentarios y ejemplos nuevos, e integra el mundo móvil en todo el libro.\n\nSus trece capítulos parten de una idea central: una buena interfaz debe ser evidente por sí misma y no obligar al usuario a pensar. Krug explica cómo usamos realmente la web (ojeamos en lugar de leer, nos conformamos con la primera opción razonable y no nos detenemos a entender cómo funcionan las cosas) y deriva de ahí pautas concretas. Entre ellas, diseñar páginas como vallas publicitarias con jerarquía visual clara, hacer que lo clicable sea obvio, eliminar palabras innecesarias y crear una navegación con «señales de tráfico» y migas de pan. También explica cómo comunicar el propósito del sitio en la página de inicio y cómo zanjar las discusiones de diseño en el equipo. Otros capítulos tratan las pruebas de usabilidad de bajo coste, el diseño para móviles, la usabilidad como cortesía hacia el usuario y la accesibilidad.\n\nNo es un libro de código ni de herramientas: no enseña HTML, CSS ni software de prototipado, sino una forma de pensar. Su aporte práctico más valioso es el método de pruebas de usabilidad «con poco presupuesto»: sesiones sencillas con pocos usuarios, de forma periódica, que cualquier equipo puede organizar. Los ejemplos visuales de sitios de 2013 lucen antiguos, pero los principios siguen plenamente vigentes y se aplican igual a aplicaciones web y móviles actuales. Para profundizar en investigación de usuarios o diseño de interacción conviene completarlo con obras más extensas, como Rocket Surgery Made Easy, del mismo autor.",
+    "temas": [
+      "Usabilidad web",
+      "Experiencia de usuario",
+      "Jerarquía visual",
+      "Navegación",
+      "Migas de pan",
+      "Diseño de la página de inicio",
+      "Redacción web",
+      "Pruebas de usabilidad",
+      "Diseño móvil",
+      "Accesibilidad"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.pearson.com/en-ca/subject-catalog/p/don-t-make-me-think-revisited-a-common-sense-approach-to-web-usability/P200000000385/9780133597264"
+    ]
+  },
+  "building-the-realtime-user-experience-2010": {
+    "descripcion": "Libro de Ted Roden, el primer desarrollador a tiempo completo de Vimeo y más tarde miembro del grupo de I+D de The New York Times. Explica cómo añadir funciones en tiempo real a un sitio web (contenido que se actualiza solo, chat, notificaciones) poco a poco, sin rehacer toda la infraestructura. Se publicó en 2010, cuando todavía no había WebSockets estandarizados ni Node.js maduro, y refleja las técnicas de esa época. Es para desarrolladores web de nivel intermedio que ya manejan bien JavaScript, Python, HTML y el funcionamiento de HTTP.\n\nEl recorrido empieza con la sindicación en tiempo real usando Simple Update Protocol (SUP) y PubSubHubbub. Sigue con widgets de portada que muestran datos en vivo de varias fuentes mediante JSONP, y con long polling para enviar contenido del servidor al navegador, usando mensajería Cometd. Después usa el servidor web asíncrono Tornado (Python) para procesar grandes volúmenes de datos en streaming y montar un servicio de chat básico. También enseña a interactuar con el sitio desde fuera del navegador: mensajería instantánea con XMPP sobre Google App Engine (con un ejemplo de consulta del clima vía Yahoo YQL) y SMS mediante pasarelas de envío. Cierra con analítica propia para medir en tiempo real cómo participan los usuarios.\n\nEn lugar de quedarse en un repaso general, el libro desarrolla aplicaciones de ejemplo bastante completas, y en el último capítulo construye un juego basado en la ubicación que reúne todas las técnicas anteriores. Su valor hoy es sobre todo histórico y conceptual: ayuda a entender de dónde vienen el push del servidor y los patrones publicar/suscribir. Pero muchas de sus herramientas (PubSubHubbub, Cometd, YQL, XMPP en App Engine) están obsoletas o se descontinuaron. Además, algunas reseñas critican que tiene poca teoría y que las soluciones son a medida y difíciles de configurar. Hoy conviene completarlo con WebSockets, Server-Sent Events y servicios modernos de mensajería en tiempo real.",
+    "temas": [
+      "Web en tiempo real",
+      "PubSubHubbub",
+      "Long polling",
+      "Comet",
+      "JSONP",
+      "Tornado",
+      "Python",
+      "JavaScript",
+      "Chat",
+      "XMPP",
+      "Google App Engine",
+      "SMS"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Widgets de portada con datos en vivo",
+        "descripcion": "Una página de inicio dinámica que muestra actualizaciones en tiempo real de varias fuentes, usando JSONP y sindicación con PubSubHubbub."
+      },
+      {
+        "nombre": "Servicio de chat con Tornado",
+        "descripcion": "Un chat básico que envía mensajes del servidor al navegador con long polling, apoyado en el servidor asíncrono Tornado en Python."
+      },
+      {
+        "nombre": "Bots de mensajería instantánea y SMS",
+        "descripcion": "Integraciones para que los usuarios interactúen con el sitio fuera del navegador: XMPP sobre Google App Engine (incluye una consulta del clima con Yahoo YQL) y SMS mediante pasarelas."
+      },
+      {
+        "nombre": "Juego basado en la ubicación",
+        "descripcion": "Proyecto final que combina las técnicas del libro (push del servidor, mensajería, SMS y analítica en tiempo real) en un juego que usa la ubicación del jugador."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://app.oreilly.com/pub/pr/2620",
+      "https://i-programmer.info/bookreviews/12-web-design-and-development-/2371-building-the-realtime-user-experience.html",
+      "https://www.oreilly.com/library/view/building-the-realtime/9781449382292/author_bios.html"
+    ]
+  },
+  "designing-for-performance-2014": {
+    "descripcion": "Guía de Lara Callender Hogan, que entonces dirigía la ingeniería de rendimiento de Etsy. Su idea central es que el rendimiento forma parte de la experiencia de usuario y que los diseñadores influyen mucho en la velocidad de carga. Es una obra breve (unas 180 páginas) de 2014, dirigida a diseñadores web y desarrolladores front-end de nivel intermedio que conocen HTML y CSS y quieren equilibrar estética y velocidad. La autora la ofrece gratis para leer en su sitio web.\n\nEmpieza explicando cómo afecta la velocidad a la marca, al posicionamiento en buscadores y a los usuarios móviles. Después cubre lo básico de la velocidad de página: cómo renderiza el navegador, peticiones y conexiones, peso de página, rendimiento percibido, critical rendering path y jank. En la parte práctica muestra cómo elegir formatos de imagen (JPEG, GIF, PNG) y comprimirlos, y cómo reemplazar peticiones con sprites, CSS3, data URIs en Base64 y SVG. También enseña a limpiar el HTML (evitar la \"divitis\", semántica, accesibilidad, frameworks y grids) y el CSS (estilos sin usar, especificidad), optimizar fuentes web, minificar con gzip, aprovechar la caché y crear guías de estilo reutilizables. Dedica un capítulo al diseño responsive (carga deliberada de imágenes y fuentes, mobile first) y otro a la medición con YSlow, Chrome DevTools, pruebas sintéticas y monitorización con usuarios reales (RUM).\n\nLos últimos capítulos son quizá lo más valioso: cómo fijar presupuestos de rendimiento para diseños nuevos, experimentar con el rendimiento en mente y cambiar la cultura de la organización (\"policías\" y \"conserjes\" del rendimiento, convencer a la dirección con métricas de negocio). No tiene proyectos ni ejercicios guiados, sino consejos aplicables al trabajo diario. Algunas técnicas han envejecido: HTTP/2 hace menos necesarios los sprites, y hoy existen WebP/AVIF, carga diferida nativa y Core Web Vitals. Aun así, el enfoque de presupuestos y cultura de rendimiento sigue vigente.",
+    "temas": [
+      "Rendimiento web",
+      "Velocidad de página",
+      "Optimización de imágenes",
+      "Critical rendering path",
+      "CSS",
+      "Fuentes web",
+      "Diseño responsive",
+      "Chrome DevTools",
+      "Real User Monitoring",
+      "Presupuesto de rendimiento",
+      "Cultura de equipo"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://designingforperformance.com/",
+      "https://oreilly.com/library/view/designing-for-performance/9781491903704"
+    ]
+  },
+  "designing-mobile-interfaces-2011": {
+    "descripcion": "Catálogo de patrones de diseño de interacción para dispositivos móviles, escrito por Steven Hoober y Eric Berkman y publicado por O'Reilly en 2011. Reúne 76 patrones investigados por los autores. Se escribió en plena transición de los teléfonos con teclado y los feature phones a los smartphones táctiles con iOS y Android, por eso cubre ambos mundos. Es para diseñadores de interacción, diseñadores UX y desarrolladores móviles de nivel intermedio a avanzado. Sirve más como obra de consulta que para leer de corrido.\n\nCada patrón explica el problema de diseño y su solución, sus variantes, los detalles de interacción y presentación, y los antipatrones que conviene evitar. El libro se organiza en partes. Página: composición, scroll, notificaciones, menús fijos y desplegables, pantalla de bloqueo, intersticiales y publicidad. Componentes: listas verticales, infinitas y de miniaturas, carruseles, cuadrículas, confirmaciones, inicio de sesión, ventanas emergentes y listas jerárquicas. Widgets: pestañas, paginación, enlaces, botones, iconos, tooltips, avatares, indicadores de espera, zoom, búsqueda, ordenación y filtrado. Entrada y salida: teclados, entrada con lápiz, autocompletado, gestos en pantalla, cinéticos y remotos, controles de formulario, entrada y lectura por voz, tonos, respuesta háptica, LED, brillo, orientación y ubicación. Los apéndices tratan la radiotelefonía móvil, plantillas y guías de UI, tipografía móvil y factores humanos.\n\nNo se construyen aplicaciones ni hay código: es un libro de referencia conceptual y visual. Aporta un vocabulario común y un análisis riguroso de por qué funcionan o fallan ciertos controles. Su enfoque en principios y factores humanos lo hace útil incluso fuera de una plataforma concreta. Conviene saber que muchos ejemplos (teclas de hardware, D-pad, teléfonos con teclado) están anticuados, y que no cubre las guías actuales de Material Design ni Human Interface Guidelines, que vale la pena consultar a la par.",
+    "temas": [
+      "Diseño móvil",
+      "Patrones de interacción",
+      "Antipatrones",
+      "Navegación",
+      "Listas y carruseles",
+      "Formularios",
+      "Gestos",
+      "Entrada de texto",
+      "Voz y háptica",
+      "Sensores",
+      "Tipografía móvil",
+      "Factores humanos"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/e_e03m.htm",
+      "https://www.oreilly.com/library/view/designing-mobile-interfaces/9781449318451"
+    ]
+  },
+  "designing-multi-device-experiences-2014": {
+    "descripcion": "Libro de Michal Levin, diseñadora UX sénior en Google, sobre cómo diseñar experiencias que abarcan varios dispositivos (smartphones, tablets, ordenadores, televisores y objetos conectados). La autora los trata como un ecosistema y no como pantallas aisladas. Publicado por O'Reilly en 2014, está dirigido a diseñadores UX, product managers y equipos de producto de nivel intermedio que ya tienen experiencia en diseño de interfaces y quieren una estrategia para varios dispositivos.\n\nEl núcleo es el marco de las 3C. Consistente: la misma experiencia central, adaptada a la disposición, al uso táctil y al formato de cada dispositivo; lo ilustran Google Search, Trulia y Hulu Plus. Continua: una actividad que pasa de un dispositivo a otro, como Apple AirPlay, Amazon Kindle, Google Drive, Allrecipes, Eventbrite y Pocket. Complementaria: dispositivos que colaboran o se controlan entre sí, como Real Racing 2 Party Play, Scrabble para iPad, segundas pantallas para TV, Slingbox y Xbox SmartGlass. Luego muestra cómo combinar los tres enfoques y los aplica al Internet de las Cosas con casos como el termostato Nest, Square, Nike+, Pebble Watch, Tesco Virtual Supermarket, la realidad aumentada del catálogo de IKEA y SmartThings. También dedica un capítulo a la analítica entre dispositivos: redefinir la visita, la conversión de objetivos a nivel de ecosistema y el retorno de inversión.\n\nNo hay código ni proyectos guiados. Se aprende con casos de estudio, lecciones de diseño y algún ejercicio de reflexión, como ampliar un flujo continuo. Su valor está en dar un lenguaje y un marco para pensar productos con varios dispositivos y para discutirlos con el equipo. El capítulo final trata los retos organizativos y de adopción. Algunos productos citados ya no existen o han cambiado mucho, pero el marco de las 3C sigue usándose en la práctica del diseño UX.",
+    "temas": [
+      "UX multidispositivo",
+      "Ecosistemas de dispositivos",
+      "Marco 3C",
+      "Diseño consistente",
+      "Diseño continuo",
+      "Diseño complementario",
+      "Segunda pantalla",
+      "Internet de las Cosas",
+      "Wearables",
+      "Analítica multidispositivo",
+      "Casos de estudio"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/designing-multi-device-experiences-an-ecosystem-approach-to-user-experiences-across-devices-michal-levin,e_2gh7.htm",
+      "https://oreilly.com/library/view/designing-multi-device-experiences/9781449340391",
+      "https://www.nirandfar.com/how-successful-companies-design-for-users-multi-device-lives/"
+    ]
+  },
+  "designing-social-interfaces-2nd-edition-2015": {
+    "descripcion": "Segunda edición (2015) de la guía de Christian Crumlish y Erin Malone, dos profesionales de UX que participaron en la biblioteca de patrones de Yahoo. El libro explica cómo diseñar funciones sociales en productos digitales: perfiles, comunidades, reputación, contenido compartido y conversaciones. Reúne más de 100 patrones, principios y buenas prácticas, con muchos ejemplos reales. Esta edición pone más énfasis en las apps móviles y añade el uso de patrones sociales en entornos empresariales. Es accesible para diseñadores, desarrolladores y emprendedores sin experiencia previa en diseño social.\n\nEmpieza definiendo qué es un patrón de experiencia social y repasa principios como dejar cosas incompletas a propósito, no romper el correo electrónico, ser abierto, aprender de los juegos y respetar la dimensión ética. También presenta antipatrones como Cargo Cult o Lord of the Flies. A partir de ahí cubre la identidad del usuario: registro, inicio de sesión, autenticación de dos factores, invitaciones, perfiles, avatares e identidad portátil. Sigue con la presencia (activity streams, estados) y la reputación (niveles, insignias, puntos, rankings, leaderboards). Después trata los objetos sociales: colecciones, favoritos, etiquetas, compartir en privado y en público, publicación, licencias como Creative Commons, valoraciones, comentarios, reseñas y foros. La parte de comunidad aborda la colaboración (edición colaborativa, wikis, crowdsourcing), seguir y filtrar contenido, recomendaciones y búsqueda social, relaciones y grupos, moderación y denuncias de abuso, y funciones geolocalizadas. Cierra con el software social empresarial, el inicio de sesión único (SSO) y el diseño abierto con estándares, microformatos y APIs abiertas.\n\nNo tiene código, ejercicios ni proyectos: es un catálogo de referencia que se puede consultar según el problema. Su punto fuerte es explicar las fuerzas en juego en cada patrón: fomentar una participación sana, gestionar usuarios conflictivos y co-crear con la comunidad. Además, señala qué falla y por qué. Conviene saber que no entra en implementación técnica y que temas posteriores a 2015 (moderación a gran escala, desinformación, diseño algorítmico de feeds) apenas se tratan. Sigue siendo una base sólida para cualquier producto con componentes sociales.",
+    "temas": [
+      "Diseño social",
+      "Patrones UX",
+      "Identidad y perfiles",
+      "Registro e inicio de sesión",
+      "Reputación y gamificación",
+      "Activity streams",
+      "Compartir contenido",
+      "Valoraciones y comentarios",
+      "Comunidades",
+      "Moderación",
+      "Software social empresarial",
+      "APIs abiertas"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/e_2gly.htm",
+      "https://www.oreilly.com/library/view/designing-social-interfaces/9781491919842/"
+    ]
+  },
+  "effective-ui-2010": {
+    "descripcion": "Libro escrito por Jonathan Anderson, John McRee, Robb Wilson y el equipo de la consultora EffectiveUI, publicado por O'Reilly en 2010 con el subtítulo «The Art of Building Great User Experience in Software». Aunque el título sugiere un manual de diseño de interfaces, en realidad trata de cómo organizar equipos, procesos y negocio para que un producto de software ofrezca una buena experiencia de usuario (UX). Se dirige sobre todo a jefes de proyecto, arquitectos, responsables de producto y profesionales que deben coordinar a diseñadores, ingenieros y dirección. No exige conocimientos técnicos previos.\n\nEl recorrido sigue el ciclo de vida de un producto. Empieza explicando cómo convencer a clientes y directivos de que la inversión en UX vale la pena, y sigue con la planificación y los requisitos, donde compara el desarrollo en cascada, el diseño completo por adelantado (BDUF) y Agile, y se decanta por Agile. Los capítulos centrales tratan la formación del equipo, la perspectiva del negocio (misión, objetivos del producto y requisitos), el conocimiento de los usuarios mediante personas e historias de usuario y la arquitectura inicial del producto. Termina con el desarrollo iterativo y con la fase de lanzamiento y poslanzamiento, en la que el producto se contrasta con los objetivos iniciales de los usuarios.\n\nNo hay proyectos ni ejercicios: es un libro de proceso y gestión, basado en la experiencia de la consultora. Su valor está en aportar argumentos para defender la UX ante clientes y en ordenar la colaboración entre disciplinas. Quien busque técnicas concretas de diseño de interfaces, prototipado o patrones visuales quedará decepcionado, como señalan algunas reseñas. Además, parte de su discurso sobre Agile y UX hoy resulta conocido. Es más útil para quien lidera proyectos que para un desarrollador o diseñador que ya trabaja de forma ágil.",
+    "temas": [
+      "Experiencia de usuario",
+      "Gestión de proyectos",
+      "Agile",
+      "Requisitos",
+      "Personas",
+      "Historias de usuario",
+      "Equipos multidisciplinares",
+      "Estrategia de producto",
+      "Desarrollo iterativo"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.i-programmer.info/bookreviews/10-software-architecture/709-effective-ui-.html",
+      "https://www.oreilly.com/library/view/-/9781449380465/"
+    ]
+  },
+  "emotionally-intelligent-design-2018": {
+    "descripcion": "Ensayo práctico de Pamela Pavliscak, investigadora de diseño y asesora de grandes empresas, publicado por O'Reilly en 2018 con el subtítulo «Rethinking How We Create Products». Parte de una idea central: la tecnología es cada vez más inteligente, pero sigue careciendo de inteligencia emocional. Está dirigido a diseñadores UX, investigadores, responsables de producto y equipos que crean productos digitales. Es especialmente útil para quienes se acercan por primera vez al diseño emocional, y no requiere conocimientos técnicos.\n\nApoyándose en la psicología, la neurociencia y la economía conductual, la autora repasa primero nuestra relación emocional con la tecnología y la historia del diseño emocional, desde las teorías de la emoción hasta la inteligencia artificial que detecta emociones (emotion AI), con sus beneficios y riesgos y una lista de comprobación para diseñar con ella. Después propone un proceso de diseño para descubrir, imaginar, hacer evolucionar y revisar experiencias emocionales. Trata también la relación entre personas y máquinas: cuándo conviene que una máquina se comporte como tal, cómo añadir rasgos humanos de forma moderada y cómo evitar relaciones de dependencia. El capítulo más aplicado presenta patrones y antipatrones de intervenciones emocionales para la autoconciencia, la autogestión, la conciencia social, las relaciones y la autotrascendencia, además de cómo medir el progreso. Cierra con técnicas para anticipar el futuro a partir de las emociones y con el impacto de la tecnología emocional en organizaciones, políticas públicas y ética.\n\nNo hay un proyecto guiado, sino principios, ejemplos, patrones y métodos de trabajo para aplicar en productos propios. Sus recomendaciones sobre emotion AI resultan valiosas: combinar varias formas de entrada del usuario, ser poco invasivo, pedir consentimiento informado, considerar las implicaciones legales y prever los fallos. Gran parte del libro busca generar conciencia más que dar recetas detalladas, así que conviene complementarlo con métodos de investigación UX. No trata la implementación técnica de sistemas de reconocimiento emocional.",
+    "temas": [
+      "Diseño emocional",
+      "Inteligencia emocional",
+      "Emotion AI",
+      "Interacción persona-máquina",
+      "Bienestar digital",
+      "Patrones de diseño",
+      "Ética del diseño",
+      "Psicología",
+      "Investigación UX"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://s.helion.pl/ksiazki/emotionally-intelligent-design-rethinking-how-we-create-products-pamela-pavliscak,e_0zj6.htm",
+      "https://www.oreilly.com/library/view/-/9781491953136/",
+      "https://oldmagazine.uxpa.org/becoming-emotionally-intelligent-about-design-book-review"
+    ]
+  },
+  "fonts-encodings-2007": {
+    "descripcion": "Obra de referencia de Yannis Haralambous, tipógrafo, desarrollador de fuentes y cofundador del proyecto Omega en la comunidad TeX. Es la traducción al inglés, a cargo de P. Scott Horne, de su libro francés «Fontes & Codages» (2004), publicada por O'Reilly en 2007 con el subtítulo «From Unicode to Advanced Typography and Everything in Between». Con más de mil páginas, cubre desde la codificación de caracteres hasta el diseño de glifos y la programación de software que crea y procesa fuentes. Aunque puede leerse sin conocimientos previos de tipografía, está pensado para desarrolladores, tipógrafos, especialistas en edición digital y cualquiera que necesite entender a fondo cómo funcionan los textos y las fuentes en un ordenador.\n\nLa primera parte trata Unicode: la historia de los códigos y codificaciones desde ASCII, las propiedades de cada carácter, la normalización, el algoritmo bidireccional y el tratamiento de los caracteres de Asia oriental. La segunda se ocupa de la gestión de fuentes en Windows, Mac OS y el sistema X Window de Unix: instalación, activación y desactivación. La tercera muestra el uso de fuentes en TeX y Omega y en las páginas web. La cuarta presenta sistemas de clasificación tipográfica (Vox, Alessandrini, Panose-1), editores de fuentes como FontLab y FontForge, METAFONT y las propiedades avanzadas de OpenType y de las fuentes AAT. Los extensos apéndices, casi la mitad del libro, documentan con gran detalle formatos como PostScript, TrueType, OpenType y SVG, y terminan con una explicación de las curvas de Bézier.\n\nEs un libro de consulta y no de práctica guiada: no hay proyectos, aunque incluye explicaciones técnicas que sirven de base para trabajar con fuentes o programar herramientas tipográficas. Su gran aporte es documentar detalles de formatos difíciles de encontrar en otras fuentes. Por su extensión y profundidad, la etiqueta de nivel básico solo es cierta en el sentido de que parte de cero. Hay que tener en cuenta que es de 2007: no cubre WOFF/WOFF2, las fuentes variables ni los emojis en color, y las secciones sobre sistemas operativos y la web han envejecido. Las partes sobre Unicode y los formatos clásicos siguen siendo muy valiosas.",
+    "temas": [
+      "Unicode",
+      "Codificación de caracteres",
+      "Tipografía digital",
+      "TrueType",
+      "OpenType",
+      "PostScript",
+      "TeX y Omega",
+      "METAFONT",
+      "FontForge",
+      "FontLab",
+      "Fuentes web",
+      "Curvas de Bézier"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.jonhoyle.com/maccompanion/mirror/archives/november2007/books/fonts.htm",
+      "https://oreilly.com/library/view/fonts-encodings/9780596102425",
+      "https://TUG.org/TUGboat/tb29-2/tb92vieth.pdf"
+    ]
+  },
+  "frontend-architecture-for-design-systems-2016": {
+    "descripcion": "Libro de Micah Godbolt publicado por O'Reilly en 2016 con el subtítulo «A Modern Blueprint for Scalable and Sustainable Websites». Defiende que el desarrollo front-end debe tener el mismo peso que el back-end y la estrategia de contenidos, y anima a los desarrolladores a asumir el rol de arquitecto front-end dentro de sus equipos. Está dirigido a desarrolladores web con experiencia en HTML, CSS y JavaScript que trabajan en sitios grandes o en sistemas de diseño compartidos y quieren dar estructura y sostenibilidad a su trabajo.\n\nEl libro se organiza en cuatro pilares. El de código cubre marcado modular, metodologías CSS como OOCSS, SMACSS y BEM, los problemas de especificidad y herencia, y principios como responsabilidad única, fuente única de verdad y modificadores de componentes, además de criterios para elegir frameworks y escribir JavaScript limpio. El de proceso explica el flujo de trabajo moderno (requisitos, prototipado, entorno local, integración continua, versiones etiquetadas y canales de distribución) y el uso de task runners como Grunt. El de pruebas aborda las pruebas unitarias con TDD, los presupuestos de rendimiento con métricas como PageSpeed y Speed Index (con grunt-pagespeed y grunt-perfbudget) y las pruebas de regresión visual. El de documentación muestra guías de estilo con Hologram y SassDoc, y bibliotecas de patrones con Pattern Lab y el diseño atómico. Cada pilar termina con un caso real: el sistema de diseño de Red Hat, con plantillas Twig y esquemas JSON para generar patrones de forma automática.\n\nNo se construye un proyecto paso a paso: es un libro de arquitectura y proceso, con fragmentos de código, configuraciones y casos reales que sirven de referencia. Su principal aporte es una visión de conjunto, útil para justificar y organizar un sistema de diseño en un equipo. Las ideas de fondo (componentes, pruebas visuales, documentación viva) siguen vigentes, pero las herramientas han envejecido: Grunt y Hologram han perdido protagonismo frente a npm scripts, Storybook y herramientas de pruebas visuales más modernas. Conviene leerlo por los principios y adaptar las herramientas al contexto actual.",
+    "temas": [
+      "Arquitectura front-end",
+      "Sistemas de diseño",
+      "CSS modular",
+      "BEM",
+      "OOCSS y SMACSS",
+      "Grunt",
+      "Integración continua",
+      "Pruebas unitarias",
+      "Regresión visual",
+      "Rendimiento web",
+      "Pattern Lab",
+      "SassDoc"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/e_2g3f.htm",
+      "https://www.oreilly.com/library/view/frontend-architecture-for/9781491926772"
+    ]
+  },
+  "head-first-web-design-2008": {
+    "descripcion": "Libro de la serie Head First de O'Reilly, escrito por Ethan Watrall y Jeff Siarto, que enseña a diseñar sitios web atractivos, claros, fáciles de recorrer y que cumplan los estándares de accesibilidad y usabilidad. Se publicó a finales de 2008 y principios de 2009, en la época de XHTML 1.0 y CSS 2.1. Está pensado para quienes ya saben escribir páginas con (X)HTML y CSS, por ejemplo después de leer Head First HTML with CSS & XHTML, y quieren pasar de páginas que funcionan a páginas bien diseñadas y pensadas para el usuario.\n\nEl libro sigue un proceso de diseño completo, desde los requisitos del cliente hasta los storyboards dibujados a mano y el sitio terminado en HTML y CSS. Empieza con los fundamentos de un buen diseño, centrado en el usuario y no en los gustos del diseñador, y sigue con la preproducción: lluvia de ideas, metáforas visuales y storyboards en papel para tomar decisiones antes de escribir código. Después trata la maquetación y la composición con CSS, la teoría y la elección del color, la navegación, la arquitectura de la información, la accesibilidad (texto alternativo, contraste, lectores de pantalla), la usabilidad, la redacción de textos fáciles de escanear y, al final, la parte de negocio del diseño web: el trato con clientes y los presupuestos.\n\nComo en toda la serie, el formato es muy visual, con humor, rompecabezas, ejercicios y preguntas de repaso. El hilo conductor es el sitio personal de Mark, que documenta un viaje de mochilero por Japón y se va rediseñando paso a paso. Su valor está en el criterio de diseño y en el método de trabajo, más que en la técnica: no cubre diseño responsive, HTML5 ni CSS3, y el código de maquetación (con floats y XHTML) ya está desfasado. Funciona bien como introducción conceptual al diseño centrado en el usuario para programadores que nunca lo estudiaron, pero hay que complementarlo con un libro actual de CSS.",
+    "temas": [
+      "Diseño web",
+      "Diseño centrado en el usuario",
+      "Storyboards",
+      "Maquetación con CSS",
+      "Teoría del color",
+      "Navegación",
+      "Arquitectura de la información",
+      "Accesibilidad",
+      "Usabilidad",
+      "Redacción web",
+      "XHTML"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio de viaje de Mark",
+        "descripcion": "Sitio personal que documenta un viaje por Japón y que sirve de ejemplo a lo largo del libro: se planifica con storyboards en papel y después se construye y mejora con XHTML y CSS, aplicando color, navegación, accesibilidad y usabilidad."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://app.oreilly.com/pub/pr/2193",
+      "https://www.oreilly.com/library/view/head-first-web/9780596157722/",
+      "https://www.oreilly.com/library/view/head-first-web/9780596157722/pr04.html"
+    ]
+  },
+  "high-performance-responsive-design-2014": {
+    "descripcion": "Libro breve de Tom Barker (O'Reilly, 2014) que sostiene que el diseño responsive no es solo una técnica del frontend con media queries, sino una forma de aprovechar todo el stack web para que los sitios carguen rápido en cualquier dispositivo. Está dirigido a desarrolladores web de nivel intermedio y avanzado, sobre todo del frontend, que ya hacen sitios responsive y conocen JavaScript y algo de backend.\n\nDespués de repasar el estado del diseño responsive y de explicar cómo funciona el rendimiento de una aplicación web (ciclo de petición y respuesta, renderizado, métricas de carga), el autor muestra cómo incluir el rendimiento en la planificación del proyecto mediante presupuestos de rendimiento y acuerdos de nivel de servicio (SLA). En el backend usa Node.js para detectar el dispositivo y servir solo lo que hace falta. En el frontend trata técnicas para no descargar recursos innecesarios en móviles, como imágenes adaptadas y carga condicional de scripts y estilos. También explica cómo automatizar las pruebas de rendimiento en integración continua con PhantomJS y compara varios frameworks responsive, entre ellos Ripple, el framework de servidor creado por el propio autor.\n\nEl índice se divide en siete capítulos: estado de la industria, rendimiento, planificación, backend, frontend, pruebas continuas de rendimiento y frameworks. La práctica son fragmentos de código y scripts de ejemplo, no un proyecto completo. Su aporte principal es la idea de diseñar con el servidor en mente (RESS) y medir el rendimiento de forma continua. Sin embargo, varias herramientas que usa, como PhantomJS, ya se abandonaron, y hoy las sustituyen Lighthouse, Puppeteer o Playwright, así como las imágenes responsive nativas con srcset y picture. Conviene leerlo por los conceptos y no por las herramientas.",
+    "temas": [
+      "Diseño responsive",
+      "Rendimiento web",
+      "RESS",
+      "Node.js",
+      "Detección de dispositivos",
+      "Presupuestos de rendimiento",
+      "PhantomJS",
+      "Integración continua",
+      "Optimización de imágenes",
+      "Frameworks responsive"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/high-performance-responsive/9781491949979/",
+      "https://www.goodreads.com/en/book/show/21889372-high-performance-responsive-design",
+      "https://www.bookshare.org/browse/book/1990537"
+    ]
+  },
+  "information-architecture-4th-edition-2015": {
+    "descripcion": "Cuarta edición del clásico conocido como \"el libro del oso polar\", escrita por Louis Rosenfeld, Peter Morville y Jorge Arango y publicada por O'Reilly en 2015 con el subtítulo For the Web and Beyond. Esta edición deja de centrarse solo en los sitios web y aplica la arquitectura de la información (AI) a productos y servicios digitales en varios canales y dispositivos. Está pensada para diseñadores UX, arquitectos de información, product managers y desarrolladores con algo de experiencia que necesitan organizar mucho contenido de forma que se pueda encontrar y entender. No exige saber programar.\n\nLa primera parte define qué es la AI, por qué importa y cómo buscan y usan la información las personas. La segunda, la parte central, describe la anatomía de una arquitectura de información y sus sistemas básicos: los de organización (esquemas y estructuras), de etiquetado, de navegación y de búsqueda, además de los sistemas que no se ven, como los tesauros, los vocabularios controlados y los metadatos. La tercera parte explica el proceso de trabajo: la investigación de contexto, contenido y usuarios, la estrategia y, por último, el diseño y la documentación con diagramas, blueprints, wireframes y modelos de contenido.\n\nEs una obra de referencia conceptual y no un tutorial práctico. Trae muchos ejemplos de sitios y apps reales, pero no ejercicios guiados ni proyectos. Comparada con las ediciones anteriores, esta es más compacta y actual, con más atención a los entornos multicanal, aunque algunos ejemplos ya se ven antiguos. Es imprescindible para quien diseña menús, taxonomías, buscadores o estructuras de contenido, y para un desarrollador sirve para entender las decisiones que hay detrás de la navegación y del modelado de contenido de un CMS.",
+    "temas": [
+      "Arquitectura de la información",
+      "Sistemas de organización",
+      "Etiquetado",
+      "Navegación",
+      "Sistemas de búsqueda",
+      "Taxonomías",
+      "Vocabularios controlados",
+      "Metadatos",
+      "Investigación de usuarios",
+      "Wireframes y blueprints",
+      "Experiencia multicanal"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/information-architecture-4th/9781491913529/",
+      "https://www.oreilly.com/library/view/information-architecture-4th/9781491913529/part02.html",
+      "https://www.oreilly.com/library/view/information-architecture-4th/9781491913529/ch10.html",
+      "https://shop.oreilly.com/product/0636920034674.do"
+    ]
+  },
+  "learning-responsive-web-design-2014": {
+    "descripcion": "Guía de iniciación de Clarissa Peterson, diseñadora UX y desarrolladora web, publicada por O'Reilly en 2014 a todo color. Explica cómo crear sitios que se adapten a cualquier tamaño de pantalla con HTML5 y CSS3. Aunque el subtítulo dice que es para principiantes y está dirigida a diseñadores, desarrolladores y otros perfiles del equipo, conviene llegar con una base sólida de HTML y CSS y nociones de JavaScript.\n\nEl libro tiene cuatro partes. En los fundamentos repasa el origen del diseño responsive, desde el iPhone hasta CSS3, y su base: maquetación flexible con unidades relativas y media queries. También explica por qué la estrategia de contenido debe ir antes del diseño visual. En la parte práctica trabaja con elementos estructurales de HTML5 y atributos WAI-ARIA, el modelo de caja y los prefijos de navegador, media queries y breakpoints, mejora progresiva, rejillas de 12 columnas e imágenes flexibles con max-width. Después trata el flujo de trabajo: diseñar primero para pantallas pequeñas (mobile first), prototipar en el navegador o con herramientas de Adobe como Edge Reflow, entrada táctil y accesibilidad. Termina con tipografía, patrones de navegación responsive y un capítulo detallado de rendimiento: herramientas de medición, minificación, menos peticiones HTTP y JavaScript que no bloquee la carga.\n\nLa parte práctica sigue un sitio de ejemplo a lo largo de varios capítulos, así que se aprende aplicando cada técnica sobre el mismo proyecto. Su punto fuerte es que trata el diseño responsive como un proceso completo, con contenido, UX, diseño y rendimiento, y no solo como un truco de CSS. Algunas partes son más discursivas que prácticas, y es anterior a la adopción general de Flexbox, CSS Grid y las imágenes responsive con srcset y picture. También incluye trucos de compatibilidad con Internet Explorer 8 que hoy sobran. Sigue siendo una buena base conceptual, pero hay que actualizar las técnicas de maquetación.",
+    "temas": [
+      "Diseño responsive",
+      "Mobile first",
+      "Media queries",
+      "Breakpoints",
+      "Maquetación flexible",
+      "HTML5",
+      "CSS3",
+      "Imágenes responsive",
+      "Tipografía",
+      "Navegación responsive",
+      "Accesibilidad",
+      "Rendimiento web"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio de ejemplo responsive",
+        "descripcion": "Sitio de ejemplo que se construye a lo largo de la parte práctica del libro con HTML5 y CSS3. Se le añaden media queries, rejilla flexible, imágenes adaptables y mejoras progresivas hasta que se adapta a cualquier ancho de pantalla."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-responsive-web/9781449363659/",
+      "https://www.i-programmer.info/bookreviews/159-uiux/7825-learning-responsive-web-design.html"
+    ]
+  },
+  "learning-web-design-4th-edition-2012": {
+    "descripcion": "Cuarta edición, publicada en 2012 por O'Reilly, de la conocida guía de Jennifer Niederst Robbins para aprender diseño web desde cero. Esta edición se actualizó para HTML5 y CSS3 y añadió una introducción al diseño responsive y a JavaScript. Está pensada para principiantes absolutos, ya sean estudiantes, diseñadores gráficos que llegan a la web o aficionados: empieza explicando cómo funcionan Internet y las páginas web y avanza poco a poco, sin pedir conocimientos previos.\n\nEl libro recorre el proceso de creación de un sitio. Primero explica el funcionamiento de la web: servidores, navegadores, URL y la variedad de dispositivos. Luego enseña a estructurar contenido con HTML (texto, enlaces, imágenes, tablas y formularios) y presenta los nuevos elementos y APIs de HTML5. La parte más extensa trata de CSS: formato de texto, colores y fondos, modelo de caja, floats y posicionamiento, maquetación de páginas, transiciones y transformaciones de CSS3 y media queries para el diseño responsive. También introduce la sintaxis de JavaScript y la manipulación del DOM, y explica cómo crear y optimizar gráficos para la web, con formatos GIF, JPEG y PNG, resolución y compresión.\n\nCada capítulo tiene ejercicios paso a paso sobre pequeños sitios de ejemplo, que el lector va construyendo y aplicando estilos, más cuestionarios de repaso con soluciones. Es uno de los mejores puntos de partida para entender la web de forma completa y ordenada, con explicaciones muy claras. Hoy hay que tener en cuenta que es anterior a Flexbox y CSS Grid, que su maquetación se basa en floats y que la parte de JavaScript es solo una introducción. Las ediciones posteriores, la 5.ª de 2018 y la 6.ª, ponen estos temas al día.",
+    "temas": [
+      "HTML5",
+      "CSS3",
+      "Fundamentos de la web",
+      "Formularios y tablas",
+      "Modelo de caja",
+      "Maquetación con CSS",
+      "Diseño responsive",
+      "Transiciones y transformaciones",
+      "JavaScript básico",
+      "DOM",
+      "Gráficos web"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-web-design/9781449337513/",
+      "https://www.oreilly.com/pub/pr/3108"
+    ]
+  },
+  "microinteractions-2013": {
+    "descripcion": "Libro breve de Dan Saffer, uno de los referentes del diseño de interacción, dedicado a los pequeños momentos de un producto: cambiar un ajuste, silenciar el teléfono, ver que llegó un correo nuevo o iniciar sesión. Defiende que estos detalles, que no son funciones en sí, son los que hacen que un producto pase de ser tolerable a ser apreciado. La edición de 170 páginas corresponde a la versión a todo color publicada a finales de 2013, con prólogo de Don Norman. Está dirigido a diseñadores de interacción y de UX, product managers y desarrolladores de frontend que ya tienen experiencia en productos digitales y quieren cuidar el detalle. No hace falta saber programar.\n\nEl libro se organiza alrededor de un modelo de cuatro partes. Los disparadores (triggers) pueden ser manuales, como controles, sus estados y etiquetas, o del sistema, y se trata cómo hacerlos descubribles o invisibles. Las reglas cubren verbos y sustantivos, pantallas y estados, restricciones, valores por defecto inteligentes, prevención de errores, microcopy y algoritmos. La retroalimentación puede ser visual (animación y mensajes), sonora (earcons y voz) o háptica, y además sirve para transmitir la personalidad del producto. Por último están los modos y los bucles, con modos temporales (spring-loaded), bucles largos y revelación progresiva. Cierra con un apéndice sobre cómo probar microinteracciones con usuarios y con datos cuantitativos.\n\nEl último capítulo aplica el modelo a tres casos completos: una app móvil, una lista de reproducción compartida en la web y el panel de control de un lavavajillas. También explica cómo prototipar, documentar y coordinar varias microinteracciones, y cómo mejorar una que resulta sosa. Su gran aporte es darle al equipo un vocabulario común para analizar y discutir los detalles de la interfaz. Es un libro conceptual con ejemplos reales, no un manual técnico: no enseña a implementar animaciones en CSS, JavaScript ni frameworks nativos, y algunos ejemplos de dispositivos de 2013 ya se ven antiguos. Aun así, el modelo sigue vigente y se lee en pocas horas.",
+    "temas": [
+      "Microinteracciones",
+      "Diseño de interacción",
+      "Triggers",
+      "Reglas",
+      "Feedback",
+      "Modos y bucles",
+      "Microcopy",
+      "Háptica y sonido",
+      "Testing con usuarios"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/microinteractions-full-color-edition-designing-with-details-dan-saffer,e_2gqt.htm",
+      "https://www.oreilly.com/library/view/microinteractions-full-color/9781491945957/",
+      "https://jnd.org/microinteractions-my-foreword/",
+      "https://www.goodreads.com/book/show/18492273-microinteractions"
+    ]
+  },
+  "mobile-design-pattern-gallery-2nd-edition-2014": {
+    "descripcion": "Catálogo visual de patrones de interfaz para apps de smartphone, escrito por la consultora de UX Theresa Neil. Esta segunda edición, de 2014, reúne más de 90 patrones ilustrados con unas 1.000 capturas de apps reales de iOS (época de iOS 7), Android y Windows Phone. La actualización responde a que, para entonces, cada sistema operativo había desarrollado sus propias convenciones de diseño. Está pensado para diseñadores, product managers y desarrolladores de nivel intermedio que diseñan o construyen apps móviles y buscan referencias concretas de soluciones probadas.\n\nLos patrones se agrupan en 11 capítulos. Navegación cubre la navegación persistente (springboard, tarjetas, menú de lista, dashboard, galería, tab menu en cada plataforma), la transitoria (side drawer, toggle menu, pie menu) y la secundaria (page swiping, scrolling tabs, acordeón). Le siguen formularios (inicio de sesión, registro, formularios de varios pasos y consejos de checkout), tablas, y búsqueda, ordenación y filtrado (autocompletado, búsqueda acotada, overlays, filter drawer, filtrado por gestos). Después vienen herramientas (toolbars, botones de llamada a la acción, acciones contextuales y masivas), gráficos (timelines interactivos, drill down, sparklines, umbrales), tutoriales e invitaciones, patrones sociales (registro social, perfiles, gamificación), feedback y affordance, y ayuda contextual. El último capítulo está dedicado a los antipatrones.\n\nNo se construye ningún proyecto: es un libro de consulta que se hojea para comparar cómo resuelven distintas apps un mismo problema. Su valor está en el capítulo de antipatrones (desajustes de metáfora, \"océanos de botones\", chart junk) y en los consejos para evitar el registro obligatorio en móvil. Conviene saber que las capturas y varios patrones (Windows Phone, skeuomorfismo, iOS 7) están muy fechados. Hoy conviene contrastarlo con las Human Interface Guidelines de Apple y Material Design. No incluye código ni detalles de implementación.",
+    "temas": [
+      "Patrones de diseño UI",
+      "Diseño móvil",
+      "Navegación",
+      "Formularios",
+      "Búsqueda y filtros",
+      "Visualización de datos",
+      "Onboarding",
+      "Feedback y affordance",
+      "Antipatrones",
+      "iOS y Android"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/mobile-design-pattern-gallery-ui-patterns-for-smartphone-apps-2nd-edition-theresa-neil,e_e06f.htm",
+      "https://www.oreilly.com/library/view/mobile-design-pattern/9781449368586/",
+      "https://www.i-programmer.info/book-watch-archive/7670-mobile-design-pattern-gallery-oreilly.html"
+    ]
+  },
+  "prototyping-for-designers-2017": {
+    "descripcion": "Guía práctica de Kathryn McElroy (hoy Kathryn Marinaro), diseñadora del IBM Mobile Innovation Lab, sobre cómo prototipar tanto productos digitales como físicos. Parte de una idea: prototipar y probar con usuarios es la mejor forma de crear buenos productos, y aun así muchos diseñadores se saltan ese paso. Está dirigido a diseñadores principiantes e intermedios de UX, producto o industrial. No exige saber programar ni electrónica, aunque introduce ambas desde cero.\n\nLos primeros capítulos explican qué es un prototipo, para qué sirve (entender, comunicar, probar y mejorar, defender una idea) y cómo elegir la fidelidad adecuada: baja, media y alta, más las cinco dimensiones de la fidelidad. También presentan un proceso basado en el \"prototipo mínimo viable\", centrado en la exploración, la audiencia o las suposiciones, con un caso de estudio de Etsy. Luego hay un capítulo para cada medio. En el digital se recorre la fidelidad desde bocetos en papel hasta prototipos interactivos y el elegido software de prototipado, con el caso de IBM MIL. En el físico se ven nociones básicas de electrónica, Arduino, cómo escribir pseudocódigo y pasarlo a código Arduino, y cómo resolver problemas, con el caso del diseñador Richard Clarkson. Un capítulo completo trata cómo planificar, realizar y sintetizar pruebas con usuarios.\n\nEl libro termina con un caso integrador: una experiencia de degustación para SXSW que combina investigación, flujo de usuario, una parte física y una parte digital. Es muy completo para quien quiere perder el miedo a prototipar fuera de la pantalla, y une bien el diseño digital con la computación física. Lo que deja fuera: las herramientas de software que menciona han cambiado mucho desde 2017 (Figma apenas empezaba), y la parte de Arduino es solo introductoria. Para electrónica más seria hará falta material específico.",
+    "temas": [
+      "Prototipado",
+      "Fidelidad de prototipos",
+      "Prototipos digitales",
+      "Prototipos físicos",
+      "Arduino",
+      "Electrónica básica",
+      "Pseudocódigo",
+      "Testing con usuarios",
+      "Investigación UX"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "SXSW Tasting Experience",
+        "descripcion": "Caso integrador del capítulo 8: una experiencia de degustación para el festival SXSW, desarrollada desde la investigación y el flujo de usuario hasta prototipos que combinan una parte física (electrónica) y una parte digital, para mostrar el proceso completo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://s.helion.pl/ksiazki/prototyping-for-designers-developing-the-best-digital-and-physical-products-kathryn-mcelroy,e_0dnd.htm",
+      "https://www.oreilly.com/library/view/prototyping-for-designers/9781491954072/",
+      "https://bookshop.org/p/books/prototyping-for-designers-developing-the-best-digital-and-physical-products-kathryn-mcelroy/49909a55b1be3941"
+    ]
+  },
+  "responsive-typography-2014": {
+    "descripcion": "Libro breve de Jason Pamental, diseñador y referente en tipografía web, que defiende la tipografía como pieza central del diseño web responsive. Escrito en 2014, cuando las web fonts con @font-face ya eran habituales, organiza el tema en cuatro cualidades: que sea eficiente (performant), progresiva, proporcional y pulida. Está dirigido a diseñadores y desarrolladores frontend de nivel intermedio que se manejan con HTML y CSS y quieren usar fuentes web sin perjudicar el rendimiento.\n\nLa primera parte cuenta la historia: terminología tipográfica, la evolución de la tipografía en la web (de las técnicas de reemplazo de fuentes a @font-face), los formatos de fuente que soporta cada navegador, el renderizado y el hinting, y el lugar de la tipografía en el proceso de diseño. La segunda es práctica. Compara alojar las fuentes uno mismo con usar un servicio como Google Fonts, Adobe Typekit, Fonts.com o Typography.com, y enseña a cargarlas rápido con Google Web Font Loader y con subsets que incluyen solo los caracteres usados. Explica cómo manejar el FOUT (destello de texto sin estilo) y ajustar el CSS de respaldo, qué unidades de medida usar (em, rem), cómo construir una escala tipográfica modular que cambia con el tamaño de pantalla, el guionado y el espacio en blanco. También cubre los detalles finos: ligaduras, kerning y funciones OpenType con font-feature-settings, viudas, letras capitulares e icon fonts. Los apéndices tratan los servicios de fuentes y la tipografía en correos electrónicos.\n\nIncluye ejemplos de CSS y JavaScript con un repositorio de código de apoyo, pero no desarrolla un proyecto completo. Es una lectura corta y muy útil para entender la tipografía web con criterio de diseño y de rendimiento a la vez. Hay que tener en cuenta que es anterior a font-display, a las fuentes variables (un tema en el que Pamental se especializó después) y a clamp() para tipografía fluida. Por eso varias técnicas de carga están hoy superadas, aunque los principios siguen vigentes.",
+    "temas": [
+      "Tipografía web",
+      "Web fonts",
+      "@font-face",
+      "Rendimiento",
+      "FOUT",
+      "Escala modular",
+      "Diseño responsive",
+      "OpenType",
+      "Google Fonts",
+      "Typekit",
+      "CSS"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/responsive-typography-using-type-well-on-the-web-jason-pamental,e_2gat.htm",
+      "https://www.oreilly.com/library/view/responsive-typography/9781491907085/",
+      "https://www.goodreads.com/work/editions/42349499-responsive-typography-using-type-well-on-the-web"
+    ]
+  },
+  "tragic-design-2018": {
+    "descripcion": "Ensayo de Jonathan Shariat y Cynthia Savard Saucier sobre el costo humano del mal diseño de productos: interfaces que pueden enojar, entristecer, excluir e incluso matar a quienes las usan, casi siempre sin que sus creadores lo pretendan. Parte del caso de Jenny, una paciente con cáncer que murió en parte por culpa de un software médico confuso. Es independiente de cualquier tecnología concreta y está dirigido a diseñadores, desarrolladores y product managers de cualquier nivel que quieran entender la responsabilidad ética de su trabajo.\n\nLos capítulos se organizan por tipo de daño. \"El diseño puede matar\" analiza casos como el Therac-25, un choque de ferry en Nueva York, el Ford Pinto y el vuelo 148, y presenta alternativas a los modos y el análisis de árbol de fallos. \"El diseño puede enojar\" trata las tecnologías descorteses (egoístas, perezosas, glotonas, que exigen atención), el caso de Clippy de Microsoft Office y una clasificación de dark patterns: bait and switch, continuidad forzada, friend spam, roach motel y otros. \"El diseño puede entristecer\" habla de la crueldad involuntaria, la autoculpa y el abuso de plataformas, y propone técnicas como las lluvias de ideas catastróficas y el diseño para el fallo. \"El diseño puede excluir\" aborda la accesibilidad, el diseño inclusivo y la injusticia en servicios públicos. Los capítulos finales ofrecen herramientas: buscar a quienes odian el producto, ir más allá de las escalas Likert, reconocer emociones y mapearlas con la rueda de Plutchik y los customer journeys.\n\nNo hay proyectos ni ejercicios: cada capítulo termina con conclusiones clave y el libro cierra con un llamado a la acción, consejos para defender el diseño ético dentro de una empresa y ejemplos de organizaciones que usan el diseño para hacer el bien. Es muy valioso para tomar conciencia y para tener argumentos ante clientes o jefes. Algunas reseñas señalan que explica mucho mejor los problemas que las soluciones concretas, así que conviene complementarlo con guías prácticas de accesibilidad como WCAG y de investigación con usuarios.",
+    "temas": [
+      "Ética del diseño",
+      "Dark patterns",
+      "Accesibilidad",
+      "Diseño inclusivo",
+      "Errores de usabilidad",
+      "Casos de estudio",
+      "Diseño emocional",
+      "Investigación con usuarios"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/tragic-design-the-impact-of-bad-product-design-and-how-to-fix-it-jonathan-shariat-cynthia-savard-saucier,e_0hkg.htm",
+      "https://www.deceptive.design/articles/tragic-design-the-true-impact-of-bad-design-and-how-to-fix-it",
+      "https://www.abebooks.com/9781491923610/Tragic-Design-Impact-Bad-Product-149192361X/plp"
+    ]
+  },
+  "understanding-industrial-design-2016": {
+    "descripcion": "Ensayo ilustrado de Simon King y Kuen Chang, ambos exdirectores de diseño en IDEO, que explica los principios clásicos del diseño industrial a quienes vienen del diseño de interacción y de experiencia de usuario. Se publicó en 2016, cuando los productos conectados y el «internet de las cosas» empezaban a llevar a muchos diseñadores de pantallas hacia el hardware. Es de nivel intermedio: no exige saber de ingeniería ni de fabricación, pero sí estar familiarizado con el diseño de productos digitales.\n\nEl libro abre con una historia breve del diseño industrial y del diseño de interacción, desde la Revolución Industrial y la separación entre lo físico y lo digital en la era de la computación hasta los smartphones y los objetos «inteligentes». Después dedica un capítulo a cada uno de los siete principios: sensorial (forma, color, materiales y acabados o CMF, retroalimentación sonora y productos multisensoriales), simple (modos físicos, claridad según el contexto, combinaciones inteligentes), duradero (productos que envejecen bien, adaptables y reparables), lúdico (sorpresa, carga emocional, cambio de hábitos), considerado (observar las dificultades de las personas, comodidad e inclusión), sostenible (reciclaje, reducción de residuos, segunda vida, aprovechamiento compartido de recursos) y bello. Cierra con una reflexión sobre la formación, los negocios y los diseñadores «híbridos».\n\nNo es un manual práctico: no enseña herramientas CAD, prototipado electrónico ni procesos de fabricación, y no propone ejercicios ni proyectos guiados. Lo que aporta es vocabulario y criterio para plantear y evaluar productos que van más allá de la pantalla, con muchos ejemplos reales de objetos de consumo. Resulta útil para diseñadores UX y equipos de producto que trabajan con dispositivos físicos o wearables. Quien busque contenidos de interfaces web o móviles no los encontrará aquí.",
+    "temas": [
+      "Diseño industrial",
+      "Diseño de interacción",
+      "Hardware",
+      "Productos conectados",
+      "Color, materiales y acabados",
+      "Diseño multisensorial",
+      "Simplicidad",
+      "Diseño lúdico",
+      "Inclusión",
+      "Sostenibilidad",
+      "Historia del diseño"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/understanding-industrial-design-principles-for-ux-and-interaction-design-simon-king-kuen-chang,e_2gfd.htm",
+      "https://oreilly.com/library/view/understanding-industrial-design/9781491920381"
+    ]
+  },
+  "user-story-mapping-2014": {
+    "descripcion": "Libro de referencia en el que Jeff Patton, con Peter Economy, explica la técnica que él mismo popularizó: los mapas de historias de usuario. Lleva prólogos de Martin Fowler, Alan Cooper y Marty Cagan. Está pensado para equipos ágiles, product owners, product managers, diseñadores UX y desarrolladores que trabajan con historias de usuario. Su nivel es básico: basta con conocer de forma general Scrum o el desarrollo ágil y lo que es un backlog.\n\nLa idea central es que las historias se cuentan, no se escriben: sirven para tener mejores conversaciones y llegar a una visión compartida de qué se construye y por qué. Los primeros capítulos usan casos reales para mostrar cómo un mapa ayuda a construir menos (definir un producto mínimo viable y cortar entregas por resultados en vez de por funcionalidades), a aprender más rápido y a terminar a tiempo. Después profundiza en el origen de las historias según Kent Beck, las «3 C» de Ron Jeffries (tarjeta, conversación y confirmación), las plantillas de historias y una lista de puntos que conviene discutir. También trata cómo dividir las historias grandes en otras más pequeñas, empezar desde oportunidades, gestionar el backlog con discovery y design thinking, refinar las historias en talleres y aprender de cada entrega.\n\nIncluye un ejercicio práctico muy citado: mapear con notas adhesivas una rutina matutina para entender los conceptos básicos, como la columna vertebral, las actividades y los cortes de entrega. No es un libro técnico ni enseña herramientas de software: todo el trabajo se hace con tarjetas y conversación. Ayuda mucho a evitar el «backlog plano» y a priorizar por resultados. Su estilo es narrativo y algo repetitivo, y quien ya practique story mapping encontrará sobre todo matices y anécdotas.",
+    "temas": [
+      "User story mapping",
+      "Historias de usuario",
+      "Desarrollo ágil",
+      "Producto mínimo viable",
+      "Backlog",
+      "Priorización por resultados",
+      "Planificación de entregas",
+      "Discovery",
+      "Design thinking",
+      "3 C de Ron Jeffries"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/user-story-mapping/9781491904893/",
+      "https://i-programmer.info/bookreviews/4-methodology/8159-user-story-mapping.html",
+      "https://www.uxmatters.com/mt/archives/2017/04/book-review-user-story-mapping.php"
+    ]
+  },
+  "user-centered-design-2013": {
+    "descripcion": "Guía breve de Travis Lowdermilk, desarrollador que más tarde se dedicó a la investigación UX en Microsoft, que acerca el diseño centrado en el usuario a los programadores. Su subtítulo es «A Developer's Guide to Building User-Friendly Applications». Se publicó en 2013 y no depende de ninguna plataforma ni lenguaje. Está pensada para desarrolladores con experiencia que quieren crear aplicaciones más usables y no tienen formación en diseño. Por eso es de nivel intermedio en cuanto al perfil del lector, aunque los conceptos se explican desde cero.\n\nEl libro recorre el proceso completo. Primero explica cómo ha cambiado la relación de las personas con el software, qué es la usabilidad y en qué consiste el diseño centrado en el usuario. Después enseña a trabajar con usuarios de perfiles distintos y a entrevistarlos, a definir el propósito de una aplicación mediante una narrativa, a planificar el desarrollo dentro de un ciclo de vida del software y a redactar un «manifiesto personal» que guíe las decisiones. También dedica capítulos a la creatividad en la experiencia de usuario, a los principios de diseño visual, a recoger retroalimentación con encuestas y entrevistas, y a organizar estudios de usabilidad. Termina recordando que un producto nunca está terminado y recomendando otros recursos.\n\nIncluye una plantilla de proyecto de ejemplo como apéndice, pero no hay proyectos guiados ni código: es un libro conceptual con consejos prácticos sacados de la experiencia del autor. Su mayor valor es dar a un desarrollador un método para involucrar a los usuarios en cada etapa sin depender de un equipo de diseño. Como es corto, trata los temas de forma introductoria: quien quiera profundizar en investigación de usuarios, prototipado o diseño de interacción tendrá que leer textos más especializados.",
+    "temas": [
+      "Diseño centrado en el usuario",
+      "Usabilidad",
+      "Entrevistas a usuarios",
+      "Ciclo de vida del software",
+      "Principios de diseño visual",
+      "Encuestas",
+      "Estudios de usabilidad",
+      "Retroalimentación",
+      "Creatividad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/usercentered-design-a-developer-s-guide-to-building-userfriendly-applications-travis-lowdermilk,e_2ghj.htm",
+      "https://oreilly.com/library/view/user-centered-design/9781449359812",
+      "https://i-programmer.info/book-watch-archive/6168-user-centered-design-oreilly.html"
+    ]
+  },
+  "ux-strategy-2015": {
+    "descripcion": "Primera edición de 2015 del libro con el que Jaime Levy, estratega UX y profesora vinculada al ITP de la Universidad de Nueva York, definió la práctica de la estrategia de experiencia de usuario: el punto en el que se unen la estrategia de negocio y el diseño UX. Su subtítulo es «How to Devise Innovative Digital Products that People Want». Está dirigido a emprendedores, diseñadores UX/UI, product managers y equipos que innovan dentro de una empresa. Es de nivel intermedio: conviene conocer el proceso básico de diseño de productos digitales.\n\nPropone un conjunto de herramientas ligeras para idear productos multidispositivo. Enseña a definir el cliente objetivo con proto-personas y a validar la propuesta de valor mediante el descubrimiento de clientes. También explica cómo investigar y analizar a la competencia con matrices comparativas para detectar huecos en mercados saturados, y cómo usar storyboards para plantear la innovación en valor. Después muestra cómo crear prototipos rápidos para experimentos, incluida la técnica de «Mago de Oz», cómo hacer investigación de usuarios de guerrilla para validar la utilidad central y el modelo de negocio, y cómo diseñar embudos de conversión que relacionan las acciones del usuario con métricas medibles. Todo se apoya en casos de negocio, contexto histórico y entrevistas con estrategas UX, y se acompaña de un kit de herramientas en línea.\n\nEs un libro práctico, con un proceso cercano a Lean UX que el lector puede aplicar a su propia idea de producto, pero no desarrolla proyectos de construcción paso a paso ni enseña herramientas de software concretas. Aporta un método para no diseñar a ciegas y justificar las decisiones con datos y experimentos. En 2021 salió una segunda edición ampliada con investigación remota y técnicas actualizadas, así que algunos ejemplos de esta primera edición pueden parecer anticuados.",
+    "temas": [
+      "Estrategia UX",
+      "Propuesta de valor",
+      "Proto-personas",
+      "Descubrimiento de clientes",
+      "Análisis competitivo",
+      "Innovación en valor",
+      "Prototipado rápido",
+      "Investigación de guerrilla",
+      "Embudos de conversión",
+      "Lean UX"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.goodreads.com/book/show/25653193",
+      "https://www.oreilly.com/library/view/-/9781449372972/",
+      "https://tisch.nyu.edu/itp/news/fall-2015/alum-publishes-ux-strategy-book",
+      "https://en.wikipedia.org/wiki/Jaime_Levy"
+    ]
+  },
+  "creating-flat-design-websites-2014": {
+    "descripcion": "Libro corto de Packt escrito por António Pratas, diseñador portugués afincado en Londres que había publicado artículos en Designmodo, Webdesigner Depot y Awwwards. Enseña a diseñar y maquetar sitios web con estilo flat design, la tendencia visual que dominaba la web en 2014. Su subtítulo es «Design and develop your own flat design websites in HTML». Está pensado tanto para quienes empiezan en el desarrollo web como para desarrolladores con experiencia que quieren dominar este estilo. Conviene tener nociones básicas de HTML y CSS.\n\nEl libro explica primero el origen del flat design y sus principios como estilo visual: colores planos, tipografía y ausencia de efectos como sombras o texturas. Después enseña a crear una interfaz plana que siga siendo usable y a evitar los errores de usabilidad habituales de este estilo, como no distinguir bien qué elementos se pueden pulsar. A continuación planifica y diseña en Photoshop un sitio propio, tomando como punto de partida el Flat UI de Designmodo, y lo desarrolla en HTML y CSS sobre Bootstrap, con jQuery para animar la navegación. Termina con la creación de un kit de interfaz personalizado: diseño de los componentes, exportación y código, y documentación.\n\nSigue un formato paso a paso en el que las secciones se encadenan hasta obtener un sitio web terminado. Es útil para entender el razonamiento detrás de una tendencia que influyó en el diseño de interfaces posterior. Al ser breve, no profundiza en diseño responsive avanzado, accesibilidad ni en el código que exigiría un proyecto real. Además, tanto la estética como las técnicas de maquetación reflejan la web de 2014, así que conviene complementarlo con recursos actuales de CSS.",
+    "temas": [
+      "Flat design",
+      "Diseño web",
+      "Diseño de interfaces",
+      "Usabilidad",
+      "Photoshop",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "jQuery",
+      "UI kit"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio web con estilo flat design",
+        "descripcion": "Sitio web propio que se planifica y diseña en Photoshop partiendo del Flat UI de Designmodo, cuidando la usabilidad, y que después se maqueta en HTML y CSS sobre Bootstrap, con jQuery para animar la navegación."
+      },
+      {
+        "nombre": "Flat UI kit personalizado",
+        "descripcion": "Kit propio de componentes de interfaz con estilo plano: se diseñan los componentes, se exportan y programan, y se documentan para reutilizarlos en otros proyectos web."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.skoobe.de/books/antonio-pratas/creating-flat-design-websites",
+      "https://subscription.packtpub.com/book/web-development/9781783980048/pref02",
+      "https://eld.bl.uk/catalog/018006782",
+      "https://subscription.packtpub.com/book/web-development/9781783980048/5"
+    ]
+  },
+  "mastering-postcss-for-web-design-2016": {
+    "descripcion": "Guía avanzada de Alex Libby, su undécimo libro con Packt, sobre PostCSS. Este procesador de CSS basado en plugins se presentaba en 2016 como alternativa más rápida y modular a preprocesadores como Sass, Less o Stylus. Está dirigida a desarrolladores y diseñadores frontend que ya dominan HTML5 y CSS3, y resulta especialmente útil para quienes vienen de Sass o Less y quieren llevar a PostCSS lo que ya hacen allí. Los ejercicios están planteados en Windows y se ejecutan con Node.js.\n\nEl libro arranca con la preparación del entorno y un primer procesador que añade prefijos de proveedor de forma automática (Autoprefixer) y genera versiones minificadas de las hojas de estilo. A partir de ahí, recorre con plugins de PostCSS las funciones típicas de un preprocesador: variables y mixins con condicionales, anidamiento de reglas (incluido el estilo BEM), optimización de media queries, gestión de colores, imágenes, fuentes, SVG y soporte para pantallas retina, y la creación de sistemas de rejilla. La segunda mitad es más técnica: cómo extender PostCSS mediante su API, uso de atajos, fallbacks y packs de plugins, cómo escribir plugins propios, crear un preprocesador a medida, definir sintaxis personalizada y combinar PostCSS con otros preprocesadores. Cierra con capítulos sobre linting, optimización, resolución de problemas y buenas prácticas, y otro sobre cómo prepararse para la sintaxis CSS que estaba por llegar.\n\nLa práctica consiste en demos breves por capítulo que culminan en un plugin y un preprocesador propios, más que en un sitio completo. Su mayor aporte es explicar la arquitectura modular de PostCSS para que el lector arme su propia cadena de procesado en lugar de depender de una herramienta monolítica. Conviene saber que el ecosistema de plugins ha cambiado mucho desde 2016: varios plugins se han renombrado o abandonado, y propuestas como cssnext han dado paso a postcss-preset-env. Además, el CSS nativo ya incluye variables y anidamiento. Por eso vale más por los conceptos que como referencia literal de código, y hace falta soltura con la línea de comandos y npm.",
+    "temas": [
+      "PostCSS",
+      "Autoprefixer",
+      "Variables y mixins",
+      "Anidamiento y BEM",
+      "Media queries",
+      "Imágenes y fuentes",
+      "Sistemas de rejilla",
+      "API de PostCSS",
+      "Plugins personalizados",
+      "Preprocesador a medida",
+      "Linting y optimización",
+      "Node.js"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plugin de PostCSS propio",
+        "descripcion": "En el capítulo dedicado a crear plugins, el lector programa en JavaScript, sobre la API de PostCSS, un plugin que transforma las reglas CSS, y aprende a probarlo y publicarlo."
+      },
+      {
+        "nombre": "Preprocesador personalizado",
+        "descripcion": "Se combinan varios plugins de PostCSS (variables, mixins, anidamiento, optimización) para armar una cadena de procesado propia que sustituye a Sass o Less en un proyecto."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/mastering-postcss-for-web-design-explore-the-power-of-postcss-to-write-highly-performing-modular-alex-libby,e_3boz.htm",
+      "https://www.goodreads.com/book/show/31017694-mastering-postcss-for-web-design"
+    ]
+  },
+  "responsive-web-design-by-example-2013": {
+    "descripcion": "Guía para principiantes de la serie «Beginner's Guide» de Packt, escrita por Thoriq Firdaus, diseñador gráfico y web indonesio. Enseña a crear sitios responsive con frameworks CSS en lugar de partir de cero. Esta primera edición de 2013 trabaja con los frameworks de entonces: Skeleton, Bootstrap (generación 2.x/3) y Zurb Foundation. Está pensada para quienes se inician en el diseño adaptable y para desarrolladores web que ya conocen HTML y CSS y quieren hacer sitios profesionales que funcionen en cualquier dispositivo.\n\nEmpieza por los fundamentos del diseño responsive: viewport, rejillas fluidas, media queries e imágenes flexibles. Luego dedica cada bloque a un framework distinto y explica cómo instalarlo, configurarlo y personalizarlo para que el resultado no parezca una plantilla genérica. Por el camino ayuda a comparar los tres frameworks y a elegir el que mejor se ajusta a cada proyecto según su peso, sus componentes y su flexibilidad.\n\nEs un libro práctico, con instrucciones paso a paso al estilo «manos a la obra» de la serie, en el que cada framework se aprende construyendo un sitio concreto. Sirve para perderle el miedo a los frameworks y entender cómo se organiza una maqueta adaptable. Ten en cuenta que las versiones usadas están muy desfasadas: Skeleton apenas se mantiene, Bootstrap va por la versión 5 y Foundation ha perdido protagonismo, y hoy la maquetación se resuelve con Flexbox y CSS Grid. La segunda edición de 2014 reemplazó Skeleton por Responsive Grid System. Úsalo como introducción conceptual más que como referencia técnica actual.",
+    "temas": [
+      "Diseño responsive",
+      "Media queries",
+      "Rejillas fluidas",
+      "Skeleton",
+      "Bootstrap",
+      "Zurb Foundation",
+      "Frameworks CSS",
+      "Personalización de temas",
+      "HTML5 y CSS3"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portafolio responsive con Skeleton",
+        "descripcion": "Página de portafolio adaptable construida sobre la rejilla ligera de Skeleton, que muestra trabajos de forma ordenada en escritorio, tableta y móvil."
+      },
+      {
+        "nombre": "Página de producto con Bootstrap",
+        "descripcion": "Landing de presentación de un producto hecha con la rejilla y los componentes de Bootstrap, personalizados para darle identidad propia."
+      },
+      {
+        "nombre": "Sitio corporativo con Zurb Foundation",
+        "descripcion": "Web profesional para una empresa construida con Foundation, aprovechando su rejilla y sus componentes de interfaz para lograr una presentación adaptable a cualquier dispositivo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://skoobe.de/books/thoriq-firdaus/responsive-web-design-by-example-beginners-guide"
+    ]
+  },
+  "responsive-web-design-with-jquery-2013": {
+    "descripcion": "Tutorial de 2013 de Gilberto Crespo (algunas fichas lo acreditan como Gilberto Carlos), dentro de la colección Community Experience Distilled de Packt. Muestra cómo usar jQuery y su ecosistema de plugins para acelerar el desarrollo de sitios responsive e independientes del dispositivo. Está dirigido a diseñadores y maquetadores web con base en HTML, CSS y JavaScript y algo de criterio de diseño gráfico. Haber usado antes jQuery o HTML5 ayuda, pero no es imprescindible.\n\nParte de la filosofía mobile first y la lleva a la práctica: diseño de maquetas sobre sistemas de rejilla, uso de la unidad rem de CSS3 y media queries. Después aborda los problemas típicos de un sitio adaptable y los resuelve con jQuery y plugins: menús de navegación que se transforman según el tamaño de pantalla, texto y tipografía que se ajustan, imágenes adecuadas para cada dispositivo, tablas que siguen siendo legibles en pantallas pequeñas y formularios adaptables. También trata galerías, contenido multimedia incrustado y un carrusel de contenido destacado que se controla con gestos táctiles.\n\nEl hilo conductor es un sitio web completo que se va armando a lo largo del libro, lo que ayuda a ver cómo encajan todas las piezas. Su valor actual es sobre todo histórico: muestra cómo se resolvía el diseño adaptable cuando CSS no ofrecía Flexbox, Grid ni imágenes responsive nativas (srcset y picture), y muchos de los plugins que usa ya no se mantienen. Sirve para entender el enfoque progresivo y mobile first, o para mantener proyectos heredados con jQuery. Para un proyecto nuevo, conviene complementarlo con material moderno de CSS.",
+    "temas": [
+      "jQuery",
+      "Plugins de jQuery",
+      "Mobile first",
+      "Sistemas de rejilla",
+      "Unidad rem",
+      "Menús responsive",
+      "Imágenes adaptables",
+      "Tablas responsive",
+      "Formularios",
+      "Carrusel táctil",
+      "Gestos táctiles"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio web responsive completo",
+        "descripcion": "Sitio construido a lo largo del libro con HTML, CSS y jQuery que reúne maqueta en rejilla, menú adaptable, imágenes y tablas responsive, formularios y un carrusel de contenido destacado con soporte de gestos táctiles."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.goodreads.com/book/show/19286268-responsive-web-design-with-jquery",
+      "https://www.bookshare.org/browse/book/1570848"
+    ]
+  },
+  "web-design-blueprints-2016": {
+    "descripcion": "Libro práctico de Benjamin LaGrone, desarrollador web de Texas, publicado por Packt en 2016. Recorre cuatro tendencias del diseño web de la época con instrucciones directas y código listo para usar en cada capítulo: diseño responsive, flat design, parallax scrolling y aplicaciones de una sola página (SPA). Está dirigido a desarrolladores y diseñadores con una base razonable de HTML, CSS y JavaScript que quieren pasar de la teoría a técnicas concretas.\n\nEl primer capítulo enseña a diseñar sitios que se adaptan a distintos tamaños de pantalla con media queries y maquetas fluidas. El segundo aplica los patrones de interfaz del flat design: colores planos, tipografía clara y ausencia de efectos de relieve. El tercero construye sitios de desplazamiento profundo con efectos de parallax en 3D mediante CSS y JavaScript. El cuarto explica cómo crear una SPA propia que carga contenido con Ajax sin recargar la página, sin depender de un framework. El quinto y último, «The Death Star Chapter», combina todas estas técnicas en un mismo trabajo.\n\nAl estar organizado como un conjunto de «planos», es fácil leer solo el capítulo que interesa y llevarse el código a un proyecto propio. Lo más instructivo es ver cómo se hace a mano una SPA o un efecto parallax antes de recurrir a librerías. Por otro lado, el flat design y el parallax eran modas de 2016 y hoy la maquetación se resuelve mejor con Flexbox y CSS Grid. Además, la parte de SPA no sustituye el aprendizaje de un framework moderno como React, Vue o Angular. Conviene leerlo como un taller de técnicas de frontend más que como una guía de arquitectura.",
+    "temas": [
+      "Diseño responsive",
+      "Media queries",
+      "Flat design",
+      "Parallax scrolling",
+      "Efectos 3D con CSS",
+      "Single Page Applications",
+      "Ajax",
+      "JavaScript",
+      "HTML5 y CSS3"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio responsive con estilo flat",
+        "descripcion": "Página adaptable a distintos dispositivos mediante media queries y maqueta fluida, con una interfaz basada en los patrones del flat design."
+      },
+      {
+        "nombre": "Sitio de desplazamiento con parallax 3D",
+        "descripcion": "Página de scroll largo en la que las capas se mueven a distinta velocidad para crear profundidad, con efectos hechos en CSS y JavaScript."
+      },
+      {
+        "nombre": "Single Page Application propia",
+        "descripcion": "Aplicación de una sola página construida sin framework, que carga y cambia contenido mediante Ajax sin recargar el navegador."
+      },
+      {
+        "nombre": "The Death Star Chapter",
+        "descripcion": "Capítulo final que integra en un mismo trabajo el diseño responsive, el estilo flat, el parallax y la arquitectura SPA vistos en el libro."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/web-design-blueprints-build-websites-and-applications-using-the-latest-techniques-in-modern-web-dev-benjamin-lagrone,e_3d1s.htm"
+    ]
+  },
+  "web-developer-s-reference-guide-2016": {
+    "descripcion": "Obra de consulta de unas 840 páginas firmada por Joshua Johanan, Talha Khan y Ricardo Zea, publicada por Packt en marzo de 2016. Reúne en un solo volumen lo esencial del desarrollo web: HTML, CSS y JavaScript, incluido ECMAScript 6, junto con los frameworks más usados en ese momento, Bootstrap, jQuery y AngularJS (la rama 1.x, anterior al Angular moderno), y Node.js en el servidor. Está pensada para principiantes que necesitan una referencia ordenada, aunque también sirve como libro de consulta para desarrolladores con experiencia.\n\nEmpieza por los elementos HTML: metadatos del documento, secciones semánticas, elementos en línea, contenido incrustado, tablas, formularios y elementos de dibujo. Sigue con los atributos globales y específicos. La parte de CSS, la más extensa, cubre pseudoclases y pseudoelementos, selectores, tres capítulos de propiedades y las funciones de CSS. La de JavaScript abarca implementaciones, sintaxis y tipos de variables, expresiones, operadores, sentencias y arrays, programación orientada a objetos y las novedades de ECMAScript 6. Termina con capítulos dedicados a Node.js, Bootstrap, jQuery y AngularJS.\n\nNo es un libro para leer de principio a fin ni tiene proyectos o ejercicios guiados. Funciona como un diccionario técnico con explicaciones breves y fragmentos de código para cada elemento, propiedad o función. Ofrece una visión de conjunto amplia y bien organizada, pero los capítulos de frameworks son introductorios. Además, AngularJS ya no tiene soporte, Bootstrap ha cambiado mucho y ES6 se quedó corto frente al JavaScript actual. Para consultas puntuales sobre HTML, CSS o JavaScript, MDN Web Docs es hoy una referencia más completa y actualizada.",
+    "temas": [
+      "HTML5",
+      "Atributos HTML",
+      "Selectores CSS",
+      "Pseudoclases y pseudoelementos",
+      "Propiedades y funciones CSS",
+      "JavaScript",
+      "ECMAScript 6",
+      "POO en JavaScript",
+      "Node.js",
+      "Bootstrap",
+      "jQuery",
+      "AngularJS"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/web-developer-s-reference-guide-a-one-stop-guide-to-the-essentials-of-web-development-including-pop-joshua-johanan-talha-khan-ricardo-zea,e_3cdo.htm"
+    ]
+  },
+  "wireframing-essentials-2014": {
+    "descripcion": "Manual breve de Packt en el que Matthew J. Hamm, diseñador de experiencia de usuario y arquitecto de información desde mediados de los años noventa (con clientes como Amazon.com, Microsoft o Target.com), presenta los fundamentos para diseñar la experiencia de usuario de aplicaciones y sitios web. No está atado a ninguna versión de software ni a una herramienta concreta: es un manual de método. Va dirigido a quienes quieren dedicarse profesionalmente al diseño UX y también a desarrolladores o responsables de producto que simplemente necesitan sacar adelante el diseño de un proyecto. No exige experiencia previa en UX, aunque se aprovecha más si ya se ha participado en algún desarrollo web.\n\nEl libro sigue el proceso de diseño de principio a fin. Empieza por la investigación que sirve para aclarar la ambigüedad del inicio de un proyecto: encuestas a usuarios, grupos focales y creación de personas. Después enseña a pasar de esos hallazgos a mapas de interacción, diagramas de flujo de tareas y, por último, a wireframes que funcionan como propuesta de diseño. También trata la definición de principios de diseño (design tenets), la evaluación heurística para cuantificar la calidad de una solución, la organización de sesiones de lluvia de ideas, el prototipado en papel y otras técnicas de prueba con usuarios. Además, dedica atención a la relación con clientes que contratan servicios de diseño.\n\nHamm ilustra cada principio con proyectos de ejemplo extraídos de su experiencia y avisa de los obstáculos habituales, más que guiar la construcción de un producto concreto. Con poco más de cien páginas, su valor está en ofrecer una visión ordenada y realista del oficio. Deja fuera el diseño visual, el diseño de interacción avanzado y el manejo de herramientas de wireframing como Axure, Balsamiq o Figma, de modo que conviene complementarlo con material práctico sobre alguna de ellas. Es una buena puerta de entrada para quien llega al UX desde el desarrollo.",
+    "temas": [
+      "Diseño UX",
+      "Wireframes",
+      "Investigación de usuarios",
+      "Personas",
+      "Flujos de tareas",
+      "Mapas de interacción",
+      "Evaluación heurística",
+      "Prototipado en papel",
+      "Grupos focales",
+      "Trabajo con clientes"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.abebooks.com/9781849698542/Wireframing-Essentials-Hamm-Matthew-J-1849698546/plp",
+      "https://tenlong.com.tw/products/9781849698542"
+    ]
+  },
+  "wix-cookbook-2015": {
+    "descripcion": "Recetario de Packt, con más de 60 recetas prácticas, en el que Nick Ramirez (autor también de la guía de Packt sobre WiX 3.6) enseña a crear instaladores para Windows con WiX Toolset, el conjunto de herramientas que describe paquetes de Windows Installer (MSI) mediante un dialecto de XML. Pese a la sección del catálogo, no trata de interfaces web: trata del empaquetado y la distribución de software de escritorio en la generación WiX 3.x. Está pensado para desarrolladores que ya entienden cómo funciona un proyecto WiX y quieren abordar tareas avanzadas, así que conviene dominar la sintaxis XML y tener nociones de Windows Installer y de Visual Studio.\n\nLas recetas se reparten en capítulos temáticos. Empiezan por organizar y compilar proyectos WiX desde Visual Studio, desde la línea de comandos y con MSBuild. Siguen con la instalación de archivos y directorios, incluidos ejecutables de 64 bits y componentes condicionales, y con los permisos de archivos y carpetas, la creación de recursos compartidos y la asociación de un programa a un tipo de archivo. También cubren los accesos directos (menú Inicio, escritorio y anunciados, con iconos) y la edición de archivos XML de configuración durante la instalación. Hay recetas de acciones personalizadas escritas en C#, con pruebas de reversión (rollback), y de personalización de los asistentes y diálogos del instalador. Completan el libro la creación de usuarios y grupos locales y la gestión de prerrequisitos: condiciones de inicio, comprobación de la versión de Windows e instalación del .NET Framework mediante un bootstrapper. La editorial menciona además recetas para registrar contadores de rendimiento y añadir excepciones al firewall de Windows.\n\nComo todo recetario, cada receta resuelve un problema concreto (preparación, pasos y explicación), sin un proyecto conductor. Es muy útil como consulta para quien mantiene instaladores MSI. Deja fuera los fundamentos de WiX y no refleja las versiones modernas del toolset (WiX 4 y posteriores, que cambian la sintaxis y la forma de compilar), por lo que hoy conviene leerlo junto con la documentación actual o sabiendo que muchos ejemplos requerirán adaptación.",
+    "temas": [
+      "WiX Toolset",
+      "Windows Installer (MSI)",
+      "XML",
+      "Visual Studio",
+      "MSBuild",
+      "Acciones personalizadas en C#",
+      "Accesos directos",
+      "Permisos de archivos",
+      "Interfaz del instalador",
+      "Prerrequisitos y bootstrapper",
+      ".NET Framework",
+      "Usuarios y grupos"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/product/wix-cookbook/9781784393212",
+      "https://perlego.com/book/117874/wix-cookbook-pdf",
+      "https://www.goodreads.com/work/editions/44564549-wix-cookbook"
+    ]
+  },
+  "a-web-for-everyone-designing-accessible-user-experiences-2014": {
+    "descripcion": "Libro de Rosenfeld Media escrito por Sarah Horton (coautora de Web Style Guide y, cuando se publicó, responsable de experiencia de usuario accesible en The Paciello Group) y Whitney Quesenbery, especialista en usabilidad. Lleva un prólogo de Aaron Gustafson. Plantea la accesibilidad web como una cuestión de diseño de experiencia de usuario y no como una lista de verificación que se aplica al final. Se basa en las pautas WCAG 2.0 vigentes en su época, en los principios del diseño universal y en el design thinking. Está dirigido a diseñadores, desarrolladores, responsables de producto y de contenido, y no requiere conocimientos previos de accesibilidad.\n\nLas autoras proponen un marco de principios de experiencia de usuario accesible, cada uno con pautas prácticas y ejemplos reales. Esos principios abarcan poner a las personas primero, un propósito claro, una estructura sólida, una interacción sencilla, una orientación útil, una presentación limpia, el lenguaje llano y los contenidos multimedia accesibles. Para hacerlo tangible, el libro recurre a un conjunto de personas, perfiles de usuarios con distintas discapacidades y circunstancias, cuyos casos recorren todos los capítulos. También explica cómo integrar la accesibilidad en el proceso de trabajo de un equipo y cómo se relacionan sus recomendaciones con los criterios de WCAG.\n\nNo es un manual técnico de HTML, ARIA ni pruebas con lectores de pantalla: apenas incluye código y no guía la construcción de ningún sitio. Su aporte es cambiar la mirada y dar un vocabulario común a todo el equipo. Las reseñas destacan que cubre los huecos que dejan las WCAG al explicar el porqué de cada pauta. Conviene complementarlo con material técnico actualizado sobre WCAG 2.2 y ARIA para la implementación.",
+    "temas": [
+      "Accesibilidad web",
+      "WCAG",
+      "Diseño universal",
+      "Diseño inclusivo",
+      "Personas",
+      "Lenguaje llano",
+      "Navegación y orientación",
+      "Multimedia accesible",
+      "Experiencia de usuario"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://rosenfeldmedia.com/now-on-sale-a-web-for-everyone/",
+      "https://rosenverse.rosenfeldmedia.com/books/a-web-for-everyone",
+      "https://www.effortmark.co.uk/?p=221",
+      "https://search.worldcat.org/de/title/871042774"
+    ]
+  },
+  "jump-start-responsive-web-design-2013": {
+    "descripcion": "Introducción rápida de SitePoint, de la colección Jump Start, en la que Craig Sharkie (desarrollador, conferenciante y organizador de JSConf) y Andrew Fisher (CTO de la agencia de datos JBA, en Melbourne) enseñan a crear sitios que se adaptan a escritorio, tabletas y móviles. Está escrita en la época de HTML5 y CSS3, antes de que Flexbox y CSS Grid fueran de uso general. Se presenta como un libro que puede leerse en un fin de semana y está dirigido a diseñadores y desarrolladores web con conocimientos básicos de HTML y CSS que todavía no han trabajado con diseño adaptable.\n\nEl contenido recorre los pilares del diseño adaptable: rejillas fluidas basadas en unidades relativas, imágenes adaptables, media queries para ajustar el diseño a cada tamaño de pantalla y estrategias de contenido adaptable. Todo se enmarca en el enfoque mobile first. Según los lectores, también trata las pantallas Retina y repasa frameworks y plantillas de la época como HTML5 Boilerplate, Bootstrap y jQuery como apoyo. Los ejemplos de código se acompañan de archivos descargables.\n\nEs una lectura de iniciación útil para entender los conceptos y el porqué del diseño adaptable, con ejemplos de código que se van aplicando. Las reseñas señalan que el nivel es desigual y que algunos ejemplos impresos cuesten de seguir sin el código de apoyo. Hoy hay que leerlo con perspectiva: no cubre Flexbox, CSS Grid, el elemento picture ni srcset tal como se usan actualmente, ni las container queries. Sirve como base conceptual, pero conviene completarlo con material moderno de CSS.",
+    "temas": [
+      "Diseño responsive",
+      "Media queries",
+      "Rejillas fluidas",
+      "Imágenes adaptables",
+      "Mobile first",
+      "Contenido adaptable",
+      "Pantallas Retina",
+      "CSS3",
+      "Bootstrap",
+      "HTML5 Boilerplate"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.sitepoint.com/premium/books/jump-start-responsive-web-design/",
+      "https://www.goodreads.com/en/book/show/16129009-jump-start-responsive-web-design",
+      "https://www.abebooks.com/9780987332165/Jump-Start-Responsive-Web-Design-0987332163/plp"
+    ]
+  },
+  "killer-ux-design-2012": {
+    "descripcion": "Libro de SitePoint en el que Jodie Moule, psicóloga de formación y cofundadora de la consultora australiana de diseño de experiencias Symplicit, presenta un marco para aplicar el diseño centrado en el usuario a sitios web, aplicaciones móviles y software de escritorio. No depende de ninguna tecnología ni herramienta: es un libro de proceso y método. Va dirigido a diseñadores y desarrolladores que quieren hacer productos más centrados en las personas, y no exige experiencia previa en UX.\n\nSus ocho capítulos siguen el ciclo completo de diseño: asumir que tú no eres tu usuario, entender el problema de negocio y el contexto del usuario mediante investigación, dar sentido a lo descubierto (síntesis y modelos), bocetar para explorar el concepto, prototipar la solución, probar, aprender, ajustar e iterar, y lanzar el producto para seguir aprendiendo del comportamiento real de los usuarios. Cada etapa se acompaña de técnicas concretas, como entrevistas, observación, mapas y modelos de síntesis, sketching, prototipos de distinta fidelidad y pruebas de usabilidad. El hilo conductor es un caso real: Cook, una aplicación de recetas para iPad que la autora y su equipo desarrollaron mientras escribían el libro y de cuya empresa es cofundadora.\n\nEl caso práctico permite ver el proceso aplicado a un producto real, aunque el lector no construye nada: no hay código ni tutoriales de software. Es un texto denso y algo largo para una introducción rápida, y quienes ya practican UX encontrarán sobre todo una confirmación de sus métodos. Su valor está en ordenar el proceso y dar argumentos para defender la investigación con usuarios dentro de un equipo.",
+    "temas": [
+      "Diseño centrado en el usuario",
+      "Investigación de usuarios",
+      "Contexto de uso",
+      "Síntesis de hallazgos",
+      "Sketching",
+      "Prototipado",
+      "Pruebas de usabilidad",
+      "Iteración",
+      "Diseño de apps móviles",
+      "Métricas tras el lanzamiento"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.sitepoint.com/premium/books/killer-ux-design/",
+      "https://uxmastery.com/review-killer-ux-design-by-jodie-moule/",
+      "https://www.sitepoint.com/author/jmoule/"
+    ]
+  },
+  "the-web-designer-s-roadmap-2012": {
+    "descripcion": "Libro a todo color de SitePoint en el que Giovanni DiFeterici, con formación en artes plásticas y diseño gráfico, recorre el proceso creativo del diseño web de principio a fin. A diferencia de los manuales que enseñan a maquetar elementos sueltos de una página, este explica cómo piensan y trabajan los buenos diseñadores. Está pensado para diseñadores principiantes o intermedios, y también para desarrolladores que quieren entender el lado visual de un proyecto. No exige saber programar.\n\nEl índice avanza en siete capítulos: belleza, creatividad e inspiración; un repaso a la historia del diseño (\"It Ain't Over Till It's Over\"); cómo reunir recursos y referencias; la relación entre forma y función; los patrones de diseño; el diseño conceptual, con un proyecto de color que sirve de hilo conductor; y el diseño \"en el mundo real\", con clientes y encargos. Incluye entrevistas a figuras conocidas del diseño y la usabilidad, como Shaun Inman, Daniel Burka, Meagan Fisher, Donald Norman y Dan Rubin, que cuentan cómo trabajan.\n\nEs una lectura amena y nada académica que ayuda a ordenar el proceso de diseño y a ganar criterio estético, más que a dominar una herramienta concreta. No enseña HTML, CSS ni software de diseño, y muchos ejemplos visuales reflejan la web de 2012, anterior a la generalización del diseño responsive y de herramientas como Figma. Su valor está en los principios (composición, color, patrones, inspiración) y en las experiencias de los entrevistados, que siguen siendo útiles.",
+    "temas": [
+      "Proceso creativo",
+      "Inspiración",
+      "Historia del diseño",
+      "Forma y función",
+      "Patrones de diseño",
+      "Diseño conceptual",
+      "Teoría del color",
+      "Trabajo con clientes",
+      "Entrevistas a diseñadores"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/the-web-designers/9781457174223/",
+      "https://www.mactech.com/2013/03/08/recommended-reading-the-web-designers-roadmap/",
+      "https://www.sitepoint.com/premium/books/the-web-designer-s-roadmap/"
+    ]
+  },
+  "psychology-of-web-design-2012": {
+    "descripcion": "Libro electrónico de Smashing Magazine publicado en febrero de 2012 que reúne artículos de la revista sobre cómo la psicología influye en las decisiones de diseño web. No tiene un autor único: es una antología con capítulos de Francisco Inchauste, David Travis, Steven Bradley, Dmitry Fadeyev, Vitaly Friedman, Andrew Maier y Cameron Chapman. Está dirigido a diseñadores y desarrolladores front-end con algo de experiencia que quieren entender por qué ciertos diseños funcionan mejor con los usuarios.\n\nLos capítulos tratan cómo procesa el cerebro los elementos visuales (color, contraste, simetría, equilibrio), los disparadores de persuasión en el diseño, el diseño basado en una jerarquía de necesidades inspirada en la pirámide de Maslow, hallazgos y pautas de usabilidad, una lista de 30 problemas de usabilidad que conviene tener presentes y cómo comunicar con claridad el mensaje de una startup. Cierra con una serie de tres partes de Cameron Chapman sobre teoría del color: el significado de los colores, los conceptos y la terminología, y cómo crear paletas propias.\n\nEs una lectura de consulta, sin proyectos guiados, útil para fundamentar decisiones de diseño con criterios de percepción, persuasión y usabilidad. Al ser una recopilación de artículos, el tono y la profundidad varían entre capítulos y hay algo de repetición. Algunos ejemplos y capturas han envejecido, pero los principios de color, jerarquía visual y usabilidad siguen siendo válidos. Para más rigor conviene completarlo con obras específicas sobre UX y psicología cognitiva.",
+    "temas": [
+      "Psicología del diseño",
+      "Percepción visual",
+      "Persuasión",
+      "Pirámide de Maslow",
+      "Usabilidad",
+      "Teoría del color",
+      "Paletas de color",
+      "Contraste y equilibrio",
+      "Comunicación de startups"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.smashingmagazine.com/ebooks/psychology-of-web-design/",
+      "https://shop.smashingmagazine.com/ebooks/psychology-of-web-design/"
+    ]
+  },
+  "net-works-case-studies-in-web-art-and-design-2011": {
+    "descripcion": "Obra colectiva editada por xtine burrough, artista de medios, docente y coautora de Digital Foundations, que analiza cómo se conciben y desarrollan proyectos de arte y diseño en la web. Usa sitios web reales como casos de estudio para unir teoría y práctica. Está pensada para estudiantes y docentes de diseño de nuevos medios, arte digital, comunicación, estudios críticos y cultura de internet, sobre todo para quienes aprenden haciendo y encuentran difícil conectar la teoría con su propia obra. No requiere conocimientos de programación.\n\nEl libro se divide en diez partes temáticas, cada una con una introducción académica de autores como Edward A. Shanken, Howard Rheingold, Trebor Scholz, Mark Nunes, Christian Fuchs, David M. Berry o Ken Goldberg: formalismo y arte conceptual; colecciones y comunidades; crowdsourcing y participación; visualización de datos; error y ruido; vigilancia; medios tácticos y democracia; código abierto; hacking y remezcla; y performance y equivalentes analógicos. Los capítulos los escriben los propios creadores, que reflexionan sobre obras como YouTube as a Subject (Constant Dullaart), SF Garden Registry, Mechanical Olympics (basado en Amazon Mechanical Turk), Google Maps Road Trip, Superfund365 (Brooke Singer), los trabajos de visualización de Fernanda Viégas y Martin Wattenberg, Add-Art (Steve Lambert), Pigeonblog (Beatriz da Costa) o Alerting Infrastructure! (Jonah Brucker-Cohen).\n\nNo es un manual técnico ni de diseño de interfaces. Es un libro de reflexión crítica y conceptual sobre la web como medio artístico y social, y ofrece un panorama muy rico del net art de los años 2000. Un sitio web complementario aporta recursos para la práctica. Quien busque aprender HTML, CSS o UX comercial no lo encontrará aquí, y muchos de los proyectos analizados pueden estar ya desaparecidos o funcionar solo en parte. Es valioso para inspirarse y para entender el contexto cultural y político del diseño en la red.",
+    "temas": [
+      "Net art",
+      "Arte conceptual",
+      "Crowdsourcing",
+      "Visualización de datos",
+      "Vigilancia",
+      "Medios tácticos",
+      "Código abierto",
+      "Hacking y remezcla",
+      "Cultura de internet",
+      "Casos de estudio"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Net-Works-Case-Studies-in-Web-Art-and-Design/burrough/p/book/9780415882224",
+      "https://blog.p2pfoundation.net/book-of-the-week-net-works-case-studies-in-web-art-and-design/"
+    ]
+  },
+  "mobile-ui-design-patterns-2014-2014": {
+    "descripcion": "Libro electrónico gratuito publicado por UXPin en 2014 y escrito por Chris Bank, responsable de crecimiento de la empresa, con Waleed Zuberi. Recoge 46 patrones de interfaz para aplicaciones móviles tal como los aplicaban entonces las apps más populares. Está dirigido a diseñadores de UI/UX, product managers y desarrolladores móviles que ya conocen lo básico del diseño de apps y quieren un catálogo visual de soluciones probadas para no reinventarlas.\n\nSe organiza en siete capítulos. Entre los temas están los gestos y las animaciones, la gestión de datos y contenido, el diseño para las formas de entrada propias del móvil, los elementos sociales y la facilidad para compartir, y las buenas prácticas de navegación. Cada patrón sigue el formato problema/solución y se ilustra con capturas de apps como Uber, Tinder, Pinterest, Yelp, Spotify, Instagram, Dropbox, Flipboard o Mailbox. Responde a preguntas como cómo mostrar detalles secundarios sin saturar la pantalla o cómo dejar que el usuario pruebe funciones sin regalar toda la app.\n\nEs una referencia rápida y muy visual, útil para buscar ideas y ganar vocabulario de patrones. No incluye ejercicios ni proyectos, no enseña a implementar los patrones en iOS o Android y tampoco profundiza en investigación con usuarios. Hay que leerlo como una foto de 2014: algunos patrones, como el menú hamburguesa o ciertas convenciones de iOS 7, han evolucionado o se desaconsejan hoy. UXPin lo reeditó más tarde como The Essential Guide to Mobile Design Patterns.",
+    "temas": [
+      "Patrones de UI móvil",
+      "Gestos",
+      "Animaciones",
+      "Navegación móvil",
+      "Entrada de datos",
+      "Diseño social",
+      "Gestión de contenido",
+      "Problema/solución",
+      "Análisis de apps"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.goodreads.com/book/show/22665758-mobile-ui-design-patterns-2014",
+      "https://awwwards.com/mobile-ui-design-patterns-2014-a-free-ebook-from-uxpin.html",
+      "https://creativebloq.com/mobile/free-ebook-mobile-ui-design-patterns-81516506"
+    ]
+  },
+  "web-ui-design-patterns-2014-2014": {
+    "descripcion": "Libro electrónico gratuito de UXPin, escrito por Chris Bank y Waleed Zuberi, que analiza 63 patrones de interfaz usados en 2014 por sitios y aplicaciones web populares. Es el compañero de su guía de patrones móviles. Está pensado para cualquiera que diseñe sitios o aplicaciones web (diseñadores UI/UX, desarrolladores front-end, product managers) con conocimientos básicos de diseño de interfaces.\n\nTiene siete capítulos: qué son los patrones de UI y cómo usarlos para resolver problemas de diseño; la convergencia entre móvil, web y escritorio, con pautas para pantallas táctiles y diseño responsive; la recogida de datos del usuario, con ejemplos de Yelp, Facebook y Airbnb; la navegación, incluidas las aplicaciones de una sola página, las recomendaciones y el contenido relacionado; los elementos sociales, como listas de amigos o feeds de actividad, sin saturar la interfaz; la gestión de datos y contenido para que la información extra sea accesible sin abarrotar la pantalla; y una selección final de recursos sobre tendencias. Cada patrón sigue el formato problema/solución e incluye capturas de Pinterest, LinkedIn, OKCupid, Spotify, Amazon, Kickstarter o Airbnb.\n\nEs un catálogo visual práctico para inspirarse y justificar decisiones de diseño, pero no incluye ejercicios, código ni proyectos guiados, ni enseña a implementar los patrones con HTML, CSS o JavaScript. Muchas capturas e interfaces han cambiado desde 2014, así que conviene leerlo como un análisis de época y contrastarlo con guías actuales de accesibilidad y diseño responsive.",
+    "temas": [
+      "Patrones de UI web",
+      "Diseño responsive",
+      "Interfaces táctiles",
+      "Formularios y entrada",
+      "Navegación",
+      "Aplicaciones de una sola página",
+      "Diseño social",
+      "Gestión de contenido",
+      "Problema/solución"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.uxpin.com/studio/ebooks/web-design-patterns/",
+      "https://www.goodreads.com/book/show/23125344-web-ui-design-patterns-2014",
+      "https://www.awwwards.com/63-web-ui-patterns-from-today-s-hottest-companies.html"
+    ]
+  },
+  "coding-all-in-one-for-dummies-2018": {
+    "descripcion": "Gran compendio de la serie For Dummies, de Nikhil Abraham (cofundador de Codecademy), que reúne en nueve minilibros una introducción amplia a la programación: qué es programar, cómo se construyen la web y las aplicaciones y cómo se usa el código para analizar datos. La primera edición es de 2017 y refleja la tecnología de esa época (Bootstrap 3, jQuery, Python 3 con la distribución Anaconda). Está pensado para principiantes absolutos que quieren saber si la programación es para ellos o sumarla a su perfil profesional. No exige conocimientos previos y también sirve de consulta rápida para quien ya programa algo.\n\nEl recorrido empieza con los fundamentos (qué es programar, cómo funciona la web en escritorio y móvil, cómo convertirse en programador) y sigue con un minilibro poco habitual sobre la carrera profesional: perfiles laborales, títulos universitarios, formación en el trabajo y mitos del oficio. La parte web cubre HTML y CSS con maquetación mediante floats y posicionamiento, y luego Twitter Bootstrap, JavaScript, callbacks y closures, AJAX y JSON, y jQuery. La segunda mitad cambia a Python para ciencia de datos: instalación de una distribución, carga de datos reales, limpieza y transformación, gráficos con MatPlotLib, análisis exploratorio y algoritmos sencillos. Termina con aprendizaje automático: la matemática que lo sostiene, descenso de gradiente, validación, aprendices simples, métodos basados en similitud, redes neuronales y ensambles de modelos.\n\nLa parte práctica más guiada está en el minilibro sobre aplicaciones web, donde se investiga, programa y depura una primera aplicación web con HTML, CSS y JavaScript. En la parte de datos se trabaja con ejemplos de código en Python. Su valor está en la amplitud: en un solo volumen se prueba el desarrollo web, el análisis de datos y el machine learning. A cambio, cada tema se trata de forma superficial y algunas herramientas ya están desfasadas (jQuery, floats en lugar de Flexbox o Grid). Además, el libro es en gran parte una recopilación de otros títulos For Dummies, por lo que los saltos de estilo y de nivel entre minilibros se notan. Aunque el subtítulo promete aplicaciones móviles, aquí se ven solo de forma conceptual: no hay un minilibro de desarrollo móvil nativo.",
+    "temas": [
+      "Fundamentos de programación",
+      "Carrera en programación",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript",
+      "AJAX y JSON",
+      "jQuery",
+      "Python",
+      "MatPlotLib",
+      "Análisis de datos",
+      "Machine learning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Primera aplicación web",
+        "descripcion": "Aplicación web sencilla que se planifica, se investiga y luego se programa y depura paso a paso en el minilibro «Creating Web Applications», con HTML, CSS y JavaScript."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://campusstore.miamioh.edu/coding-allinone-dummies-1st-abraham/bk/9781119363026",
+      "https://www.goodreads.com/work/editions/52788637-coding-all-in-one-for-dummies",
+      "https://www.oreilly.com/library/view/coding-all-in-one-for/9781119363026/navigation.xhtml"
+    ]
+  },
+  "web-coding-development-all-in-one-for-dummies-2018": {
+    "descripcion": "Obra de referencia de Paul McFedries, autor técnico veterano con más de cien libros, que reúne en varios minilibros todo lo necesario para pasar de cero a construir sitios y aplicaciones web dinámicas. Publicada en 2018, trabaja con HTML5, CSS3 (incluido Flexbox), JavaScript de la época (ES5/ES6), jQuery, PHP y MySQL. Está dirigida a quienes no tienen experiencia en programación y a profesionales que quieren ponerse al día con los estándares web, sin dar nada por sabido.\n\nEmpieza por lo básico del desarrollo web: cómo funcionan las páginas estáticas y dinámicas, cómo elegir un alojamiento y cómo montar un entorno local de desarrollo. Luego entra en el front end con HTML y CSS (selectores, modelo de caja, maquetación con Flexbox, diseño responsive y alternativas para navegadores antiguos), y con JavaScript y jQuery (variables y su ámbito, precedencia de operadores, bucles, temporizadores, depuración y mensajes de error frecuentes, delegación de eventos, efectos de jQuery UI). La parte de back end enseña lo básico de PHP, cómo crear y consultar bases de datos MySQL y cómo acceder a ellas desde PHP. Las páginas dinámicas se tratan uniendo PHP y JavaScript mediante Ajax y JSON, y con la creación y el procesamiento de formularios. Cierra con el desarrollo de aplicaciones web: planificación, archivos de arranque de la aplicación, gestión de usuarios, seguridad, accesibilidad, enfoque mobile-first, imágenes para móviles y jQuery Mobile.\n\nEs un libro muy didáctico, con abundantes fragmentos de código y explicaciones claras, y además cubre toda la pila LAMP clásica, algo poco frecuente en un manual para principiantes. Conviene saber que su elección tecnológica (jQuery, jQuery Mobile, PHP sin framework) refleja la web de 2018: no trata frameworks modernos como React o Laravel, ni herramientas como npm o bundlers. Aun así, los fundamentos que explica siguen vigentes. Hay ediciones posteriores más actualizadas, así que esta conviene leerla sobre todo por sus conceptos de base.",
+    "temas": [
+      "HTML5",
+      "CSS3",
+      "Flexbox",
+      "Diseño responsive",
+      "JavaScript",
+      "jQuery",
+      "PHP",
+      "MySQL",
+      "Ajax y JSON",
+      "Formularios web",
+      "Seguridad web",
+      "Accesibilidad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.dummies.com/book/technology/programming-web-design/general-programming-web-design/web-coding-development-all-in-one-for-dummies-281889",
+      "https://www.oreilly.com/library/view/web-coding/9781119473923/b01.xhtml"
+    ]
+  },
+  "web-design-all-in-one-for-dummies-2nd-edition-2013": {
+    "descripcion": "Segunda edición, de 2013, de esta referencia general sobre diseño web escrita por Sue Jenkins, diseñadora al frente del estudio Luckychair y formadora en herramientas de Adobe. Está actualizada a HTML5 y CSS3 y va dirigida a emprendedores que quieren diseñar su propio sitio y a personas que empiezan en el diseño web como profesión. No requiere experiencia previa en programación.\n\nEl contenido se organiza en cinco minilibros que siguen el ciclo de vida de un sitio: consideraciones previas al diseño (objetivos, público y planificación), definición del aspecto visual (maquetas, color, tipografía y gráficos para la web), construcción del sitio con HTML5 y CSS (marcado, DOCTYPE, selectores y propiedades), estándares y pruebas (validación del código y comprobación en distintos navegadores) y, por último, publicación y mantenimiento (subida por FTP, alta en buscadores y actualización). Los ejemplos usan Adobe Photoshop para los gráficos y Adobe Dreamweaver para montar las páginas, aunque la autora menciona alternativas y explica que las técnicas se pueden aplicar con otras herramientas.\n\nSu valor está en que cubre el proceso completo de un encargo de diseño web, desde la planificación hasta la publicación, con un enfoque más de diseñador que de programador. Queda claramente anclado en 2013: depende mucho de Dreamweaver, el diseño responsive se trata de forma limitada y no aparecen Flexbox, CSS Grid, Figma ni los flujos actuales con sistemas de control de versiones. Sirve para entender los fundamentos y la organización de un proyecto web, pero hay que completarlo con material actual sobre maquetación y herramientas de diseño.",
+    "temas": [
+      "Planificación de sitios",
+      "Diseño visual",
+      "Photoshop",
+      "Dreamweaver",
+      "HTML5",
+      "CSS3",
+      "Validación de código",
+      "Pruebas en navegadores",
+      "Publicación FTP",
+      "SEO básico"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.dummies.com/book/general-programming-web-design-33610//web-design-all-in-one-for-dummies-2nd-edition-281890/",
+      "https://www.bookshare.org/browse/book/849467"
+    ]
+  },
+  "mobile-design-pattern-gallery-2012": {
+    "descripcion": "Catálogo visual de patrones de interfaz para aplicaciones móviles, escrito por Theresa Neil, especialista en experiencia de usuario. Esta primera edición, de 2012, reúne unos 70 patrones ilustrados con más de 400 capturas de aplicaciones reales de iOS, Android, BlackBerry, webOS, Windows Mobile y Symbian. Está dirigido a diseñadores de UX/UI, product managers y desarrolladores móviles que ya conocen lo básico del diseño de interfaces y buscan una referencia práctica para resolver problemas de diseño habituales.\n\nLos patrones se agrupan en diez capítulos: navegación (principal y secundaria), formularios, tablas y listas, búsqueda, ordenación y filtrado, herramientas, gráficos, invitaciones (cómo guiar al usuario la primera vez que usa la app), retroalimentación y affordance, y ayuda. El último capítulo está dedicado a los antipatrones. En cada patrón se muestran ejemplos de buen uso en apps reales y se señalan sus ventajas y riesgos. El libro no trata código ni APIs: se centra en decisiones de interacción y de presentación visual.\n\nNo hay proyectos ni ejercicios: es una galería de consulta para hojear cuando se diseña una pantalla concreta. El capítulo de antipatrones, que explica por qué fallan ciertas soluciones y cómo mejorarlas, es de lo más útil. La principal crítica es que predominan las imágenes y la teoría es escasa, así que no profundiza en el porqué de cada patrón. Además, muchas plataformas y estilos visuales de las capturas (BlackBerry, Symbian, iOS anterior al diseño plano) han desaparecido. Para patrones más actuales existe una segunda edición de 2014. Esta sigue siendo útil para formar criterio sobre navegación, formularios y onboarding en móvil.",
+    "temas": [
+      "Patrones de diseño móvil",
+      "Navegación",
+      "Formularios",
+      "Tablas y listas",
+      "Búsqueda y filtros",
+      "Gráficos",
+      "Onboarding",
+      "Feedback",
+      "Ayuda contextual",
+      "Antipatrones",
+      "iOS y Android"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://oreilly.com/library/view/mobile-design-pattern/9781449318901",
+      "https://oreilly.com/library/view/mobile-design-pattern/9781449336455",
+      "https://fale.io/blog/2012/04/09/mobile-design-pattern-gallery-by-theresa-neil-oreilly"
+    ]
+  },
+  "building-design-systems-2nd-edition-2026": {
+    "descripcion": "Segunda edición, publicada por Apress en 2026 dentro de la serie Design Thinking, de la guía de Sarrah Vesselov para diseñar, construir, implantar y mantener un sistema de diseño a la medida de las necesidades de una organización. La primera edición, de 2019, la firmaba junto a Taurie Davis. Esta nueva versión, escrita solo por Vesselov (actualmente diseñadora de producto en Datadog), está muy ampliada. Está pensada para diseñadores de producto y UX, desarrolladores front end y responsables de equipo con experiencia profesional que necesitan unificar la experiencia de usuario entre varios productos o equipos.\n\nEl libro explica cómo definir un lenguaje de diseño compartido, cómo hacer un inventario de la interfaz para sacar a la luz las inconsistencias y cómo establecer design tokens como base común entre diseño y código. También trata la documentación de patrones y componentes, la creación de estilos que se documentan a sí mismos para facilitar la colaboración, y modelos de gobernanza escalables. Además, aborda cómo «vender» el sistema dentro de la organización, cómo medir su impacto y cómo mantenerlo a largo plazo, e incluye un capítulo sobre el sistema de diseño como recurso. La novedad principal de esta edición es el papel de la IA en los flujos de trabajo de los sistemas de diseño: automatización, herramientas inteligentes y su uso para inventarios y gestión de componentes. También incorpora entrevistas y casos de estudio de profesionales.\n\nNo es un tutorial de código ni de una herramienta concreta: se centra en el proceso, la organización y la estrategia que sostienen un sistema de diseño, ilustrados con casos reales. Sirve sobre todo para justificar, planificar y gobernar una iniciativa de este tipo, y los capítulos sobre gobernanza y mantenimiento son su punto fuerte. Quien busque implementar componentes en React o configurar Figma, Storybook o una canalización de tokens paso a paso tendrá que completarlo con documentación técnica. Conviene tener experiencia previa en diseño de producto o desarrollo front end en equipo.",
+    "temas": [
+      "Sistemas de diseño",
+      "Lenguaje de diseño",
+      "Design tokens",
+      "Inventario de interfaz",
+      "Documentación de componentes",
+      "Gobernanza",
+      "Escalabilidad",
+      "Mantenimiento",
+      "IA en diseño",
+      "Casos de estudio"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/9798868825118",
+      "https://www.barnesandnoble.com/w/building-design-systems-sarrah-vesselov/1130471269",
+      "https://www.amazon.com/Building-Design-Systems-Experiences-Language-ebook/dp/B0HLJ5V8WM"
+    ]
+  }
+}

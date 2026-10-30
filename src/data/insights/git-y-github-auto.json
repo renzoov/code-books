@@ -1,0 +1,559 @@
+{
+  "beginning-git-and-github-2019": {
+    "descripcion": "Manual introductorio publicado por Apress en el que Mariot Tsitoara guía al lector desde los fundamentos del control de versiones hasta el trabajo colaborativo en equipo con Git (versión 2.x) y la plataforma GitHub. Está concebido específicamente para principiantes, estudiantes y desarrolladores recién iniciados que nunca han utilizado herramientas de control de código o que encuentran intimidante la interfaz de línea de comandos, sin exigir experiencia previa en programación avanzada.\n\nLa obra explica con detalle los conceptos esenciales de repositorios locales y remotos, y enseña a dominar comandos indispensables como git init, status, add, commit, log, diff, branch, checkout, merge y rebase. En el apartado de GitHub, aborda la creación de cuentas y repositorios, el formateo con Markdown, la gestión de incidencias mediante Issues, hitos (Milestones), etiquetas y la revisión de código con Pull Requests. Asimismo, dedica capítulos clave a la identificación y resolución de conflictos de fusión (merge conflicts), la configuración de archivos .gitignore, el uso de herramientas gráficas como GitHub Desktop y GitKraken, y conceptos complementarios como git stash, cherry-pick y git reflog.\n\nEl aprendizaje se estructura a través de ejercicios prácticos guiados en la terminal y en la interfaz web de GitHub, simulando flujos de trabajo de desarrollo individual y colaborativo sin implementar una aplicación de software concreta. Su principal virtud reside en desmitificar el funcionamiento de Git mediante explicaciones visuales sencillas y advertencias sobre errores típicos de principiantes. Quedan fuera aspectos avanzados de automatización CI/CD como GitHub Actions o la arquitectura interna de objetos de Git, por lo que sirve como una sólida base previa antes de abordar manuales más exhaustivos.",
+    "temas": [
+      "Git CLI",
+      "GitHub",
+      "Control de versiones",
+      "Ramas y fusiones",
+      "Resolución de conflictos",
+      "Pull Requests",
+      "Issues y Milestones",
+      "GitHub Desktop",
+      "GitKraken",
+      "Git Rebase"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5313-7",
+      "https://github.com/Apress/beginning-git-and-github",
+      "https://www.amazon.com/Beginning-Git-GitHub-Comprehensive-Management/dp/1484253129"
+    ]
+  },
+  "beginning-git-and-github-2nd-edition-2024": {
+    "descripcion": "Segunda edición revisada y ampliada en la que Mariot Tsitoara actualiza su guía fundamental de control de versiones y trabajo en equipo para reflejar el estado moderno del ecosistema de Git (versión 2.4x) y la plataforma GitHub en 2024. Está orientada a programadores principiantes, administradores de sistemas en formación y perfiles técnicos que necesitan aprender a versionar proyectos y colaborar eficazmente, partiendo desde cero y sin requerir conocimientos previos de la terminal.\n\nEl libro repasa desde la instalación y configuración inicial hasta los comandos básicos y modernos de Git, incorporando comandos actualizados como git switch y git restore en sustitución de las sobrecargas tradicionales de checkout, además de git add, commit, diff, log, merge, rebase y stash. En la parte dedicada a GitHub, cubre la transición a la rama principal main, la autenticación moderna mediante claves SSH y tokens de acceso personal (PAT), la gestión de ramas protegidas, Issues, proyectos y flujos completos de Pull Requests y revisiones de código. La novedad central de esta edición es su cuarta parte, que añade capítulos para resolver problemas comunes (como cabezas desacopladas o commits erróneos), flujos de trabajo como GitHub Flow y Trunk-Based Development, y la personalización de Git con alias propios.\n\nA lo largo del texto se desarrollan ejercicios prácticos paso a paso en la terminal y laboratorios de resolución de conflictos, organizando la colaboración en equipo sin necesidad de programar un proyecto de software específico. Su gran aporte frente a la primera edición es la modernización de los comandos de la CLI, las pautas para salir de atascos habituales y la alineación con las políticas de seguridad vigentes en GitHub. Deja fuera la administración corporativa a gran escala y la orquestación avanzada de despliegues, posicionándose como una referencia idónea y actualizada para ingresar al ecosistema moderno de Git.",
+    "temas": [
+      "Git CLI",
+      "GitHub",
+      "Git Switch y Restore",
+      "Ramas y fusiones",
+      "Resolución de conflictos",
+      "Pull Requests",
+      "GitHub Flow",
+      "Trunk-Based Development",
+      "Git Aliases",
+      "Git Reflog"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/979-8-8688-0215-7",
+      "https://github.com/Apress/beginning-git-and-github",
+      "https://www.amazon.com/Beginning-Git-GitHub-Management-Developer/dp/B0CX1W7GMS"
+    ]
+  },
+  "mastering-github-enterprise-management-2024": {
+    "descripcion": "Extenso tratado de referencia y administración corporativa (casi 900 páginas) coordinado por Balu Nivrutti Ilag junto a especialistas de la industria, centrado en el despliegue, la gobernanza y la operación a escala de GitHub Enterprise (tanto en sus modalidades Cloud como Server). Está dirigido a arquitectos cloud, ingenieros DevOps, administradores de plataformas y responsables de seguridad de TI que ya conocen Git a nivel operativo y deben liderar la adopción, estandarización y cumplimiento normativo de GitHub en organizaciones complejas.\n\nLa obra cubre de manera exhaustiva la configuración de cuentas empresariales, la estructura de organizaciones y la gestión de identidades y accesos (IAM) mediante inicio de sesión único (SAML 2.0 SSO), aprovisionamiento SCIM y Enterprise Managed Users (EMU). Analiza a fondo la administración de GitHub Actions y GitHub Packages, incluyendo el escalado de ejecutores autoalojados (self-hosted runners) y políticas de seguridad; la implementación y gobernanza de GitHub Copilot para empresas (asignación de asientos, privacidad y políticas de sugerencias); la suite GitHub Advanced Security (GHAS) con análisis estático mediante CodeQL, escaneo de secretos con push protection y Dependabot; y la automatización corporativa apoyada en la API REST, GraphQL, webhooks y la exportación de registros de auditoría hacia plataformas SIEM como Splunk, Azure Event Hubs o Datadog.\n\nEl libro no construye aplicaciones de código tradicionales, sino que guía la configuración paso a paso de arquitecturas empresariales, políticas de cumplimiento, reglas de repositorio (rulesets), flujos CI/CD seguros y scripts administrativos. Su principal valor radica en ser una de las guías más completas del mercado sobre la gobernanza integral y la seguridad de la cadena de suministro de software en GitHub. Deja totalmente de lado los comandos introductorios de Git para desarrolladores y requiere acceso a suscripciones empresariales de GitHub para poner en práctica la gran mayoría de sus directrices.",
+    "temas": [
+      "GitHub Enterprise",
+      "GHEC y GHES",
+      "IAM y SAML SSO",
+      "Enterprise Managed Users (EMU)",
+      "GitHub Actions",
+      "Self-Hosted Runners",
+      "GitHub Copilot Enterprise",
+      "GitHub Advanced Security (GHAS)",
+      "CodeQL",
+      "Secret Scanning",
+      "Auditoría y Monitoreo"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/979-8-8688-0369-7",
+      "https://www.amazon.com/Mastering-GitHub-Enterprise-Management-Administration/dp/B0CVZMG85Y"
+    ]
+  },
+  "pro-git-2014": {
+    "descripcion": "Segunda edición de la obra cumbre y manual de referencia canónico sobre Git, escrito por Scott Chacon (cofundador de GitHub) y Ben Straub, y publicado por Apress bajo licencia abierta. Enfocado en desarrolladores intermedios y avanzados, administradores de sistemas y líderes técnicos que ya conocen los comandos cotidianos pero buscan comprender con absoluta precisión el modelo de datos interno de Git (versión 2.x), su arquitectura distribuida y sus capacidades avanzadas de personalización.\n\nEl libro desglosa a fondo operaciones avanzadas de ramificación y combinación (merge de tres vías, rebase interactivo, cherry-pick y reset frente a revert), así como la configuración y administración de servidores Git mediante protocolos SSH, HTTP y herramientas como Gitolite. Detalla flujos de trabajo distribuidos (centralizado, integration-manager y dictator/lieutenants), el uso de la API y webhooks de GitHub, herramientas de diagnóstico como git bisect, git reflog, git stash y submódulos, la personalización mediante hooks del lado cliente y servidor, y la interoperabilidad con Subversion (git-svn). Su sección más célebre examina las 'tripas' (internals) de Git: objetos blob, tree, commit y tag, el almacenamiento direccionable por contenido, los árboles de empaquetado (packfiles) y la diferencia entre comandos de porcelana y de fontanería (plumbing) como git hash-object, cat-file o update-ref.\n\nA través de experimentos prácticos en la terminal, inspección de objetos en el directorio .git y scripts para hooks de repositorio, el lector aprende a manipular el grafo acíclico dirigido (DAG) que sustenta cada commit. Su mérito inigualable es transformar lo que parece magia negra en conceptos de estructuras de datos transparentes y lógicas, lo que permite resolver cualquier problema de corrupción o desincronización de historial. Por haber sido publicado en 2014, no abarca innovaciones recientes como GitHub Actions, Codespaces o los comandos switch y restore, pero su núcleo conceptual sobre Git sigue siendo insuperable y plenamente vigente.",
+    "temas": [
+      "Git Internals",
+      "Objetos Git (Blobs, Trees, Commits)",
+      "Plumbing y Porcelain",
+      "Git Rebase interactivo",
+      "Git Server y Gitolite",
+      "Git Hooks",
+      "Git Bisect y Reflog",
+      "Submódulos",
+      "Flujos distribuidos",
+      "GitHub API"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://git-scm.com/book/en/v2",
+      "https://link.springer.com/book/10.1007/978-1-4842-0076-6",
+      "https://www.amazon.com/Pro-Git-Scott-Chacon/dp/1484200772"
+    ]
+  },
+  "git-repository-management-in-30-days-2023": {
+    "descripcion": "Guía práctica y estructurada en formato de plan de estudio diario, escrita por Sumit Jaiswal (ingeniero principal en el equipo de Ansible de Red Hat) y publicada por BPB Publications. Está pensada para principiantes, estudiantes universitarios, programadores junior y profesionales de DevOps que desean dominar el control de versiones con Git y la colaboración en GitHub a través de un itinerario metódico de 30 días, sin requerir experiencia previa con sistemas de gestión de código.\n\nEl contenido avanza de manera progresiva cubriendo la instalación, configuración global y operaciones fundamentales (git init, add, commit, status, log y diff). A medida que avanza el calendario, profundiza en la gestión y aislamiento de ramas, técnicas de fusión (merge) y rebase, manejo higiénico del repositorio (renombrado, borrado selectivo y diseño riguroso de reglas en .gitignore), y métodos seguros para deshacer cambios con git reset, checkout y revert. En el plano colaborativo y de publicación, aborda la sincronización con repositorios remotos en GitHub, el etiquetado de versiones con tags semánticos, la gestión de releases de software y el flujo de trabajo para colaborar en proyectos compartidos o realizar aportes a repositorios de código abierto mediante forks y pull requests.\n\nEl libro propone una dinámica de ejercitación diaria con comandos y casos de uso realistas, orientados a afianzar la memoria muscular en la consola y la destreza en GitHub sin desarrollar una aplicación de software en particular. Lo más destacable es su enfoque pedagógico gradual y directo, que descompone una herramienta compleja en metas accesibles respaldadas por la experiencia del autor en proyectos open-source de gran escala. Deja de lado la arquitectura interna de Git y temas de seguridad avanzada o pipelines complejos de CI/CD, constituyendo un excelente manual de arranque rápido para el entorno laboral.",
+    "temas": [
+      "Git CLI",
+      "GitHub",
+      "Plan de 30 días",
+      "Ramas y fusiones",
+      "Git Rebase",
+      "Resolución de conflictos",
+      "Tags y Releases",
+      "Contribución Open Source",
+      "Forks y Pull Requests",
+      "Control de versiones"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bpbonline.com/products/git-repository-management-in-30-days",
+      "https://github.com/bpbpublications/Git-Repository-Management-in-30-Days",
+      "https://www.amazon.com/Git-Repository-Management-30-Days/dp/9355518072"
+    ]
+  },
+  "aprendiendo-git-2023": {
+    "descripcion": "Obra pedagógica en español escrita por Miguel Ángel Durán (midudev) orientada a enseñar el sistema de control de versiones Git desde sus cimientos hasta un manejo fluido y profesional en equipo. Se fundamenta en las versiones modernas de Git 2.x y en la plataforma GitHub. Está pensada tanto para desarrolladores y estudiantes principiantes que se inician en el control de versiones como para programadores en activo que ejecutan los comandos cotidianos de memoria pero necesitan consolidar el modelo mental de cómo opera la herramienta por debajo. Solo se requieren nociones básicas de navegación en la terminal de comandos.\n\nEl texto desglosa la arquitectura interna de Git y su modelo de objetos (blobs, trees, commits y tags), explicando con rigor la relación entre el directorio de trabajo (Working Directory), el área de preparación (Staging Area o Index) y el puntero HEAD. Enseña a fondo las operaciones locales (`git init`, `git status`, `git add`, `git commit`, `git log`, `git diff`), el trabajo con ramas (`git branch`, `git switch`), estrategias de fusión (`fast-forward` y fusiones de tres vías) y resolución de conflictos. Además, aborda herramientas avanzadas de edición y rescate como `git rebase` interactivo, `git stash`, `git cherry-pick`, `git reset`, `git revert`, `git bisect` y `git reflog`, junto con la configuración de alias, hooks locales y flujos remotos en GitHub (`clone`, `fetch`, `pull`, `push` y pull requests).\n\nMediante ejemplos progresivos de terminal y diagramas explicativos, el lector practica escenarios comunes de ramificación, descarte de cambios y resolución manual de conflictos paso a paso. Su mayor virtud es la claridad expositiva y la cercanía para desmitificar operaciones temidas como el rebase o el uso del reflog sin caer en tecnicismos innecesarios. Al ser una guía monográfica sobre control de versiones, no desarrolla proyectos de software aplicativo ni aborda pipelines de integración continua complejos, pero sienta las bases imprescindibles para trabajar con confianza antes de integrarse en un equipo profesional.",
+    "temas": [
+      "Git",
+      "GitHub",
+      "Control de versiones",
+      "Staging Area",
+      "Ramas y fusiones",
+      "Resolución de conflictos",
+      "Git Rebase",
+      "Git Stash",
+      "Git Reflog",
+      "Git Hooks",
+      "Buenas prácticas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://leanpub.com/aprendiendo-git",
+      "https://aprendiendogit.com",
+      "https://github.com/midudev/libro-aprendiendo-git-issues"
+    ]
+  },
+  "git-in-practice-2014": {
+    "descripcion": "Manual técnico de nivel intermedio y avanzado escrito por Mike McQuaid (ingeniero destacado de GitHub y creador de Homebrew), con prólogo de Scott Chacon. El libro se apoya en Git 1.8 y 2.x, y está dirigido a desarrolladores e ingenieros de software que ya dominan los comandos básicos de control de versiones y buscan optimizar sus flujos de trabajo, solucionar problemas complejos y estandarizar la colaboración en equipo con criterio profesional.\n\nLa obra se estructura en 66 técnicas prácticas con el formato problema-solución-discusión. Enseña a fondo la interacción con el sistema de archivos (gestión avanzada de `.gitignore`, atributos de Git y limpieza con herramientas como filter-branch), técnicas avanzadas de visualización de historiales con `git log`, ramificación compleja y conmutación de contexto. Cubre con detalle la reescritura de historial, la recuperación ante pérdidas accidentales mediante `git reflog`, la gestión de dependencias externas como submódulos de Git (*vendoring*), la interoperabilidad con repositorios Subversion (`git-svn`), el uso eficiente de pull requests en GitHub y el análisis comparativo fundamentado entre `git merge` y `git rebase`.\n\nEl libro no propone programar una aplicación desde cero, sino dominar 66 escenarios y recetas técnicas directamente aplicables sobre repositorios reales. Su gran valor reside en la visión pragmática y las opiniones firmes de un mantenedor de código abierto de primer nivel sobre cómo mantener un historial limpio y resolver catástrofes de sincronización. Conviene tener en cuenta que la sección dedicada a Subversion y ciertas capturas de GitHub acusan el paso del tiempo, pero el núcleo de técnicas de manipulación y depuración de Git continúa siendo plenamente vigente y formativo.",
+    "temas": [
+      "Git",
+      "GitHub",
+      "Reescritura de historial",
+      "Git Reflog",
+      "Resolución de conflictos",
+      "Submódulos",
+      "Git Rebase vs Merge",
+      "Recuperación ante desastres",
+      "Workflows en equipo",
+      "Pull Requests"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/git-in-practice",
+      "https://github.com/MikeMcQuaid/GitInPractice"
+    ]
+  },
+  "github-actions-in-action-2024": {
+    "descripcion": "Guía especializada e intensiva sobre automatización e integración/entrega continua nativa de GitHub, escrita por Michael Kaufmann, Rob Bos y Marcel de Vries (con prólogo de Scott Hanselman). Se centra en la versión actual de GitHub Actions y su integración con entornos en la nube y contenedores. Está diseñada para desarrolladores de software, especialistas en DevOps y arquitectos de soluciones que ya conocen Git y GitHub a nivel de gestión de código y buscan construir pipelines de CI/CD robustos y seguros sin depender de herramientas externas como Jenkins o Azure Pipelines.\n\nEl libro profundiza en la sintaxis YAML para flujos de trabajo (*workflows*), eventos desencadenadores (`push`, `pull_request`, `schedule`, `workflow_dispatch`), contextos, variables y matrices de ejecución. Cubre la creación y empaquetado de acciones personalizadas (acciones compuestas, en JavaScript y basadas en Docker) para su distribución en GitHub Marketplace. En el ámbito operativo y de seguridad, detalla la configuración y escalado de ejecutores autohospedados (*self-hosted* y *ephemeral runners*), la gestión de secretos, autenticación en nubes públicas mediante OpenID Connect (OIDC) sin claves estáticas, entornos protegidos con aprobación manual, escaneo de vulnerabilidades con CodeQL/Dependabot, y optimización de costes y tiempos mediante caché de dependencias y artefactos.\n\nA lo largo de los capítulos se automatiza el ciclo de vida de desarrollo de 'GloboTicket', una aplicación web realista de venta de entradas basada en ASP.NET Core y contenedores Docker. El libro destaca por abordar la gobernanza corporativa, el cumplimiento normativo y la arquitectura de despliegue en producción con rigor enterprise. Es conveniente contar con nociones de Docker y de servicios en la nube para asimilar con facilidad los capítulos sobre ejecutores dedicados y autenticación federada OIDC.",
+    "temas": [
+      "GitHub Actions",
+      "CI/CD",
+      "Sintaxis YAML",
+      "Workflows",
+      "Acciones personalizadas",
+      "Self-hosted runners",
+      "OIDC",
+      "Seguridad en CI/CD",
+      "Docker",
+      "DevOps",
+      "Automatización de despliegues"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline CI/CD integral para GloboTicket",
+        "descripcion": "Pipeline automatizado de integración y entrega continua para una aplicación web de venta de entradas (GloboTicket, en ASP.NET Core) que gestiona compilación, pruebas unitarias, análisis de seguridad, contenedorización en Docker y despliegue continuo con entornos protegidos y OIDC."
+      },
+      {
+        "nombre": "Acción personalizada para GitHub Marketplace",
+        "descripcion": "Diseño, programación y empaquetado de una acción personalizada reutilizable (composite y JavaScript) con validación de entradas, salidas y publicación en el marketplace de GitHub."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/github-actions-in-action",
+      "https://github.com/GitHubActionsInAction/Globoticket"
+    ]
+  },
+  "building-tools-with-github-2016": {
+    "descripcion": "Manual técnico de Chris Dawson y Ben Straub centrado en la creación de herramientas de productividad y extensiones personalizadas aprovechando los servicios programables de GitHub. Trabaja principalmente sobre la API REST v3 (Hypermedia API) de GitHub y las librerías cliente Octokit. Está dirigido a desarrolladores con nivel intermedio que dominan el uso convencional de Git y GitHub y buscan automatizar revisiones de código, sincronizar sistemas externos o crear aplicaciones que interactúen programáticamente con repositorios y pull requests.\n\nEl temario explora el consumo de la API mediante cURL y JSON, cubriendo autenticación por OAuth y tokens de acceso, cabeceras Hypermedia y control de cuotas (*rate limits*). Analiza la Gist API para compartir fragmentos de código, el motor de wikis Gollum junto con la librería Rugged en Ruby (bindings de libgit2), y la Search API para indexar repositorios y usuarios. Asimismo, enseña a reportar estados de pruebas en pull requests mediante la Commit Status API, gestionar blogs estáticos con Jekyll y GitHub Pages, y manipular directamente objetos de Git (blobs, árboles y confirmaciones) a través de la Git Data API en entornos móviles y de escritorio.\n\nEl libro guía la implementación práctica de tres herramientas funcionales: una utilidad gráfica de escritorio en Python para búsquedas avanzadas en GitHub, un servicio de integración continua casero en C# (.NET) con Octokit.net que reporta checks en pull requests, y una aplicación nativa para Android en Java que lee y crea contenido en repositorios vía la Git Data API. Su gran fortaleza es tratar a GitHub como una base de datos programable y no solo como un hosting de código. Debe tenerse en cuenta que al ser de 2016 se centra en la API REST v3 y no cubre GraphQL ni la moderna Checks API, aunque sus patrones de integración y el uso de Octokit mantienen un alto valor formativo.",
+    "temas": [
+      "GitHub API",
+      "Octokit",
+      "Commit Status API",
+      "Git Data API",
+      "OAuth",
+      "Webhooks",
+      "Gist API",
+      "Python",
+      ".NET",
+      "Android",
+      "Automatización de flujos"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Buscador de repositorios y código con GUI en Python",
+        "descripcion": "Herramienta de escritorio con interfaz gráfica que consume la Search API de GitHub mediante Python para realizar consultas complejas sobre repositorios, fragmentos de código y usuarios."
+      },
+      {
+        "nombre": "Servidor de validación y estado de commits en .NET",
+        "descripcion": "Servicio en C# con Octokit.net que escucha webhooks y actualiza el estado de verificación (éxito, fallo o pendiente) de los commits en pull requests mediante la Commit Status API."
+      },
+      {
+        "nombre": "Cliente móvil de gestión de contenidos en Android",
+        "descripcion": "Aplicación móvil para Android en Java que interactúa directamente con un repositorio manipulando blobs, árboles y commits mediante la Git Data API."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/building-tools-with/9781491933497/"
+    ]
+  },
+  "git-for-teams-2015": {
+    "descripcion": "Guía práctica de Emma Jane Hogbin Westby enfocada en la dimensión humana, comunicativa y de gobernanza necesaria para implementar control de versiones en equipos de desarrollo. Basada en Git (versiones 2.x) y en las tres grandes plataformas de colaboración de la industria (GitHub, Bitbucket y GitLab), está orientada a directores técnicos (CTOs), líderes de equipo, gestores de proyectos y programadores con nociones intermedias de Git que necesitan coordinar el trabajo colectivo sin entorpecer el ritmo de entrega.\n\nLa obra divide su enfoque en dos áreas complementarias: estrategia de equipo y ejecución técnica. En la primera parte desglosa modelos de gobernanza (jerárquicos, consensuados o abiertos), asignación de roles (contribuidores, mantenedores y revisores) y selección de esquemas de ramificación (Git Flow, GitHub Flow, GitLab Flow y desarrollo basado en troncos o *mainline*). En la segunda parte aborda la operativa diaria de consola: estructuración de commits legibles, gestión de ramas de funcionalidades (*feature branches*), dinámica de revisiones de código en pull requests, resolución de conflictos mediante `merge` o `rebase`, y localización sistemática de errores mediante `git bisect` y `git blame`. Asimismo, compara flujos en repositorios públicos de GitHub, entornos corporativos privados en Bitbucket e instancias autoalojadas con GitLab.\n\nEl aprendizaje se articula a través de ejercicios guiados de flujo de trabajo, simulaciones de revisión de código por pares y diseño de pautas de contribución adaptadas a la escala de la empresa. Su principal aportación es demostrar que la gran mayoría de los incidentes en Git se deben a procesos mal definidos o a fallos de comunicación en el equipo, más que a complejidades del software. Conviene contar con experiencia previa en el uso elemental de Git para comprender las implicaciones organizativas de cada flujo. Es una referencia muy recomendable para quienes deben definir o estandarizar el flujo de trabajo técnico de una organización.",
+    "temas": [
+      "Git",
+      "Estrategias de ramificación",
+      "Git Flow",
+      "GitHub Flow",
+      "Code Review",
+      "Pull Requests",
+      "Gobernanza de software",
+      "Git Bisect",
+      "Bitbucket",
+      "GitLab",
+      "Trabajo colaborativo"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/git-for-teams/9781491911204/"
+    ]
+  },
+  "git-pocket-guide-2013": {
+    "descripcion": "Guía concisa de bolsillo y manual de consulta rápida centrado en el sistema de control de versiones distribuido Git (orientado a la versión Git 1.8, vigente al momento de su publicación). Está dirigida a desarrolladores de software, administradores de sistemas y usuarios técnicos que ya poseen soltura en la línea de comandos en entornos Unix/Linux o Windows y requieren un compendio portátil para resolver dudas concretas del día a día, sin tener que adentrarse en manuales extensos.\n\nEl texto desglosa la arquitectura interna de Git y su modelo de almacenamiento orientado a objetos (blobs, árboles, confirmaciones, etiquetas anotadas e identificadores criptográficos SHA-1 que componen el grafo acíclico dirigido o DAG). Explica el rol del área de preparación (*index* o *staging area*), la configuración inicial (`git config`), la creación e inicialización de repositorios (`git init`, `git clone`), el registro de cambios (`git add`, `git commit`, `git rm`), el análisis del historial (`git log`, `git status`, `git diff`) y la gestión de bifurcaciones (`git branch`, `git checkout`, `git merge`). Además, sintetiza técnicas de edición del historial (`git rebase`, `git commit --amend`, `git reset`), generación y aplicación de parches (`git format-patch`, `git am`), colaboración con repositorios remotos vía SSH y HTTPS (`git fetch`, `git pull`, `git push`), y el uso de notas (`git notes`), ganchos (*hooks*) y submódulos.\n\nEl libro prescinde de ejercicios de autoevaluación o proyectos de software guiados: su estructura es la de una referencia técnica directa organizada por tareas y conceptos con ejemplos sintácticos precisos. Por su año de edición, no cubre órdenes modernas introducidas a partir de Git 2.23 (como `git switch` y `git restore`) y aborda de forma muy escueta los flujos colaborativos en plataformas web como GitHub. Su principal virtud reside en proporcionar una explicación rigurosa y compacta del funcionamiento de Git para tener siempre a mano en el escritorio de trabajo.",
+    "temas": [
+      "Git 1.8",
+      "Control de versiones distribuido",
+      "Modelo de objetos de Git",
+      "Staging Area (Índice)",
+      "Ramas y fusiones",
+      "Rebase",
+      "Resolución de conflictos",
+      "Historial de commits",
+      "Repositorios remotos",
+      "Git Hooks",
+      "Submódulos",
+      "Línea de comandos"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/git-pocket-guide/9781449327590/",
+      "https://www.amazon.com/Git-Pocket-Guide-Working-Introduction/dp/1449325866"
+    ]
+  },
+  "head-first-git-2022": {
+    "descripcion": "Guía visual y altamente interactiva orientada a comprender el funcionamiento de Git (versión contemporánea 2.x) desde adentro hacia afuera, aplicando la pedagogía basada en ciencias cognitivas característica de la colección Head First. Está pensada para programadores principiantes o desarrolladores que utilizan Git de manera mecánica —memorizando combinaciones de comandos o copiando soluciones apresuradas de internet— y desean comprender qué ocurre en cada operación para ganar autonomía y perder el miedo a dañar sus repositorios. Solo exige desenvolverse con comandos básicos de terminal para navegar por directorios (`mkdir`, `cd`, `ls`).\n\nRaju Gandhi desmitifica la base de datos interna oculta en la carpeta `.git`, enseñando a visualizar el árbol de confirmaciones, las ramas como punteros móviles y el rol de `HEAD`. Cubre el ciclo esencial de trabajo (`git init`, `git config`, `git add`, `git commit`, `git status`), la creación y navegación de ramas con sintaxis actualizada (`git branch`, `git switch`, `git checkout`), la integración de cambios y resolución manual de conflictos (`git merge`), y la rectificación metódica de fallos (`git restore`, `git reset`, `git revert`, `git commit --amend` y cómo salir del estado de *detached HEAD*). Asimismo, abarca el trabajo con repositorios remotos y la plataforma GitHub (`git clone`, `git remote`, `git push`, `git fetch`, `git pull`), el resguardo temporal de cambios (`git stash`), la localización de fragmentos de código e historial (`git grep`, `git log` con filtros avanzados) y la optimización de la terminal mediante alias y consejos prácticos.\n\nEl aprendizaje se articula a través de decenas de retos prácticos, rompecabezas conceptuales, cuestionarios interactivos (\"Sharpen your pencil\") y simulaciones de incidencias en repositorios de prueba disponibles en la web oficial del libro (i-love-git.com). No implementa una aplicación de software externa, ya que toda la práctica se centra en manipular y desenredar árboles de confirmaciones. Destaca por su capacidad para volver intuitivos conceptos que suelen resultar abstractos, si bien deja deliberadamente fuera temas más avanzados como la arquitectura de ganchos complejos, comandos de bajo nivel (*plumbing*) o estrategias para monorrepositorios empresariales.",
+    "temas": [
+      "Git 2.x",
+      "Control de versiones",
+      "Estructura interna de .git",
+      "Ramas y fusiones",
+      "Resolución de conflictos",
+      "Corrección de errores (restore, reset, revert)",
+      "Detached HEAD",
+      "Repositorios remotos",
+      "GitHub",
+      "Git Stash",
+      "Búsqueda con Git Grep y Log"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/head-first-git/9781492092506/",
+      "https://www.amazon.com/Head-First-Git-Learners-Understanding/dp/1492092510",
+      "https://i-love-git.com"
+    ]
+  },
+  "learning-github-actions-2023": {
+    "descripcion": "Manual exhaustivo y sistemático sobre la automatización de canalizaciones de integración y entrega continuas (CI/CD) utilizando GitHub Actions, la plataforma nativa de flujos de trabajo de GitHub. Diseñado por el especialista en DevOps Brent Laster, el libro está pensado tanto para desarrolladores de software que se inician en la automatización de compilaciones como para ingenieros DevOps y arquitectos técnicos que necesitan migrar desde herramientas como Jenkins, Travis CI o GitLab CI, o estandarizar procesos de despliegue a escala. Es fundamental contar con experiencia previa en el uso de Git y familiaridad con el formato YAML.\n\nLa obra expone con gran profundidad los componentes fundamentales de la plataforma: eventos y disparadores (*triggers* por eventos de repositorio, cronogramas y llamadas manuales), sintaxis y estructura de los flujos de trabajo (`.github/workflows/`), trabajos (*jobs*), pasos (*steps*) y tipos de ejecutores (*runners* alojados en la nube de GitHub frente a ejecutores autoalojados o *self-hosted*, incluyendo autoescalado). Enseña a gestionar variables de entorno, contextos, artefactos, memorias intermedias (*caching*), matrices de compilación multiplataforma y secretos organizacionales mediante `secrets.GITHUB_TOKEN` y proveedores OIDC. Dedica además capítulos completos al diseño de acciones personalizadas reutilizables en sus tres variantes (acciones basadas en Node.js/JavaScript, contenedores Docker y acciones compuestas o *composite actions*), junto con políticas de seguridad (`CODEOWNERS`, reglas de protección), depuración mediante registros y control desde la línea de comandos con la herramienta `gh CLI`.\n\nA través de los ejemplos del repositorio oficial (techupskills/learning-github-actions), el lector construye canalizaciones funcionales de análisis estático, ejecución automatizada de pruebas y publicación de artefactos, junto con el empaquetado de acciones modulares para el GitHub Marketplace. Su punto fuerte radica en abordar problemáticas reales de seguridad, gobernanza empresarial y buenas prácticas operativas, superando ampliamente la documentación introductoria. No aborda herramientas de orquestación GitOps para clústeres complejos (como ArgoCD o Flux), manteniendo su enfoque centrado en la ingeniería y optimización dentro del entorno de GitHub.",
+    "temas": [
+      "GitHub Actions",
+      "CI/CD",
+      "Automatización de software",
+      "Workflows en YAML",
+      "Runners (GitHub y Self-Hosted)",
+      "Acciones personalizadas en JavaScript",
+      "Acciones con Docker",
+      "Composite Actions",
+      "Seguridad y secretos (GITHUB_TOKEN)",
+      "Matrices de ejecución",
+      "GitHub CLI",
+      "Migración de CI/CD"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-github-actions/9781098131067/",
+      "https://www.amazon.com/Learning-GitHub-Actions-Automation-Integration/dp/1098131070",
+      "https://github.com/techupskills/learning-github-actions"
+    ]
+  },
+  "version-control-with-git-2nd-edition-2012": {
+    "descripcion": "Tratado exhaustivo y de referencia clásica sobre la arquitectura interna, fundamentos teóricos y operativa de comandos de Git (centrado en la versión Git 1.7 y 1.8). Dirigido a desarrolladores, administradores de sistemas y líderes técnicos con conocimientos de programación y manejo de la terminal que requieren una comprensión rigurosa y matemática del sistema de control de versiones, o que dirigen procesos de migración desde herramientas centralizadas más antiguas como Apache Subversion (SVN) o CVS.\n\nLos autores examinan a fondo el modelo de objetos orientados por contenido (*blobs*, árboles, confirmaciones y etiquetas con sumas criptográficas SHA-1) y la interacción entre los tres árboles clave: el directorio de trabajo, el área de preparación (*index*) y el repositorio. Detalla el flujo de confirmaciones (`git commit`), bifurcaciones y fusiones (`git branch`, `git merge`, `git checkout`), análisis de diferencias (`git diff`), modificación del historial (`git rebase`, `git reset`, `git commit --amend`) y recuperación mediante el registro de referencias y almacén temporal (`git reflog`, `git stash`). Asimismo, analiza tareas avanzadas como el mantenimiento de repositorios (`git gc`, `git fsck`), el intercambio de parches por correo (`git format-patch`, `git am`), la programación de ganchos (*hooks*), la combinación de proyectos con submódulos y subárboles (*submodules*, *subtrees*), la interoperabilidad mediante `git svn`, la búsqueda binaria de anomalías con `git bisect` y la distinción entre comandos de bajo nivel (*plumbing*) y de interfaz de usuario (*porcelain*).\n\nEl texto recurre ampliamente a diagramas de grafos dirigidos para ilustrar con precisión matemática las mutaciones que experimenta la base de datos de Git con cada operación en la consola. Carece de ejercicios evaluables y no desarrolla aplicaciones de software, orientándose a capacitar al lector para resolver estados corruptos, depurar historiales y diseñar estrategias sólidas de ramificación. Aunque no incluye las incorporaciones sintácticas de Git 2.x (como `switch` o `restore`), continúa siendo una de las mejores obras de referencia para entender a fondo la ingeniería y filosofía con la que fue concebida la herramienta.",
+    "temas": [
+      "Git 1.7 / 1.8",
+      "Control de versiones distribuido",
+      "Arquitectura interna de Git (DAG)",
+      "Modelo de objetos y SHA-1",
+      "Staging Area e Índice",
+      "Ramas y fusiones",
+      "Rebase y modificación de historial",
+      "Git Reflog y Stash",
+      "Submódulos y Subárboles",
+      "Interoperabilidad con Subversion (git-svn)",
+      "Depuración con git bisect",
+      "Comandos Plumbing y Porcelain"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/version-control-with/9781449345037/",
+      "https://www.amazon.com/Version-Control-Git-Collaborative-Development/dp/1449316387"
+    ]
+  },
+  "git-for-programmers-2021": {
+    "descripcion": "Guía práctica y directa orientada a dominar el uso de Git moderno (versión 2.x) en el flujo de trabajo real de desarrollo de software. Escrita por Jesse Liberty, está pensada para desarrolladores y programadores que ya manejan los comandos elementales de Git (como clonar, añadir archivos y confirmar cambios), pero que experimentan dificultades al afrontar colisiones de código, necesitan limpiar historiales antes de solicitar revisiones o buscan desenvolverse con seguridad en dinámicas de colaboración en equipo.\n\nEl temario aborda la administración estratégica de ramas (`git branch`), publicación hacia repositorios remotos (`git push`, `git pull`, `git fetch`), y resolución metódica de conflictos de fusión tanto en terminal como en pull requests de GitHub. Pone un énfasis especial en técnicas de edición y reordenamiento del historial mediante `git rebase`, modificación de confirmaciones recientes (`git commit --amend`), trasplante selectivo de cambios con `git cherry-pick` y rebase interactivo (`git rebase -i` para combinar o editar *commits*). Enseña también el uso detallado del registro cronológico (`git log`), etiquetas (`git tag`), notas, personalización con alias de consola, gestión del área de trabajo con `git stash` y `git clean`, y herramientas de diagnóstico de fallos como `git bisect` (localización binaria de regresiones) y `git blame` (auditoría de cambios por línea), concluyendo con patrones de recuperación ante errores comunes (deshacer confirmaciones equivocadas, renombrar ramas o recuperar archivos descartados).\n\nLa enseñanza se estructura mediante recetas y escenarios de terminal paso a paso que simulan las dificultades e imprevistos habituales del desarrollo profesional, incorporando además comparativas visuales con herramientas como GitHub Desktop y la integración de Git en Visual Studio. No incluye ejercicios formales de final de capítulo ni proyectos de software completos, pues se concentra en procedimientos prácticos de control de versiones. Es una obra ágil y pragmática, idónea para consolidar soltura y criterio profesional en la gestión de repositorios sin empantanarse en abstracciones teóricas.",
+    "temas": [
+      "Git 2.x",
+      "Flujos de trabajo con Git",
+      "Ramas y fusiones",
+      "Resolución de conflictos",
+      "Pull Requests en GitHub",
+      "Rebase interactivo",
+      "Git Cherry-pick",
+      "Diagnóstico con Git Bisect y Blame",
+      "Git Stash y Clean",
+      "Subsanación de errores (Fixing Mistakes)",
+      "GitHub Desktop",
+      "Integración con Visual Studio"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/product/git-for-programmers/9781801075732",
+      "https://www.amazon.com/Git-Programmers-Jesse-Liberty/dp/1801075734"
+    ]
+  },
+  "github-essential-2015": {
+    "descripcion": "Manual conciso publicado por Packt y escrito por Achilleas Pipinellis que se concentra en enseñar las herramientas y servicios de la plataforma web de GitHub (con las características vigentes hacia 2015). No pretende enseñar los fundamentos de Git desde la consola, sino servir de puente práctico para desarrolladores de nivel básico o intermedio que ya manejan los comandos locales elementales y necesitan dominar el entorno en la nube de GitHub para colaborar en proyectos de código abierto o en equipos corporativos.\n\nLa obra analiza en detalle la anatomía de un repositorio remoto y los flujos de colaboración en equipo: navegación de código con Blame, seguimiento de incidencias mediante issues organizados con etiquetas (labels) e hitos (milestones), y el ciclo del GitHub Flow centrado en pull requests, revisiones de código, listas de tareas y gestión de parches (.patch y .diff). Asimismo, aborda la administración organizativa (diferencias entre cuentas personales y organizaciones, gestión de equipos y permisos de acceso), la documentación estructurada en Markdown mediante wikis, la publicación de versiones formales (releases) y la creación de sitios web estáticos con GitHub Pages y Jekyll.\n\nA lo largo de los capítulos se aprende a organizar proyectos colaborativos, coordinar revisiones de código y publicar un portal web alojado directamente en la infraestructura de GitHub. Su principal virtud reside en explicar de forma directa y visual las herramientas nativas de GitHub sin abrumar con teoría innecesaria; no obstante, al haber sido publicado en 2015, no incluye prestaciones modernas cruciales como GitHub Actions, Codespaces, Discussions o Dependabot. Resulta una lectura ligera y muy formativa para comprender los cimientos de la colaboración moderna en la plataforma.",
+    "temas": [
+      "GitHub",
+      "Git",
+      "Pull Requests",
+      "GitHub Flow",
+      "Issues",
+      "Milestones",
+      "Wikis",
+      "GitHub Pages",
+      "Jekyll",
+      "Organizaciones",
+      "Control de versiones"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio web estático con GitHub Pages y Jekyll",
+        "descripcion": "Creación y despliegue de una página web personal o de documentación para un repositorio en GitHub Pages, estructurando el contenido en Markdown, aplicando temas de Jekyll y configurando un dominio personalizado."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/github-essentials-9781783553723",
+      "https://www.oreilly.com/library/view/github-essentials/9781783553723/",
+      "https://www.goodreads.com/book/show/27231458-github-essentials"
+    ]
+  },
+  "mastering-github-actions-2024": {
+    "descripcion": "Guía avanzada publicada por Packt en 2024 y escrita por el especialista Eric Chapman, orientada a transformar la automatización en GitHub en un sistema robusto, modular y de nivel corporativo mediante GitHub Actions. El texto está dirigido a ingenieros DevOps, administradores de plataformas y desarrolladores sénior con experiencia previa en Git y en conceptos básicos de integración y entrega continua (CI/CD) que deseen superar los scripts convencionales para implementar canalizaciones escalables, seguras y estandarizadas en grandes organizaciones.\n\nEl recorrido formativo profundiza en la creación de flujos de trabajo reutilizables (reusable workflows), acciones compuestas (composite actions) y la gobernanza centralizada a través de repositorios `.github` y GitHub Apps. En el apartado de seguridad e infraestructura, enseña a desplegar aplicaciones en Microsoft Azure sin almacenar contraseñas mediante OpenID Connect (OIDC), integrar secretos dinámicos con HashiCorp Vault y configurar clústeres de ejecutores autoalojados (self-hosted runners) mediante Action Runner Controller (ARC) en Kubernetes con Helm. Además, detalla patrones avanzados como el *Crawler Pattern* para actualizar masivamente configuraciones entre múltiples repositorios, flujos activados por eventos remotos (`repository_dispatch`), linters de commits y pull requests, auditoría de costes de cómputo y generación de inventarios SBOM (Software Bill of Materials).\n\nEn la práctica, se implementan arquitecturas completas de CI/CD orientadas a la seguridad, sistemas de escalado dinámico de runners y tuberías de gobernanza para catalogar repositorios y generar paneles informativos en GitHub Pages. El libro destaca por su rigor técnico en gobernanza y seguridad empresarial, alejándose de los tutoriales superficiales para abordar problemas reales de escala y presupuesto. Conviene tener conocimientos previos sobre contenedores Docker, Kubernetes y servicios en la nube para aprovechar plenamente sus patrones más complejos.",
+    "temas": [
+      "GitHub Actions",
+      "CI/CD",
+      "DevOps",
+      "Kubernetes",
+      "Helm",
+      "Action Runner Controller",
+      "Microsoft Azure",
+      "OpenID Connect",
+      "HashiCorp Vault",
+      "SBOM",
+      "Dependabot"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Clúster de runners autoscaling con Action Runner Controller (ARC)",
+        "descripcion": "Despliegue y configuración de ejecutores autoalojados en un clúster Kubernetes mediante Helm y ARC, permitiendo que la flota de runners escale automáticamente según la demanda de los flujos de trabajo."
+      },
+      {
+        "nombre": "Canalización de despliegue seguro a Azure con OIDC y Vault",
+        "descripcion": "Pipeline de CI/CD autenticado sin credenciales estáticas mediante federación de identidad OpenID Connect hacia Microsoft Azure, integrando inyección dinámica de secretos con HashiCorp Vault."
+      },
+      {
+        "nombre": "Gobernanza multirrepositorio con patrón Crawler e indexador estático",
+        "descripcion": "Flujo automatizado que recorre repositorios de una organización para sincronizar reglas de ramas, validar cumplimiento normativo y generar un catálogo visual publicado en GitHub Pages."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-github-actions-9781835081198",
+      "https://www.oreilly.com/library/view/mastering-github-actions/9781835081198/",
+      "https://github.com/PacktPublishing/Mastering-GitHub-Actions"
+    ]
+  },
+  "git-2023": {
+    "descripcion": "Manual exhaustivo y de referencia publicado por la editorial técnica alemana Rheinwerk, escrito por los veteranos autores Bernd Öggl y Michael Kofler. La obra está planteada como un tratado integral que abarca desde los fundamentos más básicos hasta el uso avanzado de Git en entornos profesionales y DevOps, actualizado a las convenciones y herramientas modernas del sistema (como la denominación estándar de ramas `main`, autenticación por tokens personales y claves SSH Ed25519). Resulta idóneo tanto para principiantes absolutos en sistemas de control de versiones como para desarrolladores y administradores que buscan una base teórica y práctica rigurosa.\n\nEl temario cubre metódicamente el modelo de objetos interno de Git (blobs, árboles, commits y etiquetas), la gestión de ramas locales y remotas, las estrategias de fusión y la resolución detallada de conflictos. Se detalla el flujo de trabajo tanto desde la línea de comandos como a través de entornos modernos (Visual Studio Code, JetBrains) y las principales plataformas de alojamiento: GitHub, GitLab y Codeberg. En sus apartados avanzados, enseña a reorganizar historiales mediante `git rebase` interactivo y `git cherry-pick`, recuperar estados perdidos con `git reflog`, diagnosticar regresiones con `git bisect`, gestionar dependencias externas con submódulos y subárboles (`git subtree`), manipular archivos pesados con Git LFS, automatizar eventos con Git Hooks, versionar configuraciones del sistema (dotfiles y `etckeeper`) y migrar repositorios legados desde Subversion (SVN).\n\nA través de una notable cantidad de ejercicios guiados y diagramas ilustrativos, el lector practica la resolución metódica de errores frecuentes, la reconciliación de ramas divergentes y el rescate de historiales dañados. Su mayor virtud radica en la claridad didáctica con la que revela la arquitectura interna de Git y su utilísima sección de solución de incidencias (troubleshooting). Aunque no construye una aplicación de software específica, enseña a desenvolverse con total seguridad en la administración de código fuente de proyectos reales.",
+    "temas": [
+      "Git",
+      "GitHub",
+      "GitLab",
+      "Ramas y fusiones",
+      "Rebase",
+      "Resolución de conflictos",
+      "Git LFS",
+      "Submódulos",
+      "Git Hooks",
+      "Dotfiles",
+      "Troubleshooting"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.rheinwerk-verlag.de/git-projektverwaltung-fuer-entwickler-und-devops-teams/",
+      "https://kofler.info/buecher/git/",
+      "https://www.rheinwerk-publishing.com/git-project-management-for-developers-and-devops-teams/"
+    ]
+  },
+  "programming-with-github-copilot-2024": {
+    "descripcion": "Guía práctica publicada por Wiley en 2024 y redactada por Kurt Dowswell, arquitecto de software y GitHub Community Hero, concebida para integrar GitHub Copilot como asistente inteligente en el día a día del programador. La obra está pensada para desarrolladores con un nivel intermedio que ya dominan al menos un lenguaje de programación (como JavaScript, TypeScript, Python o C#) y desean incorporar herramientas de asistencia por inteligencia artificial en su entorno de trabajo (principalmente Visual Studio Code) para acelerar sus desarrollos manteniendo criterios sólidos de calidad y seguridad.\n\nEl libro aborda detalladamente desde la activación de licencias (Individual, Business y Enterprise) y la configuración de extensiones en el editor hasta el uso estratégico del panel de sugerencias y los atajos de teclado. Dedica una atención especial a Copilot Chat y al diseño de instrucciones (prompt engineering) específicas para ingeniería de software, dominando comandos de barra diagonal (`/fix`, `/explain`, `/tests`) y variables de contexto (`@workspace`). En el plano técnico enseña a utilizar Copilot para aprender la sintaxis y modismos de nuevos lenguajes, refactorizar código existente, generar suites de pruebas unitarias y pruebas basadas en comportamiento (BDD), analizar trazas de excepciones para corregir fallos en tiempo de ejecución y comprender las implicaciones legales, éticas y de privacidad a través del GitHub Copilot Trust Center.\n\nDurante la lectura se implementan pequeños proyectos guiados, incluyendo la creación asistida de una herramienta de consola en un lenguaje nuevo y la construcción completa de una batería de pruebas automatizadas. La obra destaca por fomentar una mentalidad crítica, instruyendo al programador para que actúe como revisor exigente y no como receptor pasivo de las sugerencias del modelo. Es un texto sumamente útil para multiplicar la productividad, que deja de lado personalizaciones profundas de modelos (fine-tuning) para centrarse de lleno en la eficiencia diaria dentro del editor.",
+    "temas": [
+      "GitHub Copilot",
+      "Copilot Chat",
+      "Inteligencia artificial",
+      "Prompt Engineering",
+      "Visual Studio Code",
+      "Pruebas unitarias",
+      "BDD",
+      "Depuración",
+      "Refactorización",
+      "Ética en IA"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de consola guiada por IA en un nuevo lenguaje",
+        "descripcion": "Desarrollo asistido paso a paso de una utilidad de línea de comandos en un lenguaje de programación nuevo para el lector, utilizando Copilot para estructurar el proyecto, escribir funciones y aprender su sintaxis."
+      },
+      {
+        "nombre": "Suite de pruebas unitarias y BDD asistida por Copilot",
+        "descripcion": "Generación e implementación de un conjunto completo de pruebas unitarias y pruebas de comportamiento (BDD) para una aplicación existente mediante prompts específicos en Copilot Chat."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Programming+with+GitHub+Copilot%3A+Write+Better+Code%E2%80%94Faster%21-p-9781394263370",
+      "https://www.oreilly.com/library/view/programming-with-github/9781394263370/",
+      "https://www.amazon.com/Programming-GitHub-Copilot-Better-Code/dp/1394263375"
+    ]
+  },
+  "professional-git-2016": {
+    "descripcion": "Tratado técnico exhaustivo publicado bajo el prestigioso sello Wrox (Wiley) y escrito por Brent Laster, formador internacional y directivo de I+D en SAS. El texto tiene como meta principal dotar a desarrolladores, arquitectos de software e ingenieros de configuración de nivel intermedio de la denominada «mentalidad Git» (Git mindset). Es una obra especialmente valiosa para profesionales habituados a sistemas centralizados tradicionales (como SVN, ClearCase o Perforce) que necesitan comprender a fondo las premisas de diseño no lineal y el comportamiento distribuido de Git 2.x.\n\nA lo largo de sus casi setecientas páginas, el libro desglosa minuciosamente el modelo de objetos de Git y su flujo de promoción entre el directorio de trabajo, el área de preparación (staging area o índice) y el repositorio local. Explica en profundidad la naturaleza de las ramas como punteros ligeros, el trabajo en estado de cabeza desconectada (detached HEAD), las fusiones de tres vías, la resolución sistemática de conflictos y la reescritura de la historia mediante `git rebase` interactivo y `git cherry-pick`. Asimismo, analiza a fondo los ficheros de configuración (`.gitignore` y `.gitattributes`), las operaciones con remotos distribuidos (`fetch`, `pull`, `push`), la gestión de entornos de trabajo concurrentes con `git worktree`, la modularización de proyectos mediante `git submodule` y `git subtree`, y la automatización de políticas mediante ganchos locales y remotos (Git Hooks).\n\nCada capítulo complementa la teoría con laboratorios prácticos paso a paso («Labs») en los que se crean repositorios de prueba, se simulan conflictos complejos de integración, se configuran worktrees paralelos y se programan scripts de validación con ganchos de Git. Sobresale notablemente por su capacidad para explicar la mecánica subyacente y los punteros internos de Git en lugar de limitarse a memorizar comandos. Al enfocarse exclusivamente en el núcleo de la herramienta y en flujos distribuidos agnósticos, no cubre plataformas comerciales web ni CI/CD, pero se mantiene como una referencia indispensable para dominar el control de versiones.",
+    "temas": [
+      "Git",
+      "Control de versiones",
+      "Branching",
+      "Merging",
+      "Git Rebase",
+      "Cherry-pick",
+      "Git Worktree",
+      "Submódulos",
+      "Git Hooks",
+      "Gitattributes",
+      "Resolución de conflictos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Professional+Git-p-9781119284970",
+      "https://www.oreilly.com/library/view/professional-git/9781119284970/",
+      "https://www.goodreads.com/book/show/29875459-professional-git"
+    ]
+  }
+}

@@ -1,0 +1,744 @@
+{
+  "beginning-ada-programming-2019": {
+    "descripcion": "Manual formativo escrito por Andrew T. Shvets y publicado por Apress en 2019. Introduce el lenguaje Ada moderna (Ada 2012), reconocido mundialmente por su seguridad extrema y utilización en software de misión crítica aeroespacial y ferroviario.\n\nExplora la sintaxis estricta de Ada, el tipado fuerte y la comprobación de rangos en tiempo de compilación y ejecución, paquetes y visibilidad (`package spec` y `body`), genéricos, manejo de excepciones, programación orientada a objetos con tipos etiquetados (tagged types) y concurrencia nativa mediante tareas (tasks) y objetos protegidos.\n\nEl autor utiliza el compilador GNAT y el entorno GPS de AdaCore, guiando al lector mediante ejemplos sencillos y ejercicios prácticos. Una excelente puerta de entrada para aprender ingeniería de software de máxima fiabilidad.",
+    "temas": [
+      "Ada 2012",
+      "Sistemas Críticos",
+      "Tipado Fuerte",
+      "GNAT",
+      "Tareas y Concurrencia",
+      "Objetos Protegidos",
+      "Tagged Types"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5428-8"
+    ]
+  },
+  "beginning-ballerina-programming-2020": {
+    "descripcion": "Guía práctica escrita por Anjana Fernando y Lakmal Warusawithana, publicada por Apress en 2020. Introduce Ballerina, un lenguaje de programación nativo de la nube de código abierto concebido específicamente para la integración de microservicios y APIs de red.\n\nCubre la sintaxis basada en tipos estructurales de Ballerina, su representación visual y textual simultánea mediante diagramas de secuencia, conectores de red nativos para HTTP, gRPC, GraphQL y Kafka, y gestión de concurrencia segura sin bloqueos basada en canales.\n\nA través de ejemplos paso a paso, enseña a orquestar servicios distribuidos, transformar cargas de datos JSON/XML y desplegar contenedores y artefactos Kubernetes generados directamente por el compilador. Muy útil para desarrolladores de integración y arquitectos de cloud.",
+    "temas": [
+      "Ballerina",
+      "Microservicios",
+      "Cloud-Native",
+      "Integración de APIs",
+      "Kubernetes",
+      "gRPC",
+      "HTTP",
+      "Diagramas de Secuencia"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Orquestador de Microservicios Cloud-Native en Ballerina",
+        "descripcion": "Construcción de un servicio gateway que agrega datos de APIs REST y brokers Kafka con generación automática de manifiestos Kubernetes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5984-9",
+      "https://ballerina.io/"
+    ]
+  },
+  "beginning-cobol-for-programmers-2014": {
+    "descripcion": "Manual exhaustivo y pedagógico escrito por Michael Coughlan y publicado por Apress en 2014. Diseñado para enseñar COBOL moderno (COBOL 85 y 2002) a programadores y estudiantes contemporáneos sin conocimientos previos de sistemas mainframe.\n\nExplora la estructura canónica de los programas COBOL (Identification, Environment, Data y Procedure Divisions), manipulación de datos con cláusulas PICTURE, procesamiento de archivos secuenciales, indexados y relativos, tablas unidimensionales y multidimensionales, y sentencias de ordenación y fusión (SORT/MERGE).\n\nEl autor utiliza software libre y de código abierto (GnuCOBOL / OpenCOBOL), permitiendo practicar en cualquier PC moderno. Es la mejor guía para profesionales que necesitan mantener y modernizar los sistemas bancarios y gubernamentales que sustentan la economía mundial.",
+    "temas": [
+      "COBOL",
+      "GnuCOBOL",
+      "Mainframe",
+      "Sistemas Bancarios",
+      "Archivos Indexados",
+      "PICTURE Clause",
+      "Sistemas Heredados"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Procesamiento de Transacciones Bancarias en COBOL",
+        "descripcion": "Implementación de un sistema de procesamiento por lotes con validación de registros, actualización de cuentas indexadas y emisión de balances contables."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-6253-4"
+    ]
+  },
+  "beginning-matlab-and-simulink-2019": {
+    "descripcion": "Libro de texto universitario escrito por Sulaymon L. Eshkabilov y publicado por Apress en 2019. Ofrece una formación completa en computación numérica con MATLAB y simulación de sistemas dinámicos con Simulink.\n\nCubre álgebra lineal matricial, cálculo simbólico y numérico, visualización 2D y 3D, programación con scripts y funciones en MATLAB, modelado de diagramas de bloques en Simulink y simulación de ecuaciones diferenciales ordinarias.\n\nAbunda en ejemplos de ingeniería mecánica, eléctrica y física aplicada, con problemas resueltos paso a paso. Un recurso de gran valor para estudiantes de ciencias e ingeniería que requieren modelar y simular sistemas físicos.",
+    "temas": [
+      "MATLAB",
+      "Simulink",
+      "Cálculo Numérico",
+      "Álgebra Lineal",
+      "Sistemas Dinámicos",
+      "Modelado Físico",
+      "Ingeniería"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Simulación de Sistema de Control de Péndulo Invertido",
+        "descripcion": "Modelado de ecuaciones diferenciales dinámicas en MATLAB y construcción de un lazo de control PID simulado en Simulink."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5061-7"
+    ]
+  },
+  "beginning-ring-programming-2020": {
+    "descripcion": "Monografía completa de más de 680 páginas escrita por Mansour Ayouni y publicada por Apress en 2020. Está íntegramente dedicada a Ring, un innovador lenguaje multiparadigma y multiusos diseñado para ser natural, declarativo y altamente integrable.\n\nExplora la sintaxis flexible de Ring (que permite estilos similares a Python, C o BASIC), programación funcional, orientación a objetos con herencia múltiple, programación declarativa para creación de DSLs y desarrollo de interfaces gráficas interactivas con RingQt.\n\nIncluye el desarrollo de juegos 2D con Ring2D/Allegro, aplicaciones de bases de datos y extensiones en C/C++. Una lectura amena e instructiva sobre el diseño de lenguajes modernos y aplicaciones visuales rápidas.",
+    "temas": [
+      "Ring Programming",
+      "RingQt",
+      "DSLs",
+      "Juegos 2D",
+      "Multiparadigma",
+      "Sintaxis Declarativa",
+      "GUI"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Aplicaciones de Escritorio y Juego 2D en Ring",
+        "descripcion": "Desarrollo de un gestor de base de datos visual con RingQt y un videojuego de arcade 2D desarrollado con el motor Ring2D."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5833-0",
+      "https://ring-lang.net/"
+    ]
+  },
+  "beginning-x64-assembly-programming-2019": {
+    "descripcion": "Tratado formativo de arquitectura de computadores escrito por Jo Van Hoey y publicado por Apress en 2019. Enseña a programar en ensamblador x86-64 para sistemas operativos Linux utilizando el ensamblador NASM.\n\nExplora la arquitectura de registros de la CPU de 64 bits, la pila (stack), modos de direccionamiento de memoria, llamadas al sistema (syscalls) de Linux, operaciones aritméticas y lógicas, manipulación de cadenas de bytes y llamadas a funciones conforme a la ABI System V de 64 bits.\n\nDetalla la depuración de código binario paso a paso con SASM y GDB, y la interoperabilidad fluida llamando a rutinas de ensamblador desde programas en C. Un libro esencial para entender el funcionamiento interno del procesador y la memoria.",
+    "temas": [
+      "Ensamblador x64",
+      "NASM",
+      "Linux Syscalls",
+      "GDB",
+      "Registros CPU",
+      "Stack Frame",
+      "System V ABI",
+      "Bajo Nivel"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Biblioteca de Cálculo Matemático de Alto Rendimiento en Ensamblador",
+        "descripcion": "Implementación en NASM x86-64 de funciones de manipulación de arrays y aritmética vectorial enlazadas con un ejecutable en lenguaje C."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5076-1"
+    ]
+  },
+  "common-lisp-recipes-2015": {
+    "descripcion": "Obra maestra de Edmund Weitz publicada por Apress en 2015. Con más de 700 páginas, es el recetario técnico definitivo para desarrolladores que trabajan con Common Lisp estándar (ANSI Common Lisp).\n\nAborda problemas reales de ingeniería: gestión de símbolos y paquetes, macros e higienización, estructuras de datos y CLOS (Common Lisp Object System), E/S eficiente y flujos de caracteres/binarios, optimizaciones de rendimiento en compiladores como SBCL, interacción con el sistema operativo y llamadas a librerías externas vía CFFI.\n\nCada receta profundiza con elegancia y maestría técnica en las peculiaridades del estándar y las extensiones modernas de los compiladores. La obra de referencia más consultada y respetada por la comunidad contemporánea de Lisp.",
+    "temas": [
+      "Common Lisp",
+      "CLOS",
+      "Macros",
+      "SBCL",
+      "CFFI",
+      "ANSI Lisp",
+      "Edmund Weitz",
+      "Recetas Lisp"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor de Procesamiento de Texto Concurrente en Common Lisp",
+        "descripcion": "Construcción de una herramienta de búsqueda y transformación de flujos de texto optimizada con macros de CLOS y tipos SBCL declarados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://weitz.de/cl-recipes/",
+      "https://link.springer.com/book/10.1007/978-1-4842-1176-2"
+    ]
+  },
+  "introducing-vala-programming-2019": {
+    "descripcion": "Guía introductoria escrita por Michael Lauer y publicada por Apress en 2019. Introduce el lenguaje Vala, diseñado por el proyecto GNOME para ofrecer una sintaxis moderna inspirada en C# que compila directamente a código C de alto rendimiento sin sobrecarga de máquina virtual.\n\nCubre la sintaxis de Vala, tipos básicos, orientación a objetos con el sistema GObject de GNOME (propiedades, señales y métodos virtuales), gestión automática de memoria mediante recuento de referencias (ARC), interfaces gráficas modernas con GTK+ 3 y asincronía nativa con `async/yield`.\n\nA través de ejemplos directos, enseña a desarrollar aplicaciones nativas para el escritorio Linux consumiendo el ecosistema de librerías GLib/GObject. Ideal para desarrolladores que buscan programar en Linux con la comodidad de C# y la velocidad de C.",
+    "temas": [
+      "Vala",
+      "GNOME",
+      "GTK+ 3",
+      "GObject",
+      "Linux Desktop",
+      "C Compiler",
+      "ARC",
+      "Async Vala"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de Escritorio Linux con Vala y GTK+ 3",
+        "descripcion": "Desarrollo de un editor de texto con interfaz visual en GTK+, gestión de archivos asíncrona y arquitectura orientada a señales de GObject."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5380-9"
+    ]
+  },
+  "object-oriented-design-with-abap-2017": {
+    "descripcion": "Manual exhaustivo escrito por James E. McDonough y publicado por Apress en 2017. Enseña a desarrolladores de SAP a transformar código procedimental tradicional de ABAP en arquitecturas modernas y limpias orientadas a objetos (ABAP OO).\n\nExplora la sintaxis de clases locales y globales en el repositorio de SAP, herencia, interfaces, polimorfismo, eventos, diseño por contratos y aplicación de patrones de diseño GoF clásicos (Factory, Singleton, Strategy, Observer) dentro del entorno empresarial de SAP NetWeaver.\n\nEl autor fundamenta la transición hacia un código desacoplado y fácil de mantener con bancos de pruebas unitarias ABAP Unit. Esencial para programadores y consultores técnicos de SAP que desarrollan soluciones empresariales.",
+    "temas": [
+      "ABAP OO",
+      "SAP",
+      "Patrones de Diseño GoF",
+      "ABAP Unit",
+      "SAP NetWeaver",
+      "Interfaces",
+      "Clean Architecture"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de Gestión de Pedidos en ABAP OO con Patrón Factory",
+        "descripcion": "Diseño de un módulo empresarial desacoplado con interfaces, clases de negocio y pruebas unitarias integradas en SAP."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2838-8"
+    ]
+  },
+  "practical-matlab-modeling-with-simulink-2020": {
+    "descripcion": "Obra técnica aplicada escrita por Sulaymon L. Eshkabilov y publicada por Apress en 2020. Se enfoca en la resolución de problemas avanzados de ingeniería y física mediante modelos matemáticos y simulaciones dinámicas en MATLAB y Simulink.\n\nCubre la formulación de modelos matemáticos para fenómenos térmicos, mecánicos, eléctricos y de fluidos. Explora técnicas de simulación de ecuaciones no lineales, solvers numéricos (Runge-Kutta, ODE45), optimización de parámetros y diseño de controladores en lazo cerrado.\n\nProporciona simulaciones detalladas listas para ejecutar con gráficos comparativos de validación experimental. Una referencia altamente recomendada para ingenieros de I+D y estudiantes de posgrado.",
+    "temas": [
+      "MATLAB",
+      "Simulink",
+      "Modelado Matemático",
+      "Simulación Dinámica",
+      "Runge-Kutta",
+      "Sistemas de Control",
+      "Física Aplicada"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Simulador de Sistema Termofluidodinámico en Simulink",
+        "descripcion": "Modelado no lineal de intercambio térmico y dinámica de fluidos con verificación numérica y calibración paramétrica en MATLAB."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5799-9"
+    ]
+  },
+  "programming-101-2018": {
+    "descripcion": "Guía formativa universal escrita por Jeanine Meyer y publicada por Apress en 2018. Introduce el pensamiento computacional y los fundamentos de la programación a través de múltiples lenguajes e interfaces (Python, HTML/JavaScript y Scratch).\n\nExplora la lógica de algoritmos, variables, bucles, condicionales, funciones, eventos interactivos y depuración de errores. Muestra cómo los mismos conceptos de programación se traducen en diferentes lenguajes y contextos.\n\nDiseñado con un enfoque accesible y numerosos ejercicios visuales y creativos. Ideal para personas sin formación técnica previa que desean comprender qué es la programación y cómo empezar a pensar como un ingeniero de software.",
+    "temas": [
+      "Pensamiento Computacional",
+      "Fundamentos de Programación",
+      "Python",
+      "JavaScript",
+      "Algoritmos",
+      "Lógica",
+      "Principiantes"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Juegos Interactivos y Calculadoras Multilinguaje",
+        "descripcion": "Construcción de pequeños juegos interactivos y utilidades matemáticas en JavaScript y Python para consolidar estructuras algorítmicas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3697-0"
+    ]
+  },
+  "raku-fundamentals-2nd-edition-2020": {
+    "descripcion": "Segunda edición de la guía de Moritz Lenz publicada por Apress en 2020. Es el texto canónico para aprender Raku (el lenguaje antes conocido como Perl 6), concebido para ofrecer una expresividad inigualable en la programación moderna.\n\nExplora la sintaxis rica de Raku, sus gramáticas y regexes de nueva generación para parsing de texto, programación funcional con listas perezosas, tipado gradual estático/dinámico, el modelo de concurrencia nativo con Promises, Supplies y Channels, y metaoperadores matemáticos.\n\nEl autor, desarrollador del compilador Rakudo, explica con notable pedagogía cómo resolver problemas complejos con código sumamente compacto y legible. Imprescindible para programadores que desean conocer uno de los lenguajes más avanzados e innovadores del siglo XXI.",
+    "temas": [
+      "Raku",
+      "Perl 6",
+      "Rakudo",
+      "Gramáticas",
+      "Regex Avanzadas",
+      "Concurrencia",
+      "Tipado Gradual",
+      "Listas Perezosas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Parser de Formatos Complejos con Gramáticas Raku",
+        "descripcion": "Diseño de una gramática nativa en Raku con acciones semánticas para parsear y validar archivos de configuración jerárquicos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-6109-5",
+      "https://raku.org/"
+    ]
+  },
+  "raku-recipes-2020": {
+    "descripcion": "Recetario práctico escrito por J.J. Merelo y publicado por Apress en 2020. Proporciona soluciones directas y patrones idiomáticos para resolver desafíos cotidianos de ingeniería de software y ciencia de datos con Raku.\n\nCubre la manipulación de estructuras de datos complejas, parsing de texto con gramáticas, concurrencia masiva y pipelines reactivos, consumo de APIs web, interacción con bases de datos y creación de herramientas de automatización para DevOps y pruebas continuas.\n\nEl autor aprovecha las características únicas de Raku para demostrar cómo escribir código seguro, libre de boilerplate y con soporte nativo para Unicode. Excelente recurso para enriquecer la caja de herramientas de cualquier desarrollador.",
+    "temas": [
+      "Raku",
+      "Recetas",
+      "Gramáticas",
+      "Concurrencia Reactiva",
+      "DevOps",
+      "Automatización",
+      "Unicode",
+      "Parsing"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline Concurrente de Procesamiento de Datos en Raku",
+        "descripcion": "Implementación de un flujo de procesamiento de texto masivo utilizando canales reactivos y evaluación paralela en Raku."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-6258-0"
+    ]
+  },
+  "sap-abap-objects-2019": {
+    "descripcion": "Manual técnico de Rehan Zaidi publicado por Apress en 2019. Guía a consultores e ingenieros de SAP en el diseño, desarrollo y optimización de software empresarial utilizando programación orientada a objetos en ABAP.\n\nCubre la creación de clases y métodos de repositorio en el ABAP Workbench y Eclipse (ADT), manejo de excepciones basadas en clases (`CX_ROOT`), uso de tablas internas y expresiones de tabla modernas, eventos de interfaz gráfica ALV Grid y diseño modular reutilizable.\n\nA través de escenarios comerciales reales, enseña a sustituir el código clásico procedimental por patrones escalables y comprobables. Una referencia práctica para modernizar aplicaciones en entornos SAP ECC y S/4HANA.",
+    "temas": [
+      "SAP",
+      "ABAP Objects",
+      "ALV Grid",
+      "S/4HANA",
+      "Eclipse ADT",
+      "Excepciones en Clases",
+      "Tablas Internas"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Módulo de Reportes ALV Grid Orientado a Objetos en SAP",
+        "descripcion": "Desarrollo de un reporte interactivo con ABAP Objects que procesa datos de ventas con gestión de eventos y edición en pantalla."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4964-2"
+    ]
+  },
+  "sas-stored-processes-2020": {
+    "descripcion": "Guía especializada de Philip Mason publicada por Apress en 2020. Enseña a diseñar, programar y desplegar procesos almacenados (Stored Processes) en la plataforma analítica empresarial de SAS.\n\nExplora la arquitectura de SAS BI y SAS Management Console, la creación de programas SAS parametrizados que se ejecutan en servidores remotos, paso de parámetros dinámicos desde portales web y aplicaciones Office, y generación de informes dinámicos en HTML y PDF.\n\nEl autor comparte consejos avanzados de rendimiento, seguridad y buenas prácticas de depuración para optimizar la entrega de analítica a usuarios de negocio. Indispensable para administradores y desarrolladores de inteligencia empresarial en SAS.",
+    "temas": [
+      "SAS",
+      "Stored Processes",
+      "Business Intelligence",
+      "SAS BI",
+      "Informes Dinámicos",
+      "Macros SAS",
+      "Analítica Empresarial"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servicio de Analítica Web Automatizado con SAS Stored Processes",
+        "descripcion": "Creación de un proceso centralizado que recibe parámetros desde un portal web, procesa datos masivos y genera cuadros de mando."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5709-8"
+    ]
+  },
+  "the-common-lisp-condition-system-2020": {
+    "descripcion": "Monografía técnica de Michał 'phoe' Herda publicada por Apress en 2020. Es la primera y más completa obra dedicada exclusivamente al sofisticado sistema de condiciones y reinicios (Condition System) de Common Lisp.\n\nExplora por qué el sistema de condiciones de Lisp es inmensamente superior al modelo tradicional de excepciones `try-catch` de otros lenguajes. Explica la separación entre señalización de problemas, gestión de condiciones (`handler-bind`, `handler-case`) y reinicio interactivo o programático de ejecución sin desenrollar la pila (`restart-bind`, `restart-case`, `invoke-restart`).\n\nIncluye análisis de implementación en software crítico y el diseño de sistemas de recuperación de fallos interactivos. Una obra fascinante para teóricos de lenguajes e ingenieros de sistemas tolerantes a fallos.",
+    "temas": [
+      "Common Lisp",
+      "Condition System",
+      "Restarts",
+      "Excepciones",
+      "Tolerancia a Fallos",
+      "handler-bind",
+      "Metaprogramación"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Recuperación y Reinicios Interactivos en Common Lisp",
+        "descripcion": "Implementación de un motor de tareas de red que ante errores de conexión ofrece estrategias de reinicio automático o manual sin pérdida de estado."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-6134-7"
+    ]
+  },
+  "programming-with-mathematica-2013": {
+    "descripcion": "Manual exhaustivo de Paul Wellin publicado por Cambridge University Press en 2013. Es la guía canónica para aprender a programar utilizando el lenguaje Wolfram en el entorno de Mathematica.\n\nCubre la estructura del lenguaje Wolfram basada en expresiones simbólicas, manipulación de listas y reglas de sustitución, programación funcional (Map, Apply, Nest), programación basada en patrones, visualización gráfica y optimización de código simbólico y numérico.\n\nAcompaña las explicaciones teóricas con cientos de ejemplos prácticos extraídos de la física, matemáticas puras, química e ingeniería computacional. Una referencia de consulta fundamental para científicos e investigadores.",
+    "temas": [
+      "Mathematica",
+      "Wolfram Language",
+      "Cálculo Simbólico",
+      "Programación Funcional",
+      "Pattern Matching",
+      "Ciencia Computacional"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Simulación Simbólica y Numérica en Mathematica",
+        "descripcion": "Desarrollo de un paquete en Wolfram Language para resolver y visualizar dinámicamente sistemas de ecuaciones diferenciales no lineales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.cambridge.org/highereducation/books/programming-with-mathematica/216EE8214D969FEFDE48D2A7EFB5DC50"
+    ]
+  },
+  "producing-high-quality-figures-using-sasg-raph-and-ods-graphics-procedures-2015": {
+    "descripcion": "Guía especializada escrita por Charlie Chunhua Liu y publicada por CRC Press en 2015. Se centra en la generación de figuras y gráficos científicos de alta resolución utilizando los procedimientos de SAS/GRAPH y ODS Graphics.\n\nDetalla el uso de los procedimientos `PROC SGPLOT`, `PROC SGPANEL` y `PROC SGRENDER`, el lenguaje de plantillas gráficas (GTL), control milimétrico de escalas, colores, leyendas y resolución tipográfica requerida por revistas científicas (FDA, JAMA, etc.).\n\nIncluye una impresionante colección de recetas y figuras comentadas con código reproducible completo. Una obra de cabecera indispensable para bioestadísticos y analistas de ensayos clínicos.",
+    "temas": [
+      "SAS",
+      "ODS Graphics",
+      "PROC SGPLOT",
+      "GTL",
+      "Gráficos Científicos",
+      "Bioestadística",
+      "SAS/GRAPH",
+      "Publicaciones"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite Gráfica de Ensayos Clínicos con ODS Graphics",
+        "descripcion": "Diseño de un catálogo de gráficos de supervivencia Kaplan-Meier y curvas de respuesta farmacológica listos para sumisión regulatoria."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Producing-High-Quality-Figures-Using-SASGRAPH-and-ODS-Graphics-Procedures/Liu/p/book/9781482218046"
+    ]
+  },
+  "elixir-in-action-2015": {
+    "descripcion": "Primera edición de la prestigiosa obra de Saša Jurić, publicada por Manning en 2015. Enseña a construir sistemas altamente distribuidos y tolerantes a fallos con Elixir y la máquina virtual Erlang (BEAM).\n\nExplora la sintaxis funcional de Elixir, inmutabilidad, pattern matching, concurrencia masiva mediante procesos ligeros de Erlang, y los pilares de OTP (Open Telecom Platform): GenServer, Supervisor y Application para supervisión de procesos y recuperación automática ante caídas.\n\nEl autor guía al lector a través de la construcción gradual de un sistema de base de datos distribuido en memoria, demostrando cómo Elixir resuelve los problemas de concurrencia y tolerancia a fallos. Un clásico moderno del desarrollo backend.",
+    "temas": [
+      "Elixir",
+      "Erlang BEAM",
+      "OTP",
+      "GenServer",
+      "Supervisores",
+      "Concurrencia",
+      "Tolerancia a Fallos",
+      "Manning"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor de Base de Datos Concurrente y Distribuido en Elixir",
+        "descripcion": "Implementación paso a paso de un almacén clave-valor distribuido con pools de procesos GenServer y árboles de supervisión OTP."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/elixir-in-action"
+    ]
+  },
+  "elixir-in-action-2nd-edition-2019": {
+    "descripcion": "Segunda edición ampliamente revisada y actualizada por Saša Jurić, publicada por Manning en 2019. Considerada unánimemente una de las mejores obras de programación de sistemas de la década.\n\nActualizado a las versiones modernas de Elixir y OTP, cubre procesos ligeros, GenServer, DynamicSupervisor, Registry, Task, Agent, almacenamiento ETS en memoria, y despliegue de nodos distribuidos comunicados por red.\n\nPresenta explicaciones impecables de la filosofía 'let it crash' (deja que falle) y cómo diseñar software que nunca se detiene. Lectura obligatoria para cualquier ingeniero de backend o sistemas distribuidos.",
+    "temas": [
+      "Elixir",
+      "Erlang OTP",
+      "BEAM",
+      "DynamicSupervisor",
+      "ETS",
+      "Sistemas Distribuidos",
+      "Concurrencia Masiva",
+      "Saša Jurić"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema Distribuido Tolerante a Fallos en Elixir",
+        "descripcion": "Construcción de una plataforma escalable de gestión de tareas con persistencia en ETS, registro de procesos y supervisión dinámica."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/elixir-in-action-second-edition"
+    ]
+  },
+  "elm-in-action-2020": {
+    "descripcion": "Manual exhaustivo y entretenido escrito por Richard Feldman (miembro líder de la comunidad Elm) y publicado por Manning en 2020. Enseña a construir aplicaciones web frontend fiables y sin errores en tiempo de ejecución utilizando Elm.\n\nExplora la arquitectura de Elm (Model-View-Update), el sistema de tipos estático y sin excepciones `null`, comandos y suscripciones para peticiones HTTP y WebSockets, interoperabilidad con JavaScript mediante puertos (ports) y optimización de rendimiento.\n\nA través del desarrollo incremental de una aplicación de edición y catalogación de fotografías, el autor demuestra cómo Elm elimina los fallos de interfaz habituales en frameworks de JavaScript. Una delicia formativa para desarrolladores web.",
+    "temas": [
+      "Elm",
+      "Arquitectura Elm (MVU)",
+      "Frontend Funcional",
+      "Cero Excepciones",
+      "Ports con JS",
+      "Richard Feldman",
+      "WebApps"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web Completa de Edición Fotográfica con Elm",
+        "descripcion": "Desarrollo integral de una aplicación frontend interactiva con gestión de filtros, llamadas REST asíncronas y comunicación JS vía puertos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/elm-in-action"
+    ]
+  },
+  "erlang-and-otp-in-action-2010": {
+    "descripcion": "Tratado canónico de ingeniería de software escrito por Martin Logan, Eric Merritt y Richard Carlsson, publicado por Manning en 2010. Es el texto fundacional sobre el diseño de sistemas de telecomunicaciones y alta disponibilidad con Erlang/OTP.\n\nDetalla la arquitectura de OTP: comportamientos (gen_server, gen_fsm / gen_statem, gen_event), jerarquías de supervisores, empaquetado de aplicaciones y releases, almacenamiento concurrente con ETS y base de datos distribuida Mnesia, y actualización de código en caliente sin reiniciar el sistema.\n\nIncluye el desarrollo completo de un servidor de almacenamiento en caché distribuido listo para producción. Una obra maestra técnica que inspiró la arquitectura de la computación reactiva moderna.",
+    "temas": [
+      "Erlang",
+      "OTP",
+      "gen_server",
+      "Mnesia",
+      "ETS",
+      "Supervisores",
+      "Hot Code Loading",
+      "Alta Disponibilidad"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor de Caché Distribuido con Mnesia y OTP",
+        "descripcion": "Construcción de una infraestructura de almacenamiento en memoria con replicación entre nodos Erlang, supervisión y actualización en caliente."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/erlang-and-otp-in-action"
+    ]
+  },
+  "gnuplot-in-action-2016": {
+    "descripcion": "Segunda edición de la guía definitiva sobre visualización científica escrita por Philipp K. Janert y publicada por Manning en 2016. Domina el potente motor de trazado de datos interactivo y por lotes Gnuplot.\n\nCubre la sintaxis de comandos de Gnuplot, importación y filtrado de datos tabulares, gráficos 2D y 3D, mapas de contornos y superficies, personalización estética de ejes, leyendas y tipografías, y exportación a formatos vectoriales de alta calidad (SVG, EPS, PDF, LaTeX).\n\nEl autor comparte técnicas para scripting desatendido y automatización de gráficas en pipelines de datos y servidores web. Indispensable para investigadores, científicos y administradores de sistemas.",
+    "temas": [
+      "Gnuplot",
+      "Visualización Científica",
+      "Gráficos 3D",
+      "Automatización",
+      "Superficies",
+      "LaTeX",
+      "Scripting",
+      "Manning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline Automatizado de Gráficos Científicos en Gnuplot",
+        "descripcion": "Scripts por lotes que procesan series temporales de sensores y generan gráficos vectoriales para informes técnicos automatizados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/gnuplot-in-action-second-edition"
+    ]
+  },
+  "nim-in-action-2018": {
+    "descripcion": "Primera monografía integral sobre el lenguaje Nim, escrita por Dominik Picheta (miembro del núcleo de desarrollo de Nim) y publicada por Manning en 2018. Presenta un lenguaje que combina la expresividad y elegancia de Python con la velocidad de C++.\n\nExplora la sintaxis concisa de Nim, su potente sistema de tipos estático, compilación directa a C y JavaScript, gestión eficiente de memoria sin paradas del recolector, concurrencia asíncrona nativa (`asyncdispatch`) y su insuperable sistema de macros en tiempo de compilación (AST).\n\nA través del desarrollo de un cliente de chat en tiempo real y una aplicación web modular, enseña a aprovechar la velocidad de ejecución nativa de Nim en proyectos modernos. Una lectura esencial para pioneros del software de sistemas.",
+    "temas": [
+      "Nim",
+      "Compilación a C",
+      "Macros AST",
+      "Metaprogramación",
+      "Async Nim",
+      "Dominik Picheta",
+      "Sistemas",
+      "Manning"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor y Cliente de Chat Asíncrono en Nim",
+        "descripcion": "Construcción de una aplicación de mensajería en tiempo real basada en sockets no bloqueantes y protocolos de serialización con macros Nim."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/nim-in-action",
+      "https://nim-lang.org/"
+    ]
+  },
+  "the-transparent-web-2017": {
+    "descripcion": "Obra reflexiva y práctica escrita por Christopher J. Wilson y publicada por Manning en 2017. Explora el desarrollo web desacoplado y la integración de arquitecturas hipermedia abiertas.\n\nAnaliza la evolución de los estándares web, protocolos de comunicación transparentes (HTTP/2, WebSockets, REST), diseño de interfaces comprensibles por máquinas y humanos, y estructuración de código frontend y backend limpio e interoperable.\n\nEl autor ilustra los conceptos mediante prototipos web funcionales, invitando a una programación basada en la simplicidad y en el respeto a los principios fundacionales de la Web. Una perspectiva refrescante y formativa para arquitectos de software.",
+    "temas": [
+      "Arquitectura Web",
+      "HTTP/2",
+      "REST",
+      "Hipermedia",
+      "WebSockets",
+      "Interoperabilidad",
+      "Diseño Limpio",
+      "Manning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura Web Basada en Hipermedia y Servicios Desacoplados",
+        "descripcion": "Diseño de un sistema de navegación y consumo de datos RESTful transparente que utiliza enlaces HATEOAS para interacción dinámica."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/the-transparent-web"
+    ]
+  },
+  "type-driven-development-with-idris-2017": {
+    "descripcion": "Tratado revolucionario escrito por Edwin Brady (creador del lenguaje Idris) y publicado por Manning en 2017. Introduce el desarrollo guiado por tipos (Type-Driven Development) y los tipos dependientes en la programación práctica.\n\nExplica cómo los tipos dependientes permiten que los tipos dependan de valores, posibilitando verificar matemáticamente en tiempo de compilación que los programas cumplen con sus especificaciones exactas (por ejemplo, que una función de ordenamiento devuelve una lista con la misma longitud y elementos ordenados).\n\nEl autor enseña a utilizar el comprobador de tipos como un asistente interactivo que escribe código junto al programador, diseñando máquinas de estado seguras y protocolos de red verificados. Una de las obras más inspiradoras de la ciencia de la computación moderna.",
+    "temas": [
+      "Idris",
+      "Tipos Dependientes",
+      "Type-Driven Development",
+      "Edwin Brady",
+      "Verificación Formal",
+      "Máquinas de Estado",
+      "Manning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Máquina de Estados de Protocolo de Red Verificada Formalmente",
+        "descripcion": "Modelado de un protocolo interactivo en Idris donde el compilador garantiza que es imposible enviar datos en un estado de desconexión."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/type-driven-development-with-idris",
+      "https://www.idris-lang.org/"
+    ]
+  },
+  "programming-interactivity-2nd-edition-2012": {
+    "descripcion": "Segunda edición de la célebre guía de diseño interactivo escrita por Joshua Noble y publicada por O'Reilly en 2012. Enseña a diseñadores, artistas y tecnólogos creativos a crear instalaciones interactivas utilizando código y hardware.\n\nCubre la programación creativa con Processing, openFrameworks (C++) y Arduino. Explora la captura de vídeo y visión por computadora con OpenCV, audio interactivo, comunicación serie, protocolos OSC y MIDI, y control de motores y sensores físicos.\n\nPresenta una gran variedad de proyectos visuales y físicos explicados paso a paso. Es una lectura clásica obligatoria para cualquier creador interesado en la confluencia entre arte, programación y electrónica interactiva.",
+    "temas": [
+      "Processing",
+      "openFrameworks",
+      "Arduino",
+      "Interactividad",
+      "OpenCV",
+      "Visión Artificial",
+      "Sensores",
+      "O'Reilly"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Instalación Audiovisual Interactiva con Visión y Sensores",
+        "descripcion": "Construcción de un sistema multimedia con openFrameworks y Arduino que reacciona en tiempo real al movimiento captado por cámara."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/programming-interactivity-2nd/9781449321482/"
+    ]
+  },
+  "think-julia-2019": {
+    "descripcion": "Manual formativo introductorio escrito por Allen B. Downey y Ben Lauwens, publicado por O'Reilly en 2019. Adapta la aclamada metodología 'Think' de Downey al lenguaje Julia, diseñado para computación científica de alto rendimiento.\n\nGuía al lector desde los fundamentos del pensamiento computacional: variables, expresiones, funciones, bucles, estructuras de datos (tuplas, diccionarios, arrays multidimensionales), hasta el despacho múltiple (multiple dispatch) característico de Julia y su sistema de tipos dinámico pero optimizado.\n\nContiene multitud de ejercicios prácticos y casos de estudio matemáticos y científicos. Es el manual de iniciación más recomendable para estudiantes y científicos que se adentran en Julia desde cero.",
+    "temas": [
+      "Julia",
+      "Think Julia",
+      "Despacho Múltiple",
+      "Computación Científica",
+      "Algoritmos",
+      "Allen Downey",
+      "Principiantes"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Simulación Matemática y Científica en Julia",
+        "descripcion": "Implementación de algoritmos de búsqueda, análisis de frecuencias de texto y cálculo numérico vectorial acelerado con Julia."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://benlauwens.github.io/ThinkJulia.jl/latest/book.html",
+      "https://www.oreilly.com/library/view/think-julia/9781492045021/"
+    ]
+  },
+  "processing-a-programming-handbook-for-visual-designers-and-artists-2nd-edition-2014": {
+    "descripcion": "Segunda edición de la enciclopedia visual de Casey Reas y Ben Fry (creadores de Processing), publicada por The MIT Press en 2014. Es el texto fundacional de la programación visual y el arte generativo computacional.\n\nExplora la sintaxis de Processing (basada en Java), dibujo 2D y 3D, animación, tipografía generativa, procesamiento de imágenes y vídeo en tiempo real, síntesis y análisis sonoro, y simulación de comportamientos físicos y vida artificial.\n\nIncluye cientos de entrevistas a artistas contemporáneos y ejemplos de código visual de una belleza excepcional. Un monumento bibliográfico indispensable para diseñadores, artistas visuales y programadores creativos.",
+    "temas": [
+      "Processing",
+      "Arte Generativo",
+      "Ben Fry",
+      "Casey Reas",
+      "MIT Press",
+      "Diseño Visual",
+      "Animación",
+      "Computación Gráfica"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Composición Gráfica y Arte Generativo",
+        "descripcion": "Desarrollo de simulaciones visuales autónomas con sistemas de partículas, geometría procedural y tipografía interactiva en Processing."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://processing.org/handbook/",
+      "https://mitpress.mit.edu/9780262028287/processing/"
+    ]
+  }
+}

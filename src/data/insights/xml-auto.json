@@ -1,0 +1,400 @@
+{
+  "xml-and-sql-developing-web-applications-2001": {
+    "descripcion": "Manual pionero de Daniel K. Appelquist, publicado por Addison-Wesley en 2001 en los albores de la web moderna orientada a datos. Analiza la convergencia técnica entre las bases de datos relacionales SQL y el incipiente estándar XML como vehículo universal de transporte y presentación de información en Internet. Orientado a programadores web y administradores de bases de datos que buscaban modernizar arquitecturas de aplicaciones dinámicas.\n\nEl contenido explora cómo extraer datos relacionales de motores SQL tradicionales y transformarlos en documentos XML estructurados para su posterior consumo en navegadores web. Aborda la creación de esquemas DTD, el diseño de canalizaciones de publicación mediante transformaciones XSLT para desacoplar el contenido de la presentación HTML, y la persistencia de mensajes XML entrantes de vuelta en tablas relacionales. También examina los primeros estándares de sindicación de contenidos (RSS) y mensajería interoperable entre plataformas dispares.\n\nEl autor plantea patrones de arquitectura y ejemplos de código funcionales que ilustran cómo construir sistemas web escalables sin atarse a un motor de base de datos específico. Su valor actual es eminentemente formativo e histórico: sentó los principios arquitectónicos del intercambio de datos estructurados que más tarde desembocarían en las arquitecturas orientadas a servicios (SOA) y las APIs REST contemporáneas.",
+    "temas": [
+      "XML",
+      "SQL",
+      "Bases de datos relacionales",
+      "XSLT",
+      "Arquitectura web",
+      "Sindicación RSS",
+      "Interoperabilidad",
+      "Publicación web"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Canal de Publicación Web Impulsado por SQL y XML",
+        "descripcion": "Diseño de un sistema de gestión y sindicación de artículos que consulta una base de datos relacional, genera documentos XML intermedios y los transforma a HTML mediante XSLT."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/xml-and-sql/0201657961/",
+      "https://dl.acm.org/doi/10.5555/558451"
+    ]
+  },
+  "beginning-xml-with-c-2008-from-novice-to-professional-2008": {
+    "descripcion": "Guía integral de Bipin Joshi publicada por Apress en 2008, centrada en el uso práctico de XML en el ecosistema de Microsoft .NET 3.5 y C# 3.0. Dirigida a desarrolladores .NET de nivel principiante e intermedio que necesitan dominar la lectura, escritura, validación y transformación de datos XML en aplicaciones de escritorio, empresariales y web.\n\nEl recorrido del libro comienza por las bases del DOM de XML y las clases clásicas del espacio de nombres System.Xml (XmlReader, XmlWriter, XmlDocument). Rápidamente da el salto a la gran novedad de esa versión: LINQ to XML y sus clases XDocument y XElement, explicando cómo simplifican drásticamente las consultas en memoria. Cubre la validación de esquemas XSD, transformaciones con XSLT y XPath, integración con bases de datos SQL Server mediante ADO.NET y serialización de objetos en mensajes SOAP para servicios web.\n\nEl texto ofrece una gran cantidad de ejemplos prácticos y ejercicios paso a paso que facilitan una asimilación progresiva de los conceptos. Destaca por contrastar con claridad las APIs tradicionales del DOM con las modernas técnicas declarativas de LINQ to XML, convirtiéndose en una sólida referencia para el desarrollo de soluciones empresariales sobre la plataforma .NET.",
+    "temas": [
+      "XML",
+      "C#",
+      ".NET 3.5",
+      "LINQ to XML",
+      "XDocument",
+      "XSD",
+      "XSLT",
+      "ADO.NET",
+      "Serialización"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Procesamiento y Validación de Órdenes",
+        "descripcion": "Aplicación en C# que valida pedidos entrantes contra esquemas XSD, manipula elementos mediante LINQ to XML y transforma los comprobantes con XSLT."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-0941-6",
+      "https://github.com/Apress/beg-xml-w-csharp-2008"
+    ]
+  },
+  "c-and-xml-primer-2017": {
+    "descripcion": "Manual conciso y directo de Jonathan Hartwell publicado por Apress en 2017. Diseñado como una referencia rápida y moderna para desarrolladores que necesitan manipular documentos XML en C# sin rodeos teóricos innecesarios. Pensado tanto para desarrolladores noveles en C# como para programadores experimentados que requieren una guía de consulta rápida en su día a día.\n\nEl libro aborda las técnicas esenciales de lectura, escritura y modificación de XML en .NET. Enseña a utilizar la API funcional de LINQ to XML (XDocument, XElement, XAttribute) para consultar datos con sintaxis declarativa limpia, así como el uso de XmlReader y XmlWriter para procesar archivos XML gigantescos con bajo consumo de memoria. Además, detalla el funcionamiento de XmlSerializer para serializar y deserializar clases tipadas de C# directamente hacia y desde estructuras XML, junto con la validación contra esquemas XSD.\n\nCada tema se explica mediante ejemplos breves y autocontenidos que pueden copiarse y probarse de inmediato. Su mayor ventaja es su brevedad y practicidad, sirviendo como un excelente manual de bolsillo para resolver integraciones de datos en proyectos de backend y aplicaciones de escritorio modernas.",
+    "temas": [
+      "C#",
+      "XML",
+      "LINQ to XML",
+      "XDocument",
+      "XmlSerializer",
+      "XmlReader",
+      "XSD",
+      ".NET"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2616-2",
+      "https://www.apress.com/gp/book/9781484226155"
+    ]
+  },
+  "pro-net-2-0-xml-expert-s-voice-in-net-2008": {
+    "descripcion": "Tratado avanzado de Bipin Joshi publicado por Apress dentro de la prestigiosa serie 'Expert's Voice in .NET'. Explora en profundidad las capacidades y la arquitectura del motor de procesamiento XML incorporado en Microsoft .NET Framework 2.0. Dirigido a ingenieros de software senior y arquitectos de soluciones que buscan optimizar el rendimiento y la escalabilidad del manejo de XML en aplicaciones críticas.\n\nLa obra desentraña las entrañas de System.Xml: desde la lectura y escritura secuencial de alto rendimiento con XmlReader y XmlWriter, hasta la navegación eficiente en árboles con XPathNavigator y XPathDocument. Detalla la compilación de esquemas XSD para validación rigurosa, la ejecución de transformaciones de alto rendimiento con XslCompiledTransform, la serialización personalizada de objetos y la persistencia de datos jerárquicos en bases de datos relacionales mediante SqlXml y ADO.NET.\n\nOfrece análisis rigurosos de consumo de memoria, benchmarks comparativos entre distintas estrategias de parseo (DOM frente a lectores secuenciales) y patrones de diseño para el procesamiento concurrente de mensajes. Es una referencia imprescindible para entender las bases fundacionales sobre las que se construyó toda la infraestructura de datos de .NET.",
+    "temas": [
+      ".NET 2.0",
+      "System.Xml",
+      "XmlReader",
+      "XPathNavigator",
+      "XslCompiledTransform",
+      "Optimización de memoria",
+      "XSD",
+      "Arquitectura .NET"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-0453-4"
+    ]
+  },
+  "pro-sql-server-2008-xml-2008": {
+    "descripcion": "Guía técnica especializada de Michael Coles, publicada por Apress en 2008. Enseña a administradores de bases de datos y desarrolladores SQL a exprimir al máximo el soporte nativo de XML integrado en Microsoft SQL Server 2008. Dirigida a profesionales de datos de nivel intermedio a avanzado que trabajan en la integración de bases de datos relacionales con arquitecturas orientadas a servicios.\n\nEl autor desglosa de manera exhaustiva el tipo de datos nativo `xml`, explicando cómo almacenar fragmentos o documentos completos con o sin validación de colecciones de esquemas XSD. Enseña a utilizar la cláusula FOR XML en todas sus modalidades (RAW, AUTO, EXPLICIT y PATH) para generar XML directamente desde consultas SQL, y cómo triturar documentos XML de vuelta a filas relacionales con el método nodes() y OpenXML. Asimismo, profundiza en el uso del estándar XQuery integrado, métodos de modificación de datos XML (DML), e indexación primaria y secundaria para acelerar búsquedas en árboles complejos.\n\nEl texto está repleto de casos reales, scripts Transact-SQL avanzados y pautas para evitar cuellos de botella de CPU y memoria en servidores de producción. Es la obra de referencia definitiva sobre la manipulación nativa de datos semiestructurados en Microsoft SQL Server.",
+    "temas": [
+      "SQL Server 2008",
+      "Tipo de datos XML",
+      "XQuery",
+      "FOR XML",
+      "Transact-SQL",
+      "Indexación XML",
+      "XSD Schemas",
+      "T-SQL DML"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Almacén y Consulta de Documentos XML en SQL Server",
+        "descripcion": "Implementación de una base de datos con tablas que integran columnas de tipo XML tipado, índices XML secundarios y procedimientos almacenados en T-SQL con consultas XQuery."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-0997-3",
+      "https://github.com/Apress/pro-sql-server-2008-xml"
+    ]
+  },
+  "applied-xml-programming-for-microsoft-net-2002": {
+    "descripcion": "Obra fundacional del renombrado autor y conferenciante Dino Esposito, publicada por Microsoft Press en 2002. Representa uno de los tratados más influyentes sobre el diseño y la programación orientada a XML en la versión original de Microsoft .NET Framework (1.0/1.1). Dirigida a ingenieros y arquitectos de software que migraron del mundo COM/DNA al nuevo entorno gestionado de .NET.\n\nEsposito disecciona el espacio de nombres System.Xml y su innovadora arquitectura desacoplada: el modelo de lectura pull mediante XmlReader, la escritura eficiente con XmlTextWriter, la navegación con XPathNavigator y la integración bidireccional entre el DOM XML y los DataSets desconectados de ADO.NET. Además, explora la serialización de tipos de datos, transformaciones XSLT sobre la marcha, validación contra esquemas XSD y sincronización con Microsoft SQL Server a través de SQLXML.\n\nEl autor acompaña cada explicación con diagramas arquitectónicos y código C# meticulosamente comentado, razonando los pros y contras de cada abstracción. Aunque muchas de estas APIs han sido modernizadas posteriormente por LINQ, este volumen sigue siendo un documento histórico clave para comprender la arquitectura interna de datos de .NET.",
+    "temas": [
+      ".NET Framework",
+      "XML",
+      "Dino Esposito",
+      "System.Xml",
+      "ADO.NET DataSet",
+      "XPath",
+      "XSLT",
+      "Microsoft Press"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/applied-xml-programming/0735617700/",
+      "https://archive.org/details/appliedxmlprogra0000espo"
+    ]
+  },
+  "xml-pocket-reference-3rd-edition-2005": {
+    "descripcion": "Tercera edición de la clásica guía de bolsillo de Michael Fitzgerald y Simon St. Laurent, publicada por O'Reilly en 2005. Condensa en un formato ligero y accesible las especificaciones esenciales del estándar XML (incluyendo soporte para XML 1.0 y 1.1). Diseñada para desarrolladores web, integradores de sistemas y analistas de datos que necesitan una chuleta rápida y precisa en su entorno de trabajo.\n\nLa guía resume de forma quirúrgica la sintaxis de marcado: reglas de documentos bien formados, declaraciones de tipos de documento (DTDs), definición de entidades, gestión de espacios de nombres (namespaces) y codificación de caracteres. Asimismo, dedica secciones de consulta rápida a los lenguajes de esquema más usados, que son la principal novedad de esta edición: W3C XML Schema (tipos de datos, compositores y facetas de restricción), RELAX NG y Schematron, y cierra con una relación de las especificaciones XML relacionadas.\n\nNo busca ser un manual de aprendizaje desde cero, sino una referencia de consulta inmediata pensada para estar siempre al lado del teclado. Su brevedad, rigor y claridad sintáctica la han convertido en una de las referencias más longevas y útiles para cualquier profesional que deba validar o redactar documentos XML a mano.",
+    "temas": [
+      "XML 1.0",
+      "XML 1.1",
+      "Referencia rápida",
+      "DTD",
+      "Espacios de nombres (Namespaces)",
+      "XPath",
+      "Sintaxis XML",
+      "O'Reilly"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/xml-pocket-reference/0596100507/"
+    ]
+  },
+  "xml-schema-2002": {
+    "descripcion": "Manual canónico de Eric van der Vlist, reconocido experto en tecnologías XML y coautor de estándares de la comunidad, publicado por O'Reilly en 2002. Es la obra de referencia definitiva sobre la compleja recomendación W3C XML Schema (XSD), diseñada para sustituir a las tradicionales DTDs con un sistema formal de tipado fuerte y modelado de datos jerárquicos.\n\nEl texto desglosa minuciosamente cada rincón de la especificación: cómo definir tipos de datos simples mediante restricciones y facetas, cómo construir tipos complejos utilizando compositores (sequence, choice y all), y cómo manejar herencia y sustitución de elementos. Dedica capítulos enteros a la correcta gestión de espacios de nombres múltiples, modularización de esquemas con include e import, documentación interna de esquemas y validación en aplicaciones de software.\n\nIncluye un tutorial estructurado seguido de una exhaustiva enciclopedia de referencia que detalla cada elemento y atributo definido por el consorcio W3C con ejemplos claros. Es la lectura fundamental para cualquier arquitecto de datos o desarrollador que diseñe contratos de intercambio en entornos bancarios, gubernamentales o empresariales basados en XML.",
+    "temas": [
+      "XML Schema (XSD)",
+      "W3C",
+      "Modelado de datos",
+      "Tipos simples y complejos",
+      "Validación de esquemas",
+      "Espacios de nombres",
+      "Facetas de restricción",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Diseño de Esquema de Intercambio de Datos Empresarial",
+        "descripcion": "Construcción modular de un esquema XSD completo con tipos de datos restringidos, validaciones semánticas y espacios de nombres independientes para comercio electrónico."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/xml-schema/0596002521/",
+      "https://eric.vandervlist.net/"
+    ]
+  },
+  "xquery-2nd-edition-2016": {
+    "descripcion": "Segunda edición de la guía definitiva de Priscilla Walmsley, consultora destacada y miembro del grupo de trabajo de XML en el W3C, publicada por O'Reilly en 2016. Esta edición actualiza el manual para cubrir las especificaciones de XQuery 3.1 y 3.0, mostrando cómo este potente lenguaje declarativo va más allá del XML para consultar, transformar y manipular también estructuras JSON y texto sin formato.\n\nLa autora guía al lector a través de la sintaxis y semántica de XQuery: expresiones de ruta (XPath 3.1), cláusulas FLWOR (for, let, where, order by, return), funciones integradas y manejo de tipos. Detalla las novedades más recientes del lenguaje, como el soporte de funciones de orden superior, la manipulación directa de mapas y arrays para procesar documentos JSON de forma nativa, y la construcción de consultas optimizadas para bases de datos documentales y motores como MarkLogic o eXist-db.\n\nLa obra combina una curva de aprendizaje sumamente cuidada con un catálogo de referencia completo de la biblioteca de funciones estándar. Es un recurso de cabecera imprescindible para ingenieros de datos, desarrolladores de backend y científicos de la información que necesitan extraer valor de repositorios masivos de datos jerárquicos.",
+    "temas": [
+      "XQuery 3.1",
+      "XPath 3.1",
+      "FLWOR",
+      "JSON en XQuery",
+      "Bases de datos XML",
+      "Transformación de datos",
+      "W3C",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de Búsqueda y Extracción sobre XML y JSON",
+        "descripcion": "Implementación de una suite de consultas XQuery complejas que agregan, filtran y transforman colecciones de documentos heterogéneos generando informes de salida."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/xquery-2nd-edition/9781491915097/",
+      "http://www.xquerybook.com/"
+    ]
+  },
+  "xslt-2nd-edition-2008": {
+    "descripcion": "Segunda edición del manual de referencia de Doug Tidwell, evangelista tecnológico de IBM, publicado por O'Reilly en 2008. Proporciona una explicación exhaustiva y amena de la especificación XSLT (Extensible Stylesheet Language Transformations), abarcando tanto el estándar consolidado XSLT 1.0 como las potentes mejoras de XSLT 2.0 y XPath 2.0.\n\nEl autor enseña a transformar documentos XML en HTML para la web, texto plano, formatos de impresión (XSL-FO) u otros vocabularios XML. Explica en profundidad la arquitectura de reglas basadas en plantillas (templates), el uso de modos, parámetros y variables, y las técnicas avanzadas introducidas en XSLT 2.0, como la agrupación declarativa con `xsl:for-each-group`, expresiones regulares integradas, soporte de múltiples documentos de salida y funciones definidas por el usuario.\n\nEl libro aborda numerosos problemas del mundo real mediante ejemplos prácticos de código y análisis de rendimiento, previniendo los errores más comunes al depurar hojas de estilo complejas. Es una obra maestra de la transformación documental que sigue siendo de enorme valor en entornos editoriales, de integración y de intercambio B2B.",
+    "temas": [
+      "XSLT 2.0",
+      "XSLT 1.0",
+      "XPath 2.0",
+      "Transformaciones XML",
+      "Agrupación xsl:for-each-group",
+      "XSL-FO",
+      "Generación HTML",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema Automatizado de Transformación y Publicación Multi-formato",
+        "descripcion": "Desarrollo de un conjunto de hojas de estilo XSLT 2.0 que ingieren catálogos de datos XML complejos y generan automáticamente sitios web HTML estáticos e informes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/xslt-2nd-edition/9780596527211/"
+    ]
+  },
+  "xml-visual-quickstart-guide-2008": {
+    "descripcion": "Segunda edición de la conocida guía gráfica de Kevin Howard Goldberg, publicada por Peachpit Press en 2008. Fiel al característico formato 'Visual QuickStart Guide', utiliza explicaciones directas, capturas de pantalla y ejemplos visuales concisos para enseñar la tecnología XML a diseñadores web, desarrolladores noveles y creadores de contenido.\n\nEl libro introduce los conceptos esenciales de forma visual: estructura de etiquetas, marcado semántico, validación de documentos mediante DTDs y esquemas XSD básicos, y formateo de datos con hojas de estilo CSS y XSLT para su visualización en el navegador. Cubre además casos de uso cotidianos como la edición de feeds RSS y Atom para blogs, y la integración de fuentes de datos XML en páginas web dinámicas.\n\nEs una lectura ideal para quienes prefieren aprender viendo ejemplos visuales sin verse abrumados por fórmulas abstractas o código excesivamente complejo. Ofrece una base sólida y amigable para comenzar a trabajar de inmediato con documentos estructurados en la web.",
+    "temas": [
+      "XML",
+      "Guía visual",
+      "Peachpit Press",
+      "CSS para XML",
+      "XSLT introductorio",
+      "RSS y Atom",
+      "Sintaxis XML",
+      "Diseño web"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.peachpit.com/store/xml-visual-quickstart-guide-9780321559678",
+      "https://www.oreilly.com/library/view/xml-second-edition/9780321564030/"
+    ]
+  },
+  "fuzzy-xml-data-management-2014": {
+    "descripcion": "Monografía científica especializada de Fu Zhang, Li Yan y Zongmin Ma, publicada por la prestigiosa editorial académica Springer en 2014. Constituye un tratado exhaustivo sobre la gestión, el almacenamiento y la consulta de información imperfecta, incierta o difusa (fuzzy data) modelada mediante el estándar XML en sistemas de información avanzados.\n\nLos autores formalizan matemáticamente la teoría de conjuntos difusos aplicada a documentos semiestructurados: definición de modelos de datos XML difusos, esquemas probabilísticos, extensiones para validación de restricciones difusas (Fuzzy DTD y Fuzzy XSD), y lenguajes de consulta adaptados como Fuzzy XPath y Fuzzy XQuery. Además, aborda la conversión y almacenamiento de documentos difusos en bases de datos relacionales y orientadas a objetos, así como técnicas de indexación para acelerar búsquedas con emparejamientos inexactos.\n\nEs un texto riguroso con formulaciones lógicas formales y análisis empíricos de rendimiento, orientado a investigadores, estudiantes de doctorado e ingenieros de bases de datos que diseñan motores de recuperación de información semántica, comercio electrónico inteligente y sistemas de toma de decisiones.",
+    "temas": [
+      "Fuzzy XML",
+      "Lógica difusa (Fuzzy Logic)",
+      "Gestión de bases de datos",
+      "Fuzzy XPath / XQuery",
+      "Información imprecisa",
+      "Springer",
+      "Modelado de datos avanzado",
+      "Investigación informática"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-3-642-41139-7"
+    ]
+  },
+  "xml-1-1-bible-3rd-edition-2004": {
+    "descripcion": "Tercera edición de la aclamada enciclopedia de Elliotte Rusty Harold, referente indiscutible en la literatura de computación, publicada por Wiley en 2004. Con más de 1000 páginas de exhaustiva cobertura técnica, es una de las obras más completas jamás escritas sobre el estándar XML (cubriendo tanto la especificación 1.0 como la 1.1) y todo su ecosistema tecnológico.\n\nHarold desmenuza con precisión quirúrgica cada componente del lenguaje: sintaxis de marcado, declaraciones de tipo de documento (DTDs), entidades, espacios de nombres, XML Schema y modelos de procesamiento en memoria mediante las APIs SAX y DOM. Explora a fondo el diseño de hojas de estilo XSLT y XPath, formatos gráficos vectoriales basados en XML como SVG, la sindicación de contenidos con RSS y la arquitectura de servicios web con SOAP y WSDL.\n\nEl autor destaca por su honestidad técnica, advirtiendo al lector sobre limitaciones prácticas, problemas de compatibilidad y malas prácticas comunes en la industria. Funciona a la vez como un completo curso formativo y como una enciclopedia de cabecera definitiva para cualquier ingeniero que deba implementar parsers o sistemas de datos basados en XML.",
+    "temas": [
+      "XML 1.1",
+      "XML 1.0",
+      "Elliotte Rusty Harold",
+      "SAX y DOM",
+      "DTDs",
+      "XML Schema",
+      "XSLT",
+      "SVG",
+      "Wiley Bible"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework de Publicación y Procesamiento XML",
+        "descripcion": "Construcción integral de un pipeline de ingesta de datos XML con validación DTD/XSD, análisis de flujos mediante SAX y renderizado visual en HTML y SVG."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/XML+1+1+Bible%2C+3rd+Edition-p-9780764549861",
+      "https://www.ibiblio.org/xml/books/bible3/"
+    ]
+  },
+  "xml-programming-bible-2003": {
+    "descripcion": "Tratado enciclopédico de Brian Benz y John Durant, publicado por Wiley en 2003. Enfocado en la programación y aplicación práctica de XML a través de los principales lenguajes y plataformas de desarrollo de la época (Java, C++, Visual Basic, Perl, PHP y ASP). Dirigido a programadores de software y desarrolladores web que necesitaban conectar sistemas heterogéneos mediante estándares abiertos.\n\nEl volumen desglosa las librerías de análisis sintáctico más populares en cada lenguaje (como Apache Xerces y MSXML), enseñando a parsear documentos con SAX, manipular árboles con el DOM y transformar datos con motores XSLT. Dedica amplias secciones a la arquitectura de servicios web (protocolo SOAP, contratos WSDL y registros UDDI), la seguridad y firma digital en documentos XML, y el almacenamiento en bases de datos relacionales como Oracle y Microsoft SQL Server.\n\nSu principal atractivo es su vocación multiplataforma y su orientación práctica al código, permitiendo comparar cómo se aborda la misma tarea de procesamiento XML en distintos lenguajes de programación. Es una guía muy completa para entender la era dorada de la integración de sistemas distribuidos empresariales.",
+    "temas": [
+      "XML",
+      "Programación multiplataforma",
+      "Java y C++",
+      "Visual Basic y Perl",
+      "Servicios Web SOAP",
+      "MSXML y Xerces",
+      "Bases de datos XML",
+      "Wiley Bible"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servicio Web B2B Multiplataforma con SOAP y XML",
+        "descripcion": "Desarrollo de un servicio de intercambio de información comercial que valida peticiones XML, ejecuta transformaciones de formato y persiste los registros en una base de datos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/XML+Programming+Bible-p-9780764538292",
+      "https://archive.org/details/xmlprogrammingbi0000benz"
+    ]
+  },
+  "beginning-xml-5th-edition-2012": {
+    "descripcion": "Quinta edición del celebrado manual introductorio de Wrox, escrito por Joe Fawcett, Danny Ayers y Liam R. E. Quin (veterano del W3C y uno de los creadores originales del estándar XML), publicado en 2012. Constituye el punto de partida ideal y más actualizado para cualquier programador o diseñador web que necesite comprender a fondo qué es XML y cómo se utiliza en el desarrollo web y de software actual.\n\nEl contenido abarca desde la sintaxis básica y los documentos bien formados hasta tecnologías de validación avanzadas (DTD, XML Schema, RELAX NG y Schematron). Explica la consulta y transformación de datos con XPath, XSLT y XQuery, el auge de LINQ to XML en .NET, la relación y convivencia de XML con HTML5 y JSON, y el almacenamiento en bases de datos XML nativas. Cada capítulo concluye con ejercicios prácticos y preguntas de autoevaluación diseñadas para afianzar los conceptos.\n\nDestaca por la insuperable claridad expositiva de sus autores y su enfoque moderno, conectando los fundamentos de XML con los patrones de desarrollo web y las APIs contemporáneas. Es sin duda el manual formativo de referencia para aprender XML con rigor profesional.",
+    "temas": [
+      "XML",
+      "W3C",
+      "Liam Quin",
+      "XML Schema",
+      "RELAX NG",
+      "XPath y XQuery",
+      "HTML5 y JSON",
+      "Wrox Beginning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Catálogo de Datos Estructurado con Validación y Transformación",
+        "descripcion": "Creación paso a paso de un sistema de gestión documental con esquemas Schematron y XSD, consultas XPath y generación de vistas web interactivas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Beginning+XML%2C+5th+Edition-p-9781118162132"
+    ]
+  },
+  "professional-asp-net-2-0-xml-2006": {
+    "descripcion": "Manual profesional de Thiru Thangarathinam publicado por Wrox en 2006. Se centra en el aprovechamiento de XML en el desarrollo de aplicaciones web sobre la plataforma Microsoft ASP.NET 2.0 y el entorno .NET Framework 2.0. Orientado a programadores web de C# y VB.NET que crean soluciones empresariales dinámicas.\n\nEl texto desglosa las herramientas introducidas en ASP.NET 2.0 para el manejo nativo de datos XML: el control XmlDataSource, el enlace de datos (data binding) a controles visuales como GridView y TreeView, y la ejecución de transformaciones XSLT en el servidor para renderizar interfaces de usuario. Además, enseña a implementar navegación web con archivos web.sitemap, gestión de configuración XML, serialización de clases de negocio y construcción de servicios web ASMX con mensajería SOAP.\n\nCada capítulo está guiado por ejemplos de código completos que resuelven escenarios habituales del desarrollo web corporativo. Su mayor virtud es demostrar cómo integrar XML de manera limpia con los controles de servidor y el ciclo de vida de las páginas de ASP.NET, reduciendo el código repetitivo de acceso a datos.",
+    "temas": [
+      "ASP.NET 2.0",
+      "XML",
+      "XmlDataSource",
+      "Data Binding",
+      "GridView y TreeView",
+      "XSLT en servidor",
+      "Servicios Web ASMX",
+      "Wrox Professional"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Web Corporativo Impulsado por XML",
+        "descripcion": "Desarrollo de una aplicación web en ASP.NET 2.0 con menús de navegación dinámicos basados en sitemaps XML, controles GridView vinculados a XmlDataSource y transformaciones XSLT."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Professional+ASP+NET+2+0+XML-p-9780764595776"
+    ]
+  }
+}

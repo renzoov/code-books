@@ -1,0 +1,280 @@
+{
+  "beginning-sql-server-reporting-services-2016": {
+    "descripcion": "Manual introductorio y didáctico de Kathi Kellenberger sobre SQL Server Reporting Services (SSRS) 2016, diseñado para analistas de negocio y desarrolladores noveles.\n\nLa autora enseña a conectar con fuentes de datos relacionales, diseñar informes paginados con el Diseñador de Informes de Visual Studio y Report Builder, crear tablas, matrices y gráficos, e incorporar parámetros interactivos. Además, cubre la publicación en el portal web de informes renovado de SSRS 2016 y la suscripción por correo electrónico.\n\nEl punto de partida ideal para aprender a crear reportes empresariales con la plataforma de inteligencia de negocio de Microsoft.",
+    "temas": [
+      "SSRS 2016",
+      "Kathi Kellenberger",
+      "Report Builder",
+      "Reportes Paginados",
+      "Tablix",
+      "Visual Studio",
+      "BI",
+      "SQL Server"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Catálogo interactivo de ventas y rendimiento comercial en SSRS",
+        "descripcion": "Construcción de un conjunto de informes con parámetros dinámicos, desglose interactivo (drill-down) y suscripciones periódicas por correo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-sql-server-2012-reporting-services-3rd-edition-2012": {
+    "descripcion": "Tercera edición de la aclamada guía técnica de Brian McDonald, Rodney Landrum y Shawn McGehee sobre SQL Server 2012 Reporting Services.\n\nLos autores profundizan en el diseño de informes de nivel empresarial: uso de componentes de datos Tablix complejos, mapas geoespaciales con capas espaciales de SQL Server, integración con SharePoint Server en modo integrado, y administración de seguridad por roles en el servidor de reportes. Además, cubre la automatización de despliegues y optimización de consultas.\n\nUna referencia técnica exhaustiva para desarrolladores de BI y administradores de servidores de reportes corporativos.",
+    "temas": [
+      "SSRS 2012",
+      "Pro SQL Server",
+      "SharePoint Integrated Mode",
+      "Mapas Geoespaciales",
+      "Tablix",
+      "Seguridad por Roles",
+      "BI",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tablero geoespacial de ventas y distribución regional en SSRS",
+        "descripcion": "Diseño de un informe con mapas interactivos que muestran densidad de pedidos por región geográfica y enlaces de detalle a nivel de cliente."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "microsft-reporting-services-in-action-2004": {
+    "descripcion": "Tratado pionero de Teo Lachev que introdujo de forma brillante la primera versión comercial de SQL Server 2000 Reporting Services en el mercado empresarial.\n\nEl autor enseña la arquitectura del servidor de reportes, el lenguaje de definición de informes Report Definition Language (RDL en XML), la conexión a fuentes de datos mediante extensiones de datos OLE DB y ODBC, y la inserción del visor de reportes en aplicaciones web ASP.NET y de escritorio Windows Forms. Explica cómo extender el motor mediante ensamblados personalizados en C#.\n\nUna pieza histórica de gran valor conceptual para entender la génesis de la tecnología de informes de Microsoft.",
+    "temas": [
+      "Reporting Services",
+      "Teo Lachev",
+      "RDL",
+      "Manning",
+      "SQL Server 2000",
+      "ASP.NET",
+      "Extensiones de Datos",
+      "Reportes"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal web de entrega de reportes corporativos en ASP.NET",
+        "descripcion": "Construcción de una aplicación web que interactúa con el servicio web de Reporting Services para generar y descargar informes bajo demanda."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "microsoft-sql-server-2012-reporting-services-4th-edition-2012": {
+    "descripcion": "Cuarta edición de la prestigiosa guía de Brian Larson para McGraw-Hill, consolidada como la referencia más completa y didáctica sobre SQL Server 2012 Reporting Services.\n\nLarson cubre el ciclo completo: desde el modelado de datos en SQL Server hasta la creación de expresiones complejas con Visual Basic .NET, diseño de subinformes, formatos condicionales, paneles interactivos de indicadores clave de rendimiento (KPIs) con medidores y gráficos, y la configuración de seguridad y distribución masiva mediante suscripciones basadas en datos.\n\nLa guía de cabecera estándar para analistas de datos, consultores de inteligencia de negocios y desarrolladores de informes en el ecosistema Microsoft.",
+    "temas": [
+      "Brian Larson",
+      "SSRS 2012",
+      "McGraw-Hill",
+      "KPIs",
+      "Suscripciones Basadas en Datos",
+      "Expresiones VB.NET",
+      "Report Builder",
+      "BI"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Cuadro de mando ejecutivo con indicadores clave (KPIs) y gráficos de tendencias",
+        "descripcion": "Desarrollo de un panel de control empresarial con semáforos de alerta, medidores radiales y desgloses analíticos para la dirección comercial."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "learning-sql-server-2008-reporting-services-2009": {
+    "descripcion": "Manual práctico y accesible de Jayaram Krishnaswamy diseñado para aprender a crear informes enriquecidos con SQL Server 2008 Reporting Services y Visual Studio 2008.\n\nEl autor guía al lector a través de la instalación, configuración del Report Server, creación de orígenes de datos compartidos, uso del asistente de reportes, diseño de tablas y matrices con el control unificado Tablix, y exportación a formatos comerciales como PDF y Excel. Incluye ejercicios paso a paso para usuarios noveles.\n\nUna excelente introducción para principiantes que necesitan generar informes de negocio funcionales en poco tiempo.",
+    "temas": [
+      "SSRS 2008",
+      "Jayaram Krishnaswamy",
+      "Tablix",
+      "Report Server",
+      "Visual Studio 2008",
+      "Exportación PDF",
+      "Packt",
+      "Reportes"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "learning-sql-server-reporting-services-2012-2013": {
+    "descripcion": "Guía práctica de Jayaram Krishnaswamy adaptada a las características y mejoras de SQL Server 2012 Reporting Services y SQL Server Data Tools (SSDT).\n\nEl autor enseña a utilizar las herramientas de diseño modernas: creación de informes con Report Builder 3.0, integración de gráficos de barras, líneas y dispersión, formateo de números y monedas localizado, y configuración de alertas de datos (Data Alerts) para notificar automáticamente anomalías en las cifras de negocio. Cubre la publicación en el portal Report Manager.\n\nIdeal para profesionales que desean adquirir habilidades prácticas en la generación de informes sobre SQL Server 2012.",
+    "temas": [
+      "SSRS 2012",
+      "Jayaram Krishnaswamy",
+      "Report Builder 3.0",
+      "Data Alerts",
+      "SSDT",
+      "Gráficos",
+      "Report Manager",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de alertas de datos automáticas para inventarios críticos",
+        "descripcion": "Configuración de informes con reglas de alerta que envían notificaciones automáticas cuando el stock de productos cae por debajo del umbral mínimo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "reporting-with-microsoft-sql-server-2012-2014": {
+    "descripcion": "Manual práctico de Bill Anton y James Serra enfocado en aplicar patrones de diseño profesionales y buenas prácticas en soluciones de informes con SQL Server 2012 Reporting Services.\n\nLos autores abordan desde la optimización del rendimiento de consultas subyacentes en T-SQL, uso eficiente de datasets compartidos y caché de informes, diseño visual limpio alineado con los principios de visualización de datos de Stephen Few, hasta la integración con SQL Server Analysis Services (SSAS) mediante consultas MDX y DAX.\n\nMuy recomendable para consultores de BI y desarrolladores de reportes que buscan elevar el impacto visual y la velocidad de carga de sus informes.",
+    "temas": [
+      "SSRS 2012",
+      "Bill Anton",
+      "James Serra",
+      "Visualización de Datos",
+      "SSAS",
+      "MDX",
+      "DAX",
+      "Caché de Reportes"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Informe ejecutivo de alto impacto visual con conexión analítica SSAS",
+        "descripcion": "Construcción de un reporte corporativo optimizado que consulta cubos multidimensionales mediante MDX con tiempos de respuesta instantáneos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-2012-reporting-services-blueprints-2013": {
+    "descripcion": "Compendio de planos arquitectónicos y proyectos avanzados desarrollado por Marlon Ribunal y Mickey Stuewe para resolver desafíos complejos de informes corporativos con SSRS 2012.\n\nEl libro guía al lector a través de soluciones sofisticadas: informes con ordenamiento dinámico en columnas, encabezados congelados flotantes para tablas extensas, inclusión de imágenes dinámicas y códigos de barras, ensamblados personalizados en C# para cálculos matemáticos complejos, y suscripciones basadas en datos automatizadas. Incluye optimización de memoria en el servidor.\n\nUna guía técnica de alto nivel muy valorada por desarrolladores senior de SSRS que enfrentan requisitos de diseño exigentes.",
+    "temas": [
+      "SSRS Blueprints",
+      "Marlon Ribunal",
+      "Mickey Stuewe",
+      "RDL",
+      "Ensamblados Personalizados",
+      "Códigos de Barras",
+      "Suscripciones",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Factura comercial automatizada con código de barras y ensamblado C#",
+        "descripcion": "Desarrollo de una plantilla RDL compleja que invoca una librería C# para convertir importes numéricos a texto y renderizar códigos de barras 2D."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "microsoft-sql-server-reporting-services-recipes-2010": {
+    "descripcion": "Recetario de nivel maestro escrito por Paul Turley y Robert M. Bruckner (arquitecto principal del equipo de producto de SSRS en Microsoft), que resuelve problemas avanzados de informes corporativos.\n\nLos autores presentan soluciones a retos de gran dificultad: diseño de matrices dinámicas y pivotes con Tablix, integración de scripts y ensamblados personalizados, optimización de parámetros en cascada con miles de valores, renderizado personalizado y suscripciones a medida. Cada receta desentraña el comportamiento interno del motor de procesamiento de SSRS.\n\nUna de las mejores y más autorizadas obras de consulta técnica de SSRS en el mundo, indispensable para profesionales avanzados.",
+    "temas": [
+      "SSRS Recipes",
+      "Paul Turley",
+      "Robert M. Bruckner",
+      "Microsoft SSRS Team",
+      "Tablix Avanzado",
+      "Parámetros en Cascada",
+      "Wrox",
+      "BI"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "professional-microsoft-sql-server-2012-reporting-services-2012": {
+    "descripcion": "Tratado colosal y enciclopédico de Paul Turley, Robert M. Bruckner, Grant Paisley, Ken Withee y Thiago Silva perteneciente a la prestigiosa serie roja de Wrox sobre SSRS 2012, con casi 900 páginas.\n\nLos autores cubren exhaustivamente la arquitectura del servicio: diseño avanzado con Report Builder y Visual Studio, expresiones complejas, subinformes, gráficos y mapas geoespaciales, integración con SharePoint en modo Enterprise, automatización de administración con PowerShell y el modelo de objetos WMI, y desarrollo de extensiones personalizadas de seguridad y entrega.\n\nLa guía de referencia definitiva de cabecera para arquitectos de inteligencia de negocios, desarrolladores e ingenieros de bases de datos.",
+    "temas": [
+      "Professional SSRS 2012",
+      "Paul Turley",
+      "Robert M. Bruckner",
+      "Wrox Red Book",
+      "PowerShell",
+      "SharePoint",
+      "Mapas",
+      "Arquitectura BI"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Infraestructura corporativa de reportes con integración SharePoint y PowerShell",
+        "descripcion": "Despliegue de una granja de reportes de alta disponibilidad administrada mediante scripts automáticos de PowerShell y seguridad federada."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "professional-microsoft-sql-server-2016-reporting-services-and-mobile-reports-2017": {
+    "descripcion": "Tratado técnico moderno de Paul Turley, Christopher Finlan y Riccardo Muti (líderes de producto de SSRS en Microsoft) sobre SSRS 2016 y la revolución de los informes móviles.\n\nLos autores analizan la profunda renovación de SSRS: el nuevo portal web responsivo en HTML5, la integración de Datazen para crear informes móviles interactivos para smartphones y tabletas mediante SQL Server Mobile Report Publisher, soporte para visualizaciones modernas (Treemap y Sunburst), exportación a PowerPoint y APIs REST modernas para gestión de catálogos.\n\nUna obra de máxima relevancia técnica para modernizar las infraestructuras clásicas de informes hacia estándares web abiertos y dispositivos móviles.",
+    "temas": [
+      "SSRS 2016",
+      "Mobile Reports",
+      "Paul Turley",
+      "Riccardo Muti",
+      "HTML5 Portal",
+      "Mobile Report Publisher",
+      "Treemap",
+      "REST APIs"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Cuadro de mando corporativo adaptado para dispositivos móviles",
+        "descripcion": "Construcción de una suite de dashboards interactivos optimizados para teléfonos y tabletas con navegación táctil fluida sobre SSRS 2016."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "professional-sql-server-reporting-services-2004": {
+    "descripcion": "Guía histórica de Paul Turley, Todd Bryant, James Counihan, Dave DuVarney y George McKee perteneciente a la célebre serie roja de Wrox, dedicada a la primera edición de SQL Server Reporting Services.\n\nLos autores explican la arquitectura de servidores de reportes, diseño de plantillas visuales con Visual Studio .NET 2003, conexión a bases de datos relacionales, programación de eventos y suscripciones, y la integración de visores en portales ASP.NET. Incluye directrices de seguridad basada en Windows y Active Directory.\n\nUna obra histórica fundamental que capacitó a la primera generación de desarrolladores empresariales en el ecosistema de reportes de Microsoft.",
+    "temas": [
+      "Professional SSRS",
+      "Paul Turley",
+      "Wrox Red Book",
+      "SQL Server 2000",
+      "RDL",
+      "Active Directory",
+      "ASP.NET",
+      "Reportes Clásicos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Centro de distribución de reportes comerciales en ASP.NET",
+        "descripcion": "Implementación de una aplicación web para generación y exportación automática de extractos de cuentas para clientes corporativos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

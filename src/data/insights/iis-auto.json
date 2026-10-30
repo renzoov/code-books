@@ -1,0 +1,127 @@
+{
+  "professional-iis-7-and-asp-net-integrated-programming-2008": {
+    "descripcion": "Tratado exhaustivo y de nivel profesional escrito por el Dr. Shahram Khosravi sobre la arquitectura unificada introducida en Internet Information Services 7.0 (IIS 7) y ASP.NET (versiones 2.0 y 3.5 en Windows Server 2008 y Windows Vista). Está orientado a desarrolladores sénior de .NET, ingenieros de sistemas y arquitectos de software con amplios conocimientos de C# y del ecosistema web de Microsoft que desean crear extensiones de servidor de alto rendimiento y controlar cada etapa del ciclo de vida de las peticiones HTTP.\n\nEl libro profundiza en el pipeline integrado de IIS 7, donde el código administrado de ASP.NET se fusiona con el núcleo del servidor para procesar de forma nativa todo tipo de contenidos. Enseña a desarrollar módulos y manejadores HTTP personalizados (IHttpModule, IHttpHandler, IHttpHandlerFactory), a extender el sistema jerárquico de configuración (applicationHost.config, web.config) mediante esquemas declarativos XML (sectionSchema, attribute, collection) y a manipular la configuración mediante programación imperativa en C# con Microsoft.Web.Administration (ServerManager, ApplicationPool, Site). Además, detalla cómo construir complementos gráficos para la consola IIS Manager mediante Windows Forms y servicios de administración remota (ModuleService), cómo implementar servicios basados en el modelo de proveedores (Provider Model), cómo instrumentar diagnósticos mediante Failed Request Tracing (FREB) y cómo alojar servicios de Windows Communication Foundation (WCF) en IIS 7.\n\nA través de proyectos prácticos de desarrollo de extensiones, el lector construye módulos de procesamiento de peticiones en C#, paneles gráficos de administración para la consola de IIS y servicios de proveedores configurables (como un proveedor RSS desacoplado). Su valor radica en desmitificar las tripas del servidor web de Microsoft y permitir su personalización total con código administrado sin necesidad de escribir filtros ISAPI en C++. Deja fuera tecnologías modernas como .NET Core, ASP.NET Core o versiones posteriores de Windows Server, pero sigue siendo la referencia arquitectónica canónica sobre el funcionamiento interno del pipeline integrado de IIS.",
+    "temas": [
+      "IIS 7.0",
+      "ASP.NET 3.5",
+      "Pipeline integrado",
+      "Módulos HTTP",
+      "Manejadores HTTP",
+      "Microsoft.Web.Administration",
+      "Consola IIS Manager",
+      "Provider Model",
+      "WCF",
+      "Failed Request Tracing (FREB)"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Módulo y manejador HTTP personalizados para el pipeline integrado",
+        "descripcion": "Extensión en C# que intercepta eventos del ciclo de vida de peticiones en el pipeline unificado de IIS 7 y procesa peticiones de recursos personalizados mediante IHttpModule e IHttpHandler."
+      },
+      {
+        "nombre": "Extensión gráfica para la consola IIS Manager",
+        "descripcion": "Panel de administración personalizado desarrollado con Windows Forms y ModuleService para gestionar secciones de configuración propietarias directamente desde la interfaz gráfica de IIS."
+      },
+      {
+        "nombre": "Servicio desacoplado basado en proveedores (RSS Provider)",
+        "descripcion": "Implementación en C# del patrón Provider Model integrado en IIS 7 para suministrar y transformar fuentes de datos RSS configurables desde archivos XML."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Professional+IIS+7+and+ASP+NET+Integrated+Programming-p-9780470152539",
+      "https://www.amazon.com/dp/0470152531",
+      "https://www.oreilly.com/library/view/professional-iis-7/9780470152539/"
+    ]
+  },
+  "learn-windows-iis-in-a-month-of-lunches-2014": {
+    "descripcion": "Guía tutorial de autoaprendizaje escrita por Jason Helmick para dominar la administración de Internet Information Services (enfocada en IIS 7.5, 8.0 y 8.5 sobre Windows Server 2008 R2, 2012 y 2012 R2). Está pensada específicamente para administradores de sistemas, ingenieros de soporte y profesionales de TI sin experiencia previa en IIS que necesitan poner en producción y mantener servidores web corporativos seguros y de alta disponibilidad.\n\nEstructurado en 24 lecciones diseñadas para realizarse en descansos para el almuerzo, el libro enseña a desplegar el rol de IIS, crear sitios web, estructurar directorios virtuales y configurar pools de aplicaciones (Application Pools), aislando identidades y programando reciclajes. Aborda los mecanismos de autenticación (anónima, básica, Windows integrada), permisos NTFS, filtrado de peticiones y protección de datos mediante certificados SSL/TLS y el almacén central de certificados (Central Certificate Store o CCS). Asimismo, enseña a configurar servicios de FTP y correo SMTP, optimizar el rendimiento y compresión, automatizar tareas repetitivas mediante scripts con el módulo WebAdministration de PowerShell, e implementar granjas de servidores web (Web Farms) con balanceo de carga mediante Microsoft NLB (Network Load Balancing), Application Request Routing (ARR), configuración compartida (Shared Configuration) y el marco Web Farm Framework (WFF).\n\nEl libro fomenta una práctica constante a través de ejercicios guiados y laboratorios al término de cada capítulo, concluyendo con un examen práctico integral y la edificación de una infraestructura de granja web redundante y balanceada. Destaca por su enfoque práctico y progresivo, que desmitifica la gestión de IIS y prioriza la automatización con PowerShell en entornos Windows Server reales. Deja deliberadamente fuera la programación de aplicaciones en lenguajes como ASP.NET o PHP, centrándose exclusivamente en la infraestructura del servidor web.",
+    "temas": [
+      "IIS 8.5",
+      "Windows Server",
+      "Application Pools",
+      "PowerShell",
+      "WebAdministration",
+      "Granjas web (Web Farms)",
+      "Application Request Routing (ARR)",
+      "Network Load Balancing (NLB)",
+      "Certificados SSL/TLS",
+      "Central Certificate Store",
+      "Shared Configuration"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Granja web de alta disponibilidad con ARR y NLB",
+        "descripcion": "Infraestructura multi-nodo con balanceo de carga que combina Application Request Routing (ARR) como proxy de distribución y Microsoft Network Load Balancing (NLB) para tolerancia a fallos."
+      },
+      {
+        "nombre": "Configuración compartida y almacén central de certificados (CCS)",
+        "descripcion": "Entorno sincronizado en el que varios servidores IIS consumen un archivo de configuración centralizado y gestionan certificados SSL/TLS desde un repositorio común en red."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/learn-windows-iis-in-a-month-of-lunches",
+      "https://www.amazon.com/dp/1617291703",
+      "https://www.oreilly.com/library/view/learn-windows-iis/9781617291708/"
+    ]
+  },
+  "professional-iis-7-2011": {
+    "descripcion": "Guía técnica y manual de referencia exhaustivo enfocado en Internet Information Services 7.0 (IIS 7), el servidor web introducido por Microsoft en Windows Server 2008 y Windows Vista. La obra está dirigida a administradores de sistemas Windows, ingenieros de infraestructura y desarrolladores web de la plataforma .NET de nivel intermedio a avanzado que cuenten con conocimientos previos en administración de redes, el protocolo HTTP y la arquitectura clásica de servidores Windows, y que busquen dominar el rediseño integral que supuso IIS 7 frente a versiones previas como IIS 6.\n\nEl libro desglosa detalladamente la arquitectura modular del servidor web y el abandono de la antigua metabase en favor de un sistema de configuración distribuido y declarativo basado en XML (archivos applicationHost.config y web.config). Aborda la administración mediante la consola gráfica IIS Manager, la herramienta de comandos AppCmd.exe, el proveedor de WMI y el espacio de nombres Microsoft.Web.Administration. Explica a fondo la integración del canal de procesamiento de peticiones (Integrated Pipeline) con ASP.NET, la gestión y el aislamiento de Application Pools, la administración de sitios y directorios virtuales, la delegación de administración remota a desarrolladores, los mecanismos de autenticación (Kerberos, NTLM, autenticación por formularios y certificados SSL/TLS), el filtrado de peticiones (Request Filtering) y el diagnóstico con Failed Request Tracing (FREB).\n\nEl texto no propone la construcción de una aplicación de software unificada ni incluye baterías de ejercicios académicos, sino que proporciona procedimientos paso a paso y mejores prácticas operativas para desplegar granjas web con balanceo de carga (NLB), migrar entornos heredados de IIS 6, desarrollar módulos nativos o administrados y optimizar el rendimiento en producción. Su gran aportación es el rigor con el que aborda los cambios de bajo nivel del servidor y la automatización administrativa, aunque al centrarse estrictamente en la versión 7.0 no contempla adiciones de versiones posteriores como IIS 7.5 u 8.0. Resulta una lectura técnica de referencia para profesionales que gestionan plataformas de alojamiento web en Windows.",
+    "temas": [
+      "IIS 7.0",
+      "Windows Server 2008",
+      "applicationHost.config",
+      "AppCmd",
+      "Application Pools",
+      "Integrated Pipeline",
+      "Failed Request Tracing",
+      "SSL/TLS",
+      "Delegación remota",
+      "Balanceo de carga (NLB)",
+      "Microsoft.Web.Administration"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Professional+IIS+7-p-9780470289761",
+      "https://www.amazon.com/Professional-IIS-7-Kenneth-Schaefer/dp/0470289768",
+      "https://www.oreilly.com/library/view/professional-iis-7/9780470289761/"
+    ]
+  },
+  "professional-microsoft-iis-8-2012": {
+    "descripcion": "Manual exhaustivo y obra de referencia profesional dedicada a Internet Information Services 8.0 (IIS 8), el servidor web incorporado de forma nativa en Windows Server 2012 y Windows 8. Está pensado para administradores de sistemas, ingenieros de operaciones web, proveedores de servicios de hosting y desarrolladores .NET de nivel intermedio a avanzado que cuenten con experiencia previa en redes Windows, administración de servidores y arquitectura de aplicaciones web, y necesiten implementar entornos de alta disponibilidad y rendimiento.\n\nEl contenido explora detalladamente las novedades arquitectónicas y funcionales de IIS 8: el soporte de Server Name Indication (SNI) para hospedar múltiples certificados SSL en una única dirección IP, el almacén centralizado de certificados (Central Certificate Store o CCS), el calentamiento automático de aplicaciones (Application Initialization), las restricciones dinámicas de IP (Dynamic IP Restrictions) para amortiguar ataques de denegación de servicio, la limitación de uso de procesador (CPU Throttling) en application pools y la compatibilidad con WebSockets. Además, enseña la administración y automatización mediante el módulo de PowerShell para IIS y AppCmd, la extensibilidad a través de módulos HTTP nativos (C++) y administrados (C#), y el uso de extensiones clave como Application Request Routing (ARR) y URL Rewrite para balanceo y proxies inversos.\n\nLa obra combina el análisis arquitectónico con extensos tutoriales de configuración en entornos reales de producción, sin incluir ejercicios de final de capítulo ni proyectos guiados de desarrollo de software. Su mayor valor radica en su orientación hacia problemas empresariales reales: consolidación de sitios en infraestructuras compartidas multitenant, mitigación de fallos mediante Failed Request Tracing (FREB) y endurecimiento de la seguridad de la pila web. Resulta una guía indispensable para equipos de infraestructura que gestionen granjas web empresariales basadas en tecnologías Microsoft.",
+    "temas": [
+      "IIS 8.0",
+      "Windows Server 2012",
+      "SNI (Server Name Indication)",
+      "Central Certificate Store",
+      "PowerShell IIS Provider",
+      "Application Request Routing (ARR)",
+      "URL Rewrite",
+      "Dynamic IP Restrictions",
+      "CPU Throttling",
+      "WebSockets",
+      "Failed Request Tracing"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Professional+Microsoft+IIS+8-p-9781118388044",
+      "https://www.amazon.com/Professional-Microsoft-IIS-Kenneth-Schaefer/dp/1118388046",
+      "https://www.oreilly.com/library/view/professional-microsoft-iis/9781118388044/"
+    ]
+  }
+}

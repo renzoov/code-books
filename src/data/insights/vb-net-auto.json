@@ -1,0 +1,791 @@
+{
+  "programming-with-microsoft-visual-basic-2015-7th-edition-2015": {
+    "descripcion": "Texto universitario clásico y exhaustivo escrito por Diane Zak y publicado por Cengage Learning en su séptima edición en 2015. Diseñado para cursos de programación en Visual Basic 2015.\n\nDesarrolla el pensamiento algorítmico, variables y estructuras de repetición y decisión, funciones modulares, diseño de interfaces gráficas Windows Forms, manejo de archivos secuenciales y acceso a bases de datos con ADO.NET.\n\nDiane Zak destaca por una estructura didáctica rigurosa con numerosos ejercicios de laboratorio paso a paso y casos de estudio empresariales que construyen la confianza del estudiante. Un manual de cabecera clásico en la formación universitaria.",
+    "temas": [
+      "Visual Basic 2015",
+      "Windows Forms",
+      "Fundamentos de Código",
+      "ADO.NET",
+      "Diane Zak",
+      "Cengage"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Facturación y Ventas en Visual Basic 2015",
+        "descripcion": "Construcción de una aplicación de escritorio con menús interactivos, validaciones de entrada y almacenamiento en base de datos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "advanced-visual-basic-2010-5th-edition-2011": {
+    "descripcion": "Quinta edición del prestigioso texto universitario avanzado escrito por Kip Irvine y Tony Gaddis, publicado por Pearson en 2011. Profundiza en el desarrollo corporativo con Visual Basic 2010.\n\nCubre la programación orientada a objetos avanzada, clases personalizadas y colecciones, bases de datos relacionales con ADO.NET y LINQ, desarrollo web con ASP.NET, servicios web WCF y aplicaciones gráficas en WPF.\n\nKip Irvine y Tony Gaddis combinan rigor académico con explicaciones claras y visuales que capacitan al estudiante para diseñar sistemas de software mantenibles y de nivel profesional. Excelente para cursos universitarios avanzados.",
+    "temas": [
+      "Advanced Visual Basic",
+      "POO",
+      "ADO.NET",
+      "LINQ",
+      "WPF",
+      "Tony Gaddis",
+      "Pearson"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Gestión Empresarial Multicapa con VB 2010 y LINQ",
+        "descripcion": "Desarrollo completo de una aplicación corporativa con persistencia relacional, servicios distribuidos y cliente de escritorio."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "ado-net-and-ado-examples-and-best-practices-for-vb-programmers-2nd-edition-2002": {
+    "descripcion": "Tratado técnico histórico sobre acceso a datos corporativo escrito por William R. Vaughn y publicado por Apress en su segunda edición en 2002. Analiza la transición desde ADO clásico hacia ADO.NET en Visual Basic .NET.\n\nDetalla la arquitectura desconectada de DataSets y DataTables, DataAdapters, gestión de conexiones y transacciones en SQL Server, manejo de concurrencia optimista y mejores prácticas para prevenir cuellos de botella de red.\n\nWilliam R. Vaughn, autor y conferenciante legendario de la era dorada de Visual Basic, aporta lecciones invaluables de ingeniería de bases de datos. Una referencia histórica de gran relevancia técnica.",
+    "temas": [
+      "ADO.NET",
+      "DataSets",
+      "DataAdapters",
+      "Visual Basic .NET",
+      "SQL Server",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Capa de Datos Desconectada de Alta Concurrencia con DataSets",
+        "descripcion": "Implementación de una arquitectura de acceso a datos con control de bloqueos de concurrencia y actualización por lotes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-0857-0"
+    ]
+  },
+  "beginning-asp-net-3-5-in-vb-2008-2nd-edition-2007": {
+    "descripcion": "Segunda edición del manual introductorio al desarrollo web empresarial escrito por Matthew MacDonald y publicado por Apress en 2007. Enseña a crear aplicaciones web con ASP.NET 3.5 utilizando Visual Basic 2008.\n\nAborda el modelo de controles de servidor de Web Forms, gestión de estado (ViewState, Session, Cookies), páginas maestras (Master Pages), validación de formularios, enlace de datos a DataSets y la integración inicial de AJAX.\n\nMatthew MacDonald destaca por su claridad didáctica y estilo pedagógico paciente, haciendo que el desarrollo web en .NET resulte accesible y predecible para programadores de VB. Un clásico formativo.",
+    "temas": [
+      "ASP.NET 3.5",
+      "Visual Basic 2008",
+      "Web Forms",
+      "Master Pages",
+      "Matthew MacDonald",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Web de Tienda Virtual con ASP.NET 3.5 y Visual Basic",
+        "descripcion": "Construcción de un comercio electrónico completo con páginas maestras, carrito en sesión y catálogo conectado a SQL Server."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-0428-2"
+    ]
+  },
+  "beginning-asp-net-4-in-vb-2010-2010": {
+    "descripcion": "Manual exhaustivo y pedagógico sobre desarrollo web con .NET 4 escrito por Matthew MacDonald y publicado por Apress en 2010. Diseñado para aprender ASP.NET 4 en Visual Basic 2010.\n\nCubre las mejoras del runtime: control de identificadores de cliente (`ClientIDMode`), enrutamiento en Web Forms, compresión del ViewState, diseño responsivo con CSS amigable y persistencia relacional con LINQ to SQL y Entity Framework.\n\nMacDonald guía al programador a través de las mejores prácticas para estructurar sitios web comerciales limpios y de alto rendimiento. Una referencia clásica e indispensable para desarrolladores de VB.NET.",
+    "temas": [
+      "ASP.NET 4",
+      "VB 2010",
+      "ClientIDMode",
+      "Web Forms Routing",
+      "LINQ to SQL",
+      "Matthew MacDonald",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio Web Empresarial con Enrutamiento y Persistencia LINQ to SQL",
+        "descripcion": "Desarrollo de un portal con URLs amigables, autenticación de usuarios y acceso a datos transaccional en VB.NET."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-2612-3"
+    ]
+  },
+  "beginning-asp-net-4-5-in-vb-2012": {
+    "descripcion": "Guía práctica de desarrollo web con Visual Basic en .NET 4.5 escrita por Matthew MacDonald y publicada por Apress en 2012. Explora las características de ASP.NET 4.5.\n\nAborda el enlace de datos fuertemente tipado en controles (`ItemType`), soporte para llamadas asíncronas con `Async` y `Await` en páginas web, validación no intrusiva con HTML5 y autenticación con OAuth y OpenID.\n\nMatthew MacDonald proporciona explicaciones detalladas que permiten modernizar proyectos web en VB.NET aprovechando la asincronía y los nuevos estándares web. Excelente como manual de referencia.",
+    "temas": [
+      "ASP.NET 4.5",
+      "VB.NET",
+      "Async Await",
+      "ItemType",
+      "HTML5",
+      "Matthew MacDonald",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Web Asíncrono con Enlace Tipado y Autenticación OAuth",
+        "descripcion": "Construcción de una aplicación con carga de datos asíncrona no bloqueante y controles fuertemente tipados en VB."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-4363-2"
+    ]
+  },
+  "expert-vb-2008-business-objects-2009": {
+    "descripcion": "Tratado técnico y arquitectónico de máxima autoridad sobre diseño de objetos de negocio escrito por Rockford Lhotka (creador del framework CSLA .NET) y Joe Fallon, publicado por Apress en 2009.\n\nEnseña a implementar el framework CSLA .NET (Component-based Scalable Logical Architecture) en Visual Basic 2008: objetos de negocio transaccionales, reglas de validación y autorización integradas, y soporte para n-capas.\n\nRockford Lhotka desmenuza cómo centralizar la lógica de negocio en objetos enriquecidos que se ejecutan sin cambios tanto en clientes de escritorio Windows Forms/WPF como en aplicaciones web ASP.NET. La referencia cumbre sobre CSLA en VB.",
+    "temas": [
+      "CSLA .NET",
+      "Objetos de Negocio",
+      "Rockford Lhotka",
+      "Visual Basic 2008",
+      "Arquitectura N-Capas",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Gestión Empresarial Basada en CSLA .NET y VB",
+        "descripcion": "Construcción de un modelo de dominio corporativo con reglas de validación complejas y persistencia en n-capas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-1647-6"
+    ]
+  },
+  "pro-asp-net-4-5-in-vb-5th-edition-2013": {
+    "descripcion": "Quinta edición monumental de más de 1.100 páginas escrita por Matthew MacDonald, Adam Freeman y Dan Mabbutt, publicada por Apress en 2013. Es la biblia enciclopédica definitiva sobre desarrollo web en VB.NET.\n\nDesarrolla en profundidad la arquitectura de Web Forms, ciclo de vida de páginas y controles, seguridad y membresía, caché de salida y datos, desarrollo de controles de servidor personalizados y optimización de rendimiento.\n\nLos autores combinan una maestría técnica indiscutida con explicaciones minuciosas que cubren cada rincón del framework web de Microsoft. La obra cumbre sobre ASP.NET en Visual Basic.",
+    "temas": [
+      "Pro ASP.NET",
+      "VB.NET",
+      "Web Forms",
+      "Custom Controls",
+      "Caché",
+      "Matthew MacDonald",
+      "Adam Freeman",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Web Corporativo Completo con Controles Personalizados",
+        "descripcion": "Construcción integral de una solución empresarial con controles de servidor propios, gestión de estado y seguridad por roles."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-5100-2"
+    ]
+  },
+  "pro-linq-language-integrated-query-in-vb-2008-2009": {
+    "descripcion": "Tratado técnico exhaustivo sobre Language Integrated Query (LINQ) escrito por Dennis Hayes y Joseph C. Rattz, Jr., publicado por Apress en 2009. Es la edición del libro para Visual Basic 2008: enseña la tecnología de consultas integradas en el lenguaje de .NET Framework 3.5 desde VB.\n\nCubre LINQ to Objects, operadores de consulta estándar (proyección, filtrado, ordenamiento, agrupación, uniones), LINQ to XML, LINQ to DataSets y LINQ to SQL, con ejemplos detallados escritos en Visual Basic 2008.\n\nLos autores aportan un análisis riguroso de la ejecución diferida (deferred execution) y el comportamiento de los árboles de expresiones. Una referencia indispensable para dominar el procesamiento declarativo de datos en .NET.",
+    "temas": [
+      "LINQ",
+      "LINQ to Objects",
+      "LINQ to SQL",
+      "LINQ to XML",
+      "Deferred Execution",
+      "Visual Basic",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-1641-4"
+    ]
+  },
+  "pro-vb-2010-and-the-net-4-0-platform-2010": {
+    "descripcion": "Monumental tratado técnico de más de 1.400 páginas escrito por Andrew Troelsen y Vidya Vrat Agarwal, publicado por Apress en 2010. Es considerada la enciclopedia definitiva sobre Visual Basic 2010 y .NET 4.\n\nDesarrolla desde la sintaxis completa del lenguaje y orientación a objetos hasta el runtime de la CLR, reflexión, programación multihilo y concurrencia con TPL (Task Parallel Library), interfaces de escritorio con WPF y servicios WCF.\n\nAndrew Troelsen destaca por su claridad pedagógica enciclopédica y su rigor conceptual, haciendo de esta obra la referencia por excelencia para programadores profesionales de VB.NET. Un clásico imprescindible.",
+    "temas": [
+      "Pro VB 2010",
+      "CLR Internals",
+      "TPL Concurrency",
+      "WPF",
+      "WCF",
+      "Andrew Troelsen",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite Empresarial Multihilo con WPF y Servicios WCF en VB.NET",
+        "descripcion": "Desarrollo completo de una arquitectura cliente-servidor con tareas paralelas, contratos WCF y cliente gráfico enriquecido."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-2868-4"
+    ]
+  },
+  "programming-with-microsoft-visual-basic-2012-2012": {
+    "descripcion": "Manual universitario estructurado y pedagógico escrito por Diane Zak y publicado por Cengage Learning en 2012. Enseña a programar desde los cimientos utilizando Visual Basic 2012.\n\nCubre tipos de datos, estructuras lógicas de selección y repetición, procedimientos y funciones, arreglos unidimensionales y bidimensionales, programación orientada a objetos básica y diseño de formularios Windows Forms.\n\nDiane Zak emplea un enfoque paso a paso con abundantes ejercicios guiados y casos de estudio que consolidan el pensamiento algorítmico y las buenas prácticas de codificación. Muy adecuado para asignaturas universitarias de iniciación.",
+    "temas": [
+      "Visual Basic 2012",
+      "Pensamiento Algorítmico",
+      "Windows Forms",
+      "Arreglos",
+      "Diane Zak",
+      "Cengage"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Control de Nómina y Salarios con Windows Forms",
+        "descripcion": "Construcción de una aplicación de escritorio con validación de datos, cálculos impositivos y reportes en pantalla."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "libro-de-visual-basic-net-2010-2011": {
+    "descripcion": "Manual formativo en español sobre programación con Visual Basic .NET 2010 escrito por Luis Dueñas y publicado en 2011. Diseñado para ofrecer una comprensión clara del lenguaje y el entorno Visual Studio.\n\nAborda los fundamentos de la sintaxis, estructuras de repetición y decisión, diseño modular con módulos y clases, creación de ventanas con Windows Forms y persistencia de datos mediante ADO.NET con bases de datos Access y SQL Server.\n\nLuis Dueñas proporciona tutoriales directos y sencillos que facilitan el autoaprendizaje a estudiantes hispanohablantes sin experiencia previa en el desarrollo de software. Muy accesible para principiantes.",
+    "temas": [
+      "Visual Basic .NET",
+      "Windows Forms",
+      "ADO.NET",
+      "SQL Server",
+      "Luis Dueñas",
+      "Español"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Software de Facturación y Clientes en VB.NET con Base de Datos",
+        "descripcion": "Desarrollo de una aplicación administrativa de escritorio con formularios interactivos y consultas ADO.NET."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "microsoft-visual-basic-2013-step-by-step-2013": {
+    "descripcion": "Manual formativo oficial de Microsoft escrito por Michael Halvorson y publicado por Microsoft Press en 2013. Enseña a programar en Visual Basic 2013 mediante un programa estructurado paso a paso.\n\nAborda la interfaz de Visual Studio, diseño de formularios Windows Forms, controles modernos, manipulación de cadenas y colecciones, depuración interactiva, manejo de excepciones y conexión con bases de datos relacionales.\n\nMichael Halvorson destaca por un estilo paciente y sumamente didáctico con proyectos prácticos por capítulo que conducen al alumno desde la instalación hasta la distribución de programas ejecutables. El mejor punto de partida formativo oficial.",
+    "temas": [
+      "Visual Basic 2013",
+      "Step by Step",
+      "Windows Forms",
+      "Depuración",
+      "Michael Halvorson",
+      "Microsoft Press"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Calculadora Comercial y Gestor de Tareas de Escritorio",
+        "descripcion": "Construcción de dos aplicaciones de escritorio con menús interactivos, diálogos de archivo y persistencia local."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoft.com/"
+    ]
+  },
+  "visual-basic-in-easy-steps-2015": {
+    "descripcion": "Guía práctica y visual a todo color escrita por Mike McGrath y publicada por In Easy Steps en 2015. Diseñada para aprender a programar en Visual Basic de forma rápida, visual y sin complicaciones.\n\nEstructurado en lecciones ilustradas con capturas de pantalla a color, cubre variables, operadores lógicos, bucles, creación de funciones, diseño de formularios visuales y acceso a datos.\n\nMike McGrath logra que los recién llegados a la programación asimilen los conceptos clave sin intimidación técnica, viendo resultados funcionales de inmediato en pantalla. Excelente para principiantes y aficionados.",
+    "temas": [
+      "Visual Basic",
+      "In Easy Steps",
+      "A Todo Color",
+      "Principiantes",
+      "Mike McGrath"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Calculadora Gráfica de Escritorio con Visual Basic",
+        "descripcion": "Desarrollo de una aplicación con botones numéricos, display digital y captura de operaciones matemáticas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://ineasysteps.com/"
+    ]
+  },
+  "murach-s-visual-basic-2012-5th-edition-2013": {
+    "descripcion": "Quinta edición del prestigioso manual formativo escrito por Anne Boehm y publicado por Mike Murach & Associates en 2013. Diseñado para aprender programación profesional con Visual Basic 2012.\n\nEstructurado con la metodología clásica de Murach en páginas dobles enfrentadas (teoría a la izquierda, código y pantallas a la derecha), cubre sintaxis, POO, validación de formularios, depuración, y bases de datos con ADO.NET y LINQ.\n\nAnne Boehm ofrece una ruta didáctica que minimiza la frustración del estudiante y enseña patrones de código limpios listos para el trabajo profesional corporativo. Una de las obras más recomendadas para aprender VB.NET.",
+    "temas": [
+      "Murach",
+      "Visual Basic 2012",
+      "POO",
+      "ADO.NET",
+      "LINQ",
+      "Anne Boehm"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Control de Pedidos e Inventario en Visual Basic",
+        "descripcion": "Construcción de una aplicación de escritorio completa con persistencia en base de datos y validaciones de usuario."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.murach.com/"
+    ]
+  },
+  "murach-s-ado-net-4-database-programming-with-vb-2010-4th-edition-2011": {
+    "descripcion": "Cuarta edición del manual especializado en bases de datos escrito por Anne Boehm y publicado por Mike Murach & Associates en 2011. Enseña programación corporativa de acceso a datos con VB 2010.\n\nAborda ADO.NET clásico (conexiones, comandos, DataReaders), DataSets tipados con TableAdapters, LINQ to SQL, y el desarrollo de capas de acceso a datos con Entity Framework 4.\n\nAnne Boehm destaca por explicar no sólo cómo usar las herramientas automáticas de Visual Studio, sino cómo escribir código de acceso a datos manual optimizado y seguro contra inyecciones SQL. Un clásico indispensable.",
+    "temas": [
+      "ADO.NET 4",
+      "Visual Basic",
+      "TableAdapters",
+      "DataSets Tipados",
+      "LINQ to SQL",
+      "Anne Boehm",
+      "Murach"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Capa de Acceso a Datos Corporativa para Mantenimiento de Clientes",
+        "descripcion": "Implementación de una arquitectura multicapa con consultas parametrizadas seguras y transacciones ACID."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.murach.com/"
+    ]
+  },
+  "murach-s-asp-net-4-5-web-programming-with-vb-2012-5th-edition-2013": {
+    "descripcion": "Quinta edición del tratado didáctico sobre desarrollo web backend escrito por Mary Delamater y Anne Boehm, publicado por Murach en 2013. Enseña a construir aplicaciones web robustas con ASP.NET 4.5 en VB.\n\nCubre el modelo de Web Forms, validación de controles, gestión de sesiones y cookies, páginas maestras (Master Pages), acceso a bases de datos relacionales mediante fuentes de datos y autenticación de membresía segura.\n\nLas autoras proporcionan una guía completa libre de ambigüedades, con ejemplos del mundo real estructurados en el formato característico de páginas dobles de Murach. Muy adecuado para desarrolladores corporativos de ASP.NET.",
+    "temas": [
+      "ASP.NET 4.5",
+      "Visual Basic",
+      "Web Forms",
+      "Master Pages",
+      "Membresía",
+      "Mary Delamater",
+      "Murach"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tienda en Línea de Halloween con ASP.NET 4.5 y Visual Basic",
+        "descripcion": "Desarrollo completo de un e-commerce con catálogo dinámico, carrito en sesión y panel administrativo protegido por roles."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.murach.com/"
+    ]
+  },
+  "learn-to-program-with-small-basic-2016": {
+    "descripcion": "Manual formativo introductorio y divertido escrito por Ed Price y Majed Marji, publicado por No Starch Press en 2016. Enseña a programar a niños y principiantes utilizando Microsoft Small Basic.\n\nAborda los fundamentos lógicos del código: variables, operadores aritméticos, estructuras de repetición (`For`, `While`), condicionales (`If Then`), gráficos de tortuga y desarrollo de juegos arcade sencillos.\n\nLos autores utilizan metáforas visuales claras y proyectos lúdicos que eliminan la frustración de la sintaxis compleja, permitiendo a los recién llegados experimentar la satisfacción inmediata de programar. Un texto maravilloso para el ámbito educativo.",
+    "temas": [
+      "Small Basic",
+      "Microsoft",
+      "Programación para Niños",
+      "Juegos Arcade",
+      "Ed Price",
+      "No Starch Press"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Juegos 'Paddle Ball' y 'Space Tennis' con Small Basic",
+        "descripcion": "Construcción de dos videojuegos 2D con animaciones, detección de colisiones y control con teclado y ratón."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/smallbasic"
+    ]
+  },
+  "learning-asp-net-3-5-2nd-edition-2008": {
+    "descripcion": "Segunda edición del manual formativo de desarrollo web escrito por Brian MacDonald, Dan Hurwitz y Jesse Liberty, publicado por O'Reilly en 2008. Diseñado para aprender ASP.NET 3.5 con C# y Visual Basic.\n\nAborda la arquitectura de Web Forms, diseño de interfaces con Master Pages, controles de navegación y validación, acceso a datos con ADO.NET y LINQ, servicios web AJAX y personalización con perfiles de usuario.\n\nLos autores aportan un enfoque sumamente didáctico y orientado al lector autodidacta, explicando con gran claridad el funcionamiento de cada control de servidor. Una referencia formativa clásica muy sólida.",
+    "temas": [
+      "ASP.NET 3.5",
+      "Web Forms",
+      "Master Pages",
+      "AJAX",
+      "Jesse Liberty",
+      "O'Reilly"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Web Comunitario con ASP.NET 3.5 y AJAX",
+        "descripcion": "Construcción de una aplicación con autenticación de usuarios, páginas maestras y actualización dinámica de contenido sin recargas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-aspnet-35/9780596518455/"
+    ]
+  },
+  "programming-visual-basic-2008-2008": {
+    "descripcion": "Tratado exhaustivo y de nivel profesional escrito por Tim Patrick y publicado por O'Reilly en 2008. Analiza la evolución de Visual Basic 2008 y su madurez como lenguaje orientado a objetos en .NET 3.5.\n\nCubre la sintaxis completa, métodos de extensión, expresiones lambda, inferencia de tipos locales, tipos anónimos, LINQ y desarrollo de aplicaciones de escritorio con Windows Forms y WPF.\n\nTim Patrick desmitifica la supuesta inferioridad de VB frente a C#, demostrando que el compilador de VB.NET genera el mismo código intermedio (IL) y ofrece capacidades únicas como XML Literals. Una obra formativa indispensable.",
+    "temas": [
+      "Programming Visual Basic",
+      "VB 2008",
+      "XML Literals",
+      "LINQ",
+      "Métodos de Extensión",
+      "Tim Patrick",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Procesamiento y Transformación de XML con XML Literals",
+        "descripcion": "Implementación de una aplicación que manipula e incrusta expresiones LINQ directamente dentro de marcado XML nativo en VB."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/programming-visual-basic/9780596518431/"
+    ]
+  },
+  "asp-net-3-5-cms-development-2009": {
+    "descripcion": "Manual práctico sobre diseño y construcción de gestores de contenidos escrito por Curt Christianson y Jeff Cochran, publicado por Packt en 2009. Enseña a desarrollar un CMS a medida con ASP.NET 3.5 y VB.NET.\n\nAborda el diseño de la base de datos relacional, jerarquías de páginas y menús dinámicos, editores de contenido enriquecido (WYSIWYG), gestión de usuarios y roles, y optimización de URLs para buscadores (SEO).\n\nLos autores aportan soluciones paso a paso que capacitan al lector para construir un gestor de contenidos flexible y adaptado a las necesidades de clientes corporativos. Una referencia formativa muy instructiva.",
+    "temas": [
+      "ASP.NET CMS",
+      "Visual Basic",
+      "Gestión de Contenidos",
+      "WYSIWYG",
+      "SEO",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma CMS Completa de Publicación Web en VB.NET",
+        "descripcion": "Construcción de un gestor de contenidos con editor visual, control de permisos editoriales y renderizado dinámico de páginas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "building-websites-with-vb-net-and-dotnetnuke-4-2006": {
+    "descripcion": "Guía práctica sobre el gestor de portales open source líder en el ecosistema Microsoft escrita por Daniel N. Egan, Michael Washington y Steve Valenzuela, publicada por Packt en 2006. Diseñada para DotNetNuke 4 (DNN).\n\nCubre la arquitectura modular de DNN, desarrollo de módulos personalizados en VB.NET, diseño de skins y contenedores visuales, gestión de membresías y seguridad por roles, y despliegue en entornos de producción.\n\nLos autores proporcionan pautas claras para extender DotNetNuke mediante código limpio y reutilizable, aprovechando la infraestructura de portales de Microsoft. Una referencia clásica muy valiosa para usuarios de DNN.",
+    "temas": [
+      "DotNetNuke",
+      "DNN 4",
+      "Visual Basic",
+      "Módulos DNN",
+      "Skins",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Módulo Corporativo de Encuestas y Votaciones para DotNetNuke",
+        "descripcion": "Desarrollo y empaquetado de un módulo personalizado en VB.NET con persistencia en SQL Server e integración en el portal DNN."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "odp-net-developer-s-guide-2007": {
+    "descripcion": "Manual técnico especializado sobre conectividad de alto rendimiento entre la plataforma Microsoft y bases de datos Oracle escrito por Jagadish Chatarji Pulakhandam y Sunitha Paruchuri, publicado por Packt en 2007.\n\nExplora Oracle Data Provider for .NET (ODP.NET), conexiones y connection pooling optimizado, ejecución de paquetes y procedimientos almacenados PL/SQL, tipos de datos nativos de Oracle (Ref Cursors, LOBs, XMLType) y transacciones distribuidas con MTS.\n\nLos autores aportan recetas de ingeniería para maximizar la velocidad y escalabilidad de aplicaciones .NET conectadas a servidores Oracle. La referencia técnica obligada para desarrolladores de integraciones Oracle con .NET.",
+    "temas": [
+      "ODP.NET",
+      "Oracle Database",
+      "PL/SQL",
+      "Ref Cursors",
+      "Connection Pooling",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Capa de Persistencia Empresarial con ODP.NET y Paquetes PL/SQL",
+        "descripcion": "Construcción de un repositorio de datos de alta velocidad con consumo de cursores de referencia Ref Cursors y gestión de transacciones."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sams-teach-yourself-asp-net-4-in-24-hours-2010": {
+    "descripcion": "Manual formativo intensivo estructurado en 24 lecciones de una hora escrito por Scott Mitchell y publicado por Sams Publishing en 2010. Enseña a crear aplicaciones web con ASP.NET 4 y VB.NET.\n\nAborda los controles de servidor, diseño con páginas maestras, validación de formularios, acceso a bases de datos relacionales con SqlDataSource y GridView, gestión de usuarios con Membership y despliegue en servidores web IIS.\n\nScott Mitchell destaca por una pedagogía paciente y sumamente accesible, respaldada por cientos de tutoriales publicados en el portal 4GuysFromRolla.com. Excelente punto de partida para principiantes en la web de .NET.",
+    "temas": [
+      "Sams Teach Yourself",
+      "ASP.NET 4",
+      "Web Forms",
+      "GridView",
+      "Scott Mitchell",
+      "Sams Publishing"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Web de Libro de Visitas y Comentarios en ASP.NET 4",
+        "descripcion": "Desarrollo paso a paso de una aplicación web con formularios validados y persistencia en base de datos relacional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sams-teach-yourself-visual-basic-2015-in-24-hours-2015": {
+    "descripcion": "Manual de aprendizaje acelerado estructurado en 24 lecciones prácticas escrito por James Foxall y publicado por Sams Publishing en 2015. Diseñado para aprender programación profesional con Visual Basic 2015.\n\nCubre la navegación de Visual Studio, diseño de interfaces gráficas Windows Forms, variables y estructuras de control, módulos y procedimientos, dibujo con GDI+, manejo de archivos y acceso a datos.\n\nJames Foxall ofrece un estilo motivador y libre de jerga técnica innecesaria, permitiendo al estudiante crear programas completos y funcionales desde el primer día. Un clásico formativo de iniciación muy valorado.",
+    "temas": [
+      "Visual Basic 2015",
+      "Sams Teach Yourself",
+      "Windows Forms",
+      "GDI+",
+      "James Foxall",
+      "Sams Publishing"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Visor de Imágenes y Editor de Dibujo con GDI+ en Windows Forms",
+        "descripcion": "Construcción de una aplicación de escritorio con menús interactivos, barra de herramientas y lienzo de dibujo dinámico."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "visual-basic-2015-unleashed-2016": {
+    "descripcion": "Monumental tratado técnico de más de 1.200 páginas escrito por Alessandro Del Sole (Microsoft MVP) y publicado por Sams Publishing en 2016. Es considerada una de las obras cumbres sobre Visual Basic contemporáneo.\n\nAborda la totalidad de la plataforma: nuevas características de VB 14, compilador Roslyn, programación asíncrona con `Async` y `Await`, desarrollo de escritorio con WPF y Windows Forms, aplicaciones universales de Windows (UWP) y servicios de datos con Entity Framework 6.\n\nAlessandro Del Sole ofrece explicaciones enciclopédicas de cada API de Microsoft, combinando rigor técnico con soluciones de arquitectura corporativa. La referencia obligada para programadores avanzados de Visual Basic.",
+    "temas": [
+      "Visual Basic Unleashed",
+      "Alessandro Del Sole",
+      "VB 14",
+      "Roslyn",
+      "WPF",
+      "UWP",
+      "Sams Publishing"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite Corporativa Multiplataforma en Visual Basic con WPF y EF6",
+        "descripcion": "Desarrollo integral de una aplicación con arquitectura MVVM, llamadas asíncronas no bloqueantes y persistencia relacional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "asp-net-3-5-for-dummies-2008": {
+    "descripcion": "Manual introductorio y accesible sobre desarrollo web con .NET escrito por Ken Cox y publicado por For Dummies / Wiley en 2008. Enseña los fundamentos de ASP.NET 3.5 en Visual Basic y C#.\n\nAborda la creación de páginas web interactivas con Web Forms, páginas maestras (Master Pages), validación de datos en formularios, acceso a bases de datos con SqlDataSource y despliegue básico en servidores IIS.\n\nKen Cox utiliza un estilo desenfadado y ameno que desmitifica los conceptos técnicos, asegurando que los principiantes puedan publicar sitios web funcionales sin frustraciones. Una guía de inicio rápido excelente.",
+    "temas": [
+      "ASP.NET 3.5",
+      "For Dummies",
+      "Web Forms",
+      "Master Pages",
+      "Principiantes",
+      "Ken Cox",
+      "Wiley"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Web de Clasificados y Anuncios con ASP.NET 3.5",
+        "descripcion": "Construcción paso a paso de una aplicación web con catálogo paginado y formularios de registro."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "practical-database-programming-with-visual-basic-net-2nd-edition-2012": {
+    "descripcion": "Segunda edición del tratado universitario exhaustivo sobre acceso a bases de datos relacionales escrito por el Dr. Ying Bai y publicado por Wiley en 2012. Analiza el desarrollo corporativo con Visual Basic .NET y SQL Server / Oracle.\n\nCubre la arquitectura desconectada de ADO.NET, consultas transaccionales con comandos parametrizados, enlace de datos avanzado con DataGridView, LINQ to SQL y LINQ to Entities, y procedimientos almacenados.\n\nEl Dr. Ying Bai destaca por una precisión técnica impecable y abundantes diagramas de arquitectura que guían al lector en la creación de aplicaciones comerciales fiables y protegidas contra inyecciones SQL. Un texto de referencia universitario esencial.",
+    "temas": [
+      "Database Programming",
+      "Visual Basic .NET",
+      "ADO.NET",
+      "LINQ",
+      "SQL Server",
+      "Ying Bai",
+      "Wiley"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema Universitario de Registro Académico y Matrículas en VB.NET",
+        "descripcion": "Implementación de una arquitectura multicapa de acceso a datos con consultas transaccionales y enlace a interfaces de usuario."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "asp-net-3-5-website-programming-2009": {
+    "descripcion": "Manual práctico sobre arquitectura web corporativa escrito por Chris Love y publicado por Wrox / Wiley en 2009. Enseña a diseñar y construir un sitio web comercial completo y escalable con ASP.NET 3.5.\n\nAborda el diseño modular con separación de responsabilidades, gestión de usuarios y roles con Membership Providers, optimización del rendimiento web (caching y compresión), pruebas de carga y despliegue en entornos de producción con IIS 7.\n\nChris Love comparte directrices de ingeniería maduras aprendidas en despliegues corporativos reales, dotando al lector de una comprensión práctica sobre cómo mantener sitios web seguros y de alta disponibilidad. Muy formativo para ingenieros .NET.",
+    "temas": [
+      "ASP.NET 3.5",
+      "Arquitectura Web",
+      "Membership",
+      "IIS 7",
+      "Wrox",
+      "Wiley"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Web Comercial de Noticias y Suscripciones en ASP.NET 3.5",
+        "descripcion": "Construcción integral de una solución web con roles de usuario, flujo editorial y optimización de caché."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "beginning-visual-basic-2015-2015": {
+    "descripcion": "Manual didáctico y formativo de referencia escrito por Bryan Newsome y publicado por Wrox / Wiley en 2015. Diseñado para aprender programación orientada a objetos con Visual Basic 2015 desde cero.\n\nAborda la sintaxis fundamental, tipos de datos, estructuras de decisión y repetición, clases y métodos, diseño de interfaces gráficas con Windows Forms, manejo de archivos y acceso a datos con ADO.NET y LINQ.\n\nBryan Newsome ofrece explicaciones claras y pacientes acompañadas de proyectos prácticos que consolidan las competencias técnicas necesarias para el desarrollo profesional. Una obra formativa clásica de gran prestigio.",
+    "temas": [
+      "Beginning Visual Basic",
+      "VB 2015",
+      "POO",
+      "Windows Forms",
+      "ADO.NET",
+      "Bryan Newsome",
+      "Wrox",
+      "Wiley"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Gestor de Contactos y Facturación de Escritorio en VB 2015",
+        "descripcion": "Construcción paso a paso de una aplicación de escritorio con menús, validación de datos y almacenamiento en base de datos relacional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "expert-one-on-one-visual-basic-2005-database-programming-2006": {
+    "descripcion": "Tratado técnico avanzado y exhaustivo sobre bases de datos corporativas escrito por Roger Jennings y publicado por Wrox / Wiley en 2006. Es una de las referencias más reverenciadas sobre persistencia en VB 2005.\n\nProfundiza en la arquitectura interna de ADO.NET 2.0, DataSets tipados, TableAdapters, transacciones distribuidas con `System.Transactions`, enlace de datos bidireccional con BindingSource y DataGridView, y optimización de consultas SQL Server.\n\nRoger Jennings aporta cuatro décadas de experiencia en ingeniería de software empresarial, desglosando los patrones arquitectónicos para manejar grandes volúmenes de datos sin pérdida de integridad ni rendimiento. Un clásico imprescindible.",
+    "temas": [
+      "ADO.NET 2.0",
+      "TableAdapters",
+      "System.Transactions",
+      "DataGridView",
+      "Roger Jennings",
+      "Wrox",
+      "Wiley"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Transaccional de Gestión de Pedidos con ADO.NET 2.0",
+        "descripcion": "Diseño de un arnés de persistencia relacional con transacciones distribuidas y actualización concurrente de inventario."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "professional-visual-basic-2010-and-net-4-2010": {
+    "descripcion": "Monumental tratado técnico de nivel profesional escrito por Bill Sheldon, Billy Hollis, Gastón C. Hillar, Jonathan Marbutt, Kent Sharkey y Rob Windsor, publicado por Wrox / Wiley en 2010. Cubre la totalidad de VB 2010 y .NET 4.\n\nAborda el compilador Roslyn temprano, concurrencia con la Task Parallel Library (TPL), LINQ, desarrollo de interfaces ricas con WPF y Silverlight, servicios WCF, flujos de trabajo WF 4 y acceso a datos con Entity Framework 4.\n\nEl equipo de autores, reconocidos Microsoft MVPs y arquitectos corporativos, entrega una referencia técnica enciclopédica indispensable para ingenieros sénior que diseñan soluciones empresariales complejas. Una obra cumbre de la serie Wrox.",
+    "temas": [
+      "Professional VB",
+      "NET 4",
+      "WPF",
+      "WCF",
+      "TPL",
+      "Entity Framework",
+      "Wrox",
+      "Wiley"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura Empresarial Distribuida en VB.NET con WCF y WPF",
+        "descripcion": "Construcción completa de una solución corporativa con tareas paralelas, servicios SOA y cliente de escritorio enriquecido."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "professional-visual-basic-2012-and-net-4-5-programming-2013": {
+    "descripcion": "Tratado enciclopédico de referencia profesional escrito por Bill Sheldon, Billy Hollis, David McCarter, Gastón C. Hillar, Rob Windsor y Todd Herman, publicado por Wrox / Wiley en 2013. Adapta la serie Wrox a Visual Basic 2012 y .NET 4.5.\n\nProfundiza en la programación asíncrona con las palabras clave `Async` y `Await`, Entity Framework 5 con DbContext, aplicaciones modernas para Windows 8 (WinRT/XAML), servicios Web API y patrones de diseño corporativos.\n\nLos autores aportan explicaciones detalladas y código listo para producción que ilustran cómo modernizar bases de código empresariales hacia la asincronía y las nuevas arquitecturas en la nube. Imprescindible para desarrolladores sénior de .NET.",
+    "temas": [
+      "Visual Basic 2012",
+      "NET 4.5",
+      "Async Await",
+      "EF5",
+      "Web API",
+      "Wrox",
+      "Wiley"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Servicios Corporativos Asíncronos con VB.NET y EF5",
+        "descripcion": "Implementación de una arquitectura de backend no bloqueante con llamadas async/await y persistencia relacional moderna."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "visual-basic-2012-programmers-reference-2012": {
+    "descripcion": "Tratado exhaustivo y manual de referencia de escritorio para ingenieros de software escrito por Rod Stephens y publicado por Wrox / Wiley en 2012. Contiene una cobertura completa del lenguaje Visual Basic 2012.\n\nDetalla la gramática del lenguaje, tipos primitivos y estructuras de datos, operadores, sentencias de control, programación orientada a objetos, LINQ, manejo de excepciones, manipulación de archivos y módulos de la BCL (Base Class Library).\n\nRod Stephens, autor prolífico de obras de algoritmos e ingeniería, organiza el texto para permitir una consulta rápida y precisa con ejemplos concisos de cada construcción sintáctica. La referencia de escritorio definitiva para programadores de VB.",
+    "temas": [
+      "Programmer Reference",
+      "Visual Basic 2012",
+      "Rod Stephens",
+      "BCL",
+      "LINQ",
+      "Wrox",
+      "Wiley"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

@@ -1,0 +1,2153 @@
+{
+  "php-and-mysql-web-development-4th-edition-2008": {
+    "descripcion": "Cuarta edición de la monumental biblia del desarrollo web escrita por Luke Welling y Laura Thomson, publicada por Addison-Wesley en 2008. Es uno de los libros de texto más leídos e influyentes en la historia de la web.\n\nCubre la sintaxis fundamental de PHP 5, conexión y diseño de bases de datos relacionales con MySQL mediante extensiones mysqli y PDO, autenticación de usuarios, gestión de sesiones, transacciones bancarias seguras con SSL/TLS, generación de imágenes dinámicas y PDFs, y prevención de vulnerabilidades (SQL injection, XSS).\n\nLos autores guían el desarrollo de múltiples proyectos comerciales de escala real: una tienda de comercio electrónico, un servicio de correo web y un foro de discusión. Un clásico fundacional insuperable para aprender la pila LAMP.",
+    "temas": [
+      "PHP 5",
+      "MySQL",
+      "Luke Welling",
+      "Laura Thomson",
+      "LAMP",
+      "PDO",
+      "Seguridad Web",
+      "Addison-Wesley"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tienda Online de Comercio Electrónico con PHP y MySQL",
+        "descripcion": "Construcción completa de una tienda virtual con catálogo de productos, carrito de compras, pasarela de pago y autenticación segura."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/php-and-mysql-web-development-9780672329166"
+    ]
+  },
+  "an-introduction-to-php-2024": {
+    "descripcion": "Manual formativo moderno escrito por Mark Simon y publicado por Apress en 2024. Diseñado como una introducción rigurosa pero accesible para estudiantes y nuevos programadores que aprenden PHP contemporáneo (PHP 8.2+).\n\nExplora la sintaxis moderna con tipado estricto, variables, estructuras de control, funciones de flecha, manipulación de arrays y cadenas con funciones multibyte, orientación a objetos básica (clases, propiedades tipadas, constructores simplificados) y conexión segura con bases de datos vía PDO.\n\nEl autor utiliza un estilo pausado y claro con ejercicios progresivos que enseñan a escribir código limpio y seguro desde el primer día. Muy recomendado para iniciarse en PHP con las mejores prácticas del estándar actual.",
+    "temas": [
+      "PHP 8.2",
+      "Tipado Estricto",
+      "PDO",
+      "POO en PHP",
+      "Constructores Promovidos",
+      "Fundamentos",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web de Registro y Consulta de Usuarios con PDO",
+        "descripcion": "Desarrollo de un sistema con formularios validados, tipado estricto de datos y almacenamiento relacional seguro con sentencias preparadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-9985-2"
+    ]
+  },
+  "beginning-laravel-2016": {
+    "descripcion": "Guía práctica de iniciación escrita por Sanjib Sinha y publicada por Apress en 2016. Enseña a construir aplicaciones web elegantes y estructuradas utilizando el framework PHP Laravel 5.\n\nCubre la arquitectura MVC, enrutamiento, controladores, vistas con el motor de plantillas Blade, el ORM Eloquent para gestión de bases de datos mediante modelos y migraciones, validación de formularios y autenticación nativa de usuarios.\n\nA través de ejemplos paso a paso, el autor muestra cómo aprovechar la expresividad de Laravel para acelerar el desarrollo sin sacrificar la organización del código. Muy útil para desarrolladores noveles en Laravel.",
+    "temas": [
+      "Laravel 5",
+      "Eloquent ORM",
+      "Blade",
+      "MVC",
+      "Migraciones",
+      "Enrutamiento",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Blog y Publicaciones con Laravel 5",
+        "descripcion": "Construcción de una aplicación web con autenticación de autores, operaciones CRUD en Eloquent y plantillas Blade responsivas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2495-3"
+    ]
+  },
+  "beginning-laravel-2nd-edition-2019": {
+    "descripcion": "Segunda edición actualizada por Sanjib Sinha, publicada por Apress en 2019. Adapta el aprendizaje de Laravel a sus versiones 5.8 y 6 LTS, incorporando mejoras arquitectónicas modernas.\n\nExplora la inyección de dependencias y el Service Container, Middlewares, eventos y listeners, políticas de autorización (Gates y Policies), notificaciones por correo y bases de datos relacionales con Eloquent y Factory/Seeder.\n\nEl autor guía la construcción de un sistema de gestión de tareas y usuarios con cobertura de pruebas unitarias básicas. Una excelente guía para consolidar las bases del desarrollo profesional con Laravel.",
+    "temas": [
+      "Laravel 6",
+      "Service Container",
+      "Gates y Policies",
+      "Eloquent",
+      "Middlewares",
+      "Blade",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Gestión de Tareas Multi-Rol con Laravel 6",
+        "descripcion": "Desarrollo de una aplicación con roles de usuario, permisos basados en policies, notificaciones automáticas y base de datos relacional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4991-8"
+    ]
+  },
+  "beginning-php-and-mysql-e-commerce-2nd-edition-2008": {
+    "descripcion": "Segunda edición del aclamado manual de Cristian Darie y Emilian Balanescu, publicado por Apress en 2008. Es la guía canónica sobre la construcción desde cero de una tienda virtual completa y profesional con PHP y MySQL.\n\nCubre el diseño de la base de datos relacional del catálogo, paginación eficiente de productos, carrito de compras persistente, integración con pasarelas de pago (PayPal, Authorize.Net), panel de administración con estadísticas y optimización SEO de URLs.\n\nLos autores guían al lector a través de una arquitectura en tres capas con orientación a objetos y separación estricta de responsabilidades. Una de las obras de comercio electrónico más completas y formativas de la época.",
+    "temas": [
+      "E-Commerce",
+      "PHP 5",
+      "MySQL",
+      "PayPal API",
+      "Carrito de Compras",
+      "SEO",
+      "Arquitectura en Capas",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tienda Virtual BalloonShop con Catálogo y Pasarela PayPal",
+        "descripcion": "Construcción completa de una plataforma comercial con catálogo multinivel, carrito de compras, pasarela de pago y panel de administración."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-0556-2"
+    ]
+  },
+  "beginning-php-and-mysql-4th-edition-2010": {
+    "descripcion": "Cuarta edición del monumental tratado de W. Jason Gilmore, publicado por Apress en 2010. Con casi 800 páginas, es una de las enciclopedias formativas más completas sobre la integración de PHP 5.3 y MySQL.\n\nExplora la sintaxis integral del lenguaje, orientación a objetos con namespaces y closures de PHP 5.3, manejo avanzado de errores y excepciones, conexión segura mediante PDO, optimización de consultas SQL, creación de servicios web con REST/SOAP y desarrollo de extensiones seguras.\n\nAcompaña las explicaciones con casos de uso realistas y patrones de diseño corporativos. Una referencia enciclopédica clásica imprescindible para comprender el ecosistema profesional de PHP.",
+    "temas": [
+      "PHP 5.3",
+      "MySQL",
+      "W. Jason Gilmore",
+      "Namespaces",
+      "PDO",
+      "Closures",
+      "Seguridad Web",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Gestión Empresarial con PHP 5.3 y MySQL",
+        "descripcion": "Diseño de un sistema de intranet con autenticación basada en roles, capa de persistencia PDO y reportes dinámicos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-3115-8"
+    ]
+  },
+  "building-real-time-marvels-with-laravel-2023": {
+    "descripcion": "Manual práctico especializado escrito por Sivaraj Selvaraj y publicado por Apress en 2023. Enseña a diseñar y construir aplicaciones web en tiempo real altamente interactivas con Laravel, WebSockets y tecnologías modernas.\n\nCubre la transmisión de eventos con Laravel Broadcasting, integración con servidores WebSocket como Laravel WebSockets y Pusher, sincronización de interfaz reactiva mediante Laravel Echo y Livewire, y optimización de rendimiento con colas en Redis.\n\nA través del desarrollo de un chat en vivo, notificaciones push instantáneas y tableros interactivos de colaboración, el autor enseña cómo transformar interfaces tradicionales en experiencias en tiempo real fluidas. Esencial para desarrolladores modernos de Laravel.",
+    "temas": [
+      "Laravel Tiempo Real",
+      "WebSockets",
+      "Laravel Echo",
+      "Livewire",
+      "Redis Queues",
+      "Broadcasting",
+      "Pusher",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Colaboración y Chat en Tiempo Real con Laravel",
+        "descripcion": "Construcción de un sistema con salas de chat en vivo, tableros colaborativos y notificaciones instantáneas mediante WebSockets y Redis."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-9273-0"
+    ]
+  },
+  "design-patterns-in-php-and-laravel-2016": {
+    "descripcion": "Guía especializada de Kelt Dockins publicada por Apress en 2016. Analiza cómo los patrones de diseño clásicos de la ingeniería de software (GoF y empresariales) se implementan en PHP moderno y se reflejan en el código fuente de Laravel.\n\nExplora patrones creacionales (Factory, Builder, Singleton), estructurales (Adapter, Facade, Decorator, Proxy) y de comportamiento (Strategy, Observer, Command, Repository). Muestra cómo Laravel utiliza estos patrones en su Service Container, Facades y Eloquent.\n\nEl autor acompaña cada patrón con diagramas UML y ejemplos de código comparativos entre PHP puro y Laravel. Muy recomendado para desarrolladores que desean elevar la calidad arquitectónica de sus aplicaciones.",
+    "temas": [
+      "Design Patterns",
+      "PHP",
+      "Laravel",
+      "Patrones GoF",
+      "Repository Pattern",
+      "Service Container",
+      "Facades",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de Servicios con Patrones Repository y Factory en Laravel",
+        "descripcion": "Diseño de un módulo de facturación desacoplado utilizando abstracciones de repositorios, fábricas de servicios e inyección de dependencias."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2492-2"
+    ]
+  },
+  "domain-driven-laravel-2021": {
+    "descripcion": "Tratado técnico avanzado escrito por Jesse Griffin y publicado por Apress en 2021. Enseña a aplicar los principios de Domain-Driven Design (DDD) y arquitectura hexagonal dentro de proyectos de Laravel.\n\nExplora la delimitación de contextos acotados (Bounded Contexts), entidades de dominio, objetos de valor (Value Objects), agregados, repositorios puros, eventos de dominio y la separación radical entre la lógica de negocio y el framework Laravel.\n\nA través de una aplicación empresarial compleja, el autor enseña cómo evitar que los modelos de Eloquent se conviertan en 'God Objects' ingobernables, garantizando la mantenibilidad del software a largo plazo. Una lectura fundamental para tech leads y arquitectos.",
+    "temas": [
+      "DDD",
+      "Domain-Driven Design",
+      "Laravel",
+      "Arquitectura Hexagonal",
+      "Value Objects",
+      "Bounded Contexts",
+      "Clean Architecture",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Empresarial Basada en Domain-Driven Design y Laravel",
+        "descripcion": "Diseño e implementación de un sistema modular con contextos delimitados, lógica de dominio pura y adaptadores desacoplados de Eloquent."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-6680-9"
+    ]
+  },
+  "expert-php-and-mysql-2013": {
+    "descripcion": "Obra maestra de ingeniería técnica escrita por Marc Rochkind y publicada por Apress en 2013. Se sumerge en las técnicas avanzadas para desarrollar software corporativo masivo y de alto rendimiento con PHP y MySQL.\n\nCubre la gestión avanzada de concurrencia y transacciones ACID en MySQL (niveles de aislamiento, bloqueos pesimistas y optimistas), programación orientada a objetos rigurosa con PDO, diseño de APIs REST seguras, generación y firma de tokens criptográficos y profiling de memoria y CPU.\n\nEl autor destaca por un enfoque inflexible en la solidez y la ausencia de fallos, desterrando malas prácticas comunes de la web. Imprescindible para ingenieros senior de backend y arquitectos de bases de datos.",
+    "temas": [
+      "Expert PHP",
+      "MySQL Avanzado",
+      "Transacciones ACID",
+      "Concurrencia",
+      "Bloqueos SQL",
+      "Seguridad Criptográfica",
+      "PDO",
+      "Apress"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor Transaccional de Alta Concurrencia con PHP y MySQL",
+        "descripcion": "Implementación de un sistema de reservas bancarias con control estricto de carreras de datos, transacciones atómicas y logging de auditoría."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-6003-5"
+    ]
+  },
+  "learn-php-7-2015": {
+    "descripcion": "Manual formativo escrito por Steve Prettyman y publicado por Apress en 2015. Celebra la histórica revolución de PHP 7.0, introduciendo las nuevas características y el asombroso salto de rendimiento del motor Zend Engine 3.\n\nCubre las declaraciones de tipos escalares (int, string, float, bool), tipos de retorno de funciones, el operador de fusión de null (`??`), el operador nave espacial (`<=>`), clases anónimas, gestión de errores con la jerarquía `Throwable` y funciones criptográficas seguras.\n\nAcompaña las explicaciones con ejemplos de código comparativos frente a PHP 5.x. Ideal para desarrolladores que desean actualizar sus conocimientos a la era moderna de PHP.",
+    "temas": [
+      "PHP 7.0",
+      "Steve Prettyman",
+      "Zend Engine 3",
+      "Tipos Escalares",
+      "Throwable",
+      "Operador Fusión Null",
+      "Rendimiento",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1730-6"
+    ]
+  },
+  "php-7-quick-scripting-reference-2nd-edition-2016": {
+    "descripcion": "Segunda edición de la guía de referencia rápida de Mikael Olsson, publicada por Apress en 2016. Condensa la sintaxis completa, funciones clave y reglas semánticas de PHP 7 en un formato conciso y de consulta inmediata.\n\nOrganizado en secciones breves, cubre tipos de variables, operadores, estructuras de control, funciones, arrays, orientación a objetos completa, herencia, interfaces, traits, namespaces y manejo de excepciones.\n\nSu diseño sintético permite localizar la sintaxis exacta de cualquier elemento del lenguaje en segundos. Una herramienta de escritorio sumamente práctica para programadores de PHP.",
+    "temas": [
+      "Referencia Rápida",
+      "PHP 7",
+      "Mikael Olsson",
+      "Sintaxis",
+      "POO",
+      "Traits",
+      "Namespaces",
+      "Apress"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1952-2"
+    ]
+  },
+  "php-7-solutions-4th-edition-2019": {
+    "descripcion": "Cuarta edición del prestigioso clásico de soluciones prácticas de David Powers, publicado por Apress en 2019. Enseña a construir sitios web dinámicos, seguros y elegantes utilizando PHP 7.x y MySQL.\n\nCubre el procesamiento seguro de formularios, subida y validación de archivos, envío de correos electrónicos con PHPMailer, conexión relacional con PDO, paginación de resultados, autenticación con contraseñas cifradas y sesiones seguras.\n\nDavid Powers destaca por su redacción amena y su atención obsesiva a la seguridad web y a la experiencia del usuario. Una de las guías más recomendadas y confiables para el desarrollo web cotidiano en PHP.",
+    "temas": [
+      "PHP 7 Solutions",
+      "David Powers",
+      "PDO",
+      "PHPMailer",
+      "Seguridad Web",
+      "Formularios",
+      "MySQL",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Web de Galería Fotográfica y Gestión con PHP 7 y PDO",
+        "descripcion": "Desarrollo completo de un sitio web con panel de administración, subida múltiple de imágenes, generación de miniaturas y base de datos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4337-4"
+    ]
+  },
+  "php-8-objects-patterns-and-practice-volume-1-2nd-edition-2024": {
+    "descripcion": "Segunda edición del primer volumen de la obra cumbre de Matt Zandstra, publicada por Apress en 2024. Es el tratado de referencia indiscutible sobre la programación orientada a objetos en PHP 8 moderno (PHP 8.2/8.3).\n\nExplora la sintaxis avanzada de objetos: constructores promovidos, tipos de unión e intersección, enums tipados, propiedades de solo lectura (`readonly`), atributos (Attributes/anotaciones), interfaces, traits y reflexión profunda.\n\nMatt Zandstra combina rigor conceptual con código elegante y diáfano que demuestra cómo diseñar software robusto y comprobable. La lectura más prestigiosa y formativa sobre orientación a objetos en el ecosistema PHP contemporáneo.",
+    "temas": [
+      "PHP 8 Moderno",
+      "Matt Zandstra",
+      "POO Avanzada",
+      "Enums",
+      "Attributes",
+      "Readonly",
+      "Tipos de Unión",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework de Dominio Tipado con Enums y Atributos en PHP 8",
+        "descripcion": "Diseño de un motor de validación de reglas de negocio que utiliza atributos personalizados y reflexión estricta de tipos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-9956-2"
+    ]
+  },
+  "php-8-objects-patterns-and-practice-volume-2-2nd-edition-2025": {
+    "descripcion": "Segundo volumen de la obra maestra de Matt Zandstra, publicado por Apress a principios de 2025. Se especializa en los patrones de diseño y las prácticas de ingeniería corporativa para PHP 8 moderno.\n\nAnaliza la implementación de patrones GoF clásicos y empresariales (Factory, Strategy, Observer, Decorator, Unit of Work, Identity Map), inyección de dependencias, automatización de pruebas con PHPUnit 10+, gestión de paquetes con Composer y flujos de integración continua (CI/CD).\n\nOfrece análisis minuciosos de arquitectura de software para proyectos de gran envergadura. Indispensable para ingenieros senior, arquitectos de software y líderes de equipo que operan en PHP.",
+    "temas": [
+      "Patrones de Diseño",
+      "Matt Zandstra",
+      "PHP 8",
+      "PHPUnit 10",
+      "Composer",
+      "Unit of Work",
+      "CI/CD",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura Empresarial con Patrones de Persistencia y PHPUnit",
+        "descripcion": "Construcción de una capa de persistencia desacoplada con Unit of Work, Identity Map y suite integral de pruebas automatizadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-9959-3"
+    ]
+  },
+  "php-arrays-2016": {
+    "descripcion": "Monografía técnica escrita por Steve Prettyman y publicada por Apress en 2016. Se centra exclusivamente en el dominio de las estructuras de datos basadas en arrays en el lenguaje PHP.\n\nCubre la manipulación exhaustiva de arrays indexados, asociativos y multidimensionales, funciones nativas de ordenación y filtrado (`array_map`, `array_filter`, `array_reduce`), algoritmos de búsqueda, serialización de datos y consideraciones de rendimiento y memoria en PHP 7.\n\nEl autor proporciona decenas de ejemplos prácticos y trucos de optimización para transformar y depurar colecciones complejas. Una guía de consulta especializada muy útil.",
+    "temas": [
+      "PHP Arrays",
+      "Steve Prettyman",
+      "array_map",
+      "array_reduce",
+      "Estructuras de Datos",
+      "Optimización",
+      "Colecciones",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2544-8"
+    ]
+  },
+  "php-beyond-the-web-2016": {
+    "descripcion": "Obra innovadora escrita por Rob Aley y publicada por Apress en 2016. Demuestra que PHP es un lenguaje de programación de propósito general capaz de resolver tareas mucho más allá de los servidores web.\n\nExplora la creación de scripts de automatización del sistema, herramientas de línea de comandos interactivas (CLI), daemons en segundo plano, procesamiento de audio y vídeo con FFmpeg, control de hardware y puertos serie, y desarrollo de aplicaciones de escritorio con interfaces gráficas.\n\nEl autor contagia su entusiasmo por la versatilidad de PHP, derribando prejuicios históricos con proyectos funcionales sorprendentes. Muy estimulante para desarrolladores creativos.",
+    "temas": [
+      "PHP Más Allá de la Web",
+      "Rob Aley",
+      "CLI",
+      "Daemons",
+      "FFmpeg",
+      "Hardware",
+      "Desktop Apps",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Daemon de Automatización y Procesamiento Multimedia con PHP",
+        "descripcion": "Construcción de un servicio en segundo plano para monitorización de carpetas y conversión automática de vídeo con FFmpeg."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2481-6"
+    ]
+  },
+  "php-by-example-2024": {
+    "descripcion": "PHP by Example: A Practical Guide to Creating Web Applications with PHP es un libro de Alex Vasilev (Oleksii Vasyliev) publicado por Apress en junio de 2024. Vasilev es profesor de sistemas y tecnologías de software en la Universidad Nacional Taras Shevchenko de Kiev, lleva veinte años enseñando programación y ha escrito más de treinta libros en Ucrania; este es el primero que publica directamente en inglés. Es una introducción guiada por ejemplos para quien tiene poca experiencia previa y quiere aprender PHP con vistas al desarrollo web. Se escribió con PHP 8 como versión actual, aunque el autor procura que las explicaciones sirvan para las últimas versiones del lenguaje.\n\nEl primer capítulo explica cómo ejecutar un programa PHP tanto con el intérprete en la línea de comandos como a través de un servidor. Después vienen las variables y los tipos de datos con todos los operadores, las sentencias de control (if, while, do-while, for, switch, goto y la expresión match), los arrays y sus funciones, y las funciones: tipos de argumentos y resultado, paso por referencia, valores por defecto, número variable de argumentos, recursión, eval(), funciones anónimas y argumentos con nombre. Un capítulo reúne recursos útiles: referencias, constantes, variables globales y estáticas, cadenas multilínea, archivos e inclusión de ficheros. La parte de orientación a objetos trata clases y objetos, constructores y destructores, miembros estáticos y privados, métodos especiales, herencia, clases abstractas, interfaces, traits, espacios de nombres y clases anónimas. Siguen el manejo de errores y excepciones, los generadores e iteradores y un capítulo final que integra PHP en documentos HTML y procesa parámetros de peticiones con botones, listas, casillas, deslizadores y botones de opción.\n\nEs un libro de iniciación al lenguaje, no de desarrollo profesional: no trata bases de datos, Composer, frameworks como Laravel o Symfony, ni seguridad o pruebas automatizadas, aunque la editorial mencione las pruebas. Su punto fuerte son los listados cortos y explicados, disponibles en el repositorio oficial de Apress.",
+    "temas": [
+      "PHP 8",
+      "Sintaxis de PHP",
+      "Control de flujo y match",
+      "Arrays",
+      "Funciones y argumentos con nombre",
+      "Programación orientada a objetos",
+      "Traits e interfaces",
+      "Excepciones",
+      "Generadores e iteradores",
+      "Formularios HTML"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/979-8-8688-0258-4",
+      "https://github.com/Apress/PHP-by-Example"
+    ]
+  },
+  "php-cli-2016": {
+    "descripcion": "Guía especializada de Rob Aley publicada por Apress en 2016. Enseña a dominar la interfaz de línea de comandos (CLI) de PHP para la creación de herramientas de terminal profesionales y scripts de administración de sistemas.\n\nCubre el procesamiento de argumentos de terminal (`$argv`, `getopt`), lectura y escritura en flujos estándar (`stdin`, `stdout`, `stderr`), formateo de texto y colores ANSI, gestión de procesos en segundo plano y señales del sistema operativo (PCNTL y POSIX).\n\nA través de ejemplos reales, el autor demuestra cómo construir utilidades de terminal robustas y sustituir Bash o Python en tareas de administración. Muy valorado por ingenieros de DevOps y administradores de sistemas.",
+    "temas": [
+      "PHP CLI",
+      "Rob Aley",
+      "PCNTL",
+      "POSIX",
+      "stdin stdout",
+      "ANSI Colors",
+      "Automatización",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Herramienta CLI Interactiva de Diagnóstico del Sistema en PHP",
+        "descripcion": "Construcción de una utilidad de terminal con menús de opciones, barras de progreso y gestión de señales de interrupción del SO."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2238-6"
+    ]
+  },
+  "php-development-tool-essentials-2016": {
+    "descripcion": "Guía práctica de productividad escrita por Chad Russell y publicada por Apress en 2016. Explora las herramientas y el ecosistema esencial que utilizan los ingenieros profesionales de PHP para maximizar su eficiencia.\n\nCubre la gestión de dependencias con Composer, entornos de desarrollo virtualizados con Vagrant y Docker, depuración avanzada con Xdebug en PHPStorm, análisis estático de código con PHP_CodeSniffer y PHPMD, y pruebas automatizadas con PHPUnit.\n\nEl autor enseña a configurar un entorno de desarrollo profesional libre de fricciones. Muy recomendable para programadores que buscan estandarizar y profesionalizar su flujo de trabajo en PHP.",
+    "temas": [
+      "Herramientas PHP",
+      "Composer",
+      "Xdebug",
+      "PHPUnit",
+      "Docker",
+      "PHPStorm",
+      "PHP_CodeSniffer",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline Automatizado de Calidad y Testing para Proyectos PHP",
+        "descripcion": "Configuración de un entorno con Composer, análisis estático de código, cobertura de pruebas con Xdebug y contenedores Docker."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2253-9"
+    ]
+  },
+  "php-for-absolute-beginners-2nd-edition-2014": {
+    "descripcion": "Segunda edición del popular manual introductorio de Jason Lengstorf, publicado por Apress en 2014. Diseñado como una guía extraordinariamente amigable para quienes nunca antes han programado.\n\nExplica desde qué es un servidor web hasta la sintaxis básica de PHP: variables, cadenas, condicionales, bucles, funciones, formularios HTML, procesamiento de datos y almacenamiento elemental en MySQL.\n\nJason Lengstorf utiliza un lenguaje claro, libre de tecnicismos intimidantes y lleno de analogías comprensibles. Es una de las mejores opciones para dar los primeros pasos en el desarrollo web con PHP.",
+    "temas": [
+      "PHP para Principiantes",
+      "Jason Lengstorf",
+      "HTML y PHP",
+      "Formularios",
+      "MySQL Básico",
+      "Variables",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio Web Interactivo con Formularios y Base de Datos en PHP",
+        "descripcion": "Desarrollo paso a paso de un portal personal con formulario de comentarios, validación básica y almacenamiento relacional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-6864-2"
+    ]
+  },
+  "php-objects-patterns-and-practice-4th-edition-2013": {
+    "descripcion": "Cuarta edición de la prestigiosa obra clásica de Matt Zandstra, publicada por Apress en 2013. Es el texto canónico que sentó las bases de la ingeniería de software orientada a objetos en PHP 5.4/5.5.\n\nExplora la sintaxis de clases, interfaces, traits, reflexión, la aplicación de los patrones de diseño GoF clásicos (Factory, Composite, Decorator, Strategy, Observer) y las herramientas de automatización de construcción y testing como Phing y PHPUnit.\n\nLa claridad didáctica y el rigor de Matt Zandstra inspiraron a toda una generación de desarrolladores a profesionalizar el código PHP corporativo. Una lectura clásica de inmenso valor histórico y formativo.",
+    "temas": [
+      "POO Clásica",
+      "Matt Zandstra",
+      "Patrones GoF",
+      "Traits",
+      "PHPUnit",
+      "Reflexión",
+      "Arquitectura",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de Reglas de Facturación con Patrones Composite y Strategy",
+        "descripcion": "Diseño de un sistema de cálculo de costes y tarifas altamente extensible basado en composición de objetos y pruebas PHPUnit."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-6032-5"
+    ]
+  },
+  "php-solutions-3rd-edition-2014": {
+    "descripcion": "Tercera edición de la célebre guía práctica de David Powers, publicada por Apress en 2014. Ofrece soluciones directas y código probado para resolver los retos cotidianos del diseño de sitios web dinámicos con PHP 5.5 y MySQL.\n\nCubre la creación de formularios seguros, validación de datos, subida de archivos múltiples, generación de miniaturas dinámicas con la biblioteca GD, envío de correos con PHPMailer y persistencia con PDO.\n\nEl autor destaca por explicar no solo cómo resolver los problemas, sino por qué se eligen determinadas soluciones para prevenir vulnerabilidades de seguridad. Una referencia de consulta permanente muy apreciada.",
+    "temas": [
+      "PHP Solutions",
+      "David Powers",
+      "PDO",
+      "Biblioteca GD",
+      "PHPMailer",
+      "Seguridad Web",
+      "Formularios",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Publicación de Noticias y Galería de Imágenes en PHP",
+        "descripcion": "Construcción completa de una web informativa con gestión de artículos, carga segura de fotos y base de datos relacional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-6014-1"
+    ]
+  },
+  "practical-php-7-mysql-8-and-mariadb-website-databases-2018": {
+    "descripcion": "Manual exhaustivo y actualizado escrito por Adrian W. West y Steve Prettyman, publicado por Apress en 2018. Enseña a diseñar, conectar y optimizar bases de datos para la web utilizando PHP 7, MySQL 8 y MariaDB.\n\nCubre el diseño y normalización de esquemas relacionales, consultas complejas con JOINs y funciones de agregación, acceso a datos seguro mediante PDO y sentencias preparadas, autenticación con hashing seguro y prevención de ataques de inyección.\n\nA través del desarrollo gradual de un portal de comercio y reservas, los autores muestran cómo coordinar el backend en PHP con las últimas características de MySQL 8. Muy formativo para analistas y programadores web.",
+    "temas": [
+      "PHP 7",
+      "MySQL 8",
+      "MariaDB",
+      "PDO",
+      "Normalización",
+      "Seguridad Web",
+      "Sentencias Preparadas",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal de Reservas Comerciales con PHP 7 y MySQL 8",
+        "descripcion": "Construcción integral de un sistema de reservas con transacciones seguras en MySQL 8, capa PDO y validación estricta de usuarios."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3834-9"
+    ]
+  },
+  "practical-php-and-mysql-website-databases-2013": {
+    "descripcion": "Guía práctica escrita por Adrian W. West y publicada por Apress en 2013. Se centra en el diseño eficiente de bases de datos relacionales y su integración con PHP para aplicaciones web.\n\nExplora los fundamentos del modelado relacional, claves primarias y foráneas, consultas SQL optimizadas, la extensión mysqli y la transición hacia PDO, y técnicas de diseño de interfaces web para manipulación de datos CRUD.\n\nEl autor utiliza un estilo directo con ejemplos de negocio cotidianos que facilitan la comprensión del almacenamiento estructurado. Una referencia introductoria sólida para estudiantes de desarrollo web.",
+    "temas": [
+      "Bases de Datos Web",
+      "PHP",
+      "MySQL",
+      "CRUD",
+      "Modelado Relacional",
+      "mysqli",
+      "PDO",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de Registro y Gestión de Inventario en PHP y MySQL",
+        "descripcion": "Desarrollo de un panel de control para inventario comercial con validación de datos y operaciones CRUD sobre MySQL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-6076-9"
+    ]
+  },
+  "pro-functional-php-programming-2017": {
+    "descripcion": "Monografía innovadora escrita por Rob Aley y publicada por Apress en 2017. Explora la aplicación de los principios de la programación funcional dentro del lenguaje PHP 7.\n\nCubre funciones de primera clase, funciones anónimas y closures, funciones puras sin efectos secundarios, inmutabilidad de datos, currificación y aplicación parcial, recursión y trampolines, y procesamiento declarativo de colecciones con transformaciones funcionales.\n\nEl autor demuestra cómo escribir código más predecible, elegante y fácilmente comprobable adoptando técnicas funcionales en proyectos PHP cotidianos. Una lectura muy estimulante para ampliar horizontes técnicos.",
+    "temas": [
+      "Programación Funcional",
+      "PHP 7",
+      "Rob Aley",
+      "Closures",
+      "Funciones Puras",
+      "Inmutabilidad",
+      "Currying",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Librería de Combinadores y Transformación Funcional en PHP",
+        "descripcion": "Implementación de tipos puros de datos y operadores funcionales para procesamiento declarativo de colecciones sin efectos secundarios."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2957-6"
+    ]
+  },
+  "pro-php-and-jquery-2010": {
+    "descripcion": "Manual exhaustivo escrito por Jason Lengstorf y publicado por Apress en 2010. Enseña a fusionar la robustez del backend en PHP con la interactividad dinámica y rica de jQuery en el navegador.\n\nCubre el diseño de servicios web JSON en PHP, peticiones asíncronas Ajax con jQuery, manipulación avanzada del DOM, validación de formularios en tiempo real, efectos visuales y creación de plugins reutilizables de jQuery.\n\nA través de la construcción de una aplicación web completa de calendario y agenda de eventos, el autor muestra cómo sincronizar el estado del cliente con la base de datos MySQL en segundo plano. Una lectura clásica sobre la era dorada de jQuery y PHP.",
+    "temas": [
+      "PHP",
+      "jQuery",
+      "Jason Lengstorf",
+      "Ajax",
+      "JSON",
+      "MySQL",
+      "Fullstack",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Agenda y Calendario de Eventos Interactivo con PHP y jQuery",
+        "descripcion": "Construcción de una aplicación con interfaz dinámica que guarda y actualiza eventos en MySQL mediante llamadas Ajax asíncronas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-2848-6"
+    ]
+  },
+  "pro-php-mvc-2012": {
+    "descripcion": "Tratado técnico avanzado escrito por Chris Pitt y publicado por Apress en 2012. Desgrana en detalle los principios arquitectónicos del patrón Modelo-Vista-Controlador (MVC) construyendo un framework propio desde cero en PHP 5.4.\n\nExplora el enrutamiento HTTP y despacho de peticiones, diseño de contenedores de inyección de dependencias, abstracción de modelos con Active Record y Data Mapper, motores de plantillas y desacoplamiento de capas mediante interfaces y eventos.\n\nEl autor fomenta un entendimiento íntimo de la fontanería de frameworks como Symfony, Laravel o Zend, permitiendo al desarrollador dejar de verlos como 'cajas negras'. Esencial para arquitectos de software en PHP.",
+    "temas": [
+      "PHP MVC",
+      "Chris Pitt",
+      "Framework from Scratch",
+      "Inyección de Dependencias",
+      "Data Mapper",
+      "Active Record",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework Web MVC Construido desde Cero en PHP",
+        "descripcion": "Implementación de un núcleo de framework con router basado en expresiones regulares, controlador frontal y ORM Data Mapper."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-4907-8"
+    ]
+  },
+  "pro-php-programming-2011": {
+    "descripcion": "Monumental tratado técnico de Peter MacIntyre, Brian Danchilla y Mladen Gogala, publicado por Apress en 2011. Con más de 680 páginas, ofrece una formación técnica avanzada para desarrolladores profesionales de PHP 5.3.\n\nCubre la orientación a objetos avanzada, diseño de APIs con namespaces, optimización de memoria y uso de SPL (Standard PHP Library), conexión con bases de datos relacionales y Oracle con extensiones optimizadas, y securización de sesiones y transacciones.\n\nLos autores aportan décadas de experiencia en entornos empresariales de gran escala, abordando problemas reales de rendimiento y arquitectura. Una de las obras de referencia más sólidas de la era de PHP 5.",
+    "temas": [
+      "Pro PHP",
+      "PHP 5.3",
+      "SPL",
+      "Oracle y MySQL",
+      "Namespaces",
+      "Rendimiento",
+      "Seguridad",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de Acceso a Datos Empresarial con SPL y PDO",
+        "descripcion": "Diseño de un motor de acceso a datos con iteradores SPL personalizados, soporte para múltiples motores SQL y transacciones."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-3560-6"
+    ]
+  },
+  "pro-zend-framework-techniques-2009": {
+    "descripcion": "Guía especializada escrita por Forrest Lyman y publicada por Apress en 2009. Se enfoca en técnicas avanzadas de desarrollo empresarial utilizando Zend Framework 1 (ZF1).\n\nExplora la arquitectura MVC de Zend, enrutamiento avanzado, diseño de plugins de controlador, integración de formularios con Zend_Form, persistencia con Zend_Db y Zend_Db_Table, autenticación y listas de control de acceso (Zend_Auth y Zend_Acl), y optimización de caché con Zend_Cache.\n\nA través del desarrollo de un portal corporativo complejo, enseña a aprovechar la arquitectura desacoplada 'use-at-will' de Zend. Esencial para comprender los cimientos de los frameworks PHP corporativos.",
+    "temas": [
+      "Zend Framework",
+      "ZF1",
+      "Zend_Acl",
+      "Zend_Auth",
+      "Zend_Db",
+      "MVC",
+      "Arquitectura Empresarial",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Corporativo con Control de Acceso Basado en Roles (Zend_Acl)",
+        "descripcion": "Construcción de una plataforma modular con autenticación segura, permisos granulares y almacenamiento en caché con Zend Framework."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-2495-2"
+    ]
+  },
+  "typed-php-2016": {
+    "descripcion": "Monografía vanguardista escrita por Christopher Pitt y publicada por Apress en 2016. Explora la evolución hacia el tipado estricto en el ecosistema PHP 7 y herramientas como Hack/HHVM y analizadores estáticos.\n\nCubre las declaraciones de tipos escalares, tipos de retorno, análisis estático de código con PHPStan y Phan, diseño guiado por tipos (Type-Driven Development), y cómo el tipado estático previene clases enteras de bugs en tiempo de ejecución.\n\nEl autor fomenta un estilo de programación limpio, predecible y autodocumentado que transforma la fiabilidad de bases de código grandes. Muy recomendado para desarrolladores interesados en la calidad y robustez del código.",
+    "temas": [
+      "Typed PHP",
+      "Christopher Pitt",
+      "PHP 7",
+      "Tipado Estricto",
+      "PHPStan",
+      "Phan",
+      "Type-Driven Development",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework de Dominio Fuertemente Tipado con Análisis Estático",
+        "descripcion": "Diseño de un motor de lógica empresarial con tipos estrictos validado al 100% mediante reglas estrictas de PHPStan."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2370-3"
+    ]
+  },
+  "php-in-action-2007": {
+    "descripcion": "Obra maestra fundacional escrita por Dagfinn Reiersøl, Marcus Baker (creador de SimpleTest) y Chris Shiflett, publicada por Manning en 2007. Fue el libro pionero que introdujo el diseño orientado a objetos y el TDD en PHP.\n\nCubre la aplicación de principios SOLID, patrones de diseño GoF, desarrollo guiado por pruebas (TDD) con SimpleTest, diseño de objetos de base de datos, seguridad web rigurosa (prevención de CSRF, XSS y fijación de sesiones) y frameworks MVC tempranos.\n\nCon una visión pedagógica rigurosa y adelantada a su tiempo, transformó la reputación de PHP en la industria del software. Una lectura histórica imprescindible para entender las raíces del PHP moderno.",
+    "temas": [
+      "PHP in Action",
+      "TDD",
+      "SimpleTest",
+      "Chris Shiflett",
+      "POO",
+      "Seguridad Web",
+      "Patrones GoF",
+      "Manning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor Web Orientado a Objetos Desarrollado con Metodología TDD",
+        "descripcion": "Implementación de un sistema de gestión de usuarios y pedidos guiado al 100% por pruebas unitarias automatizadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/php-in-action"
+    ]
+  },
+  "zend-framework-in-action-2009": {
+    "descripcion": "Manual exhaustivo y autoritativo escrito por Rob Allen, Nick Lo y Steven Brown, publicado por Manning en 2009. Es la guía canónica sobre el desarrollo de aplicaciones web profesionales con Zend Framework 1.\n\nCubre el ciclo de vida de peticiones HTTP, el controlador frontal, integración de vistas con Zend_View, modelado de datos con Zend_Db y Zend_Db_Table, formularios con validaciones automáticas, envío de correos con Zend_Mail y pruebas automatizadas con PHPUnit.\n\nLos autores guían paso a paso la construcción de una aplicación comercial completa para una tienda de música ('Places'). Considerado el mejor libro de formación práctica publicado sobre Zend Framework.",
+    "temas": [
+      "Zend Framework",
+      "Rob Allen",
+      "Manning",
+      "ZF1",
+      "Zend_View",
+      "Zend_Db",
+      "PHPUnit",
+      "MVC"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web Places con Zend Framework y PHPUnit",
+        "descripcion": "Construcción completa de un portal web con autenticación, persistencia relacional, paginación y suite de pruebas automatizadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/zend-framework-in-action"
+    ]
+  },
+  "plug-in-php-100-power-solutions-2010": {
+    "descripcion": "Recetario práctico escrito por Robin Nixon y publicado por McGraw-Hill en 2010. Proporciona un centenar de soluciones y funciones listas para copiar, pegar e integrar en cualquier sitio web dinámico con PHP.\n\nCubre validación de formularios, manipulación de cadenas y expresiones regulares, redimensionamiento de imágenes, creación de códigos CAPTCHA, envío seguro de correos, gestión de sesiones y cookies, y utilidades de base de datos MySQL.\n\nCada función está documentada de forma independiente para resolver una necesidad técnica inmediata sin obligar al desarrollador a adoptar dependencias pesadas. Muy popular entre diseñadores web y programadores prácticos.",
+    "temas": [
+      "Plug-in PHP",
+      "Robin Nixon",
+      "Recetas",
+      "CAPTCHA",
+      "Imágenes",
+      "Formularios",
+      "MySQL",
+      "McGraw-Hill"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.mhprofessional.com/plug-in-php-100-power-solutions-simple-solutions-to-practical-php-problems-9780071714785-usa"
+    ]
+  },
+  "integrating-php-with-windows-2011": {
+    "descripcion": "Guía especializada escrita por Arno Hollosi y publicada por Microsoft Press / O'Reilly en 2011. Enseña a desplegar, optimizar e integrar aplicaciones PHP dentro del ecosistema empresarial de Microsoft Windows Server e IIS.\n\nCubre la configuración de FastCGI en IIS 7/7.5, integración con bases de datos Microsoft SQL Server mediante los controladores oficiales de Microsoft para PHP, autenticación integrada con Active Directory / LDAP, y optimización con WinCache.\n\nEl autor proporciona pautas minuciosas para administradores de sistemas y desarrolladores corporativos que operan en infraestructuras basadas en Windows. Una obra única sobre la convergencia entre PHP y Microsoft.",
+    "temas": [
+      "PHP en Windows",
+      "IIS",
+      "FastCGI",
+      "SQL Server",
+      "Active Directory",
+      "WinCache",
+      "LDAP",
+      "Microsoft"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Intranet PHP Integrada con Active Directory y SQL Server",
+        "descripcion": "Despliegue corporativo en IIS con autenticación única de Windows y consultas aceleradas sobre Microsoft SQL Server."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/integrating-php-with/9780735661134/"
+    ]
+  },
+  "webbots-spiders-and-screen-scrapers-2007": {
+    "descripcion": "Fascinante tratado práctico de Michael Schrenk publicado por No Starch Press en 2007. Enseña a construir bots automatizados, rastreadores web (crawlers) y sistemas de screen scraping utilizando PHP y cURL.\n\nCubre la navegación programática por la web, descarga y parseo de HTML con expresiones regulares y DOM, simulación de cookies y sesiones de usuario, resolución de formularios interactivos, agregación de datos de precios y prevención de bloqueos.\n\nEl autor estructura el contenido con ejemplos reales y divertidos, incluyendo consideraciones éticas y legales del rastreo de datos. Un clásico de culto venerado por especialistas en automatización y web scraping.",
+    "temas": [
+      "Web Scraping",
+      "Michael Schrenk",
+      "No Starch Press",
+      "cURL",
+      "Webbots",
+      "Crawlers",
+      "Automatización",
+      "PHP"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Rastreador Automatizado de Precios y Agregador de Datos con PHP",
+        "descripcion": "Construcción de un bot web con cURL que navega por tiendas virtuales, parsea catálogos y almacena históricos de precios."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/webbots.htm"
+    ]
+  },
+  "wicked-cool-php-2008": {
+    "descripcion": "Recetario ingenioso y desenfadado escrito por William Steinmetz y Brian Ward, publicado por No Starch Press en 2008. Recoge más de 75 scripts prácticos y creativos para resolver problemas cotidianos de desarrollo web con PHP.\n\nCubre procesamiento de texto, seguridad web (protección contra spammers, filtrado de entradas), manipulación dinámica de gráficos y marcas de agua, automatización de tareas del servidor, integración con APIs externas y generación de contenidos dinámicos.\n\nFiel al estilo entretenido de No Starch Press, ofrece código directo y funcional con explicaciones lúcidas. Una lectura muy amena y provechosa para enriquecer cualquier caja de herramientas web.",
+    "temas": [
+      "Wicked Cool PHP",
+      "No Starch Press",
+      "Scripts Útiles",
+      "Seguridad",
+      "Imágenes GD",
+      "Automatización",
+      "Recetas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/wickedcoolphp.htm"
+    ]
+  },
+  "head-first-php-mysql-2009": {
+    "descripcion": "Manual introductorio visual escrito por Lynn Beighley y Michael Morrison, publicado por O'Reilly en 2009. Aplica la célebre pedagogía multiformato de Head First para enseñar desarrollo web dinámico con PHP y MySQL a principiantes.\n\nCubre la sintaxis básica de PHP, conexión a bases de datos relacionales con MySQL, creación y procesamiento de formularios, cookies y sesiones seguras, subida de imágenes, envío de correos y prevención de ataques de inyección SQL.\n\nRepleto de acertijos, diagramas visuales, historias gráficas y proyectos lúdicos (como un tablero de puntuaciones de videojuegos y una red de citas para extraterrestres). El recurso formativo más visual y amigable para iniciarse en la web dinámica.",
+    "temas": [
+      "Head First",
+      "PHP y MySQL",
+      "O'Reilly",
+      "Lynn Beighley",
+      "Formularios",
+      "Cookies y Sesiones",
+      "Principiantes"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Tablero de Puntuaciones y Emparejamiento en PHP y MySQL",
+        "descripcion": "Construcción visual paso a paso de un portal interactivo con autenticación, subida de avatares y base de datos relacional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/head-first-php/9780596529321/"
+    ]
+  },
+  "laravel-up-and-running-2016": {
+    "descripcion": "Primera edición de la prestigiosa guía canónica de Matt Stauffer (socio de Tighten), publicada por O'Reilly en 2016. Se convirtió de inmediato en la obra de referencia indiscutible para aprender el framework Laravel (Laravel 5.3).\n\nCubre el ciclo de vida de peticiones HTTP, enrutamiento, controladores, plantillas Blade, el ORM Eloquent en profundidad (relaciones, scopes, eventos), migraciones y seeders, el Service Container, validaciones y pruebas con PHPUnit.\n\nMatt Stauffer enseña con maestría no solo cómo usar las herramientas de Laravel, sino la filosofía de desarrollo ágil que lo caracteriza. Una lectura fundacional para cualquier desarrollador del ecosistema.",
+    "temas": [
+      "Laravel Up and Running",
+      "Matt Stauffer",
+      "O'Reilly",
+      "Eloquent",
+      "Blade",
+      "Service Container",
+      "Laravel 5",
+      "PHPUnit"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Gestión y Catálogo Completa con Laravel 5",
+        "descripcion": "Construcción paso a paso de una aplicación con autenticación, relaciones complejas en Eloquent y pruebas automatizadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/laravel-up-and/9781491936078/"
+    ]
+  },
+  "laravel-up-and-running-2023": {
+    "descripcion": "Tercera edición de la biblia definitiva de Laravel escrita por Matt Stauffer, publicada por O'Reilly en 2023. Actualizada exhaustivamente para cubrir todas las innovaciones de Laravel 10 y PHP 8.2.\n\nExplora la sintaxis contemporánea, componentes Blade, Laravel Livewire, Vite para assets frontend, autenticación con Laravel Breeze y Sanctum, colas asíncronas con Redis y Horizon, tareas programadas, notificaciones multicanal y pruebas con Pest y PHPUnit.\n\nCon más de 500 páginas de explicaciones claras y patrones de producción, es ampliamente considerada la mejor y más completa guía jamás escrita sobre Laravel. Lectura obligatoria para cualquier profesional del framework.",
+    "temas": [
+      "Laravel 10",
+      "Matt Stauffer",
+      "O'Reilly",
+      "Pest PHP",
+      "Livewire",
+      "Sanctum",
+      "Horizon",
+      "Vite",
+      "PHP 8.2"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web Moderna y API SPA con Laravel 10 y Sanctum",
+        "descripcion": "Desarrollo completo de una plataforma con autenticación por tokens Sanctum, colas asíncronas Horizon y testing con Pest."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/laravel-up-and/9781098136390/"
+    ]
+  },
+  "learning-php-design-patterns-2013": {
+    "descripcion": "Manual formativo escrito por William Sanders y publicado por O'Reilly en 2013. Introduce los patrones de diseño orientados a objetos clásicos (GoF) adaptados al lenguaje PHP 5.4.\n\nExplora patrones creacionales (Factory Method, Abstract Factory, Prototype, Singleton), estructurales (Adapter, Bridge, Composite, Decorator, Facade, Proxy) y de comportamiento (Chain of Responsibility, Command, Observer, State, Strategy, Template Method).\n\nEl autor utiliza diagramas UML claros y pequeños proyectos aplicados que permiten entender cómo la separación de responsabilidades facilita la evolución del software. Muy pedagógico para programadores intermedios.",
+    "temas": [
+      "Design Patterns",
+      "William Sanders",
+      "O'Reilly",
+      "Patrones GoF",
+      "UML",
+      "POO en PHP",
+      "Arquitectura Limpia"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Componentes Web con Patrones Observer y Decorator",
+        "descripcion": "Implementación de un sistema de notificaciones y formateo dinámico de contenidos aplicando patrones estructurales y de comportamiento."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-php-design/9781449344900/"
+    ]
+  },
+  "learning-php-mysql-javascript-5th-edition-2019": {
+    "descripcion": "Quinta edición del prestigioso éxito mundial de ventas de Robin Nixon, publicado por O'Reilly en 2019. Es el curso completo de desarrollo web full-stack más popular del mundo, integrando PHP 7, MySQL, JavaScript, CSS y HTML5.\n\nCubre la sintaxis de PHP 7 y POO, diseño y consultas relacionales en MySQL, programación interactiva en JavaScript moderno, llamadas asíncronas con Ajax, diseño responsivo con CSS3 y Canvas de HTML5.\n\nA través del desarrollo gradual de una red social interactiva completa ('Robin's Nest'), enseña cómo se coordinan todas las tecnologías del cliente y del servidor. Una de las obras de iniciación más recomendadas de la historia de la web.",
+    "temas": [
+      "Fullstack Web",
+      "Robin Nixon",
+      "O'Reilly",
+      "PHP 7",
+      "MySQL",
+      "JavaScript",
+      "Ajax",
+      "Robin's Nest"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Red Social Dinámica Robin's Nest con PHP, MySQL y Ajax",
+        "descripcion": "Construcción completa de una red social con perfiles de usuario, mensajería instantánea, subida de avatares y llamadas asíncronas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-php-mysql/9781491978900/"
+    ]
+  },
+  "modern-php-2015": {
+    "descripcion": "Obra histórica y emblemática escrita por Josh Lockhart (creador del framework Slim y fundador de PHP: The Right Way), publicada por O'Reilly en 2015. Marcó el renacimiento moderno de PHP.\n\nExplora las características que transformaron el lenguaje: namespaces, traits, generadores (`yield`), closures, el gestor de dependencias Composer y los estándares PSR de PHP-FIG (PSR-1, PSR-2, PSR-4, PSR-7), buenas prácticas de seguridad (PDO, password hashing nativo) y virtualización con Vagrant.\n\nJosh Lockhart desterró los antiguos clichés de código espagueti de PHP, mostrando cómo escribir software limpio, modular y profesional. Una lectura fundacional indispensable para cualquier programador de PHP.",
+    "temas": [
+      "Modern PHP",
+      "Josh Lockhart",
+      "O'Reilly",
+      "PHP: The Right Way",
+      "Composer",
+      "PSR Standards",
+      "Generadores",
+      "Namespaces"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Micro-Framework Web Modular Cumplidor de Estándares PSR",
+        "descripcion": "Diseño de un servicio web ligero con Composer, autoloading PSR-4, interfaces PSR-7 y hashing seguro de contraseñas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/modern-php/9781491904992/"
+    ]
+  },
+  "php-mysql-the-missing-manual-2nd-edition-2012": {
+    "descripcion": "Segunda edición de la popular guía formativa de Brett McLaughlin, publicada por O'Reilly en 2012. Enseña a construir aplicaciones web dinámicas y sitios basados en datos con un estilo ameno y libre de jerga innecesaria.\n\nCubre la sintaxis básica de PHP, conexión con MySQL mediante la extensión mysqli, diseño de tablas y relaciones, validación de formularios, sesiones de usuario, prevención de inyecciones SQL y despliegue de sitios en servidores web.\n\nEl autor destaca por su pedagogía clara y trucos prácticos para evitar los errores más comunes de los novatos en la web. Muy adecuado para diseñadores web y programadores principiantes.",
+    "temas": [
+      "Missing Manual",
+      "Brett McLaughlin",
+      "O'Reilly",
+      "PHP y MySQL",
+      "Formularios",
+      "mysqli",
+      "Principiantes"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio Web Dinámico de Catálogo Comercial en PHP y MySQL",
+        "descripcion": "Construcción paso a paso de un portal interactivo con navegación por categorías, autenticación de administradores y panel CRUD."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/php-mysql-the/9781449337582/"
+    ]
+  },
+  "php-cookbook-2023": {
+    "descripcion": "Recetario moderno y exhaustivo escrito por Eric Mann y publicado por O'Reilly en 2023. Contiene más de un centenar de recetas prácticas con código listo para producción que cubren las necesidades de PHP 8.x.\n\nCubre constructores promovidos, tipos de unión, enums, atributos, coincidencia de patrones con `match`, manipulación eficiente de colecciones y strings multibyte, bases de datos con PDO, creación de APIs REST y GraphQL, pruebas con PHPUnit y seguridad.\n\nEl formato de problema-solución-discusión resulta sumamente cómodo para resolver dudas puntuales de implementación con el código idiomático más moderno. Una referencia de cabecera contemporánea imprescindible.",
+    "temas": [
+      "PHP Cookbook",
+      "Eric Mann",
+      "O'Reilly",
+      "PHP 8.2",
+      "Match Expression",
+      "Enums",
+      "Attributes",
+      "Recetas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/php-cookbook/9781492094203/"
+    ]
+  },
+  "php-cookbook-3rd-edition-2014": {
+    "descripcion": "Tercera edición de la enciclopedia clásica de recetas escrita por David Sklar y Adam Trachtenberg, publicada por O'Reilly en 2014. Con casi 800 páginas, contiene más de 350 recetas que cubren todos los aspectos del desarrollo en PHP 5.5.\n\nCubre manipulación de números, cadenas, fechas, colecciones, acceso a bases de datos relacionales y NoSQL, creación y consumo de servicios web REST y SOAP, generación de gráficos con GD, criptografía y depuración.\n\nEs una de las guías de consulta técnica más exhaustivas jamás publicadas sobre el lenguaje. Una referencia de cabecera histórica muy valorada por la comunidad.",
+    "temas": [
+      "PHP Cookbook 3rd",
+      "David Sklar",
+      "Adam Trachtenberg",
+      "O'Reilly",
+      "Recetas",
+      "PDO",
+      "Criptografía",
+      "Web Services"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/php-cookbook-3rd/9781449363741/"
+    ]
+  },
+  "php-the-good-parts-2010": {
+    "descripcion": "Monografía inspiradora escrita por Peter MacIntyre y publicada por O'Reilly en 2010. Siguiendo la estela del célebre libro de Douglas Crockford sobre JavaScript, destila las características más sólidas, elegantes y limpias de PHP.\n\nExplora la sintaxis limpia de orientación a objetos, el uso adecuado de arrays y colecciones, funciones de primera clase, buenas prácticas en el manejo de bases de datos mediante PDO y directrices de seguridad indispensables para evitar trampas históricas del lenguaje.\n\nEl autor enseña a evitar las características obsoletas o defectuosas de versiones antiguas, centrándose en el subconjunto productivo y seguro del lenguaje. Una lectura formativa muy recomendable.",
+    "temas": [
+      "The Good Parts",
+      "Peter MacIntyre",
+      "O'Reilly",
+      "Clean Code",
+      "PDO",
+      "POO en PHP",
+      "Buenas Prácticas"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/php-the-good/9780596804381/"
+    ]
+  },
+  "php-web-services-2nd-edition-2016": {
+    "descripcion": "Segunda edición de la guía especializada escrita por Lorna Jane Mitchell y publicada por O'Reilly en 2016. Enseña a diseñar, construir y consumir servicios web y APIs robustas en PHP 7.\n\nCubre la arquitectura RESTful, formatos de intercambio de datos (JSON y XML), negociación de contenido, autenticación con tokens y OAuth2, diseño de endpoints idempotentes, manejo de códigos de estado HTTP y consumo de APIs de terceros con cURL y Guzzle.\n\nLa autora comparte consejos prácticos basados en años de experiencia en APIs públicas de gran escala. Una referencia indispensable para cualquier programador de backend en PHP.",
+    "temas": [
+      "Web Services",
+      "Lorna Jane Mitchell",
+      "O'Reilly",
+      "APIs REST",
+      "Guzzle",
+      "cURL",
+      "OAuth2",
+      "JSON"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API RESTful Profesional y Cliente con Guzzle en PHP 7",
+        "descripcion": "Desarrollo de un servicio web con autenticación por tokens y un cliente automatizado con manejo de reintentos y excepciones HTTP."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/php-web-services/9781491933084/"
+    ]
+  },
+  "programming-php-3rd-edition-2013": {
+    "descripcion": "Tercera edición del tratado enciclopédico escrito por Kevin Tatroe, Peter MacIntyre y Rasmus Lerdorf (el creador original de PHP), publicado por O'Reilly en 2013. Es la biblia técnica definitiva sobre PHP 5.4/5.5.\n\nOfrece una cobertura autorizada y profunda de la estructura léxica, tipos de datos, funciones, orientación a objetos con traits, seguridad web, manipulación de archivos y streams, bases de datos (PDO), gráficos con GD y extensiones nativas.\n\nCon la autoridad técnica del creador del lenguaje y autores expertos, es una de las explicaciones más completas y rigurosas de la semántica de PHP jamás redactadas. Una obra clásica de lectura obligada.",
+    "temas": [
+      "Rasmus Lerdorf",
+      "Programming PHP",
+      "O'Reilly",
+      "Semántica de PHP",
+      "Traits",
+      "PDO",
+      "Seguridad Web",
+      "Enciclopedia"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Procesamiento y Generación Dinámica de Documentos en PHP",
+        "descripcion": "Implementación de una plataforma web con persistencia relacional PDO, procesamiento de gráficos GD y arquitectura de objetos con traits."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/programming-php-3rd/9781449335472/"
+    ]
+  },
+  "ajax-and-php-building-modern-web-applications-2nd-edition-2010": {
+    "descripcion": "Segunda edición del influyente manual de Bogdan Brinzarea y Cristian Darie, publicado por Packt en 2010. Enseña a transformar sitios web tradicionales en aplicaciones web interactivas y reactivas mediante Ajax y PHP.\n\nCubre el objeto XMLHttpRequest, comunicación asíncrona cliente-servidor con JSON y XML, validación de formularios en tiempo real sin recarga, sugerencias de búsqueda automática (autosuggest), carritos de compras interactivos y chat en vivo.\n\nLos autores guían el desarrollo de múltiples componentes interactivos reutilizables con explicaciones paso a paso. Una obra clásica formativa sobre el nacimiento de las aplicaciones web enriquecidas (RIA).",
+    "temas": [
+      "Ajax y PHP",
+      "Cristian Darie",
+      "Packt",
+      "XMLHttpRequest",
+      "JSON",
+      "Búsqueda Autosuggest",
+      "Tiempo Real"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Componentes Web Dinámicos con Ajax y PHP",
+        "descripcion": "Construcción de un motor de búsqueda con sugerencias automáticas, validación de formularios en vivo y chat interactivo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/ajax-and-php-second-edition-9781849510165"
+    ]
+  },
+  "cms-design-using-php-and-jquery-2010": {
+    "descripcion": "Manual práctico escrito por Kae Verens y publicado por Packt en 2010. Enseña a diseñar y construir desde cero un sistema de gestión de contenidos (CMS) modular y extensible utilizando PHP y jQuery.\n\nCubre la arquitectura de plugins y temas, edición de contenido en línea con editores WYSIWYG, gestión de menús dinámicos con arrastrar y soltar (drag and drop) de jQuery UI, control de versiones de páginas y permisos de usuario.\n\nA través del desarrollo guiado de un CMS completo, el autor muestra cómo combinar la agilidad del backend con una experiencia de administración intuitiva. Muy valorado por desarrolladores de portales web.",
+    "temas": [
+      "CMS Design",
+      "Kae Verens",
+      "jQuery UI",
+      "PHP",
+      "WYSIWYG",
+      "Plugins",
+      "Gestión de Contenidos",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Gestión de Contenidos Modular desde Cero",
+        "descripcion": "Construcción completa de un CMS con panel administrativo, reordenación visual de menús con jQuery UI y arquitectura de plugins."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/cms-design-using-php-and-jquery-9781849511124"
+    ]
+  },
+  "laravel-5-essentials-2015": {
+    "descripcion": "Guía práctica y concisa escrita por Martin Bean y publicada por Packt en 2015. Diseñada como una introducción rápida y directa a las características esenciales de Laravel 5.\n\nCubre la estructura de directorios de Laravel 5, middleware de peticiones, enrutamiento, controladores implícitos y RESTful, motor de plantillas Blade, migraciones y modelos Eloquent, y autenticación nativa lista para usar.\n\nSu estilo sintético permite a desarrolladores con experiencia en PHP comenzar a crear aplicaciones funcionales con Laravel en pocas horas. Ideal para una rápida puesta en marcha.",
+    "temas": [
+      "Laravel 5 Essentials",
+      "Martin Bean",
+      "Eloquent",
+      "Blade",
+      "Middleware",
+      "Enrutamiento",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web Rápida de Catálogo de Productos con Laravel 5",
+        "descripcion": "Desarrollo de un portal comercial con operaciones CRUD completas en Eloquent, vistas Blade y autenticación de usuarios."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/laravel-5-essentials-9781785283017"
+    ]
+  },
+  "laravel-design-patterns-and-best-practices-2014": {
+    "descripcion": "Guía especializada escrita por Arda Kılıçdağı y H. İbrahim Yılmaz, publicada por Packt en 2014. Explora las mejores prácticas de arquitectura y diseño de software aplicadas a Laravel 4/5.\n\nCubre la implementación de patrones Repository y Service Layer para desacoplar controladores de la base de datos, inyección de dependencias mediante el IoC Container, eventos y listeners, y diseño de pruebas unitarias limpias con PHPUnit.\n\nLos autores aportan pautas contrastadas para evitar bases de código caóticas en proyectos comerciales de gran escala. Una referencia muy valorada para estructurar aplicaciones profesionales en Laravel.",
+    "temas": [
+      "Laravel Design Patterns",
+      "Repository Pattern",
+      "Service Layer",
+      "IoC Container",
+      "PHPUnit",
+      "Buenas Prácticas",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura Empresarial en Laravel con Patrón Repository",
+        "descripcion": "Diseño de un sistema de comercio electrónico desacoplado con capas de servicio independientes, repositorios y suite de tests."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/laravel-design-patterns-and-best-practices-9781783287987"
+    ]
+  },
+  "learning-laravel-s-eloquent-2015": {
+    "descripcion": "Monografía técnica especializada de Nick Turner publicada por Packt en 2015. Se enfoca exclusivamente en dominar el ORM Eloquent, el potente componente de acceso a datos de Laravel.\n\nCubre la definición de modelos, relaciones complejas (1:1, 1:N, N:M, HasManyThrough, relaciones polimórficas), consultas avanzadas con el Query Builder, Scopes locales y globales, mutators y accessors, eventos de modelo y optimización de consultas para evitar el problema N+1.\n\nA través de ejemplos paso a paso, el autor enseña cómo modelar dominios de datos complejos con la máxima elegancia y expresividad. Una guía de cabecera indispensable para dominar Eloquent.",
+    "temas": [
+      "Eloquent ORM",
+      "Nick Turner",
+      "Relaciones Polimórficas",
+      "Query Builder",
+      "Scopes",
+      "Eager Loading",
+      "Laravel",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Modelo de Dominio Relacional Complejo con Eloquent",
+        "descripcion": "Diseño e implementación de un modelo de datos con relaciones polimórficas, eager loading optimizado y eventos de modelo en Laravel."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/learning-laravels-eloquent-9781784390099"
+    ]
+  },
+  "learning-php-7-2016": {
+    "descripcion": "Manual formativo escrito por Antonio Lopez y publicado por Packt en 2016. Proporciona una inmersión completa y moderna en el desarrollo web utilizando las características de PHP 7.0.\n\nCubre la sintaxis fundamental, tipos escalares estrictos, orientación a objetos moderna, manipulación de bases de datos con PDO, diseño de APIs RESTful, gestión de dependencias con Composer y automatización de pruebas con PHPUnit.\n\nAcompaña al lector en la creación de aplicaciones funcionales con código limpio y seguro. Una excelente opción para programadores que desean aprender PHP moderno con una metodología estructurada.",
+    "temas": [
+      "Learning PHP 7",
+      "Antonio Lopez",
+      "PHP 7",
+      "Composer",
+      "PHPUnit",
+      "PDO",
+      "APIs REST",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API RESTful Modular con PHP 7, Composer y PHPUnit",
+        "descripcion": "Construcción paso a paso de un servicio web backend con validación estricta de tipos, persistencia PDO y pruebas automatizadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/learning-php-7-9781785880544"
+    ]
+  },
+  "learning-php-7-high-performance-2016": {
+    "descripcion": "Tratado técnico especializado de Altaf Hussain publicado por Packt en 2016. Enseña a optimizar el rendimiento y la escalabilidad de aplicaciones PHP 7 en entornos de alta demanda.\n\nExplora la arquitectura interna de Zend Engine 3 y la reducción de uso de memoria en PHP 7, configuración avanzada de OPcache, optimización de consultas SQL y caché con Redis/Memcached, profiling de cuellos de botella con Xdebug y Blackfire, y microservicios ligeros con Lumen.\n\nEl autor proporciona benchmarks rigurosos y directrices concretas para reducir tiempos de respuesta a milisegundos. Imprescindible para arquitectos de backend e ingenieros de rendimiento.",
+    "temas": [
+      "Alto Rendimiento",
+      "PHP 7",
+      "OPcache",
+      "Zend Engine 3",
+      "Blackfire",
+      "Redis",
+      "Lumen",
+      "Packt"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Auditoría y Optimización de Rendimiento de API con Lumen y OPcache",
+        "descripcion": "Perfilado con Blackfire y aceleración de un servicio web mediante almacenamiento en caché Redis y ajuste de parámetros OPcache."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/learning-php-7-high-performance-9781785889608"
+    ]
+  },
+  "mastering-laravel-2015": {
+    "descripcion": "Guía avanzada escrita por Christopher John Pecoraro y publicada por Packt en 2015. Aborda el diseño, securización y escalado de aplicaciones empresariales de gran escala con Laravel 5.\n\nCubre la arquitectura modular con paquetes personalizados, inyección de dependencias avanzada, autenticación multifactor, colas de trabajo asíncronas con Amazon SQS y Beanstalkd, almacenamiento en la nube con Flysystem y pruebas de integración exhaustivas.\n\nEl autor comparte soluciones arquitectónicas contrastadas en entornos corporativos para garantizar la alta disponibilidad y la resiliencia del software. Muy valorado por ingenieros senior de Laravel.",
+    "temas": [
+      "Mastering Laravel",
+      "Christopher Pecoraro",
+      "Laravel 5",
+      "Colas Asíncronas",
+      "Flysystem",
+      "Amazon SQS",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Empresarial Escalable con Colas Asíncronas en Laravel",
+        "descripcion": "Diseño de un sistema de procesamiento por lotes con workers distribuidos en SQS, almacenamiento de archivos en S3 y pruebas de integración."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-laravel-9781785282058"
+    ]
+  },
+  "modular-programming-with-php-7-2016": {
+    "descripcion": "Guía especializada escrita por Branko Ajzele y publicada por Packt en 2016. Enseña a estructurar aplicaciones web a gran escala dividiéndolas en módulos reutilizables, desacoplados e independientes utilizando PHP 7.\n\nCubre el diseño modular, gestión de paquetes independientes con Composer y repositorios privados (Satis/Packagist), inyección de dependencias, eventos del sistema y cumplimiento de estándares PSR de interoperabilidad.\n\nEl autor enseña patrones para evitar dependencias circulares y facilitar el trabajo colaborativo en equipos grandes. Muy valorado por arquitectos de software e ingenieros que gestionan bases de código corporativas extensas.",
+    "temas": [
+      "Programación Modular",
+      "PHP 7",
+      "Composer",
+      "Satis",
+      "PSR",
+      "Inyección de Dependencias",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura Modular de E-Commerce con Paquetes Composer",
+        "descripcion": "Construcción de un sistema comercial compuesto por módulos independientes de pago, catálogo y facturación orquestados con Composer."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/modular-programming-with-php-7-9781785880469"
+    ]
+  },
+  "php-5-e-commerce-development-2010": {
+    "descripcion": "Manual práctico escrito por Michael Peacock y publicado por Packt en 2010. Enseña a construir una plataforma de comercio electrónico profesional desde cero utilizando PHP 5 y MySQL con una arquitectura orientada a objetos.\n\nCubre el diseño de la base de datos relacional para productos y pedidos, catálogo dinámico, carrito de compras persistente, integración de pasarelas de pago seguras (PayPal y tarjetas de crédito) y panel de administración completo.\n\nEl autor guía la construcción paso a paso de una tienda real ('CoffeeBeans'), explicando las consideraciones de seguridad y usabilidad indispensables para vender online. Una referencia clásica formativa de gran utilidad.",
+    "temas": [
+      "E-Commerce",
+      "PHP 5",
+      "Michael Peacock",
+      "PayPal API",
+      "Carrito de Compras",
+      "MySQL",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tienda Virtual CoffeeBeans con PHP 5 y MySQL",
+        "descripcion": "Desarrollo integral de una tienda de comercio electrónico con pasarela PayPal, gestión de inventario y panel de control administrativo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/php-5-e-commerce-development-9781847199645"
+    ]
+  },
+  "php-5-social-networking-2010": {
+    "descripcion": "Guía práctica de Michael Peacock publicada por Packt en 2010. Explica cómo diseñar y programar una red social comunitaria completa desde cero utilizando PHP 5 y MySQL.\n\nCubre perfiles de usuario personalizables, muros de actividad en tiempo real, relaciones de amistad y seguimiento, mensajería privada, foros de discusión y galerías de imágenes compartidas.\n\nA través del desarrollo gradual de una plataforma social completa, el autor muestra cómo estructurar la base de datos relacional para consultas de grafos sociales y optimizar el rendimiento. Muy ameno e instructivo.",
+    "temas": [
+      "Redes Sociales",
+      "PHP 5",
+      "Michael Peacock",
+      "Perfiles de Usuario",
+      "Muro de Actividad",
+      "MySQL",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Red Social Comunitaria Completa con PHP 5 y MySQL",
+        "descripcion": "Construcción de un portal social interactivo con solicitud de amistad, muro de publicaciones, mensajería y álbumes de fotos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/php-5-social-networking-9781849511827"
+    ]
+  },
+  "php-7-programming-blueprints-2016": {
+    "descripcion": "PHP 7 Programming Blueprints es un libro de proyectos de Jose Palala y Martin Helmich publicado por Packt en octubre de 2016. Enseña PHP 7 construyendo una aplicación distinta en cada capítulo y está dirigido a desarrolladores web, consultores PHP y, en general, a quien trabaja en varios proyectos con PHP y ya conoce lo básico del lenguaje. Para seguirlo hace falta PHP 7 con Apache o Nginx; varios capítulos usan además contenedores Docker.\n\nEl primer proyecto es un sistema de perfiles de usuario con paginación que sirve para presentar el operador de fusión de null (??). El segundo construye una clase de acceso a base de datos y un carrito de compra sencillo sobre MySQL, con panel de administración y facturas en PDF generadas con TCPDF. El tercero es un servicio de boletines con toques sociales: autenticación con clases y autocarga, inicio de sesión con Facebook y un chat de soporte con WebSockets sobre Ratchet. El cuarto monta un blog con búsqueda sobre Elasticsearch, con Logstash, caché en Redis y gráficos con Highcharts. Los capítulos escritos por Helmich se vuelven más avanzados: un servicio web REST con Slim, MongoDB y GridFS, con middleware de autenticación; una aplicación de chat con Ratchet y Slim y autenticación por sesión; una arquitectura de microservicios asíncronos (pago, inventario, correo y envíos) que se comunican mediante ZeroMQ y ReactPHP; y por último un analizador e intérprete para un lenguaje de expresiones propio basado en una gramática PEG, con árbol sintáctico, pruebas con PHPUnit y mediciones con PHPBench.\n\nMuchas dependencias son hoy versiones antiguas (Slim 3, Ratchet 0.3, PHPUnit 5, Bower), así que el código necesitará ajustes para funcionar con PHP 8. Lo que sigue siendo valioso es la variedad de arquitecturas que presenta: WebSockets, búsqueda, REST, microservicios con colas de mensajes y análisis sintáctico.",
+    "temas": [
+      "PHP 7",
+      "MySQL y PDO",
+      "WebSockets con Ratchet",
+      "Elasticsearch",
+      "Redis",
+      "APIs REST con Slim",
+      "MongoDB",
+      "Microservicios con ZeroMQ",
+      "ReactPHP",
+      "Parsers PEG"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Carrito de compra",
+        "descripcion": "Tienda sencilla sobre MySQL con clase de base de datos, panel de administración y facturas en PDF."
+      },
+      {
+        "nombre": "Servicio de boletines social",
+        "descripcion": "Suscripciones a boletines con autenticación, inicio de sesión con Facebook y chat de soporte por WebSockets."
+      },
+      {
+        "nombre": "Blog con búsqueda en Elasticsearch",
+        "descripcion": "Indexación y búsqueda de entradas con Elasticsearch, Logstash y caché en Redis."
+      },
+      {
+        "nombre": "Servicio web REST de perfiles",
+        "descripcion": "API con Slim, MongoDB y GridFS para perfiles e imágenes, con middleware de autenticación."
+      },
+      {
+        "nombre": "Chat en tiempo real",
+        "descripcion": "Aplicación de chat con Ratchet y Slim y autenticación basada en sesiones."
+      },
+      {
+        "nombre": "Tienda con microservicios asíncronos",
+        "descripcion": "Servicios de pago, inventario, correo y envíos comunicados con ZeroMQ y ReactPHP y desplegados con Docker."
+      },
+      {
+        "nombre": "Intérprete de un lenguaje de expresiones",
+        "descripcion": "Parser PEG que construye un árbol sintáctico y evalúa expresiones, con pruebas en PHPUnit y benchmarks en PHPBench."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/PacktPublishing/PHP-7-Programming-Blueprints",
+      "https://www.packtpub.com/en-us/product/php-7-programming-blueprints-9781785889714",
+      "https://openlibrary.org/isbn/9781785889714"
+    ]
+  },
+  "php-7-programming-cookbook-2016": {
+    "descripcion": "Recetario técnico completo escrito por Doug Bierer y publicado por Packt en 2016. Recoge más de 100 recetas prácticas con código listo para usar que resuelven los retos habituales de desarrollo en PHP 7.0.\n\nCubre características de la sintaxis moderna, programación orientada a objetos avanzada, manipulación de archivos y flujos, bases de datos relacionales y NoSQL, desarrollo de APIs y servicios web, seguridad y pruebas automatizadas con PHPUnit.\n\nEl autor destaca por un enfoque riguroso que aprovecha la velocidad del motor Zend Engine 3 y el tipado escalar estricto. Una referencia de consulta muy sólida.",
+    "temas": [
+      "PHP 7 Cookbook",
+      "Doug Bierer",
+      "Recetas",
+      "Zend Engine 3",
+      "PDO",
+      "PHPUnit",
+      "Seguridad Web",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/php-7-programming-cookbook-9781785883446"
+    ]
+  },
+  "php-and-mongodb-web-development-2011": {
+    "descripcion": "Guía especializada de Rubayeet Islam publicada por Packt en 2011. Enseña a integrar PHP con la base de datos NoSQL orientada a documentos MongoDB para construir aplicaciones web flexibles y de alto rendimiento.\n\nCubre la instalación de la extensión nativa de MongoDB para PHP, operaciones CRUD sobre documentos BSON, modelado de esquemas desnormalizados, indexación eficiente, búsquedas geoespaciales y el framework de agregación.\n\nA través del desarrollo de un agregador de noticias y una red social basada en geolocalización, el autor demuestra cómo MongoDB simplifica el almacenamiento de datos complejos en PHP. Una referencia formativa pionera.",
+    "temas": [
+      "MongoDB",
+      "PHP",
+      "NoSQL",
+      "Documentos BSON",
+      "Indexación",
+      "Consultas Geoespaciales",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Agregador de Noticias con Búsqueda Geoespacial en PHP y MongoDB",
+        "descripcion": "Construcción de un servicio web que ingiere artículos en streaming y permite búsquedas geolocalizadas sobre MongoDB."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/php-and-mongodb-web-development-9781849513623"
+    ]
+  },
+  "php-microservices-2017": {
+    "descripcion": "Guía arquitectónica avanzada escrita por Carlos Pérez Sánchez y Pablo Solar Sánchez, publicada por Packt en 2017. Enseña a construir y desplegar ecosistemas de microservicios escalables utilizando PHP 7.\n\nExplora la descomposición de monolitos, frameworks minimalistas como Lumen y Slim, comunicación asíncrona orientada a eventos con RabbitMQ, persistencia distribuida, balanceo de carga con Nginx y despliegue automatizado con Docker.\n\nLos autores proporcionan directrices y patrones de resiliencia probados en entornos corporativos de alta demanda. Imprescindible para arquitectos de backend e ingenieros senior de PHP.",
+    "temas": [
+      "Microservicios",
+      "PHP 7",
+      "Lumen",
+      "Slim",
+      "RabbitMQ",
+      "Docker",
+      "Arquitectura Distribuida",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Ecosistema de Microservicios Basado en Eventos con Lumen y RabbitMQ",
+        "descripcion": "Diseño de un sistema comercial distribuido con microservicios independientes de pedidos, pagos y usuarios contenerizados en Docker."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/php-microservices-9781786463463"
+    ]
+  },
+  "phpunit-essentials-2014": {
+    "descripcion": "Manual práctico especializado escrito por Zdenek Machek y publicado por Packt en 2014. Es la guía de referencia formativa sobre el framework oficial de pruebas automatizadas PHPUnit.\n\nCubre la estructura de casos de prueba, aserciones fundamentales, configuración de suites con `phpunit.xml`, pruebas basadas en datos (Data Providers), creación de dobles de prueba (mocks, stubs y espías) y análisis de cobertura de código con Xdebug.\n\nA través de ejemplos aplicados a clases reales de negocio, enseña a adoptar una disciplina rigurosa de calidad y refactorización sin miedo. Indispensable para cualquier desarrollador comprometido con la excelencia del software.",
+    "temas": [
+      "PHPUnit",
+      "Testing",
+      "Zdenek Machek",
+      "TDD",
+      "Mocks y Stubs",
+      "Data Providers",
+      "Xdebug",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/phpunit-essentials-9781783283439"
+    ]
+  },
+  "programming-with-codeigniter-mvc-2013": {
+    "descripcion": "Manual formativo escrito por Yehuda Zadik y publicado por Packt en 2013. Introduce el desarrollo web rápido y estructurado utilizando el popular y ligero framework CodeIgniter 2.\n\nCubre la arquitectura MVC, enrutamiento, controladores, vistas con helpers nativos, el Query Builder de CodeIgniter para interactuar con bases de datos relacionales, validación de formularios y sesiones de usuario.\n\nAcompaña al lector en la construcción de una aplicación web comercial con panel de administración y generación de informes. Ideal para desarrolladores que buscan un framework ligero y sencillo sin curvas de aprendizaje complejas.",
+    "temas": [
+      "CodeIgniter",
+      "MVC",
+      "PHP",
+      "Query Builder",
+      "Formularios",
+      "Desarrollo Rápido",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Web Comercial con Panel Administrativo en CodeIgniter",
+        "descripcion": "Construcción de una aplicación con gestión de productos, autenticación por sesiones y operaciones de base de datos relacional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/programming-with-codeigniter-mvc-9781782163922"
+    ]
+  },
+  "zend-framework-2-application-development-2013": {
+    "descripcion": "Guía práctica de desarrollo corporativo escrita por Christopher Valles y publicada por Packt en 2013. Enseña a dominar la arquitectura completamente renovada y modular de Zend Framework 2 (ZF2).\n\nExplora el sistema de módulos independientes, el ServiceManager (contenedor de inyección de dependencias), el EventManager para desacoplamiento basado en eventos, formularios con Zend\\Form y persistencia con Zend\\Db y Doctrine 2 ORM.\n\nA través del desarrollo de un portal web empresarial completo, el autor enseña cómo crear aplicaciones escalables con las mejores prácticas de la industria. Muy recomendado para desarrolladores corporativos de PHP.",
+    "temas": [
+      "Zend Framework 2",
+      "ZF2",
+      "ServiceManager",
+      "EventManager",
+      "Doctrine 2",
+      "Inyección de Dependencias",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Web Empresarial Modular con Zend Framework 2 y Doctrine",
+        "descripcion": "Desarrollo de un sistema con arquitectura basada en módulos ZF2, inyección de dependencias y persistencia avanzada con Doctrine 2."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/zend-framework-2-application-development-9781782162285"
+    ]
+  },
+  "zend-framework-2-cookbook-2013": {
+    "descripcion": "Recetario de soluciones técnicas escrito por Josephus Callaars y publicado por Packt en 2013. Contiene más de 70 recetas prácticas con código listo para usar que abordan las tareas habituales en Zend Framework 2.\n\nCubre la configuración de módulos, factories en el ServiceManager, escuchadores de eventos con EventManager, internacionalización (I18n), autenticación y autorización con RBAC, y pruebas automatizadas con PHPUnit.\n\nEl formato de problema-solución-discusión resulta óptimo para resolver dudas puntuales de configuración en proyectos empresariales. Una referencia de consulta técnica muy completa para ZF2.",
+    "temas": [
+      "Zend Framework 2",
+      "ZF2 Cookbook",
+      "ServiceManager",
+      "EventManager",
+      "RBAC",
+      "I18n",
+      "PHPUnit",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/zend-framework-2-cookbook-9781849519229"
+    ]
+  },
+  "zend-framework-2-0-by-example-2013": {
+    "descripcion": "Manual formativo escrito por Krishna Shasankar V y publicado por Packt en 2013. Propone aprender Zend Framework 2 a través de ejemplos guiados y el desarrollo progresivo de aplicaciones del mundo real.\n\nExplora la arquitectura de módulos, configuración de rutas, controladores, enlace de datos en vistas, persistencia relacional con Zend\\Db, validación de formularios y autenticación segura.\n\nEl autor utiliza un estilo accesible y directo con código bien documentado, guiando al lector desde los fundamentos del framework hasta la producción. Una excelente introducción práctica a ZF2.",
+    "temas": [
+      "ZF2 by Example",
+      "Zend Framework 2",
+      "Módulos ZF2",
+      "Zend\\Db",
+      "MVC",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Catálogo y Consultas con Zend Framework 2",
+        "descripcion": "Construcción paso a paso de una aplicación web modular con autenticación de usuarios, consultas optimizadas y plantillas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/zend-framework-2-0-by-example-beginner-s-guide-9781849519786"
+    ]
+  },
+  "php-advanced-and-object-oriented-programming-3rd-edition-2012": {
+    "descripcion": "Tercera edición de la aclamada guía técnica de Larry Ullman, publicada por Peachpit Press en 2012. Es una de las obras formativas más respetadas para realizar la transición desde el código procedimental hacia la orientación a objetos avanzada en PHP 5.4.\n\nExplora la sintaxis de clases, herencia, interfaces, traits, métodos mágicos, diseño de patrones de diseño clásicos, manejo de excepciones, seguridad web avanzada y acceso seguro a bases de datos relacionales mediante PDO.\n\nLarry Ullman destaca por su estilo ameno, pausado y extraordinariamente claro, ilustrando cada concepto con ejemplos de código elegantes y pedagógicos. Muy recomendada para desarrolladores que buscan madurez técnica.",
+    "temas": [
+      "Larry Ullman",
+      "POO Avanzada",
+      "Traits",
+      "PDO",
+      "Métodos Mágicos",
+      "Patrones de Diseño",
+      "Peachpit Press"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor Web de Dominio Orientado a Objetos con Traits y PDO",
+        "descripcion": "Desarrollo de un sistema con clases modulares desacopladas, persistencia transaccional y validación estricta de datos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.larryullman.com/books/php-advanced-and-object-oriented-programming-3rd-edition/"
+    ]
+  },
+  "php-and-mysql-for-dynamic-web-sites-4th-edition-2012": {
+    "descripcion": "Cuarta edición del éxito internacional de ventas de Larry Ullman, publicado por Peachpit Press en 2012. Es ampliamente considerado uno de los mejores libros de texto para aprender desarrollo web dinámico con PHP y MySQL.\n\nCubre la sintaxis fundamental de PHP, diseño relacional de MySQL, formularios web, cookies y sesiones seguras, autenticación de usuarios, paginación y ordenación de datos, prevención de ataques de inyección SQL y manejo de transacciones.\n\nEl autor guía la construcción de un sitio de comercio electrónico completo con panel de administración y facturación. Un recurso formativo insustituible por su claridad y atención meticulosa a la seguridad.",
+    "temas": [
+      "Larry Ullman",
+      "PHP y MySQL",
+      "Web Dinámica",
+      "Seguridad Web",
+      "Formularios",
+      "Sesiones",
+      "Peachpit Press"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Web Comercial Dinámico con PHP y MySQL",
+        "descripcion": "Construcción completa de una web interactiva con registro de usuarios, catálogo paginado y compras seguras."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.larryullman.com/books/php-and-mysql-for-dynamic-web-sites-visual-quickpro-guide-4th-edition/"
+    ]
+  },
+  "zend-php-5-certification-study-guide-3rd-edition-2015": {
+    "descripcion": "Zend PHP 5 Certification Study Guide es una guía de preparación para el examen de certificación de PHP 5 de Zend, escrita por Davey Shafik y Ben Ramsey. Esta tercera edición la editó y produjo php[architect], que la publicó en enero de 2015. Shafik, programador PHP con la certificación de Zend para PHP 5, se encargó de revisarla. Está dirigida a desarrolladores con experiencia en PHP que van a presentarse al examen y quieren repasar de forma ordenada todo lo que entra en él.\n\nLa editorial organiza el libro según las áreas del examen: sintaxis básica de PHP, estructuras de control, funciones, arrays, cadenas y expresiones regulares, programación con bases de datos, funcionalidades web, programación orientada a objetos, diseño orientado a objetos y patrones, XML y servicios web, seguridad, y archivos, flujos y programación en red. Frente a la segunda edición añade tres capítulos y más de ochenta páginas, con las novedades de PHP 5.3 a 5.6: espacios de nombres, traits, funciones variádicas, generadores, closures y callbacks. También actualiza el material sobre variables y tipos, bases de datos, seguridad web, XML y servicios web conforme a las prácticas de entonces.\n\nLa página oficial no publica el índice detallado ni anuncia exámenes de práctica, por lo que esta descripción se limita a lo que declara la editorial. El contenido corresponde a PHP 5.x, una rama sin soporte desde 2018, y el examen ha cambiado desde entonces, así que hoy sirve sobre todo como repaso exhaustivo de los fundamentos del lenguaje.",
+    "temas": [
+      "Certificación Zend",
+      "PHP 5.3–5.6",
+      "Programación orientada a objetos",
+      "Patrones de diseño",
+      "Seguridad web",
+      "Bases de datos",
+      "XML y servicios web",
+      "Flujos y red",
+      "Espacios de nombres y traits",
+      "Generadores y closures"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "media",
+    "fuentes": [
+      "https://www.phparch.com/books/zend-php-5-certification-study-guide-3rd-edition/",
+      "https://www.phparch.com/?p=9987"
+    ]
+  },
+  "build-your-own-database-driven-web-site-using-php-mysql-4th-edition-2009": {
+    "descripcion": "Cuarta edición del célebre éxito editorial de Kevin Yank, publicado por SitePoint en 2009. Es una de las guías más influyentes para aprender a construir sitios web basados en datos con PHP y MySQL desde cero.\n\nExplora la instalación del entorno LAMP/WAMP, la sintaxis básica de PHP, diseño relacional de tablas en MySQL, el patrón Modelo-Vista-Controlador (MVC), validación de formularios, sesiones y prevención de ataques XSS e inyecciones SQL.\n\nKevin Yank destaca por su estilo cercano, accesible y pedagógico, guiando la construcción de un sistema de gestión de contenidos y chistes interactivo ('Joke CMS'). Un clásico formativo apreciado por miles de desarrolladores.",
+    "temas": [
+      "SitePoint",
+      "Kevin Yank",
+      "PHP y MySQL",
+      "MVC",
+      "Joke CMS",
+      "Bases de Datos Web",
+      "Principiantes"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Gestión de Contenidos Interactivo (Joke CMS)",
+        "descripcion": "Construcción paso a paso de una aplicación web con arquitectura MVC, autenticación de autores y base de datos relacional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.sitepoint.com/premium/books/build-your-own-database-driven-website-using-php-mysql-4th-edition"
+    ]
+  },
+  "php-mysql-novice-to-ninja-5th-edition-2012": {
+    "descripcion": "Quinta edición renovada del aclamado manual de Kevin Yank, publicado por SitePoint en 2012. Adapta la enseñanza del desarrollo web en PHP a la orientación a objetos moderna y el uso estricto de PDO.\n\nCubre la arquitectura MVC limpia, inyección de dependencias básica, conexión segura con MySQL mediante PDO y sentencias preparadas, autenticación con contraseñas seguras (`password_hash`), y diseño de plantillas desacopladas.\n\nEl autor actualiza la aplicación 'Joke CMS' transformándola en un sistema orientado a objetos robusto y comprobable. Una de las mejores lecturas introductorias de la literatura técnica en PHP.",
+    "temas": [
+      "Novice to Ninja",
+      "Kevin Yank",
+      "SitePoint",
+      "PDO",
+      "MVC",
+      "POO en PHP",
+      "Seguridad Web"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web MVC Orientada a Objetos con PHP y PDO",
+        "descripcion": "Desarrollo completo de un portal web con controladores frontales, capa de persistencia PDO y separación estricta de vistas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.sitepoint.com/premium/books/php-mysql-novice-to-ninja-5th-edition"
+    ]
+  },
+  "php-master-2011": {
+    "descripcion": "Tratado técnico avanzado escrito por Lorna Jane Mitchell, Davey Shafik y Matthew Turland, publicado por SitePoint en 2011. Se enfoca en las prácticas de ingeniería de software necesarias para escribir código PHP corporativo de élite.\n\nExplora la orientación a objetos avanzada, diseño de APIs limpias, automatización de pruebas con PHPUnit, análisis de rendimiento y profiling con Xdebug, estándares de codificación, patrones de diseño GoF y despliegue continuo.\n\nLos autores aportan pautas rigurosas que transforman a programadores intermedios en auténticos maestros de la ingeniería de software en PHP. Una obra de cabecera muy respetada por la comunidad.",
+    "temas": [
+      "PHP Master",
+      "Lorna Jane Mitchell",
+      "Davey Shafik",
+      "SitePoint",
+      "PHPUnit",
+      "Xdebug",
+      "Patrones GoF",
+      "Clean Code"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework Empresarial de Procesamiento con PHPUnit y Xdebug",
+        "descripcion": "Construcción de una arquitectura de servicios desacoplada con cobertura de pruebas automatizadas y optimización de memoria."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.sitepoint.com/premium/books/php-master-write-cutting-edge-code"
+    ]
+  },
+  "php-mysql-web-development-all-in-one-desk-reference-for-dummies-2008": {
+    "descripcion": "Monumental volumen de consulta de más de 800 páginas escrito por Janet Valade y publicado por Wiley en 2008. Reúne en un solo compendio siete libros temáticos dedicados al desarrollo web con PHP y MySQL.\n\nCubre la instalación de entornos de desarrollo, sintaxis básica de PHP, diseño relacional y consultas en MySQL, interacción segura entre PHP y MySQL, autenticación de usuarios, generación de gráficos y despliegue comercial.\n\nCon el estilo accesible, desenfadado y amigable característico de la serie 'For Dummies', resuelve cientos de dudas habituales del trabajo diario. Una guía enciclopédica clásica sumamente útil para principiantes.",
+    "temas": [
+      "For Dummies",
+      "Janet Valade",
+      "PHP y MySQL",
+      "All-In-One",
+      "LAMP",
+      "Formularios",
+      "Bases de Datos Web",
+      "Wiley"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Web Completo de Gestión Comercial en PHP y MySQL",
+        "descripcion": "Construcción paso a paso de un sitio web con catálogo dinámico, formularios con validación y panel de control administrativo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/PHP+and+MySQL+Web+Development+All+in+One+Desk+Reference+For+Dummies-p-9780470167533"
+    ]
+  },
+  "php-and-mysql-for-dummies-4th-edition-2009": {
+    "descripcion": "Cuarta edición de la popular guía de iniciación de Janet Valade, publicada por Wiley en 2009. Enseña a programar aplicaciones web interactivas con PHP y MySQL a personas sin experiencia técnica previa.\n\nCubre los fundamentos del lenguaje PHP, variables, estructuras de control, formularios web, conexión y consultas con bases de datos MySQL, gestión de sesiones y cookies, y prevención de errores comunes.\n\nSu lenguaje cercano y directo permite comenzar a crear páginas web dinámicas en pocas sesiones de estudio. Muy valorada por estudiantes autodidactas y principiantes absolutos.",
+    "temas": [
+      "For Dummies",
+      "Janet Valade",
+      "PHP y MySQL",
+      "Principiantes",
+      "Formularios",
+      "Sesiones",
+      "Bases de Datos",
+      "Wiley"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/PHP+and+MySQL+For+Dummies%2C+4th+Edition-p-9780470527580"
+    ]
+  },
+  "php-mysql-javascript-all-in-one-for-dummies-2018": {
+    "descripcion": "Voluminosa guía integral escrita por Richard Blum y publicada por Wiley en 2018. Enseña a dominar el desarrollo web full-stack combinando PHP 7, MySQL, JavaScript moderno, CSS3 y HTML5.\n\nCubre la programación del cliente (interactividad con JavaScript y DOM), programación del servidor (PHP 7 y POO), modelado de bases de datos relacionales en MySQL, peticiones asíncronas con Ajax y diseño responsivo con CSS.\n\nEl autor estructura el contenido en módulos independientes que guían el desarrollo de un sitio web interactivo y dinámico completo. Una referencia enciclopédica moderna muy completa para desarrolladores web integrales.",
+    "temas": [
+      "For Dummies",
+      "Richard Blum",
+      "PHP 7",
+      "MySQL",
+      "JavaScript",
+      "Ajax",
+      "Fullstack",
+      "Wiley"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Web Full-Stack Interactiva con PHP 7 y Ajax",
+        "descripcion": "Construcción de una aplicación con interfaz dinámica responsiva, peticiones asíncronas Ajax y backend seguro con MySQL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/PHP%2C+MySQL%2C+%26+JavaScript+All+in+One+For+Dummies-p-9781119468387"
+    ]
+  },
+  "php6-and-mysql-bible-2009": {
+    "descripcion": "Monumental volumen enciclopédico de más de 1.100 páginas escrito por Steve Suehring, Tim Converse y Joyce Park, publicado por Wiley en 2009. Es una de las obras de consulta técnica más exhaustivas jamás publicadas sobre PHP y MySQL.\n\nCubre con minuciosidad enciclopédica la sintaxis del lenguaje, orientación a objetos completa, manipulación de archivos, sockets y redes, seguridad web, transacciones complejas en MySQL, creación de servicios web con SOAP y REST, y profiling.\n\nAcompaña explicaciones detalladas con cientos de ejemplos de código listos para producción. Una referencia histórica de inmenso valor documental para comprender la arquitectura de la web basada en PHP.",
+    "temas": [
+      "PHP Bible",
+      "Steve Suehring",
+      "MySQL",
+      "Enciclopedia Web",
+      "POO",
+      "Seguridad Web",
+      "SOAP y REST",
+      "Wiley"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Infraestructura Empresarial Completa de Gestión de Contenidos",
+        "descripcion": "Diseño de un portal web de gran escala con autenticación por roles, capa relacional optimizada y servicios web integrados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/PHP+6+and+MySQL+Bible-p-9780470384145"
+    ]
+  },
+  "beginning-php-5-3-2009": {
+    "descripcion": "Manual formativo exhaustivo de más de 800 páginas escrito por Matt Doyle y publicado por Wrox en 2009. Proporciona una formación sólida y completa para aprender a programar aplicaciones con PHP 5.3.\n\nCubre la sintaxis fundamental, operadores, control de flujo, funciones, arrays y colecciones, orientación a objetos con namespaces y closures de PHP 5.3, acceso a bases de datos con PDO y MySQL, validación de formularios y sesiones de usuario.\n\nMatt Doyle destaca por una pedagogía clara y estructurada con ejercicios prácticos al final de cada capítulo. Considerado uno de los mejores manuales de iniciación publicados por la prestigiosa editorial Wrox.",
+    "temas": [
+      "Beginning PHP",
+      "Matt Doyle",
+      "Wrox",
+      "PHP 5.3",
+      "Namespaces",
+      "PDO",
+      "Closures",
+      "Fundamentos"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web Dinámica de Directorio de Artículos en PHP 5.3",
+        "descripcion": "Construcción paso a paso de un portal interactivo con autenticación, validación de formularios y almacenamiento relacional con PDO."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Beginning+PHP+5+3-p-9780470413968"
+    ]
+  },
+  "beginning-php-6-apache-mysql-6-web-development-2009": {
+    "descripcion": "Manual exhaustivo publicado por Wrox en 2009 y escrito por Timothy Boronczyk, Elizabeth Naramore, Jason Gerner, Yann Le Scouarnec y Jeremy Stolz. Enseña el desarrollo integral de aplicaciones web con la pila LAMP.\n\nCubre la configuración del servidor web Apache, sintaxis de PHP, modelado relacional en MySQL, patrones de diseño de software (MVC), autenticación de usuarios, comercio electrónico, foros de discusión y galerías de imágenes dinámicas.\n\nA través de múltiples proyectos comerciales completos, los autores muestran cómo coordinar los distintos servicios del servidor para crear plataformas web robustas. Una referencia clásica muy completa.",
+    "temas": [
+      "Wrox",
+      "LAMP",
+      "Apache",
+      "PHP",
+      "MySQL",
+      "MVC",
+      "Comercio Electrónico",
+      "Web Development"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Web Comercial con Foros y Catálogo en PHP y MySQL",
+        "descripcion": "Desarrollo completo de un portal web con autenticación multiusuario, foros de discusión interactivos y carrito de compras."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Beginning+PHP+6%2C+Apache%2C+MySQL+6+Web+Development-p-9780470395691"
+    ]
+  },
+  "expert-php-and-mysql-2010": {
+    "descripcion": "Tratado técnico avanzado escrito por Andrew Curioso, Ronald Bradford (experto de Oracle/MySQL) y Patrick Galbraith, publicado por Wrox en 2010. Se centra en la optimización extrema, alta disponibilidad y arquitectura distribuida con PHP y MySQL.\n\nCubre el ajuste fino del motor de base de datos MySQL (InnoDB, replicación maestro-esclavo, clustering con MySQL Cluster), particionamiento de tablas, almacenamiento en caché distribuido con Memcached, extensiones nativas en C para PHP y seguridad de nivel bancario.\n\nLos autores aportan soluciones de ingeniería de software probadas en sitios con cientos de millones de visitas diarias. Imprescindible para arquitectos de sistemas e ingenieros de fiabilidad (SRE).",
+    "temas": [
+      "Expert PHP",
+      "MySQL Cluster",
+      "Ronald Bradford",
+      "Memcached",
+      "Replicación MySQL",
+      "Alta Disponibilidad",
+      "Wrox"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Infraestructura Web de Alta Disponibilidad con Replicación y Memcached",
+        "descripcion": "Diseño de una arquitectura distribuida con balanceo de lectura sobre réplicas MySQL y almacenamiento de sesiones en Memcached."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Expert+PHP+and+MySQL-p-9780470563045"
+    ]
+  },
+  "php-and-mysql-24-hour-trainer-2011": {
+    "descripcion": "Curso formativo multimedia escrito por Andrea Tarr y publicado por Wrox en 2011. Diseñado con una pedagogía visual y práctica que combina lecciones de texto concisas con ejercicios paso a paso.\n\nCubre la sintaxis fundamental de PHP, diseño relacional de MySQL, consultas SQL, validación de formularios, sesiones de usuario, manipulación de archivos y diseño de aplicaciones web dinámicas seguras.\n\nCada capítulo está estructurado como una sesión de entrenamiento rápido con ejercicios prácticos y preguntas de autoevaluación. Excelente para estudiantes que buscan un aprendizaje estructurado y progresivo.",
+    "temas": [
+      "24-Hour Trainer",
+      "Andrea Tarr",
+      "Wrox",
+      "PHP y MySQL",
+      "Formularios",
+      "Validación",
+      "Principiantes"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema Dinámico de Información y Consultas con PHP y MySQL",
+        "descripcion": "Construcción paso a paso de un portal interactivo con validación de entradas de usuario y persistencia relacional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/PHP+and+MySQL+24+Hour+Trainer-p-9781118026403"
+    ]
+  },
+  "professional-php6-2009": {
+    "descripcion": "Professional PHP6 es un libro de la serie Programmer to Programmer de Wrox (Wiley) escrito por Ed Lecky-Thompson y Steven D. Nowicki, con Thomas Myer como coautor, y publicado en abril de 2009. Se presentó como una obra para llevar PHP 6 al desarrollo de software empresarial, con ejemplos prácticos para diseñar y construir plataformas grandes y de alto rendimiento. Está dirigido a programadores PHP de nivel intermedio o avanzado; no es un libro para principiantes ni un repaso de las novedades del lenguaje.\n\nSe divide en varias partes. La primera trata los fundamentos del desarrollo profesional: programación orientada a objetos (encapsulación, herencia e interfaces), una introducción a UML, el diseño orientado a objetos a partir de un gestor de contactos que reaparece a lo largo del libro, los patrones de diseño clásicos del Gang of Four con su diagrama UML y su implementación en PHP, las colecciones y el acceso a bases de datos con PDO, con ejemplos sobre PostgreSQL. La segunda aborda técnicas avanzadas: mapeo objeto-relacional, programación orientada a eventos, registro y depuración, servicios web (sobre todo SOAP, con una breve introducción a REST), comunicación con los usuarios, sesiones y autenticación, y arquitectura de aplicaciones con MVC y frameworks. La tercera es un caso práctico de más de doscientas páginas, y el libro termina con capítulos para llevar PHP al límite.\n\nPHP 6 nunca llegó a publicarse: el proyecto se abandonó y el lenguaje saltó de PHP 5.x a PHP 7 en 2015. Por eso el código corresponde en la práctica a PHP 5. La reseña de I Programmer señala además que el tratamiento de la orientación a objetos es introductorio y que los ejemplos son largos y difíciles de seguir. Hoy interesa sobre todo por su enfoque de diseño y arquitectura.",
+    "temas": [
+      "PHP 5/6",
+      "Programación orientada a objetos",
+      "UML",
+      "Patrones de diseño",
+      "PDO y PostgreSQL",
+      "ORM",
+      "Servicios web SOAP y REST",
+      "Sesiones y autenticación",
+      "MVC",
+      "Arquitectura de aplicaciones"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Caso práctico de aplicación empresarial",
+        "descripcion": "Proyecto de más de 200 páginas que aplica los patrones y técnicas de las partes anteriores a una aplicación completa."
+      }
+    ],
+    "confianza": "media",
+    "fuentes": [
+      "https://www.wiley.com/en-us/professional-php6-p-9780470395097",
+      "https://www.i-programmer.info/bookreviews/35-php/640-professional-php6.html",
+      "https://openlibrary.org/isbn/9780470395097"
+    ]
+  },
+  "real-world-solutions-for-developing-high-quality-php-frameworks-and-applications-2011": {
+    "descripcion": "Obra cumbre de la ingeniería de software en PHP, escrita por Sebastian Bergmann (creador de PHPUnit) y Stefan Priebsch (fundador de thePHP.cc), publicada por Wrox en 2011.\n\nAborda el diseño de software de máxima calidad: arquitectura limpia, desacoplamiento con inyección de dependencias, desarrollo guiado por pruebas (TDD) con PHPUnit, análisis estático de código, diseño de APIs seguras y patrones de integración continua (CI).\n\nCon la autoridad de quienes establecieron los estándares de calidad del ecosistema PHP moderno, enseña cómo construir software que perdure y escale sin acumular deuda técnica. Una lectura de cabecera obligatoria para cualquier profesional serio del desarrollo de software.",
+    "temas": [
+      "Sebastian Bergmann",
+      "PHPUnit",
+      "Stefan Priebsch",
+      "thePHP.cc",
+      "Calidad de Software",
+      "TDD",
+      "Clean Architecture",
+      "Wrox"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework Web Modular y Pipeline de Calidad con PHPUnit",
+        "descripcion": "Diseño de un núcleo de framework altamente comprobable con inyección de dependencias, suite integral de pruebas unitarias y análisis estático."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Real+World+Solutions+for+Developing+High+Quality+PHP+Frameworks+and+Applications-p-9780470872499"
+    ]
+  }
+}

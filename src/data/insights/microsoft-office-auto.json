@@ -1,0 +1,676 @@
+{
+  "creating-business-applications-with-office-365-2019": {
+    "descripcion": "Manual práctico centrado en la creación de aplicaciones departamentales y la digitalización de flujos de trabajo sobre el ecosistema de Office 365 (hoy Microsoft 365) y SharePoint Online. La obra está dirigida a administradores de SharePoint, usuarios avanzados (power users) y desarrolladores noveles o de perfil departamental que necesitan solucionar necesidades operativas del día a día sin tener que desplegar pesadas infraestructuras de backend ni contar con amplia experiencia en programación formal.\n\nEl contenido combina herramientas nativas de productividad con scripting ligero del lado del cliente. Enseña a habilitar capacidades avanzadas con PowerShell (Set-SPOSite y custom scripting), a diseñar aplicaciones móviles y de escritorio sobre listas de SharePoint utilizando PowerApps, a construir flujos de aprobación y automatización de procesos con Microsoft Flow (actual Power Automate), y a generar paneles de control interactivos con Power BI resolviendo retos de transformación de formatos como JSON, XML y booleanos. Asimismo, profundiza en la personalización de páginas e interfaces de SharePoint mediante JavaScript, jQuery y jQuery UI (acordeones y selectores), el consumo de servicios REST de SharePoint para notificaciones y la integración con Microsoft Forms, iFrames y Google Analytics.\n\nEl aprendizaje se articula construyendo aplicaciones empresariales completas paso a paso: un sistema de gestión de incidencias técnicas con pantallas diferenciadas para usuario y técnico, una solución de reservas de tutorías con validación en tiempo real para evitar solapamientos en calendarios y un sistema de matriculación de cursos contrastando InfoPath frente a PowerApps. Su valor radica en ser un puente muy accesible entre las soluciones web clásicas y las herramientas low-code de Microsoft. Queda fuera el desarrollo pro-code moderno con SharePoint Framework (SPFx) o Azure Functions, pero resulta excelente para automatizaciones corporativas ágiles.",
+    "temas": [
+      "Office 365",
+      "SharePoint Online",
+      "PowerApps",
+      "Microsoft Flow (Power Automate)",
+      "Power BI",
+      "Microsoft Forms",
+      "JavaScript y jQuery",
+      "jQuery UI",
+      "REST APIs de SharePoint",
+      "PowerShell (Set-SPOSite)",
+      "Automatización de procesos",
+      "InfoPath"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de gestión de incidencias y tickets de soporte (Help Ticketing System)",
+        "descripcion": "Solución integral que combina un formulario de registro de incidencias en PowerApps, una pantalla de seguimiento para técnicos en SharePoint y un cuadro de mando analítico en Power BI para supervisar tiempos de resolución."
+      },
+      {
+        "nombre": "Calendario de reservas con prevención de solapamientos",
+        "descripcion": "Herramienta de programación sobre calendarios de SharePoint que utiliza JavaScript, jQuery y servicios web para verificar la disponibilidad de tutores y bloquear reservas duplicadas o concurrentes."
+      },
+      {
+        "nombre": "Sistema automatizado de encuestas",
+        "descripcion": "Flujo de recolección de opiniones con Microsoft Forms que vuelca automáticamente las respuestas en listas de SharePoint a través de Microsoft Flow y visualiza los resultados analíticos en Power BI."
+      },
+      {
+        "nombre": "Solución de registro e inscripción a clases (Class Sign-Up)",
+        "descripcion": "Aplicación de inscripción y gestión de cupos implementada y contrastada de extremo a extremo tanto con formularios tradicionales de InfoPath como con PowerApps modernas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5331-1",
+      "https://www.oreilly.com/library/view/creating-business-applications/9781484253311/",
+      "https://www.amazon.com/Creating-Business-Applications-Office-365/dp/1484253308"
+    ]
+  },
+  "dashboards-for-excel-2015": {
+    "descripcion": "Guía técnica exhaustiva orientada al diseño e ingeniería de cuadros de mando y sistemas de soporte a la decisión (DSS) interactivos en Microsoft Excel (con especial foco en Excel 2013 y 2010). Coescrita por el MVP Jordan Goldmeier y Purnachandra Duggirala (fundador de Chandoo.org), la obra está pensada para analistas financieros, científicos de datos y usuarios de nivel intermedio o avanzado que ya dominan las hojas de cálculo estándar y quieren crear herramientas analíticas visualmente efectivas y robustas para la toma de decisiones.\n\nEl libro articula su propuesta en torno a la filosofía de «pensar fuera de la celda» y abarca fundamentos de percepción visual y principios de la psicología Gestalt para erradicar vicios habituales de diseño (como gráficos 3D o velocímetros inútiles). En el apartado técnico, detalla el uso avanzado de fórmulas de búsqueda y agregación matricial (INDEX, MATCH, OFFSET, SUMIFS), controles de formulario nativos (cuadros combinados, casillas de verificación, barras de desplazamiento y botones de opción), gráficos dinámicos interactivos, modelos de análisis de sensibilidad (What-If), automatización puntual con VBA / macros, tablas dinámicas con segmentadores de datos (Slicers y Timelines), el Modelo de Datos de Excel y las herramientas analíticas modernas Power Query y PowerPivot con fórmulas DAX.\n\nLos autores enseñan mediante análisis de casos reales e ingeniería inversa de plantillas complejas, destacando la construcción paso a paso de un panel interactivo de gestión de proyectos con diagrama de Gantt totalmente automatizado y cuadros ejecutivos de sensibilidad financiera. Su gran mérito es conjugar el rigor estético y cognitivo de la visualización de datos con técnicas sólidas de desarrollo en hoja de cálculo. Aunque el mercado corporativo se ha desplazado en gran medida hacia Power BI, los fundamentos metodológicos y de arquitectura en Excel expuestos mantienen una vigencia impecable.",
+    "temas": [
+      "Microsoft Excel",
+      "Diseño de Dashboards",
+      "Visualización de datos",
+      "Sistemas de soporte a decisiones (DSS)",
+      "Controles de formulario",
+      "Fórmulas avanzadas (INDEX/MATCH)",
+      "Tablas dinámicas y Slicers",
+      "Diagramas de Gantt interactivos",
+      "Análisis de sensibilidad (What-If)",
+      "Power Query",
+      "PowerPivot",
+      "VBA"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Cuadro de mando interactivo con diagrama de Gantt",
+        "descripcion": "Sistema de planificación y seguimiento de proyectos con cronogramas dinámicos, barras de progreso y vistas filtrables construido mediante gráficos de barras apiladas modificados, formato condicional y controles de formulario."
+      },
+      {
+        "nombre": "Dashboard ejecutivo con modelo de análisis de sensibilidad",
+        "descripcion": "Herramienta analítica interactiva que simula escenarios de negocio alternativos (análisis What-If) vinculando controles de entrada de usuario con matrices de cálculo y gráficos dinámicos de rendimiento."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-4945-0",
+      "https://www.oreilly.com/library/view/dashboards-for-excel/9781430249450/",
+      "https://www.amazon.com/Dashboards-Excel-Jordan-Goldmeier/dp/1430249448"
+    ]
+  },
+  "data-visualization-in-excel-2016-2nd-edition-2016": {
+    "descripcion": "Tratado práctico y detallado sobre las herramientas de Business Intelligence de autoservicio y visualización avanzada integradas en Excel 2016 y su ecosistema conectado con Power BI. La obra está dirigida a analistas de información, consultores de inteligencia empresarial y usuarios avanzados de Excel que necesitan consolidar datos desde orígenes dispares, generar modelos relacionales robustos y diseñar informes visuales interactivos de alto impacto sin depender de desarrollos externos de TI.\n\nEl recorrido formativo profundiza en las cuatro tecnologías clave del autoservicio de Microsoft: Get & Transform (la integración nativa de Power Query) para extraer, transformar, desanidar, limpiar y combinar (mashup) conjuntos de datos; Power Pivot para estructurar modelos relacionales en estrella y crear jerarquías; el lenguaje DAX (Data Analysis Expressions) para formular columnas calculadas, medidas agregadas y cálculos de inteligencia temporal (Time Intelligence como acumulados anuales o comparaciones periódicas); Power View para diseñar lienzos interactivos con matrices, mosaicos, tarjetas y gráficos combinados; 3D Maps (Power Map) para trazar capas de datos geoespaciales tridimensionales sobre Bing Maps con recorridos animados temporales; y la publicación de modelos en el servicio cloud de PowerBI.com para su consumo multiplataforma.\n\nA lo largo de sus capítulos se construyen flujos continuos de análisis empresarial: desde la ingesta automatizada y saneamiento de fuentes transaccionales sin estructurar, pasando por el modelado multidimensional de ventas con métricas DAX, hasta paneles ejecutivos visuales y animaciones cartográficas en 3D para análisis territorial. El libro destaca por su claridad pedagógica y por explicar de manera integral el conjunto de herramientas que dio origen al Power BI moderno. Conviene tener en cuenta que tecnologías basadas en Silverlight como Power View quedaron en desuso en versiones posteriores de Office, pero los capítulos de Get & Transform, Power Pivot y DAX representan el estándar base fundamental de la analítica actual.",
+    "temas": [
+      "Excel 2016",
+      "Power Query (Get & Transform)",
+      "Power Pivot",
+      "DAX (Data Analysis Expressions)",
+      "Inteligencia temporal (Time Intelligence)",
+      "Power View",
+      "3D Maps (Power Map)",
+      "Modelado de datos relacional",
+      "PowerBI.com",
+      "ETL y limpieza de datos",
+      "Visualización geoespacial",
+      "Business Intelligence de autoservicio"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline ETL y consolidación de datos con Get & Transform",
+        "descripcion": "Flujo de trabajo para extraer, transformar, desanidar y sanear datos desde múltiples fuentes desestructuradas mediante Power Query integrado en Excel 2016."
+      },
+      {
+        "nombre": "Modelo semántico de ventas con métricas temporales en DAX",
+        "descripcion": "Estructuración de un modelo de datos en estrella con Power Pivot que incorpora relaciones, columnas calculadas y medidas DAX de inteligencia de tiempo para contrastar resultados entre trimestres y años."
+      },
+      {
+        "nombre": "Presentación geoespacial tridimensional con 3D Maps",
+        "descripcion": "Visualización cartográfica interactiva en 3D sobre Bing Maps que ubica métricas comerciales y demográficas por coordenadas geográficas y genera recorridos de vídeo animados según la línea de tiempo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2400-7",
+      "https://www.oreilly.com/library/view/high-impact-data/9781484224007/",
+      "https://www.amazon.com/Data-Visualization-Excel-2016-Transform/dp/1484223999"
+    ]
+  },
+  "getting-started-with-dynamics-365-portals-2019": {
+    "descripcion": "Manual técnico publicado por Apress enfocado en la configuración, arquitectura y desarrollo de portales web corporativos integrados con Microsoft Dynamics 365 Customer Engagement (versiones en la nube vigentes hacia 2019, precursoras directas de Power Pages). La obra está orientada a desarrolladores, administradores de sistemas y arquitectos de soluciones que ya poseen experiencia previa administrando Dynamics 365 o Common Data Service (Dataverse) y cuentan con nociones elementales de tecnologías web (HTML, CSS y JavaScript), buscando habilitar portales de autoservicio externos para clientes, socios o empleados.\n\nEl texto profundiza en los mecanismos fundamentales para extender Dynamics 365 hacia la web mediante el modelo de portales. Cubre el aprovisionamiento de instancias, la configuración de seguridad con Web Roles, Entity Permissions y Page Permissions, así como la autenticación de usuarios locales y federados con Azure Active Directory B2C. Explica la estructura de contenidos mediante Web Pages, Content Snippets, Page Templates y menús, y aborda la captura e interactividad de datos con Entity Forms, Entity Lists y formularios multi-paso (Web Forms) con lógica condicional. Además, detalla la integración con SharePoint y Azure Blob Storage para el almacenamiento seguro de archivos adjuntos, dedicando capítulos clave al motor de plantillas Liquid (sintaxis, filtros, etiquetas) y a consultas de datos empresariales mediante FetchXML.\n\nA lo largo de los capítulos se implementan escenarios reales de autoservicio empresarial, como formularios de soporte con validación, catálogos de consulta de datos filtrados y vistas dinámicas personalizadas con plantillas Liquid y llamadas asíncronas. El libro aporta un gran valor al clarificar la arquitectura de seguridad y la personalización del frontend sin necesidad de recurrir a código compilado en C# o plugins de servidor. Sin embargo, no aborda el ciclo de vida moderno de Microsoft Power Pages ni el empaquetado mediante ALM moderno de Power Platform, por lo que resulta conveniente complementarlo con la documentación actual si se trabaja en versiones recientes de la plataforma.",
+    "temas": [
+      "Dynamics 365 Portals",
+      "Dynamics 365 CE",
+      "Liquid Templates",
+      "FetchXML",
+      "Entity Forms",
+      "Entity Lists",
+      "Web Forms",
+      "Web Roles y permisos",
+      "Azure AD B2C",
+      "SharePoint Integration",
+      "Azure Blob Storage"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5346-5",
+      "https://www.oreilly.com/library/view/getting-started-with/9781484253465/",
+      "https://www.amazon.com/Getting-Started-Dynamics-365-Portals/dp/1484253457"
+    ]
+  },
+  "the-project-managers-guide-to-microsoft-project-2019-2020": {
+    "descripcion": "Guía exhaustiva de referencia y formación profesional publicada por Apress que aborda Microsoft Project 2019 cubriendo sus distintas modalidades: Project Standard, Project Professional, Project Server, Project Web App (PWA) y Project Online (Office 365). Escrito desde la óptica de un director de proyectos experimentado, el libro está dirigido a gestores de proyectos (Project Managers), planificadores y líderes de equipo, tanto principiantes en el uso del software como profesionales que desean estructurar sus proyectos alineando la herramienta con las metodologías formales del estándar PMBOK del PMI. No exige conocimientos previos avanzados del programa, aunque sí una comprensión general de la gestión de proyectos.\n\nLa obra enseña a traducir los conceptos de gestión en planes de acción concretos dentro del software. Explora la configuración de calendarios base de proyecto y de recursos, la creación y organización jerárquica de la estructura de desglose del trabajo (WBS/EDT) con apoyo de herramientas como WBS Schedule Pro, y la definición de tareas, dependencias, restricciones y vínculos de red. Se detiene detalladamente en la gestión y asignación de recursos humanos, materiales y de costos, la nivelación de sobreasignaciones (resource leveling), el cálculo de la ruta crítica (CPM) y el establecimiento de líneas base (baselines). Asimismo, cubre el seguimiento de la ejecución, el análisis de valor ganado (EVM), el control de variaciones y la colaboración empresarial mediante Project Web App (PWA), junto con la generación de informes personalizados, tablas y campos a medida.\n\nEl aprendizaje se estructura a través de explicaciones conceptuales respaldadas por ejercicios prácticos paso a paso denominados \"Try It\" al término de los capítulos, diseñados para practicar la creación de cronogramas, la resolución de conflictos de asignación y el reporte de estados de avance. Su principal mérito radica en que no se limita a describir botones o menús, sino que justifica el razonamiento metodológico detrás de cada función. No profundiza en automatización mediante programación de macros VBA ni en la integración con herramientas ágiles de Azure DevOps o Jira, pero resulta una obra de referencia sólida para planificar y controlar proyectos en el ecosistema Microsoft.",
+    "temas": [
+      "Microsoft Project 2019",
+      "Project Online",
+      "Project Web App (PWA)",
+      "Project Server",
+      "Gestión de proyectos",
+      "Work Breakdown Structure (WBS)",
+      "Ruta crítica (CPM)",
+      "Nivelación de recursos",
+      "Líneas base",
+      "Valor ganado (EVM)",
+      "Cronogramas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5636-7",
+      "https://www.oreilly.com/library/view/the-project-managers/9781484256367/",
+      "https://www.amazon.com/Project-Managers-Guide-Microsoft-2019/dp/1484256359"
+    ]
+  },
+  "microsoft-access-2013-step-by-step-2013": {
+    "descripcion": "Manual oficial de aprendizaje publicado por Microsoft Press que enseña el diseño, uso y administración de bases de datos relacionales de escritorio utilizando Microsoft Access 2013. Está concebido para principiantes y usuarios de oficina o pequeña empresa sin formación previa en programación o administración de bases de datos que necesitan organizar información departamental, sustituir hojas de cálculo desbordadas o automatizar tareas administrativas a su propio ritmo.\n\nEl contenido abarca paso a paso el ciclo de vida de una base de datos relacional de formato ACCDB. Explica el diseño de tablas, la definición de campos, tipos de datos y claves primarias, así como el establecimiento de relaciones entre tablas con integridad referencial. Aborda la construcción de formularios de entrada de datos intuitivos, la creación de consultas de selección y de acción mediante el diseñador gráfico de consultas (QBE) con expresiones y criterios, y la elaboración de informes profesionales con agrupaciones, totales calculados y diseño optimizado para impresión. También cubre técnicas de importación y exportación de datos con Excel y archivos de texto, la compactación y reparación de archivos, y el cifrado con contraseña para la protección del archivo.\n\nEl libro utiliza la metodología didáctica Step by Step, apoyándose en archivos de práctica descargables con los que el lector resuelve ejercicios prácticos modulares (diseñando tablas de clientes, formularios de pedidos, consultas de ventas e informes de facturación). Es un recurso muy accesible y estructurado para adquirir destreza operativa con la interfaz Ribbon de Access sin intimidar al estudiante. No aborda la programación de código VBA, macros complejas ni la conexión con servidores externos como Microsoft SQL Server, por lo que sirve principalmente como punto de partida para la gestión de datos a nivel local.",
+    "temas": [
+      "Microsoft Access 2013",
+      "Bases de datos relacionales",
+      "Diseño de tablas",
+      "Integridad referencial",
+      "Consultas (Queries)",
+      "Formularios",
+      "Informes (Reports)",
+      "Importación y exportación",
+      "Validación de datos",
+      "Seguridad de bases de datos"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/microsoft-access-2013-step-by-step-9780735669086",
+      "https://www.oreilly.com/library/view/microsoft-access-2013/9780735669086/",
+      "https://www.amazon.com/Microsoft-Access-2013-Step-Lambert/dp/0735669082"
+    ]
+  },
+  "microsoft-excel-2013-step-by-step-2013": {
+    "descripcion": "Guía didáctica oficial de Microsoft Press dedicada al aprendizaje paso a paso de la hoja de cálculo Microsoft Excel 2013, considerando tanto el uso en computadoras tradicionales como en pantallas táctiles con Windows. El libro está orientado a usuarios desde nivel principiante hasta intermedio —como administrativos, analistas, estudiantes y profesionales de diversas áreas— que parten de cero o quieren consolidar sus habilidades en el manejo, cálculo y análisis de datos numéricos y tabulares.\n\nEl texto profundiza en las funcionalidades clave del software para el trabajo diario con libros y hojas de cálculo. Cubre la creación de tablas de Excel (Excel Tables), el formateo condicional y el uso de fórmulas apoyadas en funciones matemáticas, estadísticas, lógicas (SI, Y, O) y de búsqueda (BUSCARV/VLOOKUP). Enseña técnicas de filtrado, ordenación y consolidación de datos procedentes de múltiples fuentes, así como herramientas analíticas de escenarios (análisis What-If, Buscar Objetivo y Solver). Asimismo, explica la creación de gráficos dinámicos y tradicionales, minigráficos (Sparklines), la lente de análisis rápido (Quick Analysis Lens), tablas dinámicas (PivotTables) para el resumen masivo de datos y una introducción básica a la automatización mediante la grabadora de macros y controles de formulario.\n\nLa formación se basa en ejercicios guiados respaldados por archivos de práctica descargables donde el usuario practica tareas reales de cálculo presupuestario, reportes de ventas, depuración de listas y visualización gráfica. Destaca por su claridad expositiva y por enseñar las mejoras visuales e interactivas incorporadas en la versión 2013. Quedan fuera aspectos de analítica avanzada como el modelado de datos con Power Pivot, el lenguaje DAX o la programación personalizada de macros en Visual Basic para Aplicaciones (VBA), ofreciendo a cambio una base sólida y eficiente para el usuario empresarial.",
+    "temas": [
+      "Microsoft Excel 2013",
+      "Fórmulas y funciones",
+      "Tablas dinámicas (PivotTables)",
+      "Gráficos y minigráficos",
+      "Análisis de datos",
+      "Formato condicional",
+      "Quick Analysis Lens",
+      "Filtros y ordenación",
+      "Macros grabadas",
+      "Controles de formulario"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/microsoft-excel-2013-step-by-step-9780735681019",
+      "https://www.oreilly.com/library/view/microsoft-excel-2013/9780735681019/",
+      "https://www.amazon.com/Microsoft-Excel-2013-Step-Frye/dp/0735681015"
+    ]
+  },
+  "microsoft-outlook-2013-step-by-step-2013": {
+    "descripcion": "Manual de formación oficial publicado por Microsoft Press orientado al dominio integral de las herramientas de comunicación, gestión del tiempo y productividad personal de Microsoft Outlook 2013. Diseñado para cualquier usuario de oficina, profesional independiente o administrador de tareas que necesite gestionar eficazmente su correspondencia y agenda diaria, el libro no requiere conocimientos previos y acompaña al lector desde la configuración inicial hasta técnicas avanzadas de organización en entornos corporativos o domésticos.\n\nLa obra examina con detenimiento cada uno de los módulos de la aplicación: correo electrónico, calendario, contactos (People) y tareas (Tasks). Detalla la configuración de cuentas de correo bajo protocolos Exchange, IMAP y POP3, el uso de firmas automáticas, opciones de seguimiento y marcas de mensaje. Profundiza en el orden de la bandeja de entrada mediante reglas automáticas, carpetas de búsqueda (Search Folders), acciones rápidas (Quick Steps) y filtros de correo no deseado. Además, enseña la gestión de citas, eventos periódicos y reuniones compartidas con seguimiento de asistentes en el calendario, el uso de libretas de direcciones, la administración de listas de distribución y el seguimiento de tareas pendientes con prioridades y fechas límite, junto con la gestión de archivos de almacenamiento local (.pst y .ost) y el trabajo en modo sin conexión.\n\nA través de ejercicios prácticos guiados con archivos de muestra descargables, el lector practica la configuración de flujos de trabajo de correo, la resolución de conflictos de horarios en reuniones y la categorización visual de contactos y tareas. Es un manual muy completo para optimizar el tiempo laboral y evitar el caos en la bandeja de entrada. Deja al margen la administración técnica de servidores Microsoft Exchange y el desarrollo de complementos o macros, centrándose exclusivamente en capacitar al usuario para una gestión diaria ágil, ordenada y productiva.",
+    "temas": [
+      "Microsoft Outlook 2013",
+      "Gestión de correo electrónico",
+      "Calendarios y citas",
+      "Gestión de tareas (Tasks)",
+      "Contactos y libreta de direcciones",
+      "Reglas automáticas",
+      "Quick Steps",
+      "Archivos PST y OST",
+      "Microsoft Exchange",
+      "Productividad y organización"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/microsoft-outlook-2013-step-by-step-9780735669093",
+      "https://www.oreilly.com/library/view/microsoft-outlook-2013/9780735669093/",
+      "https://www.amazon.com/Microsoft-Outlook-2013-Step-Lambert/dp/0735669090"
+    ]
+  },
+  "excel-2016-all-in-one-for-dummies-2016": {
+    "descripcion": "Manual de referencia integral estructurado en ocho minilibros temáticos («8 libros en 1») dedicado a Microsoft Excel 2016 bajo el sistema operativo Windows. Está diseñado para usuarios de nivel principiante e intermedio que necesitan una guía de consulta abarcadora y directa para desenvolverse con soltura en la hoja de cálculo, sin requerir conocimientos previos avanzados ni experiencia técnica en programación.\n\nEl recorrido formativo enseña desde la navegación por la cinta de opciones (Ribbon), la gestión de libros y el diseño de hojas con formato condicional, hasta fórmulas esenciales y funciones por categoría (financieras como PMT, estadísticas como AVERAGE, lógicas como IF y de consulta como VLOOKUP y HLOOKUP). En sus secciones más avanzadas profundiza en la creación de gráficos, administración de tablas y listas de datos, tablas dinámicas (PivotTables), herramientas de análisis de hipótesis (Buscar objetivo, Solver, Administrador de escenarios) y una introducción práctica a la automatización mediante macros y Visual Basic for Applications (VBA).\n\nMediante ejemplos explicados paso a paso y modelos funcionales, se ejercita la confección de presupuestos operativos, reportes dinámicos de ventas y rutinas básicas para agilizar tareas repetitivas. Su gran fortaleza radica en su amplitud enciclopédica como manual de cabecera de escritorio; no obstante, no profundiza en análisis masivo de datos mediante herramientas modernas de BI ni en desarrollo corporativo complejo, resultando un cimiento ideal antes de abordar especializaciones analíticas o de programación.",
+    "temas": [
+      "Excel 2016",
+      "Fórmulas y funciones",
+      "Tablas dinámicas",
+      "VLOOKUP",
+      "Gráficos",
+      "Análisis de hipótesis",
+      "Solver",
+      "Macros",
+      "VBA",
+      "Formato condicional"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Excel+2016+All+in+One+For+Dummies-p-9781119077152",
+      "https://www.amazon.com/Excel-2016-All-One-Dummies/dp/1119077159"
+    ]
+  },
+  "excel-2016-formulas-2016": {
+    "descripcion": "Guía especializada de referencia técnica y resolución práctica centrada de forma monográfica en el motor de cálculo y la formulación avanzada en Microsoft Excel 2016, perteneciente a la emblemática serie fundada por John Walkenbach («Mr. Spreadsheet»). Está dirigida a profesionales de finanzas, analistas de datos, contadores y usuarios de nivel intermedio o avanzado que ya dominan la operativa básica de la hoja de cálculo y buscan resolver retos de cálculo y modelado de alta complejidad.\n\nEl libro desmenuza exhaustivamente la arquitectura de fórmulas de Excel: gestión de nombres y rangos definidos, manipulación avanzada de cadenas de texto (FIND, MID, SUBSTITUTE), aritmética cronológica de fechas y horas, funciones de búsqueda bidireccional (INDEX, MATCH, VLOOKUP) y agregaciones condicionales multicriterio (SUMIFS, COUNTIFS). Dedica amplios bloques al modelado financiero (préstamos, amortizaciones y rentabilidad), fórmulas matriciales clásicas (combinaciones CSE y constantes matriciales), técnicas de auditoría y depuración de errores, así como a la programación de funciones personalizadas de hoja de cálculo (UDF) mediante código VBA.\n\nLa enseñanza se desarrolla a través de cientos de recetas y fórmulas resueltas aplicables a situaciones empresariales reales, apoyándose en hojas de trabajo complementarias. Su mayor mérito reside en la precisión técnica y el rigor con el que enseña a dominar las fórmulas matriciales y el cálculo condicional previo a la llegada de las matrices dinámicas modernas; conviene contar con una sólida base aritmética y nociones claras de lógica de datos para asimilar todo su contenido.",
+    "temas": [
+      "Excel 2016",
+      "Fórmulas avanzadas",
+      "INDEX y MATCH",
+      "Fórmulas matriciales",
+      "VBA",
+      "Funciones personalizadas (UDF)",
+      "Auditoría de fórmulas",
+      "Modelado financiero",
+      "SUMIFS",
+      "Manipulación de texto"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Excel+2016+Formulas-p-9781119067863",
+      "https://www.amazon.com/Excel-2016-Formulas-Michael-Alexander/dp/1119067862"
+    ]
+  },
+  "excel-2019-bible-2018": {
+    "descripcion": "Tratado enciclopédico de referencia integral para Microsoft Excel 2019 y las versiones de Office 365 coetáneas, desarrollado por los autores y MVPs Michael Alexander y Richard Kusleika sobre el legado formativo de John Walkenbach. Con más de 1100 páginas, la obra está concebida tanto para principiantes que necesitan una introducción estructurada desde los primeros pasos como para analistas que requieren un manual de consulta definitivo y exhaustivo en su entorno de trabajo diario.\n\nEl texto abarca desde la configuración del entorno, diseño de hojas, formato de celdas y validación de datos, hasta un amplio catálogo de fórmulas matemáticas, estadísticas y financieras. Destaca por incorporar las innovaciones visuales de la versión 2019 (gráficos de mapas coropléticos y gráficos de embudo) y por dedicar partes fundamentales a las herramientas de Business Intelligence nativas: extracción y transformación de datos con Power Query (Get & Transform), modelado relacional con Power Pivot, tablas dinámicas avanzadas y automatización de procesos mediante macros y programación en VBA.\n\nA través de tutoriales paso a paso y modelos funcionales de negocio sustentados en archivos de trabajo descargables, se ejercita la creación de balances analíticos, pronósticos de tendencias y reportes interactivos. Su principal valor reside en reunir en un único volumen tanto la operativa tradicional como el análisis relacional moderno; si bien no abarca las fórmulas matriciales dinámicas posteriores (como XLOOKUP o FILTER que se popularizaron en versiones más recientes), ofrece una base técnica rigurosa y completa para cualquier usuario corporativo serio de Excel.",
+    "temas": [
+      "Excel 2019",
+      "Power Query",
+      "Power Pivot",
+      "Modelado de datos",
+      "Tablas dinámicas",
+      "Visualización de datos",
+      "Fórmulas y funciones",
+      "VBA",
+      "Macros",
+      "Auditoría de datos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Excel+2019+Bible-p-9781119514787",
+      "https://www.amazon.com/Excel-2019-Bible-Michael-Alexander/dp/1119514788"
+    ]
+  },
+  "excel-dashboards-and-reports-for-dummies-3rd-edition-2016": {
+    "descripcion": "Guía práctica de diseño visual y comunicación estratégica de datos centrada en la construcción de tableros de control (dashboards) e informes ejecutivos en Microsoft Excel (adaptada a las versiones 2016 y 2013). Escrita por el MVP Michael Alexander, la obra está dirigida a analistas de negocio, coordinadores departamentales y usuarios de nivel básico o intermedio que necesitan transformar grandes listados de datos brutos en paneles visuales comprensibles para la toma de decisiones directiva.\n\nEl contenido expone principios de arquitectura de información y diseño visual eficaz: normalización y estructuración de tablas base, visualización compacta mediante minigráficos (sparklines), formato condicional orientado al seguimiento de indicadores clave de rendimiento (KPI) y despliegue de tablas y gráficos dinámicos (PivotTables y PivotCharts). Enseña además a dotar de dinamismo a los informes incorporando segmentadores de datos (slicers), controles de formulario interactivos (botones de opción, casillas de verificación, cuadros combinados) y rutinas breves en VBA para automatizar la navegación y la actualización de reportes conectados a fuentes externas.\n\nEl aprendizaje se articula a través de componentes analíticos aplicados, paneles comparativos de rendimiento frente a metas y cuadros de mando interactivos apoyados en libros de trabajo prácticos. El valor fundamental del libro radica en enseñar a comunicar métricas de manera limpia y ejecutiva sin necesidad de software costoso de inteligencia empresarial externo; prescinde del modelado relacional complejo con lenguaje DAX, por lo que resulta ideal para quienes desean exprimir las funciones nativas de presentación de Excel.",
+    "temas": [
+      "Excel 2016",
+      "Dashboards",
+      "Informes ejecutivos",
+      "Tablas dinámicas",
+      "Segmentadores (Slicers)",
+      "Controles de formulario",
+      "Minigráficos (Sparklines)",
+      "Visualización de datos",
+      "VBA",
+      "KPIs"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Excel+Dashboards+and+Reports+For+Dummies%2C+3rd+Edition-p-9781119076766",
+      "https://www.amazon.com/Excel-Dashboards-Reports-Dummies-Alexander/dp/1119076765"
+    ]
+  },
+  "excel-formulas-and-functions-for-dummies-4th-edition-2015": {
+    "descripcion": "Manual didáctico y accesible enfocado en desmitificar el cálculo y la lógica funcional de Microsoft Excel (edición alineada con Excel 2016 y versiones previas compatibles). Redactado por Ken Bluttman, está concebido para usuarios principiantes y profesionales administrativos o comerciales que dominan las operaciones más elementales de la hoja de cálculo pero buscan aprovechar las fórmulas sin sentirse intimidados por tecnicismos ni fórmulas matemáticas abstractas.\n\nEl texto desglosa de manera accesible unas 150 funciones fundamentales organizadas por áreas de aplicación práctica: cálculos matemáticos y financieros (amortizaciones, cuotas y préstamos con PMT, FV y NPER), estadística descriptiva (AVERAGE, MEDIAN, MODE, COUNTIF), manejo de fechas y tiempos (DATE, TODAY, NETWORKDAYS), tratamiento de texto (CONCATENATE, LEFT, RIGHT, TRIM) y lógica condicional y de búsqueda (IF anidados, AND, OR, VLOOKUP y HLOOKUP). Asimismo, introduce los fundamentos de las fórmulas matriciales y métodos sencillos para identificar y corregir errores comunes (#N/A, #VALUE!, #REF!).\n\nA través de explicaciones directas, ejemplos breves de oficina cotidiana (cálculo de comisiones, balances presupuestarios y control de inventarios) y la sección clásica «The Part of Tens», el lector adquiere rapidez para resolver necesidades de cálculo recurrentes. Brinda una base sólida y libre de complicaciones teóricas; deja de lado la automatización avanzada con macros VBA y el modelado analítico con Power Query o Power Pivot, constituyendo una plataforma preparatoria adecuada antes de avanzar hacia volúmenes de formulación especializada.",
+    "temas": [
+      "Excel",
+      "Fórmulas",
+      "Funciones",
+      "VLOOKUP",
+      "Funciones financieras",
+      "Funciones estadísticas",
+      "Fechas y horas",
+      "Depuración de errores",
+      "Lógica condicional",
+      "Fórmulas matriciales"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Excel+Formulas+and+Functions+For+Dummies%2C+4th+Edition-p-9781119076780",
+      "https://www.amazon.com/Excel-Formulas-Functions-Dummies-Bluttman/dp/1119076780"
+    ]
+  },
+  "excel-power-pivot-and-power-query-for-dummies-2016": {
+    "descripcion": "Manual formativo escrito por el MVP Michael Alexander que introduce a los usuarios de Microsoft Excel (ediciones 2010, 2013 y principalmente 2016) en el análisis de grandes volúmenes de datos mediante las herramientas de Business Intelligence de autoservicio integradas en la hoja de cálculo. Está dirigido a analistas de datos, profesionales de finanzas y usuarios de nivel básico a intermedio que ya manejan fórmulas comunes y tablas dinámicas tradicionales, pero que se ven limitados por el tope de 1.048.576 filas por hoja o sufren la lentitud de combinar múltiples tablas con BUSCARV (VLOOKUP).\n\nEl texto se divide en dos grandes bloques tecnológicos: Power Query (la herramienta de extracción, transformación y carga conocida como \"Obtener y transformar\") y Power Pivot (el motor de modelado en memoria). En el apartado de Power Query se enseña a conectarse a diversas fuentes de datos (archivos CSV, bases de datos Access y SQL Server, carpetas y páginas web), limpiar registros dispares, desdinamizar columnas (unpivot), combinar consultas mediante fusiones (joins) y anexos (unions), y escribir funciones personalizadas en lenguaje M. En la parte de Power Pivot se aborda el diseño de modelos relacionales basados en tablas de hechos y dimensiones, la creación de relaciones visuales mediante diagramas y la formulación analítica con DAX (Data Analysis Expressions) para calcular columnas y medidas agregadas con funciones como SUM, CALCULATE o RELATED, además de la publicación de modelos en SharePoint.\n\nA través de tutoriales prácticos guiados con archivos de muestra, el lector practica la limpieza de datos desestructurados y la creación de informes analíticos basados en tablas y gráficos dinámicos conectados al modelo de datos interno de xVelocity. La obra destaca por desmitificar la teoría de bases de datos y hacer accesible el salto a la analítica moderna sin obligar a escribir código SQL complejo. Sin embargo, no profundiza en la formulación avanzada de DAX (como contextos de evaluación o cálculos complejos de inteligencia temporal) ni en Power BI Desktop, por lo que debe entenderse como un trampolín introductorio ideal antes de pasar a textos especializados en DAX o BI empresarial.",
+    "temas": [
+      "Excel 2016",
+      "Power Query",
+      "Power Pivot",
+      "DAX",
+      "Modelado de datos",
+      "Tablas dinámicas",
+      "ETL",
+      "Transformación de datos",
+      "Bases de datos relacionales",
+      "SharePoint"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Excel+Power+Pivot+and+Power+Query+For+Dummies-p-9781119210641",
+      "https://www.amazon.com/Excel-Power-Pivot-Query-Dummies/dp/1119210640",
+      "https://books.google.com/books?isbn=9781119210641"
+    ]
+  },
+  "office-2013-bible-2013": {
+    "descripcion": "Voluminosa guía enciclopédica de referencia elaborada por un equipo de reconocidos autores y especialistas en Microsoft Office (Lisa A. Bucki, John Walkenbach, Faithe Wempen, Michael Alexander y Dick Kusleika) para dominar la suite ofimática Microsoft Office 2013 en el entorno de Windows. Está destinada tanto a principiantes que comienzan a familiarizarse con la suite como a oficinistas y administrativos de nivel intermedio que necesitan una obra de consulta integral sobre su escritorio de trabajo, requiriendo únicamente conocimientos elementales sobre el uso del sistema operativo.\n\nLa obra cubre de manera exhaustiva las aplicaciones principales de la suite: Word, Excel, PowerPoint y Access, acompañadas de secciones sobre Outlook, OneNote, Publisher y la integración con el servicio en la nube SkyDrive (posteriormente OneDrive). En Word se enseñan el formateo de estilos, secciones, tablas y combinación de correspondencia (Mail Merge); en Excel (\"Mr. Spreadsheet\", John Walkenbach) se detallan fórmulas, funciones matemáticas y lógicas, formato condicional, gráficos y tablas dinámicas; en PowerPoint se abarcan patrones de diapositivas, transiciones, audio y animaciones; y en Access se abordan el diseño de tablas relacionales, consultas de selección y acción, formularios e informes. Asimismo, se revisan las herramientas compartidas como la cinta Ribbon, el menú Backstage y el soporte para dispositivos táctiles.\n\nA lo largo de sus más de 1.500 páginas, el libro ofrece cientos de procedimientos explicados paso a paso y ejercicios aplicados para resolver tareas ofimáticas reales, desde redactar informes formales y generar envíos masivos de cartas hasta modelar hojas de cálculo y administrar bases de datos de escritorio. Su principal virtud reside en la calidad y especialización de sus autores, cada uno referente indiscutible en su respectivo programa. Por su enfoque generalista y enciclopédico, deja fuera la programación avanzada en VBA y las arquitecturas de desarrollo corporativo, funcionando mejor como un manual de consulta definitivo y práctico para el día a día laboral.",
+    "temas": [
+      "Microsoft Office 2013",
+      "Word 2013",
+      "Excel 2013",
+      "PowerPoint 2013",
+      "Access 2013",
+      "Outlook 2013",
+      "OneNote 2013",
+      "Tablas dinámicas",
+      "Mail Merge",
+      "SkyDrive"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Office+2013+Bible-p-9781118488096",
+      "https://www.amazon.com/Office-2013-Bible-Lisa-Bucki/dp/1118488091",
+      "https://www.oreilly.com/library/view/office-2013-bible/9781118488096/"
+    ]
+  },
+  "powerpoint-2013-bible-2013": {
+    "descripcion": "Guía exhaustiva escrita por la instructora certificada Faithe Wempen para dominar a fondo la herramienta de presentaciones Microsoft PowerPoint 2013 en Windows. El libro está orientado a profesionales corporativos, conferencistas, formadores y estudiantes de cualquier nivel que deseen superar las presentaciones monótonas de texto y aprender a estructurar contenidos visuales dinámicos, atractivos y profesionales, sin necesidad de poseer conocimientos previos de diseño gráfico ni experiencia previa con versiones anteriores.\n\nEl texto analiza el ecosistema completo de PowerPoint 2013, empezando por la interfaz Ribbon adaptada a pantallas táctiles, el soporte nativo para formato panorámico 16:9, las guías de alineación inteligentes y la vista de moderador optimizada. Enseña a diseñar con coherencia mediante patrones de diapositivas (Slide Masters), temas personalizados y variantes de color; a incorporar diagramas conceptuales con SmartArt y formas vectoriales personalizadas mediante herramientas de combinación (Merge Shapes); a integrar y editar archivos multimedia (recorte de vídeo, compresión de medios y pistas de audio continuas); y a configurar animaciones complejas en el panel de animación junto con botones de acción e hipervínculos para navegación no lineal. También se examina la colaboración en la nube mediante SkyDrive y la emisión de presentaciones en directo.\n\nAdemás de los conceptos teóricos y tutoriales por temas, el libro incluye una sección dedicada de laboratorios prácticos (\"Project Labs\") donde el lector construye presentaciones interactivas completas paso a paso, abarcando desde la eliminación de viñetas aburridas hasta sistemas de navegación tipo quiosco y juegos interactivos para aulas. Su gran valor está en conectar las características técnicas del software con principios comunicativos y de diseño efectivos, evitando sobrecargar al espectador. Deja fuera la programación de macros complejas en VBA, concentrándose en exprimir al máximo las funcionalidades visuales y multimedia nativas de la aplicación.",
+    "temas": [
+      "PowerPoint 2013",
+      "Patrones de diapositivas",
+      "Diseño de presentaciones",
+      "SmartArt",
+      "Animaciones",
+      "Transiciones",
+      "Multimedia",
+      "Vista de moderador",
+      "SkyDrive",
+      "Presentaciones interactivas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Presentación visual sin listas con viñetas",
+        "descripcion": "Rediseño de diapositivas cargadas de texto sustituyendo las listas con viñetas tradicionales por diagramas estructurados basados en formas geométricas y gráficos SmartArt."
+      },
+      {
+        "nombre": "Presentación animada con sonido y movimiento",
+        "descripcion": "Creación de una secuencia multimedia interactiva que sincroniza transiciones, pistas de audio continuas y efectos avanzados de animación como fundidos, sustitución dinámica de fotografías y ampliaciones con zoom."
+      },
+      {
+        "nombre": "Sistema de navegación interactivo con menús",
+        "descripcion": "Presentación autoservicio no lineal orientada a quioscos o catálogos interactivos, equipada con una barra de navegación gráfica fija, botones de acción e hipervínculos entre secciones."
+      },
+      {
+        "nombre": "Juego educativo interactivo para el aula",
+        "descripcion": "Diseño de un juego de preguntas y respuestas para clases estilo concurso, con un tablero interactivo vinculado a diapositivas individuales de interrogantes y soluciones."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/PowerPoint+2013+Bible-p-9781118488119",
+      "https://www.amazon.com/PowerPoint-2013-Bible-Faithe-Wempen/dp/1118488113",
+      "https://www.oreilly.com/library/view/powerpoint-2013-bible/9781118488119/"
+    ]
+  },
+  "word-2013-bible-2013": {
+    "descripcion": "Tratado exhaustivo y manual de referencia redactado por Lisa A. Bucki para aprender en profundidad el procesador de textos Microsoft Word 2013. Está concebido tanto para usuarios principiantes que necesitan dominar la redacción y maquetación de documentos cotidianos como para profesionales, secretarios técnicos, abogados y redactores que trabajan con documentos extensos, complejos y con estrictos estándares de formato, requiriendo únicamente familiaridad básica con el entorno de Windows.\n\nEl contenido desglosa las capacidades técnicas de Word 2013 divididas en nueve secciones funcionales: desde las novedades de la interfaz Ribbon, el modo de lectura (Read Mode) y la apertura y edición directa de archivos PDF, hasta la tipografía y el uso riguroso de estilos de párrafo y carácter para mantener la uniformidad documental. Se profundiza en el diseño de páginas mediante secciones múltiples, columnas, encabezados y pies diferenciados; la inserción de gráficos estadísticos, SmartArt, tablas con cálculos y fórmulas; la gestión avanzada de documentos extensos (tablas de contenido automáticas, índices analíticos, referencias cruzadas, marcadores y bibliografía con citas normalizadas); y herramientas de automatización como combinación de correspondencia (Mail Merge), campos dinámicos de Word, formularios con controles de contenido (Content Controls) y una introducción al uso de macros en VBA.\n\nA través de procedimientos detallados paso a paso y casos prácticos, el lector aprende a maquetar informes formales, generar envíos de correspondencia y etiquetas masivas, crear formularios protegidos y colaborar en equipo mediante el control de cambios (Track Changes), comentarios y almacenamiento sincronizado en SkyDrive / OneDrive. Su mayor mérito radica en enseñar las mejores prácticas de estructuración y estilos, evitando los vicios comunes de espaciado manual que rompen los documentos al editarlos. No es un manual de programación avanzada en VBA, sino una enciclopedia indispensable para exprimir todas las capacidades nativas del procesador de textos.",
+    "temas": [
+      "Word 2013",
+      "Estilos y plantillas",
+      "Maquetación de documentos",
+      "Edición de PDF",
+      "Tablas de contenido",
+      "Mail Merge",
+      "Controles de contenido",
+      "Control de cambios",
+      "Campos automáticos",
+      "SkyDrive"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Word+2013+Bible-p-9781118488126",
+      "https://www.amazon.com/Word-2013-Bible-Lisa-Bucki/dp/1118488121",
+      "https://www.oreilly.com/library/view/word-2013-bible/9781118488126/"
+    ]
+  },
+  "professional-access-2013-programming-2013": {
+    "descripcion": "Guía técnica avanzada desarrollada por un destacado grupo de MVPs de Microsoft Access (Teresa Hennig, Ben Clothier, George Hepworth y Dagi Yudovich) que aborda la arquitectura y desarrollo de soluciones de bases de datos empresariales con Microsoft Access 2013. Está pensada para programadores, desarrolladores de bases de datos y consultores de software de nivel intermedio a avanzado que ya conocen los fundamentos de tablas y consultas en Access y desean dar el salto profesional hacia la construcción de aplicaciones web escalables alojadas en la nube y sistemas cliente-servidor robustos.\n\nEl texto divide su propuesta técnica en dos pilares fundamentales: Access Web Apps y el desarrollo cliente-servidor tradicional. En la primera parte enseña la arquitectura web introducida en la versión 2013, detallando cómo diseñar tablas relacionales para la web, crear vistas personalizadas (List Details, Datasheet), implementar lógica de servidor con macros de datos (Data Macros) y de interfaz (UI Macros), y desplegar aplicaciones en SharePoint 2013 y Office 365 respaldadas por bases de datos SQL Server o Azure SQL. En la segunda parte profundiza en el entorno cliente-servidor de escritorio: optimización y conexión a Microsoft SQL Server mediante tablas vinculadas ODBC y consultas directas (pass-through queries); programación avanzada en VBA manipulando datos con DAO y ADO; manejo robusto de excepciones; llamadas a APIs del sistema operativo Windows; y personalización visual de la cinta de opciones con XML (Custom UI Ribbon).\n\nA través del desarrollo guiado de aplicaciones reales, el lector aprende a concebir tanto aplicaciones web completas en SharePoint con backend SQL Server como robustos clientes de escritorio que gestionan auditorías, seguridad por roles y distribución mediante Access Runtime. La obra destaca por elevar a Access al nivel de una herramienta de ingeniería de software corporativa, alejándose de los prototipos informales. Conviene tener conocimientos sólidos de SQL relacional y fundamentos de programación estructurada en VBA antes de abordarlo. Asimismo, cabe señalar como contexto histórico que las Access Web Apps fueron retiradas en versiones posteriores de Office 365, si bien la mitad del libro dedicada a la arquitectura cliente-servidor con VBA y SQL Server sigue siendo una referencia técnica de primer orden.",
+    "temas": [
+      "Access 2013",
+      "Access Web Apps",
+      "VBA",
+      "SQL Server",
+      "SharePoint 2013",
+      "Cliente-servidor",
+      "DAO y ADO",
+      "Macros de datos",
+      "Ribbon XML",
+      "Seguridad de bases de datos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web en Access (Access Web App)",
+        "descripcion": "Aplicación web empresarial desplegada sobre SharePoint y respaldada por SQL Server o Azure SQL, que implementa tablas en la nube, vistas dinámicas de datos y lógica de negocio mediante macros de datos y de interfaz."
+      },
+      {
+        "nombre": "Solución empresarial cliente-servidor con backend SQL Server",
+        "descripcion": "Sistema de escritorio de alta concurrencia que utiliza Microsoft Access como frontend conectado por ODBC a SQL Server, incorporando formularios avanzados, manipulación de registros con VBA/ADO, gestión centralizada de errores y personalización de la cinta Ribbon."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Professional+Access+2013+Programming-p-9781118530832",
+      "https://www.amazon.com/dp/1118530837",
+      "https://www.oreilly.com/library/view/professional-access-2013-programming/9781118530832/"
+    ]
+  },
+  "microsoft-visio-2016-step-by-step-2016": {
+    "descripcion": "Manual oficial de formación guiada publicado por Microsoft Press, concebido para dominar Microsoft Visio 2016 tanto en su edición Standard como Professional. La obra está dirigida a profesionales, analistas de negocio, diseñadores de procesos y técnicos de soporte que necesitan transformar información compleja en diagramas claros y estructurados, partiendo desde un nivel básico e intermedio sin requerir experiencia previa en dibujo vectorial o modelado, más allá de la soltura habitual en el entorno Windows y las aplicaciones de Microsoft Office.\n\nEl autor, Scott A. Helmers, enseña minuciosamente a desenvolverse por la cinta de opciones, la vista Backstage, el panel de Formas (Shapes) y el empleo de guías, reglas y cuadrículas dinámicas para alinear elementos con exactitud. El contenido profundiza en la creación de diagramas de procesos bajo el estándar BPMN, organigramas corporativos jerárquicos, planos de distribución de oficinas, topologías de red y esquemas de centros de datos con armarios de servidores y racks. Además, instruye sobre cómo dotar de dinamismo a los gráficos mediante Shape Data (datos de forma), gráficos de datos (Data Graphics con barras de estado e iconos) y la vinculación directa de figuras con fuentes de datos externas en Microsoft Excel, Access o bases de datos SQL Server.\n\nA través de la metodología práctica \"Step by Step\", el lector ejercita cada herramienta paso a paso con archivos de práctica diseñados para cada capítulo, construyendo diagramas departamentales cruzados y esquemas de infraestructura tecnológica con validación automática de reglas de proceso. El texto destaca por su claridad visual y por cubrir la publicación colaborativa mediante SharePoint y Visio Services; como contrapartida, no aborda la programación avanzada de macros con VBA ni fórmulas profundas en la hoja ShapeSheet, siendo una referencia idónea para quien busca excelencia funcional en diagramación empresarial sin adentrarse en el código.",
+    "temas": [
+      "Visio 2016",
+      "Diagramas de flujo",
+      "BPMN",
+      "Organigramas",
+      "Diagramas de red",
+      "Centros de datos",
+      "Shape Data",
+      "Data Graphics",
+      "Vinculación de datos",
+      "SharePoint",
+      "Contenedores y listas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Diagrama de flujo funcional departamental",
+        "descripcion": "Modelado de procesos de negocio interfuncionales organizados en carriles (swimlanes), contenedores y fases temporales, aplicando reglas de validación en Visio 2016."
+      },
+      {
+        "nombre": "Mapeo de datacenter vinculado a datos",
+        "descripcion": "Esquema visual de infraestructura de servidores y racks conectado dinámicamente a hojas externas de Excel, reflejando métricas de hardware en tiempo real con Data Graphics."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/microsoft-visio-2016-step-by-step-9780735697805",
+      "https://www.oreilly.com/library/view/microsoft-visio-2016/9780134394015/",
+      "https://www.amazon.com/Microsoft-Visio-2016-Step-ebook/dp/B01673J01Y"
+    ]
+  },
+  "head-first-excel-2010": {
+    "descripcion": "Guía introductoria y altamente visual perteneciente a la serie formativa de O'Reilly, diseñada bajo principios de ciencia cognitiva para enseñar a pensar analíticamente y dominar las hojas de cálculo tomando como base Microsoft Excel 2010 (con total vigencia conceptual en versiones actuales). El libro está pensado para principiantes absolutos, trabajadores de oficina, educadores o gestores comerciales que hasta ahora solo usan Excel como un procesador de texto estructurado o una cuadrícula básica para almacenar listas, sin conocimientos previos de funciones o análisis de datos.\n\nMichael Milton desmitifica el funcionamiento interno del software explicando la naturaleza de los distintos tipos de datos (texto, valores numéricos y el tratamiento de fechas y horas como números de serie continuos). El lector aprende a formular correctamente con referencias relativas y absolutas ($A$1), nombres de rangos y tablas estructuradas, apoyándose en funciones nativas como SUM, AVERAGE, MIN, MAX, VALUE y DATEDIF. Además de enseñar a filtrar, ordenar y aplicar zoom para no perderse en conjuntos de datos extensos, el contenido profundiza en la auditoría visual de fórmulas (rastreo de precedentes y dependientes), la depuración de errores frecuentes (#DIV/0!, #VALUE!), el análisis de optimización mediante Buscar Objetivo (Goal Seek) y la síntesis multidimensional con tablas dinámicas (PivotTables).\n\nEl libro se estructura en torno a retos continuos, escenarios de toma de decisiones cotidianas, esquemas ilustrados y ejercicios prácticos de resolución paso a paso. Se practican simulaciones de fijación de precios y resúmenes de rendimiento comercial interactivos. Su gran fortaleza es que desarrolla una sólida comprensión conceptual de cómo opera el motor de cálculo y evita el aprendizaje mecánico de menús; no obstante, deja fuera el modelado relacional con Power Pivot y la automatización con macros VBA, posicionándose como un recurso introductorio de primer orden para adquirir soltura y confianza.",
+    "temas": [
+      "Excel 2010",
+      "Fórmulas y funciones",
+      "Referencias absolutas y relativas",
+      "Tablas dinámicas",
+      "PivotTables",
+      "Buscar Objetivo",
+      "Goal Seek",
+      "Visualización y gráficos",
+      "Auditoría de fórmulas",
+      "DATEDIF",
+      "Tipos de datos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Modelo de previsión comercial con Buscar Objetivo",
+        "descripcion": "Hoja de cálculo financiera orientada a la toma de decisiones que aplica Goal Seek para determinar los volúmenes de venta y márgenes requeridos para alcanzar una meta de beneficio."
+      },
+      {
+        "nombre": "Reporte analítico de rendimiento con tablas dinámicas",
+        "descripcion": "Resumen interactivo de registros transaccionales en Excel que segmenta, agrupa y visualiza métricas de ventas por categoría y fecha mediante PivotTables y gráficos enlazados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/head-first-excel/9780596807719/",
+      "https://www.amazon.com/Head-First-Excel-Learners-Spreadsheets/dp/0596807694"
+    ]
+  },
+  "101-excel-2013-tips-tricks-and-timesavers-2013": {
+    "descripcion": "Manual de trucos, atajos y mejores prácticas redactado por John Walkenbach (\"Mr. Spreadsheet\"), una de las mayores autoridades mundiales en software de cálculo, enfocado en maximizar el rendimiento y la velocidad de trabajo en Microsoft Excel 2013. Está destinado a usuarios de nivel básico e intermedio que ya conocen las funciones estándar de la herramienta pero se encuentran frecuentemente con cuellos de botella, pasos repetitivos innecesarios o limitaciones de formato y visualización en sus hojas de cálculo habituales.\n\nA lo largo de 101 entregas independientes, el libro enseña técnicas concretas de personalización de la cinta de opciones (Ribbon) y la barra de herramientas de acceso rápido, la configuración de la vista protegida (Protected View), la autorrecuperación de libros y la compatibilidad con Excel Online. Detalla formatos numéricos personalizados avanzados (escalado visual a miles o millones, supresión de ceros y fusión de texto con números), reglas creativas de formato condicional, fórmulas de búsqueda bidireccional y multicriterio mediante INDEX y MATCH, y el control de errores con IFERROR. Asimismo, aborda la construcción de gráficos dinámicos que superan limitaciones estándar del programa, trucos de segmentación en tablas dinámicas y una introducción a la automatización mediante macros VBA sencillas, formularios UserForms y funciones definidas por el usuario (UDF).\n\nOrganizado con un enfoque puramente de recetario práctico, cada truco se desglosa en pocas páginas explicando el problema, los pasos exactos a seguir y capturas explicativas, permitiendo al lector aplicar las soluciones de inmediato en sus propios libros de trabajo. Al ser una compilación de técnicas aisladas, no desarrolla una macroaplicación completa de extremo a extremo, pero entrega un arsenal de soluciones inteligentes para resolver contingencias ofimáticas reales. Resulta especialmente provechoso para quienes ya usan Excel a diario y quieren elevar su productividad sin necesidad de estudiar manuales enciclopédicos.",
+    "temas": [
+      "Excel 2013",
+      "Atajos de productividad",
+      "Personalización de Ribbon",
+      "Formatos numéricos personalizados",
+      "Formato condicional",
+      "INDEX y MATCH",
+      "Tablas dinámicas",
+      "Gráficos avanzados",
+      "Macros VBA",
+      "UserForms",
+      "Auditoría y corrección de errores"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/101+Excel+2013+Tips%2C+Tricks+and+Timesavers-p-9781118642320",
+      "https://www.oreilly.com/library/view/101-excel-2013/9781118642320/",
+      "https://www.amazon.com/Excel-2013-Tips-Tricks-Timesavers/dp/1118642321"
+    ]
+  },
+  "101-ready-to-use-excel-formulas-2014": {
+    "descripcion": "Recetario especializado de fórmulas y técnicas de cálculo creado por los consultores y Microsoft MVPs Dick Kusleika y Michael Alexander, centrado en resolver los problemas de procesamiento de datos más habituales en Microsoft Excel (compatible con Excel 2013, 2010 y versiones modernas). El libro está orientado a analistas de datos, administrativos, auditores y contables que dominan la interfaz de usuario pero necesitan respuestas directas y fórmulas optimizadas sin invertir horas depurando errores de sintaxis o lógica.\n\nEl temario clasifica las fórmulas en bloques temáticos fundamentales: transformación y saneamiento de texto mediante LEFT, RIGHT, MID, FIND, SEARCH, LEN, SUBSTITUTE y TRIM; cálculos con fechas y horarios laborales usando NETWORKDAYS, WORKDAY, YEARFRAC y DATEDIF; y evaluación condicional compleja combinando IF, AND, OR, SUMIFS, COUNTIFS y AVERAGEIFS. En el área de cruce de datos, ofrece alternativas potentes al clásico VLOOKUP mediante combinaciones de INDEX y MATCH para búsquedas bidireccionales, búsquedas matriciales y aproximaciones con comodines. También incluye fórmulas financieras para tablas de amortización de préstamos y márgenes comerciales, cálculos estadísticos con RANK y PERCENTILE, y el enlace de fórmulas lógicas con reglas de formato condicional.\n\nCada uno de los 101 casos sigue un esquema riguroso: descripción del escenario de negocio, presentación de la fórmula lista para usar y análisis pormenorizado de la función de cada argumento para facilitar su adaptación a cualquier libro de trabajo. No se concibe como el desarrollo de un proyecto global único, sino como un catálogo de módulos de cálculo autónomos y reutilizables. Su gran aportación radica en enseñar cómo anidar funciones con precisión matemática y evitar sobrecargar el rendimiento de los libros; no aborda programación en VBA ni Power Query, consolidándose como una guía de referencia de cabecera para exprimir el motor de cálculo nativo.",
+    "temas": [
+      "Fórmulas de Excel",
+      "VLOOKUP",
+      "INDEX y MATCH",
+      "SUMIFS",
+      "COUNTIFS",
+      "Manipulación de texto",
+      "Cálculo de fechas",
+      "NETWORKDAYS",
+      "Fórmulas financieras",
+      "Estadística descriptiva",
+      "Formato condicional"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/101+Ready-to-Use+Excel+Formulas-p-9781118931325",
+      "https://www.oreilly.com/library/view/101-ready-to-use-excel/9781118931325/",
+      "https://www.amazon.com/101-Ready-Use-Excel-Formulas/dp/1118931323"
+    ]
+  },
+  "access-2019-bible-2018": {
+    "descripcion": "Extenso tratado y obra de referencia de más de 1.100 páginas sobre el sistema gestor de bases de datos relacionales Microsoft Access 2019 (y su integración en Microsoft 365), desarrollado por Michael Alexander y Richard Kusleika. Está dirigido tanto a principiantes que parten de cero y necesitan diseñar su primer sistema de captura y almacenamiento de información estructurada, como a desarrolladores ofimáticos y administradores que buscan dominar la automatización con código y la integración de bases de datos en entornos empresariales.\n\nLa obra desgrana paso a paso el diseño de sistemas relacionales: modelado de datos en cinco fases, normalización, configuración de tablas, tipos de datos, claves primarias e integridad referencial. Explica con detalle el diseño gráfico y la sintaxis SQL de consultas de selección, agregación, creación de tablas, actualización, eliminación y referencias cruzadas (crosstab). Cubre la creación ergonómica de interfaces con formularios principales, subformularios vinculados y controles avanzados, junto con la generación de informes preparados para impresión. Su tramo avanzado se sumerge de lleno en la programación mediante macros y VBA (Visual Basic for Applications), explorando la manipulación de registros a través de las librerías de objetos DAO y ADO, la personalización de la cinta Ribbon mediante código XML y la sincronización con SharePoint y servicios externos.\n\nA lo largo de sus secciones, los autores intercalan casos de estudio y ejercicios prácticos que culminan en aplicaciones de gestión comercial relacionales completas, abarcando desde el registro de pedidos hasta la facturación automatizada. La obra sobresale por su rigor y exhaustividad, sirviendo a la vez de tutorial formativo y manual técnico de consulta permanente. Aunque cubre la integración con listas de SharePoint y enlaces ODBC, no sustituye a un manual de administración de grandes servidores SQL corporativos, resultando la guía definitiva para consolidar y automatizar bases de datos de departamento en el ecosistema Office.",
+    "temas": [
+      "Access 2019",
+      "Bases de datos relacionales",
+      "Diseño y normalización",
+      "Consultas SQL",
+      "Formularios e informes",
+      "VBA",
+      "Macros de Access",
+      "DAO y ADO",
+      "Personalización de Ribbon",
+      "Integración con SharePoint",
+      "Integridad referencial"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema relacional de facturación y control de pedidos",
+        "descripcion": "Base de datos transaccional completa construida en Access con tablas normalizadas, formularios para captura de clientes y pedidos, consultas de totales e informes de facturación estructurados."
+      },
+      {
+        "nombre": "Módulo de automatización y exportación con VBA y DAO",
+        "descripcion": "Herramienta integrada en una Ribbon personalizada que ejecuta procesos por lotes con código VBA para validar registros, actualizar tablas de inventario y exportar datos limpios a Excel."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Access+2019+Bible-p-9781119514756",
+      "https://www.oreilly.com/library/view/access-2019-bible/9781119514756/",
+      "https://www.amazon.com/Access-2019-Bible-Michael-Alexander/dp/1119514750"
+    ]
+  }
+}

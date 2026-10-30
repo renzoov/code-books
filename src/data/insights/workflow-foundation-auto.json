@@ -1,0 +1,98 @@
+{
+  "beginning-wf-2009": {
+    "descripcion": "Guía introductoria y práctica sobre Windows Workflow Foundation en .NET 3.5 escrita por Mark J. Collins y publicada por Apress en 2009. Enseña a modelar flujos de trabajo secuenciales y basados en máquinas de estados.\n\nAborda el diseñador visual de flujos en Visual Studio, la definición de actividades personalizadas, paso de parámetros y correlación de mensajes, persistencia del estado de workflows en SQL Server, y el manejo de excepciones y compensaciones.\n\nMark J. Collins ofrece explicaciones pedagógicas y accesibles que desmitifican la automatización de procesos de negocio complejos. Una referencia formativa clásica muy sólida para desarrolladores de la plataforma .NET.",
+    "temas": [
+      "Windows Workflow Foundation",
+      "WF 3.5",
+      "Flujos Secuenciales",
+      "Máquinas de Estados",
+      "Persistencia SQL",
+      "Mark J. Collins",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Aprobación de Órdenes de Compra con Máquinas de Estados",
+        "descripcion": "Construcción de un flujo de trabajo empresarial con aprobaciones jerárquicas, persistencia en SQL Server y notificaciones automáticas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-2396-2"
+    ]
+  },
+  "pro-wf-4-5-2013": {
+    "descripcion": "Tratado técnico y exhaustivo sobre Windows Workflow Foundation en .NET 4.5 escrito por Bayer White y publicado por Apress en 2013. Explora la arquitectura de ejecución declarativa y orquestación de servicios.\n\nDetalla el nuevo motor de ejecución rediseñado en WF 4.5, expresiones C# integradas en XAML, creación de actividades personalizadas asíncronas con `AsyncCodeActivity`, integración nativa con WCF para servicios de flujo de trabajo, y monitorización con ETW.\n\nBayer White aporta un enfoque arquitectónico profundo para diseñar sistemas de procesos de negocio de misión crítica y alta disponibilidad. La obra de referencia canónica sobre WF 4.5.",
+    "temas": [
+      "WF 4.5",
+      "Windows Workflow Foundation",
+      "AsyncCodeActivity",
+      "XAML",
+      "WCF Integration",
+      "ETW Tracking",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servicio de Orquestación de Procesos de Negocio con WF y WCF",
+        "descripcion": "Implementación de un servicio distribuido de procesamiento de solicitudes con seguimiento ETW y persistencia transaccional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-4377-9"
+    ]
+  },
+  "pro-wf-windows-workflow-in-net-3-5-2008": {
+    "descripcion": "Manual técnico avanzado sobre diseño de flujos empresariales escrito por Bruce Bukovics y publicado por Apress en 2008. Profundiza en las capacidades de Windows Workflow Foundation en .NET 3.5.\n\nCubre la creación de servicios de tiempo de ejecución (Runtime Services), servicios de persistencia personalizados, alojamiento del diseñador visual de flujos en aplicaciones propias (rehosting), reglas de negocio declarativas y transacciones compensatorias.\n\nBruce Bukovics combina rigor en los detalles de bajo nivel con patrones de software probados en entornos corporativos de alta demanda. Una referencia indispensable para arquitectos de soluciones .NET.",
+    "temas": [
+      "WF 3.5",
+      "Workflow Rehosting",
+      "Runtime Services",
+      "Reglas de Negocio",
+      "Transacciones Compensatorias",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma con Diseñador de Flujos Re-Alojado para Usuarios Finales",
+        "descripcion": "Construcción de una aplicación cliente que incrusta el diseñador visual de WF permitiendo a operadores modelar flujos de trabajo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-0985-0"
+    ]
+  },
+  "microsoft-windows-workflow-foundation-4-0-cookbook-2010": {
+    "descripcion": "Recetario práctico de soluciones para la orquestación de procesos escrito por Andrew Zhu y publicado por Packt en 2010. Proporciona soluciones directas a desafíos cotidianos en WF 4.0.\n\nContiene recetas para la creación de actividades compuestas (`NativeActivity`), manejo de variables y argumentos, integración con aplicaciones WPF y ASP.NET, persistencia con `SqlWorkflowInstanceStore` y pruebas automatizadas de workflows.\n\nAndrew Zhu estructura cada receta con código claro y explicaciones concisas que van directo al grano, acelerando la curva de aprendizaje de la nueva arquitectura de WF 4. Muy útil para desarrolladores en activo.",
+    "temas": [
+      "WF 4.0",
+      "Cookbook",
+      "NativeActivity",
+      "SqlWorkflowInstanceStore",
+      "Orquestación",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Flujos de Automatización de Facturación con WF 4.0",
+        "descripcion": "Desarrollo de actividades reutilizables con persistencia automática en base de datos SQL Server y control de reintentos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

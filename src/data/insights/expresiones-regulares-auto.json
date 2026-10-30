@@ -1,0 +1,236 @@
+{
+  "javascript-regular-expressions-2015": {
+    "descripcion": "Manual conciso y práctico publicado por Packt Publishing en el que Loiane Groner y Gabriel Manricks enseñan a diseñar, interpretar y optimizar expresiones regulares utilizando JavaScript y el entorno de ejecución Node.js. Está pensado para desarrolladores web de nivel básico a intermedio que ya manejan las bases de la sintaxis de JavaScript y el DOM, pero que suelen recurrir a copiar y pegar patrones crípticos de internet sin comprender su funcionamiento interno ni las implicaciones de rendimiento y seguridad asociadas.\n\nLa obra detalla el funcionamiento del objeto nativo RegExp y sus métodos de evaluación (test y exec), junto con las funciones del prototipo String que integran soporte para expresiones regulares (match, replace, search y split). Cubre la sintaxis de metacaracteres, clases de caracteres predefinidas, rangos, banderas o modificadores (global, ignoreCase, multiline), delimitadores de palabra y límites de línea (^, $, \\b). Avanza hacia conceptos más sofisticados como cuantificadores voraces y perezosos (greedy y non-greedy), grupos de captura, grupos de no captura, retroreferencias (backreferences) y aserciones anticipadas (lookaheads positivas y negativas). Además, traslada estos conocimientos tanto al navegador como al backend mediante el uso del módulo de sistema de archivos (fs) de Node.js.\n\nA lo largo de sus capítulos se desarrollan casos prácticos aplicados a problemas habituales del desarrollo web, como una suite de validación de entradas de usuario en formularios (correos electrónicos, nombres completos, usuarios de redes sociales y robustez de contraseñas) y un procesador en Node.js que analiza y extrae métricas de archivos de registro (logs) de servidor. Al ser una guía breve de poco más de 100 páginas, va directo al grano y se lee rápidamente; no abarca extensiones de expresiones regulares introducidas en estándares posteriores de ECMAScript (como lookbehinds o named groups de ES2018), pero proporciona una base indispensable para dominar el procesamiento de texto en el día a día.",
+    "temas": [
+      "JavaScript",
+      "Expresiones regulares (Regex)",
+      "Node.js",
+      "RegExp",
+      "Validación de formularios",
+      "Manipulación de cadenas",
+      "Lookaheads",
+      "Grupos de captura",
+      "API fs",
+      "Parsing de logs",
+      "ECMAScript"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Validador de datos de usuario para formularios web",
+        "descripcion": "Conjunto de utilidades en JavaScript para validar entradas de clientes en formularios web: nombres completos, correos electrónicos, nombres de usuario y fortaleza de contraseñas."
+      },
+      {
+        "nombre": "Analizador de registros de servidor en Node.js",
+        "descripcion": "Script en Node.js que lee y procesa archivos de log del servidor mediante el módulo 'fs', usando expresiones regulares para extraer y estructurar direcciones IP, códigos de estado HTTP y fechas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/javascript-regular-expressions-9781783282258",
+      "https://www.oreilly.com/library/view/javascript-regular-expressions/9781783282258/",
+      "https://www.amazon.com/JavaScript-Regular-Expressions-Gabriel-Manricks/dp/1783282253"
+    ]
+  },
+  "understanding-javascript-regexp-2023": {
+    "descripcion": "Guía práctica y directa enfocada en dominar el motor de expresiones regulares de JavaScript moderno, abarcando las especificaciones de ECMAScript desde ES6 hasta características contemporáneas como grupos con nombre y aserciones lookbehind. Está pensada para desarrolladores web y programadores de JavaScript o Node.js de nivel básico a intermedio que ya manejan las estructuras elementales del lenguaje pero se sienten intimidados por la sintaxis compacta de RegExp o desean dejar de depender de fragmentos copiados de internet.\n\nEl texto desglosa minuciosamente los métodos nativos de cadenas y del objeto `RegExp`, tales como `test()`, `exec()`, `match()`, `matchAll()`, `replace()`, `replaceAll()`, `search()` y `split()`. Explica en profundidad la construcción de patrones mediante anclas (`^`, `$`, `\\b`, `\\B`), alternancias, cuantificadores codiciosos y perezosos (`*`, `+`, `?`, `{m,n}`), clases de caracteres personalizadas y abreviadas (`\\d`, `\\w`, `\\s`), grupos de captura posicionales y nombrados, retroreferencias (backreferences) y aserciones lookaround (lookahead y lookbehind positivos y negativos). También detalla las banderas de configuración (`g`, `i`, `m`, `s`, `u`, `y`), el tratamiento de caracteres Unicode y el uso de herramientas de depuración y visualización como regex101 y Regulex.\n\nSu metodología se basa estrictamente en el aprendizaje guiado por ejemplos breves y concisos, complementado con decenas de ejercicios prácticos progresivos con soluciones completas. No construye aplicaciones completas con interfaz ni proyectos de software complejos, sino que aísla cada concepto en transformaciones y validaciones de texto en consola. Su gran fortaleza es la claridad didáctica para desglosar patrones crípticos paso a paso, convirtiéndose en un recurso ideal para ganar soltura y confianza en la manipulación de texto antes de abordar desarrollos más avanzados.",
+    "temas": [
+      "JavaScript",
+      "RegExp",
+      "ECMAScript",
+      "Expresiones regulares",
+      "matchAll",
+      "Lookarounds",
+      "Grupos de captura",
+      "Procesamiento de texto",
+      "Unicode",
+      "Herramientas de depuración"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/learnbyexample/learn_js_regexp",
+      "https://learnbyexample.github.io/learn_js_regexp/",
+      "https://leanpub.com/learn_js_regexp"
+    ]
+  },
+  "introducing-regular-expressions-2017": {
+    "descripcion": "Manual introductorio y de bolsillo publicado por Apress que enseña los fundamentos esenciales de las expresiones regulares aplicadas a JavaScript y TypeScript (estándar ES6+ y Node.js). Está orientado a desarrolladores web principiantes que necesitan una primera toma de contacto rápida, accesible y sin rodeos teóricos para entender cómo funcionan los patrones de búsqueda y reemplazo tanto en el navegador como en el servidor.\n\nEl autor repasa los conceptos nodales de la sintaxis: metacaracteres, comodines, clases abreviadas de dígitos y caracteres alfanuméricos, negación de conjuntos, espacios en blanco y anclas de límites de palabra (`\\b`) e inicio y fin de entrada. Explica cómo instanciar y ejecutar patrones usando la API nativa de `RegExp` y los métodos estándar de manipulación de cadenas en JavaScript y TypeScript (`test`, `match`, `replace`), además de ilustrar cómo configurar y ejecutar scripts de procesamiento de texto en Node.js.\n\nEl contenido es breve y directo: aborda casos prácticos puntuales como la validación de campos en formularios web (números de teléfono y formatos de entrada), el análisis de archivos de registro (logs) y la extracción básica en documentos XML. Con apenas 64 páginas, no incluye proyectos de software terminados ni colecciones de ejercicios al final de los capítulos, sino snippets y ejemplos guiados. Su valor reside en su capacidad para resolver dudas cotidianas de validación en una sola tarde de lectura, aunque deja fuera conceptos avanzados como optimización de retroceso, lookbehinds o banderas Unicode profundas.",
+    "temas": [
+      "Expresiones regulares",
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "Validación de formularios",
+      "Metacaracteres",
+      "RegExp",
+      "Parsing de logs"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2508-0",
+      "https://www.oreilly.com/library/view/introducing-regular-expressions/9781484225080/",
+      "https://www.amazon.com/Introducing-Regular-Expressions-JavaScript-TypeScript/dp/1484225072"
+    ]
+  },
+  "regex-quick-syntax-reference-2018": {
+    "descripcion": "Guía de referencia rápida y compacta de Apress concebida como un manual de escritorio para comprender, formular y optimizar expresiones regulares sin perderse en rodeos históricos. Está dirigida a desarrolladores web y de software de nivel principiante e intermedio que utilizan motores de expresiones regulares comunes (como JavaScript y la sintaxis estilo Perl / PCRE) y buscan consultar rápidamente reglas de sintaxis precisas para tareas de filtrado, validación y extracción de datos.\n\nEl texto explica la formulación de patrones, la precedencia de operadores y el funcionamiento interno de los motores de búsqueda mediante máquinas de estados finitos (FSM). Cubre en detalle los modificadores de repetición con cuantificadores codiciosos (greedy) y perezosos (lazy), clases y rangos de caracteres, extracción de subcadenas con grupos de captura, referencias hacia atrás, así como aserciones anticipadas (lookahead) e retrospectivas (lookbehind). Asimismo, dedica capítulos clave a la mantenibilidad del código de patrones, buenas prácticas para evitar retrocesos catastróficos y ejemplos prácticos como el parseo de etiquetas HTML y el desglose de parámetros en query strings de URLs.\n\nLa obra prescinde deliberadamente de ejercicios de autoevaluación o del desarrollo de aplicaciones completas, priorizando el formato de consulta rápida, diagramas de flujo de autómatas y ejemplos de código breves y directos. Su principal mérito radica en enseñar a pensar visualmente cómo el motor evalúa cada carácter, lo que facilita enormemente la depuración y optimización de expresiones lentas en entornos de producción.",
+    "temas": [
+      "Expresiones regulares",
+      "Sintaxis Regex",
+      "Máquinas de estados finitos",
+      "Lookahead y Lookbehind",
+      "Grupos de captura",
+      "Optimización de patrones",
+      "Parseo de URLs",
+      "Extracción de texto",
+      "JavaScript",
+      "PCRE"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3876-9",
+      "https://www.oreilly.com/library/view/regex-quick-syntax/9781484238769/",
+      "https://www.amazon.com/Regex-Quick-Syntax-Reference-Understanding/dp/1484238751"
+    ]
+  },
+  "regular-expression-recipes-for-windows-developers-2005": {
+    "descripcion": "Completo recetario técnico en formato problema-solución diseñado para resolver desafíos comunes de procesamiento y validación de texto dentro del ecosistema Microsoft Windows (.NET Framework 1.1/2.0 y scripting web clásico). Está enfocado en programadores de nivel intermedio que trabajan con C#, VB.NET, ASP.NET, VBScript o JavaScript en entornos Windows y necesitan patrones listos para usar y adaptables a sus sistemas sin tener que construirlos desde cero.\n\nEl libro contiene más de 100 recetas organizadas temáticamente que cubren la manipulación de texto y palabras, validación y análisis de URLs, rutas locales y de red de Windows (rutas UNC), parseo de archivos delimitados por comas y tabuladores (CSV y TSV), y validación de datos frecuentes como teléfonos, códigos postales, fechas, tarjetas de crédito y direcciones de correo electrónico. También aborda la extracción y formateo de elementos HTML y XML. Cada receta proporciona el patrón regex específico, ejemplos de implementación con las clases del espacio de nombres `System.Text.RegularExpressions` (`Regex`, `Match`, `GroupCollection`) o scripts de cliente/servidor, acompañados de una explicación paso a paso de cómo funciona cada componente del patrón.\n\nEl libro funciona enteramente como un catálogo de soluciones prácticas y reutilizables: no desarrolla un proyecto de software monolítico ni incluye cuestionarios teóricos de tarea, sino que ofrece soluciones directas a problemas concretos de desarrollo empresarial. Aunque sus ejemplos de plataforma corresponden a las primeras generaciones de .NET y herramientas de mediados de los años 2000, los patrones de expresiones regulares y el desglose de su lógica mantienen plena utilidad y rigor técnico para desarrolladores que dan soporte o migran sistemas en Windows.",
+    "temas": [
+      "Expresiones regulares",
+      ".NET Framework",
+      "C#",
+      "VB.NET",
+      "ASP.NET",
+      "System.Text.RegularExpressions",
+      "Validación de datos",
+      "Parseo de CSV",
+      "Rutas de archivos y URLs",
+      "VBScript"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://books.google.com/books?id=1-59059-497-5",
+      "https://www.regular-expressions.info/books.html",
+      "https://www.amazon.com/Regular-Expression-Recipes-Windows-Developers/dp/1590594975"
+    ]
+  },
+  "introducing-regular-expressions-2012": {
+    "descripcion": "Guía pedagógica de O'Reilly Media diseñada para aprender expresiones regulares desde sus cimientos de forma progresiva y accesible, manteniendo un enfoque independiente del lenguaje de programación. Está dirigida a programadores principiantes, administradores de sistemas, analistas de datos y redactores técnicos que no tienen conocimientos previos de regex y buscan adquirir una base conceptual sólida sin abrumarse con formulaciones crípticas.\n\nEl contenido introduce la sintaxis canónica (sabor estándar Perl / PCRE compatible con la gran mayoría de herramientas modernas): coincidencia de literales, anclas de inicio y fin (`^`, `$`), límites de palabra (`\\b`), clases y rangos de caracteres (`[...]`), cuantificadores básicos y codiciosos (`*`, `+`, `?`, `{n}`), alternancias, grupos de captura y retroreferencias (backreferences). También explica la coincidencia con caracteres Unicode y las aserciones de ancho cero (lookaround: lookahead y lookbehind). Para experimentar y probar patrones de forma interactiva, el autor recurre a aplicaciones de escritorio como Reggy y evaluadores web como Regexpal y Rubular, además de repasar cómo se integran estas expresiones en utilidades de línea de comandos Unix y lenguajes como Perl, Java, JavaScript, Python y C#.\n\nLa práctica del libro culmina en el capítulo 9 con un caso guiado en el que se transforman y estructuran documentos de texto plano aplicándoles etiquetas semánticas de HTML5 mediante sucesivas pasadas de expresiones regulares. No construye una aplicación de software completa ni incluye listas de ejercicios de autoevaluación, sino un flujo de aprendizaje continuo respaldado por archivos de texto de ejemplo descargables. Su mayor virtud es la claridad expositiva y la sencillez para desmitificar los patrones, convirtiéndose en una excelente lectura previa antes de obras más densas como las de Jeffrey Friedl.",
+    "temas": [
+      "Expresiones regulares",
+      "PCRE",
+      "Coincidencia de patrones",
+      "Grupos y backreferences",
+      "Cuantificadores",
+      "Unicode",
+      "Lookaround",
+      "Transformación a HTML5",
+      "Reggy",
+      "Herramientas de prueba regex"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/introducing-regular-expressions/9781449338879/",
+      "https://github.com/oreillymedia/introducing_regular_expressions",
+      "https://www.amazon.com/Introducing-Regular-Expressions-Michael-Fitzgerald/dp/1449392687"
+    ]
+  },
+  "mastering-regular-expressions-3rd-edition-2006": {
+    "descripcion": "Obra cumbre y referente histórico indiscutible sobre expresiones regulares escrita por Jeffrey E. F. Friedl en su tercera edición (2006). El libro aborda el funcionamiento teórico y práctico de los patrones de búsqueda y manipulación de texto en diversos lenguajes y herramientas clave, entre ellos Perl 5.8+, Java (analizando las versiones 1.4.2, 5 y 6), .NET (C# y VB.NET en .NET 2.0), PHP (con su biblioteca PCRE) y utilidades tradicionales de UNIX como grep y egrep. Está dirigido a programadores y administradores de sistemas de nivel intermedio a avanzado que ya han redactado expresiones regulares sencillas y desean comprender a fondo la lógica interna de los motores de coincidencia para escribir patrones rápidos, robustos y libres de fallos.\n\nEl núcleo conceptual del texto explica la diferencia fundamental entre los motores autómatas finitos deterministas (DFA) y los no deterministas orientados a expresiones (NFA y POSIX NFA), desglosando la mecánica del retroceso (backtracking) y el fenómeno crítico del retroceso catastrófico. En el plano práctico de APIs y librerías, examina en profundidad el paquete java.util.regex de Sun (clases Pattern y Matcher), el espacio de nombres System.Text.RegularExpressions de .NET (objetos Regex, Match, Group y Capture), los operadores nativos de Perl (m//, s///, split y el constructor de patrones qr//) y la extensión de funciones preg_* de PHP (como preg_match, preg_replace_callback o preg_split, junto con el modificador de estudio S). También aborda de forma rigurosa la gestión de codificaciones de caracteres, soporte Unicode y técnicas avanzadas como desenrollar el bucle (unrolling the loop) para maximizar la velocidad.\n\nA lo largo de la obra se resuelven casos prácticos del mundo real mediante patrones meticulosamente analizados: validación y extracción de etiquetas HTML, saneamiento de código, análisis de registros y archivos CSV entrecomillados, y la construcción detallada de una expresión regular exhaustiva para validar direcciones de correo electrónico bajo los estándares RFC 822 y RFC 2822. Su mayor valor reside en enseñar a pensar como el motor de expresiones regulares para predecir con exactitud cuántos pasos le tomará evaluar una cadena. Por su fecha de publicación, deja fuera añadidos recientes de los motores actuales (como lookbehinds en JavaScript moderno), pero sus fundamentos teóricos sobre rendimiento y arquitectura de motores siguen siendo la base más sólida de la disciplina.",
+    "temas": [
+      "Expresiones regulares",
+      "Motores NFA y DFA",
+      "Backtracking y optimización",
+      "Perl",
+      "Java (java.util.regex)",
+      ".NET (System.Text.RegularExpressions)",
+      "PHP (PCRE y funciones preg)",
+      "Validación RFC 822/2822",
+      "Parsing de CSV y HTML",
+      "Unicode y codificación"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/mastering-regular-expressions/0596528124/",
+      "http://regex.info/book.html",
+      "https://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124"
+    ]
+  },
+  "regular-expressions-cookbook-2nd-edition-2012": {
+    "descripcion": "Manual de referencia en formato de recetario escrito por Jan Goyvaerts (creador de RegexBuddy y Regular-Expressions.info) y Steven Levithan (creador de RegexPal y la librería XRegExp). Esta segunda edición (2012) ofrece más de 140 recetas y 280 soluciones prácticas orientadas a resolver problemas cotidianos de procesamiento de texto en ocho lenguajes de programación: C#, Java, JavaScript, Perl, PHP, Python, Ruby y VB.NET. Está concebida para desarrolladores de nivel intermedio que conocen los conceptos elementales de la programación y buscan patrones probados y optimizados sin tener que invertir horas diseñando expresiones desde cero.\n\nEl libro enseña a interactuar con las APIs nativas de expresiones regulares en cada plataforma: el módulo re en Python, java.util.regex en Java, el objeto RegExp nativo y la librería XRegExp en JavaScript, la clase Regex en C# y VB.NET, las funciones preg_* en PHP y los operadores integrados de Perl y Ruby. Sus capítulos abordan la validación estricta de entradas de usuario (nombres, contraseñas seguras, códigos postales, tarjetas de crédito, teléfonos internacionales y fechas en formatos variados), la coincidencia de números (enteros, coma flotante, hexadecimales y romanos), el procesamiento de archivos de registro (logs de servidores web), la validación de URLs, dominios, rutas de archivo y direcciones IP (IPv4 e IPv6), así como la manipulación y extracción básica de datos en HTML, XML y CSV.\n\nCada receta sigue una estructura rigurosa de problema, solución y discusión, contrastando cómo se implementa el patrón en los ocho lenguajes y señalando las trampas o discrepancias sintácticas específicas de cada dialecto. No desarrolla un proyecto de software monolítico, sino una amplia colección de componentes modulares y expresiones listas para integrarse en validadores de formularios, pipelines de datos y scripts de mantenimiento. Destaca por su honestidad técnica al advertir los límites de las expresiones regulares (como por qué no deben usarse para parsear HTML complejo o verificar años bisiestos exhaustivos), constituyendo una guía de consulta rápida indispensable para el desarrollo de aplicaciones multiplataforma.",
+    "temas": [
+      "Expresiones regulares",
+      "Recetas de validación",
+      "JavaScript (RegExp, XRegExp)",
+      "Python (módulo re)",
+      "Java (java.util.regex)",
+      "C# y VB.NET",
+      "PHP (PCRE)",
+      "Ruby y Perl",
+      "Validación de fechas y números",
+      "URLs e IPs (IPv4/IPv6)",
+      "Parsing de logs y markup"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/regular-expressions-cookbook/9781449327453/",
+      "https://www.regular-expressions.info/",
+      "https://www.amazon.com/Regular-Expressions-Cookbook-Jan-Goyvaerts/dp/1449327457"
+    ]
+  },
+  "mastering-python-regular-expressions-2014": {
+    "descripcion": "Guía técnica breve y especializada publicada por Packt Publishing en 2014, dedicada por completo a la manipulación de expresiones regulares dentro del ecosistema de Python (compatible tanto con Python 2.7 como con Python 3.x). Sus autores, Félix López y Víctor Romero, orientan el contenido a programadores de Python de nivel intermedio a avanzado que ya conocen las estructuras de datos y funciones del lenguaje, pero necesitan extraer información compleja, validar entradas o sanear textos con precisión sin recurrir a bibliotecas externas pesadas.\n\nEl texto profundiza en la biblioteca estándar re de Python, explicando el uso adecuado de cadenas sin procesar (raw strings), las funciones de módulo y métodos re.compile(), re.search(), re.match(), re.findall(), re.finditer(), re.split() y re.sub(). Enseña a manipular los objetos MatchObject resultantes mediante sus métodos de inspección (group(), groups(), groupdict(), start(), end() y span()), a utilizar grupos con nombre (?P<name>...), referencias hacia atrás (backreferences), y banderas de compilación como re.IGNORECASE, re.MULTILINE, re.DOTALL y re.VERBOSE. Dedica además apartados cruciales a las aserciones de posición avanzadas (lookaround: lookahead y lookbehind positivos y negativos) y a la optimización mediante análisis de rendimiento con el módulo timeit y reutilización de patrones compilados.\n\nA través de sus páginas no se construye una aplicación completa, sino scripts concisos y patrones funcionales para problemas típicos de extracción y procesamiento: extracción de enlaces y etiquetas en páginas web, validación de correos electrónicos, reescritura de formatos de fecha y limpieza de datos en pipelines. Su gran fortaleza es la concisión: en poco más de cien páginas condensa todo lo necesario para dominar el motor regex de Python sin dispersarse en otros lenguajes. Como contrapunto, deja fuera el módulo de terceros 'regex' (que añade soporte para coincidencia difusa y propiedades Unicode avanzadas), pero constituye una lectura ágil y de consulta directa para quien trabaje con scraping o análisis de texto en Python.",
+    "temas": [
+      "Python",
+      "Módulo re",
+      "Expresiones regulares",
+      "RegexObject y MatchObject",
+      "Lookahead y Lookbehind",
+      "Grupos con nombre",
+      "Banderas de compilación",
+      "Optimización de patrones",
+      "Módulo timeit",
+      "Extracción y scraping de texto"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-python-regular-expressions-9781783283156",
+      "https://www.oreilly.com/library/view/mastering-python-regular/9781783283156/",
+      "https://www.amazon.com/Mastering-Python-Regular-Expressions-Felix/dp/1783283157"
+    ]
+  }
+}

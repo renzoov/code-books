@@ -1,0 +1,286 @@
+{
+  "practical-graphql-2023": {
+    "descripcion": "Manual práctico de Nabendu Biswas publicado por Apress en 2023. Enseña a diseñar y construir APIs modernas con GraphQL y TypeScript conectando backends en Node.js con clientes front-end en React. Orientado a desarrolladores full-stack de nivel principiante e intermedio que buscan reemplazar o complementar arquitecturas REST tradicionales.\n\nEl temario aborda los conceptos fundacionales de GraphQL: definición del esquema (Schema Definition Language - SDL), tipos escalares y complejos, consultas (queries) para evitar el sobreabastecimiento de datos, mutaciones para operaciones de escritura y suscripciones en tiempo real con WebSockets. Enseña a configurar Apollo Server, integrar bases de datos relacionales y NoSQL (MongoDB, PostgreSQL), y consumir los datos en el cliente utilizando Apollo Client con hooks de React (`useQuery`, `useMutation`).\n\nEl aprendizaje se articula construyendo proyectos completos paso a paso, incluyendo autenticación con tokens JWT y manejo de estados de carga y error en la interfaz. Destaca por su enfoque directo, sin rodeos teóricos, facilitando una rápida adopción de GraphQL en aplicaciones web comerciales contemporáneas.",
+    "temas": [
+      "GraphQL",
+      "Apollo Server",
+      "Apollo Client",
+      "React",
+      "Node.js",
+      "TypeScript",
+      "MongoDB",
+      "JWT"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web Full-Stack con GraphQL y React",
+        "descripcion": "Construcción completa de una plataforma web con backend en Apollo Server, persistencia en MongoDB y frontend interactivo en React gestionado con Apollo Client."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-9839-8",
+      "https://github.com/Apress/practical-graphql"
+    ]
+  },
+  "visual-design-of-graphql-data-2018": {
+    "descripcion": "Obra conceptual de Thomas Frisendal publicada por Apress en 2018. Aborda el diseño de esquemas GraphQL desde una perspectiva gráfica y de modelado de grafos de conocimiento, uniendo el análisis de negocio con el diseño de software. Orientada a arquitectos de datos, analistas de negocio e ingenieros de software que diseñan modelos de información corporativos.\n\nEl autor propone utilizar diagramas visuales de modelos de grafos para diseñar intuitivamente los tipos, relaciones y campos antes de escribir una sola línea de código en SDL. Explora cómo representar la semántica de datos empresariales, optimizar la navegación de relaciones transitivas y alinear el esquema GraphQL con bases de datos orientadas a grafos (como Neo4j) y modelos relacionales tradicionales. Además, analiza patrones de gobierno de datos y evolución del esquema sin romper clientes existentes.\n\nEl texto ofrece un puente metodológico entre el modelado conceptual de la información y su implementación técnica en APIs modernas. Su principal valor radica en fomentar un diseño reflexivo y centrado en el dominio, evitando que los esquemas de GraphQL se conviertan en meros reflejos caóticos de las tablas de bases de datos subyacentes.",
+    "temas": [
+      "GraphQL",
+      "Modelado de datos",
+      "Bases de datos de grafos",
+      "Diseño de esquemas",
+      "Arquitectura de datos",
+      "Semántica de negocio",
+      "Apress"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3907-0"
+    ]
+  },
+  "the-graphql-guide-2020": {
+    "descripcion": "Tratado exhaustivo y de referencia internacional escrito por John Resig (legendario creador de la librería jQuery) y Loren Sands-Ramshaw, publicado en 2020. Constituye una de las guías más completas y autorizadas existentes sobre la especificación y el ecosistema práctico de GraphQL, tanto en el cliente como en el servidor.\n\nEl libro cubre minuciosamente el lenguaje de consultas, el diseño de esquemas robustos, la resolución eficiente de campos con resolvers y la prevención del problema de consultas N+1 mediante DataLoader. En el lado del cliente, explora a fondo Apollo Client 3, React Hooks, gestión de caché normalizada, consultas paginadas, mutaciones optimistas y suscripciones en tiempo real. En el servidor, enseña a estructurar microservicios, federación de esquemas (Apollo Federation), seguridad contra ataques de profundidad de consulta y autenticación.\n\nEl recorrido formativo está respaldado por código de producción interactivo y ejemplos de grado empresarial. La combinación de la experiencia pedagógica de Resig con patrones avanzados de arquitectura convierte a esta obra en una lectura imprescindible para desarrolladores de cualquier nivel que trabajen con GraphQL en producción.",
+    "temas": [
+      "GraphQL",
+      "John Resig",
+      "Apollo Client 3",
+      "Apollo Server",
+      "DataLoader",
+      "Caché normalizada",
+      "Apollo Federation",
+      "React"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Web Completa con Apollo Client y Servidor GraphQL",
+        "descripcion": "Construcción paso a paso de una aplicación web escalable con gestión de caché reactiva, suscripciones WebSocket para actualizaciones en vivo y optimización de consultas con DataLoader."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://graphql.guide/",
+      "https://github.com/GraphQLGuide"
+    ]
+  },
+  "graphql-explored-2025": {
+    "descripcion": "Guía contemporánea de Kaedric Thalovarre publicada en 2025. Explora el estado del arte de las tecnologías GraphQL en entornos de nube modernos y arquitecturas de microservicios federados. Dirigida a ingenieros de software senior y arquitectos de backend que implementan pasarelas de datos (data gateways) para organizaciones de gran escala.\n\nLa obra analiza las especificaciones modernas del protocolo, la federación de grafos (Apollo Federation v2), el uso de compiladores de alto rendimiento escritos en Rust (como Rover y Apollo Router), y la integración con arquitecturas dirigidas por eventos y streaming con Kafka. Aborda en profundidad la observabilidad distribuida con OpenTelemetry, técnicas avanzadas de limitación de tasa (rate limiting) basadas en coste de consulta y mecanismos de caché en el borde (edge caching) mediante CDNs.\n\nEl texto destaca por su enfoque moderno y realista, abordando los retos de gobernanza de esquemas en equipos distribuidos y la coexistencia con arquitecturas gRPC y REST. Es un recurso de referencia muy valioso para abordar la madurez operativa de GraphQL en la nube actual.",
+    "temas": [
+      "GraphQL",
+      "Apollo Federation v2",
+      "Apollo Router",
+      "Microservicios",
+      "Observabilidad OpenTelemetry",
+      "Coste de consulta",
+      "Gobernanza de esquemas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Supergrafo Empresarial Federado con Apollo Router",
+        "descripcion": "Diseño e implementación de un supergrafo de microservicios independientes federados mediante subgrafos distribuidos, enrutamiento en el borde y observabilidad con OpenTelemetry."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://graphql.org/",
+      "https://www.apollographql.com/docs/federation/"
+    ]
+  },
+  "full-stack-graphql-applications-2022": {
+    "descripcion": "Manual exhaustivo de William Lyon (ingeniero principal en Neo4j) publicado por Manning en 2022. Enseña a diseñar y programar aplicaciones web de pila completa utilizando el stack 'GRAND' (GraphQL, React, Apollo y Neo4j Database). Pensado para desarrolladores web con conocimientos de JavaScript que desean explotar el poder de los grafos en toda la arquitectura del sistema.\n\nEl autor demuestra cómo modelar datos interconectados en una base de datos de grafos nativa con Neo4j y consultarlos sin fricción mediante Cypher y la librería `@neo4j/graphql`. Explica cómo generar automáticamente esquemas y resolvers a partir de definiciones de tipos, construir interfaces de usuario interactivas en React con Apollo Client, e implementar búsquedas de texto completo, filtrado espacial y paginación eficiente. Además, cubre la autenticación segura con Auth0 y el despliegue en entornos sin servidor (serverless).\n\nA lo largo del libro se desarrolla una aplicación completa de reseñas de empresas y comercios con mapas interactivos y recomendaciones sociales. Su mayor mérito es eliminar la disonancia de impedancia entre el modelo de datos jerárquico de GraphQL y la persistencia en base de datos gracias a los grafos de Neo4j.",
+    "temas": [
+      "GRANDstack",
+      "GraphQL",
+      "React",
+      "Apollo",
+      "Neo4j",
+      "Cypher",
+      "Bases de datos de grafos",
+      "Manning"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de Reseñas y Recomendaciones con GRANDstack",
+        "descripcion": "Desarrollo completo de una red social de reseñas sobre Neo4j y GraphQL con autenticación Auth0, visualización espacial en mapas y frontend dinámico en React."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/full-stack-graphql-applications",
+      "https://github.com/johnymontana/fullstack-graphql-book"
+    ]
+  },
+  "graphql-in-action-2021": {
+    "descripcion": "Manual de ingeniería riguroso de Samer Buna publicado por Manning en 2021. Proporciona una inmersión técnica profunda en el diseño, implementación y optimización de APIs GraphQL escalables en el ecosistema de Node.js. Orientado a programadores de backend y full-stack con experiencia previa en APIs REST.\n\nEl autor disecciona cada fase del pipeline de GraphQL: diseño de esquemas limpios y modulares, escritura de funciones resolver eficientes, gestión de contextos de petición y mitigación de problemas de rendimiento con DataLoader. Aborda la validación y transformación de argumentos, autenticación y control de acceso granular, suscripciones en tiempo real sobre WebSockets, y directivas personalizadas de esquema. En el lado del cliente, examina la integración agnóstica con librerías cliente y técnicas de caché en memoria.\n\nEl aprendizaje se basa en la construcción incremental de una plataforma de servicios de datos de comercio en tiempo real. Su punto fuerte es la profundidad con la que explica el modelo de ejecución interno del motor de GraphQL, permitiendo a los desarrolladores escribir código eficiente, mantenible y libre de cuellos de botella de red.",
+    "temas": [
+      "GraphQL",
+      "Node.js",
+      "DataLoader",
+      "Resolvers",
+      "Suscripciones WebSockets",
+      "Diseño de esquemas",
+      "Optimización de consultas",
+      "Manning"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API de Servicios de Datos Corporativa con GraphQL",
+        "descripcion": "Implementación de una pasarela de datos escalable en Node.js con resolvers optimizados mediante DataLoader, control de acceso por roles y notificaciones en tiempo real."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/graphql-in-action",
+      "https://github.com/samerbuna/graphql-in-action"
+    ]
+  },
+  "production-ready-graphql-2020": {
+    "descripcion": "Tratado de referencia imprescindible de Marc-André Giroux (arquitecto de software que lideró la transición a GraphQL en Shopify y GitHub), publicado de forma independiente en 2020. Enfocado en el diseño, escalabilidad y gobierno de esquemas GraphQL de misión crítica en grandes organizaciones de ingeniería.\n\nEl autor aborda el diseño de esquemas desacoplado del lenguaje de programación: cómo diseñar APIs orientadas a la experiencia del cliente y al dominio de negocio, directrices para evitar errores de modelado irreversibles, paginación robusta basada en cursores (Connection specification) y estrategias de evolución sin versiones rompientes mediante directivas `@deprecated`. Desarrolla en profundidad la resiliencia en producción: análisis estático de complejidad de consultas para mitigar ataques de denegación de servicio (DoS), cálculo de cuotas de uso, métricas de rendimiento por campo y trazabilidad distribuida.\n\nEs una lectura de cabecera obligatoria para cualquier arquitecto de software o equipo que opera o planea desplegar GraphQL a gran escala en producción. Sus lecciones se basan en problemas reales resueltos en plataformas que manejan millones de peticiones por segundo.",
+    "temas": [
+      "GraphQL en producción",
+      "Marc-André Giroux",
+      "Diseño de esquemas",
+      "Seguridad de consultas",
+      "Análisis de complejidad",
+      "Paginación por cursores",
+      "Evolución de APIs",
+      "Gobernanza técnica"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://productionreadygraphql.com/",
+      "https://github.com/xuorig"
+    ]
+  },
+  "fullstack-graphql-2020": {
+    "descripcion": "Manual práctico de Gaetano Checinski, Roy Derks y Nate Murray, publicado por Newline en 2020. Diseñado para enseñar a desarrolladores front-end y full-stack cómo crear aplicaciones web modernas y de extremo a extremo utilizando GraphQL, React, Node.js y TypeScript.\n\nEl temario guía al lector a través de la arquitectura completa: configuración de un servidor GraphQL con Apollo Server y TypeScript, modelado de tipos de datos, conexión con bases de datos SQL mediante Prisma ORM, y creación de clientes frontend reactivos con React y Apollo Client. Explora técnicas esenciales de experiencia de usuario como actualizaciones optimistas de interfaz, paginación infinita, subida de archivos mediante mutaciones GraphQL y despliegue continuo en la nube.\n\nEl libro sigue el estilo didáctico y directo de Newline: proyectos prácticos con código exhaustivo y moderno que el lector programa paso a paso. Es una excelente guía para dominar el stack tecnológico moderno de GraphQL con TypeScript tanto en frontend como en backend.",
+    "temas": [
+      "Fullstack GraphQL",
+      "React",
+      "TypeScript",
+      "Apollo Server",
+      "Prisma ORM",
+      "Apollo Client",
+      "Newline",
+      "Actualizaciones optimistas"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web Full-Stack con React, GraphQL y Prisma",
+        "descripcion": "Desarrollo completo de una plataforma web interactiva con backend tipado en TypeScript, persistencia con Prisma ORM y frontend dinámico en React."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.newline.co/courses/fullstack-graphql",
+      "https://github.com/newline-io"
+    ]
+  },
+  "black-hat-graphql-2023": {
+    "descripcion": "Manual pionero de seguridad ofensiva y defensiva escrito por Nick Aleks y Dolev Farhi, publicado por No Starch Press en 2023. Explora a fondo cómo auditar, atacar y fortificar APIs GraphQL contra vulnerabilidades del mundo real. Orientado a pentesters, investigadores de seguridad, ingenieros de DevSecOps y desarrolladores backend.\n\nLos autores enseñan a descubrir y mapear endpoints GraphQL (mediante introspección habilitada o fuerza bruta de esquemas), extraer información sensible mediante inyecciones SQL/NoSQL en resolvers, y evadir controles de autorización mediante manipulación de IDOR (Insecure Direct Object References). Detallan ataques de denegación de servicio (DoS) a través de consultas cíclicas recursivas y procesamiento masivo de alias/batching, falsificación de peticiones del lado del servidor (SSRF) en webhooks, y técnicas de securización: desactivación de introspección, validación estricta de esquemas, cortafuegos WAF y límites de coste de consulta.\n\nA través de un laboratorio de pruebas vulnerable ('Damn Vulnerable GraphQL Application' - DVGA), el lector aprende atacando y luego implementando las contramedidas de código necesarias. Es un texto indispensable para garantizar que las APIs GraphQL corporativas sean seguras y resistentes frente a ciberataques.",
+    "temas": [
+      "GraphQL Security",
+      "No Starch Press",
+      "Pentesting de APIs",
+      "Denegación de servicio (DoS)",
+      "Inyecciones en resolvers",
+      "Introspección",
+      "DVGA Lab",
+      "Ciberseguridad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Laboratorio de Auditoría y Securización de APIs GraphQL",
+        "descripcion": "Auditoría de seguridad y explotación ética sobre el entorno DVGA para detectar consultas maliciosas, seguida de la implementación de defensas y límites de coste en Apollo Server."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/black-hat-graphql",
+      "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application"
+    ]
+  },
+  "learning-graphql-2018": {
+    "descripcion": "Manual formativo canónico de Alex Banks y Eve Porcello publicado por O'Reilly en 2018. Constituye una de las mejores introducciones existentes al paradigma de GraphQL, explicando de forma clara y accesible cómo la recuperación declarativa de datos transforma el desarrollo de aplicaciones web contemporáneas.\n\nLos autores guían al lector desde la teoría de grafos y la historia de los protocolos web hasta la definición práctica de tipos, campos, consultas y mutaciones en GraphQL SDL. Enseñan a construir un servidor GraphQL desde cero con Apollo Server y Express, diseñar resolvers eficientes que consumen bases de datos relacionales y APIs REST legadas, y estructurar aplicaciones frontend en React utilizando Apollo Client para gestionar el flujo de datos y la caché en memoria.\n\nA lo largo del texto se construye una aplicación completa de fotografía social ('PhotoShare'), abordando flujos de autenticación con GitHub OAuth, carga de imágenes y suscripciones en tiempo real. Su estilo didáctico, ameno y riguroso lo convierte en el libro ideal para que cualquier desarrollador se inicie con bases firmes en GraphQL.",
+    "temas": [
+      "GraphQL",
+      "Apollo Server",
+      "Apollo Client",
+      "React",
+      "Teoría de grafos",
+      "Resolvers",
+      "OAuth",
+      "O'Reilly"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "PhotoShare: Red Social de Fotografía con GraphQL",
+        "descripcion": "Construcción completa de una aplicación web para compartir fotografías con backend en Apollo Server, autenticación OAuth con GitHub y frontend interactivo en React."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-graphql/9781492030706/",
+      "https://github.com/MoonHighway/learning-graphql"
+    ]
+  },
+  "graphql-best-practices-2024": {
+    "descripcion": "Guía avanzada de Artur Czemiel publicada por Packt en 2024. Diseñada para equipos de desarrollo y arquitectos de software que buscan profesionalizar sus APIs GraphQL adoptando patrones de diseño probados, automatización y estándares de la industria.\n\nEl autor recorre las mejores prácticas en cada etapa del ciclo de vida de la API: diseño de esquemas semánticos y legibles, organización modular del código de backend, gestión de errores estructurada y control de versiones sin fricciones. Analiza a fondo la optimización del rendimiento en la capa de datos mediante patrones de resolución por lotes, seguridad avanzada contra consultas maliciosas, estrategias de testing unitario y de integración para resolvers, y automatización de la integración continua (CI) para validar cambios en el esquema con herramientas como GraphQL Inspector.\n\nEl libro se apoya en casos de uso prácticos derivados de proyectos corporativos reales, ofreciendo directrices claras para evitar los errores comunes que surgen cuando una API GraphQL crece en complejidad. Es una referencia excelente para mantener la calidad y robustez de servicios GraphQL a largo plazo.",
+    "temas": [
+      "GraphQL",
+      "Buenas prácticas",
+      "Diseño de APIs",
+      "Optimización de rendimiento",
+      "GraphQL Inspector",
+      "Testing de resolvers",
+      "Gobernanza de esquemas",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de API GraphQL Corporativa con CI/CD",
+        "descripcion": "Implementación de una arquitectura de backend GraphQL robusta con validación automatizada de esquemas en pipelines de CI, gestión centralizada de errores y control de costes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/graphql-best-practices-9781835467619",
+      "https://github.com/PacktPublishing/GraphQL-Best-Practices"
+    ]
+  }
+}

@@ -1,0 +1,819 @@
+{
+  "micropython-for-the-internet-of-things-2017": {
+    "descripcion": "Guía práctica de Charles Bell publicada por Apress que introduce el desarrollo de sistemas embebidos e Internet de las Cosas utilizando MicroPython (la implementación optimizada de Python 3 para microcontroladores). Está orientada a entusiastas del hardware maker, estudiantes y desarrolladores de software con conocimientos básicos de Python y nociones elementales de lógica de programación que desean controlar circuitos físicos sin tener que programar en lenguajes de bajo nivel como C o C++.\n\nEl texto comienza con la preparación del entorno, la instalación del firmware y el manejo interactivo de la placa a través del terminal REPL (Read-Eval-Print Loop). A continuación, profundiza en el control directo del hardware mediante la biblioteca 'machine' de MicroPython: configuración de pines digitales (GPIO), modulación por ancho de pulsos (PWM), conversión analógico-digital (ADC y DAC), interrupciones de hardware e interfaces de comunicación serie como I2C, SPI y UART. Además, explica los principios básicos de electrónica (resistencias, divisores de tensión, cableado en protoboard) y el manejo de red inalámbrica y sockets (`usocket`, `network`) utilizando placas con conectividad WiFi como Pycom WiPy y ESP8266.\n\nA lo largo de la obra se construyen cuatro proyectos de laboratorio completos: un entorno interactivo de prueba con pulsadores y LEDs, un simulador de semáforo con máquina de estados finitos, un sistema de monitoreo de humedad de suelo para plantas y una estación climática conectada en red con sensores ambientales. El libro destaca por su claridad pedagógica y por explicar cómo gestionar las restricciones de memoria RAM mediante recolección de basura (`gc`). No aborda depuración avanzada por hardware (JTAG) ni integración con plataformas cloud comerciales complejas, por lo que resulta un punto de partida accesible que requiere contar con una placa compatible (Pyboard o ESP8266) y sensores básicos para ponerlo en práctica.",
+    "temas": [
+      "MicroPython",
+      "Python 3",
+      "Internet de las cosas (IoT)",
+      "Pyboard",
+      "ESP8266",
+      "WiPy",
+      "GPIO",
+      "I2C y SPI",
+      "Consola REPL",
+      "Sensores ambientales",
+      "Manejo de hardware"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Hola Mundo interactivo de hardware",
+        "descripcion": "Configuración inicial y control de LEDs y pulsadores mediante buses GPIO e interacción directa a través de la consola interactiva REPL de MicroPython."
+      },
+      {
+        "nombre": "Simulador de semáforo de tráfico",
+        "descripcion": "Implementación de una máquina de estados con temporizadores que coordina la secuencia de luces vehiculares y peatonales utilizando LEDs en protoboard."
+      },
+      {
+        "nombre": "Monitor de suelo y salud de plantas",
+        "descripcion": "Sistema de supervisión que captura lecturas de humedad de la tierra y temperatura ambiental con entradas analógicas (ADC) para advertir sobre necesidades de riego."
+      },
+      {
+        "nombre": "Estación meteorológica conectada a red",
+        "descripcion": "Dispositivo IoT basado en WiPy y ESP8266 que integra sensores de presión barométrica y ambiente por I2C para transmitir datos climáticos mediante conexiones WiFi."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3123-4",
+      "https://www.oreilly.com/library/view/micropython-for-the/9781484231234/",
+      "https://www.amazon.com/MicroPython-Internet-Things-Beginners-Microcontrollers/dp/1484231221"
+    ]
+  },
+  "beginning-data-science-iot-and-ai-on-single-board-computers-2020": {
+    "descripcion": "Manual introductorio enfocado en la educación tecnológica y la ciencia ciudadana, escrito por Philip Meitiner y Pradeeka Seneviratne para Apress. Está dirigido a estudiantes, educadores y aficionados sin conocimientos avanzados previos de programación ni electrónica, que buscan comprender cómo capturar y analizar datos del mundo real. La obra emplea la tarjeta educativa BBC micro:bit junto con el ecosistema de hardware modular XinaBox para eliminar la necesidad de soldaduras complejas y facilitar la experimentación directa.\n\nEl contenido enseña el ciclo integral del dato físico: desde la medición ambiental (temperatura, presión atmosférica, humedad y luz con módulos XinaBox SW01) y su almacenamiento persistente en la memoria de la placa, hasta la exportación y análisis estadístico básico (media, mediana, moda y dispersión) mediante hojas de cálculo y código en Python. En el ámbito de las comunicaciones, aborda la transmisión inalámbrica mediante Bluetooth de baja energía (BLE), radio y conectividad Wi-Fi (con módulos XinaBox CW01 basados en ESP8266), utilizando el protocolo MQTT para publicar métricas en cuadros de mando en la nube como Ubidots y Blynk, e introduciendo el enlace con servicios de aprendizaje automático.\n\nEl aprendizaje se articula a través de experimentos prácticos orientados a resolver problemas contemporáneos como el cambio climático y el seguimiento meteorológico en tiempo real. La obra aporta una metodología muy amigable para transicionar desde la programación por bloques visuales con Microsoft MakeCode hacia la escritura de código en Python. Deja de lado el entrenamiento de redes neuronales profundas en el propio microcontrolador (TinyML complejo) y el diseño de circuitos industriales, por lo que es un recurso excelente para iniciación en ciencia de datos aplicada a hardware físico.",
+    "temas": [
+      "BBC micro:bit",
+      "XinaBox",
+      "Ciencia de datos",
+      "Internet de las cosas (IoT)",
+      "Inteligencia artificial",
+      "Microsoft MakeCode",
+      "Python",
+      "MQTT",
+      "Ubidots",
+      "Bluetooth BLE",
+      "Monitoreo ambiental"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Estación meteorológica digital y registrador de datos",
+        "descripcion": "Dispositivo con BBC micro:bit y módulos modulares XinaBox que registra temperatura, humedad y presión atmosférica en el sistema de archivos local de la placa."
+      },
+      {
+        "nombre": "Panel de telemetría IoT en la nube",
+        "descripcion": "Sistema de monitorización ambiental que envía mediciones por Wi-Fi mediante protocolo MQTT a la plataforma Ubidots para visualizar gráficos y configurar alertas automáticas."
+      },
+      {
+        "nombre": "Sensor perimetral integrado con servicios de Machine Learning",
+        "descripcion": "Conexión de la estación de captura de datos a servicios en la nube de inteligencia artificial para procesar y clasificar patrones ambientales recopilados en el entorno."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5766-1",
+      "https://www.oreilly.com/library/view/beginning-data-science/9781484257661/",
+      "https://www.amazon.com/Beginning-Data-Science-Single-Computers/dp/1484257654"
+    ]
+  },
+  "build-your-own-iot-platform-2019": {
+    "descripcion": "Guía práctica de ingeniería de sistemas escrita por Anand Tamboli y publicada por Apress en 2019. Está diseñada para desarrolladores de software, ingenieros de IoT y arquitectos de nivel intermedio que cuentan con fundamentos de programación web y redes, y que desean evitar los altos costos recurrentes, la rigidez funcional y el bloqueo por proveedor (vendor lock-in) asociados a las grandes plataformas comerciales en la nube. Su meta es enseñar a levantar una plataforma IoT propia, flexible y escalable en muy poco tiempo.\n\nEl libro disecciona paso a paso los bloques arquitectónicos fundamentales de una plataforma IoT completa: el bróker de mensajería Eclipse Mosquitto (configurado con soporte tanto para MQTT nativo como para WebSockets y listas de control de acceso), el motor de integración de flujos Node-RED para procesar y canalizar la telemetría, y una base de datos de series temporales para el almacenamiento histórico estructurado. También abarca el desarrollo de interfaces RESTful para consultar y purgar registros mediante filtros de tiempo, microservicios para emitir notificaciones por correo electrónico y SMS, documentación interactiva de APIs con OpenAPI/Swagger, y un motor de reglas (Rule Engine) personalizable para desencadenar eventos automatizados y gestionar autenticación.\n\nEl núcleo del libro es el desarrollo completo de la plataforma en un servidor o VPS propio y su validación mediante el proyecto integral 'A Better Mousetrap', una solución de hardware conectado que demuestra cómo capturar señales mecánicas de sensores, transmitirlas al servidor y despachar alertas en tiempo real. Destaca por su enfoque pragmático y de arquitectura desacoplada, permitiendo mantener la soberanía absoluta de los datos. No incluye orquestación compleja con Kubernetes ni analítica masiva distribuida de Big Data, por lo que resulta ideal para prototipado avanzado, proyectos institucionales independientes o implementaciones empresariales medianas.",
+    "temas": [
+      "Plataformas IoT",
+      "MQTT",
+      "Eclipse Mosquitto",
+      "Node-RED",
+      "APIs REST",
+      "Motores de reglas",
+      "Bases de datos de series temporales",
+      "WebSockets",
+      "Microservicios",
+      "OpenAPI",
+      "Seguridad y autenticación"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma IoT modular e independiente",
+        "descripcion": "Construcción desde cero de un servidor IoT con Mosquitto (MQTT/WebSockets), flujos en Node-RED, almacenamiento temporal, APIs REST documentadas con OpenAPI y motor de reglas para automatizaciones."
+      },
+      {
+        "nombre": "Trampa inteligente conectada (A Better Mousetrap)",
+        "descripcion": "Dispositivo perimetral con sensores y microcontroladores que detecta eventos de activación física, los comunica a la plataforma personalizada y desencadena notificaciones instantáneas por SMS y correo electrónico."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4498-2",
+      "https://github.com/Apress/build-your-own-iot-platform",
+      "https://www.amazon.com/Build-Your-Own-IoT-Platform/dp/1484244978"
+    ]
+  },
+  "business-in-real-time-using-azure-iot-and-cortana-intelligence-suite-2017": {
+    "descripcion": "Manual exhaustivo de arquitectura empresarial escrito por Bob Familiar y Jeff Barnes para Apress en 2017. Está dirigido a arquitectos de la nube, consultores técnicos y desarrolladores de nivel intermedio familiarizados con el entorno Microsoft, C# o Node.js, que necesitan implementar soluciones de transformación digital corporativa. La obra orienta la evolución de los tradicionales sistemas de inteligencia de negocio basados en análisis retrospectivo y procesamiento por lotes hacia arquitecturas reactivas capaces de procesar flujos masivos de eventos y ejecutar aprendizaje automático en tiempo real.\n\nEl libro detalla una arquitectura de referencia integral sustentada en los servicios PaaS de Microsoft Azure y la suite de inteligencia avanzada de la época: ingestión de telemetría a gran escala con Azure IoT Hub y Event Hubs, conectividad perimetral mediante el Azure IoT Gateway SDK (programado en C# y Node.js), y separación entre la ruta rápida ('hot path') con Azure Stream Analytics para detección de anomalías y la ruta fría ('cold path') con Azure Data Lake Store y Data Factory. Además, cubre consultas analíticas en lenguaje U-SQL con Azure Data Lake Analytics, construcción de modelos de machine learning con Azure ML Studio y scripts en R, visualización interactiva mediante Power BI, alertas en aplicaciones móviles creadas con Xamarin y automatización del ciclo DevOps mediante plantillas ARM, PowerShell y Visual Studio Team Services.\n\nA través de sus capítulos se articula el diseño de una plataforma completa de telemetría e inteligencia operativa aplicable a sectores como manufactura, salud, comercio minorista y ciudades inteligentes. Su gran valor reside en la visión integral de extremo a extremo, abordando desde la seguridad de los dispositivos (claves SAS y módulos TPM) y el despliegue como código hasta el valor de negocio. Conviene tener presente que nombres comerciales como Cortana Intelligence Suite y ciertos componentes de Azure ML han evolucionado hacia Azure AI y Microsoft Fabric, pero los patrones arquitectónicos (arquitectura Lambda, pipelines de eventos y gobernanza en la nube) se mantienen como un valioso marco de referencia.",
+    "temas": [
+      "Azure IoT Hub",
+      "Cortana Intelligence Suite",
+      "Azure Stream Analytics",
+      "Azure Data Lake",
+      "Azure Data Factory",
+      "Azure Machine Learning",
+      "Power BI",
+      "DevOps con ARM y PowerShell",
+      "U-SQL",
+      "Arquitectura Lambda",
+      "C# y Node.js",
+      "Transformación digital"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura empresarial de telemetría y analítica predictiva en Azure",
+        "descripcion": "Implementación de una solución de extremo a extremo que conecta dispositivos perimetrales con Azure IoT Hub, procesa eventos en tiempo real con Stream Analytics, orquesta almacenamiento en Data Lake y genera predicciones de negocio expuestas en Power BI."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2650-6",
+      "https://www.oreilly.com/library/view/business-in-real-time/9781484226506/",
+      "https://www.amazon.com/Business-Real-Time-Cortana-Intelligence-Suite/dp/148422649X"
+    ]
+  },
+  "defending-iot-infrastructures-with-the-raspberry-pi-2019": {
+    "descripcion": "Monografía técnica especializada en ciberseguridad defensiva escrita por Chet Hosmer y publicada por Apress. Está dirigida a ingenieros de seguridad, administradores de red y desarrolladores de nivel intermedio con nociones de Linux y Python, interesados en auditar y resguardar infraestructuras críticas, Internet de las Cosas (IoT) y entornos industriales (SCADA/ICS). La obra ataca una de las mayores vulnerabilidades del sector: la proliferación de dispositivos conectados comerciales que carecen de controles de acceso robustos, cifrado o compatibilidad para instalar software antivirus o agentes de seguridad.\n\nEl texto detalla la metodología para transformar un ordenador monoplaca económico como la Raspberry Pi (con Raspbian Linux) en un sensor de red pasivo denominado RIPS (Raspberry Pi Sensor). Hosmer enseña a escribir herramientas modulares en Python que capturan e inspeccionan paquetes en la red local de forma no intrusiva mediante sockets de bajo nivel. El libro profundiza en el modelado de comportamiento, la construcción de líneas base ('baselines') que registran la actividad operacional esperada de cada dispositivo inteligente y el análisis continuo del tráfico para identificar desviaciones anómalas, conexiones a servidores de comando y control (C2), ataques de intermediario (MitM) y fugas silenciosas de datos confidenciales.\n\nEl núcleo práctico del libro guía el ensamblado y programación completa de la sonda de seguridad RIPS, incluyendo su motor de detección por comportamiento, filtros de red y módulos de generación de alertas en tiempo real ante eventos anómalos. Lo más destacable es que proporciona una solución perimetral e interna de costo mínimo capaz de proteger redes sin interrumpir las comunicaciones operativas. La obra no contempla técnicas de explotación ofensiva ni mitigación activa (como bloqueo automático por firewall), por lo que funciona como un sistema de monitorización forense pasiva indispensable para auditar la seguridad de redes conectadas.",
+    "temas": [
+      "Raspberry Pi",
+      "Ciberseguridad IoT",
+      "Monitorización pasiva de redes",
+      "Python",
+      "Raspbian Linux",
+      "Detección de anomalías",
+      "Sistemas de control industrial (ICS)",
+      "Fuga de datos (Data Leakage)",
+      "Análisis de tráfico de red",
+      "Sensor RIPS",
+      "Alertas en tiempo real"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sensor pasivo de ciberseguridad IoT (RIPS)",
+        "descripcion": "Desarrollo de una sonda de seguridad perimetral sobre Raspberry Pi con scripts en Python que captura tráfico de red en modo pasivo, modela la línea base de los dispositivos IoT y genera alertas instantáneas ante intrusiones o fugas de información."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3700-7",
+      "https://www.oreilly.com/library/view/defending-iot-infrastructures/9781484237007/",
+      "https://github.com/Apress/defending-iot-infrastructures-w-raspberry-pi",
+      "https://www.amazon.com/Defending-IoT-Infrastructures-Raspberry-Pi/dp/1484236991"
+    ]
+  },
+  "demystifying-internet-of-things-security-2019": {
+    "descripcion": "Manual de referencia arquitectónica publicado por Apress y escrito por expertos en seguridad de Intel (Sunil Cheruvu, Anil Kumar, Ned Smith y David M. Wheeler) que desglosa de manera exhaustiva la seguridad integral en sistemas del Internet de las cosas (IoT). La obra se dirige a arquitectos de sistemas, ingenieros embebidos y líderes técnicos con experiencia previa en redes, sistemas operativos embebidos y conceptos básicos de criptografía que necesitan diseñar arquitecturas robustas y resilientes desde los dispositivos de borde hasta la nube.\n\nEl libro examina a fondo el modelo conceptual de defensa en profundidad y la pirámide de amenazas específica de IoT. En el apartado de hardware, aborda la raíz de confianza de hardware (Hardware Root of Trust), módulos TPM 2.0 (Trusted Platform Module), enclaves seguros como Intel SGX, motores de seguridad aislados como Intel ME/CSME, la arquitectura ARM TrustZone y tecnologías de identidad como EPID (Enhanced Privacy ID). En la capa de software y conectividad, detalla la implementación de arranque seguro (Secure Boot), medición de integridad, atestación remota, actualizaciones seguras de firmware (FOTA) y protocolos de red protegidos como TLS, DTLS, MQTT, CoAP, BLE, Zigbee y LoRaWAN, enmarcando todo dentro de estándares como OCF (Open Connectivity Foundation) y las directrices del Industrial Internet Consortium (IIC).\n\nAl tratarse de un texto de diseño y estrategia arquitectónica, no contiene proyectos prácticos de programación guiada paso a paso, sino matrices de amenazas, diagramas de referencia y patrones de despliegue aplicados a sectores como el hogar inteligente, la salud y la industria 4.0. Su mayor valor reside en su rigor conceptual para entender cómo el hardware de silicio sustenta la seguridad del software en entornos con recursos limitados. Conviene tener presente que prescinde de código ejecutable o tutoriales de configuración específicos de un único microcontrolador, siendo un recurso eminentemente analítico y prescriptivo.",
+    "temas": [
+      "Seguridad en IoT",
+      "Hardware Root of Trust",
+      "Secure Boot",
+      "Intel SGX",
+      "TPM 2.0",
+      "Criptografía aplicada",
+      "Modelado de amenazas",
+      "Protocolos de red IoT",
+      "OCF",
+      "Atestación de firmware"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2896-8",
+      "https://www.apress.com/gp/book/9781484228951",
+      "https://www.oreilly.com/library/view/demystifying-internet-of/9781484228968/"
+    ]
+  },
+  "iot-development-for-esp32-and-esp8266-with-javascript-2020": {
+    "descripcion": "Guía eminentemente práctica escrita por Peter Hoddie y Lizzie Prader (creadores de la plataforma Moddable) que enseña a desarrollar aplicaciones comerciales para microcontroladores económicos ESP32 y ESP8266 utilizando JavaScript moderno (ECMAScript) en lugar del tradicional C o C++. Está dirigida a programadores de software web o Node.js que desean dar el salto al desarrollo de hardware sin aprender bajo nivel, así como a desarrolladores embebidos experimentados que buscan acelerar radicalmente la creación de interfaces de usuario y servicios de red.\n\nEl núcleo del aprendizaje se apoya en el SDK de código abierto Moddable y en el motor ligero XS, compatible con estándares JavaScript modernos en apenas unos kilobytes de memoria. A través de herramientas como la CLI xs-dev y el depurador gráfico xsbug, los autores enseñan a gestionar redes Wi-Fi con HTTP/HTTPS, WebSockets, MQTT y mDNS; a configurar comunicaciones por Bluetooth Low Energy (BLE) tanto en roles de cliente como de periférico; a interactuar con periféricos de hardware mediante GPIO, I2C, SPI y PWM; a reproducir audio digital; y a diseñar interfaces gráficas para pantallas táctiles aprovechando la librería Poco y el framework orientado a objetos Piu. También explora la integración de código nativo C mediante XS in C.\n\nEl contenido se estructura alrededor de ejercicios y aplicaciones completas que el lector programa y carga directamente en las placas de desarrollo, abarcando desde clientes de telemetría hasta interfaces táctiles animadas. Su gran aportación es demostrar que es perfectamente viable programar sistemas embebidos en JavaScript con alto rendimiento y bajo consumo de memoria. Como contrapartida, el libro se enfoca de manera exclusiva en el ecosistema Moddable, dejando de lado entornos alternativos como ESP-IDF nativo, Arduino o plataformas cloud específicas (AWS IoT o Azure IoT), por lo que conviene contar con una placa ESP32 con pantalla para aprovechar todo su potencial.",
+    "temas": [
+      "ESP32",
+      "ESP8266",
+      "JavaScript embebido",
+      "Moddable SDK",
+      "Motor XS",
+      "Framework Piu",
+      "Bluetooth Low Energy (BLE)",
+      "MQTT",
+      "WebSockets",
+      "Pantallas táctiles",
+      "I2C y SPI"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Interfaz gráfica táctil para microcontrolador con Piu",
+        "descripcion": "Aplicación interactiva para pantalla táctil desarrollada sobre ESP32 con el framework Piu y la librería Poco, que incluye pantallas animadas, botones táctiles y renderizado fluido de fuentes y gráficos."
+      },
+      {
+        "nombre": "Monitor ambiental y telemetría MQTT",
+        "descripcion": "Sistema de lectura de sensores conectados por I2C/SPI que recopila variables físicas y las publica en tiempo real a través de Wi-Fi usando clientes MQTT y peticiones HTTP con JSON."
+      },
+      {
+        "nombre": "Servicio y baliza Bluetooth Low Energy (BLE)",
+        "descripcion": "Aplicación para ESP32 que emite balizas publicitarias (beacons) y expone características GATT para monitorización y configuración remota desde dispositivos móviles."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5070-9",
+      "https://github.com/Moddable-OpenSource/iot-product-dev-book",
+      "https://www.oreilly.com/library/view/iot-development-for/9781484250709/"
+    ]
+  },
+  "iot-machine-learning-applications-in-telecom-energy-and-agriculture-2020": {
+    "descripcion": "Obra aplicada de Puneet Mathur que conecta la adquisición de datos en hardware embebido con modelos de aprendizaje automático mediante Python. El texto está pensado para desarrolladores de software, científicos de datos e ingenieros de IoT de nivel intermedio que ya dominan la sintaxis básica de Python y conceptos elementales de electrónica, y buscan aprender a resolver problemáticas reales de negocio e industria en tres sectores clave: telecomunicaciones, energía y agricultura inteligente.\n\nEl libro enseña a capturar datos del mundo físico utilizando computadoras de placa reducida Raspberry Pi (3 B+) y microcontroladores Arduino Mega 2560, comunicados con sensores ambientales, de corriente y vibración mediante buses serie y el estándar industrial Modbus RS485. En el apartado de software, utiliza Python junto con librerías fundamentales como Scikit-learn, Pandas, NumPy, Matplotlib y RPi.GPIO. Con este stack, se instruye en el preprocesamiento de series temporales, ingeniería de características y entrenamiento de algoritmos supervisados de clasificación y regresión orientados a la detección de anomalías y predicción de eventos.\n\nA lo largo de sus capítulos se construyen tres prototipos industriales completos: un sistema de detección y predicción de caídas de llamadas en torres de telecomunicaciones, un módulo de auditoría de consumo eléctrico y mantenimiento predictivo en maquinaria industrial, y un monitor de variables agronómicas para predecir pérdidas en cosechas. Lo más valioso de la obra es su enfoque pragmático en el protocolo industrial Modbus y su análisis de los errores comunes al escalar del laboratorio a entornos comerciales. En cambio, deja fuera el aprendizaje profundo (deep learning) y arquitecturas complejas de redes neuronales, concentrándose exclusivamente en machine learning clásico sobre hardware accesible.",
+    "temas": [
+      "Machine Learning en IoT",
+      "Python",
+      "Raspberry Pi",
+      "Arduino Mega",
+      "Scikit-learn",
+      "Modbus RS485",
+      "Telecomunicaciones",
+      "Mantenimiento predictivo",
+      "Smart Agriculture",
+      "Pandas"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Analizador predictivo de caídas de llamadas en telecomunicaciones",
+        "descripcion": "Modelo predictivo desarrollado con Python y Scikit-learn que procesa registros y telemetría de red para anticipar interrupciones de servicio y congestión en torres celulares."
+      },
+      {
+        "nombre": "Sistema de auditoría energética y mantenimiento predictivo",
+        "descripcion": "Solución basada en Raspberry Pi y protocolo industrial Modbus RS485 que monitoriza corriente y vibración en motores para predecir fallos mecánicos e ineficiencias de consumo."
+      },
+      {
+        "nombre": "Monitor de predicción de fallos en cosechas agrícolas",
+        "descripcion": "Prototipo de agricultura de precisión con Arduino Mega y sensores de humedad y temperatura de suelo que predice el riesgo de pérdida en cultivos comerciales usando modelos de clasificación."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5549-0",
+      "https://www.apress.com/gp/book/9781484255490",
+      "https://www.oreilly.com/library/view/iot-machine-learning/9781484255506/"
+    ]
+  },
+  "iot-ai-and-blockchain-for-net-2018": {
+    "descripcion": "Libro práctico y arquitectónico escrito por Anurag Bhandari y Nishith Pathak que guía a los desarrolladores del ecosistema Microsoft .NET en la convergencia de tres de las tecnologías más disruptivas de la Industria 4.0: el Internet de las cosas, la inteligencia artificial en la nube y la tecnología blockchain. Está orientado a programadores e ingenieros de software de nivel intermedio con experiencia en C# y Visual Studio que deseen diseñar aplicaciones empresariales modernas aprovechando los servicios en la nube de Microsoft Azure.\n\nLa obra detalla la integración de múltiples componentes de la plataforma Azure y el framework .NET: conexión, aprovisionamiento y gestión de gemelos digitales (device twins) con Azure IoT Hub y Azure IoT Suite; consumo de Cognitive Services (actuales Azure AI Services) a través de APIs REST y SDKs de C# para reconocimiento, detección y seguimiento facial (Face API y Computer Vision); incorporación de modelos de aprendizaje automático mediante Azure Machine Learning Studio; e implementación de contratos inteligentes y libros de contabilidad distribuidos con Blockchain as a Service (BaaS) sobre plataformas compatibles con Ethereum. Asimismo, cubre el procesamiento en flujo continuo con Azure Stream Analytics y la visualización de métricas en cuadros de mando con Power BI.\n\nToda la teoría converge en el desarrollo incremental de un proyecto troncal: una suite inteligente de monitorización para instalaciones sanitarias y hospitales. A través de este caso de uso, el lector implementa el seguimiento de constantes de pacientes mediante dispositivos IoT, la identificación y trazabilidad de personas con visión por computador y el registro inmutable de suministros e historiales con blockchain. Su principal virtud es mostrar la arquitectura completa de una solución conectada de extremo a extremo sin perderse en abstracciones. Conviene considerar que, al publicarse en 2018, varias herramientas y portales de Azure han actualizado sus nombres e interfaces, aunque los conceptos arquitectónicos y los patrones de integración en C# se mantienen vigentes.",
+    "temas": [
+      ".NET",
+      "C#",
+      "Microsoft Azure",
+      "Azure IoT Hub",
+      "Cognitive Services",
+      "Azure Machine Learning",
+      "Blockchain as a Service",
+      "Ethereum",
+      "Azure Stream Analytics",
+      "Power BI",
+      "Industria 4.0"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de monitorización hospitalaria inteligente en Azure",
+        "descripcion": "Solución integral en C# y Azure que centraliza la telemetría médica con Azure IoT Hub, procesa reconocimiento facial de pacientes con Cognitive Services y almacena auditorías inmutables en Blockchain as a Service (BaaS), visualizando el estado en Power BI."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3709-0",
+      "https://www.apress.com/gp/book/9781484237083",
+      "https://www.oreilly.com/library/view/iot-ai-and/9781484237090/"
+    ]
+  },
+  "making-sense-of-sensors-2017": {
+    "descripcion": "Monografía conceptual y técnica redactada por Omesh Tickoo y Ravi Iyer (investigadores sénior en Intel Labs) que aborda el diseño de la canalización de datos desde que un sensor físico captura una señal hasta que se procesa en la nube. Está pensada para investigadores, ingenieros de firmware, científicos de datos y arquitectos de sistemas de nivel intermedio o avanzado que cuenten con fundamentos sólidos en procesamiento digital de señales, álgebra lineal y arquitecturas distribuidas, y busquen comprender el flujo integral de transformación de datos crudos en conocimiento contextual.\n\nEl libro examina en detalle las fases que componen la canalización de sensores: muestreo, reducción de ruido, extracción de características en el dominio del tiempo y de la frecuencia (como la transformada rápida de Fourier o FFT) y algoritmos de clasificación de patrones. Analiza sensores inerciales (acelerómetros y giroscopios), acústicos y ópticos, así como técnicas de fusión sensorial multimodal mediante filtros de Kalman, redes bayesianas y modelos ocultos de Markov (HMM). Además, cubre la representación semántica del contexto a través de ontologías (OWL y RDF) y explora los compromisos de arquitectura entre el cómputo en microcontroladores de ultra bajo consumo (sensor hubs) y la delegación de procesamiento a servidores en centros de datos.\n\nAl ser un texto enfocado en fundamentos de ingeniería y arquitectura de sistemas, no plantea proyectos de programación paso a paso ni construcción de prototipos guiados con código fuente ejecutable, sino que ofrece formulaciones algorítmicas, modelos matemáticos y directrices de diseño end-to-end. Su gran fortaleza radica en proporcionar una visión holística y rigurosa sobre cómo balancear latencia, ancho de banda y consumo energético en sistemas que integran múltiples sensores. Quien busque un recetario con código listo para copiar y pegar en microcontroladores comerciales no lo encontrará aquí, ya que su propósito es formar el criterio de diseño arquitectónico previo a la implementación.",
+    "temas": [
+      "Fusión sensorial",
+      "Procesamiento de señales",
+      "Filtros de Kalman",
+      "Modelos de Markov (HMM)",
+      "Sensor Hubs",
+      "Ontologías y OWL",
+      "Reconocimiento de actividad",
+      "IMU y acelerómetros",
+      "Arquitectura distribuida",
+      "Edge Computing"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-6593-1",
+      "https://www.apress.com/gp/book/9781430265924",
+      "https://www.oreilly.com/library/view/making-sense-of/9781430265931/"
+    ]
+  },
+  "microservices-iot-and-azure-2015": {
+    "descripcion": "Guía técnica orientada al diseño de arquitecturas en la nube para soluciones de software como servicio (SaaS) encargadas de procesar flujos masivos de datos procedentes del Internet de las cosas (IoT). Publicada en 2015, la obra explica cómo abandonar las estructuras monolíticas tradicionales para adoptar una arquitectura de microservicios desacoplados y tuberías de entrega continua en el ecosistema de Microsoft Azure de esa época. Está dirigida a desarrolladores, ingenieros de operaciones y arquitectos de nivel intermedio que ya cuenten con experiencia en el entorno .NET o C#, conocimientos fundamentales sobre servicios en la nube y nociones de administración de sistemas.\n\nEl texto profundiza en los principios esenciales de los microservicios (aislamiento, resiliencia, elasticidad y comunicación orientada a mensajes) y en su integración con prácticas ágiles, metodologías Lean y flujos de trabajo DevOps con integración y despliegue continuos (CI/CD). Detalla el aprovisionamiento automatizado de infraestructura mediante scripts de PowerShell y el uso de servicios gestionados de Azure: Azure IoT Hub para la gestión e ingesta bidireccional de telemetría (dispositivo a nube y nube a dispositivo), Azure Stream Analytics para procesar flujos de eventos en tiempo real, Azure Service Bus para mensajería asíncrona, Azure DocumentDB (el antecesor de Cosmos DB) para persistencia NoSQL y Azure API Management para exponer interfaces seguras hacia el exterior.\n\nEl núcleo práctico del libro se apoya en una implementación de referencia que simula y conecta dispositivos físicos o virtuales (usando Windows 10 IoT Core) con una plataforma completa de telemetría y aprovisionamiento en Azure. Su principal virtud reside en mostrar de principio a fin cómo articular la teoría de microservicios con la automatización de la infraestructura y el flujo de datos IoT en un entorno empresarial. Conviene tener presente que, al datar de 2015, servicios como DocumentDB o las herramientas de Azure IoT han cambiado de nomenclatura y capacidades, por lo que el libro es valioso primordialmente por sus fundamentos de diseño distribuido, patrones arquitectónicos y disciplina operativa en la nube.",
+    "temas": [
+      "Microservicios",
+      "Microsoft Azure",
+      "Internet de las cosas (IoT)",
+      "Azure IoT Hub",
+      "DevOps",
+      "Stream Analytics",
+      "PowerShell",
+      "DocumentDB",
+      "Arquitectura en la nube",
+      "Windows 10 IoT Core"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Implementación de referencia de telemetría y aprovisionamiento IoT",
+        "descripcion": "Sistema integral de telemetría y aprovisionamiento que conecta dispositivos con Windows 10 IoT Core a Microsoft Azure, gestionando mensajes bidireccionales con IoT Hub, Stream Analytics, Service Bus y DocumentDB desplegados mediante scripts de PowerShell."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1275-2",
+      "https://www.oreilly.com/library/view/microservices-iot-and/9781484212752/",
+      "https://github.com/bobfamiliar/microservices-iot-azure"
+    ]
+  },
+  "real-time-iot-imaging-with-deep-neural-networks-2020": {
+    "descripcion": "Manual práctico centrado en la implementación de visión artificial y modelos de aprendizaje profundo directamente en el extremo de la red (edge computing), utilizando hardware de bajo consumo como la Raspberry Pi 4 con Java 11+. La propuesta busca romper con el predominio casi exclusivo de Python en la inteligencia artificial, demostrando que la máquina virtual de Java (JVM) es una opción viable para procesar imágenes en tiempo real. Está pensado para programadores de software, ingenieros y entusiastas de nivel intermedio con buen dominio de Java (o lenguajes afines a la JVM como Clojure) y manejo básico de la consola de Linux que deseen construir soluciones locales sin delegar el procesamiento en servidores externos.\n\nEl contenido abarca la configuración del entorno en Raspberry Pi mediante desarrollo remoto con Visual Studio Code, la captura y transformación de secuencias de video mediante OpenCV y librerías wrapper para Java (como Origami y JavaCV), y la ejecución de modelos de redes neuronales convolucionales como YOLO (You Only Look Once) para la detección y clasificación de objetos en tiempo real. Asimismo, aborda la integración de plataformas de asistente de voz que operan en local (Snips y Rhasspy) mediante interfaces CLI y hardware de audio, además de la comunicación por eventos a través de un broker MQTT para interconectar sensores y actuadores.\n\nEl objetivo central del libro es ensamblar un sistema doméstico inteligente capaz de identificar personas, animales u objetos en un flujo de video continuo y responder a órdenes habladas sin comprometer la privacidad del usuario ni transmitir datos fuera de la red doméstica. Su principal aporte es ofrecer una perspectiva técnica alternativa al flujo tradicional de Python en IoT, aprovechando el rendimiento y la concurrencia de la JVM. Deja fuera el entrenamiento pesado de redes desde cero (se centra en la inferencia con modelos preentrenados) y exige contar con el hardware físico específico (Raspberry Pi 4, cámara compatible y periféricos de audio) para aprovechar plenamente los ejemplos.",
+    "temas": [
+      "Raspberry Pi 4",
+      "Java",
+      "OpenCV",
+      "Deep Neural Networks (DNN)",
+      "YOLO",
+      "Visión artificial",
+      "Edge Computing",
+      "Rhasspy",
+      "MQTT",
+      "Domótica"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de domótica con visión artificial y control por voz local",
+        "descripcion": "Aplicación integral para Raspberry Pi 4 que procesa video en tiempo real con OpenCV y YOLO para clasificar objetos y personas, integrando comandos de voz locales con Rhasspy/Snips y coordinación de eventos mediante MQTT."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5722-7",
+      "https://www.oreilly.com/library/view/real-time-iot-imaging/9781484257227/",
+      "https://github.com/hellonico/origami"
+    ]
+  },
+  "rethinking-the-internet-of-things-2014": {
+    "descripcion": "Tratado conceptual y arquitectónico que cuestiona la conveniencia de aplicar las pilas de protocolos estándar de Internet (como TCP/IP y los modelos pesados de enrutamiento) a la escala multitudinaria del Internet de las cosas. Publicada en 2014, la obra plantea que forzar estándares concebidos para computadoras y comunicaciones humanas sobre miles de millones de sensores y actuadores con recursos mínimos resulta ineficiente, costoso e insostenible. Está destinada a arquitectos de sistemas, directores de tecnología e ingenieros de redes de nivel intermedio que posean bases sólidas sobre redes de datos y deseen reflexionar críticamente sobre los fundamentos de escalabilidad del IoT.\n\nInspirándose en sistemas biológicos descentralizados, el autor presenta una arquitectura alternativa basada en la reducción drástica de la sobrecarga de red. Introduce el concepto de «chirps» (paquetes de información sumamente reducidos que transmiten estados mínimos de dispositivos), y describe un esquema en tres niveles conformado por nodos terminales de bajo consumo, «nodos propagadores» situados en la periferia que agregan, filtran y enrutan la información de forma autónoma, y «funciones integradoras» que consolidan los datos para la toma de decisiones. Analiza con detenimiento la dicotomía entre «small data» en el borde y «big data» en los centros de datos, así como el impacto económico de la topología en red.\n\nSe trata de un libro puramente teórico y discursivo, sin código fuente ni ejercicios guiados de implementación; su método consiste en analizar casos de uso hipotéticos en sectores como ciudades inteligentes, redes eléctricas y logística industrial. Su mayor valor reside en haber anticipado con lucidez la necesidad de la computación perimetral (edge y fog computing) y de protocolos ligeros antes de que fueran ampliamente adoptados por la industria. Quienes busquen un tutorial para programar microcontroladores o configurar plataformas en la nube deberán buscar otras opciones, pero resulta una lectura lúcida para comprender los dilemas de diseño subyacentes a las redes distribuidas a gran escala.",
+    "temas": [
+      "Arquitectura IoT",
+      "Edge Computing",
+      "Redes de sensores",
+      "Chirps",
+      "Nodos propagadores",
+      "Small Data",
+      "Big Data",
+      "Escalabilidad de redes",
+      "Sistemas distribuidos",
+      "Diseño de protocolos"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-5741-7",
+      "https://www.oreilly.com/library/view/rethinking-the-internet/9781430257400/",
+      "https://www.goodreads.com/book/show/18485295-rethinking-the-internet-of-things"
+    ]
+  },
+  "science-and-engineering-projects-using-the-arduino-and-raspberry-pi-2020": {
+    "descripcion": "Manual pedagógico orientado a experimentar con conceptos de ciencia, tecnología, ingeniería y matemáticas (STEM) mediante la combinación práctica de placas Arduino y microcomputadoras Raspberry Pi. Publicado en 2020, el texto busca superar los tutoriales comunes de electrónica de consumo para vincular la toma de datos de sensores con modelos matemáticos y principios físicos rigurosos. Está dirigido a estudiantes, profesores, ingenieros y creadores aficionados de nivel intermedio con conocimientos iniciales de electrónica y fundamentos de programación tanto en C/C++ (para Arduino) como en Python (para Raspberry Pi).\n\nLa obra enseña a construir sistemas de registro y adquisición de datos (data logging) conectando sensores físicos (de temperatura, presión, fuerza y aceleración) y comunicando Arduino con Raspberry Pi a través del puerto serie. Se analizan conceptos matemáticos y computacionales como el cálculo de derivadas e integrales aplicadas, álgebra lineal, curvas de calibración y análisis estadístico de ruido en las mediciones, procesando los registros en archivos CSV y visualizándolos con librerías en Python como Matplotlib. Asimismo, aborda ramas como la termodinámica (conducción y radiación de calor), mecánica clásica (flotabilidad atmosférica, inercia y momento) y óptica instrumental.\n\nEl aprendizaje se articula en torno a experimentos de laboratorio construidos por el lector: un sistema para calcular la flotabilidad del aire y la presión atmosférica, un banco de pruebas para medir la transferencia de calor por conducción en barras metálicas y un sistema óptico automatizado acoplado a un telescopio para fotografiar cuerpos celestes. Su gran mérito radica en exigir rigor analítico en la calibración y tratamiento de datos experimentales, evitando el enfoque simplista de «conectar y listo». No cubre almacenamiento en la nube ni protocolos de red avanzados de IoT, pues su objetivo deliberado es el experimento científico local y el modelado físico.",
+    "temas": [
+      "Arduino",
+      "Raspberry Pi",
+      "Python",
+      "Adquisición de datos",
+      "Sensores",
+      "Física aplicada",
+      "STEM",
+      "Transferencia de calor",
+      "Astrofotografía",
+      "Data Logging"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Estación de medición de flotabilidad y presión barométrica",
+        "descripcion": "Dispositivo experimental con Arduino y sensores de presión que registra variaciones de presión atmosférica y calcula la flotabilidad del aire mediante transmisión serie."
+      },
+      {
+        "nombre": "Banco de análisis de transferencia de calor por conducción",
+        "descripcion": "Sistema de registro temporal con termistores calibrados a lo largo de una barra de aluminio, capturando y modelando curvas de disipación térmica en Python con Raspberry Pi."
+      },
+      {
+        "nombre": "Sistema automatizado de captura fotográfica para telescopio",
+        "descripcion": "Plataforma óptica que utiliza el módulo de cámara de Raspberry Pi acoplado a un telescopio para registrar y procesar imágenes astronómicas de la Luna y planetas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5811-8",
+      "https://www.springerprofessional.de/science-and-engineering-projects-using-the-arduino-and-raspberry/17855364",
+      "https://www.oreilly.com/library/view/science-and-engineering/9781484258118/"
+    ]
+  },
+  "windows-10-for-the-internet-of-things-2016": {
+    "descripcion": "Guía práctica de desarrollo orientada a programadores que desean aplicar sus habilidades en la plataforma Microsoft para crear dispositivos conectados utilizando placas Raspberry Pi 2 y 3 con Windows 10 IoT Core. Publicada en 2016 y apoyada en el entorno Visual Studio 2015, la obra permite trasladar la experiencia en la Plataforma Universal de Windows (UWP) y el lenguaje C# al desarrollo de hardware embebido. Está diseñada para desarrolladores de nivel intermedio del ecosistema .NET que busquen interactuar con sensores y periféricos sin tener que aprender sistemas operativos basados en Linux.\n\nEl libro aborda en detalle la instalación de Windows 10 IoT Core, la configuración de la Raspberry Pi y el control directo del hardware mediante pines GPIO y buses I2C y SPI. Muestra cómo integrar sensores de temperatura, humedad, proximidad y luz (utilizando conversores analógico-digitales como el MCP3008), así como el accionamiento de relés, servomotores y pantallas LCD. Enseña a estructurar aplicaciones con interfaz gráfica (headed) mediante XAML para pantallas táctiles o monitores HDMI, procesos en segundo plano (headless), persistencia local de telemetría con bases de datos SQLite y envío seguro de información a la nube mediante Azure IoT Hub y servicios móviles de Azure.\n\nLos proyectos prácticos abarcan desde lectores ambientales con paneles visuales en UWP y servidores web locales embebidos para supervisión desde el navegador, hasta nodos periféricos con transmisión de telemetría en tiempo real hacia Microsoft Azure. El principal aporte del libro es facilitar una transición suave para la comunidad de desarrolladores de software de escritorio hacia el desarrollo IoT, aprovechando herramientas estándar como Visual Studio y C#. Debe considerarse que Microsoft fue retirando paulatinamente el soporte general para Windows 10 IoT Core en las versiones más modernas de Raspberry Pi, por lo que su vigencia está orientada sobre todo a proyectos heredados o a comprender la arquitectura UWP en sistemas embebidos.",
+    "temas": [
+      "Windows 10 IoT Core",
+      "Raspberry Pi",
+      "Universal Windows Platform (UWP)",
+      "C#",
+      ".NET",
+      "GPIO",
+      "I2C",
+      "Azure IoT Hub",
+      "SQLite",
+      "Visual Studio"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Monitor ambiental con interfaz gráfica UWP y almacenamiento SQLite",
+        "descripcion": "Aplicación con pantalla táctil e interfaz XAML para Raspberry Pi que captura mediciones de sensores mediante buses GPIO e I2C, registrando el histórico en una base de datos SQLite embebida."
+      },
+      {
+        "nombre": "Servidor web embebido para control y telemetría remota de dispositivos",
+        "descripcion": "Servicio en segundo plano en C# que aloja un servidor HTTP en la Raspberry Pi para inspeccionar el estado de los sensores y activar relés o actuadores de forma remota desde cualquier navegador."
+      },
+      {
+        "nombre": "Nodo de telemetría conectado a Microsoft Azure",
+        "descripcion": "Sistema cliente que recopila información de sensores en tiempo real y la transmite de forma segura a Azure IoT Hub para almacenamiento y análisis en la nube."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2108-2",
+      "https://www.oreilly.com/library/view/windows-10-for/9781484221082/",
+      "https://www.amazon.com/Windows-Internet-Things-Charles-Bell/dp/1484221074"
+    ]
+  },
+  "security-and-privacy-in-internet-of-things-iots-2016": {
+    "descripcion": "Volumen de investigación académica y técnica compilado por Fei Hu, con contribuciones de especialistas internacionales, dedicado a la seguridad informática y la protección de la privacidad en ecosistemas de Internet de las Cosas (IoT). La obra se sitúa en el marco de las tecnologías de conectividad y redes sensoriales consolidadas hacia 2016 (redes WSN, RFID, VANET y WBSN) y está dirigida a investigadores, arquitectos de sistemas embebidos, ingenieros de ciberseguridad y estudiantes de posgrado que cuenten con una base sólida en redes informáticas, criptografía y modelado matemático de sistemas distribuidos.\n\nEl texto desglosa de manera exhaustiva los cuatro pilares fundamentales de la seguridad (confidencialidad, autenticación, integridad y disponibilidad, o CAIA) adaptados a dispositivos con severas restricciones computacionales y de consumo energético. Analiza vectores de ataque y contramedidas concretas, tales como la mitigación de ataques Sybil en redes vehiculares (VANET), modelos de propagación y contención de malware en IoT, vectores de intrusión en hogares inteligentes y protocolos de privacidad para redes de sensores corporales inalámbricos (WBSN). Asimismo, profundiza en esquemas criptográficos ligeros (lightweight cryptography), técnicas de agregación segura de series temporales de datos, protocolos de enrutamiento seguro de bajo consumo, gobernanza descentralizada basada en modelos de confianza y políticas de consentimiento informado.\n\nAl tratarse de un compendio formal de investigación, no ofrece proyectos de desarrollo de software paso a paso ni talleres de código guiados, sino demostraciones analíticas, algoritmos formales y arquitecturas de referencia para evaluar la robustez sistémica. Su mayor aportación reside en su rigor conceptual y en reunir modelos teóricos que sustentan el diseño de protocolos robustos antes de pasar a la fase de prototipado. Como contrapartida, deja fuera la implementación práctica sobre plataformas comerciales contemporáneas (como Arduino, Raspberry Pi o nubes públicas de IoT), por lo que se requiere experiencia previa en programación de sistemas para trasladar sus formulaciones a código de producción.",
+    "temas": [
+      "Seguridad en IoT",
+      "Privacidad de datos",
+      "Ataques Sybil",
+      "Criptografía ligera",
+      "Redes VANET",
+      "Redes WBSN",
+      "Agregación de datos",
+      "Gestión de confianza",
+      "Control de acceso",
+      "Modelos matemáticos"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Security-and-Privacy-in-Internet-of-Things-IoTs-Models-Algorithms-and-Implementations/Hu/p/book/9780367574925",
+      "https://www.amazon.com/Security-Privacy-Internet-Things-IoTs/dp/1498723188"
+    ]
+  },
+  "the-internet-of-things-2017": {
+    "descripcion": "Obra panorámica y de referencia técnica escrita por Pethuru Raj y Anupama C. Raman que desglosa el ecosistema integral de Internet de las Cosas (IoT) hacia 2017, desde las capas de hardware y comunicaciones físicas hasta las plataformas de computación en la nube y la analítica masiva de datos. Está pensada para arquitectos de soluciones de software, consultores tecnológicos, directores de infraestructura e ingenieros intermedios que necesiten entender cómo interactúan los dispositivos conectados con los sistemas empresariales, requiriendo conocimientos previos sobre redes IP, conceptos de nube y arquitecturas de software distribuido.\n\nEl libro detalla minuciosamente las tecnologías facilitadoras y los protocolos clave de comunicación y descubrimiento de servicios, abarcando estándares como ZigBee, Bluetooth Smart (BLE), 6LoWPAN, RFID, CoAP, MQTT y mDNS/DNS-SD. Examina a fondo el surgimiento de los paradigmas de computación perimetral y en la niebla (Edge y Fog Computing) frente a las arquitecturas centrales en la nube, las plataformas de habilitación de aplicaciones (AEP) y las herramientas de middleware para la ingestión y análisis de flujos masivos de datos en tiempo real (stream analytics). Además, dedica capítulos específicos al diseño de soluciones sectoriales complejas como aeropuertos inteligentes (Smart Airports usando beacons BLE y RFID), sistemas de telemedicina e historias clínicas conectadas (Smart Healthcare) e infraestructuras para ciudades y administraciones públicas digitales.\n\nSu orientación es marcadamente arquitectónica y conceptual, prescindiendo deliberadamente de ejercicios con código fuente o talleres de taller con placas electrónicas. Su principal valor radica en brindar una perspectiva holística de nivel corporativo que ayuda a evaluar qué plataformas, protocolos y topologías de red elegir según el caso de uso industrial. Por el contrario, quien busque aprender a programar sensores en Python, C++ o ensamblar microcontroladores deberá recurrir a manuales complementarios eminentemente prácticos, ya que aquí prevalece la visión sistémica y estratégica de la ingeniería de software.",
+    "temas": [
+      "Arquitectura IoT",
+      "Edge Computing",
+      "Fog Computing",
+      "Protocolos de comunicación",
+      "MQTT",
+      "CoAP",
+      "Plataformas IoT (AEP)",
+      "Analítica de datos IoT",
+      "Ciudades inteligentes",
+      "Salud conectada",
+      "Aeropuertos inteligentes"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/The-Internet-of-Things-Enabling-Technologies-Platforms-and-Use-Cases/Raj-Raman/p/book/9781498761284",
+      "https://www.amazon.com/Internet-Things-Enabling-Technologies-Platforms/dp/1498761284"
+    ]
+  },
+  "abusing-the-internet-of-things-blackouts-freakouts-and-stakeouts-2015": {
+    "descripcion": "Estudio pionero en ciberseguridad sobre hardware de consumo escrito por el investigador Nitesh Dhanjani (publicado por O'Reilly en 2015), que evidencia cómo las debilidades en el diseño del Internet de las Cosas pueden romper el aislamiento del software y ocasionar daños tangibles en el espacio físico y la privacidad personal. Está pensado para profesionales de ciberseguridad, analistas de pruebas de penetración, ingenieros de sistemas embebidos y desarrolladores de software que tengan bases sólidas sobre redes TCP/IP, autenticación web, protocolos inalámbricos y metodologías de evaluación de amenazas.\n\nEl autor somete a una auditoría técnica profunda productos comerciales de gran distribución en la época: bombillas conectadas Philips Hue (mostrando cómo forzar apagones permanentes mediante llamadas API locales con tokens generados a partir de hashes predecibles de direcciones MAC), cerraduras electrónicas basadas en Z-Wave y Bluetooth (Kevo y sistemas hoteleros Onity), monitores para bebés y cámaras web (Foscam y Belkin WeMo), plataformas de domótica (SmartThings y la arquitectura de sus SmartApps), televisores inteligentes con cámaras y micrófonos integrados, e incluso vehículos conectados (examinando buses CAN, sensores TPMS y las vulnerabilidades en las APIs de la aplicación móvil de Tesla). Hacia el final, propone un enfoque de prototipado seguro apoyándose en los módulos electrónicos modulares littleBits y cloudBit.\n\nEl punto más destacado de la obra es su capacidad para desmitificar la aparente inocuidad de los dispositivos inteligentes mediante ataques e ingeniería inversa reales, explicando cómo errores comunes de arquitectura (como credenciales fijas, falta de cifrado local o autorización laxa) comprometen entornos físicos. Incluye como práctica guiada la construcción de un timbre inteligente conectado por SMS para ilustrar la seguridad por diseño en prototipos. Aunque los modelos específicos evaluados corrigieron estas vulnerabilidades con actualizaciones posteriores, el análisis de superficie de ataque y los patrones de modelado de amenazas continúan siendo altamente formativos.",
+    "temas": [
+      "Seguridad en IoT",
+      "Hacking de hardware",
+      "Philips Hue",
+      "Cerraduras inteligentes",
+      "Cámaras IP",
+      "SmartThings",
+      "Smart TVs",
+      "Vehículos conectados",
+      "Bus CAN",
+      "Prototipado seguro",
+      "littleBits",
+      "cloudBit"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Timbre inteligente conectado por SMS",
+        "descripcion": "Prototipo funcional de timbre IoT construido con hardware modular littleBits y el módulo cloudBit, diseñado para ilustrar la implementación de controles de autenticación y seguridad por diseño en las interacciones con la nube."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/abusing-the-internet/9781491902325/",
+      "https://www.amazon.com/Abusing-Internet-Things-Blackouts-Stakeouts/dp/1491902338"
+    ]
+  },
+  "designing-connected-products-2015": {
+    "descripcion": "Tratado fundamental sobre diseño de experiencia de usuario (UX) e interacción aplicado al Internet de las Cosas de consumo, coordinado por Claire Rowland junto a destacados consultores de producto, diseño industrial e investigación etnográfica (O'Reilly, 2015). La obra traslada las disciplinas del diseño de interfaces de pantalla tradicionales al terreno híbrido en el que conviven hardware físico, conectividad inalámbrica, aplicaciones complementarias y servicios en la nube. Está orientada a diseñadores de interacción, gestores de producto, diseñadores industriales e ingenieros de software con experiencia intermedia que busquen concebir dispositivos conectados usables y viables comercialmente.\n\nEl texto profundiza en las restricciones técnicas que impactan directamente en la experiencia de uso: la latencia de red, la pérdida intermitente de señal, los ciclos de suspensión para ahorrar batería y las inconsistencias de sincronización de estado entre el objeto físico, la app móvil y el servidor cloud (concepto acuñado como 'interusabilidad' o interusability). Enseña técnicas de investigación de campo con usuarios, diseño de controles e interfaces físicas embebidas (botones, pantallas, avisos luminosos mediante LEDs y retroalimentación táctil), flujos de aprovisionamiento y configuración inicial (onboarding Wi-Fi/Bluetooth), diseño responsable frente a la privacidad y la recolección de datos, y estrategias ante la fragmentación de ecosistemas. Ilustra cada principio con casos de estudio de la industria real como la píldora digital Proteus Health, la urbanización domótica Little Kelham, el sistema automotriz Ford SYNC 3, el dispositivo de entrenamiento pélvico LOOP y el router portátil de alta resistencia BRCK.\n\nEs una referencia indispensable que articula de manera ejemplar el diálogo entre la ingeniería de sistemas y el diseño centrado en el usuario, evitando los errores habituales en los que las limitaciones de hardware arruinan la percepción del producto. No incluye código fuente ni tutoriales de programación, ya que su propósito es ofrecer heurísticas, modelos mentales, arquitecturas de información y diagramas de flujo para productos físicos conectados. Es una lectura esencial antes de iniciar el diseño industrial o la arquitectura técnica de cualquier producto de hardware de consumo.",
+    "temas": [
+      "Diseño UX en IoT",
+      "Diseño de interacción",
+      "Interusabilidad",
+      "Diseño de productos conectados",
+      "Diseño industrial",
+      "Aprovisionamiento y onboarding",
+      "Interoperabilidad",
+      "Privacidad por diseño",
+      "Diseño basado en datos",
+      "Interfaces físicas y digitales",
+      "Casos de estudio IoT"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/designing-connected-products/9781449372552/",
+      "http://designingconnectedproducts.com/",
+      "https://www.amazon.com/Designing-Connected-Products-Consumer-Internet/dp/1449372562"
+    ]
+  },
+  "internet-of-things-with-intel-galileo-2015": {
+    "descripcion": "Guía práctica de desarrollo para hardware y software escrita por Miguel de Sousa y publicada por Packt en 2015, enfocada en la creación de aplicaciones conectadas utilizando las placas Intel Galileo (Gen 1 y Gen 2). Estas placas combinan el factor de forma y compatibilidad con pines de Arduino con la potencia de un microprocesador x86 (Intel Quark SoC X1000) corriendo una distribución de Linux embebido. Está orientada a makers, aficionados a la electrónica y desarrolladores intermedios que cuenten con fundamentos de programación (en C/C++ o JavaScript) y electrónica básica, y quieran dar el paso hacia la domótica y los objetos conectados.\n\nEl libro guía en la preparación de una tarjeta microSD con la imagen del Intel IoT Developer Kit y enseña a interactuar con los periféricos tanto desde el clásico IDE de Arduino como desde entornos basados en Node.js, Python y C++. Se apoya en las librerías oficiales MRAA (abstracción para control de pines GPIO, buses I2C, SPI y PWM) y UPM (repositorio estandarizado de controladores para cientos de sensores y actuadores). Asimismo, profundiza en el uso de herramientas como el entorno de desarrollo Intel XDK IoT Edition, la plataforma en la nube Wyliodrin para programación visual y monitorización remota, y el servicio móvil Muzzley para la creación de perfiles de control domótico en smartphones.\n\nA lo largo de sus capítulos se construyen múltiples proyectos paso a paso: un monitor térmico del SoC conectado a la nube, una luz controlada por sensor de presencia y servidor web embebido, un sistema de riego con automatizaciones ambientales, un controlador de efectos de tiras LED y un juego de trivia multijugador gestionado desde teléfonos móviles. Su gran valor pedagógico reside en mostrar con claridad cómo interactúan la capa de Linux del procesador Quark y el firmware de Arduino. No obstante, conviene tener en cuenta que la línea de hardware Intel Galileo e Intel XDK fueron discontinuadas oficialmente por Intel con posterioridad, por lo que su interés actual se centra en fines educativos sobre arquitectura híbrida x86/Arduino o soporte de placas existentes.",
+    "temas": [
+      "Intel Galileo",
+      "Intel Quark SoC",
+      "Arduino IDE",
+      "Linux embebido",
+      "MRAA",
+      "UPM",
+      "Intel XDK IoT Edition",
+      "Node.js",
+      "Wyliodrin",
+      "Muzzley",
+      "Domótica",
+      "Sensores y actuadores"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Monitor térmico del procesador en tiempo real",
+        "descripcion": "Configura la placa Intel Galileo con Linux para leer la temperatura interna del SoC Quark y transmitir las lecturas como cliente web a una gráfica dinámica en la nube."
+      },
+      {
+        "nombre": "Luz automatizada con sensor de presencia y servidor web",
+        "descripcion": "Sistema de iluminación que enciende bombillas usando un sensor de movimiento PIR y un relé, alojando un servidor web embebido en la placa Galileo para su control remoto."
+      },
+      {
+        "nombre": "Sistema de riego automatizado con Wyliodrin",
+        "descripcion": "Automatización agrícola que lee sensores ambientales y acciona bombas de agua mediante reglas programadas en la plataforma en la nube Wyliodrin usando librerías MRAA y UPM."
+      },
+      {
+        "nombre": "Controlador de efectos de luces LED navideñas",
+        "descripcion": "Servidor interactivo creado en Node.js que maneja tiras de iluminación LED con patrones dinámicos y controles sincronizados desde una interfaz web con reproductor multimedia."
+      },
+      {
+        "nombre": "Juego de preguntas y respuestas IoT interactivo",
+        "descripcion": "Trivia multijugador alojada en la placa Intel Galileo desarrollada con Intel XDK IoT Edition en Node.js, donde los participantes responden en vivo desde sus dispositivos móviles."
+      },
+      {
+        "nombre": "Automatización de iluminación de entrada con Muzzley",
+        "descripcion": "Integración del hardware Intel Galileo con el ecosistema de domótica Muzzley mediante un puente personalizado para encender luces de acceso desde una aplicación móvil."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/internet-of-things-with-intel-galileo-9781782174585",
+      "https://www.amazon.com/Internet-Things-Intel-Galileo-Miguel/dp/1782174582"
+    ]
+  },
+  "internet-of-things-with-python-2016": {
+    "descripcion": "Guía práctica escrita por Gastón C. Hillar orientada a conectar el mundo físico con el desarrollo de software moderno utilizando el lenguaje Python (compatible con Python 2.7 y 3.x). El libro adopta como plataforma central de desarrollo la placa Intel Galileo Gen 2 (arquitectura x86 con Yocto Linux embebido) compatible con pines de Arduino 1.0. Está pensado para programadores de nivel intermedio en Python y entusiastas con conocimientos elementales de electrónica y redes que quieran aprender a programar hardware inteligente y sensores sin verse obligados a codificar únicamente en C o C++.\n\nA lo largo de sus capítulos, Hillar profundiza en el uso de la biblioteca de bajo nivel MRAA de Intel para interactuar con pines GPIO, generar señales PWM (modulación por ancho de pulsos) y comunicarse a través de buses I2C y UART. Enseña a leer sensores tanto analógicos como digitales (de luz, temperatura y movimiento PIR), controlar actuadores mecánicos y eléctricos (servomotores y relés), y exponer las capacidades del dispositivo mediante servicios web, programando APIs RESTful con Flask y servidores asíncronos en tiempo real con Tornado. Además, aborda el protocolo de mensajería ligera MQTT mediante el broker Mosquitto y la librería Paho-MQTT, la persistencia en bases de datos locales con SQLite, la integración con servicios en la nube como PubNub y los fundamentos del procesamiento analítico de flujos de datos sensoriales.\n\nEn la práctica se construyen prototipos guiados paso a paso: una API web para comandar hardware y motores, una estación de telemetría ambiental que publica lecturas por MQTT y un tablero interactivo con WebSockets para emitir alertas y órdenes remotas. Su mayor acierto es servir de puente transparente entre el software web en Python y los componentes electrónicos reales mediante ejemplos directos. Como contrapartida, su fuerte dependencia de la placa Intel Galileo Gen 2 —que fue discontinuada por Intel poco después de la publicación— exige que el lector actual extrapole los conceptos y adapte el código a plataformas vigentes como Raspberry Pi (usando gpiozero o RPi.GPIO), BeagleBone o placas con MicroPython.",
+    "temas": [
+      "Python",
+      "Intel Galileo Gen 2",
+      "MRAA",
+      "GPIO",
+      "Sensores y actuadores",
+      "PWM",
+      "Flask",
+      "Tornado",
+      "MQTT",
+      "Paho-MQTT",
+      "WebSockets",
+      "IoT Analytics"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API RESTful para control de actuadores y PWM",
+        "descripcion": "Servidor web desarrollado con Flask sobre Intel Galileo que expone endpoints HTTP para modular señales PWM y comandar motores y actuadores en tiempo real."
+      },
+      {
+        "nombre": "Estación de telemetría ambiental con MQTT",
+        "descripcion": "Sistema de monitoreo que captura lecturas analógicas de luz y temperatura y las transmite de forma continua a un broker Mosquitto empleando la biblioteca Paho-MQTT."
+      },
+      {
+        "nombre": "Tablero de control en tiempo real con WebSockets",
+        "descripcion": "Panel de control bidireccional desarrollado con Tornado y WebSockets para recibir alertas de sensores de presencia y accionar relés y servos al instante."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/internet-of-things-with-python-9781785881381",
+      "https://www.oreilly.com/library/view/internet-of-things/9781785881381/",
+      "https://www.amazon.com/dp/1785881388"
+    ]
+  },
+  "learning-internet-of-things-2015": {
+    "descripcion": "Manual introductorio que analiza la arquitectura y los protocolos de comunicación que hacen posible el Internet de las Cosas, escrito por Peter Waher. La obra utiliza como hardware de referencia la Raspberry Pi corriendo Linux (Raspbian) y se fundamenta en el lenguaje C# ejecutado a través del runtime multiplataforma Mono (.NET). Está pensada para desarrolladores principiantes en el ecosistema IoT pero con base intermedia en programación orientada a objetos (C# o Java), que dispongan de conceptos elementales de redes y busquen entender cómo estructurar la conectividad entre objetos inteligentes de forma estandarizada.\n\nEl núcleo técnico del libro está dedicado al funcionamiento e implementación de los principales protocolos de transporte y mensajería del entorno IoT: HTTP/HTTPS para interfaces web y consumo de recursos, UPnP para autodescubrimiento en redes de área local, CoAP para dispositivos y entornos con restricciones severas de ancho de banda y memoria, MQTT para arquitecturas de publicación y suscripción, y de forma muy destacada XMPP (Jabber) con extensiones específicas de IoT para presencia y control de eventos. Para ello, el autor recurre a las librerías de la plataforma abierta Clayster para .NET/Mono, explorando el modelado de datos de sensores, la persistencia, la creación de pasarelas de traducción entre protocolos (gateways) y el despliegue de mecanismos de seguridad como certificados TLS, listas de control de acceso y delegación de confianza.\n\nA lo largo de los capítulos se construyen soluciones prácticas concretas: un nodo sensor con interfaz web incorporada, un interruptor de corriente accionado de forma remota, un lector táctil de potencia Wi-Fi y una pasarela de traducción de protocolos. Lo más valioso de la obra es su rigurosa comparativa técnica de protocolos de transporte y su énfasis pionero en la interoperabilidad y la seguridad descentralizada. Su principal limitación radica en el uso casi omnipresente del framework de nicho Clayster y del entorno C#/Mono sobre Raspberry Pi, lo que dificulta trasladar directamente el código a ecosistemas predominantes en hardware embebido como Python, Node.js, C++ o ESP-IDF.",
+    "temas": [
+      "C#",
+      "Mono",
+      "Raspberry Pi",
+      "Clayster",
+      "HTTP/HTTPS",
+      "CoAP",
+      "MQTT",
+      "XMPP",
+      "UPnP",
+      "Gateways IoT",
+      "Interoperabilidad",
+      "Seguridad IoT"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Interruptor de energía controlado por Internet",
+        "descripcion": "Dispositivo con Raspberry Pi y módulos de relé que permite encender y apagar cargas eléctricas domésticas mediante comandos remotos y eventos de red estructurados."
+      },
+      {
+        "nombre": "Lector de intensidad Wi-Fi con retroalimentación háptica",
+        "descripcion": "Sensor portátil que monitoriza la calidad de las señales inalámbricas circundantes y traduce la intensidad de cobertura en pulsos de vibración táctil."
+      },
+      {
+        "nombre": "Pasarela de traducción multiprotocolo (Protocol Gateway)",
+        "descripcion": "Servicio intermediario desarrollado con la plataforma Clayster que enlaza e intercambia datos de manera transparente entre dispositivos que operan bajo protocolos distintos como CoAP, HTTP y XMPP."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/learning-internet-of-things-9781783553532",
+      "https://www.oreilly.com/library/view/learning-internet-of/9781783553532/",
+      "https://www.amazon.com/dp/1783553537"
+    ]
+  },
+  "practical-internet-of-things-security-2016": {
+    "descripcion": "Manual de referencia y arquitectura estratégica enfocado en la ciberseguridad aplicada al Internet de las Cosas y a los sistemas ciberfísicos (CPS), escrito por Brian Russell y Drew Van Duren. La obra analiza de manera integral las vulnerabilidades y los mecanismos de defensa necesarios en cada estrato del ecosistema: desde los nodos y microcontroladores periféricos hasta las redes de transporte y las plataformas en la nube. Está dirigida a arquitectos de seguridad, ingenieros de sistemas embebidos, analistas de riesgos y desarrolladores de software con experiencia intermedia en redes, sistemas operativos y principios de seguridad informática que precisen blindar despliegues de IoT en entornos comerciales e industriales.\n\nEl texto desarrolla metodologías formales de modelado de amenazas adaptadas a hardware de recursos limitados, analizando riesgos físicos en buses (JTAG, UART) y vectores de ataque en firmware y radiofrecuencia. Cubre en profundidad el ciclo de vida de la seguridad en IoT (IoT Security Lifecycle), criptografía simétrica y asimétrica de curvas elípticas (ECC), infraestructuras de clave pública (PKI) y certificados digitales X.509. Asimismo, detalla la incorporación de raíces de confianza basadas en hardware como TPM y módulos HSM, mecanismos de arranque seguro (Secure Boot), firmas criptográficas para actualizaciones inalámbricas (OTA), gestión de identidades y accesos (IAM) mediante protocolos como OAuth 2.0, principios de ingeniería de privacidad (Privacy by Design), seguridad en plataformas cloud como AWS y Azure, y procedimientos de auditoría, monitorización continua y respuesta ante incidentes.\n\nEl enfoque del libro es conceptual, metodológico y arquitectónico, estructurado como una guía de diseño de sistemas seguros y gestión de riesgos más que como un taller de programación o explotación práctica de vulnerabilidades. Su mayor mérito reside en trasladar los rigurosos estándares de seguridad de industrias críticas (aeronáutica, redes eléctricas inteligentes, automoción conectada y sanidad) al diseño cotidiano de productos IoT, sustentado en normativas de organismos como CSA, IEEE, SAE y NIST. Quien busque scripts de pentesting ejecutables o tutoriales de código paso a paso no los encontrará aquí; su valor radica en enseñar a pensar la seguridad desde la fase inicial de concepción del hardware para evitar brechas catastróficas en producción.",
+    "temas": [
+      "Ciberseguridad IoT",
+      "Modelado de amenazas",
+      "Criptografía aplicada",
+      "Secure Boot",
+      "PKI y certificados",
+      "Gestión de identidades (IAM)",
+      "Seguridad en la nube",
+      "Actualizaciones OTA",
+      "Privacy-by-Design",
+      "TPM y HSM",
+      "Respuesta a incidentes",
+      "Normativas y cumplimiento"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/practical-internet-of-things-security-9781785889639",
+      "https://www.oreilly.com/library/view/practical-internet-of/9781785889639/",
+      "https://www.amazon.com/dp/178588963X"
+    ]
+  },
+  "internet-of-things-and-big-data-technologies-for-next-generation-healthcare-2017": {
+    "descripcion": "Volumen académico de investigación editado por Chintan Bhatt, Nilanjan Dey y Amira S. Ashour para la serie Studies in Big Data de Springer, que explora las sinergias entre el Internet de las Cosas Médicas (IoMT) y la analítica masiva de datos clínicos para revolucionar la telemedicina y la atención sanitaria personalizada. Está dirigido a investigadores, académicos, bioingenieros y profesionales del procesamiento de datos biomédicos con formación avanzada en ciencias computacionales, matemáticas o ingeniería de la salud que necesiten conocer las propuestas teóricas y experimentales más recientes en la digitalización médica.\n\nA lo largo de sus quince capítulos monográficos, la obra analiza la captación ininterrumpida de variables fisiológicas a través de redes de área corporal médicas (MBAN/WBAN) y sensores corporales no invasivos (frecuencia cardíaca, ECG, electroencefalografía EEG y oximetría), evaluando su transmisión mediante tecnologías inalámbricas y redes 5G hacia infraestructuras de computación en la niebla (fog computing) y la nube. Asimismo, detalla algoritmos de aprendizaje automático, redes neuronales y minería de datos aplicados al análisis de señales biomédicas y registros electrónicos de salud (EHR) para el soporte en la toma de decisiones clínicas y el diagnóstico predictivo. El libro también aborda esquemas de encriptación, protocolos de autenticación y modelos de evaluación de vulnerabilidades diseñados para garantizar la privacidad y la confidencialidad de la información médica conforme a normativas de ciberseguridad sanitaria.\n\nAl tratarse de una compilación de artículos científicos y revisiones del estado del arte elaboradas por múltiples investigadores internacionales, el contenido es rigurosamente teórico y orientado al análisis de modelos matemáticos y arquitecturas conceptuales. Su principal valor radica en recopilar un panorama completo de los desafíos y soluciones emergentes en la intersección entre biosensores, aprendizaje automático y macrodatos en el ámbito de la salud. Como contrapartida, la obra no ofrece código fuente aplicable, librerías de programación listas para implementar ni proyectos de software comerciales; es un texto de consulta y fundamentación científica ideal para diseñar investigaciones formales, tesis de posgrado o marcos de referencia en sistemas de salud digital.",
+    "temas": [
+      "IoMT (Internet of Medical Things)",
+      "Big Data en salud",
+      "Medical Body Area Networks (MBAN)",
+      "Biosensores",
+      "Aprendizaje automático clínico",
+      "Procesamiento de señales biomédicas",
+      "Historias clínicas electrónicas (EHR)",
+      "Fog computing",
+      "Sistemas de soporte a la decisión clínica",
+      "Privacidad e-Health",
+      "Redes 5G",
+      "Springer Studies in Big Data"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-3-319-49736-5",
+      "https://www.amazon.com/dp/3319497356"
+    ]
+  },
+  "designing-the-internet-of-things-2013": {
+    "descripcion": "Obra clásica y fundacional escrita por Adrian McEwen y Hakim Cassimally que aborda el diseño y la materialización de dispositivos conectados aunando ingeniería electrónica, desarrollo web, diseño industrial y visión de negocio. El texto toma como punto de partida las plataformas de hardware representativas de la era dorada del movimiento maker (como Arduino, Raspberry Pi, Netduino, BeagleBone y Electric Imp) y las vincula con la arquitectura de la web abierta. Está orientado a desarrolladores de software, diseñadores de interacción, creadores y emprendedores de nivel intermedio que ya manejan nociones de programación o electrónica básica y quieren entender cómo dar el salto desde un prototipo en placa de pruebas hasta un producto comercial escalable.\n\nEl libro examina todas las facetas del ciclo de diseño de un objeto conectado: en el plano del código embebido, expone buenas prácticas en C/C++ para optimizar memoria, estructurar máquinas de estados finitos y controlar tareas asíncronas sin bloqueos; en el estrato de red, analiza protocolos como HTTP/REST, WebSockets, MQTT, XMPP, CoAP e IPv6 empleando lenguajes como Ruby (Sinatra), Node.js y Python, además de la interacción con APIs web y plataformas pioneras de telemetría como Cosm/Pachube. En el ámbito del diseño físico, enseña a modelar factores de forma y fabricar carcasas mediante corte por láser, modelado e impresión 3D, avanzando hacia el diseño de placas de circuito impreso (PCB) con herramientas como Eagle y Fritzing. Finalmente, trata aspectos cruciales de la transición a fábrica: diseño para manufactura (DFM), gestión de suministros, certificaciones (FCC, CE, RoHS), modelos de negocio de hardware más servicio y dilemas éticos relativos a privacidad, vigilancia y gestión de residuos electrónicos.\n\nSu enfoque es mixto, integrando conceptos teóricos de interacción centrada en el usuario y «tecnología tranquila» (calm technology) con análisis técnicos detallados y el estudio de prototipos emblemáticos de los autores (como la máquina interactiva Bubblino o la lámpara Good Night Lamp). La mayor virtud del libro es su visión holística e interdisciplinar: enseña que construir un dispositivo de IoT requiere entender tanto el protocolo de red y el consumo del microcontrolador como la ergonomía de la carcasa, la experiencia de usuario y la viabilidad económica. Dado que se publicó a finales de 2013, los servicios en la nube de la época han quedado obsoletos y el panorama de microcontroladores se ha renovado con chips como ESP32 y Raspberry Pi Pico, pero su metodología de prototipado, principios de diseño y visión de industrialización siguen siendo una lectura de referencia atemporal.",
+    "temas": [
+      "Arduino",
+      "Raspberry Pi",
+      "Prototipado físico",
+      "Impresión 3D",
+      "Diseño de PCB (Eagle)",
+      "MQTT",
+      "HTTP y REST",
+      "WebSockets",
+      "Fabricación en serie (DFM)",
+      "Modelos de negocio IoT",
+      "Calm Technology",
+      "Ética y privacidad IoT"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Designing+the+Internet+of+Things-p-9781118430620",
+      "https://www.oreilly.com/library/view/designing-the-internet/9781118430620/",
+      "https://www.amazon.com/dp/111843062X"
+    ]
+  }
+}

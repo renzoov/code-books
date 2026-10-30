@@ -1,0 +1,63 @@
+---
+import { techHref } from '../lib/data';
+
+interface Props {
+  techSlug: string;
+  current: number;
+  last: number;
+}
+const { techSlug, current, last } = Astro.props;
+
+// 1 … 4 5 6 … 15
+const items: (number | '…')[] = [];
+for (let p = 1; p <= last; p++) {
+  if (p === 1 || p === last || Math.abs(p - current) <= 1) items.push(p);
+  else if (items[items.length - 1] !== '…') items.push('…');
+}
+
+const base = 'grid h-9 min-w-9 place-items-center rounded-md border px-2 font-mono text-sm transition';
+const link = `${base} border-line hover:border-[var(--accent)]`;
+const disabled = `${base} border-transparent text-muted/50`;
+---
+
+{
+  last > 1 && (
+    <nav aria-label="Paginación" class="mt-8 flex flex-wrap items-center justify-center gap-1.5">
+      {
+        current > 1 ? (
+          <a href={techHref(techSlug, current - 1)} rel="prev" data-direction="back" class={link}>
+            ← Anterior
+          </a>
+        ) : (
+          <span class={disabled} aria-disabled="true">← Anterior</span>
+        )
+      }
+      {
+        items.map((it) =>
+          it === '…' ? (
+            <span class="px-1 text-muted">…</span>
+          ) : (
+            <a
+              href={techHref(techSlug, it)}
+              data-direction={it < current ? 'back' : undefined}
+              aria-current={it === current ? 'page' : undefined}
+              aria-label={`Página ${it}`}
+              class={`${link} aria-[current=page]:border-[var(--accent)] aria-[current=page]:bg-[var(--accent)] aria-[current=page]:text-black`}
+            >
+              {it}
+            </a>
+          ),
+        )
+      }
+      {
+        current < last ? (
+          <a href={techHref(techSlug, current + 1)} rel="next" class={link}>
+            Siguiente →
+          </a>
+        ) : (
+          <span class={disabled} aria-disabled="true">Siguiente →</span>
+        )
+      }
+    </nav>
+  )
+}

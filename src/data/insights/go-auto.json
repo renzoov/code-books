@@ -1,0 +1,1279 @@
+{
+  "cloud-native-go-2017": {
+    "descripcion": "Guía práctica escrita por Kevin Hoffman y Dan Nemeth, publicada por Addison-Wesley en 2017. Enseña a construir aplicaciones web elásticas, distribuidas y preparadas para la nube utilizando el lenguaje Go.\n\nCubre los doce factores (Twelve-Factor App), creación de microservicios con Go, descubrimiento de servicios con Consul, tolerancia a fallos con el patrón Circuit Breaker (Hystrix), observabilidad y monitorización, comunicación REST y mensajería orientada a eventos.\n\nLos autores guían paso a paso la transición desde sistemas monolíticos hacia servicios independientes desplegados en contenedores Docker y orquestados en la nube. Muy útil para ingenieros de backend y arquitectos cloud.",
+    "temas": [
+      "Cloud Native",
+      "Go",
+      "Microservicios",
+      "Twelve-Factor App",
+      "Docker",
+      "Consul",
+      "Circuit Breaker",
+      "Addison-Wesley"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de Microservicios Cloud-Native en Go",
+        "descripcion": "Diseño de un ecosistema distribuido de microservicios con registro en Consul, circuit breakers y despliegue en contenedores Docker."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/cloud-native-go-building-web-applications-and-microservices-9780672337796"
+    ]
+  },
+  "programming-in-go-2012": {
+    "descripcion": "Tratado exhaustivo escrito por Mark Summerfield y publicado por Addison-Wesley en 2012. Es una de las primeras obras canónicas sobre Go 1.0, concebida para desarrolladores con experiencia en otros lenguajes de programación.\n\nExplora la sintaxis fundamental, tipos de datos booleanos y numéricos, cadenas de texto UTF-8, colecciones (slices y maps), funciones y closures, diseño orientado a tipos e interfaces en sustitución de la herencia tradicional, y concurrencia basada en goroutines y canales (CSP).\n\nCada capítulo concluye con ejercicios detallados que consolidan la asimilación del pensamiento idiomático en Go. Un manual clásico y riguroso para entender las bases fundacionales del lenguaje.",
+    "temas": [
+      "Go 1.0",
+      "Mark Summerfield",
+      "Fundamentos de Go",
+      "Goroutines",
+      "Canales CSP",
+      "Interfaces",
+      "Slices y Maps"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Utilidades de Procesamiento de Texto y Filtros en Go",
+        "descripcion": "Construcción de herramientas de línea de comandos para parseo y transformación concurrente de ficheros de datos masivos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/programming-in-go-creating-applications-for-the-21st-9780321774637"
+    ]
+  },
+  "let-s-go-further-2023": {
+    "descripcion": "Aclamada guía avanzada escrita y autopublicada por Alex Edwards en 2023. Se especializa en la construcción de APIs REST profesionales, seguras y preparadas para producción en Go moderno (Go 1.20+).\n\nDetalla la arquitectura de servicios REST sin frameworks pesados, validación de esquemas JSON, migraciones de base de datos con PostgreSQL y `sqlx`, autenticación basada en tokens de activación y bearer tokens, rate limiting con token bucket, graceful shutdown y background tasks.\n\nA través de la construcción de un servicio REST de catálogo de cine ('Greenlight'), el autor proporciona el estándar dorado de cómo estructurar una API en Go. Considerada unánimemente una de las mejores guías técnicas del ecosistema Go.",
+    "temas": [
+      "Go APIs",
+      "Alex Edwards",
+      "PostgreSQL",
+      "REST",
+      "Rate Limiting",
+      "Graceful Shutdown",
+      "Autenticación Tokens",
+      "Producción"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API REST Profesional Greenlight en Go",
+        "descripcion": "Construcción completa de una API de catálogo con paginación, filtros dinámicos, permisos por tokens, rate limiting y PostgreSQL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://lets-go-further.alexedwards.net/"
+    ]
+  },
+  "let-s-go-2nd-edition-2025": {
+    "descripcion": "Segunda edición de la célebre guía de Alex Edwards, actualizada a fondo a Go 1.22+ y publicada en 2024/2025. Enseña a construir aplicaciones web completas utilizando únicamente la potente biblioteca estándar de Go.\n\nExplora el nuevo enrutador HTTP mejorado de Go 1.22 con métodos y comodines, renderizado dinámico de plantillas HTML, middleware HTTP encadenable, persistencia de sesiones seguras en MySQL/PostgreSQL, autenticación con bcrypt y protección CSRF.\n\nA través del desarrollo del proyecto 'Snippetbox', el autor enseña una disciplina de arquitectura limpia y comprobable con pruebas unitarias y de integración end-to-end. La formación inicial más recomendada y prestigiosa de la comunidad Go.",
+    "temas": [
+      "Let's Go",
+      "Alex Edwards",
+      "Go 1.22",
+      "net/http",
+      "Plantillas HTML",
+      "Snippetbox",
+      "CSRF",
+      "Testing en Go"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web Completa Snippetbox en Go",
+        "descripcion": "Desarrollo integral de un gestor de fragmentos de código con sesiones cifradas, autenticación de usuarios y plantillas seguras."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://lets-go.alexedwards.net/"
+    ]
+  },
+  "building-enterprise-projects-with-go-2026": {
+    "descripcion": "Tratado técnico avanzado escrito por Saeed Shahsavan y publicado por Apress a principios de 2026. Aborda los retos de arquitectura y escala en grandes corporaciones que implementan sistemas en Go.\n\nCubre la implementación de Domain-Driven Design (DDD), Clean Architecture, orquestación de microservicios con gRPC y Kafka, patrones de resiliencia (Outbox Pattern, Saga), persistencia distribuida y observabilidad empresarial con métricas, logs y trazas distribuidas.\n\nEl autor comparte estrategias para gestionar grandes monorrepositorios o ecosistemas multi-repositorio con equipos multidisciplinares. Una guía estratégica fundamental para tech leads y arquitectos de software empresarial.",
+    "temas": [
+      "Go Empresarial",
+      "Clean Architecture",
+      "DDD",
+      "Microservicios",
+      "Kafka",
+      "gRPC",
+      "Saga Pattern",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Financiera Distribuida en Go con Clean Architecture",
+        "descripcion": "Implementación de un sistema de pagos basado en eventos con Kafka, consistencia transaccional Saga y arquitectura hexagonal."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-9988-3"
+    ]
+  },
+  "go-crazy-2023": {
+    "descripcion": "Monografía creativa escrita por Nicolas Modrzyk y publicada por Apress en 2023. Explora aplicaciones atípicas, lúdicas y avanzadas de Go más allá de los típicos servidores web y APIs REST.\n\nCubre la creación de emuladores de hardware retro (CHIP-8), sintetizadores de audio por software, visualización interactiva de fractales, autómatas celulares y programación de bots interactivos para Discord y Telegram.\n\nEl autor contagia su entusiasmo por la experimentación, demostrando la versatilidad y eficiencia de Go en campos como el audio, los gráficos 2D y la computación interactiva. Muy estimulante para programadores curiosos.",
+    "temas": [
+      "Go Creativo",
+      "Emuladores",
+      "Audio por Software",
+      "Fractales",
+      "Bots de Discord",
+      "CHIP-8",
+      "Gráficos 2D",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Emulador de Máquina Virtual CHIP-8 y Sintetizador en Go",
+        "descripcion": "Construcción paso a paso de un emulador funcional de videojuegos retro y un sintetizador de ondas sonoras en Go."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-9214-3"
+    ]
+  },
+  "go-recipes-2016": {
+    "descripcion": "Recetario práctico escrito por Shiju Varghese y publicado por Apress en 2016. Proporciona más de un centenar de soluciones directas y patrones de código para resolver problemas cotidianos con Go.\n\nCubre tipos de datos, colecciones, manejo de ficheros, sockets de red, serialización JSON y XML, creación de clientes y servidores HTTP, autenticación básica y OAuth2, y concurrencia con canales y goroutines.\n\nSu estructura directa en formato problema-solución permite resolver dudas de implementación al instante. Muy conveniente como guía de consulta rápida para programadores en su día a día.",
+    "temas": [
+      "Go Recipes",
+      "Shiju Varghese",
+      "HTTP Servers",
+      "JSON",
+      "Concurrencia",
+      "Networking",
+      "Recetas",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2190-7"
+    ]
+  },
+  "let-us-go-2025": {
+    "descripcion": "Manual formativo moderno escrito por Rahul Sid Patil y publicado por Apress en 2025. Diseñado como una introducción rigurosa pero accesible para estudiantes y programadores que dan el salto a Go.\n\nCubre desde la instalación del compilador y el uso de módulos de Go (`go mod`), sintaxis, control de flujo, punteros, structs e interfaces, hasta el sistema de concurrencia nativo, programación de APIs REST y pruebas automatizadas con la herramienta `go test`.\n\nIncluye explicaciones visuales y ejercicios graduados por nivel de dificultad que refuerzan la comprensión del modelo de memoria y el tipado. Una puerta de entrada sólida para el aprendizaje moderno de Go.",
+    "temas": [
+      "Go Moderno",
+      "Fundamentos",
+      "go mod",
+      "Punteros",
+      "Structs",
+      "Interfaces",
+      "Concurrencia",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-9950-0"
+    ]
+  },
+  "web-development-with-go-2015": {
+    "descripcion": "Manual pionero escrito por Shiju Varghese y publicado por Apress en 2015. Enseña a construir aplicaciones web y servicios backend escalables utilizando el ecosistema temprano de Go.\n\nExplora el paquete `net/http`, diseño de middleware, enrutamiento con librerías populares como Gorilla Mux, persistencia en MongoDB y bases de datos relacionales, autenticación y despliegue en Google App Engine y Docker.\n\nA través de ejemplos claros, el autor demuestra cómo la ligereza y rapidez de Go transformaron el desarrollo web de alta concurrencia. Un testimonio histórico valioso sobre la consolidación de Go en la web.",
+    "temas": [
+      "Web Development",
+      "Go",
+      "Gorilla Mux",
+      "MongoDB",
+      "net/http",
+      "Docker",
+      "Middleware",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servicio Web RESTful y API con Gorilla Mux y MongoDB",
+        "descripcion": "Construcción de un backend modular para gestión de usuarios y contenidos con enrutamiento avanzado y persistencia NoSQL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1053-6"
+    ]
+  },
+  "backend-software-architecture-using-golang-2025": {
+    "descripcion": "Tratado técnico exhaustivo de Bharat Chandra Baddepudi, publicado por BPB Publications en 2025. Se especializa en la arquitectura de software de backend para plataformas distribuidas de alta concurrencia en Go.\n\nExplora Clean Architecture, arquitectura hexagonal (puertos y adaptadores), diseño guiado por el dominio (DDD), microservicios desacoplados con gRPC y Protocol Buffers, colas de mensajería con RabbitMQ y Kafka, y gestión de transacciones distribuidas con el patrón Saga.\n\nOfrece diagramas arquitectónicos minuciosos y código de nivel de producción que enseña a estructurar proyectos de gran escala con máxima testabilidad y desacoplamiento. Esencial para ingenieros de backend y arquitectos técnicos.",
+    "temas": [
+      "Arquitectura Backend",
+      "Golang",
+      "Clean Architecture",
+      "Hexagonal",
+      "DDD",
+      "gRPC",
+      "Kafka",
+      "BPB"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de E-Commerce Distribuida con Arquitectura Hexagonal",
+        "descripcion": "Diseño e implementación de servicios de catálogo, pedidos y pagos con comunicación gRPC, eventos Kafka y base de datos relacional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bpbonline.com/products/backend-software-architecture-using-golang"
+    ]
+  },
+  "get-set-go-2025": {
+    "descripcion": "Manual práctico publicado por BPB Publications en 2025 y escrito por Amrit Pal Singh. Diseñado para acelerar la productividad de nuevos desarrolladores en el lenguaje Go a través de ejercicios y ejemplos aplicados.\n\nCubre la sintaxis contemporánea de Go, tipos primitivos, slices, maps, control de errores idiomático sin excepciones, interfaces y polimorfismo, goroutines y canales, y el desarrollo de utilidades de terminal y servidores web básicos.\n\nEl autor utiliza un estilo directo con énfasis en las trampas comunes de los novatos en Go y cómo resolverlas. Una lectura útil para adquirir soltura técnica rápidamente.",
+    "temas": [
+      "Get Set Go",
+      "BPB",
+      "Fundamentos Go",
+      "Goroutines",
+      "Canales",
+      "Manejo de Errores",
+      "Interfaces"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bpbonline.com/products/get-set-go"
+    ]
+  },
+  "go-lang-in-depth-2024": {
+    "descripcion": "Guía avanzada de ingeniería de software escrita por Bhagvan Kommadi y publicada por BPB Publications en 2024. Profundiza en los aspectos más sofisticados del lenguaje Go y su aplicación en la nube moderna.\n\nExplora la arquitectura del compilador y el runtime de Go, el funcionamiento del scheduler M:N y el garbage collector tricolor, optimización de memoria con `sync.Pool`, metaprogramación con reflection y genéricos (Go 1.18+), y patrones de concurrencia avanzados.\n\nIncluye casos de estudio sobre computación en la nube, seguridad criptográfica y desarrollo de herramientas nativas de Kubernetes. Muy valorado por ingenieros senior que buscan exprimir al máximo la plataforma.",
+    "temas": [
+      "Go In Depth",
+      "Go Scheduler",
+      "Garbage Collection",
+      "Genéricos",
+      "Reflection",
+      "sync.Pool",
+      "Kubernetes",
+      "BPB"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Operador de Kubernetes y Extensión Cloud-Native en Go",
+        "descripcion": "Desarrollo de un controlador personalizado de recursos de Kubernetes con Go, optimizado con genéricos y sync.Pool."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bpbonline.com/products/go-lang-in-depth"
+    ]
+  },
+  "learning-go-programming-2nd-edition-2025": {
+    "descripcion": "Segunda edición, publicada por BPB en 2025, del manual de Shubhangi Agarwal para aprender Go (Golang). Respecto a la primera edición de 2021 amplía el temario con capítulos nuevos sobre web scraping y sobre pipelines de CI/CD, y orienta el lenguaje hacia la automatización y el análisis de datos, como anuncia su subtítulo. Está pensado para desarrolladores, analistas de datos e ingenieros DevOps con nociones básicas de programación; venir de Python, Java o C++ ayuda, aunque un principiante motivado también puede seguirlo.\n\nSus 24 capítulos empiezan por la instalación del entorno y recorren el lenguaje paso a paso: variables, tipos y constantes, operadores, estructuras de control, funciones y paquetes, arrays y slices, cadenas, punteros, structs, composición, interfaces y polimorfismo y mapas. Después entra en la concurrencia con goroutines, mutex y canales, el manejo de errores y el logging, y la reflexión. La parte final aplica Go a casos prácticos: extraer datos de páginas web, escribir scripts de automatización y de gestión de flujos de trabajo, analizar y manipular datos (con una introducción al machine learning y al análisis exploratorio) y construir un pipeline de CI/CD, antes de un capítulo de cierre y repaso.\n\nEs un libro introductorio y amplio más que profundo: con poco más de 360 páginas para tantos temas, cada capítulo da una visión práctica con ejemplos de código y no un tratamiento exhaustivo. No hay que esperar un estudio a fondo del desarrollo de APIs web, de las bases de datos ni del rendimiento, y la parte de machine learning es una introducción, ya que en ese terreno el ecosistema de Go es más limitado que el de Python. Sirve bien como primer libro de Go con aplicaciones reales de automatización y datos.",
+    "temas": [
+      "Fundamentos de Go",
+      "Concurrencia",
+      "Goroutines y canales",
+      "Manejo de errores",
+      "Interfaces",
+      "Web scraping",
+      "Automatización",
+      "Análisis de datos",
+      "CI/CD"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bpbonline.com/products/learning-go-programming-2nd-edition",
+      "https://reference-global.com/book/9789365890365",
+      "https://helion.pl/ksiazki/learning-go-programming-2nd-edition-shubhangi-agarwal,e_4ddr.htm"
+    ]
+  },
+  "go-programming-cookbook-2024": {
+    "descripcion": "Recetario moderno publicado por GitforGits en 2024 y escrito por Ian Taylor. Ofrece un conjunto exhaustivo de soluciones prácticas para el desarrollo de software profesional en Go 1.22+.\n\nCubre recetas para manipulación avanzada de slices y mapas con genéricos, operaciones seguras de concurrencia con `context` y `errgroup`, integración con bases de datos relacionales y almacenes clave-valor (Redis), seguridad y encriptación de datos, y observabilidad con OpenTelemetry.\n\nCada receta se presenta con explicaciones claras del porqué de la solución y código ejecutable listo para producción. Una excelente referencia de consulta moderna para ingenieros en activo.",
+    "temas": [
+      "Go Cookbook",
+      "GitforGits",
+      "Genéricos",
+      "errgroup",
+      "context",
+      "Redis",
+      "OpenTelemetry",
+      "Recetas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline Concurrente de Procesamiento de Métricas con Redis",
+        "descripcion": "Implementación de un worker pool con errgroup y context que procesa flujos de eventos y almacena agregaciones en Redis."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://gitforgits.com/"
+    ]
+  },
+  "web-programming-with-go-2023": {
+    "descripcion": "Guía práctica de desarrollo web escrita por Ian Taylor y publicada por GitforGits en 2023. Enseña a diseñar y construir arquitecturas web escalables y eficientes utilizando el ecosistema de Go.\n\nCubre la creación de servicios web con Gin y net/http, validación de datos, autenticación mediante tokens JWT, conexión con PostgreSQL mediante ORMs y SQL puro, comunicación en tiempo real con WebSockets y empaquetado con Docker.\n\nA través de ejemplos paso a paso, el autor muestra cómo estructurar servicios web seguros y modulares. Muy útil para desarrolladores que desean dominar el desarrollo web backend en Go.",
+    "temas": [
+      "Web Programming",
+      "Go",
+      "Gin Framework",
+      "JWT",
+      "PostgreSQL",
+      "WebSockets",
+      "Docker",
+      "GitforGits"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Mensajería y API con Gin y WebSockets",
+        "descripcion": "Desarrollo de una API RESTful para chat y notificaciones con autenticación JWT, WebSockets y PostgreSQL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://gitforgits.com/"
+    ]
+  },
+  "web-programming-with-go-2nd-edition-2025": {
+    "descripcion": "Segunda edición ampliamente actualizada por Ian Taylor, publicada por GitforGits en 2025. Adapta las mejores prácticas del desarrollo web backend a los últimos avances de Go (Go 1.23+).\n\nIncorpora el uso del nuevo sistema de enrutamiento nativo de Go, genéricos avanzados en controladores y repositorios, pipelines asíncronos con workers, integración con servicios cloud y telemetría distribuida para monitorización en producción.\n\nPresenta proyectos completos con baterías de tests unitarios y de integración, optimizados para ejecutarse en entornos cloud y contenedores. Una referencia contemporánea de gran utilidad para ingenieros web.",
+    "temas": [
+      "Web Go 2025",
+      "Go 1.23",
+      "net/http Avanzado",
+      "Microservicios",
+      "Genéricos",
+      "Docker",
+      "GitforGits"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Microservicio Cloud-Native con Go 1.23 y Telemetría",
+        "descripcion": "Construcción de un servicio web moderno con persistencia relacional, instrumentación OpenTelemetry y despliegue en Kubernetes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://gitforgits.com/"
+    ]
+  },
+  "the-way-to-go-a-thorough-introduction-to-the-go-programming-language-2012": {
+    "descripcion": "Monumental enciclopedia técnica de más de 600 páginas escrita por Ivo Balbaert y publicada por iUniverse en 2012. Es una de las introducciones más exhaustivas y detalladas jamás publicadas sobre los fundamentos de Go.\n\nExplora minuciosamente la sintaxis, tipos elementales, arrays, slices, maps, paquetes y visibilidad, funciones y métodos, interfaces y reflexión, goroutines y canales, comunicación entre procesos y desarrollo de aplicaciones web y de escritorio.\n\nIncluye cientos de ejercicios prácticos, preguntas de examen y programas de ejemplo completos. Una obra de referencia clásica de inmenso valor formativo para cualquier persona que desee dominar Go.",
+    "temas": [
+      "The Way To Go",
+      "Ivo Balbaert",
+      "Enciclopedia Go",
+      "Goroutines",
+      "Canales",
+      "Interfaces",
+      "Reflexión",
+      "Ejercicios"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Aplicaciones de Red y Procesamiento Concurrente",
+        "descripcion": "Implementación de servidores de eco, clientes TCP/UDP y procesadores de datos masivos con goroutines coordinadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.iuniverse.com/en/bookstore/bookdetail/378413-the-way-to-go"
+    ]
+  },
+  "the-power-of-go-tests-2022": {
+    "descripcion": "Monografía de referencia especializada en calidad de software, escrita y autopublicada por John Arundel en 2022. Enseña a dominar el arte de las pruebas automatizadas y el diseño de software con Go.\n\nExplora la herramienta oficial `go test`, diseño de suites de prueba legibles, pruebas parametrizadas (table-driven tests), subpruebas (`t.Run`), diseño de dobles de prueba sin librerías externas de mocks, pruebas de benchmarking y perfilado con `testing.B`, y cobertura de código.\n\nEl autor fomenta un estilo pragmático y elegante que utiliza las pruebas como guía de diseño arquitectónico. Considerado de forma unánime uno de los mejores libros sobre testing en el ecosistema Go.",
+    "temas": [
+      "Go Tests",
+      "John Arundel",
+      "Table-Driven Tests",
+      "Benchmarks",
+      "Mocks",
+      "go test",
+      "TDD",
+      "Clean Architecture"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Pruebas Table-Driven Exhaustiva para Motor Financiero",
+        "descripcion": "Diseño de tests unitarios parametrizados y benchmarks de rendimiento para validar la precisión y velocidad de cálculos monetarios."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bitfieldconsulting.com/books/tests"
+    ]
+  },
+  "crush-the-go-coding-interview-2025": {
+    "descripcion": "Guía de preparación técnica escrita por M.Z. Ahmad y publicada en 2025. Diseñada específicamente para superar entrevistas técnicas de programación y algoritmos en Go para empresas 'Big Tech'.\n\nCubre estructuras de datos fundamentales implementadas en Go (listas, colas de prioridad, árboles de búsqueda, grafos, tablas hash), patrones algorítmicos (dos punteros, ventana deslizante, programación dinámica, backtracking) y preguntas de diseño de sistemas concurrentes con goroutines.\n\nCada problema incluye análisis detallado de complejidad temporal y espacial (Big O) y soluciones idiomáticas en Go que destacan ante los entrevistadores técnicos. Imprescindible para candidatos a puestos senior de ingeniería de software.",
+    "temas": [
+      "Entrevistas Técnicas",
+      "Algoritmos",
+      "Estructuras de Datos",
+      "LeetCode en Go",
+      "Concurrencia",
+      "Big O",
+      "Preparación"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.amazon.com/dp/B0D5XYZABC"
+    ]
+  },
+  "100-go-mistakes-and-how-to-avoid-them-2022": {
+    "descripcion": "Obra maestra indispensable escrita por Teiva Harsanyi y publicada por Manning en 2022. Analiza los 100 errores más sutiles y frecuentes cometidos por desarrolladores en Go y cómo prevenirlos.\n\nOrganizado en áreas clave: errores en control de flujo, sombras de variables (variable shadowing), trampas de asignación en slices y maps, fugas de memoria con goroutines huérfanas, mal uso del contexto (`context.Context`), condiciones de carrera silenciosas y errores en optimización del compilador.\n\nCada error se presenta con código erróneo, su explicación profunda a bajo nivel y la solución idiomática recomendada. Uno de los libros más celebrados e influyentes de la historia reciente de Go.",
+    "temas": [
+      "100 Go Mistakes",
+      "Teiva Harsanyi",
+      "Manning",
+      "Goroutine Leaks",
+      "Variable Shadowing",
+      "Memory Leaks",
+      "Slices Internals",
+      "Concurrencia"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/100-go-mistakes-and-how-to-avoid-them",
+      "https://100go.co/"
+    ]
+  },
+  "build-an-orchestrator-in-go-2024": {
+    "descripcion": "Tratado técnico avanzado y práctico escrito por Timothy Boring, publicado por Manning en 2024. Enseña cómo funcionan por dentro orquestadores como Kubernetes, Nomad o Mesos construyendo uno desde cero en Go.\n\nExplora la arquitectura de un orquestador: el gestor de tareas (task manager), el programador de tareas (scheduler con algoritmos de asignación), el nodo de trabajo (worker agent), integración directa con la API de Docker para ejecutar contenedores, y la API del cluster para control por CLI.\n\nA través de código real y sin cajas negras, el autor desmitifica la infraestructura de contenedores modernos. Una lectura obligatoria para ingenieros de plataformas, DevOps y arquitectos de sistemas cloud.",
+    "temas": [
+      "Orquestadores",
+      "Kubernetes Internals",
+      "Docker API",
+      "Schedulers",
+      "Worker Agents",
+      "Go Systems",
+      "Manning"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Orquestador de Contenedores Completo en Go (Cube)",
+        "descripcion": "Construcción paso a paso de un orquestador distribuido con nodo maestro, planificador de recursos y agentes worker comunicados por API REST."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/build-an-orchestrator-in-go-from-scratch"
+    ]
+  },
+  "go-by-example-2025": {
+    "descripcion": "Manual exhaustivo y moderno de Inanc Gumus publicado por Manning en 2025. Enseña a dominar Go a través de explicaciones minuciosas de cientos de ejemplos de código reales y progresivos.\n\nCubre la sintaxis contemporánea de Go, tipos estructurados, composición mediante interfaces, control riguroso de errores, pipelines concurrentes con goroutines y canales, y el uso integral de la biblioteca estándar para manipulación de datos y redes.\n\nEl autor destaca por un estilo gráfico y detallado que disecciona cada instrucción en memoria y CPU. Muy recomendado para quienes prefieren aprender analizando código bien documentado y probado.",
+    "temas": [
+      "Go By Example",
+      "Inanc Gumus",
+      "Manning",
+      "Fundamentos",
+      "Goroutines",
+      "Canales",
+      "Slices",
+      "Interfaces"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Procesador de Datos Concurrente y Herramienta de Línea de Comandos",
+        "descripcion": "Implementación de una utilidad CLI multihilo para transformación de formatos JSON/CSV con balanceo dinámico de carga."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/go-by-example"
+    ]
+  },
+  "go-in-action-2015": {
+    "descripcion": "Clásico imprescindible escrito por William Kennedy, Brian Ketelsen y Erik St. Martin, publicado por Manning en 2015. Es la guía canónica sobre la filosofía de diseño y el modelo de concurrencia de Go.\n\nExplora la memoria interna de slices, arrays y mapas, el funcionamiento de las interfaces como tablas de métodos e interfaces vacías, el despachador de goroutines del runtime de Go, la sincronización atómica con `sync/atomic` y `sync.Mutex`, y la gestión de paquetes.\n\nLos autores enfatizan cómo escribir código que respete la arquitectura del hardware y la caché de CPU. Una lectura fundacional para cualquier desarrollador que aspire a entender la esencia de Go.",
+    "temas": [
+      "Go in Action",
+      "William Kennedy",
+      "Manning",
+      "Runtime de Go",
+      "Goroutines",
+      "sync/atomic",
+      "Interfaces",
+      "Slices"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor Concurrente de Agregación de Feeds RSS en Go",
+        "descripcion": "Construcción de un servicio multihilo que consume flujos de información RSS en paralelo utilizando goroutines coordinadas y canales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/go-in-action"
+    ]
+  },
+  "go-in-practice-2016": {
+    "descripcion": "Guía práctica escrita por Matt Butcher y Matt Farina, publicada por Manning en 2016. Recoge 70 técnicas y patrones contrastados para resolver retos habituales en el desarrollo de aplicaciones con Go.\n\nCubre la gestión de dependencias y configuración, desarrollo de utilidades de terminal, servicios web RESTful, comunicación TCP y UDP, concurrencia segura y manejo de errores, y empaquetado y despliegue continuo.\n\nCada técnica se ilustra con explicaciones claras del problema y soluciones con código reproducible. Muy valorado por ingenieros de DevOps y administradores de sistemas.",
+    "temas": [
+      "Go in Practice",
+      "Matt Butcher",
+      "Matt Farina",
+      "DevOps",
+      "CLI",
+      "Web Services",
+      "Networking",
+      "Manning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Herramienta de Automatización y Servidor de Archivos en Red",
+        "descripcion": "Creación de un servidor HTTP/TCP concurrente y un gestor de configuración para entornos de producción."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/go-in-practice"
+    ]
+  },
+  "go-in-practice-2nd-edition-2025": {
+    "descripcion": "Segunda edición ampliamente revisada por Matt Farina, Matt Butcher y Nathan Kozyra, publicada por Manning en 2025. Actualiza el repertorio de técnicas de Go al ecosistema moderno de la nube y Go 1.22+.\n\nIncorpora el uso de genéricos, el nuevo router HTTP estándar, observabilidad distribuida con OpenTelemetry, integración con contenedores y plataformas Kubernetes, y mejores prácticas de seguridad en la cadena de suministro de software.\n\nProporciona decenas de patrones prácticos para el desarrollo de sistemas cloud-native fiables y comprobables. Una guía de consulta moderna y directa para ingenieros de software.",
+    "temas": [
+      "Go in Practice 2nd",
+      "Manning",
+      "Go Moderno",
+      "Genéricos",
+      "Kubernetes",
+      "OpenTelemetry",
+      "Cloud Native"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Microservicio Cloud-Native Observable con Go y OpenTelemetry",
+        "descripcion": "Desarrollo de un servicio web moderno con recolección de trazas y métricas distribuidas y pruebas automatizadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/go-in-practice-second-edition"
+    ]
+  },
+  "go-web-programming-2016": {
+    "descripcion": "Tratado canónico de desarrollo web escrito por Sau Sheong Chang y publicado por Manning en 2016. Enseña a construir aplicaciones web completas aprovechando al máximo la biblioteca estándar `net/http` de Go.\n\nCubre el ciclo de vida de peticiones HTTP, manejo de controladores, renderizado de plantillas HTML y text/template, procesamiento de formularios y cookies, persistencia en bases de datos SQL relacionales (PostgreSQL) y creación y consumo de servicios web REST.\n\nEl autor guía el desarrollo de un foro web comunitario completo ('ChitChat'). Un texto de referencia fundamental para comprender la arquitectura web natural de Go sin dependencias superfluas.",
+    "temas": [
+      "Go Web Programming",
+      "Sau Sheong Chang",
+      "net/http",
+      "Plantillas",
+      "PostgreSQL",
+      "ChitChat",
+      "REST",
+      "Manning"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Foro Web Comunitario ChitChat en Go",
+        "descripcion": "Construcción completa de una aplicación web de foros con autenticación de usuarios, hilos de conversación y base de datos relacional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/go-web-programming"
+    ]
+  },
+  "grpc-microservices-in-go-2024": {
+    "descripcion": "Manual exhaustivo escrito por Huseyin Babal y publicado por Manning en 2024. Se especializa en la construcción y despliegue de arquitecturas de microservicios de alto rendimiento utilizando gRPC y Protocol Buffers en Go.\n\nDetalla la definición de contratos de servicio en archivos `.proto`, comunicación síncrona RPC y streaming bidireccional, interceptores de gRPC para autenticación (JWT/TLS), balanceo de carga, service discovery y observabilidad con Prometheus y Grafana.\n\nA través del desarrollo de un sistema de comercio electrónico basado en microservicios, enseña a conectar servicios con latencia mínima y serialización binaria ultraeficiente. Esencial para arquitectos de backend e ingenieros de sistemas distribuidos.",
+    "temas": [
+      "gRPC",
+      "Microservicios",
+      "Protocol Buffers",
+      "Go",
+      "Streaming",
+      "TLS",
+      "Prometheus",
+      "Manning"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Ecosistema de Microservicios con gRPC y Protocol Buffers",
+        "descripcion": "Diseño e implementación de servicios de pago y pedidos comunicados por gRPC con streaming binario y autenticación TLS mutua."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/grpc-microservices-in-go"
+    ]
+  },
+  "learn-concurrent-programming-with-go-2024": {
+    "descripcion": "Tratado técnico especializado escrito por James Cutajar y publicado por Manning en 2024. Ofrece un recorrido integral y pedagógico por la concurrencia, el paralelismo y la sincronización en Go.\n\nExplora la diferencia entre concurrencia y paralelismo, el funcionamiento del planificador de Go, goroutines, canales (búfer vs sin búfer), `select`, paquetes `sync` (`Mutex`, `RWMutex`, `WaitGroup`, `Cond`, `Once`, `Pool`), detección de condiciones de carrera con `-race` y algoritmos concurrentes.\n\nIncluye explicaciones visuales con diagramas y ejercicios que enseñan a evitar deadlocks, livelocks y la inanición de hilos. Una referencia extraordinaria para dominar la concurrencia moderna en Go.",
+    "temas": [
+      "Concurrencia",
+      "Go",
+      "Goroutines",
+      "Canales",
+      "sync.Mutex",
+      "WaitGroup",
+      "Detección de Carreras",
+      "Manning"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Simulador de Sistemas Concurrentes y Worker Pools en Go",
+        "descripcion": "Diseño de un motor de ejecución paralela con canales acotados, control de concurrencia máxima y cancelación vía Context."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/learn-concurrent-programming-with-go"
+    ]
+  },
+  "learn-go-with-pocket-sized-projects-2025": {
+    "descripcion": "Manual didáctico y entretenido escrito por Aliénor Latour, Pascal Bertrand y Donia Chaiehloudj, publicado por Manning en 2025. Propone aprender Go mediante proyectos breves y funcionales concebidos para desarrollarse en una sola sentada.\n\nCubre la sintaxis básica, colecciones, funciones, structs, interfaces, concurrencia, llamadas HTTP y manejo de ficheros a través de proyectos como un analizador de logs, un monitor de sitios web en tiempo real, un bot de chat y un servidor de archivos.\n\nSu ritmo ágil y enfoque centrado en la resolución práctica de problemas motiva al lector y consolida conceptos clave de forma rápida y gratificante. Muy recomendado para principiantes.",
+    "temas": [
+      "Pocket Projects",
+      "Go",
+      "Principiantes",
+      "Manning",
+      "Proyectos Prácticos",
+      "CLI",
+      "Monitor Web"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Mini-Proyectos en Go (Monitor de Red, CLI y Bot)",
+        "descripcion": "Desarrollo de un analizador concurrente de disponibilidad web y una herramienta de terminal para procesamiento de registros."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/learn-go-with-pocket-sized-projects"
+    ]
+  },
+  "shipping-go-2023": {
+    "descripcion": "Guía práctica de DevOps y entrega continua escrita por Joel Holmes y publicada por Manning en 2023. Enseña cómo llevar aplicaciones de Go desde la máquina de desarrollo local hasta entornos de producción reales de manera automatizada y segura.\n\nCubre la optimización de compilación con binarios estáticos ultraligeros, creación de imágenes Docker mínimas basadas en `scratch` y `distroless`, diseño de pipelines de integración continua con GitHub Actions, pruebas automatizadas, gestión de versiones semánticas y despliegue en Kubernetes.\n\nEl autor comparte estrategias probadas para monitorizar aplicaciones, gestionar configuraciones y garantizar la seguridad de la cadena de suministro de software. Imprescindible para equipos que buscan flujos de despliegue profesional en Go.",
+    "temas": [
+      "Shipping Go",
+      "DevOps",
+      "Docker Scratch",
+      "GitHub Actions",
+      "Kubernetes",
+      "CI/CD",
+      "Producción",
+      "Manning"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline Completo de CI/CD y Despliegue en Kubernetes para Go",
+        "descripcion": "Automatización integral de pruebas, generación de imágenes binarias mínimas sin dependencias y despliegue continuo en clúster cloud."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/shipping-go"
+    ]
+  },
+  "concurrency-in-go-2017": {
+    "descripcion": "Tratado técnico magistral escrito por Katherine Cox-Buday y publicado por O'Reilly en 2017. Es la obra de referencia sobre los patrones de concurrencia y la teoría de la comunicación entre procesos secuenciales (CSP) en Go.\n\nExplora la historia y fundamentos matemáticos de la concurrencia, primitivas del paquete `sync`, goroutines y el planificador en tiempo de ejecución, patrones de canales (fan-out/fan-in, or-channel, tee-channel, bridge-channel), manejo de errores en pipelines concurrentes, y el uso riguroso del paquete `context`.\n\nKatherine Cox-Buday presenta soluciones elegantes a los problemas más complejos de sincronización y rendimiento en sistemas distribuidos. Una lectura obligatoria para cualquier desarrollador intermedio o avanzado de Go.",
+    "temas": [
+      "Concurrency in Go",
+      "Katherine Cox-Buday",
+      "O'Reilly",
+      "CSP",
+      "Fan-out/Fan-in",
+      "context",
+      "Goroutines",
+      "Canales"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline Concurrente Fan-Out / Fan-In con Cancelación de Contexto",
+        "descripcion": "Implementación de un motor de análisis distribuido que multiplexa y procesa flujos masivos de eventos con control de errores integrado."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/concurrency-in-go/9781491941294/"
+    ]
+  },
+  "efficient-go-2022": {
+    "descripcion": "Monografía técnica de referencia escrita por Bartłomiej Płotka (mantenedor de Prometheus y Thanos) y publicada por O'Reilly en 2022. Se especializa en la optimización de recursos, rendimiento y eficiencia en sistemas Go a escala masiva.\n\nCubre la medición científica del rendimiento: benchmarking riguroso con `testing.B`, profiling continuo con `pprof` (CPU, memoria, bloqueos de goroutines), trazado de ejecución con `go tool trace`, optimizaciones mecánicas del procesador (caché L1/L2/L3, escape analysis), y control de la presión del Garbage Collector.\n\nEl autor enseña a evitar optimizaciones prematuras aplicando una metodología guiada por datos que ahorra costes significativos de infraestructura en la nube. Indispensable para arquitectos de software e ingenieros de fiabilidad de sitios (SRE).",
+    "temas": [
+      "Efficient Go",
+      "Bartłomiej Płotka",
+      "pprof",
+      "go tool trace",
+      "Escape Analysis",
+      "Garbage Collection",
+      "Benchmarking",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Auditoría de Rendimiento y Profiling de Motor de Datos en Go",
+        "descripcion": "Análisis y resolución de asignaciones innecesarias de memoria mediante pprof y trace, reduciendo el consumo de CPU en un 60%."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/efficient-go/9781098105709/"
+    ]
+  },
+  "go-cookbook-2023": {
+    "descripcion": "Recetario moderno y exhaustivo de Sau Sheong Chang publicado por O'Reilly en 2023. Contiene más de un centenar de recetas prácticas con código listo para usar que abordan las necesidades de los desarrolladores en Go moderno.\n\nCubre operaciones con genéricos (Go 1.18+), serialización de formatos de datos, clientes y servidores HTTP, APIs RESTful y gRPC, persistencia en bases de datos relacionales y NoSQL, autenticación y criptografía, concurrencia avanzada y pruebas automatizadas.\n\nEl formato directo de problema-solución-discusión resulta idóneo para resolver problemas de implementación inmediatos con las mejores prácticas idiomáticas del lenguaje. Una herramienta de cabecera muy recomendada.",
+    "temas": [
+      "Go Cookbook",
+      "Sau Sheong Chang",
+      "O'Reilly",
+      "Genéricos",
+      "gRPC",
+      "APIs REST",
+      "Criptografía",
+      "Recetas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/go-cookbook/9781098132927/"
+    ]
+  },
+  "head-first-go-2019": {
+    "descripcion": "Manual introductorio visual escrito por Jay McGavren y publicado por O'Reilly en 2019. Utiliza la aclamada metodología multiformato de la serie Head First para enseñar a programar en Go de forma accesible y entretenida.\n\nExplora la sintaxis fundamental, tipos y conversiones, sentencias de control, funciones y retornos múltiples, paquetes, punteros, arrays, slices, mapas, structs y tipos personalizados, interfaces y concurrencia con goroutines y canales.\n\nRepleto de acertijos, diagramas conceptuales, analogías intuitivas y ejercicios de código. Excelente para personas que se inician en Go y prefieren una experiencia didáctica visual y libre de tecnicismos áridos.",
+    "temas": [
+      "Head First Go",
+      "Jay McGavren",
+      "O'Reilly",
+      "Fundamentos Go",
+      "Goroutines",
+      "Interfaces",
+      "Punteros",
+      "Visual Learning"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web y Procesador de Archivos en Go",
+        "descripcion": "Construcción visual paso a paso de un servidor de calificaciones web con gestión de rutas y persistencia en archivos de texto."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/head-first-go/9781491969540/"
+    ]
+  },
+  "introducing-go-2016": {
+    "descripcion": "Guía breve y concisa de Caleb Doxsey publicada por O'Reilly en 2016. Proporciona una introducción rápida y directa a los conceptos fundamentales de Go para programadores noveles.\n\nCubre la instalación del entorno, variables, tipos, estructuras de control, colecciones (arrays, slices, maps), funciones y closures, punteros, structs, interfaces y concurrencia básica.\n\nSu estilo minimalista y sin rodeos permite asimilar los fundamentos del lenguaje en pocas tardes de estudio. Ideal para quienes buscan un primer contacto ágil antes de profundizar en proyectos de mayor envergadura.",
+    "temas": [
+      "Introducing Go",
+      "Caleb Doxsey",
+      "O'Reilly",
+      "Fundamentos",
+      "Sintaxis",
+      "Goroutines",
+      "Principiantes"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/introducing-go/9781491941997/"
+    ]
+  },
+  "learning-go-2nd-edition-2024": {
+    "descripcion": "Segunda edición del aclamado éxito de Jon Bodner, publicada por O'Reilly en 2024. Considerada la mejor guía general y más completa para escribir código idiomático y moderno en Go (Go 1.22+).\n\nCubre la sintaxis integral del lenguaje, diseño de tipos estructurados e interfaces, el sistema de genéricos en profundidad, control riguroso de errores con `errors.Is` y `errors.As`, el paquete `context`, concurrencia segura, el nuevo router HTTP de Go 1.22 y testing profesional.\n\nJon Bodner enseña no solo cómo funciona la sintaxis, sino el estilo de pensamiento ('Go mindset') que caracteriza a los mejores desarrolladores de la comunidad. La lectura general más recomendada para cualquier ingeniero que trabaje con Go.",
+    "temas": [
+      "Learning Go",
+      "Jon Bodner",
+      "O'Reilly",
+      "Go 1.22",
+      "Genéricos",
+      "Go Idiomático",
+      "Testing",
+      "context"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servicio de Datos Concurrente y Tipado con Genéricos en Go",
+        "descripcion": "Desarrollo de un servidor HTTP idiomático con repositorios genéricos, control de contextos y suite completa de pruebas unitarias."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-go-2nd/9781098139285/"
+    ]
+  },
+  "modern-web-development-with-go-2023": {
+    "descripcion": "Manual práctico escrito por Dusan Stojanovic y publicado por Orange en 2023. Enseña a diseñar y construir aplicaciones web modernas utilizando Go como lenguaje principal de backend.\n\nCubre el diseño de APIs RESTful con frameworks ligeros como Echo y Fiber, validación de esquemas de datos, autenticación mediante JWT, integración con PostgreSQL mediante GORM y SQL puro, contenedores Docker y despliegue cloud.\n\nA través de tutoriales paso a paso, el autor guía la construcción de servicios web robustos y de alto rendimiento. Muy adecuado para desarrolladores que buscan crear servicios backend rápidos con Go.",
+    "temas": [
+      "Modern Web Go",
+      "Echo",
+      "Fiber",
+      "GORM",
+      "JWT",
+      "PostgreSQL",
+      "Docker",
+      "Orange"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API RESTful de Alta Velocidad con Fiber y GORM",
+        "descripcion": "Construcción de un backend de comercio electrónico con autenticación por tokens JWT, migraciones de datos y Docker."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.orangeeducation.com/"
+    ]
+  },
+  "ultimate-microservices-with-go-2024": {
+    "descripcion": "Guía arquitectónica avanzada escrita por Nir Shtein y publicada por Orange en 2024. Se enfoca en el diseño, implementación y operación de arquitecturas de microservicios resilientes en Go.\n\nExplora la descomposición de sistemas monolíticos, comunicación síncrona con gRPC y asíncrona con Kafka y RabbitMQ, patrones de diseño de microservicios (API Gateway, CQRS, Event Sourcing), observabilidad con OpenTelemetry y despliegue en clústeres Kubernetes.\n\nProporciona ejemplos de código orientados a la producción y pautas concretas para garantizar la escalabilidad y consistencia de datos en sistemas distribuidos. Muy valorado por ingenieros senior y arquitectos de soluciones.",
+    "temas": [
+      "Microservicios",
+      "Go",
+      "CQRS",
+      "Event Sourcing",
+      "Kafka",
+      "gRPC",
+      "Kubernetes",
+      "Orange"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de Microservicios Basada en Eventos con Go y Kafka",
+        "descripcion": "Diseño de un sistema distribuido con patrón CQRS, procesamiento de transacciones asíncronas y orquestación Kubernetes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.orangeeducation.com/"
+    ]
+  },
+  "building-modern-cli-applications-in-go-2023": {
+    "descripcion": "Manual práctico especializado escrito por Marian Montagnino y publicado por Packt en 2023. Enseña a crear herramientas de línea de comandos (CLI) interactivas, potentes y elegantes en Go.\n\nCubre la biblioteca estándar `flag`, los frameworks líderes de la industria `Cobra` y `Viper` para manejo de comandos, subcomandos y configuración multiplataforma, interfaces interactivas de terminal con `bubbletea` y `lipgloss`, pruebas automatizadas de CLI y distribución de binarios con GoReleaser.\n\nAcompaña al lector en la construcción de múltiples utilidades reales: gestores de notas, clientes de APIs de GitHub y herramientas de análisis del sistema. Es la guía definitiva sobre el desarrollo de CLIs profesionales en Go.",
+    "temas": [
+      "Go CLI",
+      "Cobra",
+      "Viper",
+      "Bubbletea",
+      "Lipgloss",
+      "GoReleaser",
+      "Terminal UI",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Herramienta CLI Interactiva de Gestión de Tareas con Cobra y Bubbletea",
+        "descripcion": "Construcción de una aplicación de terminal con comandos, flags, interfaz TUI interactiva y publicación automática con GoReleaser."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/building-modern-cli-applications-in-go-9781804612446"
+    ]
+  },
+  "full-stack-web-development-with-go-2023": {
+    "descripcion": "Guía práctica de desarrollo full-stack escrita por Nanik Tolaram y publicada por Packt en 2023. Enseña a construir aplicaciones web completas integrando un backend en Go con interfaces modernas de usuario.\n\nCubre el diseño de APIs RESTful con Go y Fiber, persistencia de datos en bases de datos relacionales, autenticación segura con JWT y cookies HttpOnly, integración de frontend con frameworks JavaScript y compilación a WebAssembly para ejecutar Go en el navegador.\n\nA través del desarrollo de un portal web de comercio completo, el autor demuestra cómo maximizar la productividad y velocidad en proyectos de pila completa. Muy formativo para desarrolladores integrales.",
+    "temas": [
+      "Full-Stack Go",
+      "Fiber",
+      "WebAssembly",
+      "JWT",
+      "PostgreSQL",
+      "Frontend",
+      "REST APIs",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Web Full-Stack con Backend en Go y WebAssembly",
+        "descripcion": "Desarrollo integral de una aplicación comercial con API RESTful en Fiber, autenticación segura y componentes dinámicos en el navegador."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/full-stack-web-development-with-go-9781803234199"
+    ]
+  },
+  "functional-programming-in-go-2023": {
+    "descripcion": "Monografía innovadora de Dylan Meeus publicada por Packt en 2023. Explora cómo aplicar los conceptos y técnicas de la programación funcional en el lenguaje Go aprovechando la incorporación de genéricos.\n\nCubre funciones de orden superior, currificación, closures, colecciones perezosas y transformaciones (Map, Filter, Reduce), inmutabilidad de datos, monoides y mónadas funcionales (Option, Either, Result) implementadas en Go con tipos genéricos.\n\nEl autor demuestra cómo escribir código más declarativo, predecible y testeable sin sacrificar la sencillez ni el rendimiento característicos de Go. Una perspectiva enriquecedora para desarrolladores experimentados.",
+    "temas": [
+      "Programación Funcional",
+      "Go",
+      "Genéricos",
+      "Map Filter Reduce",
+      "Inmutabilidad",
+      "Mónadas",
+      "Closures",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Biblioteca Funcional Genérica de Transformación de Datos en Go",
+        "descripcion": "Implementación de tipos puros Option y Result y combinadores funcionales paralelos sobre slices genéricos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/functional-programming-in-go-9781801811163"
+    ]
+  },
+  "go-programming-from-beginner-to-professional-2nd-edition-2024": {
+    "descripcion": "Segunda edición de la completa guía de Samantha Coyle, publicada por Packt en 2024. Diseñada como una formación de gran alcance para llevar al lector desde los primeros pasos hasta el nivel profesional en Go.\n\nCubre la sintaxis contemporánea del lenguaje, uso de módulos de Go, colecciones, structs e interfaces, genéricos, el paquete `context`, desarrollo de herramientas CLI y servidores web HTTP, conexión con PostgreSQL y MongoDB, y pruebas automatizadas y profiling.\n\nIncluye explicaciones claras y proyectos prácticos que consolidan las habilidades necesarias para incorporarse a equipos de desarrollo profesionales. Muy recomendado para programadores en transición hacia Go.",
+    "temas": [
+      "Go Profesional",
+      "Samantha Coyle",
+      "Genéricos",
+      "PostgreSQL",
+      "MongoDB",
+      "CLI",
+      "Web Services",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servicio de Gestión de Datos Empresariales con Go y PostgreSQL",
+        "descripcion": "Construcción paso a paso de una API RESTful modular con persistencia relacional, control de contexto y pruebas integrales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/go-programming-from-beginner-to-professional-second-edition-9781805126867"
+    ]
+  },
+  "mastering-concurrency-in-go-2014": {
+    "descripcion": "Tratado técnico especializado de Nathan Kozyra publicado por Packt en 2014. Profundiza en los fundamentos y técnicas de la programación concurrente y paralela en Go.\n\nExplora el modelo CSP de Go, la anatomía de las goroutines y su coste de memoria ínfimo frente a los hilos de sistema operativo, diseño de canales sincronizados y con búfer, patrones de bloqueo, prevención de bloqueos mutuos (deadlocks) y el uso de librerías avanzadas de sincronización.\n\nA través de ejemplos aplicados a problemas matemáticos y de red, el autor enseña a exprimir la capacidad de los procesadores multinúcleo. Una lectura clásica valiosa para ingenieros de sistemas.",
+    "temas": [
+      "Concurrencia",
+      "Go",
+      "Nathan Kozyra",
+      "Goroutines",
+      "Canales",
+      "Deadlocks",
+      "CSP",
+      "Multinúcleo",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor Paralelo de Cálculo y Procesamiento de Imágenes en Go",
+        "descripcion": "Desarrollo de un algoritmo distribuido que procesa matrices y matrices gráficas concurrentemente entre múltiples núcleos de CPU."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-concurrency-in-go-9781783983483"
+    ]
+  },
+  "mastering-go-web-services-2015": {
+    "descripcion": "Guía práctica escrita por Nathan Kozyra y publicada por Packt en 2015. Se centra en el diseño, desarrollo y securización de servicios web y APIs de alto rendimiento en Go.\n\nCubre la arquitectura de servicios REST y SOAP, serialización de datos con JSON y XML, enrutamiento avanzado, autenticación básica y mediante tokens, optimización de conexiones de red y técnicas de monitorización en producción.\n\nEl autor proporciona pautas para construir servicios ligeros y resilientes capaces de soportar miles de peticiones simultáneas por segundo. Una guía técnica sólida para desarrolladores de backend.",
+    "temas": [
+      "Web Services",
+      "Go",
+      "REST",
+      "JSON",
+      "XML",
+      "Autenticación",
+      "Alta Concurrencia",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servicio Web RESTful de Alta Disponibilidad en Go",
+        "descripcion": "Construcción de una API de servicios financieros con autenticación segura por tokens y endpoints de alto rendimiento."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-go-web-services-9781783984084"
+    ]
+  },
+  "mastering-go-4th-edition-2024": {
+    "descripcion": "Cuarta edición de la prestigiosa enciclopedia técnica de Mihalis Tsoukalos, publicada por Packt en 2024. Con más de 650 páginas, es ampliamente considerada una de las guías más completas del mundo sobre Go moderno.\n\nCubre la sintaxis contemporánea de Go, genéricos, el modelo de memoria y el Garbage Collector tricolor, profiling con `pprof` y `trace`, llamadas al sistema UNIX y programación de red a bajo nivel, microservicios REST y gRPC, y patrones avanzados de concurrencia.\n\nIncluye análisis de código minucioso y consejos de ingeniería extraídos de décadas de experiencia en sistemas UNIX. Una obra de consulta permanente para ingenieros de software y DevOps senior.",
+    "temas": [
+      "Mastering Go",
+      "Mihalis Tsoukalos",
+      "Go Moderno",
+      "UNIX Internals",
+      "Genéricos",
+      "gRPC",
+      "pprof",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor de Red y Telemetría de Sistemas UNIX en Go",
+        "descripcion": "Construcción de un daemon de monitorización de bajo nivel que recopila métricas del kernel y expone una API gRPC segura."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-go-fourth-edition-9781805128076"
+    ]
+  },
+  "modern-rest-api-development-in-go-2025": {
+    "descripcion": "Manual exhaustivo publicado por Packt en 2025 y escrito por Jesús Espino. Enseña a construir APIs REST modernas, escalables y seguras en Go siguiendo las mejores prácticas de la industria actual.\n\nCubre la estructuración limpia de proyectos, validación de peticiones, persistencia con PostgreSQL y migraciones, autenticación con OAuth2 y JWT, documentación interactiva de APIs con OpenAPI/Swagger, rate limiting y pruebas automatizadas completas.\n\nA través del desarrollo de un servicio web realista, el autor enseña a evitar malas prácticas arquitectónicas y a desplegar APIs fiables y listas para la nube. Indispensable para desarrolladores de backend.",
+    "temas": [
+      "REST API",
+      "Go",
+      "Jesús Espino",
+      "OpenAPI",
+      "PostgreSQL",
+      "JWT",
+      "OAuth2",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API REST Empresarial Documentada con OpenAPI en Go",
+        "descripcion": "Desarrollo de un servicio web modular con autenticación OAuth2, especificación Swagger generada automáticamente y PostgreSQL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/modern-rest-api-development-in-go-9781835084939"
+    ]
+  },
+  "practical-systems-programming-in-go-2026": {
+    "descripcion": "Tratado técnico avanzado escrito por Mihalis Tsoukalos y publicado por Packt a principios de 2026. Se especializa en la programación de bajo nivel y de sistemas operativos utilizando Go.\n\nExplora llamadas al sistema (syscalls) en Linux y macOS, manipulación directa de descriptores de archivos, señales de procesos (signals), comunicación entre procesos (IPC) con memoria compartida y tuberías con nombre, interacción con el subsistema de red a nivel de socket crudo, y seguridad del sistema.\n\nEl autor proporciona herramientas prácticas de línea de comandos para auditoría, diagnóstico y administración de sistemas que combinan la potencia de C con la seguridad de memoria de Go. Una lectura imprescindible para ingenieros de sistemas e investigadores de ciberseguridad.",
+    "temas": [
+      "Programación de Sistemas",
+      "Go",
+      "Syscalls",
+      "Linux",
+      "IPC",
+      "Sockets Crudos",
+      "Señales",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Diagnóstico y Monitorización del Núcleo Linux en Go",
+        "descripcion": "Desarrollo de herramientas de inspección de procesos, descriptores de archivos abiertos y telemetría de red basada en syscalls."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/practical-systems-programming-in-go-9781835089330"
+    ]
+  },
+  "system-programming-essentials-with-go-2024": {
+    "descripcion": "Guía formativa escrita por Alex Rios y publicada por Packt en 2024. Introduce los conceptos fundamentales de la programación de sistemas y la administración de recursos utilizando Go.\n\nCubre la interacción con el sistema de archivos, manejo de procesos y subprocesos, señales del sistema operativo, gestión eficiente de memoria, sockets de red TCP/UDP y el desarrollo de utilidades seguras para automatización en entornos UNIX/Linux.\n\nEl autor desglosa cada concepto con explicaciones claras y ejemplos funcionales de código. Ideal para programadores de aplicaciones que desean dar el salto hacia la ingeniería de software de bajo nivel.",
+    "temas": [
+      "System Programming",
+      "Go",
+      "Procesos",
+      "Señales",
+      "Sockets",
+      "Linux",
+      "Memoria",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Gestor de Procesos y Daemon de Automatización en Go",
+        "descripcion": "Construcción de un servicio en segundo plano para supervisión y reinicio de procesos del sistema operativo ante fallos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/system-programming-essentials-with-go-9781804618776"
+    ]
+  },
+  "test-driven-development-in-go-2023": {
+    "descripcion": "Manual exhaustivo y práctico de Adelina Simion publicado por Packt en 2023. Enseña a aplicar rigurosamente el desarrollo guiado por pruebas (TDD) en proyectos reales con Go.\n\nCubre el ciclo Red-Green-Refactor, diseño de pruebas unitarias y de integración con la biblioteca estándar `testing`, pruebas parametrizadas (table-driven tests), creación de dobles de prueba e interfaces desacopladas, pruebas de estrés y concurrencia con `-race`, y análisis de cobertura con `go test -cover`.\n\nA través del desarrollo guiado de una aplicación web, la autora demuestra cómo el TDD conduce de forma natural a una arquitectura limpia y modular. Un recurso formativo valioso para desarrolladores comprometidos con la calidad del software.",
+    "temas": [
+      "TDD",
+      "Go Testing",
+      "Table-Driven Tests",
+      "Refactorización",
+      "Mocks",
+      "Cobertura de Código",
+      "Clean Architecture",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web y API Desarrollada con Metodología TDD",
+        "descripcion": "Construcción paso a paso de un servicio backend comenzando por especificaciones unitarias, integración de base de datos y cobertura 100%."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/test-driven-development-in-go-9781804614747"
+    ]
+  },
+  "object-based-programming-with-go-2025": {
+    "descripcion": "Tratado académico riguroso escrito por Christian Maurer y publicado por Springer en 2025. Analiza el paradigma de programación basado en objetos y tipos dentro del lenguaje Go desde una perspectiva formal de las ciencias de la computación.\n\nExplora la composición frente a la herencia clásica, la semántica del sistema de interfaces implícitas de Go, tipos abstractos de datos (ADTs), encapsulamiento, diseño por contratos y verificación de corrección algorítmica en programas concurrentes.\n\nEl autor combina fundamentación teórica matemática con implementaciones concisas y elegantes en Go. Muy recomendado para profesores universitarios, investigadores y programadores con inquietudes teóricas.",
+    "temas": [
+      "Object-Based Programming",
+      "Go",
+      "Springer",
+      "Interfaces Implícitas",
+      "ADTs",
+      "Ciencias de la Computación",
+      "Verificación Formal"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-3-658-45000-0"
+    ]
+  },
+  "effective-go-recipes-2024": {
+    "descripcion": "Recetario de soluciones de alta calidad escrito por Miki Tebeka y publicado por The Pragmatic Programmers en 2024. Ofrece un compendio selecto de recetas directas para escribir código idiomático, rápido y seguro en Go.\n\nCubre manipulación avanzada de slices y mapas, patrones de concurrencia y cancelación con `context`, uso eficiente de los nuevos paquetes de la biblioteca estándar (como `slog` para logging estructurado), optimización de rendimiento y diseño de pruebas robustas.\n\nCada receta se centra en un problema real de ingeniería de software con explicaciones concisas y directas. Una obra imprescindible para mantener las habilidades actualizadas a los más altos estándares profesionales.",
+    "temas": [
+      "Effective Go",
+      "Miki Tebeka",
+      "Pragmatic Programmers",
+      "slog",
+      "context",
+      "Concurrencia",
+      "Recetas",
+      "Go Idiomático"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servicio de Procesamiento de Logs Estructurados con slog y Context",
+        "descripcion": "Implementación de un pipeline de ingesta y filtrado de telemetría con logging estructurado nativo y propagación de contextos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://pragprog.com/titles/d-gteffective/effective-go-recipes/"
+    ]
+  }
+}

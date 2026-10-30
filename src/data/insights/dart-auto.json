@@ -1,0 +1,233 @@
+{
+  "quick-start-guide-to-dart-programming-2019": {
+    "descripcion": "Guía concisa de Sanjib Sinha publicada por Apress en 2019. Diseñada como una vía de aprendizaje acelerada para programadores que desean dominar el lenguaje Dart 2 moderno, impulsado por el auge del framework Flutter para desarrollo móvil y multiplataforma. Orientada a desarrolladores de JavaScript, Java u otros lenguajes orientados a objetos que buscan ponerse al día con Dart rápidamente.\n\nEl libro recorre los fundamentos del lenguaje: sistema de tipos estático y seguro (type safety), inferencia de tipos con `var` y `final`, estructuras de control de flujo, funciones como objetos de primera clase y operadores avanzados. Explora a fondo la programación orientada a objetos en Dart: clases, constructores nombrados y de redirección, herencia, interfaces implícitas, clases abstractas y el potente mecanismo de 'mixins' para reutilización de código. Además, cubre la programación asíncrona fundamental con `Future`, `Stream`, `async` y `await`.\n\nCada concepto se explica con ejemplos de código breves y directos que pueden ejecutarse de inmediato en DartPad o en la consola local. Es el punto de partida perfecto para cualquier desarrollador que aspire a crear aplicaciones nativas y multiplataforma con Flutter sobre una base sólida del lenguaje Dart.",
+    "temas": [
+      "Dart 2",
+      "Flutter",
+      "Programación orientada a objetos",
+      "Mixins",
+      "Programación asíncrona",
+      "Future y Stream",
+      "Type Safety",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de Consola Asíncrona con Dart",
+        "descripcion": "Desarrollo de un programa de consola modular en Dart que consume APIs asíncronas con Futures, procesa flujos de datos con Streams y aplica mixins para la lógica de negocio."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5562-9",
+      "https://github.com/Apress/quick-start-guide-to-dart-programming"
+    ]
+  },
+  "dart-in-action-2014": {
+    "descripcion": "Manual exhaustivo de Chris Buckett publicado por Manning en 2014. Fue una de las primeras grandes obras de referencia sobre el lenguaje Dart cuando Google lo lanzó con la visión de transformar el desarrollo web con tipado opcional y herramientas integradas. Dirigido a desarrolladores web de JavaScript y programadores Java interesados en aplicaciones web de una sola página (SPA).\n\nEl autor desglosa la sintaxis y características clave de Dart: clases, interfaces, tipado opcional, colecciones enriquecidas y librerías del núcleo. Enseña a manipular el DOM del navegador mediante `dart:html`, gestionar eventos y peticiones HTTP asíncronas con Futures, y estructurar aplicaciones frontend robustas con componentes desacoplados. Además, dedica secciones sustanciales al desarrollo del lado del servidor con `dart:io` para crear servidores HTTP y WebSockets, compartiendo modelos de código entre cliente y servidor.\n\nEl aprendizaje se estructura construyendo una aplicación web completa y colaborativa tipo tablero Kanban ('DartWatch'). Su valor didáctico es excelente para comprender la visión arquitectónica de Dart como un lenguaje 'full stack' capaz de operar tanto en el navegador como en el backend.",
+    "temas": [
+      "Dart",
+      "dart:html",
+      "dart:io",
+      "Single Page Applications (SPA)",
+      "Futures y async",
+      "Full-stack Dart",
+      "WebSockets",
+      "Manning in Action"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "DartWatch: Tablero Kanban Full-Stack en Dart",
+        "descripcion": "Construcción completa de una aplicación colaborativa con interfaz en Dart compilada para el navegador y backend servidor en Dart comunicados por WebSockets."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/dart-in-action",
+      "https://github.com/chrisbu/dart-in-action"
+    ]
+  },
+  "dart-up-and-running-2012": {
+    "descripcion": "Guía oficial de Kathy Walrath y Seth Ladd (miembros directos del equipo de desarrollo y documentación de Dart en Google), publicada por O'Reilly en 2012. Planteada como el manual de desembarco canónico para que los programadores comenzaran a explorar el nuevo lenguaje de código abierto de Google para la web moderna.\n\nEl libro realiza un recorrido ágil por el ecosistema inicial de Dart: la sintaxis del lenguaje, funciones de primera clase, clases con constructores parametrizados y el sistema de concurrencia basado en 'isolates'. Describe las librerías estándar primordiales (`dart:core`, `dart:html`, `dart:math`, `dart:json`), y detalla el uso del Dart Editor, el navegador Dartium con máquina virtual integrada y el compilador `dart2js` para generar código JavaScript compatible con todos los navegadores.\n\nEl texto incluye ejemplos prácticos y concisos de aplicaciones web sencillas que ilustran cómo crear interfaces dinámicas con menos código y mejor rendimiento que el JavaScript de la época. Es una obra de valor histórico fundamental para entender el origen y la evolución del lenguaje que años más tarde daría vida a Flutter.",
+    "temas": [
+      "Dart",
+      "Google",
+      "dart:core y dart:html",
+      "dart2js",
+      "Isolates y concurrencia",
+      "Seth Ladd",
+      "Programación web",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web Dinámica con Dart y dart2js",
+        "descripcion": "Desarrollo de una interfaz web interactiva que manipula el DOM mediante dart:html y se compila a JavaScript compatible para navegadores estándares."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/dart-up-and/9781449330880/",
+      "https://dart.dev/"
+    ]
+  },
+  "what-is-dart-2012": {
+    "descripcion": "Monografía introductoria breve de Kathy Walrath y Seth Ladd, publicada por O'Reilly en 2012 como parte de su serie de reportes ejecutivos. Presenta una visión panorámica y conceptual sobre por qué Google diseñó Dart y qué problemas del desarrollo web de gran escala pretendía solucionar.\n\nEl reporte explica las motivaciones de diseño de Dart: estructurar aplicaciones web complejas con clases e interfaces familiares para programadores de lenguajes como Java o C++, ofrecer tipado opcional para detección temprana de errores sin sacrificar dinamismo, y proporcionar herramientas integradas como compiladores optimizadores y empaquetadores. Compara las tres vías de ejecución de Dart: en máquina virtual nativa, en el navegador mediante dart2js y en el lado del servidor.\n\nEs una lectura muy concisa y conceptual, diseñada para directores de tecnología, arquitectos de software y líderes de equipo que evaluaban la adopción de nuevas tecnologías web en 2012. Ofrece un resumen ejecutivo nítido de la propuesta de valor original de Dart.",
+    "temas": [
+      "Dart",
+      "Google",
+      "Visión arquitectónica",
+      "Tipado opcional",
+      "dart2js",
+      "Reporte O'Reilly",
+      "Evolución de la web"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/what-is-dart/9781449339890/",
+      "https://dart.dev/"
+    ]
+  },
+  "dart-cookbook-2014": {
+    "descripcion": "Recetario técnico de Ivo Balbaert publicado por Packt en 2014. Reúne más de 90 recetas prácticas orientadas a resolver desafíos concretos en el desarrollo de aplicaciones tanto cliente como servidor utilizando Dart 1.x. Dirigido a desarrolladores web e ingenieros de software.\n\nLa obra proporciona soluciones listas para usar en múltiples áreas: manipulación avanzada de colecciones y datos estructurados, programación asíncrona con Streams y Futures, comunicación en tiempo real con WebSockets y SSE (Server-Sent Events), y persistencia de datos en IndexedDB y bases de datos relacionales en el servidor. Además, incluye recetas para crear interfaces ricas con Polymer.dart, pruebas unitarias automatizadas con el paquete `test` y empaquetado y distribución con pub.\n\nCada receta sigue la metodología estándar de Packt: definición del problema, código de solución probado y análisis detallado de la implementación. Es una excelente herramienta práctica de consulta para resolver necesidades específicas en el desarrollo de software con Dart.",
+    "temas": [
+      "Dart",
+      "Recetas de código",
+      "Streams y Futures",
+      "WebSockets",
+      "IndexedDB",
+      "Polymer.dart",
+      "Pruebas unitarias",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/dart-cookbook-9781783981946",
+      "https://github.com/PacktPublishing/Dart-Cookbook"
+    ]
+  },
+  "dart-essentials-2015": {
+    "descripcion": "Manual ágil y directo de Martin Sikora publicado por Packt en 2015. Diseñado para enseñar los componentes esenciales del lenguaje Dart de manera concisa y práctica, dirigido a desarrolladores con conocimientos previos de JavaScript u otros lenguajes de programación que desean crear aplicaciones web modernas sin complicaciones.\n\nEl texto cubre la configuración del SDK de Dart y la herramienta pub, la sintaxis fundamental, el sistema de tipos y la programación orientada a objetos mediante clases, constructores y mixins. Enseña a manipular elementos HTML y manejar eventos del usuario en el navegador, realizar peticiones HTTP asíncronas con HttpRequest y Futures, y almacenar información local en el navegador con Web Storage e IndexedDB. También aborda el testing con el paquete `unittest`.\n\nA través de ejemplos claros y funcionales, el lector construye gradualmente una aplicación web interactiva que consolida las mejores prácticas de estructuración de código en Dart. Destaca por su enfoque práctico y equilibrado para asimilar rápidamente los fundamentos de la plataforma.",
+    "temas": [
+      "Dart",
+      "dart:html",
+      "Mixins",
+      "Futures",
+      "Web Storage",
+      "IndexedDB",
+      "Testing",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web de Gestión de Tareas en Dart",
+        "descripcion": "Desarrollo de una aplicación web interactiva con manipulación del DOM, almacenamiento persistente local en IndexedDB y pruebas unitarias automatizadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/dart-essentials-9781783989027",
+      "https://github.com/PacktPublishing/Dart-Essentials"
+    ]
+  },
+  "learning-dart-2014": {
+    "descripcion": "Guía formativa de Dzenan Ridjanovic e Ivo Balbaert, publicada por Packt en 2014. Plantea una inmersión estructurada en el lenguaje Dart y el modelado de aplicaciones web orientadas a objetos, dirigida a programadores web de nivel principiante e intermedio.\n\nLos autores enseñan a pensar y estructurar aplicaciones en Dart: diseño de jerarquías de clases, uso de colecciones tipadas, y separación de responsabilidades entre el modelo de datos, la lógica de presentación y el almacenamiento. Cubre la creación de interfaces de usuario con componentes web, el manejo de eventos asíncronos y la serialización de datos hacia y desde JSON. Incluye ejercicios prácticos al final de cada capítulo para reforzar el aprendizaje.\n\nA través de la creación progresiva de aplicaciones de ejemplo con modelos de dominio ricos, el libro fomenta buenas prácticas de diseño de software en la web. Es un recurso formativo muy adecuado para desarrolladores que desean aprender a modelar sistemas orientados a objetos con Dart.",
+    "temas": [
+      "Dart",
+      "Modelado orientado a objetos",
+      "Componentes web",
+      "Serialización JSON",
+      "Colecciones en Dart",
+      "Diseño de software",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Modelado y Gestión de Información en Dart",
+        "descripcion": "Construcción de una aplicación web orientada a objetos con modelo de dominio desacoplado, serialización a JSON y visualización interactiva en el navegador."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/learning-dart-9781783553273",
+      "https://github.com/PacktPublishing/Learning-Dart"
+    ]
+  },
+  "mastering-dart-2014": {
+    "descripcion": "Tratado avanzado de Sergey Akopkokhyants publicado por Packt en 2014. Diseñado para desarrolladores experimentados que desean profundizar en las capacidades más complejas de Dart, optimizar el rendimiento y crear arquitecturas de aplicaciones empresariales escalables.\n\nEl autor profundiza en temas sofisticados del lenguaje: programación concurrente mediante Isolates y paso de mensajes sin memoria compartida, metaprogramación reflexiva con la librería `dart:mirrors`, y diseño de lenguajes de dominio específico (DSLs). Analiza patrones de diseño de software clásicos (GoF) adaptados a las particularidades de Dart, la creación de aplicaciones cliente enriquecidas con web components y Shadow DOM, y la construcción de microservicios backend de alto rendimiento con WebSockets y streams asíncronos.\n\nEl libro contiene explicaciones técnicas rigurosas y patrones arquitectónicos pensados para sistemas de misión crítica. Es una obra de consulta avanzada esencial para ingenieros de software que construyen infraestructuras completas sobre Dart.",
+    "temas": [
+      "Dart avanzado",
+      "Isolates y concurrencia",
+      "dart:mirrors (Reflexión)",
+      "Patrones de diseño GoF",
+      "Web Components",
+      "WebSockets",
+      "Microservicios",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura Empresarial Concurrente con Isolates",
+        "descripcion": "Desarrollo de un sistema distribuido en Dart que utiliza múltiples isolates para procesamiento paralelo intensivo y comunicación reactiva con WebSockets."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-dart-9781783989560",
+      "https://github.com/PacktPublishing/Mastering-Dart"
+    ]
+  },
+  "write-web-apps-with-dart-2015": {
+    "descripcion": "Manual visual y práctico de Jack Murphy, publicado por Peachpit Press en 2015. Enseña a programar aplicaciones web interactivas combinando el lenguaje Dart con las tecnologías de la plataforma web abierta. Orientado a diseñadores y desarrolladores front-end que buscan una alternativa más estructurada que el JavaScript tradicional.\n\nEl libro guía al lector a través de la instalación de herramientas, la creación de proyectos con la estructura estándar de pub, y la manipulación de elementos HTML, estilos CSS y animaciones desde Dart. Explica cómo gestionar eventos del usuario, realizar llamadas a APIs web mediante peticiones asíncronas, almacenar datos en el almacenamiento local del navegador y compilar el proyecto a JavaScript compatible con todos los navegadores mediante `dart2js`.\n\nSu estilo es sumamente ameno, didáctico y estructurado en torno a proyectos cortos e intuitivos. Es un texto accesible para diseñadores técnicos y programadores junior que desean crear sus primeras aplicaciones web con Dart.",
+    "temas": [
+      "Dart",
+      "Peachpit Press",
+      "dart:html",
+      "dart2js",
+      "Diseño web",
+      "Animaciones y DOM",
+      "Almacenamiento local",
+      "Frontend"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web Interactiva con Dart",
+        "descripcion": "Creación paso a paso de una aplicación web rica en animaciones y respuestas a eventos de usuario, compilada a JavaScript estándar para producción."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.peachpit.com/store/write-web-apps-with-dart-walk-before-you-run-9780133930689",
+      "https://www.oreilly.com/library/view/write-web-apps/9780133930702/"
+    ]
+  }
+}

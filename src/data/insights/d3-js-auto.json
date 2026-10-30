@@ -1,0 +1,362 @@
+{
+  "create-web-charts-with-d3-2014": {
+    "descripcion": "Libro práctico de Fabio Nelli dedicado a crear gráficos web interactivos y animados con la librería JavaScript D3. Por su fecha (2014) se basa en la rama 3.x de D3, anterior a la reorganización modular de la versión 4, así que parte de la sintaxis ha quedado desfasada. Apress lo presenta como apto para cualquier nivel, pero conviene saber HTML, CSS y JavaScript básico. Una parte del contenido procede de un libro anterior del autor, Beginning JavaScript Charts, que trataba jqPlot, D3 y Highcharts.\n\nEl recorrido comienza con un repaso de las tecnologías para hacer gráficos en el navegador (HTML5, SVG, selecciones y el DOM) y con los fundamentos de D3. Después dedica un capítulo a cada tipo de gráfico: líneas, barras, sectores (pie), velas (candlestick) para datos financieros, dispersión y burbujas, y radar. Los últimos capítulos tratan la carga de datos en vivo, la integración de los gráficos en widgets de jQuery y otras representaciones. Según la editorial, el lector aprende a alimentar los gráficos con datos de muchas fuentes: instrumentos científicos, placas Arduino, consultas SQL desde PHP, tablas HTML, cálculos de MATLAB y hojas de Excel.\n\nEl método es de recetas: cada capítulo construye y personaliza paso a paso un tipo de gráfico (ejes, escalas, leyendas, colores, interactividad) a partir de ejemplos que se pueden ejecutar. Sirve como catálogo visual para quien necesita un gráfico concreto, pero no profundiza en el diseño de componentes reutilizables ni en layouts avanzados. Antes de empezar conviene saber que los ejemplos usan la API de D3 v3, y que para adaptarlos a D3 v7 habrá que cambiar nombres como d3.scale.linear por d3.scaleLinear.",
+    "temas": [
+      "D3.js v3",
+      "SVG",
+      "Gráficos de líneas",
+      "Gráficos de barras",
+      "Gráficos de sectores",
+      "Candlestick",
+      "Scatterplot y burbujas",
+      "Radar charts",
+      "Datos en tiempo real",
+      "jQuery",
+      "Fuentes de datos (CSV, SQL, Arduino)"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.apress.com/cn/book/9781484208663",
+      "https://link.springer.com/978-1-4842-0866-3",
+      "https://link.altmetric.com/details/13075403",
+      "https://github.com/Apress/create-web-charts-w-d3"
+    ]
+  },
+  "practical-d3-js-2016": {
+    "descripcion": "Libro breve de Tarek Amr (científico de datos que forma a periodistas de datos) y Rayna Stamboliyska (consultora en estrategias basadas en datos). Combina la teoría de la visualización de datos con su puesta en práctica en D3.js. Se publicó en 2016, cuando convivían D3 v3 y la recién lanzada v4, y la editorial no indica qué versión usa. Está pensado para desarrolladores, analistas y periodistas de datos con conocimientos básicos de HTML y JavaScript que quieren entender no solo cómo se dibuja un gráfico, sino cómo se diseña uno que comunique bien.\n\nLa primera parte es conceptual: qué es la visualización de datos, cómo estructurar y diseñar una visualización, cómo presentar los hechos con rigor y cómo conseguir y preparar datos, con atención especial al periodismo de datos y a los datos abiertos de gobiernos. La segunda parte es práctica y avanza desde los primeros pasos con D3 hasta las formas complejas (generadores de paths, arcos y polígonos), la transformación de datos con layouts, los layouts avanzados y el trabajo con conjuntos de datos reales. En el camino se ven la vinculación de datos (data binding), las animaciones y eventos, las escalas y la selección de paletas de color.\n\nLos capítulos prácticos se apoyan en pequeños ejemplos HTML independientes, por ejemplo uno que usa un conjunto de datos de energía. No hay una aplicación completa que se construya a lo largo del libro. Su principal aportación es el enfoque editorial y de diseño, poco habitual en los manuales técnicos de D3. Por su extensión (unas 170 páginas), la parte técnica es más bien introductoria: no cubre mapas en profundidad, ni rendimiento, ni la integración con frameworks modernos. Conviene complementarlo con la documentación actual de D3 para adaptar los ejemplos a D3 v7.",
+    "temas": [
+      "Visualización de datos",
+      "Diseño de visualizaciones",
+      "Periodismo de datos",
+      "Datos abiertos",
+      "D3.js",
+      "Data binding",
+      "Escalas y color",
+      "Animaciones y eventos",
+      "Path generators",
+      "Layouts"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/practical-d3js/9781484219287/",
+      "https://www.oreilly.com/library/view/practical-d3js/9781484219287/A371558_1_En_BookFrontmatter_OnlinePDF.html",
+      "https://github.com/Apress/practical-d3.js"
+    ]
+  },
+  "pro-d3-js-2019": {
+    "descripcion": "Libro avanzado de Marcos Iglesias, ingeniero de software sénior en Eventbrite y mantenedor de la librería de gráficos de código abierto Britecharts. Enseña a convertir el código típico de un gráfico D3.js en módulos reutilizables, ampliables, mantenibles y testeables. Por su fecha (2019) trabaja con D3 moderno, la API modular de la versión 5, y con JavaScript ES2015+. Va dirigido a ingenieros de visualización, científicos de datos y desarrolladores frontend que ya conocen los fundamentos de D3 y tienen experiencia con JavaScript; no es un libro para empezar desde cero.\n\nEmpieza explicando por qué D3 y el JavaScript moderno son buenas herramientas para visualizar datos en la web. Luego analiza la anatomía de un gráfico D3 típico, con sus puntos fuertes y débiles, y repasa estrategias para encapsular el código. El núcleo del libro es el patrón de API reutilizable (reusable chart API): gráficos componibles y configurables. Con él, un gráfico de barras inicial se convierte en un componente listo para producción. A continuación toma Britecharts como caso de estudio: cómo se usa a diario, cómo se componen sus componentes y cómo se extiende un gráfico para devolver la mejora al proyecto mediante un pull request. Los capítulos finales tratan el desarrollo guiado por pruebas (TDD) de gráficos, la compilación y publicación de una librería en npm con Webpack y Babel, la generación de documentación a partir de comentarios (con ESLint para vigilar las anotaciones y GitHub Pages para alojarla) y el uso de D3 dentro de aplicaciones React.\n\nEl libro aporta algo que pocos manuales de D3 tratan: prácticas de ingeniería de software aplicadas a la visualización, como modularidad, pruebas, documentación y publicación de código abierto. Las enseñanzas se apoyan en la experiencia real de publicar Britecharts y Britecharts-React. Deja fuera el catálogo exhaustivo de tipos de gráficos, los mapas y las técnicas de diseño visual. Su valor es mayor para equipos que mantienen muchos gráficos en producción o que quieren crear su propia librería. Conviene saber manejar npm y un empaquetador, además de los fundamentos de selecciones, escalas y ejes de D3.",
+    "temas": [
+      "D3.js v5",
+      "Reusable Chart API",
+      "Componentes modulares",
+      "Britecharts",
+      "TDD",
+      "Webpack",
+      "Babel",
+      "npm",
+      "Documentación de código",
+      "ESLint",
+      "React"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Gráfico de barras reutilizable",
+        "descripcion": "Un gráfico de barras D3 convencional se refactoriza paso a paso hasta convertirlo en un componente configurable, componible y testeable, siguiendo el patrón de API reutilizable y con pruebas guiadas por TDD."
+      },
+      {
+        "nombre": "Extensión y contribución a Britecharts",
+        "descripcion": "Se amplía un gráfico de la librería Britecharts de Eventbrite y la mejora se devuelve al proyecto mediante un pull request, aplicando el flujo de contribución al código abierto."
+      },
+      {
+        "nombre": "Librería de gráficos publicada",
+        "descripcion": "Se monta, compila y publica en npm una librería de gráficos de código abierto con Webpack y Babel, y se genera su documentación a partir de comentarios para alojarla en GitHub Pages."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.apress.com/cn/book/9781484252024",
+      "https://github.com/Apress/pro-d3.js",
+      "https://www.goodreads.com/work/editions/72396605-pro-d3-js-use-d3-js-to-create-maintainable-modular-and-testable-chart"
+    ]
+  },
+  "d3-js-in-action-2015": {
+    "descripcion": "Primera edición del tutorial práctico de Elijah Meeks, que fue ingeniero de visualización de datos en Stanford y Netflix. Enseña a crear gráficos interactivos y aplicaciones basadas en datos con D3.js, en la época de la versión 3 de la librería. Está pensado para desarrolladores y analistas que ya saben lo básico de HTML, CSS y JavaScript. No hace falta experiencia previa con D3 ni con SVG.\n\nEl libro empieza por los fundamentos: selecciones, enlace de datos (data binding), carga y preparación de datos, escalas, ejes y componentes de gráficos sobre SVG. Después repasa a fondo los layouts que trae D3, como histogramas, pastel, apilados y jerarquías. Tiene un capítulo dedicado a la visualización de redes, con matrices de adyacencia, diagramas de arco y el layout force-directed para añadir y quitar nodos y aristas en vivo. También trata los mapas y la información geoespacial, la animación y las transiciones, y los datos dinámicos, incluidos los que llegan en streaming por la web.\n\nLos últimos capítulos usan el modelo de interacción de D3 para armar una aplicación web completa basada en datos. Ahí se ve cómo combinar varios gráficos coordinados y cómo escribir layouts y componentes reutilizables propios. Su valor está en explicar el modelo mental de D3 y la variedad de tipos de visualización. Ojo: el código está escrito para D3 v3. Desde la v4 cambió la API (módulos, nombres de escalas y layouts) y desde la v5 la carga de datos usa Promises, así que muchos ejemplos no funcionan sin adaptarlos. Para trabajar con versiones actuales conviene pasar a las ediciones posteriores.",
+    "temas": [
+      "D3.js v3",
+      "SVG",
+      "Data binding",
+      "Escalas y ejes",
+      "Layouts",
+      "Visualización de redes",
+      "Force-directed",
+      "Mapas geoespaciales",
+      "Transiciones",
+      "Datos dinámicos",
+      "Aplicaciones interactivas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación web interactiva basada en datos",
+        "descripcion": "En los capítulos finales se construye una aplicación completa con D3.js que combina varias visualizaciones coordinadas e interactivas, apoyada en el modelo de interacción de la librería y en componentes reutilizables."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/d3-js-in-action",
+      "https://www.goodreads.com/book/show/22745345-d3-js-in-action"
+    ]
+  },
+  "interactive-data-visualization-for-the-web-2nd-edition-2017": {
+    "descripcion": "Segunda edición del clásico introductorio de Scott Murray, actualizada a D3 4.x. Enseña a crear y publicar visualizaciones de datos interactivas en la web. Está pensada para principiantes absolutos: diseñadores sin experiencia en programación, periodistas que se acercan al periodismo de datos y cualquiera que quiera compartir datos de forma visual. Por eso empieza explicando lo básico de HTML, CSS, JavaScript y SVG.\n\nEl índice avanza de forma muy gradual. Primero presenta D3, los fundamentos tecnológicos, la preparación del entorno y la carga de datos. Luego entra en dibujar con datos, escalas, ejes, actualizaciones, transiciones y movimiento, interactividad (eventos y tooltips), paths, selecciones avanzadas y layouts: pie, stack y force-directed. También explica cómo hacer mapas geográficos propios con paneo, zoom, etiquetas y tooltips, y cómo exportar las visualizaciones. Reúne más de 140 ejemplos descargables con los que se construyen gráficos de barras, de dispersión, de pastel, de barras apiladas y grafos de fuerza.\n\nCierra con el recorrido paso a paso de un proyecto completo y con apéndices: casos de estudio de nueve diseñadores, las novedades de D3 4.0, una guía para compartir código y una referencia rápida. Es uno de los mejores puntos de partida para aprender D3 por lo claro y paciente que es. A cambio, no profundiza en arquitecturas de aplicaciones, integración con frameworks como React ni rendimiento con Canvas. Además, se basa en D3 v4: en la v5 la carga de datos pasó a Promises y en la v6 cambió el manejo de eventos, así que hay que adaptar algunos ejemplos.",
+    "temas": [
+      "D3.js 4.x",
+      "HTML, CSS y SVG",
+      "Data binding",
+      "Escalas y ejes",
+      "Transiciones",
+      "Interactividad",
+      "Layouts",
+      "Force-directed",
+      "Mapas geográficos",
+      "Periodismo de datos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Recorrido de un proyecto completo",
+        "descripcion": "En el capítulo final se desarrolla paso a paso una visualización interactiva completa con D3 4.x, desde los datos hasta la publicación en la web, aplicando todo lo visto en el libro."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/interactive-data-visualization-for-the-web-an-introduction-to-designing-with-d3-2nd-edition-scott-murray,e_0lxf.htm",
+      "https://bookshop.org/p/books/interactive-data-visualization-for-the-web-an-introduction-to-designing-with-d3-scott-murray/de9f20e1fa8488d2"
+    ]
+  },
+  "d3-js-by-example-2015": {
+    "descripcion": "Libro práctico de Michael Heydt (Packt, colección Community Experience Distilled) que enseña D3.js a base de ejemplos, en la época de D3 v3. Está pensado tanto para quienes empiezan en la visualización de datos como para científicos de datos con experiencia que quieren llevar sus análisis a la web. Se necesita saber programar, sobre todo en JavaScript.\n\nLos capítulos siguen una progresión clara. Empieza con la puesta en marcha de D3.js, las selecciones y el enlace de datos (data binding), y la creación de elementos visuales con SVG. Luego construye un gráfico de barras y explica cómo usar datos externos (JSON, entre otros) junto con escalas, ejes y leyendas. Siguen los gráficos de dispersión y de burbujas, las visualizaciones animadas y la interactividad del usuario, con tooltips y arrastre. Después vienen las formas complejas con paths y generadores, y los layouts para series y datos jerárquicos. Termina con redes de información (grafos de fuerza y diagramas de Sankey), mapas y coropletas con GeoJSON y TopoJSON, y un capítulo sobre cómo integrar D3.js con AngularJS.\n\nCada capítulo gira en torno a ejemplos concretos y ejecutables con conjuntos de datos reales, lo que lo hace útil como colección de recetas para los tipos de gráfico más comunes. En cambio, es menos profundo en la teoría del diseño de visualizaciones. Conviene saber que está escrito para D3 v3 y AngularJS 1.x: ambos han cambiado mucho (D3 v4+ es modular, con otros nombres de API, y AngularJS ya no tiene soporte), así que hay que traducir los ejemplos a las versiones actuales.",
+    "temas": [
+      "D3.js v3",
+      "Selecciones y data binding",
+      "SVG",
+      "Gráficos de barras",
+      "Scatter y bubble plots",
+      "Animaciones",
+      "Interactividad",
+      "Paths y generadores",
+      "Layouts jerárquicos",
+      "Redes y Sankey",
+      "GeoJSON y TopoJSON",
+      "AngularJS"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://tenlong.com.tw/products/9781785280085",
+      "https://libcat.mcphs.edu/Record/in00000098173/Details"
+    ]
+  },
+  "data-visualization-with-d3-and-angularjs-2015": {
+    "descripcion": "Libro de Packt, firmado por Christoph Körner junto con Erik Hanchett, que enseña a combinar D3.js con AngularJS (la rama 1.x del framework) para crear visualizaciones de datos interactivas, reutilizables y fáciles de mantener. Al ser de 2015 trabaja con D3 v3. Está pensado para desarrolladores web de nivel intermedio que ya conocen AngularJS y JavaScript y quieren aprender a integrar gráficos dinámicos en sus aplicaciones, aunque no tengan experiencia previa con D3.\n\nEl recorrido empieza con los fundamentos: SVG como base del dibujo vectorial en el navegador, el papel de D3.js y por qué tiene sentido envolverlo en AngularJS. Después se tratan las selecciones y el enlace de datos de D3, la manipulación de datos, las escalas y los ejes, y la construcción de una directiva de gráfico (empezando por un diagrama de dispersión) para encapsular la visualización como componente reutilizable. Los capítulos siguientes explican cómo cargar y analizar datos tanto con las peticiones XHR de D3 como con el servicio $http de AngularJS, cómo dibujar curvas y formas (gráficos de líneas, barras y áreas), cómo controlar transiciones y animaciones personalizadas, y cómo dar vida al gráfico con interacciones del usuario.\n\nTodo converge en un panel que monitoriza registros (logs) de un servidor y los visualiza en tiempo real, que sirve como caso práctico integrador. Su aporte principal es mostrar cómo separar la lógica de la visualización en directivas de AngularJS en lugar de mezclar código de D3 en los controladores. Hay que tener en cuenta que tanto AngularJS 1.x (ya sin soporte) como D3 v3 están desactualizados: los conceptos de D3 siguen siendo válidos, pero la API cambió de forma notable en D3 v4 y posteriores, y quien trabaje con Angular moderno tendrá que adaptar el patrón de directivas a componentes.",
+    "temas": [
+      "D3.js v3",
+      "AngularJS 1.x",
+      "SVG",
+      "Directivas",
+      "Escalas y ejes",
+      "Carga de datos ($http, XHR)",
+      "Gráficos de líneas, barras y áreas",
+      "Transiciones y animaciones",
+      "Interactividad",
+      "Dashboards en tiempo real"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Directiva de gráfico de dispersión",
+        "descripcion": "Componente reutilizable de AngularJS que encapsula un scatter chart hecho con D3.js, con escalas, ejes y enlace de datos, y que sirve de base para el resto de gráficos del libro."
+      },
+      {
+        "nombre": "Visualización en tiempo real de logs del servidor",
+        "descripcion": "Panel (dashboard) que recibe y visualiza registros de un servidor en tiempo real, combinando directivas de AngularJS con gráficos, transiciones e interacciones de D3.js."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-in/product/data-visualization-with-d3-and-angularjs-9781784398484",
+      "https://www.oreilly.com/library/view/-/9781784398484/",
+      "https://www.oreilly.com/library/view/data-visualization-with/9781784398484/ch05.html"
+    ]
+  },
+  "data-visualization-with-d3-js-cookbook-2013": {
+    "descripcion": "Recetario de Packt escrito por Nick Qi Zhu, ingeniero de datos y creador de dc.js (una librería de gráficos multidimensionales construida sobre D3). Recorre D3.js en su versión 3 mediante recetas prácticas paso a paso, con ilustraciones y código de ejemplo. Está dirigido a desarrolladores que ya manejan HTML, CSS y JavaScript y quieren dominar D3, desde lo básico hasta técnicas avanzadas.\n\nLos 13 capítulos avanzan de forma progresiva: primeros pasos y conceptos de visualización de datos con JavaScript funcional; selección de elementos; manejo y enlace de datos; escalas; ejes; transiciones con estilo, incluidos interpoladores y tweening personalizados y temporizadores; generación de formas SVG (líneas, áreas, arcos); recetas de gráficos listos para usar (líneas, áreas, dispersión, burbujas, barras); los layouts de D3 (pastel, apilado, árbol, treemap, entre otros); interacción con el ratón, el tacto, el zoom y el arrastre; y el layout de fuerzas para simulaciones físicas y grafos. También hay un capítulo sobre pruebas unitarias de visualizaciones con Jasmine y un apéndice que muestra cómo montar análisis interactivos en minutos con crossfilter.js y dc.js.\n\nEl formato de recetas lo hace muy útil como referencia de consulta: cada problema concreto (dibujar un eje, animar una transición, construir un treemap) se resuelve en pocas páginas. A cambio, no guía la construcción de una aplicación completa ni profundiza en el diseño de visualizaciones. Lo más importante que conviene saber es que está escrito para D3 v3: desde D3 v4 la API pasó a ser modular y cambiaron muchos nombres (escalas, layouts, fuerzas), así que gran parte del código necesita adaptarse a las versiones actuales, aunque los conceptos siguen siendo válidos.",
+    "temas": [
+      "D3.js v3",
+      "Selecciones",
+      "Enlace de datos",
+      "Escalas",
+      "Ejes",
+      "Transiciones e interpoladores",
+      "Formas SVG",
+      "Layouts",
+      "Layout de fuerzas",
+      "Interacción y zoom",
+      "Pruebas con Jasmine",
+      "crossfilter.js y dc.js"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/data-visualization-with-d3-js-cookbook-turn-your-digital-data-into-dynamic-graphics-with-this-excit-nick-zhu,e_3baz.htm",
+      "https://packtpub.com/en-se/product/data-visualization-with-d3js-cookbook-9781782162162",
+      "https://www.oreilly.com/library/view/data-visualization-with/9781782162162"
+    ]
+  },
+  "learning-d3-js-data-visualization-2nd-edition-2016": {
+    "descripcion": "Segunda edición, revisada por Ændrew Rininsland (desarrollador del equipo de gráficos interactivos del Financial Times) a partir del original de Swizec Teller. Es una introducción a D3.js publicada por Packt en abril de 2016, poco antes de que saliera la versión estable de D3 v4, y escrita con JavaScript moderno (ES2015). Está pensada para principiantes en D3: desarrolladores web o periodistas de datos que ya conocen lo básico de JavaScript, HTML y CSS y quieren aprender a crear visualizaciones en el navegador.\n\nEnseña los modismos habituales del desarrollo con D3 y un flujo de trabajo completo para incorporar datos, transformarlos y convertirlos en una visualización. Repasa lo básico del DOM, SVG y CSS, el enlace de datos, las escalas, los ejes y los generadores de formas, y luego añade efectos sencillos, animaciones e interacción del usuario. Explora una amplia variedad de visualizaciones con casos prácticos, incluidos los layouts de D3 (jerárquicos y de otros tipos) y los mapas. Además dedica espacio a temas poco habituales en libros introductorios: usar D3 en el servidor con Node.js, automatizar las pruebas de las visualizaciones con Mocha y trabajar con herramientas modernas de compilación de JavaScript.\n\nSe aprende mediante ejemplos y casos de uso desarrollados capítulo a capítulo, más que mediante un único proyecto final. Su valor está en que no se queda en dibujar gráficos: también enseña buenas prácticas de ingeniería (pruebas, renderizado en el servidor, ES2015) que facilitan llevar las visualizaciones a producción, algo útil para quien trabaja en redacciones o equipos de producto. En contra, quedó a caballo entre D3 v3 y v4: la API de D3 siguió evolucionando (v5 a v7, con promesas en lugar de callbacks y cambios en la gestión de eventos), así que conviene contrastar el código con la documentación actual.",
+    "temas": [
+      "D3.js",
+      "ES2015",
+      "SVG",
+      "Enlace de datos",
+      "Escalas y ejes",
+      "Animación e interacción",
+      "Layouts",
+      "Mapas",
+      "Node.js",
+      "Pruebas con Mocha"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.goodreads.com/work/editions/51447254-learning-d3-js-data-visualization",
+      "https://www.oreilly.com/library/view/d3-js-cutting-edge-data/9781787281776/pt01.html"
+    ]
+  },
+  "learning-d3-js-mapping-2014": {
+    "descripcion": "Introducción breve y práctica de Thomas Newton y Oscar Villarreal a la creación de mapas web con D3.js. Al ser de 2014, trabaja con la rama 3.x de D3, anterior a la API modular de D3 v4 y posteriores. Está pensada para desarrolladores web y para quienes quieren publicar datos GIS en el navegador. Conviene manejar HTML, CSS y JavaScript; haber usado D3.js ayuda, pero no es obligatorio.\n\nEn sus siete capítulos va de lo básico a lo concreto. Primero prepara el entorno de trabajo del cartógrafo, después repasa los fundamentos de SVG (formas, trazados y estilos creados a partir de texto) y los pilares de D3: selecciones, enlace de datos (data binding) y generación de gráficos a partir de datos. Luego explica dónde conseguir datos geográficos gratuitos de cualquier parte del mundo y cómo recortarlos y modificarlos con TopoJSON. El capítulo central construye un mapa paso a paso: carga asíncrona de datos, cálculo del área de cobertura (bounding box), creación de la proyección y enlace de los datos a los elementos TopoJSON. Por último añade interactividad (eventos de clic, coropletas y superposición de datos sobre el mapa) y un capítulo de resolución de problemas frecuentes y herramientas complementarias.\n\nEl lector practica con ejemplos de código que van montando mapas cada vez más completos, desde un SVG estático hasta un mapa interactivo con datos propios. Es una buena puerta de entrada a la cartografía con D3 por su corta extensión (126 páginas), aunque esa misma brevedad deja fuera las proyecciones avanzadas, Canvas, los globos y el rendimiento con datos grandes. Hay que tener en cuenta que el código de D3 v3 necesita adaptaciones para funcionar con D3 v5 o superior. La segunda edición, Learning D3.js 5 Mapping (2017), actualiza el contenido.",
+    "temas": [
+      "D3.js v3",
+      "Mapas web",
+      "SVG",
+      "Data binding",
+      "GeoJSON",
+      "TopoJSON",
+      "Proyecciones",
+      "Coropletas",
+      "Interactividad",
+      "Datos GIS"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/learning-d3js-mapping-9781783985616",
+      "https://ebookpoint.pl/ksiazki/learning-d3js-mapping-build-stunning-maps-and-visualizations-using-d3js-thomas-newton-oscar-villarreal,e_3ayr.htm",
+      "https://subscription.packtpub.com/book/data/9781783985609/pref/preflvl1sec01/preface"
+    ]
+  },
+  "mastering-d3-js-2014": {
+    "descripcion": "Libro avanzado de Pablo Navarro Castillo, matemático y fundador de la agencia chilena de visualización Masega, sobre cómo crear y publicar visualizaciones complejas con D3.js (versión 3.x, la vigente en 2014). No es un libro para empezar: está dirigido a desarrolladores que ya conocen lo básico de D3 y quieren pasar de gráficos sueltos a componentes reutilizables, aplicaciones guiadas por datos y paneles de nivel empresarial.\n\nEl hilo conductor es el patrón de gráficos reutilizables (reusable charts), con componentes configurables y algoritmos de layout propios. A partir de ahí trata la visualización sin SVG mediante polyfills para navegadores antiguos y la creación de elementos de interfaz con D3, como un selector de color. También muestra cómo integrar los gráficos en aplicaciones de una sola página con Backbone, separando los datos de su representación, y explica cómo organizar, empaquetar y distribuir una librería de gráficos propia basada en D3. Los últimos capítulos cubren aplicaciones guiadas por datos, el diseño de un dashboard, mapas (coropletas con TopoJSON y la proyección de Mercator, más la integración con librerías de mapas de terceros para geocodificación inversa y mapas interactivos), redes sociales y colaboración, y una aplicación en tiempo real con Node.js y Firebase.\n\nEl aprendizaje se apoya en ejemplos reales que crecen hasta convertirse en aplicaciones completas. El código de cada capítulo está publicado en el repositorio del autor. Su gran aporte es la parte de arquitectura: cómo estructurar código D3 mantenible y reutilizable, algo que pocos libros cubren. Su punto débil es la antigüedad: D3 v3 y Backbone están superados, y hoy D3 es modular (v4 en adelante) y suele combinarse con React, Vue o Svelte. Conviene leerlo por sus patrones de diseño más que por su API concreta.",
+    "temas": [
+      "D3.js v3",
+      "Reusable charts",
+      "Layouts",
+      "Polyfills SVG",
+      "Componentes de UI",
+      "Backbone.js",
+      "Librería de gráficos",
+      "Dashboards",
+      "Mapas y TopoJSON",
+      "Node.js",
+      "Firebase",
+      "Tiempo real"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Selector de color con D3",
+        "descripcion": "Componente de interfaz creado íntegramente con D3, siguiendo el patrón de gráficos reutilizables, para elegir colores de forma interactiva."
+      },
+      {
+        "nombre": "Paquete de gráficos propio",
+        "descripcion": "Librería de gráficos basada en D3 que se organiza, empaqueta y distribuye con un flujo de desarrollo propio, para reutilizarla en otros proyectos."
+      },
+      {
+        "nombre": "Dashboard de visualización de datos",
+        "descripcion": "Panel con varios gráficos D3 coordinados, orientado a mostrar indicadores de forma compacta, en la línea de los paneles empresariales."
+      },
+      {
+        "nombre": "Mapas coropléticos e interactivos",
+        "descripcion": "Mapas con D3, TopoJSON y proyección de Mercator que detectan los países vecinos y sus fronteras, integrados con librerías de mapas de terceros para la geocodificación inversa."
+      },
+      {
+        "nombre": "Aplicación de visualización en tiempo real",
+        "descripcion": "Aplicación final que actualiza las visualizaciones con datos en vivo, usando Node.js y Firebase como fuente de datos en tiempo real."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.odbms.org/2017/06/mastering-d3-js/",
+      "https://reference-global.com/book/9781783286287",
+      "https://github.com/pnavarrc/mastering-d3",
+      "https://subscription.packtpub.com/book/data/9781783286270/10/ch10lvl1sec48/summary"
+    ]
+  },
+  "building-responsive-data-visualization-for-the-web-2015": {
+    "descripcion": "Libro de Bill Hinderman, publicado por Wiley a finales de 2015, que une dos disciplinas: el diseño web adaptable (responsive) y la visualización de datos. En el momento de su publicación, el autor era jefe de diseño en Starbase Go. Está pensado para diseñadores y desarrolladores front-end, y para sus equipos, que quieren incorporar el diseño responsive a su flujo de trabajo y lograr que sus gráficos funcionen igual de bien en móvil que en escritorio. Requiere conocimientos básicos de HTML, CSS y JavaScript. Usa D3.js en su versión 3.x, la vigente entonces.\n\nSe organiza en tres partes. La primera construye la base del web adaptable: la web móvil, los principios del diseño responsive, las cuadrículas flexibles, el diseño de layouts con CSS (media queries) y la mejora progresiva con JavaScript. La segunda aplica todo eso a la visualización: una breve historia del diseño de datos, los principios de la visualización responsive, el enfoque «pensar en pequeño» (mobile first), la dependencia de recursos y su carga, la visualización generada por código con manipulación de documentos guiada por datos con D3.js y la creación de una web preparada para el futuro. La tercera parte reúne recursos adicionales.\n\nCada capítulo incluye ejemplos, ejercicios y código fuente, de modo que el lector practica adaptando gráficos y páginas a distintos tamaños de pantalla. Su aporte está en el enfoque de diseño: enseña a pensar la visualización desde la restricción del móvil, no solo a programarla. No es un manual a fondo de D3: la librería aparece como herramienta dentro de un método más amplio. Además, parte de las técnicas (soporte de navegadores, D3 v3) han quedado algo anticuadas frente a CSS Grid, los contenedores SVG con viewBox y las versiones modernas de D3.",
+    "temas": [
+      "Diseño responsive",
+      "Web móvil",
+      "Cuadrículas flexibles",
+      "CSS y media queries",
+      "Mejora progresiva",
+      "Mobile first",
+      "Visualización de datos",
+      "D3.js",
+      "Rendimiento y recursos",
+      "SVG"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://tenlong.com.tw/products/9781119067146",
+      "https://eld.bl.uk/catalog/017534618",
+      "https://library.isical.ac.in/bib/421244"
+    ]
+  }
+}

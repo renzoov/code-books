@@ -1,0 +1,117 @@
+{
+  "data-entry-and-validation-with-c-and-vb-net-windows-forms-2003": {
+    "descripcion": "Tratado técnico especializado en ergonomía y robustez de entrada de datos escrito por Nick Symmonds y publicado por Apress en 2003. Aborda el diseño de formularios de escritorio profesionales en .NET 1.1.\n\nExamina eventos de teclado y ratón, validación de controles con `ErrorProvider`, expresiones regulares para validación de formatos, enlace de datos (data binding) y diseño accesible de interfaces para captura intensiva de datos.\n\nNick Symmonds enseña a diseñar aplicaciones de escritorio que minimizan los errores humanos y ofrecen una experiencia de usuario fluida e intuitiva. Una referencia clásica fundamental para interfaces Windows Forms.",
+    "temas": [
+      "Windows Forms",
+      "Data Entry",
+      "ErrorProvider",
+      "Data Binding",
+      "Validación",
+      "Nick Symmonds",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Registro y Validación Contable en Windows Forms",
+        "descripcion": "Construcción de formularios con validación reactiva en tiempo real y asistencia visual mediante ErrorProvider."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-0820-4"
+    ]
+  },
+  "pro-net-2-0-windows-forms-and-custom-controls-in-c-2005": {
+    "descripcion": "Obra cumbre sobre desarrollo de controles personalizados y componentes gráficos en .NET 2.0 escrita por Matthew MacDonald y publicada por Apress en 2005. Es la biblia indiscutida de Windows Forms avanzado.\n\nProfundiza en la arquitectura del sistema de ventanas GDI+, dibujado manual con `Graphics` y eventos `OnPaint`, creación de controles compuestos, controles heredados, soporte de diseño en tiempo de edición con diseñadores de Visual Studio, y doble búfer.\n\nMatthew MacDonald destaca por su prosa transparente y rigor técnico, dotando a los desarrolladores de la capacidad de crear bibliotecas de componentes comerciales de alta calidad visual. Un clásico imprescindible.",
+    "temas": [
+      "Windows Forms",
+      "Custom Controls",
+      "GDI+",
+      "Matthew MacDonald",
+      ".NET 2.0",
+      "Visual Studio Designer",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Biblioteca de Controles Personalizados de Gráficos y Medidores",
+        "descripcion": "Implementación de controles de usuario dibujados con GDI+ con propiedades editables en el diseñador de Visual Studio."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-0056-7"
+    ]
+  },
+  "manual-de-formularios-windows-forms": {
+    "descripcion": "Manual formativo y práctico en español sobre desarrollo de aplicaciones de escritorio escrito por Luis Dueñas. Enseña a construir aplicaciones interactivas con Windows Forms y C#.\n\nCubre la jerarquía de controles estándar (TextBox, Button, ComboBox, DataGridView), gestión de eventos, navegación entre ventanas modales y no modales, validación básica de entradas y conexión a bases de datos con ADO.NET.\n\nLuis Dueñas ofrece una guía didáctica directa y orientada a estudiantes y nuevos programadores, permitiendo adquirir solidez en el desarrollo de software administrativo de escritorio.",
+    "temas": [
+      "Windows Forms",
+      "C#",
+      "DataGridView",
+      "ADO.NET",
+      "Formularios",
+      "Luis Dueñas"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de Gestión de Clientes y Facturación en Windows Forms",
+        "descripcion": "Desarrollo de un sistema CRUD con tablas interactivas DataGridView y persistencia en base de datos relacional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "windows-forms-in-action-2nd-edition-2006": {
+    "descripcion": "Segunda edición del tratado técnico de desarrollo de clientes de escritorio escrito por Erik Brown y publicado por Manning en 2006. Diseñado para dominar Windows Forms en .NET 2.0 mediante el proyecto continuo MyPhotos.\n\nAborda el ciclo de vida de los formularios, componentes visuales avanzados, impresión y previsualización de documentos, manejo de imágenes GDI+, drag-and-drop, y enlace de datos bidireccional con DataGridView y BindingSource.\n\nErik Brown adopta una pedagogía basada en proyectos que enseña no sólo a utilizar los controles, sino a diseñar arquitecturas de escritorio mantenibles y modulares. Una referencia clásica formativa de gran prestigio.",
+    "temas": [
+      "Windows Forms",
+      "DataGridView",
+      "BindingSource",
+      "GDI+",
+      "MyPhotos",
+      "Erik Brown",
+      "Manning"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación MyPhotos de Gestión y Edición de Álbumes Fotográficos",
+        "descripcion": "Construcción gradual de una aplicación de escritorio completa con visor de imágenes, miniaturas y metadatos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/windows-forms-in-action-second-edition"
+    ]
+  },
+  "net-windows-forms-in-a-nutshell-2003": {
+    "descripcion": "Guía de referencia rápida y sintética de escritorio escrita por Ian Griffiths y publicada por O'Reilly en 2003. Condensa la arquitectura y las clases del espacio de nombres `System.Windows.Forms`.\n\nIncluye diagramas de jerarquía de clases, resumen exhaustivo de propiedades, métodos y eventos de cada control, integración con GDI+ y directrices esenciales para la creación de interfaces de usuario en .NET.\n\nIan Griffiths ofrece un manual de consulta rápida riguroso y libre de introducciones superfluas, permitiendo a los ingenieros verificar firmas de métodos y comportamientos de eventos al instante. Un clásico de consulta.",
+    "temas": [
+      "Windows Forms in a Nutshell",
+      "System.Windows.Forms",
+      "Referencia Rápida",
+      "Ian Griffiths",
+      "O'Reilly"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/net-windows-forms/0596003382/"
+    ]
+  }
+}

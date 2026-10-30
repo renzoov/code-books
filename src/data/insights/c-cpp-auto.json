@@ -1,0 +1,2137 @@
+{
+  "accelerated-c-practical-programming-by-example-2000": {
+    "descripcion": "Obra cumbre pedagógica escrita por Andrew Koenig y Barbara E. Moo, publicada por Addison-Wesley en 2000. Revolucionó para siempre la enseñanza de C++ al comenzar directamente con las abstracciones de alto nivel de la biblioteca estándar (std::string y std::vector) en lugar de punteros primitivos de C.\n\nCubre la manipulación de contenedores estándar, iteradores y algoritmos genéricos, diseño de funciones, creación de clases con encapsulamiento, sobrecarga de operadores, plantillas (templates) y polimorfismo dinámico.\n\nA través de problemas prácticos de procesamiento de calificaciones de estudiantes y análisis de texto, enseña a escribir código seguro y expresivo desde la primera lección. Un clásico inmortal de la literatura de C++.",
+    "temas": [
+      "Accelerated C++",
+      "Andrew Koenig",
+      "Barbara Moo",
+      "STL",
+      "std::vector",
+      "std::string",
+      "Templates",
+      "Addison-Wesley"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Procesamiento y Análisis de Texto con la STL",
+        "descripcion": "Construcción de un analizador lingüístico que formatea tablas, calcula estadísticas y genera concordancias mediante contenedores STL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/accelerated-c-plus-plus-practical-programming-by-example-9780201703535"
+    ]
+  },
+  "c-primer-5th-edition-2012": {
+    "descripcion": "Quinta edición de la monumental biblia de C++ escrita por Stanley B. Lippman, Josée Lajoie y Barbara E. Moo, publicada por Addison-Wesley en 2012. Con casi 1.000 páginas, es el manual formativo más completo y prestigioso del estándar C++11.\n\nCubre los fundamentos del lenguaje, la biblioteca estándar moderna (smart pointers, contenedores asociativos y secuenciales, algoritmos), semántica de movimiento (move semantics), expresiones lambda, clases avanzadas con la regla del cinco, plantillas y metaprogramación.\n\nCada capítulo concluye con ejercicios detallados que refuerzan la disciplina del C++ moderno idiomático. Considerada de forma unánime la mejor guía de estudio integral para cualquier persona que aspire a dominar C++.",
+    "temas": [
+      "C++ Primer",
+      "Stanley Lippman",
+      "Barbara Moo",
+      "C++11",
+      "Move Semantics",
+      "Smart Pointers",
+      "STL",
+      "Addison-Wesley"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de Búsqueda y Consultas de Texto con C++11 y la STL",
+        "descripcion": "Desarrollo paso a paso de un sistema de consultas lógicas sobre archivos de texto utilizando punteros inteligentes y contenedores asociativos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/c-plus-plus-primer-9780321714114"
+    ]
+  },
+  "effective-c-3rd-edition-2008": {
+    "descripcion": "Tercera edición del inmortal clásico de Scott Meyers, publicado por Addison-Wesley en 2005/2008. Reúne 55 directrices específicas e indispensables para escribir código C++ orientado a objetos y de alto rendimiento sin incurrir en comportamiento indefinido.\n\nOrganizado en temas cruciales: constructores, destructores y asignación, gestión de recursos con RAII (Resource Acquisition Is Initialization), diseño y declaración de interfaces, implementación eficiente, herencia y programación orientada a objetos, y diseño de plantillas.\n\nScott Meyers disecciona con ingenio y lucidez incomparable las trampas más sutiles del compilador y el modelo de objetos. Una obra maestra técnica que todo programador de C++ debe leer.",
+    "temas": [
+      "Effective C++",
+      "Scott Meyers",
+      "RAII",
+      "Regla de los Tres",
+      "Smart Pointers",
+      "Buenas Prácticas",
+      "Diseño de Clases",
+      "Addison-Wesley"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.aristeia.com/books.html",
+      "https://www.informit.com/store/effective-c-plus-plus-55-specific-ways-to-improve-9780321334879"
+    ]
+  },
+  "more-effective-c-2008": {
+    "descripcion": "Tratado técnico indispensable de Scott Meyers publicado por Addison-Wesley. Complementa a Effective C++ con 35 directrices avanzadas para mejorar el diseño, la robustez y el rendimiento de programas en C++.\n\nCubre la optimización de costes de objetos temporales, evaluación perezosa (lazy evaluation), gestión rigurosa de excepciones sin fugas de memoria mediante RAII, sobrecarga inteligente de operadores, y patrones de diseño avanzados como Proxy, Virtual Constructors y RTTI.\n\nCada elemento ofrece explicaciones profundas con código contrastado de alto nivel. Una lectura fundamental para ingenieros senior de sistemas y creadores de librerías en C++.",
+    "temas": [
+      "More Effective C++",
+      "Scott Meyers",
+      "Excepciones Seguras",
+      "RAII",
+      "Proxy Pattern",
+      "Lazy Evaluation",
+      "Optimización",
+      "Addison-Wesley"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.aristeia.com/books.html",
+      "https://www.informit.com/store/more-effective-c-plus-plus-35-new-ways-to-improve-9780201633719"
+    ]
+  },
+  "problem-solving-with-c-7th-edition-2008": {
+    "descripcion": "Séptima edición del prestigioso libro de texto universitario escrito por Walter Savitch, publicado por Addison-Wesley en 2008. Es uno de los manuales universitarios más utilizados del mundo para la enseñanza de la computación con C++.\n\nCubre desde los conceptos fundamentales: tipos, flujo de control, funciones, arrays y cadenas de texto, hasta temas intermedios: punteros y asignación dinámica de memoria, clases y tipos abstractos de datos, herencia, polimorfismo, manejo de excepciones y recursión.\n\nWalter Savitch destaca por un estilo docente riguroso con cientos de ejercicios, proyectos de programación y análisis de errores comunes. Un recurso académico ejemplar para cimentar la lógica de programación.",
+    "temas": [
+      "Walter Savitch",
+      "Problem Solving",
+      "C++ Académico",
+      "POO",
+      "Punteros",
+      "Recursión",
+      "Excepciones",
+      "Addison-Wesley"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Algoritmos Numéricos y Gestión de Datos en C++",
+        "descripcion": "Implementación de programas de cálculo científico, ordenación y gestión de estructuras dinámicas de datos con validación rigurosa."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/problem-solving-with-c-plus-plus-9780321531346"
+    ]
+  },
+  "the-c-programming-language-4th-edition-2013": {
+    "descripcion": "Cuarta edición de la monumental biblia técnica escrita por Bjarne Stroustrup (el creador de C++), publicada por Addison-Wesley en 2013. Con cerca de 1.300 páginas, es el tratado definitivo y exhaustivo sobre el estándar C++11.\n\nCubre la totalidad de la semántica del lenguaje: tipos y declaraciones, abstracción y clases, metaprogramación con plantillas variádicas, concurrencia nativa (std::thread, std::async, memoria atómica), la biblioteca estándar completa (STL) y pautas de diseño arquitectónico.\n\nCon la autoridad técnica suprema del padre del lenguaje, ofrece una explicación profunda de la filosofía y decisiones que sustentan cada característica de C++. Una obra maestra indiscutible de la computación universal.",
+    "temas": [
+      "Bjarne Stroustrup",
+      "C++11",
+      "Biblia C++",
+      "Plantillas Variádicas",
+      "Concurrencia",
+      "STL Completa",
+      "Filosofía C++",
+      "Addison-Wesley"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Calculadora Simbólica y Motor de Concurrencia en C++11",
+        "descripcion": "Desarrollo de un intérprete de expresiones matemáticas concurrentes utilizando hilos nativos, futuros y análisis léxico idiomático."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.stroustrup.com/4th.html",
+      "https://www.informit.com/store/c-plus-plus-programming-language-9780321563842"
+    ]
+  },
+  "the-c-standard-library-2nd-edition-2012": {
+    "descripcion": "Segunda edición de la enciclopedia canónica escrita por Nicolai M. Josuttis, publicada por Addison-Wesley en 2012. Con más de 1.100 páginas, es la obra de referencia indiscutible sobre la biblioteca estándar de C++ (STL C++11).\n\nDetalla minuciosamente todos los componentes de la biblioteca: utilidades de propósito general (smart pointers, tuples, type traits, chrono), contenedores secuenciales y asociativos ordenados y no ordenados (unordered_map), iteradores, algoritmos genéricos, expresiones lambda, cadenas, internacionalización y el nuevo subsistema multihilo.\n\nCada función, clase y método se explica con sus firmas exactas, complejidad algorítmica y ejemplos de uso prácticos. El manual de consulta de escritorio más imprescindible para cualquier desarrollador profesional de C++.",
+    "temas": [
+      "Nicolai Josuttis",
+      "C++ Standard Library",
+      "STL",
+      "C++11",
+      "Smart Pointers",
+      "unordered_map",
+      "Algoritmos",
+      "Addison-Wesley"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.josuttis.com/libbook/",
+      "https://www.informit.com/store/c-plus-plus-standard-library-a-tutorial-and-reference-9780321623218"
+    ]
+  },
+  "advanced-c-and-c-compiling-2014": {
+    "descripcion": "Tratado técnico excepcional escrito por Milan Stevanovic y publicado por Apress en 2014. Es una de las pocas obras que desmitifica por completo la fase de compilación, enlazado y carga de binarios en C y C++.\n\nExplora el preprocesador, generación de código objeto, bibliotecas estáticas (.a/.lib) y dinámicas compartidas (.so/.dll), símbolos (mangling, visibilidad, resolución de conflictos), la tabla de enlazado global (GOT), la tabla de enlace de procedimientos (PLT), y la carga dinámica en tiempo de ejecución con `dlopen`.\n\nEl autor proporciona herramientas prácticas de diagnóstico con `nm`, `objdump`, `readelf` y `ldd` en Linux y Windows. Indispensable para ingenieros de sistemas, desarrolladores de librerías y especialistas en depuración a bajo nivel.",
+    "temas": [
+      "Compilación",
+      "Enlazado",
+      "Bibliotecas Compartidas",
+      "Símbolos y Mangling",
+      "ELF Binaries",
+      "readelf",
+      "dlopen",
+      "Apress"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de Plugins Cargados Dinámicamente en Tiempo de Ejecución",
+        "descripcion": "Construcción de un sistema modular de extensiones con resolución manual de símbolos, control de visibilidad y enlace dinámico."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-6668-6"
+    ]
+  },
+  "assessing-and-improving-prediction-and-classification-2017": {
+    "descripcion": "Tratado cuantitativo avanzado escrito por Timothy Masters y publicado por Apress en 2017. Aborda las técnicas estadísticas y de aprendizaje automático para validar y optimizar algoritmos predictivos implementados en C++.\n\nCubre medidas rigurosas de rendimiento: curvas ROC, matrices de confusión, validación cruzada (k-fold y leave-one-out), calibración de probabilidades, remuestreo bootstrap y métodos de regularización para evitar el sobreajuste (overfitting).\n\nEl autor acompaña las explicaciones matemáticas con código C++ completo y altamente optimizado para cómputo científico intensivo. Muy recomendado para desarrolladores de machine learning cuantitativo y finanzas.",
+    "temas": [
+      "Machine Learning en C++",
+      "Timothy Masters",
+      "Curvas ROC",
+      "Validación Cruzada",
+      "Bootstrap",
+      "Estadística Cuantitativa",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor Cuantitativo de Validación de Modelos Predictivos en C++",
+        "descripcion": "Implementación de una biblioteca de evaluación de clasificadores con cálculo de curvas ROC, remuestreo bootstrap y análisis de calibración."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3153-1"
+    ]
+  },
+  "beginning-c-5th-edition-2013": {
+    "descripcion": "Quinta edición del prestigioso manual formativo de Ivor Horton, publicado por Apress en 2013. Es una de las guías más recomendadas del mundo para aprender el lenguaje C puro (estándar C11) desde sus primeros principios.\n\nCubre la sintaxis fundamental, tipos de datos, aritmética binaria, control de flujo, arrays, cadenas de texto, punteros en profundidad, gestión manual de memoria (`malloc`, `free`), estructuras, uniones, manipulación de archivos y el preprocesador.\n\nIvor Horton destaca por un estilo pausado, minuciosamente documentado y repleto de ejercicios prácticos graduados. La puerta de entrada ideal para cualquier estudiante que busque una comprensión sólida del lenguaje C.",
+    "temas": [
+      "Ivor Horton",
+      "C11",
+      "Lenguaje C",
+      "Punteros",
+      "Gestión de Memoria",
+      "malloc y free",
+      "Archivos",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Gestión de Ficheros y Registros Binarios en C",
+        "descripcion": "Construcción de un programa de almacenamiento estructurado con asignación dinámica de memoria y lectura y escritura de archivos binarios."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-4881-1"
+    ]
+  },
+  "beginning-c-2014": {
+    "descripcion": "Manual exhaustivo y didáctico de Ivor Horton publicado por Apress en 2014. Diseñado como una introducción completa a C++ moderno (C++14) para principiantes en la programación.\n\nExplora variables, operadores, sentencias condicionales, bucles, punteros y referencias, diseño de funciones, clases y programación orientada a objetos, sobrecarga de operadores, plantillas básicas y uso de la biblioteca estándar (std::vector, std::string).\n\nEl autor utiliza un enfoque estructurado con ejemplos paso a paso que facilitan el aprendizaje constante sin abrumar con la complejidad del lenguaje. Muy recomendado para cursos introductorios de C++.",
+    "temas": [
+      "Ivor Horton",
+      "Beginning C++",
+      "C++14",
+      "POO",
+      "Punteros y Referencias",
+      "STL Básica",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Simulador de Registro y Facturación Orientado a Objetos en C++",
+        "descripcion": "Desarrollo de una aplicación de terminal con jerarquía de clases polimórficas, sobrecarga de operadores y gestión dinámica de memoria."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-0008-7"
+    ]
+  },
+  "beginning-c-17-5th-edition-2018": {
+    "descripcion": "Quinta edición renovada por Ivor Horton y Peter Van Weert, publicada por Apress en 2018. Actualiza la célebre guía de iniciación al estándar C++17 moderno.\n\nIncorpora el uso de `string_view`, deducción de tipos de plantillas de clases (CTAD), enlaces estructurados (structured binding), condicionales con inicializadores (`if (init; condition)`), punteros inteligentes (`std::unique_ptr`, `std::shared_ptr`) y contenedores de la STL.\n\nLos autores enfatizan el C++ idiomático contemporáneo, evitando viejas prácticas de estilo C. Considerada una de las mejores y más actualizadas guías de iniciación para C++17.",
+    "temas": [
+      "C++17",
+      "Ivor Horton",
+      "Peter Van Weert",
+      "Structured Binding",
+      "string_view",
+      "CTAD",
+      "Smart Pointers",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Procesador de Datos con Estructuras de C++17 y la STL",
+        "descripcion": "Construcción de una herramienta con structured bindings, punteros inteligentes seguros y algoritmos estándar de ordenación y filtrado."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3366-5"
+    ]
+  },
+  "c-recipes-2017": {
+    "descripcion": "C Recipes: A Problem-Solution Approach es un recetario de programación en C escrito por Shirish Chavan y publicado por Apress en 2017. Chavan, que ha enseñado física e informática en colegios universitarios de la India durante unos treinta años, sigue el formato problema-solución de la serie Recipes de Apress: cada receta plantea una tarea concreta, presenta el programa completo en C y explica cómo funciona. La editorial lo dirige a lectores que ya tienen algo de experiencia con C y buscan un repertorio de soluciones que consultar.\n\nLos once capítulos empiezan con una introducción al lenguaje y siguen con sentencias de control (suma de 1 a N, serie de Fibonacci, cálculo del seno, raíces de una ecuación cuadrática), funciones y arrays (números primos, recursión, el problema de las ocho reinas, suma y producto de matrices), punteros y arrays, incluidos punteros a punteros para manejar cadenas, y funciones y estructuras con punteros, que termina con un menú en modo texto. Siguen los archivos de datos en modo texto y binario (lectura, escritura, copia y renombrado), las listas enlazadas, y las pilas y colas, con conversión de notación infija a postfija y prefija y una cola circular. Después vienen la búsqueda lineal y binaria y seis algoritmos de ordenación (burbuja, inserción, selección, mezcla, Shell y quicksort), un capítulo de cifrados (inverso, César, transposición, multiplicativo, afín, sustitución, Vigenère, one-time pad y RSA) y otro de métodos numéricos: raíces por bisección, regula falsi, Muller y Newton-Raphson, interpolación de Newton, Gauss, Stirling, Bessel, Everett y Lagrange, integración por trapecios y Simpson, y ecuaciones diferenciales por Euler modificado y Runge-Kutta.\n\nEs un libro de ejemplos y no un curso: no enseña C desde cero ni trata los estándares modernos (C11/C17), las herramientas de compilación y depuración o la programación de sistemas. Su valor está en los algoritmos clásicos de estructuras de datos, criptografía y cálculo numérico resueltos en C estándar, que siguen siendo válidos. En el repositorio oficial de Apress solo está publicado el código del capítulo 5.",
+    "temas": [
+      "C",
+      "Recetas problema-solución",
+      "Punteros",
+      "Estructuras y uniones",
+      "Archivos de datos",
+      "Listas enlazadas",
+      "Pilas y colas",
+      "Búsqueda y ordenación",
+      "Criptografía clásica",
+      "Métodos numéricos"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2967-5",
+      "https://github.com/Apress/c-recipes"
+    ]
+  },
+  "c-2013-for-c-developers-2nd-edition-2014": {
+    "descripcion": "Segunda edición de la guía técnica de Praveen Kumar Dhanasekharan, publicada por Apress en 2014. Diseñada para programadores de C++ que se adentran en C# y la plataforma Microsoft .NET Framework.\n\nCompara meticulosamente la gestión de memoria en C++ (punteros, RAII) frente al Garbage Collector de .NET, el modelo de clases e interfaces en C#, delegados y eventos frente a punteros a funciones, y el lenguaje de consultas integrado LINQ.\n\nA través de casos prácticos, enseña a traducir patrones de C++ en código idiomático de C#, facilitando una transición fluida en proyectos empresariales. Muy formativo para desarrolladores de sistemas que abordan aplicaciones corporativas de Windows.",
+    "temas": [
+      "C++ a C#",
+      "Punteros vs Garbage Collection",
+      "LINQ",
+      "Delegados",
+      ".NET",
+      "POO Comparada",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Migración de Módulo de Negocio de C++ a C# con LINQ",
+        "descripcion": "Reimplementación de un algoritmo de análisis financiero sustituyendo iteradores de C++ por consultas LINQ sobre colecciones genéricas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-6752-2"
+    ]
+  },
+  "c-cli-primer-2016": {
+    "descripcion": "C++/CLI Primer: For .NET Development es un libro breve de Vivek Ragunathan publicado por Apress a finales de 2016. Ragunathan es arquitecto de software con experiencia en aplicaciones back-end y web a gran escala en .NET, C#, Java, C++, JavaScript, Python y Scala. El libro explica C++/CLI, la variante de C++ de Microsoft para la plataforma .NET, que permite mezclar código nativo y código gestionado en un mismo programa. Está dirigido a desarrolladores .NET con experiencia que conocen el framework y C++, y en 2016 Visual Studio 2015 era la referencia.\n\nEn unas 80 páginas reparte el contenido en 24 capítulos muy cortos. Tras unas convenciones iniciales, resume la programación no gestionada y la gestionada y explica qué es C++/CLI. Luego recorre los tipos y la creación de objetos, la correspondencia entre tipos primitivos de C++ y de .NET, los tipos de valor definidos por el usuario y los tipos de referencia, una introducción al recolector de basura, cómo declarar y usar una clase gestionada, el boxing y unboxing, la destrucción de objetos y el ámbito de un objeto gestionado. La parte más característica es el modo mixto, en el que conviven código nativo y gestionado. Cierran el libro la igualdad frente a la identidad, las clases abstractas, nullptr, la declaración de propiedades, las cadenas, los arrays gestionados con cli::array, una segunda mirada al recolector de basura y los genéricos.\n\nEs un manual de iniciación para quien tiene que leer o mantener código C++/CLI, no una referencia completa: no cubre la interoperabilidad avanzada, WinForms ni WPF y no trae proyectos. Además, C++/CLI solo funciona en Windows; Microsoft lo mantiene sobre todo como puente de interoperabilidad, de modo que el libro interesa sobre todo para mantener código heredado.",
+    "temas": [
+      "C++/CLI",
+      ".NET",
+      "Código gestionado y nativo",
+      "Modo mixto",
+      "Recolección de basura",
+      "Boxing y unboxing",
+      "Tipos de valor y de referencia",
+      "Propiedades",
+      "Genéricos",
+      "Visual C++"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2367-3"
+    ]
+  },
+  "c-standard-library-quick-reference-2016": {
+    "descripcion": "Guía de referencia rápida escrita por Peter Van Weert y Marc Gregoire, publicada por Apress en 2016. Condensa la biblioteca estándar de C++11 y C++14 en un compendio portátil y de consulta inmediata.\n\nCubre contenedores de la STL (vector, list, deque, map, set, unordered containers), iteradores, algoritmos de ordenación, búsqueda y transformación, punteros inteligentes (unique_ptr, shared_ptr), utilidades de tiempo (chrono), y soporte de concurrencia básica.\n\nSu estructura directa permite revisar firmas de métodos y parámetros al instante. Una herramienta de cabecera indispensable para cualquier desarrollador de C++.",
+    "temas": [
+      "Referencia STL",
+      "Peter Van Weert",
+      "Marc Gregoire",
+      "C++14",
+      "Smart Pointers",
+      "Contenedores",
+      "Algoritmos",
+      "Apress"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1876-1"
+    ]
+  },
+  "c-17-standard-library-quick-reference-2nd-edition-2019": {
+    "descripcion": "Segunda edición de la guía de referencia rápida de Peter Van Weert y Marc Gregoire, publicada por Apress en 2019. Actualizada para incluir todas las novedades de la biblioteca estándar de C++17.\n\nIncorpora `std::string_view`, los tipos de vocabulario `std::optional`, `std::variant` y `std::any`, la biblioteca de sistema de archivos `std::filesystem`, algoritmos paralelos de la STL con políticas de ejecución (`std::execution::par`), y nuevas utilidades matemáticas.\n\nSu formato conciso ofrece definiciones claras y ejemplos breves de sintaxis. Una herramienta de referencia rápida de inmenso valor práctico.",
+    "temas": [
+      "C++17 STL",
+      "std::filesystem",
+      "std::optional",
+      "std::variant",
+      "string_view",
+      "Algoritmos Paralelos",
+      "Apress"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4925-3"
+    ]
+  },
+  "c-20-quick-syntax-reference-4th-edition-2020": {
+    "descripcion": "Cuarta edición de la popular guía de sintaxis rápida de Mikael Olsson, publicada por Apress en 2020. Incorpora todas las revolucionarias características del nuevo estándar ISO C++20.\n\nCubre los cuatro grandes pilares de C++20: Módulos (modules) para sustitución de archivos de cabecera, Conceptos (concepts) para restricción de plantillas, Corrutinas (coroutines) para asincronía y generadores, y la biblioteca Ranges (`std::ranges`) para canalizaciones declarativas.\n\nSu estilo sintético y directo permite asimilar las grandes innovaciones de C++20 en pocas horas de lectura. Excelente como guía de bolsillo para programadores en transición hacia el estándar actual.",
+    "temas": [
+      "C++20",
+      "Módulos",
+      "Conceptos",
+      "Corrutinas",
+      "std::ranges",
+      "Mikael Olsson",
+      "Sintaxis Rápida",
+      "Apress"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5997-9"
+    ]
+  },
+  "c-20-recipes-2nd-edition-2020": {
+    "descripcion": "Segunda edición del recetario técnico de J. Burton Browning y Bruce Sutherland, publicado por Apress en 2020. Proporciona más de un centenar de recetas prácticas optimizadas para el estándar moderno C++20.\n\nCubre la aplicación práctica de Conceptos en plantillas, canalizaciones de datos con la biblioteca Ranges, uso de corrutinas para programación asíncrona, formateo moderno con `std::format`, `std::span` para vistas seguras de arrays contiguos, y el operador nave espacial de comparación tridireccional (`<=>`).\n\nCada receta incluye el código fuente completo, explicaciones claras del nuevo estándar y directrices para escribir código rápido y libre de errores. Una referencia moderna esencial.",
+    "temas": [
+      "C++20 Recipes",
+      "std::format",
+      "Ranges",
+      "Conceptos",
+      "Corrutinas",
+      "std::span",
+      "Operador <=> ",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-6157-6"
+    ]
+  },
+  "clean-c-2017": {
+    "descripcion": "Clean C++: Sustainable Software Development Patterns and Best Practices with C++ 17 es un libro de Stephan Roth publicado por Apress en 2017. Roth es coach, consultor y formador en ingeniería de sistemas y software en la consultora alemana oose de Hamburgo. El libro lleva las ideas de Clean Code y del movimiento Software Craftsmanship a C++ moderno, y está dirigido a desarrolladores C++ de cualquier nivel que quieren escribir código comprensible, flexible y mantenible.\n\nEmpieza con las pruebas como red de seguridad: reglas para buenas pruebas unitarias, independencia y nombres de los tests, dobles de prueba y qué no conviene probar. Siguen los principios de diseño (KISS, YAGNI, DRY, ocultación de información, alta cohesión, bajo acoplamiento, mínima sorpresa, regla del boy scout) y los fundamentos de un C++ limpio: buenos nombres, cuándo comentar, funciones pequeñas, argumentos y valores de retorno, y cómo abandonar el estilo C (char*, printf, arrays y casts de C, macros). El capítulo de conceptos avanzados trata la gestión de recursos con RAII y punteros inteligentes, la semántica de movimiento y la regla del cero, la deducción de tipos y el cálculo en tiempo de compilación, el comportamiento indefinido, la programación rica en tipos, <algorithm> y Boost, y el manejo de excepciones. Luego vienen la orientación a objetos con los principios SOLID, la ley de Deméter y Tell, Don't Ask; la programación funcional con functores, lambdas y map, filter y reduce; el TDD, ilustrado con la kata de números romanos en Google Test; y los patrones: inyección de dependencias, Adapter, Strategy, Command, Composite, Observer, factorías, Facade, Money y Null Object, además de idiomas propios de C++. Un apéndice resume UML.\n\nPese al subtítulo, el índice muestra sobre todo características de C++11 y C++14, como las lambdas genéricas o las plantillas de variables, y el libro salió antes de que el estándar C++17 se publicara oficialmente. No trae ejercicios propuestos, aunque el código de la kata de TDD está en el repositorio oficial. El autor publicó en 2021 una segunda edición actualizada, Clean C++20.",
+    "temas": [
+      "C++",
+      "Clean Code",
+      "Pruebas unitarias",
+      "Google Test",
+      "TDD",
+      "SOLID",
+      "RAII y punteros inteligentes",
+      "Semántica de movimiento",
+      "Programación funcional",
+      "Patrones de diseño"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2793-0",
+      "https://github.com/Apress/clean-cplusplus"
+    ]
+  },
+  "deep-belief-nets-in-c-and-cuda-c-volume-1-2018": {
+    "descripcion": "Tratado técnico especializado escrito por Timothy Masters y publicado por Apress en 2018. Se enfoca en la implementación matemática desde cero de redes de creencias profundas (Deep Belief Networks - DBNs) y máquinas de Boltzmann restringidas (RBMs) en C++ y aceleración GPU con CUDA C.\n\nCubre la formulación matemática de modelos generativos, muestreo de Gibbs, contrastive divergence (CD-k), álgebra lineal acelerada en tarjetas gráficas NVIDIA mediante CUDA, y optimización del uso de memoria compartida en la GPU.\n\nEl autor proporciona el código fuente completo en C++ y CUDA sin depender de frameworks de alto nivel como TensorFlow o PyTorch. Indispensable para investigadores e ingenieros de computación de alto rendimiento en inteligencia artificial.",
+    "temas": [
+      "Deep Belief Nets",
+      "CUDA C",
+      "Timothy Masters",
+      "RBMs",
+      "Muestreo de Gibbs",
+      "GPU Computing",
+      "C++ Científico",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de Redes de Creencias Profundas Acelerado por GPU en CUDA C++",
+        "descripcion": "Construcción desde cero de un clasificador no supervisado con kernels paralelos de CUDA para multiplicación de matrices y muestreo de Gibbs."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3453-2"
+    ]
+  },
+  "deep-belief-nets-in-c-and-cuda-c-volume-3-2018": {
+    "descripcion": "Tercer volumen de la rigurosa trilogía de Timothy Masters publicada por Apress en 2018. Se especializa en la aplicación de redes de creencias profundas a problemas complejos de modelado predictivo y series temporales no lineales.\n\nExplora el ajuste fino supervisado (fine-tuning) mediante backpropagation acelerado en GPU, arquitecturas convolucionales combinadas con RBMs, selección de características latentes y estrategias de regularización avanzada para prevenir el sobreajuste en datos ruidosos.\n\nIncluye casos de estudio aplicados a la predicción financiera y diagnóstico biomédico con bancos de pruebas y código completo en C++ y CUDA. Una obra maestra técnica de computación intensiva.",
+    "temas": [
+      "Deep Belief Nets Vol 3",
+      "CUDA C",
+      "Timothy Masters",
+      "Series Temporales",
+      "Backpropagation GPU",
+      "HPC",
+      "Machine Learning",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema Predictivo de Series Temporales con DBNs Aceleradas en CUDA",
+        "descripcion": "Implementación de una red profunda para previsión de datos complejos con optimización de memoria en la GPU y validación cruzada."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3913-1"
+    ]
+  },
+  "design-patterns-in-modern-c-2018": {
+    "descripcion": "Manual exhaustivo y moderno escrito por Dmitri Nesteruk y publicado por Apress en 2018. Analiza la totalidad de los 23 patrones de diseño clásicos de la banda de los cuatro (GoF) implementados según los estándares contemporáneos de C++11, C++14 y C++17.\n\nCubre patrones creacionales (Factory, Builder, Prototype, Singleton), estructurales (Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy) y de comportamiento (Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor).\n\nDmitri Nesteruk demuestra cómo características modernas como lambdas, punteros inteligentes, `std::variant`, `std::function` y plantillas variádicas simplifican y modernizan radicalmente las implementaciones clásicas. Imprescindible para arquitectos de software en C++.",
+    "temas": [
+      "Patrones de Diseño",
+      "Dmitri Nesteruk",
+      "C++17",
+      "Patrones GoF",
+      "Smart Pointers",
+      "std::function",
+      "Arquitectura Limpia",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework de Simulación Gráfica con Patrones GoF Modernos en C++17",
+        "descripcion": "Diseño de un motor desacoplado utilizando patrones Observer reactivo, Decorator basado en plantillas y fábricas funcionales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3603-1"
+    ]
+  },
+  "expert-visual-c-cli-2007": {
+    "descripcion": "Tratado técnico avanzado escrito por Marcus Heege (Microsoft MVP) y publicado por Apress en 2007. Es la obra de referencia definitiva sobre la arquitectura interna y el uso corporativo de C++/CLI.\n\nExplora la generación de código binario mixto (nativo y gestionado en un solo ensamblado), interoperabilidad a nivel de llamada sin marshaling manual (IJW), optimización de rendimiento en llamadas cruzadas entre el CLR y la memoria nativa, y recolección de basura frente al determinismo destructivo de RAII.\n\nMarcus Heege proporciona un análisis minucioso de la infraestructura de ejecución de Windows y .NET. Una lectura de cabecera fundamental para desarrolladores senior de la plataforma Microsoft.",
+    "temas": [
+      "Visual C++/CLI",
+      "Marcus Heege",
+      "CLR Internals",
+      "IJW",
+      "Marshaling",
+      "Memoria Híbrida",
+      "Windows",
+      "Apress"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Puente de Alto Rendimiento entre Bibliotecas C++ Nativas y .NET",
+        "descripcion": "Construcción de un ensamblado mixto optimizado que elimina la sobrecarga de marshaling en la transferencia masiva de datos estructurados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-0317-9"
+    ]
+  },
+  "low-level-programming-2017": {
+    "descripcion": "Obra maestra de ingeniería de computadores escrita por Igor Zhirkov y publicada por Apress en 2017. Conecta de forma brillante el ensamblador Intel x86-64, la arquitectura de procesadores y el lenguaje C moderno.\n\nCubre la ejecución de instrucciones a nivel de registros, la pila y la memoria virtual de Linux, llamadas al sistema (syscalls), la ABI System V de 64 bits, traducción de estructuras y punteros de C a ensamblador, modelos de memoria multinúcleo y compilación de binarios ELF.\n\nIgor Zhirkov fomenta una comprensión integral de cómo el hardware ejecuta el software, capacitando al lector para escribir programas en C con máxima eficiencia y seguridad. Uno de los mejores tratados de bajo nivel publicados en la última década.",
+    "temas": [
+      "Bajo Nivel",
+      "Igor Zhirkov",
+      "Ensamblador x86-64",
+      "Lenguaje C",
+      "Memoria Virtual",
+      "Linux ABI",
+      "Compilación ELF",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Intérprete y Máquina Virtual Minimalista en C y Ensamblador",
+        "descripcion": "Construcción paso a paso de un compilador elemental de Forth y una máquina virtual con asignador de memoria personalizado y syscalls Linux."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2403-8"
+    ]
+  },
+  "modern-c-quick-syntax-reference-2nd-edition-2019": {
+    "descripcion": "Modern C Quick Syntax Reference: A Pocket Guide to the Language, APIs, and Library es la segunda edición de la guía de bolsillo de C de Mikael Olsson, programador y autor finlandés de la serie Quick Syntax Reference de Apress. Salió a finales de diciembre de 2018 con copyright de 2019, y su introducción repasa la evolución del lenguaje hasta el estándar C18. Como el resto de la serie, presenta la sintaxis esencial en capítulos muy breves, con ejemplos cortos y sin historia ni teoría de relleno. Está pensada para quien ya programa, sobre todo en C, y quiere una referencia rápida.\n\nLos 22 capítulos siguen el orden habitual del lenguaje: crear un proyecto y compilar (en Visual Studio y en consola), variables y tipos (enteros con y sin signo, enteros de tamaño fijo, coma flotante, char y bool, sufijos de literales, ámbito), operadores y precedencia, punteros, arrays y su relación con los punteros, cadenas y sus funciones, condicionales (if, switch, operador ternario) y bucles (while, do-while, for, break, continue y goto). Después vienen las funciones (declaración adelantada, listas de parámetros variables, paso por valor y por dirección, funciones inline), typedef, enumeraciones, structs con campos de bits, uniones, conversiones de tipo, clases de almacenamiento (auto, register, extern, static, volatile), const, el preprocesador (include, macros, compilación condicional, pragma), la gestión de memoria con malloc, free, realloc y calloc, los punteros void y a funciones, la entrada por teclado y desde archivos con manejo de errores, las cabeceras con include guards y la conversión entre cadenas y números.\n\nCon 116 páginas es una chuleta bien organizada, no un curso: no tiene ejercicios ni proyectos, apenas pasa de lo básico de la biblioteca estándar y no profundiza en novedades de C11 como los hilos o las operaciones atómicas. Aunque la editorial menciona el uso de C en sistemas embebidos y Arduino, el índice no incluye capítulos dedicados al hardware.",
+    "temas": [
+      "C",
+      "Sintaxis de C",
+      "Tipos y variables",
+      "Punteros y arrays",
+      "Structs y uniones",
+      "Preprocesador",
+      "Gestión de memoria",
+      "Clases de almacenamiento",
+      "Referencia rápida"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4288-9",
+      "https://github.com/Apress/modern-c-quick-syntax-reference"
+    ]
+  },
+  "modern-c-for-absolute-beginners-2020": {
+    "descripcion": "Manual didáctico y moderno escrito por Slobodan Dmitrović y publicado por Apress en 2020. Diseñado como una introducción rigurosa pero muy amigable a C++20 para principiantes absolutos en la programación.\n\nCubre la instalación de compiladores modernos (GCC, Clang, MSVC), variables, tipos, estructuras de control, funciones, arrays, punteros y referencias, clases básicas, la biblioteca estándar (std::string, std::vector) y una introducción clara a C++20.\n\nEl autor adopta un enfoque pedagógico transparente que enfatiza las mejores prácticas idiomáticas desde la primera lección, evitando viejos vicios heredados de C. Muy recomendado para estudiantes universitarios y autodidactas.",
+    "temas": [
+      "C++ para Principiantes",
+      "Slobodan Dmitrović",
+      "C++20",
+      "GCC y Clang",
+      "std::vector",
+      "POO Básica",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Calculadora Interactiva y Gestor de Registros en C++ Moderno",
+        "descripcion": "Desarrollo de utilidades de línea de comandos estructuradas con funciones, validación de entradas de usuario y contenedores estándar."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-6047-0"
+    ]
+  },
+  "numerical-c-2019": {
+    "descripcion": "Numerical C: Applied Computational Programming with Case Studies es un libro de Philip Joyce publicado por Apress en 2019 que enseña a resolver problemas de matemática aplicada programando en C. Joyce es ingeniero de software con casi treinta años de experiencia en control industrial, comunicaciones y sistemas aeroportuarios, y tiene un máster en física computacional. La editorial lo dirige a quien tenga matemáticas de nivel escolar y algo de experiencia programando, incluidas personas de ciencias de la vida, ingeniería o economía que necesitan aprender C para su trabajo.\n\nEl primer capítulo es un repaso rápido de C: entrada y salida de caracteres, operaciones aritméticas, bucles for y do, switch, if/else, arrays, funciones, cadenas, funciones matemáticas, estructuras, sizeof y goto. A partir de ahí cada capítulo aplica un método: resolución de ecuaciones (fórmula cuadrática y método de prueba y mejora para potencias superiores), integración numérica por trapecios y regla de Simpson, integración de Monte Carlo para áreas, círculos y figuras de más dimensiones, aritmética e inversión de matrices, correlación y coeficiente de correlación de Pearson (PMCC), simulaciones de Monte Carlo (desintegración radiactiva, aguja de Buffon y paseo aleatorio), el método de la matriz aumentada para sistemas de hasta doce ecuaciones simultáneas, acceso a archivos con ejemplos de registros médicos y de empresa, y ecuaciones diferenciales con series de Taylor y Maclaurin, Euler y Runge-Kutta, incluidas las de segundo orden. Los apéndices explican el entorno de desarrollo (Visual Studio y línea de comandos), resumen la sintaxis y dan las respuestas a los problemas propuestos.\n\nEs una introducción práctica y accesible, no un tratado de análisis numérico: no estudia con rigor la estabilidad ni el error de los métodos y no usa bibliotecas científicas como GSL o LAPACK. El código, en C estándar, está en el repositorio oficial de Apress, organizado por capítulos y con las soluciones de los problemas.",
+    "temas": [
+      "C",
+      "Métodos numéricos",
+      "Resolución de ecuaciones",
+      "Integración numérica",
+      "Monte Carlo",
+      "Matrices",
+      "Correlación (PMCC)",
+      "Sistemas de ecuaciones",
+      "Ecuaciones diferenciales",
+      "Runge-Kutta"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5064-8",
+      "https://github.com/Apress/numerical-c"
+    ]
+  },
+  "options-and-derivatives-programming-in-c-2016": {
+    "descripcion": "Manual cuantitativo especializado escrito por Carlos Oliveira y publicado por Apress en 2016. Enseña a modelar, valorar y gestionar derivados financieros y opciones exóticas utilizando C++ moderno de alto rendimiento.\n\nCubre la formulación e implementación de fórmulas analíticas de Black-Scholes-Merton, modelos de árboles binomiales y trinomiales, simulaciones de Monte Carlo para valoración de opciones americanas y europeas, y técnicas de cobertura de riesgos (las 'Griegas' delta, gamma, vega).\n\nEl autor destaca patrones de diseño eficientes para entornos bancarios y fondos de cobertura (hedge funds) donde la latencia de cálculo es crítica. Imprescindible para analistas cuantitativos (quants) y desarrolladores de software financiero.",
+    "temas": [
+      "Finanzas Cuantitativas",
+      "Carlos Oliveira",
+      "Black-Scholes",
+      "Monte Carlo",
+      "Opciones Financieras",
+      "Griegas",
+      "C++ Financiero",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor Cuantitativo de Valoración de Opciones con Monte Carlo en C++",
+        "descripcion": "Construcción de un simulador estocástico para valoración de derivados financieros y cálculo en tiempo real de sensibilidades Griegas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2314-7"
+    ]
+  },
+  "pointers-in-c-2013": {
+    "descripcion": "Tratado técnico exhaustivo escrito por Naveen Toppo y Hrishikesh Dewan, publicado por Apress en 2013. Se centra exclusivamente en el elemento más potente, sutil y propenso a errores del lenguaje C: los punteros.\n\nExplora la aritmética de punteros, punteros a punteros, punteros a funciones y tablas de saltos, punteros genéricos (`void*`), alineación de memoria, buffers, estructuras opacas y la implementación de estructuras dinámicas de datos (listas enlazadas, árboles, grafos).\n\nLos autores utilizan diagramas de memoria minuciosos que muestran exactamente qué sucede en la memoria RAM con cada instrucción. Indispensable para dominar la programación de bajo nivel y erradicar fallos de segmentación y fugas de memoria.",
+    "temas": [
+      "Punteros en C",
+      "Aritmética de Punteros",
+      "Gestión de Memoria",
+      "Punteros a Funciones",
+      "void*",
+      "Estructuras Dinámicas",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Biblioteca Genérica de Estructuras Dinámicas con Punteros en C",
+        "descripcion": "Implementación de listas doblemente enlazadas y árboles binarios genéricos utilizando punteros void* y punteros a funciones de comparación."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-5912-1"
+    ]
+  },
+  "practical-c-2016": {
+    "descripcion": "Practical C es un libro de Giulio Zambon publicado por Apress en 2016 que reúne técnicas prácticas de C y algoritmos de uso frecuente en forma de funciones reutilizables. Zambon empezó como físico y lleva más de treinta años desarrollando software, sobre todo en telecomunicaciones y sistemas de tiempo real. El libro se dirige a programadores que ya conocen C y quieren usarlo de forma más sólida de lo que permite un manual de iniciación.\n\nTras un capítulo sobre estilo de código, el segundo repasa los puntos delicados del lenguaje: ámbito y vida de las variables, paso por valor, macros, booleanos, empaquetado de estructuras, caracteres anchos y locales, y la representación de enteros y de coma flotante. Siguen iteración y recursión con árboles binarios (generarlos, recorrerlos y dibujarlos), listas, pilas y colas sobre arrays y listas enlazadas, y un sistema de excepciones construido con saltos largos que imita throw, try y catch. Hay también una biblioteca de cadenas dinámicas y otra de arrays dinámicos, búsqueda (comparaciones, búsqueda aproximada, arrays ordenados, listas y árboles binarios de búsqueda), ordenación (inserción, Shell, burbuja, quicksort y la función estándar qsort) e integración numérica (trapecios, Simpson, Newton-Cotes, Monte Carlo e integrales en 3D). Los últimos capítulos tratan software embebido (operaciones de bits, endianness, RTOS, señales, interrupciones y concurrencia), bases de datos MySQL y SQLite desde C, un servidor web con la biblioteca Mongoose y una aplicación completa: MathSearch, un juego parecido a la sopa de letras pero con números. Un apéndice introduce SQL.\n\nNo trata los estándares recientes (C11/C17) ni herramientas de compilación, pruebas o análisis, y las versiones de MySQL, SQLite y Mongoose que usa son las de 2016. A cambio ofrece módulos completos y reutilizables, disponibles en el repositorio oficial de Apress.",
+    "temas": [
+      "C",
+      "Punteros y memoria",
+      "Árboles binarios",
+      "Listas, pilas y colas",
+      "Excepciones con saltos largos",
+      "Búsqueda y ordenación",
+      "Integración numérica",
+      "Software embebido",
+      "MySQL y SQLite",
+      "Mongoose"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "MathSearch",
+        "descripcion": "Juego tipo sopa de letras con números, dividido en módulos de generación, recuento, visualización y exportación a HTML e imágenes."
+      },
+      {
+        "nombre": "Servidor web con Mongoose",
+        "descripcion": "Aplicación en C que integra la biblioteca Mongoose para servir páginas dinámicas y responder a peticiones del navegador."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1769-6",
+      "https://github.com/Apress/practical-c"
+    ]
+  },
+  "practical-system-programming-with-c-2020": {
+    "descripcion": "Guía práctica de sistemas escrita por Sri Manikanta Palakollu y publicada por Apress en 2020. Enseña a programar a nivel de sistema operativo para entornos Linux y POSIX utilizando C puro.\n\nCubre las llamadas al sistema (syscalls) para manipulación de archivos y descriptores, creación y control de procesos con `fork`, `exec` y `wait`, gestión de señales del sistema operativo, comunicación entre procesos (IPC) con tuberías (pipes) y memoria compartida, y sockets de red TCP/IP.\n\nEl autor utiliza un estilo directo con fragmentos de código reproducibles que permiten comprender la interacción directa entre el software y el kernel de Linux. Una excelente introducción a la programación de sistemas.",
+    "temas": [
+      "Programación de Sistemas",
+      "Linux Syscalls",
+      "Lenguaje C",
+      "fork y exec",
+      "IPC",
+      "Sockets TCP",
+      "Señales POSIX",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Intérprete de Comandos Shell Minimalista en C para Linux",
+        "descripcion": "Construcción de un emulador de shell interactivo con ejecución de comandos, redirección de E/S y tuberías entre procesos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-6321-1"
+    ]
+  },
+  "pro-microsoft-speech-server-2007-2007": {
+    "descripcion": "Guía técnica especializada escrita por Michael Dunn y publicada por Apress en 2007. Aborda el desarrollo y despliegue de sistemas de respuesta de voz interactiva (IVR) y telefonía empresarial con Microsoft Speech Server 2007.\n\nExplora el reconocimiento de voz (ASR), síntesis de voz (TTS), integración con VoiceXML y SALT, orquestación de llamadas con Microsoft Office Communications Server (OCS) y componentes nativos de telefonía desarrollados en C++ y C#.\n\nEl autor comparte arquitecturas corporativas para centralitas telefónicas y centros de atención telefónica automatizados. Una obra histórica de gran valor documental sobre los primeros sistemas comerciales de voz de Microsoft.",
+    "temas": [
+      "Speech Server",
+      "Microsoft",
+      "VoiceXML",
+      "Telefonía",
+      "TTS y ASR",
+      "IVR",
+      "C++ y .NET",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Atención Telefónica y Reconocimiento de Voz Empresarial",
+        "descripcion": "Diseño de un portal de autoservicio telefónico con gramáticas de reconocimiento de voz integradas y pasarelas VoIP."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-0422-0"
+    ]
+  },
+  "pro-tbb-2019": {
+    "descripcion": "Tratado técnico exhaustivo de computación paralela escrito por Michael Voss, Rafael Asenjo y James Reinders, publicado por Apress en 2019. Es la obra de referencia sobre Intel Threading Building Blocks (Intel TBB / oneTBB).\n\nExplora los algoritmos paralelos genéricos (`tbb::parallel_for`, `tbb::parallel_reduce`), flujo de datos basado en grafos (Flow Graph API), contenedores concurrentes seguros para subprocesos, asignadores de memoria escalables y sincronización sin bloqueos.\n\nLos autores enseñan a diseñar aplicaciones que escalan de forma natural con el número de núcleos de CPU sin incurrir en condiciones de carrera. Indispensable para ingenieros de computación de alto rendimiento (HPC), videojuegos y renderizado.",
+    "temas": [
+      "Intel TBB",
+      "oneTBB",
+      "Paralelismo",
+      "Flow Graph",
+      "parallel_for",
+      "Contenedores Concurrentes",
+      "HPC",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline Paralelo de Procesamiento de Imágenes con oneTBB",
+        "descripcion": "Implementación de un motor de filtrado gráfico multinúcleo con balanceo dinámico de carga mediante grafos de flujo de TBB."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4398-5"
+    ]
+  },
+  "pro-visual-c-cli-and-the-net-3-5-platform-2008": {
+    "descripcion": "Manual exhaustivo de más de 800 páginas escrito por Stephen R. G. Fraser y publicado por Apress en 2008. Profundiza en el desarrollo corporativo utilizando Visual C++/CLI sobre la plataforma .NET Framework 3.5.\n\nCubre la interoperabilidad nativa/gestionada, manipulación de colecciones genéricas de .NET, expresiones lambda y LINQ, desarrollo de interfaces con Windows Forms y WPF, acceso a datos con ADO.NET y desarrollo de servicios WCF en C++/CLI.\n\nEl autor enseña a aprovechar la velocidad de C++ junto con la riqueza del catálogo de clases de .NET. Muy útil para desarrolladores que mantienen y modernizan aplicaciones ricas de Windows.",
+    "temas": [
+      "Visual C++/CLI",
+      "Stephen Fraser",
+      ".NET 3.5",
+      "WPF",
+      "Windows Forms",
+      "ADO.NET",
+      "Interoperabilidad",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de Escritorio Empresarial Híbrida con C++/CLI y WPF",
+        "descripcion": "Construcción de un panel de visualización de datos con interfaz rica en WPF y motor de cálculo numérico nativo en C++."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-1616-2"
+    ]
+  },
+  "programming-persistent-memory-2019": {
+    "descripcion": "Obra técnica revolucionaria de Steve Scargall y el equipo de Intel, publicada por Apress en 2019. Introduce la programación sobre Memoria Persistente (PMEM / Optane DC), que combina la velocidad de la RAM con la persistencia del almacenamiento.\n\nExplora la arquitectura de memoria no volátil (NVDIMM), la biblioteca PMDK (Persistent Memory Development Kit), libpmemobj en C++, transacciones en memoria, prevención de corrupción de datos ante cortes eléctricos (flushing de caché) y asignadores de objetos persistentes.\n\nLos autores enseñan a diseñar bases de datos y motores de cálculo en memoria que se recuperan instantáneamente sin tiempos de carga de disco. Indispensable para arquitectos de sistemas de almacenamiento masivo y bases de datos.",
+    "temas": [
+      "Memoria Persistente",
+      "PMEM",
+      "PMDK",
+      "libpmemobj",
+      "Intel Optane",
+      "NVDIMM",
+      "Bases de Datos en Memoria",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Almacén Clave-Valor Persistente en Memoria con PMDK y C++",
+        "descripcion": "Construcción de una base de datos ultra-rápida que persiste estructuras en RAM no volátil con transacciones libres de corrupción."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4932-1"
+    ]
+  },
+  "sudoku-programming-with-c-2015": {
+    "descripcion": "Manual práctico y pedagógico escrito por Giulio Zambon y publicado por Apress en 2015. Enseña a dominar algoritmos avanzados, recursión y optimización en C abordando la resolución y generación automatizada de pasatiempos Sudoku.\n\nExplora técnicas algorítmicas de búsqueda con retroceso (backtracking), deducción lógica determinista, estructuras de datos compactas mediante máscaras de bits (bitmasks), optimización de memoria y desarrollo de interfaces de usuario en terminal y gráficas sencillas.\n\nA través del desarrollo completo de un solucionador y generador de tableros con diferentes niveles de dificultad, enseña cómo transformar reglas lógicas complejas en código C veloz y limpio. Muy entretenido y formativo.",
+    "temas": [
+      "Sudoku en C",
+      "Giulio Zambon",
+      "Backtracking",
+      "Bitmasks",
+      "Algoritmos Lógicos",
+      "Recursión",
+      "Optimización",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Solucionador y Generador de Sudokus de Alto Rendimiento en C",
+        "descripcion": "Implementación de un motor algorítmico que resuelve tableros complejos en microsegundos combinando deducción lógica y backtracking."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-0996-7"
+    ]
+  },
+  "an-introduction-to-programming-with-c-2015": {
+    "descripcion": "Libro de texto universitario de Diane Zak publicado por Cengage Learning en 2015. Diseñado como una introducción completa a la resolución de problemas y al pensamiento computacional con C++ para estudiantes sin experiencia previa.\n\nCubre la lógica de programación, diagramas de flujo, pseudocódigo, tipos de variables, operadores, estructuras condicionales anidadas, bucles, funciones definidas por el usuario, arrays unidimensionales y bidimensionales, y manipulación de archivos secuenciales.\n\nDiane Zak destaca por una metodología didáctica paso a paso repleta de casos de negocio realistas, ejercicios de depuración y resúmenes visuales de conceptos. Una referencia académica clásica muy apreciada en la enseñanza.",
+    "temas": [
+      "Diane Zak",
+      "Cengage",
+      "Fundamentos de C++",
+      "Resolución de Problemas",
+      "Algoritmos",
+      "Arrays",
+      "Educación"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Aplicaciones Financieras y de Gestión en C++",
+        "descripcion": "Desarrollo de programas de cálculo de amortización de préstamos, facturación de ventas y control de inventario con validación de entradas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.cengage.com/c/an-introduction-to-programming-with-c-8e-zak/9781285860114/"
+    ]
+  },
+  "c-for-engineers-and-scientists-4th-edition-2012": {
+    "descripcion": "Cuarta edición del prestigioso manual universitario de Gary J. Bronson, publicado por Cengage Learning en 2012. Se especializa en la enseñanza de C++ aplicado al cálculo científico y a la ingeniería.\n\nCubre variables y tipos numéricos, control de flujo, métodos numéricos (aproximaciones de raíces, interpolación lineal, integración numérica), arrays y manipulación matricial, funciones matemáticas, punteros y estructuras, y programación orientada a objetos básica.\n\nCada capítulo incluye problemas reales extraídos de la ingeniería mecánica, civil, eléctrica y química con soluciones computacionales paso a paso. Un texto fundamental para carreras científicas y técnicas.",
+    "temas": [
+      "C++ para Ingenieros",
+      "Gary Bronson",
+      "Cengage",
+      "Cálculo Científico",
+      "Métodos Numéricos",
+      "Matrices",
+      "Ingeniería"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Simulador de Métodos Numéricos para Problemas de Ingeniería",
+        "descripcion": "Implementación de algoritmos para resolución de sistemas matriciales, cálculo de esfuerzos y trayectorias balísticas en C++."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.cengage.com/c/c-for-engineers-and-scientists-4e-bronson/9781439080290/"
+    ]
+  },
+  "c-programming-6th-edition-2012": {
+    "descripcion": "Sexta edición del reputado manual académico de D. S. Malik, publicado por Cengage Learning en 2012. Con más de 1.400 páginas, ofrece un curso completo de ciencias de la computación y programación orientada a objetos con C++.\n\nCubre exhaustivamente desde los fundamentos algorítmicos hasta la herencia, polimorfismo dinámico, sobrecarga de operadores, plantillas, manejo de excepciones, punteros y estructuras de datos fundamentales (listas enlazadas, pilas, colas, árboles de búsqueda binaria).\n\nReconocido internacionalmente por su rigor pedagógico y la gran cantidad de ejercicios graduados y proyectos completos. Una de las obras de texto universitario más prestigiosas y utilizadas.",
+    "temas": [
+      "D. S. Malik",
+      "Cengage",
+      "Estructuras de Datos",
+      "POO Completa",
+      "Punteros",
+      "Algoritmos",
+      "Manual Universitario"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Biblioteca Completa de Estructuras de Datos y Algoritmos en C++",
+        "descripcion": "Construcción desde cero de listas enlazadas genéricas, árboles de búsqueda balanceados y tablas hash con pruebas unitarias."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.cengage.com/c/c-programming-from-problem-analysis-to-program-design-8e-malik/9781337102087/"
+    ]
+  },
+  "jumping-into-c-2013": {
+    "descripcion": "Manual didáctico y amigable escrito por Alex Allain (creador de Cprogramming.com) y publicado en 2013. Diseñado específicamente para que cualquier persona aprenda a programar en C++ sin sentirse abrumada.\n\nExplora paso a paso variables, operadores, funciones, arrays, punteros y referencias explicados con diagramas visuales intuitivos, asignación dinámica de memoria, structs, clases, herencia y la biblioteca estándar básica.\n\nAlex Allain destaca por su tono cercano y explicaciones claras que anticipan y resuelven las dudas más comunes de los principiantes. Es uno de los recursos de iniciación más recomendados por comunidades de desarrolladores.",
+    "temas": [
+      "Jumping into C++",
+      "Alex Allain",
+      "Cprogramming.com",
+      "Punteros Intuitivos",
+      "POO Básica",
+      "Principiantes",
+      "Autoaprendizaje"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Videojuego de Aventura Conversacional en Terminal con C++",
+        "descripcion": "Construcción paso a paso de un juego interactivo de rol con inventario de objetos, combate por turnos y gestión de estados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.cprogramming.com/tutorial/c++-tutorial.html"
+    ]
+  },
+  "c-for-financial-mathematics-2017": {
+    "descripcion": "Tratado técnico riguroso escrito por John Armstrong y publicado por CRC Press en 2017. Enseña C++ moderno orientado al modelado matemático y la simulación financiera de alta precisión.\n\nCubre el diseño orientado a objetos en C++11/C++14, simulación de Monte Carlo, variables aleatorias estocásticas (movimiento browniano geométrico), valoración de opciones con barrera y asiáticas, análisis de convergencia y la biblioteca Boost.\n\nEl autor combina teoría matemática rigurosa con código C++ modular y comprobable con pruebas unitarias. Indispensable para estudiantes de máster en finanzas cuantitativas y programadores de banca de inversión.",
+    "temas": [
+      "Finanzas Matemáticas",
+      "John Armstrong",
+      "CRC Press",
+      "Monte Carlo",
+      "Movimiento Browniano",
+      "C++14",
+      "Boost",
+      "Derivados"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Simulador de Procesos Estocásticos y Valoración de Derivados",
+        "descripcion": "Desarrollo de un motor financiero modular para cálculo de precios de opciones exóticas mediante simulación de Monte Carlo en C++."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/C-for-Financial-Mathematics/Armstrong/p/book/9781498750059"
+    ]
+  },
+  "programming-in-c-for-engineering-and-science-2012": {
+    "descripcion": "Manual exhaustivo escrito por Larry Nyhoff y publicado por CRC Press en 2012. Enseña el desarrollo en C puro enfocado en la resolución de problemas científicos y de ingeniería.\n\nCubre la representación binaria de datos, tipos numéricos de precisión simple y doble, control de flujo, funciones y recursión, arrays y matrices, punteros y gestión de memoria dinámica, E/S de archivos estructurados y algoritmos numéricos clásicos.\n\nLarry Nyhoff incluye cientos de ejemplos y ejercicios de física, mecánica y cálculo matricial con explicaciones minuciosas. Una obra académica de referencia clásica para estudiantes de ingeniería.",
+    "temas": [
+      "Larry Nyhoff",
+      "Lenguaje C",
+      "CRC Press",
+      "Ingeniería",
+      "Cálculo Numérico",
+      "Matrices",
+      "Punteros",
+      "Educación"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Algoritmos Matriciales y Modelado Físico en C",
+        "descripcion": "Construcción de programas para multiplicación matricial optimizada, resolución de circuitos eléctricos y ajuste por mínimos cuadrados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Programming-in-C-for-Engineering-and-Science/Nyhoff/p/book/9781439825341"
+    ]
+  },
+  "c-concurrency-in-action-2012": {
+    "descripcion": "Primera edición de la prestigiosa obra canónica de Anthony Williams (desarrollador de la librería Boost.Thread y miembro del comité ISO de C++), publicada por Manning en 2012. Es el libro fundacional sobre concurrencia en C++11.\n\nExplora la gestión de hilos nativos (`std::thread`), paso de datos y sincronización con `std::mutex`, `std::unique_lock`, `std::condition_variable`, tareas asíncronas con `std::future` y `std::async`, el modelo de memoria de C++11 y operaciones atómicas (`std::atomic`).\n\nAnthony Williams enseña cómo diseñar estructuras de datos concurrentes seguras y estructuras sin bloqueos (lock-free) basadas en punteros atómicos. Una lectura fundacional obligatoria para cualquier programador de sistemas.",
+    "temas": [
+      "Concurrency in Action",
+      "Anthony Williams",
+      "Manning",
+      "C++11",
+      "std::thread",
+      "std::atomic",
+      "Lock-free",
+      "Multithreading"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Cola Concurrente Segura para Subprocesos y Pila Lock-Free en C++11",
+        "descripcion": "Implementación de estructuras de datos multihilo sincronizadas mediante mutexes y versiones avanzadas sin bloqueos basadas en atomic CAS."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/c-plus-plus-concurrency-in-action"
+    ]
+  },
+  "c-concurrency-in-action-2nd-edition-2018": {
+    "descripcion": "Segunda edición ampliamente actualizada por Anthony Williams, publicada por Manning en 2018. Considerada la obra cumbre definitiva sobre concurrencia, paralelismo y sincronización en C++14 y C++17.\n\nIncorpora los nuevos mutexes compartidos (`std::shared_mutex` para lectura múltiple y escritura exclusiva), algoritmos paralelos de la STL con políticas de ejecución (`std::execution`), diseño avanzado de estructuras de datos lock-free y lock-based, y depuración de condiciones de carrera.\n\nCon más de 500 páginas de explicaciones rigurosas y código impecable, es la biblia técnica por excelencia para dominar la concurrencia moderna en C++. Imprescindible para arquitectos de software e ingenieros de alto rendimiento.",
+    "temas": [
+      "Concurrency 2nd Edition",
+      "Anthony Williams",
+      "C++17",
+      "std::shared_mutex",
+      "Algoritmos Paralelos",
+      "Lock-Free",
+      "Manning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Thread Pool de Alto Rendimiento y Algoritmo Paralelo QuickSort en C++17",
+        "descripcion": "Construcción de una piscina de hilos con robo de trabajo (work stealing) y ordenación paralela con políticas de ejecución concurrentes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/c-plus-plus-concurrency-in-action-second-edition"
+    ]
+  },
+  "c-cli-in-action-2007": {
+    "descripcion": "Manual exhaustivo y práctico de Nishant Sivakumar (Microsoft MVP) publicado por Manning en 2007. Enseña a dominar C++/CLI para crear soluciones mixtas que combinan la potencia de C++ nativo con el framework .NET.\n\nCubre la sintaxis de punteros gestionados, recolección de basura, integración de código STL con colecciones de .NET, uso de Windows Forms, consumo de bases de datos mediante ADO.NET y técnicas de optimización para reducir las transiciones de contexto nativo/gestionado.\n\nEl autor comparte recetas prácticas y patrones contrastados para reutilizar bases de código heredadas en aplicaciones modernas de Windows. Una referencia histórica indispensable para desarrolladores de la plataforma Microsoft.",
+    "temas": [
+      "C++/CLI in Action",
+      "Nishant Sivakumar",
+      "Manning",
+      ".NET CLR",
+      "Interoperabilidad",
+      "Windows Forms",
+      "ADO.NET"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Puente de Integración Empresarial entre C++ Nativo y .NET",
+        "descripcion": "Construcción de un componente híbrido que expone algoritmos matemáticos en C++ a clientes C# con interfaz Windows Forms."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/c-plus-plus-cli-in-action"
+    ]
+  },
+  "modern-c-2019": {
+    "descripcion": "Tratado técnico magistral escrito por Jens Gustedt (investigador sénior en Inria y co-editor del estándar ISO C), publicado por Manning en 2019. Redefine la enseñanza del lenguaje C contemporáneo (estándares C11 y C17).\n\nOrganizado en cinco niveles de maestría: nivel básico (sintaxis y control), nivel intermedio (memoria, arrays y punteros), nivel avanzado (gestión de recursos, preprocesador moderno y macros complejas), nivel experto (concurrencia nativa de C11 con `threads.h` y atómicos) y nivel de abstracción de tipos.\n\nJens Gustedt destierra las malas prácticas obsoletas de C del siglo pasado, enseñando a escribir código seguro, libre de comportamiento indefinido y consciente de la arquitectura de la memoria. Una obra maestra técnica obligatoria.",
+    "temas": [
+      "Modern C",
+      "Jens Gustedt",
+      "Manning",
+      "C11 y C17",
+      "threads.h",
+      "Atómicos en C",
+      "Memoria Segura",
+      "ISO C Standard"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor Concurrente de Procesamiento con Primitivas C11 y Atómicos",
+        "descripcion": "Implementación de un sistema multihilo utilizando threads.h de C11, sincronización con atomic_flag y gestión segura de memoria."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/modern-c"
+    ]
+  },
+  "programming-with-types-2019": {
+    "descripcion": "Obra innovadora de Vlad Riscutia publicada por Manning en 2019. Enseña cómo aprovechar los sistemas de tipos estáticos para diseñar software más seguro, legible, autodocumentado y libre de errores.\n\nCubre tipos de datos fundamentales, tipos algebraicos (suma y producto), subtipado y polimorfismo, genéricos y plantillas, tipos de datos abstractos, composición funcional y el diseño de APIs donde el compilador hace imposible representar estados inválidos.\n\nVlad Riscutia ilustra cada concepto con implementaciones comparativas en TypeScript y C++, demostrando cómo la disciplina de tipos previene bugs catastróficos en producción. Muy formativo para ingenieros de software.",
+    "temas": [
+      "Programming with Types",
+      "Vlad Riscutia",
+      "Manning",
+      "Sistemas de Tipos",
+      "Tipos Algebraicos",
+      "C++",
+      "TypeScript",
+      "Seguridad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework de Dominio con Validación Estricta de Tipos en C++",
+        "descripcion": "Diseño de un motor de reservas donde las máquinas de estado y permisos están codificadas en el sistema de tipos estático."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/programming-with-types"
+    ]
+  },
+  "c-amp-2012": {
+    "descripcion": "Guía técnica especializada escrita por Gregory Smith y publicada por Microsoft Press en 2012. Enseña a programar aceleración paralela masiva en GPUs y procesadores multinúcleo utilizando C++ AMP (Accelerated Massive Parallelism).\n\nExplora el modelo de ejecución de C++ AMP en Visual Studio y DirectX 11, clases `array` y `array_view`, la cláusula `restrict(amp)`, paralelismo por teselas (tiled parallelism) con memoria compartida en la GPU y optimizaciones de ancho de banda de memoria.\n\nA través de ejemplos de procesamiento de vídeo, algoritmos de física y multiplicación matricial, el autor enseña cómo obtener aumentos de velocidad de 50x sin escribir código DirectX ni CUDA. Una obra pionera de gran interés histórico.",
+    "temas": [
+      "C++ AMP",
+      "GPU Computing",
+      "Microsoft Press",
+      "DirectX 11",
+      "Paralelismo Masivo",
+      "array_view",
+      "HPC"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de Filtrado de Imagen y Física Acelerado en GPU con C++ AMP",
+        "descripcion": "Implementación de un renderizador de sistemas de partículas con cálculo paralelo sobre tarjetas gráficas compatibles con DirectX."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/c-plus-plus-amp-9780735664814"
+    ]
+  },
+  "microsoft-visual-c-cli-step-by-step-2013": {
+    "descripcion": "Manual formativo paso a paso escrito por Julian Templeman y publicado por Microsoft Press en 2013. Enseña a dominar Visual C++/CLI para desarrollar aplicaciones de Windows integrando C++ con .NET Framework 4.5.\n\nCubre la sintaxis de tipos por referencia gestionados (`ref class`), recolección de basura, manejo de excepciones gestionadas, creación de interfaces gráficas con Windows Forms, acceso a datos con ADO.NET y combinación de librerías nativas con componentes gestionados.\n\nEl autor utiliza la pedagogía metódica 'Step by Step' con ejercicios guiados y código reproducible. Una excelente guía para programadores que crean herramientas de escritorio corporativas en Windows.",
+    "temas": [
+      "Step by Step",
+      "Julian Templeman",
+      "Microsoft Press",
+      "Visual C++/CLI",
+      ".NET 4.5",
+      "Windows Forms",
+      "ADO.NET"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de Escritorio de Gestión con Visual C++/CLI",
+        "descripcion": "Desarrollo de un sistema con interfaz gráfica Windows Forms conectada a una base de datos mediante ADO.NET y clases nativas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/microsoft-visual-c-plus-plus-cli-step-by-step-9780735675179"
+    ]
+  },
+  "parallel-programming-with-microsoft-visual-c-2011": {
+    "descripcion": "Manual técnico de ingeniería escrito por Colin Campbell, Ade Miller y Stephen Toub (líder de rendimiento de .NET en Microsoft), publicado por Microsoft Press en 2011. Enseña patrones de paralelismo multinúcleo en C++ utilizando PPL y Asynchronous Agents Library.\n\nCubre la Parallel Patterns Library (PPL: `parallel_for`, `parallel_invoke`), tareas concurrentes (`task`), contenedores concurrentes (`concurrent_vector`, `concurrent_queue`), y redes de mensajes asíncronas basadas en agentes en Visual C++.\n\nLos autores enseñan a evitar bloqueos mutuos y a estructurar algoritmos para que escalen con hardware multinúcleo. Una referencia fundamental para el desarrollo de software paralelo de alto rendimiento en Windows.",
+    "temas": [
+      "Parallel Programming",
+      "Stephen Toub",
+      "Microsoft Press",
+      "PPL",
+      "Visual C++",
+      "concurrent_queue",
+      "Multinúcleo"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor Paralelo de Procesamiento Gráfico con PPL en Visual C++",
+        "descripcion": "Implementación de algoritmos de procesamiento de imágenes y reducción paralela utilizando parallel_for y contenedores concurrentes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/parallel-programming-with-microsoft-visual-c-design-9780735651586"
+    ]
+  },
+  "windows-via-c-y-c-5th-edition-2008": {
+    "descripcion": "Quinta edición del monumental tratado de ingeniería de sistemas de Jeffrey Richter y Christophe Nasarre, publicado por Microsoft Press en 2008. Es la biblia técnica definitiva sobre las entrañas del sistema operativo Microsoft Windows.\n\nExplora en profundidad la arquitectura del kernel de Windows: procesos, subprocesos y afinidad de CPU, puertos de terminación de E/S (IOCP / I/O Completion Ports) para escalabilidad masiva, gestión de memoria virtual, memoria asignada a archivos (memory-mapped files), DLLs e inyección de DLLs mediante hooks.\n\nJeffrey Richter explica con maestría inigualable el modelo de ejecución interno de Windows y la API Win32 en C y C++. Una de las obras de ingeniería de software más influyentes y respetadas de todos los tiempos.",
+    "temas": [
+      "Jeffrey Richter",
+      "Windows Internals",
+      "Microsoft Press",
+      "Win32 API",
+      "IOCP",
+      "Memoria Virtual",
+      "Hilos y Procesos",
+      "Inyección DLL"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor de Red de Alta Escala con I/O Completion Ports (IOCP)",
+        "descripcion": "Construcción desde cero de un servidor concurrente capaz de atender decenas de miles de conexiones simultáneas mediante sockets e IOCP."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/windows-via-c-c-9780735624245"
+    ]
+  },
+  "c-crash-course-2019": {
+    "descripcion": "Aclamado manual formativo moderno escrito por Josh Lospinoso y publicado por No Starch Press en 2019. Diseñado para programadores experimentados que desean dominar C++ moderno (C++14/C++17) de forma acelerada y rigurosa.\n\nCubre la memoria a bajo nivel, RAII, semántica de movimiento, punteros inteligentes, plantillas, lambdas, la biblioteca estándar (contenedores, algoritmos, streams, chrono, filesystem), concurrencia nativa, pruebas con Google Test y programación de red con Boost.ASIO.\n\nJosh Lospinoso destaca por su enfoque directo, sin rodeos y centrado en la seguridad y el rendimiento del código. Considerado uno de los mejores libros contemporáneos para aprender C++ moderno.",
+    "temas": [
+      "C++ Crash Course",
+      "Josh Lospinoso",
+      "No Starch Press",
+      "C++17",
+      "RAII",
+      "Move Semantics",
+      "Boost.ASIO",
+      "Google Test"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor y Cliente de Red Asíncrono con C++17 y Boost.ASIO",
+        "descripcion": "Construcción paso a paso de un cliente HTTP y un servidor concurrente con punteros inteligentes y pruebas unitarias completas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/ccc"
+    ]
+  },
+  "c-in-a-nutshell-2nd-edition-2015": {
+    "descripcion": "Segunda edición de la enciclopedia de escritorio de Peter Prinz y Tony Crawford, publicada por O'Reilly en 2015. Ofrece una cobertura integral y precisa del lenguaje C estándar (estándares C99 y C11).\n\nDetalla la estructura léxica, tipos de datos, operadores, sentencias de control, funciones, arrays, punteros, estructuras, preprocesador de macros y la biblioteca estándar de C completa (math, time, stdlib, stdio, string, y las nuevas librerías de hilos y tipos de C11).\n\nCada función estándar está documentada con sus prototipos exactos, descripciones de parámetros y ejemplos de código. La obra de referencia rápida más fiable y completa sobre el lenguaje C.",
+    "temas": [
+      "C in a Nutshell",
+      "Peter Prinz",
+      "Tony Crawford",
+      "O'Reilly",
+      "C11",
+      "C99",
+      "Biblioteca Estándar de C",
+      "Enciclopedia C"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/c-in-a/9781491904749/"
+    ]
+  },
+  "c-cookbook-2005": {
+    "descripcion": "Monumental recetario técnico publicado por O'Reilly en 2005 y escrito por D. Ryan Stephens, Christopher Diggins, Jonathan Turkanis y Jeff Cogswell. Contiene cientos de recetas prácticas para resolver problemas cotidianos en C++.\n\nCubre la manipulación de cadenas de texto y números, contenedores y algoritmos de la STL, diseño de clases y jerarquías, gestión de excepciones, concurrencia multihilo, serialización XML y desarrollo de aplicaciones gráficas.\n\nEl formato directo de problema-solución-discusión resulta óptimo para resolver dudas puntuales de diseño e implementación. Una referencia de consulta clásica de gran valor histórico.",
+    "temas": [
+      "C++ Cookbook",
+      "O'Reilly",
+      "Recetas",
+      "STL",
+      "Excepciones",
+      "Algoritmos",
+      "Multithreading"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/c-cookbook/0596007612/"
+    ]
+  },
+  "c-in-a-nutshell-2003": {
+    "descripcion": "Enciclopedia clásica de referencia rápida escrita por Ray Lischner y publicada por O'Reilly en 2003. Con cerca de 800 páginas, ofrece una descripción técnica exhaustiva de la semántica de C++ clásico (estándar ISO C++98).\n\nDetalla la gramática del lenguaje, declaraciones de tipos, sobrecarga de operadores, plantillas, manejo de excepciones, espacios de nombres (namespaces), y una documentación minuciosa de cada clase y función de la Standard Template Library (STL).\n\nEl autor destaca por un rigor conceptual excepcional que explica con precisión quirúrgica las reglas del estándar ISO. Una obra de referencia clásica de gran nivel técnico.",
+    "temas": [
+      "C++ in a Nutshell",
+      "Ray Lischner",
+      "O'Reilly",
+      "ISO C++98",
+      "STL Clásica",
+      "Namespaces",
+      "Plantillas",
+      "Enciclopedia"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/c-in-a/059600298X/"
+    ]
+  },
+  "effective-modern-c-2014": {
+    "descripcion": "Obra cumbre indiscutible de la literatura contemporánea sobre C++, escrita por Scott Meyers y publicada por O'Reilly en 2014. Ofrece 42 directrices esenciales para dominar C++11 y C++14.\n\nCubre deducción de tipos (`auto`, `decltype`), punteros inteligentes (`std::unique_ptr`, `std::shared_ptr`, `std::weak_ptr`), semántica de movimiento y reenvío perfecto (`std::move`, `std::forward`), expresiones lambda y closures, concurrencia moderna (`std::atomic`, `std::async`), y optimizaciones con `noexcept` y `constexpr`.\n\nScott Meyers disecciona con maestría insuperable cómo escribir C++ moderno verdaderamente idiomático, elegante y seguro. Considerado universalmente uno de los mejores y más influyentes libros de programación jamás escritos.",
+    "temas": [
+      "Effective Modern C++",
+      "Scott Meyers",
+      "O'Reilly",
+      "C++11",
+      "C++14",
+      "auto y decltype",
+      "std::move",
+      "Perfect Forwarding"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.aristeia.com/books.html",
+      "https://www.oreilly.com/library/view/effective-modern-c/9781491908419/"
+    ]
+  },
+  "head-first-c-2012": {
+    "descripcion": "Manual introductorio visual escrito por David Griffiths y Dawn Griffiths, publicado por O'Reilly en 2012. Utiliza la aclamada pedagogía cognitiva de la serie Head First para enseñar a programar en lenguaje C desde sus fundamentos.\n\nCubre la memoria a bajo nivel, punteros y aritmética de direcciones, manipulación de cadenas de caracteres, structs, punteros a funciones, procesos e hilos con POSIX (`fork`, `exec`, `pthread`), sockets de red y desarrollo de utilidades multiplataforma.\n\nRepleto de acertijos, diagramas gráficos, analogías divertidas y proyectos reales de terminal y networking. La guía de aprendizaje más accesible y entretenida para perderle el miedo a la programación en C.",
+    "temas": [
+      "Head First C",
+      "David Griffiths",
+      "Dawn Griffiths",
+      "O'Reilly",
+      "Punteros",
+      "POSIX Threads",
+      "Sockets de Red",
+      "Visual Learning"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor de Chat Multihilo y Utilidad de Red en C",
+        "descripcion": "Construcción paso a paso de un servidor concurrente basado en sockets POSIX con hilos independientes para clientes concurrentes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/head-first-c/9781449345013/"
+    ]
+  },
+  "optimized-c-2016": {
+    "descripcion": "Tratado técnico de alto nivel escrito por Kurt Guntheroth y publicado por O'Reilly en 2016. Se especializa en la optimización probada y científica de velocidad y consumo de recursos en aplicaciones C++ moderno (C++11/C++14).\n\nCubre la medición rigurosa de rendimiento con profiling de CPU y memoria, optimización de cadenas (`std::string`), algoritmos y estructuras de datos de la STL, optimización de asignaciones dinámicas en memoria (heap vs stack), llamadas virtuales y cachés de procesador (L1/L2/L3).\n\nKurt Guntheroth enseña una disciplina basada en mediciones y datos empíricos para desterrar mitos de optimización prematura. Una obra de consulta permanente para ingenieros de sistemas y software de alta velocidad.",
+    "temas": [
+      "Optimized C++",
+      "Kurt Guntheroth",
+      "O'Reilly",
+      "Profiling",
+      "Caché de CPU",
+      "STL Optimization",
+      "Baja Latencia",
+      "Rendimiento"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Auditoría y Optimización de Motor de Análisis de Datos en C++",
+        "descripcion": "Perfilado con herramientas de telemetría y eliminación de copias temporales, logrando multiplicar el rendimiento por cuatro."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/optimized-c/9781491922057/"
+    ]
+  },
+  "understanding-and-using-c-pointers-2013": {
+    "descripcion": "Guía especializada escrita por Richard Reese y publicada por O'Reilly en 2013. Se sumerge con lupa pedagógica en los conceptos y aplicaciones prácticas de los punteros en el lenguaje C.\n\nExplora la declaración e inicialización de punteros, aritmética de punteros, punteros constantes, gestión dinámica de memoria con `malloc`, `realloc` y `free`, punteros a funciones y estructuras, manipulación de cadenas de texto y prevención de fugas de memoria y desbordamientos de búfer.\n\nEl autor utiliza diagramas visuales detallados de la pila (stack) y el montón (heap) que aclaran con precisión el comportamiento de la memoria. Imprescindible para consolidar la solidez en la programación en C.",
+    "temas": [
+      "C Pointers",
+      "Richard Reese",
+      "O'Reilly",
+      "Punteros",
+      "Stack y Heap",
+      "malloc y free",
+      "Punteros a Funciones",
+      "Memoria"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Asignador de Memoria y Biblioteca de Colecciones con Punteros en C",
+        "descripcion": "Implementación de listas y colas genéricas con punteros a funciones para manipulación dinámica de datos en memoria."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/understanding-and-using/9781449344535/"
+    ]
+  },
+  "computer-fundamentals-and-programming-in-c-2nd-edition-2013": {
+    "descripcion": "Computer Fundamentals and Programming in C es un libro de texto universitario de Pradip Dey y Manas Ghosh publicado por Oxford University Press. La edición de 2013 es la segunda y, según la editorial, está pensada para estudiantes de ingeniería (BE/BTech), de informática aplicada (BCA/MCA) y de ciencias de la computación (BSc) que siguen un primer curso de fundamentos de computación y programación, un formato muy común en los planes de estudio de la India. La editorial indica que el texto incorpora las novedades de C99 allí donde son pertinentes.\n\nSus 16 capítulos se dividen en dos bloques. Los siete primeros son de fundamentos de informática: introducción a los ordenadores, sistemas de numeración y aritmética binaria, álgebra de Boole y puertas lógicas, introducción al software, conceptos básicos de sistemas operativos, Internet y la World Wide Web, y una introducción a la programación con algoritmos y diagramas de flujo. Los nueve restantes enseñan C: fundamentos del lenguaje, entrada y salida, sentencias de control, arrays y cadenas, funciones, punteros, tipos definidos por el usuario (estructuras, uniones, enumeraciones y campos de bits), archivos y un capítulo final de C avanzado.\n\nEs un manual académico de primer año y no una obra para profesionales: la parte de C es introductoria y la de fundamentos (hardware, sistemas operativos, Internet) refleja el estado de la tecnología hacia 2013. No hemos podido consultar el índice detallado ni la lista de ejercicios, por lo que esta descripción se limita a la estructura por capítulos. Los mismos autores tienen otro libro, Programming in C, que trata más a fondo las estructuras de datos.",
+    "temas": [
+      "C",
+      "Fundamentos de computación",
+      "Sistemas de numeración",
+      "Álgebra de Boole",
+      "Sistemas operativos",
+      "Algoritmos y diagramas de flujo",
+      "Punteros",
+      "Estructuras y uniones",
+      "Archivos",
+      "C99"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "media",
+    "fuentes": [
+      "https://catalog.khas.edu.tr/bib/68350",
+      "https://openlibrary.org/isbn/9780198084563"
+    ]
+  },
+  "object-oriented-programming-with-c-2nd-edition-2012": {
+    "descripcion": "Segunda edición del manual académico escrito por Sourav Sahay y publicado por Oxford University Press en 2012. Ofrece una formación técnica completa en programación orientada a objetos utilizando C++.\n\nCubre el diseño de clases y objetos, constructores y destructores, sobrecarga de operadores y funciones, herencia simple y múltiple, polimorfismo dinámico con funciones virtuales, plantillas genéricas, manejo de excepciones y flujos de E/S con la STL.\n\nEl autor combina teoría rigurosa de orientación a objetos con abundantes ejemplos de código y proyectos guiados. Un texto académico muy completo para asentar los principios de diseño de software en C++.",
+    "temas": [
+      "Oxford University Press",
+      "Sourav Sahay",
+      "POO en C++",
+      "Funciones Virtuales",
+      "Herencia",
+      "Plantillas",
+      "STL"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Simulación Bancaria y Nóminas Orientado a Objetos",
+        "descripcion": "Construcción de una aplicación de consola con jerarquías de clases polimórficas, persistencia en archivos y sobrecarga de operadores."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://global.oup.com/academic/product/object-oriented-programming-with-c-9780198066231"
+    ]
+  },
+  "programming-in-c-2nd-edition-2012": {
+    "descripcion": "Segunda edición del aclamado manual académico de Reema Thareja, publicado por Oxford University Press en 2012. Se enfoca en la enseñanza exhaustiva de la programación estructurada y la resolución algorítmica de problemas con C.\n\nExplora la sintaxis del lenguaje, estructuras condicionales e iterativas, funciones modulares y recursión, manipulación de arrays y cadenas, punteros y asignación dinámica de memoria, structs, uniones y E/S de archivos binarios.\n\nIncluye más de 250 programas de ejemplo completos y cientos de ejercicios prácticos graduados. Una de las guías académicas más claras y completas para dominar el lenguaje C.",
+    "temas": [
+      "Reema Thareja",
+      "Oxford University Press",
+      "Lenguaje C",
+      "Recursión",
+      "Punteros",
+      "Archivos Binarios",
+      "Algoritmos"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Inventario y Base de Datos de Archivos en C",
+        "descripcion": "Implementación de un sistema de gestión con búsqueda binaria, ordenación de registros y persistencia en disco con archivos binarios."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://global.oup.com/academic/product/programming-in-c-9780198075288"
+    ]
+  },
+  "programming-with-ansi-c-2nd-edition-2014": {
+    "descripcion": "Segunda edición del manual universitario de Bhushan Trivedi, publicado por Oxford University Press en 2014. Ofrece una cobertura rigurosa y pedagógica del estándar ANSI C.\n\nCubre variables y tipos de datos primitivos, operadores lógicos y a nivel de bits (bitwise), estructuras de control de flujo, funciones y ámbito de variables, arrays multidimensionales, punteros, estructuras y archivos.\n\nEl autor destaca por un enfoque metodológico que enseña a pensar en términos de algoritmos antes de codificar, analizando la eficiencia temporal y espacial de cada solución. Excelente texto formativo para estudiantes de informática.",
+    "temas": [
+      "ANSI C",
+      "Bhushan Trivedi",
+      "Oxford University Press",
+      "Bitwise",
+      "Punteros",
+      "Algoritmos",
+      "Estructuras de Control"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Procesamiento Matemático y Criptográfico Básico en C",
+        "descripcion": "Desarrollo de algoritmos de manipulación a nivel de bits, cifrado básico de datos y ordenación de matrices en ANSI C."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://global.oup.com/academic/product/programming-with-ansi-c-9780198084891"
+    ]
+  },
+  "c-multithreading-cookbook-2014": {
+    "descripcion": "Recetario técnico especializado escrito por Milos Ljumovic y publicado por Packt en 2014. Contiene más de 60 recetas prácticas con código listo para usar sobre concurrencia y paralelismo en C++11.\n\nCubre la creación de hilos con `std::thread`, sincronización mediante `std::mutex`, `std::lock_guard` y `std::unique_lock`, comunicación entre hilos con variables de condición, tareas asíncronas con `std::async` y `std::future`, y operaciones atómicas sin bloqueos.\n\nCada receta aborda un problema real de sincronización y multithreading con explicaciones concisas y directas. Muy útil para programadores de C++ que desarrollan software concurrente.",
+    "temas": [
+      "C++ Multithreading",
+      "Packt",
+      "C++11",
+      "std::thread",
+      "std::mutex",
+      "std::future",
+      "Lock-free",
+      "Recetas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/c-multithreading-cookbook-9781783282821"
+    ]
+  },
+  "c-windows-programming-2016": {
+    "descripcion": "C++ Windows Programming: Develop real-world applications in Windows es un libro de Stefan Björnander publicado por Packt en septiembre de 2016. Enseña a desarrollar aplicaciones de escritorio para Windows en C++ mediante Small Windows, una biblioteca de clases orientada a objetos que el propio autor construye sobre la API Win32. Está dirigido a desarrolladores con conocimientos básicos de C++ y de orientación a objetos que quieren entrar directamente en la programación para Windows, y el código del repositorio oficial está preparado para Visual Studio.\n\nLa primera parte es práctica: tras una introducción y un capítulo con los primeros programas (Hello y Circle), el autor construye cuatro aplicaciones cada vez más complejas. Son un Tetris, que trata los gráficos, los temporizadores y los mensajes; un programa de dibujo, repartido entre los capítulos sobre formas y figuras y la jerarquía de figuras; un procesador de textos, junto con un capítulo sobre entrada de teclado y cálculo de caracteres; y una hoja de cálculo, que se completa con un capítulo sobre interpretación de fórmulas. La segunda parte explica cómo está hecha Small Windows por dentro: el framework de ventanas, la clase del documento, las clases auxiliares, el registro, el portapapeles, los diálogos estándar y la vista previa de impresión, y los diálogos, controles y configuración de página. El capítulo del framework incluye también una aplicación escrita directamente con la API Win32, y un apéndice trata los números racionales y complejos.\n\nEl libro se apoya en una biblioteca propia y en la API Win32 clásica, así que no enseña MFC, WinUI, WPF ni las herramientas de interfaz actuales de Microsoft. Sirve para entender cómo funciona una aplicación Windows por debajo y cómo diseñar un framework de clases en C++, más que para elegir una tecnología de interfaz moderna.",
+    "temas": [
+      "C++",
+      "Win32 API",
+      "Programación para Windows",
+      "Small Windows",
+      "Diseño de bibliotecas de clases",
+      "Tetris",
+      "Procesador de textos",
+      "Hoja de cálculo",
+      "Interpretación de fórmulas",
+      "Visual Studio"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tetris",
+        "descripcion": "Juego con gráficos, temporizadores y gestión de mensajes de Windows construido sobre Small Windows."
+      },
+      {
+        "nombre": "Programa de dibujo",
+        "descripcion": "Editor de figuras basado en una jerarquía de clases de formas."
+      },
+      {
+        "nombre": "Procesador de textos",
+        "descripcion": "Editor de texto que trata la entrada de teclado y el cálculo de caracteres."
+      },
+      {
+        "nombre": "Hoja de cálculo",
+        "descripcion": "Aplicación de celdas con un intérprete de fórmulas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/PacktPublishing/Cpp-Windows-Programming",
+      "https://books.google.com.pe/books?id=0YVcDgAAQBAJ",
+      "https://openlibrary.org/isbn/9781786464224"
+    ]
+  },
+  "learning-boost-c-libraries-2015": {
+    "descripcion": "Guía especializada escrita por Arindam Mukherjee y publicada por Packt en 2015. Introduce las librerías más útiles y potentes de la célebre colección Boost C++ Libraries.\n\nExplora Boost.SmartPointers, Boost.Signals2 para patrones de observador desacoplados, Boost.Asio para networking asíncrono, Boost.Filesystem, Boost.Spirit para creación de parsers y Boost.Thread para concurrencia avanzada.\n\nEl autor explica cómo Boost actúa como banco de pruebas del comité de estandarización de C++, permitiendo escribir código de calidad industrial antes de su incorporación a los estándares oficiales. Esencial para desarrolladores profesionales de C++.",
+    "temas": [
+      "Boost Libraries",
+      "Boost.Asio",
+      "Boost.Signals2",
+      "Boost.Spirit",
+      "Arindam Mukherjee",
+      "C++",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor de Red Asíncrono y Parser de Protocolos con Boost",
+        "descripcion": "Construcción de un servicio TCP asíncrono utilizando Boost.Asio y un analizador sintáctico declarativo con Boost.Spirit."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/learning-boost-c-libraries-9781783551217"
+    ]
+  },
+  "qt5-c-gui-programming-cookbook-2016": {
+    "descripcion": "Recetario práctico escrito por Lee Zhi Eng y publicado por Packt en 2016. Proporciona soluciones directas para crear interfaces gráficas modernas, responsivas y multiplataforma con Qt 5 y C++.\n\nCubre el diseño de interfaces visuales con Qt Designer, el mecanismo de señales y ranuras (signals & slots), hojas de estilo de Qt (QSS), integración con OpenGL para gráficos 3D, desarrollo declarativo con Qt Quick y QML, y persistencia con SQLite.\n\nCada receta incluye el código fuente completo y pasos visuales para diseñar aplicaciones de escritorio atractivas para Windows, macOS y Linux. Muy recomendado para desarrolladores de aplicaciones de escritorio.",
+    "temas": [
+      "Qt 5",
+      "GUI Programming",
+      "Signals and Slots",
+      "QML",
+      "Qt Quick",
+      "OpenGL",
+      "Desktop Apps",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Aplicaciones de Escritorio Multiplataforma con Qt 5",
+        "descripcion": "Desarrollo de un reproductor multimedia y panel de control con interfaz QML moderna, gráficos OpenGL y persistencia SQLite."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/qt5-c-gui-programming-cookbook-9781785288821"
+    ]
+  },
+  "c-how-to-program-8th-edition-2011": {
+    "descripcion": "Octava edición del libro de texto de Paul y Harvey Deitel para aprender C++, publicada por Pearson (Prentice Hall) en 2011, con más de 1.100 páginas. Está pensada para cursos universitarios de introducción a la programación y para cursos intermedios de C++, y también para autodidactas sin experiencia previa que quieran un curso completo y muy guiado. Sigue el enfoque de «objetos desde el principio» de los autores: las clases y los objetos aparecen en los primeros capítulos, antes de las estructuras de control.\n\nEl recorrido empieza con los fundamentos (entrada y salida, tipos, operadores, estructuras de control y funciones con recursión) y continúa con arrays y la plantilla vector, punteros, el estudio en profundidad de las clases, la sobrecarga de operadores, la herencia y el polimorfismo con funciones virtuales. Después trata plantillas, flujos de entrada y salida, procesamiento de ficheros, la clase string, el manejo de excepciones y una introducción amplia a la biblioteca estándar de plantillas (STL), con contenedores, iteradores y algoritmos. Incluye además un caso de estudio opcional de diseño orientado a objetos con UML, el clásico sistema de cajero automático.\n\nComo todos los libros de la serie, se apoya en el método «Live-Code»: cada concepto se presenta con programas completos que se ejecutan y comentan, acompañados de consejos de buenas prácticas, rendimiento y portabilidad, y de cientos de ejercicios de autoevaluación y de final de capítulo. Su gran virtud es lo exhaustivo y progresivo de su enfoque; su principal límite es la fecha, ya que se escribió justo antes del estándar C++11, por lo que no enseña el C++ moderno (auto, lambdas, punteros inteligentes, semántica de movimiento), que sí recogen ediciones posteriores.",
+    "temas": [
+      "C++",
+      "Programación orientada a objetos",
+      "Clases y objetos",
+      "Punteros",
+      "Sobrecarga de operadores",
+      "Herencia",
+      "Polimorfismo",
+      "Plantillas",
+      "STL",
+      "Excepciones",
+      "Ficheros",
+      "UML"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Caso de estudio del cajero automático (ATM)",
+        "descripcion": "Diseño e implementación orientados a objetos de un sistema de cajero automático, modelado con UML y programado en C++."
+      }
+    ],
+    "confianza": "media",
+    "fuentes": [
+      "https://www.schweitzer-online.de/en/buch/Deitel/Cplusplus-How-Program/9780132662369/B302315/",
+      "https://www.tenlong.com.tw/products/9780132662369"
+    ]
+  },
+  "c-without-fear-3rd-edition-2016": {
+    "descripcion": "Tercera edición de la aclamada guía de Brian Overland, publicada por Pearson en 2016. Diseñada para desterrar el miedo a la complejidad de C++ mediante un estilo ameno, paciente y extraordinariamente claro.\n\nCubre variables, control de flujo, funciones, punteros y referencias explicados con analogías intuitivas, clases y programación orientada a objetos, herencia, y las utilidades esenciales de la Standard Template Library (STL).\n\nBrian Overland acompaña cada concepto con rompecabezas de programación, pequeños juegos interactivos y trucos prácticos que hacen que aprender C++ sea divertido y estimulante. Muy recomendado para autodidactas y principiantes.",
+    "temas": [
+      "C++ Without Fear",
+      "Brian Overland",
+      "Pearson",
+      "Punteros Intuitivos",
+      "STL",
+      "POO Básica",
+      "Principiantes"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Juegos de Lógica y Tablero en Terminal con C++",
+        "descripcion": "Construcción de juegos interactivos de adivinanzas y simulación de dados aplicando estructuras de datos y funciones modulares."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/c-plus-plus-without-fear-a-beginners-guide-that-makes-9780134314303"
+    ]
+  },
+  "introduction-to-design-patterns-in-c-with-qt-2nd-edition-2011": {
+    "descripcion": "Segunda edición del aclamado tratado universitario de Alan Ezust y Paul Ezust, publicado por Prentice Hall en 2011. Enseña patrones de diseño de software y arquitectura en C++ utilizando el framework Qt 4.\n\nExplora patrones de diseño clásicos de la banda de los cuatro (GoF) integrados con las clases de Qt: Factory, Composite, Observer (señales y ranuras), Serializer y Model-View-Controller (MVC) para interfaces de usuario ricas.\n\nLos autores combinan rigor académico con desarrollo práctico de software de nivel industrial. Considerada una de las mejores obras de referencia para aprender patrones de diseño aplicados con C++ y Qt.",
+    "temas": [
+      "Qt",
+      "Design Patterns",
+      "Prentice Hall",
+      "Signals and Slots",
+      "MVC",
+      "Patrones GoF",
+      "Alan Ezust",
+      "C++ GUI"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Entorno Gráfico de Modelado con Arquitectura MVC y Patrones Qt",
+        "descripcion": "Construcción de una aplicación visual con renderizado dinámico de modelos de datos utilizando señales, ranuras y patrones GoF."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/introduction-to-design-patterns-in-c-with-qt-4-9780131879058"
+    ]
+  },
+  "the-c-programming-language-2nd-edition-1988": {
+    "descripcion": "Conocido universalmente como 'K&R', escrito por Brian W. Kernighan y Dennis M. Ritchie (el creador del lenguaje C), publicado por Prentice Hall en 1988. Es el texto fundacional más influyente y venerado de la historia de la informática.\n\nDefine el estándar ANSI C con una concisión, elegancia y claridad insuperables: tipos primitivos, operadores, control de flujo, funciones y estructura modular, punteros y arrays, estructuras, E/S estándar y la interfaz con el sistema operativo UNIX.\n\nSus breves 270 páginas sentaron las bases sobre las que se construyeron los sistemas operativos y lenguajes modernos del mundo entero. Una obra cumbre de la cultura universal de la programación que todo informático debe atesorar.",
+    "temas": [
+      "K&R",
+      "Dennis Ritchie",
+      "Brian Kernighan",
+      "ANSI C",
+      "Prentice Hall",
+      "Punteros",
+      "UNIX",
+      "Biblia de la Programación"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Calculadora con Notación Polaca Inversa y Asignador de Memoria",
+        "descripcion": "Construcción de los legendarios programas clásicos de K&R: evaluador de expresiones de pila y un asignador de memoria malloc/free elemental."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/c-programming-language-9780131103627"
+    ]
+  },
+  "c-in-24-hours-sams-teach-yourself-6th-edition-2016": {
+    "descripcion": "Sexta edición del popular curso introductorio estructurado en 24 lecciones de una hora, escrito por Rogers Cadenhead y publicado por Sams en 2016. Enseña a programar en C++ moderno de manera accesible y progresiva.\n\nGuía al lector desde la instalación de compiladores y el primer 'Hola Mundo', variables, tipos, condicionales, bucles, funciones, punteros y referencias, hasta la programación orientada a objetos con clases, herencia y la STL básica.\n\nEl formato de sesiones de 60 minutos con preguntas de repaso y ejercicios prácticos facilita mantener un ritmo constante de estudio. Muy recomendado para quienes dan sus primeros pasos en C++.",
+    "temas": [
+      "Sams Teach Yourself",
+      "Rogers Cadenhead",
+      "C++ en 24 Horas",
+      "Fundamentos",
+      "POO",
+      "Punteros",
+      "Principiantes"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/c-plus-plus-in-24-hours-sams-teach-yourself-9780672337482"
+    ]
+  },
+  "c-in-one-hour-a-day-sams-teach-yourself-8th-edition-2017": {
+    "descripcion": "Octava edición del célebre manual de Siddhartha Rao, publicado por Sams en 2017. Ofrece un curso estructurado y riguroso para aprender C++ moderno (C++14/C++17) dedicando una lección al día.\n\nCubre la sintaxis contemporánea, auto y deducción de tipos, punteros inteligentes (`std::unique_ptr`, `std::shared_ptr`), lambdas, programación orientada a objetos avanzada, la Standard Template Library (STL) completa y manejo seguro de memoria y excepciones.\n\nSiddhartha Rao destaca por su claridad didáctica y su énfasis en no cometer viejos errores de C en C++ moderno. Una de las guías de autoaprendizaje diario más sólidas y prestigiosas del mercado.",
+    "temas": [
+      "Siddhartha Rao",
+      "Sams Teach Yourself",
+      "C++14",
+      "C++17",
+      "Smart Pointers",
+      "Lambdas",
+      "STL",
+      "POO"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Directorio Telefónico y Contactos con la STL en C++",
+        "descripcion": "Desarrollo paso a paso de una aplicación de gestión con contenedores mapa, punteros inteligentes y algoritmos de búsqueda rápida."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/c-plus-plus-in-one-hour-a-day-sams-teach-yourself-9780789757746"
+    ]
+  },
+  "real-time-c-2nd-edition-2015": {
+    "descripcion": "Segunda edición de la obra maestra técnica de Christopher Kormanyos, publicada por Springer en 2015. Es el tratado de referencia mundial sobre el uso de C++11 y C++14 en sistemas embebidos de tiempo real y microcontroladores.\n\nExplora la programación sin asignación dinámica de memoria en el heap, funciones `constexpr` en tiempo de compilación, acceso a registros de hardware mediante punteros volátiles tipados, matemáticas de punto fijo y punto flotante de alta precisión, y microcontroladores como AVR y ARM Cortex-M.\n\nEl autor demuestra cómo C++ moderno supera a C en seguridad y abstracción sin añadir un solo byte de sobrecarga en tiempo de ejecución (abstracciones de coste cero). Imprescindible para ingenieros de firmware, automoción y aeroespacial.",
+    "temas": [
+      "Real-Time C++",
+      "Christopher Kormanyos",
+      "Sistemas Embebidos",
+      "constexpr",
+      "ARM Cortex-M",
+      "Zero-Cost Abstractions",
+      "Firmware",
+      "Springer"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema Operativo de Tiempo Real Minimalista en C++ Embebido",
+        "descripcion": "Construcción de un planificador cooperativo de tareas para microcontroladores ARM con controladores de hardware en constexpr."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-3-662-47818-9"
+    ]
+  },
+  "modern-c-programming-with-test-driven-development-2013": {
+    "descripcion": "Tratado técnico innovador escrito por Jeff Langr y publicado por The Pragmatic Programmers en 2013. Es la obra de referencia definitiva sobre cómo aplicar el Desarrollo Guiado por Pruebas (TDD) en proyectos reales de C++11.\n\nCubre el ciclo Red-Green-Refactor, especificaciones con Google Test y Google Mock, diseño desacoplado de dependencias mediante interfaces abstractas, inyección de dependencias en C++, y técnicas seguras para abordar y refactorizar código heredado (legacy code).\n\nJeff Langr acompaña al lector en el desarrollo de un motor de búsqueda y un calculador de inversiones, demostrando cómo el TDD transforma C++ en un lenguaje seguro y grato de evolucionar. Una lectura transformadora para cualquier ingeniero de software.",
+    "temas": [
+      "TDD en C++",
+      "Jeff Langr",
+      "Pragmatic Programmers",
+      "Google Test",
+      "Google Mock",
+      "Clean Code",
+      "Legacy Code",
+      "Refactorización"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de Búsqueda y Puntuación Desarrollado con TDD en C++11",
+        "descripcion": "Construcción guiada por pruebas de un indexador de texto utilizando dobles de prueba Google Mock y arquitectura desacoplada."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://pragprog.com/titles/lotdd/modern-c-programming-with-test-driven-development/"
+    ]
+  },
+  "building-software-for-simulation-2010": {
+    "descripcion": "Tratado técnico avanzado escrito por James Nutaro y publicado por Wiley en 2010. Se especializa en la teoría y construcción de software de simulación de eventos discretos y sistemas continuos utilizando C++.\n\nCubre el formalismo DEVS (Discrete Event System Specification), diseño de colas de eventos prioritarias en memoria, modelado de sistemas físicos y biológicos, simulación de redes de computadores y arquitecturas de simulación paralela y distribuida.\n\nEl autor combina fundamentos matemáticos rigurosos con código fuente completo en C++ para cada modelo. Una referencia imprescindible para investigadores e ingenieros de modelado computacional y simulación de sistemas complejos.",
+    "temas": [
+      "Simulación de Sistemas",
+      "DEVS",
+      "Eventos Discretos",
+      "James Nutaro",
+      "Wiley",
+      "Colas Prioritarias",
+      "C++ Científico"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de Simulación de Eventos Discretos DEVS en C++",
+        "descripcion": "Implementación de una plataforma de simulación para modelar el tráfico de redes y sistemas de colas con temporización precisa."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Building+Software+for+Simulation%3A+Theory+and+Algorithms%2C+with+Applications+in+C%2B%2B-p-9780470414699"
+    ]
+  },
+  "c-programming-for-dummies-2nd-edition-2020": {
+    "descripcion": "Segunda edición de la simpática y popular guía de Dan Gookin (el autor que originó la serie 'For Dummies'), publicada por Wiley en 2020. Enseña a programar en lenguaje C desde cero con un lenguaje ameno, directo y desenfadado.\n\nCubre la instalación de compiladores en Windows, macOS y Linux, variables, cadenas de texto, operadores, funciones, bucles, punteros explicados sin dolor, estructuras y manipulación básica de archivos en disco.\n\nDan Gookin desmitifica los conceptos técnicos intimidantes con explicaciones humorísticas y proyectos sencillos. Excelente para principiantes absolutos que desean aprender a programar en C sin estrés.",
+    "temas": [
+      "For Dummies",
+      "Dan Gookin",
+      "Lenguaje C",
+      "Principiantes",
+      "Punteros Fáciles",
+      "Estructuras",
+      "Wiley"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/C+Programming+For+Dummies%2C+2nd+Edition-p-9781119702849"
+    ]
+  },
+  "c-all-in-one-for-dummies-3rd-edition-2014": {
+    "descripcion": "Tercera edición de la voluminosa enciclopedia de consulta de John Paul Mueller y Jeff Cogswell, publicada por Wiley en 2014. Reúne en un solo compendio siete libros temáticos dedicados a C++ moderno.\n\nCubre desde los conceptos básicos de sintaxis y programación estructurada, orientación a objetos completa, punteros y referencias, plantillas, contenedores y algoritmos de la Standard Template Library (STL), hasta desarrollo visual de interfaces de usuario.\n\nSu estilo accesible y estructurado permite resolver dudas cotidianas de programación al instante. Una excelente guía de cabecera para estudiantes y desarrolladores prácticos.",
+    "temas": [
+      "C++ All-in-One",
+      "For Dummies",
+      "John Paul Mueller",
+      "STL",
+      "POO",
+      "Punteros",
+      "Enciclopedia C++",
+      "Wiley"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Herramientas de Cálculo y Gestión de Información en C++",
+        "descripcion": "Desarrollo de módulos de terminal para gestión de inventario, procesamiento estadístico y persistencia de registros en disco."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/C%2B%2B+All+in+One+For+Dummies%2C+3rd+Edition-p-9781118823774"
+    ]
+  },
+  "beginning-visual-c-2010-2010": {
+    "descripcion": "Manual formativo exhaustivo de más de 1.000 páginas escrito por Ivor Horton y publicado por Wrox en 2010. Proporciona una inmersión completa en la programación con Visual C++ 2010 en el entorno de Microsoft Windows.\n\nCubre tanto el C++ nativo estándar como las extensiones C++/CLI, el entorno integrado Visual Studio 2010, programación orientada a objetos, herencia, plantillas, desarrollo de interfaces gráficas nativas con MFC (Microsoft Foundation Classes) y aplicaciones de Windows Forms.\n\nIvor Horton destaca por una pedagogía metódica y estructurada con cientos de ejemplos de código explicados minuciosamente. Una referencia clásica muy completa para desarrolladores de la plataforma Windows.",
+    "temas": [
+      "Ivor Horton",
+      "Visual C++ 2010",
+      "Wrox",
+      "MFC",
+      "C++/CLI",
+      "Visual Studio",
+      "Windows Forms",
+      "C++ Nativo"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de Dibujo y Diseño Vectorial Sketcher con Visual C++ y MFC",
+        "descripcion": "Construcción completa de un programa de diseño gráfico de escritorio con soporte para dibujo geométrico, paletas de colores y serialización."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Beginning+Visual+C%2B%2B+2010-p-9780470500880"
+    ]
+  },
+  "beginning-visual-c-2012-2012": {
+    "descripcion": "Manual exhaustivo escrito por Ivor Horton y publicado por Wrox en 2012. Enseña a programar aplicaciones con Visual C++ 2012 incorporando las características tempranas de C++11 y el desarrollo para Windows 8.\n\nCubre el C++ nativo moderno (auto, lambdas, range-based for), la biblioteca estándar, el desarrollo de aplicaciones clásicas de escritorio con MFC y la introducción a C++/CX para el desarrollo de aplicaciones de la Tienda de Windows (Metro/UWP).\n\nEl autor guía la construcción de proyectos prácticos con código paso a paso y ejercicios de autoevaluación. Una guía formativa de gran envergadura para programadores de Windows.",
+    "temas": [
+      "Ivor Horton",
+      "Visual C++ 2012",
+      "Wrox",
+      "C++11",
+      "MFC",
+      "Windows 8",
+      "C++/CX",
+      "Visual Studio 2012"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Editor Gráfico Sketcher con C++11 y MFC en Visual Studio 2012",
+        "descripcion": "Desarrollo integral de una aplicación de escritorio con herramientas de dibujo, menús Ribbon y soporte para el nuevo estándar C++11."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Ivor+Horton%27s+Beginning+Visual+C%2B%2B+2012-p-9781118368084"
+    ]
+  },
+  "ivor-horton-s-beginning-visual-c-2013-2014": {
+    "descripcion": "Manual enciclopédico de Ivor Horton publicado por Wrox en 2014. Ofrece una cobertura exhaustiva de la programación en C++ con Visual Studio 2013, integrando las características maduras de C++11 y C++14.\n\nCubre sintaxis nativa moderna, clases, plantillas, punteros inteligentes, funciones lambda, concurrencia, la Standard Template Library (STL) y el desarrollo de software nativo para Windows utilizando MFC y DirectX básico.\n\nCon su característico estilo minucioso y pausado, el autor guía al lector a través de cientos de ejemplos y ejercicios de código. La referencia clásica definitiva de Ivor Horton para Visual Studio 2013.",
+    "temas": [
+      "Ivor Horton",
+      "Visual C++ 2013",
+      "Wrox",
+      "C++14",
+      "STL",
+      "Smart Pointers",
+      "MFC",
+      "Visual Studio"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de Escritorio Sketcher con Visual Studio 2013 y MFC",
+        "descripcion": "Construcción completa de una suite de dibujo vectorial con almacenamiento de documentos, interfaz de cinta Ribbon y algoritmos STL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Ivor+Horton%27s+Beginning+Visual+C%2B%2B+2013-p-9781118845769"
+    ]
+  },
+  "parallel-programming-with-intel-parallel-studio-xe-2012": {
+    "descripcion": "Tratado técnico avanzado escrito por Stephen Blair-Chappell y Andrew Stokes, publicado por Wrox en 2012. Enseña a optimizar software en C y C++ para procesadores multinúcleo utilizando la suite Intel Parallel Studio XE.\n\nCubre la paralelización mediante OpenMP, vectorización SIMD con extensiones SSE y AVX, uso de Intel Threading Building Blocks (TBB), análisis de cuellos de botella con Intel VTune Amplifier y detección de carreras y fugas con Intel Inspector.\n\nLos autores aportan estrategias de computación de alto rendimiento contrastadas en centros de cálculo y aplicaciones industriales críticas. Indispensable para ingenieros de optimización y computación de alto rendimiento.",
+    "temas": [
+      "Intel Parallel Studio",
+      "OpenMP",
+      "Intel TBB",
+      "VTune Amplifier",
+      "AVX y SIMD",
+      "Paralelismo",
+      "HPC",
+      "Wrox"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Optimización Vectorial y Paralela de Algoritmo Científico con Intel VTune",
+        "descripcion": "Perfilado con Intel VTune y paralelización con OpenMP y TBB multiplicando la velocidad de procesamiento por diez."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Parallel+Programming+with+Intel+Parallel+Studio+XE-p-9780470891650"
+    ]
+  },
+  "professional-c-3rd-edition-2014": {
+    "descripcion": "Tercera edición de la monumental enciclopedia corporativa escrita por Marc Gregoire, publicada por Wrox en 2014. Con cerca de 1.000 páginas, ofrece una guía completa para el desarrollo profesional corporativo en C++14.\n\nCubre diseño de software reutilizable, patrones de diseño GoF adaptados a C++, programación genérica avanzada con plantillas, la biblioteca estándar completa, semántica de movimiento, concurrencia multihilo, pruebas de software y buenas prácticas de depuración.\n\nMarc Gregoire combina profundidad teórica con consejos de ingeniería de software extraídos de proyectos corporativos de gran escala. Una de las obras de referencia más respetadas por los ingenieros senior de C++.",
+    "temas": [
+      "Professional C++",
+      "Marc Gregoire",
+      "Wrox",
+      "C++14",
+      "STL",
+      "Plantillas Avanzadas",
+      "Concurrencia",
+      "Patrones de Diseño"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework de Procesamiento de Datos Empresarial en C++14",
+        "descripcion": "Diseño de un motor concurrente con punteros inteligentes, despacho polimórfico eficiente y arquitectura de plantillas desacopladas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Professional+C%2B%2B%2C+3rd+Edition-p-9781118858059"
+    ]
+  },
+  "professional-multicore-programming-2008": {
+    "descripcion": "Tratado técnico exhaustivo escrito por Cameron Hughes y Tracey Hughes, publicado por Wrox en 2008. Es la obra de referencia definitiva sobre el diseño de arquitecturas de software para procesadores multinúcleo y multiprocesador en C++.\n\nExplora la taxonomía de Flynn, programación multihilo con POSIX Threads (pthreads), sincronización mediante semáforos, mutexes y variables de condición, descomposición funcional y de datos, y algoritmos paralelos en memoria compartida (SMP).\n\nLos autores enseñan a evitar la contención de memoria y las condiciones de carrera mediante patrones de diseño concurrente contrastados. Una lectura clásica de inmenso valor para desarrolladores de sistemas operativos y software distribuido.",
+    "temas": [
+      "Multicore Programming",
+      "Cameron Hughes",
+      "Tracey Hughes",
+      "Wrox",
+      "POSIX Threads",
+      "pthreads",
+      "SMP",
+      "Concurrencia"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor Paralelo de Procesamiento de Matrices con POSIX Threads",
+        "descripcion": "Implementación de un algoritmo distribuido multinúcleo con sincronización basada en barreras y semáforos POSIX en C++."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Professional+Multicore+Programming%3A+Design+and+Implementation+for+C%2B%2B+Developers-p-9780470289624"
+    ]
+  }
+}

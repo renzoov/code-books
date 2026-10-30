@@ -1,0 +1,1834 @@
+{
+  "security-for-web-developers-2015": {
+    "descripcion": "Manual práctico y estratégico centrado en la seguridad defensiva para aplicaciones web publicado por O'Reilly Media a finales de 2015. Escrito por el prolífico autor técnico John Paul Mueller, el libro busca cerrar la brecha habitual entre la programación frontend y las políticas de seguridad corporativas, enseñando a los desarrolladores a incorporar la protección en el diseño inicial en lugar de tratarla como un añadido apresurado. Está destinado a desarrolladores web de nivel intermedio que ya poseen una base firme en HTML5, CSS3 y JavaScript, y que necesitan asegurar que sus aplicaciones resistan ataques tanto en navegadores de escritorio como en dispositivos móviles.\n\nEl contenido se divide en cinco fases estructuradas: planificación y modelado del entorno de amenazas (Software Security Assurance), prácticas de codificación segura en interfaces de usuario, incorporación controlada de librerías y APIs de terceros, técnicas de pruebas y aislamiento (sandbox), y ciclos de mantenimiento y respuesta ante incidentes. En el aspecto técnico concreto, enseña la implementación de políticas de seguridad de contenido (Content Security Policy o CSP), la gestión rigurosa de intercambio de recursos de origen cruzado (CORS), defensas contra Cross-Site Scripting (XSS) e inyecciones de código, mitigación de ataques de denegación de servicio (DDoS), entornos de prueba aislados (como el sandbox de APIs comerciales estilo eBay) y metodologías para auditar librerías externas y pensar con mentalidad de atacante.\n\nLa enseñanza se apoya en ejemplos de código en JavaScript y HTML (alojados en el repositorio oficial de O'Reilly en GitHub) que ilustran riesgos concretos y su resolución técnica, sin llegar a estructurar un proyecto aplicativo integral de extremo a extremo ni presentar cuestionarios de ejercicios al final de los capítulos. Su punto fuerte radica en su perspectiva pragmática y accesible, ideal para desarrolladores que no provienen del área de ciberseguridad pero deben tomar decisiones defensivas cotidianas. Deja fuera el análisis forense profundo y la explotación ofensiva avanzada con herramientas profesionales de pentesting, resultando en una lectura previa perfecta para consolidar hábitos de desarrollo seguro antes de abordar auditorías de penetración.",
+    "temas": [
+      "Seguridad web",
+      "JavaScript",
+      "HTML5",
+      "Content Security Policy (CSP)",
+      "CORS",
+      "Prevención de XSS",
+      "Sandboxing",
+      "Seguridad en APIs",
+      "Microservicios",
+      "Ciclo de vida de software seguro"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/security-for-web/9781491928639/",
+      "https://github.com/oreillymedia/Security_for_Web_Developers",
+      "https://books.google.com/books?id=QJbTCwAAQBAJ"
+    ]
+  },
+  "javascript-security-2014": {
+    "descripcion": "Guía concisa y condensada publicada por Packt Publishing en 2014, redactada por Y.E. (Eugene) Liang. En poco más de 100 páginas, la obra sintetiza las vulnerabilidades más críticas que afectan a las aplicaciones web desde la perspectiva del código JavaScript en el navegador. Está orientada a programadores de nivel principiante e intermedio que dominan la sintaxis básica de JavaScript, la manipulación del árbol DOM y las peticiones asíncronas vía Ajax, y que buscan comprender rápidamente dónde residen los puntos débiles de la ejecución en el cliente y cómo corregirlos sin perderse en extensos manuales teóricos.\n\nEl libro aborda en seis capítulos directos los vectores de ataque más recurrentes del ecosistema web: el modelo de seguridad del navegador sustentado en la política del mismo origen (Same-Origin Policy); los mecanismos para proteger peticiones Ajax y servicios RESTful (incluyendo riesgos asociados a JSONP, manejo de credenciales y transporte cifrado); la anatomía de los ataques de Cross-Site Scripting (XSS persistente, no persistente y basado en DOM) junto con técnicas de codificación y sanitización de salida; contramedidas frente a Cross-Site Request Forgery (CSRF) mediante tokens y validación de cabeceras; los peligros de depositar confianza excesiva en el cliente (como la manipulación de variables globales, cookies y almacenamiento local); y tácticas de phishing en JavaScript como clickjacking, keystroke logging e iframes maliciosos defendidos con X-Frame-Options y CSP.\n\nEl autor expone los conceptos acompañados de fragmentos de código focalizados que recrean la vulnerabilidad y muestran la contramedida adecuada, permitiendo experimentar con vectores de prueba en entornos locales controlados. Dado su formato breve de manual de bolsillo, carece de proyectos completos de software y de listas formales de ejercicios. Su mayor utilidad es servir como una lista de verificación y referencia ágil para detectar errores habituales en el frontend; cabe advertir que, al haber sido publicado en 2014, no aborda las particularidades de frameworks de componentes modernos (como React, Vue o Angular) ni especificaciones defensivas posteriores de cookies (como el atributo SameSite).",
+    "temas": [
+      "JavaScript",
+      "Seguridad web",
+      "Same-Origin Policy",
+      "Cross-Site Scripting (XSS)",
+      "CSRF",
+      "Seguridad en Ajax y REST",
+      "Clickjacking",
+      "Phishing",
+      "Sanitización del DOM",
+      "Content Security Policy (CSP)"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/javascript-security-9781783988006",
+      "https://www.oreilly.com/library/view/javascript-security/9781783988006/",
+      "https://books.google.com/books?id=i9iWBQAAQBAJ"
+    ]
+  },
+  "advanced-api-security-2014": {
+    "descripcion": "Obra técnica de nivel avanzado publicada por Apress en 2014, escrita por Prabath Siriwardena, especialista y arquitecto de software de renombre internacional en el ámbito de gestión de identidades y seguridad empresarial. El libro se enfoca en resolver los desafíos de arquitectura de seguridad que surgieron con la proliferación de servicios web RESTful y APIs públicas y privadas, superando los modelos tradicionales de autenticación basados en cookies y sesiones de servidor. Está dirigido a arquitectos de software, ingenieros de seguridad y desarrolladores backend senior con experiencia en el diseño de APIs distribuidas y familiaridad con HTTP, criptografía de clave pública y formatos de datos JSON y XML.\n\nEl texto ofrece un recorrido exhaustivo por los estándares y especificaciones de identidad y control de acceso: analiza desde los métodos básicos (HTTP Basic y Digest) y la autenticación mutua mediante TLS (mTLS) hasta la evolución de los protocolos de delegación de identidad (Google ClientLogin, AuthSub, Flickr, Yahoo! BBAuth, OAuth 1.0 y OAuth WRAP). Se concentra intensamente en el framework OAuth 2.0 (analizando todos sus tipos de concesión o grant types, perfiles de aserción SAML 2.0 y JWT, revocación e introspección de tokens y el perfil MAC Token), la capa de identidad OpenID Connect (OIDC con tokens de ID y registro dinámico de clientes), User Managed Access (UMA), federación de identidades entre dominios empresariales y seguridad a nivel de mensaje mediante JSON Web Signature (JWS), JSON Web Encryption (JWE) y JSON Web Keys (JWK), junto con directrices de protección perimetral mediante API Gateways.\n\nEl aprendizaje se articula a través de explicaciones minuciosas de flujos criptográficos, trazas reales de peticiones y respuestas HTTP y ejemplos prácticos de código (con implementaciones en Java y comandos cURL disponibles en el repositorio oficial de GitHub del libro) que muestran cómo generar, firmar y verificar tokens de acceso. No se desarrolla una aplicación web con interfaz gráfica, sino los componentes de middleware y autorización que custodian las APIs en arquitecturas distribuidas. Su valor radica en la claridad matemática y de estándares con la que desglosa especificaciones complejas del IETF y OpenID Foundation, siendo un recurso fundamental para diseñar sistemas de autenticación empresarial, si bien conviene recordar que esta primera edición de 2014 no cubre adiciones posteriores como PKCE (RFC 7636) ni estándares emergentes de Zero Trust.",
+    "temas": [
+      "Seguridad de APIs",
+      "OAuth 2.0",
+      "OpenID Connect (OIDC)",
+      "JSON Web Token (JWT)",
+      "JSON Web Signature (JWS)",
+      "JSON Web Encryption (JWE)",
+      "Mutual TLS (mTLS)",
+      "User Managed Access (UMA)",
+      "Federación de identidades",
+      "API Gateways",
+      "Arquitectura REST"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-6817-8",
+      "https://www.oreilly.com/library/view/advanced-api-security/9781430268185/",
+      "https://github.com/apisecurity/samples"
+    ]
+  },
+  "advanced-api-security-2nd-edition-2020": {
+    "descripcion": "Segunda edición actualizada a fondo por Prabath Siriwardena (arquitecto de identidad y seguridad de software) que aborda de forma integral la protección de APIs RESTful y microservicios empresariales en la nube. Toma como núcleo el protocolo OAuth 2.0 y profundiza en las especificaciones más rigurosas del IETF y de la OpenID Foundation (como UMA 2.0, PKCE, TLS Token Binding y la suite JOSE). El texto está orientado a arquitectos de seguridad, líderes técnicos e ingenieros de backend de nivel intermedio a avanzado que ya comprenden la infraestructura de APIs sobre HTTP/TLS y necesitan diseñar arquitecturas defensivas de nivel corporativo.\n\nEl temario cubre desde los principios de diseño seguro y la protección perimetral con API Gateways hasta la federación de identidades y la seguridad a nivel de mensaje. Explica en detalle el funcionamiento de OpenID Connect (OIDC), la firma y cifrado de cargas útiles con JSON Web Signature (JWS) y JSON Web Encryption (JWE), la mitigación de ataques en aplicaciones móviles nativas y navegadores mediante Proof Key for Code Exchange (PKCE), y el control de acceso granular centrado en el usuario con User-Managed Access (UMA 2.0). Analiza también el intercambio de tokens (Token Exchange), autorización incremental y modelos de amenazas reales, desglosando incidentes y fallos habituales en implementaciones de OAuth 2.0 para comprender su causa raíz y cómo evitarlos.\n\nA través del repositorio de código oficial en Java y ejemplos prácticos de configuración y llamadas HTTP, el libro proporciona patrones de implementación y pruebas de concepto para proteger el tráfico entre clientes web, móviles y servicios backend. No construye una aplicación monolítica guiada de principio a fin, sino que ofrece recetas arquitectónicas y código modular de apoyo. Su gran valor reside en cubrir especificaciones avanzadas y análisis de vulnerabilidades que la mayoría de los manuales introductorios omiten por completo. Deja fuera aspectos de seguridad a nivel de infraestructura de red física y herramientas de monitorización en tiempo real, centrándose exclusivamente en la capa de protocolo y aplicación.",
+    "temas": [
+      "OAuth 2.0",
+      "OpenID Connect",
+      "API Gateway",
+      "Seguridad en microservicios",
+      "JSON Web Tokens (JWT)",
+      "JWS y JWE",
+      "PKCE",
+      "User-Managed Access (UMA 2.0)",
+      "TLS y Token Binding",
+      "Modelado de amenazas",
+      "Java"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2050-4",
+      "https://www.oreilly.com/library/view/advanced-api-security/9781484220504/",
+      "https://github.com/apisecurity/samples"
+    ]
+  },
+  "getting-started-with-oauth-2-0-2012": {
+    "descripcion": "Guía concisa de 80 páginas publicada por O'Reilly y redactada por Ryan Boyd (quien integró el equipo de relaciones de desarrolladores en Google), diseñada para introducir el núcleo conceptual del protocolo de autorización OAuth 2.0 (RFC 6749). Está dirigida a desarrolladores web y de aplicaciones móviles de nivel principiante en seguridad que necesitan consumir APIs públicas (como Google o Facebook) para acceder a los recursos del usuario final sin solicitar ni almacenar sus contraseñas en texto claro. Requiere únicamente conocimientos básicos de llamadas HTTP y desarrollo web estándar.\n\nEl libro aborda la distinción esencial entre autenticación y autorización delegada, definiendo con precisión los cuatro roles fundamentales del protocolo: Resource Owner, Client, Authorization Server y Resource Server. Desglosa paso a paso los cuatro flujos de concesión clásicos: el flujo de código de autorización (Authorization Code flow) para aplicaciones con servidor web, el flujo implícito (Implicit flow) para clientes en el navegador, el flujo de credenciales del propietario del recurso (Resource Owner Password Credentials) y el flujo de credenciales de cliente (Client Credentials) para procesos sin usuario humano. Ilustra las solicitudes y respuestas de red con peticiones HTTP en crudo, comandos cURL y ejemplos de código en PHP y JavaScript, explicando además el manejo de tokens de acceso (Access Tokens), tokens de actualización (Refresh Tokens), Bearer Tokens y una introducción preliminar a OpenID Connect.\n\nLa obra adopta un enfoque eminentemente práctico y pedagógico sin construir un proyecto integral complejo; en su lugar, se apoya en scripts de demostración, pruebas con cURL e integraciones puntuales de código para visualizar cómo viajan los tokens a través del cable. Su mayor virtud es la capacidad para explicar de manera breve, clara y digerible un estándar que suele resultar confuso al inicio. Sin embargo, al haber sido publicado en 2012, no cubre revisiones modernas esenciales como el uso obligatorio de PKCE en clientes públicos ni la depreciación del flujo implícito dictada por las mejores prácticas actuales de la IETF. Resulta una excelente lectura histórica e introductoria, pero debe complementarse con perfiles de seguridad modernos antes de ir a producción.",
+    "temas": [
+      "OAuth 2.0",
+      "Autorización delegada",
+      "Authorization Code Flow",
+      "Tokens de acceso",
+      "Refresh Tokens",
+      "Bearer Tokens",
+      "OpenID Connect",
+      "cURL",
+      "PHP",
+      "JavaScript"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/getting-started-with/9781449317843/",
+      "https://books.google.com/books/about/Getting_Started_with_OAuth_2_0.html?id=c1r7vEAEr1cC",
+      "https://www.amazon.com/Getting-Started-OAuth-2-0-Boyd/dp/1449311367"
+    ]
+  },
+  "mastering-oauth-2-0-2015": {
+    "descripcion": "Manual práctico escrito por Charles Bihis que aborda la implementación exhaustiva del estándar OAuth 2.0 enfocándose primordialmente en el rol del cliente que consume servicios protegidos de terceros. La obra está dirigida a ingenieros de software, desarrolladores web y arquitectos de nivel intermedio a avanzado que ya cuentan con bases sólidas en JavaScript y Java y necesitan integrar flujos de inicio de sesión social y acceso a datos con plataformas como Facebook, Google o Twitter de forma profesional y segura.\n\nEl libro guía al lector a través de todo el ciclo de vida del desarrollo de clientes OAuth 2.0: el registro formal de la aplicación ante el proveedor de identidad, la gestión segura del identificador de cliente (client ID) y el secreto (client secret), y la configuración adecuada de URLs de redirección. Explora a fondo tanto el flujo de cliente (Client-Side Flow / Implicit) para aplicaciones no confiables basadas en navegador como el flujo del lado del servidor (Server-Side Flow / Authorization Code) para entornos backend con custodia segura de claves. Enseña a manipular los alcances (scopes), procesar y renovar tokens de acceso y refresco, depurar errores de comunicación y gestionar consideraciones críticas de seguridad contra suplantaciones y fugas de tokens.\n\nA lo largo de los capítulos, el autor enseña los conceptos mediante el desarrollo incremental de un proyecto real completo de producción denominado \"World's Most Interesting Infographic\", una aplicación web que interactúa con la API Graph de Facebook para autenticar al usuario, extraer información de su perfil y muro, y generar infografías personalizadas. El punto fuerte del libro es mostrar cómo interactúan las piezas del cliente en una arquitectura web real combinando frontend y backend, evitando quedarse en explicaciones teóricas abstractas. Por contrapartida, no enseña a crear ni configurar un servidor de autorización propio desde cero, ya que su alcance se restringe al desarrollo del lado cliente.",
+    "temas": [
+      "OAuth 2.0",
+      "Facebook Graph API",
+      "Flujo del servidor",
+      "Flujo del cliente",
+      "Tokens de acceso",
+      "Refresh Tokens",
+      "Scopes y permisos",
+      "Java",
+      "JavaScript",
+      "Seguridad en clientes web"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "World's Most Interesting Infographic",
+        "descripcion": "Aplicación web desarrollada con backend en Java y frontend en JavaScript que se conecta a la API Graph de Facebook mediante flujos OAuth 2.0 de cliente y servidor para extraer el perfil y la actividad del usuario y generar infografías interactivas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-oauth-20-9781784395407",
+      "https://www.oreilly.com/library/view/mastering-oauth-20/9781784395407/",
+      "https://github.com/Mastering-OAuth-2/worldsmostinterestinginfographic.com"
+    ]
+  },
+  "oauth-2-0-identity-and-access-management-patterns-2013": {
+    "descripcion": "Libro de arquitectura y diseño práctico escrito por Martin Spasovski que explora cómo resolver escenarios de gestión de identidad y control de acceso (IAM) en aplicaciones modernas utilizando el protocolo OAuth 2.0. Está pensado para arquitectos de software, desarrolladores de backend e ingenieros de seguridad de nivel intermedio que necesitan estructurar esquemas de autorización desacoplados y comprender qué patrón de flujo de OAuth 2.0 se adapta mejor a cada topología de aplicación (web clásica, frontend desacoplado, móvil o servicios backend de confianza).\n\nEl contenido estructura y examina los patrones asociados a cada tipo de cliente y flujo de concesión: el flujo de código de autorización para aplicaciones web del lado del servidor, el flujo implícito para clientes ricos en el navegador, el flujo de credenciales de contraseña del propietario para migraciones controladas y el flujo de credenciales de cliente para comunicación máquina a máquina (M2M). Presenta ejemplos de implementación en Java con el framework Spring y Spring MVC para simular tanto clientes como servidores de autorización, detalla el registro previo de clientes, las cabeceras HTTP necesarias y el formato de los tokens JSON. Además, dedica un capítulo relevante a la federación y el inicio de sesión único (SSO) mediante la integración de aserciones SAML 2.0 como mecanismo de intercambio con OAuth 2.0, e ilustra pruebas con herramientas como Postman y OAuth 2.0 Playground.\n\nLa dinámica del libro se basa en ejemplos de código independientes y diagramas de secuencia por patrón en lugar de construir un gran proyecto de aplicación monolítico. Aporta un marco metodológico muy claro para decidir el flujo de autenticación adecuado según el nivel de confianza y el tipo de dispositivo que realiza la petición, complementado con la conexión a identidades empresariales mediante SAML. Deja fuera los refinamientos contemporáneos del estándar como PKCE o el reemplazo del flujo implícito. Es especialmente útil para desarrolladores en el ecosistema Java y Spring que busquen asimilar los fundamentos arquitectónicos de IAM.",
+    "temas": [
+      "OAuth 2.0",
+      "Patrones de identidad (IAM)",
+      "Java",
+      "Spring MVC",
+      "Authorization Code",
+      "Client Credentials",
+      "Implicit Grant",
+      "SAML 2.0",
+      "Postman",
+      "Tokens de acceso"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/oauth-20-identity-and-access-management-patterns-9781782167013",
+      "https://books.google.com/books/about/OAuth_2_0_Identity_and_Access_Management.html?id=c1yQAgAAQBAJ",
+      "https://www.amazon.com/OAuth-Identity-Access-Management-Patterns/dp/1782167015"
+    ]
+  },
+  "cryptography-and-cryptanalysis-in-java-2nd-edition-2024": {
+    "descripcion": "Segunda edición exhaustiva y modernizada, publicada por Apress en 2024 por Stefania Loredana Nita y Marius Iulian Mihailescu, dedicada al diseño, implementación algorítmica y análisis de esquemas criptográficos utilizando Java SE 21 LTS y los perfiles de seguridad de Jakarta EE 11. Está dirigida a desarrolladores Java de nivel intermedio a avanzado, estudiantes de ciencias de la computación e ingenieros de ciberseguridad que cuentan con bases de programación orientada a objetos y algoritmos y quieren entender a bajo nivel cómo se implementan, evalúan y vulneran los mecanismos de cifrado.\n\nEl recorrido temático cubre desde la criptografía clásica (cifrados César, Vigenère, Playfair, transposición y análisis por frecuencia de letras) hasta la criptografía poscuántica. Enseña a utilizar la arquitectura Java Cryptography Architecture (JCA) y la extensión JCE, generadores de números pseudoaleatorios (PRNG y SecureRandom), funciones hash seguras (de MD5 y SHA-1 a SHA-256 y SHA-3), cifrado simétrico (DES, 3DES y AES en modos CBC, GCM y ECB) y cifrado asimétrico (RSA, ElGamal y curvas elípticas ECC). Incorpora como novedad un capítulo sobre criptografía cuántica (protocolo BB84 y distribución cuántica de claves QKD), esquemas de firma digital (DSA, ECDSA), cifrado homomórfico y búsqueda sobre datos cifrados, criptografía basada en retículos con el framework NTRU, y el manejo práctico de librerías como Bouncy Castle y herramientas de claves (Keytool y OpenSSL).\n\nEl aprendizaje se articula a través de implementaciones en Java 21 disponibles en el repositorio oficial de GitHub del libro, donde se programan tanto algoritmos de cifrado como rutinas de criptoanálisis para romper esquemas clásicos y simular ataques de texto plano y colisiones en funciones resumen. No construye una aplicación de usuario completa de inicio a fin, sino módulos técnicos, bancos de pruebas y librerías criptográficas de propósito específico. Su mayor valor reside en aunar la teoría matemática rigurosa con código Java 21 moderno, abarcando paradigmas emergentes como los retículos y la cuántica. Conviene tener familiaridad con álgebra lineal y aritmética modular para asimilar con soltura las justificaciones matemáticas de los algoritmos.",
+    "temas": [
+      "Java 21 LTS",
+      "Jakarta EE 11",
+      "Java Cryptography Architecture (JCA)",
+      "Criptoanálisis",
+      "Cifrado simétrico (AES)",
+      "Cifrado asimétrico (RSA, ECC)",
+      "Criptografía cuántica (BB84)",
+      "Criptografía en retículos (NTRU)",
+      "Cifrado homomórfico",
+      "Funciones Hash (SHA-3)",
+      "Bouncy Castle"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/979-8-8688-0441-0",
+      "https://www.oreilly.com/library/view/cryptography-and-cryptanalysis/9798868804410/",
+      "https://github.com/Apress/Cryptography-and-Cryptanalysis-in-Java-2nd-ed"
+    ]
+  },
+  "microservices-security-in-action-2020": {
+    "descripcion": "Tratado exhaustivo y práctico de Prabath Siriwardena y Nuwan Dias enfocado en la concepción, diseño e implementación de seguridad integral para sistemas distribuidos basados en microservicios con Java y Spring Boot. El texto está dirigido a desarrolladores sénior, arquitectos de software e ingenieros devops con experiencia intermedia o avanzada en el ecosistema Java y despliegues nativos en la nube, que necesitan proteger redes complejas donde los límites perimetrales tradicionales ya no son suficientes.\n\nLa obra divide la protección en tráfico perimetral o Norte/Sur y comunicaciones internas o Este/Oeste. Explora a fondo la configuración de pasarelas de enlace con API Gateways, autenticación federada y delegada mediante los estándares OAuth 2.0 y OpenID Connect (OIDC), control de concurrencia y tasa (throttling), tokens criptográficos JSON Web Tokens (JWT) y mutual TLS (mTLS) con certificados X.509. También aborda la seguridad en microservicios reactivos guiados por eventos mediante Apache Kafka, llamadas a procedimientos remotos con gRPC, desacoplamiento y evaluación de políticas con Open Policy Agent (OPA), así como el aseguramiento de contenedores Docker y clústeres en Kubernetes mediante el service mesh Istio (con proxies Envoy) y la automatización de pruebas estáticas y dinámicas de seguridad en pipelines CI/CD con SonarQube, Jenkins y OWASP ZAP.\n\nA lo largo de los capítulos se construye y protege de manera incremental una arquitectura orientada a servicios para una tienda minorista (Retail Store), que incluye un microservicio de procesamiento de pedidos (Order Processing) y un microservicio de gestión de inventario (Inventory), demostrando cómo asegurar cada llamada y flujo de datos entre ellos. Su mayor virtud reside en su profundidad técnica y su rigor formal al aplicar arquitecturas de confianza cero (Zero Trust) sin limitarse a la teoría superficial. Como contrapartida, su extensión supera las seiscientas páginas y asume una base sólida en contenedores, redes y patrones de mensajería asíncrona, por lo que no es un texto apto para principiantes en arquitectura de microservicios.",
+    "temas": [
+      "Microservicios",
+      "Spring Boot",
+      "OAuth 2.0",
+      "OpenID Connect",
+      "JWT",
+      "mTLS",
+      "Kubernetes",
+      "Istio",
+      "API Gateway",
+      "Apache Kafka",
+      "Docker",
+      "OWASP ZAP"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura distribuida para tienda minorista (Retail Store)",
+        "descripcion": "Sistema de comercio electrónico compuesto por microservicios de pedidos e inventario, asegurado progresivamente con API Gateway, autenticación con OAuth 2.0 y OIDC, tokens JWT, mTLS, mensajería Kafka y políticas en Kubernetes con Istio."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/microservices-security-in-action",
+      "https://github.com/microservices-security-in-action/samples"
+    ]
+  },
+  "node-security-2013": {
+    "descripcion": "Manual conciso publicado por Dominic Barnes que introduce los fundamentos de la programación defensiva y la mitigación de vulnerabilidades en aplicaciones de servidor creadas con Node.js (situado en el contexto de las versiones 0.8 y 0.10, bajo especificaciones ECMAScript 5). Está concebido para programadores web con conocimientos previos de JavaScript y desarrollo backend básico con Node.js que desean familiarizarse con las debilidades comunes que surgen al trasladar JavaScript al lado del servidor.\n\nEl contenido desglosa las implicaciones de seguridad asociadas a la arquitectura no bloqueante del event loop y la asincronía de Node. Explica cómo aprovechar directivas de ES5 como el modo estricto (\"use strict\") para prevenir errores de ejecución, la integración de herramientas de análisis estático de código como JSHint para detectar debilidades a tiempo y el manejo adecuado de excepciones para evitar caídas del proceso y filtrado de trazas internas en producción. Asimismo, instruye en el diseño de middlewares seguros para frameworks como Connect y Express, la gestión de sesiones de usuario y autenticación con Passport.js, el uso del módulo criptográfico nativo crypto para funciones hash y cifrado simétrico, y la configuración de canales cifrados con HTTPS/SSL.\n\nDada su brevedad de menos de cien páginas, no se centra en construir un sistema integral complejo, sino en examinar pequeños fragmentos de código, patrones de middleware y recetas defensivas puntuales para blindar rutas y servicios web. Aporta una visión rápida y directa de los riesgos iniciales del ecosistema Node.js sin sobrecargar al lector con excesiva teoría. No obstante, al haber sido publicado en 2013, deja fuera características modernas indispensables del lenguaje (ES6+, promesas nativas y async/await), versiones recientes de Express y herramientas actuales de auditoría de paquetes npm, por lo que debe tomarse como una introducción conceptual básica.",
+    "temas": [
+      "Node.js",
+      "Express",
+      "Seguridad web",
+      "Passport.js",
+      "Criptografía",
+      "Manejo de errores",
+      "Connect",
+      "Análisis estático",
+      "Autenticación",
+      "SSL/TLS"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.amazon.com/Node-Security-Dominic-Barnes/dp/1783281499"
+    ]
+  },
+  "secure-your-node-js-web-application-2016": {
+    "descripcion": "Guía eminentemente práctica de Karl Düüna orientada a integrar la seguridad como un requisito transversal dentro del ciclo de vida del desarrollo de aplicaciones web (SDLC) sobre Node.js (enfocado en las versiones 4.x y 6.x LTS). Está diseñada para desarrolladores full-stack y backend que ya trabajan con JavaScript y frameworks como Express, y que necesitan aprender a pensar como un atacante para diseñar arquitecturas resistentes y conformes a buenas prácticas en producción.\n\nEl libro profundiza en una amplia variedad de vectores de ataque y sus soluciones específicas en código: el principio de mínimo privilegio en el servidor, endurecimiento de la configuración del sistema operativo y configuración de redes seguras con TLS. Aborda la prevención de inyecciones de código (eval e inyección de órdenes en el shell mediante el módulo nativo child_process), así como la seguridad de datos frente a SQL Injection en MySQL y NoSQL Injection en MongoDB. Dedica un análisis riguroso a la gestión de concurrencia y prevención de condiciones de carrera (race conditions), autenticación segura con almacenamiento seguro de contraseñas mediante bcrypt, manejo de tokens y sesiones, y defensas perimetrales del cliente frente a Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), clickjacking y redirecciones abiertas no confiables.\n\nLa metodología del libro se fundamenta en pares de vulnerabilidad y contramedida: cada capítulo muestra un escenario de código vulnerable, explica cómo explotarlo y guía detalladamente en la aplicación del parche de seguridad y la configuración de cabeceras HTTP defensivas bajo una estrategia de defensa en profundidad. Su gran mérito es tratar problemáticas avanzadas como la concurrencia asíncrona y la inyección en bases NoSQL, temas habitualmente ignorados en manuales generalistas. Aunque algunas librerías accesorias han evolucionado desde 2016, los principios de saneamiento, validación y fortificación arquitectónica expuestos conservan plena relevancia y utilidad.",
+    "temas": [
+      "Node.js",
+      "Express",
+      "Seguridad web",
+      "Inyección SQL",
+      "NoSQL Injection",
+      "XSS",
+      "CSRF",
+      "MongoDB",
+      "MySQL",
+      "Bcrypt",
+      "Concurrencia",
+      "Defensa en profundidad"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://pragprog.com/titles/kdsecurity/secure-your-node-js-web-application/",
+      "https://www.oreilly.com/library/view/secure-your-nodejs/9781680501865/"
+    ]
+  },
+  "building-secure-php-applications-2024": {
+    "descripcion": "Tratado exhaustivo y contemporáneo de Satej Kumar Sahu que aborda la protección de aplicaciones web empresariales construidas con versiones modernas de PHP (PHP 8.2 y 8.3) y frameworks modernos, con especial énfasis en Laravel (versiones 10 y 11). Está orientado a ingenieros de software, desarrolladores PHP de nivel intermedio a avanzado y líderes técnicos que buscan mitigar riesgos cibernéticos actuales, cumplir estándares corporativos de cumplimiento y salvaguardar datos confidenciales en entornos de producción.\n\nEl recorrido abarca la fortificación del núcleo de PHP (directivas críticas de php.ini, validación rigurosa de entradas, saneamiento, codificación contextual de salidas, manejo seguro de sesiones y subida restringida de archivos). Desarrolla defensas contra las principales categorías del OWASP Top 10, tales como inyecciones SQL mediante PDO y Eloquent ORM, Cross-Site Scripting (XSS) y Cross-Site Request Forgery (CSRF). Además, examina a fondo las herramientas nativas de seguridad de Laravel (middlewares de autenticación, puertas lógicas 'gates', políticas de autorización y protección de rutas), estándares criptográficos y protocolos seguros como OAuth 2.0, tokens JSON Web Tokens (JWT), SFTP, transferencia de correos protegida, gestión y monitorización de registros (logging) y procedimientos de respuesta ante incidentes y análisis forense en infraestructuras híbridas y en la nube.\n\nA lo largo del texto se analizan casos de vulnerabilidades reales acompañados de ejercicios prácticos y fragmentos de código defensivo listos para integrar tanto en proyectos PHP nativos como en aplicaciones basadas en Laravel. Lo más destacable es su vigencia, ya que moderniza la literatura de seguridad en PHP al incorporar análisis de arquitecturas en la nube, autenticación sin estado en APIs REST y la influencia de la inteligencia artificial en la detección de amenazas. No desarrolla un único proyecto continuo de punta a punta, sino una serie de módulos y laboratorios prácticos enfocados en subsanar vectores de ataque específicos, por lo que resulta ideal como libro de consulta técnica constante.",
+    "temas": [
+      "PHP 8",
+      "Laravel",
+      "Seguridad web",
+      "OWASP Top 10",
+      "Inyección SQL",
+      "XSS",
+      "CSRF",
+      "OAuth 2.0",
+      "JWT",
+      "Autenticación",
+      "Auditoría de seguridad",
+      "Ciberseguridad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/979-8-8688-0932-3",
+      "https://www.oreilly.com/library/view/building-secure-php/9798868809323/"
+    ]
+  },
+  "pro-php-security-2nd-edition-2010": {
+    "descripcion": "Referencia técnica clásica escrita por Chris Snyder, Thomas Myer y Michael Southwell que examina en detalle las disciplinas de programación segura y administración defensiva para sistemas web construidos con PHP (específicamente adaptada a PHP 5.3). Está dirigida a desarrolladores y administradores de sistemas web con experiencia intermedia en entornos LAMP (Linux, Apache, MySQL, PHP) que necesitan adoptar un enfoque riguroso de seguridad integral que abarque tanto la capa de código fuente como el sistema operativo anfitrión.\n\nEl libro ofrece un temario técnico sumamente amplio: validación y saneamiento de entradas de usuario (filter_var, expresiones regulares), prevención exhaustiva de SQL Injection, mitigación de Cross-Site Scripting (XSS) e inyección de cabeceras, y prevención de ejecución remota de código e inclusiones maliciosas de archivos (LFI/RFI). También cubre la gestión protegida de archivos temporales y subidas de ficheros, blindaje contra el secuestro y fijación de sesiones, consumo e implementación segura de servicios REST, uso de CAPTCHAs contra tráfico automatizado, autenticación robusta, control de accesos y auditoría de eventos. En el plano de infraestructura, profundiza en la ejecución segura de llamadas a comandos del sistema (exec, system), uso de primitivas criptográficas, endurecimiento del sistema operativo Unix/Linux y protección de canales de comunicación con SSL y SSH.\n\nEl aprendizaje se estructura mediante explicaciones directas acompañadas de fragmentos de código reutilizables y ejercicios de securización que ilustran cómo los atacantes sondean fallas comunes en entornos web y cómo neutralizarlas eficazmente. Su mayor valor reside en su perspectiva holística, pues enseña que asegurar una aplicación PHP requiere proteger también el servidor Unix, la base de datos MySQL y la red subyacente. Su principal factor a considerar es su fecha de publicación (2010), por lo que ciertas funciones nativas de base de datos o algoritmos de hashing que menciona han sido deprecados en favor de las características de PHP 7 y 8; aun así, los fundamentos de seguridad, defensa en profundidad y sanitización que inculca son principios universales y atemporales.",
+    "temas": [
+      "PHP 5.3",
+      "Seguridad web",
+      "Inyección SQL",
+      "XSS",
+      "Secuestro de sesiones",
+      "LAMP",
+      "Servicios REST",
+      "Criptografía",
+      "Seguridad en Unix",
+      "Validación de entradas",
+      "SSL/TLS"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-3319-0",
+      "https://www.oreilly.com/library/view/pro-php-security/9781430233183/",
+      "https://www.amazon.com/Pro-PHP-Security-Application-Implementation/dp/1430233189"
+    ]
+  },
+  "securing-php-apps-2016": {
+    "descripcion": "Securing PHP Apps es un manual técnico conciso escrito por Ben Edmunds que aborda los fundamentos imprescindibles de la seguridad en aplicaciones web desarrolladas con PHP (enfocado en las versiones PHP 5.6 y PHP 7.0 de su época). Está dirigido a desarrolladores PHP de nivel intermedio que ya construyen sitios web o mantienen sistemas heredados (legacy) y necesitan una guía rápida y directa para blindar sus aplicaciones frente a ataques reales, sin perderse en fórmulas matemáticas complejas.\n\nLa obra articula sus lecciones en torno a la máxima «nunca confíes en tus usuarios» y desglosa las medidas preventivas necesarias para mitigar las vulnerabilidades más comunes de la web. Enseña a utilizar PDO con sentencias preparadas para neutralizar la inyección SQL, a escapar y sanitizar entradas, y a configurar conexiones seguras mediante TLS/HTTPS, certificados SSL y atributos de cookies como HttpOnly y Secure. Detalla el almacenamiento seguro de contraseñas mediante la API nativa de PHP (funciones password_hash y password_verify con el algoritmo Bcrypt), el control de acceso y autenticación, la regeneración de identificadores de sesión, la protección contra ataques de Cross-Site Scripting (XSS) y Cross-Site Request Forgery (CSRF), y las pautas para una gestión segura de subidas de archivos evitando ataques de path traversal.\n\nA lo largo de sus 64 páginas no se desarrolla un proyecto monolítico desde cero, sino que se proporcionan recetas y patrones de código puntuales listos para auditar y aplicar sobre proyectos nuevos o existentes. Su principal valor radica en su extrema concisión: condensa en una lectura de pocas horas una lista de verificación de buenas prácticas obligatorias para cualquier programador web. Por su brevedad, deja fuera temas avanzados como OAuth2, federación de identidades, análisis estático de código o arquitecturas de seguridad específicas para microservicios y frameworks modernos como Laravel o Symfony, aunque todos sus principios de seguridad pura son directamente aplicables a ellos.",
+    "temas": [
+      "PHP",
+      "Seguridad web",
+      "Inyección SQL",
+      "PDO",
+      "XSS",
+      "CSRF",
+      "password_hash",
+      "HTTPS y TLS",
+      "Gestión de sesiones",
+      "Subida segura de archivos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2120-4",
+      "https://www.goodreads.com/book/show/31688647-securing-php-apps",
+      "https://www.amazon.com/Securing-PHP-Apps-Practical-Guide/dp/1484221190"
+    ]
+  },
+  "hacking-secret-ciphers-with-python-2013": {
+    "descripcion": "Hacking Secret Ciphers with Python es una obra didáctica y accesible de Al Sweigart que enseña a programar en Python 3 desde cero utilizando el cifrado y el descifrado de mensajes como vehículo de aprendizaje. El libro está diseñado para principiantes absolutos en programación, entusiastas de la seguridad informática y mentes curiosas de todas las edades que no cuentan con experiencia previa en desarrollo de software ni en matemáticas universitarias.\n\nEl texto explica la sintaxis básica de Python 3 (variables, bucles while y for, funciones, manipulación de cadenas de texto y listas) mientras implementa y analiza los cifrados históricos y modernos más representativos. Cubre el cifrado César, el cifrado de transposición por columnas, el cifrado afín, el cifrado de sustitución simple y el cifrado Vigenère. Para cada uno de ellos, el autor no solo enseña a programar el algoritmo de cifrado y descifrado, sino también el script de hackeo o criptoanálisis correspondiente, recurriendo a ataques de fuerza bruta (brute-force), análisis de frecuencias de letras en inglés y detección automática de palabras válidas mediante un módulo auxiliar con diccionario. Hacia la segunda mitad, introduce la aritmética modular, el algoritmo de Euclides, los tests de primalidad con Miller-Rabin y la criptografía asimétrica de clave pública mediante la implementación del algoritmo RSA.\n\nCada capítulo propone construir programas funcionales independientes acompañados de ejercicios prácticos y scripts de prueba automatizados para validar que los textos descifrados coincidan con el mensaje original. El gran aporte del libro es su enfoque lúdico y formativo: desmitifica la criptografía haciendo que el lector entienda las matemáticas subyacentes al escribir cada línea de código por sí mismo. No pretende enseñar criptografía de grado militar ni librerías de producción listas para la web (como TLS o AES en OpenSSL), ya que su objetivo es pedagógico: construir y desarmar algoritmos para comprender su lógica interna.",
+    "temas": [
+      "Python 3",
+      "Criptografía clásica",
+      "Criptoanálisis",
+      "Cifrado César",
+      "Cifrado de transposición",
+      "Cifrado Vigenère",
+      "Ataques de fuerza bruta",
+      "Análisis de frecuencia",
+      "Aritmética modular",
+      "Test de Miller-Rabin",
+      "Criptografía asimétrica",
+      "RSA"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Cifrador y descifrador por transposición",
+        "descripcion": "Script en Python que reorganiza caracteres en una cuadrícula de columnas para cifrar y descifrar textos, incluyendo una suite de pruebas automatizadas que valida matemáticamente el descifrado exacto."
+      },
+      {
+        "nombre": "Módulo de detección programática de inglés",
+        "descripcion": "Herramienta que analiza cadenas de texto descifradas y calcula el porcentaje de coincidencias léxicas frente a un diccionario para reconocer automáticamente mensajes legibles."
+      },
+      {
+        "nombre": "Descifrador por fuerza bruta y análisis de frecuencias",
+        "descripcion": "Conjunto de programas para romper cifrados César, afines, por sustitución y Vigenère evaluando combinaciones exhaustivas y desviaciones estadísticas en la frecuencia de letras."
+      },
+      {
+        "nombre": "Generador de claves y cifrador RSA",
+        "descripcion": "Aplicación de criptografía asimétrica que genera números primos masivos mediante el test de Miller-Rabin, crea pares de claves pública/privada y cifra archivos completos en bloques."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://inventwithpython.com/hacking/",
+      "https://www.goodreads.com/book/show/17924765-hacking-secret-ciphers-with-python",
+      "https://www.amazon.com/Hacking-Secret-Ciphers-Python-Sweigart/dp/1482614375"
+    ]
+  },
+  "beginning-ethical-hacking-with-python-2017": {
+    "descripcion": "Beginning Ethical Hacking with Python, publicado por Apress y escrito por Sanjib Sinha, es un manual introductorio que sirve de puente para quienes desean iniciarse en la seguridad informática ofensiva y las pruebas de penetración utilizando Python 3. El texto está pensado para principiantes que cuentan con poco o ningún conocimiento previo de programación y que tampoco han interactuado con sistemas operativos orientados a la ciberseguridad, guiándolos desde la instalación de las herramientas iniciales.\n\nEl libro arranca con el marco legal del hacking ético y las leyes contra delitos cibernéticos, para luego enseñar a montar un laboratorio de pruebas seguro mediante Oracle VM VirtualBox y Kali Linux, junto con el dominio de los comandos básicos de la consola bash. A continuación, explica los conceptos esenciales de Python 3: tipos de datos, estructuras de control, bucles, manejo de cadenas, lectura y escritura de archivos y nociones de orientación a objetos. En la sección aplicada, aborda los protocolos de red y el uso de la librería estándar socket para establecer comunicaciones TCP/UDP, la automatización de escaneos de red mediante el wrapper python-nmap junto con Nmap, la técnica de recolección de información conocida como banner grabbing, conceptos de anonimato mediante servidores proxy y redes Tor, y la alteración de direcciones MAC.\n\nEl lector practica implementando herramientas de reconocimiento clásicas, como escáneres de puertos y capturadores de cabeceras de servicios de red, diseñadas para operar dentro de la máquina virtual. Su mayor fortaleza es que reúne en un único volumen compacto la preparación del entorno en Linux, las bases del lenguaje y los primeros scripts de pentesting. Sin embargo, al dedicar gran parte de sus páginas a la sintaxis básica de Python y a conceptos elementales de la terminal, los temas avanzados de explotación quedan tratados de forma introductoria y esquemática, por lo que debe tomarse como un primer escalón antes de abordar obras más especializadas en auditoría de seguridad.",
+    "temas": [
+      "Python 3",
+      "Hacking ético",
+      "Kali Linux",
+      "VirtualBox",
+      "Redes TCP/IP",
+      "Sockets",
+      "Escaneo de puertos",
+      "Banner grabbing",
+      "python-nmap",
+      "Nmap",
+      "Penetration testing"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Escáner de puertos y capturador de banners con sockets",
+        "descripcion": "Herramienta en Python que utiliza la librería estándar socket para iterar sobre rangos de puertos de un host objetivo, verificar conexiones activas y extraer los banners de identificación de los servicios."
+      },
+      {
+        "nombre": "Escáner automatizado de red con Nmap",
+        "descripcion": "Script de reconocimiento que integra la librería python-nmap para ejecutar barridos sobre redes locales, identificando direcciones IP activas, puertos abiertos y versiones de sistemas operativos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2541-7",
+      "https://www.apress.com/gp/book/9781484225400",
+      "https://www.amazon.com/Beginning-Ethical-Hacking-Python-Sanjib/dp/1484225404"
+    ]
+  },
+  "practical-cryptography-in-python-2019": {
+    "descripcion": "Practical Cryptography in Python, publicado por Apress de la mano de Christopher K. Monson y Seth James Nielson, es un texto riguroso y práctico que enseña cómo implementar criptografía de forma correcta en sistemas reales con Python 3 (Python 3.7+). Está orientado a desarrolladores de software, administradores de sistemas y estudiantes de ciberseguridad de nivel intermedio que ya dominan la programación en Python y desean comprender los mecanismos internos de la seguridad de la información sin caer en abstracciones matemáticas impenetrables ni en vulnerabilidades causadas por configuraciones defectuosas.\n\nEl contenido profundiza en las primitivas criptográficas esenciales a través de librerías como hashlib, hmac, secrets y pycryptodome / cryptography. Analiza funciones hash criptográficas (como SHA-256 y SHA-3), colisiones y almacenamiento de credenciales con sal; cifrado simétrico con el algoritmo AES, contrastando los riesgos del modo ECB frente a modos seguros como CBC y CTR, el manejo adecuado de vectores de inicialización (IV) y los esquemas de relleno PKCS#7. Explora a fondo el cifrado autenticado (AEAD) con AES-GCM y ChaCha20-Poly1305 para evitar ataques de oráculo de padding, la criptografía asimétrica mediante RSA con relleno OAEP, firmas digitales con ECDSA y RSA-PSS, y protocolos complejos como el flujo de tickets de Kerberos y las comunicaciones seguras mediante TLS, cadenas de certificados X.509, fijación de certificados (certificate pinning) y registros de Certificate Transparency.\n\nA lo largo de sus capítulos se construyen componentes reales como canales seguros de mensajería híbrida, simuladores del protocolo Kerberos y clientes de validación de certificados TLS, respaldados por ejercicios de análisis y demostraciones de cómo un error de padding o la reutilización de un nonce pueden comprometer todo un sistema. La gran aportación del libro es su filosofía de «aprender de los errores»: no trata la criptografía como una caja negra de llamadas a librerías, sino que expone exactamente cómo y por qué se rompen las implementaciones cotidianas. Requiere soltura en el manejo de estructuras de datos y tipos de bytes en Python para aprovecharlo plenamente.",
+    "temas": [
+      "Python 3",
+      "Criptografía práctica",
+      "Hashing",
+      "AES",
+      "AES-GCM",
+      "HMAC",
+      "RSA",
+      "Curvas elípticas (ECC)",
+      "Firmas digitales",
+      "Criptografía híbrida",
+      "Kerberos",
+      "TLS y certificados X.509"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Canal de mensajería híbrido seguro",
+        "descripcion": "Sistema de comunicación confidencial que combina criptografía asimétrica (RSA/ECC) para el intercambio seguro de claves de sesión efímeras con cifrado simétrico autenticado (AES-GCM) para la transferencia de datos."
+      },
+      {
+        "nombre": "Simulador del protocolo de autenticación Kerberos",
+        "descripcion": "Implementación en Python del flujo completo de autenticación de Kerberos, modelando el Centro de Distribución de Claves (KDC), el Ticket Granting Ticket (TGT) y las claves de sesión entre cliente y servicio."
+      },
+      {
+        "nombre": "Cliente y validador de conexiones TLS/X.509",
+        "descripcion": "Script que establece canales seguros TLS, inspecciona la cadena de confianza y las extensiones de certificados X.509 y valida políticas de pinning frente a registros de Certificate Transparency."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4900-0",
+      "https://github.com/Apress/practical-cryptography-in-python",
+      "https://www.amazon.com/Practical-Cryptography-Python-Learning-Correct/dp/1484248994",
+      "https://www.oreilly.com/library/view/practical-cryptography-in/9781484249000/"
+    ]
+  },
+  "python-hacking-essentials-2015": {
+    "descripcion": "Python Hacking Essentials, escrito por Earnest Wish con la colaboración de Leo, es una guía de ciberseguridad ofensiva que utiliza Python 2.7 sobre entornos Windows y máquinas virtuales para desmitificar las técnicas de ataque informático. Está dirigida a estudiantes y aficionados a la seguridad de nivel básico a intermedio que ya poseen conocimientos generales de programación y desean familiarizarse con los vectores de intrusión más conocidos sin requerir un laboratorio empresarial costoso.\n\nLa obra organiza su contenido en cuatro áreas del hacking respaldadas por diagramas visuales y código funcional. En el hacking de aplicaciones, profundiza en el uso del módulo ctypes de Python para invocar la API Win32 de Windows, implementando interceptación de mensajes (message hooking para captura de teclado) y enganche de funciones (API hooking) con el depurador pydbg. En el apartado web, enseña a desplegar entornos de prueba en VirtualBox para ejecutar inyecciones SQL, ataques de fuerza bruta contra formularios y subida de web shells. En la sección de redes, se apoya en sockets, Nmap y Wireshark para llevar a cabo escaneo de puertos, análisis de paquetes (packet sniffing) y ataques de denegación de servicio (DoS) como TCP SYN Flood y Slowloris. Finalmente, en el hacking de sistemas, analiza desbordamientos de búfer en pila (stack buffer overflow), sobreescritura de manejadores de excepciones estructuradas (SEH), backdoors y persistencia mediante el registro de Windows.\n\nEl enfoque es eminentemente demostrativo: el lector practica desarrollando pequeños scripts autónomos como keyloggers de bajo nivel, herramientas de saturación de conexiones y shells inversos con persistencia en el registro. Su mérito reside en la claridad pedagógica de sus ilustraciones, que permiten visualizar la memoria y el flujo de ejecución de manera muy accesible. No obstante, al haber sido publicado en 2015 y sustentarse en Python 2.7 y herramientas de 32 bits como pydbg en Windows x86, el lector actual debe ser consciente de que gran parte de los ejemplos requieren adaptaciones significativas y entornos de compatibilidad para ejecutarse en sistemas operativos y versiones de Python contemporáneas.",
+    "temas": [
+      "Python 2.7",
+      "Seguridad ofensiva",
+      "Win32 API y ctypes",
+      "API Hooking con pydbg",
+      "Keyloggers",
+      "Inyección SQL",
+      "Web shells",
+      "Escaneo de red",
+      "Ataques DoS",
+      "Buffer Overflow",
+      "Registro de Windows",
+      "Backdoors"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Keylogger y monitor de llamadas al sistema con API Hooking",
+        "descripcion": "Script para Windows que usa ctypes y pydbg para interceptar mensajes del teclado a nivel de sistema e intervenir funciones críticas de la API Win32 durante la ejecución de procesos."
+      },
+      {
+        "nombre": "Herramienta de denegación de servicio TCP SYN y Slowloris",
+        "descripcion": "Scripts de red desarrollados con sockets en Python para agotar recursos de servidores objetivo mediante inundación masiva de paquetes SYN y retención prolongada de conexiones HTTP concurrentes."
+      },
+      {
+        "nombre": "Backdoor con persistencia en el registro de Windows",
+        "descripcion": "Aplicación cliente-servidor de acceso remoto que genera una terminal inversa en la máquina víctima y modifica claves del registro de Windows para garantizar su arranque persistente."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.amazon.com/dp/1511797568",
+      "https://www.goodreads.com/author/show/13854199.Earnest_Wish"
+    ]
+  },
+  "full-stack-python-security-2021": {
+    "descripcion": "Guía integral sobre ciberseguridad defensiva aplicada al desarrollo web en Python, centrada en el ecosistema de Python 3 y el framework Django. Está dirigida a desarrolladores web de nivel intermedio a avanzado e ingenieros de software que ya cuentan con experiencia construyendo aplicaciones web con Python y desean dominar los principios arquitectónicos necesarios para blindar cada capa del sistema frente a amenazas modernas.\n\nEl contenido se articula alrededor del concepto de defensa en profundidad y profundiza en tres áreas técnicas: criptografía, autenticación y mitigación de ataques web. En la sección criptográfica, enseña el uso de librerías como Cryptography y Hashlib para implementar funciones hash seguras, HMAC, cifrado simétrico (Fernet y AES) y asimétrico (RSA), además de la generación y despliegue de certificados TLS con OpenSSL. En cuanto al control de acceso, aborda la gestión de sesiones HTTP seguras, hashing de contraseñas con algoritmos resistentes (Argon2 y bcrypt) e integración de federación de identidades mediante OAuth 2.0. Finalmente, enseña a defender la aplicación contra el OWASP Top 10, blindando el código contra inyecciones SQL, Cross-Site Scripting (XSS), falsificación de peticiones en sitios cruzados (CSRF), clickjacking y malas configuraciones de CORS mediante el uso de cabeceras estrictas como Content Security Policy (CSP).\n\nA lo largo del libro se fortifica una aplicación web completa en Django (el proyecto Alice), transformando un desarrollo inicial estándar en una solución blindada paso a paso. La obra destaca por enseñar no solo qué opciones activar o qué librerías importar, sino el funcionamiento matemático y conceptual subyacente de cada mecanismo de defensa; no obstante, deja fuera aspectos de infraestructura en la nube, hardening de contenedores Docker y pentesting ofensivo. Conviene dominar la arquitectura básica de Django (modelos, vistas, middleware) y los fundamentos del protocolo HTTP antes de comenzar.",
+    "temas": [
+      "Python 3",
+      "Django",
+      "Criptografía",
+      "TLS y Certificados",
+      "OAuth 2.0",
+      "Autenticación y Sesiones",
+      "Content Security Policy (CSP)",
+      "XSS y CSRF",
+      "Inyección SQL",
+      "Defensa en Profundidad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación web Django endurecida (Proyecto Alice)",
+        "descripcion": "Desarrollo y fortificación progresiva de una aplicación web en Django que integra cifrado simétrico y asimétrico con la librería Cryptography, autenticación con OAuth 2.0, sesiones seguras, certificados TLS y cabeceras estrictas como Content Security Policy."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/full-stack-python-security",
+      "https://www.oreilly.com/library/view/full-stack-python/9781617298370/",
+      "https://www.amazon.com/Full-Stack-Python-Security-Cryptography/dp/1617298379"
+    ]
+  },
+  "black-hat-python-2015": {
+    "descripcion": "Manual de referencia sobre seguridad ofensiva y desarrollo de herramientas de ataque con Python, enfocado en su primera edición en la versión Python 2.7 sobre entornos Windows y Linux. Está destinado a profesionales de la seguridad informática, probadores de penetración (pentesters) y programadores de nivel intermedio que posean soltura previa con la sintaxis de Python y quieran comprender cómo los atacantes crean software malicioso y scripts de explotación a bajo nivel.\n\nEl libro instruye en la creación de utilidades ofensivas artesanales partiendo de sockets crudos (raw sockets) con la librería estándar Socket para implementar clientes, servidores y reemplazos de Netcat. Avanza hacia la manipulación y análisis de paquetes de red con Scapy para ejecutar ataques de envenenamiento ARP y captura de credenciales al vuelo, y enseña técnicas de scraping y fuerza bruta web con Requests, urllib2 y BeautifulSoup. Asimismo, profundiza en el desarrollo de extensiones personalizadas para Burp Suite mediante Jython, la construcción de troyanos modulares coordinados a través de la API de GitHub, y la interacción directa con la API Win32 a través de ctypes para lograr escalada de privilegios, manipulación de tokens, inyección de código en procesos y análisis forense de volcados de memoria con Volatility Framework.\n\nLa dinámica formativa se basa en la construcción paso a paso de herramientas de hacking funcionales, destacando especialmente el proxy TCP interactivo, la extensión para Burp Suite y el troyano controlado remotamente vía GitHub. El texto sobresale por desmitificar las técnicas internas del malware y enseñar a interactuar con la memoria y el sistema operativo sin intermediarios; como contrapartida, al ser la edición de 2015, el código está escrito para Python 2.7 y varias APIs de Windows requieren adaptación a entornos contemporáneos. Es fundamental disponer de un laboratorio de virtualización aislado para ejecutar las pruebas con seguridad.",
+    "temas": [
+      "Python 2.7",
+      "Seguridad Ofensiva",
+      "Pentesting",
+      "Sockets y Redes",
+      "Scapy",
+      "Burp Suite",
+      "ctypes y Win32 API",
+      "Troyanos y C2",
+      "Inyección de Procesos",
+      "Volatility Framework",
+      "Fuerza Bruta"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor de comando y control (C2) respaldado en GitHub",
+        "descripcion": "Troyano modular en Python que utiliza la API de GitHub como infraestructura de mando y control encubierta para recibir módulos de código, ejecutar tareas y exfiltrar información cifrada."
+      },
+      {
+        "nombre": "Proxy TCP interactivo y reemplazo de Netcat",
+        "descripcion": "Herramienta de red basada en sockets nativos capaz de interceptar, desviar y modificar tráfico binario bidireccional entre clientes y servidores durante auditorías de red."
+      },
+      {
+        "nombre": "Extensión personalizada para Burp Suite con Jython",
+        "descripcion": "Módulo de automatización desarrollado en Python e integrado en el proxy Burp Suite para personalizar vectores de ataque, fuzzing de peticiones web y decodificación de payloads."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/blackhatpython",
+      "https://www.oreilly.com/library/view/black-hat-python/9781492011255/",
+      "https://www.amazon.com/Black-Hat-Python-Programming-Pentesters/dp/1593275900"
+    ]
+  },
+  "effective-python-penetration-testing-2016": {
+    "descripcion": "Texto técnico y directo centrado en la automatización de fases críticas de una auditoría de seguridad mediante scripts personalizados en Python (empleando la versión 2.7 estándar en su momento). Está concebido para analistas de seguridad, consultores de pentesting y desarrolladores con nivel intermedio que conocen los conceptos básicos de redes y la sintaxis del lenguaje, y desean abandonar la dependencia de herramientas automatizadas de terceros mediante la creación de sus propios scripts de evaluación.\n\nLa obra inicia con la gestión de dependencias y entornos aislados mediante Virtualenv y Virtualenvwrapper, para luego adentrarse en la programación de sockets de red y servidores multiproceso con SocketServer. Cubre la inspección y manipulación exhaustiva de paquetes de red con Scapy, incluyendo análisis de tráfico DNS y toma de huellas de sistemas operativos (OS fingerprinting). En la capa web, enseña recolección de inteligencia con Requests, urllib2, BeautifulSoup, lxml y el framework Scrapy, así como scripts de ataque diseñados para verificar fallos del OWASP Top 10 (inyecciones SQL, XSS, CSRF, IDOR y redirecciones no validadas). Finalmente, detalla técnicas de fuzzing y ataques de fuerza bruta contra protocolos de autenticación (SSH, SMTP) y directorios web, culminando con el uso del framework de fuzzing Sulley.\n\nEl aprendizaje se asienta en la elaboración progresiva de utilidades de auditoría: un analizador e inyector de tráfico con Scapy, herramientas de fingerprinting web y un fuzzer de protocolos con Sulley. Su principal ventaja es la concisión y la capacidad de dotar al lector de scripts funcionales y reutilizables en pocas páginas; no obstante, su extensión compacta (164 páginas) deja fuera técnicas de explotación avanzada, evasión de defensas modernas y forense digital. Requiere tener claros los fundamentos de redes (modelo TCP/IP, puertos y protocolos) y tener en cuenta que frameworks históricos como Sulley han sido sustituidos en la actualidad por alternativas como Boofuzz.",
+    "temas": [
+      "Python",
+      "Penetration Testing",
+      "Scapy",
+      "Análisis de Tráfico",
+      "OWASP Top 10",
+      "Scrapy",
+      "BeautifulSoup",
+      "Fuzzing",
+      "Sulley Framework",
+      "Fuerza Bruta"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Analizador e inyector de tráfico de red con Scapy",
+        "descripcion": "Herramienta orientada a la captura, inspección de paquetes DNS y manipulación de cabeceras para ejecutar fingerprinting de sistemas operativos y pruebas de inyección de paquetes."
+      },
+      {
+        "nombre": "Escáner de huellas y comprobador de vulnerabilidades OWASP",
+        "descripcion": "Script de auditoría web construido con Requests y BeautifulSoup que automatiza el reconocimiento de formularios, extracción de metadatos y detección de fallos como XSS, CSRF e inyección."
+      },
+      {
+        "nombre": "Fuzzer de protocolos y evaluador de fuerza bruta con Sulley",
+        "descripcion": "Módulo de pruebas que implementa ataques de diccionario contra credenciales SSH y SMTP, e interactúa con el framework Sulley para someter protocolos de red a pruebas de estrés."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/effective-python-penetration-testing-9781785280696",
+      "https://www.oreilly.com/library/view/effective-python-penetration/9781785280696/",
+      "https://www.amazon.com/Effective-Python-Penetration-Testing-Rehim/dp/1785280694"
+    ]
+  },
+  "mastering-python-forensics-2015": {
+    "descripcion": "Tratado avanzado sobre informática forense y respuesta a incidentes (DFIR) mediante programación en Python, con soporte multiplataforma para sistemas Windows, distribuciones Linux, entornos de virtualización y plataformas móviles. Está pensado para investigadores forenses digitales, analistas de centros de operaciones de seguridad (SOC) y profesionales de ciberseguridad con nivel avanzado que ya programan con soltura en Python y poseen un entendimiento profundo del funcionamiento interno de los sistemas operativos, estructuras de bajo nivel y memoria volátil.\n\nEl temario comienza dominando la interacción a bajo nivel con la memoria y las librerías dinámicas del sistema mediante el módulo nativo Ctypes, implementando uniones y estructuras compatibles con C. Explica algoritmos forenses esenciales como el cálculo de hashes criptográficos (MD5, SHA-256) y hashes difusos (fuzzy hashing con SSDEEP), integrando consultas automáticas a servicios de inteligencia de amenazas como VirusTotal y Mobile-Sandbox. En el plano de sistemas y redes, enseña a procesar registros del sistema operativo, marcas temporales (MAC times), volcados de tráfico PCAP con Scapy y correlación de eventos NetFlow. Destaca además por abordar el análisis forense en hipervisores (imágenes de máquinas virtuales), extracción de artefactos en dispositivos móviles (Android rooteado e iOS con jailbreak) y análisis de memoria RAM con Volatility Framework y reglas YARA para la detección de malware.\n\nA lo largo de sus capítulos se desarrollan herramientas de investigación forense especializadas, tales como analizadores de memoria, procesadores de artefactos móviles en bases de datos SQLite y scripts de triaje automatizado de binarios sospechosos. Su mayor aporte es la rigurosidad con la que aborda la extracción de evidencias sin depender de suites comerciales cerradas, cubriendo nichos poco habituales como el análisis forense de máquinas virtuales; por otro lado, presupone un dominio previo notable de la arquitectura C y de conceptos estrictos de cadena de custodia, prescindiendo de explicaciones introductorias. Resulta indispensable contar con un laboratorio de pruebas con hipervisores y volcados de memoria para seguir el contenido.",
+    "temas": [
+      "Forense Digital",
+      "Python",
+      "ctypes",
+      "Forense de Memoria",
+      "YARA",
+      "Volatility",
+      "Forense Móvil (Android/iOS)",
+      "Forense de Red",
+      "Scapy",
+      "VirusTotal API",
+      "DFIR"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de triaje e inteligencia de malware con YARA y VirusTotal",
+        "descripcion": "Herramienta en Python que extrae hashes criptográficos y difusos (SSDEEP) de archivos sospechosos, los contrasta automáticamente con la API de VirusTotal y aplica reglas YARA para identificar patrones de amenazas."
+      },
+      {
+        "nombre": "Extractor forense para dispositivos móviles Android e iOS",
+        "descripcion": "Script para la recolección y análisis automatizado de evidencias digitales alojadas en bases de datos SQLite y registros del sistema en dispositivos móviles rooteados o con jailbreak."
+      },
+      {
+        "nombre": "Módulo de análisis de memoria volátil y tráfico de red",
+        "descripcion": "Herramienta que analiza volcados de memoria RAM con Volatility y procesa capturas PCAP mediante Scapy para reconstruir conexiones y detectar procesos maliciosos en ejecución."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-python-forensics-9781783988044",
+      "https://www.oreilly.com/library/view/mastering-python-forensics/9781783988044/",
+      "https://www.amazon.com/Mastering-Python-Forensics-Dr-Michael/dp/1783988045"
+    ]
+  },
+  "python-web-penetration-testing-cookbook-2015": {
+    "descripcion": "Recetario práctico compuesto por más de 60 soluciones en código Python enfocadas en automatizar y acelerar las distintas fases de una prueba de penetración web. Está dirigido a analistas de seguridad de aplicaciones web, evaluadores de penetración y desarrolladores de nivel intermedio que ya entienden la sintaxis fundamental de Python y el funcionamiento del protocolo HTTP, y buscan construir su propio arsenal de herramientas para auditorías web en lugar de conformarse con las opciones por defecto de los escáneres comerciales.\n\nLa obra recopila recetas prácticas organizadas por vectores de prueba. Comienza con inteligencia de fuentes abiertas (OSINT) conectándose a la API de Shodan y automatizando la toma de capturas de pantalla y rastreo web con QtWebKit. Abarca técnicas de enumeración multihilo para descubrir rutas ocultas y probar credenciales en paneles de autenticación; detección y explotación de vulnerabilidades críticas como Directory Traversal, Cross-Site Scripting (XSS reflejado y persistente) e inyecciones SQL (análisis de jitter temporal, SQLi a ciegas y ofuscación de cargas para evadir cortafuegos de aplicaciones web o WAFs). Enseña además a auditar cabeceras HTTP inseguras, verificar banderas de cookies (HttpOnly, Secure), manipular sesiones, analizar esteganografía en imágenes, levantar canales de comando y control (C2) con shells inversas, y transformar reportes de herramientas como Nmap y SSLscan a formato CSV.\n\nEl enfoque de la obra es completamente modular: cada receta presenta un problema específico, el script de Python correspondiente y una explicación detallada de cómo funciona y cómo interpretar los resultados. Su gran fortaleza radica en proporcionar soluciones inmediatas y reutilizables para automatizar comprobaciones tediosas en auditorías web; en cambio, al tratarse de un recetario no profundiza en la teoría arquitectónica de las vulnerabilidades ni guía la construcción de una aplicación monolítica integral. Es un manual de consulta rápida idóneo para acompañar sesiones prácticas de pentesting en entornos vulnerables de laboratorio.",
+    "temas": [
+      "Pentesting Web",
+      "Python",
+      "Cookbook",
+      "OSINT",
+      "Shodan API",
+      "Inyección SQL",
+      "Cross-Site Scripting (XSS)",
+      "Cabeceras HTTP",
+      "Reverse Shells",
+      "QtWebKit",
+      "Automatización de Reportes"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/python-web-penetration-testing-cookbook-9781784392918",
+      "https://www.oreilly.com/library/view/python-web-penetration/9781784392918/",
+      "https://www.amazon.com/Python-Web-Penetration-Testing-Cookbook/dp/178439291X"
+    ]
+  },
+  "security-automation-with-python-2025": {
+    "descripcion": "Obra práctica enfocada en ayudar a profesionales de ciberseguridad, analistas de operaciones de seguridad (SecOps) y administradores de sistemas a superar los cuellos de botella operativos mediante la automatización con Python (específicamente Python 3.11/3.12). Está concebida para lectores con un nivel intermedio que ya conocen la sintaxis elemental del lenguaje y los fundamentos de redes y sistemas operativos, pero buscan transformar tareas manuales y repetitivas en procesos de defensa ágiles y reproducibles.\n\nEl contenido cubre desde la configuración del entorno hasta el desarrollo de scripts y flujos completos para operaciones críticas, utilizando librerías fundamentales del ecosistema Python como Requests (para llamadas a APIs REST), Paramiko (para la ejecución y administración remota sobre SSH) y PyAutoGUI (para la gestión de alertas e interfaces). A lo largo de sus capítulos se enseña a interactuar mediante APIs con herramientas de escaneo como Nessus, automatizar reglas en cortafuegos (firewalls) y sistemas IDS/IPS, orquestar el parcheo sistemático de servidores, procesar feeds de inteligencia de amenazas e implementar controles alineados con marcos normativos como NIST SP 800-53 y FedRAMP, además de explorar la introducción de modelos de machine learning e inteligencia artificial para la detección de malware y anomalías.\n\nLa vertiente práctica se consolida en el análisis y ejecución de casos de estudio extraídos de entornos reales, abordando la respuesta automatizada ante incidentes de phishing, el aislamiento y triaje de artefactos maliciosos, y la mitigación en tiempo real de intrusiones de red. El libro destaca por su orientación directa a resolver problemas de escala y enseñar pautas de registro (logging) y tolerancia a fallos en producción, aunque conviene tener en cuenta que pasa por alto la teoría profunda de los algoritmos de detección para priorizar la integración de herramientas y la ejecución de flujos de trabajo.",
+    "temas": [
+      "Python 3",
+      "Automatización SecOps",
+      "Paramiko",
+      "Requests",
+      "Gestión de vulnerabilidades",
+      "Nessus",
+      "Inteligencia de amenazas",
+      "Respuesta a incidentes",
+      "Seguridad en redes",
+      "NIST 800-53"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema automatizado de respuesta a incidentes de phishing",
+        "descripcion": "Flujo de trabajo en Python que procesa notificaciones de correos sospechosos, extrae indicadores de compromiso (IoC), consulta APIs de inteligencia de amenazas y ejecuta acciones automáticas de mitigación en buzones."
+      },
+      {
+        "nombre": "Pipeline de análisis y respuesta ante malware",
+        "descripcion": "Script automatizado para aislar, enviar a entornos seguros de sandbox y clasificar muestras sospechosas de software malicioso minimizando los tiempos de exposición en la red."
+      },
+      {
+        "nombre": "Detección y mitigación de intrusiones de red",
+        "descripcion": "Solución de automatización orientada a infraestructura que escucha alertas de intrusión, aplica de forma dinámica bloqueos en el firewall y aísla endpoints comprometidos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/security-automation-with-python-9781805125105",
+      "https://www.oreilly.com/library/view/security-automation-with/9781805125105/",
+      "https://www.amazon.com/Security-Automation-Python-Corey-Charles/dp/1805125103"
+    ]
+  },
+  "cryptography-in-c-c-2nd-edition-2013": {
+    "descripcion": "Tratado técnico y exhaustivo de Michael Welschenbach dedicado a la implementación práctica, rigurosa y desde cero de la criptografía moderna utilizando C y C++ (estándares ANSI C99 y C++ clásico). Está dirigido a programadores e ingenieros de software de nivel intermedio a avanzado que posean una base firme en el control de punteros y memoria, así como familiaridad con la notación matemática, y que necesiten comprender la ingeniería interna de los algoritmos criptográficos sin depender de cajas negras o bibliotecas de terceros.\n\nEl núcleo temático aborda con detalle la aritmética de precisión múltiple y la teoría de números computacional, resolviendo la necesidad de operar con números enteros gigantescos esenciales para la seguridad asimétrica. Enseña a implementar cálculos en clases residuales, algoritmos de exponenciación modular rápida, el algoritmo extendido de Euclides, generadores de números pseudoaleatorios criptográficamente seguros y pruebas probabilísticas de primalidad como Miller-Rabin y Fermat. En el terreno de los algoritmos de cifrado, cubre tanto el estándar simétrico Rijndael (AES) como el criptosistema asimétrico RSA, detallando el manejo seguro de errores y la optimización a bajo nivel.\n\nEl libro guía el desarrollo completo y modular de dos bibliotecas interconectadas: LINT (Large Integer in C) y su contraparte orientada a objetos CLINT en C++, acompañadas de suites completas de pruebas unitarias y de rendimiento. Su mayor valor reside en desmitificar los fundamentos matemáticos y convertirlos en código funcional de alto rendimiento; como contrapartida, no aborda estándares web ni protocolos contemporáneos como TLS o curvas elípticas modernas, por lo que es un texto idóneo para dominar las bases estructurales de la criptografía y el cálculo de precisión arbitraria.",
+    "temas": [
+      "C",
+      "C++",
+      "Criptografía",
+      "Aritmética de precisión múltiple",
+      "Algoritmo RSA",
+      "Rijndael (AES)",
+      "Teoría de números",
+      "Pruebas de primalidad",
+      "Generación de números aleatorios",
+      "Biblioteca LINT"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Biblioteca de enteros de precisión múltiple LINT / CLINT",
+        "descripcion": "Biblioteca desarrollada en C y C++ para el cálculo aritmético con enteros gigantes, que implementa operaciones modulares, funciones lógicas a nivel de bits y pruebas de primalidad."
+      },
+      {
+        "nombre": "Motor criptográfico RSA y cifrador Rijndael (AES)",
+        "descripcion": "Implementación funcional de los esquemas de generación de claves, cifrado, descifrado y firma digital de RSA junto con el cifrador simétrico por bloques AES, respaldados por una suite de pruebas de verificación."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-0051-2",
+      "https://www.apress.com/gp/book/9781590594445",
+      "https://www.amazon.com/Cryptography-C-Michael-Welschenbach/dp/1590594447"
+    ]
+  },
+  "secure-programming-cookbook-for-c-and-c-2003": {
+    "descripcion": "Obra de referencia clásica estructurada como recetario de soluciones para mitigar fallos y vulnerabilidades de seguridad al desarrollar en C y C++ sobre sistemas Unix, Linux y Windows. Está destinada a programadores de sistemas y aplicaciones de nivel intermedio que conocen bien la gestión de memoria manual, los punteros y las APIs estándar del sistema operativo, pero necesitan directrices precisas para escribir código resistente a la explotación maliciosa.\n\nEl libro reúne más de doscientas recetas autocontenidas organizadas en el formato de problema, solución y discusión técnica. Enseña a prevenir desbordamientos de búfer (buffer overflows), cadenas de formato no controladas y condiciones de carrera (race conditions), apoyándose intensamente en OpenSSL para la criptografía en entornos POSIX y en la CryptoAPI para Windows. Cubre la validación exhaustiva de datos de entrada, la gestión segura de privilegios y procesos (mediante directivas setuid, capacidades POSIX y listas de control de acceso ACLs de Win32), el manejo de secretos en memoria, el despliegue de infraestructura de clave pública (PKI), la validación de certificados X.509 y el diseño de técnicas anti-manipulación (anti-tampering) para dificultar la ingeniería inversa de los binarios.\n\nAl ser un recetario práctico puro, no plantea un proyecto monolítico unificado ni contiene ejercicios académicos de autoevaluación, sino patrones de código modulares directamente aplicables a problemas cotidianos de seguridad en software de bajo nivel. Su punto fuerte radica en contrastar metódicamente las APIs de Unix con las de Windows; no obstante, debido a su fecha de publicación, las versiones de los estándares de cifrado y ciertas funciones de red deben complementarse y contextualizarse con las versiones modernas de OpenSSL y los compiladores actuales.",
+    "temas": [
+      "C",
+      "C++",
+      "Programación defensiva",
+      "Buffer Overflows",
+      "OpenSSL",
+      "CryptoAPI de Windows",
+      "Validación de entradas",
+      "Control de acceso y ACLs",
+      "PKI y certificados",
+      "Condiciones de carrera",
+      "Anti-tampering"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/secure-programming-cookbook/0596003943/",
+      "https://www.amazon.com/Secure-Programming-Cookbook-Recipes-Cryptography/dp/0596003943"
+    ]
+  },
+  "secure-by-design-2019": {
+    "descripcion": "Manual de arquitectura y diseño de software que plantea un cambio de paradigma fundamental: lograr que el software sea intrínsecamente seguro a través de un buen diseño, en lugar de recurrir a capas de seguridad perimetral añadidas a posteriori. Está dirigido a desarrolladores, ingenieros de software y arquitectos de nivel intermedio familiarizados con la programación orientada a objetos (con ejemplos centrados primordialmente en Java), que deseen erradicar clases completas de vulnerabilidades desde el propio modelado del dominio de negocio.\n\nLa obra adopta conceptos nucleares del Diseño Guiado por el Dominio (DDD) para blindar el código, destacando la adopción de «primitivas de dominio» (domain primitives): objetos de valor inmutables y autovalidados que reemplazan la obsesión por tipos primitivos genéricos y garantizan que los estados inválidos sean imposibles de representar. Explica cómo preservar la integridad del estado, diseñar entidades inmutables, aplicar validaciones de fallo rápido (fail-fast), estructurar un control de excepciones seguro que impida la fuga de información sensible (como volcados de pila o trazas de depuración), y adaptar estos principios a arquitecturas de microservicios, entornos cloud y pipelines de integración continua.\n\nEl aprendizaje se articula mediante la inspección y refactorización guiada de código heredado (legacy) vulnerable hacia modelos robustos y expresivos, prescindiendo de proyectos integrales construidos desde cero o cuestionarios teóricos. Su gran contribución es demostrar que la seguridad y la claridad arquitectónica van de la mano, reduciendo la superficie de ataque mediante código limpio y tipado estricto; resulta especialmente provechoso para quienes ya cuentan con experiencia en refactorización y patrones de diseño orientados a objetos.",
+    "temas": [
+      "Java",
+      "Diseño de software",
+      "Domain-Driven Design (DDD)",
+      "Primitivas de dominio",
+      "Inmutabilidad",
+      "Arquitectura de microservicios",
+      "Refactorización de código legado",
+      "Manejo seguro de errores",
+      "Seguridad en la nube",
+      "Defensa en profundidad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/secure-by-design",
+      "https://www.oreilly.com/library/view/secure-by-design/9781617294358/",
+      "https://www.amazon.com/Secure-Design-Dan-Bergh-Johnsson/dp/1617294357"
+    ]
+  },
+  "api-security-in-action-2020": {
+    "descripcion": "Guía práctica e integral enfocada en el diseño, desarrollo y protección de interfaces de programación web seguras, abarcando desde servicios RESTful expuestos a internet hasta microservicios internos y dispositivos IoT. Está dirigida a desarrolladores backend, ingenieros de seguridad y arquitectos de nivel intermedio que posean conocimientos previos de Java (Java 11 o superior) y de los fundamentos de red del protocolo HTTP, y busquen salvaguardar sus APIs en entornos de producción hostiles.\n\nA lo largo de sus capítulos se explora la seguridad en capas implementando autenticación basada en tokens, autorización con modelos RBAC (basado en roles) y ABAC (basado en atributos), y seguridad basada en capacidades mediante macaroons. Profundiza en el uso de estándares industriales como OAuth 2.0, OpenID Connect (OIDC) y JSON Web Tokens (JWT), junto con algoritmos de limitación de tasa (rate limiting mediante token bucket), cifrado en tránsito con TLS y autenticación mutua (mTLS), gestión de claves criptográficas y contramedidas frente a inyecciones, CORS mal configurado y CSRF. El código prescinde de capas de abstracción pesadas como Spring Security y recurre deliberadamente al microframework Spark Java junto con Jetty embebido y bases de datos ligeras para ilustrar la mecánica interna de cada control.\n\nTodo el recorrido del libro se sustenta en el desarrollo e iteración incremental de un proyecto práctico: una API REST para una red social y mensajería llamada «Natter». Esta aplicación sirve como laboratorio para identificar vulnerabilidades deliberadas y aplicarles soluciones verificables con peticiones cURL. Su principal mérito es enseñar la seguridad de APIs desde los cimientos y los estándares abiertos, dotando al lector de una comprensión profunda que luego se extrapola con facilidad a cualquier framework o lenguaje empresarial.",
+    "temas": [
+      "Java 11",
+      "Seguridad de APIs",
+      "OAuth 2.0",
+      "OpenID Connect",
+      "JSON Web Tokens (JWT)",
+      "Spark Java",
+      "Control de acceso (RBAC / ABAC)",
+      "Macaroons",
+      "mTLS",
+      "Rate limiting",
+      "CORS y CSRF"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API Natter",
+        "descripcion": "Servicio RESTful de mensajería social desarrollado en Java con Spark y Jetty, sobre el que se implementan paso a paso autenticación con tokens y cookies seguras, esquemas de autorización RBAC/ABAC, macaroons, limitación de tasa y federación con OAuth 2.0."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/api-security-in-action",
+      "https://www.oreilly.com/library/view/api-security-in/9781617296024/",
+      "https://www.amazon.com/API-Security-Action-Neil-Madden/dp/1617296023"
+    ]
+  },
+  "hacking-apis-2022": {
+    "descripcion": "Guía especializada en seguridad ofensiva y pruebas de penetración contra interfaces de programación de aplicaciones web, publicada en 2022 por No Starch Press con autoría de Corey J. Ball. Está dirigida a analistas de seguridad, profesionales de pruebas de penetración, cazadores de recompensas (bug hunters) y desarrolladores de backend de nivel intermedio que ya dominan los fundamentos de redes y peticiones HTTP, pero buscan especializarse en la identificación y explotación metódica de vulnerabilidades exclusivas en arquitecturas de APIs modernas.\n\nEl libro analiza en profundidad los estándares arquitectónicos REST, GraphQL y SOAP, relacionándolos con los vectores de ataque del OWASP API Security Top 10. Enseña a desplegar un ecosistema completo de herramientas que incluye Burp Suite, Postman, OWASP Amass, Kiterunner, ffuf, jwt_tool y Nikto para ejecutar tareas de reconocimiento activo y pasivo, fuzzing de parámetros y descubrimiento de endpoints ocultos. Asimismo, profundiza en el análisis y abuso de autenticación con tokens JWT, fallos graves de autorización como BOLA (Broken Object Level Authorization) y BFLA (Broken Function Level Authorization), manipulación por asignación masiva (Mass Assignment), exposición indebida de datos e inyecciones de comandos, SQL y NoSQL.\n\nEl aprendizaje se consolida mediante el despliegue práctico de un laboratorio local con Docker compuesto por aplicaciones deliberadamente vulnerables como crAPI (Completely Ridiculous API) y VAmPI (Vulnerable REST API), sobre las cuales el lector reproduce ataques reales paso a paso y redacta reportes formales de hallazgos. Aporta una metodología sumamente clara y aplicable a auditorías de APIs en entornos de producción que los manuales clásicos de seguridad web suelen omitir; no obstante, omite la configuración defensiva avanzada en pasarelas de API (API Gateways) y cortafuegos de aplicaciones web (WAF). Es indispensable contar con soltura en la terminal de Linux y el uso de contenedores para aprovecharlo al máximo.",
+    "temas": [
+      "Seguridad de APIs",
+      "OWASP API Security Top 10",
+      "Burp Suite",
+      "Postman",
+      "Kiterunner",
+      "GraphQL",
+      "REST APIs",
+      "BOLA",
+      "Tokens JWT",
+      "Fuzzing",
+      "Penetration Testing"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Laboratorio de auditoría ofensiva en crAPI",
+        "descripcion": "Despliegue en contenedores de una aplicación de gestión vehicular y usuarios intencionadamente vulnerable para practicar ataques de BOLA, autenticación rota y exposición de datos usando Burp Suite y Postman."
+      },
+      {
+        "nombre": "Laboratorio de explotación REST en VAmPI",
+        "descripcion": "Entorno vulnerable en Python y Flask donde se ejercitan técnicas de inyección NoSQL, manipulación de tokens JWT y asignación masiva de parámetros sobre endpoints REST."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/hacking-apis",
+      "https://www.oreilly.com/library/view/hacking-apis/9781098132644/"
+    ]
+  },
+  "mobile-application-security-2010": {
+    "descripcion": "Obra de referencia publicada en 2010 por McGraw-Hill y escrita por investigadores líderes de la firma iSEC Partners (Himanshu Dwivedi, Chris Clark y David Thiel), enfocada en los principios de seguridad, análisis de amenazas y diseño defensivo para la primera generación masiva de smartphones y dispositivos portátiles. Está orientada a profesionales de seguridad informática, auditores de software y desarrolladores móviles con nivel intermedio que poseían bases previas en sistemas operativos y programación básica en lenguajes como C, C++, Java u Objective-C.\n\nEl texto desglosa minuciosamente las arquitecturas de seguridad, modelos de aislamiento (sandboxing) y esquemas de permisos de sistemas como Google Android, Apple iPhone OS (primeras versiones de iOS), Windows Mobile, BlackBerry OS con BlackBerry Enterprise Server (BES), SymbianOS, Java ME y HP/Palm webOS. Cubre el almacenamiento local seguro y cifrado en disco, criptografía de clave pública y simétrica, prevención de desbordamientos de búfer (buffer overflows) e inyecciones SQL en bases de datos integradas como SQLite. Asimismo, examina vectores de ataque basados en protocolos periféricos como Bluetooth, servicios de mensajería SMS, geolocalización (GPS), y amenazas web móviles sobre WAP y navegadores móviles, tales como cross-site scripting (XSS), cross-site request forgery (CSRF) y secuestro de sesiones.\n\nLa metodología no propone el desarrollo guiado de una aplicación comercial integral, sino el análisis riguroso de modelos conceptuales de amenazas, pautas de mitigación a nivel de código y configuraciones de seguridad mediante emuladores y depuradores (debuggers) propios de cada plataforma. Constituye un documento fundacional valioso para entender las raíces y la evolución de los mecanismos de sandboxing modernos; sin embargo, gran parte de los sistemas abordados (Symbian, Windows Mobile, BlackBerry, webOS) han quedado obsoletos y las versiones iniciales de Android e iOS han cambiado drásticamente. Resulta especialmente útil para historiadores tecnológicos, auditores de dispositivos heredados y profesionales interesados en fundamentos arquitectónicos de bajo nivel.",
+    "temas": [
+      "Seguridad móvil",
+      "Android",
+      "iPhone OS",
+      "Sandboxing",
+      "Criptografía móvil",
+      "BlackBerry BES",
+      "SymbianOS",
+      "Seguridad Bluetooth",
+      "Protocolo SMS",
+      "Inyección SQL",
+      "WAP"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/mobile-application-security/9780071633574/",
+      "https://www.amazon.com/Mobile-Application-Security-Himanshu-Dwivedi/dp/0071633561"
+    ]
+  },
+  "beginning-security-with-microsoft-technologies-2019": {
+    "descripcion": "Manual práctico e introductorio publicado por Apress en 2019, en el que la autora Vasantha Lakshmi expone las bases para implementar defensas multicapa en la infraestructura corporativa de Microsoft. Está diseñado para administradores de sistemas, especialistas en soporte técnico de TI, consultores junior de infraestructura y profesionales de seguridad que necesitan estructurar un entorno seguro en organizaciones que emplean Windows, Office 365 y servicios de Azure, requiriendo únicamente nociones elementales sobre administración de sistemas y redes.\n\nEl recorrido abarca la protección de correos electrónicos, dispositivos cliente, identidades y datos empresariales mediante la suite de servicios nativos de Microsoft. Enseña a mitigar amenazas de suplantación de identidad (phishing) y malware en Exchange Online utilizando Office Advanced Threat Protection (Office ATP / Defender para Office 365), Safe Links y Safe Attachments. En el plano de los dispositivos finales, explica cómo configurar Windows Defender Antivirus, Device Guard, Credential Guard, Secure Boot y la gestión de terminales con Microsoft Intune. Para la gestión de identidades y prevención de filtraciones, detalla el uso de Azure Active Directory (Azure AD), políticas de acceso condicional, autenticación multifactor (MFA), Azure Advanced Threat Analytics (ATA), Azure Information Protection (AIP) para clasificación y cifrado de documentos, y Microsoft Cloud App Security (MCAS).\n\nEl enfoque del libro es eminentemente administrativo y procedimental: guía paso a paso las configuraciones a través de consolas centrales como el centro de administración de Microsoft 365, el portal de Azure y las directivas locales y de grupo en Windows 10. No aborda desarrollo de software ni programación de scripts complejos, sino la habilitación y gobierno de controles de seguridad en entornos comerciales. Aporta una panorámica muy clara para sentar líneas base de seguridad organizacional, aunque el lector debe tener presente que Microsoft renombró la mayoría de estos productos poco después de la publicación (actualmente integrados en las familias Microsoft Defender y Microsoft Entra). Es una lectura accesible y recomendada para preparar certificaciones iniciales de seguridad de Microsoft.",
+    "temas": [
+      "Microsoft 365 Security",
+      "Azure Active Directory",
+      "Microsoft Intune",
+      "Windows 10 Security",
+      "Office 365 ATP",
+      "Credential Guard",
+      "Azure Information Protection",
+      "Acceso condicional",
+      "Gestión de identidades",
+      "Prevención de pérdida de datos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4853-9",
+      "https://www.oreilly.com/library/view/beginning-security-with/9781484248539/"
+    ]
+  },
+  "mastering-cloud-security-posture-management-2024": {
+    "descripcion": "Tratado de nivel avanzado publicado por Packt Publishing en 2024, en el que Qamar Nomani profundiza de forma exhaustiva en la gestión de la postura de seguridad en la nube (CSPM). Está dirigido a arquitectos de seguridad cloud, ingenieros de DevSecOps, directores de cumplimiento y profesionales senior de infraestructura que necesitan diseñar, gobernar y optimizar la visibilidad y mitigación de riesgos en organizaciones con implementaciones multicloud a gran escala, requiriendo experiencia previa sólida en computación en la nube y automatización.\n\nA lo largo de sus páginas, la obra analiza la evaluación continua de posturas de seguridad y cumplimiento normativo en los tres proveedores líderes: Amazon Web Services (AWS Security Hub, AWS Config), Microsoft Azure (Microsoft Defender for Cloud, Azure Policy) y Google Cloud Platform (Google Cloud Security Command Center). Explica cómo detectar y corregir desconfiguraciones críticas de infraestructura, aplicar el modelo Zero Trust y el modelo de responsabilidad compartida, y certificar el cumplimiento de estándares como CIS Benchmarks, NIST, ISO 27001 y PCI-DSS. Asimismo, profundiza en la integración de análisis estático en canalizaciones de CI/CD mediante escaneo de Infraestructura como Código (IaC) con herramientas para Terraform, auditorías de inventario de activos, búsqueda de amenazas (threat hunting) mediante Kusto Query Language (KQL) y la articulación con plataformas de protección de cargas de trabajo en la nube (CWPP).\n\nEl contenido destaca por su equilibrio entre visión estratégica de gobierno cloud y despliegues operativos con flujos de remediación automatizada y tableros consolidados. No se detiene en ejercicios académicos sencillos ni en explotación web tradicional, sino en la gobernanza pragmática de ecosistemas corporativos reales y complejos. Aporta un marco de trabajo indispensable para evitar fugas de datos derivadas de errores humanos de configuración en la nube; no obstante, su gran extensión técnica exige concentración y conocimientos consolidados de scripting y políticas de seguridad en la nube para implementar sus recomendaciones de manera efectiva.",
+    "temas": [
+      "CSPM",
+      "Multi-Cloud Security",
+      "AWS Security Hub",
+      "Microsoft Defender for Cloud",
+      "Google Cloud SCC",
+      "Zero Trust",
+      "DevSecOps",
+      "Terraform",
+      "CIS Benchmarks",
+      "KQL",
+      "Automatización de remediación"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-cloud-security-posture-management-9781837638406",
+      "https://www.oreilly.com/library/view/mastering-cloud-security/9781837638406/"
+    ]
+  },
+  "learning-serverless-security-2026": {
+    "descripcion": "Guía integral y práctica publicada por O'Reilly Media con autoría de Joshua Arvin Lat (CTO y AWS AI Hero), centrada en auditar, vulnerar y blindar aplicaciones serverless en los entornos de nube pública más populares del mercado. Está dirigida a desarrolladores, ingenieros de seguridad, auditores de software y arquitectos cloud que parten de un nivel básico en seguridad serverless, requiriendo únicamente conocimientos previos en desarrollo de aplicaciones web y conceptos fundamentales de servicios en la nube (como AWS, Azure o Google Cloud).\n\nEl libro aborda la seguridad en arquitecturas sin servidor con un enfoque equilibrado entre AWS (AWS Lambda, IAM, Amazon S3, AWS CloudTrail), Microsoft Azure (Azure Functions, Azure Key Vault, Managed Identities) y Google Cloud Platform (Cloud Run, Cloud Storage, Google Cloud IAM). Examina riesgos críticos derivados del OWASP Serverless Top 10 y OWASP API Security, tales como la fuga y abuso de credenciales IAM expuestas en aplicaciones web, escalada de privilegios abusando de roles excesivamente permisivos (AssumeRole), inyecciones de código mediante funciones dinámicas como eval(), creación de puertas traseras persistentes sin requerir shells inversas tradicionales, y manipulación maliciosa de disparadores de eventos (event triggers) a través de cargas de archivos en buckets.\n\nLa obra se articula alrededor de laboratorios prácticos con código disponible en el repositorio oficial del autor, permitiendo experimentar tanto técnicas de ataque simuladas como estrategias de remediación y endurecimiento: aislamiento de funciones dentro de nubes virtuales privadas (VPC), refactorización de código vulnerable y despliegue de Infraestructura como Código (IaC) conforme al principio de mínimo privilegio. Aporta un valor técnico excepcional al desmitificar la supuesta inmunidad nativa de las tecnologías serverless, advirtiendo que la gestión de la seguridad sigue recayendo en la configuración del cliente. Conviene monitorear los recursos aprovisionados durante las prácticas para evitar sobrecostes en las cuentas de nube utilizadas.",
+    "temas": [
+      "Seguridad Serverless",
+      "AWS Lambda",
+      "Azure Functions",
+      "Google Cloud Run",
+      "OWASP Serverless Top 10",
+      "AWS IAM",
+      "Azure Key Vault",
+      "Google Cloud Storage",
+      "Inyección de código",
+      "Escalada de privilegios",
+      "Seguridad en VPC"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Laboratorio ofensivo y defensivo en AWS Lambda",
+        "descripcion": "Entorno serverless en AWS diseñado para simular el robo de credenciales IAM expuestas, inyección de código y persistencia con funciones modificadas, implementando luego su remediación mediante aislamiento en una VPC y políticas de mínimo privilegio."
+      },
+      {
+        "nombre": "Simulador de amenazas en Google Cloud Storage y Cloud Run",
+        "descripcion": "Laboratorio práctico en Google Cloud que recrea ataques de abuso de triggers por eventos en buckets de almacenamiento y ejecución arbitraria en Cloud Run, junto con directivas seguras de Infraestructura como Código."
+      },
+      {
+        "nombre": "Entorno de auditoría y escalada en Azure Functions",
+        "descripcion": "Aplicación con Azure Functions donde se analiza cómo identidades administradas excesivamente permisivas permiten exfiltrar tokens y acceder a secretos sensibles en Azure Key Vault, seguido del endurecimiento del servicio."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-serverless-security/9781098149000/",
+      "https://github.com/joshuaarvinlat/learning-serverless-security"
+    ]
+  },
+  "security-as-code-2023": {
+    "descripcion": "Guía práctica y concisa publicada por O'Reilly en 2023 en la que BK Sarthak Das (ingeniero de seguridad en Google y exarquitecto de AWS) y Virginia Chu (principal DevSecOps engineer en AWS) abordan la filosofía de Security as Code (SaC) aplicada al entorno de Amazon Web Services. Está orientada a ingenieros de DevOps, desarrolladores cloud y profesionales de ciberseguridad con nivel intermedio que conocen los servicios principales de AWS y la orquestación de contenedores, y que buscan automatizar controles de seguridad («shift left») dentro del ciclo de desarrollo de software (SDLC) en lugar de tratarlos como una revisión tardía previa al despliegue.\n\nEl contenido enseña patrones arquitectónicos y de automatización integrando herramientas nativas de AWS y utilidades de código abierto: configuración de Infraestructura como Código (IaC) con escaneos automatizados para detectar desviaciones (drift) y fallos de configuración; despliegue y hardening de microservicios en contenedores sobre Kubernetes (Amazon EKS); integración de seguridad continua en canalizaciones de CI/CD mediante AWS Code Suite (CodeBuild, CodeDeploy, CodePipeline); diseño de arquitecturas de telemetría y auditoría con Amazon CloudWatch, AWS CloudTrail y Amazon VPC; y gestión de accesos basada en el principio de mínimo privilegio con IAM y Role-Based Access Control (RBAC). Además, introduce pruebas de resiliencia mediante inyección de fallos con AWS Fault Injection Simulator (FIS).\n\nA lo largo de los capítulos se trabaja con el caso de estudio de «Automatoonz», una aplicación en contenedores sobre la cual se construye una canalización completa de DevSecOps con controles de seguridad automatizados, monitorización activa y pruebas de fallos. Su gran valor radica en su síntesis (alrededor de 120 páginas) y en presentar patrones reales y probados sin rodeos teóricos. Como contrapartida, está fuertemente enfocado en el ecosistema de AWS, por lo que quienes utilicen Google Cloud o Azure deberán encargarse de extrapolar los conceptos a las herramientas equivalentes de sus proveedores.",
+    "temas": [
+      "DevSecOps",
+      "Security as Code",
+      "AWS",
+      "Kubernetes",
+      "Amazon EKS",
+      "Infrastructure as Code",
+      "CI/CD",
+      "CloudWatch",
+      "IAM",
+      "RBAC",
+      "Chaos Engineering"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Canalización DevSecOps para Automatoonz",
+        "descripcion": "Infraestructura como código y pipeline de CI/CD para desplegar de forma segura la aplicación en microservicios Automatoonz en AWS EKS (Kubernetes), incorporando análisis automatizado de vulnerabilidades, telemetría con CloudWatch, control de acceso RBAC y pruebas de inyección de fallos con AWS Fault Injection Simulator."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/security-as-code/9781098127459/",
+      "https://www.amazon.com/Security-Code-DevSecOps-Patterns-AWS/dp/1098127464"
+    ]
+  },
+  "serverless-security-2020": {
+    "descripcion": "Obra técnica de referencia publicada por Apress en la que Miguel A. Calles desglosa la seguridad aplicada a arquitecturas sin servidor (Serverless y Function as a Service, FaaS). El libro está dirigido a desarrolladores de software, arquitectos de soluciones e ingenieros de seguridad con experiencia en desarrollo web y computación en la nube que desean entender cómo cambian las amenazas cuando desaparece el servidor tradicional y la superficie defensiva se traslada por completo al código, las configuraciones de la plataforma y los eventos entre servicios gestionados.\n\nAbarca un marco metódico de evaluación de riesgos (risk assessment) y mitigación de vulnerabilidades adaptado a los tres grandes proveedores cloud: Amazon Web Services (AWS Lambda, API Gateway, IAM, KMS, Secrets Manager, CloudWatch), Microsoft Azure (Azure Functions) y Google Cloud Platform (Cloud Functions). Con un fuerte énfasis en Node.js (JavaScript) y complementos en Python, enseña a aplicar análisis estático de código con ESLint y npm audit, gestionar secretos sin exponer credenciales en texto plano, implementar flujos seguros de autenticación y autorización en endpoints REST, proteger datos sensibles en reposo y en tránsito con cifrado administrado, y configurar registros y alertas para auditar ejecuciones efímeras.\n\nEl libro propone un recorrido estructurado donde el lector lleva a cabo una matriz de evaluación de riesgos completa y ajusta funciones sin servidor con configuraciones defensivas mediante Serverless Framework y las consolas cloud. Destaca por romper el mito de que las aplicaciones sin servidor son seguras por defecto y por mantener una visión multicloud que evita el bloqueo de proveedor. Como contrapartida, no desarrolla una aplicación de negocio integral de principio a fin, sino que organiza sus prácticas en torno a controles, auditorías y recetas de configuración por cada área de riesgo.",
+    "temas": [
+      "Serverless",
+      "AWS Lambda",
+      "Azure Functions",
+      "Google Cloud Functions",
+      "FaaS",
+      "Evaluación de riesgos",
+      "IAM",
+      "API Gateway",
+      "Secrets Management",
+      "Node.js",
+      "Criptografía"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-6100-2",
+      "https://github.com/Apress/serverless-security",
+      "https://www.amazon.com/Serverless-Security-Understand-Implement-Applications/dp/1484260991"
+    ]
+  },
+  "grokking-web-application-security-2024": {
+    "descripcion": "Manual didáctico y sumamente visual publicado por Manning en 2024 dentro de su célebre serie «Grokking», escrito por Malcolm McDonald, creador de la plataforma formativa Hacksplaining. El texto está pensado para desarrolladores web de cualquier lenguaje o framework (desde recién graduados de bootcamps hasta programadores de nivel intermedio) que necesitan dominar los principios esenciales de la seguridad en la web sin tropezar con manuales teóricos áridos o fórmulas matemáticas complejas, adquiriendo una mentalidad defensiva desde el primer día.\n\nLa obra se organiza en dos partes: principios defensivos fundamentales y catálogo detallado de vulnerabilidades. Explora los mecanismos de aislamiento del navegador web (Same-Origin Policy, Content Security Policy, sandboxing, flags de cookies como HttpOnly y SameSite, Subresource Integrity); criptografía práctica (tráfico HTTPS, certificados, hashing y salting de contraseñas con algoritmos como bcrypt); validación y sanitización en el servidor; y los principales vectores de ataque del OWASP Top 10: Cross-Site Scripting (XSS reflejado, almacenado y basado en DOM), Cross-Site Request Forgery (CSRF), inyecciones SQL y de comandos del sistema, secuestro de sesiones, fallos de autenticación multifactor (MFA), referencias directas inseguras a objetos (IDOR) y riesgos derivados de dependencias de terceros.\n\nA través de abundantes diagramas secuenciales, analogías claras y fragmentos de código breves, el lector visualiza cómo opera el atacante paso a paso y aprende el patrón de refactorización exacto para neutralizar cada riesgo. Su gran fortaleza es la capacidad de convertir conceptos tradicionalmente complejos en esquemas intuitivos y aplicables de inmediato. No construye una aplicación monolítica acumulativa ni aborda auditorías de infraestructura a bajo nivel, pero constituye una de las mejores guías visuales existentes para consolidar buenas prácticas de seguridad en el desarrollo web.",
+    "temas": [
+      "OWASP Top 10",
+      "XSS",
+      "CSRF",
+      "Inyección SQL",
+      "Content Security Policy",
+      "Same-Origin Policy",
+      "Autenticación",
+      "Criptografía",
+      "Cookies",
+      "Seguridad web",
+      "IDOR"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/grokking-web-application-security",
+      "https://www.amazon.com/Grokking-Web-Application-Security-Malcolm/dp/1617299616"
+    ]
+  },
+  "web-application-security-2nd-edition-2024": {
+    "descripcion": "Segunda edición actualizada (publicada por O'Reilly en 2024) de la referencia técnica escrita por Andrew Hoffman, ingeniero principal de seguridad en Ripple y exmiembro del equipo de seguridad de Salesforce. La obra actualiza a fondo el panorama de la seguridad ofensiva y defensiva para alinearse con los estándares de la web actual: despliegues en la nube, arquitecturas orientadas a APIs, renderizado en servidor (SSR) y redes de distribución de contenido (CDN). Está diseñada para desarrolladores full-stack, ingenieros de seguridad y analistas de pruebas de penetración de nivel intermedio que conocen JavaScript y la arquitectura cliente-servidor y desean comprender tanto cómo explotar una debilidad como la manera rigurosa de mitigarla.\n\nEl libro articula su propuesta pedagógica en tres pilares: Reconocimiento (Recon), Ataque (Offense) y Defensa (Defense). Profundiza en el mapeo de superficies de ataque y descubrimiento de endpoints; la explotación y prevención de vectores modernos como prototype pollution en JavaScript, Server-Side Request Forgery (SSRF), abusos en esquemas GraphQL, vulnerabilidades en WebSockets, Cross-Site Scripting (XSS), inyecciones SQL y NoSQL, deserialización insegura y desconfiguraciones en CDNs; y la construcción de defensas en profundidad mediante Content Security Policy (CSP nivel 3), Cross-Origin Resource Sharing (CORS), HTTP Strict Transport Security (HSTS), modelado sistemático de amenazas e integración en el ciclo de vida de desarrollo seguro de software (SSDL/SDLC).\n\nMediante ejemplos de código reales, análisis de solicitudes HTTP y pruebas de concepto en escenarios de laboratorio, el lector practica tanto la perspectiva del atacante como la del desarrollador que parchea la vulnerabilidad en producción. Es uno de los textos más profundos y rigurosos del catálogo actual, sobresaliendo por abordar tecnologías modernas (GraphQL, SSR) que los libros clásicos no contemplan. Requiere familiaridad previa con el ecosistema web moderno y no se organiza en torno a un proyecto único, sino en talleres y análisis específicos de cada amenaza.",
+    "temas": [
+      "Seguridad web",
+      "Reconocimiento",
+      "GraphQL",
+      "Prototype Pollution",
+      "SSRF",
+      "XSS",
+      "Threat Modeling",
+      "WebSockets",
+      "Content Security Policy",
+      "DevSecOps",
+      "CORS"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/web-application-security/9781098143923/",
+      "https://www.amazon.com/Web-Application-Security-Exploitation-Countermeasures/dp/1098143931"
+    ]
+  },
+  "intermediate-security-testing-with-kali-linux-2-2015": {
+    "descripcion": "Guía práctica de laboratorio autopublicada en 2015 por Daniel W. Dieterle a través del sello CyberArms, diseñada como continuación de su obra introductoria sobre auditoría de seguridad. El libro toma como base Kali Linux 2.0 (la versión renovada sobre Debian lanzada a mediados de 2015) y se dirige a administradores de sistemas, analistas junior de seguridad y entusiastas del hacking ético de nivel intermedio que ya manejan la consola de Linux y los conceptos elementales de redes, y desean profundizar en procedimientos reales de pruebas de penetración y explotación controlada.\n\nEl manual detalla el manejo práctico de una amplia batería de herramientas de auditoría integradas en Kali Linux: configuración de máquinas virtuales objetivo con entornos intencionalmente vulnerables (Metasploitable, OWASP Mutillidae II y DVWA); explotación avanzada con Metasploit Framework y Meterpreter; generación de cargas útiles personalizadas con `msfvenom`; evasión básica de antivirus con Shellter; técnicas de post-explotación en Windows combinando PowerShell con los frameworks PowerSploit y Nishang; análisis y auditoría de tráfico web con Burp Suite y Nmap; y pruebas de penetración sobre dispositivos móviles Android y primeros conceptos de seguridad en hardware del Internet de las Cosas (IoT).\n\nEl aprendizaje se estructura como una serie de ejercicios guiados paso a paso («recetas» con comandos de terminal, capturas y explicación de salidas) para ejecutar ataques en un laboratorio aislado y verificar las alertas defensivas. Su gran acierto reside en su estilo directo y accesible para armar entornos de práctica propios. No obstante, al haber sido redactado en 2015 en torno a Kali Linux 2.0, varias herramientas y comandos han quedado en desuso o han sido modificados en las versiones recientes de la distribución, por lo que el lector actual debe consultar la documentación moderna para adaptar las instrucciones vigentes.",
+    "temas": [
+      "Kali Linux 2.0",
+      "Metasploit",
+      "Meterpreter",
+      "msfvenom",
+      "Burp Suite",
+      "Pentesting",
+      "Hacking ético",
+      "PowerSploit",
+      "Nmap",
+      "Shellter",
+      "Post-explotación"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://cyberarms.wordpress.com/",
+      "https://www.goodreads.com/book/show/27161720-intermediate-security-testing-with-kali-linux-2",
+      "https://www.amazon.com/Intermediate-Security-Testing-Kali-Linux/dp/1516945862"
+    ]
+  },
+  "linux-basics-for-hackers-2018": {
+    "descripcion": "Manual introductorio publicado por No Starch Press a finales de 2018 que enseña los fundamentos operativos, de red y de administración del sistema operativo Linux adaptados al contexto de la seguridad ofensiva y el hacking ético. Su autor, OccupyTheWeb, utiliza como entorno didáctico la distribución Kali Linux. La obra está pensada específicamente para principiantes y entusiastas de la ciberseguridad sin experiencia previa en sistemas Unix o en la terminal, sirviendo de puente accesible para quienes provienen de entornos gráficos como Windows y necesitan dominar la línea de comandos antes de adentrarse en herramientas complejas de auditoría.\n\nEl temario abarca la navegación del sistema de archivos, manipulación de flujos de texto (mediante grep, sed, awk y cut), gestión de permisos (chmod, chown), control de procesos (ps, top, kill), variables de entorno, administración de paquetes (apt) y compresión de archivos con tar. En el ámbito de redes y comunicaciones, aborda la configuración y análisis de interfaces (ifconfig, iwconfig), escaneo con Nmap, gestión de servicios esenciales (servidores Apache, SSH y bases de datos MySQL) y monitorización de registros del sistema con rsyslog. Asimismo, cubre técnicas de anonimato y evasión mediante el uso de redes Tor, servidores proxy y VPNs, inspección de redes inalámbricas y Bluetooth con utilidades de la suite Aircrack-ng, junto con una introducción a la automatización mediante scripting en Bash y desarrollo de scripts básicos en Python orientados a sockets.\n\nEn la parte práctica, el lector aprende a configurar su propio laboratorio virtualizado en VirtualBox y desarrolla pequeños proyectos de código, destacando la construcción de un recolector de banners y un escáner rudimentario de puertos TCP en Python, además de scripts en Bash para automatizar barridos de red. El mayor mérito del libro es su capacidad pedagógica para desmitificar la consola de Linux, omitiendo tareas administrativas corporativas irrelevantes para concentrarse en lo que un analista ofensivo necesita a diario. Por contra, no aborda el desarrollo de exploits complejos ni la auditoría profunda de código, por lo que debe concebirse como un primer escalón formativo antes de abordar certificaciones técnicas o manuales avanzados de penetración.",
+    "temas": [
+      "Kali Linux",
+      "Línea de comandos Bash",
+      "Redes TCP/IP",
+      "Scripting en Python",
+      "Permisos y procesos en Linux",
+      "Nmap",
+      "Aircrack-ng",
+      "Anonimato (Tor, VPN, Proxies)",
+      "Gestión de servicios (SSH, Apache, MySQL)",
+      "Manipulación de texto (grep, sed)"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Escáner de puertos y recolector de banners en Python",
+        "descripcion": "Script de red en Python desarrollado desde cero utilizando la librería de sockets para conectarse a direcciones IP de destino, detectar puertos abiertos y capturar los banners informativos de los servicios expuestos."
+      },
+      {
+        "nombre": "Script de automatización de reconocimiento en Bash",
+        "descripcion": "Herramienta de terminal creada en Bash para automatizar el descubrimiento de redes locales, extracción de rangos de direcciones y lanzamiento de barridos sistemáticos apoyándose en comandos del sistema y Nmap."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/linuxbasics",
+      "https://www.amazon.com/Linux-Basics-Hackers-Networking-Scripting/dp/1593278551",
+      "https://www.oreilly.com/library/view/linux-basics-for/9781492070382/"
+    ]
+  },
+  "learning-kali-linux-2018": {
+    "descripcion": "Guía fundamental publicada por O'Reilly en 2018 orientada a estructurar el aprendizaje de Kali Linux dentro del marco formal de las pruebas de penetración y el hacking ético. El autor, Ric Messier, concibe la obra para profesionales de TI, administradores de sistemas y estudiantes de ciberseguridad de nivel básico a intermedio que cuentan con nociones previas sobre redes y sistemas operativos, pero que se encuentran desorientados ante el amplísimo y cambiante arsenal de herramientas preinstaladas en la distribución.\n\nEl contenido sigue de manera metódica el ciclo de vida de un test de intrusión: arranca con la instalación y configuración del sistema operativo (entornos de escritorio GNOME y Xfce, gestión de paquetes y administración de servicios), continúa con el análisis de tráfico y pruebas de tensión de red mediante tcpdump y Wireshark, y detalla ataques de envenenamiento ARP y DNS. En la fase de inteligencia y reconocimiento, profundiza en OSINT con Recon-ng, Maltego y técnicas avanzadas de búsqueda, seguido por el escaneo de puertos y vulnerabilidades con Nmap y OpenVAS. En la fase ofensiva, examina el uso de Metasploit Framework (búsqueda de módulos, payloads y control de sesiones con Meterpreter), auditoría de redes inalámbricas WEP/WPA/WPA2, análisis de seguridad en aplicaciones web (inyección SQL, XSS y uso de proxies de intercepción como OWASP ZAP y Burp Suite), descifrado de contraseñas con John the Ripper, Hydra y Hashcat, y redacción estructurada de informes de resultados.\n\nA lo largo del texto se plantean ejercicios paso a paso y demostraciones guiadas dentro de entornos virtuales de prueba, enseñando a encadenar el descubrimiento pasivo de activos con la explotación activa y la extracción de credenciales. La gran fortaleza del libro radica en dotar de sentido y metodología al uso de Kali Linux, evitando que el usuario actúe como un ejecutor ciego de comandos. No obstante, al cubrir un abanico tan extenso en unas 400 páginas, no entra en el desarrollo de exploits a bajo nivel ni en la evasión avanzada de defensas contemporáneas, resultando idóneo como manual generalista de referencia.",
+    "temas": [
+      "Kali Linux",
+      "Metasploit Framework",
+      "Nmap",
+      "Wireshark",
+      "Burp Suite",
+      "OWASP ZAP",
+      "OSINT (Recon-ng, Maltego)",
+      "Auditoría Wi-Fi",
+      "Cracking de contraseñas (John, Hashcat)",
+      "tcpdump",
+      "Seguridad web"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-kali-linux/9781492028680/",
+      "https://www.amazon.com/Learning-Kali-Linux-Penetration-Testing/dp/1492028693"
+    ]
+  },
+  "kali-linux-2-assuring-security-by-penetration-testing-3rd-edition-2016": {
+    "descripcion": "Tercera edición de la referencia clásica de Packt Publishing sobre pruebas de penetración, actualizada en 2016 para trabajar sobre la base de Kali Linux 2.0 (nombre en clave «Sana»). Redactada por Gerard Johansen, Lee Allen, Shakeel Ali y Tedi Heriyanto, la obra está dirigida a auditores, analistas de seguridad y administradores con un nivel técnico intermedio en redes TCP/IP y Linux que necesitan alinear las actividades ofensivas técnicas con marcos de trabajo profesionales y estandarizados como PTES, OSSTMM, OWASP e ISSAF.\n\nEl temario cubre desde los aspectos legales y administrativos previos (definición del alcance del test o scoping y reglas de compromiso) hasta la ejecución técnica detallada: recopilación activa y pasiva de información (registros DNS, WHOIS y búsquedas avanzadas), descubrimiento de red e identificación de puertos con Nmap, mapeo de vulnerabilidades con OpenVAS y Nessus, y campañas de ingeniería social mediante Social-Engineer Toolkit (SET). En las fases de intrusión y control, profundiza en el aprovechamiento de brechas con Metasploit, la elevación de privilegios en sistemas comprometidos, técnicas de persistencia a través de puertas traseras, auditoría de redes inalámbricas corporativas, uso de Kali NetHunter para evaluaciones portátiles desde dispositivos móviles Android y la preparación de informes técnicos y ejecutivos para la dirección.\n\nEl libro guía al lector en la puesta en marcha de un laboratorio virtualizado con servidores deliberadamente vulnerables, simulando el desarrollo completo de una auditoría corporativa de seguridad con entregables formales. Destaca notablemente por su rigor metodológico y por enseñar a documentar los hallazgos según el tipo de audiencia (técnica o gerencial). Su principal limitación es temporal: al estar fundamentado en la versión de Kali de 2016, varios comandos y utilidades requieren ajustes para funcionar en ediciones actuales de la distribución, aunque la metodología y la arquitectura del proceso evaluativo conservan plena vigencia.",
+    "temas": [
+      "Kali Linux 2.0",
+      "Metasploit",
+      "OpenVAS",
+      "Nmap",
+      "Kali NetHunter",
+      "Metodologías (PTES, OSSTMM)",
+      "Social-Engineer Toolkit (SET)",
+      "Escalada de privilegios",
+      "Persistencia",
+      "Auditoría inalámbrica",
+      "Elaboración de informes"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Simulación integral de auditoría de penetración corporativa",
+        "descripcion": "Ejecución completa de un test de intrusión sobre una infraestructura de red de laboratorio: abarca la definición del alcance, escaneo con Nmap y OpenVAS, explotación con Metasploit, escalada de privilegios y redacción de informes técnicos y ejecutivos."
+      },
+      {
+        "nombre": "Despliegue de laboratorio móvil de auditoría con Kali NetHunter",
+        "descripcion": "Instalación y configuración de Kali NetHunter en un terminal Android para realizar auditorías inalámbricas móviles, captura encubierta de paquetes e inyección de ataques en redes Wi-Fi."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/kali-linux-2-assuring-security-by-penetration-testing-9781785888427",
+      "https://www.amazon.com/Kali-Linux-Assuring-Penetration-Testing/dp/1785888420",
+      "https://www.oreilly.com/library/view/kali-linux-2/9781785888427/"
+    ]
+  },
+  "kali-linux-2-windows-penetration-testing-2016": {
+    "descripcion": "Obra especializada de Packt Publishing lanzada a mediados de 2016 que aborda la ejecución de auditorías ofensivas dirigidas de forma específica contra infraestructuras Microsoft Windows utilizando Kali Linux 2.0 como plataforma de ataque. Wolf Halton y Bo Weaver orientan el contenido a pentesters y administradores de sistemas con experiencia intermedia que dominan la operativa básica de Linux y desean especializarse en los vectores de ataque, debilidades arquitectónicas y configuraciones erróneas habituales en Windows Server, controladores de dominio de Active Directory y estaciones cliente.\n\nEl libro detalla la preparación de entornos de auditoría mediante instalaciones de Kali en unidades USB cifradas con persistencia, reconocimiento de red y escaneo de vulnerabilidades específicas de Windows con Nmap y OpenVAS, técnicas de captura y envenenamiento de tráfico en protocolos SMB y NetBIOS, y ataques contra contraseñas (extracción y descifrado de hashes NTLM, uso de tablas rainbow y ataques de fuerza bruta con John the Ripper y Hashcat). En el plano de explotación, profundiza en el uso de Metasploit y su interfaz gráfica Armitage, el compromiso de aplicaciones web alojadas en Microsoft IIS, técnicas de escalada de privilegios locales en Windows, evasión de firmas antivirus mediante herramientas como The Backdoor Factory y Veil-Evasion, implantación de puertas traseras para persistencia y procedimientos básicos de análisis forense post-compromiso.\n\nEl núcleo formativo consiste en desplegar un laboratorio de máquinas virtuales Windows para simular el compromiso progresivo de una red empresarial: desde la interceptación de credenciales en tránsito hasta la toma de control de servicios y la evasión de Windows Defender. Su gran valor radica en su concentración exclusiva en el ecosistema Microsoft, el entorno corporativo más habitual en el mundo real. Conviene tener en cuenta que las técnicas de evasión de antivirus reflejan el estado del arte de 2016 (previas a los sistemas EDR modernos basados en comportamiento), pero los principios sobre el abuso de protocolos Windows y manipulación de privilegios continúan siendo sumamente didácticos.",
+    "temas": [
+      "Kali Linux 2.0",
+      "Windows Penetration Testing",
+      "Active Directory",
+      "Metasploit",
+      "Armitage",
+      "Evasión de antivirus (The Backdoor Factory)",
+      "Hashes NTLM",
+      "OpenVAS",
+      "Escalada de privilegios Windows",
+      "Sniffing SMB",
+      "Análisis forense"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Laboratorio de intrusión y persistencia en red corporativa Windows",
+        "descripcion": "Construcción de un entorno de prueba con controladores de dominio y clientes Windows para ejecutar ataques SMB, explotación con Metasploit y Armitage, extracción de hashes de memoria y despliegue de mecanismos de persistencia."
+      },
+      {
+        "nombre": "Generación de binarios modificados para evasión de antivirus",
+        "descripcion": "Inyección de payloads en ejecutables legítimos de Windows mediante The Backdoor Factory para evitar la detección por firmas estáticas, seguido de un análisis forense para identificar las huellas residuales del compromiso."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/kali-linux-2-windows-penetration-testing-9781782168492",
+      "https://www.amazon.com/Kali-Linux-Windows-Penetration-Testing/dp/1782168494",
+      "https://www.oreilly.com/library/view/kali-linux-2/9781782168492/"
+    ]
+  },
+  "kali-linux-ctf-blueprints-2014": {
+    "descripcion": "Manual práctico publicado por Packt Publishing en 2014 que aborda la ciberseguridad ofensiva desde una perspectiva poco convencional: enseña a diseñar, configurar y desplegar retos y campos de entrenamiento tipo Capture The Flag (CTF) y pistas de asalto de red team. Escrito por Cameron Buchanan, el texto está enfocado a instructores, líderes técnicos de equipos de seguridad y profesionales con nivel intermedio en Kali Linux y redes que ya comprenden cómo explotar vulnerabilidades y buscan aprender a crear entornos vulnerables controlados para capacitar o evaluar a otros.\n\nA través de una serie de plantillas o planos de diseño («blueprints»), el autor explica la configuración de servidores Windows deliberadamente vulnerables con Adobe ColdFusion y Microsoft SQL Server, la creación de máquinas Linux con recursos Samba expuestos y pilas LAMP inseguras, y el diseño de desafíos de seguridad inalámbrica que recrean redes con cifrado WEP roto y debilidades en WPA/WPA2, además de vectores dirigidos a dispositivos móviles. También enseña a montar escenarios de ingeniería social con páginas web manipuladas mediante Cross-Site Scripting (XSS) y perfiles falsos, recrear vulnerabilidades criptográficas célebres como Heartbleed en implementaciones de OpenSSL, e integrar elementos físicos interactivos (como lanzadores de misiles USB) dentro de laboratorios corporativos combinados, verificando la viabilidad de los retos con Metasploit y Wireshark.\n\nEl enfoque del libro es enteramente de proyectos: cada capítulo es una guía constructiva para levantar un tipo de escenario vulnerable, ocultar las banderas («flags»), calibrar la dificultad y validar la solución desde Kali Linux. Aporta una comprensión profunda sobre cómo se originan y articulan los fallos de configuración en sistemas reales. Como advertencia, al haber sido publicado en 2014, varias tecnologías utilizadas como objetivos didácticos (como ColdFusion 9 o versiones vulnerables de OpenSSL) son hoy antiguas, pero las pautas metodológicas de aislamiento, gamificación y diseño de campos de tiro cibernéticos siguen siendo de enorme utilidad.",
+    "temas": [
+      "Capture The Flag (CTF)",
+      "Kali Linux",
+      "Diseño de laboratorios de seguridad",
+      "Metasploit",
+      "Adobe ColdFusion",
+      "Microsoft SQL Server",
+      "Vulnerabilidades en Linux y Samba",
+      "Seguridad Wi-Fi (WEP, WPA)",
+      "Heartbleed (OpenSSL)",
+      "Ingeniería social y XSS",
+      "Red Teaming"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Reto CTF en entorno Windows con ColdFusion y MSSQL",
+        "descripcion": "Construcción y configuración de un servidor Windows vulnerable con Adobe ColdFusion y Microsoft SQL Server, estableciendo configuraciones defectuosas para permitir la explotación con Metasploit y el hallazgo de banderas ocultas."
+      },
+      {
+        "nombre": "Escenario de laboratorio Linux con fallos en Samba y LAMP",
+        "descripcion": "Diseño de un entorno Linux con carpetas compartidas Samba desprotegidas y aplicaciones web sobre pila LAMP con fallos de inyección y carga de archivos para practicar la escalada de privilegios y recolección de pistas."
+      },
+      {
+        "nombre": "Desafío criptográfico recreando la vulnerabilidad Heartbleed",
+        "descripcion": "Despliegue de un servidor web SSL basado en una versión vulnerable de OpenSSL para recrear el fallo Heartbleed, permitiendo a los participantes extraer claves y datos en memoria para resolver el desafío."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/kali-linux-ctf-blueprints-9781783985982",
+      "https://www.amazon.com/Kali-Linux-CTF-Blueprints-Cameron-Buchanan/dp/1783985984",
+      "https://www.oreilly.com/library/view/kali-linux-ctf/9781783985982/"
+    ]
+  },
+  "kali-linux-web-penetration-testing-cookbook-2016": {
+    "descripcion": "Recetario eminentemente práctico centrado en la evaluación de la seguridad y el hacking ético en aplicaciones web utilizando la distribución Kali Linux 2.0. Gilberto Nájera-Gutiérrez orienta el texto a administradores de sistemas, desarrolladores web y analistas de seguridad de nivel intermedio que ya manejen con soltura la línea de comandos de Linux y los conceptos fundamentales del protocolo HTTP, pero deseen especializarse en auditorías ofensivas de vulnerabilidades web.\n\nEl libro estructura más de 80 recetas que abarcan desde el reconocimiento y mapeo de objetivos con Nmap, DNSenum y WhatWeb, hasta la intercepción y manipulación de tráfico HTTP/HTTPS mediante proxies locales como Burp Suite y OWASP ZAP. Enseña a auditar y explotar fallos comunes del catálogo OWASP Top 10, incluyendo inyecciones SQL tanto manuales como automatizadas con sqlmap, vulnerabilidades de Cross-Site Scripting (XSS reflejado, almacenado y basado en DOM), falsificación de peticiones en sitios cruzados (CSRF), omisión de controles de autenticación, debilidades en la gestión de sesiones y ataques de fuerza bruta con Hydra y Medusa. También cubre el uso de escáneres automáticos como Nikto y WPScan, junto con técnicas para eludir firewalls de aplicaciones web (WAF).\n\nTodas las recetas se practican sobre laboratorios virtuales locales y aplicaciones deliberadamente vulnerables como OWASP Broken Web Applications (BWA), DVWA y Mutillidae, desplegadas sobre VirtualBox. El libro destaca por su estructura directa («cómo hacerlo» y «cómo funciona»), ideal como manual de consulta rápida para auditorías cotidianas. Como contrapartida, no desarrolla una campaña de auditoría continua de principio a fin ni aborda la creación de exploits personalizados, centrándose exclusivamente en el dominio de las utilidades integradas en Kali 2.0.",
+    "temas": [
+      "Kali Linux 2.0",
+      "OWASP Top 10",
+      "Burp Suite",
+      "OWASP ZAP",
+      "sqlmap",
+      "Inyección SQL",
+      "Cross-Site Scripting (XSS)",
+      "CSRF",
+      "Nmap",
+      "Nikto",
+      "Bypass de WAF"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/kali-linux-web-penetration-testing-cookbook-9781784392918",
+      "https://www.amazon.com/Kali-Linux-Penetration-Testing-Cookbook/dp/178439291X",
+      "https://www.oreilly.com/library/view/kali-linux-web/9781784392918/"
+    ]
+  },
+  "kali-linux-wireless-penetration-testing-2015": {
+    "descripcion": "Manual introductorio y formativo que aborda las bases de la auditoría y la seguridad en redes inalámbricas utilizando el arsenal de herramientas de Kali Linux (primera generación y serie 1.x). Cameron Buchanan y Vivek Ramachandran dirigen esta segunda edición a principiantes e intermedios en ciberseguridad, técnicos de soporte y administradores de red que cuenten con un manejo elemental de Linux y deseen entender desde la raíz cómo se transmiten los paquetes por el aire y de qué forma se auditan las redes WLAN.\n\nLa obra desglosa el estándar IEEE 802.11, la arquitectura de tramas de red y los mecanismos de autenticación y cifrado. Enseña a configurar tarjetas de red inalámbricas en modo monitor e inyección de paquetes, capturar tráfico con Airodump-ng y Wireshark, y descubrir SSIDs ocultos mediante sondeo de tramas probe. Cubre ataques de desautenticación, clonación de direcciones MAC, explotación de debilidades en WEP mediante recolección de vectores de inicialización (IVs) con ataques KoreK y Hirte, captura del 4-way handshake en WPA/WPA2-PSK para ataques por diccionario con la suite Aircrack-ng, y vulnerabilidades en Wi-Fi Protected Setup (WPS) explotadas con Reaver y Bully, complementando con pautas de monitorización y defensa.\n\nLa práctica se realiza mediante el montaje de un laboratorio físico casero que requiere puntos de acceso Wi-Fi dedicados y adaptadores USB compatibles con inyección de paquetes (como los basados en chipsets Atheros o Ralink). Su mayor virtud pedagógica reside en desmitificar el funcionamiento de los ataques inalámbricos clásicos, explicando el porqué técnico de cada paso en lugar de limitarse a copiar comandos. No obstante, por su fecha de publicación queda fuera el estándar WPA3, así como vectores más modernos como KRACK, y requiere adquirir hardware de radio específico para poder replicar los ejercicios.",
+    "temas": [
+      "Kali Linux",
+      "Wi-Fi 802.11",
+      "Aircrack-ng",
+      "Airodump-ng",
+      "Cifrado WEP",
+      "WPA/WPA2-PSK",
+      "Ataques WPS",
+      "Reaver",
+      "Wireshark",
+      "Desautenticación Wi-Fi"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/kali-linux-wireless-penetration-testing-beginners-guide-9781783280414",
+      "https://www.amazon.com/Kali-Linux-Wireless-Penetration-Testing/dp/1783280417",
+      "https://www.oreilly.com/library/view/kali-linux-wireless/9781783280414/"
+    ]
+  },
+  "kali-linux-wireless-penetration-testing-essentials-2015": {
+    "descripcion": "Guía sintética y metodológica orientada a estructurar auditorías de seguridad en redes Wi-Fi bajo un marco profesional de consultoría técnica, empleando Kali Linux. Marco Alamanni concibe el libro para analistas de seguridad, consultores y administradores de sistemas con experiencia intermedia en redes TCP/IP y comandos de Linux, que busquen ejecutar un test de penetración inalámbrico formal siguiendo todas sus fases canónicas: planificación, descubrimiento, ataque y redacción de informes técnicos y ejecutivos.\n\nEl libro instruye en la selección y configuración de hardware de auditoría (antenas y chipsets inalámbricos), el análisis del espectro 802.11 y la captura de paquetes con Airodump-ng y Kismet. Detalla técnicas de descifrado contra redes WEP y WPA/WPA2-Personal, ataques de fuerza bruta al PIN de WPS con Reaver, y aborda escenarios corporativos con WPA-Enterprise examinando autenticaciones basadas en RADIUS y 802.1X. Asimismo, profundiza en ataques dirigidos a clientes y puntos de acceso no autorizados mediante puntos de acceso falsos (Evil Twin), herramientas como Ghost Phisher para suplantación y captura de credenciales, y técnicas de intercepción Man-in-the-Middle (MitM).\n\nEl lector practica levantando un banco de pruebas inalámbrico controlado donde simula auditorías sobre redes corporativas y domésticas, culminando con la elaboración de un reporte de vulnerabilidades con impacto y mitigaciones. Su gran fortaleza es que no trata las pruebas inalámbricas como meros trucos aislados de hacking, sino como un proceso formal de consultoría con rigor documental. Dado su volumen reducido (164 páginas), no profundiza en análisis matemático de criptografía ni en el desarrollo de scripts personalizados, requiriendo adaptadores Wi-Fi compatibles en modo monitor para el trabajo de campo.",
+    "temas": [
+      "Kali Linux",
+      "Pentesting inalámbrico",
+      "Protocolo 802.11",
+      "Aircrack-ng",
+      "WPA/WPA2-Personal",
+      "WPA-Enterprise",
+      "Ataques WPS",
+      "Evil Twin",
+      "Ghost Phisher",
+      "Man-in-the-Middle",
+      "Informes de seguridad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/kali-linux-wireless-penetration-testing-essentials-9781785280856",
+      "https://www.amazon.com/Kali-Linux-Wireless-Penetration-Essentials/dp/1785280856",
+      "https://www.oreilly.com/library/view/kali-linux-wireless/9781785280856/"
+    ]
+  },
+  "mastering-kali-linux-for-advanced-penetration-testing-2014": {
+    "descripcion": "Obra técnica y estratégica orientada a llevar las habilidades de penetración al nivel corporativo, articulada en torno a la metodología de la Cyber Kill Chain y basada en las primeras versiones estables de Kali Linux (1.0). Robert W. Beggs enfoca el contenido a analistas de seguridad sénior, pentesters experimentados e investigadores de amenazas que ya dominan las herramientas básicas de seguridad y desean comprender cómo opera un adversario persistente avanzado (APT) dentro de una red empresarial compleja.\n\nEl temario abarca todas las fases de una intrusión profesional: reconocimiento pasivo y activo (OSINT, Nmap, Maltego), explotación armada con Metasploit Framework y post-explotación en profundidad. Enseña a lograr persistencia en servidores y estaciones de trabajo, crear puertas traseras, evadir firmas antivirus mediante técnicas de inyección de shellcode en memoria con PowerShell y VBScript, y realizar movimiento lateral (pivoting) dentro de subredes internas. Además, cubre ataques del lado del cliente y vector web usando Browser Exploitation Framework (BeEF), explotación de comunicaciones de acceso remoto (VPN, RDP, SSH) y auditorías físicas con ingeniería social.\n\nA lo largo del libro se recrea un escenario de simulación de amenazas sobre una infraestructura corporativa virtualizada con dominios Windows Server, cortafuegos y clientes de escritorio. Su aporte fundamental radica en su visión holística del compromiso de seguridad: no se limita a obtener una shell, sino que enseña qué hacer después (exfiltración de datos confidenciales, manipulación de registros y mantenimiento de acceso encubierto). Al haberse publicado en 2014, ciertas sintaxis de módulos y herramientas de evasión requieren adaptación a entornos Windows y defensas EDR actuales.",
+    "temas": [
+      "Kali Linux",
+      "Cyber Kill Chain",
+      "Metasploit Framework",
+      "Reconocimiento OSINT",
+      "Post-explotación",
+      "Persistencia",
+      "Evasión de antivirus",
+      "PowerShell",
+      "BeEF",
+      "Pivoting de red",
+      "Ingeniería social"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-kali-linux-for-advanced-penetration-testing-9781782163121",
+      "https://www.amazon.com/Mastering-Kali-Linux-Advanced-Penetration/dp/1782163124",
+      "https://www.oreilly.com/library/view/mastering-kali-linux/9781782163121/"
+    ]
+  },
+  "mastering-kali-linux-wireless-pentesting-2016": {
+    "descripcion": "Tratado avanzado de seguridad inalámbrica que va más allá de los ataques convencionales de cracking de claves, utilizando Kali Linux (edición 2.0). Brian Sak y Jilumudi Raghu Ram escriben para auditores de seguridad, ingenieros de redes y pentesters de nivel intermedio a avanzado que ya conocen las bases de las herramientas inalámbricas y buscan dominar vectores sofisticados contra infraestructuras empresariales, dispositivos embebidos y plataformas de hardware móvil o encubierto.\n\nEl contenido profundiza en el análisis forense y minería de paquetes de tramas 802.11 mediante Wireshark para reconstruir archivos transmitidos en claro (documentos, hojas de cálculo, credenciales). Enseña técnicas avanzadas de cracking de WPA/WPA2 mediante aceleración con tablas rainbow (genpmk, airolib-ng), ataques a servicios de gestión de routers y puntos de acceso (vulnerabilidades UPnP, SNMP y CSRF), y falsificación de puntos de acceso empresariales con hostapd y airbase-ng para suplantación de credenciales. También aborda ataques de denegación de servicio (DoS) a nivel de tramas con MDK3, suplantación ARP/DNS con Ettercap, y el despliegue de plataformas de ataque autónomas en dispositivos como Raspberry Pi, routers con OpenWrt y terminales Android.\n\nEn la parte práctica se implementan dispositivos de ataque encubierto y auditoría remota mediante microcomputadores como Raspberry Pi configurados con AutoSSH y suites inalámbricas, así como laboratorios de intercepción de tráfico y suplantación de redes corporativas. El valor diferencial del libro está en combinar el ataque a protocolos inalámbricos con la explotación del firmware de los dispositivos y el uso de hardware de bajo coste para pentesting táctico. No obstante, exige conocimientos sólidos en redes y Linux, además de varios adaptadores Wi-Fi y hardware externo para aprovecharlo al máximo.",
+    "temas": [
+      "Kali Linux",
+      "Wi-Fi 802.11ac",
+      "Aircrack-ng",
+      "Hostapd",
+      "Evil Twin",
+      "Man-in-the-Middle",
+      "Análisis PCAP",
+      "Wireshark",
+      "Ataques DoS (MDK3)",
+      "Raspberry Pi",
+      "OpenWrt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-kali-linux-wireless-pentesting-9781785282850",
+      "https://www.amazon.com/Mastering-Kali-Wireless-Pentesting-Paperback/dp/1785282859",
+      "https://www.oreilly.com/library/view/mastering-kali-linux/9781785282850/"
+    ]
+  },
+  "penetration-testing-with-the-bash-shell-2014": {
+    "descripcion": "Guía práctica de Keith Makan publicada por Packt Publishing en 2014 que aborda el uso de la consola Unix/Linux y el intérprete Bash (probado sobre entornos Kali Linux) como herramienta principal para ejecutar y automatizar tareas de pruebas de penetración y auditoría de seguridad. Está dirigida a administradores de sistemas, analistas de seguridad y desarrolladores con nivel intermedio que ya conocen los fundamentos del sistema operativo Linux y conceptos básicos de redes (modelo TCP/IP, direccionamiento, puertos y resolución DNS), pero desean prescindir de interfaces gráficas pesadas para operar directamente desde la línea de comandos con agilidad y control granular.\n\nEl texto detalla cómo configurar y asegurar el entorno de trabajo en Bash (personalización de variables como PS1, colores ANSI, alias, autocompletado y protección del historial de comandos para evitar fugas involuntarias de credenciales sensibles) antes de adentrarse en las fases operativas de una intrusión ética. A lo largo de sus capítulos se utilizan utilidades nativas y herramientas de seguridad como whois, dig, dnsmap y dnsenum para el reconocimiento de dominios; arping y Nmap para el descubrimiento y escaneo de puertos en hosts locales; tcpdump, sslyze y openssl para la monitorización de tráfico y evaluación de cifrado SSL/TLS; y arpspoof junto a sslstrip para ataques Man-in-the-Middle (MitM). Asimismo, aborda la interacción por línea de comandos con componentes de Metasploit Framework (mediante herramientas como msfcli y msfpayload) e introducción a la depuración e ingeniería inversa básica con GDB.\n\nA través de procedimientos guiados paso a paso, el lector aprende a escribir scripts modulares y a enlazar flujos de datos mediante tuberías (pipes) y filtros de texto (grep, sed, awk) para automatizar la extracción de resultados en auditorías de red. Su principal valor radica en enseñar a combinar utilidades estándar del sistema operativo con herramientas ofensivas sin depender de plataformas monolíticas. No obstante, al haber sido editado en 2014, varias de las herramientas de Metasploit tratadas (como msfcli y msfpayload, sustituidas posteriormente por msfconsole y msfvenom) y ciertas técnicas de degradación de cifrado requieren contextualización y adaptación a versiones actuales. Es una lectura ágil, ideal como manual de scripting en consola antes de abordar automatizaciones más complejas con Python.",
+    "temas": [
+      "Bash",
+      "Kali Linux",
+      "Penetration Testing",
+      "Reconocimiento de red",
+      "Nmap",
+      "DNS enumeration",
+      "Metasploit",
+      "tcpdump",
+      "Man-in-the-Middle",
+      "Auditoría de seguridad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/penetration-testing-with-the-bash-shell-9781849695107",
+      "https://www.oreilly.com/library/view/penetration-testing-with/9781849695107/",
+      "https://www.amazon.com/Penetration-Testing-Bash-shell-Keith/dp/1849695105"
+    ]
+  },
+  "practical-linux-security-cookbook-2016": {
+    "descripcion": "Manual en formato recetario escrito por Tajinder Kalsi y publicado por Packt Publishing en 2016, centrado en la fortificación, auditoría y defensa integral de servidores Linux (aplicable a distribuciones comunes como Ubuntu, Debian y CentOS/RHEL). La obra está orientada a administradores de sistemas, ingenieros de operaciones y profesionales de ciberseguridad con nivel intermedio que gestionan infraestructura en producción y necesitan aplicar medidas de seguridad inmediatas, reproducibles y probadas para mitigar vectores de amenaza habituales en entornos empresariales.\n\nEl libro reúne más de 50 recetas prácticas organizadas por capas del sistema operativo: cifrado de almacenamiento de datos mediante LUKS, gestión de privilegios administrativos mediante sudoers, permisos especiales (SUID/SGID, sticky bit) y listas de control de acceso (ACLs), así como la optimización y protección del núcleo a través de parámetros de sysctl y compilación segura del kernel. En materia de autenticación, detalla el uso de módulos PAM (Pluggable Authentication Modules) para robustecer el acceso local y la configuración endurecida del servicio OpenSSH junto con Fail2ban para neutralizar ataques de fuerza bruta remotos. Además, cubre la implementación de cortafuegos perimetrales con iptables y UFW, inspección de paquetes con tcpdump, nmap y Wireshark, detección de anomalías y rootkits mediante Lynis, Tripwire, ClamAV, rkhunter y chkrootkit, mitigación de fallos históricos en el intérprete de comandos como la vulnerabilidad Shellshock, y auditoría centralizada con auditd y rsyslog.\n\nCada sección sigue la metodología clásica de los manuales de recetas («Cómo hacerlo», «Cómo funciona» y «Hay más»), permitiendo ejercitar configuraciones directas en servidores reales y comprender el impacto defensivo de cada cambio. No se trata de un curso para crear software o proyectos aplicativos, sino de un texto operativo de administración y hardening. Aunque entornos modernos de Linux emplean herramientas como nftables o firewalld y abordan SELinux/AppArmor con mayor protagonismo, los fundamentos de seguridad en capas, auditoría de eventos y robustecimiento de servicios descritos mantienen plena vigencia formativa.",
+    "temas": [
+      "Linux Hardening",
+      "Seguridad en Linux",
+      "LUKS",
+      "PAM",
+      "OpenSSH",
+      "Fail2ban",
+      "iptables",
+      "Lynis",
+      "auditd",
+      "Sysctl",
+      "Detección de rootkits"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/practical-linux-security-cookbook-9781785286421",
+      "https://www.oreilly.com/library/view/practical-linux-security/9781785286421/",
+      "https://www.amazon.com/Practical-Linux-Security-Cookbook-Tajinder/dp/1785286423"
+    ]
+  },
+  "web-penetration-testing-with-kali-linux-2nd-edition-2015": {
+    "descripcion": "Guía metodológica y técnica de Juned Ahmed Ansari, publicada por Packt Publishing a finales de 2015 en su segunda edición, orientada a la auditoría, análisis y explotación de vulnerabilidades en aplicaciones web empleando las herramientas integradas en Kali Linux 2.0 (Sana). Está diseñada para analistas de seguridad, evaluadores de penetración de redes que desean especializarse en la capa aplicativo-web y desarrolladores web de nivel intermedio que conocen el funcionamiento del protocolo HTTP/HTTPS, la arquitectura cliente-servidor y lenguajes web habituales como PHP, JavaScript y SQL.\n\nEl temario aborda el ciclo integral de una prueba de intrusión web siguiendo las pautas de OWASP y el marco PTES: desde la definición de reglas de compromiso (RoE) y el montaje de un laboratorio virtualizado con aplicaciones intencionadamente vulnerables (DVWA y Mutillidae), hasta el reconocimiento y huella digital con Nmap, WhatWeb, Nikto y DirBuster. Posteriormente, instruye en la detección y explotación de los fallos más críticos del OWASP Top 10: inyecciones SQL (manuales y asistidas por sqlmap), Cross-Site Scripting (XSS reflejado, almacenado y DOM) enlazado con el Browser Exploitation Framework (BeEF), Cross-Site Request Forgery (CSRF), ataques a mecanismos de autenticación y sesiones con Hydra y Burp Suite (incluyendo módulos como Intruder y Repeater), y revisión de implementaciones criptográficas en SSL/TLS. Asimismo, enseña a ejecutar escaneos automatizados con OWASP ZAP y w3af, integrando ataques de ingeniería social y del lado del cliente mediante SET (Social Engineering Toolkit) y Metasploit.\n\nEl libro destaca por guiar la práctica sobre entornos controlados y reproducibles, lo que ayuda al lector a entender la anatomía de las peticiones y respuestas HTTP antes de activar herramientas automatizadas. Su principal limitación temporal es la referencia a Kali Linux 2.0 y a versiones anteriores de la suite Burp Suite, además de no cubrir vectores contemporáneos como GraphQL, WebSockets o arquitecturas serverless en la nube. Con todo, conforma una base sólida para adquirir destreza en metodologías de auditoría web y preparar certificaciones prácticas del área ofensiva.",
+    "temas": [
+      "Kali Linux 2.0",
+      "Web Penetration Testing",
+      "OWASP Top 10",
+      "Burp Suite",
+      "sqlmap",
+      "Cross-Site Scripting (XSS)",
+      "SQL Injection",
+      "BeEF",
+      "CSRF",
+      "OWASP ZAP",
+      "Nikto"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/web-penetration-testing-with-kali-linux-second-edition-9781785285738",
+      "https://www.oreilly.com/library/view/web-penetration-testing/9781785285738/",
+      "https://www.amazon.com/Web-Penetration-Testing-Kali-Linux/dp/1785285737"
+    ]
+  },
+  "bug-bounty-hunting-for-web-security-2019": {
+    "descripcion": "Manual introductorio e intermedio de Sanjib Sinha, publicado por Apress (Springer Nature) en 2019, que introduce a desarrolladores, administradores web y aficionados a la ciberseguridad en el ecosistema del «bug hunting» y las plataformas comerciales de recompensas por vulnerabilidades (como HackerOne o Bugcrowd). Está pensado para lectores con nociones básicas o intermedias sobre tecnologías web (HTML, JavaScript, PHP y bases de datos relacionales) y protocolos de red que desean canalizar sus habilidades hacia el descubrimiento ético, metódico y legal de brechas de seguridad en Internet.\n\nEl recorrido didáctico parte con la preparación del entorno de pruebas sobre Kali Linux, la instalación de una pila LAMP (Linux, Apache, MySQL, PHP) y el despliegue de entornos vulnerables de práctica como DVWA y bWAPP, complementados con herramientas de intercepción como Burp Suite y OWASP ZAP. A continuación, el autor desglosa vector por vector las vulnerabilidades web más comunes en programas de recompensas: Cross-Site Request Forgery (CSRF), modalidades de Cross-Site Scripting (XSS), inyección de cabeceras HTTP y redirecciones abiertas (Open Redirection), subida insegura de ficheros y despliegue de web shells, envenenamiento y fallos de configuración de registros SPF (Sender Policy Framework) para suplantación de correo, inyecciones XML externas (XXE), inyección de comandos del sistema operativo y vulnerabilidades de inyección HTML y SQL.\n\nLa obra enseña a replicar cada fallo mediante fragmentos de código vulnerable en PHP y pruebas de concepto (PoC) locales, lo que ayuda a comprender la causa raíz en el código fuente antes de buscar el error en aplicaciones en producción. Su alcance es esencialmente formativo e inicial: no profundiza en automatización a gran escala de reconocimiento (recon) con utilidades modernas en Go, evasión avanzada de cortafuegos de aplicaciones web (WAF) ni fallos complejos de lógica de negocio, aspectos determinantes en programas de recompensas con alta concurrencia. Es una opción valiosa como punto de partida para asimilar los tipos de vulnerabilidad más reportados y aprender a documentarlos con claridad técnica.",
+    "temas": [
+      "Bug Bounty",
+      "Seguridad Web",
+      "Kali Linux",
+      "Burp Suite",
+      "Cross-Site Scripting (XSS)",
+      "SQL Injection",
+      "CSRF",
+      "XXE",
+      "Command Injection",
+      "File Upload Vulnerabilities",
+      "SPF Poisoning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5391-5",
+      "https://www.apress.com/gp/book/9781484253908",
+      "https://www.oreilly.com/library/view/bug-bounty-hunting/9781484253915/",
+      "https://www.amazon.com/Bug-Bounty-Hunting-Web-Security/dp/1484253900"
+    ]
+  },
+  "identity-attack-vectors-2019": {
+    "descripcion": "Obra de carácter estratégico y conceptual escrita por Morey J. Haber y Darran Rolls (expertos en seguridad de la identidad en compañías como BeyondTrust y SailPoint), publicada por Apress en 2019. El texto analiza el cambio de paradigma en la ciberseguridad corporativa, donde la identidad y los privilegios han reemplazado a las fronteras de red tradicionales como el perímetro defensivo crítico. Está dirigido a directores de seguridad de la información (CISO), arquitectos de infraestructura, auditores y especialistas de ciberseguridad con nivel intermedio o avanzado que necesitan comprender cómo los atacantes explotan cuentas legítimas y cómo estructurar programas eficaces de gestión de identidades y accesos (IAM).\n\nEl libro parte de la premisa de que a los adversarios les resulta más fácil iniciar sesión que hackear, analizando vectores de compromiso físicos y electrónicos como phishing, ataques de pulverización de contraseñas (password spraying), abuso de credenciales por defecto, secuestro de sesiones y elusión de autenticación multifactor (MFA). Mapea el papel central de la identidad en cada etapa de la Cyber Kill Chain y de modelos como MITRE ATT&CK, detallando los componentes esenciales de la gobernanza de identidades (IGA), la gestión del ciclo de vida de usuarios (Joiner, Mover, Leaver) y la minimización de cuentas huérfanas. Asimismo, analiza las soluciones de gestión de accesos privilegiados (PAM), la segregación de funciones, los servicios de directorio corporativos (Active Directory, LDAP), protocolos de federación y autenticación (SAML, OAuth, OIDC, Kerberos, Single Sign-On) y los principios de arquitectura Zero Trust para el cumplimiento de normativas como SOX, HIPAA y GDPR.\n\nA diferencia de manuales tácticos de hacking o guías de programación, este libro prescinde de código fuente o laboratorios en terminal; su valor reside en la modelización de amenazas, el diseño arquitectónico y la definición de políticas de gobierno de accesos a nivel organizacional. Proporciona una visión integral indispensable para comprender el riesgo operativo derivado de identidades sobredimensionadas o mal supervisadas. Es una lectura recomendada para quienes poseen conocimientos previos de redes corporativas y desean especializarse en la defensa y gobernanza de identidades empresariales.",
+    "temas": [
+      "Identity and Access Management (IAM)",
+      "Privileged Access Management (PAM)",
+      "Cyber Kill Chain",
+      "Zero Trust",
+      "Active Directory",
+      "Autenticación multifactor (MFA)",
+      "Gobernanza de identidades",
+      "Single Sign-On (SSO)",
+      "Seguridad corporativa",
+      "Gestión de privilegios"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5165-2",
+      "https://www.apress.com/gp/book/9781484251645",
+      "https://www.oreilly.com/library/view/identity-attack-vectors/9781484251652/",
+      "https://www.amazon.com/Identity-Attack-Vectors-Implementing-Management/dp/1484251649"
+    ]
+  },
+  "ntp-security-2016": {
+    "descripcion": "Guía técnica y concisa orientada a la seguridad del protocolo NTP (Network Time Protocol, centrado en NTPv4 y sus implementaciones estándar como ntpd). Allan Liska aborda el problema de la sincronización horaria en infraestructuras de red, desmontando la peligrosa costumbre del \"configurar y olvidar\" que suele dejar los servidores de tiempo desatendidos y expuestos en Internet. Está dirigida a administradores de sistemas, ingenieros de redes y analistas de ciberseguridad de nivel intermedio que ya gestionan entornos de producción Linux/Unix o Windows y comprenden los fundamentos de redes TCP/IP y servicios basados en UDP.\n\nLa obra desglosa la arquitectura jerárquica de estratos (stratum) de NTP, la estructura de paquetes sobre el puerto UDP 123 y las vulnerabilidades más críticas que han afectado históricamente al protocolo. Enseña a identificar y mitigar ataques de denegación de servicio distribuido (DDoS) por amplificación y reflexión —como los originados por el comando monlist—, suplantación de paquetes (spoofing) y manipulación de marcas temporales (time-shifting). Explica el uso de herramientas de diagnóstico y auditoría como ntpq y ntpdc, el análisis de tráfico con Wireshark o tcpdump, la configuración restrictiva del archivo /etc/ntp.conf (mediante directivas como nomodify, notrap, nopeer y noquery), el uso de claves simétricas MD5 para autenticación y la adopción de alternativas modernas como Chrony y OpenNTPD.\n\nA lo largo de sus capítulos se practica la auditoría de servidores en busca de consultas de depuración expuestas y la configuración paso a paso de servidores y clientes con políticas de bastionado estrictas. Con una extensión de apenas 90 páginas (formato Quick-Start Guide de Apress), su gran valor reside en ofrecer soluciones directas, inmediatas y sin rodeos teóricos innecesarios para corregir brechas operativas urgentes. Deja fuera el desarrollo de clientes a bajo nivel y modelos matemáticos de deriva de reloj, pero constituye una referencia práctica indispensable para asegurar la infraestructura de tiempo antes de sufrir incidentes graves.",
+    "temas": [
+      "NTP",
+      "ntpd",
+      "Seguridad en redes",
+      "Ataques DDoS",
+      "Hardening",
+      "Sincronización horaria",
+      "ntpq",
+      "Wireshark",
+      "Chrony",
+      "Auditoría de red"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2412-0",
+      "https://www.amazon.com/NTP-Security-Quick-Start-Allan-Liska/dp/1484224116"
+    ]
+  },
+  "pci-dss-2020": {
+    "descripcion": "Tratado exhaustivo sobre el estándar de seguridad de datos para la industria de tarjetas de pago (PCI DSS, basado principalmente en la versión 3.2.1 y anticipando las directrices de la versión 4.0). Jim Seaman, con una destacada trayectoria en ciberseguridad militar y como evaluador calificado de seguridad (QSA), transforma lo que suele percibirse como un aburrido catálogo de requisitos en una estrategia de negocio integrada. El libro está orientado a consultores de seguridad, directores de TI (CISO), auditores, desarrolladores y administradores de sistemas de nivel intermedio que necesitan diseñar, implementar o certificar la seguridad en organizaciones que procesan, almacenan o transmiten datos de tarjetas de crédito o débito.\n\nEl texto desmenuza con precisión los 12 requisitos mandatorios del estándar, estructurados en torno a sus seis metas clave: construcción de redes seguras con cortafuegos y configuraciones no predeterminadas; protección de datos de titulares de tarjetas en reposo y en tránsito mediante algoritmos de cifrado robustos (AES, RSA, TLS 1.2+); programas de gestión de vulnerabilidades con antivirus y prácticas de codificación segura alineadas con OWASP; controles de acceso estrictos basados en el principio de mínimo privilegio y autenticación multifactor (MFA); monitorización continua de redes y sistemas con herramientas SIEM, sistemas de detección y prevención de intrusos (IDS/IPS) y escaneos de vulnerabilidades periódicos; y redacción de políticas formales de seguridad de la información. Asimismo, aborda los cuestionarios de autoevaluación (SAQ), los informes sobre cumplimiento (RoC) y la gestión de proveedores de servicios externos (TPSPs).\n\nMás que laboratorios de código, la obra guía al lector en la formulación de planes de cumplimiento sostenibles mediante la metodología PIE FARM, propuesta por el autor para estructurar el proyecto de certificación como un proceso de mejora continua y no como una emergencia anual. Aporta una visión estratégica invaluable que conecta las exigencias de PCI DSS con normativas de privacidad como el RGPD (GDPR) y la gestión global de riesgos corporativos. Conviene contar con bases previas de arquitectura de redes empresariales y gobernanza de TI, siendo una referencia de consulta fundamental para superar auditorías sin comprometer la agilidad operativa de la empresa.",
+    "temas": [
+      "PCI DSS",
+      "Seguridad de tarjetas de pago",
+      "CDE",
+      "Cifrado de datos",
+      "Gestión de riesgos",
+      "Control de acceso",
+      "MFA",
+      "Auditoría de cumplimiento",
+      "SAQ",
+      "RoC",
+      "Seguridad corporativa"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5808-8",
+      "https://www.oreilly.com/library/view/pci-dss/9781484258088/",
+      "https://www.amazon.com/PCI-DSS-Integrated-Security-Standard/dp/148425807X"
+    ]
+  },
+  "web-security-2015": {
+    "descripcion": "Manual avanzado sobre seguridad en aplicaciones web escrito desde la óptica del hacker ético o \"sombrero blanco\" (White Hat). Hanqing Wu —fundador de la influyente comunidad ph4nt0m y referente de seguridad en Alibaba— y Liz Zhao exponen las dos caras de la seguridad informática: la mentalidad ofensiva del atacante y el rigor ingenieril del defensor. Está dirigido a desarrolladores de software web, ingenieros de seguridad, analistas de pruebas de penetración (pentesting) y arquitectos de software de nivel intermedio que dominen el protocolo HTTP, la programación frontend en JavaScript y el desarrollo backend con lenguajes como PHP o Java y bases de datos relacionales.\n\nEl temario abarca con profundidad técnica tanto el cliente como el servidor y las operaciones de seguridad a escala de Internet. En el lado del cliente, examina la política del mismo origen (Same-Origin Policy), sandboxing en navegadores, ataques de Cross-Site Scripting (XSS reflejado, almacenado y basado en DOM), gusanos XSS históricos, plataformas como BeEF y Attack API, Cross-Site Request Forgery (CSRF), Clickjacking y los riesgos introducidos por HTML5 (CORS, postMessage, WebStorage y WebSockets). En el lado del servidor, cubre inyecciones SQL y de comandos, vulnerabilidades de subida y ejecución de archivos arbitrarios, inclusión de ficheros locales y remotos (LFI/RFI) en PHP, gestión defectuosa de sesiones, DoS en capa de aplicación (como Slowloris) y endurecimiento de servidores web como Apache, Nginx y Tomcat. Por último, detalla el ciclo de vida de desarrollo seguro (SDL / Agile SDL) y la protección contra fraudes en la lógica de negocio.\n\nLa práctica del libro se apoya en el análisis forense de ataques emblemáticos, fragmentos de código vulnerable y el diseño de contramedidas bajo principios defensivos clave: seguridad por defecto, defensa en profundidad y separación estricta de código y datos. Aporta una sabiduría táctica y estratégica inusual, forjada en la defensa de infraestructuras que atienden a millones de usuarios diarios. Deja fuera tecnologías emergentes posteriores (como GraphQL o arquitecturas serverless modernas), por lo que conviene complementarlo con los estándares web actuales, pero sigue siendo un texto fundamental para comprender la raíz estructural de las fallas web más persistentes.",
+    "temas": [
+      "Seguridad web",
+      "White Hat",
+      "XSS",
+      "CSRF",
+      "Inyección SQL",
+      "Same-Origin Policy",
+      "HTML5 Security",
+      "Seguridad en PHP",
+      "SDL",
+      "Defensa en profundidad",
+      "Clickjacking",
+      "Nginx"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Web-Security-A-WhiteHat-Perspective/Wu-Zhao/p/book/9781466592612",
+      "https://www.oreilly.com/library/view/web-security/9781466592629/",
+      "https://www.amazon.com/Web-Security-WhiteHat-Perspective-Hanqing/dp/1466592613"
+    ]
+  },
+  "crypto-101-2013": {
+    "descripcion": "Introducción moderna, pedagógica y de acceso abierto a la criptografía aplicada, diseñada específicamente para programadores sin necesidad de una formación matemática avanzada. Laurens Van Houtven (lvh) desarrolló este proyecto tras su exitosa charla en PyCon, adoptando una filosofía constructiva: explicar con total claridad conceptual los bloques fundamentales de la seguridad digital antes de ensamblarlos en protocolos complejos. Está pensado para estudiantes, desarrolladores de software y aficionados a la ciberseguridad de nivel básico e intermedio que sepan programar en Python y deseen entender cómo funciona el cifrado sin perderse en fórmulas de álgebra abstracta.\n\nEl contenido recorre paso a paso los bloques constitutivos de la criptografía simétrica y asimétrica: la operación lógica XOR, cifradores de flujo (stream ciphers) y de bloque (block ciphers como AES, analizando modos de operación como ECB, CBC y CTR), funciones hash criptográficas (MD5, SHA-1, SHA-2) y ataques de colisión y de extensión de longitud, códigos de autenticación de mensajes (HMAC) y esquemas AEAD. En el plano asimétrico, explica el intercambio de claves Diffie-Hellman, criptografía de clave pública con RSA, curvas elípticas (ECC) y firmas digitales, además de funciones de derivación de claves para contraseñas (KDF como PBKDF2 y bcrypt). Culmina mostrando cómo interactúan todos estos componentes en criptosistemas reales como TLS/SSL, OpenPGP/GPG y el protocolo de mensajería cifrada OTR (Off-the-Record), detallando ataques de canal lateral (side-channel) y oráculos de relleno (padding oracle).\n\nLa metodología combina explicaciones conceptuales con fragmentos de código en Python y retos prácticos diseñados para romper implementaciones defectuosas (apoyados en el repositorio de ejercicios interactivos del proyecto). Su gran virtud es inculcar la máxima \"no diseñes tu propia criptografía\", demostrando con ejemplos tangibles cómo errores sutiles de implementación anulan por completo la confidencialidad. No aborda demostraciones matemáticas formales ni estándares poscuánticos, pero capacita al desarrollador para elegir, auditar y utilizar correctamente librerías criptográficas consagradas en aplicaciones del mundo real.",
+    "temas": [
+      "Criptografía aplicada",
+      "Python",
+      "AES",
+      "RSA",
+      "Diffie-Hellman",
+      "Curvas elípticas",
+      "HMAC",
+      "Funciones hash",
+      "TLS",
+      "Padding Oracle",
+      "OpenPGP"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.crypto101.io/",
+      "https://github.com/crypto101/book",
+      "https://www.goodreads.com/book/show/21927694-crypto-101"
+    ]
+  },
+  "game-hacking-2016": {
+    "descripcion": "Guía técnica y práctica dedicada a la ingeniería inversa, el análisis de binarios y la manipulación de memoria en videojuegos de Windows para crear modificaciones, herramientas y bots autónomos. Nick Cano, investigador de seguridad y desarrollador de software, orienta al lector a través de las entrañas de los procesos en ejecución, transformando el interés lúdico en una sólida lección de ciencias de la computación y ciberseguridad. Está concebido para programadores y entusiastas de la seguridad de nivel intermedio que cuenten con conocimientos de C o C++, manejo de punteros, arquitectura de procesadores x86/x64 y familiaridad con la interfaz de programación de aplicaciones de Windows (Win32 API).\n\nEl libro enseña a utilizar el conjunto de herramientas insignia del sector: Cheat Engine para escanear y filtrar memoria (búsquedas exactas, desconocidas, cadenas de punteros dinámicos y mapas de estructuras), OllyDbg para depuración a nivel de ensamblador y Process Monitor para rastrear procesos del sistema. A nivel de código, aborda la lectura y escritura programática en memoria ajena con funciones de la API de Windows (ReadProcessMemory, WriteProcessMemory, OpenProcess), inyección de código assembly en hilos remotos, inyección de librerías DLL dinámicas (CreateRemoteThread, SetWindowsHookEx), redirección del flujo de ejecución mediante NOPing y técnicas de function hooking (trampolines y VMT hooking). Con estas bases, analiza la construcción de modificaciones visuales (ESP/wallhacks y HUDs sobreimpresos), bots reactivos activados por eventos y bots autónomos con algoritmos de búsqueda de rutas (pathfinding) y recolección automatizada, además de técnicas de detección y defensa anti-cheat.\n\nLa práctica es el eje del libro: el autor proporciona código fuente en C++ y binarios de prueba donde el lector desarrolla herramientas funcionales, desde inyectores de DLL y lectores de memoria hasta bots que curan automáticamente al personaje o navegan por mapas recolectando botines. Aporta un valor pedagógico excepcional al conectar conceptos teóricos de arquitectura de sistemas operativos y ensamblador con aplicaciones visibles e inmediatas. Deja fuera la interacción con el kernel de Windows y los sistemas anti-trampas de nivel Ring 0 modernos (como BattlEye o Vanguard), pero otorga los fundamentos esenciales de ingeniería inversa y depuración en modo usuario (Ring 3) indispensables para cualquier analista de malware o desarrollador de videojuegos.",
+    "temas": [
+      "Game Hacking",
+      "Ingeniería inversa",
+      "C++",
+      "Cheat Engine",
+      "OllyDbg",
+      "Inyección de DLL",
+      "Hooking",
+      "Win32 API",
+      "Manipulación de memoria",
+      "Bots autónomos",
+      "Ensamblador x86",
+      "Anti-Cheat"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Bot reactivo de curación automática (Auto-Healer)",
+        "descripcion": "Herramienta en C++ que monitoriza continuamente la memoria del proceso del juego para detectar reducciones críticas de salud y disparar acciones curativas inmediatas sin intervención del usuario."
+      },
+      {
+        "nombre": "Bot autónomo de navegación y recolección (Cave-Walker y Auto-Looter)",
+        "descripcion": "Programa autónomo en C++ que lee coordenadas y estructuras de entidades en RAM, ejecutando trayectorias mediante waypoints y recolectando automáticamente el botín dejado por enemigos."
+      },
+      {
+        "nombre": "Módulo de visualización y HUD personalizado (ESP Hack)",
+        "descripcion": "Librería dinámica (DLL) desarrollada en C++ e inyectada mediante la API de Windows que extrae las posiciones de entidades en la memoria del juego y superpone información táctica directamente sobre la pantalla."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/gamehacking",
+      "https://www.oreilly.com/library/view/game-hacking/9781593277819/",
+      "https://github.com/GameHackingBook/GameHackingCode",
+      "https://www.amazon.com/Game-Hacking-Developing-Autonomous-Online/dp/1593276699"
+    ]
+  },
+  "the-ghidra-book-the-definitive-guide-2020": {
+    "descripcion": "Manual de referencia definitivo sobre Ghidra, el conjunto de herramientas de ingeniería inversa de código abierto publicado por la NSA, enfocado en su primera versión estable (Ghidra 9.x). Escrito por los reconocidos especialistas en seguridad Chris Eagle y Kara Nance, el libro está pensado para analistas de malware, auditores de seguridad de software e investigadores de nivel básico a intermedio en ingeniería inversa. Para aprovecharlo al máximo, es necesario contar con conocimientos previos sobre arquitectura de computadores (principalmente x86 y x86-64), representación binaria en memoria y fundamentos de lenguajes compilados como C o C++.\n\nEl texto ofrece una inmersión completa en la arquitectura de Ghidra y su entorno gráfico de trabajo (CodeBrowser), cubriendo en detalle el desensamblador interactivo, el descompilador avanzado a pseudocódigo C, la gestión de tipos de datos, la visualización de estructuras y el seguimiento de referencias cruzadas (XREFs). Explica cómo automatizar tareas complejas mediante scripting en Java y Python (vía Jython) utilizando la API de Ghidra, la integración con el entorno Eclipse mediante el plugin GhidraDev, y la ejecución automatizada de análisis masivo por lotes en línea de comandos a través del modo Headless. Además, aborda la extensibilidad del sistema mediante la creación de cargadores personalizados (loaders) y la definición de nuevos conjuntos de instrucciones y arquitecturas de procesador con el lenguaje de modelado SLEIGH, así como el despliegue del Ghidra Server para auditorías colaborativas en equipo.\n\nA través del libro se practica la inspección y manipulación de binarios reales de muestra compilados con GCC y MSVC, el análisis de código ofuscado, el parcheo de binarios (patching) y el rastreo de diferencias entre versiones con la herramienta Version Tracking. Su principal aporte es desmitificar de manera rigurosa y didáctica la suite de la NSA, consolidándose como la alternativa libre y potente frente a herramientas comerciales como IDA Pro. Como contrapartida, al estar centrado en Ghidra 9, deja fuera características introducidas en versiones posteriores como el depurador visual integrado o el soporte nativo de Python 3 mediante PyGhidra. Conviene tener solidez en lectura de código ensamblador para seguir el ritmo de los análisis sin dificultades.",
+    "temas": [
+      "Ghidra",
+      "Ingeniería inversa",
+      "Descompilación C",
+      "Desensamblado",
+      "Análisis de malware",
+      "SLEIGH",
+      "Scripting con Python y Java",
+      "Eclipse GhidraDev",
+      "Modo Headless",
+      "Parcheo de binarios",
+      "Version Tracking"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/GhidraBook",
+      "https://ghidrabook.com",
+      "https://www.oreilly.com/library/view/the-ghidra-book/9781718501027/"
+    ]
+  },
+  "web-security-for-developers-2020": {
+    "descripcion": "Guía concisa y eminentemente práctica sobre seguridad en aplicaciones web modernas, escrita por Malcolm McDonald, creador de la plataforma educativa Hacksplaining. El libro se enfoca en el ecosistema web contemporáneo (estándares HTTP/HTTPS, navegadores y servidores web) y está dirigido a desarrolladores de software, programadores frontend, backend y full-stack de nivel intermedio. Requiere conocimientos previos en la construcción de aplicaciones web, manejo básico de bases de datos relacionales con SQL y familiaridad con lenguajes habituales de la web como JavaScript, PHP o Python.\n\nLa obra desglosa las amenazas más críticas del desarrollo web y sus contramedidas a nivel de código y configuración de servidores. Enseña a mitigar ataques de inyección (SQL Injection mediante sentencias preparadas y consultas parametrizadas), vulnerabilidades del lado del cliente como Cross-Site Scripting (XSS reflejado y persistente, escapado de datos y Content Security Policy) y Cross-Site Request Forgery (CSRF mediante tokens y directivas SameSite). Asimismo, aborda la arquitectura de autenticación y control de acceso seguro, protección de sesiones contra secuestro (session hijacking, atributos HttpOnly y Secure en cookies), almacenamiento de contraseñas con algoritmos de hashing robustos (como bcrypt y Argon2), criptografía aplicada con TLS y certificados HTTPS, manejo de fugas de información, vulnerabilidades en código heredado y mitigación básica de ataques de denegación de servicio (DoS) y scripts maliciosos de terceros (malvertising).\n\nEn lugar de plantear ejercicios teóricos o proyectos monolíticos, el libro analiza escenarios reales y snippets de código representativos que muestran primero la implementación defectuosa y luego la refactorización segura recomendada. Aporta una comprensión intuitiva y pragmática de la mentalidad del atacante sin empantanar al lector en matemáticas complejas ni burocracia de cumplimiento normativo. Deja fuera aspectos avanzados como pruebas de penetración ofensivas, explotación de binarios o auditoría de contenedores e infraestructura en la nube. Conviene que el lector ya tenga experiencia escribiendo código que interactúa con bases de datos y maneja autenticación de usuarios.",
+    "temas": [
+      "Seguridad web",
+      "OWASP",
+      "Inyección SQL",
+      "XSS",
+      "CSRF",
+      "Gestión de sesiones",
+      "Autenticación",
+      "Control de acceso",
+      "Criptografía web",
+      "Cookies seguras",
+      "Prevención de DoS"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/websecurity",
+      "https://www.oreilly.com/library/view/web-security-for/9781593279943/",
+      "https://www.hacksplaining.com"
+    ]
+  },
+  "cryptography-and-network-security-6th-edition-2013": {
+    "descripcion": "Texto universitario de referencia global en su sexta edición (Pearson, 2013), escrito por William Stallings, una de las autoridades académicas más reconocidas en redes y seguridad informática. El libro cubre de manera exhaustiva los fundamentos teóricos, matemáticos y protocolarios de la criptografía clásica y contemporánea, así como los estándares de seguridad de redes vigentes en su época. Está dirigido a estudiantes de ciencias de la computación, ingeniería informática y profesionales técnicos de nivel básico a intermedio que cuenten con conocimientos previos de álgebra básica, aritmética modular y conceptos fundamentales de redes según el modelo OSI / TCP-IP.\n\nEl contenido desglosa con rigor los cifradores simétricos clásicos y modernos, explicando en detalle el estándar DES, Triple DES y AES (incluyendo la aritmética de campos finitos de Galois GF(2^8) y los modos de operación ECB, CBC, CFB, OFB, CTR y XTS-AES), además de generadores de números pseudoaleatorios y cifradores de flujo como RC4. En el ámbito asimétrico profundiza en teoría de números (primalidad, teoremas de Fermat y Euler, logaritmos discretos), RSA, Diffie-Hellman y Criptografía de Curvas Elípticas (ECC y ECDSA). Cubre funciones hash y códigos de autenticación de mensajes (MD5, familias SHA-1, SHA-2 y la incorporación de SHA-3, HMAC y firmas digitales RSA-PSS), para luego ascender a protocolos de confianza y seguridad en redes: Kerberos, certificados digitales X.509 y PKI, seguridad en capa de transporte (SSL, TLS y SSH), seguridad IP (IPsec con cabeceras AH, ESP y negociación IKE), redes inalámbricas (IEEE 802.11i / WPA2), correo seguro (PGP y S/MIME) y cortafuegos.\n\nEl enfoque del libro es estrictamente académico y teórico: no propone la construcción guiada de software en código fuente, sino el estudio analítico de algoritmos mediante ejemplos matemáticos paso a paso y extensas baterías de preguntas de repaso y problemas al final de cada capítulo. Su gran valor reside en proporcionar una base conceptual inmutable y rigurosa que permite comprender con precisión matemática el porqué del diseño de los algoritmos de cifrado de la industria. Por otro lado, no incluye código práctico para implementar estos sistemas en lenguajes modernos ni trata extensiones recientes como TLS 1.3 (lanzado en 2018). Conviene tener una mente abierta para el análisis matemático y la resolución de ejercicios teóricos.",
+    "temas": [
+      "Criptografía simétrica",
+      "AES",
+      "Criptografía asimétrica",
+      "RSA",
+      "Curvas elípticas",
+      "Funciones hash",
+      "SHA-3",
+      "Firmas digitales",
+      "PKI y X.509",
+      "IPsec",
+      "TLS"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "http://williamstallings.com/Cryptography/",
+      "https://www.pearson.com/en-us/subject-catalog/p/cryptography-and-network-security-principles-and-practice/P200000003334",
+      "https://www.oreilly.com/library/view/cryptography-and-network/9780133354690/"
+    ]
+  },
+  "implementing-ssl-tls-using-cryptography-and-pki-2011": {
+    "descripcion": "Guía técnica de ingeniería de sistemas escrita por Joshua Davies y publicada por Wiley en 2011, enfocada en la implementación práctica y desde los cimientos de los protocolos Secure Sockets Layer y Transport Layer Security (abarcando las especificaciones SSLv2, SSLv3, TLS 1.0 y TLS 1.2). Está dirigida a programadores de sistemas y desarrolladores de redes de nivel intermedio a avanzado que dominan el lenguaje C y la programación con sockets de red de bajo nivel, pero que no cuentan con formación previa especializada en criptografía matemática.\n\nEl autor enseña a codificar artesanalmente, sin depender de bibliotecas externas preexistentes, cada una de las capas que componen una pila TLS segura. Se desarrollan primitivas de aritmética de enteros grandes (bignum), algoritmos de cifrado simétrico por bloques y flujo (DES, 3DES, AES y RC4), funciones de resumen criptográfico (MD5, SHA-1 y SHA-256), y cifrado asimétrico para intercambio de claves y firmas (RSA y Diffie-Hellman). Asimismo, se instruye en el parseo y generación de certificados digitales X.509 estructurados con codificación ASN.1 en formato binario DER, el modelado de una infraestructura de clave pública (PKI) y el ensamblado de las capas del protocolo: el protocolo de registros (Record Layer), la negociación de parámetros (Handshake Protocol) y la gestión de alertas, contrastando y validando las tramas mediante herramientas de red como OpenSSL, Wireshark y TCPDump.\n\nEl libro articula todo su contenido en torno a un proyecto de programación integral y continuo, en el que el lector construye paso a paso una biblioteca cliente y servidor SSL/TLS completamente funcional en lenguaje C estándar. Lo que aporta es un entendimiento profundo y a nivel de bytes de los protocolos de transporte seguro que ninguna guía abstracta puede igualar, permitiendo comprender exactamente qué ocurre dentro de herramientas como OpenSSL. Su principal limitación es su fecha de publicación (2011), por lo que no cubre la simplificación introducida en TLS 1.3, el algoritmo de cifrado autenticado ChaCha20-Poly1305 ni algoritmos basados en curvas de Edwards (Ed25519). Requiere soltura en manejo de memoria y depuración de código en C.",
+    "temas": [
+      "Lenguaje C",
+      "SSL",
+      "TLS 1.2",
+      "Criptografía aplicada",
+      "X.509",
+      "PKI",
+      "RSA",
+      "AES",
+      "Sockets de red",
+      "ASN.1",
+      "Handshake TLS"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Biblioteca cliente y servidor SSL/TLS desde cero",
+        "descripcion": "Implementación en lenguaje C de una pila completa y funcional de protocolos SSLv2, TLS 1.0 y TLS 1.2, que incluye primitivas criptográficas propias (AES, DES, RSA, SHA), parser de certificados X.509 en ASN.1/DER y manejo de sockets cliente y servidor."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Implementing+SSL+%2F+TLS+Using+Cryptography+and+PKI-p-9780470920411",
+      "https://www.oreilly.com/library/view/implementing-ssltls-using/9780470920411/"
+    ]
+  },
+  "the-browser-hacker-s-handbook-2014": {
+    "descripcion": "Manual de referencia en ciberseguridad ofensiva centrado en el navegador web, escrito por Wade Alcorn, Christian Frichot y Michele Orrù (creadores y mantenedores principales de BeEF, el Browser Exploitation Framework) y publicado por Wiley en 2014. La obra examina cómo los navegadores (Google Chrome, Mozilla Firefox, Internet Explorer y Safari) pueden convertirse en el punto de entrada y compromiso de una estación de trabajo o de una red corporativa interna. Está dirigida a evaluadores de penetración (pentesters), analistas de seguridad ofensiva (red teaming) y desarrolladores web de nivel intermedio que ya entienden la arquitectura cliente-servidor HTTP, el DOM y la programación en JavaScript.\n\nEl texto analiza en profundidad el modelo de seguridad del navegador y las técnicas para eludir sus barreras de contención. Explora la evasión de la política del mismo origen (Same-Origin Policy o SOP) y el aprovechamiento de Cross-Origin Resource Sharing (CORS), la explotación de APIs modernas de HTML5 (WebSockets, WebRTC, postMessage y Web Storage), ataques de clickjacking, robo de credenciales y técnicas de man-in-the-browser. Detalla el despliegue del framework BeEF para enganchar (hook) navegadores de víctimas, mantener persistencia en la sesión, auditar extensiones y vulnerar plugins heredados (Flash, Java Applets, ActiveX, Silverlight). Además, demuestra cómo transformar el navegador comprometido en un proxy pivotante hacia redes privadas corporativas para realizar escaneos de puertos en intranets, ataques entre protocolos (inter-protocol exploitation contra servicios IRC o FTP) y encapsulación de tráfico mediante túneles DNS.\n\nA través de laboratorios y pruebas de concepto prácticas, el libro capacita para configurar entornos de ataque controlados, inyectar ganchos (hooks) de BeEF y ejecutar cadenas de explotación realistas del lado del cliente. Su mayor valor reside en cambiar radicalmente la perspectiva del navegador, tratándolo no solo como un visor web sino como un nodo ejecutor de código arbitrario que expone la red interna. No obstante, al haberse publicado en 2014, varias de las técnicas analizadas se apoyan en plugins actualmente extintos (como Adobe Flash y Java en el navegador) y no contemplan defensas modernas como Site Isolation o sandbox avanzados de procesos. Es indispensable tener bases sólidas de JavaScript y redes TCP/IP para sacar partido a sus metodologías.",
+    "temas": [
+      "Seguridad ofensiva",
+      "Hacking de navegadores",
+      "BeEF",
+      "Same-Origin Policy",
+      "JavaScript",
+      "HTML5 APIs",
+      "WebSockets",
+      "Pivoting y túneles",
+      "Extensiones de navegador",
+      "Ingeniería social",
+      "Auditoría web"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/The+Browser+Hacker%27s+Handbook-p-9781118662090",
+      "https://www.oreilly.com/library/view/the-browser-hackers/9781118662090/",
+      "https://beefproject.com"
+    ]
+  }
+}

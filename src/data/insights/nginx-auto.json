@@ -1,0 +1,143 @@
+{
+  "nginx-2016": {
+    "descripcion": "Guía introductoria orientada a enseñar la instalación, configuración y gestión profesional del servidor web y proxy inverso Nginx (en sus versiones estables 1.8 y 1.10). El texto está dirigido a administradores de sistemas noveles, desarrolladores web y técnicos de soporte que dan sus primeros pasos con Nginx o que buscan migrar desde arquitecturas tradicionales basadas en Apache HTTP Server o Microsoft IIS, requiriendo únicamente conocimientos elementales de navegación en la línea de comandos de Linux y nociones básicas sobre el protocolo HTTP.\n\nEl temario desgrana la arquitectura dirigida por eventos (event-driven) y de procesamiento asíncrono no bloqueante de Nginx, explicando el funcionamiento de los procesos maestro (master) y trabajadores (worker). Analiza en detalle el archivo nginx.conf y su jerarquía de contextos (main, events, http, server, location), la creación de servidores virtuales (Server Blocks) para hospedar múltiples sitios web estáticos, y la conexión con aplicaciones dinámicas mediante FastCGI con PHP-FPM, uWSGI para Python y Phusion Passenger para Ruby. Asimismo, aborda la configuración de balanceo de carga (algoritmos round-robin, least_conn e ip_hash), la implementación de seguridad con cifrado SSL/TLS mediante OpenSSL, el control de acceso y mitigación de sobrecargas con limitación de tasa (rate limiting), y el análisis de registros (access.log y error.log) con herramientas como GoAccess.\n\nLa práctica se articula mediante recetas paso a paso sobre distribuciones Linux (como Ubuntu y CentOS), configurando pilas completas LEMP (Linux, Nginx, MySQL/MariaDB, PHP), sitios seguros con HTTPS y topologías de proxy inverso que distribuyen tráfico hacia múltiples servidores backend. El libro destaca por su claridad didáctica y por desmitificar las directivas de configuración, facilitando la transición de las reglas de .htaccess de Apache a la sintaxis nativa de Nginx. Deja fuera configuraciones empresariales avanzadas como programación en Lua con OpenResty o módulos de streaming RTMP complejo, pero cumple con creces su objetivo como guía de inicio rigurosa y directa al grano.",
+    "temas": [
+      "Nginx",
+      "Servidor web",
+      "Proxy inverso",
+      "Balanceo de carga",
+      "FastCGI",
+      "PHP-FPM",
+      "SSL/TLS",
+      "HTTPS",
+      "Server Blocks",
+      "Rate Limiting",
+      "Migración de Apache",
+      "Linux"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1656-9",
+      "https://www.oreilly.com/library/view/nginx-from-beginner/9781484216569/",
+      "https://www.amazon.com/Nginx-Beginner-Pro-Rahul-Soni/dp/1484216576"
+    ]
+  },
+  "mastering-nginx-2013": {
+    "descripcion": "Tratado técnico avanzado dedicado a exprimir al máximo el rendimiento, la escalabilidad y las capacidades de personalización de Nginx (versiones 1.2 y 1.4). Está dirigido a administradores de sistemas sénior, ingenieros de fiabilidad de sitios (SRE) y arquitectos de infraestructura web con sólida experiencia previa en entornos Unix/Linux y en la gestión cotidiana de servidores web, que necesitan resolver cuellos de botella de alto tráfico, diseñar arquitecturas de proxy complejas y ajustar el software al nivel del sistema operativo.\n\nEl texto profundiza en la compilación personalizada de Nginx desde el código fuente, detallando las opciones de configuración de compilación (./configure) y la incorporación de módulos de terceros. Explica rigurosamente la semántica de directivas de configuración, el orden de precedencia y procesamiento de bloques location, y la implementación del módulo de proxy de correo (Mail Proxy) para protocolos POP3, IMAP y SMTP acoplado a servicios de autenticación externa HTTP. Además, cubre técnicas avanzadas de proxy inverso y balanceo de carga upstream, estrategias de microcaching mediante proxy_cache, manipulación de cabeceras, compresión de respuestas, Server-Side Includes (SSI), integración de scripts con el módulo embebido de Perl (ngx_http_perl_module), y diagnóstico profundo de fallos mediante el análisis minucioso de registros de error y niveles de depuración.\n\nEl trabajo práctico consiste en el diseño, compilación y ajuste fino de entornos de alta disponibilidad y rendimiento: desde la compilación de un binario a medida con módulos específicos hasta el despliegue de pasarelas de correo seguras, almacenamiento intermedio en memoria para mitigar picos de carga y afinado de parámetros del kernel (TCP sockets, descriptores de archivo y buffers de red). Aporta un conocimiento de ingeniería difícil de encontrar en la documentación dispersa de la época, revelando el funcionamiento interno del software. Debe tenerse en cuenta que al haber sido editado en 2013 no incluye HTTP/2 (incorporado en Nginx 1.9.5) ni soporte para HTTP/3/QUIC, pero su explicación sobre la herencia de directivas, optimización del sistema operativo y depuración de incidentes sigue siendo un material de referencia invaluable.",
+    "temas": [
+      "Nginx",
+      "Compilación de código fuente",
+      "Módulos de terceros",
+      "Reverse Proxy",
+      "Load Balancing",
+      "Mail Proxy (POP3/IMAP/SMTP)",
+      "Microcaching",
+      "Server Side Includes (SSI)",
+      "Perl integrado",
+      "Optimización de kernel",
+      "Depuración y troubleshooting",
+      "SysAdmin avanzado"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-nginx-9781849517447",
+      "https://www.oreilly.com/library/view/mastering-nginx/9781849517447/",
+      "https://www.amazon.com/Mastering-Nginx-Dimitri-Aivaliotis/dp/1849517449"
+    ]
+  },
+  "nginx-1-web-server-implementation-cookbook-2011": {
+    "descripcion": "Manual práctico estructurado en forma de recetario centrado en la implementación, administración y puesta a punto del servidor web Nginx (cubriendo las versiones estables de la serie 1.0 y la rama 0.8). La obra está orientada a administradores de sistemas, ingenieros de operaciones y desarrolladores web de nivel intermedio que ya cuentan con experiencia en la terminal de Linux o Unix y conceptos básicos de redes y protocolo HTTP, pero necesitan resolver tareas cotidianas y casos de uso avanzados sin navegar por documentación dispersa.\n\nEl libro presenta más de un centenar de recetas que abordan la compilación de Nginx desde el código fuente con módulos adicionales, la gestión de procesos worker y la recarga en caliente del servicio mediante la línea de comandos. Explica detalladamente la configuración de hosts virtuales basados en nombres, direcciones IP y comodines, el diseño de reglas de reescritura complejas con el módulo ngx_http_rewrite_module, y la integración con aplicaciones dinámicas mediante FastCGI (con configuraciones específicas para WordPress y Drupal) y WSGI para entornos Python. Asimismo, cubre el despliegue de balanceadores de carga con directivas upstream, la aceleración de contenidos mediante almacenamiento en caché con Memcached, la protección perimetral frente a rastreadores maliciosos mediante cabeceras User-Agent, el cifrado de tráfico con certificados SSL/TLS y el servicio de medios multimedia mediante streaming para Flash y redimensionamiento dinámico de imágenes con la librería GD.\n\nA través de configuraciones modulares y recetas listas para aplicar, el lector aprende a orquestar y asegurar servidores web tanto en escenarios independientes como actuando de proxy inverso frente a otros servicios. Su gran punto fuerte es la inmediatez y practicidad de sus soluciones para resolver problemas concretos de producción. Por contrapartida, deja fuera el desarrollo de extensiones en C y carece de tecnologías que llegaron en versiones posteriores del software (como HTTP/2 o WebSockets). Es un recetario sumamente útil para asimilar la lógica de directivas y directrices operativas en entornos Unix.",
+    "temas": [
+      "Nginx 1.0",
+      "Proxy inverso",
+      "Balanceo de carga",
+      "FastCGI",
+      "WSGI",
+      "Reescritura de URLs",
+      "SSL/TLS",
+      "Memcached",
+      "WordPress",
+      "Seguridad web"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/nginx-1-web-server-implementation-cookbook-9781849514965",
+      "https://www.amazon.com/dp/1849514968",
+      "https://books.google.com/books?id=i9m_O0vK8oEC"
+    ]
+  },
+  "nginx-essentials-2015": {
+    "descripcion": "Guía técnica y compacta elaborada por Valery Kholodkov, desarrollador de módulos para Nginx, que desglosa los principios fundamentales y las directivas críticas del servidor web en sus ramas 1.8 y 1.9. Está dirigida a administradores de sistemas, ingenieros de confiabilidad de sitios (SRE) y desarrolladores web intermedios que ya comprenden los fundamentos del protocolo HTTP y la administración en Linux, pero desean entender a fondo el modelo arquitectónico de Nginx o migrar eficientemente desde servidores clásicos basados en procesos e hilos como Apache.\n\nA lo largo de seis capítulos estratégicos, la obra examina la arquitectura basada en eventos asíncronos y no bloqueantes de Nginx, el manejo de procesos maestro y trabajadores, y el control del servicio mediante señales del sistema operativo (HUP, USR1, USR2, WINCH). Explica cómo estructurar ficheros de configuración jerárquicos y optimizar la entrega de contenido estático mediante llamadas al sistema como sendfile, tcp_nopush y el almacenamiento en caché de descriptores con open_file_cache. También profundiza en la configuración de Nginx como proxy inverso y pasarela de caché (proxy_pass, proxy_cache), el motor de reescritura de peticiones, la gestión de cuotas de tráfico mediante módulos de limitación de tasa (limit_req) y concurrencia (limit_conn), la compresión de respuestas con ngx_http_gzip_module y el ajuste fino de afinidad a la CPU con worker_cpu_affinity.\n\nEl libro no plantea un proyecto monolítico, sino una progresión de análisis arquitectónico y configuraciones de prueba que enseñan a afinar servidores para soportar altos volúmenes de tráfico concurrente con consumo mínimo de memoria. Su valor distintivo reside en la visión interna del autor sobre cómo procesa el servidor cada conexión, aclarando las trampas habituales al dimensionar buffers y reutilizar sesiones SSL. Deja al margen configuraciones específicas de frameworks web o entornos distribuidos complejos, consolidándose como una referencia esencial y directa para dominar el núcleo del servidor.",
+    "temas": [
+      "Nginx 1.8",
+      "Arquitectura orientada a eventos",
+      "Proxy inverso",
+      "Caché HTTP",
+      "Ajuste de rendimiento",
+      "Limitación de tráfico",
+      "Compresión Gzip",
+      "SSL/TLS",
+      "Reescritura de URLs"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/nginx-essentials-9781785289538",
+      "https://www.amazon.com/dp/1785289535",
+      "https://www.oreilly.com/library/view/nginx-essentials/9781785289538/"
+    ]
+  },
+  "nginx-http-server-3rd-edition-2015": {
+    "descripcion": "Manual exhaustivo sobre el servidor web Nginx (versiones 1.8 y 1.9, con mención a NGINX Plus) escrito por Clément Nedelcu para acompañar al lector desde la instalación básica hasta despliegues avanzados en entornos de producción. Está concebido para desarrolladores web, arquitectos de infraestructura y administradores de sistemas de nivel principiante e intermedio que buscan dominar tanto el rol de servidor HTTP independiente como el de acelerador frontend y balanceador de carga en sistemas tipo Unix.\n\nEl recorrido temático abarca desde la preparación de dependencias (GCC, PCRE, zlib, OpenSSL) y la compilación personalizada del software hasta la creación de scripts de inicio para el sistema. Enseña a fondo la sintaxis del motor de configuración, los bloques de contexto (http, server, location), las directivas principales y las variables internas. Aborda la integración de aplicaciones dinámicas mediante FastCGI, PHP-FPM y uWSGI con Python, el acoplamiento híbrido con servidores Apache existentes (sirviendo estáticos en el frontal y derivando dinámicos al fondo), la traducción de configuraciones y archivos .htaccess para migraciones integrales, y la implementación de balanceo de carga mediante upstream (round-robin, least_conn, ip_hash).\n\nLa obra se apoya en casos de estudio detallados donde se practica la puesta en marcha de una plataforma WordPress conectada a PHP-FPM y base de datos MySQL, el endurecimiento de la seguridad con certificados SSL/HTTPS y la resolución de incidentes frecuentes mediante análisis de logs de depuración y códigos de error (400, 502, 504). Es un texto equilibrado y muy formativo que combina conceptos teóricos con puestas en marcha funcionales. Deja fuera la programación de módulos internos en C y orquestadores como Docker o Kubernetes, pero constituye uno de los manuales de referencia más completos y didácticos para la administración de Nginx en servidores dedicados y virtuales.",
+    "temas": [
+      "Nginx 1.8",
+      "FastCGI",
+      "PHP-FPM",
+      "uWSGI",
+      "Proxy inverso",
+      "Balanceo de carga",
+      "Migración desde Apache",
+      "WordPress",
+      "SSL/TLS",
+      "Depuración de servidores"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Despliegue de WordPress con PHP-FPM y MySQL",
+        "descripcion": "Configuración y puesta en marcha de un sitio WordPress completo sobre Nginx mediante FastCGI/PHP-FPM y MySQL, implementando reglas de reescritura seguras para permalinks y protección de ficheros sensibles."
+      },
+      {
+        "nombre": "Servidor web seguro con HTTPS y certificados SSL",
+        "descripcion": "Implementación de cifrado TLS/SSL en Nginx mediante generación y vinculación de certificados digitales, suites de cifrado modernas y redirección automática de tráfico HTTP a HTTPS."
+      },
+      {
+        "nombre": "Acelerador frontend y proxy inverso para servidores Apache",
+        "descripcion": "Diseño de un entorno híbrido donde Nginx actúa como fachada para entregar ficheros estáticos a alta velocidad y redirige el tráfico dinámico hacia instancias Apache de fondo mediante grupos upstream."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/nginx-http-server-9781785280337",
+      "https://www.amazon.com/dp/1785280333",
+      "https://www.oreilly.com/library/view/nginx-http-server/9781785280337/"
+    ]
+  }
+}

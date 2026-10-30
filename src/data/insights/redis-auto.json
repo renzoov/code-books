@@ -1,0 +1,117 @@
+{
+  "redis-in-action-2013": {
+    "descripcion": "La obra clásica y definitiva de Josiah L. Carlson sobre Redis, el popular almacén de estructuras de datos en memoria utilizado para caching, mensajería y persistencia de alta velocidad.\n\nCarlson enseña a dominar las cinco estructuras de datos fundamentales: strings, listas, conjuntos (sets), conjuntos ordenados (sorted sets) y hashes. El autor demuestra cómo resolver problemas del mundo real: sistemas de votación en tiempo real, carritos de compras rápidos, limitadores de tasa (rate limiting), pub/sub, transacciones con MULTI/EXEC y optimización de memoria. Incluye pautas sobre persistencia RDB y AOF, replicación y sharding.\n\nLectura imprescindible para ingenieros backend y arquitectos que buscan acelerar radicalmente el rendimiento de sus plataformas web.",
+    "temas": [
+      "Redis",
+      "Josiah L. Carlson",
+      "Estructuras de Datos",
+      "Sorted Sets",
+      "Pub/Sub",
+      "Rate Limiting",
+      "Caching",
+      "Persistencia AOF"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de recomendaciones y limitador de peticiones en tiempo real",
+        "descripcion": "Implementación en Python de un sistema que utiliza sorted sets para rankear contenidos populares y listas para limitar peticiones API concurrentes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "redis-cookbook-2011": {
+    "descripcion": "Recetario ágil de Fred Oliveira y Tiago Macedo que ofrece soluciones directas para integrar Redis como acelerador de rendimiento en aplicaciones web.\n\nLos autores presentan recetas prácticas para almacenamiento en caché de fragmentos web, colas de trabajo simples con listas y operaciones atómicas (LPUSH/RPOP), gestión rápida de sesiones de usuario con expiración automática (TTL), y análisis de métricas en vivo con contadores atómicos INCR/DECR. Cubre ejemplos en Ruby, Python y Node.js.\n\nUna referencia concisa y muy conveniente para desarrolladores que desean incorporar Redis inmediatamente a sus proyectos existentes.",
+    "temas": [
+      "Redis",
+      "Cookbook",
+      "Caching",
+      "Colas de Trabajo",
+      "TTL",
+      "Sesiones Web",
+      "Contadores Atómicos",
+      "NoSQL"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "building-scalable-apps-with-redis-and-node-js-2014": {
+    "descripcion": "Guía práctica de Joshua Johanan sobre cómo combinar la arquitectura orientada a eventos y asíncrona de Node.js con la velocidad en memoria de Redis.\n\nEl autor enseña a implementar almacenamiento de sesiones distribuidas con connect-redis, sincronización bidireccional en tiempo real con Socket.IO y Redis Pub/Sub, colas de procesamiento en segundo plano con Bull/Kue, y estrategias de invalidación de caché para microservicios. Analiza cómo escalar horizontalmente instancias de Node.js mediante un clúster centralizado de Redis.\n\nRecomendado para desarrolladores full-stack y backend que diseñan plataformas de chat colaborativo, juegos web y tableros interactivos de alto tráfico.",
+    "temas": [
+      "Redis",
+      "Node.js",
+      "Socket.IO",
+      "Pub/Sub",
+      "Colas de Trabajo",
+      "Escalabilidad",
+      "Caching Distribuido",
+      "Tiempo Real"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de chat colaborativo distribuido en tiempo real",
+        "descripcion": "Construcción de un servicio con múltiples servidores Node.js intercomunicados mediante Redis Pub/Sub y persistencia de mensajes con hashes y listas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "learning-redis-2015": {
+    "descripcion": "Manual didáctico de Vinoo Das diseñado para que ingenieros de software aprendan a utilizar Redis desde los fundamentos hasta su despliegue en entornos productivos.\n\nEl texto desglosa la instalación, comandos de gestión de claves, manipulación de tipos de datos complejos (bitmaps e HyperLogLog para conteos probabilísticos de visitantes únicos), scripts del lado del servidor con Lua para operaciones atómicas complejas, y configuración de alta disponibilidad con Redis Sentinel. Además, cubre la seguridad y el monitoreo con redis-cli.\n\nUn recurso claro y estructurado para administradores y desarrolladores que dan sus primeros pasos con almacenes clave-valor en memoria.",
+    "temas": [
+      "Redis",
+      "Vinoo Das",
+      "HyperLogLog",
+      "Lua Scripting",
+      "Redis Sentinel",
+      "Alta Disponibilidad",
+      "Bitmaps",
+      "Administración"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Analizador de tráfico web con conteo probabilístico HyperLogLog",
+        "descripcion": "Implementación de un colector de telemetría web que estima millones de usuarios únicos diarios con uso mínimo de memoria RAM."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "redis-essentials-2015": {
+    "descripcion": "Compendio práctico de Maxwell Dayvson Da Silva que profundiza en las características esenciales y técnicas avanzadas para construir sistemas rápidos y resilientes con Redis.\n\nEl autor explora el modelado de datos no relacionales, la creación de sistemas de bloqueo distribuido (Redlock), ejecución atómica de lógica compleja con scripts en Lua, monitorización de rendimiento con SLOWLOG e INFO, y clustering nativo con Redis Cluster para particionamiento horizontal automático de datos. Incluye ejemplos en JavaScript, Python y Go.\n\nUna guía técnica muy completa para desarrolladores senior que necesitan diseñar infraestructuras distribuidas tolerantes a fallos con Redis.",
+    "temas": [
+      "Redis",
+      "Redis Cluster",
+      "Redlock",
+      "Lua Scripts",
+      "SLOWLOG",
+      "Particionamiento",
+      "Clustering",
+      "NoSQL"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Gestor de bloqueos distribuidos (Redlock) para microservicios",
+        "descripcion": "Construcción de una biblioteca de sincronización entre múltiples servicios backend que asegura exclusión mutua distribuida sobre nodos Redis."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

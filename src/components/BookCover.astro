@@ -1,0 +1,39 @@
+---
+import { Image } from 'astro:assets';
+import { getCover, techBySlug, type Book } from '../lib/data';
+
+interface Props {
+  book: Book;
+  width?: number;
+  class?: string;
+  /** Portada principal de la página de detalle: siempre participa del morph. */
+  morph?: boolean;
+}
+const { book, width = 240, class: className = '', morph = false } = Astro.props;
+const cover = await getCover(book.slug);
+const color = techBySlug(book.techSlug).color;
+// En las tarjetas el nombre de transición se asigna por JS solo al libro que se abre o al que se vuelve
+// (ver Layout.astro); si todas lo tuvieran, cada portada se animaría por separado del resto de su tarjeta.
+const morphProps = morph
+  ? { style: `view-transition-name: cover-${book.techSlug}-${book.slug}` }
+  : { 'data-morph': 'cover' };
+---
+
+<div class:list={['relative aspect-[3/4] overflow-hidden rounded-md shadow-lg shadow-black/40', className]} {...morphProps}>
+  {
+    cover ? (
+      <Image src={cover} alt={`Portada de ${book.titulo}`} width={width} class="size-full object-cover" />
+    ) : (
+      <div
+        class="flex size-full flex-col justify-between p-3"
+        style={`background: linear-gradient(145deg, ${color}, color-mix(in srgb, ${color} 25%, #0b0d12)); `}
+        role="img"
+        aria-label={`Portada generada de ${book.titulo}`}
+      >
+        <span class="font-mono text-[10px] uppercase tracking-widest text-black/60">{book.tecnologia}</span>
+        <span class="line-clamp-5 text-balance text-base font-bold leading-tight text-black/85">{book.titulo}</span>
+        <span class="truncate font-mono text-[10px] text-black/60">{book.autores[0] ?? book.editorial}</span>
+      </div>
+    )
+  }
+</div>

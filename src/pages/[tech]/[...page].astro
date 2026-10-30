@@ -1,0 +1,36 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Layout from '../../layouts/Layout.astro';
+import BackLink from '../../components/BackLink.astro';
+import BookCard from '../../components/BookCard.astro';
+import Pagination from '../../components/Pagination.astro';
+import { techs, booksOf, techBySlug, categoryOf, categoryHref, PAGE_SIZE } from '../../lib/data';
+
+export const getStaticPaths = (({ paginate }) =>
+  techs.flatMap((t) =>
+    paginate(booksOf(t.slug), { params: { tech: t.slug }, pageSize: PAGE_SIZE }),
+  )) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+const tech = techBySlug(Astro.params.tech!);
+const category = categoryOf(tech);
+---
+
+<Layout title={`${tech.nombre} · página ${page.currentPage}`} accent={tech.color} activeTech={tech.slug}>
+  <header class="mb-8">
+    <nav aria-label="Ruta" class="mb-4">
+      <BackLink href={categoryHref(category)}>← {category.nombre}</BackLink>
+    </nav>
+    <p class="font-mono text-xs uppercase tracking-widest text-[var(--accent)]">Sección</p>
+    <h1 class="w-fit text-4xl font-bold sm:text-5xl" data-morph-tech={tech.slug}>{tech.nombre}</h1>
+    <p class="mt-2 font-mono text-sm text-muted">
+      Mostrando {page.start + 1}–{page.end + 1} de {page.total} libros
+    </p>
+  </header>
+
+  <div class="grid gap-4 lg:grid-cols-2">
+    {page.data.map((b) => <BookCard book={b} />)}
+  </div>
+
+  <Pagination techSlug={tech.slug} current={page.currentPage} last={page.lastPage} />
+</Layout>

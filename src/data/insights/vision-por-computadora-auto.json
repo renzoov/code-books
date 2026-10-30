@@ -1,0 +1,501 @@
+{
+  "microsoft-computer-vision-apis-distilled-2018": {
+    "descripcion": "Publicado por Apress en 2018 y escrito por el autor y Microsoft MVP Alessandro Del Sole, este libro compacto de 90 páginas es una guía condensada ('distilled') para integrar visión artificial en aplicaciones .NET mediante servicios en la nube. Trabaja con C#, .NET Core/.NET Framework y los Microsoft Cognitive Services (hoy integrados bajo la marca Azure AI Vision). Está pensado para desarrolladores de software de nivel principiante e intermedio familiarizados con la plataforma .NET y Visual Studio que desean incorporar capacidades de análisis inteligente de imágenes sin necesidad de entrenar redes neuronales ni tener conocimientos matemáticos de visión computacional.\n\nEl texto explica cómo configurar suscripciones y aprovisionar recursos de Computer Vision en el Portal de Azure para obtener claves de acceso y puntos de conexión REST. A continuación, muestra cómo interactuar con las APIs de análisis tanto mediante peticiones HTTP directas en JSON como utilizando el SDK oficial de cliente para .NET ('Microsoft.Azure.CognitiveServices.Vision.ComputerVision'). Se exploran funciones concretas como la generación automática de descripciones y etiquetas textuales, categorización de contenidos, detección de rostros, identificación de colores predominantes, filtros de contenido moderado o para adultos, generación de miniaturas inteligentes ('smart cropping') y reconocimiento óptico de caracteres (OCR) para extraer texto incrustado en imágenes.\n\nLa vertiente práctica se articula en torno a dos desarrollos completos: una aplicación móvil multiplataforma para iOS y Android construida con Xamarin.Forms en C#, y una aplicación web interactiva desarrollada con ASP.NET Core MVC que permite a los usuarios subir fotografías y consultar de inmediato el informe visual proporcionado por Azure. La mayor ventaja del libro es su concreción: va directo al código y a la integración con el ecosistema Microsoft. Deja totalmente fuera el entrenamiento de modelos personalizados (Custom Vision) y el aprendizaje profundo local, pero sirve como una puerta de entrada rápida y efectiva al consumo de inteligencia artificial en la nube para desarrolladores C#.",
+    "temas": [
+      "C#",
+      ".NET Core",
+      "Azure Cognitive Services",
+      "Computer Vision API",
+      "Xamarin.Forms",
+      "ASP.NET Core MVC",
+      "Reconocimiento óptico de caracteres (OCR)",
+      "Análisis visual de imágenes",
+      "Smart Cropping",
+      "REST APIs"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación móvil de análisis de imágenes con Xamarin.Forms",
+        "descripcion": "Aplicación móvil multiplataforma desarrollada en C# y Xamarin.Forms que captura o carga fotos desde el dispositivo y consume la API de Computer Vision en Azure para devolver etiquetas y texto extraído por OCR."
+      },
+      {
+        "nombre": "Portal de inspección gráfica con ASP.NET Core MVC",
+        "descripcion": "Aplicación web en ASP.NET Core que recibe imágenes enviadas por el navegador y utiliza el SDK de Cognitive Services para presentar descripciones automáticas, categorías visuales y miniaturas recortadas inteligentemente."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3342-9",
+      "https://www.oreilly.com/library/view/microsoft-computer-vision/9781484233429/",
+      "https://www.amazon.com/Microsoft-Computer-Vision-APIs-Distilled/dp/1484233411"
+    ]
+  },
+  "java-image-processing-recipes-2018": {
+    "descripcion": "Publicado por Apress en marzo de 2018 y escrito por Nicolas Modrzyk, este libro ofrece un enfoque eminentemente práctico estructurado en recetas para resolver desafíos de manipulación gráfica y visión por computadora en la máquina virtual de Java (JVM). Se fundamenta en OpenCV (versión 3.x para Java) y en Origami, un envoltorio funcional y DSL basado en Clojure desarrollado para interactuar de forma ágil y expresiva con la biblioteca nativa en C++. Está destinado a desarrolladores de Java, Clojure, Scala o Kotlin de nivel intermedio que necesitan aplicar transformaciones de imagen y visión artificial sin abandonar el ecosistema ni las herramientas de compilación de la JVM.\n\nEl manual comienza resolviendo la configuración y vinculación de los binarios nativos de OpenCV mediante gestores de dependencias como Maven, Gradle y Leiningen, e introduce el entorno interactivo Gorilla REPL, que permite ejecutar código y comprobar los cambios visuales de manera instantánea en el navegador web. A través de sus recetas, enseña operaciones de álgebra matricial sobre píxeles, conversiones entre espacios de color (RGB, escala de grises, HSV), transformaciones geométricas (rotación, reescalado y perspectiva), filtros de convolución y suavizado (desenfoque gaussiano, filtros bilaterales), efectos artísticos de estilización (cartooning y sketching), técnicas avanzadas de enmascaramiento, detección de bordes mediante el algoritmo Canny, y localización de contornos y geometrías en siluetas.\n\nEl libro aborda también el procesamiento en tiempo real de secuencias de vídeo y cámaras web mediante bucles de captura optimizados en la JVM. Al tratarse de un recetario técnico, no construye una única aplicación integral, sino decenas de soluciones modulares e interactivas diseñadas para ser reutilizadas en proyectos existentes. Su mayor acierto es demostrar que la visión computacional en la JVM no tiene por qué ser verbosa ni lenta gracias al uso de REPLs y abstracciones funcionales sobre OpenCV. Conviene tener presente que se enfoca en el procesamiento digital clásico y determinista de imágenes, dejando al margen las redes neuronales convolucionales y los modelos de deep learning.",
+    "temas": [
+      "Java",
+      "OpenCV 3",
+      "JVM",
+      "Clojure",
+      "Origami",
+      "Gorilla REPL",
+      "Procesamiento digital de imágenes",
+      "Filtros y convolución",
+      "Detección de bordes (Canny)",
+      "Contornos y formas geométricas",
+      "Captura de vídeo y webcam"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3465-5",
+      "https://www.oreilly.com/library/view/java-image-processing/9781484234655/",
+      "https://www.amazon.com/Java-Image-Processing-Recipes-OpenCV/dp/1484234647"
+    ]
+  },
+  "image-processing-masterclass-with-python-2021": {
+    "descripcion": "Guía avanzada y orientada a la resolución de problemas en la que Sandipan Dey aborda más de 50 retos complejos de procesamiento digital de imágenes y visión artificial con Python 3. Está pensada para desarrolladores, científicos de datos e investigadores con un nivel intermedio de programación en Python y fundamentos matemáticos en cálculo y álgebra lineal que deseen dominar tanto las técnicas analíticas clásicas como los enfoques modernos basados en aprendizaje profundo.\n\nEl temario abarca la manipulación de imágenes y secuencias de vídeo, transformaciones geométricas (afines y no lineales), convolución, filtrado espacial y transformadas en el dominio de la frecuencia (Transformada Discreta de Fourier, Transformada Discreta del Coseno y ondículas o wavelets). También cubre técnicas de mejora y restauración de imagen (deconvolución de desenfoque y superresolución con SRGAN), segmentación y procesamiento biométrico facial. Entre las herramientas y librerías que utiliza destacan NumPy, SciPy, scikit-image, Pillow (PIL), SimpleITK, OpenCV, PyTorch, Keras, scikit-learn, MTCNN, dlib y APIs cognitivas en la nube (Microsoft Azure Computer Vision / Cognitive Services).\n\nEl aprendizaje se articula a través de cuadernos de Jupyter estructurados como recetas prácticas que ilustran paso a paso cada algoritmo con imágenes de entrada y salida, permitiendo implementar desde filtros de reducción de ruido hasta un pipeline completo de detección, alineación y reconocimiento de rostros. Su mayor virtud es el rigor con el que combina la intuición matemática de las señales bidimensionales con código ejecutable moderno. Como contrapartida, no está enfocado en la construcción de una aplicación monolítica o de producción, sino en soluciones analíticas autocontenidas. Conviene tener soltura previa en operaciones matriciales con NumPy.",
+    "temas": [
+      "Procesamiento digital de imágenes",
+      "NumPy y SciPy",
+      "scikit-image",
+      "Transformada de Fourier (DFT)",
+      "Filtrado espacial y frecuencial",
+      "Restauración de imágenes",
+      "Superresolución con SRGAN",
+      "PyTorch y Keras",
+      "MTCNN y dlib",
+      "OpenCV",
+      "Microsoft Cognitive Services"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bpbonline.com/products/image-processing-masterclass-with-python",
+      "https://github.com/sandipan/Book-BPB-11-Image-Processing-Masterclass-with-Python",
+      "https://www.amazon.com/Image-Processing-Masterclass-Python-Techniques/dp/9389898641"
+    ]
+  },
+  "learn-opencv-with-python-by-exercises-2024": {
+    "descripcion": "Libro de iniciación a OpenCV con Python atribuido a Jeffrey Leon Stroup y fechado en 2024, de edición independiente. No hemos encontrado una ficha de editorial ni una página del autor que describa su contenido, así que esta reseña se basa en lo que anuncia el título: aprender la librería OpenCV a través de ejercicios de código en Python 3. Está pensado para programadores que ya conocen la sintaxis básica de Python y quieren dar sus primeros pasos en el procesamiento de imágenes y la visión por computadora sin una carga matemática fuerte.\n\nUn libro de este tipo suele recorrer los fundamentos del módulo cv2: instalar el entorno, leer, mostrar y guardar imágenes, trabajar con los píxeles como matrices de NumPy, convertir entre espacios de color como BGR, escala de grises y HSV, y dibujar formas y texto. A partir de ahí es habitual pasar a la captura de vídeo desde la cámara web, las transformaciones geométricas, los filtros de suavizado, el umbralizado, las operaciones morfológicas, la detección de bordes y contornos y, como cierre, la detección de rostros con clasificadores en cascada de Haar. No hemos podido confirmar el índice concreto de esta obra.\n\nPor su planteamiento de ejercicios, sirve para practicar variando parámetros y viendo el resultado de inmediato, más que para entender la teoría a fondo. No cabe esperar proyectos integrados de gran tamaño ni modelos de deep learning, que hoy forman parte de la visión por computadora moderna. Conviene complementarlo con la documentación y los tutoriales oficiales de OpenCV-Python, que están al día con las versiones 4.x de la librería.",
+    "temas": [
+      "OpenCV (cv2)",
+      "Python",
+      "NumPy",
+      "Espacios de color (BGR y HSV)",
+      "Filtrado y suavizado",
+      "Detección de bordes (Canny)",
+      "Umbralizado y morfología",
+      "Contornos",
+      "Vídeo y cámara web",
+      "Clasificadores Haar Cascade"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "media",
+    "fuentes": []
+  },
+  "programming-computer-vision-with-python-2012": {
+    "descripcion": "Obra clásica escrita por Jan Erik Solem y publicada por O'Reilly que desglosa los algoritmos y fundamentos matemáticos de la visión computacional tradicional utilizando código conciso en Python. Aunque se concibió en el entorno de Python 2.7, los principios geométricos y algebraicos que enseña son atemporales y universales. Está dirigido a estudiantes de posgrado, desarrolladores e investigadores de nivel intermedio con conocimientos previos de álgebra lineal, cálculo matricial y estadística que buscan comprender qué ocurre detrás de las operaciones de visión sin depender ciegamente de librerías de alto nivel.\n\nEl temario profundiza en el procesamiento digital elemental con arrays matriciales, el cálculo de descriptores locales (detector de esquinas de Harris y descriptores SIFT con VLFeat), homografías y deformaciones de perspectiva, modelos geométricos de cámara pinhole y calibración, geometría epipolar para reconstrucción 3D a partir de múltiples vistas estéreo, y técnicas de agrupamiento visual (k-means y clustering jerárquico). En el apartado de reconocimiento aborda sistemas de búsqueda de imágenes por similitud visual (CBIR) mediante el modelo Bag of Visual Words y SQLite, clasificación de patrones con Support Vector Machines (SVM con libsvm) y k-NN, algoritmos de segmentación gráfica (Graph Cuts) e introducción a la interfaz de OpenCV. Las tecnologías empleadas incluyen NumPy, SciPy, Matplotlib, PIL (Pillow), OpenCV, VLFeat, PyGame / PyOpenGL, libsvm y SQLite.\n\nEl texto combina explicaciones teóricas con ejercicios al término de cada capítulo y la construcción guiada de proyectos representativos, como generadores de panoramas fotográficos, motores de búsqueda de imágenes y prototipos de realidad aumentada en 3D. Aporta una comprensión profunda y rigurosa sobre cómo reconstruir el espacio tridimensional a partir de fotografías bidimensionales. Como aspecto a considerar, al ser una publicación de 2012 anterior al auge de las redes neuronales convolucionales profundas, no abarca deep learning moderno y algunas dependencias antiguas (como PIL y VLFeat) requieren ser sustituidas por equivalentes modernos en Python 3 como scikit-image u OpenCV.",
+    "temas": [
+      "Visión por computadora",
+      "NumPy y SciPy",
+      "Descriptores locales (SIFT)",
+      "Detector de esquinas de Harris",
+      "Homografías y panoramas",
+      "Geometría epipolar y reconstrucción 3D",
+      "Bolsa de palabras visuales (BoVW)",
+      "Clasificación con SVM",
+      "Segmentación con Graph Cuts",
+      "Realidad aumentada"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Generador de fotografías panorámicas",
+        "descripcion": "Construye mosaicos panorámicos combinando varias tomas mediante la detección de puntos de interés con SIFT y el cálculo de la homografía con RANSAC usando NumPy y SciPy."
+      },
+      {
+        "nombre": "Motor de búsqueda visual por contenido (CBIR)",
+        "descripcion": "Sistema de recuperación y ordenamiento de imágenes similares dentro de una base de datos visual implementando el modelo de bolsa de palabras visuales (Bag of Visual Words) y SQLite."
+      },
+      {
+        "nombre": "Proyector de realidad aumentada con modelo pinhole",
+        "descripcion": "Estima la orientación y la matriz de proyección intrínseca/extrínseca de la cámara para superponer objetos virtuales tridimensionales en una escena real mediante PyGame y PyOpenGL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/programming-computer-vision-with/9781449341916/",
+      "http://programmingcomputervision.com/",
+      "https://www.amazon.com/Programming-Computer-Vision-Python-Algorithms/dp/1449316549"
+    ]
+  },
+  "mastering-opencv-with-python-2023": {
+    "descripcion": "Manual exhaustivo y moderno escrito por Ayush Vaishya para Orange Education que explora a fondo las técnicas contemporáneas de visión artificial y aprendizaje automático con Python 3 y OpenCV 4. Está destinado a programadores, ingenieros de visión y científicos de datos de nivel intermedio o avanzado que ya conocen las bases de Python y buscan dominar desde el procesamiento avanzado de señales visuales hasta la integración de modelos de deep learning en soluciones aplicadas.\n\nEl libro recorre los fundamentos de representación digital, manipulación espacial, cálculo de histogramas, segmentación por umbral y color, y análisis morfológico y de contornos. En las secciones intermedias y avanzadas aborda la transformada de Hough para detección de líneas y formas, algoritmos de coincidencia de características, aprendizaje automático clásico con Scikit-Learn (árboles de decisión, k-means, SVM) y arquitecturas neuronales con TensorFlow y el módulo OpenCV DNN. Asimismo, enseña a implementar detección de objetos con YOLO y SSD MobileNet, estimación de posturas humanas, detección de hitos faciales (landmarks), realidad aumentada mediante marcadores ArUco y creación de interfaces interactivas con Streamlit. El stack tecnológico integra OpenCV, NumPy, Matplotlib, SciPy, Scikit-Learn, TensorFlow, ArUco y Streamlit.\n\nEl aprendizaje culmina en un capítulo final íntegramente dedicado a proyectos de ingeniería visual, donde se ponen en práctica sistemas de asistencia al conductor con detección de carriles, interfaces de control gestual y realidad aumentada con marcadores, y paneles interactivos web de detección de objetos. Su mayor fortaleza radica en tender un puente fluido y actualizado entre los algoritmos matemáticos de OpenCV y los modelos neuronales de producción. Resulta conveniente tener conocimientos previos sobre redes neuronales y álgebra lineal para aprovechar al máximo las secciones de deep learning y ajuste de hiperparámetros.",
+    "temas": [
+      "OpenCV 4",
+      "Python",
+      "Segmentación y contornos",
+      "Transformada de Hough",
+      "Detección de objetos (YOLO y SSD)",
+      "Redes neuronales y OpenCV DNN",
+      "Scikit-Learn y TensorFlow",
+      "Marcadores ArUco y Realidad Aumentada",
+      "Estimación de pose humana",
+      "Despliegue con Streamlit"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Detector de carriles de carretera y delimitadores viales",
+        "descripcion": "Identifica y proyecta las líneas de carril en secuencias de vídeo de conducción en tiempo real aplicando filtros de gradiente, umbralizado y la transformada de Hough con OpenCV y NumPy."
+      },
+      {
+        "nombre": "Sistema de realidad aumentada con marcadores ArUco",
+        "descripcion": "Reconoce marcadores fiduciales ArUco en transmisiones de cámara para calcular la pose espacial y superponer elementos digitales 2D y 3D en la perspectiva correcta."
+      },
+      {
+        "nombre": "Panel interactivo de detección de objetos y estimación de pose",
+        "descripcion": "Ejecuta modelos preentrenados de deep learning (YOLO y SSD) y seguimiento de puntos articulares corporales, integrándolos en una interfaz web interactiva con Streamlit."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://orangeava.com/products/mastering-opencv-with-python",
+      "https://github.com/OrangeAVA/Mastering-OpenCV-with-Python",
+      "https://www.amazon.com/Mastering-OpenCV-Python-Fundamentals-Applications/dp/9390475798"
+    ]
+  },
+  "learning-opencv-5-computer-vision-with-python-4th-edition-2024": {
+    "descripcion": "Cuarta edición de la emblemática guía práctica de Joseph Howse y Joe Minichino, actualizada por Packt Publishing para acompañar el ecosistema de OpenCV 5 junto con Python 3. Está pensada para desarrolladores de software, estudiantes y entusiastas que poseen conocimientos básicos de Python y desean aprender visión computacional desde cero adoptando una estructura de programación orientada a objetos limpia, modular y orientada a aplicaciones reales.\n\nEl contenido introduce la configuración del entorno y el manejo modular de ficheros multimedia, cámaras web y ventanas de visualización, avanzando hacia el filtrado convolucional, curvas tonales y realce de bordes. Detalla la estimación de profundidad y segmentación con cámaras RGB-D y el algoritmo GrabCut, detección y reconocimiento facial (cascadas de Haar, Eigenfaces, Fisherfaces y LBPH), extracción de descriptores visuales (ORB, SIFT) para búsqueda de imágenes por similitud, entrenamiento de detectores de objetos personalizados mediante HOG y Support Vector Machines (SVM), algoritmos de seguimiento de movimiento (Lucas-Kanade, MeanShift, CamShift), calibración de cámaras, realidad aumentada, y nociones de reconstrucción tridimensional y navegación autónoma. Emplea OpenCV 5 (incluyendo módulos de opencv_contrib), NumPy, SciPy, Matplotlib y clasificadores Haar/HOG.\n\nEl núcleo metodológico del libro es el desarrollo incremental de «Cameo», una aplicación de escritorio completa para captura y procesamiento interactivo de vídeo que se va enriqueciendo a lo largo de los capítulos con clases de gestión (CaptureManager y WindowManager), filtros en tiempo real, reconocimiento facial y superposiciones de realidad aumentada. Su principal virtud es enseñar a escribir código de visión profesional y mantenible, alejándose de simples scripts sueltos. Si bien abarca modelos de aprendizaje supervisado tradicionales con SVM, no se enfoca en el diseño ni entrenamiento masivo de arquitecturas de deep learning complejas, para lo cual conviene complementar con literatura especializada en redes neuronales.",
+    "temas": [
+      "OpenCV 5",
+      "Python 3",
+      "NumPy",
+      "Gestión de vídeo y GUIs",
+      "Estimación de profundidad y GrabCut",
+      "Detección y reconocimiento facial",
+      "Descriptores visuales (ORB y SIFT)",
+      "Seguimiento de objetos (CamShift)",
+      "Realidad aumentada",
+      "Arquitectura orientada a objetos"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Cameo: aplicación de escritorio para captura y filtrado de vídeo",
+        "descripcion": "Aplicación modular con arquitectura orientada a objetos que gestiona ventanas y transmisiones de cámara web en directo para aplicar filtros convolucionales, curvas de color y grabar secuencias a disco."
+      },
+      {
+        "nombre": "Módulo de detección y reconocimiento facial en tiempo real",
+        "descripcion": "Componente integrado en Cameo que detecta rostros mediante clasificadores en cascada de Haar, reconoce identidades entrenadas con algoritmos LBPH o Eigenfaces y aplica máscaras interactivas."
+      },
+      {
+        "nombre": "Sistema de realidad aumentada y seguimiento de superficies",
+        "descripcion": "Calcula la calibración y el plano de referencia de la cámara mediante correspondencia de descriptores de características (ORB/SIFT) para superponer gráficos interactivos sobre objetos reales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/learning-opencv-5-computer-vision-with-python-9781805121343",
+      "https://github.com/PacktPublishing/Learning-OpenCV-5-Computer-Vision-with-Python-Fourth-Edition",
+      "https://www.amazon.com/Learning-OpenCV-Computer-Vision-Python/dp/1805121349"
+    ]
+  },
+  "modern-algorithms-for-image-processing-2019": {
+    "descripcion": "Obra técnica de Vladimir Kovalevsky enfocada en el diseño e implementación de algoritmos eficientes de procesamiento de imágenes y geometría digital desde cero en C# y Windows Forms (.NET Framework). Está dirigida a desarrolladores de software, ingenieros y programadores de nivel intermedio con nociones de álgebra y programación orientada a objetos que buscan dominar los entresijos matemáticos de la visión por computadora sin depender de librerías de terceros complejas ni de frameworks heredados en C++ como MFC.\n\nEl texto enseña a manipular directamente mapas de bits a través de GDI+ (System.Drawing) y estructuras de datos propias. Trata en profundidad técnicas para la reducción de ruido gaussiano y ruido impulsivo (sal y pimienta), métodos de corrección de iluminación desigual (shading correction) mediante división en lugar de sustracción, y algoritmos de detección de bordes tradicionales (Sobel) y novedosos, entre los que destaca la formulación del autor basada en Complejos de Celdas Abstractas (Abstract Cell Complexes) que opera directamente sobre imágenes en color sin convertirlas a escala de grises. También aborda la compresión de imágenes basada en bordes y ecuaciones diferenciales parciales, segmentación topológica y aproximación poligonal de curvas.\n\nA nivel práctico, el libro guía el desarrollo de varias herramientas de escritorio interactivas, como un restaurador de fotografías y documentos antiguos con iluminación defectuosa, un rectificador de perspectiva para obras de arte fotografiadas en ángulos oblicuos y un detector de contornos circulares para identificar ruedas de bicicletas y objetos en tráfico urbano mediante ajuste por mínimos cuadrados. Su mayor virtud es la claridad con la que expone algoritmos originales y su rigor geométrico; como contrapartida, su entorno tecnológico en Windows Forms resulta clásico y deja fuera las arquitecturas modernas de deep learning y aceleración por GPU.",
+    "temas": [
+      "C#",
+      ".NET Framework",
+      "Windows Forms",
+      "GDI+",
+      "Geometría digital",
+      "Filtrado de ruido",
+      "Corrección de iluminación",
+      "Detección de bordes",
+      "Complejos de celdas abstractas",
+      "Compresión de imágenes",
+      "Segmentación topológica",
+      "Aproximación poligonal"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "WFshadBinImpulse (Restauración de documentos y fotos)",
+        "descripcion": "Aplicación de escritorio en C# WinForms que integra corrección de iluminación no homogénea, umbralización y supresión de ruido impulsivo para recuperar imágenes y documentos deteriorados."
+      },
+      {
+        "nombre": "Corrector de perspectiva para fotografías de pinturas",
+        "descripcion": "Herramienta que rectifica la distorsión geométrica en fotos tomadas con ángulos oblicuos para evitar destellos de flash, restaurando la ortogonalidad original del cuadro."
+      },
+      {
+        "nombre": "Detector de ruedas y bicicletas en tráfico",
+        "descripcion": "Algoritmo de visión artificial que ajusta elipses y círculos por mínimos cuadrados para detectar ruedas de bicicletas y clasificar objetos circulares en movimiento."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4237-7",
+      "https://www.springerprofessional.de/en/modern-algorithms-for-image-processing/16377724",
+      "http://kovalevsky.de"
+    ]
+  },
+  "building-computer-vision-applications-using-artificial-neural-networks-2020": {
+    "descripcion": "Manual exhaustivo de Shamshad Ansari que conecta el procesamiento digital de imágenes clásico con las redes neuronales artificiales y el aprendizaje profundo utilizando Python (versión 3 junto a TensorFlow y Keras). Está orientado a científicos de datos, ingenieros de software y entusiastas de la visión por computadora de nivel intermedio que cuenten con conocimientos básicos de Python y álgebra lineal, y aspiren a construir sistemas comerciales e industriales de análisis visual.\n\nEl libro guía al lector a través de un conjunto de herramientas estándar compuesto por OpenCV, TensorFlow, Keras, NumPy, SciPy y Matplotlib. Enseña transformaciones geométricas, filtrado espacial y extracción de rasgos visuales, para luego dar el salto a redes multicapa (MLP) y redes neuronales convolucionales (CNN). Avanza hacia arquitecturas avanzadas de detección de objetos como SSD (Single Shot MultiBox Detector) y YOLO (You Only Look Once), seguimiento continuo de objetos en secuencias de video, reconocimiento facial mediante embeddings con FaceNet, y estrategias de escalado y entrenamiento distribuido en clústeres GPU mediante Horovod sobre plataformas cloud como AWS, Azure y Google Cloud Platform.\n\nA lo largo de sus capítulos se desarrollan casos de uso reales: un sistema de seguimiento de objetos en video, una canalización completa de reconocimiento e identificación facial, y un modelo de control de calidad para inspección visual y detección de defectos en entornos de manufactura industrial. Es una obra muy equilibrada que cubre el ciclo de desarrollo completo desde el preprocesamiento de la imagen hasta el despliegue en la nube, aunque conviene tener en cuenta que parte de los ejemplos utilizan la sintaxis de TensorFlow 1.x con compatibilidad para TensorFlow 2, lo que requiere ligeras adaptaciones si se utiliza exclusivamente el API más reciente.",
+    "temas": [
+      "Python",
+      "OpenCV",
+      "TensorFlow",
+      "Keras",
+      "Redes neuronales convolucionales (CNN)",
+      "Detección de objetos (SSD/YOLO)",
+      "Reconocimiento facial (FaceNet)",
+      "Seguimiento de video (Object Tracking)",
+      "Inspección industrial",
+      "Horovod",
+      "Cloud Computing (AWS/GCP/Azure)"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Rastreador de objetos dinámicos en video",
+        "descripcion": "Canalización de visión computacional que combina detectores SSD/YOLO con OpenCV para localizar objetos en movimiento y mantener su seguimiento temporal entre fotogramas."
+      },
+      {
+        "nombre": "Sistema de reconocimiento y verificación facial",
+        "descripcion": "Aplicación biométrica que detecta rostros humanos y extrae vectores de características mediante la arquitectura FaceNet para verificar identidades a través de distancias métricas."
+      },
+      {
+        "nombre": "Detector de defectos en manufactura industrial",
+        "descripcion": "Solución de inspección visual automatizada en tiempo real que clasifica fallas y anomalías estructurales en piezas de líneas de producción mediante redes convolucionales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5887-3",
+      "https://www.springerprofessional.de/en/building-computer-vision-applications-using-artificial-neural-ne/17887370",
+      "https://github.com/Apress/building-computer-vision-apps-using-artificial-neural-networks"
+    ]
+  },
+  "practical-machine-learning-and-image-processing-2019": {
+    "descripcion": "Guía práctica y resumida de Himanshu Singh orientada a resolver problemas comunes de visión computacional mediante modelos de aprendizaje automático y Python 3. Está pensada para desarrolladores y estudiantes de nivel intermedio o iniciación al machine learning que ya conocen la sintaxis de Python y buscan un enfoque directo y ágil, centrado en código funcional para reconocimiento de patrones visuales sin extenderse en deducciones matemáticas complejas.\n\nEl autor repasa los fundamentos del tratamiento de imágenes valiéndose de librerías esenciales como scikit-image, OpenCV, scikit-learn, NumPy y TensorFlow. Explica el manejo matricial de imágenes, filtros espaciales y transformaciones morfológicas, y enseña cómo combinar rasgos extraídos con clasificadores tradicionales como AdaBoost y XGBoost, redes neuronales acopladas por pulsos (Pulse Coupled Neural Networks - PCNN) y redes neuronales convolucionales (CNN) para clasificación y reconocimiento de formas.\n\nEn la sección práctica se implementan varios casos de uso reales y pruebas de concepto: extracción y segmentación de las líneas principales de la palma de la mano con filtros Canny, detección y clasificación de rostros humanos, y seguimiento de carriles y movimiento en video para aplicaciones de transporte. Con menos de 170 páginas, es un texto muy accesible que sirve como trampolín para entender cómo integrar OpenCV con algoritmos predictivos clásicos, si bien deja fuera la optimización avanzada de modelos a gran escala y arquitecturas profundas complejas.",
+    "temas": [
+      "Python",
+      "OpenCV",
+      "scikit-image",
+      "scikit-learn",
+      "NumPy",
+      "TensorFlow",
+      "AdaBoost y XGBoost",
+      "Redes neuronales acopladas por pulsos (PCNN)",
+      "Reconocimiento facial",
+      "Biometría de palma",
+      "Detección de carriles",
+      "Seguimiento de movimiento"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Extractor biométrico de líneas de la palma",
+        "descripcion": "Módulo de análisis biométrico que preprocesa imágenes de manos con OpenCV y emplea el detector de bordes Canny para aislar las líneas principales de la palma."
+      },
+      {
+        "nombre": "Pipeline de detección y reconocimiento facial",
+        "descripcion": "Flujo de trabajo que localiza rostros mediante clasificadores Haar Cascade en OpenCV y entrena modelos supervisados en scikit-learn para reconocer identidades."
+      },
+      {
+        "nombre": "Detector de carriles y seguimiento de movimiento",
+        "descripcion": "Algoritmo de visión para transporte y videovigilancia que procesa video en tiempo real para delimitar carriles en autopistas y seguir objetos en movimiento."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4149-3",
+      "https://www.springerprofessional.de/en/practical-machine-learning-and-image-processing/16474148",
+      "https://github.com/Apress/practical-ml-image-processing"
+    ]
+  },
+  "digital-image-processing-using-python-2025": {
+    "descripcion": "Texto formativo y académico del Dr. Manish Kashyap concebido para dominar los fundamentos matemáticos y computacionales del procesamiento digital de imágenes con Python (versión 3.10+). La obra se dirige a estudiantes universitarios de ingeniería y ciencias de la computación, investigadores y programadores de nivel intermedio que dominan Python y tienen una base en cálculo diferencial y álgebra lineal, y que desean comprender la naturaleza analítica de las imágenes antes de abordar herramientas de alto nivel.\n\nEl contenido se estructura metódicamente sobre el ecosistema científico de Python, aprovechando NumPy, OpenCV, SciPy y Matplotlib. Enseña la representación discreta de imágenes, relaciones de vecindad entre píxeles, procesamiento en el dominio espacial (ajuste de contraste, ecualización de histogramas y filtrado lineal y no lineal), filtrado en el dominio frecuencial mediante la Transformada de Fourier (filtros pasa bajas y pasa altas), el papel de la fase en la reconstrucción visual, modelos de restauración de imágenes frente a degradaciones y ruido, análisis multirresolución con la Transformada Wavelet y morfología matemática binaria (dilatación, erosión, apertura y clausura).\n\nA través de abundantes ejercicios y ejemplos visuales paso a paso, el lector practica la restauración de imágenes desenfocadas o contaminadas con ruido, el filtrado selectivo en frecuencia y la segmentación morfológica de objetos. Destaca por su solidez pedagógica y por desentrañar el funcionamiento íntimo de las operaciones sobre píxeles sin recurrir a cajas negras; no obstante, prescinde deliberadamente de redes neuronales y aprendizaje profundo, centrándose exclusivamente en la disciplina clásica del tratamiento digital de señales e imágenes.",
+    "temas": [
+      "Python",
+      "NumPy",
+      "OpenCV",
+      "SciPy",
+      "Dominio espacial",
+      "Dominio frecuencial",
+      "Transformada de Fourier",
+      "Transformada Wavelet",
+      "Restauración de imágenes",
+      "Reducción de ruido",
+      "Morfología binaria",
+      "Análisis multirresolución"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bpbonline.com/products/digital-image-processing-using-python",
+      "https://www.amazon.com/dp/9365898918"
+    ]
+  },
+  "image-processing-and-cv-with-python-2nd-edition-2025": {
+    "descripcion": "Segunda edición ampliada de la obra de Sandipan Dey, planteada como una clase magistral integral que cubre desde problemas inversos y restauración matemática clásica hasta arquitecturas de aprendizaje profundo y visión artificial con Python 3. Está pensada para ingenieros de machine learning, desarrolladores e investigadores de nivel intermedio a avanzado que cuentan con una base sólida en programación con Python, cálculo multivariable y redes neuronales, y desean dominar tanto la teoría visual analítica como sus aplicaciones contemporáneas de alta exigencia.\n\nEl manual ofrece una cobertura técnica muy profunda apoyada en una amplia gama de librerías: NumPy, SciPy, OpenCV, scikit-image, scikit-learn, TensorFlow, Keras y PyTorch, junto con herramientas biomédicas especializadas como pydicom, ITK/SimpleITK y el framework nnUNet. Instruye en restauración de imágenes y regularización ante problemas inversos (deblurring, superresolución), algoritmos de inpainting para reconstruir zonas deterioradas, segmentación semántica y por instancias (U-Net y modelos convolucionales), extracción de características invariantes (SIFT, ORB), registro y alineación multimodal, y detección y reconocimiento de objetos en dominios especializados como la radiología clínica y la teledetección satelital.\n\nEn el terreno práctico se abordan proyectos completos y casos de estudio aplicados: segmentación automatizada de tumores cerebrales y lesiones pulmonares (como COVID-19) a partir de resonancias magnéticas y tomografías en formato DICOM, plataformas de registro y alineación de imágenes satelitales multiespectrales, y algoritmos de inpainting para supresión de oclusiones fotográficas. Es un recurso extraordinariamente completo y riguroso de más de 600 páginas; no obstante, requiere soltura matemática previa y disponibilidad de un entorno con GPU para entrenar y ejecutar los modelos de deep learning presentados.",
+    "temas": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "OpenCV",
+      "scikit-image",
+      "Imágenes médicas (DICOM)",
+      "SimpleITK y nnUNet",
+      "Teledetección satelital",
+      "Problemas inversos",
+      "Inpainting y restauración",
+      "Segmentación (U-Net)",
+      "Registro de imágenes"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Segmentación de tumores cerebrales en resonancias magnéticas",
+        "descripcion": "Canalización de análisis biomédico que lee archivos DICOM con SimpleITK e implementa la arquitectura nnUNet en PyTorch para delimitar con precisión tumores cerebrales y lesiones patológicas."
+      },
+      {
+        "nombre": "Registro y alineación de imágenes satelitales multiespectrales",
+        "descripcion": "Herramienta de teledetección que extrae puntos característicos invariantes con OpenCV y scikit-image para alinear y superponer capturas tomadas por distintos sensores espaciales."
+      },
+      {
+        "nombre": "Restauración e inpainting de imágenes deterioradas",
+        "descripcion": "Sistema de reconstrucción visual que modela la recuperación de imágenes como un problema inverso, eliminando defectos, artefactos u oclusiones mediante técnicas de regularización y deep learning."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bpbonline.com/products/image-processing-and-computer-vision-masterclass-with-python-2nd-edition",
+      "https://github.com/sandipan/Book-BPB-600-Image-Processing-and-Computer-Vision-Masterclass-with-Python",
+      "https://www.amazon.com/dp/9365890038"
+    ]
+  },
+  "hands-on-computer-vision-with-detectron2-2023": {
+    "descripcion": "Guía práctica orientada al desarrollo de aplicaciones de visión artificial modernas utilizando Detectron2, la biblioteca de código abierto de Facebook AI Research (FAIR) construida sobre PyTorch. La obra está dirigida a ingenieros de software, científicos de datos y practicantes de aprendizaje profundo que ya cuentan con conocimientos básicos de Python y redes neuronales, y que desean especializarse en la implementación de modelos avanzados de percepción visual sin perderse en la construcción de arquitecturas desde cero.\n\nEl libro detalla la arquitectura modular del framework y sus componentes internos, enseñando a aprovechar el Model Zoo para tareas de detección de objetos (Faster R-CNN, RetinaNet), segmentación de instancias (Mask R-CNN), detección de puntos clave (Keypoint Detection) y segmentación panóptica. Abarca la preparación de conjuntos de datos con anotaciones en formato COCO, el ajuste de hiperparámetros y optimizadores (SGD, AdamW), el seguimiento del entrenamiento con TensorBoard y técnicas de aumento de datos con el sistema AugInput (incluyendo MixUp, Mosaic y Test-Time Augmentation). En su tramo final, aborda el refinamiento de máscaras con PointRend y la puesta en producción exportando modelos con TorchScript para servidores C++, ONNX para aplicaciones web y D2Go con cuantización para dispositivos móviles.\n\nA lo largo de sus capítulos se construyen pipelines completos de entrenamiento y despliegue sobre datos personalizados, destacando un modelo de segmentación de tumores cerebrales en imágenes médicas y el empaquetado de modelos para entornos edge y navegadores. Su gran virtud es desmitificar la configuración interna y los solvers de Detectron2 con un enfoque directo de código y visualización, aunque deja fuera la fundamentación matemática de las convoluciones y arquitecturas base, asumiéndola conocida. Conviene tener soltura previa con PyTorch y familiaridad con entornos de ejecución acelerados por GPU como Google Colab.",
+    "temas": [
+      "Detectron2",
+      "PyTorch",
+      "Faster R-CNN",
+      "Mask R-CNN",
+      "Segmentación de instancias",
+      "PointRend",
+      "COCO Dataset",
+      "TensorBoard",
+      "TorchScript",
+      "ONNX",
+      "D2Go",
+      "Aumento de datos"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline personalizado de detección de objetos",
+        "descripcion": "Preparación y registro de un dataset personalizado en formato COCO para entrenar y evaluar modelos Faster R-CNN y RetinaNet con ajustes de hiperparámetros en TensorBoard."
+      },
+      {
+        "nombre": "Segmentador de tumores cerebrales con PointRend",
+        "descripcion": "Entrenamiento de un modelo de segmentación de instancias médicas con Mask R-CNN y optimización de contornos de alta resolución mediante la arquitectura PointRend."
+      },
+      {
+        "nombre": "Despliegue multiplataforma en servidor, web y móvil",
+        "descripcion": "Exportación de modelos entrenados hacia C++ mediante TorchScript, ejecución en navegadores con ONNX y adaptación para dispositivos móviles con D2Go y cuantización."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/hands-on-computer-vision-with-detectron2-9781804618776",
+      "https://github.com/PacktPublishing/Hands-On-Computer-Vision-with-Detectron2",
+      "https://www.oreilly.com/library/view/hands-on-computer-vision/9781804618776/"
+    ]
+  },
+  "machine-learning-for-audio-image-and-video-analysis-2nd-edition-2015": {
+    "descripcion": "Tratado académico riguroso que formaliza los fundamentos matemáticos y computacionales del aprendizaje automático aplicado a las tres fuentes de datos perceptuales clave: audio, imágenes fijas y secuencias de video. Publicado en su segunda edición dentro de la serie de información avanzada de Springer, el texto está concebido para estudiantes de posgrado, investigadores y desarrolladores especializados en procesamiento de señales que dispongan de una base sólida en cálculo multivariable, álgebra lineal y teoría de probabilidades.\n\nLa obra se divide en tres bloques bien diferenciados: percepción y adquisición de señales, metodologías de aprendizaje automático y aplicaciones prácticas. Enseña a extraer descriptores acústicos (como coeficientes cepstrales en la escala de Mel o MFCC y análisis de Fourier) y representaciones visuales digitales (espacios de color, filtrado espacial, gradientes y flujo óptico). En el plano algorítmico, profundiza en la teoría de decisión bayesiana, clustering (k-means y métodos espectrales), máquinas de vectores de soporte (SVM) y métodos de kernel, redes neuronales supervisadas (perceptrones multicapa y funciones de base radial), modelos de ensamble (AdaBoost), modelos ocultos de Markov (HMM) para datos secuenciales y reducción de dimensionalidad con técnicas de Manifold Learning (PCA, LDA, LLE e ISOMAP).\n\nEn su sección aplicada, analiza problemas representativos como el reconocimiento automático de voz, el reconocimiento óptico de escritura manuscrita, la identificación facial biométrica, la segmentación temporal de secuencias de video con extracción de fotogramas clave y el reconocimiento de gestos de manos en tiempo real. Su valor radica en la unificación matemática entre el procesamiento digital de señales perceptuales y los clasificadores estadísticos; no obstante, al haber sido publicado en 2015, deja fuera los avances contemporáneos del aprendizaje profundo basados en redes neuronales profundas y mecanismos de atención. Resulta indispensable como obra de consulta teórica para comprender el funcionamiento interno de los algoritmos clásicos de visión y audio.",
+    "temas": [
+      "Procesamiento de audio",
+      "Procesamiento de video",
+      "Visión por computadora",
+      "Extracción de características",
+      "MFCC",
+      "Support Vector Machines (SVM)",
+      "Modelos Ocultos de Markov (HMM)",
+      "Redes Neuronales",
+      "Clustering",
+      "Manifold Learning",
+      "Reconocimiento de voz",
+      "Reconocimiento facial"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4471-6735-8",
+      "https://www.springer.com/gp/book/9781447167341",
+      "https://books.google.com/books?id=0j-bCgAAQBAJ"
+    ]
+  },
+  "digital-image-processing-2026": {
+    "descripcion": "Texto universitario y de referencia profesional que conecta de forma integral el procesamiento clásico de imágenes digitales con las metodologías modernas de inteligencia artificial y aprendizaje automático. Escrito por Mahmood R. Azimi-Sadjadi, catedrático con décadas de investigación en señales e imágenes, el libro está diseñado para estudiantes avanzados de ingeniería eléctrica, ciencias de la computación, ingeniería biomédica y profesionales que posean formación previa en sistemas lineales, probabilidad y cálculo matricial.\n\nA través de 20 capítulos, el contenido abarca tanto las técnicas clásicas deterministas y estocásticas como los modelos modernos de redes neuronales. Explora el modelado bidimensional de imágenes, bancos de filtros, transformadas wavelets, filtrado de Wiener y filtros de Kalman para secuencias de imágenes, junto con técnicas de reconstrucción tomográfica mediante la transformada de Radon. Al adentrarse en la vertiente de inteligencia artificial, cubre el aprendizaje supervisado y no supervisado, arquitecturas multicapa, redes neuronales convolucionales (CNN), autoencoders lineales y no lineales, memorias asociativas y reducción no lineal de dimensionalidad, apoyándose en implementaciones prácticas en Python y cuadernos interactivos en Google Colab con librerías como NumPy, SciPy, OpenCV y TensorFlow/PyTorch.\n\nEl libro permite ejercitar la formulación matemática frente a problemas concretos de realce, restauración, segmentación, compresión y clasificación visual, con énfasis en aplicaciones biomédicas y de teledetección satelital. Su principal mérito radica en no tratar el deep learning como una caja negra aislada, sino como una evolución natural de las transformadas y el filtrado espacial multivariable. Deja fuera el desarrollo de interfaces o el despliegue comercial de software, concentrándose en el modelado algorítmico y matemático. Es conveniente contar con soltura en programación con Python científico antes de abordar sus prácticas.",
+    "temas": [
+      "Procesamiento digital de imágenes",
+      "Python",
+      "Google Colab",
+      "Transformada Wavelet",
+      "Filtros de Wiener y Kalman",
+      "Reconstrucción tomográfica",
+      "Redes convolucionales (CNN)",
+      "Autoencoders",
+      "Segmentación de imágenes",
+      "Imágenes médicas",
+      "Teledetección",
+      "Restauración de imágenes"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Digital+Image+Processing%3A+Theory%2C+Practice%2C+and+AI+Applications-p-9781394240449",
+      "https://books.google.com/books/about/Digital_Image_Processing.html?id=oG4VEQAAQBAJ"
+    ]
+  }
+}

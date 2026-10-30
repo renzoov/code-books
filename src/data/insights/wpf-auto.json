@@ -1,0 +1,141 @@
+{
+  "applied-wpf-4-in-context-2011": {
+    "descripcion": "Tratado técnico y práctico sobre desarrollo de interfaces empresariales con Windows Presentation Foundation escrito por Raffaele Garofalo y publicado por Apress en 2011. Aplica WPF 4 en escenarios corporativos reales.\n\nAborda el patrón MVVM (Model-View-ViewModel), enlace de datos bidireccional (data binding), plantillas de datos (`DataTemplates`), estilos visuales, comportamientos de Blend e integración con servicios de datos WCF.\n\nRaffaele Garofalo ofrece un enfoque riguroso centrado en el desacoplamiento entre el diseño visual en XAML y la lógica de negocio en C#. Una lectura formativa muy sólida para ingenieros de cliente rico.",
+    "temas": [
+      "WPF 4",
+      "MVVM",
+      "XAML",
+      "DataTemplates",
+      "WCF",
+      "Raffaele Garofalo",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Empresarial de Facturación con Arquitectura MVVM en WPF",
+        "descripcion": "Construcción de un cliente de escritorio desacoplado con validación de datos, estilos temáticos y consumo de servicios WCF."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-3469-2"
+    ]
+  },
+  "ilustrated-wpf-2009": {
+    "descripcion": "Manual gráfico e ilustrado de aprendizaje de Windows Presentation Foundation escrito por Daniel Solis y publicado por Apress en 2009. Descompone los conceptos de WPF y XAML mediante esquemas visuales claros.\n\nExplora la jerarquía de elementos de XAML, árboles visuales y lógicos, propiedades de dependencia (`DependencyProperties`), eventos enrutados (`RoutedEvents`), transformaciones geométricas y animación.\n\nDaniel Solis destaca por su inigualable claridad visual que permite asimilar en segundos los mecanismos internos que diferencian a WPF de Windows Forms clásico. Excelente para estudiantes y programadores con memoria visual.",
+    "temas": [
+      "Illustrated WPF",
+      "XAML",
+      "DependencyProperties",
+      "RoutedEvents",
+      "Árbol Visual",
+      "Daniel Solis",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-1911-8"
+    ]
+  },
+  "practical-wpf-charts-and-graphics-2009": {
+    "descripcion": "Manual exhaustivo sobre visualización científica y financiera en 2D y 3D escrito por el Dr. Jack Xu y publicado por UniCAD / Apress en 2009. Enseña a construir gráficos de alto rendimiento en WPF.\n\nCubre primitivas gráficas vectoriales en XAML, gráficos de líneas, barras, áreas y sectores, gráficos de cotizaciones bursátiles (velas japonesas), superficies y modelos tridimensionales con Viewport3D, y optimizaciones de hardware con DirectX.\n\nEl Dr. Jack Xu combina rigor matemático con implementaciones completas en C# y XAML, prescindiendo de librerías comerciales de terceros. La referencia obligada para desarrolladores de gráficos y telemetría en WPF.",
+    "temas": [
+      "WPF Charts",
+      "Gráficos 2D y 3D",
+      "Viewport3D",
+      "Visualización Científica",
+      "DirectX",
+      "Jack Xu"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite Gráfica Financiera y Visualizador de Superficies 3D",
+        "descripcion": "Implementación de controles de gráficos interactivos con zoom, desplazamiento y renderizado de mallas tridimensionales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-2475-4"
+    ]
+  },
+  "pro-wpf-4-5-in-c-4th-edition-2012": {
+    "descripcion": "Cuarta edición de la monumental enciclopedia técnica de más de 1.000 páginas escrita por Matthew MacDonald y publicada por Apress en 2012. Considerada unánimemente la biblia indiscutida de WPF.\n\nProfundiza en XAML, propiedades de dependencia, eventos enrutados, maquetación avanzada con paneles personalizados, enlaces de datos complejos, estilos y plantillas de control (`ControlTemplates`), gráficos vectoriales, animación y arquitectura MVVM.\n\nMatthew MacDonald ofrece una explicación exhaustiva de cada subsistema de presentación, respaldada por cientos de ejemplos de producción minuciosamente probados. La obra de referencia obligada para cualquier ingeniero de software en WPF.",
+    "temas": [
+      "Pro WPF",
+      "WPF 4.5",
+      "XAML",
+      "MVVM",
+      "ControlTemplates",
+      "Matthew MacDonald",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Cliente de Escritorio Empresarial con Controles Personalizados y MVVM",
+        "descripcion": "Construcción completa de una aplicación corporativa con plantillas de control avanzadas, temas dinámicos y navegación modular."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-4366-3"
+    ]
+  },
+  "wpf-4-unleashed-2010": {
+    "descripcion": "Tratado canónico, a todo color y de máxima autoridad sobre Windows Presentation Foundation escrito por Adam Nathan y publicado por Sams Publishing en 2010. Una obra maestra en la literatura técnica de interfaces de usuario.\n\nAborda los fundamentos de XAML, el modelo de contenido de elementos, paneles de diseño, árboles visuales y lógicos, propiedades de dependencia, recursos binarios y dinámicos, gráficos 2D y 3D, animación fluida y el patrón MVVM.\n\nAdam Nathan, miembro destacado del equipo de diseño de WPF en Microsoft, explica con excepcional lucidez cómo la aceleración por hardware de DirectX transforma la interfaz gráfica en Windows. Un clásico venerado e insustituible.",
+    "temas": [
+      "WPF Unleashed",
+      "Adam Nathan",
+      "XAML",
+      "DirectX",
+      "MVVM",
+      "Sams Publishing"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Reproductor Multimedia y Galería 3D Acelerada por Hardware",
+        "descripcion": "Desarrollo de una interfaz interactiva enriquecida con animaciones vectoriales, vídeo y transformaciones en perspectiva."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "professional-wpf-programming-2007": {
+    "descripcion": "Manual exhaustivo y formativo sobre la primera generación de Windows Presentation Foundation escrito por Chris Andrade, Shawn Livermore, Mike Meyers y Scott Van Vliet, publicado por Wrox / Wiley en 2007.\n\nDesarrolla los cimientos de la arquitectura XAML en .NET 3.0, creación de ventanas y cuadros de diálogo, integración con Windows Forms clásico mediante interoperabilidad (`WindowsFormsHost`), y enlace de datos a colecciones y objetos de negocio.\n\nLos autores aportan un enfoque práctico para desarrolladores corporativos en transición desde la programación de formularios tradicionales hacia las interfaces vectoriales enriquecidas. Una referencia técnica e histórica clave.",
+    "temas": [
+      "WPF",
+      ".NET 3.0",
+      "XAML",
+      "WindowsFormsHost",
+      "Data Binding",
+      "Wrox",
+      "Wiley"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de Registro y Gestión con Interfaz Híbrida WPF y WinForms",
+        "descripcion": "Construcción de un cliente de escritorio que combina controles heredados de Windows Forms con vistas estilizadas en XAML."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

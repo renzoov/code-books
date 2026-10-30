@@ -1,0 +1,64 @@
+---
+import BookCover from './BookCover.astro';
+import { getInsight, bookHref, authorsText, ENFOQUE_LABEL, type Book } from '../lib/data';
+
+interface Props {
+  book: Book;
+}
+const { book } = Astro.props;
+const insight = await getInsight(book.slug, book.techSlug);
+// Barra de extensión: llena = 900 páginas o más.
+const MAX_PAGES = 900;
+const pct = book.paginas ? Math.min(100, Math.round((book.paginas / MAX_PAGES) * 100)) : 0;
+const size = (p: number) =>
+  p < 200 ? 'breve' : p < 400 ? 'media' : p < 650 ? 'extensa' : p < MAX_PAGES ? 'muy extensa' : 'muy extensa, de las más largas';
+const extentSize = book.paginas ? `Extensión ${size(book.paginas)}` : '';
+const extentScale = `La barra se llena con ${MAX_PAGES} páginas o más`;
+const extentLabel = `${extentSize}. ${extentScale}`;
+---
+
+<a
+  href={bookHref(book)}
+  data-book={`${book.techSlug}-${book.slug}`}
+  class="group flex gap-4 rounded-xl border border-line bg-panel p-4 transition hover:border-[var(--accent)] hover:bg-panel/60 sm:gap-5"
+>
+  <BookCover book={book} width={160} class="w-24 shrink-0 sm:w-32" />
+  <div class="flex min-w-0 flex-1 flex-col gap-2">
+    <h3 class="text-lg font-bold leading-snug group-hover:text-[var(--accent)]">
+      {book.titulo}
+    </h3>
+    <p class="text-sm text-[#cdd3df]">
+      {authorsText(book)}
+    </p>
+    <p class="font-mono text-xs text-muted">
+      {book.editorial ?? 'Editorial n/d'}{book.anio ? ` · ${book.anio}` : ''}
+    </p>
+    {
+      book.paginas && (
+        <div class="font-mono text-xs text-muted">
+          <div class="mb-1">~{book.paginas} págs</div>
+          <div class="group/extent relative w-full max-w-48 py-1" role="img" aria-label={extentLabel}>
+            <div class="h-1 w-full rounded bg-line">
+              <div class="h-1 rounded bg-[var(--accent)]" style={`width:${pct}%`} />
+            </div>
+            <span
+              class="pointer-events-none absolute bottom-full left-0 z-10 mb-1.5 whitespace-nowrap rounded-md border border-line bg-ink px-2 py-1 text-[11px] text-[#e7e9ee] opacity-0 shadow-lg shadow-black/40 transition group-hover/extent:opacity-100"
+              aria-hidden="true"
+            >
+              <span class="block font-semibold">{extentSize}</span>
+              <span class="block text-muted">{extentScale}</span>
+            </span>
+          </div>
+        </div>
+      )
+    }
+    <div class="mt-auto flex flex-wrap gap-1.5 pt-1 font-mono text-[11px]">
+      {book.nivel && <span class="rounded-full border border-line px-2 py-0.5">{book.nivel}</span>}
+      {
+        insight && (
+          <span class="rounded-full border border-line px-2 py-0.5">{ENFOQUE_LABEL[insight.enfoque]}</span>
+        )
+      }
+    </div>
+  </div>
+</a>

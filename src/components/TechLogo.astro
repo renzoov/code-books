@@ -1,0 +1,16 @@
+---
+// Logo de una tecnología, tomado del sprite /tech-logos.svg (ver src/lib/logos.ts). Se pinta con
+// currentColor, así que hereda el color de la sección.
+import type { HTMLAttributes } from 'astro/types';
+import { LOGOS } from '../lib/logos';
+
+interface Props extends HTMLAttributes<'svg'> {
+  tech: string;
+}
+const { tech, ...rest } = Astro.props;
+const logo = LOGOS[tech];
+---
+
+<svg viewBox="0 0 24 24" role="img" aria-label={logo?.title ?? tech} {...rest}>
+  <use href={`/tech-logos.svg#${logo ? tech : 'fallback'}`} />
+</svg>

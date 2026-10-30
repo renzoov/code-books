@@ -1,0 +1,139 @@
+{
+  "programming-excel-with-vba-2016": {
+    "descripcion": "Manual exhaustivo y didáctico de automatización con macros escrito por Flávio Morgado y publicado por Apress en 2016. Enseña a programar hojas de cálculo inteligentes utilizando Visual Basic for Applications (VBA).\n\nAborda el modelo de objetos de Excel (Application, Workbook, Worksheet, Range), diseño de formularios de usuario interactivos (UserForms), validación de datos, tratamiento de errores con `On Error`, y generación de reportes automáticos.\n\nFlávio Morgado desglosa cada concepto con capturas de pantalla y ejemplos empresariales reales, permitiendo a los usuarios transformar procesos contables manuales en sistemas automatizados y fiables. Muy recomendado para analistas de negocio.",
+    "temas": [
+      "Excel VBA",
+      "Macros",
+      "UserForms",
+      "Modelo de Objetos Excel",
+      "Flávio Morgado",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema Automatizado de Conciliación y Facturación en Excel VBA",
+        "descripcion": "Construcción de una herramienta con UserForms para captura de datos, conciliación de cuentas y exportación de PDFs."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2097-9"
+    ]
+  },
+  "excel-2016-power-programming-with-vba-2016": {
+    "descripcion": "Tratado canónico y enciclopédico de más de 1.000 páginas escrito por Michael Alexander y Richard Kusleika, publicado por Wiley en 2016. Continuación de la legendaria serie creada por John Walkenbach ('Mr. Spreadsheet').\n\nCubre la totalidad de la programación avanzada en Excel: manipulación del DOM de Excel, funciones personalizadas de hoja de cálculo (UDFs), automatización de gráficos y tablas dinámicas (PivotTables), eventos de aplicación, y creación de complementos (.xlam).\n\nLos autores aportan décadas de experiencia en consultoría corporativa, ofreciendo soluciones optimizadas que aceleran la ejecución de macros complejas sin bloquear la interfaz. La biblia indiscutida de la programación en Excel con VBA.",
+    "temas": [
+      "Power Programming",
+      "Excel 2016",
+      "VBA",
+      "PivotTables",
+      "Add-Ins",
+      "Michael Alexander",
+      "Wiley"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Complemento Corporativo (.xlam) de Auditoría de Modelos Financieros",
+        "descripcion": "Desarrollo de un add-in para Excel con menú en la cinta Ribbon que analiza fórmulas y detecta inconsistencias contables."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "excel-vba-programming-for-dummies-3rd-edition-2013": {
+    "descripcion": "Tercera edición del popular manual introductorio escrito por John Walkenbach ('Mr. Spreadsheet') y publicado por For Dummies / Wiley en 2013. Diseñado para aprender a programar macros desde cero sin complicaciones.\n\nEnseña a grabar y editar macros, comprender el editor de Visual Basic (VBE), estructuras de control `For Next` y `If Then`, manipular rangos de celdas y diseñar cuadros de diálogo sencillos.\n\nJohn Walkenbach combina un estilo ameno y relajado con consejos de sentido común que evitan errores habituales en principiantes. Un punto de partida sumamente reconfortante para automatizar tareas en Excel.",
+    "temas": [
+      "Excel VBA",
+      "For Dummies",
+      "Macros",
+      "VBE",
+      "John Walkenbach",
+      "Wiley"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Macro de Limpieza y Formateo Automatizado de Tablas de Ventas",
+        "descripcion": "Construcción de un script en VBA para estandarizar fuentes, colores y totales en reportes descargados de ERPs."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "excel-vba-programming-for-dummies-5th-edition-2019": {
+    "descripcion": "Quinta edición actualizada del exitoso manual de John Walkenbach, renovada por Michael Alexander y publicada por For Dummies / Wiley en 2019. Adaptada para las versiones modernas de Excel y Office 365.\n\nProfundiza en la interacción con datos externos, creación de funciones personalizadas avanzadas, depuración interactiva en el VBE y diseño de formularios de usuario intuitivos.\n\nMichael Alexander conserva la claridad y sencillez didáctica original de Walkenbach mientras incorpora mejores prácticas contemporáneas para el análisis de datos corporativo. Excelente para autodidactas.",
+    "temas": [
+      "Excel VBA",
+      "Office 365",
+      "Macros",
+      "UserForms",
+      "Michael Alexander",
+      "Wiley"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Generador Automatizado de Informes Mensuales con UserForms",
+        "descripcion": "Implementación de una macro con ventana interactiva para filtrar períodos y exportar libros consolidados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mastering-vba-for-microsoft-office-2016-3rd-edition-2016": {
+    "descripcion": "Tercera edición del tratado exhaustivo sobre automatización de la suite ofimática completa escrito por Richard Mansfield y publicado por Sybex / Wiley en 2016. Abarca Excel, Word, Access, Outlook y PowerPoint.\n\nEnseña la sintaxis de VBA, APIs comunes de Office, intercambio de datos entre aplicaciones mediante automatización COM/OLE (por ejemplo, generar presentaciones PowerPoint desde datos de Excel), y control de bases de datos Access.\n\nRichard Mansfield ofrece un enfoque unificado que enseña a dominar el lenguaje en lugar de limitarse a una sola aplicación, dotando al lector de una visión completa de la automatización en el entorno corporativo. Muy recomendado.",
+    "temas": [
+      "Mastering VBA",
+      "Office 2016",
+      "Word VBA",
+      "Access VBA",
+      "Outlook Automation",
+      "Richard Mansfield",
+      "Wiley"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Generación de Informes Ejecutivos Cruzados (Excel a PowerPoint)",
+        "descripcion": "Desarrollo de un script VBA que extrae datos tabulares en Excel y ensambla automáticamente diapositivas PowerPoint con gráficos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "excel-vba-24-hour-trainer-2nd-edition-2015": {
+    "descripcion": "Segunda edición del manual didáctico interactivo escrito por Tom Urtis y publicado por Wrox / Wiley en 2015. Estructurado en lecciones prácticas de fácil asimilación para dominar la programación de macros en Excel.\n\nAborda el entorno VBE, variables, bucles, eventos a nivel de hoja y libro, UserForms, conexión con bases de datos externas con ADO y personalización de la cinta Ribbon de Office mediante RibbonX.\n\nTom Urtis, Microsoft Excel MVP, aporta un enfoque práctico basado en laboratorios paso a paso con vídeos de soporte que consolidan cada habilidad técnica de forma ágil. Una referencia formativa muy accesible.",
+    "temas": [
+      "Excel VBA",
+      "24-Hour Trainer",
+      "RibbonX",
+      "ADO",
+      "Tom Urtis",
+      "Wrox",
+      "Wiley"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Panel de Control con Botones Personalizados en la Cinta Ribbon",
+        "descripcion": "Construcción de una barra Ribbon personalizada con macros asociadas para el filtrado rápido de datos financieros."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

@@ -1,0 +1,1496 @@
+{
+  "pyspark-recipes-2017": {
+    "descripcion": "Guía práctica de Raju Kumar Mishra orientada a resolver problemas comunes de procesamiento distribuido de datos a gran escala mediante PySpark y Python.\n\nEl autor recopila recetas prácticas para la configuración de entornos Spark, manipulación de Resilient Distributed Datasets (RDDs), transformaciones y acciones distribuidas, carga de datos desde HDFS y S3, y algoritmos básicos de Machine Learning con Spark MLlib. Cada receta incluye el código fuente comprobado y la explicación de su ejecución en el clúster.\n\nUna excelente referencia de consulta rápida para científicos de datos y desarrolladores de Python que comienzan a trabajar con Apache Spark.",
+    "temas": [
+      "PySpark",
+      "Apache Spark",
+      "Python",
+      "RDD",
+      "MLlib",
+      "HDFS",
+      "Big Data",
+      "Procesamiento Distribuido"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pyspark-sql-recipes-2019": {
+    "descripcion": "Recetario especializado de Raju Kumar Mishra y Sundar Rajan Raman dedicado al análisis y manipulación de datos tabulares distribuidos con el módulo Spark SQL de PySpark.\n\nLos autores enseñan a crear y transformar DataFrames y Datasets, registrar vistas temporales, formular consultas SQL complejas con funciones de ventana (window functions) y expresiones analíticas, e interactuar con fuentes de datos estructuradas como Parquet, ORC, JSON y bases de datos relacionales mediante JDBC. Además, aborda la optimización de consultas mediante el optimizador Catalyst.\n\nIndispensable para analistas e ingenieros de datos que buscan ejecutar analítica SQL sobre terabytes de información con máxima velocidad.",
+    "temas": [
+      "Spark SQL",
+      "PySpark",
+      "DataFrames",
+      "Catalyst Optimizer",
+      "Parquet",
+      "Window Functions",
+      "JDBC",
+      "Big Data"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "practical-cassandra-2013": {
+    "descripcion": "Manual práctico de Eric Lubow y Russell Bradberry sobre Apache Cassandra, la base de datos NoSQL distribuida y altamente escalable diseñada para disponibilidad continua.\n\nLos autores desglosan la arquitectura descentralizada sin maestro (masterless ring), el protocolo Gossip, la función de particionamiento con Consistent Hashing, el modelado orientado a consultas con Cassandra Query Language (CQL), y el funcionamiento de la memoria (Memtables, CommitLogs y SSTables). Muestra cómo configurar la consistencia ajustable y el factor de replicación.\n\nUna guía formativa fundamental para ingenieros de sistemas y arquitectos que diseñan sistemas con tolerancia a caídas de servidores sin pérdida de servicio.",
+    "temas": [
+      "Apache Cassandra",
+      "NoSQL",
+      "CQL",
+      "SSTables",
+      "Gossip Protocol",
+      "Consistent Hashing",
+      "Alta Disponibilidad",
+      "Big Data"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Clúster multi-nodo Cassandra para ingesta de registros en tiempo real",
+        "descripcion": "Configuración de un anillo Cassandra de tres nodos con tablas modeladas para consultas por clave de partición y consistencia ajustable."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "apache-solr-2015": {
+    "descripcion": "Guía práctica de Dikshant Shahi orientada a la implementación y configuración de Apache Solr como motor de búsqueda empresarial distribuido y de texto completo.\n\nEl autor enseña a modelar esquemas de búsqueda (schema.xml / managed-schema), configurar analizadores léxicos, tokenizadores y filtros de texto, realizar búsquedas facetadas, resaltado de términos (highlighting) y ordenamiento por relevancia. Además, aborda la arquitectura distribuida SolrCloud coordinada mediante Apache ZooKeeper para alta disponibilidad.\n\nMuy recomendable para desarrolladores backend y arquitectos que necesitan dotar a sus aplicaciones web de un buscador rápido, escalable y tolerante a fallos.",
+    "temas": [
+      "Apache Solr",
+      "Lucene",
+      "SolrCloud",
+      "ZooKeeper",
+      "Búsqueda Facetada",
+      "Indexación Textual",
+      "Tokenizadores",
+      "Motor de Búsqueda"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de búsqueda de comercio electrónico con SolrCloud",
+        "descripcion": "Construcción de un clúster de búsqueda con filtros facetados por categoría y precio, autocompletado y tolerancia a fallos con ZooKeeper."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "beginning-apache-cassandra-development-2014": {
+    "descripcion": "Manual introductorio y accesible de Vivek Mishra diseñado para enseñar a desarrollar aplicaciones conectadas a Apache Cassandra mediante Java y CQL.\n\nEl autor explica la diferencia entre el modelado relacional y el modelado NoSQL impulsado por consultas, las claves primarias compuestas y de partición, el controlador Java nativo de Datastax, y cómo evitar antipatrones como el filtrado con ALLOW FILTERING en producción. Incluye directrices de administración básica y monitorización con nodetool.\n\nIdeal para desarrolladores de software que se inician en bases de datos de columnas anchas (wide-column store) para aplicaciones de alto volumen de escritura.",
+    "temas": [
+      "Apache Cassandra",
+      "Vivek Mishra",
+      "CQL",
+      "Java Driver",
+      "Data Modeling",
+      "Partition Keys",
+      "nodetool",
+      "NoSQL"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servicio de historial de actividad de usuarios en Cassandra",
+        "descripcion": "Desarrollo de una API en Java que registra eventos de navegación de usuarios persistidos en Cassandra con particionamiento por ID de usuario y fecha."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "beginning-apache-pig-2016": {
+    "descripcion": "Guía didáctica de Balaswamy Vaddeman sobre Apache Pig y su lenguaje de flujo de datos declarativo Pig Latin para el procesamiento masivo de información en Hadoop.\n\nEl autor enseña a transformar grandes volúmenes de datos sin la complejidad de escribir programas MapReduce en Java: carga de archivos desde HDFS, filtros, agrupaciones (GROUP BY), uniones (JOIN), ordenamientos y generación de resúmenes analíticos. Además, explica cómo extender Pig Latin mediante funciones definidas por el usuario (UDFs) en Java y Python.\n\nUna excelente opción formativa para analistas e ingenieros de datos que procesan lotes masivos de datos en clústeres Hadoop tradicionales.",
+    "temas": [
+      "Apache Pig",
+      "Pig Latin",
+      "Hadoop",
+      "MapReduce",
+      "UDF",
+      "HDFS",
+      "ETL",
+      "Big Data"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline ETL para procesamiento de logs de servidores web con Pig",
+        "descripcion": "Implementación de scripts Pig Latin que filtran registros de acceso HTTP, analizan códigos de error y calculan IPs con mayor tráfico."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "beginning-apache-spark-using-azure-databricks-2020": {
+    "descripcion": "Manual práctico de Robert Ilijason enfocado en el desarrollo de canalizaciones de análisis de datos con Apache Spark sobre la plataforma en la nube Azure Databricks.\n\nEl autor enseña a aprovisionar clústeres elásticos en Databricks, crear cuadernos interactivos (Notebooks) en PySpark y Spark SQL, conectar fuentes de almacenamiento Azure Data Lake Storage (ADLS Gen2), y aplicar transformaciones de datos distribuidas. Cubre la colaboración entre equipos de datos y la orquestación mediante Azure Data Factory.\n\nRecomendado para analistas de datos e ingenieros cloud que implementan lagos de datos modernos en la nube de Microsoft.",
+    "temas": [
+      "Azure Databricks",
+      "Apache Spark",
+      "PySpark",
+      "Azure Data Lake",
+      "Data Factory",
+      "Notebooks",
+      "Cloud Analytics",
+      "ETL"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Canalización de ingesta y transformación en Azure Databricks",
+        "descripcion": "Construcción de un flujo automatizado que ingiere datos brutos desde ADLS Gen2, ejecuta transformaciones en PySpark y genera tablas delta analíticas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "practical-hive-2016": {
+    "descripcion": "Tratado técnico exhaustivo de Andreas François Vermeulen, Ankur Gupta, David Kjerrumgaard y Scott Shaw sobre Apache Hive, el almacén de datos (Data Warehouse) distribuido sobre Hadoop.\n\nLos autores analizan el lenguaje HiveQL, la arquitectura del metastore, el diseño de esquemas (tablas internas vs externas), particionamiento y bucketing de datos para optimizar lecturas, y los motores de ejecución MapReduce y Apache Tez. Dedica capítulos clave a formatos de almacenamiento columnar de alto rendimiento como ORC y Parquet con compresión Snappy.\n\nIndispensable para ingenieros de Big Data y administradores de lagos de datos que gestionan consultas analíticas SQL a gran escala.",
+    "temas": [
+      "Apache Hive",
+      "HiveQL",
+      "Hadoop",
+      "ORC",
+      "Parquet",
+      "Apache Tez",
+      "Metastore",
+      "Data Warehousing"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Data Warehouse analítico optimizado con Hive y formato ORC",
+        "descripcion": "Diseño de un esquema dimensional con particionamiento por fecha y bucketing por cliente, optimizado para consultas rápidas sobre clúster Hadoop."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-apache-hadoop-2nd-edition-2014": {
+    "descripcion": "Segunda edición del tratado técnico de Sameer Wadkar, Madhu Siddalingaiah y Jason Venner sobre el ecosistema empresarial de Apache Hadoop 2.x y YARN.\n\nLos autores profundizan en la arquitectura del sistema de archivos distribuido HDFS (NameNode, DataNode, alta disponibilidad con QJM), el gestor de recursos centralizado YARN (ResourceManager, NodeManager), programación de jobs MapReduce en Java, y la integración de componentes del ecosistema como HBase, Hive y Pig. Incluye pautas sobre seguridad con Kerberos y despliegues en producción.\n\nUna referencia técnica clásica fundamental para arquitectos e ingenieros de infraestructura de Big Data.",
+    "temas": [
+      "Apache Hadoop",
+      "HDFS",
+      "YARN",
+      "MapReduce",
+      "HBase",
+      "Kerberos",
+      "QJM",
+      "Big Data Architecture"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Clúster Hadoop de alta disponibilidad con NameNode federado",
+        "descripcion": "Configuración de un entorno distribuido con conmutación automática por error mediante ZooKeeper y ejecución de trabajos MapReduce paralelos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-apache-jmeter-2017": {
+    "descripcion": "Guía especializada de Sai Matam y Jagdeep Jain dedicada a la ejecución y automatización de pruebas de carga, rendimiento y estrés con Apache JMeter.\n\nLos autores enseñan a diseñar planes de prueba realistas: grupos de hilos (Thread Groups), controladores lógicos, muestreadores HTTP/REST, aserciones de respuesta, temporizadores y parametrización mediante archivos CSV. Además, abordan la ejecución distribuida maestro-esclavo para generar millones de peticiones concurrentes y la integración de pruebas en pipelines de CI/CD.\n\nLectura esencial para ingenieros de control de calidad (QA Performance) y desarrolladores backend que deben certificar la estabilidad de sus servicios bajo tráfico extremo.",
+    "temas": [
+      "Apache JMeter",
+      "Pruebas de Carga",
+      "Performance Testing",
+      "Thread Groups",
+      "CI/CD",
+      "Stress Testing",
+      "Pruebas Distribuidas",
+      "APIs"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite distribuida de pruebas de estrés para una plataforma de pagos",
+        "descripcion": "Diseño de un plan de pruebas JMeter que simula decenas de miles de usuarios concurrentes realizando transacciones bancarias y mide tiempos de respuesta."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-apache-netbeans-2019": {
+    "descripcion": "Tratado técnico y colaborativo liderado por Geertjan Wielenga, Josh Juneau y otros reconocidos expertos de la comunidad sobre el IDE Apache NetBeans para desarrollo profesional en Java y polyglot.\n\nLos autores analizan las herramientas del entorno: desarrollo para Java SE, Jakarta EE, módulos Java (JPMS), integración nativa con Maven y Gradle, depuración avanzada y perfiles de rendimiento con NetBeans Profiler. Además, enseña a extender el IDE mediante la plataforma modular NetBeans Platform y la creación de plugins personalizados.\n\nUna referencia exhaustiva para desarrolladores Java que utilizan NetBeans como su entorno de ingeniería principal.",
+    "temas": [
+      "Apache NetBeans",
+      "Java",
+      "Jakarta EE",
+      "Maven",
+      "Gradle",
+      "Profiler",
+      "NetBeans Platform",
+      "IDE"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Extensión personalizada de productividad para Apache NetBeans",
+        "descripcion": "Desarrollo de un plugin modular que añade acciones contextuales y plantillas de código para el desarrollo ágil de microservicios."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-spark-streaming-2016": {
+    "descripcion": "Manual avanzado de Zubair Nabi dedicado a la ingestión y análisis de datos en tiempo real mediante el módulo Spark Streaming de Apache Spark.\n\nEl autor desmenuza el modelo de micro-lotes (DStreams), operaciones con ventanas deslizantes temporales (window operations), transformaciones de estado con updateStateByKey y mapWithState, y la integración robusta con sistemas de mensajería como Apache Kafka y Flume. Aborda garantías de procesamiento de datos exactly-once mediante checkpoints de metadatos y almacenamiento fiable.\n\nIndispensable para ingenieros de streaming y científicos de datos que procesan feeds continuos de transacciones financieras, clics o sensores IoT.",
+    "temas": [
+      "Spark Streaming",
+      "DStreams",
+      "Apache Kafka",
+      "Micro-Batches",
+      "Exactly-Once",
+      "Window Operations",
+      "Tiempo Real",
+      "Big Data"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de detección de anomalías en streaming con Kafka y Spark",
+        "descripcion": "Implementación de una canalización que consume eventos de red desde Kafka, calcula métricas en ventanas de 60 segundos y emite alertas en vivo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "nosql-web-development-with-apache-cassandra-2015": {
+    "descripcion": "Guía práctica de Deepak Vohra sobre el desarrollo de aplicaciones web de alta concurrencia respaldadas por la base de datos NoSQL Apache Cassandra.\n\nEl libro cubre la interacción desde lenguajes como Java y Node.js, el diseño de esquemas en CQL optimizados para patrones de lectura específicos, operaciones asíncronas con controladores de Datastax, y la integración con frameworks web MVC. Explica cómo gestionar la consistencia eventual y evitar los bloqueos de concurrencia típicos de bases de datos relacionales.\n\nMuy útil para programadores web que necesitan construir capas de persistencia para millones de usuarios simultáneos.",
+    "temas": [
+      "Apache Cassandra",
+      "Deepak Vohra",
+      "Web Development",
+      "CQL",
+      "Java",
+      "Node.js",
+      "NoSQL",
+      "Datastax Driver"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal web de noticias de alta concurrencia con backend Cassandra",
+        "descripcion": "Desarrollo de un sistema web con catálogo de artículos y comentarios concurrentes persistidos en tablas desnormalizadas en Cassandra."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "apache-cordova-in-action-2015": {
+    "descripcion": "Manual práctico de Raymond K. Camden sobre Apache Cordova (PhoneGap), la tecnología pionera que permitió construir aplicaciones móviles híbridas utilizando HTML5, CSS3 y JavaScript.\n\nEl autor enseña a configurar el CLI de Cordova, compilar proyectos para iOS y Android desde una única base de código web, y acceder a capacidades nativas del hardware del dispositivo mediante plugins oficiales: cámara, acelerómetro, geolocalización, notificaciones locales y almacenamiento de archivos. Aborda la depuración remota en navegadores y emuladores.\n\nUna referencia técnica histórica de gran impacto para comprender el auge del desarrollo móvil híbrido multiplataforma.",
+    "temas": [
+      "Apache Cordova",
+      "PhoneGap",
+      "Raymond Camden",
+      "Móvil Híbrido",
+      "HTML5",
+      "Plugins Cordova",
+      "iOS y Android",
+      "Manning"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación móvil de captura y geolocalización fotográfica con Cordova",
+        "descripcion": "Construcción de una app híbrida que utiliza el plugin de cámara nativa y GPS para tomar fotos y ubicarlas sobre un mapa interactivo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "camel-in-action-2nd-edition-2019": {
+    "descripcion": "Segunda edición monumental y canónica del bestseller de Claus Ibsen y Jonathan Anstey (desarrolladores principales del proyecto), considerada la biblia indiscutible de Apache Camel y los patrones de integración empresarial (EIP).\n\nLos autores analizan en profundidad el motor de enrutamiento y mediación: diseño de rutas mediante DSLs en Java y XML, transformación de mensajes, transformadores de datos, gestión robusta de errores y reintentos, y uso de más de 300 componentes conectores (Kafka, JMS, HTTP, bases de datos, AWS). Cubre microservicios con Spring Boot, Camel Quarkus para compilación nativa y pruebas automatizadas con Camel Test.\n\nLectura obligatoria y referente mundial para ingenieros de integración, arquitectos de software y desarrolladores backend empresariales.",
+    "temas": [
+      "Apache Camel",
+      "Claus Ibsen",
+      "Enterprise Integration Patterns",
+      "EIP",
+      "Rutas DSL",
+      "Spring Boot",
+      "Microservicios",
+      "Manning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Bus de integración empresarial desacoplado con Apache Camel y Kafka",
+        "descripcion": "Diseño de un ecosistema de rutas que transforma formatos XML heredados a JSON, filtra mensajes no válidos y publica eventos en tópicos Kafka."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "event-streams-in-action-2019": {
+    "descripcion": "Tratado técnico y arquitectónico de Alexander Dean y Valentin Crettaz sobre el diseño e implementación de sistemas basados en flujos continuos de eventos en tiempo real.\n\nLos autores exploran los fundamentos del procesamiento de eventos: modelado de eventos inmutables, patrones de captura de cambios de datos (CDC), canalizaciones de procesamiento unificado con Apache Kafka y Kafka Streams, almacenamiento en lagos de datos y enriquecimiento en vuelo. Se analizan casos de uso como análisis de comportamiento de usuarios en vivo y detección de fraudes.\n\nIndispensable para arquitectos de datos y desarrolladores backend que diseñan arquitecturas orientadas a eventos de gran volumen.",
+    "temas": [
+      "Event Streaming",
+      "Apache Kafka",
+      "Kafka Streams",
+      "CDC",
+      "Inmutabilidad",
+      "Event-Driven",
+      "Manning",
+      "Big Data"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Canalización de procesamiento de eventos de clics de usuarios en tiempo real",
+        "descripcion": "Implementación de una arquitectura de streaming que ingiere millones de eventos web, agrega sesiones en ventanas de tiempo y alerta sobre carritos abandonados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "hadoop-in-action-2011": {
+    "descripcion": "Obra clásica y fundacional de Chuck Lam que introdujo de forma brillante la programación distribuida con Apache Hadoop y el modelo MapReduce en Java.\n\nEl autor enseña la anatomía del procesamiento distribuido: división de datos en bloques HDFS, fases de mapeo (Map), ordenamiento/particionamiento (Shuffle & Sort) y reducción (Reduce). Explica cómo resolver problemas algorítmicos complejos como índices invertidos, cálculo de PageRank y procesamiento de grafos sobre clústeres de servidores commodity.\n\nUna referencia técnica histórica fundamental para entender el nacimiento y los pilares conceptuales del movimiento Big Data.",
+    "temas": [
+      "Hadoop in Action",
+      "Chuck Lam",
+      "MapReduce",
+      "HDFS",
+      "Java",
+      "PageRank",
+      "Big Data",
+      "Manning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Generador de índice invertido masivo con MapReduce",
+        "descripcion": "Desarrollo de un programa MapReduce en Java que procesa terabytes de documentos de texto para construir un índice de búsqueda distribuido."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "hadoop-in-practice-2012": {
+    "descripcion": "Manual exhaustivo y pragmático de Alex Holmes que recopila más de 85 técnicas y patrones avanzados para resolver problemas reales en Apache Hadoop.\n\nEl libro cubre la ingesta masiva de datos desde fuentes externas con Flume y Sqoop, optimizaciones de E/S de HDFS mediante formatos comprimidos (SequenceFile, Avro), afinamiento del programador de tareas (Fair Scheduler, Capacity Scheduler), y la interacción con motores analíticos como Hive y Pig. Ofrece soluciones directas para diagnósticos de fallos en clústeres en producción.\n\nUna excelente guía de ingeniería para administradores y desarrolladores de clústeres Hadoop que buscan soluciones probadas en combate.",
+    "temas": [
+      "Hadoop in Practice",
+      "Alex Holmes",
+      "Flume",
+      "Sqoop",
+      "SequenceFile",
+      "Avro",
+      "Capacity Scheduler",
+      "Manning"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "hbase-in-action-2012": {
+    "descripcion": "Tratado técnico exhaustivo de Nick Dimiduk y Amandeep Khurana sobre Apache HBase, la base de datos distribuida columnar de código abierto modelada a partir de Google BigTable.\n\nLos autores explican la arquitectura interna: regiones y servidores de regiones (RegionServers), el maestro de HBase (HMaster), integración con ZooKeeper y persistencia sobre HDFS mediante archivos HFile y Write-Ahead Logs (WAL). Enseñan a diseñar claves de fila (rowkeys) para evitar la concentración de accesos (hotspotting) y optimizar lecturas aleatorias en tiempo real sobre petabytes de datos.\n\nUna de las mejores obras jamás escritas sobre HBase, indispensable para ingenieros de Big Data y sistemas NoSQL distribuidos.",
+    "temas": [
+      "Apache HBase",
+      "BigTable",
+      "HDFS",
+      "RegionServer",
+      "HFile",
+      "RowKey Design",
+      "ZooKeeper",
+      "Manning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Almacén masivo de series de tiempo con optimización de RowKeys en HBase",
+        "descripcion": "Diseño de un esquema columnar que almacena miles de millones de métricas de red evitando puntos calientes mediante inversión de claves de fila."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "kafka-in-action-2020": {
+    "descripcion": "Guía práctica y contemporánea de Dylan Scott, Viktor Gamov y Dave Klein sobre Apache Kafka, la plataforma de mensajería y registro distribuido de eventos más utilizada del mundo.\n\nLos autores enseñan a configurar brokers de Kafka, crear productores y consumidores en Java con garantías de entrega (at-least-once, exactly-once), gestionar particiones y replicación para tolerancia a fallos, y administrar grupos de consumidores con rebalanceo automático. Además, abordan Kafka Connect para integración sin código y el registro de esquemas de datos con Confluent Schema Registry y Avro.\n\nUna referencia técnica indispensable para desarrolladores backend y arquitectos de microservicios en tiempo real.",
+    "temas": [
+      "Apache Kafka",
+      "Kafka in Action",
+      "Viktor Gamov",
+      "Productores y Consumidores",
+      "Schema Registry",
+      "Avro",
+      "Kafka Connect",
+      "Manning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Canalización de eventos de pago con Kafka y Schema Registry",
+        "descripcion": "Implementación de productores y consumidores que intercambian mensajes binarios validados contra esquemas Avro con garantías de no duplicación."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "kafka-streams-in-action-2018": {
+    "descripcion": "Tratado técnico exhaustivo de Bill Bejeck sobre Kafka Streams, la biblioteca cliente de Apache Kafka para construir aplicaciones de procesamiento de flujos en tiempo real.\n\nBejeck enseña los conceptos fundamentales: la topología del procesador (Processor Topology), la dualidad flujo-tabla con KStream y KTable, operaciones con estado (stateful operations) respaldadas por RocksDB local y changelog topics, uniones de flujos temporales (stream joins) y agregaciones en ventanas (tumbling, hopping, sliding). Explica además el procesamiento de eventos tardíos y marcas de tiempo (watermarks).\n\nLectura obligatoria para cualquier ingeniero de software que construye microservicios analíticos en tiempo real sobre el ecosistema Kafka.",
+    "temas": [
+      "Kafka Streams",
+      "Bill Bejeck",
+      "KStream",
+      "KTable",
+      "RocksDB",
+      "Windowing",
+      "Stateful Processing",
+      "Manning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor analítico de detección de compras fraudulentas con Kafka Streams",
+        "descripcion": "Construcción de una aplicación de streaming que cruza transacciones de tarjetas de crédito con tablas de clientes y alerta ante patrones sospechosos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "solr-in-action-2014": {
+    "descripcion": "La obra definitiva y monumental de Trey Grainger y Timothy Potter sobre Apache Solr 4.x, considerada la referencia canónica en el desarrollo de motores de búsqueda empresariales.\n\nCon más de 600 páginas, los autores diseccionan la configuración de Solr: análisis y normalización lingüística en múltiples idiomas, búsqueda semántica y de similitud 'more-like-this', corrección ortográfica (spellchecking), resaltado de resultados (highlighting) y ordenamiento por fórmulas de relevancia personalizadas. Detallan la arquitectura distribuida SolrCloud y optimización de memoria de la JVM.\n\nIndispensable para arquitectos de búsqueda, analistas de información e ingenieros de software.",
+    "temas": [
+      "Solr in Action",
+      "Trey Grainger",
+      "Timothy Potter",
+      "Lucene",
+      "SolrCloud",
+      "Búsqueda Semántica",
+      "Relevancia",
+      "Manning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal de búsqueda bibliográfica empresarial con Solr",
+        "descripcion": "Implementación de un buscador corporativo con sugerencias tipográficas, facetas multinivel y ponderación personalizada de campos por relevancia."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "spark-graphx-in-action-2016": {
+    "descripcion": "Guía especializada de Michael Malak y Robin East dedicada a Apache Spark GraphX, la API de Spark para computación distribuida de grafos y análisis de redes masivas.\n\nLos autores enseñan a representar grafos con tablas de vértices y aristas distribuidas, aplicar operadores de filtrado y agregación estructural, y ejecutar algoritmos clásicos de grafos a escala de petabytes: PageRank para relevancia, componentes conectados para agrupamiento, conteo de triángulos y cálculo de distancias mínimas con el modelo Pregel. Incluye visualización de subgrafos.\n\nMuy formativo para científicos de datos y analistas de redes sociales, bioinformática o detección de fraudes sobre big data.",
+    "temas": [
+      "GraphX",
+      "Apache Spark",
+      "Grafos Distribuidos",
+      "PageRank",
+      "Pregel",
+      "Componentes Conectados",
+      "Manning",
+      "Big Data"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Analizador de redes sociales a gran escala con Spark GraphX",
+        "descripcion": "Desarrollo de un algoritmo distribuido que procesa millones de conexiones entre usuarios para calcular índices de centralidad y comunidades mediante Pregel."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "spark-in-action-2016": {
+    "descripcion": "Tratado exhaustivo de Petar Zecevic y Marko Bonaci que enseña el desarrollo completo de aplicaciones de procesamiento de datos con Apache Spark y Scala.\n\nLos autores guían al lector desde los fundamentos de los RDDs y su computación perezosa (lazy evaluation) hasta la manipulación de DataFrames y SQL con Spark SQL, procesamiento de flujos en tiempo real con Spark Streaming, y análisis de grafos con GraphX. Dedica capítulos críticos al despliegue en clústeres YARN y Mesos, y optimización de memoria (almacenamiento en caché y serialización Kryo).\n\nUna de las mejores obras de formación integral sobre Apache Spark, referente indispensable para ingenieros de Big Data.",
+    "temas": [
+      "Spark in Action",
+      "Petar Zecevic",
+      "Scala",
+      "RDD",
+      "Spark SQL",
+      "Spark Streaming",
+      "Kryo",
+      "Manning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma analítica distribuida de telemetría con Apache Spark",
+        "descripcion": "Construcción de una aplicación completa en Scala que ingiere datos masivos de sensores, ejecuta consultas analíticas SQL y entrena modelos predictivos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "advanced-analytics-with-spark-2nd-edition-2017": {
+    "descripcion": "Segunda edición de la renombrada obra de Sandy Ryza, Uri Laserson, Sean Owen y Josh Wills (directores de ciencia de datos en Cloudera), centrada en resolver problemas reales de Machine Learning a gran escala con Apache Spark 2.x.\n\nLos autores enseñan mediante casos de estudio exhaustivos: vinculación de registros de pacientes sin claves comunes, estimación de precios financieros con simulaciones de Monte Carlo, recomendaciones musicales con filtrado colaborativo (ALS), análisis de grafos de co-ocurrencia y clustering geoespacial. Muestra el uso de Spark ML Pipelines para estructurar flujos de trabajo reproducibles.\n\nLectura imprescindible para científicos de datos senior e ingenieros de aprendizaje automático en Big Data.",
+    "temas": [
+      "Advanced Analytics",
+      "Apache Spark",
+      "Machine Learning",
+      "Cloudera",
+      "Filtrado Colaborativo",
+      "Monte Carlo",
+      "Spark ML",
+      "O'Reilly"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de recomendación musical a gran escala con Spark ALS",
+        "descripcion": "Implementación de un sistema de recomendación que procesa miles de millones de interacciones de usuarios utilizando mínimos cuadrados alternantes (ALS)."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "apache-sqoop-cookbook-2013": {
+    "descripcion": "Recetario práctico de Kathleen Ting y Jarek Jarcec Cecho sobre Apache Sqoop, la herramienta por excelencia para la transferencia masiva y bidireccional de datos entre bases de datos relacionales y Apache Hadoop.\n\nLos autores presentan recetas directas para importar tablas completas o incrementales desde SQL Server, Oracle y MySQL hacia HDFS, Hive y HBase mediante trabajos MapReduce paralelos. Abordan el manejo de delimitadores especiales, optimizaciones de velocidad con particionamiento por clave primaria, y exportaciones seguras desde Hadoop hacia bases de datos relacionales.\n\nUna guía técnica concisa y muy práctica para ingenieros de datos encargados de canalizaciones ETL tradicionales.",
+    "temas": [
+      "Apache Sqoop",
+      "Cookbook",
+      "Hadoop",
+      "HDFS",
+      "Hive",
+      "ETL",
+      "Importación Relacional",
+      "O'Reilly"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "apache-the-definitive-guide-3rd-edition-2002": {
+    "descripcion": "Tercera edición de la clásica guía canónica de Ben Laurie y Peter Laurie sobre el servidor web Apache HTTP Server, el pilar fundamental que impulsó la expansión global de la World Wide Web.\n\nLos autores explican la arquitectura modular del servidor, directivas de configuración de httpd.conf, alojamiento de múltiples sitios virtuales (Name-based Virtual Hosts), módulos de autenticación y control de acceso, configuración de cifrado SSL/TLS con mod_ssl, y reescritura avanzada de URLs con mod_rewrite. Cubre el ajuste de rendimiento y seguridad en servidores Linux.\n\nUna obra histórica fundamental que formó a generaciones de administradores de sistemas en los estándares del servidor web de código abierto más popular del mundo.",
+    "temas": [
+      "Apache HTTP Server",
+      "Ben Laurie",
+      "httpd.conf",
+      "mod_ssl",
+      "mod_rewrite",
+      "Virtual Hosts",
+      "Servidor Web",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor web Apache seguro con hosts virtuales y reescritura de URLs",
+        "descripcion": "Configuración de un servidor web con múltiples dominios virtuales aislados, certificados SSL y reglas de reescritura limpia para aplicaciones dinámicas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "architecting-hbase-applications-2016": {
+    "descripcion": "Tratado técnico y arquitectónico de Jean-Marc Spaggiari y Kevin O'Dell sobre el diseño e implementación de aplicaciones corporativas de misión crítica respaldadas por Apache HBase.\n\nLos autores profundizan en el diseño avanzado de esquemas: diseño defensivo de RowKeys contra puntos calientes, uso de filtros del lado del servidor (Filters), coprocesadores (Coprocessors) para ejecutar cómputos dentro de los RegionServers, y estrategias de compactación de datos para evitar bloqueos de I/O. Incluye casos de estudio de arquitectura de ingesta de alta velocidad.\n\nIndispensable para arquitectos de datos y desarrolladores senior que construyen sistemas distribuidos masivos sobre HBase.",
+    "temas": [
+      "Apache HBase",
+      "Coprocesadores",
+      "RowKey Design",
+      "RegionServers",
+      "Hadoop",
+      "Arquitectura NoSQL",
+      "Big Data",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor analítico en base de datos con Coprocesadores de HBase",
+        "descripcion": "Desarrollo de un coprocesador de punto final en Java que ejecuta cálculos estadísticos directamente en los RegionServers sin transferir datos por red."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "cassandra-the-definitive-guide-2nd-edition-2016": {
+    "descripcion": "Segunda edición de la célebre biblia de referencia de Jeff Carpenter y Eben Hewitt sobre Apache Cassandra 3.x, consolidada como la obra definitiva sobre la base de datos distribuida.\n\nLos autores desentrañan minuciosamente la arquitectura: el anillo P2P sin maestro, protocolos Gossip y Snitch, memoria Memtables y archivos SSTables inmutables, almacenamiento de columnas anchas con CQL, transacciones ligeras con Paxos (LWT), y replicación en múltiples centros de datos. Explica el ajuste de rendimiento de la JVM y mantenimiento con nodetool.\n\nLa guía de cabecera indiscutible e indispensable para cualquier ingeniero, administrador o arquitecto que opera clústeres de Apache Cassandra.",
+    "temas": [
+      "Cassandra Definitive Guide",
+      "Jeff Carpenter",
+      "Eben Hewitt",
+      "SSTables",
+      "Paxos",
+      "Multi-DC Replication",
+      "NoSQL",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Clúster global Cassandra con replicación activa en múltiples centros de datos",
+        "descripcion": "Diseño y despliegue de una infraestructura distribuida entre dos centros de datos con latencia de lectura local y replicación asíncrona garantizada."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "data-analytics-with-hadoop-2016": {
+    "descripcion": "Guía práctica de Benjamin Bengfort y Jenny Kim orientada a analistas y científicos de datos que desean explotar el ecosistema Apache Hadoop para análisis estadístico y minería de datos.\n\nLos autores enseñan a consultar y transformar grandes volúmenes de datos utilizando Hive y Pig, construir canalizaciones de procesamiento con Python e interactuar con el ecosistema de computación distribuida de Hadoop sin necesidad de programar en Java de bajo nivel. Cubre la preparación de datos para visualización y modelos predictivos.\n\nUn manual accesible y formativo para tender un puente entre las herramientas tradicionales de analítica y el poder del Big Data.",
+    "temas": [
+      "Data Analytics",
+      "Hadoop",
+      "Benjamin Bengfort",
+      "Jenny Kim",
+      "Hive",
+      "Pig",
+      "Python",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Canalización analítica de comportamiento de clientes sobre Hadoop",
+        "descripcion": "Implementación de un flujo de extracción y transformación de registros de navegación con Hive y exportación hacia paneles de visualización."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "getting-started-with-impala-2014": {
+    "descripcion": "Manual práctico de John Russell sobre Apache Impala, el motor de consultas SQL masivamente paralelo (MPP) y de código abierto para datos almacenados en Apache Hadoop.\n\nEl autor explica cómo Impala supera la alta latencia de MapReduce ejecutando consultas interactivas directamente en memoria sobre datos en HDFS y HBase. Enseña a optimizar esquemas de tablas con formato columnar Parquet, analizar planes de ejecución mediante PROFILE, y utilizar funciones analíticas estándar para lograr tiempos de respuesta de segundos en consultas de inteligencia de negocio.\n\nIdeal para analistas y DBAs que necesitan consultas analíticas interactivas en tiempo real sobre lagos de datos Hadoop.",
+    "temas": [
+      "Apache Impala",
+      "Cloudera",
+      "MPP",
+      "SQL en Hadoop",
+      "Parquet",
+      "HDFS",
+      "Consultas Interactivas",
+      "O'Reilly"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "hadoop-application-architectures-2015": {
+    "descripcion": "Tratado técnico y arquitectónico fundamental escrito por destacados ingenieros y arquitectos de Cloudera: Mark Grover, Ted Malaska, Jonathan Seidman y Gwen Shapira.\n\nLos autores guían al lector a través de los patrones de diseño de soluciones para Big Data: arquitecturas de ingesta de datos (por lotes y en tiempo real con Flume, Kafka y Sqoop), procesamiento distribuido con MapReduce y Spark, persistencia en HDFS y HBase, y modelos de servicio de datos con Hive e Impala. Incluye pautas sobre orquestación de flujos de trabajo con Apache Oozie y seguridad perimetral.\n\nUna de las mejores obras arquitectónicas de referencia sobre ingeniería de plataformas de datos sobre Hadoop.",
+    "temas": [
+      "Hadoop Architecture",
+      "Gwen Shapira",
+      "Cloudera",
+      "Kafka",
+      "HBase",
+      "Spark",
+      "Oozie",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura Lambda empresarial de procesamiento dual (Batch y Speed Layer)",
+        "descripcion": "Diseño integral de una plataforma que combina ingesta en tiempo real con Kafka y procesamiento por lotes con Hadoop y Spark."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "hadoop-operations-2012": {
+    "descripcion": "Tratado técnico indispensable de Eric Sammer sobre la administración, despliegue y mantenimiento en producción de clústeres Apache Hadoop a gran escala.\n\nEl autor desglosa el aprovisionamiento de hardware, dimensionamiento de discos y redes, despliegue automatizado con herramientas de configuración (Puppet, Chef), monitorización de la salud de HDFS y MapReduce con Ganglia y Nagios, y procedimientos para añadir o retirar nodos sin pérdida de datos. Incluye estrategias de gestión de capacidad y resolución de emergencias.\n\nLa guía de cabecera operativa por excelencia para ingenieros de sistemas, administradores de Hadoop y operadores de centros de datos.",
+    "temas": [
+      "Hadoop Operations",
+      "Eric Sammer",
+      "HDFS",
+      "Ganglia",
+      "Nagios",
+      "Hardware Sizing",
+      "Administración de Clústeres",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plan de monitorización y reemplazo de nodos en caliente en Hadoop",
+        "descripcion": "Configuración de alertas de fallos en DataNodes y ejecución de scripts de rebalanceo de bloques en HDFS con herramientas operativas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "hadoop-security-2015": {
+    "descripcion": "Guía especializada de Ben Spivey y Joey Echeverria dedicada a blindar y securizar clústeres de Apache Hadoop y sus componentes asociados en entornos corporativos.\n\nLos autores abordan los cuatro pilares de la seguridad en Big Data: autenticación robusta mediante Kerberos (KDC y keytabs), autorización granular con Apache Ranger y Apache Sentry, cifrado de datos en tránsito con TLS/SSL y cifrado transparente de datos en reposo en HDFS (HDFS Transparent Encryption). Además, cubre la auditoría y el cumplimiento normativo.\n\nLectura obligatoria para ingenieros de seguridad informática, arquitectos de datos y administradores de plataformas corporativas de Hadoop.",
+    "temas": [
+      "Hadoop Security",
+      "Kerberos",
+      "Apache Ranger",
+      "Apache Sentry",
+      "HDFS Encryption",
+      "TLS",
+      "Auditoría",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Bastionado de clúster Hadoop con autenticación Kerberos y Apache Ranger",
+        "descripcion": "Configuración integral de políticas de control de acceso a nivel de columna en Hive y cifrado de zonas de aterrizaje en HDFS."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "hadoop-the-definitive-guide-4th-edition-2015": {
+    "descripcion": "Cuarta edición de la monumental y universalmente venerada biblia de Apache Hadoop escrita por Tom White (miembro del comité de gestión del proyecto Apache Hadoop).\n\nCon más de 700 páginas de análisis riguroso, White cubre desde los fundamentos de HDFS y YARN hasta el ecosistema completo: formatos de archivo avanzados (Parquet, Avro), desarrollo en Java con MapReduce, computación distribuida con Spark, almacenes analíticos con Hive e Impala, bases de datos NoSQL con HBase, y orquestación con ZooKeeper. Explica el ajuste fino del rendimiento y la administración de clústeres.\n\nLa referencia técnica definitiva e indiscutible sobre Hadoop en el mundo, lectura imprescindible para cualquier profesional del Big Data.",
+    "temas": [
+      "Hadoop Definitive Guide",
+      "Tom White",
+      "HDFS",
+      "YARN",
+      "MapReduce",
+      "Spark",
+      "Parquet",
+      "Biblia Big Data"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma integral de procesamiento analítico distribuido sobre Hadoop",
+        "descripcion": "Construcción de una arquitectura que ingiere datos brutos en HDFS, ejecuta transformaciones MapReduce y consultas SQL interactivas con Hive."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "hbase-the-definitive-guide-2011": {
+    "descripcion": "La obra canónica y de referencia mundial sobre Apache HBase escrita por Lars George, arquitecto principal y committer del proyecto.\n\nGeorge disecciona meticulosamente la arquitectura: la jerarquía de almacenamiento con RegionServers y HFiles sobre HDFS, el árbol de particiones, la integración con ZooKeeper, el cliente de Java y la sintaxis de HBase Shell. El autor enseña a diseñar esquemas orientados a consultas, afinar el recolector de basura de la JVM para evitar pausas 'stop-the-world', y realizar compactaciones mayores y menores.\n\nEl estándar de oro absoluto para cualquier ingeniero que diseña o administra sistemas de almacenamiento masivo con HBase.",
+    "temas": [
+      "HBase Definitive Guide",
+      "Lars George",
+      "HFile",
+      "RegionServer",
+      "ZooKeeper",
+      "Compaction",
+      "JVM Garbage Collection",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Almacén NoSQL distribuido de alto rendimiento sobre HBase",
+        "descripcion": "Diseño de un esquema columnar con compresión de bloques, afinamiento de la JVM y pruebas de carga concurrentes con YCSB."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "high-performance-spark-2017": {
+    "descripcion": "Tratado técnico avanzado de Holden Karau (committer de Apache Spark) y Rachel Warren sobre optimización extrema y afinamiento de rendimiento en Apache Spark 2.x.\n\nLas autoras profundizan en los mecanismos internos del motor: el optimizador Catalyst, el generador de código en tiempo de ejecución Tungsten (gestión de memoria off-heap sin sobrecarga de GC), particionamiento inteligente para evitar el costoso intercambio de datos por red (shuffle), y depuración de retrasos con la UI de Spark. Explica cómo escribir transformaciones eficientes en RDDs, DataFrames y Datasets.\n\nIndispensable para ingenieros de datos y científicos de datos que necesitan procesar terabytes de información minimizando tiempos de ejecución y costes de infraestructura.",
+    "temas": [
+      "High Performance Spark",
+      "Holden Karau",
+      "Catalyst Optimizer",
+      "Tungsten Engine",
+      "Shuffle Optimization",
+      "Off-Heap Memory",
+      "Spark UI",
+      "O'Reilly"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Optimización extrema de un trabajo de análisis masivo en Spark",
+        "descripcion": "Refactorización de una canalización que sufría cuellos de botella por shuffle, aplicando particionamiento por rango y reduciendo el tiempo de ejecución en un 70%."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "learning-spark-2015": {
+    "descripcion": "La obra fundacional y clásica sobre Apache Spark escrita por sus creadores originales en UC Berkeley y Databricks: Matei Zaharia, Holden Karau, Andy Konwinski y Patrick Wendell.\n\nLos autores introducen los conceptos que revolucionaron el Big Data: Resilient Distributed Datasets (RDDs), transformaciones perezosas, acciones, variables compartidas (broadcast variables y acumuladores), Spark SQL para consultas tabulares, Spark Streaming para flujos en vivo, y Spark MLlib para Machine Learning distribuido. Incluye ejemplos en Python, Java y Scala.\n\nUna lectura de gran valor formativo e histórico, indispensable para cualquier programador que comienza con Apache Spark.",
+    "temas": [
+      "Matei Zaharia",
+      "Learning Spark",
+      "Databricks",
+      "RDD",
+      "Spark SQL",
+      "MLlib",
+      "Spark Streaming",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Análisis distribuido de registros de servidores web con Apache Spark",
+        "descripcion": "Construcción de un script en Python/Scala que procesa millones de líneas de logs, calcula frecuencias de acceso y detecta patrones de tráfico."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mapreduce-design-patterns-2012": {
+    "descripcion": "Tratado metodológico y arquitectónico de Donald Miner y Adam Shook que recopila patrones de diseño formales para resolver problemas computacionales con MapReduce.\n\nLos autores catalogan los patrones esenciales: patrones de resumen (contadores numéricos, índices invertidos), patrones de filtrado (muestreo aleatorio, top-K), patrones de organización de datos (particionamiento estructurado, binning), y patrones de unión (reduce-side join frente a map-side join en memoria). Analiza cómo traducir algoritmos matemáticos y comerciales al modelo distribuido.\n\nUna obra maestra de ingeniería indispensable para desarrolladores que escriben algoritmos distribuidos sobre Hadoop.",
+    "temas": [
+      "MapReduce Patterns",
+      "Donald Miner",
+      "Adam Shook",
+      "Reduce-Side Join",
+      "Top-K",
+      "Particionamiento",
+      "Algoritmos Distribuidos",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Algoritmo de cálculo Top-K y uniones de datos en memoria con MapReduce",
+        "descripcion": "Implementación de un trabajo MapReduce que identifica los 10 productos más vendidos cruzando catálogos de pedidos sin fase de reducción pesada."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "programming-hive-2012": {
+    "descripcion": "Tratado exhaustivo de Edward Capriolo, Dean Wampler y Jason Rutherglen sobre Apache Hive y su lenguaje declarativo HiveQL.\n\nLos autores enseñan a crear tablas internas y externas, particionar y agrupar (bucketing) datos para acelerar consultas analíticas, interactuar con el Metastore de Hive sobre bases de datos relacionales, y escribir funciones definidas por el usuario (UDFs, UDAFs, UDTFs) en Java. Aborda la optimización de planes de ejecución mediante EXPLAIN y la integración con herramientas de BI.\n\nLa guía de cabecera estándar para ingenieros de datos y analistas que gestionan consultas SQL sobre lagos de datos en Hadoop.",
+    "temas": [
+      "Programming Hive",
+      "Edward Capriolo",
+      "Dean Wampler",
+      "HiveQL",
+      "UDF",
+      "Bucketing",
+      "Particionamiento",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Data Warehouse analítico con particionamiento y UDFs en Hive",
+        "descripcion": "Construcción de un esquema de Data Warehouse con tablas particionadas por fecha y funciones personalizadas en Java para anonimizar datos confidenciales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "programming-pig-2011": {
+    "descripcion": "La obra canónica de Alan Gates (co-fundador de Hortonworks y creador de Apache Pig) dedicada por completo a la programación de flujos de datos con Pig Latin.\n\nGates explica con rigor didáctico la filosofía del lenguaje: estructuras de datos anidadas (bags, tuples, maps), operadores de transformación (FILTER, FOREACH, GROUP, COGROUP, JOIN), el optimizador de ejecución y la compilación de scripts en secuencias de trabajos MapReduce. Además, enseña a escribir UDFs avanzadas en Java y Python.\n\nUna referencia técnica indispensable escrita por el máximo responsable del diseño del lenguaje.",
+    "temas": [
+      "Programming Pig",
+      "Alan Gates",
+      "Pig Latin",
+      "Hortonworks",
+      "UDF",
+      "COGROUP",
+      "Flujos de Datos",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Canalización analítica de correlación de datos con Pig Latin",
+        "descripcion": "Desarrollo de un script de procesamiento distribuido que cruza transacciones comerciales y logs de servidor mediante operadores COGROUP y UDFs personalizadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "tomcat-the-definitive-guide-2nd-edition-2007": {
+    "descripcion": "Segunda edición de la clásica guía de referencia de Jason Brittain e Ian F. Darwin sobre el servidor de aplicaciones y contenedor de servlets Apache Tomcat 6.\n\nLos autores cubren desde la instalación y configuración de server.xml hasta la seguridad y autenticación mediante Realms (JDBC, JNDI), configuración de conexiones cifradas SSL/TLS, integración con el servidor web Apache HTTP mediante mod_jk, y el clustering y replicación de sesiones para alta disponibilidad. Incluye directrices de optimización de memoria de la JVM.\n\nUna referencia técnica histórica fundamental para ingenieros de sistemas y desarrolladores Java web.",
+    "temas": [
+      "Apache Tomcat",
+      "Jason Brittain",
+      "server.xml",
+      "Servlets",
+      "Clustering",
+      "mod_jk",
+      "SSL/TLS",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Granja web de servidores Tomcat en clúster con balanceo de carga",
+        "descripcion": "Configuración de múltiples instancias de Tomcat con replicación de sesiones en memoria y balanceador de carga Apache con mod_jk."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "using-flume-2014": {
+    "descripcion": "Manual práctico de Hari Shreedharan (committer de Apache Flume) sobre la recolección, agregación y movimiento masivo de datos de logs hacia Apache Hadoop con Flume.\n\nEl autor enseña la arquitectura orientada a agentes: fuentes (Sources: Spooling Directory, Exec, Avro), canales de amortiguación (Channels: Memory, File Channel transaccional) y destinos (Sinks: HDFS, HBase, Kafka). Explica cómo diseñar topologías de enrutamiento resilientes ante caídas de red y picos de tráfico masivo.\n\nMuy formativo para ingenieros de datos y administradores de sistemas que necesitan ingestar terabytes de logs hacia HDFS sin pérdidas.",
+    "temas": [
+      "Apache Flume",
+      "Hari Shreedharan",
+      "Ingesta de Datos",
+      "HDFS Sink",
+      "File Channel",
+      "Avro Source",
+      "Big Data",
+      "O'Reilly"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Canalización de ingesta continua de logs hacia HDFS con Apache Flume",
+        "descripcion": "Construcción de una topología de agentes que recolecta logs de múltiples servidores web y los escribe por lotes comprimidos en el lago de datos HDFS."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "apache-hive-cookbook-2016": {
+    "descripcion": "Recetario práctico de Hanish Bansal, Saurabh Chauhan y Shrey Mehrotra con más de 70 soluciones directas a desafíos cotidianos de consulta y administración en Apache Hive.\n\nEl texto ofrece recetas para optimización de consultas (MapJoin, Vectorization, Cost-Based Optimizer), integración con Apache Tez y Spark como motores de ejecución, gestión de formatos de almacenamiento ORC y Parquet, seguridad con Apache Ranger, y automatización mediante el cliente Beeline y scripts de terminal.\n\nUna excelente herramienta de consulta de cabecera para analistas e ingenieros de Big Data que operan Hive en entornos de producción.",
+    "temas": [
+      "Hive Cookbook",
+      "Apache Hive",
+      "Vectorization",
+      "ORC",
+      "Apache Tez",
+      "Beeline",
+      "Apache Ranger",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "apache-hive-essentials-2015": {
+    "descripcion": "Manual introductorio y didáctico de Dayong Du diseñado para aprender a utilizar Apache Hive como motor de Data Warehousing sobre clústeres Hadoop.\n\nEl autor enseña los fundamentos del lenguaje HiveQL, la creación de esquemas, particionamiento y bucketing de datos, formulación de consultas complejas con funciones analíticas y subconsultas, y el desarrollo de UDFs básicas en Java. Incluye ejemplos orientados a casos reales de comercio electrónico y análisis de tráfico.\n\nIdeal para quienes se inician en la consulta declarativa de Big Data sin experiencia previa en Hadoop.",
+    "temas": [
+      "Hive Essentials",
+      "Dayong Du",
+      "HiveQL",
+      "Hadoop",
+      "Data Warehousing",
+      "Particionamiento",
+      "Packt",
+      "Principiantes"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Data Mart analítico de ventas comerciales con Hive",
+        "descripcion": "Construcción de un conjunto de tablas analíticas particionadas para reportar métricas de compras y clientes sobre Hadoop."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "apache-solr-essentials-2015": {
+    "descripcion": "Guía práctica de Andrea Gazzarini orientada a la implementación ágil de motores de búsqueda empresariales con Apache Solr 5.\n\nEl autor explica la configuración de esquemas gestionados, indexación de documentos JSON y XML, configuración de cadenas de análisis de texto (filtros y analizadores de idioma), búsquedas facetadas, y la creación de clústeres SolrCloud con balanceo de carga y replicación con ZooKeeper.\n\nRecomendado para desarrolladores que necesitan desplegar un buscador rápido y funcional para portales de contenidos o tiendas virtuales.",
+    "temas": [
+      "Solr Essentials",
+      "Andrea Gazzarini",
+      "Solr 5",
+      "SolrCloud",
+      "ZooKeeper",
+      "Búsqueda Facetada",
+      "Lucene",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Buscador de catálogo de productos interactivo con Solr",
+        "descripcion": "Desarrollo de un servicio de búsqueda con facetas por categoría y precio, sugerencias automáticas y resaltado de coincidencias."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "apache-solr-for-indexing-data-2016": {
+    "descripcion": "Manual especializado de Anshul Johri y Sachin Handiekar centrado en las estrategias y técnicas de indexación masiva de datos en Apache Solr.\n\nLos autores enseñan a extraer e indexar documentos desde bases de datos relacionales mediante Data Import Handler (DIH), procesar archivos PDF, Word y hojas de cálculo con Apache Tika, diseñar esquemas de documentos optimizados para búsquedas de alta velocidad, y configurar réplicas de indexación para soportar millones de documentos.\n\nMuy útil para ingenieros de software encargados de la ingesta y preparación de información documental para motores de búsqueda.",
+    "temas": [
+      "Solr Indexing",
+      "Data Import Handler",
+      "Apache Tika",
+      "Indexación",
+      "Lucene",
+      "Bases de Datos Relacionales",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Canalización de indexación automática de documentos PDF y base de datos relacional",
+        "descripcion": "Configuración de Data Import Handler y Apache Tika para extraer metadatos y contenido textual e indexarlos continuamente en Solr."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "apache-solr-high-performance-2014": {
+    "descripcion": "Tratado técnico de Surendra Mohan dedicado a la optimización extrema del rendimiento, latencia y escalabilidad de Apache Solr en entornos de alta demanda.\n\nEl autor enseña a dimensionar la memoria de la JVM, optimizar cachés internas de Solr (filterCache, queryResultCache, documentCache), afinar políticas de commit (soft commits vs hard commits para Near Real-Time Search), y distribuir consultas entre shards en SolrCloud. Incluye técnicas de perfilado y benchmarking de carga.\n\nIndispensable para arquitectos e ingenieros de búsqueda que operan motores Solr bajo millones de consultas diarias.",
+    "temas": [
+      "Solr Performance",
+      "Surendra Mohan",
+      "filterCache",
+      "JVM Tuning",
+      "NRT Search",
+      "Soft Commits",
+      "SolrCloud",
+      "Packt"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "apache-solr-search-patterns-2015": {
+    "descripcion": "Guía especializada de Jayant Kumar sobre los patrones de diseño y modelos de búsqueda aplicados en Apache Solr para resolver problemas complejos de recuperación de información.\n\nEl texto desglosa patrones para búsqueda geográfica, búsquedas semánticas y jerárquicas, personalización de algoritmos de puntuación con funciones matemáticas de boost, gestión de sinónimos y lematización, y diseño de interfaces con autocompletado y corrección '¿Quiso decir?'. Muestra cómo resolver casos de uso reales de grandes portales.\n\nLectura muy formativa para desarrolladores que desean ir más allá de las consultas de texto estándar y diseñar experiencias de búsqueda sofisticadas.",
+    "temas": [
+      "Search Patterns",
+      "Apache Solr",
+      "Jayant Kumar",
+      "Function Queries",
+      "Búsqueda Geográfica",
+      "Sinónimos",
+      "Relevancia",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de búsqueda con puntuación personalizada y soporte geoespacial",
+        "descripcion": "Implementación de consultas Solr que priorizan resultados combinando proximidad física al usuario con popularidad del producto mediante function queries."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "cassandra-data-modeling-and-analysis-2014": {
+    "descripcion": "Manual metodológico de C.Y. Kan dedicado al modelado conceptual y diseño físico de datos en Apache Cassandra enfocado en la analítica distribuida.\n\nEl autor expone las reglas para diseñar tablas CQL optimizadas para consultas específicas (query-driven design): elección de Partition Keys para distribución homogénea y Clustering Columns para ordenamiento en disco. Además, aborda la integración de Cassandra con Apache Hadoop y Spark para ejecutar análisis masivos sobre los datos almacenados.\n\nIdeal para ingenieros de datos que buscan evitar cuellos de botella de particiones desbalanceadas y maximizar el rendimiento analítico.",
+    "temas": [
+      "Cassandra Modeling",
+      "C.Y. Kan",
+      "Partition Key",
+      "Clustering Column",
+      "CQL",
+      "Hadoop",
+      "Spark",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Modelo analítico de métricas financieras sobre Apache Cassandra",
+        "descripcion": "Diseño de tablas optimizadas para consulta de series temporales de transacciones bancarias con clustering columns ordenadas descendentemente."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "cassandra-design-patterns-2014": {
+    "descripcion": "Guía práctica de Sanjay Sharma que recopila patrones de arquitectura y diseño aplicados para resolver problemas del mundo real con Apache Cassandra.\n\nEl autor analiza patrones como el patrón de series temporales, patrón de mensajería asíncrona, control de versiones y auditoría inmutable, y gestión de relaciones muchos a muchos mediante desnormalización controlada. Sharma enseña a seleccionar niveles de consistencia (ONE, QUORUM, LOCAL_QUORUM) para balancear velocidad y consistencia.\n\nRecomendado para desarrolladores y arquitectos que construyen aplicaciones escalables sobre bases de datos NoSQL.",
+    "temas": [
+      "Cassandra Patterns",
+      "Sanjay Sharma",
+      "Series Temporales",
+      "Desnormalización",
+      "Consistencia Ajustable",
+      "QUORUM",
+      "NoSQL",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de red social distribuida con patrones Cassandra",
+        "descripcion": "Modelado de publicaciones, muros de usuarios y seguidores aplicando patrones de desnormalización y consistencia eventual."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "hadoop-mapreduce-v2-cookbook-2nd-edition-2015": {
+    "descripcion": "Segunda edición del recetario de Thilina Gunarathne con más de 90 recetas prácticas para desarrollar y ejecutar trabajos MapReduce sobre la arquitectura YARN de Hadoop 2.x.\n\nEl autor ofrece recetas para procesar formatos estructurados y no estructurados, implementar algoritmos de grafos y minería de texto distribuidos, optimizar el uso de memoria en contenedores YARN, y depurar fallos en tareas MapReduce. Incluye recetas para ejecutar trabajos MapReduce en la nube de Amazon EMR.\n\nUna excelente guía de consulta técnica diaria para desarrolladores de Big Data que escriben programas MapReduce en Java.",
+    "temas": [
+      "MapReduce v2",
+      "YARN",
+      "Thilina Gunarathne",
+      "Hadoop 2",
+      "Amazon EMR",
+      "Cookbook",
+      "Java",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "hadoop-real-world-solutions-cookbook-2013": {
+    "descripcion": "Recetario práctico de Jonathan R. Owens, Brian Femiano y Jon Lentz que reúne más de 90 recetas probadas para construir canalizaciones completas de datos sobre Hadoop.\n\nLos autores abordan la ingesta de datos con Flume y Sqoop, indexación distribuida conectando Hadoop con Solr, análisis de datos con Hive y Pig, almacenamiento columnar con HBase y orquestación de flujos de trabajo programados con Apache Oozie. Cada solución incluye instrucciones de configuración y código de integración.\n\nMuy formativo para ingenieros de datos que necesitan coordinar múltiples herramientas del ecosistema Big Data en un flujo coherente.",
+    "temas": [
+      "Hadoop Solutions",
+      "Jonathan Owens",
+      "Oozie",
+      "Flume",
+      "Sqoop",
+      "HBase",
+      "Solr",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "hbase-administration-cookbook-2012": {
+    "descripcion": "Recetario especializado de Yifeng Jiang enfocado en la administración, monitorización y resolución de incidencias en clústeres Apache HBase.\n\nEl autor proporciona recetas paso a paso para la instalación de clústeres distribuidos, configuración de alta disponibilidad con múltiples HMasters, monitorización de métricas de RegionServers con Ganglia, división manual y unión de regiones, copias de seguridad de tablas y reparación de inconsistencias con hbck.\n\nUna guía de consulta imprescindible para DBAs y administradores de sistemas responsables del funcionamiento diario de HBase.",
+    "temas": [
+      "HBase Administration",
+      "Yifeng Jiang",
+      "RegionServer",
+      "hbck",
+      "Ganglia",
+      "HMaster",
+      "Alta Disponibilidad",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "hbase-design-patterns-2014": {
+    "descripcion": "Manual práctico de Sujee Maniyam y Mark Kerzner dedicado a los patrones de diseño arquitectónico y de datos en Apache HBase.\n\nLos autores enseñan a resolver problemas comunes de modelado: diseño de RowKeys con técnicas de salt y hashing para evitar puntos calientes, diseño de familias de columnas (Column Families), almacenamiento de datos semiestructurados y series temporales, e indexación secundaria emulada. Además, analiza patrones de ingesta masiva con Bulk Loading.\n\nRecomendado para arquitectos de software e ingenieros backend que diseñan almacenes de lectura rápida sobre HBase.",
+    "temas": [
+      "HBase Patterns",
+      "Sujee Maniyam",
+      "Mark Kerzner",
+      "RowKey Hashing",
+      "Bulk Loading",
+      "Indexación Secundaria",
+      "NoSQL",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Canalización de carga masiva de datos (Bulk Load) en HBase",
+        "descripcion": "Implementación de un trabajo que genera archivos HFiles directamente en HDFS y los carga en HBase instantáneamente sin sobrecargar la red."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "hbase-essentials-2014": {
+    "descripcion": "Guía práctica y accesible de Nishant Garg orientada a aprender los fundamentos y la arquitectura de Apache HBase desde cero.\n\nEl autor cubre la instalación y configuración del entorno, operaciones CRUD mediante HBase Shell y la API de Java (Put, Get, Scan, Delete), diseño de tablas columnares y la integración con Apache Hadoop y ZooKeeper. Incluye directrices básicas para optimizar consultas de escaneo.\n\nUn manual de iniciación muy conveniente para desarrolladores que se adentran en el universo de las bases de datos de columnas anchas.",
+    "temas": [
+      "HBase Essentials",
+      "Nishant Garg",
+      "HBase Shell",
+      "Java API",
+      "Put y Get",
+      "ZooKeeper",
+      "NoSQL",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de almacenamiento de perfiles de clientes en HBase",
+        "descripcion": "Desarrollo de un cliente en Java que realiza lecturas y escrituras atómicas de atributos de usuario utilizando la API de HBase."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "learning-hbase-2014": {
+    "descripcion": "Manual didáctico de Shashwat Shriparv que guía al lector paso a paso en el aprendizaje de Apache HBase y su integración en el ecosistema Big Data.\n\nEl texto desglosa la arquitectura de almacenamiento, la manipulación de datos desde la consola de comandos, el diseño de esquemas orientados a lecturas rápidas y el desarrollo de aplicaciones en Java. Explica cómo HBase complementa a HDFS proporcionando capacidades de lectura y escritura aleatoria en tiempo real.\n\nIdeal para programadores noveles que desean incorporar bases de datos NoSQL columnares a sus habilidades técnicas.",
+    "temas": [
+      "Learning HBase",
+      "Shashwat Shriparv",
+      "NoSQL",
+      "HDFS",
+      "Java",
+      "HBase Shell",
+      "Packt",
+      "Big Data"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mastering-apache-spark-2015": {
+    "descripcion": "Tratado técnico avanzado de Mike Frampton sobre la arquitectura, escalabilidad y capacidades analíticas de Apache Spark.\n\nEl autor profundiza en el modelo computacional de Spark, afinamiento de memoria de la JVM, programación paralela con Scala y Python, análisis de grafos con GraphX, y entrenamiento de modelos de Machine Learning a gran escala con MLlib. Incluye casos de estudio sobre procesamiento en clústeres distribuidos en Amazon EC2.\n\nUna excelente guía de nivel intermedio-avanzado para ingenieros que buscan maximizar el rendimiento de sus aplicaciones Spark.",
+    "temas": [
+      "Mastering Spark",
+      "Mike Frampton",
+      "Scala",
+      "MLlib",
+      "GraphX",
+      "EC2",
+      "JVM Tuning",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline analítico de clasificación y predicción con Spark MLlib",
+        "descripcion": "Construcción de un modelo de regresión logística distribuido entrenado sobre millones de registros para predecir cancelaciones de clientes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pig-design-patterns-2014": {
+    "descripcion": "Guía especializada de Pradeep Pasupuleti dedicada a los patrones de diseño y mejores prácticas en el desarrollo de flujos de datos con Apache Pig y Pig Latin.\n\nEl autor cataloga patrones de filtrado, muestreo, particionamiento de datos, uniones optimizadas (replicated joins en memoria para tablas pequeñas) y agregaciones complejas. Muestra cómo depurar scripts Pig con ILLUSTRATE y EXPLAIN, y cómo escribir UDFs de alto rendimiento en Java.\n\nMuy formativo para ingenieros de datos que procesan lotes masivos de información y desean optimizar el tiempo de ejecución de sus scripts.",
+    "temas": [
+      "Pig Patterns",
+      "Pradeep Pasupuleti",
+      "Pig Latin",
+      "Replicated Join",
+      "ILLUSTRATE",
+      "UDF",
+      "ETL",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Canalización analítica optimizada con Replicated Joins en Pig",
+        "descripcion": "Implementación de un flujo que une un dataset masivo de transacciones con una tabla pequeña de productos en memoria para acelerar el procesamiento."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "scaling-apache-solr-2014": {
+    "descripcion": "Tratado técnico de Hrishikesh Vijay Karambelkar sobre el escalado masivo y la arquitectura distribuida de Apache Solr mediante SolrCloud.\n\nEl autor enseña a diseñar clústeres particionados (sharded), configurar quórums de ZooKeeper para coordinación y consenso, balancear consultas entre réplicas de lectura, y gestionar la alta disponibilidad ante caídas de nodos. Además, aborda técnicas de optimización de memoria y almacenamiento en disco para índices de terabytes.\n\nIndispensable para administradores de sistemas y arquitectos que deben escalar motores de búsqueda para soportar altos volúmenes de consultas concurrentes.",
+    "temas": [
+      "Scaling Solr",
+      "SolrCloud",
+      "ZooKeeper",
+      "Sharding",
+      "Alta Disponibilidad",
+      "Balanceo de Carga",
+      "Lucene",
+      "Packt"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Clúster SolrCloud particionado de 6 nodos con ZooKeeper",
+        "descripcion": "Despliegue de una infraestructura de búsqueda con dos shards y tres réplicas por shard con tolerancia automática a caídas de servidores."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "spark-cookbook-2015": {
+    "descripcion": "Recetario práctico de Rishi Yadav con más de 60 recetas probadas para desarrollar y desplegar aplicaciones de Big Data con Apache Spark.\n\nEl libro contiene soluciones para la creación y manipulación de DataFrames, consultas analíticas con Spark SQL, procesamiento de flujos en tiempo real con Spark Streaming, algoritmos de Machine Learning con MLlib, y despliegue de clústeres Spark sobre Hadoop YARN, Mesos y modo Standalone. Incluye recetas para afinar la memoria del driver y de los ejecutores.\n\nUna excelente guía de consulta rápida para programadores e ingenieros de datos en su trabajo diario con Apache Spark.",
+    "temas": [
+      "Spark Cookbook",
+      "Rishi Yadav",
+      "Spark SQL",
+      "Spark Streaming",
+      "MLlib",
+      "YARN",
+      "Mesos",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "spark-for-python-developers-2016": {
+    "descripcion": "Manual práctico de Amit Nandi orientado a desarrolladores de Python que desean dominar el procesamiento distribuido de Big Data mediante PySpark.\n\nEl autor enseña a manipular RDDs y DataFrames utilizando la sintaxis idiomática de Python, formular consultas analíticas con Spark SQL, construir flujos de ingesta en tiempo real con Spark Streaming y aplicar algoritmos de Machine Learning con PySpark MLlib. Incluye directrices para integrar PySpark con bibliotecas populares como NumPy y Matplotlib.\n\nIdeal para desarrolladores de software y científicos de datos en Python que buscan una introducción ágil y aplicada al ecosistema Spark.",
+    "temas": [
+      "PySpark",
+      "Amit Nandi",
+      "Python",
+      "DataFrames",
+      "Spark SQL",
+      "MLlib",
+      "NumPy",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Canalización analítica de clustering de clientes con PySpark MLlib",
+        "descripcion": "Desarrollo de un script en Python que agrupa clientes según su historial de compras mediante el algoritmo K-Means distribuido en Spark."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "yarn-essentials-2015": {
+    "descripcion": "Manual técnico de Nirmal Kumar y Amol Fasale sobre Apache Hadoop YARN (Yet Another Resource Negotiator), la capa central de gestión de recursos y programación de tareas distribuida de Hadoop 2.x.\n\nLos autores desentrañan la arquitectura: ResourceManager, NodeManager, ApplicationMaster y Containers. Enseñan a configurar programadores de recursos (Capacity Scheduler y Fair Scheduler), monitorizar el uso de CPU y memoria del clúster, y escribir aplicaciones distribuidas nativas para YARN en Java sin depender de MapReduce.\n\nUna lectura técnica especializada muy valiosa para administradores de clústeres e ingenieros de infraestructura Big Data.",
+    "temas": [
+      "YARN Essentials",
+      "ResourceManager",
+      "NodeManager",
+      "ApplicationMaster",
+      "Capacity Scheduler",
+      "Hadoop 2",
+      "Packt",
+      "Infraestructura"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación distribuida nativa en YARN",
+        "descripcion": "Construcción de un cliente y ApplicationMaster en Java que solicita contenedores a YARN y ejecuta tareas concurrentes en el clúster."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "hadoop-for-dummies-2014": {
+    "descripcion": "Manual introductorio y accesible de Dirk deRoos perteneciente a la célebre serie For Dummies, diseñado para desmitificar Apache Hadoop y el ecosistema Big Data.\n\ndeRoos explica de forma sencilla y amigable qué es Hadoop, cómo almacena datos HDFS dividiéndolos en bloques redundantes, cómo procesa información MapReduce, y para qué sirven herramientas clave como Hive, Pig, HBase y Sqoop. Analiza el impacto comercial del Big Data y cómo planificar proyectos en la empresa.\n\nEl punto de partida ideal para profesionales de cualquier trasfondo que necesitan comprender el valor estratégico y los fundamentos de Hadoop.",
+    "temas": [
+      "Hadoop For Dummies",
+      "Dirk deRoos",
+      "Big Data",
+      "HDFS",
+      "MapReduce",
+      "Hive",
+      "Pig",
+      "Introducción"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "professional-hadoop-solutions-2013": {
+    "descripcion": "Tratado técnico y arquitectónico de Boris Lublinsky, Kevin Smith y Alexey Yakubovich perteneciente a la prestigiosa serie roja de Wrox, dedicado a diseñar soluciones corporativas robustas con Hadoop.\n\nLos autores abordan patrones avanzados de arquitectura: diseño de canalizaciones de ingesta masiva, procesamiento por lotes con MapReduce avanzado, orquestación de flujos de trabajo con Oozie y Spring Batch, almacenes NoSQL con HBase, y analítica con Hive. Además, profundiza en la computación en tiempo real con Apache Storm y la seguridad corporativa.\n\nUna de las mejores obras arquitectónicas de referencia sobre la construcción de plataformas empresariales sobre el stack de Hadoop.",
+    "temas": [
+      "Professional Hadoop",
+      "Boris Lublinsky",
+      "Wrox Red Book",
+      "Oozie",
+      "HBase",
+      "Apache Storm",
+      "Arquitectura Big Data",
+      "Spring Batch"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma empresarial de procesamiento y analítica de datos sobre Hadoop",
+        "descripcion": "Construcción de una solución completa con ingesta automatizada, flujos de orquestación en Oozie y consultas analíticas sobre HBase y Hive."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

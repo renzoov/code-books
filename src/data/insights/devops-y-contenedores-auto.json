@@ -1,0 +1,1824 @@
+{
+  "python-for-devops-2020": {
+    "descripcion": "Manual práctico y exhaustivo publicado por O'Reilly en el que Noah Gift, Kennedy Behrman, Alfredo Deza y Grig Gheorghiu abordan la automatización integral de infraestructura y flujos de trabajo en Linux utilizando Python 3. Está dirigido a administradores de sistemas, ingenieros de operaciones y desarrolladores de software con nivel intermedio que ya conocen la sintaxis básica de Python y el manejo elemental de la terminal, pero desean dar el salto cualitativo hacia la ingeniería DevOps y la gestión automatizada de sistemas en entornos locales y cloud.\n\nLa obra profundiza en la interacción con el sistema operativo y la manipulación de archivos mediante módulos nativos como sys, os, pathlib y subprocess, combinados con el desarrollo de utilidades de terminal modulares mediante Click e IPython. Se enseña a implementar control de calidad con pruebas en Pytest, canalizaciones de integración continua (CI/CD) con GitHub Actions, infraestructura como código (IaC) con Terraform y Ansible, y contenedorización con Docker y Docker Compose. Además, cubre la automatización en nubes públicas (AWS, GCP, Azure) a través de Boto3, el despliegue de funciones serverless en AWS Lambda, la orquestación en Kubernetes y prácticas de observabilidad con Prometheus y logging centralizado, rematando con fundamentos aplicados de MLOps y Data Engineering con Pandas y Scikit-learn.\n\nA lo largo de sus capítulos se desarrollan herramientas CLI para tareas de mantenimiento, suites de pruebas para infraestructura y pipelines que automatizan la construcción y el despliegue de microservicios en la nube. Su mayor valor reside en enseñar a concebir Python como el pegamento indispensable de todo el ecosistema de herramientas DevOps moderno; no obstante, debido a su enorme amplitud temática, no profundiza exhaustivamente en la arquitectura interna de Kubernetes ni en patrones avanzados de desarrollo de software, resultando ideal como manual de campo y recetario práctico de automatización.",
+    "temas": [
+      "Python 3",
+      "Automatización Linux",
+      "Click",
+      "Pytest",
+      "CI/CD",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Terraform",
+      "Ansible",
+      "MLOps",
+      "Serverless"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Herramientas CLI de administración de sistemas con Click",
+        "descripcion": "Desarrollo de utilidades modulares de línea de comandos en Python con la librería Click para automatizar la gestión de archivos, procesos y tareas del sistema operativo en servidores Linux."
+      },
+      {
+        "nombre": "Microservicio serverless con CI/CD en AWS",
+        "descripcion": "Implementación de un microservicio desplegado en AWS Lambda gestionado con Boto3, integrado con suites de pruebas en Pytest y canalizaciones continuas en GitHub Actions."
+      },
+      {
+        "nombre": "Despliegue y orquestación de aplicación en Kubernetes",
+        "descripcion": "Empaquetado de una aplicación web en contenedores Docker y su posterior despliegue y gestión declarativa en un clúster de Kubernetes mediante manifiestos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/python-for-devops/9781492057680/",
+      "https://www.amazon.com/Python-DevOps-Ruthlessly-Effective-Automation/dp/149205769X",
+      "https://github.com/paiml/python_devops_book"
+    ]
+  },
+  "deploying-rails-with-docker-kubernetes-and-ecs-2016": {
+    "descripcion": "Guía técnica condensada y directa en la que el ingeniero de software Pablo Acuña muestra cómo empaquetar, orquestar y desplegar aplicaciones web modernas de Ruby on Rails (utilizando Rails 5 en modo API) en entornos productivos basados en contenedores. Está pensada para desarrolladores backend de Ruby on Rails de nivel intermedio que buscan dar sus primeros pasos en la cultura DevOps y familiarizarse con el despliegue en la nube, requiriendo conocimientos previos en el desarrollo de APIs con Rails y conceptos básicos de bases de datos relacionales.\n\nEl recorrido formativo enseña a crear y estructurar una aplicación API de Rails 5 conectada a una base de datos PostgreSQL, para luego construir imágenes optimizadas mediante Dockerfiles y coordinar servicios con Docker Compose antes de publicarlas en Docker Hub. Posteriormente, detalla la definición de manifiestos y plantillas de configuración de Kubernetes (Pods, ReplicaSets, Services, Deployments y volúmenes de almacenamiento persistente), evaluándolos en local con Minikube y desplegándolos en producción sobre un clúster en Amazon Web Services (AWS). Además, expone una ruta alternativa implementando contenedores en Amazon EC2 Container Service (Amazon ECS) usando ECS-CLI y Amazon RDS, rematando con la configuración de un servidor Jenkins para orquestar la integración y entrega continua (CI/CD).\n\nEl texto es completamente práctico y sigue el ciclo de vida de un proyecto único: una API Rails que pasa de ejecutarse en local a estar contenida en Docker, orquestada en Kubernetes y desplegada en Amazon ECS con pruebas automatizadas en Jenkins. Su principal atractivo es la brevedad y claridad con la que contrasta dos opciones de orquestación en AWS (Kubernetes frente a ECS); sin embargo, dado que fue editado en 2016, muchas APIs de Kubernetes y herramientas como la CLI de ECS o versiones de Jenkins han cambiado sustancialmente, por lo que el lector deberá adaptar comandos y versiones a la realidad actual.",
+    "temas": [
+      "Ruby on Rails 5",
+      "Docker",
+      "Docker Compose",
+      "Docker Hub",
+      "Kubernetes",
+      "Amazon ECS",
+      "AWS",
+      "PostgreSQL",
+      "Minikube",
+      "Jenkins",
+      "CI/CD"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Rails 5 API en contenedores desplegada en Kubernetes y Amazon ECS",
+        "descripcion": "Construcción y dockerización de una API en Rails 5 conectada a PostgreSQL, probada localmente con Minikube y desplegada en clústeres productivos de AWS tanto con Kubernetes como con Amazon ECS."
+      },
+      {
+        "nombre": "Pipeline de integración y entrega continua con Jenkins",
+        "descripcion": "Configuración de una instancia de Jenkins en AWS para compilar imágenes de Docker, ejecutar baterías de pruebas y desplegar automáticamente las actualizaciones de la aplicación Rails."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2415-1",
+      "https://www.apress.com/gp/book/9781484224144",
+      "https://www.amazon.com/Deploying-Rails-Docker-Kubernetes-ECS/dp/1484224143"
+    ]
+  },
+  "implementing-gitops-with-kubernetes-2024": {
+    "descripcion": "Manual integral y rigurosamente actualizado publicado por Packt a mediados de 2024, en el que Pietro Libro y Artem Lajko abordan la metodología GitOps para la administración automatizada, segura y escalable de clústeres Kubernetes y aplicaciones nativas de la nube. Está dirigido a ingenieros DevOps, ingenieros de plataforma, administradores de Kubernetes y especialistas SRE con experiencia intermedia que dominan los conceptos nucleares de contenedores y buscan erradicar la deriva de configuración ('drift') convirtiendo los repositorios Git en la fuente única de verdad del estado deseado de su infraestructura.\n\nLa obra explica a fondo los operadores GitOps líderes de la CNCF, implementando tanto Argo CD como Flux CD para la sincronización continua de cargas de trabajo declarativas estructuradas con Helm y Kustomize. Se enseña a aprovisionar y gestionar infraestructura como código (IaC) en entornos multicloud (AWS con Amazon EKS y Microsoft Azure con AKS) utilizando Terraform y OpenTofu, integrando canalizaciones de validación en GitHub Actions. Asimismo, profundiza en la gestión de aplicaciones con estado (stateful), arquitecturas multiclúster y multi-inquilino (multitenancy), políticas de seguridad declarativa, observabilidad de clústeres y gobernanza de costes en tiempo real mediante herramientas de FinOps como OpenCost y Kubecost.\n\nEl libro ofrece una aproximación sumamente aplicada en la que se construye una plataforma GitOps completa, configurando pipelines de sincronización continua, detección automática de inconsistencias, despliegues multi-entorno y análisis de costos operativos. Aporta una perspectiva moderna y realista de nivel corporativo que une la entrega de aplicaciones con el aprovisionamiento de infraestructura bajo una misma filosofía declarativa; como contraparte, presupone soltura previa con Terraform y arquitectura de Kubernetes, por lo que no es una obra para principiantes en tecnologías de contenedores.",
+    "temas": [
+      "GitOps",
+      "Kubernetes",
+      "Argo CD",
+      "Flux CD",
+      "Helm",
+      "Kustomize",
+      "Terraform",
+      "OpenTofu",
+      "AWS EKS",
+      "Azure AKS",
+      "GitHub Actions",
+      "FinOps"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de despliegue continuo GitOps con Argo CD y Flux CD",
+        "descripcion": "Configuración y sincronización declarativa de clústeres Kubernetes en AWS y Azure mediante Argo CD y Flux CD, estructurando componentes con plantillas de Helm y parches de Kustomize."
+      },
+      {
+        "nombre": "Infraestructura multicloud declarativa con OpenTofu, gobernanza y FinOps",
+        "descripcion": "Aprovisionamiento automatizado de clústeres gestionados EKS y AKS utilizando OpenTofu/Terraform y GitHub Actions, incorporando políticas de seguridad y monitoreo de costos con OpenCost."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/implementing-gitops-with-kubernetes-9781835884225",
+      "https://www.amazon.com/Implementing-GitOps-Kubernetes-infrastructure-cloud-native/dp/1835884229",
+      "https://github.com/PacktPublishing/Implementing-GitOps-with-Kubernetes-Second-Edition"
+    ]
+  },
+  "prometheus-up-running-2nd-edition-2023": {
+    "descripcion": "Segunda edición de la guía de referencia autorizada sobre Prometheus publicada por O'Reilly en 2023, coescrita por Julien Pivotto (mantenedor del servidor de Prometheus) y Brian Brazil (desarrollador del núcleo de Prometheus). Está pensada para ingenieros de confiabilidad del sitio (SRE), administradores de sistemas, ingenieros de plataforma y desarrolladores de software de nivel intermedio que necesitan diseñar, implementar y operar un sistema de observabilidad y monitoreo basado en métricas para infraestructuras y aplicaciones distribuidas.\n\nEl contenido desglosa en profundidad la arquitectura interna del motor de Prometheus, su base de datos de series temporales (TSDB) y el modelo multidimensional de etiquetas (labels), prestando especial atención a cómo evitar problemas de alta cardinalidad. Enseña a instrumentar aplicaciones personalizadas utilizando las bibliotecas cliente oficiales en Go, Python y Java, a recopilar métricas de infraestructura con Node Exporter y otros exportadores comunes (Blackbox, Pushgateway), a dominar el lenguaje de consultas PromQL (incluyendo operadores de agregación, funciones matemáticas y reglas de grabación), a construir cuadros de mando interactivos en Grafana, a gestionar el ciclo de vida y enrutamiento de notificaciones con Alertmanager, y a desplegar Prometheus de forma nativa en Kubernetes con mecanismos de descubrimiento de servicios (Service Discovery).\n\nA través de ejemplos guiados, el lector aprende a instrumentar servicios desde su código fuente, configurar la recolección automática en clústeres y establecer reglas de alerta fiables que previenen la fatiga de alertas en entornos productivos. El gran valor de esta edición radica en su rigor conceptual y en los consejos directos de sus mantenedores sobre buenas prácticas de instrumentación y seguridad en el servidor (TLS y autenticación); deja deliberadamente fuera soluciones externas de almacenamiento a largo plazo como Thanos o Cortex, manteniendo un enfoque quirúrgico y exhaustivo en el funcionamiento del propio Prometheus.",
+    "temas": [
+      "Prometheus",
+      "PromQL",
+      "Grafana",
+      "Alertmanager",
+      "Node Exporter",
+      "Kubernetes",
+      "Instrumentación de código",
+      "Go",
+      "Python",
+      "Series temporales",
+      "SRE",
+      "Observabilidad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de recolección de métricas y gestión de alertas con Alertmanager",
+        "descripcion": "Configuración de un servidor Prometheus conectado a Node Exporter para monitorizar infraestructura host, definiendo reglas de alerta y pipelines de notificación con Alertmanager."
+      },
+      {
+        "nombre": "Instrumentación de microservicios y tableros en Kubernetes con Grafana",
+        "descripcion": "Integración de métricas personalizadas en aplicaciones Go y Python, desplegadas en Kubernetes con descubrimiento de servicios y dashboards de visualización en Grafana."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/prometheus-up-and/9781098131111/",
+      "https://www.amazon.com/Prometheus-Running-Infrastructure-Application-Performance/dp/1098131145",
+      "https://github.com/prometheus/prometheus"
+    ]
+  },
+  "the-platform-engineer-s-handbook-2026": {
+    "descripcion": "Tratado integral y contemporáneo escrito por Ajay Chankramath (fundador de Platformetrics y especialista en plataformas distribuidas) y publicado por Packt, enfocado en el diseño, implementación y evolución de Plataformas Internas de Desarrollo (IDP) concebidas como productos. Está dirigido a ingenieros sénior de software, arquitectos de sistemas, ingenieros de DevOps y líderes técnicos de infraestructura que buscan reducir la fricción cognitiva de los equipos de desarrollo y acelerar la entrega de software mediante capacidades avanzadas de autoservicio empresarial.\n\nLa obra articula tres ejes fundamentales: la construcción de un entorno de ejecución escalable en Kubernetes gobernado mediante Service Mesh (Istio o Linkerd) y arquitectura GitOps modular con Flux; la optimización de la experiencia del desarrollador (DevEx) mediante la implementación de un portal interno con Spotify Backstage, catálogos de componentes, plantillas de inicio ('starter kits') y CI/CD as a Service; y la maduración de operaciones del Día 2 que incorpora gobernanza declarativa mediante Policy as Code (Kyverno y OPA Gatekeeper), observabilidad y telemetría distribuida con OpenTelemetry, optimización presupuestaria con herramientas de FinOps (OpenCost y Kubecost), así como la integración de agentes y asistentes impulsados por inteligencia artificial para agilizar el onboarding y los pipelines.\n\nEl enfoque del libro es eminentemente práctico y reproducible: guía al lector en la construcción progresiva de una plataforma completa ejecutada inicialmente en un entorno local para luego trasladar esas mismas capacidades a proveedores en la nube como AWS, Azure o GCP. Su aporte más valioso es abordar la ingeniería de plataformas con mentalidad de producto, priorizando la satisfacción y productividad del usuario interno; dado su carácter holístico y la variedad de herramientas avanzadas que conecta, es indispensable contar con una base sólida en contenedores, Kubernetes y metodologías ágiles de entrega.",
+    "temas": [
+      "Platform Engineering",
+      "Internal Developer Platform (IDP)",
+      "Kubernetes",
+      "Backstage",
+      "GitOps",
+      "Flux",
+      "Service Mesh",
+      "Policy as Code",
+      "Kyverno",
+      "FinOps",
+      "OpenTelemetry",
+      "IA para DevOps"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal de autoservicio para desarrolladores con Backstage y Kubernetes",
+        "descripcion": "Construcción local de una plataforma interna de desarrollo que integra el portal Backstage, plantillas estandarizadas de inicio y flujos de integración continua desacoplados sobre Kubernetes."
+      },
+      {
+        "nombre": "Gobernanza automatizada, control de costes FinOps y agentes de IA",
+        "descripcion": "Implementación de sincronización GitOps con Flux, validación de cumplimiento mediante Policy as Code con Kyverno y monitoreo de costos y telemetría con OpenCost y OpenTelemetry."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/the-platform-engineers-handbook-9781806380138",
+      "https://www.amazon.com/Platform-Engineers-Handbook-developer-focused-streamline/dp/1806380137",
+      "https://github.com/achankra/peh"
+    ]
+  },
+  "continuous-delivery-2010": {
+    "descripcion": "Obra fundacional del movimiento DevOps y la ingeniería de software moderna (galardonada con el premio Jolt Excellence en 2011), escrita por Jez Humble y David Farley. El texto formaliza los principios, patrones arquitectónicos y disciplinas técnicas requeridas para transformar el proceso de despliegue en una rutina predecible, rápida y de bajo riesgo. Aunque fue publicado en 2010 y sus referencias prácticas reflejan herramientas de esa época (sistemas de control de versiones como Git y Subversion, y utilidades de compilación como Ant, Maven y Rake), sus fundamentos siguen vigentes. Está dirigido a desarrolladores, administradores de sistemas, ingenieros de operaciones y líderes técnicos con nociones generales del ciclo de vida del software que deseen eliminar los cuellos de botella en las puestas en producción.\n\nEl libro conceptualiza y profundiza en la anatomía del pipeline de despliegue (deployment pipeline), la integración continua (CI) y la gestión integral de la configuración (código, entornos, datos y dependencias). Explica estrategias de automatización de pruebas en múltiples etapas (pruebas unitarias, de integración, de aceptación automatizadas y pruebas no funcionales de carga y seguridad). Aborda la gestión y el versionado de esquemas de bases de datos sin tiempo de inactividad mediante patrones como expandir y contraer (expand and contract), el aprovisionamiento automatizado de infraestructura y entornos de servidor (con herramientas como Puppet, virtualización y PXE boot), y técnicas avanzadas de entrega como despliegues azul-verde (blue-green deployments), lanzamientos canario (canary releases) y conmutadores de funcionalidades (feature flags o feature toggles).\n\nNo es un manual guiado para programar una aplicación específica, sino un compendio metodológico y conceptual de ingeniería que enseña a diseñar el flujo completo de entrega de software mediante diagramas arquitectónicos y scripts demostrativos. Su gran valor reside en proporcionar el marco conceptual y los criterios de diseño sobre los que se construyeron herramientas modernas como GitHub Actions, GitLab CI o ArgoCD. Deja fuera tecnologías posteriores como los contenedores Docker o la orquestación con Kubernetes, por lo que el lector debe concentrarse en los principios universales de automatización y gobernanza más que en la sintaxis de las herramientas de compilación citadas.",
+    "temas": [
+      "Continuous Delivery",
+      "Continuous Integration",
+      "Deployment Pipeline",
+      "Gestión de configuración",
+      "Automatización de pruebas",
+      "Migraciones de bases de datos",
+      "Blue-Green Deployments",
+      "Canary Releases",
+      "Feature Flags",
+      "Infraestructura como código",
+      "DevOps"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/continuous-delivery-reliable-software-releases-through-9780321601919",
+      "https://www.oreilly.com/library/view/continuous-delivery-reliable/9780321670250/",
+      "https://continuousdelivery.com/",
+      "https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912"
+    ]
+  },
+  "devops-troubleshooting-linux-server-best-practices-2012": {
+    "descripcion": "Manual operativo y eminentemente práctico orientado a la resolución metódica de incidentes en servidores Linux de producción, bajo el principio DevOps de colaboración y erradicación del aislamiento entre desarrollo y operaciones. Kyle Rankin estructura el libro en torno a distribuciones empresariales Linux habituales (como CentOS/RHEL, Debian y Ubuntu de la era de kernels 2.6 y 3.x). Está destinado a administradores de sistemas, ingenieros de confiabilidad (SRE), personal de soporte técnico y desarrolladores de nivel intermedio que ya conocen comandos básicos de la terminal y buscan un método riguroso para depurar caídas de servicio bajo presión sin recurrir a reinicios arbitrarios.\n\nEl contenido enseña a descomponer y diagnosticar fallos en los subsistemas fundamentales del sistema operativo mediante herramientas clásicas de línea de comandos. Cubre el análisis y aislamiento de cuellos de botella en CPU, memoria RAM y saturación de entrada/salida de disco mediante utilidades como top, htop, vmstat, iostat, free, lsof y fuser. Guía la solución de problemas de arranque del sistema (GRUB, kernel panics y configuración de montaje en /etc/fstab), problemas de discos aparentemente llenos debido a descriptores de archivos huérfanos o agotamiento de inodos (df -i), diagnósticos de red con ping, traceroute y análisis de paquetes con tcpdump, errores de resolución DNS (dig, nslookup), bloqueos de correo electrónico SMTP, cuellos de botella en servidores web (Apache y Nginx), análisis de rendimiento y consultas lentas en bases de datos (MySQL y PostgreSQL) y detección de fallos intermitentes de hardware con dmesg, smartctl y herramientas de memoria.\n\nEl libro sigue un enfoque de recetas de resolución de problemas planteadas a partir de preguntas reales de producción (por ejemplo, «¿por qué no arranca el servidor?», «¿por qué no se puede escribir en disco si hay espacio?» o «¿por qué va lenta la base de datos?»). Su principal virtud es infundir un orden analítico para aislar capas, comprobar qué cambios recientes provocaron la anomalía y ejecutar pruebas no destructivas. Deja fuera herramientas contemporáneas de observabilidad distribuida, la gestión de servicios systemd moderna y contenedores, pero su núcleo de comandos de diagnóstico de Linux sigue siendo de consulta diaria obligada.",
+    "temas": [
+      "Linux",
+      "Troubleshooting",
+      "Diagnóstico de rendimiento",
+      "CPU y memoria",
+      "I/O de disco",
+      "Redes y DNS",
+      "Apache",
+      "Nginx",
+      "MySQL",
+      "PostgreSQL",
+      "Sysadmin",
+      "DevOps"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/devops-troubleshooting-linux-server-best-practices-9780321832047",
+      "https://www.oreilly.com/library/view/devops-troubleshooting-linux/9780133035506/",
+      "https://www.amazon.com/DevOps-Troubleshooting-Linux-Server-Practices/dp/0321832043"
+    ]
+  },
+  "advanced-platform-development-with-kubernetes-2020": {
+    "descripcion": "Guía avanzada y exhaustiva enfocada en la construcción integral de plataformas internas de desarrollo (Internal Developer Platforms) nativas sobre Kubernetes (específicamente versiones 1.16/1.18 y distribuciones ligeras como k3s). Escrita por Craig Johnston, la obra aborda cómo articular entornos independientes del proveedor de nube (cloud-neutral) preparados para albergar cargas complejas de datos, inteligencia artificial y sistemas distribuidos. Está pensada para arquitectos de software, ingenieros de plataformas y especialistas DevOps o SRE de nivel avanzado que ya dominan los manifiestos, servicios y controladores estándar de Kubernetes y necesitan desplegar infraestructuras completas autosuficientes.\n\nEl libro detalla el despliegue y orquestación de una pila técnica muy amplia dentro del propio clúster de Kubernetes. En la capa de infraestructura básica y redes, enseña a interconectar nodos mediante redes privadas con WireGuard VPN, configurar almacenamiento persistente en bloque y distribuido con Rook Ceph (CephFS) y automatizar certificados TLS mediante Cert-Manager y Let's Encrypt. En la capa DevOps, implementa GitLab y GitLab CI/CD nativos en el clúster. En el ámbito de datos y analítica, cubre el despliegue de streaming de eventos con Apache Kafka y ZooKeeper, ingesta y enrutamiento con Apache NiFi, indexación y búsqueda distribuida con Elasticsearch, y motores de bases de datos y consultas como Apache Cassandra y Apache Hive. Además, aborda el despliegue de redes privadas de blockchain con nodos Ethereum (Geth y Ethstats) y plataformas de machine learning con MLflow y Seldon Core para el ciclo de vida y servicio de modelos.\n\nA través de proyectos arquitectónicos interconectados, el autor demuestra paso a paso cómo convertir Kubernetes en una plataforma empresarial multiservicio que trasciende el mero alojamiento de microservicios sin estado. Aporta configuraciones listas para producción y patrones de encapsulación de dependencias muy difíciles de encontrar consolidados en un solo volumen. Como contrapartida, requiere una considerable capacidad de cómputo en servidores físicos o máquinas virtuales locales para ejecutar la suite completa de servicios, además de conocimientos sólidos previos en Linux, redes de contenedores y almacenamiento distribuido.",
+    "temas": [
+      "Kubernetes",
+      "Internal Developer Platform",
+      "k3s",
+      "Rook Ceph",
+      "Apache Kafka",
+      "Elasticsearch",
+      "GitLab CI/CD",
+      "Apache NiFi",
+      "Apache Cassandra",
+      "Ethereum",
+      "MLflow",
+      "Seldon Core"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Clúster base con k3s, WireGuard y almacenamiento Rook Ceph",
+        "descripcion": "Construcción de un clúster Kubernetes utilizando k3s interconectado mediante túneles seguros WireGuard, provisto de almacenamiento persistente distribuido con Rook Ceph y certificados TLS automatizados con Cert-Manager."
+      },
+      {
+        "nombre": "Infraestructura CI/CD interna basada en GitLab",
+        "descripcion": "Despliegue autónomo de GitLab con sus propios ejecutores (runners) dentro del clúster de Kubernetes para administrar repositorios, registros de contenedores y flujos continuos de integración."
+      },
+      {
+        "nombre": "Pila de transmisión y procesamiento de datos con Kafka, NiFi y Elasticsearch",
+        "descripcion": "Plataforma de datos en tiempo real que combina Apache Kafka para la cola de eventos, Apache NiFi para la ingesta y transformación de flujos de datos, y Elasticsearch para indexación y análisis."
+      },
+      {
+        "nombre": "Red privada de Blockchain con nodos Ethereum",
+        "descripcion": "Instalación y orquestación de una red privada de blockchain con nodos Geth (Go Ethereum) monitorizados en tiempo real mediante el panel web Ethstats sobre Kubernetes."
+      },
+      {
+        "nombre": "Plataforma de MLOps con MLflow y Seldon Core",
+        "descripcion": "Entorno nativo para la gestión integral del ciclo de vida de modelos de machine learning con MLflow y el despliegue de microservicios de inferencia escalables con Seldon Core."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5611-4",
+      "https://www.oreilly.com/library/view/advanced-platform-development/9781484256114/",
+      "https://www.amazon.com/Advanced-Platform-Development-Kubernetes-Technologies/dp/1484256108",
+      "https://github.com/apk8s/book-source"
+    ]
+  },
+  "beginning-build-and-release-management-with-tfs-2017-and-vsts-2017": {
+    "descripcion": "Guía práctica y detallada centrada en la automatización del ciclo de vida del software dentro del ecosistema empresarial de Microsoft, utilizando Team Foundation Server 2017 (TFS 2017) en entornos locales y Visual Studio Team Services (VSTS, la plataforma en la nube que más tarde evolucionó a Azure DevOps). Chaminda Chandrasekara orienta el libro a desarrolladores de .NET, ingenieros de sistemas y gestores de versiones de nivel básico o intermedio que trabajan con Visual Studio y buscan sustituir procesos manuales de despliegue por pipelines consistentes de integración y entrega continua (CI/CD).\n\nEl texto cubre la instalación y configuración de agentes de compilación y release (tanto agentes alojados en la nube como agentes privados locales o en máquinas virtuales). Enseña a utilizar el editor visual de definiciones de compilación y release basado en tareas, grupos de tareas reutilizables (task groups) y extensiones de Visual Studio Marketplace. Detalla despliegues continuos de aplicaciones web ASP.NET hacia servidores locales con IIS y Azure App Service, despliegues de bases de datos mediante paquetes DACPAC en Azure SQL Database, y orquestación de microservicios en Azure Service Fabric. Asimismo, aborda la conexión con repositorios externos como GitHub y Bitbucket, compilaciones multiplataforma (Java y Android con Maven y Gradle), ejecución de pruebas automáticas con MSTest y Selenium, despliegues de personalizaciones para Microsoft Dynamics CRM 2016 y CRM Online, gestión de paquetes privados con NuGet y npm, y desarrollo de tareas personalizadas con PowerShell y Node.js.\n\nA través de proyectos prácticos de configuración paso a paso, el lector aprende a conectar cada una de las fases de entrega desde el código fuente hasta múltiples destinos de producción locales e híbridos en Azure. Aporta gran valor al abarcar componentes empresariales complejos que rara vez se tratan en guías genéricas de CI/CD, como la automatización de bases de datos relacionales y soluciones Dynamics. Debe considerarse que el libro utiliza las interfaces visuales web clásicas de TFS 2017 y VSTS; aunque la terminología y las pantallas migraron posteriormente hacia pipelines basados en código YAML en Azure DevOps, la lógica conceptual de los agentes, tareas y artefactos se mantiene directamente aplicable.",
+    "temas": [
+      "TFS 2017",
+      "VSTS",
+      "Azure DevOps",
+      "Continuous Integration",
+      "Continuous Delivery",
+      "ASP.NET",
+      "Azure App Service",
+      "Azure SQL",
+      "Azure Service Fabric",
+      "Dynamics CRM",
+      "PowerShell",
+      "Selenium"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline de despliegue continuo de ASP.NET en IIS y Azure App Service",
+        "descripcion": "Configuración de un flujo de compilación y publicación automatizada para aplicaciones web ASP.NET hacia servidores locales con IIS y servicios web gestionados en Azure App Service."
+      },
+      {
+        "nombre": "Automatización de despliegues de bases de datos relacionales con DACPAC y Azure SQL",
+        "descripcion": "Pipeline de entrega continua para proyectos de bases de datos SQL Server que genera artefactos DACPAC y aplica actualizaciones de esquema automáticas en Azure SQL Database."
+      },
+      {
+        "nombre": "Publicación automatizada de microservicios en Azure Service Fabric",
+        "descripcion": "Definición y ejecución de pipelines para empaquetar servicios distribuidos y desplegarlos en clústeres de Azure Service Fabric."
+      },
+      {
+        "nombre": "Integración de suites de pruebas automáticas con MSTest y Selenium",
+        "descripcion": "Incorporación de fases de pruebas unitarias y pruebas funcionales de interfaz de usuario con Selenium dentro del proceso de release para validar versiones antes del paso a producción."
+      },
+      {
+        "nombre": "Pipeline de empaquetado y entrega para soluciones Dynamics CRM",
+        "descripcion": "Automatización del proceso de exportación, empaquetado e importación controlada de soluciones y personalizaciones sobre entornos de Microsoft Dynamics CRM 2016 y CRM Online."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2869-2",
+      "https://www.oreilly.com/library/view/beginning-build-and/9781484228692/",
+      "https://www.amazon.com/Beginning-Build-Release-Management-VSTS/dp/1484228686"
+    ]
+  },
+  "devops-for-azure-applications-2018": {
+    "descripcion": "Manual conciso y pragmático de 126 páginas orientado a la automatización de despliegues de aplicaciones web en la nube de Microsoft Azure, escrito por Suren Machiraju y Suraj Gaurav. Centrado en el ecosistema de Azure de 2018 y las herramientas de integración continua vigentes en esa etapa, el libro está diseñado para desarrolladores, arquitectos de software e ingenieros de DevOps de nivel intermedio que conocen los servicios básicos de cómputo en la nube y necesitan comparar e implementar canalizaciones de despliegue efectivas.\n\nEl núcleo temático del libro contrasta dos estrategias principales de CI/CD hacia Azure: por un lado, una cadena desacoplada que emplea JetBrains TeamCity para la compilación e integración continua junto con Octopus Deploy para la gestión de lanzamientos y despliegues automáticos multientorno; por otro lado, una cadena unificada mediante Visual Studio Team Services (VSTS, predecesor de Azure DevOps). Explica el aprovisionamiento de recursos mediante plantillas de Azure Resource Manager (ARM), la configuración de servicios web en Azure App Service, la administración de credenciales y variables de entorno, y la articulación de pipelines para entornos de prueba y producción en la nube.\n\nEl libro concluye con un proyecto práctico en el que se ejecuta el despliegue completo de una aplicación web de comercio electrónico de código abierto (Magento) sobre la infraestructura de Azure utilizando pipelines de VSTS. Su principal virtud reside en su brevedad y en la comparación directa entre un ecosistema heterogéneo de herramientas especializadas (TeamCity y Octopus) frente a la plataforma unificada de Microsoft, facilitando la toma de decisiones arquitectónicas. Al ser una obra compacta, deja fuera aspectos avanzados como la orquestación en contenedores con Azure Kubernetes Service (AKS), monitorización detallada con Application Insights o arquitecturas serverless complejas.",
+    "temas": [
+      "Microsoft Azure",
+      "Azure App Service",
+      "TeamCity",
+      "Octopus Deploy",
+      "VSTS",
+      "Azure DevOps",
+      "CI/CD",
+      "ARM Templates",
+      "Magento",
+      "Despliegue web"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline de entrega en Azure Web Apps con TeamCity y Octopus Deploy",
+        "descripcion": "Implementación de un flujo continuo donde TeamCity compila la aplicación y genera los paquetes de artefactos, mientras Octopus Deploy gestiona el despliegue automatizado hacia Azure App Service."
+      },
+      {
+        "nombre": "Pipeline unificado de despliegue continuo con VSTS",
+        "descripcion": "Configuración de una canalización integral dentro de Visual Studio Team Services para gestionar la compilación del código y el despliegue automático hacia aplicaciones web en Azure."
+      },
+      {
+        "nombre": "Despliegue de plataforma de comercio electrónico Magento en Azure",
+        "descripcion": "Aprovisionamiento de infraestructura y despliegue automatizado de una solución de comercio electrónico Magento sobre servicios de Azure utilizando pipelines de VSTS."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3643-7",
+      "https://www.oreilly.com/library/view/devops-for-azure/9781484236437/",
+      "https://www.amazon.com/DevOps-Azure-Applications-Deploy-Microservices/dp/1484236425"
+    ]
+  },
+  "devops-for-sharepoint-2018": {
+    "descripcion": "La administración y el despliegue de granjas de SharePoint Server han sido tradicionalmente procesos manuales, lentos y susceptibles a errores de configuración. En este libro, Oscar Medina y Ethan Schumann proponen un enfoque sistemático para modernizar la gestión de SharePoint (orientado a versiones locales como SharePoint Server 2013 y 2016) mediante principios de Infraestructura como Código (IaC). La obra está pensada para administradores de sistemas, ingenieros de operaciones y arquitectos de SharePoint con experiencia en Windows Server y scripts de PowerShell, que buscan automatizar la creación y el mantenimiento de sus granjas tanto en entornos locales como en la nube.\n\nEl texto detalla cómo integrar las herramientas estándar del ecosistema DevOps de código abierto en la plataforma de colaboración de Microsoft. Los autores enseñan a utilizar Vagrant junto con ServerSpec para levantar y verificar rápidamente granjas de desarrollo locales automatizadas; Packer para compilar imágenes base homogéneas y reproducibles («golden images»); Terraform para aprovisionar topologías de red y máquinas virtuales en proveedores como Amazon Web Services (AWS) y Microsoft Azure; y Ansible para ejecutar playbooks de configuración que apliquen parches y actualizaciones de Microsoft sin tiempos prolongados de indisponibilidad. También se abordan pruebas automatizadas de conformidad con InSpec y patrones para el control de versiones colaborativo.\n\nA nivel práctico, el libro guía la implementación de un laboratorio local de desarrollo con Vagrant y la posterior automatización del despliegue y escalado horizontal de una granja de SharePoint multi-servidor en la nube de AWS y Azure con Terraform y Ansible. Su gran aporte radica en tender un puente entre la cultura abierta de DevOps y la arquitectura empresarial de SharePoint, demostrando que es viable eliminar la intervención manual en entornos Windows complejos. Como contrapartida, no trata el desarrollo de soluciones modernas con SharePoint Framework (SPFx) ni arquitecturas en la nube pública de SharePoint Online (Microsoft 365), ya que su alcance se restringe por completo a la infraestructura de granjas autogestionadas.",
+    "temas": [
+      "SharePoint Server",
+      "DevOps",
+      "Infrastructure as Code",
+      "Terraform",
+      "Ansible",
+      "Packer",
+      "Vagrant",
+      "AWS",
+      "Microsoft Azure",
+      "PowerShell",
+      "ServerSpec"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Granja de desarrollo local automatizada con Vagrant y ServerSpec",
+        "descripcion": "Creación de un entorno de desarrollo local rápido y reproducible para SharePoint Server mediante máquinas virtuales automatizadas con Vagrant y validadas con pruebas de infraestructura en ServerSpec."
+      },
+      {
+        "nombre": "Aprovisionamiento y escalado de granja SharePoint en AWS y Azure",
+        "descripcion": "Despliegue y escalado horizontal de una topología multi-servidor de SharePoint en la nube utilizando plantillas de Terraform, imágenes preconfiguradas con Packer y automatización de configuración con Ansible."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3688-8",
+      "https://www.oreilly.com/library/view/devops-for-sharepoint/9781484236895/"
+    ]
+  },
+  "devops-in-python-2019": {
+    "descripcion": "El autor Moshe Zadka, veterano contribuidor del núcleo de Python y cofundador del proyecto Twisted, reivindica en este libro el propósito original de Python como una herramienta diseñada para la administración y automatización de sistemas. Centrado en Python 3, el texto está dirigido a administradores de sistemas, ingenieros de confiabilidad de sitios (SRE) y desarrolladores de operaciones que poseen conocimientos básicos de Python y manejo de la terminal Bash, pero desean sustituir scripts de shell frágiles por herramientas robustas construidas bajo principios formales de ingeniería de software.\n\nLa obra recorre el conjunto de librerías y utilidades que convierten a Python en un motor de infraestructura como código. Enseña estrategias de instalación y compilación limpia con pyenv; gestión de dependencias y empaquetado autónomo mediante herramientas como Tox, Pex, Shiv y entornos virtuales; uso de consolas interactivas y Jupyter como paneles de auditoría y ejecución operativa; automatización del sistema de archivos y procesos con los módulos estándar subprocess y pathlib; pruebas unitarias con pytest y unittest; manipulación de texto y logs; consumo y verificación de APIs HTTP mediante la librería requests; cifrado de credenciales y secretos con la biblioteca cryptography; administración y transferencias seguras por SSH con Paramiko; y la creación de módulos y extensiones personalizadas para sistemas de configuración como SaltStack y Ansible, además de la interacción con contenedores Docker y servicios cloud de AWS mediante Boto3.\n\nEl enfoque no desarrolla una aplicación web orientada al usuario final, sino un catálogo modular de utilidades operativas, plugins para gestores de configuración, scripts de automatización resilientes y baterías de pruebas que validan los cambios de infraestructura antes de aplicarlos. Su principal virtud reside en profesionalizar las tareas cotidianas de operaciones mediante tipado, pruebas unitarias y empaquetado hermético, reduciendo errores críticos en producción. No abarca orquestación avanzada en clústeres como Kubernetes ni herramientas declarativas como Terraform, manteniéndose enfocado en el potencial del código imperativo en Python.",
+    "temas": [
+      "Python",
+      "DevOps",
+      "Automatización de sistemas",
+      "Ansible",
+      "SaltStack",
+      "Docker",
+      "Paramiko",
+      "Boto3",
+      "Pytest",
+      "Empaquetado Python",
+      "Requests"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4433-3",
+      "https://www.oreilly.com/library/view/devops-in-python/9781484244333/"
+    ]
+  },
+  "devops-on-the-microsoft-stack-2016": {
+    "descripcion": "Escrito por Wouter de Kort, este libro ofrece una guía integral para implementar las prácticas, procesos y herramientas de la metodología DevOps en organizaciones sustentadas en tecnologías Microsoft. Publicado en la etapa de transición hacia la nube de Azure y las versiones modernas de Visual Studio y TFS, está diseñado para desarrolladores de .NET, arquitectos de software, administradores de sistemas Windows y jefes de equipo que buscan derribar la separación entre desarrollo y operaciones para acelerar la entrega de valor de forma predecible.\n\nEl contenido estructura el ciclo de vida del software en las fases de planificar, programar, compilar, entregar y monitorear utilizando Visual Studio 2015, Team Foundation Server (TFS 2015) y Visual Studio Team Services (VSTS, plataforma predecesora de Azure DevOps). Detalla la gestión de proyectos ágiles con tableros y sprints; el control de código fuente con Git y TFVC; la creación de canalizaciones de Integración Continua (CI) con MSBuild; la administración de artefactos y dependencias binarias con NuGet; el control de calidad y deuda técnica con SonarQube; la automatización de pruebas unitarias y de interfaz con Coded UI; la Entrega Continua (CD) hacia Microsoft Azure (Azure App Service y máquinas virtuales) con Release Management; la infraestructura como código usando plantillas ARM (Azure Resource Manager); y la supervisión en vivo mediante Application Insights.\n\nA lo largo de los capítulos se configura una canalización completa de entrega continua para una aplicación web sobre el stack .NET, abarcando desde la compilación y validación automática de pruebas hasta el despliegue orquestado en Microsoft Azure y la telemetría operativa en producción. La obra destaca por brindar una visión unificada del ecosistema empresarial de Microsoft, aunque el lector debe tener presente que los servicios de VSTS han evolucionado a Azure DevOps y que actualmente GitHub Actions comparte protagonismo en estos flujos de trabajo.",
+    "temas": [
+      "DevOps",
+      "Microsoft Azure",
+      "VSTS / Azure DevOps",
+      "Team Foundation Server",
+      ".NET",
+      "Visual Studio",
+      "CI/CD",
+      "Application Insights",
+      "ARM Templates",
+      "Git",
+      "NuGet",
+      "SonarQube"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Canalización CI/CD integral de aplicación .NET en Azure con VSTS/TFS",
+        "descripcion": "Configuración de una cadena de entrega continua para una aplicación .NET que automatiza compilación, análisis estático con SonarQube, pruebas automatizadas y despliegue en Microsoft Azure con plantillas ARM y telemetría de Application Insights."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1446-6",
+      "https://www.oreilly.com/library/view/devops-on-the/9781484214466/"
+    ]
+  },
+  "devops-dbas-and-dbaas-2017": {
+    "descripcion": "En los procesos de transformación ágil, las bases de datos suelen convertirse en el principal cuello de botella: los equipos de desarrollo necesitan realizar cambios continuos, mientras que los administradores de bases de datos (DBAs) priorizan la integridad, disponibilidad y seguridad de la información. Michael S. Cuppett analiza en esta obra cómo cerrar esta brecha cultural y técnica, ofreciendo directrices para incorporar la capa de datos en las canalizaciones de Integración Continua (CI) y Entrega Continua (CD). El libro está orientado a DBAs, ingenieros de operaciones y directores técnicos con experiencia en bases de datos relacionales o NoSQL que necesitan integrar la administración de datos con la cadencia de entrega moderna.\n\nEl autor examina detalladamente la naturaleza de las bases de datos frente al desarrollo de software, estableciendo la distinción crítica entre los datos persistentes con estado («stateful») y las estructuras de esquema, procedimientos y código de acceso que pueden ser tratados sin estado («stateless»). A partir de esta premisa, se explican patrones para versionar y aplicar scripts de migración de esquemas en repositorios de código; la automatización de validaciones y pruebas de rendimiento antes de pasar a producción; la integración con herramientas de orquestación; la transición hacia arquitecturas de Base de Datos como Servicio (DBaaS) tanto en infraestructuras locales como en la nube pública (IaaS y PaaS); y la reformulación de los acuerdos de nivel de servicio (SLAs) para alinearlos con la experiencia de usuario y el impacto de negocio, superando métricas aisladas de disponibilidad de hardware.\n\nSe trata de un libro conceptual, organizacional y metodológico que no busca enseñar la sintaxis de un motor en particular ni construir una aplicación práctica guiada, sino dotar al DBA de un marco de trabajo para convertirse en un facilitador ágil dentro del equipo multidisciplinario. Su valor radica en el análisis pragmático de la gobernanza de datos y el cambio cultural requerido en la empresa; quienes busquen un manual técnico con comandos específicos de PostgreSQL, Oracle o SQL Server no lo encontrarán aquí, ya que su propósito es estratégico y de arquitectura de procesos.",
+    "temas": [
+      "DBA",
+      "DevOps",
+      "DBaaS",
+      "Bases de datos",
+      "Integración continua",
+      "Control de cambios de esquema",
+      "Automatización de datos",
+      "Cultura DevOps",
+      "IaaS / PaaS",
+      "Rendimiento y SLAs"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2208-9",
+      "https://www.oreilly.com/library/view/devops-dbas-and/9781484222072/"
+    ]
+  },
+  "docker-for-data-science-2017": {
+    "descripcion": "La reproducibilidad de los experimentos y la incompatibilidad entre entornos de desarrollo y servidores de producción son dos de los problemas más frecuentes en el análisis de datos. En este libro, Joshua Cook enseña a los profesionales de los datos a adoptar la contenedorización con Docker como estándar para construir infraestructuras de análisis portables, reproducibles y aisladas. La obra está dirigida a científicos de datos, analistas e investigadores que trabajan habitualmente con Python o R y entornos de Jupyter Notebook, y que desean incorporar buenas prácticas de infraestructura como código (IaC) sin necesidad de contar con un trasfondo avanzado en ingeniería de sistemas.\n\nEl temario aborda desde la arquitectura del motor Docker (contenedores, capas de imágenes, volúmenes y redes) hasta su integración directa en el flujo analítico. El autor profundiza en la creación y personalización de Dockerfiles para declarar dependencias de librerías; el aprovechamiento de las imágenes oficiales de la comunidad (Jupyter Stacks, como «jupyter/datascience-notebook»); la distribución y versionado de imágenes a través de Docker Hub; la incorporación de almacenes de datos relacionales y no relacionales en contenedores independientes (PostgreSQL, MongoDB y Redis); y la orquestación multicontenedor mediante Docker Compose, permitiendo que un servidor de Jupyter interactúe fluidamente con múltiples bases de datos mientras el código y los conjuntos de datos permanecen sincronizados con el sistema anfitrión.\n\nEn la parte práctica, el lector construye paso a paso una infraestructura interactiva modular que interconecta un servidor Jupyter Notebook personalizado con contenedores dedicados de PostgreSQL, MongoDB y Redis utilizando Docker Compose. La principal fortaleza de la obra reside en explicar Docker desde la mentalidad del científico de datos, eliminando la jerga innecesaria de sistemas y enfocándose en la reproducibilidad y el manejo de datos que exceden la memoria local. Deja fuera temas avanzados de orquestación a gran escala como Kubernetes o clústeres distribuidos con Apache Spark, centrándose de forma muy efectiva en el entorno de desarrollo del analista y de equipos de investigación.",
+    "temas": [
+      "Docker",
+      "Data Science",
+      "Jupyter Notebook",
+      "Docker Compose",
+      "Dockerfile",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "Reproducibilidad",
+      "Python",
+      "R",
+      "Contenedores"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Infraestructura analítica multicontenedor con Jupyter y Docker Compose",
+        "descripcion": "Plataforma de trabajo reproducible para ciencia de datos que integra un servidor Jupyter Notebook personalizado comunicado con instancias de PostgreSQL, MongoDB y Redis orquestadas mediante Docker Compose y volúmenes persistentes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3012-1",
+      "https://www.oreilly.com/library/view/docker-for-data-science/9781484230121/"
+    ]
+  },
+  "docker-management-design-patterns-2017": {
+    "descripcion": "Manual técnico centrado en la orquestación y gestión de clústeres de contenedores mediante el modo nativo Docker Swarm desplegado sobre la infraestructura de Amazon Web Services (AWS), basado en el ecosistema Docker 17.x. Está pensado para ingenieros DevOps, administradores de sistemas y desarrolladores con nivel intermedio que ya conocen los comandos básicos de Docker (construcción de imágenes, ejecución de contenedores independientes) y buscan implementar entornos de producción distribuidos y resilientes sin la curva de aprendizaje de sistemas más complejos como Kubernetes.\n\nEl autor expone los patrones de diseño y comandos para inicializar clústeres Swarm, aprovisionar nodos en AWS mediante plantillas CloudFormation y Docker for AWS, y configurar redes superpuestas (overlay networks). Enseña detalladamente la gestión de servicios (`docker service`), el escalado horizontal de réplicas, la programación de contenedores con restricciones y etiquetas de afinidad, la configuración de recursos de memoria y CPU, y el almacenamiento persistente con volúmenes montados. También cubre el balanceo de carga mediante el enrutamiento de malla (ingress routing mesh), despliegues progresivos sin caídas (rolling updates con rollback automático), monitorización y la definición declarativa de aplicaciones completas mediante pilas de servicios (service stacks con Docker Compose).\n\nEn la parte práctica, se guía la creación de un clúster multizona en AWS y la puesta en marcha de un sitio web tolerante a fallos junto a pilas multicontenedor. Aporta un compendio estructurado de soluciones operativas para la alta disponibilidad en Swarm; no obstante, debe tenerse en cuenta que plataformas complementarias descritas en el libro como Docker Cloud fueron descontinuadas y las integraciones directas con AWS evolucionaron hacia servicios gestionados (ECS/EKS), por lo que conviene extrapolar los principios de red y orquestación a despliegues modernos.",
+    "temas": [
+      "Docker Swarm",
+      "Amazon Web Services (AWS)",
+      "Docker for AWS",
+      "Orquestación de contenedores",
+      "Docker Services",
+      "Overlay Networks",
+      "Rolling Updates",
+      "Balanceo de carga",
+      "Docker Compose Stacks",
+      "Persistencia y volúmenes"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio web de alta disponibilidad multizona en AWS",
+        "descripcion": "Aprovisionamiento y configuración de un clúster Docker Swarm distribuido en varias zonas de disponibilidad de AWS EC2, orquestando réplicas de servicios web con balanceo de carga y tolerancia a fallos."
+      },
+      {
+        "nombre": "Pila de servicios multicontenedor con Docker Stacks",
+        "descripcion": "Definición y despliegue de una arquitectura distribuida mediante archivos Docker Compose, coordinando servicios interconectados y políticas de actualización en el enjambre."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2973-6",
+      "https://www.amazon.com/Docker-Management-Design-Patterns-Services/dp/1484229727"
+    ]
+  },
+  "effective-team-management-with-vsts-and-tfs-2018": {
+    "descripcion": "Guía orientada a la gobernanza de proyectos y la coordinación ágil de equipos de software utilizando Visual Studio Team Services (VSTS) y Team Foundation Server (TFS 2017 y 2018), herramientas que posteriormente se consolidaron bajo la plataforma Azure DevOps. El libro está dirigido a Scrum Masters, directores de proyecto, líderes de equipo y facilitadores ágiles con nivel intermedio que conocen los fundamentos del marco Scrum o Kanban y desean optimizar el flujo de trabajo corporativo mediante una plataforma centralizada de gestión del ciclo de vida de las aplicaciones (ALM).\n\nLa obra desglosa cómo trasladar las ceremonias y necesidades de los equipos a las funcionalidades del entorno de Microsoft: estructura y jerarquía de equipos (incluyendo escenarios con múltiples equipos y desarrolladores distribuidos geográficamente), gestión y depuración del product backlog y del portfolio backlog, y planificación de iteraciones y capacidad (capacity planning). Explica cómo personalizar y gestionar tableros Kanban y paneles de tareas (taskboards), administrar elementos de trabajo (work items, épicas, historias, errores e impedimentos), adaptar plantillas de proceso (Scrum, Agile, CMMI) y supervisar el avance mediante paneles interactivos, gráficos de velocidad, burndown y diagramas de flujo acumulado (CFD).\n\nEl enfoque es completamente de gestión y configuración de procesos colaborativos, sin exigir conocimientos de programación ni desarrollo de código fuente. Aporta gran valor al estructurar la trazabilidad desde los requisitos iniciales hasta la entrega y al coordinar la alineación con los interesados (stakeholders) mediante hojas de ruta y planes de entrega. Como advertencia, deja fuera la administración técnica de servidores y las canalizaciones de integración continua (CI/CD), y el lector debe considerar que la interfaz de usuario pasó a denominarse Azure Boards, aunque los conceptos y la lógica de configuración permanecen vigentes.",
+    "temas": [
+      "VSTS",
+      "Team Foundation Server (TFS)",
+      "Azure DevOps",
+      "Scrum",
+      "Kanban",
+      "Gestión de backlogs",
+      "Planificación de sprints",
+      "Plantillas de procesos",
+      "Work Items",
+      "Métricas y burndown"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3558-4",
+      "https://www.amazon.com/Effective-Team-Management-VSTS-TFS/dp/1484235573"
+    ]
+  },
+  "essential-docker-for-asp-net-core-mvc-2017": {
+    "descripcion": "Guía concisa de Adam Freeman enfocada en la adopción práctica de contenedores Docker en el flujo de desarrollo y despliegue de aplicaciones web construidas con ASP.NET Core MVC (en sus versiones 1.x y 2.0 tempranas). Está orientada a programadores de C# y .NET de nivel intermedio que ya dominan la creación de aplicaciones con el patrón MVC y quieren incorporar contenedores en sus flujos cotidianos de trabajo para garantizar paridad de entornos entre desarrollo y producción en Windows, macOS o Linux, sin necesidad de experiencia previa en administración de sistemas Unix.\n\nEl libro aborda la arquitectura de Docker, sus diferencias conceptuales respecto a la virtualización tradicional y una referencia rápida de comandos fundamentales. Detalla la redacción de archivos `Dockerfile` para compilar y empaquetar aplicaciones ASP.NET Core, la creación y gestión de imágenes y contenedores, el uso de volúmenes para persistir datos y la configuración de redes para la comunicación entre servicios. Asimismo, profundiza en la orquestación multicontenedor con Docker Compose para enlazar la aplicación web con servidores de bases de datos relacionales (como MySQL o SQL Server) y examina los fundamentos de escalabilidad con clústeres mediante Docker Swarm.\n\nEl aprendizaje se articula a través de una aplicación web de ejemplo en ASP.NET Core MVC construida e integrada progresivamente en contenedores, conectada a su base de datos y desplegada de manera replicada. El principal acierto del libro es su claridad y síntesis, eliminando ruido conceptual para centrarse en lo indispensable para un desarrollador web. No profundiza en orquestadores complejos como Kubernetes ni en servicios de nube como Azure App Services, y conviene tener presente que los comandos de CLI y las imágenes base oficiales de .NET se han actualizado sustancialmente en las versiones modernas (.NET 8/9), si bien los principios de contenedorización y Compose explicados se mantienen invariables.",
+    "temas": [
+      "Docker",
+      "ASP.NET Core MVC",
+      "C#",
+      ".NET Core",
+      "Dockerfile",
+      "Docker Compose",
+      "Docker Swarm",
+      "Contenedores Linux",
+      "Redes y volúmenes",
+      "Bases de datos en contenedores"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación web ASP.NET Core MVC multicontenedor",
+        "descripcion": "Creación, empaquetado y enlace de una aplicación web en ASP.NET Core MVC junto a una base de datos relacional en contenedores independientes mediante Docker Compose y su despliegue en un clúster Docker Swarm."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2778-7",
+      "https://www.amazon.com/Essential-Docker-ASP-NET-Core-MVC/dp/1484227775"
+    ]
+  },
+  "essentials-of-administering-team-foundation-server-2015-2015": {
+    "descripcion": "Manual técnico especializado en la planificación, instalación y administración de infraestructura local (on-premises) de Microsoft Team Foundation Server 2015 (TFS 2015). El libro está orientado a administradores de sistemas, ingenieros de operaciones y soporte de infraestructura, y gestores de configuración de software (SCM) con nivel intermedio que necesitan operar y mantener la plataforma de desarrollo corporativa de Microsoft, asumiendo conocimientos de Windows Server, Active Directory y Microsoft SQL Server.\n\nEl autor expone las diferentes topologías de despliegue (desde servidores únicos hasta configuraciones distribuidas en múltiples capas), los requisitos de hardware y el proceso de instalación y validación. Detalla la configuración de cuentas de servicio, certificados y modelos de seguridad y permisos por grupos de usuarios. Enseña a crear y administrar colecciones de proyectos de equipo (Team Project Collections), organizar proyectos y gestionar repositorios de control de versiones tanto en Team Foundation Version Control (TFVC) como en Git. Asimismo, aborda la gestión de agentes y controladores del motor de compilación (incluyendo la transición del sistema basado en XAML hacia el nuevo modelo web de compilación de TFS 2015), la gestión de pruebas, la integración con SQL Server Reporting Services (SSRS) para métricas y la planificación de copias de seguridad y recuperación ante desastres.\n\nLa obra adopta un esquema procedimental centrado en tareas críticas de soporte, mantenimiento regular y resolución de incidentes habituales en servidores de producción. Su gran aportación es cubrir aspectos de infraestructura que la documentación para desarrolladores suele omitir, como el dimensionamiento de almacenamiento y el mantenimiento de bases de datos. No enseña desarrollo ni programación de software, y al estar enfocado en TFS 2015, componentes antiguos como XAML Build y dependencias de SharePoint hoy son obsoletos frente al actual Azure DevOps Server.",
+    "temas": [
+      "Team Foundation Server 2015",
+      "TFS 2015",
+      "Administración de servidores",
+      "Active Directory",
+      "SQL Server",
+      "TFVC",
+      "Git",
+      "Build Management",
+      "Copias de seguridad",
+      "Reporting Services (SSRS)"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-0571-6",
+      "https://www.amazon.com/Essentials-Administering-Team-Foundation-Server/dp/1484205727"
+    ]
+  },
+  "getting-started-with-istio-service-mesh-2019": {
+    "descripcion": "Introducción práctica a la arquitectura y operación de mallas de servicios (service mesh) utilizando Istio en entornos de microservicios sobre Kubernetes, enfocada en la versión 1.x de Istio. Está dirigida a desarrolladores backend, ingenieros de DevOps y arquitectos de software con nivel básico o intermedio que conocen los conceptos elementales de contenedores Docker y Kubernetes (pods, servicios, deployments, kubectl) y buscan resolver los retos de comunicación, resiliencia y seguridad en arquitecturas distribuidas sin acoplar lógica de red al código de sus aplicaciones.\n\nTras un repaso de fundamentos de Kubernetes, el libro profundiza en la división entre el plano de datos (formado por sidecars Envoy inyectados en los pods) y el plano de control de Istio. Enseña a instalar la malla con `istioctl` y Helm, gestionar el tráfico mediante recursos como `VirtualService` y `DestinationRule` para realizar enrutamiento avanzado, reescritura de cabeceras y despliegues canary o blue-green, e implementar gateways de entrada (`Gateway`) y servicios externos (`ServiceEntry`). Cubre además patrones de tolerancia a fallos (timeouts, reintentos, circuit breakers y connection pools), seguridad mediante autenticación con mTLS y políticas de autorización, y observabilidad del sistema mediante la integración con Prometheus, Grafana para paneles de métricas y Jaeger para trazado distribuido.\n\nEn la parte aplicada, se despliegan arquitecturas de microservicios políglotas (utilizando el entorno de prueba Bookinfo con servicios en Python, Java, Node.js y Ruby) para verificar experimentalmente el desvío porcentual de tráfico, la inyección de fallos y el rastreo de llamadas entre servicios. Constituye un excelente punto de partida para asimilar el concepto de service mesh de manera guiada; sin embargo, conviene saber que a partir de Istio 1.5 la arquitectura unificó los servicios del plano de control en el binario `istiod` y prescindió de Mixer, por lo que ciertos detalles internos han cambiado en versiones recientes.",
+    "temas": [
+      "Istio",
+      "Service Mesh",
+      "Kubernetes",
+      "Envoy Proxy",
+      "Microservicios",
+      "VirtualService",
+      "Traffic Management",
+      "mTLS",
+      "Prometheus",
+      "Grafana",
+      "Circuit Breaker"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Malla de microservicios políglota con Istio y Kubernetes",
+        "descripcion": "Despliegue y gestión de una aplicación de microservicios políglotas (Bookinfo) en Kubernetes, aplicando inyección automática de sidecars Envoy, enrutamiento canary con VirtualService y cifrado mTLS."
+      },
+      {
+        "nombre": "Monitorización y trazado distribuido en la malla",
+        "descripcion": "Configuración de observabilidad para servicios interconectados mediante la recolección de telemetría con Prometheus, paneles interactivos en Grafana y rastreo distribuido de peticiones con Jaeger."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5458-5",
+      "https://www.amazon.com/Getting-Started-Istio-Service-Mesh/dp/1484254578"
+    ]
+  },
+  "introduction-to-devops-with-chocolate-lego-and-scrum-game-2017": {
+    "descripcion": "Manual de facilitación y guía práctica publicado por Apress en 2017 en el que Dana Pylayeva presenta un juego de simulación basado en roles para enseñar los fundamentos metodológicos y culturales de DevOps y Scrum de forma vivencial. No se enfoca en versiones específicas de software, sino en las dinámicas humanas y organizativas de la entrega continua. Está dirigido a Scrum Masters, coaches ágiles, facilitadores, desarrolladores y administradores de sistemas de nivel principiante que buscan comprender la necesidad de derribar los silos tradicionales entre desarrollo y operaciones sin requerir experiencia técnica previa en infraestructura.\n\nEl libro detalla la preparación y conducción de un taller estructurado en tres sprints sucesivos utilizando bloques de LEGO (para modelar los incrementos de producto) y piezas de chocolate (que representan documentación y entregas de valor). Enseña a coordinar avatares y tarjetas de rol para disciplinas como Desarrollo, Operaciones, Control de Calidad (QA) y Seguridad de la Información (InfoSec). Explica cómo simular cuellos de botella en el flujo de entrega, congelaciones de código (code freezes), parches de entornos urgentes y vulnerabilidades de seguridad, integrando conceptos esenciales como habilidades en forma de T (T-shaped skills), tableros Kanban, retrospectivas y las lecciones operativas popularizadas por The Phoenix Project.\n\nA través de la simulación física, los participantes experimentan en primera persona la colaboración interdepartamental, la gestión de colas de trabajo y el impacto de los imprevistos en producción. Su principal valor reside en crear empatía y alineación cultural entre áreas tradicionalmente desconectadas, ofreciendo un desglose minucioso de tiempos, materiales y preguntas guía de debriefing. Su límite evidente es que prescinde por completo del código fuente, terminales y pipelines de software, por lo que debe entenderse como un ejercicio formativo introductorio antes de abordar las herramientas técnicas de DevOps.",
+    "temas": [
+      "DevOps cultural",
+      "Scrum",
+      "Juegos de simulación",
+      "Facilitación ágil",
+      "Colaboración Dev y Ops",
+      "Gestión de flujos",
+      "Kanban",
+      "Habilidades en T",
+      "Retrospectivas",
+      "The Phoenix Project"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2565-3",
+      "https://www.oreilly.com/library/view/introduction-to-devops/9781484225653/",
+      "https://www.agilealliance.org/resources/sessions/introduction-to-devops-with-chocolate-lego-and-scrum-game/"
+    ]
+  },
+  "kubernetes-management-design-patterns-2017": {
+    "descripcion": "Obra técnica de Deepak Vohra publicada por Apress en 2017 que aborda la administración y orquestación de clústeres de contenedores mediante patrones de diseño aplicados a Kubernetes (versión 1.x). Está orientada a administradores de sistemas, ingenieros de DevOps y desarrolladores backend de nivel intermedio que ya dominan la línea de comandos de Linux y los conceptos esenciales de Docker, y que necesitan formalizar la gestión de infraestructura escalable y tolerante a fallos en entornos de nube.\n\nEl contenido desglosa patrones de configuración, escalabilidad y resiliencia utilizando CoreOS Linux como sistema anfitrión principal junto con Docker. Enseña a aprovisionar clústeres en Amazon Web Services (AWS con EC2 y CloudFormation) y Google Cloud Platform (Google Container Engine / GKE), y analiza el uso de la consola CoreOS Tectonic. Aborda en profundidad recursos y patrones esenciales de Kubernetes: Pods como unidades atómicas, Services para descubrimiento de red y balanceo de carga, ConfigMaps para desacoplar configuraciones, volúmenes de almacenamiento persistente, políticas de planificación (node scheduling y afinidad), límites de cómputo (CPU y memoria), DaemonSets, Jobs por lotes, actualizaciones continuas sin tiempo de inactividad (rolling updates) y escalado automático horizontal (Autoscaling).\n\nA lo largo de los capítulos se practican configuraciones declarativas en YAML para desplegar recursos, ejecutar pruebas de escalado, gestionar conmutación por error en arquitecturas de alta disponibilidad y coordinar despliegues multizona. El libro aporta un enfoque riguroso al clasificar las funciones operativas de Kubernetes bajo la perspectiva de patrones de diseño reutilizables. No obstante, al haberse publicado en 2017, varias herramientas como CoreOS Tectonic y versiones tempranas de APIs de clúster han sido reemplazadas por soluciones modernas (como OpenShift, EKS y GKE actuales), por lo que conviene contrastar la sintaxis con las especificaciones vigentes de Kubernetes.",
+    "temas": [
+      "Kubernetes",
+      "Docker",
+      "CoreOS",
+      "Patrones de diseño",
+      "AWS",
+      "Google Cloud (GKE)",
+      "ConfigMaps",
+      "Autoscaling",
+      "Rolling Updates",
+      "Almacenamiento persistente",
+      "Alta disponibilidad",
+      "DaemonSets"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2598-1",
+      "https://github.com/Apress/kubernetes-mgmt-design-patterns",
+      "https://www.oreilly.com/library/view/kubernetes-management-design/9781484225981/"
+    ]
+  },
+  "kubernetes-microservices-with-docker-2016": {
+    "descripcion": "Guía técnica y práctica de Deepak Vohra publicada por Apress en 2016 que explora la orquestación de arquitecturas de microservicios y sistemas de datos distribuidos utilizando las primeras versiones de Kubernetes (1.1 y 1.2) junto con Docker. Está pensada para ingenieros de software, administradores de bases de datos y profesionales de operaciones de nivel intermedio que cuenten con conocimientos básicos de contenedores y Linux y deseen aprender a desplegar y coordinar pilas de servicios interconectados en clústeres locales y multinodo.\n\nEl texto cubre la instalación paso a paso de clústeres de Kubernetes mediante Docker y etcd, la configuración de la herramienta de línea de comandos kubectl, el kubelet y el proxy de servicios. Enseña a modelar microservicios gestionando variables de entorno, comandos de inicialización personalizados, ReplicationControllers y Services con balanceo de carga. Destaca por su enfoque en la persistencia y la integración de servicios de datos del mundo real: despliegue de bases de datos relacionales como MySQL y PostgreSQL, bases de datos NoSQL como MongoDB, Apache Cassandra y Couchbase, y la orquestación del ecosistema Apache Hadoop (HDFS, Hive y HBase) mediante imágenes especializadas de contenedores.\n\nEn la práctica se construyen y configuran múltiples despliegues de servicios de almacenamiento y procesamiento analítico dentro de pods, asociándoles volúmenes y probando la comunicación de red entre contenedores. La obra resulta muy valiosa para comprender cómo resolver los retos de persistencia de datos y clustering en los inicios de la orquestación de contenedores. Como limitación principal derivada de su año de edición, no cubre abstracciones modernas estándar de Kubernetes como Deployments o StatefulSets (utiliza el antiguo ReplicationController), por lo que se recomienda tener criterio para trasladar sus recetas a los recursos actuales de la plataforma.",
+    "temas": [
+      "Kubernetes",
+      "Docker",
+      "Microservicios",
+      "etcd",
+      "kubectl",
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Apache Cassandra",
+      "Couchbase",
+      "Apache Hadoop",
+      "Volúmenes persistentes"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1907-2",
+      "https://www.oreilly.com/library/view/kubernetes-microservices-with/9781484219072/",
+      "https://github.com/Apress/kubernetes-microservices-w-docker"
+    ]
+  },
+  "mastering-salesforce-devops-2019": {
+    "descripcion": "Manual de referencia avanzado escrito por Andrew Davis y publicado por Apress en 2019, que traslada los principios y prácticas de DevOps al ecosistema en la nube de Salesforce. Está concebido para desarrolladores de Salesforce, arquitectos de software, administradores de sistemas y gestores de versiones de nivel avanzado, así como para ingenieros de DevOps tradicionales que deben integrar la plataforma multinquilino de Salesforce en las canalizaciones de entrega continua corporativas, requiriendo familiaridad previa con la arquitectura de metadatos de Salesforce (Apex, Sandboxes y Lightning).\n\nEl libro examina la transición desde los conjuntos de cambios tradicionales (change sets) hacia el desarrollo gobernado por control de versiones. Profundiza en el uso de Salesforce DX (SFDX CLI), scratch orgs, sandboxes de desarrollo y paquetes de segunda generación desbloqueados (Unlocked Packages / 2GP). Aborda la construcción de canalizaciones de integración continua y despliegue continuo (CI/CD) compatibles con herramientas como Git, GitHub, GitLab CI o Jenkins, la automatización de pruebas unitarias en Apex, pruebas de interfaz con Selenium, análisis estático de código con PMD, estrategias de ramificación (branching strategies) y la gestión de banderas de funcionalidad (feature flags).\n\nA través de sus páginas se diseñan flujos de trabajo completos de entrega continua adaptados a las peculiaridades de Salesforce, coordinando entornos temporales y automatizando pruebas de regresión antes de promocionar cambios a producción. Su gran fortaleza radica en que aborda las fricciones culturales y técnicas específicas entre administradores declarativos y desarrolladores de código, proporcionando un marco sólido para reducir riesgos de despliegue. No es un manual para aprender a programar en Apex o crear interfaces CRM, sino un texto centrado rigurosamente en la arquitectura de entrega, gobernanza y confiabilidad operativa.",
+    "temas": [
+      "Salesforce DevOps",
+      "Salesforce DX (SFDX)",
+      "CI/CD",
+      "Unlocked Packages (2GP)",
+      "Control de versiones con Git",
+      "Scratch Orgs",
+      "Pruebas automatizadas en Apex",
+      "Análisis estático de código",
+      "Gestión de entornos",
+      "Feature flags",
+      "Gobernanza de versiones"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5471-4",
+      "https://www.oreilly.com/library/view/mastering-salesforce-devops/9781484254714/",
+      "https://www.amazon.com/Mastering-Salesforce-DevOps-Practical-Delivering/dp/1484254704"
+    ]
+  },
+  "net-devops-for-azure-2019": {
+    "descripcion": "Guía arquitectónica y metodológica de Jeffrey Palermo publicada por Apress en 2019, que establece un modelo prescriptivo para implementar DevOps en el ecosistema .NET utilizando Microsoft Azure y Azure DevOps Services. Está orientada a desarrolladores de .NET, arquitectos de soluciones y líderes técnicos de nivel intermedio que conocen C#, ASP.NET Core y Git, y que desean dejar atrás la incertidumbre o las configuraciones improvisadas para adoptar un estándar profesional de ingeniería de entrega continua.\n\nEl texto desglosa la plataforma Azure DevOps en sus módulos principales: gestión ágil en Azure Boards, control de versiones en Azure Repos, integración y despliegue continuo con Azure Pipelines, gestión de paquetes mediante Azure Artifacts y planes de pruebas en Azure Test Plans. Explica cómo estructurar aplicaciones bajo los principios de la Arquitectura Cebolla (Onion Architecture), automatizar compilaciones y suites de pruebas unitarias y de integración (con xUnit/NUnit), versionar paquetes inmutables (release candidates), aprovisionar infraestructura como código (IaC) para Azure App Service y Azure SQL Database, y monitorizar telemetría de producción mediante Application Insights y Azure Monitor.\n\nEn el libro se practica la construcción de un ciclo de vida completo de DevOps para una aplicación web ASP.NET Core, desde la asignación de tareas y el flujo de ramas en Git hasta el despliegue automatizado multi-etapa en la nube con monitoreo continuo. Aporta un valor inmenso al ofrecer una receta reproducible y sin ambigüedades adaptada al estándar corporativo de Microsoft, acelerando la madurez de los equipos. No obstante, se concentra casi con exclusividad en los servicios PaaS de Azure y las herramientas nativas de Microsoft, dejando fuera entornos de contenedores como Kubernetes o nubes alternativas como AWS o GCP.",
+    "temas": [
+      "Azure DevOps",
+      ".NET Core",
+      "ASP.NET Core",
+      "Azure Pipelines",
+      "Azure Repos",
+      "CI/CD",
+      "Onion Architecture",
+      "Azure App Service",
+      "Azure SQL Database",
+      "Application Insights",
+      "Infraestructura como código",
+      "Pruebas automatizadas"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Canalización CI/CD integral para aplicación ASP.NET Core en Azure",
+        "descripcion": "Construcción y automatización de un pipeline de entrega continua que compila, prueba y despliega una aplicación web ASP.NET Core estructurada con Onion Architecture en Azure App Service y Azure SQL Database, integrando telemetría con Application Insights."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5343-4",
+      "https://github.com/jeffreypalermo/.NET-DevOps-for-Azure",
+      "https://www.oreilly.com/library/view/net-devops-for/9781484253434/",
+      "https://clearmeasure.com/net-devops-for-azure/"
+    ]
+  },
+  "pro-continuous-delivery-2017": {
+    "descripcion": "Pro Continuous Delivery: With Jenkins 2.0 es una guía técnica orientada a modernizar y optimizar las cadenas de entrega continua aprovechando los cambios fundamentales introducidos en Jenkins 2.0, como el paradigma de Pipeline as Code y las canalizaciones multirrama. Escrito por Nikhil Pathania y publicado por Apress en 2017, el libro está diseñado para desarrolladores intermedios, especialistas en QA, ingenieros DevOps y administradores de sistemas que ya conocen el uso básico de Jenkins (creación tradicional de tareas Freestyle en la interfaz) y el control de versiones con Git, pero necesitan profesionalizar sus tuberías de entrega hacia modelos reproducibles y de alta disponibilidad.\n\nEl núcleo de la obra enseña a escribir y estructurar pipelines declarativos y procedimentales mediante Jenkinsfile y Groovy DSL. En el apartado de infraestructura, aborda la configuración de clústeres redundantes para el servidor maestro de Jenkins bajo dos enfoques: uno activo/pasivo tradicional utilizando Pacemaker, Corosync y DRBD sobre Linux, y otro contemporáneo basado en contenedores con CoreOS, Docker y almacenamiento compartido en GlusterFS. Además, detalla el despliegue de Jenkins en entornos de computación en la nube, la configuración de agentes de compilación efímeros y fungibles dentro de contenedores Docker y el establecimiento de compuertas de calidad automáticas con pre-tested commits y estrategias de merge before build en repositorios Git.\n\nA lo largo de los capítulos se construyen arquitecturas operativas de alta disponibilidad para servidores de compilación y un pipeline completo de entrega continua automatizado como código que valida el código antes de consolidarlo en ramas principales. Su mayor aportación es el énfasis en la resiliencia operativa y la escalabilidad de la infraestructura de CI/CD, una dimensión frecuentemente omitida en manuales básicos. No obstante, al haber sido publicado en 2017, no incluye la integración nativa actual con Kubernetes mediante Helm o agentes modernos, ni herramientas de GitOps como ArgoCD, y la distribución CoreOS empleada corresponde a su etapa previa a la integración en el ecosistema Red Hat.",
+    "temas": [
+      "Jenkins 2.0",
+      "Pipeline as Code",
+      "Jenkinsfile",
+      "Docker",
+      "Alta disponibilidad",
+      "Pacemaker y Corosync",
+      "CoreOS",
+      "GlusterFS",
+      "Git",
+      "Pre-tested Commits",
+      "Entrega continua"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Clúster maestro de Jenkins en alta disponibilidad",
+        "descripcion": "Despliegue y configuración de un clúster activo/pasivo de Jenkins con tolerancia a fallos mediante Pacemaker, Corosync y DRBD, complementado con una arquitectura alternativa contenerizada basada en CoreOS, Docker y volúmenes compartidos en GlusterFS."
+      },
+      {
+        "nombre": "Pipeline integral de entrega continua como código",
+        "descripcion": "Diseño e implementación de un flujo de CI/CD automatizado mediante Jenkinsfile que provisiona agentes efímeros en Docker y ejecuta compuertas de control de calidad con commits preprobados en Git antes del despliegue."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2913-2",
+      "https://www.oreilly.com/library/view/pro-continuous-delivery/9781484229132/",
+      "https://www.amazon.com/Pro-Continuous-Delivery-Jenkins-2-0/dp/1484229126"
+    ]
+  },
+  "pro-docker-2015": {
+    "descripcion": "Pro Docker, escrito por Deepak Vohra y publicado por Apress a finales de 2015, es un manual técnico centrado en la contenerización y despliegue de infraestructuras empresariales de datos y motores de computación distribuida utilizando Docker (en sus versiones tempranas 1.x). El libro está dirigido a administradores de bases de datos, ingenieros de datos y desarrolladores backend de nivel intermedio que cuenten con conocimientos básicos de la terminal de Linux y quieran aprender a empaquetar, distribuir y ejecutar servicios pesados de datos en entornos aislados y portables.\n\nA diferencia de los libros introductorios generales sobre contenedores, esta obra funciona como un recetario exhaustivo enfocado en bases de datos relacionales, NoSQL y el ecosistema de procesamiento distribuido. Enseña a crear Dockerfiles, mapear volúmenes persistentes y configurar redes para motores como Oracle Database, MySQL, MongoDB, Apache Cassandra y Couchbase Server. Asimismo, detalla la instalación y ejecución paso a paso de los componentes neurálgicos de Big Data: Apache Hadoop, Apache Hive, Apache HBase, Apache Sqoop para transferencia masiva de información, Apache Kafka para mensajería en tiempo real, Apache Solr para búsqueda indexada y Apache Spark para análisis y procesamiento en memoria, concluyendo con el aprovisionamiento de Docker en instancias virtuales de Amazon EC2.\n\nEl libro sigue un formato de ejercicios guiados paso a paso para montar y verificar cada sistema de forma independiente dentro de contenedores. Su principal mérito radica en reunir guías prácticas directas para tecnologías de datos cuya configuración tradicional en bare metal o máquinas virtuales resultaba ardua y propensa a fallos de dependencias. Como contrapunto técnico, la obra no cubre orquestadores modernos como Kubernetes o Docker Swarm moderno ni redes overlay complejas, y varias herramientas abordadas (como Apache Sqoop o versiones tempranas de Hadoop) han quedado desfasadas frente a las plataformas de datos nativas de la nube.",
+    "temas": [
+      "Docker",
+      "Contenedores",
+      "Oracle Database",
+      "MySQL",
+      "MongoDB",
+      "Apache Cassandra",
+      "Couchbase Server",
+      "Apache Hadoop",
+      "Apache Spark",
+      "Apache Kafka",
+      "Big Data",
+      "Amazon EC2"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1830-3",
+      "https://www.oreilly.com/library/view/pro-docker/9781484218303/",
+      "https://www.amazon.com/Pro-Docker-Deepak-Vohra/dp/1484218299"
+    ]
+  },
+  "python-continuous-integration-and-delivery-2019": {
+    "descripcion": "Python Continuous Integration and Delivery: A Concise Guide with Examples es una obra técnica escrita por Moritz Lenz y publicada por Apress a principios de 2019, diseñada para cerrar la brecha entre el desarrollo de aplicaciones en Python 3 y su puesta en producción predecible. El libro está orientado a desarrolladores intermedios de Python, ingenieros de operaciones y especialistas DevOps que ya saben escribir código y funciones en Python, pero carecen de una metodología estandarizada para verificar la calidad, empaquetar de forma reproducible y desplegar sus aplicaciones en servidores Linux.\n\nEl contenido cubre paso a paso el ciclo de entrega: comienza con el diseño de pruebas unitarias y de integración empleando unittest y pytest, continúa con la automatización de builds y ejecuciones continuas con Jenkins, y profundiza en el empaquetado nativo para distribuciones Debian/Ubuntu mediante dh-virtualenv para encapsular entornos virtuales sin colisiones de dependencias. Enseña a crear repositorios internos de paquetes con herramientas como aptly, automatizar la configuración y el aprovisionamiento de servidores con playbooks de Ansible y coordinar tuberías complejas de múltiples etapas con GoCD (Go Continuous Delivery), atendiendo además a la seguridad, el análisis estático y la gestión de estados y migraciones.\n\nA lo largo del texto se construye una infraestructura práctica automatizada sobre un entorno de pruebas virtualizado con Vagrant y VirtualBox, materializando un pipeline de CI/CD que toma el código desde el repositorio, corre los tests, genera el paquete .deb, lo publica en el repositorio y lo despliega automáticamente con Ansible. Su gran aporte es enseñar una alternativa de entrega sumamente profesional basada en empaquetado nativo del sistema operativo, muy valorada en empresas que prefieren no sobrecargar su entorno con capas de contenedores para servicios simples. Su enfoque se concentra en despliegues sobre máquinas virtuales y servidores Linux tradicionales, dejando fuera arquitecturas de microservicios con Docker o Kubernetes.",
+    "temas": [
+      "Python 3",
+      "pytest",
+      "unittest",
+      "Jenkins",
+      "GoCD",
+      "Ansible",
+      "Vagrant",
+      "VirtualBox",
+      "Paquetes Debian",
+      "dh-virtualenv",
+      "CI/CD",
+      "DevOps"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline automatizado de CI/CD para aplicaciones Python",
+        "descripcion": "Tubería completa de integración y entrega continua construida con GoCD y Jenkins sobre un clúster virtual local con Vagrant, que ejecuta pruebas con pytest, compila paquetes nativos Debian (.deb) con dh-virtualenv y los despliega automáticamente en servidores mediante playbooks de Ansible."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4281-0",
+      "https://github.com/Apress/python-continuous-integration-delivery",
+      "https://www.oreilly.com/library/view/python-continuous-integration/9781484242810/",
+      "https://www.amazon.com/Python-Continuous-Integration-Delivery-Concise/dp/1484242807"
+    ]
+  },
+  "continuous-integration-in-net-2011": {
+    "descripcion": "Continuous Integration in .NET es un libro formativo publicado por Manning en 2011 y escrito por Craig Berntson y Marcin Kawalerowicz, enfocado en erradicar los cuellos de botella del empaquetado y la integración manual en proyectos construidos sobre el ecosistema Microsoft (.NET Framework 3.5 y 4.0 con C# y Visual Studio 2010). Está destinado a desarrolladores, jefes de equipo y arquitectos de software de nivel básico e intermedio que busquen implementar por primera vez flujos de compilación desatendida, automatización de pruebas y retroalimentación temprana en sus equipos de trabajo.\n\nLa obra desglosa exhaustivamente las herramientas fundamentales del universo .NET de la época: la automatización de la compilación mediante scripts en MSBuild y NAnt, el control de versiones con Subversion y TFS, y la configuración comparada de tres servidores de CI representativos: TeamCity, CruiseControl.NET y Team Foundation Server 2010 (TFS). En el ámbito de pruebas y análisis, cubre pruebas unitarias con NUnit y MSTest, pruebas funcionales de interfaz con Selenium, WatiN y White, análisis estático y métricas de código con FxCop, StyleCop y NDepend, detección de código duplicado con Simian, cobertura de código con NCover, generación desatendida de documentación con Sandcastle y empaquetado y entrega con WiX (Windows Installer XML) y MSDeploy, incluyendo estrategias para la integración continua de bases de datos relacionales.\n\nEl texto ofrece una progresión pedagógica y práctica guiando la configuración y orquestación de cada herramienta sobre proyectos de software .NET de ejemplo. Su valor radica en haber consolidado los principios de integración continua aplicados rigurosamente al entorno de desarrollo de Microsoft, analizando las ventajas y desventajas de opciones propietarias frente a herramientas comunitarias. El lector contemporáneo debe tener en cuenta que casi todas las tecnologías cubiertas han sido sustituidas en la actualidad por el CLI unificado de .NET (dotnet build / dotnet test), Git y plataformas en la nube como Azure DevOps o GitHub Actions, aunque los fundamentos de calidad y automatización conservan su valor conceptual.",
+    "temas": [
+      ".NET Framework",
+      "C#",
+      "MSBuild",
+      "TeamCity",
+      "CruiseControl.NET",
+      "TFS 2010",
+      "NUnit",
+      "Selenium",
+      "FxCop y StyleCop",
+      "NDepend",
+      "MSDeploy",
+      "Integración continua"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/continuous-integration-in-net",
+      "https://www.oreilly.com/library/view/continuous-integration-in/9781935182955/",
+      "https://www.amazon.com/Continuous-Integration-NET-Marcin-Kawalerowicz/dp/1935182956"
+    ]
+  },
+  "docker-in-action-2016": {
+    "descripcion": "Docker in Action, escrito por Jeff Nickoloff y publicado por Manning en su primera edición en 2016, es una guía de referencia fundamental y rigurosa diseñada para enseñar a operar, empaquetar y administrar aplicaciones en contenedores Docker (centrada en las versiones 1.9 a 1.11 de la plataforma). El libro está dirigido a programadores, ingenieros de operaciones y administradores de sistemas que posean un manejo básico de la consola de Linux y deseen comprender cómo los contenedores aíslan procesos y resuelven el traslado de software entre entornos de desarrollo, pruebas y producción.\n\nEl contenido se estructura en tres ejes clave: primero, la anatomía y el ciclo de vida del contenedor, explicando cómo interactuar con el motor de Docker, configurar volúmenes para almacenamiento persistente y estado compartido, exponer y conectar redes de contenedores y restringir el acceso a recursos mediante namespaces, cgroups y capacidades del kernel de Linux. Segundo, el empaquetado de software en imágenes mediante Dockerfile, optimización de capas de compilación, gestión del tamaño de imagen y publicación segura en registros públicos y privados (Docker Hub y registros autogestionados). Tercero, la orquestación y el despliegue multi-contenedor, enseñando a definir arquitecturas distribuidas con Docker Compose y coordinar clústeres sobre múltiples servidores físicos o virtuales usando Docker Machine y Docker Swarm.\n\nA través de ejemplos paso a paso y escenarios técnicos prácticos, el autor enseña a configurar servicios web, bases de datos y herramientas de infraestructura conectadas entre sí. Lo más destacable del libro es la solidez con la que explica los mecanismos internos de aislamiento del kernel que sustentan a Docker, alejándose de explicaciones superficiales. Conviene tener presente que, al tratarse de la primera edición de 2016, la sección de clústeres expone Docker Swarm clásico (anterior al Swarm mode integrado) y Docker Machine, previos al dominio que Kubernetes estableció posteriormente en la orquestación de contenedores a gran escala.",
+    "temas": [
+      "Docker",
+      "Contenedores",
+      "Dockerfile",
+      "Volúmenes",
+      "Docker Networking",
+      "Aislamiento y seguridad",
+      "Docker Hub",
+      "Docker Registry",
+      "Docker Compose",
+      "Docker Machine",
+      "Docker Swarm",
+      "DevOps"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/docker-in-action",
+      "https://www.oreilly.com/library/view/docker-in-action/9781617292729/",
+      "https://www.amazon.com/Docker-Action-Jeff-Nickoloff/dp/1617292727"
+    ]
+  },
+  "docker-in-practice-2016": {
+    "descripcion": "Manual intensivo y eminentemente práctico estructurado en formato de recetario (problema, solución y discusión) que reúne 101 técnicas directas para exprimir Docker más allá de las tareas básicas. Publicado a principios de 2016, cubre la etapa de maduración de Docker Engine (versiones 1.9 a 1.12, en plena transición hacia Docker Compose v2 y las redes nativas de contenedores). Está pensado para desarrolladores de software, administradores de sistemas e ingenieros DevOps con nivel básico o intermedio que ya dominan la terminal de Linux y los comandos elementales del contenedor y necesitan resolver problemas reales en sus flujos diarios.\n\nEl libro profundiza en las entrañas del motor Docker: la arquitectura cliente-demonio, la inspección del tráfico de la API con socat, y la optimización rigurosa de imágenes mediante Dockerfile (gestión de capas, reducción de tamaño y técnicas tempranas de construcción multietapa). Enseña a gestionar volúmenes persistentes, configurar redes personalizadas para aislar puertos, simular caídas de red para pruebas de estrés, acelerar cadenas de integración continua (CI/CD) con Jenkins y Docker-in-Docker, y endurecer la seguridad del host aprovechando cgroups, namespaces de Linux, capacidades del kernel y usuarios sin privilegios. También aborda la orquestación ligera con Docker Compose, Docker Swarm clásico e integración con utilidades como systemd, etcd y registros privados de imágenes.\n\nEn lugar de centrarse en una única aplicación de principio a fin, la obra desafía al lector a implementar 101 soluciones técnicas independientes: desde proxies inversos efímeros y entornos de depuración desechables hasta pipelines de prueba herméticos y empaquetado de aplicaciones de escritorio con interfaz gráfica. Destaca por su franqueza técnica al desmontar mitos sobre Docker, resolver dolores de cabeza comunes (procesos huérfanos con PID 1, consumo descontrolado de disco) y ofrecer trucos de terminal de gran valor. Quedan fuera las plataformas modernas como Kubernetes de producción o las especificaciones más recientes de Docker Compose, pero su explicación de la fontanería interna de los contenedores en Linux sigue siendo sumamente instructiva.",
+    "temas": [
+      "Docker Engine",
+      "Dockerfile",
+      "Docker Compose",
+      "Docker Swarm",
+      "CI/CD",
+      "Jenkins",
+      "Redes de contenedores",
+      "Almacenamiento y volúmenes",
+      "Seguridad en Linux",
+      "cgroups y namespaces",
+      "Resolución de problemas"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/docker-in-practice",
+      "https://www.amazon.com/Docker-Practice-Ian-Miell/dp/1617292729"
+    ]
+  },
+  "kubernetes-in-action-2018": {
+    "descripcion": "Obra de referencia exhaustiva que guía al lector desde los fundamentos conceptuales de la orquestación de contenedores hasta la administración de clústeres a gran escala. Centrada en Kubernetes (versiones 1.7 a 1.9), está dirigida a desarrolladores, administradores de sistemas y profesionales de infraestructura que ya conocen los conceptos básicos de Linux y contenedores Docker y desean aprender a diseñar, desplegar y mantener aplicaciones distribuidas resistentes sin necesidad de conocimientos previos en orquestación.\n\nEl temario cubre detalladamente todo el abanico de recursos y objetos del API de Kubernetes: Pods, ReplicationControllers, ReplicaSets, Deployments para actualizaciones declarativas con cero tiempo de inactividad, Services e Ingress para enrutamiento y balanceo de carga, volúmenes y StatefulSets para cargas de trabajo con estado persistente, así como ConfigMaps y Secrets para la configuración externa y segura. Además, desmenuza la arquitectura interna del plano de control (etcd, kube-apiserver, kube-scheduler, kube-controller-manager) y del nodo (kubelet, kube-proxy), el control de acceso basado en roles (RBAC), la seguridad de red, la monitorización, el autoescalado horizontal de pods (HPA) y la extensión de la plataforma mediante Custom Resource Definitions (CRD).\n\nA lo largo de los capítulos se desarrolla y evoluciona la aplicación web distribuida «Kubia», desarrollada en Node.js, desplegándola inicialmente en Minikube y clústeres cloud, y añadiéndole réplicas, servicios con balanceo, almacenamiento persistente y comunicación con clústeres de MongoDB. La gran virtud de este libro radica en sus detallados diagramas visuales y en su capacidad para explicar con claridad no solo cómo escribir manifiestos YAML, sino qué ocurre internamente en cada componente del clúster. Al haberse publicado en 2018, varias versiones de APIs (como extensions/v1beta1) quedaron obsoletas en versiones modernas de Kubernetes, por lo que el lector debe adaptar la sintaxis de los manifiestos, si bien la comprensión conceptual del sistema sigue siendo impecable.",
+    "temas": [
+      "Kubernetes",
+      "Pods",
+      "Deployments",
+      "Services e Ingress",
+      "StatefulSets",
+      "ConfigMaps y Secrets",
+      "RBAC",
+      "Autoescalado (HPA)",
+      "Arquitectura de clúster",
+      "etcd y kube-apiserver",
+      "Custom Resource Definitions"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación distribuida Kubia",
+        "descripcion": "Microservicio web en Node.js empaquetado en contenedores que responde con metadatos del pod y se despliega progresivamente en Kubernetes gestionando réplicas, balanceo de carga, inyección de configuración y almacenamiento persistente con bases de datos MongoDB."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/kubernetes-in-action",
+      "https://www.amazon.com/Kubernetes-Action-Marko-Luksa/dp/1617293725"
+    ]
+  },
+  "operations-anti-patterns-devops-solutions-2020": {
+    "descripcion": "Tratado práctico y reflexivo que examina las disfunciones culturales, organizativas y metodológicas más extendidas al intentar implantar DevOps en empresas con sistemas heredados y estructuras burocráticas. Escrito en 2020 por Jeffery D. Smith, está pensado para ingenieros de operaciones, líderes técnicos, arquitectos de sistemas y directores de ingeniería de nivel intermedio que conocen las herramientas modernas de despliegue y nube, pero chocan con silos entre departamentos, despliegues nocturnos estresantes y resistencia al cambio.\n\nEl autor desglosa doce antipatrones concretos organizados por temas: el síndrome paternalista, la «ceguera operativa», la acumulación de datos frente a información útil, la calidad tratada como un añadido de última hora, la fatiga de alertas, el vacío de herramientas internas, los despliegues fuera de horario y el monopolio de conocimiento técnico («solo Brent sabe cómo funciona»). Enseña a diseñar métricas operativas vinculadas directamente a objetivos de negocio, aplicar análisis de modos y efectos de fallos (FMEA), calibrar umbrales para que las alertas requieran acciones humanas reales, estructurar guardias técnicas sostenibles, institucionalizar autopsias sin culpa (blameless post-mortems) y automatizar puertas de calidad en los pipelines de CI/CD.\n\nEl contenido no plantea la programación de software desde cero, sino que aporta marcos de evaluación, auditorías de procesos, árboles de decisión y pautas directas para diagnosticar la salud operativa de un equipo. Su mayor valor reside en su lucidez sobre la psicología y las dinámicas humanas del entorno corporativo, despojando a DevOps de dogmatismos para transformarlo en una disciplina de mejora continua y reducción de estrés. Al no enseñar código de lenguajes o sintaxis de plataformas concretas (como Terraform o Kubernetes), conviene complementarlo con manuales específicos de automatización de infraestructura.",
+    "temas": [
+      "Cultura DevOps",
+      "Antipatrones operativos",
+      "Observabilidad y métricas",
+      "Fatiga de alertas",
+      "Gestión de incidentes",
+      "Blameless post-mortems",
+      "Estrategias de despliegue",
+      "CI/CD",
+      "FMEA",
+      "Gestión del cambio técnico"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/operations-anti-patterns-devops-solutions",
+      "https://www.amazon.com/Operations-Anti-Patterns-DevOps-Solutions-Jeffery/dp/1617297372"
+    ]
+  },
+  "relevant-search-2016": {
+    "descripcion": "Guía especializada en ingeniería de relevancia que enseña a convertir motores de búsqueda basados en Apache Lucene en sistemas capaces de entender la intención del usuario y ofrecer resultados de alta calidad de negocio. Publicado en 2016 por Doug Turnbull y John Berryman, utiliza Elasticsearch (versiones 2.x) y Apache Solr (versiones 5.x/6.x) acompañados de código en Python. Se dirige a desarrolladores de software, ingenieros de datos y especialistas en búsqueda de nivel intermedio que ya manejan consultas básicas en Elasticsearch o Solr y necesitan diagnosticar por qué sus búsquedas devuelven coincidencias irrelevantes o mal ordenadas.\n\nEl libro profundiza en los mecanismos internos de clasificación de Lucene y en los algoritmos de similitud textual (TF-IDF y BM25). Enseña a construir analizadores lingüísticos a medida (filtros de caracteres, tokenizadores, lematización, n-grams y sinónimos), a estructurar búsquedas sobre múltiples campos mediante dis_max, multi_match y estrategias centradas en términos o en campos, y a moldear la función de scoring usando function_score, decaimiento temporal y parámetros geográficos. También introduce la integración de retroalimentación de usuarios (clics y conversiones), los principios de aprendizaje para ordenar (Learning to Rank) y las técnicas de búsqueda personalizada y semántica.\n\nLa práctica gira en torno a la construcción, depuración y afinamiento de un motor de búsqueda sobre el catálogo cinematográfico de The Movie Database (TMDB). A través de Jupyter Notebooks y scripts en Python, el lector diagnostica consultas conflictivas con la API _explain y diseña soluciones precisas ante discrepancias entre la búsqueda del usuario y los metadatos de las películas. Es una referencia obligada que formaliza la relevancia como una disciplina técnica y de producto; no obstante, debido a las actualizaciones posteriores de Elasticsearch y Solr, algunas cláusulas y parámetros de la Query DSL deben trasladarse a las versiones modernas de ambas tecnologías.",
+    "temas": [
+      "Elasticsearch",
+      "Apache Solr",
+      "Apache Lucene",
+      "Relevancia de búsqueda",
+      "TF-IDF y BM25",
+      "Tokenización y analizadores",
+      "Multifield search",
+      "Function scoring",
+      "Learning to Rank",
+      "Búsqueda semántica",
+      "Python"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de búsqueda de películas con TMDB",
+        "descripcion": "Sistema de búsqueda y clasificación cinematográfica desarrollado sobre la base de datos de The Movie Database con Elasticsearch, Solr y Python, implementando analizadores de texto personalizados, afinamiento de scoring BM25/TF-IDF y búsquedas multicampo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/relevant-search",
+      "https://www.amazon.com/Relevant-Search-applications-Solr-Elasticsearch/dp/161729277X"
+    ]
+  },
+  "securing-devops-2018": {
+    "descripcion": "Manual exhaustivo sobre DevSecOps que enseña a incrustar prácticas y controles de seguridad automatizados en todo el ciclo de entrega e infraestructura en la nube. Publicado en 2018 por Julien Vehent (exresponsable de seguridad de operaciones en Mozilla Firefox), está enfocado a ingenieros DevOps, administradores de sistemas y desarrolladores de backend de nivel intermedio que conocen los fundamentos de Linux, redes IP, contenedores y pipelines de integración continua, y buscan proteger aplicaciones web e infraestructuras en Amazon Web Services (AWS).\n\nEl núcleo de la obra es la metodología Test-Driven Security (seguridad guiada por pruebas), organizada en capas sucesivas de protección: seguridad en aplicaciones web (prevención de vulnerabilidades OWASP Top 10, Content Security Policy, cookies seguras y auditoría de dependencias), seguridad en la infraestructura en la nube (arquitectura de AWS VPC, subredes públicas y privadas, grupos de seguridad con principio de mínimo privilegio y bastiones SSH con autenticación de dos factores), cifrado y gestión de certificados (TLS/HTTPS con Let's Encrypt y HSTS) y protección del pipeline en CircleCI y Docker Hub. Además, enseña a centralizar y proteger logs de auditoría (CloudWatch, ELK/Syslog), monitorizar intrusiones con herramientas como Mozilla MIG u OSSEC, y planificar la respuesta forense ante incidentes mediante simulaciones de intrusión.\n\nA lo largo del libro se construye, empaqueta y asegura un microservicio web de facturación («Invoicer») desarrollado en Go, automatizando sus análisis de vulnerabilidades, su contenedor Docker y su despliegue continuo en AWS Elastic Beanstalk con base de datos relacional aislada. Destaca por trasladar al lector la experiencia operativa real adquirida por el autor en la infraestructura de Mozilla, demostrando que la seguridad puede integrarse ágilmente en los flujos diarios sin frenar el ritmo de despliegue. Aunque ciertos servicios de AWS y versiones de herramientas han recibido mejoras estéticas y funcionales, los principios de defensa en profundidad y automatización de auditorías siguen siendo completamente vigentes.",
+    "temas": [
+      "DevSecOps",
+      "AWS (Amazon Web Services)",
+      "Docker",
+      "CircleCI",
+      "Golang",
+      "Seguridad en CI/CD",
+      "Test-Driven Security",
+      "OWASP",
+      "Cifrado TLS/HTTPS",
+      "Gestión de logs y auditoría",
+      "Respuesta a incidentes"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline y microservicio seguro Invoicer",
+        "descripcion": "Microservicio web de facturación escrito en Go, empaquetado en contenedores Docker y desplegado en AWS Elastic Beanstalk dentro de una VPC privada, automatizado con un pipeline en CircleCI que ejecuta pruebas de seguridad estáticas y dinámicas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/securing-devops",
+      "https://www.amazon.com/Securing-DevOps-Security-Julien-Vehent/dp/1617294136"
+    ]
+  },
+  "containerized-docker-application-lifecycle-with-microsoft-platform-and-tools-2016": {
+    "descripcion": "Guía técnica y libro blanco oficial de Microsoft escrito por Cesar de la Torre (Principal Program Manager en el equipo de .NET) a finales de 2016, coincidiendo con el lanzamiento de .NET Core 1.0/1.1 y la integración inicial de contenedores en Visual Studio 2017. Está dirigido a arquitectos de software, líderes técnicos y desarrolladores del ecosistema .NET de nivel intermedio que necesitan una hoja de ruta estructurada para adoptar contenedores Docker y flujos DevOps en entornos corporativos sobre Windows y Linux.\n\nEl texto cubre de manera directa el ciclo de vida completo de una aplicación en contenedores, analizando desde el bucle interno de desarrollo (inner loop) hasta el despliegue en producción. Aborda el uso de Docker Engine, Dockerfiles y Docker Compose para levantar arquitecturas multicontenedor en local, integrados con Visual Studio y Visual Studio Code. En el ámbito de integración y entrega continua (CI/CD), detalla la configuración de pipelines en Visual Studio Team Services (VSTS, predecesor de Azure DevOps) automatizando la compilación y el empaquetado de imágenes hacia Azure Container Registry (ACR), así como la orquestación en la nube mediante Azure Container Service (compatible con Docker Swarm, Mesos DC/OS y Kubernetes) y Azure Service Fabric.\n\nLa guía utiliza como base práctica y de referencia el proyecto eShopOnContainers, una aplicación de tienda virtual con microservicios que ejemplifica la transición desde sistemas tradicionales monolíticos hacia arquitecturas modernas en contenedores. Su principal valor radica en sintetizar con claridad el flujo de trabajo DevOps unificado bajo la plataforma de Microsoft, evitando la dispersión de herramientas. Como punto a considerar, al ser una guía introductoria de unas 80 páginas de 2016, no profundiza en comandos avanzados ni en la configuración detallada de clusters de Kubernetes, y parte de la terminología de los servicios de Azure ha cambiado de nombre, por lo que debe tomarse como una base conceptual y metodológica.",
+    "temas": [
+      "Docker",
+      ".NET Core",
+      "Visual Studio",
+      "Azure Container Registry",
+      "Azure DevOps",
+      "Azure Container Service",
+      "Docker Compose",
+      "Microservicios",
+      "CI/CD",
+      "Contenedores Windows"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "eShopOnContainers (flujo de ciclo de vida)",
+        "descripcion": "Solución de referencia de comercio electrónico basada en microservicios sobre .NET Core y Docker, utilizada para demostrar el desarrollo local con Docker Compose, la automatización en VSTS y el despliegue orquestado en Azure."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://devblogs.microsoft.com/cesardelatorre/free-ebook-on-containerized-docker-application-lifecycle-with-microsoft-tools-and-platform/",
+      "https://learn.microsoft.com/en-us/dotnet/architecture/microservices/"
+    ]
+  },
+  "continuous-delivery-in-java-2018": {
+    "descripcion": "Manual exhaustivo enfocado en trasladar las prácticas y la cultura de la entrega continua (Continuous Delivery) al ecosistema de la JVM, trabajando primordialmente con Java 8 y Java 11. Daniel Bryant y Abraham Marín-Pérez dirigen esta obra a desarrolladores e ingenieros de software Java de nivel intermedio o avanzado que dominan el lenguaje pero necesitan adquirir competencias operativas y de automatización para llevar código a producción de forma segura, predecible y frecuente.\n\nEl libro profundiza en toda la cadena de herramientas y etapas del pipeline de entrega. Explica la automatización de la compilación con Maven y Gradle, el análisis estático y de calidad de código con SonarQube, PMD y Checkstyle, y el empaquetado moderno mediante fat JARs y contenedores Docker. En el ámbito de integración continua, enseña a crear pipelines como código en Jenkins (Jenkinsfile), cubriendo estrategias de pruebas automatizadas con JUnit, Mockito, WireMock y Testcontainers, pruebas de rendimiento con Gatling, y despliegues sin interrupción (Blue-Green y Canary) orquestados sobre Kubernetes y entornos de nube, complementados con observabilidad mediante Prometheus, Grafana y el stack ELK.\n\nA lo largo de los capítulos se toma como hilo conductor la aplicación de ejemplo \"Docker Java Shop\", un sistema web multicomponente en Java empaquetado en contenedores donde se ponen en práctica los entornos locales reproducibles, los pipelines de Jenkins y el monitoreo en ejecución. La gran aportación del libro es que no se limita a recetas genéricas de DevOps, sino que aborda los desafíos específicos de Java en contenedores (como la gestión de memoria de la JVM, tiempos de arranque y dependencias). Requiere conocimientos sólidos de Java y nociones de terminal; es una obra indispensable para modernizar proyectos Java empresariales hacia la nube.",
+    "temas": [
+      "Java",
+      "Continuous Delivery",
+      "Jenkins",
+      "Docker",
+      "Kubernetes",
+      "Maven",
+      "Gradle",
+      "Testcontainers",
+      "JUnit",
+      "Observabilidad",
+      "Pipelines como código"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Docker Java Shop",
+        "descripcion": "Aplicación de comercio web en Java estructurada en servicios y empaquetada en contenedores Docker, empleada para configurar pipelines de CI/CD en Jenkins, pruebas de integración y despliegues en Kubernetes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/continuous-delivery-in/9781491986011/",
+      "https://github.com/continuous-delivery-in-java"
+    ]
+  },
+  "docker-cookbook-2015": {
+    "descripcion": "Recetario eminentemente práctico escrito por Sébastien Goasguen, centrado en las versiones iniciales y de rápida consolidación de Docker (en torno a las versiones 1.6 a 1.9). Está dirigido a desarrolladores, administradores de sistemas y operadores de nivel intermedio con manejo básico de la terminal Linux que necesitan soluciones rápidas, directas y comprobadas para incorporar contenedores en sus flujos de trabajo diarios de desarrollo y operaciones.\n\nLa obra reúne más de 130 recetas estructuradas en el formato clásico de problema, solución y discusión técnica. Enseña a manipular imágenes y Dockerfiles, gestionar volúmenes de datos persistentes, configurar redes entre contenedores y enlazar servicios. Además, aborda el ecosistema de herramientas de la época: orquestación local con Docker Compose, aprovisionamiento de hosts mediante Docker Machine, gestión de interfaces con Kitematic, clustering con Docker Swarm temprano, introducción al despliegue en Kubernetes y Apache Mesos con Marathon, integración con Ansible, y ejecución sobre nubes públicas como Amazon Web Services (AWS EC2), Google Compute Engine (GCE) y Azure.\n\nEl libro no desarrolla un único proyecto integral, sino que ofrece una colección modular de ejercicios y recetas puntuales que resuelven necesidades concretas, tales como levantar pilas LAMP/WordPress, conectar bases de datos o montar entornos de integración continua efímeros. Su valor principal estriba en la gran variedad de situaciones prácticas y trucos de configuración que cubre sin rodeos teóricos. No obstante, al haber sido publicado en 2015, muchas herramientas y parámetros (como Docker Machine o la sintaxis original de Docker Swarm) han quedado obsoletos frente al estándar actual de Docker Compose y Kubernetes moderno, por lo que resulta más útil como referencia histórica de patrones de contenedores que para implementaciones en producción hoy día.",
+    "temas": [
+      "Docker",
+      "Docker Compose",
+      "Dockerfiles",
+      "Redes de contenedores",
+      "Volúmenes de datos",
+      "Docker Swarm",
+      "Docker Machine",
+      "Kubernetes",
+      "Ansible",
+      "Cloud Computing"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/docker-cookbook/9781491919705/"
+    ]
+  },
+  "effective-devops-2016": {
+    "descripcion": "Obra de referencia centrada en la dimensión humana, cultural y organizativa de DevOps, escrita por Jennifer Davis y Katherine Daniels. No está ligada a versiones de software específicas, sino a la evolución metodológica del sector tecnológico en 2016. Está dirigida a líderes técnicos, directores de ingeniería, desarrolladores y administradores de sistemas de nivel intermedio o avanzado que buscan entender cómo transformar la cultura de sus equipos para colaborar de manera efectiva y sostenible, más allá de la mera instalación de herramientas.\n\nEl contenido está estructurado en torno a cuatro pilares esenciales: colaboración, afinidad, herramientas y escalabilidad. Las autoras analizan la comunicación interpersonal, la empatía y la seguridad psicológica; la alineación de objetivos contrapuestos entre equipos de desarrollo y operaciones; los criterios para evaluar y elegir herramientas (control de versiones, integración continua, gestión de configuraciones, monitoreo y ChatOps) sin caer en dogmatismos; la gestión de la deuda técnica; y los protocolos para conducir retrospectivas y autopsias sin culpables (blameless postmortems) tras incidentes de producción.\n\nEl libro es estrictamente conceptual y reflexivo: no incluye código ni tutoriales guiados para construir software o configurar servidores, sino estudios de caso reales y marcos de trabajo organizativos. Su gran mérito es desmitificar la idea de que DevOps es un rol o un conjunto de scripts, aportando estrategias prácticas para derribar silos organizativos, prevenir el agotamiento (burnout) y contratar de manera inclusiva. Quienes busquen un manual técnico de línea de comandos no lo encontrarán aquí; es una lectura estratégica recomendada para quienes lideran transformaciones culturales en empresas de cualquier tamaño.",
+    "temas": [
+      "Cultura DevOps",
+      "Colaboración",
+      "Afinitud de equipos",
+      "Gestión de incidentes",
+      "Blameless Postmortems",
+      "Seguridad psicológica",
+      "Escalabilidad organizacional",
+      "Selección de herramientas",
+      "Liderazgo técnico",
+      "Prevención del agotamiento"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/effective-devops/9781491926291/"
+    ]
+  },
+  "infrastructure-as-code-2016": {
+    "descripcion": "Libro fundamental y pionero de Kief Morris (consultor principal en ThoughtWorks) publicado en 2016, que definió las bases de la infraestructura como código en la era de la computación en la nube. Está dirigido a administradores de sistemas, ingenieros de operaciones, arquitectos de infraestructura y desarrolladores de nivel intermedio que conocen los conceptos básicos de servidores y redes, y desean aplicar principios consolidados de ingeniería de software para gestionar infraestructuras elásticas y dinámicas.\n\nLa obra expone los principios esenciales de la automatización de infraestructura: idempotencia, servidores inmutables (immutable servers), prevención del desvío de configuración (configuration drift) y servidores fénix. Describe y compara el uso de herramientas de aprovisionamiento declarativo como Terraform y AWS CloudFormation, herramientas de gestión de configuración como Ansible, Puppet, Chef y SaltStack, empaquetado de imágenes con Packer y Vagrant, y el uso de contenedores Docker. Además, introduce la creación de pipelines de entrega continua para infraestructura y técnicas de pruebas automatizadas mediante herramientas como Serverspec y Test Kitchen.\n\nEl enfoque del libro es arquitectónico y de patrones de diseño: no guía la construcción de una aplicación informática convencional ni sigue un tutorial de paso a paso único, sino que analiza patrones reproducibles de plantillas de servidores, apilamiento de recursos y flujos de trabajo en equipo ilustrados con fragmentos de código y scripts. Su gran contribución es dotar a la gestión de infraestructura del mismo rigor que el desarrollo de software (pruebas continuas, control de versiones y entregas automatizadas). Conviene tener experiencia previa en administración de sistemas Linux o Windows y nociones de servicios en la nube (como AWS).",
+    "temas": [
+      "Infrastructure as Code",
+      "Terraform",
+      "Ansible",
+      "Puppet",
+      "Chef",
+      "Infraestructura inmutable",
+      "Servidores Fénix",
+      "Packer",
+      "Pipelines de infraestructura",
+      "Serverspec",
+      "Cloud Computing"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/infrastructure-as-code/9781491924334/"
+    ]
+  },
+  "jenkins-2-up-and-running-2018": {
+    "descripcion": "Guía técnica exhaustiva escrita por Brent Laster que aborda la profunda renovación introducida en Jenkins 2, centrada en el paradigma de Pipeline-as-Code (tuberías como código) mediante el archivo Jenkinsfile y el lenguaje de dominio Groovy. El libro está orientado a desarrolladores, administradores de sistemas e ingenieros de DevOps de nivel intermedio que ya poseen nociones básicas sobre integración continua y buscan evolucionar desde los trabajos libres y manuales tradicionales hacia flujos de automatización reproducibles y controlados por versiones.\n\nEl contenido disecciona de forma minuciosa las dos variantes de sintaxis disponibles en la plataforma: Scripted Pipelines y Declarative Pipelines, analizando sus directivas, bloques de ejecución y gestión de control de flujo. Enseña a estructurar Shared Pipeline Libraries para modularizar y reutilizar código en proyectos corporativos, así como a integrar herramientas clave del ecosistema de despliegue: contenedores con Docker, repositorios de artefactos como JFrog Artifactory y Sonatype Nexus, herramientas de análisis estático como SonarQube, la moderna interfaz gráfica Blue Ocean y mecanismos avanzados de seguridad y control de acceso (RBAC).\n\nEn el terreno práctico, el lector aprende a migrar trabajos heredados y a diseñar pipelines de entrega continua multietapa capaces de ejecutar pruebas aisladas en contenedores y empaquetar versiones para despliegue. Su valor diferencial reside en la profundidad pedagógica con la que explica las bibliotecas compartidas y la depuración de pipelines; no obstante, no aborda las arquitecturas posteriores orientadas a Kubernetes nativo (como Jenkins X), y requiere cierta familiaridad previa con la sintaxis de Groovy para explotar plenamente los pipelines programados.",
+    "temas": [
+      "Jenkins 2",
+      "Pipeline-as-Code",
+      "Jenkinsfile",
+      "Declarative Pipelines",
+      "Scripted Pipelines",
+      "Shared Libraries",
+      "Groovy DSL",
+      "Blue Ocean",
+      "Docker",
+      "JFrog Artifactory",
+      "Entrega continua"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline declarativo de entrega continua con Docker y Artifactory",
+        "descripcion": "Pipeline automatizado codificado en un Jenkinsfile que compila el código, ejecuta pruebas dentro de contenedores efímeros Docker y publica los artefactos verificados en JFrog Artifactory."
+      },
+      {
+        "nombre": "Biblioteca compartida corporativa (Shared Pipeline Library)",
+        "descripcion": "Módulo en Groovy diseñado para estandarizar pasos de construcción, notificaciones y mecanismos de aprobación entre múltiples pipelines de una organización."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/jenkins-2-up/9781491979587/",
+      "https://www.amazon.com/Jenkins-Up-Running-Evolve-Deployment/dp/1491979593"
+    ]
+  },
+  "jenkins-the-definitive-guide-2011": {
+    "descripcion": "Obra de referencia fundacional escrita por John Ferguson Smart en los albores del proyecto (tras la separación de Hudson hacia Jenkins), que sirvió de estándar para la adopción de la integración continua (CI) en el desarrollo corporativo. Está pensada para desarrolladores de software, jefes de equipo y administradores de sistemas principiantes o intermedios, especialmente del ecosistema Java y entornos empresariales que buscaban abandonar los procesos de compilación manuales.\n\nA lo largo del texto se explica detalladamente la instalación del servidor, el mantenimiento del directorio JENKINS_HOME, la gestión de plugins y la seguridad mediante roles y directorios corporativos (LDAP y Active Directory). Se estudian a fondo los proyectos de estilo libre (freestyle), trabajos parametrizados y construcciones matriciales (matrix builds), integrando sistemas de control de versiones (Git y Subversion), herramientas de construcción (Apache Maven y Ant), marcos de pruebas automáticas (JUnit, TestNG, Selenium) y herramientas de métricas de calidad de código y análisis estático (Checkstyle, PMD, FindBugs y cobertura con Cobertura y JaCoCo), además de la orquestación de granjas de compilación con nodos maestro-esclavo mediante SSH y JNLP.\n\nA nivel práctico, el libro guía la configuración integral de un entorno de integración continua distribuido con alertas visuales y despliegues automáticos a servidores de prueba. Su gran mérito es la claridad metodológica para fundamentar la cultura de la integración continua y la medición de deuda técnica; sin embargo, al ser una obra de 2011, carece totalmente de los conceptos modernos de Jenkins 2 como Pipeline-as-Code (Jenkinsfile), la interfaz Blue Ocean y la integración con contenedores Docker, por lo que su utilidad actual reside en comprender las bases de la herramienta o mantener instalaciones heredadas.",
+    "temas": [
+      "Jenkins 1.x",
+      "Integración continua",
+      "Apache Maven",
+      "Apache Ant",
+      "Git",
+      "Subversion",
+      "Pruebas automatizadas",
+      "Análisis estático de código",
+      "Checkstyle y FindBugs",
+      "Compilación distribuida",
+      "Matrix builds"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor de integración continua distribuido con auditoría de calidad",
+        "descripcion": "Infraestructura de CI con arquitectura maestro-esclavo que ejecuta compilaciones en Maven, análisis estático con FindBugs/Checkstyle y despliegue automatizado de artefactos en un servidor de pruebas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/jenkins-the-definitive/9781449311155/",
+      "https://www.amazon.com/Jenkins-Definitive-Guide-Continuous-Enterprise/dp/1449305350"
+    ]
+  },
+  "devops-automation-cookbook-2015": {
+    "descripcion": "Manual práctico en formato recetario escrito por Michael Duffy que recopila soluciones orientadas a automatizar tareas complejas de administración de sistemas e infraestructura bajo la filosofía DevOps representativa de 2015. Está dirigido a administradores de sistemas, ingenieros de operaciones y desarrolladores de nivel intermedio que dominen la línea de comandos de Linux/Unix y deseen transformar operaciones manuales repetitivas en procedimientos automatizados y fiables.\n\nEl libro contiene más de 120 recetas que abarcan una amplia variedad de tecnologías: aprovisionamiento de máquinas físicas y virtuales mediante Puppet Razor, PXE, DHCP, TFTP y VMware ESXi; automatización y gestión de configuraciones con Ansible (tareas ad-hoc y playbooks); empaquetado y aislamiento con Docker; flujos de integración y entrega continua con Jenkins; despliegue en infraestructuras cloud y PaaS con Amazon Web Services (AWS EC2) y Heroku; y monitorización y gestión de logs mediante la combinación de InfluxDB, Grafana, Sensu y Syslog.\n\nEl aprendizaje es totalmente práctico y modular, ya que cada receta propone un problema concreto con su respectiva solución y explicación técnica, desde montar agentes de monitorización hasta orquestar despliegues automatizados. Su mayor fortaleza es el amplio abanico de herramientas que agrupa para cubrir el ciclo de vida completo de un centro de datos o infraestructura híbrida; por contra, al no articularse sobre un único proyecto unificado y utilizar versiones de Ansible, Docker y Jenkins de 2015, muchas recetas requieren adaptación a la sintaxis y estándares modernos de la nube.",
+    "temas": [
+      "DevOps",
+      "Ansible",
+      "Docker",
+      "Jenkins",
+      "Puppet Razor",
+      "VMware ESXi",
+      "AWS EC2",
+      "Heroku",
+      "Grafana",
+      "InfluxDB",
+      "Sensu"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/devops-automation-cookbook-9781784392826",
+      "https://www.oreilly.com/library/view/devops-automation-cookbook/9781784392826/",
+      "https://www.amazon.com/DevOps-Automation-Cookbook-Michael-Duffy/dp/1784392822"
+    ]
+  },
+  "devops-for-web-development-2016": {
+    "descripcion": "Guía práctica escrita por Mitesh Soni que aborda la convergencia entre el desarrollo de aplicaciones web y las operaciones de infraestructura, aplicando metodologías DevOps al ciclo de vida de proyectos web. Está dirigida a desarrolladores web y administradores de sistemas de nivel intermedio con conocimientos básicos de desarrollo (en especial Java/JEE) y entornos Linux que deseen automatizar desde la compilación del código hasta el despliegue multi-cloud.\n\nEl libro detalla el uso de herramientas clave de la cadena de automatización: integración continua con Jenkins 2.0 y Apache Maven; gestión de configuración e infraestructura como código con Chef (instalación de Chef Server, Chef Workstation, recetarios y plugins de Knife); contenedorización de servicios con Docker; aprovisionamiento y despliegue tanto en Amazon Web Services (Amazon EC2 y AWS Elastic Beanstalk) como en Microsoft Azure (máquinas virtuales y Azure App Service); y monitorización del rendimiento y disponibilidad con Nagios y New Relic.\n\nA lo largo de los capítulos se aprende a ensamblar un flujo continuo de entrega para una aplicación web tradicional sobre Tomcat, empaquetándola en contenedores y publicándola de forma automatizada en proveedores cloud con supervisión activa de estado. Lo más destacado es su enfoque integral que no se limita a un solo proveedor de nube, abarcando tanto AWS como Azure; no obstante, el texto está fuertemente anclado a arquitecturas Java/JEE con Chef, dejando al margen tecnologías declarativas más actuales como Terraform o Kubernetes.",
+    "temas": [
+      "DevOps",
+      "Jenkins 2.0",
+      "Chef",
+      "Docker",
+      "AWS EC2",
+      "AWS Elastic Beanstalk",
+      "Microsoft Azure",
+      "Apache Maven",
+      "Apache Tomcat",
+      "Nagios",
+      "New Relic"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline CI/CD multicloud para aplicación web Java",
+        "descripcion": "Flujo automatizado con Jenkins 2 y Maven que construye una aplicación web, la empaqueta en Docker mediante recetas de Chef y la despliega en instancias de AWS y Microsoft Azure."
+      },
+      {
+        "nombre": "Monitorización integral de servicios en la nube",
+        "descripcion": "Configuración de paneles y sondas en Nagios y New Relic para supervisar la salud del servidor web Tomcat y las métricas de rendimiento en Elastic Beanstalk y Azure Web Apps."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/devops-for-web-development-9781784394042",
+      "https://www.oreilly.com/library/view/devops-for-web/9781784394042/",
+      "https://www.amazon.com/DevOps-Web-Development-Mitesh-Soni/dp/1784394043"
+    ]
+  },
+  "extending-jenkins-2016": {
+    "descripcion": "Monografía técnica concisa escrita por Donald Simpson dedicada íntegramente a la personalización interna y el desarrollo de plugins para el servidor de automatización Jenkins. Está dirigida a desarrolladores Java e ingenieros de automatización de nivel intermedio a avanzado que ya utilizan Jenkins con soltura en su día a día y necesitan implementar extensiones propias o integrar herramientas internas que carecen de soporte oficial en la comunidad.\n\nEl libro profundiza en el modelo arquitectónico de extensión de Jenkins, analizando los Extension Points, la anotación @Extension y el framework web Stapler junto con los motores de plantillas Jelly y Groovy para construir interfaces de usuario. Enseña a interactuar programáticamente con la plataforma mediante su API REST y la interfaz de línea de comandos (CLI), a configurar entornos integrados de desarrollo en Eclipse, NetBeans e IntelliJ IDEA, y a estructurar el ciclo de vida de un plugin con Apache Maven, incluyendo pruebas unitarias e instrumentadas con el arnés JenkinsRule y empaquetado en archivos HPI/JPI.\n\nEl lector experimenta la creación paso a paso de un plugin personalizado desde el andamiaje inicial con arquetipos Maven hasta su compilación, depuración en vivo e instalación en el servidor, además de aprender a extender plugins comunitarios existentes. Su gran valor radica en ser uno de los pocos textos centrados exclusivamente en la ingeniería de plugins de Jenkins; por su parte, su alcance es acotado (alrededor de 140 páginas) y se sitúa en la fase de transición a Jenkins 2, por lo que no cubre la creación de pasos específicos para Pipelines declarativos complejos ni la arquitectura nativa en la nube.",
+    "temas": [
+      "Jenkins",
+      "Desarrollo de plugins",
+      "Java",
+      "Apache Maven",
+      "Jenkins REST API",
+      "Jenkins CLI",
+      "Extension Points",
+      "Stapler",
+      "Jelly",
+      "Testing de plugins",
+      "Archivos HPI/JPI"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Desarrollo de un plugin personalizado para Jenkins",
+        "descripcion": "Creación desde cero de un plugin en Java utilizando Maven, Stapler y Jelly que implementa un nuevo paso de construcción en la interfaz gráfica con persistencia de configuración y pruebas automáticas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/extending-jenkins-9781785284243",
+      "https://www.oreilly.com/library/view/extending-jenkins/9781785284243/",
+      "https://www.amazon.com/Extending-Jenkins-Donald-Simpson/dp/1785284241",
+      "http://donaldsimpson.co.uk/"
+    ]
+  },
+  "getting-started-with-kubernetes-2016": {
+    "descripcion": "Guía introductoria orientada a desmitificar los fundamentos de la orquestación de contenedores mediante Kubernetes, centrada en sus versiones fundacionales (Kubernetes 1.0 y 1.1) y su interacción con Docker. El texto está pensado para administradores de sistemas, ingenieros de operaciones y desarrolladores con un nivel básico o intermedio en entornos Linux que ya comprenden la creación y ejecución de contenedores individuales con Docker, pero necesitan dar el salto a la gestión automatizada y coordinada de cargas de trabajo a escala.\n\nEl libro desglosa de manera progresiva los componentes arquitectónicos del plano de control y del plano de datos de Kubernetes: el servidor de API (kube-apiserver), etcd, kube-scheduler y kubelet. Introduce con detalle las abstracciones esenciales de la plataforma: Pods, Replication Controllers (los predecesores de los actuales ReplicaSets y Deployments), Services para el descubrimiento y balanceo de tráfico interno, y el sistema de etiquetas (Labels) y selectores para la organización lógica de recursos. Asimismo, aborda la configuración de redes de clúster, la asignación de direcciones IP por Pod, la herramienta de línea de comandos kubectl, el despliegue de clústeres locales con Vagrant y en la nube sobre Google Compute Engine (GCE), y la integración de herramientas de monitorización y observabilidad como cAdvisor, Heapster y Grafana.\n\nA lo largo de la obra se pone en práctica el despliegue de un clúster funcional y la orquestación de una aplicación web multicapa (compuesta por un frontend web y un almacén de datos con Redis), demostrando cómo escalar réplicas manualmente, exponerlas a la red y realizar actualizaciones continuas sin tiempo de inactividad con kubectl rolling-update. La obra aporta una explicación diáfana de los conceptos nucleares que aún hoy rigen el diseño de Kubernetes. Como contrapartida, al haber sido publicada en los inicios del proyecto, deja fuera abstracciones modernas estándar como Deployments declarativos, Ingress controllers, StatefulSets o el gestor de paquetes Helm, por lo que debe tomarse como una base conceptual histórica de la arquitectura de contenedores más que como una guía de comandos vigentes.",
+    "temas": [
+      "Kubernetes 1.0",
+      "Docker",
+      "Pods",
+      "Replication Controllers",
+      "Services",
+      "kubectl",
+      "Google Compute Engine (GCE)",
+      "Grafana",
+      "cAdvisor",
+      "Orquestación de contenedores",
+      "Redes de clúster"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación multicapa en clúster Kubernetes",
+        "descripcion": "Despliegue y orquestación de una aplicación dividida en capas (frontend web y almacenamiento con Redis), gestionando su ciclo de vida, exposición mediante Services, escalado de réplicas y actualización continua con kubectl."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.amazon.com/Getting-Started-Kubernetes-Jonathan-Baier/dp/1784394033",
+      "https://www.goodreads.com/book/show/28219356-getting-started-with-kubernetes"
+    ]
+  },
+  "jenkins-continuous-integration-cookbook-2012": {
+    "descripcion": "Manual de referencia en formato de recetario práctico dedicado a resolver problemas habituales de automatización en servidores de integración continua con Jenkins (versión 1.4x). Está dirigido a desarrolladores de software, administradores de sistemas, ingenieros de compilación (build managers) y analistas de aseguramiento de la calidad (QA) de nivel intermedio. Requiere conocimientos previos en la gestión de servidores Linux, control de versiones con Git o Subversion y herramientas de construcción de proyectos en el ecosistema Java, como Apache Maven o Ant.\n\nA través de más de 80 recetas organizadas temáticamente, el autor enseña a configurar, proteger y mantener una infraestructura de CI robusta. Explora tareas de administración avanzada como la creación de instancias de prueba o sacrificio, respaldos y restauraciones, configuración de proxies inversos con Apache o Nginx, monitorización del rendimiento del servidor con JavaMelody y análisis de registros (log parsing). En el ámbito de compilación y calidad, detalla la parametrización de tareas, integración de repositorios Git y SVN, pruebas unitarias con JUnit y TestNG, automatización de pruebas funcionales en navegadores con Selenium, pruebas de carga con Apache JMeter, métricas de cobertura de código con Cobertura y Emma, y análisis estático con Sonar (SonarQube), FindBugs y Checkstyle. También profundiza en notificaciones con el plugin Email-ext, mensajería vía IRC y Jabber/XMPP, paneles radiadores de información, y la distribución de cargas de trabajo en nodos esclavos mediante SSH y JNLP.\n\nEl enfoque del libro es enteramente práctico y modular: cada receta atiende una necesidad puntual de configuración o integración sin necesidad de construir una sola aplicación de principio a fin. Su gran valor reside en su profundidad operativa para resolver atascos en entornos empresariales, el manejo de permisos basados en matrices y la automatización mediante Groovy y la CLI de Jenkins. Su principal limitación temporal es que no contempla el estándar moderno de Pipeline-as-Code (archivos Jenkinsfile declarativos o scripted) que se popularizó con Jenkins 2.x, centrándose exclusivamente en la configuración clásica mediante la interfaz web y archivos XML de Jenkins 1.x.",
+    "temas": [
+      "Jenkins 1.4",
+      "Integración continua",
+      "Apache Maven",
+      "Apache Ant",
+      "Selenium",
+      "JUnit",
+      "SonarQube",
+      "JavaMelody",
+      "Groovy",
+      "Apache JMeter",
+      "Nodos distribuidos",
+      "Seguridad y permisos"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.amazon.com/Jenkins-Continuous-Integration-Cookbook-Alan/dp/1849517401",
+      "https://www.goodreads.com/book/show/13597010-jenkins-continuous-integration-cookbook"
+    ]
+  },
+  "learning-continuous-integration-with-teamcity-2014": {
+    "descripcion": "Guía técnica orientada a la implementación de flujos de trabajo de Integración Continua (CI) y Entrega Continua (CD) utilizando JetBrains TeamCity 8.x. El texto está pensado para desarrolladores, profesionales de QA, administradores de sistemas e ingenieros de DevOps de nivel principiante e intermedio que buscan estructurar un entorno de compilación y entrega automatizada. Requiere comprensión general del ciclo de vida de desarrollo de software y familiaridad básica con sistemas de control de versiones y líneas de comandos.\n\nLa obra enseña a instalar, afinar y escalar el servidor TeamCity y sus agentes de compilación (build agents) en sistemas operativos Windows y Linux. Aborda en profundidad la integración con sistemas de control de versiones (Git, Subversion y Mercurial), reglas de comprobación de código (checkout rules) y compilación automática basada en ramas de características. Su punto fuerte es la cobertura práctica y diversificada de distintos ecosistemas tecnológicos: configuración de builds en Java mediante Apache Ant, Maven y Gradle con cobertura de código (JaCoCo y Emma); soluciones .NET con MSBuild, ejecución de pruebas con NUnit/MSTest y gestión de paquetes con NuGet; y entornos Ruby utilizando Rake, Bundler, RSpec y Cucumber, junto con nociones para proyectos móviles (Android e iOS). Asimismo, detalla la creación de cadenas de compilación (build chains), dependencias de instantáneas (snapshot dependencies), disparadores de compilación y la migración de la base de datos interna a bases de datos relacionales empresariales como PostgreSQL, MySQL o Microsoft SQL Server.\n\nEl autor acompaña al lector en la configuración paso a paso de canalizaciones de integración continua completas y funcionales para proyectos reales en Java, .NET y Ruby, encadenando fases de compilación, ejecución de tests automatizados y generación de artefactos dependientes. Destaca sobre otras obras al no limitarse al ecosistema Java, mostrando la gran versatilidad de TeamCity en entornos heterogéneos y corporativos. Como punto a tener en cuenta, el libro se basa en la interfaz web y la configuración tradicional de TeamCity 8, por lo que no cubre la posterior especificación de pipelines mediante código con Kotlin DSL.",
+    "temas": [
+      "TeamCity 8",
+      "Integración continua",
+      "Entrega continua",
+      "Java",
+      "Maven",
+      "Gradle",
+      ".NET",
+      "MSBuild",
+      "NUnit",
+      "NuGet",
+      "Ruby",
+      "Git"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Canalizaciones de CI/CD multiplataforma (Java, .NET y Ruby)",
+        "descripcion": "Configuración e implementación en TeamCity de flujos de compilación, pruebas y empaquetado continuo para proyectos independientes en Java (Maven/Gradle), .NET (MSBuild/NUnit/NuGet) y Ruby (Rake/RSpec), gestionando dependencias de artefactos y disparadores automáticos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-continuous-integration/9781849699518/",
+      "https://www.amazon.com/Learning-Continuous-Integration-TeamCity-Mahalingam/dp/1849699518",
+      "https://www.goodreads.com/book/show/23018265-learning-continuous-integration-with-teamcity"
+    ]
+  },
+  "learning-docker-2015": {
+    "descripcion": "Introducción estructurada a los principios de la contenedorización de aplicaciones con Docker Engine (versiones 1.5 a 1.7). Está dirigida a desarrolladores, administradores de sistemas y profesionales de infraestructura o DevOps que se inician en la tecnología de contenedores. Para aprovecharla adecuadamente conviene tener nociones de administración básica en sistemas Linux y conocimientos elementales sobre protocolos de red y arquitectura cliente-servidor.\n\nEl libro comienza explicando la base teórica que diferencia la contenedorización frente a las máquinas virtuales clásicas, apoyándose en las características del núcleo de Linux: grupos de control (cgroups), espacios de nombres (namespaces) y sistemas de archivos por capas (union file systems como AUFS y DeviceMapper). Enseña la instalación de Docker Engine en Linux, macOS y Windows, la gestión completa del ciclo de vida de los contenedores mediante la CLI (run, exec, ps, logs, stats) y la escritura eficiente de archivos Dockerfile (FROM, RUN, COPY, ENTRYPOINT, CMD). Asimismo, cubre la persistencia de datos mediante volúmenes y contenedores de solo datos, la publicación y enlace de puertos en red, la distribución de imágenes en Docker Hub y el montaje de registros privados locales protegidos por SSL (Docker Registry). También introduce la orquestación multicontenedor con Docker Compose, la ejecución de pruebas automatizadas integradas con Jenkins y el endurecimiento de la seguridad con privilegios de usuario y perfiles de SELinux.\n\nA lo largo de los capítulos se construyen y configuran soluciones prácticas, entre ellas el despliegue de un registro privado seguro de imágenes y la orquestación de una aplicación web multicontenedor coordinada mediante Docker Compose. Su principal fortaleza radica en clarificar el funcionamiento interno del motor y las capas de almacenamiento sin abrumar al principiante. Al datar de 2015, queda atrás en convenciones obsoletas como el uso de enlaces --link o herramientas auxiliares como Boot2Docker, pero resulta sumamente pedagógico para asentar los fundamentos esenciales de empaquetado y aislamiento en Linux.",
+    "temas": [
+      "Docker Engine",
+      "Dockerfile",
+      "Docker Compose",
+      "Docker Hub",
+      "Docker Registry",
+      "Contenedores",
+      "Volúmenes de datos",
+      "cgroups",
+      "Linux namespaces",
+      "SELinux",
+      "Jenkins"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Infraestructura de registro privado y orquestación multicontenedor",
+        "descripcion": "Configuración y puesta en marcha de un servidor Docker Registry propio protegido mediante certificados SSL, junto con la orquestación de una aplicación web multicontenedor coordinada mediante Docker Compose y volúmenes de datos persistentes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-docker/9781784397937/",
+      "https://www.amazon.com/Learning-Docker-Jeeva-S-Chelladhurai/dp/1784397938",
+      "https://www.goodreads.com/book/show/25732147-learning-docker"
+    ]
+  },
+  "learning-docker-networking-2016": {
+    "descripcion": "Monografía especializada en la arquitectura y gestión de redes para contenedores Docker, enfocada en la transición tecnológica introducida en Docker 1.9 y 1.10 con la biblioteca libnetwork y el modelo de red de contenedores (Container Network Model o CNM). Está destinada a administradores de redes, ingenieros de sistemas, desarrolladores backend y profesionales de DevOps con experiencia previa en el manejo de contenedores Docker que necesitan diseñar, aislar y depurar la conectividad entre microservicios tanto en un único host como en entornos distribuidos. Requiere conocimientos sólidos de redes TCP/IP y comandos de Linux.\n\nEl libro disecciona los mecanismos del kernel de Linux que hacen posible el aislamiento y la comunicación de red: namespaces de red (netns), pares Ethernet virtuales (veth pairs), puentes de red (Linux bridges como docker0) y manipulación de tablas y reglas en iptables (NAT, filtros y enmascaramiento). Enseña el funcionamiento de los controladores de red nativos de Docker (Bridge, Host, None y Macvlan), así como la gestión de redes definidas por el usuario a través del subcomando docker network. Dedica capítulos sustanciales a las redes multinodo (multi-host networking), detallando la configuración del controlador nativo Overlay en conjunción con almacenes de estado distribuido (Consul, Etcd o ZooKeeper) y clústeres de Docker Swarm, además de plugins de red SDN de terceros como Weave Net, Flannel y Open vSwitch (OVS). Concluye con directrices de seguridad (aislamiento entre contenedores y desactivación de ICC), calidad de servicio (QoS) y diagnóstico con herramientas como ip link e inspección de tráfico.\n\nLa parte práctica guía al lector en la creación de topologías de red personalizadas y el despliegue de una red virtual superpuesta (Overlay) para comunicar contenedores distribuidos en diferentes máquinas físicas o virtuales con resolución interna de nombres y cifrado de tráfico. Su mayor valor reside en exponer el funcionamiento bajo el capó de las redes de contenedores en Linux, un conocimiento técnico imperecedero. Por contra, la parte referida a la orquestación utiliza Docker Swarm en modo independiente junto a almacenes de claves externos, configuración que posteriormente fue integrada de forma nativa en Docker Swarm mode o delegada a Kubernetes con sus propios complementos CNI.",
+    "temas": [
+      "Docker Networking",
+      "libnetwork",
+      "Container Network Model (CNM)",
+      "Linux namespaces",
+      "veth pairs",
+      "iptables",
+      "Redes Overlay",
+      "Docker Swarm",
+      "Consul",
+      "Weave Net",
+      "Flannel",
+      "Open vSwitch"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Red virtual superpuesta (Overlay) para microservicios multinodo",
+        "descripcion": "Diseño y despliegue de una red de contenedores distribuida a través de múltiples hosts utilizando el controlador Overlay de Docker y un almacén de claves (Consul o Etcd), habilitando comunicación segura, resolución de nombres y aislamiento entre microservicios."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.amazon.com/Learning-Docker-Networking-Rajdeep-Dua/dp/1785280953",
+      "https://www.oreilly.com/library/view/learning-docker-networking/9781785280955/",
+      "https://books.google.com/books/about/Learning_Docker_Networking.html?id=z1JQCwAAQBAJ"
+    ]
+  },
+  "mastering-jenkins-2015": {
+    "descripcion": "Guía avanzada de administración y arquitectura centrada en Jenkins en su etapa clásica (rama 1.x, previa a la adopción masiva de Jenkins 2 y los pipelines declarativos en código). El libro está orientado a ingenieros de DevOps, administradores de sistemas y especialistas en control de calidad y automatización que ya dominan los conceptos esenciales de la herramienta y buscan dar el salto hacia el diseño, escalabilidad y mantenimiento de plataformas empresariales de integración y entrega continua. Se asume experiencia previa en la creación de tareas básicas en Jenkins, manejo de la terminal en entornos Linux o Windows y conocimientos del ciclo de vida del desarrollo de software.\n\nEl contenido profundiza en el ajuste del servidor a nivel de infraestructura: optimización de la máquina virtual de Java (JVM), gestión de memoria, puertos y despliegue robusto tras proxies inversos con Nginx y Apache HTTP Server, junto con esquemas de recuperación ante desastres mediante instantáneas y rsync. Detalla la configuración de arquitecturas distribuidas con nodos maestro y esclavos (Master/Slave agents) en entornos heterogéneos (Linux, Windows y macOS), la organización avanzada de paneles mediante vistas y el encadenamiento de tareas de compilación. En el ámbito de la calidad y el despliegue, enseña a integrar baterías de pruebas automatizadas a gran escala con Selenium, orquestar flujos de entrega y conectar Jenkins con herramientas del ecosistema como Ansible, contenedores Docker, repositorios Artifactory, rastreadores Jira y la propia API REST de Jenkins para automatizaciones externas.\n\nA lo largo de los capítulos se diseña y despliega una infraestructura de integración continua distribuida capaz de coordinar pruebas y compilaciones paralelas entre múltiples agentes. Su mayor aportación es el rigor con el que trata la administración del sistema y la estabilidad operativa de Jenkins (gestión de archivos XML, mantenimiento de agentes y seguridad del host), facetas críticas que los manuales introductorios suelen obviar. Su principal limitación temporal es que no cubre la sintaxis moderna de Jenkinsfile ('Pipeline as Code') ni la interfaz Blue Ocean, ya que el orquestado se apoya en plugins de la época como Build Pipeline Plugin; aun así, resulta un texto valioso para comprender a fondo la arquitectura interna y la operativa de nodos de Jenkins.",
+    "temas": [
+      "Jenkins",
+      "Integración continua (CI)",
+      "Entrega continua (CD)",
+      "Arquitectura Master-Slave",
+      "Automatización de pruebas",
+      "Ansible",
+      "Docker",
+      "Selenium",
+      "API REST de Jenkins",
+      "Nginx",
+      "Artifactory"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Infraestructura CI/CD distribuida multiplataforma",
+        "descripcion": "Diseño y puesta en marcha de un clúster empresarial de Jenkins con un nodo maestro protegido tras un proxy inverso Nginx y múltiples agentes esclavos heterogéneos (Linux, Windows, macOS), automatizando pipelines de compilación, pruebas con Selenium y despliegue coordinado con Ansible y Docker."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-jenkins-9781784390891",
+      "https://www.amazon.com/Mastering-Jenkins-Jonathan-McAllister/dp/1784390892",
+      "https://www.oreilly.com/library/view/mastering-jenkins/9781784390891/",
+      "https://www.goodreads.com/book/show/27306283-mastering-jenkins"
+    ]
+  },
+  "monitoring-docker-2016": {
+    "descripcion": "Manual conciso y eminentemente práctico dedicado a la observabilidad, supervisión y análisis de rendimiento en entornos de contenedores Docker (centrado en versiones de Docker Engine 1.8 a 1.10 y el ecosistema de herramientas disponible entre finales de 2015 e inicios de 2016). La obra está pensada para administradores de sistemas, ingenieros de operaciones y desarrolladores que ya ejecutan aplicaciones contenerizadas y necesitan resolver el problema de la 'caja negra', asegurando visibilidad sobre el consumo de recursos y la salud de los servicios. Se requieren conocimientos intermedios de administración en Linux y manejo solvente de los comandos básicos de Docker.\n\nEl texto cubre un amplio abanico de enfoques de supervisión organizados progresivamente: comienza exprimiendo las utilidades nativas y la API de Docker mediante herramientas de línea de comandos como 'docker top', 'docker stats' y 'docker logs'. Luego explora la monitorización avanzada de recursos y cgroups mediante Google cAdvisor, el monitoreo tradicional basado en agentes con Zabbix, y el diagnóstico profundo a nivel de llamadas del kernel e inspección de contenedores con Sysdig y su interfaz Csysdig. También enseña a almacenar y consultar métricas temporales con Prometheus, evaluar soluciones comerciales en la nube (SaaS) como Datadog, New Relic y Sysdig Cloud, y configurar la agregación y visualización centralizada de registros mediante una pila ELK (Elasticsearch, Logstash y Kibana) empaquetada en contenedores.\n\nA través de laboratorios reproducibles con Vagrant y Docker Compose, el lector practica la configuración y despliegue de cada una de las pilas de observabilidad analizadas. El principal mérito del libro es su capacidad para sintetizar y comparar en poco más de cien páginas las distintas alternativas del mercado (nativas, open source y SaaS), permitiendo al lector discernir cuál se adapta mejor a su infraestructura. Quedan fuera aspectos de orquestación a gran escala como Kubernetes o métricas nativas de Docker Swarm mode (introducido posteriormente en Docker 1.12), pero proporciona una base conceptual y práctica sólida sobre la telemetría de contenedores Linux.",
+    "temas": [
+      "Docker",
+      "Monitorización",
+      "cAdvisor",
+      "Prometheus",
+      "Sysdig",
+      "Zabbix",
+      "ELK Stack",
+      "Datadog",
+      "New Relic",
+      "Métricas de contenedores",
+      "Gestión de logs"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/monitoring-docker-9781785882753",
+      "https://www.amazon.com/Monitoring-Docker-Russ-McKendrick/dp/1785882759",
+      "https://www.oreilly.com/library/view/monitoring-docker/9781785882753/"
+    ]
+  },
+  "practical-devops-2016": {
+    "descripcion": "Guía panorámica y formativa que articula de manera integral los principios, la cultura y el conjunto de herramientas que componen el ciclo de vida de DevOps y entrega continua (publicada a principios de 2016). Está dirigida a desarrolladores, administradores de sistemas y responsables de equipo que buscan tender un puente entre el desarrollo y las operaciones de TI, superando los silos organizativos. Para aprovechar la lectura conviene tener nociones generales de desarrollo de software, uso básico de la consola de Linux y familiaridad con conceptos elementales de control de versiones.\n\nEl libro desglosa de manera progresiva cada eslabón de la cadena de entrega: el impacto de DevOps en la arquitectura del software (monolitos vs. microservicios, migraciones de base de datos y diseño para la resiliencia); la gestión del código fuente como pilar fundamental con Git, plataformas como GitLab y flujos de revisión con Gerrit; la integración continua a través de Jenkins (configuración del servidor, gestión de dependencias, esclavos de compilación y encadenamiento de tareas); y la automatización de pruebas unitarias y funcionales con Selenium y herramientas de JavaScript. En la fase de despliegue y operaciones, examina herramientas de aprovisionamiento y gestión de configuración como Puppet, Ansible, Chef, SaltStack y contenedores Docker, concluyendo con la monitorización mediante Nagios, Munin, Ganglia, la pila ELK (Elasticsearch, Logstash, Kibana), sistemas de seguimiento de incidencias (Jira, Redmine, Bugzilla) y una introducción al despliegue en entornos de Internet de las Cosas (IoT).\n\nEl recorrido práctico ilustra la integración de un ecosistema DevOps completo, mostrando cómo conectar el flujo de trabajo desde la confirmación de código hasta la monitorización en producción. Su gran virtud es ofrecer una visión holística y coherente de todo el panorama DevOps de mediados de la década de 2010, permitiendo entender el rol exacto de cada tecnología dentro de la cadena de valor. Al abordar un abanico tan extenso en unas 240 páginas, no entra en detalles exhaustivos de configuración avanzada de cada herramienta, por lo que sirve más como mapa de ruta estratégico y formativo que como manual de consulta profunda para una tecnología particular.",
+    "temas": [
+      "DevOps",
+      "Entrega continua (CD)",
+      "Jenkins",
+      "Docker",
+      "Ansible",
+      "Puppet",
+      "Git",
+      "Selenium",
+      "ELK Stack",
+      "Nagios",
+      "Microservicios",
+      "Internet de las Cosas (IoT)"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/practical-devops-9781785882876",
+      "https://www.amazon.com/Practical-DevOps-Joakim-Verona/dp/1785882872",
+      "https://www.oreilly.com/library/view/practical-devops/9781785882876/"
+    ]
+  },
+  "securing-docker-2016": {
+    "descripcion": "Manual práctico de seguridad defensiva enfocado en proteger, endurecer y auditar entornos basados en contenedores Docker (orientado a las versiones de Docker Engine 1.9 a 1.11 en 2016). Está dirigido a administradores de sistemas, ingenieros de operaciones y DevOps, y consultores de ciberseguridad que necesitan reducir la superficie de ataque y asegurar cargas de trabajo en contenedores, evitando escapes al host o accesos no autorizados. Requiere conocimientos previos de administración del sistema operativo Linux a nivel de línea de comandos y experiencia operativa básica con Docker.\n\nLa obra aborda la seguridad en múltiples capas: seguridad del sistema anfitrión (host OS) y hardening del daemon de Docker mediante autenticación y cifrado mutuo con certificados TLS/SSL; aislamiento a nivel de kernel mediante Linux Namespaces, Cgroups y la reducción de privilegios mediante Linux Capabilities; y control de acceso obligatorio (MAC) con perfiles de AppArmor y políticas de SELinux. Asimismo, enseña a ejecutar auditorías de cumplimiento automatizadas con la herramienta Docker Bench for Security (alineada con los estándares de CIS Benchmark), restringir llamadas al sistema con perfiles Seccomp, verificar la autenticidad e integridad de imágenes con Docker Content Trust (Notary), y monitorizar anomalías e incidentes con utilidades como Sysdig y escáneres como Clair.\n\nA través de configuraciones de hardening paso a paso y análisis de auditoría, se guía al lector en la securización efectiva de servidores y contenedores en producción. Su punto más valioso es que derriba la falsa creencia de que un contenedor es intrínsecamente un entorno aislado como una máquina virtual, explicando con rigor técnico los riesgos inherentes de compartir el kernel de Linux y cómo neutralizarlos mediante políticas de privilegios mínimos. Debido a su extensión reducida (126 páginas), se enfoca exclusivamente en Docker standalone y no profundiza en la seguridad de redes superpuestas complejas ni en clústeres de Kubernetes, pero proporciona las bases esenciales de seguridad que todo operador de contenedores debe dominar.",
+    "temas": [
+      "Docker",
+      "Seguridad en contenedores",
+      "Hardening",
+      "Docker Bench for Security",
+      "CIS Benchmark",
+      "AppArmor",
+      "SELinux",
+      "Seccomp",
+      "Certificados TLS",
+      "Linux Capabilities",
+      "Docker Content Trust"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/securing-docker-9781785888854",
+      "https://www.amazon.com/Securing-Docker-Scott-Gallagher/dp/1785888854",
+      "https://www.oreilly.com/library/view/securing-docker/9781785888854/"
+    ]
+  },
+  "the-devops-2-0-toolkit-2016": {
+    "descripcion": "Guía integral y de orientación práctica orientada a la automatización completa de pipelines de despliegue continuo (Continuous Deployment) mediante arquitecturas de microservicios contenerizadas con Docker (contextualizada en las versiones 1.9 a 1.11 de Docker, a inicios de 2016). Está dirigida a desarrolladores, administradores de sistemas y profesionales de DevOps que desean transicionar de esquemas tradicionales hacia entornos plenamente automatizados, dinámicos y resilientes. No exige experiencia avanzada previa en DevOps, pero sí fluidez en el uso de la terminal de comandos y comprensión general del desarrollo y ciclo de vida de aplicaciones.\n\nEl libro construye un entorno operativo moderno articulando múltiples tecnologías clave: aprovisionamiento de infraestructura y máquinas virtuales con Vagrant y Ansible; empaquetado, orquestación local y ejecución de microservicios con Docker y Docker Compose; registro automático y descubrimiento de servicios dinámico mediante Consul y Registrator; enrutamiento y balanceo de carga automático con HAProxy y Nginx; y orquestación de la integración y despliegue continuo mediante Jenkins. Además, profundiza en técnicas de despliegue sin caída de servicio como Blue-Green Deployment, agrupación y escalado en clúster con Docker Swarm (versión inicial en clúster), diseño de sistemas autorreparables (self-healing) y centralización de telemetría y logs con Elasticsearch, Logstash y Kibana (ELK).\n\nEl aprendizaje es completamente aplicado y gira en torno al desarrollo y despliegue continuo de un proyecto de microservicio real ('Books Service' / books-ms), implementando paso a paso cada fase de la canalización desde las pruebas iniciales hasta el escalado y monitorización en producción. Su gran fortaleza es la coherencia con la que hilvana el paradigma 'DevOps 2.0', demostrando cómo lograr despliegues continuos sin intervención humana y con tolerancia a fallos. Si bien la tecnología de orquestación de la industria convergió posteriormente hacia Kubernetes, los fundamentos sobre inmutabilidad de contenedores, proxies dinámicos, service discovery y despliegues Blue-Green que enseña Viktor Farcic siguen siendo indispensables para comprender la ingeniería de plataformas moderna.",
+    "temas": [
+      "DevOps",
+      "Continuous Deployment",
+      "Microservicios",
+      "Docker",
+      "Docker Compose",
+      "Docker Swarm",
+      "Consul",
+      "Jenkins",
+      "Ansible",
+      "Vagrant",
+      "Blue-Green Deployment",
+      "ELK Stack"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline de despliegue continuo para Books Microservice",
+        "descripcion": "Diseño e implementación de un pipeline integral de Continuous Deployment para el microservicio 'Books Service' (books-ms), automatizando pruebas, empaquetado con Docker Compose, despliegues Blue-Green sin tiempo de inactividad y registro y balanceo dinámico con Consul, Registrator y HAProxy orquestados mediante Jenkins."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/the-devops-20-toolkit-9781785289194",
+      "https://www.amazon.com/DevOps-2-0-Toolkit-Continuous-Microservices/dp/1785289195",
+      "https://leanpub.com/the-devops-2-toolkit",
+      "https://www.oreilly.com/library/view/the-devops-20/9781785289194/"
+    ]
+  },
+  "devops-for-dummies-2019": {
+    "descripcion": "Guía introductoria y accesible escrita por Emily Freeman que aborda los fundamentos culturales, organizacionales y técnicos del movimiento DevOps. Publicada en 2019, la obra prescinde de un recetario de código o de una versión cerrada de software para enfocarse en los principios transversales que rigen la entrega continua de valor en infraestructuras modernas (incluyendo computación en la nube y contenedores). Está dirigida a desarrolladores, administradores de sistemas, directores de ingeniería y líderes de producto con perfil principiante en la materia, requiriendo únicamente una noción general del ciclo de vida del desarrollo de software y del trabajo en equipo tecnológico.\n\nEl texto estructura su aprendizaje a través del marco CALMS (Cultura, Automatización, Lean, Medición y Compartir) y examina cómo superar los silos y la tradicional rivalidad entre desarrollo y operaciones mediante el pensamiento sistémico y la eliminación de desperdicios del modelo Lean. Freeman introduce conceptos y herramientas clave de la industria: integración continua y entrega continua (CI/CD), pruebas automatizadas previas al despliegue, estrategias de puesta en producción (blue-green y rolling deployments), diseño orientado a microservicios, contenedorización con Docker, orquestación con Kubernetes, migración a plataformas en la nube (AWS, Azure, GCP) y gobernanza de software de código abierto.\n\nNo es un manual guiado de codificación paso a paso ni un libro de comandos prácticos, sino un compendio estratégico y conceptual con listas de comprobación y pautas de gestión organizacional. Su principal fortaleza reside en humanizar el rol técnico, profundizando en la filosofía Kaizen de mejora continua, la creación de una cultura libre de culpas (blameless culture), el diseño humano de turnos de guardia (on-call) y las revisiones posteriores a incidentes (post-mortems). Quienes busquen configurar pipelines con archivos YAML específicos o administrar clústeres a bajo nivel deberán recurrir a manuales técnicos complementarios, pero como mapa de ruta para alinear equipos y procesos resulta una lectura sumamente clarificadora.",
+    "temas": [
+      "Cultura DevOps",
+      "Marco CALMS",
+      "Integración continua (CI)",
+      "Entrega continua (CD)",
+      "Metodología Lean",
+      "Estrategias de despliegue",
+      "Microservicios",
+      "Docker y contenedores",
+      "Gestión de incidentes",
+      "Post-mortems sin culpa",
+      "Migración a la nube"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/DevOps+For+Dummies-p-9781119552222",
+      "https://www.amazon.com/DevOps-Dummies-Emily-Freeman/dp/1119552222",
+      "https://www.oreilly.com/library/view/devops-for-dummies/9781119552222/"
+    ]
+  },
+  "agile-project-management-using-team-foundation-server-2015-2016": {
+    "descripcion": "Manual técnico y práctico centrado en la implementación de marcos de trabajo ágiles dentro del ecosistema de Microsoft, tomando como base Team Foundation Server (TFS) 2015 y la transición hacia Visual Studio Team Services (VSTS, predecesor de Azure DevOps). Joachim Rossberg orienta la obra a gestores de proyectos, Scrum Masters, Product Owners y desarrolladores de nivel intermedio que conocen los conceptos elementales de la gestión de proyectos de software y desean aprender a configurar y administrar sus ceremonias y artefactos en las herramientas empresariales de Microsoft.\n\nEl libro articula la gestión del ciclo de vida de las aplicaciones (ALM) detallando el uso y configuración de plantillas de procesos ágiles (Scrum, Agile y CMMI) en TFS. Explica en profundidad cómo crear y tipificar elementos de trabajo (PBIs, historias de usuario, tareas, errores y épicas), cómo estructurar y refinar el backlog del producto, planificar sprints y aprovechar tableros Kanban interactivos y paneles de tareas. También enseña a diseñar y automatizar pipelines con el sistema de compilación renovado de TFS 2015 (Build Management/CI), configurar planes de pruebas manuales y automatizadas con Microsoft Test Manager/TFS Testing, y generar paneles de control y métricas clave como diagramas de flujo acumulado, gráficos burndown y velocidad del equipo.\n\nLa obra adopta una metodología guiada de configuración y administración en la que el lector aprende a orquestar el flujo ágil de un proyecto empresarial a través de las pantallas y herramientas de TFS. Aporta gran valor al ilustrar cómo adaptar y personalizar campos y estados de trabajo según las normas de gobernanza de una empresa, sin limitarse a la configuración por defecto. Sin embargo, al estar centrado en la versión 2015/2016, muchas interfaces y nomenclaturas han migrado hoy a Azure DevOps Services y GitHub, por lo que su aprovechamiento actual requiere contextualizar ciertos paneles y menús obsoletos.",
+    "temas": [
+      "Team Foundation Server 2015",
+      "VSTS",
+      "Application Lifecycle Management (ALM)",
+      "Scrum",
+      "Kanban",
+      "Backlog y User Stories",
+      "Plantillas de proceso",
+      "Gestión de builds (CI)",
+      "Pruebas de software",
+      "Métricas y Burndown charts",
+      "Dashboards"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1870-9",
+      "https://www.oreilly.com/library/view/agile-project-management/9781484218709/",
+      "https://www.amazon.com/Agile-Project-Management-Foundation-Server/dp/1484218696"
+    ]
+  },
+  "beginning-bazel-2019": {
+    "descripcion": "Introducción práctica y concisa al sistema de compilación y pruebas de código abierto Bazel (la versión pública de Blaze desarrollada por Google). Publicada por Apress a finales de 2019, la obra se sitúa en los primeros lanzamientos estables de Bazel (versiones 1.x) y está dirigida a ingenieros de software, especialistas en DevOps y líderes técnicos que necesitan compilar y probar proyectos multilenguaje a gran escala. Para aprovechar el libro se requieren conocimientos básicos del uso de la terminal de comandos y nociones de programación en Java, Go o C++.\n\nEl recorrido cubre desde la instalación de Bazel en Linux, macOS y Windows hasta los conceptos fundamentales de la herramienta: espacios de trabajo (WORKSPACE), archivos de configuración BUILD, sintaxis Starlark, paquetes y destinos de compilación (targets). McNerney profundiza en la gestión de dependencias externas, la organización de monorrepositorios y la integración de toolchains para diversos lenguajes y plataformas. Se detallan reglas oficiales para compilar proyectos en Java y Go, la definición y serialización de esquemas agnósticos con Protocol Buffers (Protobuf), la comunicación remota con gRPC y la configuración de compilaciones para aplicaciones móviles nativas en Android (Android SDK) e iOS (reglas para Xcode).\n\nA través de ejemplos de código progresivos alojados en su repositorio oficial, el lector construye programas cliente/servidor, canalizaciones de generación de código RPC y empaquetados para plataformas móviles bajo un mismo árbol de dependencias reproducible. El libro destaca por desmitificar la curva de aprendizaje de Bazel y enseñar cómo acelerar drásticamente los tiempos de compilación mediante el almacenamiento en caché determinista y hermético. Como contrapartida, no profundiza en la creación de reglas Starlark complejas desde cero ni en la administración de granjas de ejecución remota masivas, y conviene tener en cuenta que en versiones actuales de Bazel el archivo WORKSPACE ha evolucionado hacia Bzlmod (MODULE.bazel), aunque los fundamentos de grafo de compilación y hermeticidad siguen intactos.",
+    "temas": [
+      "Bazel",
+      "Sistemas de compilación",
+      "Java",
+      "Go",
+      "Protocol Buffers",
+      "gRPC",
+      "Monorrepositorios",
+      "Archivos BUILD y WORKSPACE",
+      "Compilación para Android",
+      "Compilación para iOS",
+      "Caché hermética"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Cliente y servidor Echo",
+        "descripcion": "Programa cliente/servidor que demuestra la división de código en paquetes, la gestión de dependencias locales y la definición de reglas de ejecución y prueba en Bazel con Go y Java."
+      },
+      {
+        "nombre": "Servicio de mensajería con gRPC y Protobuf",
+        "descripcion": "Implementación de comunicación cliente/servidor que aprovecha las reglas de Bazel para compilar archivos .proto y generar automáticamente el código de transporte gRPC."
+      },
+      {
+        "nombre": "Flujos de compilación móvil para Android e iOS",
+        "descripcion": "Estructuración y compilación de proyectos móviles cliente utilizando las reglas nativas de Bazel para empaquetar binarios de Android y aplicaciones para iOS."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5194-2",
+      "https://github.com/Apress/beginning-bazel",
+      "https://www.oreilly.com/library/view/beginning-bazel/9781484251942/",
+      "https://www.amazon.com/Beginning-Bazel-Building-Testing-Java/dp/1484251936"
+    ]
+  },
+  "openshift-in-action-2018": {
+    "descripcion": "Guía técnica y práctica escrita por los arquitectos de soluciones de Red Hat Jamie Duncan y John Osborne, centrada en el despliegue, escalado y gestión de aplicaciones empresariales en contenedores mediante Red Hat OpenShift. Publicado en 2018, el texto trabaja con la generación de OpenShift 3 (basada en Kubernetes y Docker con soporte para entornos locales mediante Minishift) y está pensado para administradores de sistemas, ingenieros de operaciones y desarrolladores de nivel intermedio. Se presupone familiaridad previa con la línea de comandos de Linux y conocimientos básicos sobre la contenedorización con Docker.\n\nEl libro desglosa la arquitectura de la plataforma combinando la orquestación de Kubernetes con las utilidades avanzadas de OpenShift. Explica detalladamente cómo interactuar con el clúster usando la CLI oc, la compilación automatizada de código a imagen con Source-to-Image (S2I) y la configuración de servicios, rutas de tráfico y escalado automático de pods guiado por métricas. En la sección de aplicaciones con estado, aborda el aprovisionamiento de almacenamiento persistente mediante Persistent Volumes (PV) y Persistent Volume Claims (PVC). Asimismo, cubre la integración continua con pipelines de Jenkins, redes definidas por software (SDN), control de acceso basado en roles (RBAC) y aislamiento multinivel del kernel con cgroups, namespaces y directivas de seguridad SELinux.\n\nA través de un enfoque orientado a la práctica, los autores guían la implementación y administración de aplicaciones representativas como el servicio Image Uploader, pasando de un despliegue básico a una solución altamente disponible, con almacenamiento persistente y canalización CI/CD automatizada. El punto fuerte del libro es su análisis riguroso de cómo OpenShift se apoya en los primitivos del núcleo de Linux para garantizar seguridad de nivel empresarial. Conviene tener en cuenta que, al estar basado en OpenShift 3, el libro no incluye las novedades introducidas a partir de OpenShift 4 (como Red Hat CoreOS, el modelo de operadores de Kubernetes o las actualizaciones Over-The-Air), pero sus lecciones sobre arquitectura distribuida, redes y gestión de contenedores siguen siendo enormemente didácticas.",
+    "temas": [
+      "Red Hat OpenShift",
+      "Kubernetes",
+      "Docker",
+      "Source-to-Image (S2I)",
+      "Minishift",
+      "CLI oc",
+      "Pipelines de CI/CD",
+      "Jenkins",
+      "Almacenamiento persistente",
+      "Redes definidas por software (SDN)",
+      "Seguridad y SELinux"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Image Uploader en clúster OpenShift",
+        "descripcion": "Despliegue y gestión de una aplicación web de subida de imágenes utilizando S2I, configuración de rutas externas, autoescalado con métricas y almacenamiento en volúmenes persistentes."
+      },
+      {
+        "nombre": "Canalización de integración continua con Jenkins",
+        "descripcion": "Automatización del ciclo de vida de la aplicación mediante la creación de pipelines en Jenkins integrados de forma nativa en OpenShift para compilar, probar y desplegar automáticamente."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/openshift-in-action",
+      "https://github.com/OpenShiftInAction",
+      "https://www.oreilly.com/library/view/openshift-in-action/9781617294815/",
+      "https://www.amazon.com/OpenShift-Action-Jamie-Duncan/dp/1617294810"
+    ]
+  },
+  "the-site-reliability-workbook-2018": {
+    "descripcion": "Manual de referencia práctico y operativo editado por Betsy Beyer y el equipo de ingeniería de confiabilidad de sitios de Google (SRE), concebido como el complemento aplicado del célebre libro fundacional sobre SRE. Publicada por O'Reilly en 2018, la obra se enfoca en cómo implementar la ingeniería de confiabilidad en infraestructuras y servicios de cualquier tamaño, tanto dentro como fuera de la nube de Google. Está orientada a ingenieros de confiabilidad (SREs), arquitectos de sistemas, ingenieros DevOps y líderes técnicos de nivel intermedio o avanzado que cuenten con experiencia previa en operaciones, despliegue de sistemas distribuidos y monitorización de servicios.\n\nEl libro profundiza en la formulación rigurosa de Indicadores del Nivel de Servicio (SLIs), Objetivos de Nivel de Servicio (SLOs) y presupuestos de error (error budgets), enseñando cómo crear alertas predictivas basadas en tasas de consumo (burn rates) en ventanas de tiempo múltiples. Analiza de manera sistemática la eliminación del trabajo rutinario (toil), el diseño humano de rotaciones de guardia (on-call), la respuesta coordinada ante incidentes y el fomento de una cultura de autopsias sin culpables (blameless postmortems). Además, detalla el diseño de sistemas distribuidos a gran escala (NALSD - Non-Abstract Large System Design), la gestión de sobrecarga y balanceo de tráfico, la verificación de canales de procesamiento de datos y la orquestación de lanzamientos graduales tipo canario (canarying releases).\n\nCada capítulo incluye casos de estudio reales de empresas como The New York Times, The Home Depot y Evernote, junto con ejercicios prácticos estructurados para calcular presupuestos de error, diseñar reglas de alerta o simular desastres operativos mediante dinámicas formativas (como la «Rueda de la Infortuna»). Su mayor virtud es aterrizar los principios abstractos de Google en plantillas, fórmulas matemáticas y políticas organizacionales listas para ser adoptadas por equipos con infraestructuras heredadas. Dado que no enseña código de aplicación ni configuración de frameworks específicos, su lectura presupone un buen dominio de la arquitectura de sistemas y métricas operativas.",
+    "temas": [
+      "Site Reliability Engineering (SRE)",
+      "SLI y SLO",
+      "Presupuestos de error",
+      "Alertas multi-ventana",
+      "Eliminación del trabajo manual (Toil)",
+      "Gestión de guardias (On-call)",
+      "Respuesta a incidentes",
+      "Post-mortems sin culpa",
+      "Diseño de sistemas a gran escala (NALSD)",
+      "Lanzamientos tipo canario",
+      "Casos de estudio reales"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://sre.google/workbook/table-of-contents/",
+      "https://www.oreilly.com/library/view/the-site-reliability/9781492029496/",
+      "https://www.amazon.com/Site-Reliability-Workbook-Practical-Implement/dp/1492029505"
+    ]
+  }
+}

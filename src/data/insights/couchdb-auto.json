@@ -1,0 +1,69 @@
+{
+  "couchdb-the-definitive-guide-2010": {
+    "descripcion": "La obra fundacional y definitiva sobre Apache CouchDB escrita directamente por sus creadores principales: J. Chris Anderson, Jan Lehnardt y Noah Slater.\n\nLos autores desentrañan la innovadora arquitectura de CouchDB: almacenamiento de documentos JSON sin esquema, API RESTful nativa sobre HTTP, arquitectura de persistencia append-only sin bloqueos con consistencia eventual (MVCC), y su legendario motor de replicación bidireccional continua. Además, enseñan a construir aplicaciones web completas alojadas directamente dentro de la base de datos (CouchApps).\n\nUn clásico imperecedero de la literatura de bases de datos NoSQL, indispensable para comprender el diseño de sistemas distribuidos y aplicaciones offline-first.",
+    "temas": [
+      "CouchDB",
+      "Apache CouchDB",
+      "MVCC",
+      "REST API",
+      "Replicación",
+      "JSON",
+      "CouchApps",
+      "Offline-First"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación web completa CouchApp con sincronización offline",
+        "descripcion": "Desarrollo de una plataforma de blogging interactiva servida directamente por CouchDB con sincronización de documentos entre réplicas locales y remotas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "writing-and-querying-mapreduce-views-in-couchdb-2011": {
+    "descripcion": "Manual especializado de Bradley Holt enfocado en el diseño, codificación y optimización de vistas MapReduce en Apache CouchDB utilizando JavaScript.\n\nEl autor explica cómo CouchDB procesa documentos de forma incremental mediante funciones Map (para emitir claves ordenadas) y funciones Reduce (para agregaciones y resúmenes estadísticos). Enseña a utilizar funciones de reducción nativas (_count, _sum, _stats), diseñar consultas con rangos de claves complejas (startkey y endkey) y evitar penalizaciones de reindexación en colecciones masivas.\n\nUna guía técnica concisa y muy formativa para programadores que necesitan extraer datos agregados e informes analíticos de CouchDB.",
+    "temas": [
+      "CouchDB",
+      "MapReduce",
+      "JavaScript",
+      "Bradley Holt",
+      "Vistas Incrementales",
+      "startkey/endkey",
+      "Agregaciones",
+      "NoSQL"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "scaling-couchdb-2011": {
+    "descripcion": "Guía práctica de Bradley Holt dedicada al escalado horizontal, particionamiento y alta disponibilidad de Apache CouchDB en infraestructuras distribuidas.\n\nHolt analiza patrones de replicación maestra-maestra, resolución de conflictos de documentos con el árbol de revisiones MVCC, balanceo de carga con HAProxy y particionamiento automático de datos con herramientas como BigCouch (la base de CouchDB 2.0+). Incluye pautas sobre copias de seguridad continuas y monitorización de clusters.\n\nRecomendado para ingenieros DevOps y arquitectos de bases de datos que deben garantizar disponibilidad y redundancia geográfica en despliegues con CouchDB.",
+    "temas": [
+      "CouchDB",
+      "Escalabilidad",
+      "BigCouch",
+      "HAProxy",
+      "Replicación Maestra-Maestra",
+      "Resolución de Conflictos",
+      "MVCC",
+      "Alta Disponibilidad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Clúster distribuido CouchDB con replicación geográfica y HAProxy",
+        "descripcion": "Configuración de una infraestructura con múltiples nodos sincronizados, balanceo de peticiones HTTP y resolución automatizada de conflictos de versiones."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

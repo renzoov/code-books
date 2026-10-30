@@ -1,0 +1,82 @@
+{
+  "developing-inclusive-mobile-apps-2020": {
+    "descripcion": "Tratado técnico y práctico sobre accesibilidad móvil y diseño inclusivo escrito por Rob Whitaker para el desarrollo nativo en plataformas iOS y Android. Está dirigido a desarrolladores móviles de nivel intermedio, ingenieros de control de calidad (QA) y diseñadores de producto con conocimientos de Swift (Xcode) o Kotlin (Android Studio) que desean crear experiencias digitales accesibles para usuarios con discapacidades visuales, auditivas, motoras o cognitivas.\n\nLa obra aborda de forma paralela las herramientas y APIs nativas de accesibilidad de Apple y Google. Explica el funcionamiento interno de los lectores de pantalla (VoiceOver en iOS y TalkBack en Android), la asignación adecuada de etiquetas semánticas (`accessibilityLabel`, `accessibilityHint` y `contentDescription`), la gestión del orden de lectura y foco, y el soporte para tipografías adaptables con Dynamic Type y fuentes escalables. También detalla el diseño de áreas táctiles mínimas, la verificación de contraste de color, la compatibilidad con dispositivos de asistencia motora (Switch Control y Switch Access) y la aplicación práctica de las pautas WCAG 2.1 en interfaces táctiles, complementándose con utilidades de inspección y diagnóstico como Accessibility Inspector de Xcode y Accessibility Scanner de Android.\n\nEl texto ofrece recetas de código y ejercicios guiados para auditar y refactorizar componentes de interfaz complejos, elementos multimedia y vistas personalizadas donde los controles estándar de los SDKs resultan insuficientes. Su gran valor formativo reside en inculcar una cultura de empatía respaldada por técnicas de testing automatizado y manual aplicables en integración continua; no construye una app integral desde cero, sino que dota al lector de criterios rigurosos y soluciones directas para cumplir normativas legales internacionales y asegurar que cualquier aplicación pueda ser utilizada por cualquier persona.",
+    "temas": [
+      "Accesibilidad móvil (a11y)",
+      "iOS",
+      "Android",
+      "Swift",
+      "Kotlin",
+      "VoiceOver",
+      "TalkBack",
+      "WCAG 2.1",
+      "Dynamic Type",
+      "Accessibility Inspector",
+      "Accessibility Scanner",
+      "Diseño inclusivo"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5814-9",
+      "https://www.apress.com/gp/book/9781484258132",
+      "https://www.amazon.com/Developing-Inclusive-Mobile-Apps-Accessible/dp/1484258139"
+    ]
+  },
+  "pro-smartphone-cross-platform-development-2010": {
+    "descripcion": "Obra de referencia técnica e histórica publicada en 2010 por Sarah Allen, Vidal Graupera y Lee Lundrigan, concebida para abordar la severa fragmentación del mercado de teléfonos inteligentes a principios de la década. Está dirigida a programadores y arquitectos de software de nivel intermedio con experiencia en desarrollo web o en lenguajes orientados a objetos (Java, C#, C u Objective-C) que necesitaban evaluar la disyuntiva entre desarrollar código nativo específico para cada sistema o adoptar las primeras soluciones multiplataforma e híbridas.\n\nEl libro se estructura en tres grandes bloques: desarrollo nativo, frameworks multiplataforma y tecnologías web móviles. En el bloque nativo enseña los SDKs, herramientas de compilación y particularidades de los cuatro principales ecosistemas de la época: iPhone OS/iOS (Objective-C y Xcode), Android (Java y Eclipse ADT), BlackBerry OS (Java ME y BlackBerry JDE) y Windows Mobile (C# y Visual Studio con .NET Compact Framework), detallando los procesos de firma criptográfica y distribución en App Store, Android Market, BlackBerry App World y Windows Marketplace. En los apartados multiplataforma examina herramientas fundacionales como PhoneGap (el predecesor de Apache Cordova), Rhodes y RhoSync (basados en Ruby), Appcelerator Titanium Mobile (traducción de JavaScript a componentes nativos) y librerías web táctiles tempranas como jQTouch, Sencha Touch e iWebKit.\n\nA través de comparativas de implementación de funciones básicas (como geolocalización, persistencia y consumo de servicios de red), los autores evalúan el compromiso entre fidelidad de interfaz, rendimiento de ejecución y costes de mantenimiento del código compartido. Aunque los sistemas operativos y herramientas descritos han cambiado sustancialmente o desaparecido del mercado comercial (como BlackBerry y Windows Mobile), el libro aporta una perspectiva histórica y arquitectónica de gran valor para entender las raíces y lecciones aprendidas que dieron forma al desarrollo multiplataforma contemporáneo.",
+    "temas": [
+      "Desarrollo multiplataforma",
+      "iOS",
+      "Android",
+      "BlackBerry OS",
+      "Windows Mobile",
+      "PhoneGap",
+      "Titanium Mobile",
+      "Rhodes",
+      "Sencha Touch",
+      "jQTouch",
+      "Distribución y tiendas de apps"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-2869-1",
+      "https://www.apress.com/gp/book/9781430228684",
+      "https://www.amazon.com/Smartphone-Cross-Platform-Development-Sarah-Allen/dp/1430228686"
+    ]
+  },
+  "mobile-design-and-development-2009": {
+    "descripcion": "Publicado por O'Reilly en 2009, este libro de Brian Fling es una obra fundacional sobre la transición del desarrollo web de escritorio hacia el ecosistema móvil. Se sitúa en la época bisagra en la que convivían los teléfonos convencionales con teclado físico y la primera generación de smartphones táctiles avanzados basados en WebKit (primeros iPhone y terminales Android tempranos). Está dirigido a diseñadores web, desarrolladores frontend, arquitectos de información y gestores de producto de nivel intermedio que ya conocen HTML, CSS y JavaScript básico y necesitan comprender las restricciones de pantalla, contexto y conectividad propias del canal móvil.\n\nLa obra enseña a estructurar una estrategia de producto completa, evaluando los compromisos entre sitios web móviles, web apps y aplicaciones nativas para tiendas de aplicaciones. En diseño y experiencia de usuario profundiza en arquitectura de información para pantallas pequeñas, ergonomía táctil, flujos de navegación y prototipado adaptado a situaciones de uso en movimiento. En el plano técnico cubre marcado adaptativo mediante XHTML Mobile Profile (XHTML-MP) y el naciente HTML5, control de escalado con la etiqueta meta viewport en Mobile Safari, hojas de estilo con media queries iniciales de CSS, peticiones con Mobile Ajax y bases de datos de detección de capacidades en servidor como WURFL y DeviceAtlas, además de librerías tempranas de interfaz tipo iOS como iUI.\n\nEl libro no propone la construcción de un proyecto guiado monolítico ni incluye ejercicios de fin de capítulo, sino que articula patrones de diseño, fragmentos de marcado y ejemplos prácticos orientados a crear sitios adaptados y web apps para iPhone. Su mayor mérito reside en formalizar el diseño condicionado por el contexto del usuario (uso a una mano, alta latencia de red e interrupciones constantes) antes de que cuajara la fórmula estandarizada del diseño web responsivo. Aunque las herramientas específicas de detección y maquetado de 2009 hoy están obsoletas y superadas por estándares modernos como PWA, Service Workers y Flexbox, sus fundamentos conceptuales sobre rendimiento y ergonomía móvil conservan gran valor metodológico e histórico.",
+    "temas": [
+      "Diseño web móvil",
+      "Ecosistema móvil",
+      "Mobile Safari",
+      "WebKit",
+      "Etiqueta viewport",
+      "XHTML Mobile Profile",
+      "Mobile Ajax",
+      "WURFL",
+      "DeviceAtlas",
+      "iUI",
+      "Arquitectura de información"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/mobile-design-and/9780596155445/",
+      "https://www.amazon.com/dp/0596155441",
+      "https://books.google.com/books/about/Mobile_Design_and_Development.html?id=2oN-qV4_rU8C",
+      "https://www.goodreads.com/book/show/6707421-mobile-design-and-development"
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "learning-groovy-2016": {
+    "descripcion": "Guía práctica de Adam L. Davis publicada por Apress en 2016. Introduce el lenguaje Groovy como un potente motor dinámico y productivo sobre la Máquina Virtual de Java (JVM). Dirigida a desarrolladores Java y programadores que desean simplificar y acelerar su flujo de trabajo diario sin renunciar a las librerías consolidadas de Java.\n\nEl libro recorre la sintaxis expresiva y concisa de Groovy: manejo intuitivo de cadenas (GStrings), operadores simplificados (Elvis, navegación segura ?.), listas y mapas literales nativos, y el uso fundamental de cierres (closures). Enseña cómo Groovy se integra sin fisuras con el código Java existente, cómo crear scripts de automatización rápidos, y cómo emplear builders para generar y parsear XML y JSON con elegancia.\n\nEl autor acompaña cada concepto con ejemplos claros y concisos que contrastan el código verboso de Java con su equivalente idiomático en Groovy. Es una excelente puerta de entrada para cualquier desarrollador que quiera iniciarse en el ecosistema dinámico de la JVM.",
+    "temas": [
+      "Groovy",
+      "Java Virtual Machine (JVM)",
+      "Closures (Cierres)",
+      "Scripts de automatización",
+      "JSON y XML Builders",
+      "Interoperabilidad Java",
+      "Sintaxis dinámica"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Scripting y Procesamiento de Datos",
+        "descripcion": "Desarrollo de scripts en Groovy para automatizar la transformación de archivos de datos, manipulación de estructuras JSON y generación de reportes sobre la JVM."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2117-4",
+      "https://github.com/Apress/learning-groovy"
+    ]
+  },
+  "learning-groovy-3-2nd-edition-2019": {
+    "descripcion": "Segunda edición actualizada de Adam L. Davis, publicada por Apress en 2019. Revisa a fondo el lenguaje adaptándolo a la versión Groovy 3.0, incluyendo el nuevo parser 'Parrot' y la compatibilidad con las características de las versiones modernas de Java. Dirigida a desarrolladores Java que buscan una herramienta moderna de scripting y metaprogramación.\n\nLa obra profundiza en las novedades sintácticas de Groovy 3: operadores lambda al estilo Java, referencias a métodos, soporte mejorado de bucles y mejoras funcionales. Aborda la programación funcional con streams y closures, la metaprogramación en tiempo de compilación y ejecución, el diseño de lenguajes de dominio específico (DSLs), y la integración con herramientas punteras del ecosistema como Gradle para automatización de builds, Spock para pruebas BDD y Ratpack para microservicios reactivos.\n\nCombina teoría rigurosa sobre el sistema de tipos dinámico y estático de Groovy con ejercicios aplicados que muestran cómo escribir código limpio y expresivo. Es el manual de referencia ideal para mantenerse al día con la evolución de Groovy en entornos empresariales contemporáneos.",
+    "temas": [
+      "Groovy 3",
+      "Parrot Parser",
+      "Programación funcional",
+      "Spock Framework",
+      "Gradle",
+      "DSLs",
+      "Metaprogramación",
+      "JVM"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework de Pruebas BDD con Spock y Groovy",
+        "descripcion": "Implementación de una suite automatizada de pruebas de especificación legible mediante Spock Framework y Groovy 3 para validar servicios web."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5058-7",
+      "https://github.com/Apress/learning-groovy-3"
+    ]
+  },
+  "grails-in-action-2nd-edition-2014": {
+    "descripcion": "Segunda edición del manual de referencia canónico escrito por Glen Smith y Peter Ledbrook, publicado por Manning en 2014. Enseña a dominar el framework Grails 2 para construir aplicaciones web empresariales de alta productividad sobre la JVM, aplicando la filosofía de convención sobre configuración. Orientado a programadores de Java y Groovy.\n\nLos autores guían al lector a través de todos los pilares de Grails: modelado de entidades con GORM (Grails Object Relational Mapping sobre Hibernate), controladores desacoplados, vistas dinámicas con GSP (Groovy Server Pages) y renderizado JSON/XML para APIs REST. Cubre la seguridad con Spring Security, gestión de transacciones declarativas, procesamiento asíncrono con eventos, arquitectura de plugins y pruebas unitarias, de integración y funcionales con Spock.\n\nEl aprendizaje se articula construyendo paso a paso 'Hubbub', una red social completa al estilo Twitter. Su gran valor pedagógico radica en su realismo: enseña a estructurar aplicaciones complejas, resolver cuellos de botella de base de datos y desplegar en entornos corporativos. Sigue siendo el estándar de oro en la literatura del framework Grails.",
+    "temas": [
+      "Grails 2",
+      "Groovy",
+      "GORM y Hibernate",
+      "Spring Security",
+      "APIs REST",
+      "GSP",
+      "Spock",
+      "Manning in Action"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Hubbub: Red Social Interactiva con Grails",
+        "descripcion": "Desarrollo completo de una aplicación web tipo microblogging con seguimiento de usuarios, mensajes en tiempo real, búsqueda de contenidos y persistencia con GORM."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/grails-in-action-second-edition",
+      "https://github.com/gpc/grails-in-action"
+    ]
+  },
+  "programming-grails-2013": {
+    "descripcion": "Tratado avanzado de ingeniería escrito por Burt Beckwith (desarrollador principal del equipo oficial de Grails y creador del plugin de Spring Security), publicado por O'Reilly en 2013. Diseñado para desarrolladores de Grails con experiencia que buscan dominar las tripas internas del framework y las mejores prácticas de producción.\n\nBeckwith desentraña la arquitectura interna de Grails basada en Spring y Hibernate. Detalla la personalización avanzada del comportamiento de GORM (caching de segundo nivel, mapeo multitenant, eventos de persistencia), la seguridad a bajo nivel con Spring Security, el diseño y publicación de plugins propios reutilizables, y técnicas de optimización de rendimiento y gestión de transacciones complejas. Dedica especial atención a la depuración de problemas de carga de clases (classloaders) y tuning de la JVM en entornos de gran tráfico.\n\nNo es una guía básica para principiantes, sino un manual de ingeniería profunda con consejos de experto derivados de años de consultoría y desarrollo del propio núcleo de Grails. Es una lectura esencial para mantener aplicaciones Grails de gran escala y misión crítica.",
+    "temas": [
+      "Grails",
+      "Burt Beckwith",
+      "GORM avanzado",
+      "Spring Framework",
+      "Arquitectura de plugins",
+      "Optimización de rendimiento",
+      "Spring Security",
+      "O'Reilly"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/programming-grails/9781449333553/",
+      "https://github.com/burtbeckwith/programming-grails-code"
+    ]
+  },
+  "groovy-2-cookbook-2013": {
+    "descripcion": "Recetario técnico de Andrey Adamovich y Luciano Fiandesio publicado por Packt en 2013. Reúne más de 90 recetas prácticas orientadas a resolver problemas cotidianos de programación e integración en la JVM utilizando Groovy 2.0. Dirigido a ingenieros de software Java y programadores de backend.\n\nLa obra ofrece soluciones organizadas temáticamente: trucos de programación funcional con closures, parseo y generación avanzada de formatos de datos (XML, JSON, CSV y YAML), metaprogramación en tiempo de ejecución con interceptores y categorías, y transformación AST en tiempo de compilación. Cubre también el acceso simplificado a bases de datos con Groovy SQL, la automatización de tareas con Gradle y Ant, y la creación de tests exhaustivos con JUnit y Spock.\n\nCada receta sigue el formato estructurado de Packt: planteamiento directo del problema, solución en código Groovy listo para ejecutar y explicación detallada del mecanismo interno. Es una herramienta práctica excelente para agilizar el desarrollo de scripts y servicios backend sobre la JVM.",
+    "temas": [
+      "Groovy 2",
+      "Recetas de código",
+      "Metaprogramación",
+      "AST Transformations",
+      "Groovy SQL",
+      "Procesamiento JSON/XML",
+      "Gradle",
+      "Spock"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/groovy-2-cookbook-9781849519366",
+      "https://github.com/PacktPublishing/Groovy-2-Cookbook"
+    ]
+  },
+  "programming-groovy-2-2013": {
+    "descripcion": "Manual de cabecera de Venkat Subramaniam (reconocido conferenciante internacional y autor galardonado), publicado por The Pragmatic Programmers en 2013. Diseñado para capacitar a los programadores Java en la adopción de Groovy 2 sin fricciones, multiplicando su productividad mediante un estilo de código dinámico y fluido.\n\nEl autor desmenuza con maestría las virtudes de Groovy 2: desde las bases sintácticas y el manejo de colecciones y closures, hasta la compilación estática opcional con `@CompileStatic` y la verificación de tipos con `@TypeChecked`. Profundiza ampliamente en las capacidades de metaprogramación (expandoMetaClass, delegación dinámica), la inyección de comportamientos en tiempo de compilación con transformaciones AST, y el diseño de lenguajes específicos de dominio (DSLs) legibles para expertos de negocio.\n\nFiel al estilo pedagógico inconfundible de Pragmatic Bookshelf, el texto es extraordinariamente ameno, claro y repleto de lecciones de arquitectura pragmática. Es considerado por la comunidad uno de los mejores libros jamás escritos sobre Groovy y una lectura obligada para cualquier desarrollador de la JVM.",
+    "temas": [
+      "Groovy 2",
+      "Venkat Subramaniam",
+      "Compilación estática",
+      "Metaprogramación dinámica",
+      "Transformaciones AST",
+      "Diseño de DSLs",
+      "Closures",
+      "Pragmatic Programmers"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Diseño de un Lenguaje de Dominio Específico (DSL) con Groovy",
+        "descripcion": "Construcción de un DSL fluido e intuitivo para reglas de negocio utilizando closures de delegación dinámica y verificación estática opcional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://pragprog.com/titles/vslg2/programming-groovy-2/",
+      "https://github.com/learn-groovy/programming-groovy-2"
+    ]
+  }
+}

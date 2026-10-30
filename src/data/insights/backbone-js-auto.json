@@ -1,0 +1,376 @@
+{
+  "beginning-backbone-js-2013": {
+    "descripcion": "Introducción paso a paso a Backbone.js de James Sugrue (Apress, colección Expert's Voice in Web Development), escrita en la época de Backbone 1.1. Está pensada para desarrolladores que ya manejan JavaScript, jQuery y el DOM, y que quieren dejar atrás el código espagueti del lado del cliente para construir aplicaciones de una sola página (SPA) más grandes y fáciles de mantener, separando los datos (modelos) de su presentación (vistas).\n\nEl libro arranca con la descarga de Backbone.js y sus dependencias (Underscore y jQuery) y repasa los bloques fundamentales del framework: modelos y colecciones, vistas, plantillas, routers y el sistema de eventos. Después amplía el foco al ecosistema: una aplicación completa de principio a fin con datos de Twitter, librerías complementarias de Backbone, pruebas unitarias de la aplicación, automatización del build con Grunt y sus plugins, integración continua, extensión de la arquitectura con Marionette, buenas prácticas y organización del código en módulos con RequireJS.\n\nSu valor está en que no se limita a la API de Backbone: muestra cómo encaja en un flujo de trabajo profesional con pruebas, build automatizado y CI, algo poco común en un libro de nivel inicial. Como contrapartida, varias herramientas que usa (Grunt, RequireJS, la generación de Marionette de 2013) han quedado desfasadas, y el capítulo de Marionette es solo una introducción. Hoy interesa sobre todo para mantener aplicaciones Backbone heredadas o para entender de dónde vienen los patrones MV* que adoptaron frameworks posteriores.",
+    "temas": [
+      "Backbone.js",
+      "Modelos y colecciones",
+      "Vistas",
+      "Plantillas",
+      "Routers",
+      "Eventos",
+      "Pruebas unitarias",
+      "Grunt",
+      "Integración continua",
+      "Marionette",
+      "RequireJS",
+      "SPA"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de ejemplo con Twitter",
+        "descripcion": "Capítulo dedicado a construir una aplicación completa de principio a fin con Backbone.js que trabaja con datos de Twitter y reúne modelos, colecciones, vistas, plantillas y routers en un mismo proyecto."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bgb-online.e-bookshelf.de/beginning-backbonejs-2675804.html",
+      "https://ebook.library.uitm.edu.my/Record/23879",
+      "https://www.booksamillion.com/p/Beginning-BackboneJs/James-Sugrue/9781430263340"
+    ]
+  },
+  "pro-single-page-application-development-2014": {
+    "descripcion": "Guía de Gil Fink e Ido Flatow, arquitectos de SELA Group, para pasar del desarrollo web tradicional del lado del servidor a las aplicaciones de una sola página (SPA), con Backbone.js en el cliente y ASP.NET Web API en el servidor (el ecosistema .NET de 2014). Está dirigida a desarrolladores web de nivel intermedio que conocen HTML y JavaScript; para la parte del backend también se necesita experiencia con .NET y C#.\n\nEstá organizada en cuatro partes. La primera sienta las bases: qué es una SPA, el JavaScript necesario para construirlas, el desarrollo modular y los conceptos y la arquitectura de este tipo de aplicaciones. La segunda presenta Backbone.js (modelos, colecciones, vistas, routers) y construye paso a paso una SPA solo de cliente. La tercera crea el servicio de backend con ASP.NET Web API, profundiza en HTTP (verbos, códigos de estado, negociación de contenido) y conecta el front y el back. La cuarta trata temas avanzados: pruebas unitarias de JavaScript, ajuste del rendimiento, optimización para buscadores (SEO) en SPA, manejo del historial y despliegue.\n\nSu aporte principal es la visión completa del ciclo de vida de una SPA, incluidas cuestiones que muchos libros de frameworks dejan fuera, como el SEO, el rendimiento y el despliegue. Encaja sobre todo con equipos que trabajan con Microsoft. Hay que saber que tanto Backbone como la versión de ASP.NET Web API que usa han sido superados (hoy la opción sería ASP.NET Core), así que su vigencia está más en los conceptos y la arquitectura que en el código concreto.",
+    "temas": [
+      "SPA",
+      "JavaScript modular",
+      "Arquitectura SPA",
+      "Backbone.js",
+      "ASP.NET Web API",
+      "HTTP y REST",
+      "C#",
+      "Pruebas unitarias JavaScript",
+      "Rendimiento",
+      "SEO",
+      "Despliegue"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "TheAgency",
+        "descripcion": "SPA para gestionar los agentes de una agencia de inteligencia. Se construye primero solo en el cliente con Backbone.js y después se conecta a un backend REST hecho con ASP.NET Web API."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bookshare.org/browse/book/1393147",
+      "https://www.oreilly.com/library/view/pro-single-page/9781430266730/9781430266730_Ch06.xhtml",
+      "https://www.springer.com/us/book/9781430266730"
+    ]
+  },
+  "backbone-marionette-js-a-serious-progression-2014": {
+    "descripcion": "Libro autopublicado en Leanpub en el que David Sulc continúa su obra introductoria «Backbone.Marionette.js: A Gentle Introduction». Está actualizado para Marionette 2.3 e incluye además la versión anterior del libro, escrita para Marionette 1.7.4. Es para desarrolladores de nivel intermedio que ya han construido una aplicación con Marionette (idealmente siguiendo el primer libro) y quieren resolver los problemas que aparecen al conectarla con un backend real.\n\nEl hilo conductor es la aplicación ContactManager del libro anterior, que ahora se conecta a una API remota desarrollada para la obra. Se tratan APIs heredadas y la reescritura de Backbone.sync (con un ejercicio sobre atributos con guiones), cómo envolver una API de terceros como la de GitHub para manejar repositorios con modelos y colecciones de Backbone, autenticación, manejo de las respuestas del servidor, refresco de los datos del cliente, validación mediante un plugin, paginación, gestión de memoria, relaciones entre modelos, Behaviors de Marionette e internacionalización.\n\nEs un libro muy práctico: cada capítulo responde a un problema concreto del día a día y está pensado para adaptarse a tu propia API. Su punto débil es que depende del primer libro y de versiones de Marionette ya superadas (la 3 y la 4 cambiaron bastante la API). Conviene leerlo con el código de ContactManager a mano y tener conocimientos sólidos de Backbone y jQuery. Sigue siendo útil para mantener aplicaciones Marionette heredadas.",
+    "temas": [
+      "Marionette 2.3",
+      "Backbone.js",
+      "Backbone.sync",
+      "APIs REST",
+      "API de GitHub",
+      "Autenticación",
+      "Validación",
+      "Paginación",
+      "Gestión de memoria",
+      "Relaciones entre modelos",
+      "Behaviors",
+      "Internacionalización"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "ContactManager conectado a una API remota",
+        "descripcion": "Ampliación de la aplicación de gestión de contactos del libro introductorio, conectada a un backend real. Incorpora autenticación, validación, paginación, relaciones entre modelos, Behaviors e internacionalización."
+      },
+      {
+        "nombre": "Wrapper de la API de GitHub",
+        "descripcion": "Adaptación de la API de GitHub a modelos y colecciones de Backbone para gestionar repositorios Git desde la aplicación Marionette."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://leanpub.com/marionette-serious-progression",
+      "https://leanpub.com/marionette-serious-progression/email_author/new"
+    ]
+  },
+  "developing-backbone-js-applications-2013": {
+    "descripcion": "Libro de Addy Osmani, ingeniero de Google Chrome, publicado por O'Reilly y nacido como el proyecto abierto «Backbone Fundamentals» (con licencia Creative Commons y mejorado por la comunidad). Enseña a estructurar aplicaciones de una sola página con Backbone.js (las ediciones en línea más recientes apuntan a Backbone 1.1 y Underscore 1.6). Está dirigido a desarrolladores de nivel principiante a intermedio que dominan los fundamentos de JavaScript y quieren organizar mejor su código del lado del cliente.\n\nParte de los fundamentos de MVC y de la arquitectura moderna de aplicaciones web y repasa a fondo los bloques de Backbone: modelos, vistas, colecciones, eventos, routers, persistencia RESTful y Backbone.sync. Después cubre las extensiones MarionetteJS y Thorax, problemas comunes y sus soluciones, desarrollo modular con RequireJS y AMD, paginación de peticiones y colecciones, Backbone Boilerplate y Grunt-BBB, Backbone con jQuery Mobile y pruebas unitarias con Jasmine, QUnit y SinonJS. Los apéndices incluyen una pequeña implementación de MVC desde cero, el patrón MVP y técnicas de namespacing.\n\nCombina explicación conceptual con varios ejercicios guiados que van subiendo en complejidad, lo que lo convirtió en una referencia de su época. Su amplitud es su fuerte, aunque cada extensión se trata de forma introductoria, y buena parte del ecosistema que usa (RequireJS, Grunt-BBB, jQuery Mobile) ha quedado obsoleto. Sigue siendo una lectura muy clara para entender los patrones MV* en JavaScript y para mantener código Backbone.",
+    "temas": [
+      "Backbone.js",
+      "MVC",
+      "Modelos y vistas",
+      "Colecciones",
+      "Routers",
+      "APIs REST",
+      "Marionette",
+      "Thorax",
+      "RequireJS y AMD",
+      "jQuery Mobile",
+      "Jasmine",
+      "QUnit y SinonJS"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Todos",
+        "descripcion": "Primera aplicación con Backbone.js: una lista de tareas que guarda los datos en localStorage y sirve para practicar modelos, colecciones, vistas y eventos. Más adelante se reescribe con Marionette."
+      },
+      {
+        "nombre": "Book Library",
+        "descripcion": "Primera aplicación RESTful del libro: una biblioteca de libros cuyo frontend en Backbone se comunica con una API en el servidor para persistir los datos."
+      },
+      {
+        "nombre": "Aplicación modular con Backbone y RequireJS",
+        "descripcion": "Reorganización de una aplicación Backbone en módulos AMD cargados con RequireJS, para mostrar el desarrollo modular a gran escala."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://addyosmani.com/backbone-fundamentals/",
+      "https://www.oreilly.com/library/view/developing-backbonejs-applications/9781449328535/"
+    ]
+  },
+  "full-stack-web-development-with-backbone-js-2014": {
+    "descripcion": "Guía práctica de Patrick Mulder (O'Reilly, 2014) para construir una aplicación de una sola página completa usando solo JavaScript: Backbone.js en el cliente y Node.js en el servidor. Aunque O'Reilly la clasifica de nivel intermedio a avanzado, está dirigida a desarrolladores backend con experiencia y a programadores de JavaScript que quieren dar el salto a una SPA bien estructurada.\n\nEl libro arranca con una visión general y la puesta en marcha con Backbone.js y Browserify (módulos al estilo CommonJS). Luego avanza por la interfaz de usuario con vistas y eventos del DOM, los fundamentos del router, la transformación de colecciones (filtrado y ordenación), las plantillas avanzadas, la sincronización del estado con fuentes remotas, el diseño de una API con Node.js y Restify, y la autenticación y autorización de las interacciones del cliente. Cierra con la automatización del flujo de trabajo con Bower, Grunt, Yeoman y RequireJS, y con el paso de Backbone a Thorax.\n\nTodo el libro gira alrededor de un único ejemplo, lo que le da coherencia y permite ver cómo encajan las piezas de un stack JavaScript completo, incluidos el servido y el despliegue de los recursos. Es breve, así que algunos temas (pruebas o rendimiento, por ejemplo) se tratan de pasada. Además, Browserify, Grunt, Bower y Thorax han sido sustituidos en gran parte por herramientas como Vite o webpack. Conviene saber JavaScript y tener nociones de Node.js y APIs REST antes de empezarlo.",
+    "temas": [
+      "Backbone.js",
+      "Browserify",
+      "Node.js",
+      "Restify",
+      "Vistas y eventos",
+      "Router",
+      "Plantillas",
+      "Sincronización con API",
+      "Autenticación",
+      "Grunt y Bower",
+      "Yeoman",
+      "Thorax"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Munich Cinema",
+        "descripcion": "SPA para un cine imaginario que quiere una nueva página de búsqueda y exploración de películas. El frontend en Backbone.js se empaqueta con Browserify y consume una API propia hecha con Node.js y Restify, con autenticación de usuarios."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bookshare.org/browse/book/6419348",
+      "https://oreilly.com/library/view/full-stack-web/9781449370978",
+      "https://www.oreilly.com/library/view/full-stack-web/9781449370978/ch02.html"
+    ]
+  },
+  "backbone-js-blueprints-2014": {
+    "descripcion": "Libro práctico de Andrew Burgess, publicado por Packt en 2014, que enseña Backbone.js de forma pragmática construyendo desde cero siete aplicaciones distintas. Corresponde a la etapa de Backbone 1.x, con un backend en Node.js y Express 3.x. Aunque es una puerta de entrada a Backbone, no es para quien empieza a programar: se espera un buen dominio de JavaScript, conocimientos prácticos de HTML y CSS y cierta soltura con Node.js, porque todos los ejemplos se ejecutan sobre él.\n\nCada proyecto sirve para explicar las piezas de Backbone, cómo encajan y cómo funcionan por dentro: modelos y colecciones, vistas para construir interfaces complejas sin perder flexibilidad, el router para controlar las pantallas de la aplicación y las plantillas que hacen el trabajo pesado de las vistas, incluida su precompilación para ganar rendimiento. En el lado del servidor se arma un servidor Node.js con Express que guarda y entrega los modelos que pide el frontend. Además, presenta Marionette y Chaplin, dos frameworks que amplían Backbone, y otras librerías de extensión que permiten escribir menos código.\n\nLos siete proyectos (un blog, una aplicación para compartir fotos, un panel de datos en vivo, un calendario, un chat, una aplicación de podcasts y un juego) dan variedad y obligan a repetir los fundamentos en contextos distintos, que es su mayor virtud. Conviene saber que el código del servidor usa Express 3.x: varios lectores tuvieron que adaptarlo a Express 4, y hoy todo el ecosistema (Backbone, Marionette, Chaplin) está en modo de mantenimiento. Sirve sobre todo a quien mantiene aplicaciones Backbone heredadas o quiere entender de dónde vienen los patrones MV* de los frameworks actuales; no profundiza en pruebas ni en arquitectura a gran escala.",
+    "temas": [
+      "Backbone.js",
+      "Modelos y colecciones",
+      "Vistas",
+      "Router",
+      "Plantillas precompiladas",
+      "Node.js",
+      "Express",
+      "Marionette",
+      "Chaplin",
+      "Single-page applications"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Blog sencillo",
+        "descripcion": "Primera aplicación del libro: un blog con modelos, colecciones, vistas y router de Backbone, cuyos datos se guardan en un servidor Node.js con Express."
+      },
+      {
+        "nombre": "Aplicación para compartir fotos",
+        "descripcion": "Aplicación en la que los usuarios suben y comparten fotos; trabaja el manejo de archivos y la sincronización de modelos con el servidor Node.js."
+      },
+      {
+        "nombre": "Panel de datos en vivo",
+        "descripcion": "Dashboard que muestra y actualiza datos desde el servidor, centrado en vistas que reaccionan a los cambios de los modelos."
+      },
+      {
+        "nombre": "Calendario",
+        "descripcion": "Aplicación de calendario y eventos que ejercita el router para navegar entre vistas y la organización de vistas anidadas."
+      },
+      {
+        "nombre": "Aplicación de chat",
+        "descripcion": "Chat con comunicación casi en tiempo real entre clientes a través del servidor Node.js."
+      },
+      {
+        "nombre": "Aplicación de podcasts",
+        "descripcion": "Aplicación para suscribirse a podcasts y reproducirlos, apoyada en las librerías de extensión de Backbone que presenta el libro."
+      },
+      {
+        "nombre": "Juego",
+        "descripcion": "Juego sencillo en el navegador con el que se cierra el libro, aplicando modelos, vistas y plantillas a un caso menos convencional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://imusic.fi/books/9781783286997/andrew-burgess-2014-backbone-js-blueprints-paperback-book",
+      "https://www.goodreads.com/book/show/22489196-backbone-js-blueprints",
+      "https://www.amazon.com/Backbone-js-Blueprints-Andrew-Burgess/dp/1783286997",
+      "https://opencourser.com/book/dmhjj4/backbone-js-blueprints"
+    ]
+  },
+  "backbone-js-essentials-2015": {
+    "descripcion": "Guía breve y de ritmo rápido de Jeremy Walker (Packt, 2015) sobre cómo crear y mantener aplicaciones web dinámicas con Backbone.js 1.x. El autor es un ingeniero de Silicon Valley que también creó las librerías Underscore Grease y BackSupport. Está dirigido a desarrolladores con conocimientos básicos de JavaScript que conocen jQuery: tanto a quien ha sufrido al construir aplicaciones complejas sin las herramientas adecuadas como a quien solo ha hecho sitios web sencillos y quiere dar el salto a aplicaciones completas.\n\nEl libro recorre los fundamentos de la librería empezando por la idea de un sitio de una sola página (el primer capítulo explica qué es Backbone, qué ventajas tiene y cómo se compara con otros frameworks). Luego trata los modelos y las colecciones para gestionar los datos del cliente y enviarlos al servidor y recibirlos de él a través de su API; las vistas para manipular el DOM; y los routers para controlar las URL, de modo que se pueda navegar por todo el sitio desde una sola página HTML. También dedica espacio a Underscore, la librería de utilidades de la que depende Backbone, a documentar el código y a las pruebas con herramientas como QUnit o Mocha, además de cómo combinar Backbone con librerías de terceros.\n\nNo gira en torno a un proyecto guiado: es un repaso conceptual con ejemplos de código que sirve como manual compacto de referencia. Su valor está en la claridad para presentar cada componente y en incluir temas que los tutoriales suelen dejar fuera, como la documentación y las pruebas. En cambio, por su extensión no llega a la arquitectura de aplicaciones grandes ni a frameworks como Marionette. Hoy Backbone está en modo de mantenimiento, así que el libro sirve sobre todo a quien tiene que mantener código heredado.",
+    "temas": [
+      "Backbone.js",
+      "Single-page applications",
+      "Modelos",
+      "Colecciones",
+      "Vistas",
+      "Routers",
+      "APIs REST",
+      "Underscore.js",
+      "Documentación de código",
+      "QUnit",
+      "Mocha",
+      "jQuery"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://international.scholarvox.com/catalog/book/88853009",
+      "https://books.google.com.pe/books?id=XZ-9CQAAQBAJ&printsec=frontcover&redir_esc=y",
+      "https://www.oreilly.com/library/view/backbonejs-essentials/9781784394790/toc.html"
+    ]
+  },
+  "backbone-js-patterns-and-best-practices-2014": {
+    "descripcion": "Swarnendu De, director de la empresa de desarrollo Innofied, reúne en este libro de Packt (2014) los patrones de diseño y buenas prácticas que aprendió aplicando Backbone.js 1.x en aplicaciones grandes. Parte de una crítica concreta: Backbone es ligero pero obliga a escribir mucho código repetitivo, y conocer patrones probados ayuda a evitarlo. No es un libro introductorio: está pensado para desarrolladores que ya conocen JavaScript y han trabajado con Backbone.\n\nRecorre los componentes de la librería uno por uno con soluciones a problemas habituales. Explica cómo crear plugins y mixins propios para reducir el código repetitivo y reutilizarlo. En las vistas trata las vistas anidadas y las subvistas, los gestores de layout y las vistas de Marionette, y cómo guardar y precompilar plantillas. En los modelos aborda la validación, la serialización y los datos relacionales con modelos anidados. También cubre colecciones con varios criterios de ordenación y filtrado, routers, eventos, sincronización y almacenamiento. Luego pasa a organizar, optimizar y desplegar la aplicación con módulos AMD y patrones de arquitectura conocidos, y termina con pruebas unitarias con QUnit y SinonJS.\n\nNo construye una aplicación completa: cada capítulo es un catálogo de técnicas con ejemplos de código que se pueden llevar a proyectos propios, y por eso funciona bien como libro de consulta. Es útil para quien mantiene una base de código Backbone que creció sin orden. Hay que tener en cuenta que algunas recomendaciones dependen de plugins de la época y de herramientas como AMD, que hoy han sido reemplazadas por los módulos ES y los bundlers modernos.",
+    "temas": [
+      "Backbone.js",
+      "Patrones de diseño",
+      "Plugins y mixins",
+      "Vistas anidadas",
+      "Marionette",
+      "Plantillas precompiladas",
+      "Modelos anidados",
+      "Colecciones",
+      "Eventos y sincronización",
+      "AMD",
+      "QUnit",
+      "SinonJS"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://imusic.fi/books/9781783283576/swarnendu-de-2014-backbone-js-patterns-and-best-practices-pocketbok",
+      "https://tenlong.com.tw/products/9781783283576",
+      "https://www.packtpub.com/en-us/product/backbonejs-patterns-and-best-practices-9781783283576/chapter/organizing-backbone-applications-structure-optimize-and-deploy-7/section/organizing-backbone-applications-structure-optimize-and-deploy-architecture",
+      "https://www.packtpub.com/en-us/product/backbonejs-patterns-and-best-practices-9781783283576/chapter/working-with-events-sync-and-storage-6/section/summary-summary"
+    ]
+  },
+  "backbone-js-testing-2013": {
+    "descripcion": "Ryan Roemer dedica este libro de Packt (2013) a las pruebas de aplicaciones frontend hechas con Backbone.js; la edición impresa usa Backbone 1.0 y el repositorio del libro se actualizó después a Backbone 1.1. Está dirigido a desarrolladores que ya construyen aplicaciones con Backbone y quieren adoptar una práctica de pruebas sólida, sin necesidad de experiencia previa con frameworks de testing en JavaScript.\n\nEl libro trabaja con tres librerías que se complementan: Mocha como framework de pruebas, Chai para las aserciones y Sinon.JS para los dobles de prueba, además de Sinon-Chai. Sus seis capítulos van de montar la infraestructura de pruebas en el navegador a redactar un plan de pruebas para una aplicación Backbone. Después explica las interfaces BDD y TDD de Mocha, las aserciones, specs y suites, y las specs pendientes, y termina con los espías, stubs y mocks de Sinon.JS. Así se prueban por separado modelos, colecciones, vistas y routers. El último capítulo automatiza la ejecución desde la línea de comandos con PhantomJS, un navegador sin interfaz, mediante mocha-phantomjs. Las pruebas viven en un directorio propio (test/js/) para que la aplicación no dependa del código de pruebas.\n\nTodos los ejemplos giran en torno a Notes, una aplicación de referencia para gestionar notas, y en cada capítulo se suman las pruebas de un componente distinto. Es un libro corto y muy enfocado que enseña bien a pensar en pruebas aisladas de componentes frontend; esos conceptos siguen valiendo con herramientas actuales como Vitest o Jest. Solo cubre el frontend (no prueba el servidor) y PhantomJS ya está descontinuado, así que la parte de automatización hay que llevarla a navegadores headless modernos.",
+    "temas": [
+      "Backbone.js",
+      "Testing frontend",
+      "Mocha",
+      "Chai",
+      "Sinon.JS",
+      "BDD y TDD",
+      "Espías, stubs y mocks",
+      "PhantomJS",
+      "Plan de pruebas",
+      "Pruebas automatizadas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Notes",
+        "descripcion": "Gestor de notas personal hecho con Backbone.js, Underscore, jQuery, Bootstrap y Showdown (editor Markdown), con una versión que guarda en localStorage y otra con servidor Node.js/Express y MongoDB. Sobre ella se escriben, capítulo a capítulo, las pruebas de modelos, colecciones, vistas y router con Mocha, Chai y Sinon.JS."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/ryan-roemer/backbone-testing",
+      "https://www.packtpub.com/en-us/product/backbonejs-testing-9781782165248",
+      "https://www.oreilly.com/library/view/backbonejs-testing/9781782165248/"
+    ]
+  },
+  "getting-started-with-backbone-marionette-2014": {
+    "descripcion": "Introducción breve (94 páginas) de Raymundo Armendariz y Arturo Soto, publicada por Packt a comienzos de 2014, a Backbone Marionette, la librería de aplicaciones compuestas que se monta sobre Backbone.js (en esa época, Marionette 1.x). Armendariz es desarrollador web especializado en frontend con Backbone y Marionette, y Soto es arquitecto técnico de aplicaciones empresariales. Está pensada para desarrolladores web que quieren usar Marionette en un proyecto real: se requiere saber JavaScript y tener experiencia práctica con Backbone.js.\n\nEl libro explica cada componente de Marionette con ejemplos pequeños y concretos, repartidos en siete capítulos. Empieza con la puesta en marcha y una primera aplicación, sigue con los componentes centrales (Application, router y controlador) y luego trata los tipos de vista de Marionette, su ciclo de vida y cómo administrarlas en pantalla. Después dedica capítulos a modularizar la aplicación, a la mensajería entre componentes con el agregador de eventos y otros patrones de mensajería empresarial, y a hacer crecer la aplicación: adoptar Marionette poco a poco en código Backbone existente y gestionar la memoria para evitar fugas.\n\nEl lector va armando una aplicación práctica paso a paso a medida que conoce los componentes, aunque el ejemplo es modesto y sirve sobre todo para ilustrar la librería. Su punto fuerte es que explica bien por qué Marionette elimina buena parte del código repetitivo de Backbone y cómo ayuda a evitar vistas zombis. Por su brevedad no profundiza en pruebas ni en despliegue, y la API cambió bastante en Marionette 2, 3 y 4, así que conviene consultar la documentación de la versión que se esté usando.",
+    "temas": [
+      "Backbone Marionette",
+      "Backbone.js",
+      "Application y módulos",
+      "Router y controlador",
+      "Tipos de vista",
+      "Ciclo de vida de las vistas",
+      "Regiones y layouts",
+      "Agregador de eventos",
+      "Mensajería",
+      "Gestión de memoria"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de ejemplo con Marionette",
+        "descripcion": "Aplicación sencilla que se construye paso a paso a lo largo del libro para mostrar cada componente de Marionette: Application, router, controlador, distintos tipos de vista, módulos y comunicación con el agregador de eventos, todo sobre Backbone.js."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.newswire.com/news/master-how-to-utilize-backbone-marionette-using-packts-new-book-and-ebook-191248",
+      "https://www.bookshare.org/browse/book/1575656",
+      "https://www.oreilly.com/library/view/getting-started-with/9781783284252/",
+      "https://subscription.packtpub.com/book/web-development/9781783284252/6/ch06lvl1sec35/using-the-event-aggregator-of-marionette-js"
+    ]
+  },
+  "mastering-backbone-js-2015": {
+    "descripcion": "Libro avanzado de Abiee Echamea, arquitecto de software y CTO con experiencia en varias aplicaciones Backbone, publicado por Packt a finales de 2015 / enero de 2016 y centrado en la generación de Backbone.js 1.x. No es una introducción: va dirigido a desarrolladores que ya conocen los fundamentos de Backbone (modelos, colecciones, vistas y router) y JavaScript, y que quieren saber cómo organizar aplicaciones de una sola página (SPA) grandes y mantenibles. Parte de una idea clara: la flexibilidad y la ligereza de Backbone, que lo hicieron popular entre las startups, también facilitan que los proyectos se desordenen a medida que crecen.\n\nEl recorrido empieza por la arquitectura de una aplicación Backbone, tanto lógica como física: dónde va cada módulo y cómo se comunican. Después reparte las responsabilidades entre vistas y muestra cómo componer layouts complejos. También trata los enlaces bidireccionales entre modelos y vistas, incluidos los modelos con subrecursos anidados, que son difíciles de sincronizar. Más adelante gestiona dependencias entre módulos: la descripción oficial menciona RequireJS, y el capítulo incluye una sección sobre Browserify para usar módulos de Node en el navegador. Además, enseña a subir archivos a una API REST y a guardar datos en el navegador con localStorage e IndexedDB, para lo que construye un driver propio para Backbone. La parte final cubre la automatización del flujo de trabajo con Gulp para desarrollo y optimización de recursos, las pruebas de la aplicación (incluidas las de controladores), el despliegue a producción y la autenticación, con un enfoque de tokens tipo OAuth guardados en sessionStorage para servidores sin estado.\n\nTodos los conceptos se aplican a una aplicación de contactos de ejemplo que consume una API REST, así que el libro funciona como una guía de buenas prácticas con un caso práctico continuo, más que como un tutorial de proyectos distintos. Su mayor aporte es la parte de arquitectura y organización del código, que sigue siendo útil para entender el patrón MV* en el frontend. Hoy, sin embargo, hay que leerlo como material de su época: Backbone está en modo de mantenimiento, y herramientas como RequireJS, Browserify y Gulp han sido sustituidas por los módulos ES, Vite o webpack. El propio libro advierte que el plugin gulp-browserify ya estaba obsoleto. Resulta especialmente valioso para quien mantenga aplicaciones Backbone heredadas o quiera migrarlas.",
+    "temas": [
+      "Backbone.js",
+      "Arquitectura SPA",
+      "Gestión de vistas y layouts",
+      "Model bindings",
+      "RequireJS",
+      "Browserify",
+      "Subida de archivos",
+      "localStorage",
+      "IndexedDB",
+      "Gulp",
+      "Testing",
+      "Autenticación OAuth"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de contactos",
+        "descripcion": "SPA de ejemplo que se desarrolla a lo largo del libro para listar, mostrar y editar contactos de una API REST. Se va ampliando con módulos, subida de archivos, almacenamiento en el navegador, build con Gulp, pruebas, despliegue y autenticación."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/product/mastering-backbonejs/9781783288496",
+      "https://biblio.pl/szczegoly/e_3bbg_ebook/mastering-backbone-js-design-and-build-scalable-web-applications-using-backbone-js-abiee-echamea?jezyk=en",
+      "https://www.packtpub.com/en-us/product/mastering-backbonejs-9781783288496/chapter/1-architecture-of-a-backbone-application-1/section/contacts-application-ch01lvl1sec05",
+      "https://packtpub.com/en-cl/product/mastering-backbonejs-9781783288496/chapter/7-build-like-a-pro-7/section/development-workflow-ch07lvl1sec49",
+      "https://subscription.packtpub.com/book/web-development/9781783288496/10/ch10lvl1sec76/implementing-oauth-authentication"
+    ]
+  }
+}

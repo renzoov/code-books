@@ -1,0 +1,766 @@
+{
+  "drupal-s-building-blocks-2010": {
+    "descripcion": "Manual técnico y guía de referencia centrada en los tres módulos externos más influyentes y determinantes del ecosistema de Drupal 6: Content Construction Kit (CCK), Views y Panels. La obra está escrita por Earl Miles (creador original de Views y Panels) junto a Lynette Miles (coordinadora de documentación en la comunidad Drupal), lo que garantiza un conocimiento de primera mano sobre la arquitectura interna del CMS. Está dirigida a desarrolladores web, arquitectos de información y constructores de sitios de nivel intermedio que ya conocen la estructura básica de Drupal y quieren aprender a modelar datos complejos y presentar contenidos sin necesidad de programar soluciones desde cero en PHP.\n\nEl libro aborda detalladamente la anatomía de los nodos y el sistema de campos mediante CCK, enseñando a definir tipos de contenido personalizados, manejar campos computados con PHP y consumir la CCK API. En la sección de Views, profundiza en la creación de consultas a bases de datos relacionales, la aplicación de filtros expuestos, argumentos contextuales, relaciones entre tablas SQL, técnicas de optimización de consultas en MySQL y el uso de la Views API mediante handlers y plugins. Finalmente, cubre el diseño y ensamblado de páginas complejas con Panels, explicando la gestión de contextos, mini-paneles y la personalización estética mediante plantillas y el motor de theming de Drupal.\n\nEn lugar de desarrollar una única aplicación monolítica, la obra estructura su aprendizaje a través de configuraciones modulares guiadas y recetas prácticas que enseñan a solucionar problemas reales de modelado y presentación de datos. Su mayor valor reside en ofrecer la visión conceptual directa de los diseñadores de las herramientas, permitiendo entender el porqué de cada decisión arquitectónica; no obstante, debe tenerse presente que está enfocado en Drupal 6, por lo que gran parte de estos componentes (como Fields y Views) fueron posteriormente absorbidos por el núcleo en versiones modernas de Drupal. Es una lectura valiosa para comprender la filosofía de diseño del CMS o mantener aplicaciones heredadas, requiriendo bases sólidas de bases de datos relacionales y del funcionamiento de módulos en Drupal.",
+    "temas": [
+      "Drupal 6",
+      "CCK",
+      "Views",
+      "Panels",
+      "Modelado de contenido",
+      "Bases de datos relacionales",
+      "Theming",
+      "Views API",
+      "CCK API",
+      "Optimización de consultas SQL"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/drupals-building-blocks-quickly-building-web-sites-9780321591319",
+      "https://www.oreilly.com/library/view/drupals-building-blocks/9780137080076/",
+      "https://www.amazon.com/Drupals-Building-Blocks-Quickly-Building/dp/0321591313",
+      "https://www.drupal.org/node/594896"
+    ]
+  },
+  "advanced-joomla-2013": {
+    "descripcion": "Guía técnica avanzada orientada al desarrollo, optimización y administración profesional del gestor de contenidos Joomla!, focalizada principalmente en Joomla! 2.5 y en la transición hacia la arquitectura de Joomla! 3.x. El autor Dan Rahmel estructura el contenido como la continuación natural de guías introductorias, pensando en desarrolladores web, arquitectos de software y administradores de sistemas de nivel intermedio y avanzado que necesitan exprimir las capacidades empresariales de la plataforma más allá de la gestión básica de artículos y menús.\n\nEl texto desglosa la anatomía del ciclo de procesamiento y renderizado de artículos, la arquitectura de plantillas complejas con múltiples hojas de estilo CSS y la adaptación para navegadores móviles utilizando librerías JavaScript como MooTools y Yahoo! User Interface (YUI Library). También profundiza en la administración directa de la base de datos MySQL (analizando esquemas centrales como la tabla de contenidos para minería de datos y reportes), la integración de servicios web externos de Google y Yahoo!, la sincronización de credenciales de usuario con sistemas externos, y la automatización del control de calidad y pruebas de carga mediante herramientas como Apache JMeter y Selenium.\n\nA través de ejemplos técnicos y procedimientos de administración avanzada, el lector aprende a configurar entornos de múltiples plantillas, automatizar respaldos seguros, desplegar sitios en servidores remotos y ejecutar pruebas de estrés y regresión sobre el CMS. La obra destaca por abordar facetas operativas y de rendimiento que la mayoría de manuales de Joomla! ignoran, tratándolo como un entorno web corporativo riguroso; como contraparte, varias de las librerías frontend explicadas (como MooTools o YUI) han quedado en desuso frente a los estándares modernos de JavaScript. Conviene dominar PHP, MySQL y la administración web antes de abordar su lectura.",
+    "temas": [
+      "Joomla! 2.5",
+      "Joomla! 3",
+      "Plantillas avanzadas",
+      "MooTools",
+      "YUI Library",
+      "MySQL",
+      "Selenium",
+      "Apache JMeter",
+      "Servicios web",
+      "Seguridad web"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-1629-2",
+      "https://www.amazon.com/Advanced-Joomla-Dan-Rahmel/dp/1430216285",
+      "https://www.oreilly.com/library/view/advanced-joomla/9781430216292/"
+    ]
+  },
+  "beginning-drupal-7-2010": {
+    "descripcion": "Manual introductorio y formativo orientado a la construcción, administración y personalización de sitios web basados en Drupal 7. Todd Tomlinson concibe el libro pensando en principiantes, gestores de contenido, diseñadores web y administradores noveles sin experiencia previa en el desarrollo de CMS, proporcionando los fundamentos conceptuales necesarios para entender cómo opera el entorno de Drupal sin obligar al lector a programar código complejo.\n\nEl libro guía en la instalación inicial del entorno y recorre de forma progresiva la gestión de usuarios, roles y permisos, el sistema de taxonomías y vocabularios para organizar contenido, y la estructura de menús y bloques visuales. Además, detalla el uso del sistema de tipos de contenido y campos nativos de Drupal 7, la selección e instalación de temas visuales, el uso de módulos complementarios esenciales como Views (para generar listas y rejillas de contenido dinámicas) y Panels (para diagramar interfaces), junto a funcionalidades interactivas como comentarios, foros de discusión y formularios de contacto.\n\nTras explicar cada subsistema por separado, la obra culmina con un caso práctico integral ('Case Study') en el que se proyecta, estructura y ensambla desde cero un sitio web funcional de mediana complejidad, aplicando todos los conceptos del libro. Aporta una excelente visión global para perder el miedo a la curva de aprendizaje inicial de Drupal 7 y entender su flujo de trabajo modular; sin embargo, no abarca programación en PHP ni desarrollo de módulos personalizados. Es idóneo para usuarios que buscan administrar o poner en marcha portales utilizando la interfaz administrativa del CMS.",
+    "temas": [
+      "Drupal 7",
+      "Tipos de contenido",
+      "Taxonomía",
+      "Views",
+      "Panels",
+      "Gestión de usuarios",
+      "Theming",
+      "Bloques y menús",
+      "Administración de CMS"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio web completo en Drupal 7 (Case Study)",
+        "descripcion": "Proyecto guiado en el que se planifica y construye un sitio web funcional desde cero, integrando tipos de contenido personalizados, taxonomías, vistas dinámicas con Views, menús, bloques y control de permisos de usuario."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-2860-8",
+      "https://www.amazon.com/Beginning-Drupal-Experts-Voice-Source/dp/1430228593",
+      "https://www.drupal.org/node/771694"
+    ]
+  },
+  "pro-drupal-7-for-windows-developers-2011": {
+    "descripcion": "Guía especializada orientada a desarrolladores del entorno Microsoft (.NET, ASP.NET, C#) que necesitan trabajar, desplegar o integrar sitios basados en Drupal 7 sobre la plataforma Windows. Brian Travis plantea un enfoque comparativo y de inmersión, pensado para programadores de nivel intermedio habituados al ecosistema corporativo de Microsoft que buscan familiarizarse con la arquitectura modular de Drupal y PHP sin abandonar sus herramientas de trabajo habituales.\n\nEl libro detalla la configuración del entorno de ejecución en Windows utilizando servidores web como Internet Information Services (IIS) y Apache, junto a herramientas de desarrollo como Microsoft Visual Studio y WebMatrix para editar y depurar scripts PHP. Establece paralelismos didácticos entre el ciclo de vida de peticiones en ASP.NET y el modelo de páginas de Drupal, explicando a fondo la arquitectura de 'hooks', la capa de abstracción de bases de datos (Database API / PDO) compatible con Microsoft SQL Server y MySQL, el desarrollo de módulos personalizados, el sistema de renderizado y theming, la gestión de roles de usuario y las estrategias de almacenamiento en caché.\n\nA través de ejemplos paso a paso, el autor demuestra cómo depurar código de Drupal dentro de Visual Studio, escribir módulos a medida aprovechando el sistema de hooks y conectar el CMS con bases de datos relacionales empresariales. El libro es especialmente valioso porque elimina las barreras de fricción que suelen experimentar los programadores de Windows al interactuar con proyectos PHP de código abierto; no obstante, omite temas de administración en entornos Linux y no profundiza en maquetación frontend avanzada. Se requiere experiencia previa en programación con tecnologías .NET y conceptos sólidos de desarrollo web.",
+    "temas": [
+      "Drupal 7",
+      "Windows Server",
+      "IIS",
+      "Microsoft Visual Studio",
+      "PHP en Windows",
+      "Módulos personalizados",
+      "Sistema de Hooks",
+      "Capa de abstracción de bases de datos",
+      "Caché y rendimiento",
+      "Comparativa ASP.NET"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-3154-7",
+      "https://www.amazon.com/Pro-Drupal-Windows-Developers-Travis/dp/1430231534",
+      "https://www.oreilly.com/library/view/pro-drupal-7/9781430231547/"
+    ]
+  },
+  "the-definitive-guide-to-drupal-7-2011": {
+    "descripcion": "Tratado enciclopédico de más de 1100 páginas coordinado por Benjamin Melançon junto a más de una treintena de líderes comunitarios y desarrolladores del núcleo de Drupal 7 (entre ellos Karoly Negyesi, Allie Micka y Moshe Weitzman). El texto articula toda la plataforma en torno a tres pilares fundamentales: configuración, código y comunidad ('Configuration, Code, and Community'). Su público objetivo abarca desde administradores de sitios que dan sus primeros pasos hasta maquetadores frontend y programadores backend avanzados que buscan una referencia rigurosa y exhaustiva sobre cada faceta del CMS.\n\nLa obra examina con minucioso detalle el ciclo completo de vida de un proyecto Drupal: metodologías de planificación y estimación, modelado de información con tipos de contenido, campos y taxonomías, y creación de consultas dinámicas con Views. En la vertiente técnica, enseña el flujo de trabajo en consola con Drush y control de versiones con Git, maquetación avanzada con el sistema de temas y jQuery, programación de módulos a medida utilizando las APIs del núcleo y hooks, construcción de redes sociales y portales colaborativos con Organic Groups, y protocolos de seguridad, optimización de caché, actualización y despliegue continuo.\n\nMediante extensos tutoriales prácticos, recetas arquitectónicas y casos reales, el libro guía en la implementación de sitios comunitarios, la automatización del mantenimiento con Drush y el desarrollo de extensiones modulares escalables. Constituye una de las obras de referencia más completas e influyentes redactadas para Drupal 7, con el respaldo directo de quienes crearon sus subsistemas clave; sin embargo, su desmesurado volumen puede resultar abrumador para quien únicamente busca una introducción rápida o una guía ligera de puesta en marcha. Conviene tener conocimientos de HTML/CSS y bases de PHP para aprovechar las secciones de programación.",
+    "temas": [
+      "Drupal 7",
+      "Arquitectura de CMS",
+      "Views",
+      "Drush",
+      "Git",
+      "Organic Groups",
+      "Theming y jQuery",
+      "Módulos personalizados",
+      "API de Hooks",
+      "Seguridad web",
+      "Comunidad Drupal"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-3136-3",
+      "https://www.amazon.com/Definitive-Guide-Drupal-Benjamin-Melancon/dp/1430231356",
+      "https://www.drupal.org/node/1218968",
+      "https://definitivedrupal.org"
+    ]
+  },
+  "using-gatsby-and-netlify-cms-2020": {
+    "descripcion": "Manual práctico de Joe Attardi publicado por Apress en 2020 que aborda el desarrollo de aplicaciones web bajo la arquitectura Jamstack combinando el generador de sitios estáticos Gatsby (en su versión basada en React) y Netlify CMS (el gestor de contenidos de código abierto basado en Git, renombrado posteriormente como Decap CMS). Está pensado para desarrolladores web de nivel intermedio con conocimientos previos de JavaScript moderno, componentes de React, sintaxis básica de Git y maquetación con HTML y CSS, que desean entregar a clientes o redactores un panel administrativo intuitivo sin obligarlos a editar archivos Markdown ni interactuar con la consola de comandos.\n\nEl libro enseña a enlazar el frontend reactivo con el almacenamiento de contenidos versionado en Git. En la parte de Netlify CMS, detalla la estructura del archivo config.yml, la definición de colecciones y campos personalizados (widgets), y la configuración de Netlify Identity y Git Gateway para resolver la autenticación de usuarios de forma segura sin exponer tokens de GitHub o GitLab. En el entorno de Gatsby, explica cómo consultar datos mediante GraphQL, procesar archivos Markdown con los plugins gatsby-source-filesystem y gatsby-transformer-remark, y utilizar las APIs de compilación de Node en gatsby-node.js (especialmente createPages) para implementar generación dinámica de rutas, paginación de entradas y menús de navegación.\n\nLa obra se estructura en torno a la construcción guiada del sitio web para una cafetería ficticia (\"Coffee Shop\"), que incluye un blog con vista individual y listado paginado, además de una carta de productos y precios administrable en tiempo real desde el CMS y desplegada automáticamente en Netlify. Destaca por ofrecer un flujo de trabajo realista para proyectos editoriales desacoplados con costos mínimos de infraestructura. Su alcance no cubre bases de datos SQL o NoSQL, lógica de backend compleja ni renderizado dinámico en servidor (SSR). Conviene tener presentes los principios básicos de GraphQL y advertir que la herramienta evolucionó de forma independiente en la comunidad bajo el nombre Decap CMS.",
+    "temas": [
+      "Gatsby",
+      "Netlify CMS",
+      "Jamstack",
+      "React",
+      "GraphQL",
+      "Netlify Identity",
+      "Git Gateway",
+      "Markdown",
+      "Paginación",
+      "Despliegue continuo"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio web para cafetería con blog y menú administrable",
+        "descripcion": "Portal web para una cafetería desarrollado con Gatsby y React que integra un blog con paginación y un catálogo de productos editable desde Netlify CMS, protegido con Netlify Identity y desplegado continuamente en Netlify."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-6297-9",
+      "https://www.oreilly.com/library/view/using-gatsby-and/9781484262979/",
+      "https://www.amazon.com/Using-Gatsby-Netlify-CMS-Blazing/dp/148426296X"
+    ]
+  },
+  "liferay-in-action-2011": {
+    "descripcion": "Guía técnica y oficial escrita por Rich Sezov (responsable de documentación de Liferay, con prólogo del cofundador Brian Kim) publicada por Manning en 2011 para dominar el desarrollo sobre Liferay Portal 6 (6.0 y 6.1). Está dirigida a desarrolladores y arquitectos Java que se inician en el desarrollo de portales corporativos y ya poseen conocimientos de Java EE, la arquitectura MVC, el contenedor de servlets (como Apache Tomcat) y páginas JSP, buscando aprender a crear soluciones modulares empresariales bajo el estándar formal de portlets.\n\nEl contenido desglosa a fondo la especificación Portlet 2.0 (JSR-286) y el entorno de herramientas compuesto por Liferay IDE y Plugins SDK. El pilar central del texto es Service Builder, el motor generador de código guiado por XML (service.xml) que automatiza la capa de persistencia mediante Spring y Hibernate y produce servicios locales y remotos. Además, enseña el framework MVC propio de Liferay (MVCPortlet), la creación de temas y plantillas con Velocity y CSS, la extensión del núcleo sin alterar el código fuente mediante Hooks y plugins Ext, y el aprovechamiento de APIs nativas como Asset Framework (etiquetas y categorías), mensajería interna, permisos de acceso y servicios web expuestos en SOAP y JSON.\n\nLa formación práctica se articula a través de un caso de estudio continuo para una empresa ficticia de plumas estilográficas (\"Inkwell\"), construyendo un portal corporativo que incluye un portlet completo de registro de productos con almacenamiento en base de datos, lógica de negocio y presentación desacoplada. Es un recurso histórico indispensable para comprender los cimientos de la arquitectura clásica de Liferay 6 y la ingeniería orientada a portales. Como advertencia, el libro no cubre la arquitectura modular OSGi introducida en Liferay 7 / Liferay DXP ni los frameworks frontend modernos, por lo que su valor reside en proyectos de soporte heredados o en la asimilación conceptual de portales empresariales.",
+    "temas": [
+      "Liferay Portal 6",
+      "Portlet 2.0 (JSR-286)",
+      "Java EE",
+      "Service Builder",
+      "Liferay MVC",
+      "Plugins SDK",
+      "Hooks y plugins Ext",
+      "Temas y plantillas",
+      "Asset Framework",
+      "Servicios web SOAP y JSON"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal corporativo y portlet de productos para Inkwell",
+        "descripcion": "Portal empresarial para la compañía Inkwell que integra un portlet de registro de productos con persistencia generada por Service Builder, controladores Liferay MVC, interfaz JSP, temas personalizados y ganchos de extensión (Hooks)."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/liferay-in-action",
+      "https://www.oreilly.com/library/view/liferay-in-action/9781935182825/",
+      "https://www.amazon.com/Liferay-Action-Official-Portal-Development/dp/1935182820"
+    ]
+  },
+  "design-and-prototyping-for-drupal-2011": {
+    "descripcion": "Obra especializada de Dani Nordin publicada por O'Reilly en 2011 que aborda el diseño de interfaz y la creación de prototipos visuales para Drupal 7. Está concebida para diseñadores web, profesionales de experiencia de usuario (UX) y maquetadores frontend de nivel intermedio que conocen HTML y CSS pero encuentran frustrante la arquitectura de temas de Drupal y la estructura de marcado predeterminada que genera el gestor de contenidos.\n\nEl libro profundiza en metodologías de diseño y en el ecosistema técnico de tematización de Drupal. Enseña a utilizar herramientas de prototipado rápido como Balsamiq Mockups y Adobe Fireworks, junto con técnicas como Style Tiles y el sistema de cuadrículas 960 Grid System para estructurar diseños alineados con la lógica modular del CMS. En el plano de implementación, explica la anatomía de un tema en Drupal, la selección y configuración de temas base (base themes), la creación de temas hijo (child themes) con archivos .info y plantillas .tpl.php, el control y estilización del marcado HTML complejo emitido por el módulo Views, y la organización modular de hojas de estilo asistida por el preprocesador LessCSS.\n\nA lo largo del libro se desarrolla de manera práctica un prototipo navegable y un subtema personalizado para Drupal 7, guiando al lector desde los bocetos iniciales y la definición de regiones y bloques hasta la personalización visual de vistas y tipos de contenido. Destaca por salvar la brecha cultural entre diseño gráfico y desarrollo backend, enseñando a diseñar en función de cómo Drupal organiza los datos en lugar de forzar maquetas estáticas incompatibles. Deja de lado la programación PHP avanzada, módulos a medida y versiones posteriores a Drupal 8/9 basadas en Twig. Conviene tener conocimientos firmes de CSS y una instalación local funcional de Drupal 7.",
+    "temas": [
+      "Drupal 7",
+      "Tematización (Theming)",
+      "Prototipado rápido",
+      "Style Tiles",
+      "960 Grid System",
+      "Subtemas (Child themes)",
+      "Módulo Views",
+      "LessCSS",
+      "Plantillas .tpl.php",
+      "Diseño centrado en el usuario"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Subtema y prototipo navegable para Drupal 7",
+        "descripcion": "Construcción paso a paso de un tema hijo personalizado derivado de un tema base, aplicando una rejilla de 960 píxeles, preprocesamiento con LessCSS y estilización del marcado HTML de bloques y consultas de Views."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/design-and-prototyping/9781449318185/",
+      "https://www.amazon.com/Design-Prototyping-Drupal-Dani-Nordin/dp/1449305504",
+      "https://www.drupal.org/node/1484048"
+    ]
+  },
+  "drupal-development-tricks-for-designers-2012": {
+    "descripcion": "Manual práctico y conciso de Dani Nordin publicado por O'Reilly en 2012 que introduce a diseñadores visuales y maquetadores de Drupal 7 en las herramientas esenciales de desarrollo por línea de comandos y control de versiones. Está orientado a diseñadores web y maquetadores frontend de nivel básico a intermedio que ya construyen sitios en Drupal pero trabajan de forma precaria editando archivos directamente en servidores remotos o configurando todo manualmente desde la interfaz gráfica, y quieren adoptar flujos de trabajo profesionales sin abrumarse con conceptos complejos de programación backend.\n\nLa guía enseña a configurar un entorno de desarrollo local mediante pilas web locales (como MAMP), navegar por la terminal de comandos de Unix/macOS y dominar Drush (la consola oficial de Drupal) para descargar, activar, desactivar y actualizar módulos y limpiar cachés en segundos. Además, introduce los fundamentos de control de versiones con Git y repositorios en GitHub, explicando el ciclo de commits, ramas y resolución básica de cambios. Como recurso clave de automatización, detalla cómo exportar configuraciones del sitio (tipos de contenido, vistas y campos) a código reproducible mediante el módulo Features y construir instalaciones automatizadas con Drush Make.\n\nEl libro no desarrolla un sitio web temático completo, sino que guía al lector a través de ejercicios y recetas de configuración paso a paso para montar su pila local de trabajo, versionar su proyecto en Git y empaquetar una funcionalidad del sitio en un módulo exportable con Features. Aporta un enorme valor al desmitificar la terminal y dotar al diseñador de independencia técnica frente a los desarrolladores backend, permitiendo experimentar con seguridad en local. Queda fuera el desarrollo de módulos personalizados en PHP y las prácticas de Drupal 8+ (donde Drush y la gestión de configuración cambiaron con Composer y YAML). Es ideal como lectura rápida y práctica previa a colaborar en equipos ágiles.",
+    "temas": [
+      "Drupal 7",
+      "Drush",
+      "Git",
+      "GitHub",
+      "Entorno local (MAMP)",
+      "Línea de comandos",
+      "Módulo Features",
+      "Drush Make",
+      "Control de versiones",
+      "Flujos de trabajo"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/drupal-development-tricks/9781449312763/",
+      "https://www.amazon.com/Drupal-Development-Tricks-Designers-Designer-Friendly/dp/1449305539",
+      "https://www.drupal.org/node/1484050"
+    ]
+  },
+  "drupal-for-designers-2012": {
+    "descripcion": "Volumen integral de Dani Nordin publicado por O'Reilly en 2012 que consolida y expande su serie de guías especializadas para abordar el ciclo de vida completo de un proyecto web con Drupal 7 desde la perspectiva del diseño. Está dirigido a diseñadores independientes, agencias creativas y maquetadores de nivel básico a intermedio que conocen HTML y CSS pero carecen de experiencia previa con Drupal, brindándoles un mapa completo para desenvolverse en el sistema sin tropezar con la jerga técnica habitual de los programadores.\n\nEl texto abarca desde la fase inicial de consultoría y experiencia de usuario (UX) hasta la implementación técnica en frontend. Enseña técnicas de descubrimiento con clientes, definición de objetivos, arquitectura de información y estimación de alcances, para luego transitar hacia el bocetado, las Style Tiles y sistemas de rejilla (960 Grid System). En el plano de desarrollo, detalla el montaje de entornos locales con MAMP, el uso de Drush en la terminal, el control de versiones con Git y la creación de temas hijo a partir de temas base de Drupal. Explica cómo manipular las plantillas .tpl.php, maquetar la salida del módulo Views, organizar hojas de estilo con LessCSS y empaquetar arquitecturas reutilizables con los módulos Features y Drush Make.\n\nA lo largo de sus siete partes, el libro proporciona tanto plantillas documentales de gestión de proyectos (propuestas, contratos y control de cambios) como la práctica guiada para diseñar y montar un sitio funcional en Drupal 7 con temas y componentes visuales reutilizables. Aporta una visión holística poco común que une la gestión comercial y de clientes con las mejores prácticas técnicas de diseño y versionado. Deja fuera la programación avanzada de APIs en PHP y no contempla el motor de plantillas Twig ni la gestión de dependencias con Composer propia de Drupal 8 y versiones modernas. Es una obra de referencia clásica excelente para diseñadores que necesitan entender cómo piensa y opera Drupal.",
+    "temas": [
+      "Drupal 7",
+      "Diseño web para CMS",
+      "Experiencia de usuario (UX)",
+      "Planificación y alcance",
+      "Tematización (Theming)",
+      "Módulo Views",
+      "Drush",
+      "Git",
+      "LessCSS",
+      "Módulo Features",
+      "Drush Make",
+      "Style Tiles"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio prototipo en Drupal 7 con subtema y configuraciones empaquetadas",
+        "descripcion": "Implementación integral de un sitio prototipo en Drupal 7 que abarca desde la planificación con Style Tiles y rejillas hasta un tema hijo con LessCSS, vistas personalizadas y exportación de módulos de configuración mediante Features y Drush Make."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/drupal-for-designers/9781449325046/",
+      "https://www.amazon.com/Drupal-Designers-Dani-Nordin/dp/1449325041",
+      "https://www.drupal.org/node/1594924"
+    ]
+  },
+  "high-performance-drupal-2013": {
+    "descripcion": "Obra de referencia especializada escrita por figuras clave de la infraestructura de Drupal (veteranos de Tag1 Consulting y colaboradores del núcleo) centrada en diseñar, escalar y optimizar sitios web de alta concurrencia con Drupal 7 (incorporando además fundamentos arquitectónicos proyectados para Drupal 8). Está dirigida a arquitectos web, desarrolladores Drupal sénior y administradores de sistemas Linux/DevOps que ya cuentan con experiencia administrando servidores y programando módulos, y necesitan mitigar cuellos de botella severos o preparar plataformas para millones de visitas concurrentes.\n\nEl libro desglosa a fondo toda la pila LAMP (Linux, Apache, MySQL y PHP) y la capa de aplicación de Drupal. Cubre la optimización del intérprete PHP (incluyendo aceleradores de código intermedio como APC y Opcache), configuración y perfilado del servidor web, y un análisis exhaustivo del motor MySQL con técnicas de optimización de consultas, diseño de índices InnoDB y ajuste de búferes. Enseña a implementar capas de aceleración con Varnish (reverse proxy y Edge Side Includes) y Memcached para el almacenamiento en caché de objetos, integración de motores de búsqueda desacoplados con Apache Solr, uso de CDNs, herramientas de perfilado de código PHP (como XHProf) y monitorización continua de servicios con Nagios o Icinga.\n\nNo plantea la construcción de un sitio desde cero, sino que se enfoca en el diagnóstico, benchmarking y ajuste fino sobre arquitecturas reales, enseñando a ejecutar pruebas de estrés y simulación de carga con herramientas como Apache JMeter. Su mayor aportación es la rigurosidad de ingeniería con la que aborda desde el kernel y la red hasta los internals de Drupal, desmitificando dónde se pierde el rendimiento. Quedan fuera aspectos de maquetación o diseño visual, y requiere familiaridad sólida previa con la línea de comandos de Linux, bases de datos relacionales y la estructura interna del CMS.",
+    "temas": [
+      "Drupal 7",
+      "Drupal 8",
+      "Optimización web",
+      "Varnish",
+      "Memcached",
+      "MySQL Tuning",
+      "Apache Solr",
+      "Apache JMeter",
+      "XHProf",
+      "Escalabilidad",
+      "DevOps"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/high-performance-drupal/9781449358013/",
+      "https://www.amazon.com/High-Performance-Drupal-Scalable-Designs/dp/144931284X",
+      "https://www.drupal.org/node/2112461"
+    ]
+  },
+  "responsive-theming-for-drupal-2014": {
+    "descripcion": "Manual conciso y práctico de Mike Crittenden orientado a la adaptación de sitios web construidos sobre Drupal 7 a dispositivos móviles, tabletas y pantallas de escritorio mediante diseño web responsivo (RWD). Está dirigido a maquetadores, diseñadores web y desarrolladores frontend de nivel intermedio que ya conocen HTML, CSS y la estructura general de temas en Drupal, pero buscan modernizar sus flujos de trabajo hacia una filosofía móvil primero (mobile-first).\n\nLa guía detalla los principios de cuadrículas flexibles, medios adaptativos y media queries de CSS3 aplicados a la arquitectura de renderizado de Drupal. Enseña a estructurar las hojas de estilo mediante el preprocesador Sass y el framework Compass, y analiza cómo abordar problemas frecuentes de la web móvil como la reorganización de menús de navegación, el tratamiento de tablas complejas y el servicio de imágenes optimizadas mediante módulos específicos del ecosistema.\n\nA nivel práctico, el autor enseña a configurar y desarrollar subtemas personalizados a partir de los tres temas base (base themes) más influyentes de Drupal 7: Zen, Omega y Aurora, comparando sus filosofías y métodos de trabajo. El libro destaca por su brevedad y enfoque directo al grano, permitiendo al maquetador elegir el punto de partida adecuado según la complejidad del proyecto. Deja fuera la programación de módulos en PHP y la administración del backend, por lo que resulta indispensable tener conocimientos consolidados de CSS y nociones del sistema de plantillas del CMS.",
+    "temas": [
+      "Drupal 7",
+      "Responsive Web Design",
+      "Sass",
+      "Compass",
+      "Subtemas",
+      "Zen Theme",
+      "Omega Theme",
+      "Aurora Theme",
+      "Media Queries",
+      "Mobile-First"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Subtema adaptativo con Zen",
+        "descripcion": "Creación de un subtema fluido utilizando el framework Zen de Drupal 7, organizando hojas de estilo con Sass y definiendo puntos de interrupción para dispositivos móviles y de escritorio."
+      },
+      {
+        "nombre": "Subtema móvil-first con Omega",
+        "descripcion": "Configuración de un tema adaptativo basado en Omega, combinando sus herramientas de administración gráfica de rejillas con personalizaciones CSS."
+      },
+      {
+        "nombre": "Subtema minimalista con Aurora",
+        "descripcion": "Desarrollo de un subtema ligero orientado a Compass y Sass que depura el marcado predeterminado de Drupal para ofrecer un diseño limpio y de alto rendimiento."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/responsive-theming-for/9781449373306/",
+      "https://www.amazon.com/Responsive-Theming-Drupal-Making-Device/dp/1449373318",
+      "https://www.drupal.org/node/2202657"
+    ]
+  },
+  "using-drupal-2nd-edition-2012": {
+    "descripcion": "Guía exhaustiva y orientada a proyectos escrita por referentes de la comunidad Drupal (incluida Angela Byron, co-mantenedora del núcleo) para dominar Drupal 7 desde sus cimientos. Diseñada para principiantes, diseñadores web y gestores de contenidos sin experiencia previa en programación, la obra enseña a crear soluciones web sofisticadas y profesionales aprovechando la potencia del ecosistema de módulos contribuidos, sin necesidad de escribir código PHP personalizado.\n\nEl libro cubre en detalle la arquitectura de Drupal 7: tipos de contenido, campos dinámicos (Fields en el core), taxonomías, permisos de usuario y el módulo esencial Views para generar listados interactivos. A lo largo de sus casos prácticos integra herramientas y módulos emblemáticos como Drupal Commerce para tiendas virtuales, el módulo Media para gestión de archivos y galerías, Workbench para flujos editoriales y moderación, Fivestar y Voting API para valoraciones, módulos Date y Calendar para eventos, y las herramientas de internacionalización (i18n) para traducción multilingüe.\n\nLa metodología es enteramente práctica: cada capítulo central está planteado como un proyecto completo del mundo real (tablón de empleo, portal de eventos, tienda online, sitio multimedia o espacio wiki), detallando la planificación, configuración y puesta en marcha paso a paso. El libro destaca por transmitir la filosofía arquitectónica correcta de 'la forma de hacer las cosas en Drupal' (the Drupal way). Deja fuera la programación de módulos a bajo nivel y el desarrollo en Drupal 8/9, pero constituye una de las mejores obras de referencia para entender cómo estructurar información y ensamblar portales web potentes.",
+    "temas": [
+      "Drupal 7",
+      "Views",
+      "Drupal Commerce",
+      "Gestión de contenidos",
+      "Taxonomía",
+      "Módulo Media",
+      "Workbench",
+      "Multilingüe",
+      "Tipos de contenido",
+      "Comercio electrónico"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tablón de ofertas de empleo (Job Posting Board)",
+        "descripcion": "Portal de búsqueda y publicación laboral desarrollado con tipos de contenido personalizados, taxonomías estructuradas y filtros interactivos generados con el módulo Views."
+      },
+      {
+        "nombre": "Galería multimedia (Media Management)",
+        "descripcion": "Sitio web para gestión fotográfica y activos digitales utilizando el módulo Media, estilos automatizados de escalado de imagen y vistas de galerías."
+      },
+      {
+        "nombre": "Portal de reseñas de productos (Product Reviews)",
+        "descripcion": "Plataforma de catálogo con sistema de votación comunitaria implementado mediante Voting API y Fivestar, incluyendo listados automáticos de valoraciones."
+      },
+      {
+        "nombre": "Calendario y registro de eventos (Event Management)",
+        "descripcion": "Sistema de gestión y divulgación de actividades con fechas recurrentes, calendario mensual y formularios de reserva mediante los módulos Date y Calendar."
+      },
+      {
+        "nombre": "Entorno editorial y colaborativo (Publishing Workflows)",
+        "descripcion": "Plataforma de redacción y publicación con moderación de artículos, gestión de borradores y flujos de aprobación asistidos por la suite de módulos Workbench."
+      },
+      {
+        "nombre": "Portal multilingüe (Multilingual Sites)",
+        "descripcion": "Sitio web con soporte idiomático integral que abarca la traducción simultánea de la interfaz, taxonomías, menús y nodos de contenido."
+      },
+      {
+        "nombre": "Tienda en línea (Online Store)",
+        "descripcion": "Plataforma de comercio electrónico creada con Drupal Commerce, que integra catálogo de productos, carrito de compras y pasarela de pago configurada."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/using-drupal-2nd/9781449305543/",
+      "https://www.amazon.com/Using-Drupal-Basics-Beyond-Second/dp/1449390522",
+      "https://www.drupal.org/node/1547432"
+    ]
+  },
+  "using-joomla-2nd-edition-2014": {
+    "descripcion": "Manual introductorio y eminentemente práctico escrito por Jennifer Gress y Ron Severdia (miembros activos del equipo de liderazgo de Joomla!) que enseña a planificar, construir y administrar sitios web modernos utilizando Joomla! 3. Está pensado para principiantes absolutos, diseñadores gráficos, propietarios de pequeños negocios y gestores de contenido que no dominan la programación en PHP ni bases de datos SQL y buscan una plataforma versátil y autogestionable.\n\nLa obra explica con precisión el funcionamiento del panel de administración y los conceptos fundamentales del CMS: artículos, categorías jerárquicas, menús, módulos y posiciones de plantilla basadas en Bootstrap. Enseña a enriquecer el sitio integrando extensiones indispensables del ecosistema Joomla, tales como el editor avanzado JCE, la solución de copias de seguridad Akeeba Backup, galerías multimedia, calendarios de eventos y el potente sistema de listas de control de acceso (ACL) para gestionar roles de usuario y permisos granulares.\n\nEl hilo conductor del libro es el desarrollo integral del proyecto 'Joomla Pet Center', un portal donde se aplican gradualmente todas las funciones: desde la estructura de páginas y contenidos multilingües hasta la tienda online, optimización SEO y seguridad (incluyendo autenticación en dos pasos y auditorías de salud del sitio). Su principal fortaleza es enseñar las mejores prácticas oficiales sin tecnicismos innecesarios. No profundiza en la creación de extensiones personalizadas con código PHP ni en el diseño CSS desde cero, pero entrega todo lo necesario para lanzar y mantener un sitio web profesional seguro y funcional.",
+    "temas": [
+      "Joomla! 3",
+      "CMS",
+      "HikaShop",
+      "JCE Editor",
+      "Akeeba Backup",
+      "Gestión de contenidos",
+      "ACL",
+      "Multilingüe",
+      "Comercio electrónico",
+      "Seguridad web"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Joomla Pet Center",
+        "descripcion": "Sitio web completo para un centro de mascotas que combina catálogo de servicios, blog, calendario de actividades, tienda virtual con HikaShop, formularios de contacto y soporte multilingüe en Joomla! 3."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/using-joomla-2nd/9781449366148/",
+      "https://www.amazon.com/Using-Joomla-Efficiently-Custom-Websites/dp/1449366141",
+      "https://community.joomla.org/blogs/community/1802-using-joomla-2nd-edition-released.html"
+    ]
+  },
+  "web-content-management-2016": {
+    "descripcion": "Tratado de referencia agnóstico de plataforma escrito por Deane Barker, consultor veterano en gestión de contenidos web con décadas de experiencia en la industria. La obra analiza a nivel conceptual, funcional y estratégico cómo operan los sistemas de gestión de contenidos (CMS) modernos, independientemente de tecnologías específicas (como Drupal, WordPress, Sitecore, Optimizely o AEM). Está dirigido a directores de proyectos, arquitectos de software, consultores, desarrolladores web y responsables de marketing digital con nivel intermedio que necesitan diseñar, seleccionar o implementar una plataforma de contenidos a gran escala.\n\nA lo largo de sus capítulos, Barker desglosa con rigor los componentes anatómicos de un CMS: modelado de contenido (separación estricta entre contenido y presentación, atributos, relaciones y validaciones), agregación y taxonomías, gestión de activos digitales (DAM), motores de plantillas y flujos de publicación. Asimismo, analiza los paradigmas arquitectónicos (sistemas acoplados, desacoplados y headless con APIs de entrega), gestión de versiones, permisos editoriales, estrategias de migración de contenidos (procesos ETL) y las dinámicas de trabajo entre clientes y empresas integradoras externas.\n\nEl texto no contiene tutoriales de programación con frameworks específicos ni proyectos de código paso a paso; su enfoque es eminentemente teórico y metodológico, fundamentado en patrones de diseño arquitectónico y lecciones operativas reales. Aporta una claridad conceptual invaluable para evitar los fallos más costosos en proyectos corporativos de CMS (como el modelado inadecuado o estimaciones erróneas de migración). No enseña a escribir código en PHP, .NET o JavaScript, por lo que resulta más provechoso cuando el lector ya ha tenido contacto previo con la operación o desarrollo de sitios web dinámicos.",
+    "temas": [
+      "CMS",
+      "Modelado de contenido",
+      "Arquitectura headless",
+      "Digital Asset Management",
+      "Flujos editoriales",
+      "Migración de contenidos",
+      "Gestión de proyectos web",
+      "Taxonomías",
+      "Sistemas desacoplados"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/web-content-management/9781491908112/",
+      "https://www.amazon.com/Web-Content-Management-Systems-Practices/dp/1491908128"
+    ]
+  },
+  "building-e-commerce-sites-with-drupal-commerce-cookbook-2013": {
+    "descripcion": "Manual práctico en formato recetario escrito por Richard Carter para la creación y gestión de tiendas online con Drupal Commerce sobre la plataforma Drupal 7. La obra está dirigida a constructores de sitios (site builders), diseñadores web y comerciantes que ya cuentan con una comprensión básica de la administración de Drupal y desean poner en marcha un comercio electrónico profesional o migrar desde Ubercart sin necesidad de escribir código PHP avanzado.\n\nA lo largo de más de 50 recetas paso a paso, el libro enseña a instalar el ecosistema Drupal Commerce y a configurar sus componentes esenciales. Explica la creación de tipos de productos personalizados con atributos dinámicos (variaciones de color, tallas y descargas digitales), la configuración de la cesta de compras y la personalización del flujo de pago (checkout). Cubre además la integración de pasarelas de pago, el cálculo de impuestos y tipos de cambio, la definición de tarifas y métodos de envío mediante el motor de reglas Rules, la gestión administrativa de pedidos con Commerce Backoffice y la optimización SEO para catálogos.\n\nComo práctica integradora, el autor guía la construcción integral de una tienda de camisetas en línea (T-Shirt Shop), demostrando cómo interconectan los productos con opciones múltiples, inventario y facturación. El texto destaca por su enfoque directo y declarativo centrado en la interfaz administrativa y las reglas de negocio; no aborda la programación de pasarelas de pago a medida ni la arquitectura interna de la API de Drupal Commerce. Resulta una referencia muy valiosa para quienes buscan lanzar una tienda funcional en Drupal 7 aprovechando módulos existentes.",
+    "temas": [
+      "Drupal 7",
+      "Drupal Commerce",
+      "Rules Engine",
+      "Commerce Backoffice",
+      "Catálogo de productos",
+      "Carrito de compras",
+      "Pasarelas de pago",
+      "Envíos e impuestos",
+      "SEO para e-commerce"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tienda de camisetas en línea (T-Shirt Shop)",
+        "descripcion": "Creación paso a paso de una tienda de ropa con Drupal Commerce en Drupal 7, configurando catálogo, atributos de tallas y colores, cesta de compras, cálculo de impuestos, métodos de envío y pasarela de pago."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/building-e-commerce-sites-with-drupal-commerce-cookbook-9781782161226",
+      "https://www.amazon.com/Building-E-commerce-Sites-Commerce-Cookbook/dp/1782161225",
+      "https://www.drupal.org/node/2026131"
+    ]
+  },
+  "drupal-7-module-development-2010": {
+    "descripcion": "Guía técnica de referencia sobre la arquitectura de extensiones de Drupal 7, redactada por un equipo de desarrolladores y contribuidores clave del núcleo como Matt Butcher, Larry Garfield, John Albin Wilkins, Matt Farina, Ken Rickard y Greg Dunlap. El texto está dirigido a programadores PHP y desarrolladores de Drupal de nivel intermedio a avanzado que dominan la administración del CMS y buscan dar el salto al desarrollo profesional de módulos personalizados siguiendo las convenciones oficiales de la comunidad.\n\nEl libro analiza a fondo el funcionamiento interno del CMS y sus APIs principales. Enseña a implementar el sistema de ganchos (Hooks), a crear interfaces y validar datos con la Form API, y a interactuar con la base de datos mediante la capa de abstracción DBTNG (Database Abstraction Layer). Explora en profundidad las dos grandes innovaciones de Drupal 7: la Entity API y la Field API para modelar datos estructurados, junto con la Render API y el motor de plantillas para la capa de presentación. También aborda el control granular de permisos (Node Access), la Mail API, la manipulación de archivos con stream wrappers (File and Image API), la integración de JavaScript mediante Drupal.behaviors y la creación de perfiles de instalación reutilizables.\n\nLa metodología es guiada y constructiva: cada capítulo desarrolla módulos de prueba específicos (como bloques personalizados, formularios de configuración, tipos de entidad para obras de arte y esquemas de permisos estrictos) para afianzar cada subsistema. Su mayor virtud es la solidez conceptual y las buenas prácticas de seguridad (prevención de XSS, CSRF e inyección SQL) transmitidas por expertos del core. Deja fuera el diseño de temas completos y la configuración visual con Views, ya que su foco exclusivo es el código backend. Requiere conocimientos firmes de PHP orientado a objetos y patrones de desarrollo web.",
+    "temas": [
+      "Drupal 7",
+      "Desarrollo de módulos",
+      "Hooks",
+      "Entity API",
+      "Field API",
+      "Form API",
+      "Database API",
+      "Render API",
+      "Node Access Control",
+      "Seguridad web"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/drupal-7-module-development-9781849511162",
+      "https://www.amazon.com/Drupal-7-Module-Development-Wilkins/dp/1849511161",
+      "https://www.drupal.org/node/991910"
+    ]
+  },
+  "drupal-7-social-networking-2011": {
+    "descripcion": "Guía orientada a proyectos en la que Michael Peacock explica cómo planificar y poner en marcha plataformas comunitarias y comunidades virtuales utilizando Drupal 7. Está concebida para desarrolladores, diseñadores web y administradores comunitarios con conocimientos básicos o intermedios del CMS que necesitan implementar funcionalidades sociales avanzadas sin tener que programar una red social desde cero.\n\nEl autor detalla la selección, instalación y configuración del conjunto de módulos clave para dinámicas comunitarias en Drupal: perfiles de usuario enriquecidos con campos personalizados, blogs de usuarios, foros de debate y sistemas de comentarios con moderación. El libro profundiza en herramientas especializadas como Organic Groups para la creación de grupos y clubes autónomos, User Relationships para gestionar solicitudes de amistad y seguimiento, Privatemsg para mensajería interna entre miembros y Flag para acciones interactivas como marcar contenido favorito o emitir valoraciones. Asimismo, cubre la personalización del aspecto visual mediante temas, el control de roles y permisos y las políticas de mantenimiento, cron y copias de seguridad.\n\nEl eje práctico del libro es el desarrollo integral de 'DinoSpace!', una red social temática creada paso a paso para amantes y criadores de dinosaurios domésticos, que sirve de hilo conductor para aplicar cada componente en un entorno realista. Su gran ventaja radica en enseñar a combinar e interconectar múltiples módulos complejos de forma coherente para resolver casos de uso habituales en comunidades web. No profundiza en la creación de módulos PHP a medida ni en arquitecturas de altísimo tráfico, por lo que es ideal como mapa de ruta para constructores de sitios comunitarios en Drupal 7.",
+    "temas": [
+      "Drupal 7",
+      "Redes sociales",
+      "Organic Groups",
+      "User Relationships",
+      "Privatemsg",
+      "Flag",
+      "Perfiles de usuario",
+      "Foros de discusión",
+      "Blogs comunitarios",
+      "Moderación de contenidos"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Red social temática DinoSpace!",
+        "descripcion": "Plataforma social completa para amantes de los dinosaurios construida sobre Drupal 7, integrando perfiles enriquecidos, foros, blogs, grupos con Organic Groups, mensajería interna con Privatemsg y conexiones de amistad con User Relationships."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/drupal-7-social-networking-9781849516006",
+      "https://www.amazon.com/Drupal-7-Social-Networking-Peacock/dp/1849516007",
+      "https://www.drupal.org/node/1283626"
+    ]
+  },
+  "drupal-7-theming-cookbook-2012": {
+    "descripcion": "Recetario práctico elaborado por Karthik Kumar y orientado a la maquetación y personalización visual en Drupal 7 con el motor PHPTemplate, HTML5 y CSS3. Está destinado a diseñadores web, maquetadores front-end y desarrolladores de Drupal de nivel intermedio que conocen HTML y CSS, poseen nociones básicas de sintaxis PHP y necesitan dominar las técnicas de diseño de interfaces dentro del ecosistema de Drupal.\n\nCon cerca de 100 recetas estructuradas, la obra cubre desde los fundamentos hasta técnicas avanzadas de tematización. Enseña a estructurar archivos .info, a crear temas hijos (sub-themes) a partir de temas base, a gestionar regiones y bloques, y a manipular la salida HTML mediante funciones de preprocesamiento (template_preprocess) y sugerencias de plantillas. Aborda el estilo y formato de campos con la Field API, la personalización visual de formularios de la Form API, el diseño de sistemas de navegación (menús, migas de pan y paginadores), la inyección segura de JavaScript y jQuery con Drupal.behaviors, y la adaptación visual de salidas generadas por los populares módulos Views y Panels.\n\nCada receta plantea un problema visual concreto (como alterar la rejilla de nodos, dar formato a campos complejos o estilizar vistas de catálogo) y ofrece la solución de código y plantilla lista para implementar. Su principal aportación es consolidar las mejores prácticas front-end de Drupal 7, evitando la sobreescritura caótica de estilos o la inserción indebida de lógica en las plantillas. Al ser un manual de recetas y consultas rápidas, no construye un único tema de principio a fin, por lo que funciona como guía de referencia indispensable para el flujo de trabajo diario de maquetación.",
+    "temas": [
+      "Drupal 7",
+      "Theming",
+      "PHPTemplate",
+      "Sub-themes",
+      "Preprocess functions",
+      "Field API",
+      "Views Theming",
+      "Panels",
+      "jQuery",
+      "Form Theming"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/drupal-7-theming-cookbook-9781849516761",
+      "https://www.amazon.com/Drupal-7-Theming-Cookbook-Kumar/dp/1849516767",
+      "https://www.drupal.org/node/1413812"
+    ]
+  },
+  "drupal-7-views-cookbook-2012": {
+    "descripcion": "Manual práctico en formato recetario escrito por J. Ayen Green para dominar el módulo Views 3 en Drupal 7, una de las herramientas más potentes y esenciales del CMS para consultar y mostrar contenido de manera dinámica. Está dirigido a constructores de sitios (site builders), diseñadores y desarrolladores de Drupal de nivel intermedio que ya conocen la administración general de la plataforma y quieren explotar al máximo el potencial de Views sin tropezar con su pronunciada curva de aprendizaje.\n\nA través de más de 50 recetas prácticas, la obra desglosa todas las facetas del módulo: modificación de las vistas predeterminadas del núcleo, creación de vistas personalizadas en formatos de página, bloque y feeds, y configuración de filtros expuestos para que los usuarios finales realicen búsquedas interactivas. El núcleo técnico del libro profundiza en los dos conceptos más complejos de Views: los filtros contextuales (argumentos extraídos de la URL) y las relaciones entre entidades o términos de taxonomía. También aborda la creación de pantallas compuestas con archivos adjuntos (attachments), la sobreescritura de plantillas de Views, la reescritura de campos, la integración con Chaos Tools (CTools) y la exportación y definición de vistas mediante código con la Views API.\n\nEl libro ejercita la resolución de requerimientos reales frecuentes: bloques de contenido relacionado, listas aleatorias, directorios con filtros facetados, galerías multimedia y paneles administrativos interactivos. Su gran valor reside en explicar con claridad meridiana mecanismos abstractos como las relaciones y los filtros contextuales, ahorrando horas de ensayo y error. Quedan fuera aspectos de diseño global del sitio o programación de módulos ajenos a la Views API. Es fundamental comprender previamente cómo gestiona Drupal 7 los tipos de contenido, nodos y campos.",
+    "temas": [
+      "Drupal 7",
+      "Views 3",
+      "Contextual Filters",
+      "Relationships",
+      "Exposed Filters",
+      "Displays",
+      "Views API",
+      "CTools",
+      "Theming de vistas",
+      "Caché de vistas"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/drupal-7-views-cookbook-9781849514347",
+      "https://www.amazon.com/Drupal-7-Views-Cookbook-Green/dp/1849514349",
+      "https://www.drupal.org/node/1484252"
+    ]
+  },
+  "drupal-search-engine-optimization-2012": {
+    "descripcion": "Guía técnica y directa escrita por Ric Shreves que aborda de forma sistemática el posicionamiento en buscadores para sitios web basados en Drupal 7. Está dirigida a administradores de sistemas, constructores de sitios (site builders) y propietarios de sitios web de nivel básico a intermedio que ya gestionan una instalación funcional de Drupal y desean potenciar su visibilidad orgánica en Google y otros motores de búsqueda sin necesidad de programar código PHP complejo.\n\nEl libro desgrana tanto la configuración nativa de Drupal 7 como los módulos clave de la comunidad esenciales para SEO. Enseña a implementar URLs amigables (Clean URLs) y patrones automáticos con Pathauto, gestionar metadatos y etiquetas de título mediante módulos como Metatag y Page Title, estructurar taxonomías y vocabularios para evitar duplicidades de contenido, configurar feeds RSS y generar mapas de sitio XML con XML Sitemap. También aborda la integración con herramientas analíticas como Google Analytics y Google Webmaster Tools (Search Console), además de técnicas de optimización para redes sociales (SMO).\n\nNo se trata de un libro orientado al desarrollo de aplicaciones desde cero, sino de un manual de auditoría y configuración táctica sobre proyectos existentes. Su mayor valor reside en su lista de verificación para el prelanzamiento y en sus pautas de mantenimiento continuo para la construcción de enlaces (link building) y seguimiento analítico de tráfico. Queda fuera cualquier aspecto de programación interna de temas o creación de módulos a medida. Conviene contar con un sitio Drupal 7 ya instalado y con contenido para aplicar y verificar de inmediato cada ajuste.",
+    "temas": [
+      "Drupal 7",
+      "SEO on-page",
+      "Pathauto",
+      "Metatag",
+      "XML Sitemap",
+      "Clean URLs",
+      "Taxonomía",
+      "Google Analytics",
+      "Google Search Console",
+      "Optimización web"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/drupal-search-engine-optimization-9781849518789",
+      "https://www.drupal.org/node/1785532",
+      "https://www.amazon.com/Drupal-Search-Engine-Optimization-Shreves/dp/1849518788",
+      "https://www.goodreads.com/book/show/15984606-drupal-search-engine-optimization"
+    ]
+  },
+  "joomla-3-beginner-s-guide-2nd-edition-2014": {
+    "descripcion": "Manual práctico y profusamente ilustrado en el que Eric Tiggeler introduce el diseño y la gestión de portales web con Joomla! 3 (actualizado a su segunda edición). Está pensado para principiantes absolutos, profesionales de comunicación y diseñadores novatos sin experiencia previa en programación, bases de datos o administración de servidores, que buscan aprender a crear portales web dinámicos, modernos y adaptados a dispositivos móviles.\n\nLa obra explica con detalle el flujo de trabajo dentro del panel administrativo de Joomla! 3 y la integración nativa de Bootstrap para maquetación responsiva. Enseña a instalar el entorno de desarrollo local con XAMPP, estructurar contenidos mediante categorías y artículos, diseñar sistemas de navegación con el gestor de menús y maquetar páginas atractivas usando módulos y posiciones de plantillas. Además, cubre la gestión de usuarios y niveles de acceso (ACL), la integración de extensiones de terceros como galerías fotográficas y editores WYSIWYG avanzados (JCE), así como la configuración de URLs amigables (SEF), metadatos para SEO y copias de seguridad.\n\nEl aprendizaje se articula en torno a la creación paso a paso de un portal web completo para un club ficticio, lo que permite experimentar de forma tangible cómo encajan los menús, las categorías y los módulos en un caso realista. Su gran virtud es desmitificar la curva de aprendizaje de Joomla mediante explicaciones visuales claras y metódicas. Como contrapartida, deja completamente fuera el desarrollo de código PHP o la edición avanzada de hojas de estilo CSS. Resulta una lectura ideal para familiarizarse con la plataforma antes de adentrarse en la programación de extensiones.",
+    "temas": [
+      "Joomla! 3",
+      "CMS",
+      "Bootstrap",
+      "Gestor de contenidos",
+      "Menús y navegación",
+      "Plantillas responsivas",
+      "Control de acceso (ACL)",
+      "Extensiones Joomla",
+      "SEO básico",
+      "XAMPP"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio web para el club CORBA",
+        "descripcion": "Portal web completo para un club de coleccionistas de arte construido paso a paso con Joomla! 3, que integra categorías de artículos, galerías multimedia, menús jerárquicos, control de acceso para miembros y una plantilla responsiva adaptada para móviles."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/joomla-3-beginners-guide-second-edition-9781783981502",
+      "https://www.amazon.com/Joomla-3-Beginners-Guide-Second/dp/1783981504",
+      "https://www.goodreads.com/book/show/22818987-joomla-3-beginner-s-guide---second-edition"
+    ]
+  },
+  "learning-joomla-3-extension-development-3rd-edition-2013": {
+    "descripcion": "Guía de desarrollo técnico escrita por Tim Plummer que enseña a programar extensiones a medida para el gestor de contenidos Joomla! 3 (en su tercera edición). El libro está dirigido a programadores web y diseñadores técnicos que ya poseen bases sólidas de PHP, HTML, CSS y bases de datos relacionales con MySQL, y que desean adentrarse en el desarrollo del backend y frontend de Joomla sin necesidad de haber programado extensiones anteriormente.\n\nEl texto analiza en profundidad la arquitectura Modelo-Vista-Controlador (MVC) interna de Joomla! 3 y las convenciones de la plataforma. Explica cómo crear plugins (`plg_`) para interceptar eventos del sistema, cómo programar módulos (`mod_`) frontend y backend para la presentación de datos en bloques, y cómo construir componentes completos (`com_`) desde cero con tablas en MySQL, formularios definidos mediante JForm, controladores de acciones y barras de herramientas administrativas. También aborda la integración con el motor de búsqueda inteligente (Smart Search), la internacionalización con archivos INI, técnicas de auditoría de seguridad para mitigar vulnerabilidades y el empaquetado final en archivos ZIP distribuibles.\n\nEl núcleo práctico del libro guía al lector en la creación progresiva de un componente real de portafolios (denominado com_folio), abarcando desde las tablas de la base de datos y la interfaz de gestión administrativa hasta la visualización pública responsiva para los visitantes. Aporta un salto cualitativo riguroso desde el rol de administrador al de desarrollador de software para Joomla, fundamentando las mejores prácticas de la API. Deja fuera la creación estética de plantillas, centrándose exclusivamente en la programación de extensiones. Conviene dominar programación orientada a objetos en PHP antes de comenzar.",
+    "temas": [
+      "Joomla! 3",
+      "PHP",
+      "Arquitectura MVC",
+      "Componentes Joomla",
+      "Módulos",
+      "Plugins",
+      "MySQL",
+      "JForm",
+      "Seguridad web",
+      "Smart Search"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Componente com_folio",
+        "descripcion": "Extensión MVC integral para Joomla! 3 diseñada para gestionar y publicar proyectos de portafolio, con panel de administración para operaciones CRUD, filtros de datos, interfaz JForm y vistas públicas responsivas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/learning-joomla-3-extension-development-third-edition-9781782168379",
+      "https://www.oreilly.com/library/view/learning-joomla-3/9781782168379/",
+      "https://www.amazon.com/Learning-Joomla-Extension-Development-Third/dp/1782168370"
+    ]
+  },
+  "programming-drupal-7-entities-2013": {
+    "descripcion": "Tratado técnico especializado escrito por Sammy Spets que profundiza en el sistema de entidades introducido en Drupal 7. Está orientado a desarrolladores de PHP y Drupal de nivel intermedio a avanzado que ya dominan el sistema de hooks y la creación básica de módulos, y que buscan superar las limitaciones de modelar toda la información del sitio como nodos mediante el uso del framework de entidades nativo.\n\nEl contenido aborda con rigor los pilares del subsistema de datos de Drupal 7: tipos de entidad (Entity Types), variantes (Bundles) y campos adjuntables (Fields). Enseña a implementar `hook_entity_info()` y esquemas de base de datos con `hook_schema()`, aprovechar las clases y comodidades del módulo contribuido Entity API, y manipular propiedades y campos de forma segura mediante `EntityMetadataWrapper`. Asimismo, profundiza en consultas estructuradas y eficientes con `EntityFieldQuery` (EFQ), el uso del módulo Field Collection, el diseño de controladores CRUD personalizados y la integración con Views y Rules.\n\nA lo largo de los capítulos se construyen módulos específicos para declarar tipos de entidad personalizados locales (gestionando tablas dedicadas sin sobrecargar la estructura de nodos) y para envolver fuentes de datos remotas provenientes de servicios web como entidades nativas de Drupal. Su gran mérito es aportar claridad técnica sobre una de las APIs más potentes y complejas de la versión 7, elevando la calidad del modelado de datos. Deja fuera conceptos elementales de maquetación y administración visual. Requiere un manejo fluido de PHP orientado a objetos y familiaridad con el ciclo de vida de los módulos de Drupal.",
+    "temas": [
+      "Drupal 7",
+      "Entity API",
+      "EntityMetadataWrapper",
+      "EntityFieldQuery",
+      "hook_entity_info",
+      "hook_schema",
+      "Field Collection",
+      "Modelado de datos",
+      "PHP",
+      "Views"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Módulo de entidad local personalizada",
+        "descripcion": "Módulo para Drupal 7 que implementa hook_entity_info(), controladores de clase CRUD y esquemas de base de datos para almacenar y gestionar estructuras de datos complejas sin recurrir a nodos."
+      },
+      {
+        "nombre": "Conector de entidades remotas",
+        "descripcion": "Extensión que expone datos procedentes de APIs y servicios web externos bajo el paradigma de entidades de Drupal 7, permitiendo consumirlos y filtrarlos de forma nativa a través de Views y Rules."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/programming-drupal-7-entities-9781782166528",
+      "https://www.drupal.org/node/2034947",
+      "https://www.amazon.com/Programming-Drupal-7-Entities-Sammy/dp/1782166521"
+    ]
+  },
+  "beginning-drupal-2010": {
+    "descripcion": "Manual formativo integral de Jacob Redding (referente y exmiembro de la junta de la Drupal Association) que introduce la versión Drupal 7 desde sus fundamentos. Está pensado para principiantes, diseñadores web y desarrolladores de nivel básico que desean allanar la pronunciada curva de aprendizaje de Drupal, guiándolos progresivamente desde la administración básica del panel de control hasta la programación de módulos propios en PHP.\n\nLa obra recorre metódicamente la arquitectura de Drupal 7: instalación sobre pilas LAMP/WAMP, gestión de usuarios, roles y permisos, organización de contenido con nodos, bloques y el sistema de taxonomías. Explica la creación de listados dinámicos con el módulo Views, la automatización con Triggers, Actions y el módulo Rules, y la configuración de sitios multilingües. En su bloque de desarrollo, profundiza en la capa de temas (theming layer con plantillas `.tpl.php`), el sistema de hooks (`hook_menu`, `hook_block_info`), la API de base de datos de Drupal y la arquitectura para instalaciones multisitio que comparten usuarios o contenidos.\n\nEl recorrido práctico conduce al lector por la puesta en marcha de un portal web interactivo con foros y blogs, culminando con el desarrollo paso a paso de un módulo personalizado completo con sus propias tablas en base de datos, bloques y formularios administrativos. Su mayor fortaleza radica en tender un puente sólido entre el constructor de sitios visual (site builder) y el programador de backend. Deja fuera la arquitectura de la Entity API avanzada que maduró posteriormente en el ciclo de vida de Drupal 7. Conviene disponer de un entorno local con servidor web y MySQL para seguir los talleres prácticos.",
+    "temas": [
+      "Drupal 7",
+      "CMS",
+      "Views",
+      "Taxonomía",
+      "Theming",
+      "Sistema de Hooks",
+      "Rules",
+      "Multisitio",
+      "PHP",
+      "Administración web"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal web comunitario interactivo",
+        "descripcion": "Sitio web configurado paso a paso con Drupal 7 que implementa tipos de contenido estructurados, foros de discusión, taxonomías, automatizaciones con Rules y listados dinámicos mediante Views."
+      },
+      {
+        "nombre": "Módulo personalizado con hooks y base de datos",
+        "descripcion": "Extensión programada desde cero para Drupal 7 utilizando PHP y la API de hooks, que crea tablas propias en la base de datos, define bloques de interfaz y añade páginas de configuración administrativa."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Beginning+Drupal-p-9780470438527",
+      "https://www.drupal.org/node/771694",
+      "https://www.amazon.com/Beginning-Drupal-Jacob-Redding/dp/0470438528"
+    ]
+  },
+  "drupal-2011": {
+    "descripcion": "Guía metodológica y estratégica escrita por Cynthia McCourt dedicada a la planificación integral y el ciclo de vida de proyectos web sobre Drupal, situada en la transición de Drupal 6 y la consolidación de Drupal 7. El libro está orientado a principiantes, diseñadores web, gestores de proyectos y constructores de sitios (site builders) que necesitan estructurar portales de forma ordenada y profesional sin escribir código PHP a bajo nivel, requiriendo únicamente familiaridad básica con la navegación web y la lógica de los gestores de contenidos.\n\nLa autora aborda el desarrollo desde la arquitectura y la gestión, enseñando a definir los requerimientos y el alcance del sitio, diseñar la arquitectura de información y estructurar los contenidos mediante tipos de contenido (Content Types), campos y taxonomías. Explora con criterio la selección y evaluación de módulos del ecosistema de Drupal (como Views, Panels, Webform y CCK/Field API), la configuración de cuentas de usuario con matrices de roles y permisos, la formalización de flujos de trabajo editoriales, directrices de seguridad y la preparación de entornos de desarrollo, pruebas y despliegue.\n\nEn lugar de programar una aplicación desde cero con código, el libro guía la creación de planes de arquitectura técnica, inventarios de contenido y especificaciones funcionales para proyectos como sitios corporativos o portales comunitarios. Su gran valor está en llenar el vacío de planificación previa que suele hacer fracasar a las implantaciones de Drupal; como contrapartida, deja completamente fuera la programación de módulos a medida en PHP, los hooks internos del núcleo y la maquetación de plantillas avanzadas (theming). Es una lectura preparatoria ideal antes de abordar la construcción de sitios web medianos o complejos.",
+    "temas": [
+      "Drupal 7",
+      "Drupal 6",
+      "Arquitectura de información",
+      "Planificación de sitios web",
+      "Tipos de contenido",
+      "Taxonomías",
+      "Módulos contribuidos",
+      "Roles y permisos",
+      "Gestión de proyectos CMS",
+      "Seguridad y mantenimiento"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Drupal%3A+The+Guide+to+Planning+and+Building+Websites-p-9781118066867",
+      "https://www.amazon.com/Drupal-Guide-Planning-Building-Websites/dp/1118066863",
+      "https://www.drupal.org/node/1242336",
+      "https://www.goodreads.com/book/show/12482329-drupal"
+    ]
+  }
+}

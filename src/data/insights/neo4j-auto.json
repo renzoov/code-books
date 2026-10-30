@@ -1,0 +1,155 @@
+{
+  "beginning-neo4j-2015": {
+    "descripcion": "Manual introductorio y accesible de Chris Kemper sobre Neo4j, la base de datos orientada a grafos más popular del ecosistema de bases de datos NoSQL.\n\nEl autor introduce el modelo de grafo de propiedades etiquetadas (LPG: nodos, relaciones, propiedades y etiquetas), el lenguaje de consulta declarativo Cypher (cláusulas MATCH, WHERE, RETURN, CREATE), y cómo modelar redes sociales, árboles de categorías y sistemas de rutas. Enseña a conectar aplicaciones en Java y Node.js con Neo4j mediante controladores oficiales.\n\nIdeal para quienes se inician en el paradigma de bases de datos de grafos y buscan una formación clara y directa.",
+    "temas": [
+      "Neo4j",
+      "Bases de Datos de Grafos",
+      "Cypher",
+      "Nodos y Relaciones",
+      "Property Graph",
+      "Modelado de Grafos",
+      "NoSQL",
+      "Redes Sociales"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Red social temática modelada en grafo con Neo4j",
+        "descripcion": "Creación de una base de datos de grafos con usuarios, amistades e intereses comunes, ejecutando recomendaciones de amigos mediante consultas Cypher."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "neo4j-in-action-2014": {
+    "descripcion": "Tratado técnico exhaustivo y aclamado escrito por Aleksa Vukotic, Dominic Fox, Jonas Partner, Nicki Watt y Tareq Abedrabbo sobre Neo4j y el análisis de grafos empresariales.\n\nLos autores profundizan en la arquitectura de almacenamiento de punteros dobles (index-free adjacency) que permite atravesar millones de relaciones por segundo, optimización de consultas complejas en Cypher, algoritmos de caminos mínimos (Dijkstra, A*), extensiones de servidor no administradas y clustering para alta disponibilidad. Incluye casos de estudio de detección de fraude y motores de recomendación.\n\nUna de las obras maestras indiscutibles sobre bases de datos de grafos, imprescindible para arquitectos de datos e ingenieros backend.",
+    "temas": [
+      "Neo4j",
+      "Index-Free Adjacency",
+      "Cypher",
+      "Algoritmos de Grafos",
+      "Dijkstra",
+      "Detección de Fraude",
+      "Manning",
+      "High Availability"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor corporativo de detección de fraudes bancarios en grafos",
+        "descripcion": "Diseño e implementación de un sistema que detecta anillos de fraude y cuentas bancarias comprometidas analizando patrones circulares de transacciones."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "learning-cypher-2014": {
+    "descripcion": "Guía especializada de Onofrio Panzarino dedicada por entero a Cypher, el lenguaje declarativo de consulta de grafos diseñado para ser intuitivo y expresivo mediante representaciones visuales ASCII.\n\nEl autor enseña a formular consultas complejas: coincidencia de patrones de rutas variables, agregaciones y proyecciones, manipulación de colecciones, ordenamientos, creación y actualización atómica de subgrafos, y uso de índices y restricciones para acelerar búsquedas. Incluye análisis de planes de ejecución mediante PROFILE y EXPLAIN.\n\nUna referencia técnica esencial para cualquier desarrollador que necesita dominar la escritura de consultas de alto rendimiento en Neo4j.",
+    "temas": [
+      "Cypher",
+      "Neo4j",
+      "Query Language",
+      "Pattern Matching",
+      "PROFILE",
+      "Índices",
+      "Grafos",
+      "Optimización"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "learning-neo4j-2014": {
+    "descripcion": "Manual práctico y didáctico de Rik Van Bruggen, director técnico en Neo4j, enfocado en capacitar a ingenieros en el modelado y explotación de datos conectados.\n\nEl autor repasa los conceptos clave del modelo de grafo, demostrando por qué las consultas recursivas y con múltiples joins colapsan en bases de datos relacionales mientras que en Neo4j se ejecutan en tiempo constante. Explica cómo migrar datos desde esquemas relacionales tabulares hacia grafos, construir paneles con Neo4j Browser y conectar aplicaciones web.\n\nMuy formativo para desarrolladores y analistas que desean transformar datos altamente interconectados en valor para el negocio.",
+    "temas": [
+      "Neo4j",
+      "Rik Van Bruggen",
+      "Migración RDBMS a Grafos",
+      "Cypher",
+      "Connected Data",
+      "Neo4j Browser",
+      "NoSQL",
+      "Modelado"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Migración de base de datos relacional de comercio a grafo Neo4j",
+        "descripcion": "Extracción y transformación de datos relacionales de clientes, compras y categorías hacia un grafo con análisis de patrones de compra."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "neo4j-cookbook-2015": {
+    "descripcion": "Recetario de soluciones prácticas de Ankur Goel que recopila más de 65 recetas directas para resolver problemas habituales de administración, consulta y desarrollo con Neo4j.\n\nEl libro contiene soluciones para importación masiva de datos con neo4j-import y LOAD CSV, integración con Elasticsearch para búsqueda textual completa, optimización de caché de páginas (Page Cache), creación de procedimientos y plugins personalizados de servidor en Java, y despliegue en entornos de nube (AWS EC2/Docker).\n\nUna excelente guía de consulta rápida para administradores de bases de datos y desarrolladores backend que operan clústeres Neo4j.",
+    "temas": [
+      "Neo4j",
+      "Cookbook",
+      "Ankur Goel",
+      "LOAD CSV",
+      "Elasticsearch",
+      "Page Cache",
+      "Plugins Java",
+      "Importación Masiva"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "neo4j-graph-data-modeling-2015": {
+    "descripcion": "Tratado metodológico de Mahesh Lal dedicado al diseño y modelado de datos en grafos, comparando las formas de modelar para rendimiento frente a las normas de diseño relacionales tradicionales.\n\nLal expone cómo evitar cuellos de botella comunes: gestión de nodos densos (supernodes con millones de relaciones), modelado de jerarquías y líneas temporales (time-trees), desnormalización estratégica en grafos y refactorización incremental de esquemas sin detener el servicio. Enseña a evaluar cómo las decisiones de modelado afectan directamente a la velocidad de las consultas Cypher.\n\nLectura imprescindible para ingenieros de datos y arquitectos de software que diseñan modelos de grafos a escala empresarial.",
+    "temas": [
+      "Modelado de Grafos",
+      "Neo4j",
+      "Supernodes",
+      "Time-Trees",
+      "Cypher",
+      "Arquitectura de Datos",
+      "Rendimiento",
+      "NoSQL"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Modelo de datos temporales y logísticos para transporte",
+        "descripcion": "Diseño de un esquema de grafo con nodos de eventos ordenados por árboles de tiempo para rastrear rutas y envíos en tiempo real sin sobrecargar nodos centrales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "neo4j-high-performance-2015": {
+    "descripcion": "Guía avanzada de Sonal Raj centrada en exprimir el máximo rendimiento, throughput y escalabilidad de Neo4j en entornos de producción intensivos.\n\nEl autor desmenuza la asignación y ajuste de memoria de la JVM y de la caché de páginas de Neo4j, optimización de consultas complejas en Cypher para evitar exploraciones completas del grafo (full graph scans), particionamiento de datos y replicación de clústeres con Neo4j Enterprise. Además, cubre técnicas de perfilado y auditoría con métricas JMX.\n\nIndispensable para administradores de sistemas, ingenieros de fiabilidad (SRE) y desarrolladores senior que gestionan clústeres de Neo4j de misión crítica.",
+    "temas": [
+      "Neo4j",
+      "High Performance",
+      "Sonal Raj",
+      "JVM Tuning",
+      "Page Cache",
+      "Clustering",
+      "JMX",
+      "Optimización Cypher"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

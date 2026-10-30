@@ -1,0 +1,485 @@
+{
+  "beginning-oracle-database-12c-administration-2015": {
+    "descripcion": "Guía práctica y metódica de Ignatius Fernandez sobre la administración esencial de Oracle Database 12c, orientada a formar a nuevos DBAs en los estándares corporativos.\n\nEl autor enseña la arquitectura multitenant revolucionaria (CDB y PDBs), instalación y configuración de instancias, gestión de tablespaces y ficheros de datos, administración de usuarios y privilegios del sistema, y monitorización básica con Enterprise Manager Cloud Control. Además, aborda la realización de copias de seguridad lógicas con Data Pump y físicas con RMAN.\n\nUn manual de iniciación muy valorado por su enfoque pedagógico paso a paso para superar la curva inicial de administración de Oracle.",
+    "temas": [
+      "Oracle 12c",
+      "DBA",
+      "Multitenant",
+      "CDB y PDB",
+      "Tablespaces",
+      "RMAN",
+      "Data Pump",
+      "Enterprise Manager"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aprovisionamiento y clonación de PDBs en Oracle 12c",
+        "descripcion": "Configuración de una base de datos contenedor (CDB) y despliegue automatizado de múltiples bases de datos conectables (PDBs) para entornos de prueba."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "beginning-oracle-plsql-2nd-edition-2015": {
+    "descripcion": "Segunda edición del manual introductorio de Donald Bales para aprender a programar lógica procedimental de base de datos con Oracle PL/SQL.\n\nBales guía al principiante a través de bloques anónimos, tipos de datos escalares y compuestos, estructuras condicionales y bucles, cursores explícitos e implícitos, procedimientos, funciones y paquetes (packages). El texto destaca por enseñar a estructurar código modular y encapsulado desde las primeras lecciones.\n\nIdeal para desarrolladores y analistas que necesitan crear rutinas backend eficientes en bases de datos Oracle.",
+    "temas": [
+      "PL/SQL",
+      "Donald Bales",
+      "Oracle",
+      "Paquetes",
+      "Procedimientos",
+      "Funciones",
+      "Cursores",
+      "Programación Backend"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Paquete PL/SQL para cálculo y procesamiento de nóminas",
+        "descripcion": "Construcción de un package completo con procedimientos sobrecargados, validaciones de contratos y transacciones atómicas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "beginning-oracle-sql-for-oracle-database-18c-2019": {
+    "descripcion": "Manual didáctico y moderno de Ben Brumm diseñado para dominar las consultas y manipulación de datos con SQL en Oracle Database 18c y 19c.\n\nEl autor enseña desde sentencias SELECT elementales, filtros WHERE y ordenamientos hasta uniones complejas (ANSI joins), subconsultas correlacionadas, funciones analíticas y agregaciones estadísticas. Además, cubre la creación y modificación de tablas (DDL), restricciones de integridad y transacciones con COMMIT y ROLLBACK.\n\nUna excelente guía de iniciación para analistas, programadores y estudiantes que se adentran en el dialecto SQL de Oracle.",
+    "temas": [
+      "Oracle SQL",
+      "Ben Brumm",
+      "Oracle 18c",
+      "Consultas SQL",
+      "ANSI Joins",
+      "Subconsultas",
+      "Funciones Analíticas",
+      "DDL"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "database-systems-2nd-edition-2016": {
+    "descripcion": "Segunda edición del libro de texto universitario de Elvis C. Foster y Shripad Godbole sobre fundamentos teóricos y diseño práctico de sistemas de bases de datos.\n\nLos autores combinan teoría formal (modelo relacional, álgebra relacional, cálculo relacional y formas normales hasta BCNF) con implementaciones prácticas en Oracle Database y SQL Server. Se analizan el procesamiento y optimización de transacciones (concurrencia, aislamiento ACID, recuperación ante desastres) y almacenes de datos analíticos (Data Warehouses).\n\nUna obra académica rigurosa muy utilizada en programas de ciencias de la computación e ingeniería informática.",
+    "temas": [
+      "Sistemas de Bases de Datos",
+      "Álgebra Relacional",
+      "Normalización",
+      "BCNF",
+      "Transacciones ACID",
+      "Oracle",
+      "Data Warehousing",
+      "Universidad"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Diseño y normalización completa de un sistema hospitalario",
+        "descripcion": "Modelado conceptual entidad-relación, transformación a esquema relacional en tercera forma normal y creación de scripts DDL con restricciones en Oracle."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "expert-oracle-database-architecture-3rd-edition-2014": {
+    "descripcion": "La obra maestra canónica indiscutible de Thomas Kyte (creador de Ask Tom y vicepresidente de Oracle) y Darl Kuhn, considerada la biblia técnica suprema sobre el funcionamiento interno de Oracle Database.\n\nKyte disecciona los principios arquitectónicos esenciales que separan el éxito del fracaso en Oracle: la estructura de memoria (SGA y PGA), procesos de fondo (DBWn, LGWR, CKPT, SMON, PMON), archivos de control, redo logs y undo, control de concurrencia multiversión sin bloqueos de lectura (latch vs lock), tipos de datos y particionamiento. Kyte insiste en su mantra fundamental: 'comprende la arquitectura de la base de datos o prepárate para fracasar'.\n\nLectura obligatoria y rito de paso técnico indispensable para todo desarrollador, DBA o arquitecto que trabaje con Oracle Database.",
+    "temas": [
+      "Thomas Kyte",
+      "Ask Tom",
+      "Oracle Architecture",
+      "SGA y PGA",
+      "Redo y Undo",
+      "Concurrencia MVCC",
+      "Latches y Locks",
+      "Particionamiento"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Diagnóstico de contención de concurrencia y optimización de Undo",
+        "descripcion": "Análisis forense de escenarios de contención de cierres (latches) y dimensionamiento de segmentos de Undo para erradicar errores ORA-01555."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "expert-oracle-indexing-and-access-paths-2nd-edition-2016": {
+    "descripcion": "Segunda edición del tratado técnico de Darl Kuhn, Sam Alapati y Bill Padfield dedicado íntegramente a las estructuras de índices y rutas de acceso del optimizador en Oracle.\n\nLos autores analizan en profundidad los árboles B (B-Tree indexes), índices de mapa de bits (Bitmap indexes), índices basados en funciones (FBI), tablas organizadas por índice (IOT) e índices particionados. Explican cómo el optimizador basado en costes (CBO) decide entre exploraciones de índice completas, de rango o escaneos completos de tabla (FTS), y cómo diagnosticar índices invisibles o no utilizados.\n\nUna guía técnica de alto nivel indispensable para afinadores de rendimiento (performance tuners) y diseñadores de esquemas en Oracle.",
+    "temas": [
+      "Indexación Oracle",
+      "B-Tree",
+      "Bitmap Index",
+      "Cost-Based Optimizer",
+      "IOT",
+      "Access Paths",
+      "FTS",
+      "Query Tuning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "expert-plsql-practices-2011": {
+    "descripcion": "Compendio maestro de técnicas y mejores prácticas avanzadas escrito por quince reconocidos Oracle ACE Directors y expertos mundiales (Adrian Billington, Arup Nanda, Connor McDonald, Melanie Caffrey, Michael Rosenblum y otros).\n\nEl libro recopila lecciones invaluables de ingeniería: procesamiento por lotes masivo con BULK COLLECT y FORALL, gestión eficiente de memoria con RESULT_CACHE, profilado de ejecución con DBMS_HPROF, invocación de código con privilegios del definidor vs invocador (AUTHID), y diseño de arquitecturas PL/SQL altamente reutilizables y seguras contra inyecciones.\n\nUna de las mejores y más respetadas lecturas avanzadas de PL/SQL para desarrolladores corporativos de élite.",
+    "temas": [
+      "PL/SQL Avanzado",
+      "Oracle ACE",
+      "BULK COLLECT",
+      "FORALL",
+      "RESULT_CACHE",
+      "DBMS_HPROF",
+      "AUTHID",
+      "Best Practices"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Canalización de procesamiento masivo por lotes con BULK COLLECT y FORALL",
+        "descripcion": "Implementación de una rutina transaccional que procesa millones de filas con conmutación mínima de contexto entre el motor SQL y PL/SQL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "oracle-sql-revealed-2018": {
+    "descripcion": "Tratado técnico de Alex Reprintsev que revela los mecanismos internos y particularidades del motor SQL de Oracle y el Optimizador Basado en Costes (CBO).\n\nEl autor enseña a descifrar los planes de ejecución reales generados por el motor, comprender las estadísticas del sistema y de tablas (histogramas, cardinalidad estimada vs real), interpretar hints del optimizador y resolver consultas que sufren degradaciones repentinas de rendimiento. Examina transformaciones de consultas complejas como la eliminación de joins y desanidamiento de subconsultas.\n\nIndispensable para desarrolladores senior que necesitan que sus consultas SQL se ejecuten con tiempos óptimos en bases de datos críticas.",
+    "temas": [
+      "Oracle SQL",
+      "Alex Reprintsev",
+      "Cost-Based Optimizer",
+      "Histogramas",
+      "Hints SQL",
+      "Planes de Ejecución",
+      "Cardinalidad",
+      "Tuning"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "oracle-visual-builder-cloud-service-revealed-2019": {
+    "descripcion": "Guía práctica de Sten Vesterli sobre Oracle Visual Builder Cloud Service (VBCS), la plataforma de desarrollo visual en la nube para crear aplicaciones web y móviles corporativas.\n\nEl autor enseña a consumir servicios RESTful de Oracle Cloud, diseñar interfaces de usuario enriquecidas basadas en Oracle JET y componentes web, implementar lógica comercial del lado del cliente mediante cadenas de acciones visuales, y desplegar soluciones integradas con aplicaciones SaaS de Oracle (ERP, HCM, CX).\n\nMuy formativo para consultores y desarrolladores de soluciones empresariales que extienden el ecosistema cloud de Oracle con interfaces a medida.",
+    "temas": [
+      "Visual Builder",
+      "VBCS",
+      "Oracle Cloud",
+      "Oracle JET",
+      "REST APIs",
+      "SaaS Extension",
+      "Low-Code",
+      "Web Components"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de portal de clientes con Oracle Visual Builder",
+        "descripcion": "Construcción de un portal web responsivo que consume APIs REST empresariales y valida formularios mediante cadenas de acciones."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "practical-oracle-jet-2019": {
+    "descripcion": "Manual exhaustivo de Daniel Curtis dedicado a Oracle JavaScript Extension Toolkit (JET), el framework de código abierto de Oracle para construir aplicaciones frontend empresariales modernas.\n\nEl libro cubre la arquitectura basada en Web Components, enlace reactivo con Knockout.js, modularización con RequireJS, visualizaciones de datos interactivas (gráficos avanzados de Oracle JET), y consumo seguro de servicios backend REST. Además, enseña flujos de trabajo de empaquetado y pruebas automatizadas.\n\nUna referencia técnica indispensable para ingenieros frontend que desarrollan interfaces de usuario sobre la pila tecnológica corporativa de Oracle.",
+    "temas": [
+      "Oracle JET",
+      "JavaScript",
+      "Web Components",
+      "Knockout.js",
+      "RequireJS",
+      "Visualización de Datos",
+      "REST APIs",
+      "Frontend"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tablero financiero analítico corporativo con Oracle JET",
+        "descripcion": "Desarrollo de una interfaz web con componentes gráficos interactivos, tablas dinámicas con ordenamiento en cliente y consumo de APIs REST."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "practical-oracle-sql-2020": {
+    "descripcion": "Guía práctica y entretenida de Kim Berg Hansen (campeón de Oracle Dev Gym) enfocada en resolver problemas reales de negocio utilizando exclusivamente el poder declarativo de SQL moderno en Oracle.\n\nEl autor enseña a dominar técnicas avanzadas como la cláusula MODEL para cálculos matriciales de estilo hoja de cálculo, la cláusula MATCH_RECOGNIZE para coincidencia de patrones en secuencias de filas, expresiones de tabla comunes recursivas (WITH jerárquico), y funciones analíticas de ventana. Muestra cómo eliminar cientos de líneas de código PL/SQL procedural mediante consultas SQL elegantes.\n\nLectura imprescindible para programadores de SQL que desean llevar sus consultas al máximo nivel de maestría técnica y expresividad.",
+    "temas": [
+      "Oracle SQL",
+      "Kim Berg Hansen",
+      "MATCH_RECOGNIZE",
+      "Cláusula MODEL",
+      "Funciones Analíticas",
+      "Subquery Factoring",
+      "WITH Recursivo",
+      "Clean SQL"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor analítico de detección de secuencias de eventos con MATCH_RECOGNIZE",
+        "descripcion": "Implementación de consultas SQL para identificar patrones de caídas y subidas de cotizaciones en series temporales de transacciones bursátiles."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-oracle-sql-development-2019": {
+    "descripcion": "Tratado avanzado de Jon Heller sobre la ingeniería de software y desarrollo profesional de soluciones de base de datos con Oracle SQL y PL/SQL.\n\nHeller enseña a tratar el código de base de datos con los mismos estándares de ingeniería que el software tradicional: control de versiones con Git, diseño modular, pruebas unitarias automatizadas con utPLSQL, formateo estricto, análisis estático y optimización de planes de ejecución mediante telemetría DBMS_XPLAN. Aborda además patrones de diseño de esquemas relacionales.\n\nUna de las mejores obras modernas para elevar la calidad, mantenibilidad y robustez del desarrollo en entornos Oracle empresariales.",
+    "temas": [
+      "Jon Heller",
+      "Pro Oracle SQL",
+      "utPLSQL",
+      "Unit Testing",
+      "DBMS_XPLAN",
+      "Git para DBAs",
+      "Ingeniería de Software",
+      "Clean Code"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite automatizada de pruebas unitarias de base de datos con utPLSQL",
+        "descripcion": "Diseño de un framework de tests unitarios que valida automáticamente reglas de negocio en procedimientos almacenados dentro de un pipeline CI/CD."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "murach-s-oracle-sql-and-plsql-for-developers-2nd-edition-2014": {
+    "descripcion": "Segunda edición del celebrado manual práctico de Joel Murach sobre Oracle SQL y PL/SQL, reconocido unánimemente por su excepcional claridad didáctica y enfoque visual.\n\nMurach enseña a escribir consultas SQL complejas con joins, subconsultas y funciones agregadas, modelar bases de datos normalizadas con Oracle SQL Developer, y programar bloques PL/SQL, cursores, procedimientos, funciones, paquetes y triggers de base de datos. Muestra cómo manejar transacciones y errores en entornos multiusuario.\n\nEl libro de texto preferido por formadores y autodidactas para adquirir una base sólida y productiva en el ecosistema de base de datos Oracle.",
+    "temas": [
+      "Murach",
+      "Joel Murach",
+      "Oracle SQL",
+      "PL/SQL",
+      "Oracle SQL Developer",
+      "Cursores",
+      "Triggers",
+      "Procedimientos"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Base de datos comercial 'Accounts Payable' con procedimientos y triggers",
+        "descripcion": "Construcción completa de una base de datos con gestión de facturas, auditoría automática de pagos mediante disparadores y reportes en SQL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "learning-oracle-plsql-2001": {
+    "descripcion": "Guía formativa clásica de Bill Pribyl y Steven Feuerstein diseñada para guiar a programadores principiantes en el aprendizaje de PL/SQL desde los cimientos.\n\nLos autores introducen la estructura fundamental de bloques, tipos de datos, control de flujo, sentencias DML incrustadas, manejo de excepciones predefinidas y definidas por el usuario, y la creación de procedimientos y funciones reutilizables. Cada concepto se acompaña de consejos didácticos para evitar errores habituales de principiantes.\n\nUna excelente puerta de entrada al lenguaje procedimental de Oracle respaldada por los mayores expertos mundiales en la materia.",
+    "temas": [
+      "Learning PL/SQL",
+      "Steven Feuerstein",
+      "Bill Pribyl",
+      "O'Reilly",
+      "Bloques PL/SQL",
+      "Excepciones",
+      "Procedimientos",
+      "Fundamentos"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "optimizing-oracle-performance-2003": {
+    "descripcion": "Tratado revolucionario de Cary Millsap y Jeff Holt que transformó radicalmente la metodología de optimización de bases de datos Oracle mediante el Método R (Method R).\n\nMillsap y Holt demuestran por qué los ratios de acierto tradicionales (buffer cache hit ratios) son engañosos y no sirven para afinar sistemas, proponiendo en su lugar medir el tiempo de respuesta real experimentado por el usuario mediante el análisis de eventos de espera del kernel de Oracle (Extended SQL Trace / Event 10046). Enseñan a perfilar llamadas y diagnosticar cuellos de botella con precisión científica.\n\nUna de las obras más influyentes e imperecederas en la historia de la ingeniería de bases de datos, imprescindible para cualquier DBA profesional.",
+    "temas": [
+      "Method R",
+      "Cary Millsap",
+      "Eventos de Espera",
+      "SQL Trace",
+      "Event 10046",
+      "Performance Tuning",
+      "Diagnóstico Científico",
+      "Oracle"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "oracle-built-in-packages-1988": {
+    "descripcion": "Manual técnico de referencia de Steven Feuerstein, Charles Dye y John Beresniewicz dedicado a los paquetes suministrados por Oracle (built-in packages) que extienden las capacidades nativas de la base de datos.\n\nLos autores documentan exhaustivamente paquetes clave como DBMS_SQL (SQL dinámico), DBMS_JOB (planificación de tareas), DBMS_PIPE y DBMS_ALERT (comunicación entre sesiones), UTL_FILE (lectura y escritura de archivos del sistema operativo) y DBMS_OUTPUT. Explican cómo aprovechar estas APIs del sistema para evitar reinventar la rueda.\n\nUna referencia técnica histórica fundamental para programadores que construían lógica avanzada dentro de la base de datos Oracle.",
+    "temas": [
+      "Built-in Packages",
+      "Steven Feuerstein",
+      "DBMS_SQL",
+      "DBMS_JOB",
+      "UTL_FILE",
+      "DBMS_PIPE",
+      "PL/SQL APIs",
+      "O'Reilly"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "oracle-essentials-5th-edition-2013": {
+    "descripcion": "Quinta edición del celebrado compendio conceptual de Rick Greenwald, Robert Stackowiak y Jonathan Stern sobre la arquitectura, tecnologías y componentes de Oracle Database 12c.\n\nLos autores sintetizan de forma lúcida cómo funciona la base de datos: estructuras de memoria, procesos de fondo, transacciones y control de concurrencia, alta disponibilidad con Real Application Clusters (RAC) y Data Guard, seguridad corporativa, y gestión con Enterprise Manager. Además, aborda la arquitectura multitenant y el hardware de ingeniería conjunta Exadata.\n\nEl manual panorámico definitivo para gerentes técnicos, arquitectos y desarrolladores que necesitan una visión global sólida de la plataforma Oracle.",
+    "temas": [
+      "Oracle Essentials",
+      "Rick Greenwald",
+      "RAC",
+      "Data Guard",
+      "Multitenant",
+      "Exadata",
+      "Arquitectura Oracle",
+      "O'Reilly"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "oracle-performance-tuning-2nd-edition-1996": {
+    "descripcion": "Segunda edición de la clásica guía de optimización de Mark Gurry y Peter Corrigan para Oracle 7 y 8, pionera en el afinamiento de bases de datos empresariales.\n\nLos autores cubren el dimensionamiento de parámetros del init.ora, balanceo de I/O en discos físicos, optimización del diccionario de datos y buffer cache, detección de bloqueos y contención de rollback segments, y el uso temprano de EXPLAIN PLAN y SQL Trace para optimizar sentencias SQL.\n\nUna obra histórica fundamental que formó a la primera generación de ingenieros de rendimiento en Oracle.",
+    "temas": [
+      "Performance Tuning",
+      "Mark Gurry",
+      "Peter Corrigan",
+      "Oracle 7",
+      "init.ora",
+      "EXPLAIN PLAN",
+      "Rollback Segments",
+      "O'Reilly"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "oracle-pl-sql-programming-6th-edition-2014": {
+    "descripcion": "Sexta edición de la monumental biblia de referencia mundial de Steven Feuerstein y Bill Pribyl sobre PL/SQL para Oracle Database 12c, con más de 1300 páginas de sabiduría técnica.\n\nFeuerstein disecciona minuciosamente cada faceta del lenguaje: tipos de datos avanzados, colecciones (nested tables, varrays, associative arrays), gestión rigurosa de excepciones, SQL dinámico nativo (EXECUTE IMMEDIATE), optimizaciones del compilador con optimizaciones inline y PL/SQL function result cache, triggers compuestos, y paquetes de infraestructura. Dedica capítulos especiales a la seguridad y prevención de inyecciones.\n\nLa referencia definitiva indiscutible sobre PL/SQL en el mundo, lectura obligatoria para cualquier programador profesional de Oracle.",
+    "temas": [
+      "Steven Feuerstein",
+      "Bill Pribyl",
+      "PL/SQL Programming",
+      "Colecciones",
+      "EXECUTE IMMEDIATE",
+      "Triggers Compuestos",
+      "Result Cache",
+      "Biblia PL/SQL"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de servicios de backend transaccional en PL/SQL",
+        "descripcion": "Construcción de un conjunto de paquetes modulares con caché de funciones, manejo jerárquico de excepciones y colecciones anidadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "oracle-plsql-language-pocket-reference-5th-edition-2015": {
+    "descripcion": "Quinta edición de la guía de bolsillo de Steven Feuerstein, Bill Pribyl y Chip Dawes sobre la sintaxis esencial de Oracle PL/SQL para Oracle Database 12c.\n\nEl manual sintetiza en formato ultracompacto la sintaxis de sentencias condicionales, bucles, manejo de excepciones, declaraciones de cursores, sentencias BULK COLLECT y FORALL, y funciones integradas más comunes. Diseñado para resolver dudas rápidas en segundos sin abandonar el editor de código.\n\nEl compañero indispensable de escritorio para cualquier desarrollador que programa habitualmente en PL/SQL.",
+    "temas": [
+      "Pocket Reference",
+      "Steven Feuerstein",
+      "PL/SQL",
+      "Sintaxis Rápida",
+      "BULK COLLECT",
+      "Cursores",
+      "O'Reilly",
+      "Referencia"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "oracle-advanced-plsql-developer-professional-guide-2012": {
+    "descripcion": "Tratado técnico de Saurabh K. Gupta enfocado en técnicas avanzadas de programación y arquitectura de software con Oracle PL/SQL 11g y 12c.\n\nEl autor enseña a implementar procesamiento paralelo en bases de datos con DBMS_PARALLEL_EXECUTE, compilación condicional con directivas del preprocesador ($$plsql_unit), manejo seguro de credenciales con DBMS_CRYPTO, gestión de trabajos en segundo plano con Oracle Scheduler (DBMS_SCHEDULER) y perfilado de rendimiento con DBMS_PROFILER.\n\nUna excelente guía de nivel profesional para ingenieros de software que diseñan sistemas backend altamente concurrentes sobre Oracle.",
+    "temas": [
+      "Advanced PL/SQL",
+      "DBMS_PARALLEL_EXECUTE",
+      "DBMS_SCHEDULER",
+      "DBMS_CRYPTO",
+      "Compilación Condicional",
+      "DBMS_PROFILER",
+      "Packt",
+      "Seguridad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework de procesamiento por lotes masivo en paralelo con DBMS_PARALLEL_EXECUTE",
+        "descripcion": "Implementación de una utilidad que particiona millones de filas de transacciones y las procesa en chunks concurrentes balanceados automáticamente."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "oracle-plsql-by-example-5th-edition-2015": {
+    "descripcion": "Quinta edición del prestigioso manual pedagógico de Benjamin Rosenzweig y Elena Rakhimov, adaptado a Oracle Database 12c y basado en su aclamado método de aprendizaje por ejemplos activos.\n\nLos autores guían al lector a través de cientos de ejercicios prácticos basados en una base de datos universitaria real: bloques PL/SQL, variables, bucles, cursores con parámetros, manejo de excepciones complejas, procedures y funciones, paquetes y triggers. Cada lección combina explicaciones claras con preguntas de repaso de certificación Oracle.\n\nUno de los textos formativos más completos y recomendados para estudiantes universitarios y profesionales que preparan exámenes de certificación Oracle PL/SQL.",
+    "temas": [
+      "PL/SQL by Example",
+      "Benjamin Rosenzweig",
+      "Elena Rakhimov",
+      "Certificación Oracle",
+      "Cursores",
+      "Triggers",
+      "Paquetes",
+      "Prentice Hall"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de gestión académica y matrículas en PL/SQL",
+        "descripcion": "Desarrollo paso a paso de paquetes, triggers de validación de cupos y procedimientos de inscripción en una base de datos universitaria."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

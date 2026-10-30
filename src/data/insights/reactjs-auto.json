@@ -1,0 +1,1698 @@
+{
+  "building-large-scale-web-apps-2024": {
+    "descripcion": "Guía autopublicada (con el subtítulo «A React Field Guide») en la que Addy Osmani, líder de ingeniería en Google Chrome, y Hassan Djirdeh, con experiencia en Shopify, Instacart y DoorDash, reúnen lo que han aprendido manteniendo aplicaciones React de gran tamaño. La pregunta de fondo es cómo conseguir que una base de código React siga siendo manejable, rápida y fácil de mantener a medida que crecen el producto y el equipo. No es un libro de iniciación: está pensado para desarrolladores JavaScript que ya trabajan con React (hooks, componentes, props) y quieren dar el salto a proyectos grandes y a equipos numerosos.\n\nEl libro empieza con los fundamentos de la complejidad del software y, a partir de ahí, recorre las decisiones de arquitectura que más pesan en una aplicación grande. Sobre gestión de estado, compara useState, useReducer, Context, Redux y React Query, y explica cuándo conviene cada uno. Analiza estrategias de obtención de datos desde APIs, sistemas de diseño y librerías de componentes, metodologías de CSS, accesibilidad, internacionalización, personalización y pruebas A/B. También dedica espacio a la modularidad, a simplificar migraciones, al tipado con TypeScript y a las pruebas (unitarias, de integración y de extremo a extremo con Jest, React Testing Library y Cypress, además del análisis estático). Cierra con rendimiento: perfilado con Chrome DevTools y Lighthouse, Core Web Vitals (LCP, INP), reducción del coste de JavaScript, lazy loading, skeleton screens y optimización de imágenes, fuentes y scripts de terceros.\n\nNo hay un proyecto guiado: el libro funciona como un manual de criterios, con ejemplos de código y comparativas de compromisos (trade-offs). Su principal aporte es la visión de quienes han trabajado a gran escala y saben qué herramienta conviene en cada caso, algo que rara vez se encuentra en los tutoriales. Lo que no trata a fondo son el renderizado en servidor ni frameworks como Next.js, y tampoco la parte de backend. Encaja muy bien con desarrolladores de nivel intermedio o líderes técnicos que deben tomar decisiones de arquitectura en el frontend.",
+    "temas": [
+      "React",
+      "Gestión de estado",
+      "React Query",
+      "Redux",
+      "Context y useReducer",
+      "Data fetching",
+      "Sistemas de diseño",
+      "Accesibilidad",
+      "Internacionalización",
+      "TypeScript",
+      "Testing",
+      "Core Web Vitals"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://leanpub.com/large-scale",
+      "https://largeapps.substack.com/p/building-large-scale-web-apps-is"
+    ]
+  },
+  "advanced-front-end-development-2025": {
+    "descripcion": "Libro de Apress (subtítulo: «Building Scalable and High-Performance Web Applications with React») escrito por Nitesh Upadhyaya, arquitecto de soluciones con más de 15 años de experiencia. Ofrece un recorrido completo y ordenado por React moderno, basado en componentes funcionales y hooks, que va desde lo básico hasta técnicas avanzadas para aplicaciones escalables. Aunque el título dice «avanzado», la editorial lo dirige a desarrolladores frontend y full-stack, y también a arquitectos de software, con conocimientos intermedios de HTML, CSS y JavaScript. Quien parte de cero en React también puede seguirlo.\n\nA lo largo de 20 capítulos cubre la preparación del entorno; componentes, props y estado; JSX y el renderizado de elementos; eventos y renderizado condicional; listas y keys; y la forma de «pensar en componentes». Luego pasa a los estilos, el ciclo de vida y los hooks, la gestión de estado con Context API y Redux, los formularios y su validación, y el enrutamiento y la navegación. La parte avanzada trata la optimización del rendimiento, las pruebas, las buenas prácticas de seguridad, la accesibilidad y la internacionalización, la integración de servicios y APIs de terceros, los patrones avanzados de componentes, el uso de librerías de componentes de UI y el despliegue con integración continua en plataformas como Netlify y Vercel.\n\nCada capítulo incluye ejemplos prácticos, y el libro termina con la construcción de una tienda en línea completa que reúne lo aprendido. Su valor está en la amplitud: en un solo volumen junta el núcleo de React con temas que suelen quedar fuera, como la seguridad, la accesibilidad y el despliegue. A cambio, a muchos de esos temas solo les dedica un capítulo, así que no esperes la profundidad de un libro especializado en rendimiento o en arquitectura. Según la información pública, no trata Next.js ni el renderizado en servidor.",
+    "temas": [
+      "React",
+      "Hooks",
+      "JSX",
+      "Context API",
+      "Redux",
+      "React Router",
+      "Formularios y validación",
+      "Optimización de rendimiento",
+      "Testing",
+      "Seguridad",
+      "Accesibilidad e i18n",
+      "Netlify y Vercel"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tienda en línea (Real-World Retail Store App)",
+        "descripcion": "Aplicación de comercio electrónico construida con React en el capítulo final: listado de productos, lógica de carrito y checkout con integración de una pasarela de pago, aplicando el estado global, el routing y las buenas prácticas vistas en el libro."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://shop.heise.de/9798868813184-advanced-front-end-development-pdf",
+      "https://karla.hds.hebis.de/Record/HEB530301059"
+    ]
+  },
+  "building-react-apps-with-server-side-rendering-2020": {
+    "descripcion": "Libro breve de Apress (subtítulo: «Use React, Redux, and Next to Build Full Server-Side Rendering Applications») en el que Mohit Thakkar enseña a combinar el renderizado en el cliente y en el servidor dentro de aplicaciones React usando Next.js. Corresponde al ecosistema de 2020: React 16 con hooks y Next.js en sus versiones 9.x, con el enrutador basado en la carpeta pages. Está dirigido a desarrolladores web que ya manejan JavaScript, HTML y CSS y quieren dar el paso a React, Redux y Next.js.\n\nEl primer capítulo repasa los fundamentos de JavaScript moderno (ES2015+): closures, clases y módulos, manipulación del DOM, manejo de errores, peticiones HTTP, promesas y formularios. Después presenta React: conceptos clave como la inmutabilidad, la pureza y la composición, además de hooks, JSX, componentes, estado, AJAX, opciones de estilos, Babel y Webpack. El capítulo de Next.js explica el enrutamiento, la carga dinámica, la configuración de Webpack y Babel, la obtención de datos remotos y la integración con Redux y GraphQL. Los últimos capítulos tratan las pruebas unitarias con Jest y Enzyme y el despliegue con variables de entorno, contenedores Docker y hosting.\n\nLa parte práctica consiste en construir una aplicación React sencilla, con componentes funcionales y de clase, props, CSS y Bootstrap 4, y luego añadirle renderizado en servidor con Next.js. Es una introducción compacta y bien encadenada que llega hasta las pruebas y el despliegue. Sin embargo, ha envejecido: Enzyme está abandonado, y Next.js pasó al App Router y a los React Server Components, así que conviene leerlo para entender los conceptos del SSR y no como referencia de las APIs actuales.",
+    "temas": [
+      "React",
+      "Next.js",
+      "Server-Side Rendering",
+      "Redux",
+      "JavaScript ES2015+",
+      "JSX",
+      "GraphQL",
+      "Bootstrap 4",
+      "Jest",
+      "Enzyme",
+      "Docker",
+      "Webpack y Babel"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación React con renderizado en servidor",
+        "descripcion": "Aplicación sencilla que primero se construye con componentes funcionales y de clase, props, CSS y Bootstrap 4, y a la que después se añade SSR con Next.js; luego se prueba con Jest y se despliega usando Docker."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://shop.heise.de/9781484258699-building-react-apps-with-server-side-rendering-pdf",
+      "https://www.i-programmer.info/book-watch-archive/13643-building-react-apps-with-server-side-rendering-apress.html"
+    ]
+  },
+  "crafting-clean-code-with-javascript-and-react-2024": {
+    "descripcion": "Libro de Apress (subtítulo: «A Practical Guide to Sustainable Front-End Development») en el que Héla Ben Khalfallah, especialista en frontend con cerca de 15 años de experiencia, aplica los principios de código limpio al desarrollo frontend moderno. Los amplía con cuatro preocupaciones que a menudo se pasan por alto: accesibilidad, semántica, rendimiento y sostenibilidad (green web). Parte de los fundamentos de JavaScript y HTML y avanza hacia React. Está pensado para desarrolladores con experiencia en JavaScript y React, y también para ingenieros y responsables de producto que buscan aplicaciones más eficientes y baratas de mantener y de ejecutar.\n\nEl contenido se organiza en seis capítulos, cada uno con una metodología propia de la autora. Explica cómo funciona el motor de JavaScript y cómo gestiona la memoria. Luego trata la programación funcional como base de un código puro: funciones pequeñas, reutilizables y sin efectos secundarios. Sigue con «SAGE(S) Driven Design», un diseño web inclusivo y ecológico que mejora el HTML siguiendo un enfoque de «Disability Driven Design». Con HOFA lleva la arquitectura hacia un código inmutable, modular y componible de estilo funcional, y con MOME adapta la aplicación a las capacidades de ejecución del dispositivo del usuario. Por último, CRISP propone un proceso de software limpio, fiable e integrado que incluye la monitorización continua del rendimiento.\n\nLa práctica gira en torno a una aplicación web de ejemplo que se va refactorizando capítulo a capítulo, lo que permite ver el antes y el después de cada principio. Su aporte más original es unir el código limpio con la accesibilidad y el consumo energético, temas que pocas veces aparecen juntos. Conviene saber que gran parte del libro es conceptual y propone siglas y marcos propios de la autora, que no son estándares de la industria. No es un tutorial de React desde cero ni una guía de librerías concretas del ecosistema.",
+    "temas": [
+      "Clean code",
+      "JavaScript",
+      "React",
+      "Programación funcional",
+      "Motor de JavaScript y memoria",
+      "Accesibilidad (a11y)",
+      "HTML semántico",
+      "Green web",
+      "Rendimiento web",
+      "Arquitectura frontend",
+      "Monitorización"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://shop.heise.de/9798868810046-crafting-clean-code-with-javascript-and-react-pdf",
+      "https://karla.hds.hebis.de/Record/HEB524336121"
+    ]
+  },
+  "introduction-to-react-2015": {
+    "descripcion": "Introducción breve de Apress a React escrita por Cory Gackenheimer, ingeniero de software y autor de «Node.js Recipes». Se publicó en 2015, en los primeros años de la librería (las versiones 0.13–0.14, anteriores a React 15), cuando se presentaba como la propuesta de Facebook para construir interfaces complejas de forma consistente y mantenible. Está dirigida a desarrolladores web que ya escriben JavaScript y CSS con soltura y quieren saber qué es React y cómo se usa.\n\nSus seis capítulos explican qué es React y qué problema resuelve, el núcleo de su API (componentes, props, estado y ciclo de vida), los fundamentos de JSX y la construcción de una aplicación web, incluyendo cómo probarla y qué herramientas de desarrollo usar. También muestra cómo integrar React en interfaces ya existentes. Los dos últimos capítulos presentan Flux, la arquitectura de flujo de datos unidireccional que Facebook proponía entonces, y la aplican para estructurar una aplicación React.\n\nLa práctica consiste en construir una aplicación web con React y después reorganizarla siguiendo el patrón Flux. Su valor hoy es sobre todo histórico y conceptual: permite entender de dónde vienen ideas como el flujo unidireccional que luego heredó Redux. Sin embargo, el código está escrito con React.createClass, componentes de clase y herramientas de 2015, y no incluye hooks, componentes funcionales modernos, Create React App ni Vite, así que no sirve como guía para empezar con React actual.",
+    "temas": [
+      "React (pre-15)",
+      "JSX",
+      "Componentes",
+      "Props y estado",
+      "Ciclo de vida",
+      "Flux",
+      "Flujo unidireccional",
+      "Testing",
+      "Herramientas de desarrollo"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación web con React y Flux",
+        "descripcion": "Aplicación construida con React y JSX en el capítulo 4, incluyendo sus pruebas, que en el capítulo 6 se reestructura según la arquitectura Flux para separar acciones, dispatcher y stores."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bookshare.org/browse/book/1354446",
+      "https://eld.bl.uk/catalog/019126963"
+    ]
+  },
+  "master-react-in-5-days-2023": {
+    "descripcion": "Curso intensivo publicado por Apress en 2023 en el que Eric Sarrion, formador y consultor web con más de treinta años de experiencia, propone aprender React en cinco jornadas de estudio, sin pasar por largas series de tutoriales. Corresponde a la etapa de React 18, con componentes funcionales y hooks como modelo principal. Está dirigido a programadores y estudiantes de desarrollo web que ya conocen JavaScript. La editorial dice que sirve para todos los niveles, pero en la práctica conviene a quien empieza con React o quiere repasar sus fundamentos de forma ordenada.\n\nCada capítulo corresponde a un día. El día 1 trata la creación de componentes y el paso de datos mediante props. El día 2 profundiza en la sintaxis JSX dentro de los componentes. El día 3 cubre el manejo de eventos. El día 4 está dedicado a los hooks, el estado y el ciclo de vida de los componentes. El día 5 aplica todo lo anterior a la gestión de una lista de tareas, que incluye el renderizado de listas y la actualización del estado. Cierra un capítulo de repaso de JavaScript con los conceptos del lenguaje que más se usan en React. Los ejemplos de código y el material complementario están en GitHub.\n\nEl libro alterna explicaciones breves con ejemplos y ejercicios en los que se construyen pequeñas aplicaciones, y culmina en la lista de tareas del quinto día. Su valor está en ofrecer un camino corto y bien secuenciado hacia los fundamentos del modelo de componentes. A pesar del subtítulo, no forma expertos: no aborda enrutamiento con React Router, gestión de estado global (Redux, Context avanzado), consumo de APIs, pruebas, TypeScript ni frameworks como Next.js. Conviene dominar antes JavaScript moderno (funciones flecha, desestructuración, módulos, métodos de arrays) o leer primero el capítulo de repaso. Después, lo lógico es pasar a un libro más amplio sobre el ecosistema React.",
+    "temas": [
+      "React",
+      "Componentes",
+      "Props",
+      "JSX",
+      "Eventos",
+      "Estado",
+      "Ciclo de vida",
+      "Hooks",
+      "Listas",
+      "Lista de tareas",
+      "JavaScript"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Gestor de lista de tareas",
+        "descripcion": "Aplicación del quinto día que reúne lo visto en el libro: componentes, JSX, eventos y hooks de estado, para añadir, mostrar y modificar tareas en una lista con React."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.hoepli.it/libro/master-react-in-5-days/9781484298541.html",
+      "https://www.oreilly.com/library/view/master-react-in/9781484298558"
+    ]
+  },
+  "pro-mern-stack-2017": {
+    "descripcion": "Primera edición del libro de Vasan Subramanian sobre desarrollo full-stack con JavaScript usando el stack MERN: MongoDB, Express, React y Node.js. Publicada por Apress en 2017, trabaja con la React de esa época (componentes de clase, anterior a los hooks) y con React Router 2. Está dirigida a desarrolladores con experiencia en JavaScript y nociones de desarrollo web que quieren entender cómo encajan todas las piezas de una aplicación web moderna, del navegador a la base de datos.\n\nEl libro avanza paso a paso: empieza con un Hello World sin servidor y luego con Express, transformación JSX con Babel y ES2015; sigue con componentes React, composición, props y estado; luego construye una API REST con Express y la conecta a MongoDB mediante el driver oficial de Node.js. Después pasa a modularizar el código y empaquetarlo con Webpack (con hot module replacement y ESLint), añade enrutamiento con React Router (parámetros, query strings, rutas anidadas e historial del navegador), formularios de filtro y edición, interfaz con React-Bootstrap (tablas, paneles, formularios, alertas y modales) y renderizado del lado del servidor. El último bloque trata agregaciones de MongoDB, paginación, componentes de orden superior, barra de búsqueda, inicio de sesión con Google y manejo de sesiones.\n\nTodo el libro gira en torno a una sola aplicación, un gestor de incidencias (Issue Tracker), que crece capítulo a capítulo; el repositorio del autor guarda cada paso en una rama, con su diff. Su valor está en mostrar la integración completa del stack y el porqué de cada herramienta, más que en profundizar en cada una. Hoy está bastante desactualizado (React Router 2, versiones antiguas de Webpack y Bootstrap, shell mongo heredado), y el propio autor la reemplazó por la segunda edición, así que tiene sobre todo interés histórico o conceptual.",
+    "temas": [
+      "MERN",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "API REST",
+      "React Router",
+      "Webpack",
+      "React-Bootstrap",
+      "Server-side rendering",
+      "Google Sign-In"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Issue Tracker",
+        "descripcion": "Gestor de incidencias full-stack que se construye a lo largo de todo el libro: interfaz en React con React Router y React-Bootstrap, API REST con Express y Node.js, persistencia en MongoDB, renderizado en servidor, paginación, búsqueda e inicio de sesión con Google."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/vasansr/pro-mern-stack"
+    ]
+  },
+  "pro-mern-stack-2nd-edition-2019": {
+    "descripcion": "Segunda edición, muy ampliada (568 páginas), del libro de Vasan Subramanian sobre desarrollo full-stack con MongoDB, Express, React y Node.js. Publicada por Apress en 2019, se actualiza a React 16 y React Router 4, y reemplaza la API REST de la primera edición por GraphQL. Está dirigida a desarrolladores que conocen JavaScript y lo básico de la web y quieren aprender a construir y desplegar una aplicación MERN completa, entendiendo cada capa.\n\nEl recorrido va de un Hello World con JSX y Babel a componentes de clase, estado, elevación de estado y manejo de eventos. Luego construye una API GraphQL sobre Express (esquemas, escalares personalizados, variables y validación) y la conecta a MongoDB con el driver de Node.js. Siguen una arquitectura con servidor de UI separado y modo proxy, ESLint y PropTypes, modularización y empaquetado con Webpack (con HMR), React Router 4, formularios controlados, React-Bootstrap (barra de navegación, grid, validación, toasts y modales) y renderizado del lado del servidor con hidratación. Los capítulos avanzados cubren agregaciones e índices de texto en MongoDB, paginación, deshacer borrados, componentes de orden superior, autenticación con Google Sign-In y JWT, React Context, CORS con credenciales y despliegue en Heroku.\n\nComo en la primera edición, todo gira alrededor de un Issue Tracker que crece capítulo a capítulo; el repositorio del autor guarda cada sección en una rama con su diff, y los capítulos terminan con preguntas para comprobar lo aprendido. Los lectores destacan que introduce los conceptos uno por uno sin abrumar. Hay que tener en cuenta que no usa hooks (todo se hace con clases), que algunas versiones de React Router, Webpack y Heroku ya están obsoletas y que no cubre Redux ni TypeScript. Sigue siendo una de las mejores explicaciones de cómo se articula una aplicación MERN de punta a punta.",
+    "temas": [
+      "MERN",
+      "React 16",
+      "GraphQL",
+      "Express",
+      "MongoDB",
+      "Node.js",
+      "React Router 4",
+      "Webpack",
+      "React-Bootstrap",
+      "Server-side rendering",
+      "JWT",
+      "Heroku"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Issue Tracker",
+        "descripcion": "Gestor de incidencias full-stack con interfaz en React 16, React Router 4 y React-Bootstrap, API GraphQL sobre Express y Node.js y base de datos MongoDB. Incluye renderizado en servidor, informes con agregaciones, búsqueda de texto, autenticación con Google y JWT y despliegue en Heroku."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/vasansr/pro-mern-stack-2",
+      "https://www.goodreads.com/book/show/68739074"
+    ]
+  },
+  "pro-react-2015": {
+    "descripcion": "Libro de Cássio de Sousa Antonio, publicado por Apress a finales de 2015, que enseña a estructurar aplicaciones front-end cada vez más complejas con React y su ecosistema de esa época (React 0.14, componentes de clase y ES6). Está dirigido a desarrolladores que ya crean interfaces con jQuery u otros frameworks de JavaScript y quieren adoptar el enfoque de React basado en componentes composables.\n\nEmpieza con los fundamentos: la abstracción del DOM virtual y JSX, la composición de componentes con props y estado, y la interacción con el DOM real. Después aborda interacciones más sofisticadas, como animaciones y transiciones; el enrutamiento con React Router; la arquitectura Flux, con un concepto de store tipo reducer que prepara el paso a Redux; la optimización del rendimiento; las aplicaciones isomórficas o universales renderizadas en el servidor con Node.js; y las pruebas de componentes. Los apéndices tratan la instalación, los módulos y el proceso de build, la programación funcional en JavaScript y un repaso de ES6.\n\nEl hilo conductor es una aplicación tipo Kanban que se amplía y refactoriza a lo largo del libro, incluida su migración a Flux, junto con ejemplos más pequeños (una lista de la compra, un reloj, componentes de formulario). Los lectores valoran el ritmo y la claridad de los ejemplos, aunque señalan erratas. Hoy está muy desactualizado: Flux fue reemplazado por Redux y luego por los hooks y Context, React Router cambió por completo su API y la sintaxis de React evolucionó mucho. Tiene valor para entender los orígenes de la arquitectura de React, pero no como referencia actual.",
+    "temas": [
+      "React",
+      "JSX",
+      "DOM virtual",
+      "Componentes",
+      "Animaciones",
+      "React Router",
+      "Flux",
+      "Isomorphic React",
+      "Rendimiento",
+      "Testing",
+      "ES6"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Kanban",
+        "descripcion": "Tablero de tareas por columnas construido con componentes React que se amplía a lo largo del libro y se refactoriza para usar la arquitectura Flux y React Router."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.goodreads.com/book/show/28962169",
+      "https://github.com/Apress/pro-react",
+      "https://eld.bl.uk/catalog/019126920"
+    ]
+  },
+  "pro-react-16-2019": {
+    "descripcion": "Extenso manual de Adam Freeman (745 páginas), publicado por Apress en 2019 y dedicado a React 16. Sigue el estilo característico del autor: primero un proyecto realista y luego una referencia detallada de cada característica. Está pensado para desarrolladores JavaScript que quieren construir aplicaciones cliente con React. Incluye repasos de HTML, JSX, CSS y JavaScript, de modo que basta con conocer lo esencial del desarrollo web.\n\nLa primera parte construye la tienda SportsStore de principio a fin: catálogo, carrito, consumo de un servicio REST, checkout, panel de administración, autenticación y despliegue. La segunda parte explica React a fondo: estructura y herramientas de un proyecto, componentes y props, componentes con estado, eventos, reconciliación y métodos de ciclo de vida, composición, formularios y validación, refs y portals, y pruebas unitarias. La tercera parte trata aplicaciones completas: un almacén de datos con Redux y sus APIs, enrutamiento básico y avanzado con React Router, consumo de servicios web RESTful y, por último, comprensión y consumo de GraphQL.\n\nAdemás de SportsStore, el libro desarrolla una aplicación de productos (productapp) que crece en la tercera parte con Redux, rutas, REST y GraphQL, y en cada capítulo hay ejemplos concretos. Su punto fuerte es la exhaustividad y la claridad de los ejemplos, por lo que sirve como referencia. Su límite principal es la época: se basa sobre todo en componentes de clase y apenas trata los hooks, que llegaron en React 16.8, y algunas APIs de React Router y Redux que usa han cambiado. Conviene complementarlo con material actual sobre hooks y Redux Toolkit.",
+    "temas": [
+      "React 16",
+      "JSX",
+      "Componentes",
+      "Estado y ciclo de vida",
+      "Formularios y validación",
+      "Refs y portals",
+      "Redux",
+      "React Router",
+      "REST",
+      "GraphQL",
+      "Unit testing",
+      "Despliegue"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "SportsStore",
+        "descripcion": "Tienda en línea completa con React: catálogo de productos, carrito y checkout conectados a un servicio REST, más panel de administración, autenticación y despliegue."
+      },
+      {
+        "nombre": "Aplicación de productos (productapp)",
+        "descripcion": "Aplicación de gestión de productos que crece en la tercera parte del libro incorporando un almacén Redux, enrutamiento con React Router, consumo de un servicio REST y consultas GraphQL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.springerprofessional.de/pro-react-16/16561440",
+      "https://github.com/Apress/pro-react-16"
+    ]
+  },
+  "web-forms-with-react-2025": {
+    "descripcion": "Guía breve de la serie Apress Pocket Guides en la que Usman Abdur Rehman, líder técnico de frontend, explica cómo crear formularios robustos y escalables en React con React Hook Form, la librería de formularios más usada del ecosistema. Está pensada para desarrolladores web que empiezan con React y ya conocen JavaScript y algo de TypeScript, y también para quienes ya usan React y buscan una alternativa a manejar formularios a mano o con otras librerías.\n\nEn seis capítulos cortos, el libro parte de cómo se gestionan los formularios en React (inputs controlados y no controlados, estado y envío), presenta React Hook Form y sus fundamentos (registro de campos, manejo del envío, estado del formulario y errores) y luego construye formularios completos con la librería. Dedica un capítulo a la validación, tanto con las reglas nativas de HTML como con librerías de esquemas como Yup y Zod, y cierra con casos de uso habituales en aplicaciones reales.\n\nNo hay un proyecto integrador: el aprendizaje se apoya en ejemplos de código que muestran cada patrón. Con menos de cien páginas, es una referencia rápida y enfocada que sirve para adoptar React Hook Form en poco tiempo, aunque no profundiza en arquitectura de formularios muy complejos, accesibilidad avanzada ni integración con el backend. Conviene tener claros los hooks básicos de React y el tipado de TypeScript antes de leerlo.",
+    "temas": [
+      "React",
+      "React Hook Form",
+      "Formularios",
+      "Validación",
+      "Yup",
+      "Zod",
+      "TypeScript",
+      "Inputs controlados",
+      "Manejo de errores"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.hoepli.it/libro/web-forms-with-react/9798868812231.html",
+      "https://katalog.bibliothek.kit.edu/bib/1450022",
+      "https://shop.heise.de/9798868812248-web-forms-with-react-pdf"
+    ]
+  },
+  "react-hooks-in-action-2021": {
+    "descripcion": "Libro de Manning en el que John Larsen enseña a escribir componentes de función rápidos y reutilizables usando Hooks, con el subtítulo «With Suspense and Concurrent Mode». Se escribió en la época de React 17, cuando Suspense para datos y el modo concurrente eran todavía experimentales. Está dirigido a desarrolladores de React de nivel principiante a intermedio que conocen JavaScript moderno y quieren dominar el paradigma de Hooks.\n\nLa primera parte recorre los hooks integrados uno por uno: useState y useReducer para el estado del componente, useEffect para efectos secundarios y carga de datos, useRef, useMemo para el rendimiento y la Context API para compartir estado entre componentes. También enseña a gestionar el estado de toda la aplicación, a crear hooks personalizados y a usar hooks de terceros, como los de React Router y React Query, este último para cargar, actualizar y guardar datos en caché. La segunda parte trata la división de código con lazy y Suspense, la integración de la carga de datos con Suspense y los hooks concurrentes useTransition y useDeferredValue, además de SuspenseList.\n\nTodo el libro gira en torno a una aplicación de reservas de recursos que se va ampliando capítulo a capítulo, lo que da contexto real a cada hook. Su punto fuerte es explicar por qué existe cada hook y cómo combinarlos. La segunda parte quedó parcialmente desactualizada: las APIs experimentales cambiaron en React 18 (SuspenseList nunca llegó a ser estable), así que conviene contrastarla con la documentación actual. La parte de Hooks sigue siendo plenamente vigente.",
+    "temas": [
+      "React Hooks",
+      "useState",
+      "useReducer",
+      "useEffect",
+      "useRef",
+      "useMemo",
+      "Context API",
+      "Custom hooks",
+      "React Query",
+      "Suspense",
+      "Code splitting",
+      "Concurrent Mode"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de reservas de recursos",
+        "descripcion": "App de reservas que se construye a lo largo del libro para practicar estado local y global, efectos y carga de datos con Hooks. Luego se amplía con hooks personalizados, React Query y Suspense para la división de código y la carga de datos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/react-hooks-in-action",
+      "https://books.apple.com/us/book/react-hooks-in-action/id1572398156",
+      "https://github.com/jrlarsen/react-hooks-in-action"
+    ]
+  },
+  "react-in-action-2018": {
+    "descripcion": "Introducción a React publicada por Manning en 2018, en la que Mark Tielens Thomas lleva al lector desde los fundamentos hasta la arquitectura de aplicaciones completas. Corresponde a la etapa de React 16, con componentes de clase y métodos de ciclo de vida, antes de que existieran los Hooks. Está pensada para desarrolladores que ya conocen HTML, CSS y JavaScript y se acercan a React por primera vez.\n\nEl libro tiene tres partes. La primera presenta React y el primer componente. La segunda trata los datos y su flujo, el renderizado y los métodos de ciclo de vida, los formularios, la integración con librerías de terceros, el enrutamiento, la integración con Firebase y las pruebas de componentes. La tercera aborda la arquitectura: Redux y su conexión con React, el renderizado en el servidor con Node.js integrado con React Router y una introducción a React Native. Los apéndices repasan las herramientas y el ecosistema de React.\n\nLos ejemplos de cada capítulo hacen crecer Letters Social, una pequeña red social de ejemplo cuyo código se publica organizado por capítulos. Es un recorrido bien estructurado y fácil de seguir para principiantes, pero hoy está desactualizado: usa clases en lugar de Hooks, Redux sin Redux Toolkit y versiones antiguas de React Router y de las herramientas de compilación. Sirve para entender los conceptos y para mantener código heredado, pero conviene complementarlo con material moderno.",
+    "temas": [
+      "React 16",
+      "Componentes",
+      "Ciclo de vida",
+      "Formularios",
+      "React Router",
+      "Firebase",
+      "Testing",
+      "Redux",
+      "Server-side rendering",
+      "React Native"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Letters Social",
+        "descripcion": "Red social de ejemplo que se desarrolla a lo largo del libro, con publicaciones, enrutamiento, autenticación y datos mediante Firebase. Más adelante se reestructura con Redux y se renderiza en el servidor con Node.js y React Router."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/react-in-action",
+      "https://bookpal.com/react-in-action-9781617293856/",
+      "https://github.com/react-in-action/letters-social"
+    ]
+  },
+  "react-in-depth-2024": {
+    "descripcion": "Libro avanzado de Manning en el que Morten Barklund, coautor de la segunda edición de React Quickly, reúne las técnicas, librerías y herramientas que usan los equipos de React más experimentados. Cubre el React moderno de la era de React 18 y los Server Components. Está dirigido a desarrolladores que ya conocen los fundamentos de React (componentes, Hooks, JSX) y quieren dar el salto a un nivel profesional.\n\nEmpieza con patrones de diseño de componentes, como Provider, componentes compuestos y patrones de resumen, y sigue con TypeScript aplicado a React en dos capítulos, que incluyen genéricos y patrones de tipos avanzados. Después compara enfoques de estilos (archivos CSS, CSS Modules y CSS-in-JS como styled-components) y librerías de gestión de estado como Redux Toolkit, Zustand y XState. También trata los datos remotos y la caché reactiva con TanStack Query, y las pruebas unitarias de componentes, hooks y dependencias con mocks. Cierra la parte teórica con React Server Components, la hidratación parcial y frameworks como Next.js y Remix.\n\nLos tres últimos capítulos son proyectos guiados que aplican lo aprendido. Su valor está en ofrecer criterio para elegir entre las alternativas del ecosistema, no solo en enseñar a usarlas. A cambio, avanza deprisa y da por sabidos los fundamentos. Como el ecosistema cambia tan rápido, algunas APIs de frameworks como Remix (hoy fusionado con React Router) pueden haber cambiado desde su publicación.",
+    "temas": [
+      "React avanzado",
+      "Patrones de diseño",
+      "TypeScript",
+      "CSS Modules",
+      "styled-components",
+      "Redux Toolkit",
+      "Zustand",
+      "XState",
+      "TanStack Query",
+      "Testing",
+      "Server Components",
+      "Next.js y Remix"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Control de gastos con Remix",
+        "descripcion": "Aplicación para registrar y seguir gastos construida con el framework Remix, que pone en práctica el renderizado en el servidor y la carga de datos de un framework full-stack de React."
+      },
+      {
+        "nombre": "Librería de componentes de UI en React",
+        "descripcion": "Creación de una librería propia de componentes reutilizables que aplica los patrones de diseño, el tipado con TypeScript y las técnicas de estilos vistas en el libro."
+      },
+      {
+        "nombre": "Juego de palabras en React",
+        "descripcion": "Juego de adivinar palabras al estilo Wordle desarrollado en React, para practicar la gestión del estado y la interacción en una aplicación completa."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/react-in-depth",
+      "https://www.simonandschuster.co.uk/books/React-in-Depth/Morten-Barklund/9781638355601"
+    ]
+  },
+  "react-quickly-2017": {
+    "descripcion": "Primera edición del tutorial de Manning en el que Azat Mardan, autor de varios libros sobre Node.js y Express, enseña React con muchos ejemplos y proyectos. Su subtítulo es «Painless web apps with React, JSX, Redux, and GraphQL». Corresponde a la etapa de React 15, con componentes de clase y métodos de ciclo de vida. Está pensado para desarrolladores que ya crean aplicaciones web con JavaScript y quieren empezar con React rápidamente.\n\nLa primera parte cubre los fundamentos: JSX, componentes, estado y propiedades, ciclo de vida, eventos, formularios y la reutilización de componentes, con pequeños proyectos al final. La segunda parte aborda el ecosistema de la época: empaquetado con Webpack, enrutamiento con React Router, gestión de datos con Redux y con GraphQL, pruebas unitarias con Jest y renderizado en el servidor (JavaScript universal) con Node.js y Express. Así se construyen aplicaciones completas con datos y rutas, que además se prueban y se optimizan.\n\nSu mayor aporte es la cantidad de práctica: cada bloque termina con un proyecto que obliga a combinar lo aprendido. Sin embargo, hoy está muy desactualizado: no incluye Hooks, usa Redux sin Redux Toolkit y herramientas que han cambiado mucho. Para aprender React desde cero conviene más la segunda edición, reescrita con Morten Barklund. Esta edición sigue siendo útil para entender código heredado con clases.",
+    "temas": [
+      "React 15",
+      "JSX",
+      "Componentes de clase",
+      "Formularios",
+      "Webpack",
+      "React Router",
+      "Redux",
+      "GraphQL",
+      "Jest",
+      "Express",
+      "MongoDB",
+      "JavaScript universal"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Componente de menú",
+        "descripcion": "Menú construido con componentes de React para practicar JSX, propiedades y la composición de componentes."
+      },
+      {
+        "nombre": "Componente de tooltip",
+        "descripcion": "Tooltip interactivo que practica el estado y el manejo de eventos en componentes de React."
+      },
+      {
+        "nombre": "Componente de temporizador",
+        "descripcion": "Temporizador que usa el estado y los métodos de ciclo de vida para iniciar, pausar y reiniciar una cuenta."
+      },
+      {
+        "nombre": "Librería con React Router",
+        "descripcion": "Tienda de libros de ejemplo con varias vistas y navegación entre ellas, construida con React Router."
+      },
+      {
+        "nombre": "Verificador de contraseñas con Jest",
+        "descripcion": "Widget que comprueba la solidez de una contraseña, desarrollado y probado con pruebas unitarias en Jest."
+      },
+      {
+        "nombre": "Autocompletado con Jest, Express y MongoDB",
+        "descripcion": "Componente de autocompletado con un backend en Express y MongoDB y pruebas en Jest, que integra React en una aplicación full-stack."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/react-quickly",
+      "https://www.simonandschuster.ca/books/React-Quickly/Azat-Mardan/9781617293344",
+      "https://github.com/azat-co/react-quickly"
+    ]
+  },
+  "react-quickly-2nd-edition-2023": {
+    "descripcion": "Segunda edición, reescrita casi por completo, del clásico de Manning para aprender React rápido. Morten Barklund se une a Azat Mardan para cubrir el React moderno, basado por completo en componentes funcionales y hooks, que corresponde a la generación de React 18 (la editorial no nombra una versión concreta). Es para desarrolladores que ya hacen aplicaciones web con JavaScript, tanto quienes empiezan con React como quienes vienen de la época de las clases y quieren ponerse al día. Deja de lado la historia y la teoría larga y va directo a más de 80 ejemplos.\n\nLa primera parte, «React Foundation», cubre lo esencial: cómo encaja React en un sitio web, JSX, componentes funcionales, estado, efectos y ciclo de vida del componente, hooks, manejo de eventos, formularios y hooks avanzados para que las aplicaciones crezcan. La segunda parte, «React Architecture», trata lo que rodea a una aplicación profesional: herramientas de desarrollo, CSS-in-JavaScript, manejo de datos con Redux Toolkit, consumo de datos remotos, pruebas unitarias con Jest y frameworks de sitios web basados en React, como Remix y Next.js. Hay un apéndice con las propiedades que se llaman distinto en JSX y en HTML.\n\nSu punto fuerte son los seis capítulos de proyecto que cierran cada parte, donde se aplica lo visto en aplicaciones pequeñas pero completas. Es una puesta al día sólida y muy práctica. Eso sí, no profundiza en el funcionamiento interno de React (reconciliación, renderizado concurrente) ni en React Server Components. Si ya dominas los hooks, la segunda parte es la que más te aporta. Conviene manejar bien JavaScript moderno (ES6+, módulos, promesas) antes de empezar.",
+    "temas": [
+      "React 18",
+      "JSX",
+      "Componentes funcionales",
+      "Hooks",
+      "Estado y efectos",
+      "Eventos y formularios",
+      "CSS-in-JS",
+      "Redux Toolkit",
+      "Datos remotos",
+      "Testing con Jest",
+      "Remix",
+      "Next.js"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Menú de sitio web",
+        "descripcion": "Primer proyecto guiado: un menú de navegación hecho con componentes funcionales y props, para practicar JSX y la composición de componentes."
+      },
+      {
+        "nombre": "Temporizador",
+        "descripcion": "Aplicación de cuenta regresiva que pone en práctica el estado, los efectos y el manejo de eventos con hooks."
+      },
+      {
+        "nombre": "Gestor de tareas",
+        "descripcion": "Gestor de tareas que integra todo lo de la primera parte: formularios, estado más complejo y hooks avanzados."
+      },
+      {
+        "nombre": "Librería con Remix",
+        "descripcion": "Tienda de libros construida con el framework Remix, que muestra el enrutado y la carga de datos de un framework web basado en React."
+      },
+      {
+        "nombre": "Componente toast totalmente probado",
+        "descripcion": "Componente de notificaciones emergentes desarrollado con pruebas unitarias exhaustivas, para practicar el testing de componentes React."
+      },
+      {
+        "nombre": "Clon de Wordle",
+        "descripcion": "Versión en React del juego de palabras Wordle, que combina estado, lógica de juego y eventos de teclado en una aplicación completa."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/react-quickly-second-edition",
+      "https://www.pearson.com/store/en-gb/p/react-quickly/P200000010038/9781633439290"
+    ]
+  },
+  "fullstack-react-2020": {
+    "descripcion": "Guía extensa y muy completa del equipo de Newline (antes Fullstack.io) sobre React y su ecosistema. Se ha actualizado más de 29 veces, y la revisión de enero de 2020 trabaja con React 16.12. Está pensada para quienes saben algo de JavaScript y quieren aprender React desde cero: no supone experiencia previa con la librería y explica sobre la marcha muchos conceptos de JavaScript moderno. También sirve a quien quiera trabajar profesionalmente con React y aprender buenas prácticas de organización del código, pruebas y rendimiento.\n\nEn sus 15 capítulos va de la primera aplicación y la forma de «pensar en React» a la comunicación con el servidor, JSX y el Virtual DOM, componentes avanzados, formularios y la configuración de Webpack con create-react-app. Después trata las pruebas unitarias, Redux (básico e intermedio, con el patrón de componentes contenedores y de presentación), el enrutado con React Router y GraphQL, tanto en el cliente como escribiendo un servidor GraphQL propio. Termina con una introducción a React Native.\n\nCada capítulo se construye alrededor de una aplicación de ejemplo completa, de menor a mayor complejidad, así que el aprendizaje es muy práctico. Su principal limitación es la época: está escrito sobre todo con componentes de clase y con Redux «clásico». Los hooks, Redux Toolkit, React 18 y los frameworks actuales como Next.js quedan fuera o apenas aparecen. Sigue siendo valioso para entender los fundamentos y el ecosistema, pero conviene complementarlo con material moderno.",
+    "temas": [
+      "React 16",
+      "JSX",
+      "Virtual DOM",
+      "Componentes de clase",
+      "Formularios",
+      "Webpack",
+      "create-react-app",
+      "Testing",
+      "Redux",
+      "React Router",
+      "GraphQL",
+      "React Native"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "App de registro de tiempos",
+        "descripcion": "Aplicación de temporizadores para registrar el tiempo dedicado a tareas, usada para practicar el estado, el pensamiento en componentes y la comunicación con un servidor."
+      },
+      {
+        "nombre": "Chat estilo Slack con React-Redux",
+        "descripcion": "Aplicación de mensajería con varios hilos que sirve para aprender Redux a fondo, incluidos los componentes contenedores y de presentación."
+      },
+      {
+        "nombre": "Aplicaciones de ejemplo por capítulo",
+        "descripcion": "Cada capítulo incluye su propio proyecto completo (formularios, rutas, GraphQL, React Native) para aplicar los conceptos de esa sección."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.newline.co/fullstack-react"
+    ]
+  },
+  "fullstack-react-with-typescript-2020": {
+    "descripcion": "Libro de Newline escrito por Maksim Ivanov y Alex Bespoyasov que enseña a combinar React con TypeScript a través de proyectos reales. Trabaja con React moderno basado en hooks. Es para desarrolladores que conocen lo básico de JavaScript (no hace falta ser experto) y quieren usar TypeScript con React, sobre todo en producción. También sirve como repaso de React para quien ya lo ha usado.\n\nEnseña a tipar props, hooks y hooks personalizados, a usar los tipos de librerías externas, a hacer peticiones de red tipadas y a compartir estado con Context. Además cubre pruebas con Jest y React Testing Library (mocks tipados y helpers globales), patrones como render props y componentes de orden superior (HOC), hooks para APIs del navegador y atajos de teclado, generación de sitios estáticos con Next.js, Redux y Redux Toolkit frente a useReducer, y GraphQL con Apollo Client, incluida la generación de tipos a partir del esquema.\n\nCada módulo gira en torno a una aplicación distinta, así que es muy práctico y cubre bastante terreno en relativamente pocas páginas. Su valor está en ver cómo se aplican los tipos a patrones reales de React. No es una introducción a TypeScript desde cero ni profundiza en el backend, a pesar del «Fullstack» del título. Por su fecha, algunas APIs (como el enrutado de Next.js) han evolucionado desde entonces.",
+    "temas": [
+      "React",
+      "TypeScript",
+      "Hooks tipados",
+      "Context API",
+      "Jest",
+      "React Testing Library",
+      "Render props y HOC",
+      "Next.js",
+      "Redux Toolkit",
+      "Canvas",
+      "GraphQL",
+      "Apollo Client"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Clon de Trello",
+        "descripcion": "Tablero con arrastrar y soltar en el que se practican props tipadas, hooks y hooks personalizados, tipos de librerías externas, peticiones de red y Context."
+      },
+      {
+        "nombre": "Goblin Store",
+        "descripcion": "Tienda de artículos digitales que sirve como base para aprender a probarla con Jest y React Testing Library, usando mocks tipados y helpers de pruebas."
+      },
+      {
+        "nombre": "Teclado MIDI",
+        "descripcion": "Aplicación musical que usa las APIs de audio y MIDI del navegador para practicar render props, HOC, hooks personalizados y atajos de teclado."
+      },
+      {
+        "nombre": "Sitio estilo Medium con Next.js",
+        "descripcion": "Blog generado como sitio estático con Next.js, con rutas dinámicas, obtención de datos, página 404 personalizada y recursos estáticos."
+      },
+      {
+        "nombre": "App de dibujo con Redux",
+        "descripcion": "Aplicación de dibujo sobre HTML Canvas con deshacer y rehacer y exportación de imágenes, que compara useReducer con Redux y Redux Toolkit."
+      },
+      {
+        "nombre": "App React con GraphQL",
+        "descripcion": "Aplicación que consume una API GraphQL con Apollo Client y genera automáticamente tipos de TypeScript a partir del esquema."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.newline.co/fullstack-react-with-typescript"
+    ]
+  },
+  "the-complete-developer-2024": {
+    "descripcion": "Guía práctica de No Starch Press en la que Martin Krause enseña a construir todas las capas de una aplicación web moderna con TypeScript, React, Next.js, MongoDB y Docker, del frontend al backend y de vuelta. Es para desarrolladores con experiencia que quieren entender el stack completo y para quienes se inician en el desarrollo web por su cuenta. Conviene saber programar y tener nociones básicas de JavaScript.\n\nLa primera parte recorre el stack tecnología por tecnología: Node.js, JavaScript moderno, TypeScript, React, Next.js (incluidas sus rutas de API propias), APIs REST y GraphQL, MongoDB con Mongoose, pruebas con Jest, autorización con OAuth y contenedores con Docker. También muestra cómo montar un servidor web con Express.js y desplegar microservicios autocontenidos. Los apéndices tratan las opciones del compilador de TypeScript, el directorio app de Next.js y los matchers más comunes de Jest.\n\nEn la segunda parte se construye, capítulo a capítulo, una aplicación full-stack que funciona dentro de Docker: entorno, middleware, API GraphQL, frontend, login con GitHub mediante OAuth y pruebas automatizadas que corren en contenedores. Su valor está en ver cómo encajan todas las piezas en un solo proyecto. Como contrapartida, cada tecnología se trata de forma introductoria y no profundiza en temas como el despliegue en la nube, CI/CD o el escalado. Por eso sirve más como mapa del stack que como referencia de cada herramienta.",
+    "temas": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "REST",
+      "GraphQL",
+      "MongoDB",
+      "Mongoose",
+      "Jest",
+      "OAuth",
+      "Docker"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación full-stack con Next.js y GraphQL",
+        "descripcion": "Aplicación web completa que corre en Docker, con middleware, API GraphQL sobre MongoDB y Mongoose y un frontend en React/Next.js. Los usuarios inician sesión con GitHub mediante OAuth y la aplicación se prueba con Jest dentro de los contenedores."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/complete-developer",
+      "https://www.i-programmer.info/book-watch-archive/17496-the-complete-developer-no-starch-press.html"
+    ]
+  },
+  "fluent-react-2024": {
+    "descripcion": "Libro de O'Reilly en el que Tejas Kumar explica, en un lenguaje sencillo, cómo funciona React por dentro y no solo cómo se usa. Trata el React actual (React 18 y la llegada de los Server Components) y está pensado para desarrolladores que ya trabajan con React y quieren entender sus mecanismos internos para escribir aplicaciones más rápidas y eficientes. El propio autor advierte que no es un tutorial para aprender React desde cero y recomienda empezar por la documentación oficial en react.dev.\n\nEl recorrido empieza con un repaso de los fundamentos y del porqué de React, y sigue con JSX y sus patrones avanzados, el Virtual DOM y el proceso de reconciliación. Después trata preguntas frecuentes y patrones de componentes, React en el servidor (renderizado e hidratación), React concurrente (transiciones y prioridades de renderizado), los frameworks construidos sobre React, como Next.js y Remix, y React Server Components. Cierra con un capítulo sobre alternativas a React y lo que se puede aprender de ellas.\n\nEs un libro conceptual: ofrece ejemplos de código para ilustrar cada idea, pero no hay proyectos guiados ni ejercicios. Aporta mucho a quien quiere entender por qué React se comporta como lo hace y tomar mejores decisiones de rendimiento y arquitectura. No cubre el ecosistema práctico (gestión de estado, testing, estilos) ni sirve como primer libro. Conviene haber construido al menos una aplicación React con hooks antes de leerlo.",
+    "temas": [
+      "React 18",
+      "JSX",
+      "Virtual DOM",
+      "Reconciliación",
+      "Patrones de componentes",
+      "Renderizado en servidor",
+      "Hidratación",
+      "React concurrente",
+      "Next.js",
+      "React Server Components",
+      "Rendimiento",
+      "Alternativas a React"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://oreilly.com/library/view/fluent-react/9781098138707",
+      "https://search.library.wisc.edu/catalog/9914036439102121",
+      "https://www.oreilly.com/library/view/fluent-react/9798341638716/preface01.html"
+    ]
+  },
+  "full-stack-serverless-2020": {
+    "descripcion": "Nader Dabit, que entonces era developer advocate en Amazon Web Services, explica cómo construir aplicaciones full-stack sin administrar servidores. Usa React en el frontend y AWS en el backend, con AWS Amplify (CLI y librerías cliente, en su versión de 2020) como pieza central. El libro es para desarrolladores frontend o full-stack de nivel intermedio que ya manejan JavaScript y React y quieren pasar a la nube sin hacerse expertos en infraestructura.\n\nEmpieza explicando qué cambia el paradigma serverless y presenta AWS. Después configura Amplify y crea una primera aplicación con una API GraphQL gestionada por AWS AppSync. Sigue con la autenticación con Amazon Cognito: primero los componentes listos de Amplify y luego flujos personalizados con React Router y rutas protegidas. Dos capítulos tratan a fondo las funciones serverless con AWS Lambda: triggers, acceso a DynamoDB, APIs REST con API Gateway y autorización por grupos de usuarios. Luego profundiza en AppSync (esquemas, resolvers, directivas de Amplify y reglas de acceso), en Amplify DataStore para apps offline con sincronización en tiempo real, en Amazon S3 para guardar imágenes y en el despliegue con Amplify Console y CI/CD.\n\nCada capítulo tiene una aplicación práctica, como un tablero de mensajes en tiempo real con DataStore o una app de fotos con almacenamiento en S3. Su valor está en mostrar de principio a fin cómo se conectan los servicios de AWS desde una app React. Tiene dos límites: está muy atado al ecosistema Amplify, y parte de la sintaxis de la CLI y de las librerías cambió en versiones posteriores (Amplify Gen 2), así que conviene revisar la documentación actual. Tampoco profundiza en la infraestructura como código ni en alternativas a AWS. Necesitas una cuenta de AWS.",
+    "temas": [
+      "Serverless",
+      "AWS Amplify",
+      "React",
+      "GraphQL",
+      "AWS AppSync",
+      "Amazon Cognito",
+      "AWS Lambda",
+      "DynamoDB",
+      "Amazon S3",
+      "Amplify DataStore",
+      "CI/CD"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Primera app con API GraphQL",
+        "descripcion": "Aplicación React conectada a una API GraphQL creada con Amplify y AWS AppSync, con consultas, mutaciones y suscripciones."
+      },
+      {
+        "nombre": "Apps con autenticación",
+        "descripcion": "Ejemplos de registro e inicio de sesión con Amazon Cognito: primero con los componentes de Amplify y luego con formularios propios y rutas protegidas con React Router."
+      },
+      {
+        "nombre": "Backends con funciones serverless",
+        "descripcion": "APIs y triggers con AWS Lambda, API Gateway y DynamoDB, con permisos según el grupo de cada usuario."
+      },
+      {
+        "nombre": "Tablero de mensajes offline",
+        "descripcion": "App de mensajes en tiempo real hecha con Amplify DataStore. Funciona sin conexión y se sincroniza al reconectarse."
+      },
+      {
+        "nombre": "App de fotos",
+        "descripcion": "Aplicación React que sube y muestra imágenes guardadas en Amazon S3 mediante Amplify Storage."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://oreilly.com/library/view/full-stack-serverless/9781492059882",
+      "https://github.com/dabit3/full-stack-serverless-code"
+    ]
+  },
+  "javascript-everywhere-2020": {
+    "descripcion": "Adam D. Scott muestra cómo usar un único lenguaje, JavaScript, para construir todas las capas de una aplicación: la API, la web, la app móvil y la de escritorio. El subtítulo nombra la pila: GraphQL, React, React Native y Electron, en las versiones de 2020. Es para desarrolladores con nivel intermedio de JavaScript que conocen HTML y CSS y quieren una visión full-stack y multiplataforma. No hace falta experiencia previa con cada herramienta.\n\nEn el backend crea una API GraphQL con Node.js, Express y Apollo Server, con datos en MongoDB mediante Mongoose. Cubre la autenticación de usuarios con JWT, permisos, paginación, seguridad básica y el despliegue de la API. En la parte web, el cliente React usa Apollo Client para consultar la API, styled-components para los estilos, rutas, formularios y manejo de la sesión. Después reutiliza la misma API y la misma autenticación en una app móvil para iOS y Android hecha con React Native y en una app de escritorio con Electron, incluyendo el empaquetado y la distribución de cada una.\n\nTodo el libro gira en torno a una sola aplicación CRUD de notas que se va ampliando de capítulo en capítulo. Los repositorios oficiales traen el código de partida, las soluciones de cada capítulo y la versión final. Su valor está en ver cómo una misma API sirve a varios clientes y cómo se comparte la autenticación entre plataformas. Como abarca tanto, no va a fondo en ninguna tecnología: React, GraphQL o React Native se ven solo lo necesario para el proyecto. Además, algunas dependencias (Apollo, Expo, servicios de hosting) han cambiado desde 2020.",
+    "temas": [
+      "JavaScript full-stack",
+      "Node.js",
+      "Express",
+      "GraphQL",
+      "Apollo Server",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "React",
+      "Apollo Client",
+      "styled-components",
+      "React Native",
+      "Electron"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API GraphQL de notas",
+        "descripcion": "Backend con Node.js, Express, Apollo Server y MongoDB/Mongoose: usuarios, notas y favoritos, autenticación con JWT, permisos y paginación."
+      },
+      {
+        "nombre": "Cliente web de notas",
+        "descripcion": "Aplicación React que consume la API con Apollo Client, usa styled-components para los estilos e incluye rutas, formularios de registro e inicio de sesión y operaciones CRUD sobre notas."
+      },
+      {
+        "nombre": "App móvil multiplataforma",
+        "descripcion": "Versión para iOS y Android con React Native que reutiliza la misma API GraphQL y la misma autenticación."
+      },
+      {
+        "nombre": "App de escritorio",
+        "descripcion": "Versión de escritorio hecha con Electron que envuelve el cliente web y se empaqueta para distribuirla."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://ebooki.swiatczytnikow.pl/ebook/9781492046936,adam-d--scott--javascript-everywhere-building-cross-platform-applications-with-g.html",
+      "https://github.com/javascripteverywhere/api",
+      "https://github.com/javascripteverywhere/web"
+    ]
+  },
+  "learning-react-2016": {
+    "descripcion": "Primera edición de la introducción a React de Alex Banks y Eve Porcello, con el subtítulo «Functional Web Development with React and Redux». Las versiones preliminares salieron en 2016 y la edición impresa en 2017. Trabaja con la generación de React 15/16, en la que todavía se usaban componentes de clase y métodos de ciclo de vida. Es para desarrolladores web que conocen HTML, CSS y JavaScript y se acercan a React por primera vez.\n\nEmpieza con las novedades de ES6 y siguientes (let/const, funciones flecha, desestructuración, promesas, clases, módulos) y los conceptos de programación funcional en JavaScript: inmutabilidad, funciones puras, composición y funciones de orden superior. Después explica React «puro», sin JSX, con React.createElement y el DOM virtual. Sigue con JSX, Babel y webpack, props, estado y el árbol de componentes, el ciclo de vida de los componentes, y la gestión de estado con Redux y React Redux. Cierra con pruebas con Jest y Enzyme (snapshots y cobertura), enrutamiento con React Router y renderizado en el servidor (React universal/isomórfico con Express y Redux Thunk).\n\nComo hilo conductor se construye la aplicación «Color Organizer»: primero con el estado propio de React, después con Redux, luego se prueba y al final se renderiza en el servidor. Su punto fuerte es el enfoque funcional, que ayuda a entender por qué React se diseñó así. Hoy está desactualizado: no cubre Hooks, Context moderno ni Suspense, y algunas APIs que usa (ciclo de vida antiguo, React Router v3/v4) ya están obsoletas. Conviene leer la segunda edición (2020) salvo que tengas que mantener código antiguo.",
+    "temas": [
+      "React 15/16",
+      "ES6+",
+      "Programación funcional",
+      "JSX",
+      "Babel",
+      "webpack",
+      "Componentes de clase",
+      "Ciclo de vida",
+      "Redux",
+      "React Redux",
+      "Jest y Enzyme",
+      "React Router",
+      "Renderizado en servidor"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Color Organizer",
+        "descripcion": "Aplicación para guardar, puntuar y organizar colores. Se construye primero con el estado de React, se migra a Redux y React Redux, se prueba con Jest y Enzyme y se convierte en app universal renderizada en el servidor con Express."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://oreilly.com/library/view/learning-react/9781491954614",
+      "https://www.oreilly.com/library/view/learning-react/9781491954614/ch09.html"
+    ]
+  },
+  "learning-react-2nd-edition-2020": {
+    "descripcion": "Segunda edición, reescrita casi por completo, de la introducción a React de Alex Banks y Eve Porcello, con el subtítulo «Modern Patterns for Developing React Apps». Se publicó en junio de 2020 y se centra en React 16.8+ con componentes funcionales y Hooks. Es para desarrolladores web que dominan HTML, CSS y JavaScript en el navegador. Según la editorial, no hace falta experiencia previa con React ni con programación funcional.\n\nSus 12 capítulos van de las novedades de JavaScript (ES6+, módulos, async/await) y la programación funcional a React «puro» y JSX con Babel y webpack. Después cubre la gestión de estado con useState, Context y useReducer, y los Hooks en profundidad: useEffect, useLayoutEffect, useMemo, useCallback y Hooks personalizados. Sigue con la carga de datos desde APIs REST y GraphQL, el renderizado de listas grandes, Suspense, Error Boundaries y code splitting, las pruebas con Jest y React Testing Library (más ESLint, Prettier y PropTypes/TypeScript), React Router y React en el servidor con renderizado isomórfico y Next.js/Gatsby.\n\nLos ejemplos son pequeñas aplicaciones que crecen dentro de cada capítulo, como el organizador de colores o componentes que consultan la API de GitHub. Todo el código está en el repositorio oficial de Moon Highway. Es una de las mejores introducciones a React con Hooks: clara y bien fundamentada en el estilo funcional. Por su fecha, Suspense para datos y la parte de servidor se presentan como funciones experimentales, y no trata React 18/19, Server Components ni las versiones actuales de React Router. Úsalo como base conceptual y complétalo con la documentación actual en react.dev.",
+    "temas": [
+      "React 16.8+",
+      "Hooks",
+      "ES6+",
+      "Programación funcional",
+      "JSX",
+      "Context y useReducer",
+      "Hooks personalizados",
+      "Fetch y GraphQL",
+      "Suspense",
+      "Jest y React Testing Library",
+      "React Router",
+      "Renderizado en servidor"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Organizador de colores con Hooks",
+        "descripcion": "Aplicación que añade, puntúa y elimina colores. Sirve para practicar el estado con useState, Context y Hooks personalizados en componentes funcionales."
+      },
+      {
+        "nombre": "Componentes que consultan la API de GitHub",
+        "descripcion": "Ejemplos que cargan datos de usuarios y repositorios desde la API REST y GraphQL de GitHub, y manejan estados de carga, errores y listas grandes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://ebooki.swiatczytnikow.pl/ebook/9781492051671,alex-banks--eve-porcello--learning-react-modern-patterns-for-developing-react-ap.html",
+      "https://github.com/MoonHighway/learning-react",
+      "https://oreilly.com/library/view/learning-react-2nd/9781492051718"
+    ]
+  },
+  "react-cookbook-2021": {
+    "descripcion": "Libro de recetas de David y Dawn Griffiths, conocidos por la serie Head First. Reúne alrededor de un centenar de soluciones a problemas habituales al desarrollar con React (versión 17, con componentes funcionales y Hooks), agrupadas en 11 capítulos. Es para desarrolladores con nivel intermedio que ya saben lo básico de React y buscan respuestas concretas para el día a día, más que un curso lineal.\n\nCada receta sigue el formato problema, solución y discusión. Cubre la creación de proyectos con Create React App (también con TypeScript), Next.js, Gatsby, Razzle, Preact y nwb, además de integrar React en Rails, Storybook y Cypress. Sigue con enrutamiento avanzado con React Router (rutas responsive, transiciones, zonas autenticadas), gestión de estado con reducers, deshacer, formularios y Redux con redux-persist y reselect. También trata diseño de interacción y animaciones, conexión con servicios (Hooks para llamadas, cancelación, debounce, middleware de Redux y GraphQL) y librerías de componentes como Material-UI, React Bootstrap, Reactstrap, Semantic UI, react-admin y React-Vis. Los últimos capítulos cubren seguridad (HTTPS, WebAuthn con llave física y huella, auditoría con ESLint), pruebas, accesibilidad, rendimiento (code splitting, renderizado en servidor) y aplicaciones web progresivas con service workers, sincronización en segundo plano y notificaciones.\n\nNo construye un proyecto central: cada receta trae una mini app en el repositorio oficial, organizada por capítulo, para ejecutarla y adaptarla. Su gran ventaja es la variedad de temas que otros libros de React suelen pasar por alto, como WebAuthn, PWA, accesibilidad o mantener una app hecha con Create React App. Sirve como obra de consulta: no es para aprender React desde cero, y algunas herramientas (Create React App, React Router v5, Material-UI v4) han sido reemplazadas, así que conviene ajustar el código a las versiones actuales.",
+    "temas": [
+      "React 17",
+      "Hooks",
+      "Create React App",
+      "Next.js",
+      "React Router",
+      "Redux",
+      "GraphQL",
+      "Librerías de UI",
+      "Seguridad y WebAuthn",
+      "Testing",
+      "Accesibilidad",
+      "PWA"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "http://accu.org/bookreviews/2022/grenyer_1993/",
+      "https://github.com/dogriffiths/ReactCookbook-source"
+    ]
+  },
+  "react-up-running-2nd-edition-2021": {
+    "descripcion": "Segunda edición, revisada a fondo, del libro de Stoyan Stefanov que enseña React desde cero hasta una aplicación de página única completa. Publicada por O'Reilly a finales de 2021, trabaja con la versión de React de entonces (React 17, con los Hooks ya consolidados) y con Create React App como herramienta de arranque. Está pensada para desarrolladores que ya dominan la sintaxis de JavaScript, pero no necesitan experiencia previa con React. Es un nivel de principiante a intermedio, aunque el ritmo es rápido y conciso.\n\nEmpieza por lo más básico: un «Hola mundo» con React.createElement(), la sintaxis JSX y su transpilación con Babel. Sigue con los componentes de función y de clase, las props, el estado, el manejo de eventos, los métodos del ciclo de vida y la validación con PropTypes. Después rehace el mismo componente con Hooks (useState, useEffect, useLayoutEffect, useReducer y useCallback), crea un Hook personalizado y muestra cómo hacer pruebas unitarias de reducers. Un capítulo entero se dedica a los detalles de JSX: espacios en blanco, fragmentos, atributos spread, diferencias con HTML y formularios controlados y no controlados. La parte final explica el entorno de Create React App con Node.js y package.json, el paquete classnames, el uso de refs, la persistencia en localStorage y la gestión del flujo de datos con Context y reducers. También incluye un enrutado sencillo basado en la URL.\n\nEl hilo conductor es práctico. Primero se construye «Excel», una tabla de datos que permite editar, ordenar, buscar, deshacer cambios y exportar. Luego esa tabla se reutiliza dentro de Whinepad, una aplicación completa que guarda los datos en el navegador. Cada capítulo cierra con retos breves del tipo «¿puedes mejorar el componente?». Es un libro corto y muy didáctico para entender los fundamentos y el porqué de cada pieza. A cambio, no cubre TypeScript, Redux, React Router, Next.js ni la comunicación con un backend real. Además, Create React App ya está obsoleto, así que conviene trasladar lo aprendido a herramientas actuales como Vite.",
+    "temas": [
+      "React 17",
+      "JSX",
+      "Babel",
+      "Componentes de clase y de función",
+      "Props y estado",
+      "Hooks",
+      "useReducer",
+      "Hooks personalizados",
+      "Context API",
+      "Create React App",
+      "PropTypes",
+      "localStorage"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Excel: tabla de datos avanzada",
+        "descripcion": "Componente de tabla hecho primero con clases y luego con Hooks y useReducer. Permite editar celdas, ordenar, buscar, reproducir el historial de cambios y descargar los datos."
+      },
+      {
+        "nombre": "Whinepad",
+        "descripcion": "Aplicación de página única creada con Create React App. Reúne componentes propios (botones, formularios, valoraciones, diálogos), guarda los datos en localStorage y comparte el estado con Context, reducers y un enrutado basado en la URL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/react-up/9781492051459",
+      "https://ebookpoint.pl/ksiazki/react-up-running-2nd-edition-stoyan-stefanov,e_2qm8.htm",
+      "https://github.com/stoyan/reactbook2"
+    ]
+  },
+  "aspnet-core-3-and-react-2019": {
+    "descripcion": "Guía práctica de Carl Rippon (Packt, 2019) para crear aplicaciones web full-stack que combinan un backend en ASP.NET Core 3 con un frontend en React escrito en TypeScript 3. Está dirigida a desarrolladores web que quieren unir el ecosistema .NET con una SPA moderna. No hace falta saber React, pero sí tener una base de .NET Core y C#.\n\nEn el frontend parte de la plantilla de ASP.NET Core para React y pasa enseguida a separar cliente y servidor en proyectos independientes. Enseña componentes de función con Hooks y tipados con TypeScript, navegación con React Router, formularios hechos con componentes reutilizables y gestión del estado con Redux y la Context API. En el backend crea una API REST con controladores de API, enrutamiento por atributos y model binding. El acceso a la base de datos SQL Server se hace con Dapper, y las funciones en tiempo real con SignalR. También dedica capítulos al rendimiento y la escalabilidad, a la seguridad con ASP.NET Core Identity y políticas de autorización, y a consumir la API REST desde React. Termina con pruebas automatizadas en .NET y en React, el despliegue en Azure y la integración y entrega continuas (CI/CD) con Azure DevOps.\n\nTodo el libro gira en torno a una única aplicación, QandA, un sitio de preguntas y respuestas que crece capítulo a capítulo hasta quedar lista para producción. Su mayor aporte es mostrar el ciclo completo, desde el primer componente hasta el pipeline de despliegue, con decisiones realistas como usar Dapper en lugar de Entity Framework. Hoy está desactualizado: .NET Core 3 y TypeScript 3 ya tienen sucesores, y el propio autor publicó una edición posterior para .NET 5 y React 17. Aun así, los conceptos de arquitectura siguen siendo válidos.",
+    "temas": [
+      "ASP.NET Core 3",
+      "React",
+      "TypeScript 3",
+      "React Router",
+      "Redux",
+      "API REST",
+      "Dapper",
+      "SignalR",
+      "ASP.NET Core Identity",
+      "Pruebas automatizadas",
+      "Azure",
+      "Azure DevOps"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "QandA: aplicación de preguntas y respuestas",
+        "descripcion": "SPA full-stack con un frontend en React, TypeScript, Redux y React Router, y un backend ASP.NET Core 3 con Dapper, SignalR y autenticación. Incluye pruebas automatizadas y se despliega en Azure con un pipeline de CI/CD en Azure DevOps."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/PacktPublishing/ASP.NET-Core-3-and-React",
+      "https://ebookpoint.pl/ksiazki/asp-net-core-3-and-react-hands-on-full-stack-web-development-using-asp-net-core-react-and-typescr-carl-rippon,e_2azp.htm",
+      "https://www.packtpub.com/product/aspnet-core-3-and-react/9781789950229"
+    ]
+  },
+  "flux-architecture-2016": {
+    "descripcion": "Libro de Adam Boduch (Packt, 2016) dedicado por completo a Flux, la arquitectura de flujo de datos unidireccional que Facebook propuso para las aplicaciones React. Es de la época de React 15, cuando Flux y sus derivados competían por ser el estándar. Va dirigido a desarrolladores que usan React y encuentran Flux confuso, o que buscan salir del «código espagueti» de los patrones MV* en aplicaciones grandes. No exige conocer Flux ni React, pero sí un buen manejo de JavaScript.\n\nEmpieza por los problemas de diseño que resuelve Flux y por los principios que lo guían. Después recorre cada pieza de la arquitectura: acciones y creadores de acciones, acciones asíncronas, el dispatcher (incluida una implementación propia), los stores y cómo cambian de estado, y las vistas. Trata los stores inmutables con Immutable.js y muestra que la capa de vista puede ser algo distinto de React, como jQuery o Handlebars. Presenta las librerías Alt y Redux como formas de simplificar el trabajo con Flux. Cierra con pruebas y medición de rendimiento con Jest y con temas de despliegue y empaquetado, usando herramientas como Webpack y Babel.\n\nNo hay un proyecto único. El libro avanza con ejemplos de código completos y ejecutables en cada capítulo, desde un esqueleto de arquitectura hasta componentes Flux instalables como paquetes. Su valor está en lo conceptual: entender por qué existe el flujo unidireccional ayuda mucho a comprender Redux, Zustand o el propio useReducer. Sin embargo, hoy es un libro de interés más histórico y arquitectónico que práctico. Flux como librería está en desuso, y el código usa clases y APIs anteriores a los Hooks.",
+    "temas": [
+      "Flux",
+      "Flujo unidireccional",
+      "Dispatcher",
+      "Stores",
+      "Acciones asíncronas",
+      "Immutable.js",
+      "React",
+      "Redux",
+      "Alt",
+      "Jest",
+      "Arquitectura frontend"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/flux-architecture-9781786465818",
+      "https://www.abebooks.co.uk/9781786465818/Flux-Architecture-Boduch-Adam-1786465817/plp",
+      "https://github.com/PacktPublishing/Flux-Architecture"
+    ]
+  },
+  "full-stack-react-projects-2nd-edition-2020": {
+    "descripcion": "Segunda edición del libro de Shama Hoque (Packt, 2020) para aprender desarrollo full-stack con el stack MERN: MongoDB, Express, React y Node.js. Esta edición actualiza el código a las convenciones de entonces, sobre todo los Hooks de React y async/await en JavaScript. Está dirigida a desarrolladores JavaScript que ya han trabajado con React, pero tienen poca experiencia en el backend con Node, Express y MongoDB.\n\nPrimero prepara el entorno de desarrollo MERN y construye un esqueleto de aplicación con gestión de usuarios, autenticación con JWT, una API REST en Express y un frontend en React con React Router y Material-UI. A partir de ese esqueleto enseña técnicas cada vez más avanzadas: comunicación en tiempo real con Socket.IO, visualización de datos con gráficos de Victory, almacenamiento y transmisión de vídeo con MongoDB GridFS, y renderizado en el servidor con carga de datos para mejorar el SEO. También integra pagos en el marketplace y experiencias de realidad virtual con React 360, y termina con buenas prácticas para seguir ampliando aplicaciones MERN.\n\nEs un libro centrado en proyectos: el esqueleto base se extiende hasta convertirse en seis aplicaciones distintas, cada una con un nuevo reto técnico. Su principal aporte es mostrar cómo una misma base MERN se adapta a dominios muy distintos. En contra, el código es extenso y repetitivo, y muchas dependencias han quedado viejas: Material-UI v4, React 360 (ya abandonado) y la configuración manual con Webpack. Además, no usa TypeScript. Conviene tener soltura con React y estar dispuesto a actualizar paquetes.",
+    "temas": [
+      "MERN",
+      "MongoDB",
+      "Express",
+      "React Hooks",
+      "Node.js",
+      "JWT",
+      "Material-UI",
+      "Socket.IO",
+      "Victory",
+      "GridFS",
+      "Renderizado en servidor",
+      "React 360"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "MERN Skeleton",
+        "descripcion": "Aplicación base con registro de usuarios, autenticación con JWT y una API REST en Express y MongoDB, con frontend en React. Es la plantilla de la que parten los demás proyectos."
+      },
+      {
+        "nombre": "MERN Social",
+        "descripcion": "Red social con perfiles, seguidores y publicaciones, construida sobre el esqueleto MERN con React y Material-UI."
+      },
+      {
+        "nombre": "MERN Classroom",
+        "descripcion": "Aula virtual en la que los instructores crean cursos y lecciones y los estudiantes se inscriben y siguen su avance."
+      },
+      {
+        "nombre": "MERN Marketplace (con subastas en tiempo real)",
+        "descripcion": "Mercado en línea con tiendas, productos, carrito y pedidos con pagos. Se amplía con pujas en tiempo real mediante Socket.IO."
+      },
+      {
+        "nombre": "MERN Expense Tracker",
+        "descripcion": "Aplicación de seguimiento de gastos que muestra los datos del usuario en gráficos interactivos hechos con Victory."
+      },
+      {
+        "nombre": "MERN Mediastream",
+        "descripcion": "Plataforma para subir y reproducir vídeos en streaming con MongoDB GridFS, con renderizado en el servidor y carga de datos para el SEO."
+      },
+      {
+        "nombre": "MERN VR Game",
+        "descripcion": "Juego web de realidad virtual creado con React 360 e integrado en una aplicación MERN que guarda y sirve los juegos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-gb/product/full-stack-react-projects-second-edition-9781839215414",
+      "https://github.com/PacktPublishing/Full-Stack-React-Projects-Second-Edition",
+      "https://www.oreilly.com/library/view/-/9781839215414"
+    ]
+  },
+  "full-stack-react-typescript-and-node-2nd-edition-2026": {
+    "descripcion": "Segunda edición, publicada por Packt en 2026, de la guía de David Choi, ahora escrita junto a Cihan Yakar, para crear aplicaciones web full-stack con React 19, TypeScript, Node.js y Express. Está orientada a desarrolladores que ya conocen JavaScript y quieren dar el salto a aplicaciones completas, tipadas y listas para la nube. La edición reemplaza buena parte del stack de la primera (GraphQL, TypeORM y Redis) por herramientas actuales.\n\nLa primera parte cubre los fundamentos de TypeScript y las novedades de ES6+. La segunda explica los conceptos de las SPA y cómo trabajar en React con componentes y Hooks, incluido Suspense. Para el proyecto usa Vite y, para las pruebas, Vitest. El estado y la obtención de datos se manejan con Redux Toolkit, React Router y React Query. En el servidor enseña Node.js y Express con TypeScript dentro de contenedores Docker o Podman, autenticación con JWT, persistencia en PostgreSQL mediante la capa de repositorio de Prisma ORM, y el enrutamiento de Express. Los últimos capítulos se dedican al despliegue de contenedores en AWS, a la integración y entrega continuas (CI/CD) con GitHub Actions, a la monitorización y observabilidad con OpenTelemetry y Grafana, y a una guía práctica de desarrollo asistido por IA con agentes de programación basados en LLM.\n\nLa mitad final del libro es un proyecto continuo: una aplicación de foro con cliente en React y API en Express, que se lleva de principio a fin hasta producción. Su punto fuerte es cubrir todo el ciclo, desde el tipado hasta la observabilidad, con un stack muy actual. Al abarcar tanto, cada tecnología se ve con una profundidad moderada. Conviene tener bases de JavaScript y algo de experiencia en la terminal, y contar con una cuenta de AWS para la parte de despliegue.",
+    "temas": [
+      "React 19",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "Vite",
+      "Vitest",
+      "Redux Toolkit",
+      "React Query",
+      "JWT",
+      "PostgreSQL",
+      "Prisma",
+      "Docker",
+      "AWS"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de foro full-stack",
+        "descripcion": "Foro con un cliente en React 19 y TypeScript (Redux Toolkit, React Router, React Query) y una API Express con autenticación JWT y PostgreSQL mediante Prisma. Se empaqueta con Docker, se despliega en AWS con CI/CD y se monitoriza con OpenTelemetry y Grafana."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://ebookpoint.pl/ksiazki/full-stack-react-typescript-and-node-build-scalable-and-cloud-ready-web-applications-using-react-david-choi,e_4869.htm",
+      "https://www.packtpub.com/en-us/product/full-stack-react-typescript-and-node-9781803243009",
+      "https://github.com/PacktPublishing/Full-Stack-React-TypeScript-and-Node-2nd-Edition",
+      "https://www.oreilly.com/library/view/full-stack-react-typescript/9781803235776/"
+    ]
+  },
+  "getting-started-with-react-2016": {
+    "descripcion": "Introducción breve a ReactJS, escrita por Doel Sengupta, Manu Singhal y Danillo Corvalan y publicada por Packt en 2016, de la época de React 0.14/15, cuando todavía se usaban React.createClass, los mixins y la arquitectura Flux. Es para principiantes en React que ya manejan JavaScript, HTML y CSS y quieren entender por qué React propone un flujo de datos unidireccional y un DOM virtual.\n\nEmpieza por la historia de ReactJS y sus ideas clave: DOM virtual, diffing del DOM y flujo de datos en una sola dirección. Primero se crea un componente sencillo en JavaScript puro y luego se reescribe con JSX. Después enseña a dividir la interfaz en componentes, a comunicarlos entre sí, a manejar el estado y a responder a los eventos del usuario, con sintaxis ES6. Un capítulo integra la Graph API de Facebook para traer y mostrar la lista de \"me gusta\" del usuario, y otro dibuja gráficos combinando React con D3. Luego dedica un capítulo a Flux y cierra con componentes reutilizables, pruebas de componentes, preparación del código para producción y un vistazo rápido a React en el servidor y a Redux.\n\nEn vez de un proyecto grande, propone ejemplos guiados por capítulo: la integración con Facebook y los gráficos con D3 son los más vistosos. Sirve como repaso histórico de los fundamentos (componentes, props, estado, JSX), pero la mayoría de sus APIs y patrones están desfasados: no hay Hooks ni componentes funcionales modernos, Flux fue sustituido por Redux y otras soluciones, y las herramientas de build cambiaron mucho. Además, la Graph API de Facebook ha cambiado sus permisos desde entonces. Hoy conviene acompañarlo de la documentación actual de React o elegir un título más reciente.",
+    "temas": [
+      "React 15",
+      "JSX",
+      "Virtual DOM",
+      "Componentes",
+      "Estado y eventos",
+      "ES6",
+      "Flux",
+      "D3",
+      "Facebook Graph API",
+      "Testing de componentes",
+      "Despliegue"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/getting-started-with-react-9781783550579",
+      "https://biblio.pl/e_3b58/getting-started-with-react-a-light-but-powerful-way-to-build-dynamic-real-time-applications-using-r-doel-sengupta-manu-singhal-danillo-corvalan/p?jezyk=de",
+      "https://sierra.rider.edu/record=b2105078~S5"
+    ]
+  },
+  "learn-react-hooks-2nd-edition-2025": {
+    "descripcion": "Segunda edición de la guía de Daniel Bugl sobre React Hooks, publicada por Packt en 2025 y actualizada por completo a React 19. Tiene una estructura nueva, más casos de uso reales y cubre todos los Hooks recientes. Es para desarrolladores que ya conocen JavaScript y lo básico de React; no hace falta experiencia previa con Hooks, aunque sí soltura con el ecosistema moderno de frontend.\n\nPrimero presenta React y el Hook de estado (useState) y luego pasa a useReducer, useEffect y los Contexts de React. Después explica cómo pedir datos con React Suspense y TanStack Query para obtener, actualizar y cachear información, cómo manejar formularios con Form Actions y los nuevos Hooks de React 19 (useActionState, useFormStatus, useOptimistic), y cómo implementar el routing con React Router. También revisa Hooks avanzados del propio React, Hooks de la comunidad, las reglas de los Hooks y cómo crear y probar Hooks personalizados. Cierra con la migración de componentes de clase a una arquitectura basada en Hooks.\n\nEn la primera parte se construye una aplicación de blog, que luego sirve de base para los demás capítulos: a medida que avanza el libro se le añaden contextos, obtención de datos, formularios y rutas. Su valor está en que muestra cada Hook dentro de una aplicación que va creciendo, en vez de ejemplos aislados, y en que cubre las novedades de React 19 sobre formularios y actualizaciones optimistas. No es un curso de React desde cero ni trata a fondo frameworks como Next.js o React Server Components, así que conviene llegar con los componentes y JSX ya dominados.",
+    "temas": [
+      "React 19",
+      "useState",
+      "useReducer y useEffect",
+      "Context",
+      "Suspense",
+      "TanStack Query",
+      "Form Actions",
+      "useActionState y useOptimistic",
+      "React Router",
+      "Hooks personalizados",
+      "Migración desde clases"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de blog con React Hooks",
+        "descripcion": "Blog creado en la primera parte del libro con React 19 y Hooks de estado. En los capítulos siguientes se amplía con Context, obtención de datos con TanStack Query y Suspense, formularios con Form Actions y rutas con React Router."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/PacktPublishing/Learn-React-Hooks-Second-Edition",
+      "https://www.packtpub.com/en-in/product/learn-react-hooks-9781836209171",
+      "https://www.packtpub.com/en-kr/product/learn-react-hooks-second-edition-9781836209171"
+    ]
+  },
+  "learn-react-with-typescript-2023": {
+    "descripcion": "Segunda edición del libro de Carl Rippon (Packt, marzo de 2023), con el subtítulo \"una guía para principiantes del desarrollo web reactivo con React 18 y TypeScript\". Se actualizó para React 18 (con Hooks) y TypeScript 4.7 o superior. Aunque se presenta como guía para principiantes, está pensado para desarrolladores frontend que ya tienen un nivel intermedio de JavaScript, HTML y CSS y quieren crear aplicaciones grandes y bien tipadas.\n\nLos primeros capítulos presentan React y TypeScript por separado y luego explican cómo montar un proyecto que los combine. Sigue con los Hooks de React, distintas formas de dar estilo a una interfaz, rutas del lado del cliente con React Router y manejo de formularios. Para el estado complejo usa Redux, entre otros enfoques, y en la parte de datos enseña a consumir tanto APIs REST como APIs GraphQL. Termina con el diseño de componentes reutilizables y fuertemente tipados, con tipos avanzados de TypeScript, y con pruebas unitarias usando Jest y React Testing Library.\n\nEl libro avanza con ejemplos prácticos en cada capítulo, organizados en 12 carpetas de código, y suma preguntas de repaso al final, en lugar de un único proyecto. Es una base sólida para quien quiere trabajar con React y TypeScript de forma profesional. Sin embargo, la tercera edición de 2025 cubre React 19, Next.js y Server Components, y esta ya no. Además, las pruebas se hacen con Jest, mientras que el ecosistema actual se está moviendo hacia Vitest. Conviene tener Node.js, npm y VS Code instalados.",
+    "temas": [
+      "React 18",
+      "TypeScript 4",
+      "Hooks",
+      "Estilos en React",
+      "React Router",
+      "Formularios",
+      "Redux",
+      "APIs REST",
+      "GraphQL",
+      "Componentes reutilizables",
+      "Jest",
+      "React Testing Library"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/learn-react-with-typescript-a-beginner-s-guide-to-reactive-web-development-with-react-18-and-typesc-carl-rippon,e_39t3.htm",
+      "https://github.com/PacktPublishing/Learn-React-with-TypeScript-2nd-Edition",
+      "https://www.oreilly.com/library/view/learn-react-with/9781804614204",
+      "https://www.packtpub.com/en-it/product/learn-react-with-typescript-9781804614204"
+    ]
+  },
+  "learn-react-with-typescript-3rd-edition-2025": {
+    "descripcion": "Tercera edición del libro de Carl Rippon, publicada por Packt en julio de 2025 y basada en React 19, TypeScript y Next.js. Está dirigida a quienes empiezan con React y quieren aprender desde el principio los patrones del desarrollo frontend real. Hay que llegar con una base sólida de JavaScript, HTML y CSS; TypeScript se explica desde cero.\n\nArranca con los fundamentos de React y TypeScript, los Hooks y distintas formas de dar estilo. Luego entra en lo más actual del ecosistema: componentes de servidor y de cliente (React Server Components), aplicaciones multipágina con el sistema de rutas de Next.js, obtención de datos en Server Components y mutaciones con server functions. En el lado del cliente usa TanStack Query para pedir y modificar datos. También cubre formularios con los nuevos Hooks useFormStatus y useActionState, estado global con Zustand, diseño de componentes reutilizables y pruebas unitarias con Vitest y React Testing Library.\n\nEl libro trabaja con ejemplos prácticos en cada capítulo, con código para 12 capítulos en su repositorio oficial y preguntas de repaso, en lugar de un único proyecto completo. Respecto a la edición de 2023, cambia Redux por Zustand, Jest por Vitest y React Router por Next.js, lo que lo pone al día con el stack que se usa hoy. Ya no dedica capítulos a GraphQL, y el despliegue o la autenticación tampoco tienen capítulo propio. Conviene saber que gran parte del contenido depende de Next.js (App Router), así que cuadra mejor con quien piensa usar ese framework.",
+    "temas": [
+      "React 19",
+      "TypeScript",
+      "Next.js",
+      "React Server Components",
+      "Server functions",
+      "TanStack Query",
+      "Formularios",
+      "useActionState",
+      "Zustand",
+      "Componentes reutilizables",
+      "Vitest",
+      "React Testing Library"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://ebookpoint.pl/ksiazki/learn-react-with-typescript-a-beginner-s-guide-to-building-real-world-production-ready-web-apps-wi-carl-rippon,e_4gh2.htm",
+      "https://www.packtpub.com/en-gb/product/learn-react-with-typescript-9781836643173",
+      "https://github.com/PacktPublishing/Learn-React-with-TypeScript-Third-Edition"
+    ]
+  },
+  "mastering-react-2016": {
+    "descripcion": "Libro de Adam Horton y Ryan Vice, publicado por Packt en febrero de 2016, que lleva React desde los fundamentos hasta la construcción de una aplicación completa, con un enfoque pragmático y objetivos de desarrollo claros. Corresponde a la época de React 0.14, con createClass y mixins. Está escrito para desarrolladores web con un buen dominio de JavaScript; no hace falta experiencia previa con React ni con otros frameworks.\n\nExplica qué distingue a React de otros frameworks de JavaScript, sobre todo su modelo de composición de componentes, y repasa el ciclo de vida de los componentes, las props y el estado. Después pasa a componentes dinámicos, mixins, formularios y patrones de validación. Luego analiza, pieza por pieza, la anatomía de una aplicación de una sola página (SPA) y cómo elegir y combinar las tecnologías web que la rodean sin perderse entre tantas opciones. También incluye un proceso de diseño de aplicaciones con técnicas y herramientas de prototipado, y cierra con técnicas de animación (por ejemplo, transiciones CSS) para dar acabado a la interfaz.\n\nLa parte central del libro es la construcción guiada de una SPA completa, desde la planificación y el prototipo hasta la implementación. Los lectores valoran precisamente esa aplicación tutorial, aunque hay críticas a explicaciones algo superficiales y a que no aprovecha ES6. Hoy está claramente desfasado: no hay Hooks ni componentes funcionales modernos, los mixins están obsoletos y el ecosistema de librerías cambió por completo. Es útil por su enfoque de diseño y planificación de aplicaciones, no como referencia técnica actual.",
+    "temas": [
+      "React 0.14",
+      "Composición de componentes",
+      "Ciclo de vida",
+      "Props y estado",
+      "Mixins",
+      "Formularios",
+      "Validación",
+      "SPA",
+      "Prototipado",
+      "Animaciones"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de una sola página completa",
+        "descripcion": "SPA construida con React a lo largo de varios capítulos: se planifica con un proceso de diseño y prototipado, se combina con las tecnologías web de su ecosistema y se termina con formularios validados y animaciones."
+      }
+    ],
+    "confianza": "media",
+    "fuentes": [
+      "https://books.google.com.pe/books/about/Mastering_React.html?id=47FKDAAAQBAJ&redir_esc=y",
+      "https://www.goodreads.com/book/show/29391564-mastering-react",
+      "https://www.allbookstores.com/Mastering-React-Adam-Horton-Ryan/9781783558568"
+    ]
+  },
+  "micro-state-management-with-react-hooks-2022": {
+    "descripcion": "Libro de Daishi Kato, creador y mantenedor de Zustand, Jotai y Valtio, sobre cómo manejar el estado global en React con hooks. Propone la «gestión de microestado»: en lugar de un único store monolítico, se usan piezas pequeñas y especializadas según el tipo de estado. Los ejemplos usan React 17 con hooks, TypeScript 4 y create-react-app, y los conceptos siguen valiendo en React 18. Es para desarrolladores de nivel intermedio o avanzado que ya conocen JavaScript, los hooks de React y algo de TypeScript, y que tienen problemas para compartir estado entre componentes.\n\nLa primera mitad explica los fundamentos: qué es el microestado, la diferencia entre estado local y global, y por qué hacer global un estado trae problemas de rendimiento y de diseño. Luego muestra tres formas de compartir estado: con Context, con estado de módulo y suscripciones, y combinando las dos. Con estos patrones el lector puede escribir sus propias librerías mínimas mediante hooks personalizados, y el libro también menciona soluciones dedicadas para el estado de formularios y la caché de datos del servidor. La segunda mitad presenta las librerías de estado global y dedica un capítulo de caso de uso a cada una: Zustand, Jotai, Valtio y React Tracked. Cierra con un capítulo que compara Zustand, Jotai y Valtio.\n\nNo se construye una aplicación completa. Se trabaja con ejemplos de código cortos y progresivos, muy centrados en evitar re-renderizados innecesarios. Su mayor aporte es explicar el modelo mental que hay detrás de cada librería, contado por su propio autor: sirve para decidir con criterio cuál usar en lugar de elegir por moda. Hay que tener en cuenta que no trata Redux Toolkit ni librerías de datos remotos como TanStack Query en profundidad. Además, algunas APIs de estas librerías han cambiado desde 2022, así que conviene revisar su documentación actual.",
+    "temas": [
+      "React Hooks",
+      "Estado global",
+      "Context API",
+      "Suscripciones",
+      "Hooks personalizados",
+      "Zustand",
+      "Jotai",
+      "Valtio",
+      "React Tracked",
+      "Optimización de renderizado",
+      "TypeScript"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/PacktPublishing/Micro-State-Management-with-React-Hooks",
+      "https://helion.pl/ksiazki/micro-state-management-with-react-hooks-explore-custom-hooks-libraries-like-zustand-jotai-and-val-daishi-kato,e_2t4w.htm"
+    ]
+  },
+  "modern-full-stack-react-projects-2024": {
+    "descripcion": "Guía extensa de Daniel Bugl para dar el salto de desarrollador frontend a desarrollador full-stack con el stack MERN (MongoDB, Express, React y Node.js), que en la parte final pasa a Next.js y React Server Components. Usa Node.js 20 y herramientas actuales a 2024. Está pensada para desarrolladores que dominan JavaScript y React pero tienen poca experiencia con backend, bases de datos y despliegue.\n\nEl libro avanza por partes. Empieza con el entorno de desarrollo, Node.js y MongoDB, y sigue con un backend en Express usando Mongoose como ODM y pruebas unitarias con Jest. Después se integra un frontend en React con TanStack Query, se despliega con Docker y CI/CD, y se añade autenticación con JWT. Luego vienen el renderizado del lado del servidor para mejorar los tiempos de carga, el SEO, las pruebas end-to-end con Playwright, y la agregación y visualización de estadísticas con MongoDB y la librería de gráficos Victory. Una sección se dedica a GraphQL, con un backend con API GraphQL y Apollo Client en el frontend. Otra trata la arquitectura basada en eventos con Socket.IO y persistencia en MongoDB. La última parte cubre Next.js, React Server Components, optimizaciones avanzadas y el despliegue de una aplicación Next.js. Cierra con un capítulo sin código para seguir profundizando en el desarrollo full-stack.\n\nSe aprende construyendo, probando y desplegando dos aplicaciones reales: un blog y un chat. Por eso cada concepto aparece dentro de un proyecto con contexto, y no como ejemplo suelto. Su gran valor es recorrer de punta a punta lo que un frontend necesita para ser autónomo: API, base de datos, autenticación, pruebas, contenedores y despliegue. A cambio, es un libro largo y cada tema se ve con amplitud más que con profundidad. Por ejemplo, el diseño avanzado de bases de datos, la seguridad o la escalabilidad de infraestructura quedan en un nivel introductorio. Conviene tener Docker Desktop y MongoDB Shell instalados y estar cómodo con la terminal y Git.",
+    "temas": [
+      "MERN",
+      "Node.js",
+      "Express",
+      "MongoDB y Mongoose",
+      "TanStack Query",
+      "Jest",
+      "Docker y CI/CD",
+      "JWT",
+      "SSR y SEO",
+      "Playwright",
+      "GraphQL y Apollo Client",
+      "Socket.IO",
+      "Next.js y Server Components"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de blog full-stack",
+        "descripcion": "Blog con backend en Express, MongoDB y Mongoose probado con Jest, y frontend en React con TanStack Query. Se le añaden autenticación JWT, SSR, SEO, pruebas E2E con Playwright, estadísticas visualizadas con Victory, una API GraphQL con Apollo Client y despliegue con Docker y CI/CD."
+      },
+      {
+        "nombre": "Aplicación de chat en tiempo real",
+        "descripcion": "Chat basado en eventos, con un backend en Express y Socket.IO y un frontend en React que envía y recibe mensajes. Los mensajes se guardan en MongoDB."
+      },
+      {
+        "nombre": "Aplicación con Next.js",
+        "descripcion": "En la última parte se trabaja con Next.js y React Server Components, se aplican optimizaciones avanzadas y se despliega la aplicación en producción."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/PacktPublishing/Modern-Full-Stack-React-Projects",
+      "https://www.oreilly.com/library/view/modern-full-stack-react/9781837637959",
+      "https://www.packtpub.com/en-cl/product/modern-full-stack-react-projects-9781837637959/chapter/part-1getting-started-with-full-stack-development-1/section/part-1getting-started-with-full-stack-development-1"
+    ]
+  },
+  "react-18-design-patterns-and-best-practices-4th-edition-2022": {
+    "descripcion": "Cuarta edición del libro de Carlos Santana Roldán, ingeniero principal en APM Music y fundador de JS Education, sobre patrones de diseño y buenas prácticas en React. Está actualizada a React 18 y Node 19, y suma un capítulo dedicado a TypeScript y otro sobre arquitectura MonoRepo. Va dirigida a desarrolladores de nivel intermedio que conocen JavaScript y Node.js, leen sintaxis ES6 y se manejan con herramientas de línea de comandos.\n\nEl contenido se organiza en tres bloques: patrones fundamentales, cómo funciona React por dentro y aplicaciones del mundo real. Empieza con los primeros pasos en React, una introducción a TypeScript y técnicas para escribir código limpio. Después aborda los patrones de composición más populares y la comunicación entre componentes, el código específico del navegador, el estilado de componentes y los antipatrones que conviene evitar. Siguen capítulos sobre React Hooks, React Router, las novedades de React 18 y el manejo de datos. La parte final cubre el renderizado del lado del servidor, GraphQL aplicado a un proyecto real, la arquitectura MonoRepo, la optimización del rendimiento, las pruebas y la depuración, y el despliegue a producción.\n\nEs un libro de referencia amplio: recorre casi todo el ecosistema con ejemplos de código en cada capítulo y un proyecto práctico con GraphQL. Sirve para ordenar conocimientos y conocer el vocabulario de patrones (composición, contenedor y presentación, render props, HOCs, hooks personalizados). Por su amplitud, varios temas como SSR, testing o MonoRepo se tratan de forma introductoria. Además, al ser anterior a la consolidación de los React Server Components y del App Router de Next.js, conviene complementarlo con la documentación actual.",
+    "temas": [
+      "React 18",
+      "TypeScript",
+      "Patrones de composición",
+      "Código limpio",
+      "Antipatrones",
+      "React Hooks",
+      "React Router",
+      "Manejo de datos",
+      "SSR",
+      "GraphQL",
+      "MonoRepo",
+      "Rendimiento",
+      "Testing",
+      "Despliegue"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Proyecto real con GraphQL",
+        "descripcion": "En el capítulo dedicado a GraphQL se construye un proyecto práctico que conecta una aplicación React con una API GraphQL para aplicar los conceptos de manejo de datos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/PacktPublishing/React-18-Design-Patterns-and-Best-Practices-Fourth-Edition",
+      "https://www.booksamillion.com/p/React-Design-Patterns-Best-Practices/Carlos-Santana-Roldn/9781803233109"
+    ]
+  },
+  "react-anti-patterns-2023": {
+    "descripcion": "Libro de Juntao Qiu, desarrollador con más de 15 años de experiencia y autor de «Test-Driven Development with React» y «Maintainable React». Enseña a reconocer los antipatrones más comunes en aplicaciones React y a corregirlos mediante refactorización y desarrollo guiado por pruebas (TDD). Los ejemplos usan React (16 o superior) con TypeScript. Es adecuado para desarrolladores intermedios que ya construyen aplicaciones React y notan que su código se vuelve difícil de mantener, y también para líderes técnicos que quieren mejorar la calidad de una base de código existente.\n\nTras una introducción a los antipatrones y un repaso de los fundamentos de React y sus hooks, el libro trata cómo organizar una aplicación React y diseñar componentes. Luego cubre las pruebas en React, las técnicas de refactorización más habituales y una introducción práctica al TDD. La segunda mitad se ocupa del manejo de datos, la aplicación de principios de diseño (separación de responsabilidades, bajo acoplamiento, principios SOLID adaptados a componentes), los patrones de composición, entre ellos la división de código (code splitting) y los múltiples puntos de entrada, y la arquitectura en capas para separar la lógica de negocio de la interfaz.\n\nEl penúltimo capítulo reúne lo aprendido en un proyecto implementado de principio a fin, y el último repasa los principios para evitar antipatrones. Su aporte está en conectar prácticas de ingeniería de software clásicas (refactorización, TDD, arquitectura por capas) con el día a día de React, algo poco común en libros de este ecosistema. No es un libro para aprender React desde cero ni un catálogo de librerías: se centra en el diseño del código. Conviene llegar con experiencia previa en React y TypeScript y nociones básicas de testing.",
+    "temas": [
+      "Antipatrones",
+      "Refactorización",
+      "TDD",
+      "Testing en React",
+      "Diseño de componentes",
+      "Manejo de datos",
+      "Principios de diseño",
+      "Patrones de composición",
+      "Code splitting",
+      "Arquitectura en capas",
+      "TypeScript"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Proyecto end-to-end",
+        "descripcion": "En el capítulo 12 se implementa una aplicación React completa, de principio a fin, que aplica TDD, refactorización, principios de diseño y arquitectura en capas con TypeScript."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/e_3sag.htm",
+      "https://github.com/PacktPublishing/React-Anti-Patterns",
+      "https://www.oreilly.com/library/view/react-anti-patterns/9781805123972"
+    ]
+  },
+  "react-application-architecture-for-production-2022": {
+    "descripcion": "Guía práctica de Alan Alickovic, desarrollador serbio y creador del conocido repositorio de referencia «bulletproof-react», sobre cómo estructurar y llevar a producción aplicaciones React empresariales. Corresponde a la primera edición (2022–2023) y trabaja con Next.js y TypeScript. Está dirigida a desarrolladores de nivel intermedio que ya conocen JavaScript, React y desarrollo web, y que tienen al menos nociones básicas de TypeScript.\n\nEl libro empieza por la arquitectura de las aplicaciones React y la configuración de un proyecto base con Next.js. Usa una estructura de carpetas por funcionalidades (feature-based), análisis estático con ESLint y Prettier, y hooks de Git con Husky y lint-staged. Luego construye y documenta componentes con Chakra UI, Emotion y Storybook, crea páginas eligiendo la estrategia de renderizado de Next.js según lo que necesite cada una, y simula la API para prototipar, desarrollar en local y hacer pruebas. Después integra la API real, elige la solución de manejo de estado adecuada para cada problema e implementa la autenticación de usuarios y las notificaciones globales. Cierra con pruebas unitarias, de integración y end-to-end, la configuración de CI/CD con GitHub Actions, el despliegue en Vercel y un capítulo con temas para seguir avanzando.\n\nTodo el libro gira en torno a un único ejemplo realista que se construye capítulo a capítulo, con el código de inicio y el código final de cada etapa en el repositorio oficial. Su valor está en mostrar cómo encajan las decisiones de arquitectura, herramientas y calidad en un proyecto completo, más que en enseñar APIs de React. Es breve (unas 230 páginas), así que temas como rendimiento, accesibilidad o internacionalización quedan fuera, y la segunda edición los incorpora. Además, se basa en el Pages Router de Next.js, anterior al App Router, por lo que algunas prácticas han cambiado.",
+    "temas": [
+      "Arquitectura React",
+      "Next.js",
+      "TypeScript",
+      "Estructura por funcionalidades",
+      "Chakra UI y Emotion",
+      "Storybook",
+      "ESLint y Prettier",
+      "Husky",
+      "Mocking de API",
+      "Autenticación",
+      "Testing",
+      "GitHub Actions",
+      "Vercel"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación web empresarial con Next.js",
+        "descripcion": "Aplicación real que se construye capítulo a capítulo con Next.js, TypeScript, Chakra UI y una API simulada. Incluye páginas con distintas estrategias de renderizado, autenticación, notificaciones globales y pruebas, y se despliega en Vercel mediante CI/CD con GitHub Actions."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/PacktPublishing/React-Application-Architecture-for-Production",
+      "https://ebookpoint.pl/ksiazki/react-application-architecture-for-production-learn-best-practices-and-expert-tips-to-deliver-ente-alan-alickovic,e_39v9.htm",
+      "https://www.oreilly.com/library/view/react-application-architecture/9781801070539"
+    ]
+  },
+  "react-application-architecture-for-production-2nd-edition-2026": {
+    "descripcion": "Segunda edición, publicada por Packt en 2026, de la guía en la que Alan Alickovic (ahora junto con Anthony Alicea) enseña a diseñar, construir y poner en producción aplicaciones React profesionales. No es un libro para aprender React desde cero: está pensado para desarrolladores de nivel intermedio que ya trabajan con React y TypeScript y quieren dar el salto a tomar decisiones de arquitectura en proyectos reales y que crecen con el tiempo.\n\nEsta edición renueva por completo el stack: React Router en modo framework (el heredero de Remix), TypeScript, TanStack Query para el estado del servidor, Zustand para el estado del cliente, React Hook Form con Zod para formularios y validación, Shadcn UI como base de la librería de componentes, Vitest para pruebas unitarias y de integración y Playwright para pruebas de extremo a extremo. Los temas siguen el ciclo de vida de una aplicación: estructura del proyecto y calidad del código, una librería de componentes reutilizable, estrategias de enrutamiento y renderizado (incluidas metaetiquetas y layouts), una capa de API con tipos generados a partir de una especificación OpenAPI, gestión del estado según su tipo, pruebas, seguridad y despliegue. Se añaden capítulos nuevos de rendimiento, accesibilidad e internacionalización.\n\nTodo se aplica sobre una aplicación de ejemplo realista que se va construyendo capítulo a capítulo. El repositorio oficial guarda una versión independiente del proyecto por capítulo, con una API de apoyo compartida desde el capítulo 5, y pide Node.js 24 o superior. Su valor está en que muestra cómo encajan las piezas de un frontend moderno y por qué se elige cada una, más que en repasar cada librería a fondo. Conviene tener soltura con hooks, TypeScript y herramientas como npm y Vite. El backend es solo un apoyo, así que no cubre el diseño de servidores ni de bases de datos.",
+    "temas": [
+      "React Router (modo framework)",
+      "TypeScript",
+      "TanStack Query",
+      "Zustand",
+      "React Hook Form y Zod",
+      "Shadcn UI",
+      "OpenAPI",
+      "Vitest",
+      "Playwright",
+      "Seguridad",
+      "Rendimiento y accesibilidad",
+      "Internacionalización"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de ejemplo lista para producción",
+        "descripcion": "Aplicación real que se construye a lo largo del libro con React Router en modo framework, TypeScript, TanStack Query, Zustand y Shadcn UI. Consume una API con tipos generados desde OpenAPI y se prueba con Vitest y Playwright antes de desplegarla."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/product/react-application-architecture-for-production/9781836202974",
+      "https://ebooki.swiatczytnikow.pl/ebook/9781836202967,alan-alickovic--anthony-alicea--react-application-architecture-for-production-a-.html",
+      "https://github.com/PacktPublishing/React-Application-Architecture-for-Production-Second-Edition",
+      "https://www.oreilly.com/library/view/react-application-architecture/9781836202974/Chapter_4.xhtml"
+    ]
+  },
+  "react-key-concepts-2022": {
+    "descripcion": "Primera edición de la guía de referencia rápida de Maximilian Schwarzmüller, el conocido instructor de Udemy, que resume los conceptos centrales de React. Está actualizada a React 18 y se dirige a desarrolladores con buena base de JavaScript que quieren aprender React o rellenar huecos en lo que ya saben. También sirve como guía de repaso para quien ya hizo el curso en video del autor o aprendió con otros materiales.\n\nRecorre de forma ordenada los fundamentos: qué es React y por qué existe, componentes y JSX, props, eventos y estado, listas y contenido condicional, y formas de dar estilo a las aplicaciones. Luego pasa a portales y refs, efectos secundarios con useEffect, el funcionamiento interno de React y sus oportunidades de optimización (memo, useMemo, useCallback), el estado complejo con useReducer y Context, y la creación de hooks personalizados. Cierra con dos capítulos sobre aplicaciones de varias páginas y carga de datos con React Router, aprovechando las funciones de datos (loaders y actions) de la versión 6.4 y posteriores.\n\nEl formato prioriza explicaciones breves, ejemplos relevantes y derivaciones paso a paso. Al final de los capítulos hay preguntas de repaso y actividades prácticas, con soluciones disponibles en GitHub. Es un buen manual para consolidar React moderno basado en hooks, pero no cubre Server Components, Next.js, TypeScript ni pruebas automatizadas, y su enfoque de resumen no reemplaza un curso extenso. Si empiezas hoy, la segunda edición (React 19) está más al día.",
+    "temas": [
+      "React 18",
+      "JSX",
+      "Componentes y props",
+      "Estado y eventos",
+      "Renderizado condicional",
+      "Estilos",
+      "Portales y refs",
+      "useEffect",
+      "useReducer y Context",
+      "Hooks personalizados",
+      "Optimización",
+      "React Router"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://leanpub.com/reactkeyconcepts",
+      "https://packtpub.com/product/react-key-concepts/9781803234502"
+    ]
+  },
+  "react-key-concepts-2nd-edition-2024": {
+    "descripcion": "Segunda edición de la guía de referencia de Maximilian Schwarzmüller sobre los conceptos clave de React, actualizada a React 19 y publicada por Packt en la colección Expert Insight. Igual que la primera, está pensada para desarrolladores con experiencia en JavaScript, que suelen tener poco tiempo, y que quieren dominar React con explicaciones directas o tener a mano una referencia que complemente el curso en video del autor u otros recursos.\n\nMantiene el recorrido por los fundamentos (componentes, JSX, props, eventos, estado, listas, contenido condicional, estilos, portales, refs y efectos secundarios), el funcionamiento interno y la optimización, el estado complejo y los hooks personalizados. Añade un capítulo sobre formularios con las nuevas form actions de React 19 y amplía el temario hacia el React full-stack: aplicaciones de varias páginas y gestión de datos con React Router, renderizado en el servidor y aplicaciones full-stack con Next.js, React Server Components y Server Actions, y Suspense junto con el nuevo hook use().\n\nCada capítulo combina teoría con ejemplos y termina con cuestionarios y ejercicios cuyas soluciones completas están en el repositorio de GitHub del libro. Su mayor aporte es explicar con claridad cómo pensar React en el servidor, que es donde más ha cambiado el ecosistema. No profundiza en TypeScript, pruebas ni librerías de estado externas, y no está organizado en torno a proyectos grandes. Es preferible a la primera edición para quien trabaje con React 19 o Next.js.",
+    "temas": [
+      "React 19",
+      "Componentes y JSX",
+      "Estado y eventos",
+      "Form actions",
+      "Hooks personalizados",
+      "Optimización",
+      "React Router",
+      "Next.js",
+      "Server Components",
+      "Server Actions",
+      "Suspense",
+      "Hook use()"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://ebookpoint.pl/ksiazki/react-key-concepts-an-indepth-guide-to-react-s-core-features-second-edition-maximilian-schwarzmuller,e_3y52.htm",
+      "https://www.packtpub.com/en-ca/product/react-key-concepts-9781836202271",
+      "https://www.oreilly.com/library/view/react-key-concepts/9781836202271"
+    ]
+  },
+  "react-js-essentials-2015": {
+    "descripcion": "Guía rápida y práctica de Artemij Fedosejev, publicada por Packt en 2015, para diseñar y construir aplicaciones web escalables y mantenibles con React.js. Corresponde a la primera generación de React (versiones 0.13–0.14, con React.createElement, ReactDOM.render y componentes de clase), así que requiere un buen dominio de JavaScript, en especial del ámbito, de this y de los objetos. Está orientada a desarrolladores intermedios que se acercan a React por primera vez.\n\nEmpieza con la instalación de las herramientas de desarrollo del momento (npm y empaquetado de módulos de estilo CommonJS) y la creación de elementos React con propiedades e hijos. Después explica JSX, los componentes con y sin estado, los métodos del ciclo de vida para añadir reactividad y cómo integrar librerías externas dentro de un componente. La segunda mitad presenta la arquitectura Flux (dispatcher, action creators y stores) y la aplica para separar responsabilidades y facilitar el mantenimiento. Cierra con pruebas automatizadas usando Jest.\n\nTodo el libro gira en torno a Snapterest, una aplicación que recibe en tiempo real un flujo de tweets con fotos procesado con Node.js y permite al usuario armar su propia colección de imágenes. Explica muy bien los fundamentos y las buenas prácticas de las aplicaciones de una sola página, pero hoy está muy desactualizado: no cubre hooks, componentes funcionales modernos, Redux ni las herramientas actuales como Vite. Además, la API de Twitter que usa ya no funciona como entonces. Tiene sobre todo valor histórico o para entender de dónde vienen Flux y Redux.",
+    "temas": [
+      "React.js 0.14",
+      "JSX",
+      "Componentes con estado",
+      "Componentes sin estado",
+      "Ciclo de vida",
+      "Flux",
+      "Jest",
+      "Node.js",
+      "Twitter Streaming API",
+      "SPA"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Snapterest",
+        "descripcion": "Aplicación React que recibe en tiempo real un flujo de tweets con fotos, procesado con Node.js, y permite reunir una colección propia de imágenes. Más adelante se reorganiza con la arquitectura Flux y se prueba con Jest."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/react-js-essentials/9781783551620",
+      "https://www.packtpub.com/en-es/product/reactjs-essentials-9781783551620",
+      "https://github.com/PacktPublishing/React.js-Essentials"
+    ]
+  },
+  "reactjs-blueprints-2016": {
+    "descripcion": "Guía práctica de Sven A. Robbestad, publicada por Packt en 2016, que enseña ReactJS a través de una serie de proyectos completos e independientes entre sí. Corresponde a la etapa de React 0.14/15 con componentes de clase, y está pensada para desarrolladores web que quieren crear aplicaciones con ReactJS. No exige experiencia previa con la librería, pero sí soltura con JavaScript, npm y Node.js.\n\nEl libro arranca con los conceptos de ReactJS y la preparación de un scaffold de desarrollo reutilizable, basado en npm y un servidor Node.js, que sirve de base para todos los capítulos. A partir de ahí trata el diseño de componentes pequeños y fáciles de probar, el flujo de datos en React, el diseño responsive y el enrutamiento, la conexión con APIs públicas y privadas, el uso de las APIs de hardware y HTML5 del navegador, la introducción a Redux con autenticación y restricción del acceso a invitados, las aplicaciones universales que se renderizan en el servidor y en el navegador, y el despliegue en la nube.\n\nLa práctica se reparte entre unos diez proyectos guiados, con cada fragmento de código explicado en detalle. Es un enfoque entretenido y variado que muestra React en contextos muy distintos. Sin embargo, el código y las herramientas son de 2016 y hoy están desfasados: no hay hooks y los paquetes y servicios de despliegue de la época han cambiado mucho. Conviene leerlo como fuente de ideas de proyectos más que como referencia técnica actual.",
+    "temas": [
+      "ReactJS 15",
+      "Scaffolding",
+      "Componentes",
+      "Diseño responsive",
+      "Enrutamiento",
+      "APIs públicas",
+      "APIs HTML5",
+      "Redux",
+      "Autenticación",
+      "Apps universales",
+      "Despliegue en la nube"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tienda web",
+        "descripcion": "Tienda en línea construida con componentes ReactJS sobre el scaffold del libro, con listado de productos y estructura de componentes de la tienda."
+      },
+      {
+        "nombre": "Aplicación responsive con rutas",
+        "descripcion": "Aplicación con varias vistas navegables mediante enrutamiento en el cliente, que se adapta a cualquier tamaño de pantalla."
+      },
+      {
+        "nombre": "Buscador en tiempo real",
+        "descripcion": "Aplicación que muestra resultados a medida que el usuario escribe, conectada a una fuente de datos externa."
+      },
+      {
+        "nombre": "Aplicación de mapas",
+        "descripcion": "Aplicación que combina APIs públicas de mapas con la API de geolocalización de HTML5 para mostrar información según la ubicación."
+      },
+      {
+        "nombre": "Aplicación de login con Redux",
+        "descripcion": "Aplicación que introduce Redux para gestionar el estado y añade una API de inicio de sesión para restringir el acceso a invitados."
+      },
+      {
+        "nombre": "Reactagram",
+        "descripcion": "Aplicación de fotos inspirada en Instagram que usa las APIs de hardware del navegador para capturar y gestionar imágenes."
+      },
+      {
+        "nombre": "Aplicación compartida (universal)",
+        "descripcion": "Aplicación que se renderiza tanto en el servidor con Node.js como en el navegador, y que después se despliega en la nube."
+      },
+      {
+        "nombre": "Juego",
+        "descripcion": "Juego para el navegador construido con ReactJS en el capítulo final del libro."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://tenlong.com.tw/products/9781785886546",
+      "https://subscription.packtpub.com/book/web-development/9781785886546/pref04",
+      "https://ebooki.swiatczytnikow.pl/ebook/9781785884238,sven-a--robbestad--reactjs-blueprints.html",
+      "https://github.com/PacktPublishing/ReactJS-Blueprints"
+    ]
+  },
+  "reactjs-by-example-2016": {
+    "descripcion": "Libro de Packt en el que Vipul A M y Prathamesh Sonpatki enseñan React a partir de cinco proyectos, en lugar de explicar la API de forma aislada. Se publicó en abril de 2016, cuando React estaba en la versión 0.14/15, y usa JavaScript ES6, JSX y el ecosistema de la época. Está pensado para desarrolladores web que ya manejan JavaScript, HTML y CSS y quieren aprender a construir interfaces con componentes. Se puede seguir desde un nivel inicial, aunque saca más provecho quien ya tiene algo de experiencia con JavaScript moderno.\n\nEl índice va de lo básico a lo avanzado. Empieza por los fundamentos de React y una revisión a fondo de JSX, y sigue con datos, props y estado, el ciclo de vida de los componentes y la composición. Después pasa a temas más avanzados: renderizado en el servidor (React on the Server), los React Addons de la época, la optimización del rendimiento, la navegación con React Router y el trabajo con modelos de datos, las animaciones y las herramientas de desarrollo del ecosistema. Los dos últimos capítulos presentan la arquitectura Flux y su evolución hacia Redux.\n\nCada bloque se apoya en una aplicación concreta: un buscador de libros sobre la API de Open Library, un formulario tipo asistente de varios pasos, un buscador con renderizado en el servidor, la portada de una tienda en línea y un rastreador de redes sociales con Flux y Redux. Hoy tiene sobre todo valor histórico o conceptual. Usa patrones obsoletos (componentes de clase, mixins, addons retirados y APIs antiguas de React Router) y no trata Hooks, Context moderno ni las herramientas actuales como Vite. Conviene leerlo junto con documentación actual o elegir un título más reciente si se quiere aprender React para proyectos de hoy.",
+    "temas": [
+      "React 15",
+      "JSX",
+      "ES6",
+      "Ciclo de vida de componentes",
+      "Renderizado en servidor",
+      "React Router",
+      "React Addons",
+      "Rendimiento",
+      "Animaciones",
+      "Flux",
+      "Redux"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Buscador con la API de Open Library",
+        "descripcion": "Primer proyecto: una aplicación que consulta la API pública de Open Library para presentar los fundamentos de React, JSX y el ciclo de vida de los componentes."
+      },
+      {
+        "nombre": "Formulario asistente de varios pasos",
+        "descripcion": "Formulario dividido en pasos para practicar el estado, los eventos y la comunicación entre componentes de React."
+      },
+      {
+        "nombre": "Buscador con renderizado en el servidor",
+        "descripcion": "Aplicación de búsqueda renderizada en el servidor con React y Node.js, para mostrar cómo se generan las vistas antes de enviarlas al navegador."
+      },
+      {
+        "nombre": "Portada de tienda en línea",
+        "descripcion": "Página principal de un comercio electrónico construida con modelos de datos, React Router y los React Addons, que además sirve para trabajar el rendimiento y las animaciones."
+      },
+      {
+        "nombre": "Rastreador de redes sociales",
+        "descripcion": "Proyecto final que organiza la aplicación con el patrón Flux y luego la migra a Redux usando ES6."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://packtpub.com/en-us/product/reactjs-by-example-building-modern-web-applications-with-react-9781785289644",
+      "https://www.oreilly.com/library/view/reactjs-by-example/9781785289644/toc.html",
+      "https://oreilly.com/library/view/reactjs-by-example/9781785289644"
+    ]
+  },
+  "state-management-with-react-query-2023": {
+    "descripcion": "Libro de Daniel Afonso, Developer Advocate con experiencia full-stack, centrado en el estado del servidor en aplicaciones React y en cómo gestionarlo con React Query (TanStack Query, en su versión 4, la vigente cuando salió el libro en 2023). Parte de una idea clara: las librerías de estado global que usamos para el estado del cliente no están pensadas para los datos que vienen de una API. Va dirigido a desarrolladores React de nivel intermedio que conocen lo básico de React y del desarrollo web y quieren dejar atrás la combinación de useEffect, Redux o Context para pedir y guardar datos remotos.\n\nEl libro tiene dos partes. La primera repasa qué es el estado, cómo se gestiona habitualmente en React (useState, useReducer, Context y librerías como Redux, Zustand o Jotai) y en qué se diferencian el estado del cliente y el del servidor. La segunda trabaja React Query a fondo: instalación, configuración de QueryClient y React Query Devtools, el hook useQuery con sus claves de consulta, la caché, los tiempos de staleTime y gcTime, el refetch y la sincronización. También trata consultas paralelas y dependientes, paginación, consultas infinitas, el prefetching y el hook useMutation para crear, actualizar y borrar datos, con invalidación de la caché y actualizaciones optimistas. Cierra con la integración en frameworks con SSR, como Next.js y Remix, y con las pruebas usando React Testing Library y Mock Service Worker (MSW).\n\nNo hay un proyecto grande: cada capítulo trae ejemplos de código en el repositorio oficial de Packt, que se pueden ejecutar y adaptar. Es un libro breve y muy enfocado, útil para entender por qué React Query simplifica tanto el código de obtención de datos y cómo probarlo bien. Conviene saber que TanStack Query v5 cambió algunas APIs (por ejemplo, la firma de objeto única y isPending), así que habrá que contrastar con la documentación actual. Tampoco cubre el estado del cliente más allá de la comparativa inicial.",
+    "temas": [
+      "TanStack Query",
+      "Estado del servidor",
+      "useQuery",
+      "useMutation",
+      "Caché e invalidación",
+      "Actualizaciones optimistas",
+      "Consultas infinitas",
+      "Paginación",
+      "Next.js",
+      "Remix",
+      "Mock Service Worker",
+      "React Testing Library"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://packtpub.com/en-us/product/state-management-with-react-query-9781803231341",
+      "https://github.com/PacktPublishing/State-management-with-React-Query",
+      "https://www.oreilly.com/library/view/-/9781803231341"
+    ]
+  },
+  "react-the-comprehensive-guide-2024": {
+    "descripcion": "Manual de referencia muy extenso de Sebastian Springer, publicado en inglés por Rheinwerk Computing (SAP PRESS) en 2024 y traducido de su exitoso libro alemán. Explica qué es React y cómo funciona, y avanza hasta el desarrollo profesional de aplicaciones completas. Trabaja con el React moderno basado en componentes de función y Hooks, aunque también dedica espacio a los componentes de clase. Según la editorial, sirve tanto a quien llega nuevo a React con conocimientos de JavaScript como a desarrolladores avanzados que buscan una obra de consulta.\n\nSus 21 capítulos cubren casi todo el ecosistema. Empieza por la preparación del entorno (Create React App y alternativas), los principios básicos y el funcionamiento interno de React. Sigue con los componentes de clase, la API de Hooks, el tipado con TypeScript, los estilos (CSS, estilos en línea y CSS-in-JS) y las pruebas automatizadas. Después trata los formularios, las librerías de componentes como Material UI, la navegación con React Router y la creación de librerías de componentes propias. La parte avanzada aborda la gestión de estado central con Redux y sus middlewares para asincronía (Redux Thunk, Redux Saga y Redux Observable), la comunicación con el servidor usando GraphQL y Apollo Client, la internacionalización, el renderizado en el servidor con Next.js, el rendimiento, las Progressive Web Apps y las aplicaciones nativas con React Native.\n\nEl hilo conductor es una aplicación de ejemplo que se va ampliando capítulo a capítulo, y el código se puede descargar. Aporta amplitud y profundidad en un solo volumen, con explicaciones de lo que ocurre por debajo. Por eso funciona bien como libro de cabecera, más que como lectura de principio a fin. Por su tamaño y su origen editorial, algunas herramientas (Create React App o ciertas variantes de Redux) pueden sentirse algo anticuadas frente a Vite, Redux Toolkit o las novedades de React 19 y los Server Components, así que conviene complementarlo con la documentación oficial.",
+    "temas": [
+      "React",
+      "Hooks",
+      "Componentes de clase",
+      "TypeScript",
+      "Estilos en React",
+      "Testing",
+      "Formularios",
+      "Material UI",
+      "React Router",
+      "Redux",
+      "GraphQL y Apollo",
+      "Next.js",
+      "PWA",
+      "React Native"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de ejemplo evolutiva",
+        "descripcion": "Aplicación React que se amplía a lo largo del libro con Hooks, TypeScript, estilos, formularios, enrutado, Redux y comunicación con el servidor mediante GraphQL y Apollo, con ejemplos de código descargables."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.sap-press.com/react_5705/",
+      "https://www.sap-press.com/react_5705/toc/4891",
+      "https://www.rheinwerk-verlag.de/react-the-comprehensive-guide/"
+    ]
+  },
+  "the-road-to-react-2025-edition-2025": {
+    "descripcion": "Libro autopublicado por Robin Wieruch, que lo lanzó en 2016 y lo revisa casi cada año. La edición de 2025 enseña React 19 con Hooks y JavaScript moderno, y permite pasar a TypeScript de forma opcional. Está pensado para principiantes que ya saben JavaScript básico y quieren aprender React de forma pragmática, sin un montón de herramientas añadidas. Muchos lectores también lo usan como referencia de nivel intermedio y como repaso de las características de ES6 que se usan en React.\n\nEl contenido se organiza en seis partes. Los fundamentos cubren la configuración del proyecto con Vite, componentes, JSX, listas, props, estado, efectos secundarios, hooks personalizados, obtención de datos asíncrona y formularios. Una parte dedicada al legado de React trata los componentes de clase y el React imperativo. Los estilos se trabajan con CSS, CSS Modules, styled-components y SVG. El mantenimiento incluye rendimiento, TypeScript en React, pruebas (de unitarias a integración con Vitest y React Testing Library) y estructura del proyecto. La parte de React en el mundo real añade ordenación, búsquedas recientes y paginación. Por último, el despliegue explica el proceso de build y la publicación en Firebase Hosting.\n\nTodo el libro gira en torno a una sola aplicación que se construye de principio a fin, con más de 50 ejercicios al final de los capítulos y lecturas recomendadas. Es una de las introducciones más didácticas y actualizadas: enseña React \"puro\" y deja que el lector entienda los conceptos antes de adoptar librerías. Deja fuera de forma deliberada el enrutado avanzado, la gestión de estado con librerías externas y frameworks como Next.js, que el autor trata en otros materiales. Al terminarlo conviene dar ese salto.",
+    "temas": [
+      "React 19",
+      "Hooks",
+      "JSX",
+      "Custom hooks",
+      "Data fetching",
+      "Formularios",
+      "CSS Modules",
+      "styled-components",
+      "TypeScript",
+      "Vitest",
+      "React Testing Library",
+      "Firebase Hosting"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Buscador de noticias tecnológicas (Hacker News)",
+        "descripcion": "Aplicación React que consulta una API de noticias remota con filtrado en el cliente y en el servidor, ordenación, búsquedas recientes y paginación. Se estiliza, se tipa con TypeScript, se prueba y se despliega en Firebase."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.roadtoreact.com/",
+      "https://leanpub.com/the-road-to-learn-react"
+    ]
+  },
+  "test-driven-react-2nd-edition-2024": {
+    "descripcion": "Segunda edición, publicada por The Pragmatic Bookshelf en 2024, del libro de Trevor Burnham (ingeniero front-end y autor de 'CoffeeScript' y 'Async JavaScript') sobre desarrollo guiado por pruebas (TDD) con React. Esta edición se revisó a fondo para incorporar TypeScript y las herramientas actuales. Está dirigida a desarrolladores con conocimientos prácticos de JavaScript o TypeScript que quieren convertir los requisitos en pruebas y trabajar con un ciclo de retroalimentación rápido dentro del editor.\n\nEl libro arranca con los principios de TDD y el ciclo rojo-verde-refactorizar usando un ejecutor de pruebas (Jest/Vitest), y luego monta un entorno integrado en VS Code con ESLint, Prettier y Wallaby para ver los resultados de las pruebas en tiempo real. Después pasa a probar componentes React con React Testing Library: marcado anidado, componentes con estado y estilos con styled-components, incluidas las instantáneas de estilos. También refactoriza con Hooks (hooks personalizados, el patrón de componente controlable, temporizadores con useEffect, useCallback y useRef) e inspecciona componentes con React DevTools. El cierre trata la integración continua, los hooks de Git con Husky y la documentación de componentes con Storybook.\n\nLa práctica avanza commit a commit: unos primeros ejercicios de calentamiento (Fizz Buzz y un detector de palíndromos) y, como proyecto central, un componente de carrusel construido íntegramente con TDD. Es breve y fácil de seguir, y sirve como buena introducción a una cadena de herramientas coherente para quien empieza con las pruebas en React. Sin embargo, dedica más espacio a las herramientas que al diseño guiado por pruebas, y apenas trata estrategias de mocking, asincronía, datos remotos o autenticación, así que los desarrolladores con experiencia en testing encontrarán poco nuevo.",
+    "temas": [
+      "TDD",
+      "Jest",
+      "Vitest",
+      "React Testing Library",
+      "TypeScript",
+      "ESLint",
+      "Prettier",
+      "Wallaby",
+      "styled-components",
+      "Hooks",
+      "Husky",
+      "Storybook"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Fizz Buzz y detector de palíndromos",
+        "descripcion": "Ejercicios iniciales para practicar el ciclo rojo-verde de TDD con el ejecutor de pruebas y el entorno integrado de VS Code con ESLint, Prettier y Wallaby."
+      },
+      {
+        "nombre": "Componente de carrusel",
+        "descripcion": "Carrusel de imágenes en React construido commit a commit con TDD, usando React Testing Library, styled-components y hooks personalizados con temporizadores, con integración continua, Husky y documentación en Storybook."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://pragprog.com/titles/tbreact2/test-driven-react-second-edition/",
+      "http://accu.org/bookreviews/2026/gurganus_2061/",
+      "https://www.oreilly.com/library/view/test-driven-react-2nd/9798888651391"
+    ]
+  }
+}

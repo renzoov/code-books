@@ -1,0 +1,786 @@
+{
+  "google-maps-javascript-api-cookbook-2013": {
+    "descripcion": "Recetario práctico de Packt en el que Alper Dincer y Balkan Uraz, dos desarrolladores del mundo geoespacial, explican cómo sacarle partido a la Google Maps JavaScript API v3, la versión vigente en 2013. Cubre desde insertar un mapa sencillo en una página web hasta montar aplicaciones de tipo GIS. Está pensado para desarrolladores web con base sólida en JavaScript, HTML y CSS que buscan soluciones concretas y listas para adaptar, más que una explicación teórica de la cartografía web. No hace falta experiencia previa con la API, pero sí soltura con el lenguaje.\n\nEl libro avanza por capítulos temáticos. Primero lo básico: un mapa dentro de un DIV propio, un mapa a pantalla completa, el salto del navegador de escritorio al móvil, las propiedades del mapa y el cambio de mapa base. Después vienen las capas raster y vectoriales (marcadores, polilíneas, polígonos y datos superpuestos), los mapas base con estilos personalizados y los controles propios. Un capítulo entero se dedica a los eventos: dos mapas sincronizados uno al lado del otro, coordenadas del clic, menú contextual, restricción de la extensión del mapa, un control de coordenadas y eventos propios, además de gestos en móviles. También repasa las librerías que amplían la API, tanto de Google como de la comunidad: geometry (cálculo de áreas y longitudes), drawing (dibujo de formas), AdSense, info boxes personalizados y zoom por arrastre. Los servicios se tratan en otro bloque: geocodificación y geocodificación inversa con un clic, elevación, matriz de distancias, rutas (Directions) y Street View. El capítulo más avanzado integra servidores y servicios GIS como ArcGIS Server, GeoServer, CartoDB, Google Fusion Tables y Google Maps Engine.\n\nEl formato es el típico de los cookbooks de Packt: cada receta presenta un problema, el código paso a paso y una explicación de cómo funciona. Sirve como referencia y es especialmente útil para quien quiera conectar Google Maps con infraestructuras GIS reales. Conviene saber que el libro tiene más de una década. Fusion Tables y Google Maps Engine ya se retiraron, la API exige desde hace años una clave y facturación, y Google ha cambiado varias piezas: marcadores avanzados (AdvancedMarkerElement), carga dinámica de librerías y el reemplazo de la librería drawing y de algunos servicios. Funciona bien para entender los conceptos y la arquitectura de un mapa web, pero el código debe revisarse contra la documentación actual de Google Maps Platform. No trata frameworks modernos como React o Angular ni herramientas de build.",
+    "temas": [
+      "Google Maps JavaScript API v3",
+      "Capas vectoriales",
+      "Capas raster",
+      "Estilos de mapa",
+      "Controles personalizados",
+      "Eventos",
+      "Mapas para móviles",
+      "Librería geometry",
+      "Geocodificación",
+      "Directions y Street View",
+      "Distance Matrix",
+      "Integración GIS (ArcGIS, GeoServer, CartoDB)"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/google-maps-javascript-api-cookbook-9781849698825",
+      "https://www.packtpub.com/en-us/product/google-maps-javascript-api-cookbook-9781849698825/chapter/8-mastering-the-google-maps-javascript-api-through-advanced-recipes-8/section/accessing-arcgis-server-with-the-google-maps-javascript-api-ch08lvl1sec69",
+      "https://books.google.com.pe/books/about/Google_Maps_JavaScript_API_Cookbook.html?id=nax4AgAAQBAJ&redir_esc=y",
+      "https://www.oreilly.com/library/view/google-maps-javascript/9781849698825/"
+    ]
+  },
+  "web-api-cookbook-2024": {
+    "descripcion": "Recetario de O'Reilly en el que Joe Attardi recorre las API nativas del navegador moderno para sacarles partido con JavaScript puro, sin frameworks ni librerías externas. Publicado en 2024, trabaja con las API web que ya están disponibles en los navegadores actuales y está pensado para desarrolladores de nivel intermedio que dominan JavaScript (promesas, DOM, eventos) y quieren descubrir cuánto puede hacer la plataforma por sí sola antes de recurrir a un paquete de npm.\n\nEl libro se organiza en capítulos temáticos con recetas de tipo problema-solución-discusión. Empieza por las API asíncronas (promesas y async/await) y sigue con persistencia sencilla mediante Web Storage (localStorage y sessionStorage), manejo de URL y enrutado, peticiones de red con Fetch, y almacenamiento estructurado con IndexedDB. Después aborda la observación de elementos del DOM (IntersectionObserver, MutationObserver, ResizeObserver), la validación de formularios, la Web Animations API (incluido el respeto a la preferencia de movimiento reducido del usuario), la Web Speech API para reconocimiento y síntesis de voz, el trabajo con archivos, la internacionalización con Intl (fechas, números, unidades y reglas de plural), los Web Components, elementos de interfaz nativos, la integración con el dispositivo, la medición de rendimiento, la consola, CSS desde JavaScript y la captura y reproducción de medios.\n\nNo hay un proyecto conductor: cada receta es un ejemplo autocontenido y reutilizable, lo que lo convierte en una buena obra de consulta y en un catálogo para descubrir API poco conocidas. Su gran aporte es demostrar que muchas necesidades habituales (formatear fechas, animar, observar visibilidad, crear componentes) se resuelven sin dependencias. Conviene tener en cuenta que algunas API tratadas tienen soporte desigual entre navegadores, por lo que hay que revisar la compatibilidad antes de llevarlas a producción, y que no cubre frameworks, backend ni API de terceros: el foco es exclusivamente la plataforma web.",
+    "temas": [
+      "JavaScript",
+      "Promesas y async/await",
+      "Web Storage",
+      "Fetch API",
+      "IndexedDB",
+      "IntersectionObserver",
+      "Web Animations API",
+      "Web Speech API",
+      "Intl",
+      "Web Components",
+      "Performance API",
+      "Formularios"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/web-api-cookbook/9781098150686/",
+      "https://www.managementboek.nl/boek/9781098150693/web-api-cookbook-joe-attardi"
+    ]
+  },
+  "the-developer-s-guide-to-social-programming-2010": {
+    "descripcion": "Libro de Addison-Wesley en el que Mark D. Hawker enseña a integrar sitios y aplicaciones web con las grandes plataformas sociales de 2010: Twitter, Facebook y Google Friend Connect con OpenSocial. A diferencia de otros títulos de la época centrados en una sola red, cubre las tres en paralelo. Está dirigido a desarrolladores web de nivel intermedio con experiencia en PHP y JavaScript que quieran añadir funciones sociales a sus proyectos.\n\nLa primera parte trata la API de Twitter: sus métodos, la autenticación con OAuth y extensiones como retuits, listas y localización. La segunda se dedica a Facebook Platform: integración en sitios web, registro y autenticación de usuarios, traducciones, compartir contenido, comentarios, publicación en el muro (stream), descubrimiento de aplicaciones, navegación por pestañas y la librería JavaScript de Facebook, además de FQL. La tercera cubre Google Friend Connect: autenticación del lado del servidor, integración con OpenSocial y desarrollo de gadgets. A lo largo del libro se resuelven problemas comunes como el registro en sitios, la búsqueda, los comentarios en blogs y las funciones basadas en ubicación.\n\nLa parte final reúne todo en una aplicación práctica: una herramienta de microblogging construida con el framework PHP CodeIgniter que luego se integra con Twitter, Facebook y Google Friend Connect. Hoy su valor es sobre todo histórico y conceptual: Google Friend Connect y OpenSocial desaparecieron, y las API de Facebook y Twitter (ahora X) cambiaron radicalmente en autenticación, permisos y acceso, por lo que el código no funciona tal cual. Sigue siendo útil para entender los patrones de integración social (OAuth, inicio de sesión con terceros, publicación en nombre del usuario), pero no como referencia técnica actual.",
+    "temas": [
+      "Twitter API",
+      "OAuth",
+      "Facebook Platform",
+      "FQL",
+      "OpenSocial",
+      "Google Friend Connect",
+      "PHP",
+      "CodeIgniter",
+      "Aplicaciones sociales",
+      "JavaScript"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Herramienta de microblogging integrada con redes sociales",
+        "descripcion": "Aplicación de microblogging construida en PHP con CodeIgniter que después se conecta con Twitter, Facebook y Google Friend Connect, aprovechando funciones de cada plataforma como autenticación y publicación."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/developers-guide-to-social-programming-building-social-9780321680778",
+      "https://www.goodreads.com/book/show/7969750",
+      "https://www.i-programmer.info/bookreviews/12-web-design-and-development-/1274-developers-guide-to-social-programming.html"
+    ]
+  },
+  "beginning-google-maps-api-3-2010": {
+    "descripcion": "Introducción de Apress a la versión 3 de la API de Google Maps para JavaScript, escrita por Gabriel Svennerberg, desarrollador sueco conocido por divulgar esta API en su blog. Enseña a incorporar mapas interactivos en páginas web tanto para navegadores de escritorio como móviles. Está pensado para diseñadores y desarrolladores web con conocimientos básicos de HTML, CSS y JavaScript, y también para quienes conocían la antigua versión 2 y necesitaban migrar a la nueva.\n\nEl recorrido comienza con la historia de la API y nociones de cartografía y coordenadas (latitud y longitud), sigue con la migración de la v2 a la v3 y la creación del primer mapa. Luego profundiza en las opciones del mapa (MapOptions), los marcadores y sus iconos personalizados, las ventanas de información (InfoWindow), las polilíneas y los polígonos. Dedica un capítulo al problema de rendimiento y usabilidad que provoca mostrar muchos marcadores, resuelto con una librería de utilidades de terceros, y cierra con geocodificación y geocodificación inversa para convertir direcciones en coordenadas y viceversa, además de servicios de geolocalización. Incluye un apéndice de referencia de la API y buenas prácticas de HTML, CSS y JavaScript aplicadas a mapas.\n\nEl ritmo es pausado y lleno de consejos, con ejemplos pequeños que se van ampliando, ideal para quien empieza. Se queda en lo básico: no trata KML, Google Earth ni la arquitectura de aplicaciones cartográficas completas. Hay que saber que la API ha cambiado mucho desde 2010 (hoy exige clave de API y facturación, y varias clases como el marcador clásico han sido reemplazadas), así que conviene usarlo para entender los conceptos y contrastar el código con la documentación actual de Google.",
+    "temas": [
+      "Google Maps API v3",
+      "JavaScript",
+      "Marcadores",
+      "InfoWindow",
+      "Polilíneas y polígonos",
+      "Geocodificación",
+      "Geolocalización",
+      "Mapas en móviles",
+      "Migración v2 a v3"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.eyrolles.com/Informatique/Livre/beginning-google-maps-api-3-9781430228028",
+      "https://i-programmer.info/bookreviews/129-maps-a-gis/1503-beginning-google-maps-api-3-.html",
+      "https://skillsoft.com/book/beginning-google-maps-api-3-8b8cb520-f016-11e6-be4a-0242c0a80906"
+    ]
+  },
+  "beginning-svg-2018": {
+    "descripcion": "Introducción práctica de Apress a SVG (Scalable Vector Graphics) escrita por Alex Libby, centrada en crear y manipular gráficos vectoriales directamente en el navegador para sitios y aplicaciones web. Usa básicamente un editor de texto, software gratuito y JavaScript, y está dirigida a desarrolladores web principiantes y equipos ágiles que conocen HTML, CSS y algo de JavaScript y quieren incorporar SVG con rapidez.\n\nEl libro se divide en tres partes. La primera presenta el formato y las distintas formas de añadir contenido SVG a una página (en línea, como imagen, desde CSS). La segunda entra en detalle: trabajo con imágenes y texto, dimensionado y viewBox para que los gráficos se adapten a cualquier tamaño, creación de filtros, animación de contenido y optimización para reducir el código inflado que generan muchos editores gráficos. La tercera lo aplica a casos reales: construcción de gráficos de datos, desde simples gráficos circulares hasta infografías animadas, e incorporación de librerías JavaScript especializadas en SVG, para terminar con ideas para seguir avanzando.\n\nEs un libro orientado a ejemplos del mundo real, con pequeños ejercicios y demos en cada capítulo más que un gran proyecto único. Su punto fuerte es la visión de conjunto: muestra todo el ciclo, desde insertar un icono hasta optimizar y animar gráficos. Al ser introductorio, no profundiza en visualización de datos avanzada (para eso habría que pasar a D3.js) ni en herramientas de diseño como Illustrator o Inkscape más allá de lo necesario. Conviene tener soltura con CSS para aprovechar los capítulos de animación y estilos.",
+    "temas": [
+      "SVG",
+      "Gráficos vectoriales",
+      "viewBox y escalado",
+      "Filtros SVG",
+      "Animación",
+      "Optimización de SVG",
+      "Gráficos de datos",
+      "Librerías SVG",
+      "CSS",
+      "JavaScript"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Gráficos de datos e infografías en SVG",
+        "descripcion": "Construcción de gráficos con SVG, CSS y JavaScript, desde gráficos circulares sencillos hasta infografías más complejas y gráficos animados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/-/9781484237601/",
+      "https://www.hoepli.it/libro/beginning-svg/9781484237595.html",
+      "https://katalog.bibliothek.kit.edu/bib/471665"
+    ]
+  },
+  "checking-out-with-the-payment-request-api-2019": {
+    "descripcion": "Guía práctica de Apress en la que Alex Libby explica cómo construir procesos de pago (checkout) con la Payment Request API, el estándar abierto del W3C que permite al navegador gestionar y autocompletar los datos de pago y envío del usuario. Parte de un problema real del comercio electrónico: el abandono de compra por formularios largos y frágiles. Está dirigida a desarrolladores web de nivel intermedio que ya han trabajado con carritos de compra y conocen HTML, CSS y JavaScript.\n\nEl libro arranca presentando la API y montando un checkout básico, para después configurarlo y personalizarlo: métodos de pago admitidos, detalles del pedido, totales y opciones de envío con sus eventos de cambio de dirección y de tarifa. Un capítulo se dedica a integrar un manejador de pagos (payment handler) que procese el cobro, y otro reúne todas las piezas en un flujo completo. También trata la experiencia de usuario, cómo afecta al uso de la API, la gestión de errores y las consideraciones de seguridad, e incluye un apéndice de referencia de la API.\n\nLa parte práctica culmina con dos capítulos de proyecto: habilitar la API dentro de un framework o un CMS, y explorar el futuro de los pagos web. Su valor está en ofrecer una visión completa y paso a paso de una API poco documentada en libros. Conviene saber que el soporte entre navegadores es desigual (pleno en los basados en Chromium, limitado a Apple Pay en Safari y ausente en Firefox) y que en la práctica se combina con pasarelas como Stripe o Google Pay, por lo que habrá que contrastar el código con la documentación actual del proveedor elegido.",
+    "temas": [
+      "Payment Request API",
+      "Checkout web",
+      "Comercio electrónico",
+      "Envíos y direcciones",
+      "Payment Handler",
+      "Experiencia de usuario",
+      "Seguridad en pagos",
+      "JavaScript",
+      "HTML5"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Checkout completo con la Payment Request API",
+        "descripcion": "Proceso de pago construido paso a paso con HTML y JavaScript: checkout básico, personalización, opciones de envío e integración con un manejador de pagos, reunido en un flujo final."
+      },
+      {
+        "nombre": "Integración en un framework o CMS",
+        "descripcion": "Proyecto que lleva la Payment Request API a un framework o gestor de contenidos existente, mostrando cómo encajarla en una tienda real."
+      },
+      {
+        "nombre": "El futuro de la Web Payments API",
+        "descripcion": "Proyecto exploratorio sobre la evolución de los pagos web y las especificaciones relacionadas con la API."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.springerprofessional.de/en/checking-out-with-the-payment-request-api/17170408",
+      "https://www.schweitzer-online.de/en/buch/Libby/Checking-Out-Payment-Request-API/9781484251836/A51731481/"
+    ]
+  },
+  "cors-in-action-2014": {
+    "descripcion": "Introducción completa a CORS (Cross-Origin Resource Sharing), el mecanismo con el que el navegador permite que una página pida datos a un servidor de otro dominio. Monsur Hossain, ingeniero de Google y creador del sitio enable-cors.org, lo explica desde los dos lados: el cliente que hace la petición y el servidor que la autoriza. Se publicó en 2014, cuando CORS ya funcionaba en los navegadores modernos y empezaba a ser la norma para las APIs públicas. Está pensado para desarrolladores web que manejan JavaScript con soltura, sin experiencia previa en CORS.\n\nEl libro arranca con la política del mismo origen y explica cómo hacer peticiones CORS desde el navegador con XMLHttpRequest. Luego dedica una parte entera al servidor: cómo atender las peticiones CORS con cabeceras como Access-Control-Allow-Origin, y cómo funcionan las peticiones preflight. De estas explica qué son, cuándo se disparan, cómo detectarlas y responderlas (métodos y cabeceras permitidos, rechazo de solicitudes) y cómo usar la caché de preflight. También trata el envío de cookies y credenciales, la exposición de cabeceras de respuesta, la seguridad, el rendimiento y la depuración con las herramientas del navegador. Por último, explica cuándo conviene usar alternativas como JSON-P o un proxy del lado del servidor.\n\nNo es un libro de proyectos: avanza con ejemplos de cliente y servidor que muestran cada cabecera y cada caso límite. Su valor está en aclarar uno de los errores más frecuentes y peor entendidos del desarrollo web, y en dar buenas prácticas para diseñar APIs accesibles desde otros dominios. Tiene ya algunos años: no cubre fetch() ni las políticas más recientes de cookies (SameSite) o de aislamiento de origen, pero los fundamentos del protocolo apenas han cambiado. Conviene saber algo de HTTP y de cómo funciona un servidor web antes de leerlo.",
+    "temas": [
+      "CORS",
+      "Política del mismo origen",
+      "XMLHttpRequest",
+      "Peticiones preflight",
+      "Cabeceras HTTP",
+      "Cookies y credenciales",
+      "Seguridad web",
+      "Depuración",
+      "JSON-P",
+      "Proxies",
+      "Diseño de APIs"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/cors-in-action",
+      "https://livebook.manning.com/book/cors-in-action/"
+    ]
+  },
+  "building-web-applications-with-svg-2012": {
+    "descripcion": "Guía de Microsoft Press, de la serie Developer Reference, sobre cómo usar SVG (Scalable Vector Graphics) para crear gráficos interactivos en aplicaciones web. Sus autores son David Dailey, Jon Frost y Domenico Strazzullo, este último creador de la librería Pergola. Se publicó en 2012, cuando SVG 1.1 ya funcionaba bien en todos los navegadores principales gracias a la llegada de Internet Explorer 9. Está dirigida a desarrolladores web con conocimientos de HTML, CSS y JavaScript que quieren generar gráficos del lado del cliente sin cargar el servidor.\n\nEl recorrido va de lo básico a lo avanzado. Empieza con los fundamentos de SVG y la creación y edición de formas complejas, trazos, rellenos y patrones reutilizables. Sigue con el texto, los estilos y las transformaciones para posicionar, escalar y rotar elementos. Después aborda el movimiento y la interactividad, primero con animaciones declarativas SMIL y luego con animaciones más potentes manipulando el DOM de SVG desde JavaScript. Dedica un capítulo propio a los filtros SVG (desenfoque, enfoque, distorsión y transformaciones de color) y otro a herramientas y recursos para trabajar con SVG. También presenta librerías como Pergola, D3 y Polymaps.\n\nEl libro termina con un capítulo de casos de estudio en el que se construyen dos aplicaciones web con muchos gráficos, apoyadas en esas librerías. La explicación de dibujo, transformaciones y filtros es sólida y no se limita a Internet Explorer, aunque la editorial sea Microsoft. Las máscaras se tratan de forma superficial, algunos listados de código XML son difíciles de leer y muchos enlaces del libro ya no funcionan. SMIL perdió protagonismo frente a las animaciones CSS, y D3 ha cambiado mucho desde entonces, así que conviene contrastar esas partes con la documentación actual.",
+    "temas": [
+      "SVG",
+      "Formas y trayectos",
+      "Patrones",
+      "Transformaciones",
+      "Texto en SVG",
+      "Animación SMIL",
+      "JavaScript y DOM",
+      "Filtros SVG",
+      "D3",
+      "Polymaps",
+      "Pergola",
+      "Visualización de datos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Casos de estudio: dos aplicaciones web con gráficos SVG",
+        "descripcion": "En el capítulo final se construyen dos aplicaciones web con muchos gráficos, que combinan SVG, JavaScript y las librerías Pergola, D3 y Polymaps para crear interfaces, gráficos dinámicos y mapas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://learn.microsoft.com/archive/blogs/microsoft_press/new-book-building-web-applications-with-svg",
+      "https://www.informit.com/store/building-web-applications-with-svg-9780735660120",
+      "https://blog.kartones.net/post/book-review-building-web-applications-with-svg"
+    ]
+  },
+  "map-scripting-101-2010": {
+    "descripcion": "Guía de iniciación en la que Adam DuVander, entonces editor de ProgrammableWeb, enseña a crear mapas interactivos para la web a partir de ejemplos. Se publicó en 2010 y gira en torno a 73 scripts listos para usar. Todos se apoyan en Mapstraction, una librería JavaScript de código abierto que permite que el mismo código funcione con Google Maps, Bing, Yahoo! Maps, MapQuest u OpenStreetMap. Está pensado para principiantes que solo saben HTML y CSS (incluye un apéndice de introducción a JavaScript), aunque también puede servir a programadores con más experiencia.\n\nEl libro empieza con lo básico de la cartografía web: coordenadas, nivel de zoom y límites del mapa, comparando las APIs de Google y Yahoo! antes de pasar a Mapstraction. A partir de ahí avanza por capítulos sobre marcadores y globos de información (mostrarlos, ocultarlos y filtrarlos), geocodificación, capas y superposiciones gráficas, y eventos de usuario como clics, arrastres o cambios de zoom. También trata la proximidad (cálculo de distancias, rutas, indicaciones para conducir y búsqueda del marcador más cercano) y la ubicación del visitante. Explica formatos de datos geográficos como KML, GeoRSS, GPX, JSON y XML, el uso de Yahoo! Pipes y el procesamiento en servidor con PHP. Además, aprovecha datos geográficos públicos de Yelp, Upcoming y el gobierno de Estados Unidos.\n\nEl último capítulo combina todo en mashups completos, como un buscador de conciertos locales, un localizador de amigos de Twitter y un mapa meteorológico en tiempo real. Es un recorrido muy completo, más amplio de lo que sugiere su título, y el autor transmite bien su entusiasmo. Hoy, sin embargo, ha envejecido mucho: Yahoo! Maps, Yahoo! Pipes y Upcoming ya no existen, las APIs de Google y Bing cambiaron por completo y Mapstraction se abandonó. Sirve sobre todo para entender los conceptos de los mapas web (geocodificación, capas, formatos geográficos), que luego se pueden aplicar con herramientas actuales como Leaflet o MapLibre. No cubre Google Earth, Street View ni aplicaciones móviles a fondo.",
+    "temas": [
+      "Mapas web",
+      "Mapstraction",
+      "Google Maps API",
+      "Bing Maps",
+      "OpenStreetMap",
+      "Marcadores",
+      "Geocodificación",
+      "Geolocalización",
+      "KML y GeoRSS",
+      "GPX",
+      "Mashups",
+      "PHP"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Buscador de conciertos locales",
+        "descripcion": "Mashup que muestra en un mapa los conciertos cercanos al usuario, combinando datos de eventos de terceros con Mapstraction y JavaScript."
+      },
+      {
+        "nombre": "Localizador de amigos de Twitter",
+        "descripcion": "Mapa que sitúa geográficamente a los contactos de Twitter a partir de su ubicación, con geocodificación y marcadores."
+      },
+      {
+        "nombre": "Mapa meteorológico en tiempo real",
+        "descripcion": "Mapa que superpone datos meteorológicos actualizados sobre la cartografía, con formatos de datos geográficos y capas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/releases/mapscripting101.html",
+      "https://www.oreilly.com/library/view/map-scripting-101/9781593272715/",
+      "https://i-programmer.info/bookreviews/129-maps-a-gis/1307-map-scripting-101.html"
+    ]
+  },
+  "building-polyfills-2014": {
+    "descripcion": "Libro breve de O'Reilly en el que Brandon Satrom, entonces evangelista de Kendo UI en Telerik, enseña a diseñar y construir polyfills: librerías JavaScript que añaden a los navegadores las funciones de la plataforma web que les faltan. Se publicó en 2014, en plena adopción de HTML5, cuando todavía había que dar soporte a Internet Explorer antiguo. Está dirigido a desarrolladores de nivel intermedio con buen dominio de JavaScript, el DOM y las especificaciones web, interesados en escribir librerías para otros.\n\nLa primera parte presenta los tipos de polyfill (shims, opt-in, drop-in y forward) y unos principios para desarrollarlos de forma responsable: leer la especificación, respetar la API, cubrir solo lo que falta, pensar como un desarrollador de navegadores, cuidar el rendimiento y planificar la obsolescencia. A partir de ahí se construye paso a paso un polyfill de formularios HTML5, con tipos de input como color y number, detección de funcionalidades, opciones opt-in y estilos visuales con CSS. Se configura un flujo de trabajo profesional con npm y Grunt, pruebas unitarias con Jasmine, pruebas automáticas en varios navegadores con Karma e integración continua con Travis CI. También se mide y optimiza el rendimiento con JSPerf, se resuelven casos particulares de cada navegador y se tiene en cuenta el móvil.\n\nLa segunda parte trata los «prollyfills», que implementan APIs todavía en borrador para experimentar con ellas antes de que lleguen a los navegadores. Repasa HitchJS para CSS, ServiceWorker y Web Components (templates, Shadow DOM, custom elements con AngularJS y Polymer, HTML Imports). Termina construyendo, guiado por pruebas, un prollyfill de la especificación Resource Priorities para la carga diferida de recursos con el atributo lazyload. Lo más valioso del libro es su método, que sigue vigente: desarrollo guiado por pruebas, pruebas en varios navegadores y respeto por la especificación. En cambio, Grunt, Travis CI, HTML Imports y la propia Resource Priorities han quedado obsoletos o se abandonaron, así que las herramientas conviene adaptarlas a las de hoy.",
+    "temas": [
+      "Polyfills",
+      "Prollyfills",
+      "Formularios HTML5",
+      "Detección de funcionalidades",
+      "Grunt",
+      "Jasmine",
+      "Karma",
+      "Travis CI",
+      "Rendimiento JavaScript",
+      "Web Components",
+      "ServiceWorker",
+      "Pruebas en varios navegadores"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Polyfill de formularios HTML5",
+        "descripcion": "Librería opt-in que añade soporte para tipos de input HTML5 (color, number y otros) en navegadores que no los tienen. Se desarrolla con npm, Grunt, Jasmine y Karma, con pruebas en varios navegadores en Travis CI y optimizaciones de rendimiento medidas con JSPerf."
+      },
+      {
+        "nombre": "Prollyfill de Resource Priorities",
+        "descripcion": "Implementación experimental de la especificación Resource Priorities que añade carga diferida de recursos mediante el atributo lazyload y el evento lazyloaded. Se construye prueba a prueba con desarrollo guiado por pruebas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/building-polyfills/9781449370725/",
+      "https://helion.pl/ksiazki/building-polyfills-web-platform-apis-for-the-present-and-future-brandon-satrom,e_2gdn.htm"
+    ]
+  },
+  "client-side-data-storage-2016": {
+    "descripcion": "Guía corta y práctica de Raymond Camden, conocido divulgador de tecnologías web, sobre las distintas formas de guardar datos en el navegador. Es su primer libro con O'Reilly y se publicó a principios de 2016. Para cada API de almacenamiento explica cómo funciona, cuándo conviene usarla, qué ventajas e inconvenientes tiene y qué soporte ofrece cada navegador. Está dirigido a desarrolladores web con experiencia en JavaScript.\n\nEl libro dedica un capítulo a cada tecnología. Las cookies se tratan como almacenamiento ligero: leerlas, escribirlas, borrarlas e inspeccionarlas en las herramientas de desarrollo. Web Storage (localStorage y sessionStorage) se presenta para datos sencillos como listas o preferencias, incluido el evento storage para detectar cambios. Con IndexedDB, la parte más extensa, se ven bases de datos, almacenes de objetos, claves primarias, índices, operaciones CRUD, rangos, conteos y almacenamiento de arrays. Web SQL se cubre solo como especificación abandonada, para quien tenga que mantener aplicaciones antiguas. Después presenta tres librerías de código abierto que simplifican estas APIs: Lockr, Dexie y localForage.\n\nCada capítulo incluye demos breves, y el último construye una aplicación de ejemplo que combina varias técnicas de almacenamiento. El libro es directo y fácil de seguir, y sirve para decidir qué almacenamiento usar en cada caso. No trata la sincronización de datos con el servidor (el autor recomienda PouchDB para eso), ni la Cache API de los Service Workers, ni las aplicaciones offline completas. Algunos detalles de soporte entre navegadores han cambiado desde 2016, pero los fundamentos de Web Storage e IndexedDB siguen siendo válidos.",
+    "temas": [
+      "Almacenamiento en el cliente",
+      "Cookies",
+      "Web Storage",
+      "localStorage",
+      "IndexedDB",
+      "Web SQL",
+      "Dexie",
+      "localForage",
+      "Lockr",
+      "DevTools"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de ejemplo con almacenamiento local",
+        "descripcion": "Aplicación web del capítulo final que carga un conjunto de datos de ejemplo y lo guarda y consulta en el navegador. Combina las técnicas de almacenamiento del cliente vistas en el libro."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.raymondcamden.com/2016/01/06/my-first-oreilly-book-client-side-data-storage",
+      "https://helion.pl/ksiazki/clientside-data-storage-keeping-it-local-raymond-camden,e_2gl3.htm"
+    ]
+  },
+  "going-gas-2016": {
+    "descripcion": "Guía de Bruce Mcpherson, Google Developer Expert y veterano del mundo Excel/VBA, para dar el salto de VBA (y .NET) a Google Apps Script, la plataforma de JavaScript en la nube para automatizar Google Workspace (entonces G Suite). Se basa en el Apps Script de 2016, que todavía usaba el motor Rhino con JavaScript ES3/ES5. Está dirigida a programadores con experiencia en automatización de Office que no conocen JavaScript ni el ecosistema de Google; no hace falta saber JavaScript, porque el libro empieza por lo básico del lenguaje desde la perspectiva de quien viene de VBA.\n\nTras los fundamentos del lenguaje y una tabla de equivalencias para traducir funciones de VBA, recorre uno a uno los servicios de Apps Script: las cuotas y límites de ejecución, Properties Service para guardar datos persistentes, Spreadsheet Service (pensado para portar código del modelo de objetos de Excel), DocumentApp para automizar documentos al estilo de Word, Gmail, Calendar y Contacts, Drive y DriveApp, HTML Service para crear interfaces y aplicaciones web, Content Service para servir datos por HTTP, gráficos con Charts, Google Sites y los Advanced Google Services. Los últimos capítulos tratan la autenticación y la seguridad con OAuth2, la conexión con APIs REST externas y bases de datos NoSQL, la Execution API para invocar scripts desde fuera y una comparación entre los complementos de Office y los add-ons de Google.\n\nEl libro está lleno de ejemplos prácticos y fragmentos reutilizables que muestran cómo resolver en Apps Script tareas habituales de VBA, aunque no se organiza en torno a proyectos guiados. Su gran valor es el enfoque de traducción de un mundo al otro, poco común en otros títulos. Conviene tener en cuenta su fecha: desde 2020 Apps Script corre sobre V8 con sintaxis moderna (let/const, funciones flecha, clases), la Execution API pasó a ser la Apps Script API y Sites cambió por completo, así que algunos detalles y limitaciones que describe ya no aplican.",
+    "temas": [
+      "Google Apps Script",
+      "Migración desde VBA",
+      "JavaScript básico",
+      "Google Sheets",
+      "Google Docs",
+      "Gmail y Calendar",
+      "Google Drive",
+      "HTML Service",
+      "OAuth2",
+      "APIs REST",
+      "Add-ons de Google"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://s.helion.pl/ksiazki/going-gas-from-vba-to-google-apps-script-bruce-mcpherson,e_2gwv.htm",
+      "https://www.oreilly.com/library/view/-/9781491940457/"
+    ]
+  },
+  "learning-virtual-reality-2015": {
+    "descripcion": "Introducción breve y práctica al desarrollo de realidad virtual de Tony Parisi, cocreador de VRML y pionero del 3D en la web. Se escribió en plena primera ola del VR de consumo (2015), con el Oculus Rift en kits de desarrollo, el Samsung Gear VR recién lanzado y Google Cardboard como opción de bajo costo. Está dirigida a programadores con experiencia, idealmente con conocimientos de desarrollo móvil, que quieren entender el panorama del VR y dar sus primeros pasos en las tres plataformas principales del momento.\n\nEmpieza por los fundamentos: qué es la realidad virtual, el hardware (cascos, seguimiento de movimiento, dispositivos de entrada) y los conceptos de gráficos 3D, renderizado estereoscópico y diseño de interfaces para VR. Después dedica un capítulo a cada plataforma: aplicaciones nativas de escritorio para Oculus Rift con Unity3D y el SDK de Oculus, aplicaciones móviles para Gear VR con el Android SDK y el Oculus Mobile SDK, realidad virtual en el navegador con la API de JavaScript WebVR y WebGL (incluida la librería Three.js), y experiencias de bajo costo en smartphones con Cardboard.\n\nEl libro cierra con la construcción de una primera aplicación completa: un visor de fotografías panorámicas de 360 grados. Su valor es dar una visión panorámica y muy accesible del VR en sus inicios, pero es un texto corto que solo toca la superficie de cada plataforma y ha envejecido mucho: WebVR fue reemplazada por WebXR, Gear VR y Cardboard están descontinuados, y los SDK de Oculus y las versiones de Unity cambiaron por completo. Hoy sirve más para entender los conceptos y la historia del VR que como guía técnica para proyectos actuales.",
+    "temas": [
+      "Realidad virtual",
+      "Renderizado estereoscópico",
+      "Oculus Rift",
+      "Gear VR",
+      "Google Cardboard",
+      "Unity3D",
+      "WebVR",
+      "WebGL",
+      "Three.js",
+      "Diseño de UX en VR"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Visor de fotos panorámicas 360°",
+        "descripcion": "Primera aplicación de VR completa con la que se cierra el libro: un visor inmersivo de fotografías panorámicas de 360 grados que aplica las técnicas y herramientas vistas en los capítulos de plataformas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/learning-virtual-reality-developing-immersive-experiences-and-applications-for-desktop-web-and-mob-tony-parisi,e_e01x.htm",
+      "https://imusic.no/books/9781491922835/tony-parisi-2015-learning-virtual-reality-pocketbok"
+    ]
+  },
+  "paypal-apis-up-and-running-2nd-edition-2012": {
+    "descripcion": "Guía breve y práctica de Matthew A. Russell para integrar pagos de PayPal en sitios web y aplicaciones móviles, ya sea para vender productos, servicios o recibir donaciones. Esta segunda edición de 2012 es prácticamente un libro nuevo (alrededor del 75 % del contenido se reescribió): en lugar de resumir la documentación, cada capítulo integra una API distinta en una aplicación de ejemplo escrita en Python sobre Google App Engine. Está pensada para desarrolladores de nivel intermedio que ya programan aplicaciones web y conocen lo básico de Python y HTTP.\n\nTras un panorama general de las APIs de PayPal y una introducción a Google App Engine, explica Express Checkout (incluida su versión móvil) y en qué se diferencia de un flujo de pago genérico; Express Checkout for Digital Goods, para vender documentos, videos y otros bienes digitales; Adaptive Payments, con pagos simples, paralelos y encadenados entre varios destinatarios; Website Payments Pro (Direct Payment), para cobrar con tarjeta sin que el usuario salga del sitio; e Instant Payment Notifications (IPN), para disparar acciones automáticas cuando se completa una transacción. Los apéndices presentan la aplicación de ejemplo y las Mobile Payment Libraries (MPL) para pagos desde apps móviles.\n\nEl hilo conductor es Tweet Relevance, una pequeña aplicación sobre Twitter a la que se le van añadiendo distintas formas de cobro, lo que permite ver cada API en un contexto real. Su mayor aporte es ayudar a elegir qué producto de PayPal conviene en cada caso. Sin embargo, el contenido está muy desactualizado: se basa en las APIs clásicas NVP/SOAP, Adaptive Payments y las MPL fueron retiradas, y el código usa Python 2 y el App Engine de la época. Hoy PayPal ofrece APIs REST y SDK de checkout distintos, así que el libro vale sobre todo por los conceptos de flujos de pago y notificaciones.",
+    "temas": [
+      "PayPal",
+      "Express Checkout",
+      "Bienes digitales",
+      "Adaptive Payments",
+      "Website Payments Pro",
+      "IPN",
+      "Python",
+      "Google App Engine",
+      "Pagos móviles"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tweet Relevance con pagos PayPal",
+        "descripcion": "Aplicación de ejemplo en Python sobre Google App Engine, basada en Twitter, a la que en cada capítulo se le integra una API de PayPal distinta: Express Checkout, bienes digitales, Adaptive Payments, Website Payments Pro y notificaciones IPN."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/paypal-apis-up-and-running-2nd-edition-matthew-a-russell,e_e07m.htm",
+      "https://www.oreilly.com/pub/pr/3017",
+      "https://www.oreilly.com/library/view/paypal-apis-up/9781449321666/"
+    ]
+  },
+  "programming-social-applications-2011": {
+    "descripcion": "Libro de Jonathan LeBlanc, evangelista técnico de Yahoo y colaborador del grupo de estándares OpenSocial, sobre cómo construir aplicaciones y plataformas sociales con estándares abiertos y herramientas de código abierto. Publicado en 2011 bajo el sello Yahoo Press de O'Reilly, se centra en OpenSocial y su implementación de referencia Apache Shindig, junto con OAuth, OpenID y otros marcos de la web social distribuida. Aunque su nivel de entrada es accesible (incluye un apéndice con conceptos básicos de desarrollo web), resulta más útil para desarrolladores que ya conocen JavaScript, PHP y HTTP.\n\nEl recorrido empieza con los conceptos de un contenedor de aplicaciones sociales: aplicaciones embebidas y externas, vistas, permisos y estándares propietarios frente a abiertos. Sigue con el grafo social y las relaciones entre usuarios, la construcción de una plataforma propia con Shindig, las APIs de JavaScript de OpenSocial, perfiles, amistades, actividades y peticiones de datos, y temas avanzados como plantillas y data pipelining. La segunda mitad trata la seguridad: protección del contenedor frente a código malicioso (con Caja), acceso seguro al grafo social con OAuth, identidad con OpenID, el modelo híbrido OpenID + OAuth y los marcos distribuidos que entonces prometían definir entidades sociales en la web abierta.\n\nEl libro combina mucha explicación conceptual con abundantes ejemplos de código para crear aplicaciones de terceros y montar un contenedor escalable, aunque no se articula en torno a un proyecto único. Hoy tiene sobre todo valor histórico: OpenSocial y Shindig quedaron abandonados, la plataforma de Facebook nunca los adoptó, OAuth 1.0a fue sustituido por OAuth 2.0 y OpenID 2.0 por OpenID Connect. Aun así, los capítulos sobre grafos sociales, delegación de permisos y aislamiento de código de terceros siguen siendo una buena base conceptual.",
+    "temas": [
+      "OpenSocial",
+      "Apache Shindig",
+      "Grafo social",
+      "Contenedores de aplicaciones",
+      "OAuth",
+      "OpenID",
+      "Caja",
+      "Seguridad",
+      "Actividades sociales",
+      "Web distribuida"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://ebookpoint.pl/ksiazki/programming-social-applications-building-viral-experiences-with-opensocial-oauth-openid-and-distr-jonathan-leblanc,e_2gcz.htm",
+      "https://www.oreilly.com/library/view/-/9781449302481/",
+      "https://networkcomputing.com/network-infrastructure/build-your-social-applications-with-open-source"
+    ]
+  },
+  "svg-animations-2017": {
+    "descripcion": "Libro de Sarah Drasner, conocida por sus artículos en CSS-Tricks, sus demos en CodePen y su trabajo en el equipo central de Vue, sobre cómo animar gráficos SVG en la web, desde las animaciones habituales de interfaz hasta piezas complejas y responsivas. Publicado en 2017, está dirigido a desarrolladores frontend y diseñadores de nivel intermedio que ya manejan HTML, CSS y JavaScript y quieren usar la animación SVG de forma profesional, con compatibilidad entre navegadores, buen rendimiento y adaptada a cualquier pantalla.\n\nEmpieza por la anatomía de un SVG (viewBox, formas, rutas y grupos) y la animación con CSS, incluidos sprites dibujados a mano y sprites responsivos. Sigue con animaciones de UI/UX sin librerías externas, visualización de datos animada y una comparación de tecnologías de animación web. La parte central se dedica a GreenSock (GSAP): timelines, MorphSVG, movimiento a lo largo de una ruta, efectos escalonados, interpolación de colores HSL, SplitText, DrawSVG y Draggable. También presenta Mo.js y React-Motion, animación de atributos con requestAnimationFrame, técnicas responsivas y cómo diseñar, prototipar e integrar animaciones en librerías de componentes, además de cómo planificar, depurar y medir el rendimiento.\n\nNo hay un proyecto guiado, sino muchos ejemplos y demos (la mayoría en CodePen) que muestran cada técnica aplicada a casos reales. Su gran aporte es la comparación honesta entre tecnologías y la experiencia práctica de la autora. Conviene saber que se apoya mucho en GSAP, varios de cuyos plugins eran de pago en aquella época (hoy son gratuitos); que React-Motion está prácticamente abandonado; y que SMIL apenas se trata. Sus fundamentos de SVG, rendimiento y diseño de animación siguen siendo muy vigentes.",
+    "temas": [
+      "SVG",
+      "Animación CSS",
+      "Sprites SVG",
+      "GSAP",
+      "MorphSVG",
+      "DrawSVG",
+      "Mo.js",
+      "React-Motion",
+      "Visualización de datos",
+      "Animación responsiva",
+      "Rendimiento"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/svg-animations-from-common-ux-implementations-to-complex-responsive-animation-sarah-drasner,e_0gyh.htm",
+      "https://oreilly.com/library/view/svg-animations/9781491939697",
+      "https://www.goodreads.com/book/show/30796736"
+    ]
+  },
+  "svg-colors-patterns-gradients-2015": {
+    "descripcion": "Monografía de O'Reilly en la que Amelia Bellamy-Royds, experta invitada en los grupos de trabajo de SVG, CSS y ARIA del W3C, y Kurt Cagle se centran en un único aspecto de SVG: cómo se pintan las formas y el texto. Trabaja con SVG 1.1 y adelanta funciones que en 2015 se discutían para SVG 2 y CSS. Está dirigida a diseñadores y desarrolladores web de nivel intermedio o avanzado que ya saben dibujar formas básicas en SVG y quieren ir más allá del aspecto plano de \"dibujo técnico\". Conviene manejar con soltura HTML, CSS y la estructura de un documento SVG.\n\nEl libro arranca con un repaso de lo que se da por sabido y con el modelo del pintor, es decir, el orden en que se superponen las capas. Luego explica a fondo cómo definir colores (palabras clave, RGB, HSL y su sintaxis en CSS) y las distintas formas de controlar la transparencia: opacity, fill-opacity, stroke-opacity y colores con canal alfa. La parte central está dedicada a los paint servers. Cubre los degradados lineales y radiales con sus atributos (gradientUnits, spreadMethod, gradientTransform y el punto focal), la repetición de degradados y los patrones con el elemento pattern, que sirven para crear mosaicos, texturas y rellenos fotográficos. También explica cómo aplicar todo esto al texto y a los trazos, y cómo animar colores, degradados y patrones con SMIL, CSS y JavaScript. Dos apéndices sirven de referencia: uno sobre palabras clave y sintaxis de color, y otro sobre elementos, atributos y propiedades de estilo.\n\nEs un libro de técnica con muchos ejemplos de código y figuras, no un curso basado en proyectos. Los ejemplos van desde fondos texturizados hasta texto relleno de imágenes, y sirven como pequeños ejercicios para reproducir y adaptar. Aporta una profundidad que los manuales generales de SVG no tienen y explica bien las diferencias de soporte entre navegadores de la época. En cambio, deja fuera los filtros, las máscaras y los trazados complejos, que conviene estudiar en obras más generales como SVG Essentials. Algunas funciones de SVG 2 que comenta, como mesh gradients o hatch, nunca llegaron a implementarse de forma amplia.",
+    "temas": [
+      "SVG",
+      "Colores",
+      "Transparencia y opacidad",
+      "Paint servers",
+      "Degradados lineales",
+      "Degradados radiales",
+      "Patrones",
+      "Texturas",
+      "Texto en SVG",
+      "Trazos",
+      "Animación SVG",
+      "CSS"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://oreilly.com/library/view/svg-colors-patterns/9781491933732",
+      "https://ebookpoint.pl/ksiazki/svg-colors-patterns-gradients-painting-vector-graphics-amelia-bellamyroyds-kurt-cagle,e_2gal.htm",
+      "https://i-programmer.info/book-watch-archive/9131-svg-colors-patterns-a-gradients-oreilly.html"
+    ]
+  },
+  "svg-essentials-2nd-edition-2014": {
+    "descripcion": "Segunda edición, actualizada en 2014 por J. David Eisenberg y Amelia Bellamy-Royds, del clásico manual de O'Reilly sobre Scalable Vector Graphics, el formato vectorial de la web. Cubre SVG 1.1 y su integración con HTML5 y CSS3. Va de los dibujos de líneas más simples a los filtros, las transformaciones, los degradados y los patrones. Es adecuada para quien empieza con SVG, aunque ayuda tener experiencia en diseño o desarrollo web. Para quien no la tiene, los apéndices explican lo básico de XML, CSS y programación.\n\nLos primeros capítulos explican cómo insertar SVG en una página (como imagen, con object o en línea en HTML5) y el sistema de coordenadas: viewport, viewBox y preserveAspectRatio. Siguen las formas básicas, la estructura del documento (g, use, defs, symbol, image) y las transformaciones. Luego vienen los trazados con todos sus comandos, incluidos los arcos y las curvas Bézier, así como los marcadores, los patrones, los degradados y el texto (tspan, texto sobre un trazado, texto vertical y fuentes). Los capítulos avanzados tratan el recorte y las máscaras, y dedican un capítulo extenso a los filtros: sombras, iluminación, feTurbulence, feDisplacementMap y otros. Esta edición amplía la animación con SMIL y CSS, la interactividad con eventos y JavaScript, el DOM de SVG con la librería Snap.svg, y la generación de SVG a partir de datos con programas y XSLT. También trata la accesibilidad y la preparación de gráficos para impresión y pantallas de alta resolución.\n\nEs una referencia completa con ejemplos cortos en cada sección y algunos casos prácticos al final de los capítulos de texto y de recorte. No es un libro de proyectos. Su gran aporte es explicar con rigor cómo funciona SVG por dentro, más allá de lo que generan las herramientas de dibujo. Lo que queda fuera son las librerías modernas de visualización como D3.js y las herramientas de optimización de SVG. Además, parte de lo dicho sobre la animación SMIL y el soporte de los navegadores refleja la situación de 2014. Para profundizar en el color y los rellenos, se complementa bien con SVG Colors, Patterns & Gradients.",
+    "temas": [
+      "SVG",
+      "Coordenadas y viewBox",
+      "Formas básicas",
+      "Trazados y curvas Bézier",
+      "Transformaciones",
+      "Degradados y patrones",
+      "Texto en SVG",
+      "Recorte y máscaras",
+      "Filtros",
+      "Animación SMIL y CSS",
+      "SVG DOM y JavaScript",
+      "XSLT"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://oreilly.com/library/view/~/9781491945308",
+      "https://www.oreilly.com/library/view/svg-essentials-2nd/9781491945308/pr02.html",
+      "https://helion.pl/ksiazki/svg-essentials-2nd-edition-j-david-eisenberg-amelia-bellamy-royds,e_2ga1.htm"
+    ]
+  },
+  "twitter-api-up-and-running-2009": {
+    "descripcion": "Introducción de O'Reilly, publicada en 2009, a la creación de aplicaciones sobre la API de Twitter de los primeros años, es decir, la API REST v1 con respuestas XML y JSON. Su autor es Kevin Makice, investigador de la informática social. Está pensada para programadores principiantes e intermedios y para personas curiosas por el fenómeno Twitter, por lo que no exige gran experiencia previa: el propio libro repasa lo esencial de la programación web.\n\nLos primeros capítulos hablan de la historia de Twitter y de sus usos creativos en noticias, ciencia, emergencias, marketing o activismo, y presentan un catálogo comentado de aplicaciones de terceros de la época. Después explica las bases de la programación web con PHP y MySQL y recorre cada parte de la API: métodos de consulta de líneas de tiempo, estados, usuarios, mensajes directos, relaciones de seguimiento y búsqueda, con sus formatos de respuesta y sus límites de uso. Todo el código está escrito en PHP, con persistencia en MySQL, y se explica paso a paso.\n\nLa parte práctica se concentra al final, en un conjunto de aplicaciones de ejemplo en PHP y MySQL que consumen la API y almacenan los datos de forma local. Es un buen documento histórico de la primera era de Twitter, pero hoy está obsoleto. La API que describe, incluida la autenticación básica anterior a OAuth, ya no existe, y la plataforma actual (X API) tiene otra estructura y otras condiciones de acceso. Las reseñas de la época también señalaron que dedica muchas páginas a contexto y a aspectos básicos, y relativamente pocas a la API en sí.",
+    "temas": [
+      "Twitter API",
+      "API REST",
+      "PHP",
+      "MySQL",
+      "XML y JSON",
+      "Límites de uso",
+      "Aplicaciones de terceros",
+      "Redes sociales"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicaciones de ejemplo sobre la API de Twitter",
+        "descripcion": "Conjunto de aplicaciones web reunidas al final del libro, escritas en PHP con almacenamiento en MySQL, que consumen los distintos métodos de la API de Twitter para recoger, guardar y mostrar tuits y datos de usuarios."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://oreilly.com/library/view/twitter-api-up/9780596157777",
+      "https://i-programmer.info/bookreviews/7-windows-api/230-twitter-api-up-and-running.html",
+      "https://www.bol.com/nl/nl/p/twitter-api/1001004006425801/"
+    ]
+  },
+  "using-the-html5-filesystem-api-2011": {
+    "descripcion": "Guía breve de O'Reilly escrita en 2011 por Eric Bidelman, ingeniero de relaciones con desarrolladores del equipo de Google Chrome, sobre la API FileSystem de HTML5 (File API: Directories and System). Esta API daba a las aplicaciones web un sistema de archivos y carpetas propio, en una zona aislada (sandbox) del disco del usuario. Está dirigida a desarrolladores web de nivel intermedio que ya dominan JavaScript, las callbacks asíncronas y, de forma básica, la File API y los Blobs.\n\nEl libro presenta los casos de uso, las consideraciones de seguridad y el soporte de los navegadores. Luego explica los tipos de almacenamiento (temporal, persistente e ilimitado) y la Quota Management API para pedir más espacio y consultar el uso. Después enseña a abrir el sistema de archivos con requestFileSystem, a manejar errores y a trabajar con FileEntry y DirectoryEntry: crear, leer, escribir y añadir datos con FileWriter, listar y borrar directorios (también de forma recursiva), y copiar, mover y renombrar entradas. Muestra cuatro formas de importar archivos del usuario: input type=file, arrastrar y soltar, XMLHttpRequest2 con respuestas binarias, y copiar y pegar. También compara las URLs filesystem:, blob: y data:. Cierra con la versión síncrona de la API dentro de Web Workers.\n\nEstá organizado como una serie de fragmentos de código cortos y listos para reutilizar. Los ejemplos finales recorren todas las entradas del sistema de archivos y descargan archivos con XHR2 desde un Worker. No hay un proyecto completo. Conviene saber que esta API solo se implementó en navegadores basados en Chrome, que el W3C la abandonó y que hoy está obsoleta. Para necesidades parecidas se usan IndexedDB, la File System Access API y el Origin Private File System (OPFS), aunque los conceptos de cuotas y archivos en sandbox que explica siguen siendo útiles.",
+    "temas": [
+      "HTML5",
+      "FileSystem API",
+      "Almacenamiento local",
+      "Cuotas de almacenamiento",
+      "FileWriter",
+      "Blobs y URLs",
+      "Drag and Drop",
+      "XMLHttpRequest2",
+      "Web Workers",
+      "Seguridad"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/using-the-html5-filesystem-api-a-true-filesystem-for-the-browser-eric-bidelman,e_2g2x.htm",
+      "https://www.oreilly.com/library/view/using-the-html5/9781449311384/ch01.html",
+      "https://www.oreilly.com/library/view/using-the-html5/9781449311384/author_bios.html"
+    ]
+  },
+  "web-audio-api-2013": {
+    "descripcion": "Libro breve de O'Reilly, con el subtítulo \"Advanced Sound for Games and Interactive Apps\", en el que Boris Smus, ingeniero de Chrome Developer Relations en Google, presenta la Web Audio API tal como se implementaba en los navegadores en 2013. Está pensado para desarrolladores web de nivel intermedio que quieren añadir sonido avanzado a juegos y aplicaciones interactivas. Requiere saber JavaScript, pero casi ningún conocimiento de audio digital. El autor lo ofrece además en abierto, con licencia Creative Commons, en su sitio webaudioapi.com.\n\nExplica el modelo de grafo de audio: el AudioContext, los nodos y sus conexiones, y la carga y decodificación de sonidos en AudioBuffer. Después trata la planificación precisa de sonidos y la automatización de parámetros (AudioParam), el control de volumen y la detección de saturación con GainNode, el crossfade de igual potencia entre pistas y la variación de tono y frecuencia. También cubre los osciladores (OscillatorNode), los filtros con BiquadFilterNode y su respuesta en frecuencia, los efectos de sala con ConvolverNode y respuestas al impulso, y la espacialización 3D con PannerNode. En la parte de análisis usa AnalyserNode y Canvas 2D para la visualización, y ScriptProcessorNode para el procesamiento a medida. Por último, integra la API con el elemento audio, el micrófono mediante getUserMedia y la Page Visibility API.\n\nLa práctica consiste en una colección de demos interactivas que acompañan cada capítulo: un ritmo de batería que demuestra la precisión del temporizador, un mezclador con crossfade, una lista de reproducción con fundidos, un medidor de saturación, un filtro paso bajo ajustable, un trémolo con LFO, disparos generados de forma procedural, un visualizador de espectro y audio espacializado en 2D, entre otras. Es una introducción clara y compacta, ideal para entender los conceptos. Su punto débil es la antigüedad del código: usa prefijos como webkitAudioContext y métodos que luego se renombraron (noteOn en lugar de start), y ScriptProcessorNode fue reemplazado por AudioWorklet, así que conviene contrastar los ejemplos con la especificación actual del W3C.",
+    "temas": [
+      "Web Audio API",
+      "AudioContext",
+      "Grafo de audio",
+      "Planificación de sonidos",
+      "GainNode",
+      "Osciladores",
+      "Filtros Biquad",
+      "ConvolverNode",
+      "Audio espacial 3D",
+      "AnalyserNode",
+      "Visualización con Canvas",
+      "getUserMedia"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/web-audio-api/9781449332679/",
+      "https://webaudioapi.com/",
+      "https://webaudioapi.com/samples/",
+      "https://www.foyles.co.uk/book/web-audio-api/boris-smus/9781449332686"
+    ]
+  },
+  "web-workers-2012": {
+    "descripcion": "Guía breve de O'Reilly (unas 60 páginas) en la que Ido Green, entonces developer advocate de Google, explica cómo usar la API de Web Workers de HTML5 para ejecutar JavaScript pesado en un hilo paralelo al de la interfaz y que la página no se congele. El libro es de 2012, cuando los workers acababan de llegar a todos los navegadores modernos. Está pensado para desarrolladores con un nivel intermedio o avanzado de JavaScript, sobre todo en manejo de eventos y callbacks.\n\nEmpieza con lo básico: qué puede y qué no puede hacer un worker (por ejemplo, no tiene acceso al DOM), cómo se crea, cómo se ejecuta y en qué navegadores funcionaba la API. Después explica dónde tiene sentido usarlos y cómo cargar scripts externos con importScripts. El núcleo son los Dedicated Workers: cómo controlarlos con postMessage, onmessage y terminate, cómo procesar datos fuera del hilo principal y cómo usar Transferable Objects para pasar grandes bloques de memoria sin copiarlos. Siguen los Inline Workers, creados a partir de un Blob para que toda la aplicación quepa en una sola página, y los Shared Workers, que permiten comunicar varias pestañas o instancias de la app entre sí y con el servidor. Termina con la depuración en Chrome DevTools y con un capítulo sobre el uso de workers en Node.js mediante procesos y mensajes.\n\nNo construye una aplicación completa: avanza con fragmentos de código cortos y casos de uso concretos, como el procesamiento de datos con mucho uso de CPU. Es una introducción rápida y clara a la concurrencia en el navegador, pero ha envejecido. No trata los Service Workers, los módulos ES en workers, SharedArrayBuffer ni Atomics, ni librerías como Comlink, y la parte de Node.js es anterior al módulo oficial worker_threads. Conviene leerlo junto con la documentación actual de MDN.",
+    "temas": [
+      "Web Workers",
+      "HTML5",
+      "Dedicated Workers",
+      "Shared Workers",
+      "Inline Workers",
+      "postMessage",
+      "Transferable Objects",
+      "importScripts",
+      "Chrome DevTools",
+      "Node.js",
+      "Concurrencia en JavaScript"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://ebookpoint.pl/ksiazki/web-workers-multithreaded-programs-in-javascript-ido-green,e_2gum.htm",
+      "https://www.oreilly.com/library/view/-/9781449322120/",
+      "https://www.goodreads.com/work/editions/19180537-web-workers-multithreaded-programs-in-javascript"
+    ]
+  },
+  "instant-audio-processing-with-web-audio-2013": {
+    "descripcion": "Título breve de la serie «Instant» de Packt (unas 76 páginas) en el que Chris Khoo enseña a usar la Web Audio API para crear efectos de audio en tiempo real en aplicaciones web y juegos HTML5. Se escribió en 2013, cuando la API todavía era un estándar emergente con soporte desigual entre navegadores. Está dirigido a desarrolladores con algo de experiencia en HTML y JavaScript que nunca han procesado audio en el navegador.\n\nEstá organizado como un recetario que va de lo más simple a lo más elaborado. Empieza por montar un servidor web local para servir los archivos de audio y por reproducir sonido en bucle con AudioContext y AudioBuffer. Luego controla el volumen con nodos de ganancia (GainNode) y automatiza parámetros en el tiempo con las funciones de programación de AudioParam. Construye un ecualizador de cinco bandas encadenando BiquadFilterNode y repasa otros procesadores que trae la API, como compresores, convolución y retardos. Al final usa el procesamiento por script para crear efectos en tiempo real como el empalme de loops (loop stitching) y el ducking, que baja automáticamente la música cuando suena otro audio.\n\nNo hay una aplicación completa: las recetas se van sumando a una capa de audio básica que se puede reutilizar en otros proyectos web o juegos. Es una introducción práctica y muy condensada al grafo de nodos de Web Audio, pero conviene saber que el código es anterior a la especificación definitiva: ScriptProcessorNode está obsoleto y hoy se usa AudioWorklet, algunos métodos han cambiado de nombre y los prefijos webkit ya no hacen falta. Tampoco trata la síntesis avanzada, la visualización con AnalyserNode en profundidad ni el Web MIDI.",
+    "temas": [
+      "Web Audio API",
+      "AudioContext",
+      "AudioBuffer",
+      "GainNode",
+      "AudioParam",
+      "BiquadFilterNode",
+      "Ecualizador",
+      "Loop stitching",
+      "Audio ducking",
+      "ScriptProcessorNode",
+      "Audio para juegos HTML5"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/instant-audio-processing-with-web-audio-learn-how-to-use-the-web-audio-api-to-implement-audio-effec-chris-khoo,e_2wl3.htm",
+      "https://skoobe.de/books/chris-khoo/instant-audio-processing-with-web-audio"
+    ]
+  },
+  "service-worker-development-cookbook-2016": {
+    "descripcion": "Recetario de Packt de 2016 en el que Sean Amarasinghe muestra cómo añadir Service Workers a sitios y aplicaciones web para que funcionen sin conexión, carguen más rápido y sigan disponibles aunque falle la red. Se publicó cuando la API solo funcionaba en Chrome, Firefox y Opera (Safari no la incorporó hasta 2018) y justo antes de que las Progressive Web Apps se popularizaran. Está dirigido a desarrolladores web y móviles de cualquier nivel que ya manejan JavaScript y HTML, y sirve mejor a quien entiende las promesas.\n\nLas recetas siguen un orden de menor a mayor complejidad. Primero el registro, el ciclo de vida y la depuración del Service Worker, con la necesidad de HTTPS. Después el cacheo de recursos como CSS y fuentes, las páginas personalizadas sin conexión y el uso de la Cache API (window.caches) para guardar recursos críticos. Siguen técnicas offline más avanzadas, como plantillas y respuestas generadas en el propio worker, el control inmediato de las páginas con skipWaiting y clients.claim, y patrones de resiliencia como los circuit breakers. Cierra con la interceptación de peticiones con la Fetch API, las notificaciones push con la Push API, Google Analytics sin conexión, la sincronización en segundo plano (Background Sync) y recetas centradas en el rendimiento.\n\nNo construye una aplicación grande: cada receta es un ejemplo independiente y acotado que se puede adaptar. Es útil como catálogo de patrones de cacheo y de funciones offline, pero el contenido refleja la API y el soporte de 2016. Hoy lo habitual es usar Workbox en lugar de escribir las estrategias a mano, el push ha cambiado (VAPID, soporte en Safari) y el contexto de PWA, con el manifiesto y la instalación, se trata poco. Conviene contrastar las recetas con la documentación actual de MDN y web.dev.",
+    "temas": [
+      "Service Workers",
+      "Aplicaciones offline",
+      "Cache API",
+      "Fetch API",
+      "Ciclo de vida del Service Worker",
+      "Push API",
+      "Notificaciones push",
+      "Background Sync",
+      "Google Analytics offline",
+      "Rendimiento web",
+      "Circuit breaker",
+      "HTTPS"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.bookshare.org/browse/book/1587824",
+      "https://subscription.packtpub.com/book/web-development/9781786465290/pref05",
+      "https://subscription.packtpub.com/book/web-development/9781786465290/7"
+    ]
+  },
+  "socket-io-real-time-web-application-development-2013": {
+    "descripcion": "Libro de Packt de 2013 en el que Rohit Rai explica cómo desarrollar, desplegar y escalar aplicaciones web en tiempo real con Node.js y Socket.IO. Corresponde a la rama 0.9 de Socket.IO y a Express 3. Está pensado para desarrolladores web de nivel intermedio que quieren crear chats, juegos multijugador en línea u otras aplicaciones con actualizaciones en vivo. Incluye un capítulo de introducción a Node.js, pero conviene haberlo usado antes.\n\nEmpieza por el contexto: por qué los usuarios esperan ver actualizaciones en vivo sin recargar la página, qué técnicas de comunicación bidireccional existen (polling, long polling, WebSockets) y para qué se usan (juegos, redes sociales, aplicaciones empresariales y paneles de monitorización). Después repasa lo esencial de Node.js: módulos, enrutado, servidor de archivos y Express. A partir de ahí construye un chat con Socket.IO, con eventos en el servidor y en el cliente. Le añade nombres de usuario, namespaces y salas, un listado de salas y sesiones compartidas con Express. También explica cómo funciona por dentro el protocolo de Socket.IO y sus tipos de mensaje, y cómo desplegar la aplicación, mantenerla en marcha y escalarla con el módulo cluster de Node. Los apéndices traen una referencia rápida de la API y un repaso a las implementaciones de servidor en otros lenguajes.\n\nSe aprende construyendo un único proyecto que crece capítulo a capítulo, y eso lo hace muy didáctico para entender eventos, salas y namespaces. Ha envejecido mucho, eso sí: Socket.IO 1.0 se apoyó en Engine.IO y cambió el protocolo y partes de la API (la configuración, los adaptadores de Redis para escalar, el soporte para varios nodos), así que el código no funciona tal cual con las versiones actuales. Los conceptos siguen valiendo, pero habrá que adaptar los ejemplos con la documentación oficial.",
+    "temas": [
+      "Socket.IO",
+      "Node.js",
+      "Express",
+      "WebSockets",
+      "Tiempo real",
+      "Chat",
+      "Namespaces",
+      "Salas",
+      "Sesiones",
+      "Protocolo Socket.IO",
+      "Cluster de Node.js",
+      "Despliegue y escalado"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de chat en tiempo real",
+        "descripcion": "Chat que crece a lo largo del libro, hecho con Node.js, Express y Socket.IO: mensajes por eventos entre cliente y servidor, nombres de usuario, salas y namespaces, listado de salas y sesiones compartidas, y al final su despliegue y escalado con el módulo cluster de Node."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/socket-io-real-time-web-application-development-build-modern-real-time-web-applications-powered-by-rohit-rai,e_3cuu.htm",
+      "https://www.hatchards.co.uk/book/socketio-real-time-web-application-development/rohit-rai/9781782160786"
+    ]
+  },
+  "sams-teach-yourself-the-twitter-api-in-24-hours-2011": {
+    "descripcion": "Libro de la serie «Sams Teach Yourself» en el que Christopher Peri y Bess Ho enseñan a crear aplicaciones sociales con la API de Twitter en 24 lecciones de una hora cada una. Es de 2011 y trabaja con la API REST de Twitter de aquella época (la versión 1), con respuestas en XML y autenticación OAuth 1.0a. Está dirigido a principiantes en la API de Twitter. Los ejemplos están sobre todo en PHP, así que conviene manejar ese lenguaje y algo de desarrollo web.\n\nLas primeras lecciones presentan Twitter y las cuestiones que hay que tener en cuenta antes de desarrollar para la plataforma, y montan un entorno LAMP. Después se hace la primera llamada a la API, se analiza la respuesta, se construye un pequeño framework propio y se implementa OAuth. A partir de ahí recorre buena parte de la API: mensajes directos, listas, favoritos y métodos de usuario, búsqueda, tendencias y geolocalización, amistades, notificaciones, bloqueos y gestión de la cuenta. También trata la Streaming API, la documentación oficial y cómo manejar errores y caídas del servicio (la famosa «FailWhale»). Las cuatro últimas lecciones llevan la API al móvil, con aplicaciones para Android y para iPhone/iPod touch. Cada capítulo termina con preguntas y ejercicios.\n\nEl hilo conductor es construir paso a paso un lector, un framework y un cliente de Twitter cada vez más completo. Una reseña de la época lo consideró rico en ejemplos pero con mucha introducción y poca profundidad, y señaló que no trata el uso de la API desde JavaScript en el navegador. Hoy su valor es casi solo histórico: la API v1 se retiró, Twitter pasó a llamarse X y la API v2 tiene otros endpoints, se basa en JSON, usa OAuth 2.0 y su acceso es de pago y restringido. Sirve, como mucho, para entender conceptos generales de integración con APIs sociales.",
+    "temas": [
+      "Twitter API",
+      "PHP",
+      "LAMP",
+      "OAuth",
+      "XML",
+      "Mensajes directos",
+      "Listas",
+      "Búsqueda",
+      "Tendencias y geolocalización",
+      "Streaming API",
+      "Android",
+      "iOS"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Lector simple de Twitter",
+        "descripcion": "Primera aplicación del libro: en PHP, hace llamadas a la API REST de Twitter, interpreta las respuestas XML y muestra los tweets en una página web."
+      },
+      {
+        "nombre": "Framework para la API de Twitter",
+        "descripcion": "Capa propia en PHP que agrupa las llamadas a la API y la autenticación OAuth, y que sirve de base para el resto de los ejemplos."
+      },
+      {
+        "nombre": "Cliente simple de Twitter",
+        "descripcion": "Cliente web construido en dos partes y ampliado después con más llamadas a la API: publicación, mensajes directos, listas, favoritos, búsqueda, tendencias y gestión de amistades y de la cuenta."
+      },
+      {
+        "nombre": "Aplicación de Twitter para Android",
+        "descripcion": "Introducción al desarrollo en Android y construcción de una aplicación móvil que se conecta a Twitter."
+      },
+      {
+        "nombre": "Aplicación de Twitter para iPhone y iPod touch",
+        "descripcion": "Primeros pasos con iOS y creación de una aplicación para iPhone/iPod touch que integra Twitter."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/sams-teach-yourself-the-twitter-api-in-24-hours-9780672331107",
+      "https://i-programmer.info/bookreviews/63-social-media/2861-teach-yourself-the-twitter-api-in-24-hours-.html"
+    ]
+  },
+  "pro-paypal-e-commerce-2007": {
+    "descripcion": "Guía técnica escrita por Damon Williams, que trabajaba en PayPal y dirigía la PayPal Developer Network cuando la escribió. Explica cómo integrar los servicios de pago de PayPal en sitios y aplicaciones web tal como existían en 2007. Presenta PayPal no solo como procesador de tarjetas, sino como una plataforma de dinero digital, y enseña a elegir el producto adecuado para cada tipo de tienda. Está dirigida a desarrolladores web de nivel intermedio que ya saben programar del lado del servidor. No depende de un lenguaje concreto: los conceptos sirven para cualquier lenguaje con el que se construya la tienda.\n\nEmpieza con los fundamentos del comercio electrónico y el funcionamiento interno de PayPal, y después recorre los productos de la época: Website Payments Standard (botones y carritos alojados por PayPal), Website Payments Pro (cobro directo con tarjeta dentro del propio sitio), la PayPal API, Instant Payment Notification (IPN) para recibir avisos de pago en el servidor, Payment Data Transfer (PDT) y Encrypted Website Payments para proteger los botones de pago. También dedica espacio a la administración de la cuenta, los informes de transacciones, la protección contra el fraude y el Payflow Gateway, la pasarela pensada para comercios con su propia cuenta de comercio.\n\nNo se construye una aplicación completa: es una obra de referencia con ejemplos de integración para cada servicio. Su valor hoy es sobre todo histórico y conceptual. Ayuda a entender flujos que siguen vigentes, como las notificaciones asíncronas de pago (el antecedente de los webhooks actuales), la conciliación de transacciones y la prevención del fraude. Sin embargo, casi todas las APIs y productos que describe han quedado como heredados o han cambiado de nombre: las integraciones modernas usan la API REST de PayPal y sus SDK de checkout. Conviene leerlo sabiendo esto y consultar la documentación actual antes de implementar nada.",
+    "temas": [
+      "PayPal",
+      "Pagos en línea",
+      "Website Payments Standard",
+      "Website Payments Pro",
+      "PayPal API",
+      "Instant Payment Notification",
+      "Payment Data Transfer",
+      "Encrypted Website Payments",
+      "Payflow Gateway",
+      "Prevención de fraude",
+      "Reportes de transacciones"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.eyrolles.com/Informatique/Livre/pro-paypal-e-commerce-9781590597507"
+    ]
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "advanced-blazor-architecture-with-net-10-and-azure-openai-2026": {
+    "descripcion": "Tratado técnico de vanguardia sobre arquitectura web moderna escrito por Amit Prasad y Harvendra Singh, publicado en 2026. Combina Blazor moderno sobre .NET 10 con servicios cognitivos avanzados de Azure OpenAI.\n\nAborda el nuevo modelo de renderizado unificado (Static SSR, Interactive Server, Interactive WebAssembly y Auto Mode), integración de agentes conversacionales y asistentes RAG en componentes Blazor, y despliegue en contenedores Azure Container Apps.\n\nLos autores guían al arquitecto en el diseño de aplicaciones empresariales reactivas e inteligentes sin duplicación de lógica entre cliente y servidor. Una obra pionera para el desarrollo contemporáneo con Blazor.",
+    "temas": [
+      "Blazor",
+      ".NET 10",
+      "Azure OpenAI",
+      "RAG",
+      "Render Mode Auto",
+      "Azure Container Apps"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Asistente Corporativo Inteligente con Blazor y Azure OpenAI",
+        "descripcion": "Construcción de un portal web interactivo con streaming reactivo de respuestas de IA y persistencia en Cosmos DB."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "blazor-revealed-2019": {
+    "descripcion": "Guía pionera e introductoria sobre el revolucionario framework de Microsoft escrita por Peter Himschoot y publicada por Apress en 2019. Explora el desarrollo de interfaces web con C# y WebAssembly.\n\nCubre la sintaxis de componentes Razor, enlace de datos unidireccional y bidireccional, gestión de eventos, ciclo de vida de componentes, inyección de dependencias e interoperabilidad con librerías JavaScript (JS Interop).\n\nPeter Himschoot, Microsoft Certified Trainer de referencia en Europa, ofrece un texto sumamente claro que permite a los programadores de C# abandonar JavaScript para crear SPAs completas en el navegador. Un hito formativo clave.",
+    "temas": [
+      "Blazor",
+      "WebAssembly",
+      "C# en el Navegador",
+      "Razor Components",
+      "JS Interop",
+      "Peter Himschoot",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web Single-Page en C# Puro con Blazor WebAssembly",
+        "descripcion": "Desarrollo de una SPA interactiva con componentes reutilizables, consumo de APIs REST y cero código JavaScript propio."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4343-5"
+    ]
+  },
+  "exploring-blazor-2019": {
+    "descripcion": "Manual práctico de exploración técnica escrito por Taurius Litvinavicius y publicado por Apress en 2019. Enseña a construir aplicaciones web cliente-servidor con Blazor Server y Blazor WebAssembly.\n\nAborda el diseño de componentes Razor modulares, comunicación con SignalR para Blazor Server, validación de formularios con DataAnnotations y `EditForm`, enrutamiento con `App.razor` y persistencia en LocalStorage del navegador.\n\nTaurius Litvinavicius adopta un estilo directo y accesible que permite a los desarrolladores evaluar las ventajas operativas de Blazor frente a frameworks tradicionales de JavaScript. Muy útil para iniciarse.",
+    "temas": [
+      "Blazor Server",
+      "Blazor WebAssembly",
+      "EditForm",
+      "SignalR",
+      "Taurius Litvinavicius",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Gestor de Tareas y Proyectos Colaborativo con Blazor Server",
+        "descripcion": "Construcción de una aplicación con sincronización en tiempo real vía SignalR y formularios con validación automática."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5310-6"
+    ]
+  },
+  "exploring-blazor-3rd-edition-2025": {
+    "descripcion": "Tercera edición profundamente actualizada de Taurius Litvinavicius, publicada por Apress en 2025. Diseñada para dominar Blazor en .NET 8 y 9 con sus innovaciones arquitectónicas.\n\nProfundiza en los modos de renderizado por componente (`@rendermode`), streaming rendering para carga ultrarrápida, autenticación moderna con ASP.NET Core Identity y despliegue en entornos contenerizados.\n\nLitvinavicius ofrece un recorrido contemporáneo libre de código deprecado, mostrando cómo construir aplicaciones web completas aprovechando al máximo la unificación de .NET en el frontend y backend. Esencial para actualizar proyectos.",
+    "temas": [
+      "Blazor",
+      ".NET 8/9",
+      "Streaming Rendering",
+      "Render Modes",
+      "ASP.NET Core Identity",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal E-Commerce con Renderizado Híbrido y Streaming en Blazor",
+        "descripcion": "Desarrollo de una tienda web con carga inicial instantánea mediante SSR y dinamismo interactivo con WebAssembly."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-9993-7"
+    ]
+  },
+  "full-stack-development-with-microsoft-blazor-2024": {
+    "descripcion": "Manual exhaustivo sobre desarrollo full stack con Blazor escrito por Peter Himschoot y publicado por Apress en 2024. Explora la creación de soluciones integrales sobre .NET 8.\n\nCubre la interacción entre componentes Blazor en el cliente y APIs en el servidor, autenticación segura con OpenID Connect y Keycloak, gestión de estado con Fluxor, persistencia con Entity Framework Core y pruebas automatizadas con bUnit.\n\nPeter Himschoot aporta directrices consolidadas en proyectos de consultoría empresarial, capacitando al lector para estructurar arquitecturas full stack robustas y mantenibles. Imprescindible para desarrolladores .NET modernos.",
+    "temas": [
+      "Full Stack Blazor",
+      "Fluxor",
+      "bUnit",
+      "Entity Framework Core",
+      ".NET 8",
+      "Peter Himschoot",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Gestión Empresarial Full Stack con Blazor y Fluxor",
+        "descripcion": "Construcción completa de una aplicación con arquitectura Redux mediante Fluxor, persistencia relacional y pruebas unitarias con bUnit."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-9989-0"
+    ]
+  },
+  "building-modern-web-applications-with-asp-net-core-blazor-2023": {
+    "descripcion": "Guía práctica de desarrollo web moderno escrita por Brian Ding y publicada por BPB Publications en 2023. Enseña a construir aplicaciones web dinámicas utilizando ASP.NET Core Blazor.\n\nAborda el diseño de componentes Razor reutilizables, comunicación entre componentes padre-hijo mediante `EventCallback`, integración con Bootstrap para interfaces responsivas, consumo de APIs RESTful y autenticación con roles.\n\nBrian Ding proporciona explicaciones sencillas y directas con código probado paso a paso, facilitando la adopción de Blazor en entornos de trabajo cotidianos. Muy recomendado para quienes buscan iniciarse con confianza.",
+    "temas": [
+      "Blazor",
+      "EventCallback",
+      "Bootstrap",
+      "REST APIs",
+      "Autenticación",
+      "BPB Publications"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal de Biblioteca Digital y Gestión de Préstamos con Blazor",
+        "descripcion": "Construcción de una aplicación web completa con catálogo interactivo, autenticación de usuarios y consumo de endpoints REST."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "blazor-in-action-2022": {
+    "descripcion": "Tratado exhaustivo y de gran reputación pedagógica escrito por Chris Sainty (Microsoft MVP y conferenciante internacional) y publicado por Manning en 2022. Guía al lector en la creación de una aplicación web comercial llamada Blazing Trails.\n\nAborda la arquitectura de componentes Razor, ciclo de vida de renderizado, enrutamiento avanzado, formularios con validaciones personalizadas, interoperabilidad con JavaScript (JS Interop), seguridad y pruebas con bUnit.\n\nChris Sainty destaca por un estilo didáctico impecable que enseña las mejores prácticas comunitarias y patrones de producción, desmitificando el funcionamiento interno del framework. Considerado uno de los mejores libros sobre Blazor jamás escritos.",
+    "temas": [
+      "Blazor in Action",
+      "Blazing Trails",
+      "bUnit",
+      "JS Interop",
+      "Razor Components",
+      "Chris Sainty",
+      "Manning"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Senderismo y Rutas 'Blazing Trails' con Blazor",
+        "descripcion": "Construcción paso a paso de una aplicación web completa con mapas interactivos, formularios de subida de rutas y pruebas automatizadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/blazor-in-action"
+    ]
+  },
+  "blazor-webassembly-for-web-development-2024": {
+    "descripcion": "Manual práctico y contemporáneo sobre desarrollo en el navegador escrito por Chandradev Prasad Sah y publicado en 2024. Explora la creación de interfaces web interactivas con Blazor WebAssembly.\n\nCubre la ejecución en el cliente con WebAssembly (Wasm), optimización de tamaños de descarga mediante trimming y compresión Brotli, soporte PWA (Progressive Web Apps) para funcionamiento offline, y consumo de microservicios REST.\n\nChandradev Prasad Sah ofrece tutoriales claros y concisos que capacitan al desarrollador para entregar aplicaciones de alta velocidad sin depender del stack tradicional de JavaScript. Muy formativo para programadores de C#.",
+    "temas": [
+      "Blazor WebAssembly",
+      "Wasm",
+      "PWA",
+      "Trimming",
+      "Brotli",
+      "C# Web"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web Progresiva (PWA) Offline de Gestión de Gastos en Blazor",
+        "descripcion": "Desarrollo de una PWA instalable con sincronización en segundo plano y almacenamiento local en IndexedDB."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "learning-blazor-2022": {
+    "descripcion": "Guía práctica y metódica de inicio rápido escrita por David Pine (Developer Advocate en Microsoft) y publicada por O'Reilly en 2022. Enseña a construir aplicaciones web modernas con Blazor y .NET 6+.\n\nAborda componentes Razor interactivos, localización e internacionalización dinámica (i18n), comunicación en tiempo real con SignalR, integración con APIs del navegador (geolocalización, sintetizador de voz) mediante JS Interop y pruebas con bUnit.\n\nDavid Pine combina su conocimiento directo de los equipos de producto de Microsoft con un estilo ágil y motivador que permite al lector escribir aplicaciones web ricas en poco tiempo. Excelente para aprender Blazor con estándares oficiales.",
+    "temas": [
+      "Learning Blazor",
+      "David Pine",
+      "SignalR",
+      "JS Interop",
+      "i18n",
+      "bUnit",
+      "O'Reilly"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web Multilingüe en Tiempo Real con Blazor y SignalR",
+        "descripcion": "Construcción de un cliente interactivo con notificaciones instantáneas, síntesis de voz en el navegador y pruebas bUnit."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-blazor/9781098124960/"
+    ]
+  },
+  "blazor-webassembly-by-example-3rd-edition-2026": {
+    "descripcion": "Tercera edición profundamente actualizada del prestigioso manual basado en proyectos de Toi B. Wright, publicado por Packt en 2026. Enseña a construir aplicaciones web completas paso a paso mediante diez proyectos prácticos.\n\nCubre componentes dinámicos, formularios complejos, aplicaciones PWA con soporte sin conexión, autenticación con Microsoft Entra ID (Azure AD), integración con servicios en la nube y pruebas unitarias con bUnit.\n\nToi B. Wright destaca por un enfoque práctico y ameno que acompaña al lector desde aplicaciones simples hasta soluciones empresariales de gran envergadura. Una de las guías de proyectos más completas y valoradas sobre Blazor.",
+    "temas": [
+      "Blazor WebAssembly",
+      "Proyectos Prácticos",
+      "PWA",
+      "Entra ID",
+      "bUnit",
+      "Toi Wright",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Diez Proyectos: Tienda Virtual, Gestor de Inventario y Chat PWA",
+        "descripcion": "Construcción de una decena de aplicaciones completas que abarcan consumo de APIs, modo offline y autenticación corporativa."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mastering-blazor-webassembly-2023": {
+    "descripcion": "Tratado técnico avanzado sobre arquitectura y rendimiento en Blazor WebAssembly escrito por Ahmad Mozaffar y publicado por Packt en 2023. Diseñado para desarrolladores sénior que optimizan aplicaciones a escala.\n\nAborda el compilador AOT (Ahead-of-Time) para WebAssembly, optimización de renderizado mediante virtualización de listas (`<Virtualize>`), patrones avanzados de gestión de estado, seguridad con OAuth2/OIDC y despliegue global en Azure Static Web Apps.\n\nAhmad Mozaffar analiza minuciosamente los compromisos de latencia de red, tiempo de arranque y consumo de CPU en el navegador, enseñando a alcanzar un rendimiento de grado profesional. Indispensable para arquitectos de software.",
+    "temas": [
+      "Mastering Blazor",
+      "Wasm AOT",
+      "Virtualize",
+      "OAuth2",
+      "Azure Static Web Apps",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Monitoreo Financiero con Compilación AOT y Virtualización",
+        "descripcion": "Implementación de un panel de control capaz de procesar y renderizar millones de registros sin caídas de framerate."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "web-development-with-blazor-4th-edition-2026": {
+    "descripcion": "Cuarta edición de la referencia indiscutible sobre Blazor escrita por Jimmy Engström (Microsoft MVP) y publicada por Packt en 2026. Adaptada a .NET 9 y 10.\n\nExplora la arquitectura moderna unificada de Blazor, componentes universales compartidos con .NET MAUI (Blazor Hybrid), integración de WebAssembly y Server, streaming interactivo y prácticas de seguridad de nivel bancario.\n\nJimmy Engström, una de las mayores autoridades mundiales en la comunidad de Blazor, comparte su profunda sabiduría técnica acumulada en cientos de despliegues industriales. La obra cumbre definitiva para el desarrollo web en la plataforma .NET moderna.",
+    "temas": [
+      "Blazor",
+      "Blazor Hybrid",
+      ".NET 9/10",
+      "MAUI",
+      "Streaming Rendering",
+      "Jimmy Engström",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Multiplataforma Web y de Escritorio con Blazor Hybrid y MAUI",
+        "descripcion": "Desarrollo de una base de código compartida ejecutada en la web, Windows, macOS, iOS y Android con rendimiento nativo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "microsoft-blazor-2nd-edition-2020": {
+    "descripcion": "Segunda edición del manual de referencia formativo de Peter Himschoot, publicada por Apress en 2020. Adaptada para las versiones estables de Blazor en .NET Core 3.1 y .NET 5.\n\nCubre la comparación detallada entre Blazor Server y Blazor WebAssembly, el ciclo de vida de componentes Razor, formularios con validaciones personalizadas, enlace de datos avanzado y consumo de servicios RESTful seguros.\n\nHimschoot proporciona una instrucción sólida y bien estructurada que cimentó las bases de la adopción corporativa de Blazor en la industria del software. Una referencia clásica e indispensable.",
+    "temas": [
+      "Microsoft Blazor",
+      ".NET 5",
+      "Blazor Server",
+      "Blazor WebAssembly",
+      "Peter Himschoot",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de Registro y Gestión Médica con Blazor Server",
+        "descripcion": "Construcción de un portal web con sincronización bidireccional en tiempo real y persistencia en Entity Framework Core."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5944-3"
+    ]
+  }
+}

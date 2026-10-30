@@ -1,0 +1,33 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Layout from '../../layouts/Layout.astro';
+import BackLink from '../../components/BackLink.astro';
+import TechCard from '../../components/TechCard.astro';
+import { categories, type Category } from '../../lib/data';
+
+export const getStaticPaths = (() =>
+  categories.map((category) => ({ params: { cat: category.slug }, props: { category } }))) satisfies GetStaticPaths;
+
+const { category: c } = Astro.props as { category: Category };
+---
+
+<Layout title={c.nombre} accent={c.color}>
+  <BackLink href="/">← Todas las categorías</BackLink>
+
+  <header class="mb-10 mt-6">
+    <p class="font-mono text-xs uppercase tracking-widest text-[var(--accent)]">Categoría</p>
+    <h1 class="w-fit text-4xl font-bold sm:text-5xl" data-morph-tech={`cat-${c.slug}`}>{c.nombre}</h1>
+    <p class="mt-2 font-mono text-sm text-muted">{c.techs.length} secciones · {c.total} libros</p>
+  </header>
+
+  {
+    c.grupos.map((g) => (
+      <section class:list={[g.nombre && 'mb-10 last:mb-0']}>
+        {g.nombre && <h2 class="mb-3 font-mono text-xs uppercase tracking-widest text-muted">{g.nombre}</h2>}
+        <div class="grid grid-flow-dense auto-rows-[9rem] gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {g.techs.map((t) => <TechCard tech={t} />)}
+        </div>
+      </section>
+    ))
+  }
+</Layout>

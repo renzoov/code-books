@@ -1,0 +1,313 @@
+{
+  "advanced-perl-programming-2020": {
+    "descripcion": "Manual avanzado de William 'Bo' Rothwell publicado por Apress en 2020. Diseñado para elevar las competencias de programadores de Perl intermedios que desean dominar las características más complejas y potentes del lenguaje en entornos corporativos modernos. Orientado a desarrolladores de software y administradores de sistemas.\n\nEl contenido profundiza en referencias complejas a datos (estructuras anidadas multidimensionales), desreferenciación segura y closures. Explora a fondo la programación orientada a objetos en Perl moderno, incluyendo el uso de frameworks de objetos declarativos como Moose y Moo, la manipulación avanzada de paquetes y espacios de nombres, el manejo sofisticado de excepciones con Try::Tiny y la gestión de módulos CPAN corporativos.\n\nEl autor estructura el texto con ejemplos de código claros y patrones de diseño aplicados a problemas de procesamiento de datos reales. Es una referencia excelente para modernizar bases de código heredadas y escribir Perl limpio, modular y mantenible.",
+    "temas": [
+      "Perl",
+      "Programación avanzada",
+      "Moose y Moo",
+      "Closures",
+      "Referencias complejas",
+      "CPAN",
+      "POO en Perl",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Módulo Corporativo Orientado a Objetos con Moose",
+        "descripcion": "Diseño e implementación de un paquete modular en Perl con atributos tipados, roles reutilizables y gestión robusta de excepciones para procesamiento de datos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5858-3",
+      "https://github.com/Apress/advanced-perl-programming"
+    ]
+  },
+  "beginning-perl-programming-2019": {
+    "descripcion": "Guía introductoria de William 'Bo' Rothwell publicada por Apress en 2019. Diseñada para enseñar los fundamentos de la programación en Perl 5 desde cero, con un enfoque didáctico y directo pensado tanto para administradores de sistemas como para nuevos desarrolladores.\n\nEl temario abarca los tres tipos de datos fundamentales de Perl: escalares, arrays (listas) y hashes (arrays asociativos). Enseña el control de flujo condicional y bucles, funciones definidas por el usuario, manipulación de archivos y directorios, y la gran fortaleza de Perl: su expresivo motor de expresiones regulares para búsqueda y extracción de texto.\n\nCada capítulo incluye ejemplos claros que resuelven tareas cotidianas de automatización en entornos Unix y Linux. Es un manual muy amigable para iniciarse en Perl sin sentirse intimidado por la idiosincrasia sintáctica del lenguaje.",
+    "temas": [
+      "Perl 5",
+      "Fundamentos de programación",
+      "Expresiones regulares",
+      "Escalares y Hashes",
+      "Manejo de archivos",
+      "Scripting en Linux",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Automatizador de Procesamiento de Registros del Sistema",
+        "descripcion": "Desarrollo de un script en Perl que lee archivos de registro masivos, filtra eventos críticos mediante expresiones regulares y genera resúmenes formateados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5054-9",
+      "https://github.com/Apress/beginning-perl-programming"
+    ]
+  },
+  "perl-6-quick-syntax-reference-2019": {
+    "descripcion": "Guía de referencia rápida de J.J. Merelo publicada por Apress en 2019. Condensa la rica y revolucionaria sintaxis de Perl 6 (oficialmente renombrado como Raku) en un formato de consulta ágil y ordenado, dirigido a programadores que desean explorar este innovador lenguaje sin leer voluminosos manuales.\n\nEl autor resume la sintaxis de variables tipadas y graduales, signaturas de funciones avanzadas con pattern matching, operadores meta y operadores personalizados, estructuras funcionales y el potente motor de gramáticas (Grammars) que sustituye a las expresiones regulares tradicionales. Además, cubre el soporte nativo de concurrencia y programación reactiva mediante Supplies y Promises.\n\nEs una herramienta de consulta inmediata ideal para tener al lado del teclado al experimentar o programar en Perl 6 / Raku, permitiendo comprobar al instante palabras clave, constructos y modismos idiomáticos.",
+    "temas": [
+      "Perl 6",
+      "Raku",
+      "Referencia rápida",
+      "Gramáticas (Grammars)",
+      "Tipado gradual",
+      "Programación funcional",
+      "Concurrencia nativa",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4867-6",
+      "https://raku.org/"
+    ]
+  },
+  "perl-one-liners-2013": {
+    "descripcion": "Aclamado libro de Peteris Krumins (creador del popular blog catonmat.net), publicado por No Starch Press en 2013. Reúne más de 130 programas de una sola línea ('one-liners') en Perl, enseñando cómo resolver tareas complejas de manipulación de texto y administración de sistemas en segundos directamente desde la terminal.\n\nEl autor disecciona cada comando explicando la magia de los flags de línea de comandos de Perl (-e, -p, -n, -a, -F, -l, -i). Enseña a filtrar, transformar y reemplazar texto, realizar cálculos matemáticos en streaming, manipular numeración de líneas y campos CSV/TSV, y emular utilidades Unix clásicas (awk, sed, grep, cut, tr) con una flexibilidad inmensamente superior.\n\nCada 'one-liner' se descompone paso a paso para que el lector comprenda las variables especiales ($_, $., $/) y el flujo interno de evaluación de Perl. Es una obra sumamente entretenida y práctica que transforma la terminal en un entorno de productividad extrema.",
+    "temas": [
+      "Perl",
+      "One-Liners",
+      "Línea de comandos",
+      "Procesamiento de texto",
+      "Regex",
+      "Automatización Unix",
+      "No Starch Press"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/perloneliners",
+      "https://catonmat.net/"
+    ]
+  },
+  "games-diversions-perl-culture-2003": {
+    "descripcion": "Compilación histórica editada por Jon Orwant (fundador de The Perl Journal), publicada por O'Reilly en 2003. Reúne los artículos más creativos, ingeniosos y divertidos publicados en las páginas de The Perl Journal, mostrando la cultura hacker y festiva que definió a la comunidad de Perl durante su época de oro.\n\nEl volumen explora el uso de Perl en ámbitos lúdicos y poco convencionales: creación de juegos de texto y gráficos, resolución de pasatiempos matemáticos y lingüísticos, generación procedural de música MIDI, algoritmos genéticos y vida artificial básica. También recopila ensayos y anécdotas de leyendas de la comunidad sobre la filosofía y el humor que rodeaban al lenguaje.\n\nEs una lectura entrañable y sumamente instructiva que demuestra la flexibilidad de Perl más allá de los scripts administrativos y el desarrollo web, celebrando la curiosidad intelectual y el espíritu creativo de la programación.",
+    "temas": [
+      "Perl Culture",
+      "The Perl Journal",
+      "Desarrollo de juegos",
+      "Vida artificial",
+      "Música MIDI",
+      "Cultura hacker",
+      "Jon Orwant",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Juegos y Pasatiempos Interactivos en Perl",
+        "descripcion": "Colección de programas interactivos en consola que implementan juegos de estrategia, solucionadores de acertijos y compositores algorítmicos de música."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/games-diversions/0596003129/"
+    ]
+  },
+  "intermediate-perl-2nd-edition-2012": {
+    "descripcion": "Segunda edición de la guía canónica de brian d foy, Randal L. Schwartz y Tom Phoenix, conocida popularmente como 'The Alpaca Book' (El Libro de la Alpaca), publicada por O'Reilly en 2012. Es la continuación oficial del superventas 'Learning Perl', diseñada para guiar a los desarrolladores desde scripts básicos hacia la ingeniería de software profesional en Perl.\n\nLa obra desmitifica el uso de referencias y estructuras de datos complejas (arrays de hashes, matrices anidadas), el uso de closures y la reutilización de código mediante paquetes. Enseña a crear, estructurar, documentar y empaquetar módulos siguiendo los estándares de CPAN, realizar pruebas unitarias automatizadas con Test::More y aplicar principios de programación orientada a objetos en Perl.\n\nCada capítulo incluye ejercicios minuciosamente calibrados con soluciones detalladas. Es la lectura obligatoria para cualquier profesional de Perl que necesite escribir programas de más de 100 líneas con modularidad y robustez.",
+    "temas": [
+      "Perl",
+      "The Alpaca Book",
+      "Referencias en Perl",
+      "Módulos CPAN",
+      "Test::More",
+      "POO en Perl",
+      "brian d foy",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Distribución Modular para CPAN con Tests Automatizados",
+        "descripcion": "Desarrollo completo de un módulo de Perl reutilizable con documentación POD, suite de pruebas unitarias con Test::More y empaquetado para distribución en CPAN."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/intermediate-perl-2nd/9781449331078/",
+      "https://www.intermediateperl.com/"
+    ]
+  },
+  "learning-perl-6-2018": {
+    "descripcion": "Manual introductorio oficial de brian d foy publicado por O'Reilly en 2018. Diseñado para enseñar desde cero el nuevo lenguaje Perl 6 (Raku), explicando sus fundamentos sin asumir conocimientos previos del Perl 5 tradicional.\n\nEl autor recorre la elegante sintaxis de Perl 6: tipos nativos y tipado dinámico, colecciones ricas, signaturas de subrutinas con comprobaciones automáticas, bucles funcionales y paralelismo automático mediante `.race` e `.hyper`. Detalla el revolucionario sistema de gramáticas (Grammars) que permite construir analizadores sintácticos de texto completos de forma limpia y declarativa.\n\nEstructurado con el reconocido rigor pedagógico de brian d foy, incluye ejercicios prácticos al final de cada capítulo. Es el mejor punto de partida formativo para programadores que desean explorar las capacidades vanguardistas de Raku.",
+    "temas": [
+      "Perl 6",
+      "Raku",
+      "brian d foy",
+      "Grammars",
+      "Paralelismo (.race)",
+      "Signaturas de funciones",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Parser de Formatos Personalizados con Gramáticas de Perl 6",
+        "descripcion": "Construcción de una gramática en Perl 6 para parsear y validar archivos de configuración complejos extrayendo datos estructurados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-perl-6/9781491977675/",
+      "https://www.learningperl6.com/"
+    ]
+  },
+  "learning-perl-7th-edition-2016": {
+    "descripcion": "Séptima edición del legendario manual introductorio de brian d foy, Randal L. Schwartz y Tom Phoenix, conocido universalmente como 'The Llama Book' (El Libro de la Llama), publicado por O'Reilly en 2016. Es el libro con el que han aprendido Perl la inmensa mayoría de programadores en el mundo, actualizado para cubrir las características de Perl 5.24.\n\nEl libro enseña con extraordinaria claridad y humor los conceptos fundamentales del lenguaje: escalares, listas, arrays, hashes, operaciones de entrada/salida y manejo de ficheros. Dedica capítulos fundamentales al uso riguroso de expresiones regulares para búsqueda y sustitución de texto, uso de funciones integradas, formateo de datos y módulos esenciales del núcleo de Perl.\n\nCada capítulo concluye con ejercicios prácticos esenciales para consolidar las bases. Es el estándar de oro absoluto de la literatura introductoria de programación en Perl.",
+    "temas": [
+      "Perl 5.24",
+      "The Llama Book",
+      "Randal Schwartz",
+      "Expresiones regulares",
+      "Hashes y Arrays",
+      "Entrada/Salida",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-perl-7th/9781491954317/",
+      "https://www.learning-perl.com/"
+    ]
+  },
+  "mastering-perl-2nd-edition-2014": {
+    "descripcion": "Segunda edición del tratado avanzado de brian d foy, publicado por O'Reilly en 2014. Cierra la célebre trilogía de O'Reilly (Llama, Alpaca, y este volumen), enseñando a los programadores expertos a dominar las técnicas de ingeniería más avanzadas en Perl.\n\nEl autor explora la introspección del árbol de símbolos de Perl, la modificación de comportamiento en tiempo de ejecución, técnicas de profiling y depuración de código, y auditorías de seguridad con 'taint mode'. Analiza la gestión de memoria, la compilación de expresiones regulares con código incrustado, la escritura de código defensivo y la optimización de rendimiento en sistemas de gran escala.\n\nEs una lectura de maestría para ingenieros de software senior y arquitectos de sistemas en Perl, orientada a mantener la calidad y el rendimiento de aplicaciones críticas de producción.",
+    "temas": [
+      "Perl avanzado",
+      "brian d foy",
+      "Profiling y rendimiento",
+      "Taint mode (Seguridad)",
+      "Introspección",
+      "Expresiones regulares avanzadas",
+      "O'Reilly"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/mastering-perl-second/9781449364878/",
+      "https://www.masteringperl.org/"
+    ]
+  },
+  "perl-lwp-2002": {
+    "descripcion": "Manual especializado de Sean M. Burke publicado por O'Reilly en 2002. Constituye la guía de referencia clásica sobre la biblioteca LWP (Library for WWW in Perl), la herramienta fundamental con la que se construyeron los primeros rastreadores web, scrapers y robots de automatización en Internet.\n\nEl libro enseña a realizar peticiones HTTP GET y POST, simular navegadores reales gestionando cookies y encabezados, descargar archivos de forma automatizada y manejar autenticación web. Detalla además el parseo de árboles HTML y extracción de datos mediante módulos auxiliares como HTML::TreeBuilder y HTML::Element.\n\nEl autor ilustra cada técnica con scripts prácticos para extraer información de sitios web y automatizar trámites en línea. Aunque las tecnologías web han evolucionado, los conceptos de clientes web programables que expone siguen siendo fundamentales.",
+    "temas": [
+      "Perl",
+      "LWP",
+      "Web Scraping",
+      "HTTP en Perl",
+      "HTML::TreeBuilder",
+      "Automatización web",
+      "O'Reilly"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Rastreador y Extractor Web Automatizado con LWP",
+        "descripcion": "Desarrollo de un robot en Perl con LWP que navega por sitios web, gestiona cookies de sesión y extrae datos tabulares mediante HTML::TreeBuilder."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/perl-lwp/0596001789/",
+      "https://metacpan.org/pod/LWP"
+    ]
+  },
+  "perl-and-xml-2002": {
+    "descripcion": "Guía especializada de Erik T. Ray y Jason McIntosh, publicada por O'Reilly en 2002. Explica cómo procesar, transformar y generar documentos XML utilizando el ecosistema de módulos de Perl.\n\nLos autores abordan el análisis de documentos mediante parsers basados en flujos y eventos con XML::Parser y SAX (Simple API for XML), la manipulación en memoria de árboles jerárquicos con el DOM (XML::LibXML y XML::DOM), y la ejecución de transformaciones de presentación mediante hojas de estilo XSLT. Cubre también la generación de RSS y servicios web basados en XML.\n\nEl texto ofrece una comparativa clara entre el consumo de memoria de los modelos basados en eventos frente a los modelos basados en árboles, guiando al lector en la elección de la herramienta adecuada para procesar archivos XML masivos.",
+    "temas": [
+      "Perl",
+      "XML",
+      "XML::LibXML",
+      "SAX y DOM",
+      "XSLT",
+      "XML::Parser",
+      "Procesamiento de datos",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline de Procesamiento y Filtrado de XML en Perl",
+        "descripcion": "Implementación de un sistema de procesamiento por lotes que valida documentos XML grandes mediante SAX y genera reportes transformados con XML::LibXML."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/perl-xml/059600205X/"
+    ]
+  },
+  "perl-pocket-reference-5th-edition-2011": {
+    "descripcion": "Quinta edición de la mítica guía de bolsillo de Johan Vromans, publicada por O'Reilly en 2011. Condensa en un formato ultraligero y accesible toda la sintaxis y funciones de Perl 5.14.\n\nLa guía resume de forma precisa las variables especiales de Perl ($_, $/, $!, $@), tipos de datos, operadores y precedencias, funciones integradas de cadenas y arrays, flags de línea de comandos del intérprete y sintaxis completa del motor de expresiones regulares.\n\nEs la chuleta definitiva de cabecera que ha acompañado durante décadas a los desarrolladores y administradores de sistemas en sus sesiones de programación en consola.",
+    "temas": [
+      "Perl 5.14",
+      "Referencia rápida",
+      "Variables especiales",
+      "Expresiones regulares",
+      "Operadores",
+      "Johan Vromans",
+      "O'Reilly"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/perl-pocket-reference/9781449311186/",
+      "https://www.squirrel.nl/"
+    ]
+  },
+  "programming-perl-4th-edition-2012": {
+    "descripcion": "Cuarta edición de la obra cumbre y canónica conocida en todo el mundo como 'The Camel Book' (El Libro del Camello), coescrita por Larry Wall (creador de Perl), Tom Christiansen, brian d foy y Jon Orwant, publicada por O'Reilly en 2012. Es la biblia autorizada y exhaustiva de Perl 5.14.\n\nCon más de 1100 páginas de sabiduría técnica, humor y filosofía hacker, el libro desentraña la gramática y el alma de Perl: tipos de datos, referencias, subrutinas, paquetes, orientación a objetos, threads y concurrencia, soporte avanzado de Unicode, seguridad y compilación de módulos en C (XS). Detalla minuciosamente el motor de expresiones regulares y todas las funciones integradas de la biblioteca estándar.\n\nEscrito con la inimitable voz de Larry Wall, combina una precisión enciclopédica con una visión profunda sobre el diseño de lenguajes de programación. Es el monumento bibliográfico indiscutible de la historia de Perl.",
+    "temas": [
+      "Perl 5.14",
+      "Larry Wall",
+      "The Camel Book",
+      "Unicode en Perl",
+      "Gramática del lenguaje",
+      "Concurrencia",
+      "XS y C",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/programming-perl-4th/9781449321451/"
+    ]
+  }
+}

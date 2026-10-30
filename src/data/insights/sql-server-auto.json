@@ -1,0 +1,2062 @@
+{
+  "a-developer-s-guide-to-data-modeling-for-sql-server-2008": {
+    "descripcion": "Guía práctica y metodológica de Eric Johnson y Joshua Jones orientada a desarrolladores de software que necesitan diseñar esquemas relacionales sólidos y escalables en Microsoft SQL Server.\n\nLos autores abordan desde los fundamentos del modelado conceptual con diagramas entidad-relación, reglas de normalización de la primera a la tercera forma normal, hasta decisiones de desnormalización estratégica para optimizar consultas de lectura rápida. Se analizan tipos de datos de SQL Server, integridad referencial con claves foráneas, restricciones CHECK y diseño de índices.\n\nUna excelente obra para programadores que desean evitar esquemas defectuosos y sentar bases de datos relacionales limpias desde el inicio del proyecto.",
+    "temas": [
+      "Modelado de Datos",
+      "SQL Server",
+      "Normalización",
+      "Diagramas ER",
+      "Integridad Referencial",
+      "Desnormalización",
+      "Addison-Wesley",
+      "Diseño de Bases de Datos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Diseño y normalización de un sistema de facturación corporativo",
+        "descripcion": "Modelado de una base de datos relacional para órdenes de compra y clientes cumpliendo estrictamente la tercera forma normal en SQL Server."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "effective-sql-2016": {
+    "descripcion": "Tratado técnico y recopilación de mejores prácticas de John L. Viescas, Douglas J. Steele y Ben G. Clothier perteneciente a la aclamada serie Effective Software Development.\n\nLos autores formulan 61 recomendaciones prácticas para escribir código SQL limpio, robusto y eficiente aplicable a SQL Server, PostgreSQL, MySQL y Oracle: diseño correcto de claves primarias, uso prudente de valores NULL, optimización de uniones y agrupaciones, eliminación de subconsultas correlacionadas lentas y aprovechamiento de funciones analíticas de ventana. Cada consejo se acompaña de ejemplos antes y después.\n\nLectura imprescindible para desarrolladores y analistas que desean superar el nivel intermedio y escribir consultas SQL de nivel profesional.",
+    "temas": [
+      "Effective SQL",
+      "Best Practices",
+      "Optimización de Consultas",
+      "Joins",
+      "NULLs",
+      "Window Functions",
+      "Addison-Wesley",
+      "SQL Estándar"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "the-language-of-sql-2nd-edition-2016": {
+    "descripcion": "Segunda edición del manual pedagógico y conciso de Larry Rockoff para aprender los fundamentos del lenguaje SQL estándar y sus dialectos comerciales.\n\nRockoff guía al principiante a través de la sintaxis declarativa de consultas SELECT, operadores de filtrado (LIKE, IN, BETWEEN), ordenamientos, funciones agregadas (SUM, AVG, COUNT), agrupamientos con GROUP BY y HAVING, uniones (INNER y OUTER JOIN) y subconsultas. Compara las pequeñas diferencias sintácticas entre SQL Server, Oracle, MySQL y SQLite.\n\nIdeal para usuarios de negocio, analistas de datos y programadores noveles que buscan una introducción clara y estructurada a SQL.",
+    "temas": [
+      "Language of SQL",
+      "Larry Rockoff",
+      "SQL Básico",
+      "Joins",
+      "GROUP BY",
+      "Subconsultas",
+      "Addison-Wesley",
+      "Principiantes"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "beginning-backup-and-restore-for-sql-server-2018": {
+    "descripcion": "Manual práctico de Bradley Beard enfocado en el diseño y ejecución de planes fiables de copias de seguridad y recuperación ante desastres en Microsoft SQL Server.\n\nEl autor desglosa los modelos de recuperación (Simple, Full, Bulk-Logged), los tipos de copias de seguridad (completas, diferenciales y de registro de transacciones), y la reconstrucción paso a paso de bases de datos corruptas con recuperación punto en el tiempo (point-in-time recovery). Además, enseña a automatizar respaldos mediante SQL Server Agent y verificar la integridad con DBCC CHECKDB.\n\nUna guía técnica esencial para administradores de bases de datos que deben garantizar que los datos corporativos puedan recuperarse sin pérdidas ante emergencias.",
+    "temas": [
+      "Backup and Restore",
+      "SQL Server",
+      "Bradley Beard",
+      "RTO y RPO",
+      "Transaction Log",
+      "DBCC CHECKDB",
+      "Point-in-Time",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plan automatizado de respaldo y simulacro de recuperación ante desastres",
+        "descripcion": "Configuración de trabajos en SQL Server Agent para respaldos continuos y ejecución de una restauración completa simulada ante pérdida de datos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "beginning-sql-queries-from-novice-to-professional-2010": {
+    "descripcion": "Manual didáctico y formativo de Clare Churcher diseñado para enseñar a razonar sobre consultas relacionales desde cero hasta un nivel profesional.\n\nLa autora utiliza analogías cotidianas y explicaciones sin tecnicismos innecesarios para desglosar el modelo relacional, la selección de filas con filtros lógicos, la combinación de tablas con uniones internas y externas, el manejo de datos incompletos (NULLs) y el uso de subconsultas y funciones de resumen. Incluye abundantes ejercicios resueltos basados en bases de datos relacionales reales.\n\nUna obra introductoria excelente para estudiantes universitarios y profesionales que necesitan dominar la formulación de consultas relacionales.",
+    "temas": [
+      "SQL Queries",
+      "Clare Churcher",
+      "Modelo Relacional",
+      "Joins",
+      "NULLs",
+      "Agregaciones",
+      "Apress",
+      "Principiantes"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "beginning-sql-queries-2nd-edition-2016": {
+    "descripcion": "Segunda edición actualizada del libro pedagógico de Clare Churcher, enriquecida con nuevos ejemplos y casos de estudio contemporáneos sobre consultas SQL relacionales.\n\nChurcher amplía la cobertura con explicaciones lúcidas sobre funciones analíticas de ventana, expresiones de tabla comunes (CTEs), uniones cruzadas y técnicas para evitar errores habituales de duplicación de filas por joins defectuosos. Mantiene su celebrado estilo enfocado en la lógica del problema antes de teclear código.\n\nEl texto formativo perfecto para asentar una comprensión intuitiva y profunda de cómo piensa el motor de consultas relacionales.",
+    "temas": [
+      "SQL Queries",
+      "Clare Churcher",
+      "CTEs",
+      "Window Functions",
+      "Modelo Relacional",
+      "Lógica de Consultas",
+      "Apress",
+      "Didáctico"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "beginning-sql-server-2012-for-developers-3rd-edition-2012": {
+    "descripcion": "Tercera edición de la guía práctica de Robin Dewson para desarrolladores de software que comienzan a trabajar con Microsoft SQL Server 2012 y SQL Server Management Studio (SSMS).\n\nEl autor enseña a instalar el entorno, diseñar bases de datos relacionales normalizadas, crear tablas con restricciones de integridad, formular consultas T-SQL básicas y avanzadas, y programar vistas, procedimientos almacenados, funciones definidas por el usuario y disparadores (triggers). Cubre además la seguridad y permisos básicos.\n\nUna excelente opción para programadores que necesitan una introducción sólida y paso a paso a SQL Server 2012.",
+    "temas": [
+      "SQL Server 2012",
+      "Robin Dewson",
+      "SSMS",
+      "T-SQL",
+      "Procedimientos Almacenados",
+      "Vistas",
+      "Triggers",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Base de datos comercial 'ApressFinancial' con procedimientos y triggers",
+        "descripcion": "Construcción completa de una base de datos bancaria con tablas de clientes y transacciones, vistas de saldo y triggers de auditoría."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "beginning-sql-server-modeling-2010": {
+    "descripcion": "Guía especializada de Bart Weller sobre la plataforma de modelado y arquitectura de datos Microsoft SQL Server Modeling (conocida previamente por el nombre en clave 'Oslo').\n\nEl autor desglosa el lenguaje de modelado declarativo 'M', el repositorio de modelos centralizado SQL Server Modeling Services y la herramienta visual 'Quadrant'. Enseña a definir lenguajes específicos de dominio (DSLs) basados en modelos de datos para automatizar la generación de esquemas de bases de datos y código de aplicación.\n\nUna lectura técnica histórica fascinante sobre los esfuerzos de Microsoft por unificar el modelado declarativo de datos a principios de la década de 2010.",
+    "temas": [
+      "SQL Server Modeling",
+      "Bart Weller",
+      "M Language",
+      "Oslo",
+      "Quadrant",
+      "DSLs",
+      "Model-Driven",
+      "Apress"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Modelo declarativo de dominio empresarial con lenguaje M",
+        "descripcion": "Construcción de un metamodelo en lenguaje M que describe entidades comerciales y genera automáticamente el esquema físico en SQL Server."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "beginning-sql-server-r-services-2016": {
+    "descripcion": "Manual práctico de Bradley Beard sobre SQL Server R Services, la característica introducida en SQL Server 2016 que permite ejecutar scripts de análisis de datos y Machine Learning en lenguaje R directamente dentro del motor de base de datos.\n\nEl autor enseña a configurar el servicio Launchpad, pasar datos bidireccionalmente entre T-SQL y R mediante el procedimiento sp_execute_external_script, entrenar modelos estadísticos utilizando las librerías escalables RevoScaleR, y desplegar predicciones en tiempo real sin extraer datos hacia herramientas externas.\n\nIndispensable para analistas y científicos de datos que desean combinar la potencia analítica de R con la seguridad y rendimiento de SQL Server.",
+    "temas": [
+      "R Services",
+      "SQL Server 2016",
+      "Lenguaje R",
+      "sp_execute_external_script",
+      "RevoScaleR",
+      "Machine Learning",
+      "In-Database Analytics",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Modelo predictivo de abandono de clientes integrado en SQL Server con R",
+        "descripcion": "Implementación de un procedimiento almacenado que ejecuta un script de R sobre tablas de clientes y almacena las probabilidades de fuga."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "beginning-t-sql-3rd-edition-2014": {
+    "descripcion": "Tercera edición de la aclamada guía pedagógica de Kathi Kellenberger y Scott Shaw sobre Transact-SQL (T-SQL) para SQL Server 2012 y 2014.\n\nLos autores enseñan a programar con T-SQL: sentencias SELECT, filtros con WHERE, uniones ANSI, agrupaciones con GROUP BY y HAVING, subconsultas, expresiones de tabla comunes (CTEs), y funciones de conversión y cadenas. Además, introduce la programación procedural básica: variables, control condicional IF/ELSE, bucles WHILE y manejo de errores con TRY/CATCH.\n\nUn manual de formación muy elogiado por su tono accesible y ejercicios claros para consolidar bases firmes de programación en SQL Server.",
+    "temas": [
+      "T-SQL",
+      "Kathi Kellenberger",
+      "SQL Server 2014",
+      "CTEs",
+      "TRY/CATCH",
+      "Subconsultas",
+      "Procedimientos",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "beginning-t-sql-4th-edition-2020": {
+    "descripcion": "Cuarta edición actualizada del clásico de Kathi Kellenberger y Lee Everest, adaptada a las características contemporáneas de SQL Server 2019 y Azure SQL Database.\n\nLos autores incorporan novedades modernas de T-SQL como la función STRING_SPLIT, funciones analíticas avanzadas, consultas sobre documentos JSON nativos con JSON_VALUE y OPENJSON, y expresiones de tabla comunes recursivas. Mantiene el celebrado enfoque progresivo con ejercicios paso a paso.\n\nLa guía de iniciación de cabecera más recomendada para aprender T-SQL moderno en entornos locales y en la nube.",
+    "temas": [
+      "T-SQL",
+      "Kathi Kellenberger",
+      "Lee Everest",
+      "SQL Server 2019",
+      "Azure SQL",
+      "JSON en SQL",
+      "STRING_SPLIT",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Módulo analítico de facturación con T-SQL y soporte JSON",
+        "descripcion": "Construcción de procedimientos almacenados que procesan transacciones comerciales combinando tablas relacionales y atributos flexibles en formato JSON."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "dynamic-sql-2nd-edition-2019": {
+    "descripcion": "Segunda edición del tratado técnico especializado de Edward Pollack sobre la construcción segura, eficiente y optimizada de SQL dinámico en Microsoft SQL Server.\n\nPollack enseña a dominar sp_executesql con parámetros fuertemente tipados, desmitificando el mito de que el SQL dinámico siempre degrada el rendimiento. Analiza cómo reutilizar planes de ejecución en memoria caché, prevenir de forma absoluta ataques de inyección SQL mediante parametrización estricta y QUOTENAME, y construir motores de búsqueda y filtros dinámicos que superan las consultas estáticas con múltiples ORs.\n\nLectura obligatoria para desarrolladores senior de T-SQL que necesitan flexibilidad de consulta sin sacrificar seguridad ni velocidad.",
+    "temas": [
+      "Dynamic SQL",
+      "Edward Pollack",
+      "sp_executesql",
+      "Inyección SQL",
+      "Plan Cache",
+      "QUOTENAME",
+      "T-SQL",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de búsqueda con filtros dinámicos parametrizados y seguros",
+        "descripcion": "Implementación de un procedimiento T-SQL que construye y ejecuta consultas dinámicas con sp_executesql protegiendo contra inyecciones y reutilizando planes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "expert-performance-indexing-for-sql-server-2012-2012": {
+    "descripcion": "Guía especializada de Jason Strate y Ted Krueger dedicada al diseño, mantenimiento y optimización de índices en Microsoft SQL Server 2012.\n\nLos autores analizan las estructuras físicas de índices agrupados (Clustered) y no agrupados (Nonclustered), índices filtrados, índices con columnas incluidas (INCLUDE), e índices columnares (Columnstore Indexes). Explican cómo utilizar vistas de administración dinámica (DMVs) para detectar índices faltantes, fragmentación excesiva e índices redundantes que penalizan las escrituras.\n\nIndispensable para administradores de bases de datos y afinadores de rendimiento que buscan reducir el consumo de I/O en discos.",
+    "temas": [
+      "Indexación",
+      "Jason Strate",
+      "Ted Krueger",
+      "Columnstore",
+      "Clustered Index",
+      "DMVs",
+      "Fragmentación",
+      "SQL Server 2012"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "expert-performance-indexing-in-azure-sql-and-sql-server-2022-4th-edition-2023": {
+    "descripcion": "Cuarta edición completamente actualizada del tratado de Jason Strate y Edward Pollack, adaptada a SQL Server 2022 y Azure SQL Database.\n\nLos autores profundizan en las nuevas características inteligentes del optimizador: optimización de planes sensibles a parámetros (PSP Optimization), reanudación de creación de índices en línea (Resumable Index Operations), índices Columnstore agrupados avanzados, y el ajuste automático de índices mediante Azure SQL Database Advisor. Enseña a interpretar métricas de ejecución y DMVs modernas.\n\nLa referencia técnica contemporánea más completa sobre indexación en entornos locales y en la nube de Microsoft.",
+    "temas": [
+      "Indexación",
+      "SQL Server 2022",
+      "Azure SQL",
+      "PSP Optimization",
+      "Columnstore",
+      "Jason Strate",
+      "Edward Pollack",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Estrategia integral de indexación híbrida para cargas mixtas OLTP/HTAP",
+        "descripcion": "Diseño de esquemas que combinan índices agrupados tradicionales con índices Columnstore no agrupados para analítica en tiempo real en SQL Server 2022."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "expert-performance-indexing-in-sql-server-2019-3rd-edition-2019": {
+    "descripcion": "Tercera edición de la prestigiosa guía de Jason Strate, adaptada a las innovaciones de procesamiento inteligente de consultas (Intelligent Query Processing - IQP) en SQL Server 2019.\n\nStrate examina cómo los índices interactúan con las nuevas capacidades del motor: feedback de concesión de memoria, ejecución en modo por lotes en almacenes de filas (Batch Mode on Rowstore), e índices filtrados para tablas con datos sesgados. Ofrece scripts de diagnóstico para auditar el uso real de índices y eliminar índices no utilizados.\n\nMuy formativo para DBAs e ingenieros de bases de datos que optimizan plataformas sobre SQL Server 2019.",
+    "temas": [
+      "Indexación",
+      "SQL Server 2019",
+      "Jason Strate",
+      "Intelligent Query Processing",
+      "Batch Mode",
+      "DMVs",
+      "Performance",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "expert-sql-server-2008-development-2010": {
+    "descripcion": "Tratado técnico avanzado escrito por figuras de primer nivel de la comunidad como Adam Machanic (creador del legendario script sp_WhoIsActive) y Alastair Aitchison.\n\nLos autores abordan temas de alto impacto: optimización extrema de consultas complejas en T-SQL, uso eficiente de tipos de datos espaciales (Geography y Geometry), integración de Common Language Runtime (SQL CLR) para cálculos intensivos en C#, y técnicas de particionamiento de tablas y alineación de índices. Analiza cómo evitar bloqueos y contención en tempdb.\n\nUna obra maestra indispensable para desarrolladores senior de bases de datos que diseñan aplicaciones transaccionales de alto volumen.",
+    "temas": [
+      "Adam Machanic",
+      "SQL CLR",
+      "Datos Espaciales",
+      "T-SQL Avanzado",
+      "tempdb",
+      "Particionamiento",
+      "SQL Server 2008",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Ensamblado SQL CLR en C# para cálculos matemáticos pesados en base de datos",
+        "descripcion": "Desarrollo y despliegue de una función CLR que procesa algoritmos numéricos complejos dentro de SQL Server superando la velocidad de T-SQL puro."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "expert-sql-server-2008-encryption-2009": {
+    "descripcion": "Guía especializada de Rodney Landrum y Michael Coles dedicada a las tecnologías de cifrado y protección de datos en SQL Server 2008.\n\nLos autores desglosan la jerarquía de claves criptográficas (Service Master Key, Database Master Key, certificados y claves asimétricas), cifrado a nivel de columna mediante funciones simétricas, Transparent Data Encryption (TDE) para cifrar archivos de base de datos y copias de seguridad en reposo, y gestión de claves con módulos de seguridad de hardware (HSM) mediante Extensible Key Management (EKM).\n\nLectura esencial para DBAs y responsables de seguridad que deben cumplir normativas estrictas de protección de datos como PCI-DSS y HIPAA.",
+    "temas": [
+      "Cifrado",
+      "TDE",
+      "SQL Server 2008",
+      "Claves Criptográficas",
+      "Certificados",
+      "EKM",
+      "PCI-DSS",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Implementación de Transparent Data Encryption (TDE) y claves simétricas",
+        "descripcion": "Configuración de cifrado transparente de base de datos con respaldo de certificados maestros y cifrado granular de números de tarjetas de crédito."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "expert-sql-server-in-memory-oltp-2015": {
+    "descripcion": "Tratado técnico exhaustivo de Dmitri Korotkevitch dedicado a In-Memory OLTP (nombre en clave 'Hekaton'), la tecnología de tablas optimizadas para memoria introducida en SQL Server 2014.\n\nEl autor analiza la arquitectura sin bloqueos ni pestillos (lock-free y latch-free) mediante control de concurrencia optimista multiversión, índices hash y de rango en memoria, y procedimientos almacenados compilados de forma nativa a código máquina C. Enseña a identificar tablas candidatas y resolver limitaciones funcionales para multiplicar el throughput transaccional por 10.\n\nIndispensable para arquitectos y desarrolladores backend que construyen sistemas de negociación, juegos o procesamiento de eventos de ultrabaja latencia.",
+    "temas": [
+      "In-Memory OLTP",
+      "Hekaton",
+      "Dmitri Korotkevitch",
+      "Natively Compiled Stored Procedures",
+      "Lock-Free",
+      "Hash Indexes",
+      "SQL Server",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor transaccional de alta frecuencia con tablas In-Memory OLTP",
+        "descripcion": "Diseño de un esquema de ingesta con tablas en memoria duraderas e índices hash procesadas por procedimientos nativamente compilados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "expert-sql-server-transactions-and-locking-2018": {
+    "descripcion": "Obra cumbre de Dmitri Korotkevitch que desentraña con profundidad forense el motor de transacciones, bloqueos y control de concurrencia en Microsoft SQL Server.\n\nKorotkevitch disecciona los niveles de aislamiento ANSI (Read Uncommitted, Read Committed, Repeatable Read, Serializable) y los niveles basados en versiones de filas en tempdb (Read Committed Snapshot y Snapshot Isolation). Enseña a diagnosticar bloqueos prolongados, deadlocks y conversiones de bloqueo utilizando eventos extendidos (Extended Events) y DMVs, ofreciendo patrones para escribir código altamente concurrente sin interbloqueos.\n\nUna de las mejores obras jamás escritas sobre concurrencia en SQL Server, obligatoria para ingenieros de bases de datos senior.",
+    "temas": [
+      "Transacciones",
+      "Dmitri Korotkevitch",
+      "Deadlocks",
+      "Snapshot Isolation",
+      "Extended Events",
+      "Niveles de Aislamiento",
+      "Locks",
+      "Apress"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Diagnóstico y erradicación de deadlocks con Extended Events",
+        "descripcion": "Captura forense de grafos de interbloqueo en entornos de producción y refactorización de transacciones para garantizar orden de acceso consistente."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "expert-tsql-window-functions-in-sql-server-2015": {
+    "descripcion": "Tratado especializado de Kathi Kellenberger y Clayton Groom enfocado en dominar las funciones de ventana (Window Functions) introducidas y expandidas en SQL Server 2012.\n\nLos autores desglosan la sintaxis de la cláusula OVER con PARTITION BY y ORDER BY, así como las especificaciones de marco ROWS y RANGE. Analizan funciones de clasificación (ROW_NUMBER, RANK, DENSE_RANK, NTILE), funciones de desplazamiento (LAG, LEAD, FIRST_VALUE, LAST_VALUE) y agregaciones acumuladas y móviles. Demuestran cómo estas funciones eliminan subconsultas costosas y bucles lentos.\n\nLectura imprescindible para desarrolladores y analistas que desean escribir consultas analíticas rápidas y elegantes en T-SQL.",
+    "temas": [
+      "Window Functions",
+      "Kathi Kellenberger",
+      "Cláusula OVER",
+      "ROW_NUMBER",
+      "LEAD y LAG",
+      "PARTITION BY",
+      "T-SQL",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "expert-t-sql-window-functions-in-sql-server-2019-2nd-edition-2019": {
+    "descripcion": "Segunda edición ampliamente expandida de Kathi Kellenberger, Clayton Groom y Ed Pollack sobre funciones analíticas de ventana en SQL Server 2019 y Azure SQL Database.\n\nLos autores incorporan optimizaciones del procesador de consultas moderno, ejecución en modo por lotes (Batch Mode) para funciones de ventana, análisis de planes de ejecución y técnicas para resolver problemas complejos de secuencias temporales, detección de huecos e islas (Gaps and Islands) y medias móviles. Ofrece análisis comparativo de rendimiento frente a soluciones procedurales tradicionales.\n\nLa guía de referencia definitiva de cabecera para dominar el cálculo analítico dentro de SQL Server.",
+    "temas": [
+      "Window Functions",
+      "SQL Server 2019",
+      "Kathi Kellenberger",
+      "Ed Pollack",
+      "Gaps and Islands",
+      "Batch Mode",
+      "T-SQL",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Resolución algorítmica de huecos e islas (Gaps & Islands) con funciones de ventana",
+        "descripcion": "Implementación de consultas T-SQL que detectan intervalos continuos de actividad y periodos de inactividad de clientes mediante ROW_NUMBER y LAG."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "healthy-sql-2015": {
+    "descripcion": "Guía práctica de Robert Pearl enfocada en el mantenimiento preventivo, auditoría de salud y optimización continua de entornos Microsoft SQL Server.\n\nPearl introduce el concepto de 'salud de la base de datos', desglosando listas de verificación diarias, semanales y mensuales: revisión de errores en el log, monitorización de espacio libre en disco, integridad física con DBCC, fragmentación de índices, estadísticas obsoletas y cuellos de botella en memoria y CPU. Enseña a construir alertas automatizadas y reportes de estado para la gerencia.\n\nMuy recomendable para DBAs y administradores de sistemas que buscan pasar de un modelo reactivo de apagar fuegos a una administración preventiva profesional.",
+    "temas": [
+      "Healthy SQL",
+      "Robert Pearl",
+      "Mantenimiento Preventivo",
+      "DBCC CHECKDB",
+      "Estadísticas",
+      "Auditoría",
+      "DBA",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework de auditoría de salud automatizada para SQL Server",
+        "descripcion": "Construcción de un conjunto de scripts en PowerShell y T-SQL que recolectan métricas del servidor y generan un informe diario de salud en HTML."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "high-performance-sql-server-2016": {
+    "descripcion": "Tratado técnico avanzado de Benjamin Nevarez dedicado a la optimización exhaustiva del rendimiento y la arquitectura del motor de base de datos en SQL Server 2016.\n\nNevarez desmenuza el optimizador de consultas basado en costes, el impacto del subsistema de almacenamiento (SSDs, NVMe), el Query Store para seguimiento histórico del rendimiento de consultas, optimizaciones para servidores multi-socket con memoria NUMA y las mejoras de In-Memory OLTP. Además, explica cómo configurar la base de datos tempdb para mitigar la contención de páginas de asignación (PFS/GAM).\n\nUna de las mejores obras sobre afinamiento de rendimiento para ingenieros y arquitectos de SQL Server.",
+    "temas": [
+      "High Performance",
+      "Benjamin Nevarez",
+      "Query Store",
+      "NUMA",
+      "tempdb Contention",
+      "Optimizador de Consultas",
+      "SQL Server 2016",
+      "Apress"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Diagnóstico y estabilización de planes de ejecución con Query Store",
+        "descripcion": "Detección de regresiones de rendimiento provocadas por cambios de plan y fijación forzada de planes de ejecución óptimos mediante Query Store."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "introducing-sql-server-2015": {
+    "descripcion": "Manual introductorio y panorámico de Mike McQuillan que ofrece un recorrido accesible por las características y capacidades del ecosistema Microsoft SQL Server.\n\nEl autor repasa los componentes fundamentales de la plataforma: el motor relacional de base de datos, Integration Services (SSIS) para procesos ETL, Analysis Services (SSAS) para cubos analíticos y Reporting Services (SSRS) para generación de informes. Enseña a realizar tareas básicas de administración y consultas T-SQL desde SSMS.\n\nEl punto de partida ideal para principiantes y profesionales de TI que necesitan comprender la suite completa de datos de Microsoft.",
+    "temas": [
+      "SQL Server",
+      "Mike McQuillan",
+      "SSMS",
+      "T-SQL",
+      "SSIS",
+      "SSAS",
+      "SSRS",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "practical-maintenance-plans-in-sql-server-2016": {
+    "descripcion": "Guía práctica de Bradley Beard orientada al diseño, configuración y automatización de planes de mantenimiento de bases de datos en SQL Server.\n\nEl texto enseña a utilizar tanto el diseñador visual de planes de mantenimiento de SSMS como scripts personalizados en T-SQL y PowerShell: comprobación de integridad con DBCC CHECKDB, desfragmentación y reorganización de índices, actualización de estadísticas de distribución, purgado de historial y tareas de copias de seguridad continuas. Muestra cómo gestionar notificaciones de fallo por correo.\n\nUna referencia técnica indispensable para asegurar la longevidad y estabilidad operativa de cualquier instancia de SQL Server.",
+    "temas": [
+      "Planes de Mantenimiento",
+      "Bradley Beard",
+      "DBCC",
+      "Mantenimiento de Índices",
+      "Estadísticas",
+      "SQL Server Agent",
+      "PowerShell",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plan corporativo integral de mantenimiento desatendido con SQL Server Agent",
+        "descripcion": "Configuración de una secuencia de trabajos que comprueba integridad, reconstruye índices fragmentados y actualiza estadísticas sin impacto operativo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-full-text-search-in-sql-server-2008-2008": {
+    "descripcion": "Tratado técnico exhaustivo de Hilary Cotter y Michael Coles dedicado al motor integrado de búsqueda de texto completo (Full-Text Search) en SQL Server 2008.\n\nLos autores analizan la arquitectura del motor rediseñado: catálogos e índices de texto completo, analizadores de palabras (word breakers), lematizadores (stemmers), listas de palabras vacías (stoplists) y tesauros. Enseñan a formular consultas complejas utilizando los predicados CONTAINS y FREETEXT y las funciones CONTAINSTABLE y FREETEXTTABLE para búsquedas clasificadas por relevancia.\n\nIndispensable para desarrolladores que necesitan implementar búsquedas textuales potentes sobre documentos y columnas de texto sin recurrir a software externo.",
+    "temas": [
+      "Full-Text Search",
+      "Hilary Cotter",
+      "Michael Coles",
+      "CONTAINS",
+      "FREETEXTTABLE",
+      "Lematización",
+      "Stopwords",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de búsqueda documental con ponderación y coincidencia de sinónimos",
+        "descripcion": "Construcción de un índice Full-Text con configuración de tesauros en español y consultas CONTAINSTABLE con puntuación de relevancia."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-sql-database-for-windows-azure-2nd-edition-2012": {
+    "descripcion": "Segunda edición de la guía pionera de Herve Roggero y Scott Klein sobre la base de datos relacional como servicio en la nube: SQL Database for Windows Azure.\n\nLos autores explican la arquitectura de alta disponibilidad con réplicas internas automáticas, conectividad con ADO.NET y JDBC, directrices de diseño para bases de datos compartidas (sharding con federaciones de SQL Azure), copias de seguridad geográficas y optimizaciones de costes. Muestra cómo migrar bases de datos locales hacia la nube mediante BACPAC y DAC paclets.\n\nUna referencia técnica histórica de gran impacto para entender los inicios de las bases de datos relacionales cloud de Microsoft.",
+    "temas": [
+      "SQL Azure",
+      "Herve Roggero",
+      "Scott Klein",
+      "Cloud Database",
+      "BACPAC",
+      "Federaciones",
+      "Alta Disponibilidad",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Migración y particionamiento de base de datos hacia Azure SQL",
+        "descripcion": "Exportación de un esquema local a formato BACPAC, aprovisionamiento en la nube de Azure y configuración de conectividad segura con firewall."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-sql-server-2012-relational-database-design-and-implementation-2012": {
+    "descripcion": "Tratado maestro de Louis Davidson y Jessica M. Moss sobre el diseño relacional riguroso e implementación en Microsoft SQL Server 2012.\n\nLos autores guían al lector desde el análisis de requisitos de negocio y modelado conceptual hasta el diseño físico: normalización estricta, claves subrogadas vs naturales, diseño de esquemas para integridad de datos absoluta mediante restricciones declarativas y disparadores, y optimización de almacenamiento. Incluye patrones para historificación de datos (auditoría temporal y Slowly Changing Dimensions).\n\nUna de las mejores y más respetadas obras de ingeniería de diseño relacional, referente obligatorio para modeladores de datos y DBAs.",
+    "temas": [
+      "Louis Davidson",
+      "Database Design",
+      "SQL Server 2012",
+      "Normalización",
+      "Integridad de Datos",
+      "SCD",
+      "Restricciones",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Diseño de esquema relacional empresarial con auditoría temporal inmutable",
+        "descripcion": "Modelado completo de una base de datos comercial con restricciones declarativas y tablas de historial con control de vigencia temporal."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-sql-server-2019-administration-2nd-edition-2019": {
+    "descripcion": "Segunda edición del tratado enciclopédico de Peter A. Carter sobre la administración profesional de Microsoft SQL Server 2019 en Windows y Linux.\n\nCon más de 900 páginas, Carter cubre cada área operativa: instalación y configuración del servidor, gestión de memoria y almacenamiento, alta disponibilidad con grupos de disponibilidad Always On, seguridad avanzada con Always Encrypted y enmascaramiento dinámico (Dynamic Data Masking), clústeres de Big Data (BDC) y automatización con PowerShell. Incluye capítulos sobre diagnóstico de rendimiento con DMVs.\n\nLa guía de cabecera estándar de referencia para DBAs corporativos e ingenieros de sistemas en SQL Server 2019.",
+    "temas": [
+      "Peter Carter",
+      "SQL Server 2019",
+      "DBA",
+      "Always On",
+      "Always Encrypted",
+      "Linux",
+      "Big Data Clusters",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Despliegue y bastionado de una granja SQL Server 2019 en Linux",
+        "descripcion": "Configuración de una instancia en Red Hat Enterprise Linux con autenticación Active Directory, cifrado Always Encrypted y Always On."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-sql-server-2019-wait-statistics-2nd-edition-2019": {
+    "descripcion": "Tratado técnico especializado de Enrico van de Laar dedicado al análisis científico del rendimiento mediante las estadísticas de espera (Wait Statistics) en SQL Server 2019.\n\nEl autor enseña a diagnosticar cuellos de botella reales identificando los tipos de espera dominantes (CXPACKET, PAGEIOLATCH, LCK_M_*, SOS_SCHEDULER_YIELD) mediante las vistas sys.dm_os_wait_stats y sys.dm_os_waiting_tasks. Explica cómo interpretar qué recurso (CPU, memoria, disco o bloqueos) está frenando la ejecución de las consultas sin basarse en conjeturas.\n\nUna lectura técnica de nivel experto indispensable para cualquier ingeniero de rendimiento y DBA senior.",
+    "temas": [
+      "Wait Statistics",
+      "Enrico van de Laar",
+      "sys.dm_os_wait_stats",
+      "CXPACKET",
+      "PAGEIOLATCH",
+      "Diagnóstico Científico",
+      "SQL Server 2019",
+      "Apress"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-sql-server-2022-administration-3rd-edition-2023": {
+    "descripcion": "Tercera edición del colosal manual de Peter A. Carter, adaptada por completo a las innovaciones de SQL Server 2022 y su integración con Microsoft Azure.\n\nCarter profundiza en las capacidades modernas: conexión administrada con Azure Synapse Link y Azure SQL Managed Instance para recuperación ante desastres sin infraestructura propia, procesamiento inteligente de consultas de última generación, seguridad con Ledger para tablas inmutables a prueba de manipulaciones basadas en criptografía de blockchain, y gobernanza con Microsoft Purview.\n\nLa guía de administración más completa, autorizada y actualizada disponible para profesionales de SQL Server 2022.",
+    "temas": [
+      "Peter Carter",
+      "SQL Server 2022",
+      "Azure Synapse Link",
+      "SQL Server Ledger",
+      "Blockchain",
+      "Microsoft Purview",
+      "Always On",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Base de datos inmutable y auditable con SQL Server Ledger",
+        "descripcion": "Implementación de tablas de registro contable protegidas criptográficamente con verificación de integridad de bloques inmutables en SQL Server 2022."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-sql-server-2022-wait-statistics-3rd-edition-2023": {
+    "descripcion": "Tercera edición de la prestigiosa guía de Enrico van de Laar y Thomas LaRock sobre el diagnóstico de rendimiento basado en estadísticas de espera en SQL Server 2022.\n\nLos autores actualizan el catálogo de tipos de espera para incluir los nuevos tipos introducidos por las características de SQL Server 2022 y Azure SQL Database. Enseñan a correlacionar esperas con el Query Store, diseñar líneas base históricas de rendimiento y formular planes de remediación que resuelven cuellos de botella de hardware y software de forma medible.\n\nIndispensable para afinadores de bases de datos y administradores senior que buscan la excelencia en el diagnóstico de rendimiento.",
+    "temas": [
+      "Wait Statistics",
+      "Thomas LaRock",
+      "Enrico van de Laar",
+      "SQL Server 2022",
+      "Query Store",
+      "Performance Tuning",
+      "DMVs",
+      "Apress"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-sql-server-always-on-availability-groups-2016": {
+    "descripcion": "Tratado técnico exhaustivo de Uttam Parui y Vivek Sanil sobre Always On Availability Groups, la solución estrella de alta disponibilidad y recuperación ante desastres en SQL Server.\n\nLos autores cubren desde la configuración previa de Windows Server Failover Clustering (WSFC) sin almacenamiento compartido, la creación de grupos de disponibilidad con réplicas síncronas y asíncronas, enrutamiento de sólo lectura para balancear reportes, conmutación automática por error, hasta réplicas distribuidas y grupos entre nubes híbridas en Azure. Detalla la monitorización con Extended Events y DMVs.\n\nLa guía de cabecera indispensable para ingenieros de infraestructura y DBAs responsables de la continuidad de negocio corporativa.",
+    "temas": [
+      "Always On",
+      "Availability Groups",
+      "WSFC",
+      "Alta Disponibilidad",
+      "Disaster Recovery",
+      "Read-Only Routing",
+      "SQL Server",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Despliegue de clúster Always On con enrutamiento de lectura hacia réplica secundaria",
+        "descripcion": "Configuración de un grupo de disponibilidad con réplica síncrona local para failover inmediato y réplica asíncrona para descargas de reportes pesados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-sql-server-internals-2nd-edition-2016": {
+    "descripcion": "Pro SQL Server Internals proporciona un desglose exhaustivo de los mecanismos internos del motor relacional de Microsoft SQL Server. Escrito por Dmitri Korotkevitch, este libro se enfoca en explicar con precisión milimétrica cómo el motor procesa consultas, almacena datos en disco y gestiona la memoria.\n\nA lo largo de sus capítulos se examinan las estructuras de almacenamiento físico (páginas de datos, extensiones, árboles B+), el funcionamiento profundo del optimizador de consultas basados en costos, los mecanismos de bloqueo, pestillos (latches) y aislamiento de transacciones, así como el funcionamiento de In-Memory OLTP e índices ColumnStore. Se analizan trazas de eventos extendidos y dynamic management views para diagnosticar cuellos de botella.\n\nEs una lectura indispensable para arquitectos de datos y administradores de bases de datos de nivel sénior que necesitan transformar consultas lentas en procesos ultraeficientes y entender las consecuencias arquitectónicas de cada decisión de diseño.",
+    "temas": [
+      "SQL Server Internals",
+      "B-Tree Architecture",
+      "Locking and Blocking",
+      "In-Memory OLTP",
+      "ColumnStore Indexes",
+      "Query Optimizer"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Diagnóstico de fragmentación y contención de pestillos (latches)",
+        "descripcion": "Análisis y resolución de contención en tablas altamente transaccionales mediante particionamiento y optimización de índices."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-sql-server-on-linux-2018": {
+    "descripcion": "Pro SQL Server on Linux marca el hito histórico de la llegada del motor insignia de Microsoft a distribuciones empresariales como Red Hat Enterprise Linux, SUSE y Ubuntu. Bob Ward, figura legendaria de ingeniería en Microsoft, desvela la arquitectura detrás de SQL Platform Abstraction Layer (SQLPAL).\n\nEl texto detalla el proceso de instalación, configuración del sistema operativo host, afinamiento del kernel de Linux, integración con Active Directory y el despliegue mediante contenedores Docker y orquestación con Kubernetes. Asimismo, aborda la paridad funcional con la versión de Windows, estrategias de respaldo, alta disponibilidad con grupos de disponibilidad Always On y monitorización con herramientas nativas de Linux.\n\nEsta guía resulta fundamental para administradores de sistemas y DBAs tradicionales que se enfrentan a entornos híbridos o de migración multiplataforma, brindando confianza para desplegar cargas críticas de SQL Server sobre Linux.",
+    "temas": [
+      "SQL Server Linux",
+      "SQLPAL",
+      "Docker Containers",
+      "Kubernetes",
+      "High Availability",
+      "Linux Kernel Tuning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Despliegue de clúster Always On en Linux y Docker",
+        "descripcion": "Configuración de un grupo de disponibilidad de réplicas en contenedores Linux gestionados con Pacemaker y Kubernetes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-t-sql-2012-programmer-s-guide-3rd-edition-2012": {
+    "descripcion": "Pro T-SQL 2012 Programmer's Guide es una referencia integral para desarrolladores que buscan dominar Transact-SQL en SQL Server 2012. Los autores Michael Coles y Jay Natarajan presentan un recorrido meticuloso que va desde la sintaxis básica hasta la programación procedural y declarativa más avanzada.\n\nEl libro aborda detalladamente las novedades introducidas en la versión 2012, tales como las nuevas funciones de paginación (OFFSET/FETCH), funciones de conversión seguras (TRY_PARSE, TRY_CONVERT), funciones de cadenas y analíticas de ventana. Además, cubre el diseño de procedimientos almacenados robustos, desencadenadores (triggers), funciones definidas por el usuario (UDFs) y el tratamiento de errores mediante bloques TRY...CATCH y THROW.\n\nEs un recurso valioso para programadores de software y especialistas en BI que desean redactar código T-SQL mantenible, seguro frente a inyecciones de código y optimizado para alto rendimiento computacional.",
+    "temas": [
+      "Transact-SQL",
+      "Stored Procedures",
+      "Triggers",
+      "Window Functions",
+      "Paging OFFSET FETCH",
+      "Error Handling"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Módulo de transacciones contables con control transaccional",
+        "descripcion": "Implementación de procedimientos de balance financiero con transacciones ACID, manejo estructurado de excepciones y reintentos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-t-sql-2019-2020": {
+    "descripcion": "Pro T-SQL 2019 guía a los desarrolladores a través de las capacidades modernas del lenguaje Transact-SQL adaptadas a SQL Server 2019 y Azure SQL Database. Elizabeth Noble estructura un contenido claro orientado a aprovechar las mejoras del motor y escribir código declarativo limpio.\n\nSe exploran a fondo características avanzadas como el procesamiento inteligente de consultas (Intelligent Query Processing, IQP), intercalación de UDFs escalares, procesamiento por lotes para rowstore y mejoras en JSON y XML. El libro también enfatiza las buenas prácticas de diseño de esquemas, normalización, control de versiones de bases de datos y la automatización de migraciones de código T-SQL.\n\nPermite a ingenieros de software y analistas de datos elevar la calidad de sus scripts, reduciendo problemas comunes de contención y aprovechando las optimizaciones automáticas de SQL Server 2019.",
+    "temas": [
+      "T-SQL 2019",
+      "Intelligent Query Processing",
+      "Scalar UDF Inlining",
+      "JSON Support",
+      "Schema Design",
+      "Performance"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline analítico con soporte nativo JSON en T-SQL",
+        "descripcion": "Ingesta y transformación de payloads JSON semiestructurados utilizando OPENJSON, JSON_VALUE y funciones analíticas modernas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-t-sql-2022-2nd-edition-2023": {
+    "descripcion": "Pro T-SQL 2022 es la guía de referencia actualizada para desarrolladores que trabajan con la versión más reciente del motor relacional de Microsoft y la nube de Azure SQL. Elizabeth Noble ofrece un análisis minucioso de las innovaciones de lenguaje introducidas en SQL Server 2022.\n\nEl manual detalla las nuevas funciones integradas de manipulación de cadenas (STRING_SPLIT con soporte ordinal, TRIM extendido, GREATEST, LEAST), funciones de series temporales (DATE_BUCKET) y operaciones de agregación y ventana. Además, expone las mejoras en Intelligent Query Processing de próxima generación, como la optimización de planes sensibles a parámetros (PSPO) y la persistencia de planes eficaces sin alterar el código fuente.\n\nResulta imprescindible para programadores que desean modernizar código heredado y maximizar el rendimiento de sus aplicaciones aprovechando al 100% las innovaciones sintácticas y arquitectónicas de 2022.",
+    "temas": [
+      "T-SQL 2022",
+      "PSPO",
+      "GREATEST LEAST",
+      "DATE_BUCKET",
+      "Intelligent Query Processing",
+      "Azure SQL"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de agregaciones temporales con DATE_BUCKET",
+        "descripcion": "Diseño de consultas de series temporales para monitorización IoT agrupadas dinámicamente por intervalos con funciones de SQL Server 2022."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "query-store-for-sql-server-2019-2019": {
+    "descripcion": "Query Store for SQL Server 2019 es el manual definitivo sobre la 'caja negra de vuelo' de SQL Server. Los expertos Tracy Boggiano y Grant Fritchey explican cómo habilitar, configurar e interpretar los datos históricos recolectados por Query Store para erradicar regresiones de rendimiento de consultas.\n\nEl texto desglosa las vistas del sistema de Query Store, la identificación de planes de ejecución regresivos tras actualizaciones del nivel de compatibilidad o cambios de estadísticas, y la fijación manual y automática de planes (Plan Forcing). Se analizan escenarios del mundo real sobre esperas de ejecución, consumo de CPU e I/O, así como la integración con Intelligent Query Processing en SQL Server 2019.\n\nLectura vital para cualquier DBA de producción o ingeniero de soporte que necesite diagnosticar y solventar caídas imprevistas de rendimiento en cuestión de minutos sin recurrir a costosas trazas manuales.",
+    "temas": [
+      "Query Store",
+      "Plan Regression",
+      "Plan Forcing",
+      "Performance Tuning",
+      "Execution Plans",
+      "SQL Server 2019"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Automatización de monitoreo y estabilización con Query Store",
+        "descripcion": "Desarrollo de scripts de alerta y fijación de planes forzados para mitigar regresiones de consultas críticas en producción."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "refactoring-legacy-t-sql-for-improved-performance-2020": {
+    "descripcion": "Refactoring Legacy T-SQL for Improved Performance aborda una de las tareas más comunes y desafiantes en entornos corporativos: rescatar procedimientos almacenados y consultas lentas escritas hace años sin perder integridad en los datos. Rick Dobson ofrece una metodología pragmática de refactorización progresiva.\n\nA través de ejemplos paso a paso, el autor enseña a reemplazar cursores obsoletos y bucles WHILE por operaciones basadas en conjuntos, simplificar subconsultas correlacionadas mediante expresiones de tabla comunes (CTEs), optimizar uniones masivas y reescribir funciones escalares que destruyen el paralelismo. También se examina el uso de sugerencias de optimización (hints) y el aprovechamiento de índices adecuados.\n\nEs una herramienta indispensable para desarrolladores y analistas encargados de mantener y modernizar sistemas legados, logrando reducciones drásticas en los tiempos de respuesta y en el consumo de recursos.",
+    "temas": [
+      "T-SQL Refactoring",
+      "Set-based Operations",
+      "Cursor Elimination",
+      "Common Table Expressions",
+      "Query Optimization",
+      "Legacy Code"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Refactorización integral de procedimiento de facturación",
+        "descripcion": "Conversión de un proceso batch basado en cursores y tablas temporales a una solución declarativa basada en conjuntos con reducción del 80% en tiempo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-primer-2018": {
+    "descripcion": "SQL Primer es una introducción clara, concisa y accesible a los fundamentos de las bases de datos relacionales y el lenguaje SQL. Rahul Batra guía a los principiantes paso a paso desde la sintaxis básica hasta la creación de esquemas y consultas relacionales.\n\nEl libro cubre la definición de datos (DDL), manipulación de datos (DML) y control de accesos (DCL). Explica con detalle las cláusulas SELECT, WHERE, GROUP BY y HAVING, los tipos de JOINs (INNER, LEFT, RIGHT, FULL), las subconsultas y las funciones de agregación comunes, haciendo hincapié en el modelo relacional subyacente y la normalización.\n\nIdeal para estudiantes universitarios, desarrolladores noveles y profesionales de otras disciplinas que necesitan adquirir bases sólidas de SQL sin sentirse abrumados por complejidades innecesarias.",
+    "temas": [
+      "SQL Fundamentals",
+      "Relational Databases",
+      "JOINs",
+      "Aggregation",
+      "Data Manipulation",
+      "Database Design"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Diseño y consulta de base de datos para tienda retail",
+        "descripcion": "Creación del esquema relacional y redacción de consultas de inventario, ventas y clientes con agrupaciones y uniones."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-2012-query-performance-tuning-3rd-edition-2012": {
+    "descripcion": "SQL Server 2012 Query Performance Tuning es una obra maestra de optimización escrita por Grant Fritchey y Sajal Dam. El libro proporciona técnicas avanzadas para diagnosticar, aislar y resolver problemas de lentitud en consultas ejecutadas sobre SQL Server 2012.\n\nLos temas cubiertos incluyen la lectura exhaustiva de planes gráficos y XML de ejecución, la detección de escaneos de tabla injustificados (table scans) y conversiones implícitas de tipos de datos, la gestión de estadísticas de distribución y la creación de índices cubrientes. Además, explora los tipos de espera (wait stats), bloqueos, interbloqueos (deadlocks) y el uso de Extended Events y Profiler.\n\nEsencial para administradores de bases de datos y desarrolladores de alto rendimiento que buscan adquirir un entendimiento quirúrgico del comportamiento del motor relacional ante cargas masivas de trabajo.",
+    "temas": [
+      "Query Tuning",
+      "Execution Plans",
+      "Wait Statistics",
+      "Indexing Strategies",
+      "Deadlocks",
+      "Extended Events"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Auditoría y afinamiento de entorno transaccional OLTP",
+        "descripcion": "Diagnóstico de cuellos de botella con DMV de esperas, análisis de planes de consulta y despliegue de índices optimizados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-2012-t-sql-recipes-3rd-edition-2012": {
+    "descripcion": "SQL Server 2012 T-SQL Recipes ofrece un enfoque directo, basado en problemas y soluciones, para resolver desafíos comunes y complejos en la programación de bases de datos con Transact-SQL. Jason Brimhall y sus coautores recopilan cientos de patrones listos para su uso inmediato.\n\nCubre recetas prácticas para manipulación de cadenas y fechas, operaciones matemáticas, procesamiento de jerarquías con hierarchyid, paginación con OFFSET/FETCH, manejo de transacciones complejas, desencadenadores, tablas temporales vs variables de tabla y consultas dinámicas seguras. Cada receta incluye el código fuente, la explicación teórica y el análisis de su impacto en el rendimiento.\n\nUn manual de consulta rápido de incalculable valor para desarrolladores de bases de datos que necesitan resolver incidencias y requerimientos de negocio de forma rápida, elegante y comprobada.",
+    "temas": [
+      "T-SQL Recipes",
+      "Cookbook Solutions",
+      "hierarchyid",
+      "Dynamic SQL",
+      "Data Manipulation",
+      "Date and String Functions"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-2017-query-performance-tuning-5th-edition-2018": {
+    "descripcion": "SQL Server 2017 Query Performance Tuning, en su quinta edición, actualiza los principios fundamentales de optimización para incorporar las innovaciones del motor híbrido de SQL Server 2017 en Windows, Linux y contenedores. Grant Fritchey expone su vasta experiencia resolviendo incidencias reales de producción.\n\nEl autor desmenuza las nuevas características de Intelligent Query Processing, el análisis de planes de ejecución adaptativos (Adaptive Joins), la retroalimentación de concesión de memoria (Memory Grant Feedback) y el uso sistemático de Query Store. Asimismo, profundiza en el monitoreo mediante Dynamic Management Objects (DMOs) y Extended Events modernos sin sobrecargar el servidor.\n\nUn texto insustituible para cualquier profesional de datos que gestione bases de datos modernas y requiera metodologías probadas para exprimir la máxima velocidad del hardware disponible.",
+    "temas": [
+      "Adaptive Joins",
+      "Memory Grant Feedback",
+      "Query Store",
+      "Performance Tuning",
+      "Execution Plans",
+      "SQL Server 2017"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Implementación de monitoreo proactivo con Dynamic Management Views",
+        "descripcion": "Diseño de un tablero de métricas internas para rastrear consultas costosas, índices faltantes y eventos de contención de memoria."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-2019-revealed-2019": {
+    "descripcion": "SQL Server 2019 Revealed desvela todas las innovaciones arquitectónicas introducidas en SQL Server 2019, narradas directamente por Bob Ward, Principal Architect del equipo de ingeniería de Microsoft Azure Data. El libro ofrece una visión interna de las decisiones de diseño del producto.\n\nSe exploran a fondo los Big Data Clusters con Apache Spark y HDFS integrados, la virtualización de datos mediante PolyBase para consultar Oracle, Teradata y MongoDB sin mover los datos, y las aceleraciones de Intelligent Query Processing. También se analizan mejoras críticas en Always On, soporte de memoria persistente (PMEM) y cifrado de datos con Secure Enclaves en Always Encrypted.\n\nProporciona a CIOs, arquitectos empresariales y DBAs la información estratégica necesaria para planificar migraciones, modernizar centros de datos y desbloquear el verdadero potencial analítico y transaccional de SQL Server 2019.",
+    "temas": [
+      "SQL Server 2019",
+      "Big Data Clusters",
+      "PolyBase",
+      "Always Encrypted",
+      "Persistent Memory",
+      "Intelligent Query Processing"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de virtualización de datos corporativos con PolyBase",
+        "descripcion": "Diseño de una capa de consulta unificada que integra tablas de SQL Server con almacenes remotos Oracle y archivos Parquet."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-2022-query-performance-tuning-6th-edition-2022": {
+    "descripcion": "SQL Server 2022 Query Performance Tuning es la edición definitiva del manual de referencia de Grant Fritchey. En este volumen, se integran las tecnologías de optimización autónoma que posicionan a SQL Server 2022 como el motor relacional más inteligente del mercado.\n\nEl autor analiza las capacidades avanzadas de Intelligent Query Processing de próxima generación, incluyendo la retroalimentación de grado de paralelismo (DOP Feedback), la retroalimentación de estimación de cardinalidad (CE Feedback) y la persistencia de sugerencias en Query Store sin modificar scripts. Se enseñan técnicas rigurosas para auditar planes de ejecución, resolver esperas SOS_SCHEDULER_YIELD y CXPACKET, y calibrar índices ColumnStore y almacenes en memoria.\n\nImprescindible para administradores e ingenieros de bases de datos que buscan dominar las herramientas modernas de diagnóstico y asegurar tiempos de respuesta consistentes bajo cargas hiperconcurridas.",
+    "temas": [
+      "Query Tuning 2022",
+      "DOP Feedback",
+      "CE Feedback",
+      "Query Store Hints",
+      "ColumnStore",
+      "Execution Plan Analysis"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Calibración automática de grado de paralelismo (DOP)",
+        "descripcion": "Evaluación del impacto de DOP Feedback en cargas de trabajo analíticas mixtas utilizando Query Store y Extended Events."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-2022-revealed-2022": {
+    "descripcion": "SQL Server 2022 Revealed es la guía maestra sobre el lanzamiento más conectado a la nube en la historia de Microsoft SQL Server. Bob Ward desentraña las capacidades de integración híbrida con Azure Synapse Link, Azure SQL Managed Instance y Microsoft Purview.\n\nEl texto detalla cómo habilitar la recuperación ante desastres sin complicaciones hacia la nube, la sincronización de datos analíticos casi en tiempo real sin procesos ETL lentos mediante Synapse Link, y las mejoras internas del motor de almacenamiento, como la prevención de contención de páginas de búfer (PFS). Además, aborda la gobernanza de datos y la seguridad Zero Trust con Ledger para registros inmutables basados en blockchain.\n\nEs una lectura crucial para directores técnicos, arquitectos cloud y profesionales de TI que deseen trazar una hoja de ruta sólida hacia la modernización de datos sin sacrificar el control de sus instalaciones locales.",
+    "temas": [
+      "SQL Server 2022",
+      "Azure Synapse Link",
+      "Azure Purview",
+      "SQL Ledger",
+      "Disaster Recovery",
+      "Hybrid Cloud"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Diseño de base de datos auditable con SQL Server Ledger",
+        "descripcion": "Creación de tablas inmutables protegidas criptográficamente para auditorías financieras y cumplimiento regulatorio."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-2025-unveiled-2025": {
+    "descripcion": "SQL Server 2025 Unveiled ofrece una mirada pionera a las innovaciones de última generación en el ecosistema de datos relacionales de Microsoft. Escrito por expertos en la vanguardia tecnológica, el libro explora la convergencia de inteligencia artificial generativa, procesamiento vectorial y escalabilidad en la nube dentro del motor SQL Server.\n\nSe presentan temas punteros como la indexación y búsqueda vectorial para soportar arquitecturas RAG (Retrieval-Augmented Generation) directamente desde T-SQL, coprocesamiento con aceleradores de hardware, mayor automatización del motor y gobierno de datos de máxima fidelidad con Microsoft Fabric. También se explican los estándares modernos de seguridad cuántico-resistente y telemetría autónoma.\n\nConstituye un manifiesto técnico indispensable para líderes tecnológicos y arquitectos de soluciones que desean preparar sus infraestructuras para la próxima década de innovación en datos e inteligencia artificial.",
+    "temas": [
+      "SQL Server 2025",
+      "Vector Search",
+      "AI Integration",
+      "RAG Architectures",
+      "Microsoft Fabric",
+      "Cloud Scalability"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Integración de búsqueda semántica vectorial en T-SQL",
+        "descripcion": "Implementación de un motor de búsqueda de similitud semántica con incrustaciones vectoriales almacenadas en tablas relacionales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-advanced-data-types-2018": {
+    "descripcion": "SQL Server Advanced Data Types es una inmersión especializada en los tipos de datos no tradicionales y enriquecidos que ofrece Microsoft SQL Server. Peter A. Carter enseña a modelar información compleja más allá de los enteros, cadenas y fechas estándar.\n\nEl autor profundiza en tipos espaciales (geometry y geography) para cálculo de distancias y polígonos geográficos, tipos de jerarquía con hierarchyid para árboles organizacionales y estructuras multinivel, datos semiestructurados con XML y JSON, y almacenamiento de grandes objetos binarios con FILESTREAM y FileTable. Se presta especial atención a la indexación espacial y al rendimiento de consultas.\n\nFundamental para desarrolladores de sistemas de información geográfica (GIS), arquitectos de catálogos de productos y desarrolladores que necesitan manipular estructuras arbóreas o archivos binarios directamente dentro de SQL Server.",
+    "temas": [
+      "Spatial Data",
+      "hierarchyid",
+      "FILESTREAM",
+      "FileTable",
+      "JSON",
+      "Spatial Indexing"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de gestión geoespacial y rutas de despacho",
+        "descripcion": "Modelado de perímetros de entrega y cálculo de cercanía geográfica utilizando tipos espaciales e índices de cuadrícula espacial."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-big-data-clusters-2019": {
+    "descripcion": "SQL Server Big Data Clusters cubre una de las expansiones arquitectónicas más audaces del ecosistema Microsoft: la combinación del motor relacional de SQL Server con Apache Spark y el sistema de archivos distribuido Hadoop (HDFS) sobre clústeres de Kubernetes.\n\nLos especialistas Benjamin Weissman y Anthony E. Nocentino guían al lector desde el aprovisionamiento de clústeres de Kubernetes (AKS o local) hasta el despliegue y administración de los pools de almacenamiento, computación y datos. Se detallan casos de uso de Big Data analytics, entrenamiento de modelos de machine learning con Spark MLlib y virtualización con PolyBase sobre datalakes masivos.\n\nIndispensable para ingenieros de datos y DBAs que necesitan liderar proyectos de Big Data corporativos aprovechando sus habilidades existentes en SQL Server sin abandonar el ecosistema empresarial.",
+    "temas": [
+      "Big Data Clusters",
+      "Kubernetes",
+      "Apache Spark",
+      "HDFS",
+      "Data Virtualization",
+      "Machine Learning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline analítico en Big Data Cluster con Spark y T-SQL",
+        "descripcion": "Ingesta masiva de telemetría en HDFS, procesamiento distribuido con Apache Spark y exposición de resultados consolidados en SQL Server."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "100-sql-server-mistakes-and-how-to-avoid-them-2025": {
+    "descripcion": "100 SQL Server Mistakes and How to Avoid Them es un compendio práctico e incisivo de los tropiezos más costosos y comunes que cometen desarrolladores y DBAs al trabajar con SQL Server, junto con recetas precisas para evitarlos o corregirlos.\n\nEl libro cubre errores graves en indexación (índices duplicados, claves primarias no secuenciales en clustering, sobreindexación), fallos de redacción T-SQL (uso de funciones no sargables en el WHERE, transacciones excesivamente largas, transacciones implícitas descontroladas) y configuraciones pésimas de servidor (autogrowth en porcentajes, memoria máxima no configurada, TEMPDB con un solo archivo de datos).\n\nEs una lectura divertida, directa y sumamente formativa que actúa como una auditoría preventiva, salvando a equipos de producción de caídas de servicio, bloqueos masivos y gastos innecesarios en hardware.",
+    "temas": [
+      "Anti-patterns",
+      "SQL Best Practices",
+      "Indexing Mistakes",
+      "Sargability",
+      "TempDB Optimization",
+      "Server Configuration"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "grokking-relational-database-design-2025": {
+    "descripcion": "Grokking Relational Database Design adopta el aclamado estilo visual, intuitivo y pedagógico de la serie Grokking de Manning para enseñar el arte del diseño de bases de datos relacionales robustas, escalables y normalizadas.\n\nMediante diagramas ilustrativos y analogías cotidianas, el texto explica las tres primeras formas normales (1NF, 2NF, 3NF), la resolución de anomalías de inserción, actualización y borrado, las claves primarias compuestas frente a subrogadas, y el diseño de relaciones uno a muchos y muchos a muchos. Además, examina cuándo desnormalizar de forma controlada para requisitos analíticos de alto rendimiento.\n\nIdeal para desarrolladores autodidactas, ingenieros junior y estudiantes que quieren dejar de cometer errores de diseño de tablas y comprender a fondo por qué una estructura relacional limpia es el pilar de cualquier software exitoso.",
+    "temas": [
+      "Database Design",
+      "Normalization (1NF-3NF)",
+      "Entity-Relationship",
+      "Primary Keys",
+      "Foreign Keys",
+      "Denormalization"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Modelado de esquema normalizado para plataforma de reservas",
+        "descripcion": "Diseño de diagramas ER, aplicación rigurosa de formas normales y generación de scripts DDL para una plataforma multiusuario."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "learn-sql-server-administration-in-a-month-of-lunches-2014": {
+    "descripcion": "Learn SQL Server Administration in a Month of Lunches propone un programa de autoaprendizaje estructurado en 21 lecciones de una hora diseñadas para convertir a un novato o administrador general de TI en un DBA junior competente.\n\nDon Jones guía al lector por las tareas esenciales de administración cotidiana: instalación limpia de instancias de SQL Server, gestión de inicios de sesión y permisos (seguridad por roles), configuración y validación de políticas de copia de seguridad y restauración (Recovery Models), mantenimiento de índices y comprobación de integridad con DBCC CHECKDB. También aborda la automatización con SQL Server Agent.\n\nUn recurso accesible, pragmático y comprobado para técnicos de soporte y desarrolladores que han heredado la responsabilidad de administrar bases de datos SQL Server y necesitan dominar lo esencial de inmediato.",
+    "temas": [
+      "DBA Fundamentals",
+      "Backup and Restore",
+      "Security and Logins",
+      "SQL Server Agent",
+      "Database Integrity",
+      "Index Maintenance"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Estrategia automatizada de respaldo y plan de contingencia",
+        "descripcion": "Configuración de planes de copia de seguridad completos, diferenciales y de registro de transacciones con pruebas de restauración periódica."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-2008-administration-in-action-2009": {
+    "descripcion": "SQL Server 2008 Administration in Action es un compendio exhaustivo y pragmático de administración de bases de datos escrito por Rod Colledge, reconocido consultor y Microsoft MVP. El texto comparte lecciones extraídas de entornos corporativos de alta demanda.\n\nEl libro detalla el diseño de subsistemas de almacenamiento en disco (RAID, particionamiento), la gestión proactiva de recursos mediante Resource Governor, la auditoría y cumplimiento regulatorio con Change Data Capture (CDC) y SQL Server Audit, y las técnicas de compresión de datos y copias de seguridad. También aborda estrategias de alta disponibilidad con Database Mirroring y Clustering de conmutación por error.\n\nAunque centrado en SQL Server 2008, sus directrices de arquitectura de sistemas, particionamiento y disciplina operativa siguen siendo una valiosa referencia conceptual para administradores de infraestructura de datos.",
+    "temas": [
+      "SQL Server 2008",
+      "Resource Governor",
+      "Change Data Capture",
+      "Storage Architecture",
+      "High Availability",
+      "Database Mirroring"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Implementación de gobernanza de recursos con Resource Governor",
+        "descripcion": "Aislamiento de cargas analíticas pesadas frente a transacciones OLTP mediante pools de recursos y grupos de carga de trabajo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-dmvs-in-action-2011": {
+    "descripcion": "SQL Server DMVs in Action se centra exclusivamente en las vistas y funciones de administración dinámica (Dynamic Management Views y Functions), la herramienta de introspección más poderosa incluida en SQL Server para diagnosticar el estado del motor en tiempo real.\n\nIan Stirk recopila y explica más de cien scripts y consultas DMV listos para diagnosticar problemas de CPU, memoria, I/O en disco, bloqueos e interbloqueos, planes de ejecución ineficientes e índices faltantes o infrautilizados. El libro clasifica las DMVs por área temática y enseña a crear procedimientos de monitorización ligera que no degraden la producción.\n\nUna guía técnica de cabecera obligatoria para cualquier DBA que desee erradicar la incertidumbre en sus diagnósticos y descubrir exactamente qué ocurre en las entrañas de su instancia de base de datos.",
+    "temas": [
+      "Dynamic Management Views (DMVs)",
+      "Performance Monitoring",
+      "Index Usage",
+      "Wait Statistics",
+      "Memory Management",
+      "Query Diagnostics"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de scripts de diagnóstico proactivo mediante DMVs",
+        "descripcion": "Construcción de un conjunto de rutinas automáticas para la detección de índices no utilizados, consultas de alto costo y esperas acumuladas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-for-ibm-i-2018": {
+    "descripcion": "SQL for IBM i es una guía especializada para programadores y administradores de la plataforma IBM i (anteriormente AS/400) que buscan modernizar sus aplicaciones pasando de accesos tradicionales de archivo (RLA/DDS) al lenguaje SQL relacional estándar.\n\nEl contenido abarca la sintaxis de DB2 for i SQL, la definición de tablas, vistas e índices relacionales en sustitución de los archivos físicos y lógicos tradicionales, la redacción de procedimientos almacenados y disparadores en SQL PL, y la integración de SQL con lenguajes nativos como RPGLE y COBOL. Asimismo, analiza herramientas de optimización como el Database Performance Center y Visual Explain.\n\nCrucial para organizaciones y desarrolladores que operan sobre sistemas centrales IBM Power Systems y necesitan modernizar su código legado hacia estándares abiertos y de alto rendimiento.",
+    "temas": [
+      "IBM i",
+      "DB2 for i",
+      "SQL PL",
+      "RPGLE Modernization",
+      "Visual Explain",
+      "Relational Database"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Modernización de modelo de datos RPGLE a DB2 SQL DDL",
+        "descripcion": "Migración de especificaciones DDS tradicionales a esquemas relacionales ANSI SQL con optimización de índices binarios radicados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "microsoft-sql-server-2019-7th-edition-2020": {
+    "descripcion": "Microsoft SQL Server 2019: A Beginner's Guide (7ma edición) es una guía completa diseñada para llevar al lector desde los conceptos más elementales de bases de datos hasta la operación fluida del ecosistema SQL Server 2019.\n\nEl libro cubre la instalación y configuración inicial mediante SQL Server Management Studio (SSMS) y Azure Data Studio, la redacción de consultas DDL y DML en Transact-SQL, el diseño de vistas, índices y restricciones, así como tareas operativas críticas: copias de seguridad, seguridad mediante roles y usuarios, y la introducción a la virtualización de datos con PolyBase y contenedores Docker.\n\nIdeal para estudiantes universitarios, nuevos administradores y desarrolladores de software que requieren una base sólida y estructurada para iniciarse profesionalmente con Microsoft SQL Server.",
+    "temas": [
+      "SQL Server 2019",
+      "SSMS",
+      "Azure Data Studio",
+      "Database Administration",
+      "T-SQL Basics",
+      "Security & Backups"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Administración integral de una base de datos departamental",
+        "descripcion": "Instalación de instancia, creación de esquema de recursos humanos con permisos de usuario diferenciados y rutina de mantenimiento programada."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "expert-scripting-and-automation-for-sql-server-dbas-2nd-edition-2016": {
+    "descripcion": "Expert Scripting and Automation for SQL Server DBAs enseña cómo eliminar tareas operativas repetitivas mediante el poder combinado de PowerShell y Transact-SQL avanzado, permitiendo gestionar flotas de cientos de servidores con el esfuerzo de uno.\n\nEl autor expone técnicas de scripting con SQL Server Management Objects (SMO), automatización de despliegues de esquemas, auditorías masivas de configuración de servidores, recolección periódica de métricas de rendimiento y verificación automática de respaldos y fragmentación de índices. Además, aborda la gestión de configuraciones deseadas (DSC) y el control de versiones con Git.\n\nEsencial para administradores de bases de datos sénior que aspiran a transformarse en ingenieros de confiabilidad de sitios (SRE de datos) e implementar prácticas de DevOps en sus entornos corporativos.",
+    "temas": [
+      "PowerShell Automation",
+      "SMO (SQL Management Objects)",
+      "Database DevOps",
+      "Fleet Management",
+      "Automated Backups",
+      "Health Checks"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework PowerShell para auditoría multiserver de SQL Server",
+        "descripcion": "Script integral en PowerShell para conectar concurrentemente a 50 servidores, auditar espacio en disco, estado de backups y alertar incidencias."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "introducing-microsoft-sql-server-2008-r2-2010": {
+    "descripcion": "Introducing Microsoft SQL Server 2008 R2 es una visión introductoria y estratégica publicada por Microsoft Press que detalla las innovaciones tecnológicas incorporadas en la versión R2, con fuerte énfasis en Business Intelligence y autoservicio de datos.\n\nEl texto examina PowerPivot para Excel y SharePoint, Master Data Services (MDS) para la gestión y gobierno de datos maestros, Reporting Services (SSRS) con capacidades de mapas geoespaciales y gráficos avanzados, y la utilidad StreamInsight para procesamiento de eventos complejos (CEP). Asimismo, repasa mejoras en la gestión de múltiples instancias de servidor (DACs).\n\nProporciona a profesionales de BI y arquitectos corporativos un valioso marco histórico sobre el nacimiento de las herramientas modernas de Business Intelligence de Microsoft.",
+    "temas": [
+      "SQL Server 2008 R2",
+      "PowerPivot",
+      "Master Data Services",
+      "Reporting Services",
+      "StreamInsight",
+      "Business Intelligence"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "introducing-microsoft-sql-server-2012-2012": {
+    "descripcion": "Introducing Microsoft SQL Server 2012 presenta un resumen técnico autorizado de las características revolucionarias que marcaron el lanzamiento de SQL Server 2012, preparado por Microsoft Press para administradores y desarrolladores.\n\nEl libro detalla la llegada de los grupos de disponibilidad Always On como sucesor superior al clustering tradicional y al mirroring, el modelo tabular en Analysis Services (SSAS), la herramienta Data Quality Services (DQS) y las mejoras en T-SQL como funciones analíticas y el manejo estructurado de errores con THROW. También se cubren las nuevas capacidades de instalación en Server Core.\n\nUna referencia clave para comprender la arquitectura base sobre la que se han construido las ediciones contemporáneas de alta disponibilidad y analítica de datos en la plataforma Microsoft.",
+    "temas": [
+      "SQL Server 2012",
+      "Always On Availability Groups",
+      "SSAS Tabular Model",
+      "Data Quality Services",
+      "Server Core",
+      "High Availability"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "introducing-microsoft-sql-server-2014-2014": {
+    "descripcion": "Introducing Microsoft SQL Server 2014 destaca las capacidades revolucionarias de computación en memoria y de integración con la nube pública que transformaron la plataforma de datos con esta versión histórica de Microsoft.\n\nEl texto analiza el motor transaccional In-Memory OLTP (proyecto Hekaton) y sus procedimientos compilados de forma nativa en C, los índices ColumnStore actualizables para almacenes de datos analíticos, la integración híbrida con Azure para almacenar archivos de datos en Blob Storage y las copias de seguridad automáticas hacia la nube. Asimismo, repasa la extensión del grupo de búferes hacia discos de estado sólido (SSD).\n\nPermite a arquitectos de bases de datos y administradores comprender la transición estratégica hacia cargas de trabajo híbridas y el procesamiento ultra rápido de transacciones en memoria.",
+    "temas": [
+      "SQL Server 2014",
+      "In-Memory OLTP (Hekaton)",
+      "Clustered Columnstore",
+      "Hybrid Azure Integration",
+      "SSD Buffer Pool Extension"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "querying-microsoft-sql-server-2012-2013": {
+    "descripcion": "Querying Microsoft SQL Server 2012 (Training Kit para el examen 70-461) es la guía oficial de Microsoft Press para dominar la formulación de consultas sobre SQL Server 2012. Escrito por referentes de la comunidad técnica, combina rigor formal con ejemplos prácticos orientados a certificación.\n\nEl manual cubre exhaustivamente la creación de sentencias SELECT, filtrado, ordenación, uniones relacionales, subconsultas, operadores de conjuntos (UNION, INTERSECT, EXCEPT), funciones de ventana, tablas dinámicas (PIVOT y UNPIVOT), transacciones y control de concurrencia. Además, incluye lecciones sobre optimización de código y uso de vistas del sistema.\n\nIndispensable para profesionales que se preparan para certificaciones oficiales de Microsoft o desarrolladores que necesitan fundamentar teórica y prácticamente sus habilidades en T-SQL con el estándar corporativo.",
+    "temas": [
+      "Querying SQL Server",
+      "T-SQL Certification",
+      "PIVOT / UNPIVOT",
+      "Window Functions",
+      "Transaction Management",
+      "Concurrency"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Generación de informes de ventas dinámicos con PIVOT y funciones de ventana",
+        "descripcion": "Construcción de consultas avanzadas que transforman filas de ventas en columnas por trimestre con cálculo de promedios móviles."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-2012-bible-2012": {
+    "descripcion": "SQL Server 2012 Bible es una monumental enciclopedia técnica de más de 1000 páginas que abarca cada rincón y funcionalidad del motor de bases de datos y la suite de inteligencia de negocios de SQL Server 2012.\n\nEl volumen cubre desde la arquitectura del motor relacional, diseño de esquemas y programación en Transact-SQL, hasta la administración avanzada (seguridad, respaldos, afinamiento de consultas), Business Intelligence con SSIS (Integration Services), SSAS (Analysis Services), SSRS (Reporting Services) y despliegues en alta disponibilidad. Cada capítulo profundiza en opciones de configuración, herramientas administrativas y patrones arquitectónicos.\n\nUn manual de consulta definitivo y exhaustivo que sirve tanto de referencia diaria para administradores y desarrolladores experimentados como de guía formativa integral para proyectos de gran envergadura.",
+    "temas": [
+      "SQL Server 2012",
+      "Database Administration",
+      "SSIS",
+      "SSAS",
+      "SSRS",
+      "Transact-SQL",
+      "Architecture"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura completa de solución de datos empresarial",
+        "descripcion": "Diseño de la base de datos OLTP, desarrollo de paquetes ETL en SSIS y publicación de reportes ejecutivos en SSRS."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-2012-high-performance-t-sql-using-window-functions-2012": {
+    "descripcion": "SQL Server 2012 High-Performance T-SQL Using Window Functions es el tratado canónico sobre funciones de ventana escrito por Itzik Ben-Gan, la máxima autoridad mundial en Transact-SQL. El libro revela el tremendo poder de estas funciones para optimizar código analítico.\n\nEl autor desglosa en profundidad las cláusulas OVER, PARTITION BY, ORDER BY y ROWS/RANGE, cubriendo funciones de ranking (ROW_NUMBER, RANK, DENSE_RANK, NTILE), de desplazamiento (LAG, LEAD) y analíticas agregadas acumuladas y móviles. Demuestra cómo las funciones de ventana resuelven cálculos complejos con un único recorrido de datos, eliminando self-joins y cursores lentos.\n\nLectura obligatoria para cualquier programador de SQL que desee llevar sus habilidades al más alto nivel, logrando consultas que se ejecutan cientos de veces más rápido con código declarativo y elegante.",
+    "temas": [
+      "Window Functions",
+      "OVER Clause",
+      "PARTITION BY",
+      "LAG & LEAD",
+      "Running Aggregates",
+      "T-SQL Performance"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor analítico de balances financieros con funciones de ventana",
+        "descripcion": "Cálculo de balances acumulativos, comparativas interanuales con LAG y detección de anomalías de flujo sin auto-uniones."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-2012-internals-2013": {
+    "descripcion": "SQL Server 2012 Internals es el trabajo definitivo sobre los entresijos internos de Microsoft SQL Server, escrito por las legendarias expertas Kalen Delaney, Paul S. Randal y el equipo principal de instructores de SQLskills.\n\nEl volumen disecciona la arquitectura del Storage Engine y Relational Engine: la estructura física de páginas y extensiones, el log de transacciones (WAL) y el algoritmo ARIES, los algoritmos de hashing, ordenamiento y uniones del optimizador de consultas, la gestión de memoria y el Buffer Pool, y la resolución de interbloqueos. Asimismo, explica el funcionamiento de nuevas características como Columnstore y Always On.\n\nEs la obra cumbre para especialistas en infraestructura de datos, consultores de performance y arquitectos de software que necesitan dominar con rigor científico el funcionamiento íntimo del motor SQL Server.",
+    "temas": [
+      "SQL Server Internals",
+      "Storage Engine",
+      "Buffer Pool",
+      "Transaction Log (WAL)",
+      "Query Optimizer",
+      "Locking and Latches"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Análisis forense de transacciones y páginas de datos con comandos indocumentados",
+        "descripcion": "Inspección de encabezados de página con DBCC PAGE y lectura del log de transacciones con fn_dblog para diagnóstico avanzado de corrupción."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-2012-pocket-consultant-2012": {
+    "descripcion": "SQL Server 2012 Pocket Consultant es una referencia concisa y de consulta rápida diseñada por William R. Stanek para administradores de sistemas y DBAs que necesitan resolver problemas operativos inmediatos en entornos de producción.\n\nEl libro condensa los procedimientos fundamentales para la instalación, configuración y monitoreo del motor SQL Server, administración de cuentas y esquemas de seguridad, automatización de copias de seguridad y restauración de desastres, y mantenimiento del log de transacciones. Además, ofrece tablas de referencia rápida sobre utilidades de línea de comandos, comandos DBCC esenciales y opciones de configuración a nivel de servidor.\n\nEs el compañero de bolsillo ideal para técnicos y operadores de guardia que necesitan respuestas instantáneas y comandos probados sin tener que navegar por extensos manuales teóricos.",
+    "temas": [
+      "SQL Server Administration",
+      "Pocket Reference",
+      "DBCC Commands",
+      "Backup & Recovery",
+      "Security Configuration",
+      "Troubleshooting"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-2012-step-by-step-2013": {
+    "descripcion": "SQL Server 2012 Step By Step es una guía pedagógica guiada paso a paso orientada a principiantes e iniciados que desean familiarizarse de manera estructurada con la suite de datos de Microsoft. Escrito por Patrick LeBlanc, el texto utiliza un enfoque eminentemente práctico.\n\nA lo largo de sus capítulos se explican las tareas básicas de instalación y configuración de SQL Server Management Studio (SSMS), el diseño visual y mediante scripts de tablas, relaciones y restricciones de integridad, la escritura de consultas SELECT básicas y avanzadas, y la creación de vistas y procedimientos almacenados. Asimismo, introduce conceptos iniciales de Integration Services (SSIS) y Reporting Services (SSRS).\n\nConstituye una excelente rampa de entrada para analistas, administradores júnior y estudiantes que necesitan adquirir soltura y confianza práctica con SQL Server 2012 desde cero.",
+    "temas": [
+      "SSMS",
+      "Database Fundamentals",
+      "T-SQL Basics",
+      "Table Design",
+      "Stored Procedures",
+      "SSIS & SSRS Intro"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Creación y administración de base de datos de gestión comercial",
+        "descripcion": "Construcción paso a paso de un esquema de ventas con tablas relacionadas, vistas resumen y procedimientos de actualización."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-2012-t-sql-fundamentals-2012": {
+    "descripcion": "SQL Server 2012 T-SQL Fundamentals es el texto introductorio de referencia magistral escrito por Itzik Ben-Gan. El autor enseña los principios del pensamiento relacional y el álgebra relacional aplicados al lenguaje Transact-SQL.\n\nEl contenido guía al lector a través del orden lógico de procesamiento de consultas, subconsultas, expresiones de tabla comunes (CTEs), tablas derivadas, operadores relacionales APPLY, PIVOT y UNPIVOT, y la sintaxis introducida en 2012 para funciones analíticas de ventana y paginación con OFFSET-FETCH. Cada concepto se acompaña de ejercicios con soluciones analizadas a fondo.\n\nUna lectura obligatoria y transformadora para cualquier desarrollador que aspire a redactar consultas elegantes, eficientes y conceptualmente impecables en Microsoft SQL Server.",
+    "temas": [
+      "Logical Query Processing",
+      "Relational Theory",
+      "T-SQL Fundamentals",
+      "CTEs",
+      "APPLY Operator",
+      "Window Functions"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Diseño de consultas de reporte jerárquico y cálculo acumulado",
+        "descripcion": "Implementación de consultas avanzadas utilizando CTEs recursivas y funciones analíticas de ventana sobre el esquema de ejemplo TSQL2012."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-2022-administration-2023": {
+    "descripcion": "SQL Server 2022 Administration es una guía exhaustiva y actualizada para el mantenimiento, seguridad y optimización de instancias modernas de SQL Server en entornos locales y multicloud.\n\nEl manual detalla las mejores prácticas operativas para la instalación en Windows y Linux, la configuración de almacenamiento NVMe y grupos de búferes, la implementación de alta disponibilidad con Always On Availability Groups integrados con Azure, y la seguridad Zero Trust con Microsoft Entra ID y SQL Ledger. Se analizan también estrategias de copia de seguridad resilientes y automatizaciones con PowerShell.\n\nDiseñado para administradores de bases de datos que operan sistemas de misión crítica y necesitan adoptar las características de automatización y gobernanza de SQL Server 2022.",
+    "temas": [
+      "SQL Server 2022",
+      "Always On Groups",
+      "SQL Ledger",
+      "Security & Entra ID",
+      "PowerShell",
+      "High Availability"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Configuración de entorno de réplicas Always On con conmutación por error",
+        "descripcion": "Despliegue y validación de un grupo de disponibilidad con réplica síncrona y réplica de recuperación ante desastres en la nube."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "t-sql-fundamentals-4th-edition-2023": {
+    "descripcion": "T-SQL Fundamentals (4ta edición) es la obra definitiva y actualizada de Itzik Ben-Gan adaptada a las características más modernas de SQL Server 2022 y Azure SQL Database. Es considerada ampliamente como el mejor punto de partida formal para la programación en T-SQL.\n\nEl libro inculca el pensamiento relacional explicando meticulosamente las fases lógicas de una consulta (FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY). Cubre de manera rigurosa joins, subconsultas, expresiones de tabla (vistas, funciones en línea, CTEs), operadores de conjuntos, funciones de ventana completas, manipulación temporal de fechas y horas, y modificaciones masivas de datos (MERGE, INSERT/UPDATE/DELETE con OUTPUT).\n\nEs la piedra angular de formación para desarrolladores, analistas de BI e ingenieros de datos que desean dominar el lenguaje T-SQL desde sus bases matemáticas hasta su implementación práctica moderna.",
+    "temas": [
+      "Logical Query Processing",
+      "T-SQL 2022",
+      "Set Theory",
+      "Window Functions",
+      "CTEs",
+      "Data Modification"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Desarrollo de lógica de procesamiento de pedidos de comercio electrónico",
+        "descripcion": "Escritura de consultas analíticas y modificaciones transaccionales con cláusula OUTPUT para control de inventario y auditoría."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "t-sql-querying-2015": {
+    "descripcion": "T-SQL Querying es el tratado más avanzado y profundo jamás escrito sobre la optimización y ejecución de consultas en Transact-SQL. Coescrito por Itzik Ben-Gan, Adam Machanic, Dejan Sarka y Kevin Farlee, explora tanto la teoría lógica como los mecanismos internos del optimizador de SQL Server.\n\nLos autores examinan a nivel de código máquina el compilador de consultas, la generación y simplificación de árboles de operadores relacionales, los algoritmos de ordenamiento, hashing y uniones, y las técnicas de paralelismo e indexación ColumnStore. Ofrece patrones avanzados para resolver problemas algorítmicos complejos como grafos, jerarquías, intervalos temporales y agregaciones multinivel.\n\nUna lectura de cabecera cumbre para ingenieros de rendimiento y desarrolladores de élite que necesitan escribir código T-SQL con el más alto estándar de eficiencia matemática y computacional.",
+    "temas": [
+      "Query Optimization",
+      "T-SQL Querying",
+      "Query Processor Internals",
+      "Parallelism",
+      "Graph Traversal",
+      "Execution Trees"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Optimización algorítmica de consultas sobre jerarquías y grafos",
+        "descripcion": "Desarrollo de soluciones de alto rendimiento para resolución de rutas mínimas y agregaciones jerárquicas sin dependencias de cursores."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "t-sql-window-functions-2nd-edition-2019": {
+    "descripcion": "T-SQL Window Functions (2da edición) es la monografía canónica y exhaustiva de Itzik Ben-Gan dedicada en exclusiva a las funciones analíticas de ventana en Microsoft SQL Server y Azure SQL Database.\n\nEl texto desglosa minuciosamente la semántica de la cláusula OVER(), la partición, ordenación y marcos de ventana (ROWS y RANGE). Cubre funciones de clasificación (ROW_NUMBER, RANK, DENSE_RANK, NTILE), de desplazamiento (LAG, LEAD, FIRST_VALUE, LAST_VALUE) y agregadas, mostrando cómo el optimizador genera operadores especiales (Segment, Sequence Project, Window Spool) y cómo indexar para habilitar escaneos en orden óptimo.\n\nEsencial para cualquier analista o desarrollador de bases de datos que busque eliminar subconsultas ineficientes, reducir el costo computacional de sus cálculos analíticos y redactar consultas impecables y mantenibles.",
+    "temas": [
+      "Window Functions",
+      "OVER Clause",
+      "Window Spool",
+      "ROWS vs RANGE",
+      "Ranking Functions",
+      "Analytical Queries"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite analítica de series temporales y cohortes de clientes",
+        "descripcion": "Cálculo de retención de cohortes, análisis intermensual de ventas y medias móviles ponderadas utilizando funciones de ventana indexadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "murach-s-sql-server-2012-for-developers-2012": {
+    "descripcion": "Murach's SQL Server 2012 for Developers utiliza la popular y aclamada metodología pedagógica 'paired-pages' de Murach (teoría en la página izquierda, ejemplos claros de código en la página derecha) para formar programadores en SQL Server 2012.\n\nEl temario abarca la redacción de sentencias de consulta complejas, el diseño físico y lógico de bases de datos relacionales normalizadas, la creación y depuración de procedimientos almacenados, funciones, desencadenadores y transacciones ACID. Asimismo, incluye una introducción práctica a la administración de bases de datos desde el punto de vista del desarrollador (respaldos, restauración y seguridad).\n\nMuy recomendado para desarrolladores .NET, Java o frontend que necesitan interactuar de forma competente y autónoma con SQL Server sin perderse en complejidades teóricas abstractas.",
+    "temas": [
+      "T-SQL for Developers",
+      "Stored Procedures",
+      "Triggers",
+      "Database Design",
+      "Transactions",
+      "Paired-pages Method"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Capa de persistencia de base de datos para facturación",
+        "descripcion": "Construcción completa de tablas, restricciones, procedimientos transaccionales y vistas seguras para un sistema de cobros comerciales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "practical-sql-2nd-edition-2022": {
+    "descripcion": "Practical SQL (2da edición), publicado por No Starch Press y escrito por Anthony DeBarros, es una introducción enfocada en el análisis periodístico y científico de datos mediante SQL, aplicable a PostgreSQL y SQL Server.\n\nEl autor enseña a extraer historias y revelaciones cuantitativas de datos del mundo real: censos demográficos, crímenes urbanos y registros climáticos. Cubre la creación de tablas, importación y limpieza de archivos CSV masivos, cálculos estadísticos (medianas, percentiles, desviaciones), correlaciones, búsquedas de texto completo y análisis geoespacial básico.\n\nUna guía refrescante, amena y muy práctica para periodistas de datos, analistas de negocio y desarrolladores que desean aprender SQL resolviendo preguntas analíticas reales sobre problemas de impacto social.",
+    "temas": [
+      "Data Analysis",
+      "Data Cleaning",
+      "Statistics with SQL",
+      "CSV Import",
+      "Spatial Analysis",
+      "Full-Text Search"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Investigación estadística y análisis demográfico con SQL",
+        "descripcion": "Ingesta masiva de datos censales, limpieza de inconsistencias y análisis de tendencias de ingresos mediante percentiles y agrupaciones."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "getting-started-with-sql-2016": {
+    "descripcion": "Getting Started with SQL es un manual rápido y sin rodeos de O'Reilly Media escrito por Thomas Nield. Diseñado para quienes nunca han escrito una línea de SQL, enseña los fundamentos esenciales en el menor tiempo posible.\n\nEl libro explica la estructura de tablas y tipos de datos, la formulación de consultas con SELECT, WHERE y ORDER BY, el filtrado con operadores lógicos, la combinación de fuentes de datos mediante INNER JOIN y LEFT JOIN, y el resumen de información con funciones de agregación y GROUP BY.\n\nExcelente para profesionales no técnicos, analistas de marketing y principiantes que necesitan realizar consultas autónomas sobre almacenes de datos empresariales de forma inmediata.",
+    "temas": [
+      "SQL Basics",
+      "SELECT Queries",
+      "JOIN Fundamentals",
+      "GROUP BY",
+      "Filtering Data",
+      "Beginners Guide"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "head-first-sql-2007": {
+    "descripcion": "Head First SQL aplica la conocida metodología neurocognitiva y visual de la serie Head First de O'Reilly para desmitificar las bases de datos relacionales y el lenguaje SQL estándar.\n\nA través de acertijos, ilustraciones, metáforas cotidianas e historias humorísticas, el libro cubre la creación de tablas (CREATE TABLE), inserción de registros, normalización de esquemas relacionales, consultas multicriterio, uniones (JOINs), subconsultas y transacciones, haciendo que los conceptos abstractos resulten intuitivos y memorables.\n\nPerfecto para estudiantes visuales y principiantes absolutos que encuentran aburridos los textos tradicionales y buscan aprender divirtiéndose y reteniendo los conocimientos a largo plazo.",
+    "temas": [
+      "Head First Method",
+      "SQL Foundations",
+      "Database Normalization",
+      "JOINs",
+      "Subqueries",
+      "Visual Learning"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Modelado de base de datos de club social y eventos",
+        "descripcion": "Creación interactiva y resolución de problemas de diseño de esquemas mediante ejercicios lúdicos y consultas relacionales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "head-first-sql-2nd-edition-2026": {
+    "descripcion": "Head First SQL (2da edición) actualiza el clásico superventas de aprendizaje cognitivo de O'Reilly para adaptarlo a los estándares contemporáneos de datos relacionales y analíticos.\n\nConservando su característico formato repleto de esquemas visuales, rompecabezas y retos interactivos, esta nueva edición incorpora soporte para tipos de datos JSON, funciones analíticas de ventana modernas, buenas prácticas de seguridad y conexiones hacia bases de datos cloud modernas como Azure SQL y PostgreSQL.\n\nUna opción formidable para una nueva generación de desarrolladores y analistas que desean aprender a pensar relacionalmente y escribir código SQL limpio con una experiencia de aprendizaje dinámica e inolvidable.",
+    "temas": [
+      "Visual Learning",
+      "Modern SQL",
+      "JSON Support",
+      "Window Functions",
+      "Normalization",
+      "Interactive Practice"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Construcción de catálogo de productos interactivo",
+        "descripcion": "Modelado visual de esquemas relacionales con integración de campos semiestructurados y generación de reportes dinámicos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "learning-sql-3rd-edition-2020": {
+    "descripcion": "Learning SQL (3ra edición) es el texto de referencia introductorio por excelencia publicado por O'Reilly Media. Alan Beaulieu ofrece una guía clara y exhaustiva para adquirir una sólida comprensión operativa del lenguaje SQL estándar y sus variantes para MySQL, Oracle y SQL Server.\n\nEl temario aborda la teoría de conjuntos, filtrado y condiciones booleanas, transformaciones de cadenas, fechas y números, agrupaciones y agregaciones, subconsultas en todas las cláusulas, expresiones de tabla comunes (CTEs), uniones externas, funciones de ventana y modificaciones de datos. Todo ello respaldado por ejercicios prácticos y casos de estudio claros.\n\nAmpliamente recomendado en planes de estudio universitarios y programas de formación profesional como el mejor manual general para dominar SQL desde sus fundamentos.",
+    "temas": [
+      "SQL Standard",
+      "Set Theory",
+      "Subqueries",
+      "CTEs",
+      "Window Functions",
+      "Grouping & Aggregates"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema bancario relacional con operaciones financieras",
+        "descripcion": "Diseño de consultas de conciliación de cuentas, transferencias de saldos y generación de extractos bancarios consolidados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-and-relational-theory-3rd-edition-2015": {
+    "descripcion": "SQL and Relational Theory: How to Write Accurate SQL Code es una obra de rigor intelectual magistral escrita por C.J. Date, legendario teórico de bases de datos que trabajó junto a Edgar F. Codd en la definición del modelo relacional original.\n\nEl autor somete al lenguaje SQL a un análisis formal minucioso, confrontando la teoría matemática del modelo relacional (álgebra de relaciones, cálculo relacional, lógica de predicados y tipos) con las imperfecciones y compromisos del lenguaje SQL (como los valores nulos trivalentes y los duplicados en tablas). Enseña cómo escribir código SQL riguroso que evite anomalías lógicas y garantice la veracidad de los datos.\n\nUna lectura transformadora e indispensable para arquitectos de datos y desarrolladores experimentados que desean entender la pureza matemática subyacente y evitar errores sutiles de interpretación lógica.",
+    "temas": [
+      "Relational Model",
+      "Relational Algebra",
+      "Predicate Logic",
+      "Three-Valued Logic (NULLs)",
+      "Database Theory",
+      "C.J. Date"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-cookbook-2nd-edition-2020": {
+    "descripcion": "SQL Cookbook (2da edición) es el recetario de consulta definitiva de O'Reilly Media escrito por Anthony Molinaro y actualizado por Robert de Graaf. Proporciona soluciones probadas y listas para usar frente a problemas cotidianos y avanzados en SQL Server, PostgreSQL, Oracle, MySQL y SQLite.\n\nEl volumen contiene cientos de técnicas para búsqueda y filtrado avanzado, ordenación condicional, manipulación y concatenación de cadenas, cálculos de fechas complejas (días hábiles, diferencias temporales), agregaciones acumulativas, operaciones matriciales con PIVOT y UNPIVOT, y procesamiento de jerarquías y grafos mediante consultas recursivas.\n\nUn manual imprescindible en el escritorio de cualquier profesional de datos que necesite resolver requerimientos complejos de transformación de información con la mayor rapidez y eficiencia posible.",
+    "temas": [
+      "SQL Cookbook",
+      "Cross-Platform SQL",
+      "PIVOT & UNPIVOT",
+      "Date Arithmetic",
+      "Hierarchical Queries",
+      "String Manipulation"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-advanced-troubleshooting-and-performance-tuning-2021": {
+    "descripcion": "SQL Server Advanced Troubleshooting and Performance Tuning es una guía avanzada escrita por Dmitri Korotkevitch que enseña una metodología científica y rigurosa para diagnosticar y solucionar los problemas de rendimiento más complejos en SQL Server.\n\nEl texto desglosa el análisis de tipos de espera (wait stats), esperas de pestillos (latches) y bloqueos (spinlocks), contención en TempDB, problemas de paralelismo, asignaciones de memoria insuficientes e interbloqueos ocultos. Enseña a utilizar herramientas avanzadas como Extended Events, trazas de rendimiento en tiempo real y el análisis forense de volcados de memoria y registros de eventos.\n\nIndispensable para DBAs sénior, ingenieros de confiabilidad de sitios (SRE) y consultores que deben estabilizar infraestructuras bajo alta demanda y resolver problemas de degradación intermitente.",
+    "temas": [
+      "Advanced Troubleshooting",
+      "Wait Statistics",
+      "Latch Contention",
+      "TempDB Optimization",
+      "Spinlocks",
+      "Extended Events"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Diagnóstico y remediación de contención masiva en TempDB",
+        "descripcion": "Identificación de cuellos de botella PAGELATCH en páginas SGAM/PFS de TempDB y reconfiguración arquitectónica de archivos de datos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "the-art-of-sql-2006": {
+    "descripcion": "The Art of SQL adopta la perspectiva clásica de 'El arte de la guerra' de Sun Tzu para abordar el diseño de bases de datos y la formulación de consultas de alto rendimiento. Stephane Faroult y Peter Robson presentan una filosofía práctica de ingeniería de datos.\n\nLos autores enfatizan que el rendimiento de un sistema se decide durante el diseño del modelo conceptual y relacional, no aplicando parches de optimización a posteriori. Se exploran estrategias para minimizar el tráfico de red, evitar contenciones de transacciones, elegir la estrategia de indexación adecuada y concebir las consultas de manera holística considerando la carga concurrente global.\n\nUna lectura clásica y estimulante que forja en los desarrolladores y arquitectos una mentalidad disciplinada orientada al rendimiento arquitectónico y a la elegancia técnica.",
+    "temas": [
+      "SQL Philosophy",
+      "Database Architecture",
+      "Performance Strategy",
+      "Index Strategy",
+      "Transaction Design",
+      "Concurrency"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "the-new-relational-database-dictionary-2015": {
+    "descripcion": "The New Relational Database Dictionary es una obra de referencia terminológica insustituible elaborada por C.J. Date. El autor define con rigor matemático y precisión quirúrgica más de 900 términos y conceptos del universo de bases de datos relacionales.\n\nEl diccionario aclara confusiones habituales en la industria diferenciando formalmente entre relación y tabla, tupla y fila, atributo y columna, predicado y condición, y tipos de datos frente a dominios. Asimismo, desmenuza conceptos avanzados como dependencias multivaluadas, formas normales superiores (4NF, 5NF, 6NF) y cálculo relacional de tuplas y dominios.\n\nUn recurso de consulta terminológica invaluable para investigadores, profesores, autores técnicos y arquitectos de bases de datos que valoran la exactitud conceptual y desean erradicar ambigüedades técnicas en sus equipos.",
+    "temas": [
+      "Relational Dictionary",
+      "Database Terminology",
+      "Relational Theory",
+      "Formal Definitions",
+      "C.J. Date",
+      "Normalization Terms"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "type-inheritance-and-relational-theory-2016": {
+    "descripcion": "Type Inheritance and Relational Theory (subtitulado 'Subtypes, Supertypes, and Substitutability') es un tratado formal en el que C.J. Date explora la intersección entre el modelo relacional y la teoría de herencia de tipos orientada a objetos.\n\nEl autor expone el modelo de herencia formal desarrollado junto con Hugh Darwen en 'The Third Manifesto'. Demuestra cómo la especialización y generalización de tipos pueden integrarse de manera limpia y sin contradicciones lógicas en un sistema relacional estricto, respetando el principio de sustitución de Liskov sin incurrir en las fallas de los híbridos objeto-relacionales comunes.\n\nLectura fascinante y rigurosa para diseñadores de lenguajes de consulta, arquitectos de modelos de dominio y científicos de la computación interesados en las bases teóricas formales de la información estructurada.",
+    "temas": [
+      "Type Inheritance",
+      "Relational Theory",
+      "The Third Manifesto",
+      "Subtyping",
+      "Liskov Substitution",
+      "Formal Logic"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "introducing-microsoft-sql-server-2019-2020": {
+    "descripcion": "Introducing Microsoft SQL Server 2019 ofrece una panorámica detallada y accesible sobre las principales capacidades y mejoras que transformaron a SQL Server 2019 en una plataforma integral de datos empresariales.\n\nEl texto cubre la introducción de Big Data Clusters combinando SQL Server con Spark y HDFS, la virtualización de datos con PolyBase para consultas federadas sin extracción ETL, las mejoras en Intelligent Query Processing (como la intercalación de UDF escalares y la concesión de memoria adaptativa), y el fortalecimiento de la seguridad con Always Encrypted con enclaves seguros.\n\nUna guía de orientación rápida y práctica para administradores, tomadores de decisiones técnicas y consultores que evalúan la adopción y beneficios clave de SQL Server 2019.",
+    "temas": [
+      "SQL Server 2019",
+      "Big Data Clusters",
+      "Data Virtualization",
+      "PolyBase",
+      "Intelligent Query Processing",
+      "Always Encrypted"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "learn-t-sql-querying-2nd-edition-2024": {
+    "descripcion": "Learn T-SQL Querying (2da edición) es una guía exhaustiva y moderna escrita por veteranos del equipo de ingeniería de SQL Server como Pedro Lopes y Pam Lahoud. El libro enseña a escribir consultas T-SQL que aprovechen al máximo las capacidades internas del motor relacional.\n\nEl contenido abarca desde la formulación fundamental de consultas hasta el análisis profundo de planes de ejecución, detección de estimaciones deficientes de cardinalidad, resolución de problemas de paralelismo y optimización de sugerencias de consulta (hints). Asimismo, profundiza en las innovaciones de SQL Server 2022 y Azure SQL, tales como Parameter Sensitive Plan Optimization y Query Store Hints.\n\nEsencial para desarrolladores y administradores de bases de datos que desean dominar la intersección entre el código Transact-SQL y los mecanismos de ejecución física del motor.",
+    "temas": [
+      "T-SQL Querying",
+      "Query Optimization",
+      "Cardinality Estimation",
+      "Execution Plans",
+      "PSPO",
+      "SQL Server 2022"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Optimización integral de carga de consultas analíticas",
+        "descripcion": "Reescritura de scripts T-SQL con problemas de sniffing de parámetros y aplicación de hints específicos guiados por Query Store."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "microsoft-sql-server-2012-performance-tuning-cookbook-2012": {
+    "descripcion": "Microsoft SQL Server 2012 Performance Tuning Cookbook recopila más de 80 recetas directas y comprobadas orientadas a diagnosticar, afinar y acelerar entornos empresariales sobre SQL Server 2012.\n\nLos autores Ritesh Shah y Bihag Thaker abordan recetas prácticas para optimizar el subsistema de almacenamiento y TempDB, diseñar estrategias eficaces de indexación (incluyendo índices filtrados y Columnstore), afinar el optimizador de consultas, gestionar la memoria del servidor e identificar interbloqueos y consultas de alto impacto mediante DMVs y Extended Events.\n\nUn manual de auxilio sumamente práctico para profesionales que necesitan soluciones inmediatas para resolver cuellos de botella en producción sin perder tiempo.",
+    "temas": [
+      "Performance Tuning",
+      "Cookbook",
+      "Indexing Recipes",
+      "TempDB",
+      "DMVs",
+      "SQL Server 2012"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "microsoft-sql-server-2012-security-cookbook-2012": {
+    "descripcion": "Microsoft SQL Server 2012 Security Cookbook es un manual práctico centrado en blindar y proteger instancias de bases de datos contra accesos no autorizados, fugas de datos y ataques maliciosos.\n\nRohan Kumar expone recetas detalladas para configurar la autenticación y autorización basada en el principio de mínimo privilegio, implementar cifrado transparente de bases de datos (TDE), cifrado a nivel de celda y certificados de servidor, auditar accesos con SQL Server Audit y mitigar riesgos de inyección SQL en aplicaciones cliente.\n\nUna guía técnica indispensable para administradores de bases de datos y oficiales de seguridad que deben asegurar el cumplimiento normativo (PCI-DSS, HIPAA, GDPR) en sus entornos Microsoft.",
+    "temas": [
+      "Database Security",
+      "TDE Encryption",
+      "SQL Server Audit",
+      "Principle of Least Privilege",
+      "SQL Injection Defense",
+      "Compliance"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plan de endurecimiento y auditoría de seguridad para SQL Server",
+        "descripcion": "Configuración de TDE con certificados maestros, definición de políticas de SQL Audit para accesos privilegiados y restricción de logins."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-query-tuning-and-optimization-2022": {
+    "descripcion": "SQL Server Query Tuning and Optimization ofrece una metodología estructurada y exhaustiva para transformar consultas de bajo rendimiento en procesos ágiles y predecibles. Escrito por el reconocido consultor Benjamin Nevarez, desvela la ciencia detrás del optimizador de consultas.\n\nEl autor analiza las estructuras internas del Query Optimizer basadas en el framework Volcano/Cascades, las reglas de transformación relacional, la generación de estadísticas y modelos de cardinalidad, la calibración de costos y la memoria de trabajo asignada a las consultas. Además, proporciona pautas claras para la interpretación de planes de ejecución y el uso de Query Store para estabilizar planes críticos.\n\nLectura imprescindible para ingenieros de rendimiento y DBAs sénior que buscan comprender a fondo el proceso de toma de decisiones del motor y optimizar sus sistemas de manera fundamentada.",
+    "temas": [
+      "Query Optimization",
+      "Cost-Based Optimizer",
+      "Cardinality Estimation",
+      "Execution Plans",
+      "Query Store",
+      "Performance Tuning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Auditoría de estadísticas y planes de consulta regresivos",
+        "descripcion": "Análisis del impacto de estadísticas desactualizadas en la estimación de cardinalidad y remediación mediante mantenimiento automatizado."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-server-execution-plans-3rd-edition-2018": {
+    "descripcion": "SQL Server Execution Plans (3ra edición) es la biblia indiscutible sobre la interpretación y el análisis de planes de ejecución gráficos y XML en SQL Server, escrita por la autoridad de renombre internacional Grant Fritchey.\n\nEl libro detalla minuciosamente el significado de cada operador de plan de consulta: escaneos y búsquedas en índices clúster y no clúster, uniones anidadas (Nested Loops), combinaciones por mezcla (Merge Join), combinaciones hash (Hash Match), operadores de agregación, paralelismo y spooling. Asimismo, enseña a identificar advertencias críticas como conversiones implícitas, derrames de memoria a TempDB (spills) y diferencias entre filas estimadas y reales.\n\nLa referencia más importante y leída en el mundo de SQL Server para cualquier profesional que necesite entender exactamente cómo ejecuta sus consultas el motor y cómo optimizarlas con éxito.",
+    "temas": [
+      "Execution Plans",
+      "Grant Fritchey",
+      "Query Operators",
+      "Index Scans vs Seeks",
+      "Hash & Merge Joins",
+      "TempDB Spills"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Diagnóstico y remediación de planes con derrames de memoria (TempDB Spills)",
+        "descripcion": "Identificación de advertencias en planes XML relativas a falta de concesión de memoria y reescritura de consultas para erradicar derrames."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-in-10-minutes-5th-edition-2019": {
+    "descripcion": "SQL in 10 Minutes, Sams Teach Yourself (5ta edición) es el clásico superventas mundial de Ben Forta, diseñado para enseñar los fundamentos prácticos del lenguaje SQL mediante lecciones concisas de diez minutos.\n\nEl temario aborda la selección de columnas y filtrado de datos (SELECT, WHERE, operadores lógicos), ordenación, funciones de texto y números, agregaciones y agrupaciones, subconsultas, uniones relacionales y operaciones de inserción, actualización y borrado. Es compatible con todos los motores principales: SQL Server, MySQL, Oracle, PostgreSQL y SQLite.\n\nIdeal para quienes necesitan adquirir conocimientos operativos de SQL rápidamente para su trabajo cotidiano sin enredarse en complejidades de administración de sistemas.",
+    "temas": [
+      "SQL in 10 Minutes",
+      "Ben Forta",
+      "Fast Learning",
+      "JOINs",
+      "SELECT Basics",
+      "Data Manipulation"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-in-24-hours-sams-teach-yourself-6th-edition-2015": {
+    "descripcion": "SQL in 24 Hours, Sams Teach Yourself (6ta edición) propone un itinerario de aprendizaje intensivo estructurado en 24 lecciones temáticas de una hora que cubren desde los fundamentos del modelo relacional hasta temas intermedios de administración.\n\nLos autores enseñan a crear y modificar tablas con restricciones de integridad, redactar consultas multicriterio complejas con joins y subconsultas, utilizar operadores de conjuntos (UNION, INTERSECT), crear vistas e índices, y gestionar transacciones y permisos de seguridad. Cada lección concluye con preguntas de repaso y ejercicios prácticos.\n\nUna opción formativa muy completa y accesible para autodidactas, técnicos y programadores en formación que buscan una cobertura sólida y progresiva de SQL.",
+    "temas": [
+      "Sams Teach Yourself",
+      "24-Hour Course",
+      "DDL and DML",
+      "Views and Indexes",
+      "Security & Permissions",
+      "Set Operations"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Base de datos para gestión de biblioteca",
+        "descripcion": "Creación paso a paso del esquema para catálogo de libros, préstamos a usuarios y consultas de control de devoluciones."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-for-dummies-8th-edition-2013": {
+    "descripcion": "SQL For Dummies (8va edición) ofrece una introducción clara, accesible y desprovista de jerga técnica innecesaria a las bases de datos relacionales y al estándar SQL:2011, escrita por el experimentado autor Allen G. Taylor.\n\nEl libro guía al lector a través del diseño de bases de datos relacionales sencillas, la definición de tablas y tipos de datos, la formulación de consultas básicas y multicondición, la creación de vistas y el mantenimiento de la integridad referencial. También introduce conceptos de seguridad, transacciones ACID y uso de SQL con aplicaciones cliente.\n\nUna excelente elección para personas sin formación informática previa que necesitan entender qué es una base de datos relacional y cómo interactuar con ella eficazmente.",
+    "temas": [
+      "For Dummies",
+      "SQL Fundamentals",
+      "Relational Concepts",
+      "Table Creation",
+      "Data Integrity",
+      "Beginners"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "sql-for-dummies-9th-edition-2018": {
+    "descripcion": "SQL For Dummies (9na edición) actualiza la clásica y popular guía de Allen G. Taylor para incorporar las prácticas modernas del estándar SQL y su aplicación en la nube y en entornos de Big Data.\n\nEl autor expone con su habitual estilo ameno y comprensible la arquitectura relacional, la creación y modificación de esquemas, consultas analíticas con funciones de agregación, uniones complejas, gestión de transacciones concurrentes y control de acceso. Incluye además capítulos orientados a la interoperabilidad de SQL con bases de datos documentales y plataformas cloud.\n\nUn manual de iniciación sumamente amigable y completo para estudiantes, analistas y profesionales de cualquier área de negocio que deseen dominar SQL con facilidad.",
+    "temas": [
+      "For Dummies 9th",
+      "SQL Standard",
+      "Cloud Databases",
+      "JOINs & Aggregations",
+      "Data Security",
+      "NoSQL Interoperability"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "beginning-database-design-2005": {
+    "descripcion": "Beginning Database Design es una guía fundamental sobre los principios teóricos y metodológicos necesarios para concebir bases de datos relacionales limpias, robustas y escalables, escrita por Gavin Powell.\n\nEl autor acompaña al lector a lo largo de las distintas etapas de modelado: desde el levantamiento de requisitos de negocio y modelado conceptual con diagramas Entidad-Relación (ER), hasta el diseño lógico mediante normalización estricta (1NF hasta 5NF) y el diseño físico adaptado al rendimiento del motor. Aborda además el uso de claves primarias, foráneas, índices y estrategias de integridad referencial.\n\nEsencial para cualquier estudiante o desarrollador que comprenda que un buen diseño de base de datos es el pilar sobre el que se sostiene el éxito y rendimiento de cualquier sistema de software.",
+    "temas": [
+      "Database Design",
+      "Entity-Relationship (ER)",
+      "Normalization",
+      "Primary & Foreign Keys",
+      "Logical Modeling",
+      "Physical Design"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Diseño conceptual y lógico para sistema de clínica médica",
+        "descripcion": "Elaboración de diagramas entidad-relación, aplicación de normalización hasta 3NF y generación del esquema físico en SQL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "beginning-microsoft-sql-server-2012-programming-2012": {
+    "descripcion": "Beginning Microsoft SQL Server 2012 Programming es un manual formativo completo de Wrox Press, diseñado por Paul Atkinson y Robert Vieira para transformar a desarrolladores principiantes en programadores competentes de SQL Server 2012.\n\nEl texto cubre el diseño de esquemas, tipos de datos, redacción de consultas en Transact-SQL, programación de procedimientos almacenados, desencadenadores, funciones definidas por el usuario, vistas y transacciones ACID. Asimismo, aborda la integración con aplicaciones .NET mediante ADO.NET y Entity Framework, y la gestión de datos semiestructurados con XML.\n\nIdeal para desarrolladores de software que construyen aplicaciones orientadas a datos sobre el stack de Microsoft y buscan una guía progresiva repleta de ejemplos prácticos.",
+    "temas": [
+      "SQL Server 2012 Programming",
+      "T-SQL",
+      "Stored Procedures",
+      "Triggers",
+      "ADO.NET Integration",
+      "Database Design"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Desarrollo del backend transaccional de un portal de comercio electrónico",
+        "descripcion": "Creación del modelo relacional de catálogo, órdenes de compra y facturación con procedimientos almacenados transaccionales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "beginning-t-sql-with-microsoft-sql-server-2005-and-2008-2008": {
+    "descripcion": "Beginning T-SQL with Microsoft SQL Server 2005 and 2008 es una guía detallada y formativa de Wrox Press escrita por Paul Turley y Dan Wood. Se enfoca en enseñar los fundamentos sólidos de la programación en Transact-SQL.\n\nEl libro aborda la sintaxis y operadores de T-SQL, filtrado y ordenamiento de conjuntos de resultados, uniones de tablas, funciones escalares y de agregado, subconsultas, expresiones de tabla comunes (CTEs), procedimientos almacenados y manejo de errores con TRY...CATCH. También introduce los conceptos de transacciones, bloqueos e indexación básica.\n\nUn recurso formativo sólido y pedagógico que sirvió de base a generaciones de desarrolladores para adquirir un dominio práctico y estructurado de T-SQL.",
+    "temas": [
+      "Beginning T-SQL",
+      "Stored Procedures",
+      "CTEs",
+      "TRY CATCH Error Handling",
+      "JOINs and Subqueries",
+      "Wrox Programmer Guide"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Automatización de procesos comerciales en T-SQL",
+        "descripcion": "Desarrollo de procedimientos almacenados y vistas para el procesamiento ordenado de transacciones de compra y facturación."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

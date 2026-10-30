@@ -1,0 +1,467 @@
+{
+  "introducing-bootstrap-4-2017": {
+    "descripcion": "Introducción breve de Apress, escrita por el autor y consultor berlinés Jörg Krause, al framework de CSS Bootstrap 4. Se escribió cuando la versión 4 aún estaba en fase alfa (algunos catálogos fechan la edición a finales de 2016). Está pensada para diseñadores y desarrolladores web principiantes que conocen HTML y quieren crear interfaces responsive sin diseñar cada componente desde cero.\n\nEl índice tiene ocho capítulos. Empieza con «It Begins with CSS», un repaso de CSS3 y de los fundamentos del diseño responsive, y sigue con la introducción a Bootstrap y la instalación y el uso del preprocesador Sass, que sustituyó a LESS en esta versión. Después trata la estructura de la página con el sistema de rejilla y los contenedores, la tipografía, los formularios, módulos adicionales como tablas, imágenes y utilidades, y los componentes de interfaz. El último capítulo explica los «componentes activos»: los plugins de JavaScript basados en jQuery (modales, menús desplegables, carruseles, tooltips y similares), que se configuran con atributos data- de HTML5 o mediante su API de JavaScript. También muestra cómo aprovechar plantillas y temas ya hechos para Bootstrap.\n\nEs un libro de referencia guiada, con explicaciones paso a paso y fragmentos de código para cada componente, pero sin un proyecto completo que los integre. Su principal limitación es la época: al basarse en versiones previas a la estable, algunas clases y comportamientos cambiaron en Bootstrap 4.0 final. Además, toda la parte de JavaScript depende de jQuery, que Bootstrap 5 eliminó. Si buscas este contenido, la segunda edición de 2020 (Bootstrap 4.5) es la opción más fiable.",
+    "temas": [
+      "Bootstrap 4",
+      "CSS3",
+      "Diseño responsive",
+      "Sass",
+      "Sistema de rejilla",
+      "Tipografía",
+      "Formularios",
+      "Componentes",
+      "Plugins jQuery",
+      "Atributos data-",
+      "Temas y plantillas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://lib.hpu.edu.vn/handle/123456789/26374?show=full",
+      "https://eld.bl.uk/catalog/019139945",
+      "https://www.ellibs.com/fi/book/9781484223826/introducing-bootstrap-4"
+    ]
+  },
+  "introducing-bootstrap-4-2nd-edition-2020": {
+    "descripcion": "Segunda edición, ampliada a unas 360 páginas, del libro de Jörg Krause para Apress, con el subtítulo «Create Powerful Web Applications Using Bootstrap 4.5». Actualiza el contenido a Bootstrap 4.5, la última versión de la rama 4 antes de Bootstrap 5. Sirve como introducción a los frameworks de CSS para front-end y está dirigida a diseñadores y desarrolladores web de nivel inicial que quieren empezar en el desarrollo front-end con una base de HTML.\n\nEl recorrido explica primero las reglas básicas de CSS y del diseño responsive con CSS3. Luego muestra cómo instalar y usar el precompilador Sass, y cómo preparar el entorno de trabajo tanto en Linux (Ubuntu) como en Windows. Los capítulos tratan la introducción a Bootstrap, la estructura de la página con la rejilla y los contenedores, la tipografía, los formularios, las imágenes, los efectos y los iconos, los componentes de interfaz y, por último, los componentes activos: los plugins de JavaScript (modales, desplegables, carruseles, pestañas, tooltips) basados en jQuery y Popper.js, que se activan con atributos data- o mediante la API de JavaScript. Termina con un apéndice y con indicaciones para aprovechar plantillas y temas de terceros y pulir la interfaz.\n\nEl planteamiento es práctico: explicaciones paso a paso con ejemplos de código para cada pieza del framework y casos de uso reales, aunque sin un proyecto de aplicación completo. Frente a la primera edición, se apoya en una versión estable y madura, y añade la parte de Sass y la preparación del entorno, que facilitan personalizar el framework. Conviene saber que Bootstrap 5 eliminó jQuery y cambió varias utilidades y clases. El libro sirve para mantener proyectos con Bootstrap 4 o para entender sus conceptos, pero en un proyecto nuevo habrá que adaptar parte de lo aprendido.",
+    "temas": [
+      "Bootstrap 4.5",
+      "CSS3",
+      "Diseño responsive",
+      "Sass",
+      "Sistema de rejilla",
+      "Tipografía",
+      "Formularios",
+      "Iconos e imágenes",
+      "Componentes",
+      "Plugins JavaScript",
+      "jQuery",
+      "Temas y plantillas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.e-bookshelf.de/introducing-bootstrap-4-14158025.html",
+      "https://skillsoft.com/book/introducing-bootstrap-4-create-powerful-web-applications-using-bootstrap-45-second-edition-d30eeab9-da12-45fe-9062-acdda30d6e1b",
+      "https://link.springer.com/978-1-4842-6202-3"
+    ]
+  },
+  "asp-net-mvc-5-with-bootstrap-and-knockout-js-2015": {
+    "descripcion": "Libro de O'Reilly en el que Jamie Munro enseña a combinar tres tecnologías: ASP.NET MVC 5 en el servidor, Bootstrap 3 para la interfaz responsive y Knockout.js, una implementación en JavaScript del patrón Model-View-ViewModel, para la interactividad en el cliente. El objetivo son aplicaciones web dinámicas que se vean bien en cualquier tamaño de pantalla. Se dirige a desarrolladores de nivel intermedio que conocen C# y lo básico de HTML, CSS y JavaScript, y quieren organizar mejor sus aplicaciones en el ecosistema .NET con Visual Studio.\n\nLa primera parte presenta cada pieza por separado: la estructura de un proyecto MVC (controladores, vistas y URL), los menús, botones, alertas y temas de Bootstrap, los ViewModels y el data binding de Knockout, y el acceso a datos con Entity Framework en sus enfoques Code First y Database First. La segunda parte trabaja con datos: scaffolding de modelos, tablas con ordenación y paginación, formularios integrados con Knockout, borrado con ventanas modales, ViewModels del lado del servidor y la incorporación de Web API. La tercera parte se ocupa de la arquitectura del código: filtros globales (de autenticación, autorización, acción, resultado y excepción), validación y manejo de errores en Web API, mapeo automático de objetos, autenticación y autorización, enrutamiento por atributos y el principio «fat model, skinny controller», con servicios, repositorios, orquestaciones y unidad de trabajo.\n\nLa cuarta parte reúne todo en una aplicación de ejemplo: un carrito de compras de una librería. Es un recorrido muy completo de cómo encajan el servidor y el cliente en el stack de Microsoft de 2015, y su parte de arquitectura sigue siendo útil. Sin embargo, el libro se basa en el ASP.NET MVC 5 clásico de .NET Framework, no en ASP.NET Core. Además, Knockout.js ha caído en desuso frente a React, Angular o Vue, y Bootstrap 3 está superado. Conviene leerlo para entender el patrón MVVM y la separación de responsabilidades, o para mantener aplicaciones heredadas, más que para empezar un proyecto nuevo.",
+    "temas": [
+      "ASP.NET MVC 5",
+      "C#",
+      "Bootstrap 3",
+      "Knockout.js",
+      "MVVM",
+      "Entity Framework",
+      "Web API",
+      "Filtros globales",
+      "Autenticación y autorización",
+      "Attribute routing",
+      "Arquitectura en capas",
+      "Carrito de compras"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Gestión de autores (CRUD)",
+        "descripcion": "Ejemplo que atraviesa la segunda parte: listado de autores con ordenación y paginación, formulario de alta y edición ligado con Knockout.js y borrado mediante una ventana modal de Bootstrap, que luego se migra a Web API y ViewModels del servidor."
+      },
+      {
+        "nombre": "Carrito de compras de una librería",
+        "descripcion": "Aplicación final con ASP.NET MVC 5, Entity Framework Code First, Bootstrap y Knockout.js: layout compartido con resumen del carrito y menú de categorías, portada con libros destacados, filtrado por categoría, ficha de libro con componentes y bindings personalizados, y alta, edición y borrado de artículos del carrito, con bundling y minificación de JavaScript."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/e_2g6w.htm",
+      "https://www.oreilly.com/library/view/aspnet-mvc-5/9781491914373",
+      "https://www.oreilly.com/library/view/asp-net-mvc-5/9781491914373/ch05.html"
+    ]
+  },
+  "bootstrap-2013": {
+    "descripcion": "Guía breve, de unas 128 páginas, en la que Jake Spurlock presenta Bootstrap, el kit de herramientas de HTML, CSS y JavaScript que creó Twitter y que se distribuye gratis en GitHub. Se publicó en mayo de 2013 y trata la versión 2.x (Bootstrap 3 salió pocos meses después). Está pensada para desarrolladores y diseñadores web que conocen HTML, CSS y algo de jQuery, y quieren crear sitios responsive con rapidez a partir de piezas ya hechas.\n\nLos capítulos siguen la estructura de la documentación oficial de entonces. «Scaffolding» trata la estructura de archivos, la rejilla fija de 12 columnas y 940 px, la rejilla fluida, los contenedores y el diseño responsive, que adapta la maqueta a cada viewport. «Base CSS» cubre la tipografía, el código, las tablas, los formularios, los botones, las imágenes y los iconos (Glyphicons). «Layout Components» trata los menús desplegables, los grupos de botones, la navegación y la navbar, las migas de pan, la paginación, las etiquetas, los thumbnails, las alertas y las barras de progreso. «JavaScript Plugins» explica los plugins de jQuery: modales, desplegables, scrollspy, pestañas, tooltips, popovers, collapse o acordeón, carrusel, typeahead y affix. Un capítulo final enseña a personalizar el framework con el preprocesador LESS, desde el número de columnas hasta los colores de la tipografía.\n\nEs una referencia compacta con fragmentos de código para cada componente, sin ejercicios ni proyecto integrador. Algunos lectores señalan que se parece mucho a la documentación oficial convertida en libro. Hoy su valor es sobre todo histórico: Bootstrap 2 quedó obsoleto con la llegada de Bootstrap 3, que es mobile-first, y las versiones posteriores sustituyeron LESS por Sass y eliminaron jQuery. Solo es recomendable para mantener sitios antiguos o para ver cómo evolucionó el framework.",
+    "temas": [
+      "Bootstrap 2",
+      "Diseño responsive",
+      "Sistema de rejilla",
+      "Tipografía",
+      "Formularios y botones",
+      "Navbar y navegación",
+      "Componentes de layout",
+      "Plugins jQuery",
+      "Modales y carrusel",
+      "LESS"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://oreilly.com/library/view/bootstrap/9781449344573",
+      "https://www.oreilly.com/library/view/bootstrap/9781449344573/ch01.html",
+      "https://www.goodreads.com/work/editions/21804547-bootstrap-responsive-web-development"
+    ]
+  },
+  "bootstrap-by-example-2016": {
+    "descripcion": "Tutorial práctico de Silvio Moreto, desarrollador frontend y creador del conocido plugin bootstrap-select, que enseña el framework Bootstrap a base de ejemplos completos explicados paso a paso. Se publicó en marzo de 2016 (en el sitio de Packt aparece como «Bootstrap 4 By Example») y trabaja tanto con Bootstrap 3 como con la entonces nueva versión 4, todavía en fase alfa. Está pensado para desarrolladores frontend que no conocen Bootstrap, pero sí dominan lo básico de HTML, CSS y JavaScript.\n\nEl libro empieza con la preparación del entorno y una primera página sencilla. A partir de ahí recorre el sistema de rejilla (grid), los elementos HTML con estilo de Bootstrap y los componentes básicos, con un capítulo dedicado al diseño mobile first y la adaptación responsiva. La segunda mitad se dedica a los componentes JavaScript del framework (modales, popovers, pestañas y similares), su personalización, la gestión de eventos y la integración con librerías externas. El cierre explica cómo desarrollar un plugin propio para Bootstrap.\n\nLa práctica avanza en tres bloques: una landing page, una aplicación web al estilo de Twitter que usa buena parte de los componentes del framework y un dashboard con componentes personalizados y librerías de terceros. Su mayor valor es ver Bootstrap aplicado a interfaces reales y no a fragmentos sueltos, y el capítulo del plugin es poco habitual en libros de este nivel. Conviene saber que el contenido de Bootstrap 4 corresponde a la versión alfa: la versión estable (y Bootstrap 5) cambió clases, utilidades y dependencias, y además eliminó jQuery, así que parte del código necesitará ajustes. Algunos lectores también señalan que la redacción en inglés tiene altibajos.",
+    "temas": [
+      "Bootstrap 3",
+      "Bootstrap 4 (alfa)",
+      "Sistema de rejilla",
+      "Mobile first",
+      "Diseño responsivo",
+      "Componentes",
+      "Componentes JavaScript",
+      "Eventos",
+      "Personalización",
+      "Plugins de Bootstrap",
+      "Dashboard"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Landing page",
+        "descripcion": "Página de presentación construida en los primeros capítulos para practicar el grid, los elementos HTML con estilo de Bootstrap, los componentes básicos y la adaptación mobile first."
+      },
+      {
+        "nombre": "Aplicación web al estilo de Twitter",
+        "descripcion": "Interfaz de red social inspirada en Twitter que usa buena parte de los componentes CSS y JavaScript de Bootstrap para montar una aplicación web completa."
+      },
+      {
+        "nombre": "Dashboard web",
+        "descripcion": "Panel de control con componentes de Bootstrap personalizados, gestión de eventos e integración de librerías JavaScript externas."
+      },
+      {
+        "nombre": "Plugin para Bootstrap",
+        "descripcion": "Desarrollo de un plugin propio que sigue las convenciones de los componentes JavaScript del framework."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/e_3boh.htm",
+      "https://www.packtpub.com/en-th/product/bootstrap-4-by-example-9781785288876",
+      "https://tenlong.com.tw/products/9781785288876"
+    ]
+  },
+  "bootstrap-essentials-2015": {
+    "descripcion": "Libro breve de Snig Bhaumik, director técnico de InfoAxon Technologies, publicado por Packt en 2015 dentro de su serie «Community Experience Distilled». Presenta los fundamentos de Bootstrap 3 para crear páginas web responsivas y atractivas. Está dirigido a desarrolladores web que ya hacen páginas con HTML, CSS y JavaScript, pero que conocen poco o nada de Bootstrap. Saber algo de jQuery ayuda, aunque no es imprescindible.\n\nEl libro arranca con la evolución de CSS y el origen de Bootstrap como contexto, y luego explica la arquitectura del framework y sus componentes principales. Sigue con la construcción de diseños responsivos usando el sistema de rejilla, los componentes JavaScript basados en jQuery y la personalización del framework. Un punto que lo distingue es el uso de Bootstrap con el preprocesador LESS (el lenguaje fuente de Bootstrap 3) y la explicación de cómo compilar Bootstrap desde su código fuente para generar una versión a medida.\n\nEs más una guía de referencia y conceptos con ejemplos que un libro de proyectos: no está construido alrededor de una aplicación completa, sino de ejemplos cortos para cada parte del framework. Sirve como introducción ordenada y rápida, sobre todo para entender cómo está organizado Bootstrap por dentro. Hay que tener en cuenta que todo gira en torno a Bootstrap 3 y LESS; desde Bootstrap 4 el framework usa Sass y ya no depende de jQuery, así que la parte de personalización y compilación no se aplica directamente a las versiones actuales.",
+    "temas": [
+      "Bootstrap 3",
+      "Historia de CSS",
+      "Arquitectura de Bootstrap",
+      "Sistema de rejilla",
+      "Diseño responsivo",
+      "Componentes",
+      "Componentes JavaScript",
+      "jQuery",
+      "LESS",
+      "Personalización",
+      "Compilación desde el código fuente"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://search.clevnet.org/Record/a6985449",
+      "https://tenlong.com.tw/products/9781784395179",
+      "https://www.goodreads.com/work/quotes/46156727",
+      "https://www.packtpub.com/product/bootstrap-essentials/9781784395179",
+      "https://resources.oreilly.com/examples/9781784395179"
+    ]
+  },
+  "bootstrap-for-asp-net-mvc-2nd-edition-2016": {
+    "descripcion": "Segunda edición del libro de Pieter van der Westhuizen, desarrollador freelance especializado en ASP.NET MVC, que muestra cómo combinar Bootstrap 4 con ASP.NET MVC, concretamente con ASP.NET Core en sus primeras versiones. Packt la publicó en septiembre de 2016. Está pensada para principiantes con poca experiencia en Bootstrap o .NET, aunque también es útil para desarrolladores de nivel intermedio que ya trabajan con ASP.NET y quieren interfaces responsivas sin depender de un diseñador. Los ejemplos se probaron con Visual Studio 2015, Chrome y Firefox.\n\nEl libro empieza con la creación de un proyecto ASP.NET Core con Bootstrap 4 en Visual Studio. Luego repasa el CSS y los elementos HTML de Bootstrap, sus componentes de interfaz y sus componentes JavaScript. La parte más propia de .NET explica cómo escribir HTML Helpers de MVC y Tag Helpers de ASP.NET Core que generan el marcado de Bootstrap, para no repetirlo en cada vista Razor. También integra el plugin jQuery DataTables con estilo Bootstrap 4 para tablas con búsqueda, ordenación y paginación. Termina mostrando cómo crear sitios ASP.NET MVC con Bootstrap 4 desde Visual Studio Code y con un apéndice de recursos.\n\nEl ejercicio central consiste en convertir una plantilla HTML de Bootstrap en un proyecto ASP.NET MVC funcional, con layouts y vistas parciales. Es una tarea muy habitual en proyectos reales, y el autor ofrece el código de ejemplo en GitHub. Su valor es tender un puente entre el framework CSS y el modelo de vistas de ASP.NET, sobre todo con los Tag Helpers. Ahora bien, se basa en Bootstrap 4 alfa y en ASP.NET Core 1.x, así que las plantillas de proyecto, la gestión de paquetes del cliente y parte del marcado han cambiado mucho en las versiones actuales de .NET y Bootstrap. El backend (datos, autenticación, APIs) queda fuera.",
+    "temas": [
+      "Bootstrap 4",
+      "ASP.NET Core",
+      "ASP.NET MVC",
+      "Visual Studio 2015",
+      "Visual Studio Code",
+      "Razor",
+      "HTML Helpers",
+      "Tag Helpers",
+      "Componentes JavaScript",
+      "jQuery DataTables",
+      "Plantillas HTML"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Conversión de una plantilla Bootstrap a proyecto ASP.NET MVC",
+        "descripcion": "Se toma una plantilla HTML de Bootstrap y se transforma en una aplicación ASP.NET MVC utilizable, repartiendo el marcado en layouts y vistas Razor y aprovechando los componentes de Bootstrap 4."
+      },
+      {
+        "nombre": "Helpers y Tag Helpers para Bootstrap",
+        "descripcion": "Creación de HTML Helpers de MVC y Tag Helpers de ASP.NET Core que generan el marcado de los componentes de Bootstrap, para reutilizarlos en las vistas."
+      },
+      {
+        "nombre": "Tablas con jQuery DataTables",
+        "descripcion": "Integración del plugin jQuery DataTables con el estilo de Bootstrap 4 en una aplicación ASP.NET MVC para mostrar datos tabulares con búsqueda, ordenación y paginación."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/bootstrap-for-asp-net-mvc-combine-the-power-of-asp-net-core-with-bootstrap-4-to-build-elegant-resp-pieter-van-der-westhuizen,e_3b88.htm",
+      "https://www.oreilly.com/library/view/bootstrap-for-asp-net/9781785889479/",
+      "https://github.com/Pietervdw/bootstrap-for-aspnetmvc"
+    ]
+  },
+  "bootstrap-site-blueprints-2014": {
+    "descripcion": "Guía práctica de David Cochran, profesor de diseño interactivo en la Oklahoma Wesleyan University, e Ian Whitley, desarrollador principal en BitBrilliant. Enseña a sacar partido de Bootstrap 3 construyendo sitios completos a partir de encargos ficticios pero muy habituales. Está pensada para desarrolladores web principiantes e intermedios que conocen HTML y CSS y tienen algo de experiencia con plugins de JavaScript. No hace falta haber usado Bootstrap antes.\n\nEl primer capítulo monta un proyecto base a partir de los archivos de Bootstrap y de la plantilla HTML5 Boilerplate (H5BP). A partir de ahí, la personalización se hace sobre el código fuente LESS del framework: variables, mixins e imports propios para no depender del aspecto por defecto. A lo largo de los proyectos se trabajan la barra de navegación responsiva, el carrusel, las columnas y los pies de página, los iconos con Font Awesome, los plugins JavaScript de Bootstrap como ScrollSpy y librerías externas como Masonry para rejillas de tipo mosaico. Los apéndices tratan la optimización de recursos del sitio, las imágenes responsivas y cómo añadir gestos de deslizamiento al carrusel con TouchSwipe.\n\nLos proyectos son un portafolio, un tema de WordPress con campos personalizados, un sitio corporativo, la interfaz de una tienda en línea y una web de marketing de una sola página. Es un libro muy útil para aprender a construir sitios con un aspecto propio y no el típico «diseño Bootstrap», y la integración con WordPress le da un enfoque práctico. Su limitación es la versión: todo está basado en Bootstrap 3 y LESS, mientras que las versiones actuales usan Sass, utilidades nuevas y ya no dependen de jQuery. Además, la tienda es solo la parte visual, sin carrito ni pagos funcionales. Packt publicó más tarde una edición para Bootstrap 4.",
+    "temas": [
+      "Bootstrap 3",
+      "LESS",
+      "HTML5 Boilerplate",
+      "Diseño responsivo",
+      "Navbar y carrusel",
+      "Font Awesome",
+      "WordPress",
+      "Masonry",
+      "ScrollSpy",
+      "TouchSwipe",
+      "Imágenes responsivas",
+      "Optimización de recursos"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio de portafolio",
+        "descripcion": "Portafolio responsivo con navbar, carrusel de trabajos, columnas y pie de página, personalizado mediante las variables y mixins LESS de Bootstrap."
+      },
+      {
+        "nombre": "Tema de WordPress",
+        "descripcion": "Conversión de un diseño Bootstrap en un tema de WordPress que usa campos personalizados para gestionar el contenido."
+      },
+      {
+        "nombre": "Sitio corporativo",
+        "descripcion": "Web de negocio con navegación compleja, áreas de contenido y pie de página elaborados, construida con componentes de Bootstrap y estilos LESS propios."
+      },
+      {
+        "nombre": "Interfaz de tienda en línea",
+        "descripcion": "Diseño de la parte visual de un e-commerce: listado de productos con rejilla tipo Masonry y barra lateral de opciones de filtrado, sin lógica de compra en el servidor."
+      },
+      {
+        "nombre": "Sitio de marketing de una página",
+        "descripcion": "Landing page con jumbotron, cuadrícula de reseñas, tablas de precios y navegación por secciones con ScrollSpy, con iconos de Font Awesome."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://ebookpoint.pl/ksiazki/bootstrap-site-blueprints-without-bootstrap-your-web-designs-may-not-be-reaching-their-full-potenti-david-cochran-ian-whitley,e_3cfy.htm",
+      "https://packtpub.com/en-lt/product/bootstrap-site-blueprints-9781782164524/chapter/preface-pref05/section/preface-pref05",
+      "https://www.tenlong.com.tw/products/9781782164524"
+    ]
+  },
+  "bootstrap-site-blueprints-volume-ii-2015": {
+    "descripcion": "Continuación de la serie «Site Blueprints» de Packt, escrita por Matt Lambert, diseñador y desarrollador con más de 15 años de experiencia, ingeniero de software en CA Technologies y fundador del estudio Cardeo Creative. Enseña a llevar Bootstrap 3 a sitios y aplicaciones web más grandes y complejos que una página informativa. Según la editorial, sirve tanto para quienes empiezan con Bootstrap como para desarrolladores con experiencia. Conviene manejar con soltura HTML, CSS y algo de JavaScript, y tener una idea básica de la línea de comandos.\n\nEl primer capítulo monta un entorno de desarrollo avanzado con Node.js, el servidor de sitios estáticos Harp.js y el preprocesador Less. Con Harp se trabajan plantillas, parciales y layouts reutilizables, y Less compila al momento los estilos personalizados de Bootstrap. Esa base se usa en todos los proyectos, que van de menos a más complejidad y recorren la rejilla, la navegación, los formularios, las tarjetas y paneles, la tipografía y los componentes JavaScript del framework. Un capítulo está dedicado expresamente al diseño mobile first.\n\nCada capítulo es un proyecto distinto: el sitio de un restaurante, un agregador de contenido pensado primero para móviles, una wiki, una revista de noticias, un dashboard y una red social. Su principal aporte es el flujo de trabajo con plantillas y preprocesador, que se parece más a un desarrollo profesional que editar HTML suelto, y la variedad de tipos de sitio. Todo es frontend estático: no hay backend, base de datos ni lógica real detrás de la wiki o la red social. Además, Harp.js está prácticamente abandonado y Bootstrap ya usa Sass, así que hoy el flujo se reproduciría con otras herramientas.",
+    "temas": [
+      "Bootstrap 3",
+      "Node.js",
+      "Harp.js",
+      "Less",
+      "Plantillas y parciales",
+      "Mobile first",
+      "Diseño responsivo",
+      "Componentes",
+      "Dashboard",
+      "Maquetación de sitios"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio web de restaurante",
+        "descripcion": "Primer proyecto sobre el entorno Harp.js + Less: sitio responsivo de un restaurante con plantillas y parciales reutilizables y estilos de Bootstrap personalizados."
+      },
+      {
+        "nombre": "Agregador mobile first",
+        "descripcion": "Agregador de contenidos diseñado primero para pantallas móviles y luego ampliado a escritorio con la rejilla de Bootstrap."
+      },
+      {
+        "nombre": "Wiki con Bootstrap",
+        "descripcion": "Interfaz de una wiki con navegación, páginas de artículo y estructura de contenidos, maquetada con componentes de Bootstrap."
+      },
+      {
+        "nombre": "Revista de noticias",
+        "descripcion": "Sitio de tipo magazine con portada de noticias, secciones y páginas de artículo, con especial atención a la tipografía y a la rejilla."
+      },
+      {
+        "nombre": "Dashboard",
+        "descripcion": "Panel de administración con navegación lateral, paneles y widgets de datos construido con los componentes de Bootstrap."
+      },
+      {
+        "nombre": "Red social",
+        "descripcion": "Interfaz de una red social con perfiles, publicaciones y elementos de interacción, como cierre del libro y el proyecto más complejo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/bootstrap-site-blueprints-volume-ii-maximize-the-potential-of-bootstrap-for-faster-and-more-respons-matt-lambert,e_3b9f.htm",
+      "https://www.packtpub.com/en-us/product/bootstrap-site-blueprints-volume-ii-7-9781785281099/chapter/bootstrap-social-network/summary",
+      "https://www.goodreads.com/work/editions/48612284-bootstrap-site-blueprints-volume-ii-maximize-the-potential-of-bootstrap"
+    ]
+  },
+  "learning-bootstrap-4-2nd-edition-2016": {
+    "descripcion": "Segunda edición de la introducción de Matt Lambert a Bootstrap, reescrita para Bootstrap 4, que en 2016 todavía estaba en fase alfa. Es un libro para principiantes: no hace falta haber usado Bootstrap, pero sí saber HTML, CSS y algo de JavaScript, y no asustarse con la línea de comandos.\n\nEl recorrido empieza presentando Bootstrap 4 y sigue con la preparación del entorno: instalar Node.js, Grunt y el generador de sitios estáticos Harp, configurar el proyecto con sus archivos JSON y ejecutarlo en local. Después dedica capítulos al nuevo modo Flexbox, a los layouts con la cuadrícula responsive, al contenido (tipografía, tablas, imágenes), a los componentes (barras de navegación, tarjetas, formularios, botones), a los plugins de JavaScript y a la personalización de temas con Sass, la novedad más importante frente a Less en la versión 3. Termina con una guía de migración desde Bootstrap 3.\n\nComo hilo conductor se construye un blog: primero la página de inicio, luego las páginas de entrada y los componentes, hasta darle un tema propio con Sass. Lo que aporta es una entrada ordenada a Bootstrap 4 y a un flujo de trabajo con herramientas de build. Lo que conviene saber antes de empezar es que se escribió sobre una versión alfa: algunas clases y componentes cambiaron en la versión estable (por ejemplo, Flexbox pasó a ser el modo por defecto), y hoy Grunt y Harp han quedado en desuso. Si se lee hoy, hay que tener a mano la documentación oficial de Bootstrap.",
+    "temas": [
+      "Bootstrap 4",
+      "Flexbox",
+      "Grid responsive",
+      "Componentes",
+      "Plugins JavaScript",
+      "Sass",
+      "Temas",
+      "Harp",
+      "Grunt",
+      "Node.js",
+      "Migración desde Bootstrap 3"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Blog con Bootstrap 4 y Harp",
+        "descripcion": "Un blog estático generado con Harp que se arma a lo largo del libro: página de inicio con la cuadrícula y Flexbox, páginas de entrada con componentes de Bootstrap y, al final, un tema propio creado con Sass y compilado con Grunt."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-bootstrap-4/9781785881008/",
+      "https://packtpub.com/en-sg/product/learning-bootstrap-4-9781785888595",
+      "https://packtpub.com/en-co/product/learning-bootstrap-4-9781785881008/chapter/1-dot-introducing-bootstrap-4-1/section/summary-ch01lvl1sec03",
+      "https://packtpub.com/en-au/product/learning-bootstrap-4-9781785881008/chapter/4-dot-working-with-layouts-4/section/summary-ch04lvl1sec28"
+    ]
+  },
+  "learning-web-development-with-bootstrap-and-angularjs-2015": {
+    "descripcion": "Introducción práctica de Stephen Radford, desarrollador full-stack británico, al desarrollo de aplicaciones de una sola página combinando AngularJS (la rama 1.x) con Bootstrap 3. Está pensado para quienes ya manejan HTML, CSS y JavaScript básico y quieren dar el salto de las páginas estáticas a aplicaciones dinámicas en el navegador.\n\nEl libro arranca con un primer capítulo, «Hello, {{name}}», donde se instalan AngularJS y Bootstrap y se presenta el data binding. Luego avanza por los pilares de AngularJS: controladores, scopes y directivas integradas, filtros (incluidos filtros propios), enrutamiento con varias vistas, construcción de vistas con los componentes de Bootstrap y operaciones CRUD. También explica cómo integrar AngularStrap para usar los componentes JavaScript de Bootstrap como directivas de Angular, cómo conectar la aplicación con un servidor, cómo personalizar Bootstrap con Less, cómo automatizar tareas con Grunt y gulp, y cómo escribir una directiva propia.\n\nTodo el contenido gira en torno a un único proyecto, un gestor de contactos que crece capítulo a capítulo. Es una forma clara de entender cómo encajan las piezas de AngularJS en una aplicación real. Conviene saber que AngularJS ya no tiene soporte y no tiene nada que ver con el Angular moderno, que Bootstrap 3 está superado y que Grunt y gulp han dado paso a otras herramientas. Hoy sirve sobre todo para mantener proyectos heredados o para entender los orígenes de los frameworks SPA.",
+    "temas": [
+      "AngularJS 1.x",
+      "Bootstrap 3",
+      "Data binding",
+      "Filtros",
+      "Routing",
+      "Vistas",
+      "CRUD",
+      "Directivas",
+      "AngularStrap",
+      "Less",
+      "Grunt",
+      "gulp"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Gestor de contactos",
+        "descripcion": "Aplicación de una sola página con AngularJS y Bootstrap 3 para listar, buscar, crear, editar y borrar contactos. Usa filtros, rutas con varias vistas y componentes de AngularStrap, se conecta a un servidor y se automatiza con task runners."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://subscription.packtpub.com/book/web-development/9781783287550/appC",
+      "https://tenlong.com.tw/products/9781783287550",
+      "https://www.bookshare.org/browse/book/2361218"
+    ]
+  },
+  "mastering-bootstrap-4-2016": {
+    "descripcion": "Primera edición del libro de nivel avanzado de Benjamin Jakobus y Jason Marah sobre Bootstrap 4, escrita en 2016 sobre la versión alfa del framework. Va dirigido a desarrolladores front-end que ya conocen lo básico de Bootstrap (normalmente la versión 3), HTML, CSS y jQuery, y que quieren ir más allá de las plantillas de ejemplo.\n\nEl primer capítulo presenta las novedades de Bootstrap 4 y sus diferencias con la versión 3. A partir de ahí el libro profundiza en el estilo y la personalización con Sass, la construcción del layout con la cuadrícula, y en la navegación, los pies de página, las alertas y el contenido. También cubre la validación de formularios y cómo acelerar el desarrollo con los plugins jQuery de Bootstrap: cómo están hechos por dentro, cómo personalizarlos y cómo crear componentes propios. Además integra librerías de terceros como Salvattore, Animate.css y Hover, y aborda la optimización del sitio para que cargue más rápido y la integración de Bootstrap con frameworks de JavaScript.\n\nTodos los ejemplos se aplican a un único sitio de demostración, MyPhoto: una web para un servicio de fotografía con secciones de bienvenida, servicios, galería, acerca de y contacto, que va ganando complejidad capítulo a capítulo. Su mayor aporte es mostrar cómo extender Bootstrap de verdad, con plugins propios y personalización profunda. Hay que tener en cuenta que se basa en una alfa: muchas clases cambiaron en la versión estable, y Packt publicó en 2018 una segunda edición actualizada. Además, el enfoque centrado en jQuery ha quedado atrás, porque Bootstrap 5 ya no depende de esa librería.",
+    "temas": [
+      "Bootstrap 4",
+      "Sass",
+      "Grid y layout",
+      "Navegación",
+      "Validación de formularios",
+      "Plugins jQuery",
+      "Componentes personalizados",
+      "Salvattore",
+      "Animate.css",
+      "Optimización web"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "MyPhoto",
+        "descripcion": "Sitio web de un servicio de fotografía con secciones de bienvenida, servicios, galería, acerca de y contacto. Se construye y amplía durante todo el libro con Bootstrap 4, Sass, plugins jQuery propios y librerías de terceros como Salvattore y Animate.css."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://packtpub.com/en-in/product/mastering-bootstrap-4-9781783981120",
+      "https://www.oreilly.com/library/view/mastering-bootstrap-4/9781783981120/ch03s03.html",
+      "https://subscription.packtpub.com/book/web-development/9781783981120/5/ch05lvl1sec32/5-speeding-up-development-using-jquery-plugins",
+      "https://subscription.packtpub.com/book/web-development/9781783981120/1/ch01lvl1sec05/summary"
+    ]
+  },
+  "jump-start-bootstrap-2014": {
+    "descripcion": "Libro breve de la colección Jump Start de SitePoint, escrito por Syed Fazle Rahman (más tarde cofundador de Hashnode) y publicado en mayo de 2014, cuando la versión vigente era Bootstrap 3. La editorial lo presenta como una introducción para leer en un fin de semana. Está pensado para diseñadores y desarrolladores que saben HTML y CSS y quieren empezar a hacer sitios responsive con un framework.\n\nEl libro tiene seis capítulos. Empieza presentando el framework, su plantilla básica y su estructura de archivos, y sigue con el sistema de cuadrícula responsive. Después recorre los componentes (navegación, barras de navegación, paneles, etc.) y los plugins de JavaScript basados en jQuery, como modales, carruseles y pestañas. El capítulo «Diving Deep: Customizing Bootstrap» explica cómo sobrescribir los estilos por defecto para adaptar Bootstrap a cualquier proyecto, y el último, «Optimizing Bootstrap», trata la minificación del CSS y el JavaScript y cómo recortar el paquete por defecto para quedarse solo con lo que se usa.\n\nEs una lectura rápida y práctica, con fragmentos de código fáciles de seguir, ideal para perderle el miedo al framework. A cambio, no profundiza: la personalización se limita sobre todo a sobrescribir estilos, y algunos lectores echan en falta estrategias de diseño propias, así que no hay que esperar temas a fondo con Less ni flujos de build complejos. Hoy está desactualizado frente a Bootstrap 5, que ya no depende de jQuery y usa Sass, aunque los conceptos de la cuadrícula y los componentes siguen siendo útiles.",
+    "temas": [
+      "Bootstrap 3",
+      "Diseño responsive",
+      "Plantilla básica",
+      "Sistema de cuadrícula",
+      "Componentes",
+      "Plugins jQuery",
+      "Personalización",
+      "Optimización y minificación"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.sitepoint.com/premium/books/jump-start-bootstrap/",
+      "https://www.goodreads.com/book/show/21818489",
+      "https://search.clevnet.org/Record/a6774183",
+      "https://www.oreilly.com/library/view/jump-start-bootstrap/9781457174346/"
+    ]
+  },
+  "twitter-bootstrap-succinctly-2014": {
+    "descripcion": "Libro breve de la serie Succinctly de Syncfusion, publicado en julio de 2014, en el que Peter Shaw explica Twitter Bootstrap en su versión 2, el nombre y la rama que tenía el framework antes de Bootstrap 3. Es una introducción para desarrolladores web, sobre todo los que vienen del back-end o no tienen perfil de diseñador, que quieren dar a sus proyectos una interfaz ordenada y atractiva sin escribir mucho CSS.\n\nEl índice va de lo general a lo particular: qué es Twitter Bootstrap, cómo añadirlo a un proyecto, el andamiaje (scaffolding) con la cuadrícula de 12 columnas y los layouts fijos y fluidos, las clases CSS base para tipografía, tablas e imágenes, los formularios y los botones. Después pasa a los componentes, como menús desplegables, pestañas, migas de pan, navegación, paginación, etiquetas y alertas. Los capítulos finales, opcionales, tratan los plugins de JavaScript de Bootstrap basados en jQuery y cómo extender el framework.\n\nEs un manual de consulta rápida, con fragmentos de HTML para cada clase o componente en lugar de un proyecto completo, y por eso resulta útil para aprender el vocabulario del framework. Lo que hay que saber antes es que trata una versión muy antigua: Bootstrap 3 cambió los nombres de la cuadrícula y adoptó el enfoque mobile-first, así que para trabajar hoy conviene pasar directamente a los títulos de Shaw sobre Bootstrap 3 y 4 de la misma serie, o a la documentación actual.",
+    "temas": [
+      "Twitter Bootstrap 2",
+      "Scaffolding",
+      "Grid de 12 columnas",
+      "Clases CSS base",
+      "Formularios",
+      "Botones",
+      "Componentes",
+      "Plugins JavaScript",
+      "jQuery",
+      "Extensiones"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.syncfusion.com/succinctly-free-ebooks/twitterbootstrap",
+      "https://www.syncfusion.com/ebooks/twitterbootstrap"
+    ]
+  }
+}

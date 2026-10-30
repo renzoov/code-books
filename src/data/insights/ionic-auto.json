@@ -1,0 +1,134 @@
+{
+  "learn-ionic-2-2017": {
+    "descripcion": "Manual conciso de introducción rápida escrito por Joyce Justin y Joseph Jude que explica los conceptos fundamentales para desarrollar aplicaciones móviles híbridas utilizando el framework Ionic 2, Angular 2+ y TypeScript. Está dirigido a desarrolladores web, programadores principiantes en el ecosistema móvil y emprendedores técnicos que ya dominan HTML, CSS y JavaScript básico y necesitan familiarizarse con la arquitectura basada en componentes de Ionic 2 y Angular de forma ágil y estructurada.\n\nEl texto detalla la instalación y preparación del entorno de desarrollo mediante Node.js, Apache Cordova y la interfaz de línea de comandos de Ionic (Ionic CLI). Expone la transición arquitectónica frente a la versión anterior de Ionic, explicando el uso de TypeScript, decoradores, inyección de dependencias y la navegación basada en pilas con NavController. Enseña a componer interfaces con botones, listas, tarjetas y formularios, así como a conectar la aplicación con servicios remotos y APIs REST mediante el cliente HTTP de Angular (HttpModule) para procesar respuestas en formato JSON. Asimismo, aborda la implementación de pantallas y flujos de gestión de usuarios (registro, inicio de sesión y recuperación de contraseña), la incorporación de servicios de analítica para evaluar el uso de la aplicación y la personalización estética con SASS antes de empaquetar para iOS y Android.\n\nA lo largo de sus capítulos se desarrollan ejemplos prácticos progresivos, desde un contador interactivo para comprender el data binding hasta una aplicación de citas célebres (Famous Quotes App) que consume un servicio REST para obtener y presentar frases célebres con pantallas de lista y detalle, además de plantillas de autenticación. Su principal ventaja es su brevedad y carácter directo para ponerse en marcha en poco tiempo; como contraparte, debido a su extensión de unas 105 páginas, deja fuera temas como la persistencia de datos offline avanzada, pruebas automatizadas y patrones de arquitectura de estado complejo.",
+    "temas": [
+      "Ionic 2",
+      "Angular 2",
+      "TypeScript",
+      "Ionic CLI",
+      "Cordova",
+      "NavController",
+      "APIs REST",
+      "HTTP",
+      "Autenticación de usuarios",
+      "SASS",
+      "Multiplataforma"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Famous Quotes App (Aplicación de citas célebres)",
+        "descripcion": "Aplicación móvil que realiza peticiones HTTP con Angular a un servicio REST para obtener y desplegar colecciones de citas en listas interactivas, con pantallas de detalle y navegación estructurada."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2617-9",
+      "https://www.amazon.com/dp/1484226161",
+      "https://www.kobo.com/us/en/ebook/learn-ionic-2"
+    ]
+  },
+  "ionic-in-action-2015": {
+    "descripcion": "Guía práctica y detallada escrita por Jeremy Wilken que enseña a diseñar y programar aplicaciones móviles híbridas para iOS y Android utilizando la primera versión de Ionic (Ionic 1.x), AngularJS (1.x) y Apache Cordova. Está dirigida a desarrolladores web de nivel básico a intermedio que conocen HTML, CSS y JavaScript y quieren crear aplicaciones móviles de alto rendimiento con estética y respuesta nativas sin requerir conocimientos de Java, Objective-C o Swift.\n\nLa obra analiza en detalle los componentes del framework Ionic y las directivas de AngularJS ($scope, servicios, factories y enrutamiento avanzado con UI-Router mediante estados anidados). Cubre la implementación de barras de navegación con historial automático, barras de pestañas independientes (ion-tabs), listas complejas con reordenamiento y botones deslizables, y controles de formulario como toggles, radios y sliders. Enseña a utilizar menús laterales deslizables (side menus), ventanas modales (ionModal), hojas de acción contextuales (ionActionSheet) y contenedores de desplazamiento con soporte para pull-to-refresh e infinite scroll mediante ionScroll. Además, explica cómo integrar plugins de Apache Cordova para acceder a funciones nativas de hardware como la cámara y la geolocalización GPS, aplicar estilos con Sass, realizar pruebas unitarias con Karma, pruebas de integración con Protractor y preparar el binario final mediante la consola de Ionic.\n\nEl aprendizaje se articula a través del desarrollo completo de tres aplicaciones prácticas: una aplicación turística para un complejo vacacional (Resort App) con carrusel de bienvenida y navegación multinivel; un monitor financiero de cotización de criptomonedas (Bitcoin Tracker) con navegación independiente por pestañas, gráficas históricas de precios y refresco al deslizar; y una aplicación meteorológica (Weather App) multiciudad que integra menús laterales, ventanas modales para añadir localidades y pronósticos horarios vinculados a la geolocalización GPS. Es una obra destacada por su solidez metodológica y su cuidado en los patrones de experiencia de usuario móvil; el punto central a considerar es que pertenece a la etapa clásica de Ionic 1 y AngularJS, previa a la reescritura del framework basada en TypeScript y Web Components.",
+    "temas": [
+      "Ionic 1",
+      "AngularJS",
+      "Apache Cordova",
+      "UI-Router",
+      "Sass",
+      "ion-tabs",
+      "Side menus",
+      "Modales",
+      "Plugins de Cordova",
+      "Geolocalización",
+      "Karma",
+      "Protractor"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Resort App",
+        "descripcion": "Prototipo de aplicación turística para un resort vacacional que implementa un carrusel de bienvenida con ion-slide-box, navegación multinivel, listados de actividades y carga de datos externos con scroll infinito."
+      },
+      {
+        "nombre": "Bitcoin Tracker",
+        "descripcion": "Aplicación de seguimiento financiero que consulta cotizaciones en vivo de Bitcoin en distintas divisas, utilizando pestañas con historiales independientes, gráficas de evolución de precios y gesto pull-to-refresh."
+      },
+      {
+        "nombre": "Weather App (Aplicación de clima)",
+        "descripcion": "Herramienta meteorológica multiciudad que organiza localidades mediante un menú lateral deslizable, permite añadir ciudades mediante ventanas modales y presenta pronósticos horarios con ionScroll y geolocalización GPS."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/ionic-in-action",
+      "https://www.oreilly.com/library/view/ionic-in-action/9781633430082/",
+      "https://www.amazon.com/dp/1633430087"
+    ]
+  },
+  "ionic-cookbook-2015": {
+    "descripcion": "Recetario técnico desarrollado por Hoc Phan para resolver problemáticas comunes y avanzadas en el desarrollo de aplicaciones móviles híbridas con Ionic 1 (1.x), AngularJS (1.x) y Apache Cordova. Está pensado para programadores de JavaScript y desarrolladores web de nivel intermedio que ya conocen la sintaxis y conceptos básicos de AngularJS y buscan soluciones directas, modulares y probadas para integrar hardware, persistir datos y pulir el rendimiento de sus aplicaciones móviles.\n\nEl libro reúne más de 35 recetas prácticas organizadas en diez capítulos temáticos: estructuración de proyectos con Ionic CLI, navegación jerárquica y manejo de estados con UI-Router ($stateProvider, estados abstractos, parámetros de URL y transiciones animadas), y acceso a sensores y hardware mediante la librería ngCordova (cámara fotográfica, lector de códigos de barras Barcode Scanner, geolocalización GPS, brújula digital y comprobación de conectividad de red). Dedica un bloque sustancial a la persistencia sin conexión mediante LocalStorage, WebSQL, bases de datos SQLite nativas con el plugin $cordovaSQLite y sincronización offline con PouchDB. Asimismo, cubre el reconocimiento de gestos táctiles mediante $ionicGesture, la captura del botón físico 'Atrás' en Android con $ionicPlatform, la creación de componentes personalizados en AngularJS, la autenticación de usuarios mediante OAuth con Facebook y Google usando InAppBrowser, la sincronización de datos en tiempo real mediante Firebase y AngularFire (three-way data binding), y la optimización de rendimiento con Crosswalk Project para garantizar compatibilidad con WebViews antiguas en Android.\n\nSu estructura de recetas independientes prescinde de un único proyecto troncal y se enfoca en resolver requerimientos técnicos de aplicación inmediata. Aporta un valor notable al tratar escenarios prácticos cruciales que suelen quedar fuera de manuales introductorios, tales como el soporte offline con SQLite nativo, la integración en tiempo real de Firebase y el uso de Crosswalk para solventar la fragmentación de navegadores en Android. Conviene tener presente que está circunscrito a Ionic 1 y AngularJS 1.x, por lo que sirve principalmente como referencia técnica histórica y formativa sobre la arquitectura de aplicaciones híbridas.",
+    "temas": [
+      "Ionic 1",
+      "AngularJS",
+      "Apache Cordova",
+      "ngCordova",
+      "UI-Router",
+      "SQLite",
+      "Firebase",
+      "AngularFire",
+      "Autenticación OAuth",
+      "Sass",
+      "Crosswalk",
+      "Gestos táctiles"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.amazon.com/dp/1785287974",
+      "https://www.packtpub.com/en-us/product/ionic-cookbook-9781785287978"
+    ]
+  },
+  "learning-ionic-2015": {
+    "descripcion": "Guía introductoria orientada a desarrolladores web que buscan incursionar en el desarrollo móvil híbrido multiplataforma utilizando Ionic 1 (apoyado en AngularJS 1.x) y Apache Cordova 5. Para aprovechar el libro se requieren conocimientos sólidos de HTML, CSS y JavaScript moderno; aunque la obra incluye un primer capítulo de nivelación sobre la arquitectura y directivas de AngularJS, es conveniente tener cierta familiaridad previa con este framework para avanzar con soltura.\n\nEl autor expone los principios de la arquitectura híbrida y el ciclo de vida de una aplicación móvil, profundizando en los componentes de interfaz de usuario de Ionic (barras de navegación, listas `ion-list`, pestañas, ventanas modales y el sistema de navegación por estados mediante UI-Router). Enseña a personalizar y estructurar temas visuales con Sass/SCSS y a organizar la lógica de negocio con servicios y recursos de Angular para consumir APIs REST. En el apartado de hardware y capacidades nativas, cubre la integración de Apache Cordova y la biblioteca ngCordova para interactuar con la cámara del dispositivo, el estado de la red y la geolocalización, además de integrar Firebase como almacén de datos y sincronización en tiempo real.\n\nA lo largo del texto se desarrollan dos aplicaciones completas: una tienda de libros (\"Bookstore App\") con catálogo y consumo de un backend REST, y una aplicación de mensajería (\"Messaging App\") con sincronización de mensajes en vivo en Firebase y uso de la cámara del dispositivo. Su principal mérito radica en abarcar el flujo de trabajo completo, desde la preparación del entorno con Node.js, Gulp y Cordova CLI hasta el empaquetado, firmado y compilación para iOS y Android; no obstante, debe tenerse en cuenta que su contenido refleja el estándar tecnológico de 2015 basado en AngularJS 1.x, por lo que resulta especialmente útil para el mantenimiento o modernización de proyectos heredados de la primera generación de Ionic.",
+    "temas": [
+      "Ionic Framework 1",
+      "AngularJS",
+      "Apache Cordova",
+      "ngCordova",
+      "Sass / SCSS",
+      "UI-Router",
+      "Firebase",
+      "APIs REST",
+      "Híbrido móvil",
+      "Compilación y empaquetado"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de catálogo de libros (Bookstore App)",
+        "descripcion": "Aplicación móvil híbrida con navegación entre vistas de catálogo y detalle, conectada a un servidor REST para listar, explorar y gestionar libros."
+      },
+      {
+        "nombre": "Aplicación de mensajería en tiempo real (Messaging App)",
+        "descripcion": "Chat para dispositivos móviles conectado a Firebase para sincronizar mensajes en tiempo real e integrado con ngCordova para capturar y adjuntar imágenes desde la cámara."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/learning-ionic-9781783552603",
+      "https://www.amazon.com/Learning-Ionic-Arvind-Ravulavaru/dp/1783552603",
+      "https://www.oreilly.com/library/view/learning-ionic/9781783552603/",
+      "https://github.com/PacktPublishing/Learning-Ionic"
+    ]
+  }
+}

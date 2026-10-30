@@ -1,0 +1,537 @@
+{
+  "docs-for-developers-2nd-edition-2026": {
+    "descripcion": "Guía práctica de referencia sobre comunicación técnica y redacción de documentación de software, publicada por Apress en su segunda edición (actualizada a 2026). Está dirigida a desarrolladores de software, líderes técnicos, arquitectos, jefes de producto y defensores de desarrolladores (DevRel) de nivel intermedio a avanzado que necesitan crear, mantener y escalar documentación técnica de alta calidad sin depender exclusivamente de un equipo dedicado de redactores profesionales.\n\nLa obra aborda todo el ciclo de vida de la documentación bajo el paradigma de docs-as-code: investigación y modelado de audiencia, redacción de registros de fricción (friction logs), estructuración de READMEs efectivos, guías paso a paso, tutoriales de inicio rápido y especificaciones de referencia de APIs con OpenAPI/Swagger. Explica la integración de herramientas de edición y automatización basadas en Markdown, generadores de sitios estáticos, linters de estilo como Vale y control de versiones con Git. Como principal novedad de esta edición de 2026, los autores incorporan directrices y flujos de trabajo prácticos para incorporar herramientas de inteligencia artificial y automatización en la redacción, edición y actualización de la documentación sin sacrificar la voz autoral, la precisión técnica ni la experiencia del lector.\n\nA través de una narrativa que sigue a un equipo de desarrollo ficticio (Corg.ly) durante el lanzamiento de su API de software, los capítulos ofrecen plantillas accionables, listas de control y ejercicios prácticos de redacción y medición del impacto de los textos (como tiempo hasta el primer éxito o reducción de tickets de soporte). Es un recurso sumamente valioso para inculcar empatía hacia el usuario y rigor comunicativo en equipos de ingeniería; conviene tener presente que no enseña a programar aplicaciones ni a configurar despliegues complejos, sino a transformar la documentación en un componente de ingeniería sostenible y colaborativo.",
+    "temas": [
+      "Documentación técnica",
+      "Docs-as-code",
+      "Redacción de APIs",
+      "OpenAPI",
+      "Friction Logs",
+      "Inteligencia Artificial en Docs",
+      "README y Tutoriales",
+      "Markdown y Git",
+      "Métricas de documentación",
+      "Vale Linter"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://docsfordevelopers.com",
+      "https://link.springer.com/book/9798868825088",
+      "https://www.oreilly.com/library/view/docs-for-developers/9781484272169/",
+      "https://www.amazon.com/Docs-Developers-Engineers-Technical-Writing/dp/B0D5N9CS6T"
+    ]
+  },
+  "portable-document-format-specification-1-7-2008-2008": {
+    "descripcion": "Especificación técnica y normativa oficial del formato Portable Document Format (PDF versión 1.7), editada por Adobe Systems en 2008 en coincidencia directa con su adopción y publicación como estándar internacional abierto ISO 32000-1:2008. Está dirigida a ingenieros de software de sistemas, desarrolladores de motores de renderizado, creadores de librerías de generación o parseo de documentos y especialistas en computación gráfica de nivel intermedio a avanzado que requieran implementar o auditar software que lea, genere o transforme archivos PDF a bajo nivel sin abstracciones intermedias.\n\nEl documento detalla con máxima minuciosidad la arquitectura del formato: la sintaxis de objetos atómicos (booleanos, números, cadenas, nombres, diccionarios y flujos de bytes), la estructura física del archivo (encabezado, cuerpo, tabla de referencias cruzadas xref y trailer) y el mecanismo de actualizaciones incrementales. Describe el modelo de renderizado bidimensional heredero de PostScript (espacios de color DeviceGray, DeviceRGB, DeviceCMYK, Lab, ICCBased, curvas de Bézier, matrices de transformación afín, transparencia y modos de mezcla), la gestión tipográfica (fuentes Type 1, TrueType, Type 3, fuentes compuestas CIDFont y tablas CMap/ToUnicode), formularios interactivos (AcroForms y la arquitectura XFA), firmas digitales, esquemas de seguridad y cifrado (RC4 y AES con gestores estándar y de clave pública), filtros de compresión (FlateDecode, DCTDecode, JBIG2) y la estructura lógica para accesibilidad (Tagged PDF y metadatos XMP).\n\nAl tratarse de una especificación estándar puramente normativa, carece por completo de tutoriales de programación didácticos o proyectos de software guiados; su propósito es actuar como la referencia técnica definitiva e incontrovertible que define cómo debe operar cualquier lector o procesador de PDF 1.7 conforme a la norma. Su valor es incalculable para quienes diseñan herramientas de bajo nivel, visores o conversores gráficos; no obstante, su lectura requiere conocimientos matemáticos de geometría afín, álgebra lineal, teoría del color y estructuras de datos binarias, por lo que resulta excesivamente densa e innecesaria para desarrolladores que solo necesiten generar informes rutinarios mediante bibliotecas de alto nivel.",
+    "temas": [
+      "PDF 1.7",
+      "ISO 32000-1",
+      "Especificación técnica",
+      "Estructura de archivos y Xref",
+      "Modelo gráfico 2D",
+      "Fuentes tipográficas y CMaps",
+      "AcroForms",
+      "Espacios de color",
+      "Cifrado AES y seguridad",
+      "Tagged PDF y XMP"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.adobe.com/devnet/pdf/pdf_reference.html",
+      "https://www.pdfa.org/resource/iso-32000-12008/",
+      "https://www.iso.org/standard/51502.html",
+      "https://www.loc.gov/preservation/digital/formats/fdd/fdd000123.shtml"
+    ]
+  },
+  "adobe-indesign-interactive-digital-publishing-2017": {
+    "descripcion": "Manual práctico escrito por Ted Padova centrado en la creación de publicaciones digitales e interactivas utilizando Adobe InDesign CC. La obra está dirigida a diseñadores gráficos, maquetadores editoriales y profesionales de la producción impresa de nivel intermedio que desean trasladar sus habilidades de diseño estático al entorno digital para su consumo en ordenadores, tabletas y teléfonos inteligentes, requiriendo familiaridad previa con la interfaz y las funciones básicas de maquetación en InDesign.\n\nA lo largo de sus capítulos, el texto profundiza en las herramientas nativas de interactividad del programa, tales como los paneles de animación, botones y formularios (Buttons and Forms), hipervínculos, marcadores y objetos con múltiples estados (Multi-State Objects o MSO). Detalla la configuración de estilos de párrafo y carácter optimizados para pantallas, el formateo de tablas, la inserción de contenido multimedia enriquecido (audio y vídeo MP4/HTML5) y los flujos de exportación hacia tres formatos principales: EPUB de diseño fijo (Fixed-Layout), EPUB redistribuible (Reflowable) y PDF interactivo, además del uso del servicio Adobe Publish Online para compartir documentos en la web.\n\nEl aprendizaje se apoya en la elaboración guiada de piezas editoriales interactivas, como catálogos con galerías dinámicas, formularios electrónicos en PDF con campos interactivos y libros electrónicos enriquecidos compatibles con diferentes lectores digitales. El autor aporta un catálogo indispensable de trucos, técnicas y soluciones alternativas (workarounds) para sortear las discrepancias de renderizado entre sistemas operativos y visores; sin embargo, deja fuera la automatización mediante scripts avanzados (ExtendScript) o la codificación manual exhaustiva de HTML y CSS, enfocándose estrictamente en el ecosistema nativo de InDesign.",
+    "temas": [
+      "Adobe InDesign CC",
+      "Fixed-Layout EPUB",
+      "Reflowable EPUB",
+      "PDF interactivo",
+      "Multi-State Objects",
+      "Adobe Publish Online",
+      "Animaciones",
+      "Diseño editorial digital",
+      "Formularios digitales",
+      "Multimedia HTML5"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Publicación digital con Adobe Publish Online",
+        "descripcion": "Documento interactivo maquetado para su distribución en la web mediante el servicio de Adobe, incorporando navegación táctil y soporte para su visualización en navegadores móviles y de escritorio."
+      },
+      {
+        "nombre": "Libro interactivo en Fixed-Layout EPUB",
+        "descripcion": "Publicación electrónica de maquetación fija diseñada en InDesign CC, que integra animaciones automáticas, galerías con objetos de múltiples estados (MSO) y botones de navegación."
+      },
+      {
+        "nombre": "Formulario digital en PDF interactivo",
+        "descripcion": "Documento en formato PDF enriquecido con botones de acción, marcadores jerárquicos y campos de formulario editables para captura y validación de datos del usuario."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2439-7",
+      "https://www.oreilly.com/library/view/adobe-indesign-interactive/9781484224397/"
+    ]
+  },
+  "building-an-enterprise-chatbot-2019": {
+    "descripcion": "Obra técnica escrita por Abhishek Singh, Karthik Ramasubramanian y Shrey Shivam orientada al diseño, construcción y despliegue de asistentes conversacionales para entornos corporativos con altos requisitos de confidencialidad. El libro está dirigido a desarrolladores de software, científicos de datos y arquitectos de soluciones de nivel intermedio que cuentan con experiencia previa en programación (principalmente Python o Java) y necesitan implementar agentes inteligentes capaces de procesar datos empresariales protegidos sin comprometer información confidencial ni sensible.\n\nEl contenido cubre todo el proceso de ingeniería conversacional, desde la identificación y mapeo de procesos de negocio en sectores altamente regulados (como banca y seguros) hasta la arquitectura de microservicios. Enseña conceptos fundamentales de procesamiento, comprensión y generación de lenguaje natural (NLP, NLU y NLG), tokenización, similitud semántica y extracción de entidades con librerías como spaCy y NLTK. Asimismo, aborda la construcción desde cero de un framework propietario denominado IRIS (Intent Recognition and Information Service) con Java y Python, analiza plataformas de código abierto como Rasa y Botpress, y examina la integración con servicios en la nube como Google Dialogflow, Microsoft Bot Framework y AWS.\n\nEn la parte práctica se implementa la arquitectura modular del sistema IRIS, conectando la lógica del chatbot y su interfaz de usuario con bases de datos heredadas mediante APIs REST seguras y webhooks para resolver trámites como cotizaciones de pólizas o consultas de saldos. Su gran valor reside en abordar con seriedad el cumplimiento normativo, la privacidad de datos corporativos (PII) y el aprendizaje representacional para la mejora continua del bot en producción; conviene tener presente que, al ser publicado en 2019, no cubre los modelos fundacionales recientes (LLMs modernos), centrándose en canalizaciones de PLN clásicas y dialog management estructurado.",
+    "temas": [
+      "Chatbots empresariales",
+      "Rasa",
+      "Python",
+      "Java",
+      "Spring Boot",
+      "Procesamiento de Lenguaje Natural (PLN)",
+      "NLU",
+      "Botpress",
+      "Google Dialogflow",
+      "Seguridad de datos",
+      "APIs REST"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework conversacional IRIS (Intent Recognition and Information Service)",
+        "descripcion": "Asistente virtual de nivel empresarial implementado con Java (Spring Boot) y Python para la gestión segura de trámites financieros y de seguros, que conecta un motor de intenciones NLP con bases de datos heredadas mediante APIs REST y expone una interfaz web conversacional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5034-1",
+      "https://github.com/Apress/building-an-enterprise-chatbot",
+      "https://www.oreilly.com/library/view/building-an-enterprise/9781484250341/"
+    ]
+  },
+  "software-development-from-a-to-z-2018": {
+    "descripcion": "Guía panorámica escrita por Olga Filipova y Rui Vilão que desglosa el ciclo de vida completo del desarrollo de software (SDLC) a través de los distintos roles y disciplinas de un equipo de ingeniería. Está dirigida a desarrolladores principiantes e intermedios, gestores de proyectos, diseñadores y líderes técnicos que buscan entender cómo encajan las diferentes áreas funcionales de un proyecto de software real, requiriendo únicamente nociones generales sobre tecnología o desarrollo web para seguir los conceptos presentados.\n\nEl libro recorre de manera estructurada cada una de las fases de producción: desde la concepción de la idea, la definición de requisitos y la gestión ágil con marcos como Scrum y Kanban, hasta el diseño centrado en el usuario (UX/UI) con prototipos y wireframes. En el apartado técnico, enseña la creación de un backend en Java con gestión de dependencias en Maven y comunicación mediante APIs REST conectadas a bases de datos relacionales, el desarrollo de la interfaz de usuario en el frontend con el framework Vue.js (utilizando JavaScript, HTML, CSS y el ecosistema npm), y la automatización de pruebas de control de calidad (QA) de extremo a extremo mediante Selenium WebDriver.\n\nA lo largo del recorrido se sigue el desarrollo coordinado de una aplicación web completa, permitiendo al lector experimentar cómo colaboran el gestor de producto, el diseñador, el programador backend, el desarrollador frontend y el ingeniero de pruebas hasta llegar al despliegue continuo (CI/CD) y mantenimiento. Su principal fortaleza radica en brindar una perspectiva holística indispensable para trabajar en equipos multidisciplinares y derribar silos organizativos; no obstante, no busca ser una referencia exhaustiva de sintaxis avanzada para Java o Vue.js, por lo que resulta ideal como mapa de ruta antes de especializarse en un área tecnológica concreta.",
+    "temas": [
+      "Ciclo de vida del software (SDLC)",
+      "Metodologías ágiles",
+      "Scrum",
+      "Java",
+      "Vue.js",
+      "REST APIs",
+      "Selenium",
+      "Bases de datos",
+      "CI/CD",
+      "DevOps",
+      "Diseño UX/UI"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación web integral multi-rol",
+        "descripcion": "Desarrollo completo de una aplicación web construida colaborativamente paso a paso: arquitectura y API REST en Java con Maven para el backend, interfaz reactiva en Vue.js para el frontend y batería de pruebas automatizadas con Selenium WebDriver."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3945-2",
+      "https://github.com/Apress/software-development-from-a-to-z",
+      "https://www.oreilly.com/library/view/software-development-from/9781484239452/"
+    ]
+  },
+  "visual-studio-code-distilled-2019": {
+    "descripcion": "Manual práctico de Alessandro Del Sole concebido para transformar Visual Studio Code en un entorno de desarrollo integrado ágil, productivo y multiplataforma en sistemas Windows, macOS y Linux. Está dirigido a programadores principiantes y profesionales de cualquier especialidad (desarrollo web, móvil, backend o cloud) que desean migrar desde editores de texto básicos o entornos IDE tradicionales más pesados y buscan dominar la herramienta desde sus fundamentos sin necesidad de experiencia previa con VS Code.\n\nEl libro profundiza en las capacidades del editor, abarcando la navegación eficiente con la paleta de comandos, atajos de teclado, cursores múltiples, minimapa y el terminal integrado. Explora el sistema inteligente de asistencia de código IntelliSense, análisis sintáctico, navegación por símbolos (\"Go to Definition\", \"Find All References\") y vistas previas de Markdown. Asimismo, enseña a configurar espacios de trabajo multirraíz (multi-root workspaces), personalizar temas y atajos mediante `settings.json`, gestionar el control de versiones con la integración nativa de Git (confirmaciones, ramas y diferencias visuales) y automatizar flujos de trabajo mediante la configuración de tareas en `tasks.json`.\n\nLa obra se ejercita mediante casos prácticos de configuración y sesiones guiadas de depuración paso a paso (`launch.json`) utilizando puntos de interrupción, ventanas de inspección y la consola de depuración para entornos como Node.js, .NET Core / C# y Python. Su gran cualidad es sintetizar las mejores prácticas de configuración y extensión desde el Visual Studio Code Marketplace en un formato directo y sin rodeos; no obstante, al haber sido editado en 2019, deja fuera características introducidas posteriormente como perfiles de usuario, Dev Containers o la integración de asistentes de inteligencia artificial generativa.",
+    "temas": [
+      "Visual Studio Code",
+      "IntelliSense",
+      "Git",
+      "Depuración de código",
+      "tasks.json",
+      "launch.json",
+      "Multi-root workspaces",
+      "Terminal integrado",
+      "Node.js",
+      ".NET Core",
+      "Productividad"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4224-7",
+      "https://www.oreilly.com/library/view/visual-studio-code/9781484242247/"
+    ]
+  },
+  "database-design-using-entity-relationship-diagrams-2nd-edition-2011": {
+    "descripcion": "Texto académico y formativo de Richard Earp y Sikha Bagui dedicado al diseño conceptual y lógico de bases de datos relacionales mediante diagramas Entidad-Relación (ER) y Entidad-Relación Extendido (EER). Está pensado para estudiantes de informática, analistas de sistemas, diseñadores de bases de datos noveles y programadores que necesitan comprender cómo modelar formalmente la información antes de plasmarla en un motor DBMS, sin exigir más que una comprensión básica de estructuras de datos e informática general.\n\nLa obra expone con rigor los conceptos esenciales del modelo ER clásico (notación de Peter Chen) y la notación de Barker / Crow's Foot: conjuntos de entidades, entidades débiles, atributos simples y compuestos, claves primarias y candidatas, así como restricciones estructurales de cardinalidad (1:1, 1:N, M:N) y participación (total y parcial). En su segunda edición, amplía el tratamiento del modelo relacional, las dependencias funcionales y las formas normales (1FN, 2FN, 3FN, BCNF), además de profundizar en conceptos avanzados de diagramas EER como relaciones ternarias, especialización, generalización (subclases, superclases, disyunción y solapamiento) y las reglas algorítmicas de ingeniería inversa para transformar esquemas existentes en diagramas conceptuales.\n\nCada capítulo concluye con una batería detallada de ejercicios prácticos y casos de estudio reales (gestión hospitalaria, sistemas universitarios y catálogos comerciales) donde se entrena la interpretación de requisitos de usuario, la confección de diagramas precisos y su traducción a esquemas de tablas relacionales. Su principal mérito es enseñar a pensar la arquitectura de los datos de forma independiente del motor físico, garantizando esquemas libres de anomalías de actualización y redundancia; deja fuera la implementación técnica específica en lenguajes como SQL (DDL/DML) o la optimización física de índices, enfocándose plenamente en la fase de análisis y diseño.",
+    "temas": [
+      "Modelo Entidad-Relación (ER)",
+      "Diagramas EER",
+      "Diseño de bases de datos",
+      "Modelo relacional",
+      "Normalización",
+      "Dependencias funcionales",
+      "Restricciones de cardinalidad",
+      "Ingeniería inversa",
+      "Notación de Barker",
+      "Entidades débiles"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Database-Design-Using-Entity-Relationship-Diagrams/Bagui-Earp/p/book/9781439861760",
+      "https://www.oreilly.com/library/view/database-design-using/9781439861760/"
+    ]
+  },
+  "arcgis-web-development-2014": {
+    "descripcion": "Guía práctica enfocada en la creación de aplicaciones cartográficas interactivas y servicios geoespaciales para la web utilizando la versión 3.x de la ArcGIS API for JavaScript de Esri. El libro está orientado a desarrolladores web con conocimientos previos de JavaScript, HTML y CSS que quieren adentrarse en los sistemas de información geográfica (SIG/GIS), así como a profesionales del ámbito cartográfico tradicional que buscan llevar sus habilidades y datos espaciales desde aplicaciones de escritorio como ArcMap hacia navegadores web y entornos móviles.\n\nEl contenido introduce los conceptos nucleares de la API JavaScript de ArcGIS y el consumo de servicios geoespaciales mediante ArcGIS Server REST API. Enseña a manipular capas de datos vectoriales y raster (Feature Layers, Graphics Layers, Map Service Layers), ejecutar consultas espaciales y búsquedas por atributos con QueryTask, aplicar cálculos geométricos con Geometry Service y configurar geocodificación de direcciones. Además, profundiza en la modularidad del código y la construcción de widgets personalizados apoyándose en Dojo Toolkit (la biblioteca base de la API 3.x), el consumo de capas seguras y la configuración de proxies de servidor para resolver restricciones de CORS y autenticación corporativa.\n\nEn la parte práctica, el lector construye dos aplicaciones completas: una aplicación web móvil optimizada para la recolección y edición de datos cartográficos directamente en el terreno, y un visor cartográfico de escritorio con herramientas de consulta, navegación y capas temáticas. Es un texto valioso para entender la integración entre servidores GIS y clientes ligeros; no obstante, debe considerarse que se basa en la versión 3.x de la API y su dependencia histórica de Dojo, por lo que resulta principalmente útil para mantener o migrar aplicaciones heredadas antes del rediseño moderno que supuso la API 4.x.",
+    "temas": [
+      "ArcGIS API for JavaScript 3.x",
+      "ArcGIS Server REST API",
+      "Dojo Toolkit",
+      "Feature Layers",
+      "Geometry Service",
+      "Geocodificación",
+      "Mapas web interactivos",
+      "Recolección de datos en campo",
+      "Consultas espaciales",
+      "Proxies y CORS"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación web móvil para recolección de datos en campo",
+        "descripcion": "Herramienta web optimizada para pantallas táctiles y dispositivos móviles que permite a inspectores capturar coordenadas geográficas, completar formularios de atributos y actualizar capas de datos de ArcGIS Server en tiempo real."
+      },
+      {
+        "nombre": "Visor cartográfico interactivo para escritorio",
+        "descripcion": "Aplicación web para navegadores de escritorio que integra visualización de capas complejas, simbología dinámica, herramientas de consulta y widgets personalizados creados con Dojo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/arcgis-web-development",
+      "https://www.oreilly.com/library/view/arcgis-web-development/9781617291494/"
+    ]
+  },
+  "linked-data-2014": {
+    "descripcion": "Manual exhaustivo y pragmático sobre el diseño, consumo y publicación de datos estructurados e interoperables en la web bajo el paradigma de Linked Data (Datos Enlazados) y la Web Semántica. El libro está dirigido a desarrolladores web, arquitectos de software y gestores de datos con conocimientos generales de programación (especialmente en JavaScript o Python) que desean aprender a interconectar sistemas y exponer información comprensible para máquinas sin perderse en el lenguaje excesivamente académico tradicional del área.\n\nLa obra enseña los principios rectores de Linked Data y el diseño de URIs persistentes, el modelado conceptual con el estándar RDF (Resource Description Framework) y sus diferentes formatos de serialización (Turtle, JSON-LD, RDF/XML y RDFa). Explica en detalle cómo formular consultas complejas y federadas mediante SPARQL, el aprovechamiento de vocabularios estándar (como FOAF, Dublin Core, SKOS y Schema.org para posicionamiento y rich snippets en buscadores), la administración de bases de datos especializadas en grafos (Triplestores y Quadstores) y la negociación de contenido HTTP para servir tanto vistas HTML como representaciones RDF.\n\nA lo largo de sus capítulos se practica el consumo y procesamiento de grandes repositorios públicos de datos (como DBpedia y catálogos de datos abiertos de administraciones públicas) y se culmina explorando la arquitectura de una aplicación semántica completa construida con la plataforma Callimachus. Su principal virtud reside en aterrizar conceptos complejos a problemas concretos de desarrollo e indexación web; cabe señalar que la plataforma Callimachus perdió tracción comercial con el paso del tiempo, pero los fundamentos sobre RDF, SPARQL y Schema.org permanecen vigentes en la web semántica y los grafos de conocimiento contemporáneos.",
+    "temas": [
+      "Linked Data",
+      "RDF",
+      "SPARQL",
+      "Web Semántica",
+      "JSON-LD",
+      "Turtle",
+      "Schema.org",
+      "Triplestores",
+      "DBpedia",
+      "Callimachus",
+      "Negociación de contenido HTTP"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de gestión de datos estructurados sobre Callimachus",
+        "descripcion": "Aplicación web basada en principios semánticos que almacena grafos RDF, procesa consultas SPARQL y genera vistas interactivas consumiendo recursos enlazados y plantillas dinámicas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/linked-data",
+      "https://www.oreilly.com/library/view/linked-data/9781617290398/"
+    ]
+  },
+  "writing-for-developers-2025": {
+    "descripcion": "Guía práctica y metodológica orientada a enseñar a programadores e ingenieros de software cómo comunicar ideas técnicas complejas y redactar artículos de blog, documentación y publicaciones de ingeniería que capten y mantengan la atención de la comunidad técnica. Está destinada a desarrolladores, DevOps y líderes técnicos de cualquier nivel que dominan el código pero se enfrentan a bloqueos creativos, al síndrome del impostor o a la dificultad de estructurar textos técnicos claros, amenos y persuasivos.\n\nEl libro detalla el flujo de redacción completo de principio a fin: técnicas de ideación basadas en disparadores personales (lo que te apasiona, lo que te causó dolor o de lo que estás orgulloso), métodos de redacción rápida del primer borrador, procesos de optimización de claridad y mecanismos para solicitar retroalimentación entre pares antes de publicar. Presenta además un catálogo de patrones de diseño específicos para artículos técnicos de blog, tales como la cacería de fallos (\"Bug Hunt\"), la reescritura de sistemas (\"Rewrote It in X\"), la narración arquitectónica (\"How We Built It\"), lecciones aprendidas y análisis de benchmarks. También aborda el uso responsable de herramientas de inteligencia artificial y modelos de lenguaje (LLMs) para editar, pulir la prosa y detectar vacíos argumentales sin perder la voz técnica auténtica.\n\nNo enseña a programar una aplicación de software, sino que proporciona marcos de trabajo estructurados, listas de comprobación y patrones editoriales para que el lector desarrolle, revise y publique sus propios textos técnicos, con pautas para extenderlos luego hacia ponencias en conferencias o libros. Su gran valor está en tratar la escritura como una disciplina de ingeniería rigurosa y libre de jerga publicitaria; resulta imprescindible para quienes buscan potenciar su marca profesional, divulgar proyectos de código abierto o articular mejor las decisiones técnicas de su equipo.",
+    "temas": [
+      "Redacción técnica",
+      "Blogs de ingeniería",
+      "Comunicación para desarrolladores",
+      "Patrón Bug Hunt",
+      "Patrón How We Built It",
+      "Revisión y edición de borradores",
+      "Uso de IA en redacción",
+      "Estructuración de artículos",
+      "Charlas y conferencias",
+      "Divulgación tecnológica"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/writing-for-developers",
+      "https://www.oreilly.com/library/view/writing-for-developers/9781633437593/"
+    ]
+  },
+  "97-things-every-programmer-should-know-2010": {
+    "descripcion": "Antología clásica editada por Kevlin Henney que recopila 97 ensayos breves e independientes con consejos fundamentales sobre artesanía de software, buenas prácticas de desarrollo, diseño arquitectónico y cultura profesional. La obra está dirigida a programadores y desarrolladores de cualquier lenguaje y nivel de experiencia, desde estudiantes y perfiles junior que desean cultivar hábitos sólidos de ingeniería hasta profesionales senior que buscan afinar su criterio y perspectiva profesional.\n\nCada ensayo, firmado por reconocidos autores y practicantes de la industria como Robert C. Martin (\"Uncle Bob\"), Michael Feathers, Dan North, Seb Rose o Linda Rising, aborda una faceta concreta del desarrollo de software: la adopción de la regla del Boy Scout (\"deja el campamento más limpio de lo que lo encontraste\"), la adherencia al principio DRY, el diseño orientado al dominio y la legibilidad del código, el valor de las pruebas automatizadas como herramienta de diseño y comunicación humana, el control de la deuda técnica, la disciplina en el refactorizado, el despliegue temprano y frecuente (\"deploy early and often\") y el dominio de herramientas esenciales como el entorno de desarrollo (IDE) y los sistemas de control de versiones.\n\nPor la naturaleza antológica de su formato (artículos cortos de una o dos páginas), el libro no incluye proyectos guiados ni ejercicios prácticos de codificación paso a paso, sino lecciones condensadas concebidas para la reflexión y la adopción inmediata de mejores hábitos cotidianos. Su aportación fundamental es su carácter atemporal: enseña a pensar críticamente sobre la calidad del software más allá de las modas tecnológicas o sintácticas temporales; conviene asumirlo como un compendio de sabiduría colectiva y criterio ético que complementa la formación puramente técnica de cualquier programador.",
+    "temas": [
+      "Artesanía de software",
+      "Buenas prácticas",
+      "Regla del Boy Scout",
+      "Refactorización",
+      "Pruebas unitarias",
+      "Principio DRY",
+      "Diseño de software",
+      "Deuda técnica",
+      "Cultura de desarrollo",
+      "Colaboración en equipo"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/97-things-every/9780596809515/",
+      "https://www.amazon.com/Things-Every-Programmer-Should-Know/dp/0596809481"
+    ]
+  },
+  "active-directory-cookbook-3rd-edition-2008": {
+    "descripcion": "Guía de referencia práctica y exhaustiva estructurada en formato de recetario (con más de 300 soluciones paso a paso) para el diseño, despliegue, mantenimiento y resolución de incidencias en infraestructuras de Microsoft Active Directory. Esta tercera edición se enfoca primordialmente en las novedades introducidas en Windows Server 2008 (conservando soporte para entornos basados en Windows Server 2003) y está dirigida a administradores de sistemas, ingenieros de redes y profesionales de TI responsables de gestionar identidades corporativas y directorios distribuidos.\n\nOrganizado bajo la estructura de problema, solución y discusión técnica, el libro cubre exhaustivamente la gestión de bosques y dominios, controladores de dominio de solo lectura (RODC), políticas de contraseñas personalizadas (Fine-Grained Password Policies), administración de cuentas de usuario, grupos y unidades organizativas (OU), directivas de grupo (GPO), topologías de replicación multisitio y diagnóstico de servicios esenciales como DNS y LDAP. Detalla además el empleo de utilidades de línea de comandos (repadmin, dcdiag, dnscmd, dsadd, dsmod, ldifde, csvde), la extensión y protección del esquema, Active Directory Lightweight Directory Services (AD LDS / ADAM), copias de seguridad y recuperación ante desastres, junto con la automatización de tareas mediante scripts en VBScript/ADSI y una introducción a cmdlets de PowerShell.\n\nEl libro no construye un proyecto de software como tal, sino que guía al lector a través de centenares de procedimientos prácticos reales aplicables directamente a entornos de producción, explicando siempre el razonamiento de bajo nivel detrás de cada directiva y comando. Su valor reside en ser una referencia de cabecera definitiva para resolver incidencias de infraestructura local; debe tomarse en cuenta que se centra en el modelo tradicional de Active Directory en Windows Server 2008 on-premise, por lo que no aborda soluciones modernas de gestión de identidades en la nube como Microsoft Entra ID (anteriormente Azure AD).",
+    "temas": [
+      "Active Directory",
+      "Windows Server 2008",
+      "LDAP",
+      "DNS",
+      "Directivas de grupo (GPO)",
+      "Replicación",
+      "RODC",
+      "PowerShell",
+      "VBScript",
+      "AD LDS",
+      "Administración de sistemas",
+      "Resolución de problemas"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/active-directory-cookbook/9780596597787/",
+      "https://www.amazon.com/Active-Directory-Cookbook-Solutions-Administrators/dp/0596520593"
+    ]
+  },
+  "active-directory-5th-edition-2013": {
+    "descripcion": "Manual técnico de referencia centrado en el diseño, despliegue, administración y mantenimiento a escala de Active Directory Domain Services, actualizado para Windows Server 2012 e interoperable con infraestructuras Windows Server 2008 R2. Está dirigido a administradores de sistemas Windows, ingenieros de redes y arquitectos de identidad corporativa que ya cuentan con experiencia previa en redes TCP/IP, servicios de resolución de nombres DNS y administración básica de servidores Microsoft, y que necesitan gestionar directorios de identidades empresariales complejas.\n\nEl libro profundiza en los mecanismos internos del servicio de directorio: el árbol DIT, el esquema (attributeSchema y classSchema), la gestión de roles FSMO, el Catálogo Global y la topología de replicación física y lógica entre sitios. Enseña a operar el directorio mediante el módulo de Active Directory para Windows PowerShell, la consola Active Directory Administrative Center (ADAC), consolas MMC tradicionales como ADUC y utilidades avanzadas como ADSI Edit y LDP. Cubre la creación de filtros de búsqueda LDAP optimizados, la integración con DNS y DNSSEC, directivas de grupo (GPO y preferencias de directiva), directivas de contraseñas afinadas (Fine-Grained Password Policies), cuentas de servicio administradas (MSA), Dynamic Access Control (DAC), y la extensión hacia AD LDS (Lightweight Directory Services) y federación con ADFS.\n\nMediante casos de estudio prácticos tomados de organizaciones reales, los autores guían la planificación de bosques y dominios, el diseño de sitios de replicación, la delegación segura de permisos y las tareas críticas de respaldo y recuperación ante desastres (usando la papelera de reciclaje de Active Directory y copias de seguridad del estado del sistema). Destaca por su exhaustiva profundidad conceptual en temas como la replicación interna y el protocolo Kerberos, aunque deja fuera las arquitecturas de identidad en la nube como Azure AD (actual Microsoft Entra ID), ya que se enfoca estrictamente en infraestructura local (on-premises). Es una guía indispensable para entender el funcionamiento interno de Active Directory en entornos corporativos.",
+    "temas": [
+      "Active Directory",
+      "Windows Server 2012",
+      "PowerShell",
+      "LDAP",
+      "Kerberos",
+      "Group Policy (GPO)",
+      "ADFS",
+      "AD LDS",
+      "Replicación de sitios",
+      "FSMO",
+      "DNS y DNSSEC",
+      "Dynamic Access Control"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/active-directory-5th/9781449361211/",
+      "https://www.amazon.com/Active-Directory-Designing-Deploying-Running/dp/1449320024"
+    ]
+  },
+  "developing-with-pdf-2014": {
+    "descripcion": "Guía técnica especializada que desglosa la arquitectura interna del Portable Document Format según la especificación internacional ISO 32000-1 (PDF 1.7). Escrita por Leonard Rosenthol, uno de los arquitectos principales del formato en Adobe, la obra está pensada para desarrolladores de software, ingenieros de sistemas y arquitectos técnicos que necesitan construir visores, motores de generación, herramientas de extracción o utilidades de inspección de PDF a bajo nivel. Presupone experiencia intermedia de programación en lenguajes como C++, Java, C# o Python y familiaridad con estructuras de datos y manipulación de archivos binarios.\n\nEl texto descompone la sintaxis elemental del estándar: objetos primitivos (diccionarios, flujos binarios o streams, arrays, nombres), la tabla de referencias cruzadas (xref), las actualizaciones incrementales y la linealización para la web. Explora detalladamente el modelo gráfico (operadores de trazado de rutas, matrices de transformación de coordenadas CTM, espacios de color y transparencias), la gestión tipográfica (incrustación de fuentes Type 1 y TrueType, glifos, tablas de codificación y extracción de texto), formularios interactivos (AcroForms y widgets), anotaciones, hipervínculos, capas con Optional Content Groups (OCG) y empaquetado de archivos en colecciones o portafolios. También cubre la estructura de Tagged PDF, los metadatos XMP y los subestándares normativos como PDF/A (archivado), PDF/X (artes gráficas), PDF/UA (accesibilidad universal) y firmas electrónicas PAdES.\n\nEl autor prescinde intencionadamente de enseñar bibliotecas propietarias o de alto nivel para concentrarse en descifrar y resumir la densa especificación ISO a través de ejemplos de sintaxis nativa de PDF. Aporta un valor fundamental para depurar archivos corruptos, optimizar el rendimiento de parsers o comprender qué ocurre por debajo de librerías como Apache PDFBox, iText o MuPDF, aunque deja fuera código ejecutable listo para producción o proyectos de software completos. Es una lectura de referencia imprescindible antes de programar soluciones documentales avanzadas.",
+    "temas": [
+      "PDF",
+      "ISO 32000",
+      "AcroForms",
+      "Metadatos XMP",
+      "Fuentes y tipografía",
+      "Tagged PDF",
+      "PDF/A",
+      "PDF/UA",
+      "Modelo gráfico PDF",
+      "Estructura binaria xref",
+      "Anotaciones y capas"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/developing-with-pdf/9781449327903/",
+      "https://www.amazon.com/Developing-PDF-Dive-Portable-Document/dp/1449327916"
+    ]
+  },
+  "learning-sparql-2nd-edition-2013": {
+    "descripcion": "Introducción práctica y progresiva a SPARQL 1.1, el estándar del W3C para consultar, transformar y manipular datos en formato RDF en la Web Semántica y en bases de datos de grafos (triplestores). Escrito por Bob DuCharme, el libro está diseñado para desarrolladores, analistas de datos, gestores de metadatos e ingenieros de conocimiento sin experiencia previa en tecnologías semánticas ni lógica formal. Basta con tener conocimientos elementales sobre bases de datos relacionales (conceptos tipo SQL) o formatos estructurados como JSON y XML para seguir el recorrido formativo.\n\nEl contenido cubre desde las consultas fundamentales (SELECT, ASK, CONSTRUCT y DESCRIBE) con coincidencia de patrones de tripletas, filtros de comparación y patrones opcionales, hasta las características añadidas en SPARQL 1.1: funciones de agregación (COUNT, SUM, AVG, GROUP BY, HAVING), subconsultas, asignaciones BIND y rutas de propiedades (property paths) para recorrer grafos jerárquicos. Explica a fondo SPARQL 1.1 Update para insertar, modificar y eliminar tripletas (INSERT DATA, DELETE DATA, operaciones sobre grafos con nombre), y la federación de consultas mediante la palabra clave SERVICE, que permite combinar datos distribuidos de puntos finales públicos como DBpedia y LinkedMDB. Además, aborda el uso de herramientas de consola como Apache Jena ARQ, el manejo de formatos de respuesta en XML, JSON, CSV y TSV, y el aprovechamiento de esquemas RDFS y ontologías OWL para inferir datos implícitos.\n\nMediante decenas de consultas y recetas prácticas respaldadas por conjuntos de datos reales descargables desde el sitio web complementario del libro, el lector aprende a consultar y transformar grafos RDF de manera directa y reproducible. Destaca por desmitificar la Web Semántica con un enfoque pragmático y orientado a la integración de datos, prescindiendo del academicismo excesivo. No enseña a construir una aplicación web con interfaz gráfica completa de usuario, por lo que conviene complementarlo con un lenguaje de programación como Python o JavaScript para integrar las consultas en aplicaciones en producción.",
+    "temas": [
+      "SPARQL 1.1",
+      "RDF",
+      "Web Semántica",
+      "Linked Data",
+      "Apache Jena ARQ",
+      "Triplestores",
+      "Consultas federadas",
+      "SPARQL Update",
+      "DBpedia",
+      "Rutas de propiedades",
+      "RDFS y OWL"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-sparql-2nd/9781449371449/",
+      "https://www.amazon.com/Learning-SPARQL-Querying-Updating-1-1/dp/1449371435",
+      "http://www.learningsparql.com/"
+    ]
+  },
+  "pdf-explained-2012": {
+    "descripcion": "Guía concisa y accesible sobre la estructura técnica interna de los documentos PDF, basada en el estándar internacional ISO 32000-1. Escrita por John Whitington, fundador de una empresa de software de manipulación documental, la obra está orientada a desarrolladores, administradores de sistemas y técnicos editoriales que necesitan entender cómo opera realmente un archivo PDF por dentro sin verse abrumados por la extensión de las especificaciones oficiales. Es accesible para un nivel principiante a intermedio, requiriendo únicamente soltura con un editor de texto plano y el uso de la terminal de comandos.\n\nEl autor expone metódicamente los componentes de bajo nivel del formato: los ocho tipos de objetos básicos (enteros, reales, booleanos, cadenas, nombres, arrays, diccionarios y flujos con filtros de descompresión FlateDecode), las referencias indirectas y las cuatro divisiones del archivo (cabecera, cuerpo, tabla de referencias cruzadas o xref y cola o trailer). Analiza el árbol lógico de páginas, el subsistema de trazado gráfico vectorial, los sistemas de coordenadas, los espacios de color, la representación y codificación de fuentes tipográficas (Type 1, TrueType y mapas CMap), así como marcadores de navegación, metadatos, hipervínculos, anotaciones y el esquema de cifrado mediante contraseñas y permisos. Incluye un capítulo dedicado a la automatización de transformaciones documentales mediante la utilidad de línea de comandos PDFtk (PDF ToolKit).\n\nEl punto más instructivo del libro es el ejercicio guiado en el que el lector construye un documento PDF funcional desde cero escribiendo manualmente el código en un editor de texto plano, calculando los desplazamientos de bytes de la tabla xref y validándolo en visores estándar. Su mayor virtud es la claridad didáctica en apenas 140 páginas, ahorrando semanas de investigación técnica preliminar, aunque no profundiza en subestándares específicos (como PDF/A para archivado o PDF/X para imprenta) ni en librerías de alto nivel como iText o PDFBox. Constituye una base excelente para cualquier programador que deba inspeccionar, depurar o reparar archivos PDF.",
+    "temas": [
+      "PDF",
+      "ISO 32000",
+      "PDFtk",
+      "Estructura de archivos",
+      "Tabla xref",
+      "Gráficos vectoriales",
+      "Fuentes y tipografía",
+      "Cifrado y seguridad",
+      "Flujos comprimidos",
+      "Anotaciones y metadatos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/pdf-explained/9781449321581/",
+      "https://www.amazon.com/PDF-Explained-John-Whitington/dp/1449310029"
+    ]
+  },
+  "fundamentals-for-self-taught-programmers-2023": {
+    "descripcion": "Manual introductorio enfocado en consolidar los pilares de la ingeniería de software y las ciencias de la computación en desarrolladores autodidactas, personas en reconversión profesional hacia la tecnología y estudiantes principiantes. Escrito por Jasmine Greenaway, el libro utiliza el lenguaje C# y el entorno moderno .NET (versión 7 / C# 11) como herramientas de apoyo para materializar los conceptos teóricos. No requiere ningún conocimiento previo de programación ni formación matemática universitaria, ya que inicia desde los conceptos más elementales del razonamiento computacional.\n\nEl temario aborda el ciclo de vida del desarrollo de software (SDLC: planificación, diseño de arquitectura, implementación, pruebas, despliegue y mantenimiento) y describe las funciones cotidianas de distintos roles de la industria (ingeniería frontend, backend, móvil, datos y consultoría). En el apartado técnico, enseña la sintaxis de C#, la gestión de proyectos de consola con el CLI de .NET, tipos de datos, operadores y estructuras de control de flujo (condicionales y bucles). Introduce el razonamiento algorítmico mediante pseudocódigo, estructuras de datos fundamentales (arreglos, listas, diccionarios, pilas y colas) y algoritmos básicos como búsquedas lineales y ordenamientos simples, además de los paradigmas de programación orientada a objetos (clases, instancias, métodos, encapsulamiento y herencia), convenciones de nomenclatura y buenas prácticas de documentación.\n\nCada capítulo acompaña la teoría con fragmentos breves de código C# ejecutables en terminal, resúmenes conceptuales, preguntas de autoevaluación y entrevistas testimoniales a profesionales en activo con recomendaciones de carrera e inserción laboral. Su principal mérito consiste en estructurar el mapa mental de quienes aprendieron a programar de manera intuitiva o dispersa con tutoriales de internet, aportando rigor conceptual y criterio profesional. Por su carácter de fundamentos, deja de lado temas avanzados como concurrencia, persistencia en bases de datos relacionales o arquitecturas cloud, posicionándose como una sólida plataforma de despegue antes de afrontar especializaciones full-stack o desarrollo de nivel medio.",
+    "temas": [
+      "Fundamentos de programación",
+      "Ciencias de la computación",
+      "C#",
+      ".NET",
+      "Estructuras de datos",
+      "Algoritmos",
+      "Programación orientada a objetos",
+      "Ciclo de vida del software (SDLC)",
+      "Código limpio",
+      "Desarrollo profesional"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/fundamentals-for-self-taught-programmers-9781801812115",
+      "https://www.amazon.com/Fundamentals-Self-Taught-Programmers-engineering-exhaustive/dp/1801812111",
+      "https://github.com/PacktPublishing/Fundamentals-for-Self-Taught-Programmers"
+    ]
+  },
+  "linkedin-profile-optimization-for-dummies-2nd-edition-2020": {
+    "descripcion": "Guía práctica de desarrollo profesional y marca digital escrita por Donna Serdula, consultora especializada en posicionamiento en redes profesionales. Esta segunda edición (publicada en 2020) está adaptada a la interfaz moderna y a las características de la plataforma de LinkedIn vigentes a inicios de la década, como las herramientas para creadores, la ampliación de caracteres en titulares y los ajustes en el algoritmo de búsqueda interna. El libro está dirigido a profesionales en cualquier etapa de su carrera, desde graduados recientes y personas en transición laboral hasta directivos o desarrolladores de software, que cuentan con un perfil estático o desactualizado y desean convertirlo en una herramienta activa de atracción de oportunidades, sin requerir experiencia previa en marketing digital ni redacción publicitaria.\n\nLa autora desglosa de manera exhaustiva cada una de las secciones de un perfil y la lógica operativa detrás de los motores de búsqueda de empleo y LinkedIn Recruiter. Enseña a investigar y seleccionar palabras clave estratégicas (keywords) para mejorar el posicionamiento SEO interno, redactar titulares profesionales llamativos que vayan más allá del cargo actual, y estructurar la sección «Acerca de» (About) en primera persona mediante técnicas de narrativa personal (storytelling) orientadas a la acción. Asimismo, detalla cómo seleccionar fotos profesionales adecuadas, crear banners personalizados con herramientas como Canva, documentar la trayectoria laboral con énfasis en logros e impacto cuantificable en lugar de simples listas de funciones, y gestionar de manera proactiva las solicitudes de recomendaciones y validación de habilidades (skills and endorsements).\n\nA través de sus páginas, el lector practica la auditoría y reconfiguración integral de su propia presencia en LinkedIn, aprendiendo también a configurar los ajustes de privacidad para editar el perfil sin alertar a contactos actuales. La obra destaca por aportar un método estructurado para transformar un currículum pasivo en un mensaje de marca personal coherente, incorporando además recomendaciones para publicar contenido y ganar autoridad en el sector. Su alcance se concentra en la optimización del perfil personal, por lo que deja fuera estrategias avanzadas de prospección comercial B2B con LinkedIn Sales Navigator o campañas de publicidad de pago (LinkedIn Ads). Resulta una lectura muy útil para perfiles técnicos de tecnología que desean maximizar su visibilidad ante reclutadores y empresas del sector.",
+    "temas": [
+      "LinkedIn",
+      "Marca personal",
+      "Optimización de perfil",
+      "SEO para LinkedIn",
+      "Búsqueda de empleo",
+      "Networking",
+      "Storytelling profesional",
+      "LinkedIn Recruiter",
+      "Estrategia de carrera"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/LinkedIn+Profile+Optimization+For+Dummies%2C+2nd+Edition-p-9781119651420",
+      "https://www.oreilly.com/library/view/linkedin-profile-optimization/9781119651420/"
+    ]
+  },
+  "programming-interviews-for-dummies-2019": {
+    "descripcion": "Manual introductorio enfocado en desmitificar el ciclo de contratación técnica en la industria del software, escrito por John Sonmez (fundador de Simple Programmer) y el redactor técnico Eric Butow. Publicado por Wiley a finales de 2019, el texto orienta a aspirantes y desarrolladores junior, graduados de bootcamps o programadores autodidactas que buscan su primer empleo o que llevan años en una misma posición y necesitan actualizarse sobre cómo se contrata talento informático hoy en día. Para aprovecharlo solo se requieren nociones básicas de lógica de programación en cualquier lenguaje moderno.\n\nEl contenido abarca tanto la estrategia de inserción laboral como los fundamentos técnicos más evaluados en los filtros de selección. Enseña a estructurar un currículum para desarrollo de software, exhibir proyectos y portafolios en plataformas como GitHub y LinkedIn, superar las entrevistas telefónicas de filtro inicial (phone screens) y comprender los objetivos que buscan los equipos de recursos humanos y líderes técnicos. En la parte técnica, revisa estructuras de datos elementales (arreglos, listas enlazadas, pilas, colas y tablas hash), recursión, patrones de diseño de software comunes (como Singleton o Factory), algoritmos clásicos de ordenamiento (incluyendo Quicksort y Mergesort) y resolución de acertijos de lógica o pensamiento lateral en entrevistas de pizarra (whiteboard). Incluye además un bloque práctico dedicado a la negociación de salarios y beneficios tras recibir ofertas de empleo.\n\nEl enfoque del libro es mixto: combina la explicación conceptual de cada etapa con ejemplos de preguntas técnicas típicas, ejercicios de código sencillos y simulaciones de preguntas de comportamiento (behavioral questions). Su principal aporte radica en ofrecer una perspectiva integral y calmada del proceso de selección técnica que reduce la ansiedad del candidato, explicando qué ocurre del otro lado de la mesa. Dada su extensión contenida (272 páginas) y su carácter de guía de nivel básico, no profundiza en temas avanzados como grafos complejos, programación dinámica ni diseño de sistemas distribuidos a gran escala (System Design). Es una excelente lectura preparatoria antes de dar el salto a compendios de problemas más densos y rigurosos.",
+    "temas": [
+      "Entrevistas de programación",
+      "Estructuras de datos",
+      "Algoritmos de ordenamiento",
+      "Recursión",
+      "Patrones de diseño",
+      "Negociación salarial",
+      "Búsqueda de empleo",
+      "Preguntas de pizarra",
+      "Acertijos lógicos",
+      "Portafolio y GitHub"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Programming+Interviews+For+Dummies-p-9781119565024",
+      "https://www.oreilly.com/library/view/programming-interviews-for/9781119565024/"
+    ]
+  },
+  "programming-interviews-exposed-4th-edition-2018": {
+    "descripcion": "Cuarta edición del clásico manual de preparación para entrevistas técnicas de programación, publicado por Wrox (sello de Wiley) en 2018 y escrito por los ingenieros John Mongan, Eric Giguère y Noah Suojanen Kindler. Esta entrega actualiza las pruebas clásicas de pizarra para responder a los formatos contemporáneos de evaluación técnica: retos de código automatizados en línea, proyectos para llevar a casa (take-home coding assignments) y la revisión de repositorios de código abierto como GitHub. Está pensado para programadores de nivel intermedio, estudiantes avanzados y graduados de ciencias de la computación que ya manejan la sintaxis de lenguajes como Java, C++ o C y desean superar procesos selectivos exigentes en empresas tecnológicas competitivas.\n\nEl libro enseña una metodología rigurosa para analizar problemas algorítmicos, detectar casos límite y calcular la complejidad temporal y espacial mediante la notación Big-O. Dedica capítulos completos y ejercicios guiados a estructuras de datos esenciales como listas enlazadas simples, dobles y circulares, árboles binarios de búsqueda, grafos y algoritmos de recorrido (BFS y DFS), manipulación de arreglos y cadenas de texto. También aborda la recursión y sus mecanismos internos de pila de llamadas, algoritmos de ordenamiento (Quicksort, Mergesort, Heapsort), programación concurrente y multihilo (hilos, semáforos, bloqueos mutuos y condiciones de carrera), patrones de diseño orientados a objetos y bases de datos relacionales (consultas SQL, normalización e índices) y NoSQL. Como novedad de la cuarta edición, incorpora problemas de probabilidad, fundamentos estadísticos y conceptos iniciales de ciencia de datos y aprendizaje automático (machine learning).\n\nLa dinámica de aprendizaje se basa en la resolución de decenas de problemas de código representativos de entrevistas reales en compañías líderes: cada problema se analiza paso a paso, examinando las dudas habituales del candidato, los errores comunes y la optimización progresiva de la solución con código completo en C, C++ o Java. El libro no busca guiar la creación de aplicaciones completas ni profundizar exhaustivamente en arquitectura de sistemas distribuidos a gran escala, pero constituye un entrenamiento intensivo de primer orden para adquirir soltura técnica, pensar con claridad algorítmica y comunicar eficazmente soluciones de código bajo la presión de un examen técnico.",
+    "temas": [
+      "Entrevistas técnicas",
+      "Estructuras de datos",
+      "Algoritmos",
+      "Notación Big-O",
+      "Listas enlazadas",
+      "Árboles y grafos",
+      "Concurrencia",
+      "Bases de datos SQL y NoSQL",
+      "C++",
+      "Java",
+      "C"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Programming+Interviews+Exposed%3A+Coding+Your+Way+Through+the+Interview%2C+4th+Edition-p-9781119418474",
+      "https://www.oreilly.com/library/view/programming-interviews-exposed/9781119418474/"
+    ]
+  }
+}

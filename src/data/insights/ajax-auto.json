@@ -1,0 +1,604 @@
+{
+  "accelerated-dom-scripting-with-ajax-apis-and-libraries-2007": {
+    "descripcion": "Libro colectivo de Jonathan Snook, autor del cuerpo principal, con capítulos aportados por Aaron Gustafson, Stuart Langridge y Dan Webb, figuras destacadas del movimiento de estándares web de la época. Trata la programación del DOM con JavaScript tal como se practicaba en 2007, en plena expansión de Ajax y de las primeras librerías JavaScript. No enseña JavaScript desde cero: está pensado para desarrolladores de nivel intermedio a avanzado que ya conocen la sintaxis básica del lenguaje (variables, arreglos, funciones) y quieren escribir código cliente más sólido y profesional.\n\nEmpieza con un repaso rápido y una presentación de las herramientas de depuración. Sigue con la relación entre HTML, CSS y JavaScript, el modelo de objetos del documento (DOM) y el manejo de eventos, incluida la delegación de eventos. Luego profundiza en el JavaScript orientado a objetos, las closures, los callbacks y el encadenamiento de métodos. Un capítulo analiza con criterio práctico el uso de librerías JavaScript en el trabajo diario. Los capítulos de Ajax y de efectos visuales siguen un mismo patrón: primero se explica cada técnica con código propio y después se resuelve la misma tarea con librerías, para mostrar qué hacen por dentro.\n\nLa parte final presenta tres aplicaciones completas aportadas por los coautores. Su mayor aportación es enseñar a entender lo que ocurre bajo el capó de las librerías, en lugar de usarlas como cajas negras, y transmitir buenas prácticas de scripting no intrusivo. Las librerías y técnicas de compatibilidad entre navegadores de 2007 están hoy muy superadas por las APIs nativas del DOM, fetch y los frameworks modernos. Aun así, los conceptos de eventos, closures y diseño orientado a objetos siguen vigentes.",
+    "temas": [
+      "DOM",
+      "JavaScript",
+      "Manejo de eventos",
+      "Delegación de eventos",
+      "Closures",
+      "JavaScript orientado a objetos",
+      "Librerías JavaScript",
+      "Ajax",
+      "Efectos visuales",
+      "Validación de formularios",
+      "Depuración"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Validación de formularios con Ajax",
+        "descripcion": "Capítulo escrito por Stuart Langridge que construye un sistema de validación de formularios en el cliente, apoyado en peticiones Ajax al servidor."
+      },
+      {
+        "nombre": "Rediseño de una página de preguntas frecuentes (FAQ)",
+        "descripcion": "Capítulo de Aaron Gustafson que aplica DOM scripting no intrusivo para convertir una FAQ estática en una interfaz interactiva."
+      },
+      {
+        "nombre": "Sistema de ayuda dinámico",
+        "descripcion": "Capítulo de Dan Webb que crea un sistema de ayuda contextual que se carga y muestra dinámicamente con JavaScript y Ajax."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://snook.ca/archives/javascript/accelerated_dom_scripting"
+    ]
+  },
+  "foundations-of-ajax-2005": {
+    "descripcion": "Uno de los primeros libros dedicados a Ajax, publicado en 2005, poco después de que se acuñara el término. Ryan Asleson y Nathaniel T. Schutta explican cómo crear aplicaciones web más interactivas usando directamente el objeto XMLHttpRequest y JavaScript puro, sin frameworks. Está pensado para desarrolladores web que empiezan con Ajax. Conviene conocer HTML y algo de JavaScript, y tener nociones de Java en el servidor, porque los ejemplos del lado del servidor usan Java y se ejecutan en Tomcat.\n\nEl primer tercio repasa la historia de las aplicaciones distribuidas y el porqué de Ajax. Después dedica capítulos completos al objeto XMLHttpRequest, al envío de peticiones y al procesamiento de las respuestas del servidor. A continuación muestra técnicas Ajax básicas, como los campos con autocompletado, la consulta periódica al servidor (polling) y las llamadas a servicios web. La parte más valorada por la crítica trata JavaScript como un lenguaje serio y presenta herramientas de desarrollo: JSDoc para documentar, JSLint para detectar errores, JsUnit para pruebas unitarias con una introducción al desarrollo guiado por pruebas, Venkman y Microsoft Script Debugger para depurar paso a paso, y validadores de XHTML, DOM y CSS. También presenta Taconite, el framework Ajax creado por los propios autores.\n\nTermina con un caso práctico que introduce patrones de diseño y construye un proyecto Ajax completo con Taconite. Su punto fuerte es explicar con claridad la mecánica de Ajax desde cero. Algunas reseñas de la época criticaron que el código de XMLHttpRequest era frágil: no gestiona varias peticiones simultáneas, tiempos de espera ni errores de forma robusta. También señalaron que ignora los frameworks que ya existían. Hoy su interés es sobre todo histórico, porque fetch, las promesas y los frameworks modernos han sustituido a estas técnicas. Aun así, los capítulos sobre pruebas y calidad de código siguen siendo una buena lección.",
+    "temas": [
+      "Ajax",
+      "XMLHttpRequest",
+      "JavaScript",
+      "DOM",
+      "Autocompletado",
+      "Polling",
+      "Servicios web",
+      "JsUnit",
+      "JSLint",
+      "JSDoc",
+      "Depuración",
+      "Taconite"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Caso práctico final con Taconite",
+        "descripcion": "Proyecto Ajax de cierre que aplica patrones de diseño y el framework Taconite de los autores, con JavaScript en el cliente y Java (Tomcat) en el servidor."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://cognitect.com/blog/2006/4/10/relevance-review-3-foundations-of-ajax",
+      "https://www.linuxjournal.com/node/8879"
+    ]
+  },
+  "foundations-of-asp-net-ajax-2007": {
+    "descripcion": "Introducción a ASP.NET AJAX, el framework de Microsoft que amplía ASP.NET 2.0 para crear aplicaciones web con Ajax y que antes se conocía con el nombre en clave «Atlas». Laurence Moroney, autor del libro anterior Foundations of Atlas, lo escribe junto a John Grieb y Robin Pars. Trabaja con la versión 1.0 del framework sobre Visual Studio 2005. Está dirigido a desarrolladores de nivel intermedio que ya conocen ASP.NET con Web Forms y C# y quieren añadir Ajax a sus aplicaciones sin escribir a mano todo el JavaScript.\n\nEmpieza con los principios básicos de Ajax y después recorre los espacios de nombres y las funciones del framework. Trata la Microsoft AJAX Library, la parte de JavaScript del lado del cliente, que añade al lenguaje un sistema de tipos, clases y espacios de nombres. Del lado del servidor explica los controles ASP.NET AJAX, que permiten actualizar zonas de la página sin recargarla completa, como ScriptManager y UpdatePanel. También presenta el ASP.NET AJAX Control Toolkit, con sus controles y extensores listos para usar, y dedica un capítulo a integrar mapas con el SDK de Virtual Earth.\n\nEl libro termina con una aplicación de ejemplo completa que reúne lo visto en capítulos anteriores. Sirve para entender cómo Microsoft llevó Ajax al modelo de Web Forms y cómo conviven el código de servidor y el de cliente en ese modelo. Hoy la tecnología está obsoleta: ASP.NET AJAX y Web Forms se han sustituido por ASP.NET Core, Blazor y frameworks JavaScript modernos, y Virtual Earth se convirtió en Bing Maps. Solo resulta útil para mantener aplicaciones heredadas o por interés histórico.",
+    "temas": [
+      "ASP.NET AJAX",
+      "ASP.NET 2.0",
+      "Microsoft AJAX Library",
+      "ScriptManager",
+      "UpdatePanel",
+      "AJAX Control Toolkit",
+      "Visual Studio 2005",
+      "Virtual Earth",
+      "C#",
+      "Web Forms"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de ejemplo con ASP.NET AJAX",
+        "descripcion": "Aplicación completa del capítulo final que combina los controles de servidor de ASP.NET AJAX, la Microsoft AJAX Library y el Control Toolkit."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://psnz.umt.edu.my/seal/Record/978-1-4302-0199-1/Details",
+      "https://e-books.ciando.com/ebook/bid-24322-foundations-of-asp-net-ajax.html",
+      "https://link.springer.com/book/10.1007/978-1-4302-0199-1"
+    ]
+  },
+  "practical-javascript-dom-scripting-and-ajax-projects-2007": {
+    "descripcion": "Libro de Frank W. Zammetti que propone aprender JavaScript, DOM scripting y Ajax a partir de diez proyectos completos que el lector puede estudiar o adaptar a sus propias aplicaciones. Refleja el ecosistema de 2007, con las librerías de entonces. Está dirigido a desarrolladores de nivel intermedio que ya tienen experiencia con JavaScript y quieren ver cómo se aplica en aplicaciones reales, no aprender el lenguaje desde cero.\n\nLa primera parte repasa la historia de JavaScript y las buenas prácticas del desarrollador profesional, en el capítulo «The Seven Habits of Highly Successful JavaScript Developers». La segunda parte está formada por los proyectos, y en cada uno se recorren la planificación, el diseño y la implementación. A lo largo del libro se trabaja con manipulación del DOM, eventos, persistencia en el cliente, procesamiento de XML en el navegador, validación y técnicas Ajax. También se usan librerías populares de la época: Prototype, script.aculo.us y Yahoo! User Interface (YUI).\n\nSon unas 550 páginas muy prácticas y con un tono desenfadado. Su aportación es mostrar aplicaciones completas y variadas, desde utilidades y frameworks hasta un juego, en lugar de fragmentos de código aislados. Las librerías y técnicas de compatibilidad entre navegadores que usa han quedado superadas por el JavaScript moderno (ES6+, fetch, módulos) y por frameworks actuales, así que sirve más como ejercicio de diseño y razonamiento que como referencia de herramientas vigentes.",
+    "temas": [
+      "JavaScript",
+      "DOM",
+      "Ajax",
+      "Buenas prácticas",
+      "Prototype",
+      "script.aculo.us",
+      "YUI",
+      "Persistencia en el cliente",
+      "XML en el cliente",
+      "Validación de formularios",
+      "Widgets",
+      "Drag and drop"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Hodgepodge",
+        "descripcion": "Librería de utilidades JavaScript ampliable que reúne funciones de uso común para reutilizar en otros proyectos."
+      },
+      {
+        "nombre": "Calctron 3000",
+        "descripcion": "Calculadora construida íntegramente con JavaScript y manipulación del DOM."
+      },
+      {
+        "nombre": "Doing the Monster Mash (mashup)",
+        "descripcion": "Mashup que combina datos y servicios de terceros en una sola página mediante JavaScript y Ajax."
+      },
+      {
+        "nombre": "Don't Just Live in the Moment",
+        "descripcion": "Proyecto centrado en la persistencia de datos del lado del cliente."
+      },
+      {
+        "nombre": "JSDigester",
+        "descripcion": "Herramienta para analizar y procesar XML directamente en el navegador con JavaScript."
+      },
+      {
+        "nombre": "Get It Right, Bub",
+        "descripcion": "Framework de validación de formularios en el cliente."
+      },
+      {
+        "nombre": "Widget Mania",
+        "descripcion": "Framework de widgets para crear componentes de interfaz gráfica con JavaScript."
+      },
+      {
+        "nombre": "Shopping in Style",
+        "descripcion": "Carrito de compras con arrastrar y soltar (drag and drop), apoyado en librerías de efectos de la época."
+      },
+      {
+        "nombre": "Time for a Break",
+        "descripcion": "Juego desarrollado en JavaScript que aplica eventos, temporizadores y manipulación del DOM."
+      },
+      {
+        "nombre": "Ajax: Where the Client and Server Collide",
+        "descripcion": "Proyecto final que integra el cliente con el servidor mediante Ajax."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.goodreads.com/book/show/129003.Practical_JavaScript_DOM_Scripting_and_Ajax_Projects",
+      "https://www.goodreads.com/work/editions/124243-practical-javascript-dom-scripting-and-ajax-projects"
+    ]
+  },
+  "pro-asp-net-3-5-server-controls-and-ajax-components-2008": {
+    "descripcion": "Este libro de Apress es la actualización de «Building ASP.NET Server Controls». Rob Cameron y Dale Michalk lo dedican a crear controles de servidor personalizados con ASP.NET 3.5, Visual Studio 2008 y .NET Framework 3.5. Es una referencia para desarrolladores ASP.NET con experiencia que dominan C# y Web Forms y quieren aplicar orientación a objetos a sus propios controles, en lugar de limitarse a los que trae el framework.\n\nEmpieza por lo básico de los controles de servidor y sigue con la gestión de estado (ViewState y ControlState), la encapsulación de funcionalidad en controles compuestos y derivados, el modelo de eventos y postback, las plantillas, el enlace a datos y los estilos. Luego llega a la parte más moderna para la época: integrar script de cliente y crear componentes y controles para ASP.NET AJAX con la Microsoft AJAX Library. Los capítulos finales tratan el soporte en tiempo de diseño para el diseñador de Visual Studio, la construcción de un control complejo y el empaquetado y despliegue. Según la editorial, también cubre escenarios de SharePoint y de desarrollo móvil.\n\nEl trabajo práctico son ejemplos de controles que se van refinando a lo largo de los capítulos y que culminan en un control complejo de punta a punta. El libro aporta un conocimiento profundo del ciclo de vida de Web Forms que hoy cuesta encontrar, y sigue siendo útil para mantener aplicaciones heredadas. Hay que tener en cuenta que toda la tecnología que trata (Web Forms, ASP.NET AJAX, controles de servidor) quedó obsoleta: no se aplica a ASP.NET Core, Blazor ni a los frameworks de JavaScript actuales. Es un libro denso y de nivel alto, no apto para principiantes.",
+    "temas": [
+      "ASP.NET 3.5",
+      "Controles de servidor",
+      "Web Forms",
+      "ViewState",
+      "Eventos y postback",
+      "Data binding",
+      "Plantillas",
+      "ASP.NET AJAX",
+      "Tiempo de diseño en Visual Studio",
+      "SharePoint",
+      "Empaquetado y despliegue"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.apress.com/us/book/9781590598658",
+      "https://learn.microsoft.com/en-us/archive/blogs/robcamer/pro-asp-net-3-5-server-controls-and-ajax-components"
+    ]
+  },
+  "introduccion-al-ajax-2008": {
+    "descripcion": "Libro gratuito en español de Javier Eguíluz Pérez, publicado en LibrosWeb bajo licencia Creative Commons. La versión impresa es de 2008. Presenta AJAX desde cero, en la época en que la técnica estaba cambiando el desarrollo web. Está pensado para principiantes con nociones de HTML y algo de JavaScript que quieren entender cómo hacer peticiones asíncronas al servidor sin recargar la página.\n\nAntes de entrar en AJAX, el libro dedica una parte importante a sentar las bases: JavaScript básico y avanzado (objetos, clases y prototipos), manipulación del DOM, el BOM y el manejo de eventos con las diferencias entre navegadores de la época. Después explica el objeto XMLHttpRequest, el envío de parámetros, el procesamiento de respuestas en texto, XML y JSON, y técnicas básicas y avanzadas de interacción asíncrona. Cierra con un repaso de frameworks y librerías de JavaScript populares entonces, como jQuery, además de herramientas y recursos útiles.\n\nSu punto fuerte son los ejercicios, la mayoría con solución, que piden aplicar cada concepto a pequeñas funcionalidades típicas de interfaces web dinámicas. Para un hispanohablante fue una de las mejores introducciones gratuitas al tema. Hoy hay que leerlo como material histórico o de fundamentos: el código depende de XMLHttpRequest y de los trucos de compatibilidad con navegadores antiguos, y no trata fetch, promesas, async/await ni JavaScript moderno (ES6+). El sitio original de LibrosWeb ya no está activo.",
+    "temas": [
+      "AJAX",
+      "JavaScript básico",
+      "JavaScript avanzado",
+      "DOM",
+      "BOM",
+      "Eventos",
+      "XMLHttpRequest",
+      "JSON",
+      "XML",
+      "Frameworks JavaScript",
+      "jQuery"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "media",
+    "fuentes": []
+  },
+  "ajax-in-action-2006": {
+    "descripcion": "Uno de los libros que definieron AJAX cuando se popularizó el término. Dave Crane y Eric Pascarello, con Darren James, lo escribieron para Manning. Más que un manual de la API, propone tratar las aplicaciones web como aplicaciones ricas en el navegador, con arquitectura propia en el cliente. Está dirigido a desarrolladores web de nivel intermedio que ya conocen HTML, JavaScript y algún lenguaje de servidor. Incluye un apéndice de introducción a JavaScript para quien llega con menos base.\n\nTiene cuatro partes. La primera presenta los elementos clave de AJAX (JavaScript, CSS, DOM y XMLHttpRequest) y distingue entre usos «transitorios» y «soberanos» de una aplicación. La segunda trata las técnicas centrales: organizar el código JavaScript, refactorizar con patrones de diseño y aplicar el patrón MVC tanto en el cliente como en el servidor. La tercera aborda los requisitos no funcionales: usabilidad, seguridad y rendimiento. Los ejemplos de servidor combinan PHP, ASP y Java, y los apéndices cubren un kit de herramientas para el desarrollador y una lista comentada de frameworks y librerías AJAX de la época.\n\nLa cuarta parte desarrolla aplicaciones completas, siempre partiendo de código básico que se refactoriza hasta volverse reutilizable. Su valor está en el enfoque de ingeniería y en los patrones, que siguen siendo aplicables. Sin embargo, las librerías y los trucos de compatibilidad entre navegadores que usa están obsoletos. Las reseñas también señalan carencias en seguridad: algunos consejos son incompletos o imprecisos y uno de los ejemplos es vulnerable a inyección SQL. Hoy interesa sobre todo por su valor histórico y por la parte de diseño.",
+    "temas": [
+      "AJAX",
+      "XMLHttpRequest",
+      "JavaScript",
+      "DOM",
+      "MVC",
+      "Patrones de diseño",
+      "Refactorización",
+      "Usabilidad",
+      "Seguridad",
+      "Rendimiento",
+      "PHP",
+      "Java"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Listas desplegables dinámicas",
+        "descripcion": "Combos que actualizan sus opciones de forma asíncrona según lo elegido en otra lista, consultando al servidor con XMLHttpRequest."
+      },
+      {
+        "nombre": "Sugerencias al escribir (type-ahead)",
+        "descripcion": "Campo de texto con autocompletado que pide sugerencias al servidor mientras el usuario teclea."
+      },
+      {
+        "nombre": "Portal AJAX",
+        "descripcion": "Página tipo portal con ventanas o paneles que el usuario puede personalizar y que se comunican con el servidor sin recargar la página."
+      },
+      {
+        "nombre": "Búsqueda en vivo con animación",
+        "descripcion": "Buscador que muestra los resultados de forma asíncrona, con indicadores visuales de progreso mientras llega la respuesta."
+      },
+      {
+        "nombre": "Lector de feeds RSS",
+        "descripcion": "Aplicación independiente que obtiene y muestra feeds RSS en el navegador, procesando el XML recibido."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.spinellis.gr/pubs/Breview/2006-CR-Ajax/html/review.html"
+    ]
+  },
+  "ajax-in-practice-2007": {
+    "descripcion": "Recetario de técnicas AJAX publicado por Manning en 2007. Dave Crane, coautor de «Ajax in Action», lo escribió con Bear Bibeault y Jord Sonneveld, y colaboraron Ted Goddard, Chris Gray, Ram Venkataraman y Joe Walker, creador de DWR. Tras una breve introducción a AJAX, pasa directamente a soluciones prácticas. Sirve para desarrolladores web que ya saben qué es AJAX y buscan código listo para resolver problemas concretos.\n\nEl libro reúne decenas de ejemplos funcionales en formato de recetas. Cada uno explica no solo el código, sino también el porqué de la técnica y cómo encajan las piezas. Según la editorial, trata técnicas de diseño de interfaces, como las interfaces de arrastrar y soltar, y estrategias de navegación para aplicaciones AJAX, entre otros problemas comunes y menos comunes del desarrollo con peticiones asíncronas. El equipo de autores, con perfiles de proyectos como DWR e IceFaces, aporta una visión desde distintas librerías y entornos de la época.\n\nEl libro termina con un capítulo de mash-up que combina varias técnicas y servicios externos en una misma aplicación. Su principal aporte es el código reutilizable y bien explicado, útil como consulta. Conviene tener en cuenta que muchas soluciones dependen de librerías y navegadores de 2007, por lo que hoy sirve más para entender patrones de interacción, como arrastrar y soltar, la navegación o las actualizaciones parciales, que para copiar el código tal cual. No cubre fetch, frameworks modernos ni APIs actuales del navegador.",
+    "temas": [
+      "AJAX",
+      "Recetas",
+      "XMLHttpRequest",
+      "JavaScript",
+      "Arrastrar y soltar",
+      "Navegación",
+      "Diseño de interfaces",
+      "DWR",
+      "Mash-ups"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/ajax-in-practice",
+      "https://www.manning.com/crane2"
+    ]
+  },
+  "microsoft-asp-net-and-ajax-2009": {
+    "descripcion": "En «Microsoft ASP.NET and AJAX: Architecting Web Applications» (Microsoft Press, 2009), Dino Esposito trata cómo planificar, diseñar y construir aplicaciones web con AJAX sobre ASP.NET 3.5. Sirve tanto para modernizar sitios existentes como para crear aplicaciones ricas desde cero. Está dirigido a desarrolladores y arquitectos de nivel intermedio que ya trabajan con ASP.NET Web Forms y quieren tomar decisiones de arquitectura, no solo aprender a usar controles.\n\nEl libro empieza por la vía «fácil» hacia AJAX: el mecanismo y los objetivos de diseño del renderizado parcial (UpdatePanel) y los controles de servidor con capacidades AJAX que dan una experiencia más parecida a la de escritorio. Después pasa a arquitecturas AJAX más puras, basadas en servicios que se consumen desde el cliente, con patrones de diseño para problemas recurrentes como el enlace a datos en el cliente. También enseña a programar JavaScript con la Microsoft AJAX Library y con jQuery. Cierra con Silverlight: su interoperabilidad y su modelo de seguridad, y la comparación entre la riqueza de Silverlight y el alcance de AJAX.\n\nEl libro no construye una aplicación completa: se apoya en ejemplos y en análisis de arquitectura. Su valor está en el razonamiento de Esposito sobre cuándo conviene cada enfoque, desde el renderizado parcial hasta un cliente rico que consume servicios, y ese razonamiento sigue siendo útil para entender las SPA modernas. Las tecnologías concretas (UpdatePanel, Microsoft AJAX Library, Silverlight) ya están descontinuadas, así que hoy sirve sobre todo para mantener sistemas heredados o por su valor histórico.",
+    "temas": [
+      "ASP.NET 3.5",
+      "AJAX",
+      "Renderizado parcial",
+      "UpdatePanel",
+      "Controles AJAX",
+      "Microsoft AJAX Library",
+      "jQuery",
+      "Data binding en cliente",
+      "Servicios web",
+      "Silverlight",
+      "Arquitectura web"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/microsoft-asp.net-and-ajax-architecting-web-applications-9780735626218"
+    ]
+  },
+  "adding-ajax-2007": {
+    "descripcion": "Libro de Shelley Powers que parte de una idea muy práctica: no hace falta reescribir un sitio web para aprovechar Ajax. En lugar de construir una aplicación enriquecida desde cero, enseña a añadir funciones asíncronas de forma gradual a lo que ya existe: formularios, páginas generadas en el servidor y contenido estático. Se publicó en 2007, en pleno auge de la Web 2.0, y está dirigido a desarrolladores web de nivel intermedio que ya manejan HTML, CSS y JavaScript y temen que adoptar Ajax los obligue a empezar de nuevo.\n\nAntes de escribir código, la autora propone planificar la estrategia de cambio del sitio. Después explica el objeto XMLHttpRequest, los eventos y manejadores compatibles entre navegadores y el concepto de \"la página web como espacio\", con tres formas de gestionarlo. También muestra cómo agregar, eliminar y actualizar datos sin recargar la página, y analiza los efectos secundarios de Ajax, como el botón Atrás roto y la pérdida del historial del navegador. Se apoya en librerías de la época como Prototype, script.aculo.us, Rico y MochiKit, y llega a efectos avanzados con CSS: arrastrar y soltar, barras de desplazamiento, paginación, SVG y el elemento Canvas. Cierra con mashups que combinan datos de varios servicios web en la propia página.\n\nEs un libro de mejoras graduales, con ejemplos aplicados a páginas existentes y sin un proyecto único que recorra toda la obra. Su mayor aporte es la mentalidad de mejora progresiva y la atención a la usabilidad y la accesibilidad, que siguen vigentes. En cambio, sus librerías y técnicas de compatibilidad están muy desfasadas: hoy se usarían fetch, Promises o async/await y el DOM estándar en lugar de Prototype o Rico. Conviene leerlo por sus criterios de diseño más que como referencia técnica actual.",
+    "temas": [
+      "Ajax",
+      "XMLHttpRequest",
+      "Mejora progresiva",
+      "Eventos entre navegadores",
+      "Manipulación del DOM",
+      "Historial y botón Atrás",
+      "Prototype",
+      "script.aculo.us",
+      "Arrastrar y soltar",
+      "SVG y Canvas",
+      "Mashups"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://app.oreilly.com/pub/pr/1764"
+    ]
+  },
+  "ajax-the-definitive-guide-2008": {
+    "descripcion": "Obra de referencia de casi mil páginas en la que Anthony T. Holdener III explica cómo crear aplicaciones web que se ejecutan en el navegador con Ajax. Muestra cómo tecnologías ya establecidas (JavaScript, XHTML, CSS, XML y el objeto XMLHttpRequest) se combinan para dar a los sitios la sensación de una aplicación de escritorio, al estilo de la Web 2.0 de 2008. Aunque el catálogo lo clasifica como básico, conviene llegar con conocimientos de HTML y JavaScript, porque su alcance es enciclopédico.\n\nRecorre la carga y manipulación de documentos XML, el uso de JSON como alternativa, el DOM y la conexión de interfaces con componentes del servidor. Dedica mucho espacio al diseño de interfaces: usabilidad, visualización y accesibilidad, navegación del sitio y los problemas de Ajax con el botón Atrás. También trata la mejora de tablas, listas, cajas de navegación y ventanas, las animaciones, los formularios interactivos y la validación de datos, además del código modular y la optimización. Incluye material de referencia sobre XML y XSLT, frameworks y toolkits de JavaScript populares en esa época y varias API de servicios web.\n\nLa parte final aplica lo aprendido a casos de uso: búsquedas avanzadas desde el navegador, servicios web y mashups, comunicación empresarial y juegos web que no necesitan plugins. Su valor está en la amplitud y en el enfoque de diseño, pero muchas técnicas (XSLT en el cliente, toolkits de esa generación, XHTML) han quedado obsoletas frente a fetch, los frameworks modernos y las API del navegador actuales. Funciona mejor como consulta de conceptos o por interés histórico que como guía para un proyecto nuevo.",
+    "temas": [
+      "Ajax",
+      "XMLHttpRequest",
+      "XML y XSLT",
+      "JSON",
+      "DOM",
+      "Usabilidad y accesibilidad",
+      "Navegación y botón Atrás",
+      "Formularios y validación",
+      "Animación",
+      "Servicios web",
+      "Mashups",
+      "Optimización"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://app.oreilly.com/pub/pr/1917"
+    ]
+  },
+  "head-first-ajax-2008": {
+    "descripcion": "Título de la serie Head First en el que Rebecca M. Riordan presenta Ajax con el estilo visual de la colección: diagramas, humor, cuestionarios y mucha repetición para fijar conceptos. Primero da una visión general de cómo funciona una aplicación asíncrona y luego estudia una a una sus piezas. Aunque es introductorio, está pensado para desarrolladores web que ya escriben scripts con soltura (idealmente, quienes terminaron Head First JavaScript) y para programadores de Java, PHP o C# que llegan por primera vez al cliente.\n\nCubre el modelo de eventos de JavaScript y la gestión de varios manejadores, las peticiones con XMLHttpRequest y el modelo de aplicación asíncrona, el DOM y su manipulación desde JavaScript, y el control del navegador con el Browser Object Model. También explica formularios XHTML y peticiones POST, la sintaxis XML, el árbol DOM de XML y las respuestas en XML, JSON como alternativa, la librería Prototype y los patrones de arquitectura Ajax. El servidor se trata como una \"caja negra\": se usan scripts ya hechos para centrarse en el lado del cliente.\n\nSe aprende con ejercicios y pequeñas aplicaciones de ejemplo que se van mejorando de un capítulo a otro. Entre ellas están el sitio de recuerdos de rock de Rob, con el que se presenta Ajax, y Woggle, un juego de palabras con el que se practica la manipulación del DOM. Es una de las introducciones más didácticas al modelo asíncrono y al DOM, y esos conceptos siguen siendo útiles. Aun así, XMLHttpRequest, XHTML y Prototype han dado paso a fetch, async/await y JSON como formato habitual, y el lado del servidor queda casi sin tratar.",
+    "temas": [
+      "Ajax",
+      "XMLHttpRequest",
+      "Eventos en JavaScript",
+      "Programación asíncrona",
+      "DOM",
+      "Browser Object Model",
+      "Formularios y POST",
+      "XML",
+      "JSON",
+      "Prototype",
+      "Patrones Ajax"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio de recuerdos de rock de Rob",
+        "descripcion": "Página de ejemplo del primer capítulo que se convierte en una aplicación Ajax: muestra información de los artículos con peticiones XMLHttpRequest, sin recargar la página."
+      },
+      {
+        "nombre": "Woggle",
+        "descripcion": "Juego de palabras en el navegador con el que se practica la creación y modificación dinámica de elementos del DOM con JavaScript."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://app.oreilly.com/pub/pr/2069",
+      "https://oreilly.com/library/view/head-first-ajax/9780596515782"
+    ]
+  },
+  "programming-asp-net-ajax-2007": {
+    "descripcion": "Guía práctica de Christian Wenz (Microsoft MVP de ASP.NET y colaborador del AJAX Control Toolkit) sobre Microsoft ASP.NET AJAX 1.0, el framework con el que Microsoft llevó Ajax a ASP.NET 2.0 y Visual Studio 2005. Es la versión actualizada y ampliada de su libro anterior, Programming Atlas, que trataba la beta del framework. Está dirigido a desarrolladores ASP.NET, a programadores web que se acercan por primera vez al framework y a quienes conocen JavaScript y quieren evitar los problemas de compatibilidad entre navegadores. Requiere conocer ASP.NET y C# o VB.NET.\n\nEmpieza con una visión general del framework y un repaso de los fundamentos de JavaScript y Ajax. Luego recorre sus piezas: las ASP.NET AJAX Extensions del servidor (ScriptManager y UpdatePanel, al que dedica un capítulo completo), la AJAX Library del cliente, el AJAX Control Toolkit con sus extensores y controles, y las funciones experimentales del ASP.NET Futures CTP. Explica también la llamada a servicios web desde JavaScript, recoge buenas prácticas y errores comunes, señala en recuadros las cuestiones de seguridad con su solución y muestra que la AJAX Library basada en estándares puede usarse con otras plataformas, como PHP.\n\nEstá orientado a ejemplos listos para copiar y adaptar, más que a un proyecto que recorra todo el libro. Es útil para entender el modelo de \"postback parcial\" de UpdatePanel y para mantener aplicaciones Web Forms antiguas. Para desarrollos nuevos ha quedado obsoleto: ASP.NET AJAX y el Futures CTP se abandonaron en favor de jQuery primero y después de ASP.NET Core, Blazor y los frameworks JavaScript modernos.",
+    "temas": [
+      "ASP.NET AJAX 1.0",
+      "Web Forms",
+      "UpdatePanel",
+      "ScriptManager",
+      "AJAX Control Toolkit",
+      "Microsoft AJAX Library",
+      "Servicios web",
+      "JavaScript",
+      "ASP.NET Futures CTP",
+      "Seguridad",
+      "PHP"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://app.oreilly.com/pub/pr/1829",
+      "https://www.oreilly.com/library/view/programming-asp-net-ajax/9780596514242/author_bios.html"
+    ]
+  },
+  "securing-ajax-applications-2007": {
+    "descripcion": "Libro de Christopher Wells, consultor de seguridad con certificación CISSP y experiencia en los sectores sanitario, de telecomunicaciones y financiero, sobre cómo incorporar la seguridad a las aplicaciones Ajax desde el diseño. Su tesis es que la comunicación constante entre navegador y servidor, que hace a Ajax tan ágil, también da a los atacantes nuevas formas de recopilar datos, enviar peticiones inesperadas al servidor e interferir en el intercambio entre el sitio y sus usuarios. Está dirigido a desarrolladores web de nivel intermedio que ya conocen HTTP, JavaScript y algún lenguaje de servidor.\n\nComienza con la evolución de la plataforma web (API, feeds, servicios web y mensajería asíncrona) y los fundamentos de seguridad: vulnerabilidades comunes y sus soluciones, gestión del estado y de las sesiones. Después revisa la seguridad de las tecnologías de cliente (Ajax, JavaScript, applets de Java, ActiveX, plugins, Flash y Flex), la protección del servidor (primera línea de defensa, servidores de aplicaciones, PHP y lenguajes de script) y las debilidades de estándares como HTTP, XML, JSON, RSS, Atom y REST, incluidos los ataques de denegación de servicio con XML. Termina con la seguridad de los servicios web, el diseño de API seguras y los mashups abiertos.\n\nEs un libro conceptual: explica amenazas y defensas con ejemplos, pero no tiene ejercicios guiados ni proyectos. Sus principios (validar en el servidor, desconfiar del cliente, gestionar bien las sesiones) siguen siendo válidos. Sin embargo, se escribió antes de que existieran CORS, Content Security Policy, SameSite en las cookies u OAuth 2.0, y dedica espacio a Flash, ActiveX y applets, que ya han desaparecido. Conviene completarlo con la guía OWASP Top 10 actual.",
+    "temas": [
+      "Seguridad web",
+      "Ajax",
+      "Vulnerabilidades comunes",
+      "Gestión de sesiones",
+      "Seguridad en JavaScript",
+      "JSON y XML",
+      "Seguridad del servidor",
+      "PHP",
+      "Servicios web",
+      "API seguras",
+      "Mashups"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://app.oreilly.com/pub/pr/1784",
+      "https://www.oreilly.com/library/view/securing-ajax-applications/9780596529314/author_bios.html"
+    ]
+  },
+  "developing-responsive-web-applications-with-ajax-and-jquery-2014": {
+    "descripcion": "Tutorial de Packt en el que Sandeep Kumar Patel, desarrollador web y autor del blog TutorialSavvy, explica cómo crear aplicaciones web adaptables (responsive) combinando llamadas AJAX con jQuery y una maquetación basada en Bootstrap 3. Es de 2014, la época de jQuery 1.x/2.x y Bootstrap 3. La editorial lo dirige a desarrolladores Java que quieren hacer interfaces ricas y adaptables, y da por hecho que el lector ya ha usado jQuery.\n\nEl libro empieza explicando por qué el diseño adaptable importa en sitios comerciales y cómo montar un layout responsive con la rejilla y los componentes de Bootstrap 3. Después pasa a la parte dinámica: generar datos en JSON, consumirlos desde la página con los métodos AJAX de jQuery y meter el contenido en la interfaz sin recargarla. Los ejemplos tienen un backend Java que corre en Apache Tomcat y se conectan con servicios de terceros de la época, como Twitter, Facebook, Google+, YouTube y un conversor de divisas.\n\nTiene mucho código y avanza paso a paso. Aun así, una reseña independiente señala que muchos ejemplos enseñan más a consumir APIs externas que a hacer la interfaz realmente adaptable, y que hace falta un servidor para que funcionen del todo. Sirve para ver cómo se integraban jQuery, Bootstrap y un servidor Java hacia 2014. Hoy la técnica está superada: fetch y los frameworks modernos sustituyen a $.ajax, y las APIs de redes sociales que usa han cambiado o ya no existen. Conviene saber algo de Java y servlets para aprovechar la parte de servidor.",
+    "temas": [
+      "AJAX",
+      "jQuery",
+      "Bootstrap 3",
+      "Diseño responsive",
+      "JSON",
+      "Java",
+      "Apache Tomcat",
+      "APIs de terceros",
+      "Redes sociales"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://skoobe.de/books/sandeep-kumar-patel/developing-responsive-web-applications-with-ajax-and-jquery",
+      "https://books.apple.com/us/book/developing-responsive-web-applications-with-ajax/id903492732",
+      "https://runastartup.com/web-applications-with-ajax-and-jquery-review/",
+      "https://subscription.packtpub.com/book/web-development/9781783286379/pref02"
+    ]
+  },
+  "ajax-for-dummies-2006": {
+    "descripcion": "Introducción a Ajax de la serie For Dummies, escrita por Steve Holzner, autor muy prolífico de libros de programación. Se publicó en 2006, en plena explosión del término «Ajax», y muestra cómo hacer aplicaciones web que se comportan como programas de escritorio: por ejemplo, actualizar resultados de búsqueda o un carrito de compras sin recargar la página. Está pensado para principiantes con nociones de HTML. No exige saber JavaScript porque incluye un repaso del lenguaje.\n\nTiene cinco partes. La primera presenta Ajax y repasa JavaScript. La segunda entra en la programación con el objeto XMLHttpRequest, primero lo básico y luego a fondo. La tercera repasa los frameworks Ajax gratuitos de la época, tanto de cliente como de servidor. La cuarta trata el manejo de XML y del XML DOM, el uso de CSS para actualizar la interfaz de forma dinámica y la conexión con el servidor mediante PHP, con referencias a JSP. También habla de cómo integrar servicios de Google y de cómo atender a los navegadores sin JavaScript. Cierra con diez problemas de diseño en Ajax y diez recursos útiles.\n\nEl libro se aprende con muchos ejemplos cortos que el lector puede probar, no con un proyecto grande. Es una lectura amable para entender la idea central de Ajax: peticiones asíncronas y actualización parcial del DOM. Pero está muy anclado en 2006. Los frameworks que describe están casi todos abandonados, XML tiene un peso que hoy le corresponde a JSON y no cubre jQuery ni fetch. Vale como referencia histórica o para quien mantenga código antiguo, no como guía actual.",
+    "temas": [
+      "Ajax",
+      "JavaScript",
+      "XMLHttpRequest",
+      "XML DOM",
+      "CSS dinámico",
+      "PHP",
+      "JSP",
+      "Frameworks Ajax",
+      "Diseño de aplicaciones web"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley-vch.de/de/fachgebiete/computer-und-informatik/ajax-for-dummies-978-0-471-78597-2",
+      "https://www.oreilly.com/library/view/-/9780471785972/"
+    ]
+  },
+  "javascript-and-ajax-for-dummies-2010": {
+    "descripcion": "Libro de iniciación de la serie For Dummies en el que Andy Harris, profesor de informática en la Universidad de Indiana-Purdue de Indianápolis, enseña JavaScript desde cero y avanza hasta AJAX y jQuery. Se publicó a finales de 2009 (algunos catálogos lo fechan en 2010), cuando jQuery y jQuery UI ya se habían impuesto. Va dirigido a principiantes que saben algo de HTML y CSS pero nunca han programado.\n\nLa primera parte cubre los fundamentos del lenguaje: el primer programa, variables, condiciones, bucles y depuración, funciones, arreglos y objetos. La segunda se centra en mejorar la página: comunicarse con ella a través del DOM, validar lo que escribe el usuario en los formularios y crear efectos de movimiento. La parte «Moving Up to AJAX» empieza por lo esencial de AJAX, construyendo a mano una conexión para entender las peticiones asíncronas, y luego presenta jQuery para manipular la página, animarla y hacer peticiones AJAX. También usa jQuery UI para crear deslizadores, interfaces con pestañas y diálogos personalizados, y dedica capítulos a la usabilidad y al trabajo con los datos que devuelve AJAX. La sección final de listas («Part of Tens») recomienda diez plugins de jQuery y diez recursos útiles.\n\nLa progresión está bien pensada: primero lo hace a mano y después con la biblioteca, así que el lector entiende qué automatiza jQuery. Avanza con muchos ejemplos cortos que el lector puede probar en el navegador. No trata la programación del lado del servidor más allá de lo justo para AJAX. El JavaScript que enseña es anterior a ES6 (var, sin módulos, sin promesas ni fetch), así que después habrá que ponerse al día con el JavaScript moderno.",
+    "temas": [
+      "JavaScript",
+      "Fundamentos de programación",
+      "DOM",
+      "Eventos",
+      "Validación de formularios",
+      "Animación",
+      "AJAX",
+      "XMLHttpRequest",
+      "jQuery",
+      "jQuery UI",
+      "Plugins de jQuery",
+      "Depuración"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/javascript-r-and-ajax/9780470417997/",
+      "https://www.oreilly.com/library/view/javascript-r-and-ajax/9780470417997/pt03.html",
+      "https://skillsoft.com/book/javascript-ajax-for-dummies-61beae20-f038-11e6-87f4-0242c0a80606",
+      "https://gov.wiley.com/WileyCDA/WileyTitle/productCd-0470417994,descCd-tableOfContents.html"
+    ]
+  },
+  "beginning-ajax-with-asp-net-2006": {
+    "descripcion": "Libro de Wrox, escrito por Wallace B. McClure, Scott Cate, Paul Glavich y Craig Shoemaker, que enseña a añadir Ajax a aplicaciones ASP.NET 2.0. Es de 2006, cuando Microsoft todavía desarrollaba su framework Ajax con el nombre en clave «Atlas», que poco después se publicaría como ASP.NET AJAX. Está pensado para programadores que ya trabajan con ASP.NET y C# o VB.NET pero que no han usado Ajax.\n\nEmpieza por las bases del cliente: DHTML, JavaScript, el Document Object Model y el objeto XMLHttpRequest, que es la base de Ajax. Sigue con los formatos de intercambio de datos (XML, XSLT y JSON) y con lo que ASP.NET 2.0 ya traía de serie, como los client callbacks. Dedica dos capítulos a la biblioteca Ajax.NET Professional (cómo se usa y cómo funciona por dentro) y repasa otros frameworks Ajax para .NET. Luego explica Atlas: su script de cliente, sus controles y su integración con los servicios de ASP.NET. Tiene un capítulo entero sobre depuración y un apéndice de referencia de XSLT.\n\nSe aprende con ejemplos de código en cada capítulo, sin un proyecto completo. Su principal limitación es la fecha: lo explica sobre las versiones preliminares de Atlas, que cambiaron bastante antes de salir como ASP.NET AJAX, y hoy tanto Web Forms como estas bibliotecas son tecnologías heredadas. Le sirve a quien mantenga aplicaciones ASP.NET antiguas o quiera entender cómo llegó Ajax al mundo .NET. Para proyectos nuevos conviene mirar ASP.NET Core y JavaScript moderno.",
+    "temas": [
+      "ASP.NET 2.0",
+      "Ajax",
+      "DHTML",
+      "JavaScript",
+      "DOM",
+      "XMLHttpRequest",
+      "XML y XSLT",
+      "JSON",
+      "Ajax.NET Professional",
+      "Atlas (ASP.NET AJAX)",
+      "Depuración"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://eyrolles.com/Informatique/Livre/beginning-ajax-with-asp-net-9780471785446",
+      "https://www.tenlong.com.tw/products/9780471785446"
+    ]
+  },
+  "professional-ajax-2nd-edition-2007": {
+    "descripcion": "Segunda edición, publicada en 2007, del manual de Wrox sobre Ajax a nivel profesional. Su autor principal es Nicholas C. Zakas, conocido por su trabajo en Yahoo! y por *Professional JavaScript for Web Developers*, y lo escribe junto a Jeremy McPeak y Joe Fawcett. Repasa técnicas, patrones y casos de uso de Ajax, y añade casi 200 páginas respecto a la primera edición. Está pensado para desarrolladores web y programadores JavaScript de nivel intermedio. Se espera que el lector conozca HTML, CSS, XML, XSLT y servicios web, además de PHP o C# para los ejemplos de servidor.\n\nEmpieza explicando cómo se llegó a Ajax a partir de los frames, JavaScript, las cookies, XML y XMLHttpRequest. Luego compara las formas de hacer peticiones (frames ocultos, iframes dinámicos y XHR) y cuándo conviene cada una, con un repaso breve de HTTP. Trata patrones de diseño Ajax, librerías Ajax de terceros y un framework propio para gestionar todas las peticiones de una aplicación. Compara los formatos de datos (texto plano, HTML, XML y JSON) y trabaja con XPath y XSLT, sindicación con RSS y Atom, servicios web, mapas y mashups, widgets para sitios web y Comet con HTTP streaming para que el servidor envíe datos al cliente. También cubre técnicas de depuración y ASP.NET AJAX (antes llamado Atlas).\n\nTermina con dos casos de estudio grandes que integran lo visto. Es uno de los libros más completos de su época y sigue siendo útil para entender los fundamentos de la comunicación asíncrona. Ideas como Comet son el antecedente directo de los WebSockets y los Server-Sent Events. Lo que se queda viejo son las APIs concretas (bibliotecas, servicios de mapas y frameworks de 2007), la compatibilidad con navegadores antiguos y la ausencia de fetch, promesas y JavaScript moderno.",
+    "temas": [
+      "Ajax",
+      "XMLHttpRequest",
+      "Patrones Ajax",
+      "Gestión de peticiones",
+      "JSON",
+      "XML, XPath y XSLT",
+      "RSS y Atom",
+      "Mashups",
+      "Comet",
+      "Widgets web",
+      "ASP.NET AJAX",
+      "PHP y C#"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "FooReader.NET",
+        "descripcion": "Caso de estudio: un lector de feeds RSS y Atom en el navegador que usa Ajax para cargar y mostrar las noticias sin recargar la página, con un backend en .NET."
+      },
+      {
+        "nombre": "AjaxMail",
+        "descripcion": "Caso de estudio: un cliente de correo web al estilo de las aplicaciones de escritorio, que reúne las técnicas de peticiones asíncronas y actualización dinámica de la interfaz vistas en el libro."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Professional+Ajax%2C+2nd+Edition-p-9780470109496",
+      "https://www.oreilly.com/library/view/-/9780470109496/",
+      "https://bookshare.org/browse/book/845227"
+    ]
+  },
+  "asp-net-ajax-programmers-reference-2007": {
+    "descripcion": "Obra de referencia de Wrox en la que Shahram Khosravi explica a fondo el framework ASP.NET AJAX de Microsoft, en la versión 1.0 para ASP.NET 2.0 y la que viene integrada en ASP.NET 3.5. Con más de 1.500 páginas, está pensada para desarrolladores de ASP.NET y C# que quieren entender cómo funciona el framework por dentro, y no solo arrastrar controles. Aunque el catálogo lo marca como básico, para aprovecharlo hay que saber ASP.NET Web Forms, C# y JavaScript con cierta soltura.\n\nEl libro tiene 24 capítulos y empieza por la parte de cliente de la Microsoft AJAX Library: las extensiones de los tipos base de JavaScript, los tipos de excepción propios y personalizados, la programación orientada a objetos y la reflexión de tipos en JavaScript, la programación de eventos y las extensiones del DOM. Después explica la infraestructura de componentes, cómo desarrollar controles de cliente, el burbujeo de eventos, la descripción de tipos y las clases de datos. La parte central trata la comunicación entre cliente y servidor: consumir servicios web mediante mensajes SOAP y JSON, las clases proxy, los behaviors, los controles de servidor de tipo script y extender, y los puentes y transformadores de servicios web. El último bloque analiza en detalle UpdatePanel y ScriptManager, su uso dentro de controles de usuario y personalizados, el ciclo de vida de la página, el PageRequestManager del cliente y el renderizado parcial asíncrono, tanto en el servidor como en el cliente.\n\nNo hay un proyecto que se construya a lo largo del libro. Su valor está en la cantidad de ejemplos de código y en que explica cómo funciona por dentro cada pieza del framework, algo que pocos libros de la época hacían con tanto detalle. Hoy es sobre todo de interés histórico o para mantener aplicaciones Web Forms antiguas: ASP.NET AJAX quedó superado por jQuery, ASP.NET MVC y, más tarde, por ASP.NET Core y los frameworks de JavaScript modernos. Por su tamaño y su densidad, funciona mejor como libro de consulta que para leerlo de principio a fin.",
+    "temas": [
+      "ASP.NET AJAX",
+      "ASP.NET 2.0 / 3.5",
+      "Microsoft AJAX Library",
+      "JavaScript orientado a objetos",
+      "Controles de cliente",
+      "Servicios web SOAP y JSON",
+      "Clases proxy",
+      "Behaviors y extenders",
+      "UpdatePanel",
+      "ScriptManager",
+      "PageRequestManager",
+      "Renderizado parcial asíncrono"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://lic.haui.edu.vn/vn/gioi-thieu-sach-moi/asp-net-ajax-programmer-s-reference-with-asp-net-2-0-or-asp-net-3-5/75386",
+      "https://www.goodreads.com/book/show/512747.ASP_NET_AJAX_Programmer_s_Reference",
+      "https://bookwire.bowker.com/book/USA/ASPNET-AJAX-9780470109984-Shahram-Khosravi-13819672"
+    ]
+  }
+}

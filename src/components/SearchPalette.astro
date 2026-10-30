@@ -1,0 +1,85 @@
+<button
+  id="search-open"
+  type="button"
+  class="ml-auto hidden shrink-0 items-center gap-2 rounded-md border border-line px-2.5 py-1 font-mono text-xs text-muted hover:text-white sm:flex"
+>
+  Buscar <kbd class="rounded border border-line px-1">Ctrl K</kbd>
+</button>
+
+<dialog id="search-dialog" class="m-auto mt-[12vh] w-[min(36rem,92vw)] rounded-xl border border-line bg-panel p-0 text-[#e7e9ee] backdrop:bg-black/60">
+  <input
+    id="search-input"
+    type="search"
+    placeholder="Título o autor…"
+    aria-label="Buscar libros"
+    autocomplete="off"
+    class="w-full border-b border-line bg-transparent px-4 py-3 outline-none"
+  />
+  <ul id="search-results" class="max-h-[50vh] overflow-y-auto p-2"></ul>
+</dialog>
+
+<script>
+  // El encabezado se reemplaza en cada navegación, así que los listeners se registran una sola vez
+  // sobre document y buscan los elementos actuales en cada evento.
+  type Entry = { t: string; a: string; s: string; h: string; n: string };
+
+  const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T | null;
+
+  let index: Promise<Entry[]> | undefined;
+  const loadIndex = () =>
+    (index ??= fetch('/search-index.json')
+      .then((r) => r.json())
+      .then((data: Omit<Entry, 'n'>[]) => data.map((e) => ({ ...e, n: norm(`${e.t} ${e.a}`) }))));
+
+  async function render() {
+    const input = $<HTMLInputElement>('search-input');
+    const list = $('search-results');
+    if (!input || !list) return;
+    const terms = norm(input.value).split(/\s+/).filter(Boolean);
+    const data = terms.length ? await loadIndex() : [];
+    const hits = data.filter((e) => terms.every((t) => e.n.includes(t))).slice(0, 12);
+    list.replaceChildren(
+      ...hits.map((e) => {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = e.h;
+        a.className = 'block rounded-md px-3 py-2 hover:bg-white/5 focus:bg-white/5';
+        a.textContent = e.t;
+        const sub = document.createElement('span');
+        sub.className = 'block font-mono text-xs text-[#8b93a7]';
+        sub.textContent = `${e.s}${e.a ? ' · ' + e.a : ''}`;
+        a.append(sub);
+        li.append(a);
+        return li;
+      }),
+    );
+  }
+
+  function open() {
+    const dialog = $<HTMLDialogElement>('search-dialog');
+    if (!dialog || dialog.open) return;
+    dialog.showModal();
+    $<HTMLInputElement>('search-input')?.select();
+    loadIndex(); // precarga mientras el usuario escribe
+  }
+
+  document.addEventListener('input', (ev) => {
+    if ((ev.target as HTMLElement).id === 'search-input') render();
+  });
+  document.addEventListener('click', (ev) => {
+    const target = ev.target as HTMLElement;
+    const dialog = $<HTMLDialogElement>('search-dialog');
+    if (target.closest('#search-open')) open();
+    else if (dialog?.open && (target === dialog || target.closest('#search-results a'))) dialog.close();
+  });
+  document.addEventListener('keydown', (ev) => {
+    const dialog = $<HTMLDialogElement>('search-dialog');
+    if ((ev.ctrlKey || ev.metaKey) && ev.key.toLowerCase() === 'k') {
+      ev.preventDefault();
+      dialog?.open ? dialog.close() : open();
+    } else if (ev.key === 'Enter' && (ev.target as HTMLElement).id === 'search-input') {
+      ($('search-results')?.querySelector('a') as HTMLAnchorElement | null)?.click();
+    }
+  });
+</script>

@@ -1,0 +1,144 @@
+{
+  "beginning-json-2015": {
+    "descripcion": "Introducción completa a JSON escrita por Ben Smith, director técnico con larga experiencia en agencias digitales, y publicada por Apress en 2015 dentro de la serie The Expert's Voice in Web Development. Se dirige a desarrolladores front-end de cualquier nivel. No hace falta saber JavaScript a fondo, porque los primeros capítulos repasan sus fundamentos, aunque ayuda conocer HTML y haber escrito algo de código en el navegador. Trabaja con el JavaScript de la época (ES5), anterior a los módulos y a fetch.\n\nEl libro arranca con lo básico de JavaScript, sus objetos especiales y la manipulación de cadenas. Después presenta JSON y enseña a crearlo con JSON.stringify y a interpretarlo con JSON.parse. Explica también cómo guardar JSON en el navegador (cookies y almacenamiento local) y cómo usarlo para intercambiar datos mediante Ajax con XMLHttpRequest. Más adelante trata los recursos de otro origen (CORS y JSONP), monta un servidor HTTP con Node.js para servir y recibir JSON por POST, guarda los documentos en la base NoSQL CouchDB y genera interfaces con plantillas Handlebars. Incluye además ejemplos que consumen feeds JSON de APIs sociales.\n\nEl último capítulo, «Putting It All Together», une todas las piezas en una aplicación basada en Twitter que combina Ajax, CORS, Node.js, CouchDB y Handlebars. Su mayor acierto es que recorre el ciclo completo del dato, desde el objeto en memoria hasta el servidor y la base de datos, explicando el porqué de cada paso. Conviene saber que algunas herramientas han envejecido: la API de Twitter cambió mucho, hoy se usa fetch en lugar de XMLHttpRequest y Handlebars y CouchDB tienen menos peso que antes. No trata JSON Schema ni TypeScript.",
+    "temas": [
+      "JSON",
+      "JavaScript ES5",
+      "JSON.parse y stringify",
+      "Ajax",
+      "XMLHttpRequest",
+      "CORS",
+      "JSONP",
+      "Node.js",
+      "CouchDB",
+      "Handlebars",
+      "Almacenamiento local"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación final basada en Twitter («Putting It All Together»)",
+        "descripcion": "Aplicación que reúne todo lo visto en el libro: obtiene datos JSON de Twitter, los sirve desde un servidor Node.js con CORS, los guarda en CouchDB y los muestra en el navegador con plantillas Handlebars y Ajax."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-0202-9",
+      "https://www.oreilly.com/library/view/beginning-json/9781484202029/",
+      "https://books.google.com/books/about/Beginning_JSON.html?id=ZYYnCgAAQBAJ",
+      "https://www.barnesandnoble.com/w/beginning-json-ben-smith/1133131095"
+    ]
+  },
+  "json-quick-syntax-reference-2016": {
+    "descripcion": "Referencia breve sobre la sintaxis de JSON escrita por Wallace Jackson y publicada por Apress en 2016, dentro de su serie Quick Syntax Reference. Está pensada para desarrolladores web, programadores de Android y diseñadores de interfaces que necesitan escribir y validar definiciones de objetos JSON. No exige experiencia previa con JSON, aunque ayuda haber programado un poco.\n\nEl libro empieza preparando un IDE para trabajar con JSON: NetBeans 8.1 en el texto principal, y Eclipse e IntelliJ en los apéndices. Después repasa la historia y la terminología del formato y presenta JSON Schema para validar datos. El grueso del libro recorre la sintaxis de definición: objetos y su relación con la programación orientada a objetos, arrays y tipos de valor (cadenas, números, booleanos y null). También muestra cómo integrar fragmentos de JSON en el flujo de producción de contenido de una aplicación web.\n\nEs una obra de consulta: no hay proyectos ni ejercicios guiados, solo explicaciones con fragmentos de código. Sirve para tener a mano las reglas del formato y una primera noción de JSON Schema. A cambio, dedica bastantes páginas a configurar IDEs y apenas trata el consumo de JSON desde código (JSON.parse, APIs REST o Ajax). Quien busque usar JSON en aplicaciones reales encontrará más valor en un libro práctico.",
+    "temas": [
+      "JSON",
+      "Sintaxis de objetos",
+      "Arrays",
+      "Tipos de datos",
+      "JSON Schema",
+      "Validación",
+      "NetBeans 8.1",
+      "Eclipse",
+      "IntelliJ",
+      "Programación orientada a objetos"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.apress.com/9781484218624",
+      "https://www.goodreads.com/work/editions/53904347-json-quick-syntax-reference",
+      "https://www.bookshare.org/browse/book/1386060"
+    ]
+  },
+  "introduction-to-javascript-object-notation-2015": {
+    "descripcion": "Guía corta y directa sobre JSON escrita por Lindsay Bassett y publicada por O'Reilly en 2015, con el subtítulo «A To-the-Point Guide to JSON». Se dirige a profesionales de TI con poco tiempo que quieren entender rápido qué es JSON y cómo se usa. Da por hecho que el lector ya ha programado algo y conoce HTML y JavaScript.\n\nEn unas 120 páginas explica por qué JSON representa los datos como pares nombre-valor y qué tipos admite (objeto, cadena, número, booleano, null y array). Repasa también las reglas de formato, la validación con JSON Schema y los riesgos de seguridad, como el secuestro de JSON (JSON hijacking) y la inyección de código. La segunda mitad muestra JSON en uso: las peticiones con XMLHttpRequest a APIs web, su manejo con jQuery y otros frameworks de cliente, el almacenamiento en la base NoSQL CouchDB y su generación y consumo desde el servidor.\n\nNo construye ninguna aplicación completa: cada capítulo se apoya en ejemplos cortos. Es una buena primera lectura para entender el formato y su ecosistema en una tarde, y destaca por tratar JSON Schema y la seguridad, dos temas que muchos libros de iniciación omiten. Como contrapartida, se queda en la superficie de cada herramienta, y algunos ejemplos, como jQuery, reflejan las prácticas de 2015.",
+    "temas": [
+      "JSON",
+      "Sintaxis",
+      "Tipos de datos",
+      "JSON Schema",
+      "Seguridad",
+      "XMLHttpRequest",
+      "APIs web",
+      "jQuery",
+      "CouchDB",
+      "JSON en el servidor"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/introduction-to-javascript/9781491929476",
+      "https://helion.pl/ksiazki/introduction-to-javascript-object-notation-a-to-the-point-guide-to-json-lindsay-bassett,e_2gxj.htm",
+      "https://bookshop.org/p/books/introduction-to-javascript-object-notation-a-to-the-point-guide-to-json-lindsay-bassett/fd6bb4e36b3ceabe"
+    ]
+  },
+  "javascript-and-json-essentials-2013": {
+    "descripcion": "Tutorial breve de Packt (2013) en el que Sai Srinivas Sriparasa, desarrollador web y defensor del código abierto, enseña a trabajar con JSON desde JavaScript en el navegador. Está escrito para el JavaScript y el jQuery de la época y se dirige a desarrolladores que ya conocen HTML y JavaScript y quieren usar JSON en sus propios proyectos. Existe una segunda edición de 2018, con Joseph D'mello como coautor, que amplía el contenido; esta ficha corresponde a la primera.\n\nEl libro empieza con un repaso de JavaScript y sigue con los fundamentos de JSON y la serialización de objetos. Luego muestra cómo cargar un archivo JSON en una página y recorrer sus objetos con jQuery. La parte central trata la transferencia de datos con peticiones HTTP síncronas y asíncronas (Ajax) y las peticiones entre dominios mediante JSONP. También dedica espacio a depurar datos JSON y a otros usos del formato más allá del intercambio con el servidor.\n\nEl ejemplo práctico principal, al que se dedica el último capítulo, es un carrusel de imágenes alimentado con un archivo JSON y montado con el plugin jQuery Cycle, que pone en juego el recorrido de objetos y las llamadas Ajax. Es un texto corto y accesible para dar los primeros pasos, pero su enfoque ha quedado anticuado: se apoya en jQuery y JSONP, cuando hoy lo habitual es fetch y CORS. No cubre JSON Schema, frameworks modernos ni el lado del servidor en profundidad.",
+    "temas": [
+      "JSON",
+      "JavaScript",
+      "Serialización",
+      "jQuery",
+      "Ajax",
+      "Peticiones asíncronas",
+      "JSONP",
+      "Cross-domain",
+      "Depuración de JSON",
+      "Carrusel"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de carrusel",
+        "descripcion": "Carrusel de imágenes para la web que carga su contenido desde datos JSON y lo recorre con JavaScript y jQuery para mostrar los elementos en la página."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-es/product/javascript-and-json-essentials-9781783286034",
+      "https://www.oreilly.com/library/view/javascript-and-json/9781783286034",
+      "https://ebusca.uv.mx/Record/cern-1633742",
+      "https://www.packtpub.com/en-us/product/javascript-and-json-essentials-9781783286041",
+      "https://www.oreilly.com/library/view/javascript-and-json/9781783286034/ch05s03.html"
+    ]
+  },
+  "javascript-json-cookbook-2015": {
+    "descripcion": "Recetario de Packt (2015) en el que Ray Rischpater reúne más de 80 recetas para trabajar con JSON en la web, en el servidor y en móviles. Está orientado a desarrolladores de nivel intermedio o avanzado que ya programan en JavaScript y quieren soluciones concretas para problemas comunes con JSON en distintos lenguajes y plataformas. El código refleja el ecosistema de 2015, con AngularJS 1.x y jQuery en el cliente.\n\nEl primer capítulo enseña a leer y escribir JSON en el cliente con JavaScript, C++, C# y Java. El segundo hace lo mismo en el servidor y el tercero cubre peticiones Ajax sencillas. Después vienen recetas de Ajax con jQuery y AngularJS y de persistencia en MongoDB y en CouchDB (incluidas vistas con Node.js y la librería Cradle). Otros capítulos explican cómo manejar JSON de forma tipada para reducir errores, cómo transferir datos binarios dentro de JSON y cómo consultar documentos con JSONPath y LINQ. El último está dedicado a JSON en plataformas móviles. Muchos ejemplos usan datos reales de la API de aprs.fi.\n\nEl formato de recetas (problema, solución y explicación) permite ir directo a lo que se necesita sin leer el libro entero, y abarca muchos más lenguajes y bases de datos que los libros de iniciación. No hay un proyecto conductor: son recetas independientes. Algunas tecnologías, como AngularJS, han quedado anticuadas, y el libro no explica los fundamentos de JSON en profundidad, así que conviene conocer el formato y JavaScript antes de abrirlo.",
+    "temas": [
+      "JSON",
+      "Recetas",
+      "Ajax",
+      "jQuery",
+      "AngularJS",
+      "Node.js",
+      "MongoDB",
+      "CouchDB",
+      "Tipado seguro",
+      "Datos binarios",
+      "JSONPath",
+      "LINQ"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/the-javascript-json/9781785286902/",
+      "https://books.google.de/books/about/JavaScript_JSON_Cookbook.html?id=p90DCgAAQBAJ",
+      "https://www.packtpub.com/en-us/product/the-javascript-json-cookbook-9781785284359",
+      "https://subscription.packtpub.com/book/web-development/9781785286902/6/ch06lvl1sec56/setting-up-a-data-view-in-couchdb-with-node-js-and-cradle"
+    ]
+  }
+}

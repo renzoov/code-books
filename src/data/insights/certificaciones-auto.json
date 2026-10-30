@@ -1,0 +1,1040 @@
+{
+  "oracle-certified-professional-java-se-8-programmer-exam-1z0-809-2015": {
+    "descripcion": "Guía integral de estudio técnico orientada específicamente a preparar el examen oficial de certificación Java SE 8 Programmer II (1Z0-809) de Oracle, necesario para obtener la credencial OCPJP 8. Escrita por S. G. Ganesh, Hari Kiran Kumar y Tushar Sharma, la obra está dirigida a programadores Java de nivel intermedio que ya poseen la certificación básica OCAJP 8 (examen 1Z0-808) o cuentan con experiencia previa contrastada en los fundamentos de Java y desean dominar las capacidades avanzadas del lenguaje incorporadas en la especificación Java Standard Edition 8.\n\nEl libro aborda con exhaustividad los doce dominios del examen oficial: diseño avanzado de clases con clases internas, locales, anónimas y tipos enumerados con métodos; el sistema de tipos genéricos y el framework de colecciones (incluyendo Comparable, Comparator y colecciones concurrentes); programación funcional con expresiones lambda e interfaces funcionales estándar del paquete java.util.function (Predicate, Consumer, Function, Supplier); y procesamiento de datos mediante la Stream API (filtrado, mapeo, reducción, colectores y flujos paralelos). Cubre también la gestión avanzada de excepciones y aserciones, la API moderna de fecha y hora (java.time), concurrencia y multithreading con ExecutorService, ForkJoinPool y variables atómicas, operaciones de entrada y salida con Java I/O y NIO.2 (Path, Files), persistencia relacional con JDBC (PreparedStatement, ResultSet, transacciones) e internacionalización con Locale y ResourceBundle.\n\nEn lugar de un único proyecto monolítico, el libro articula su aprendizaje mediante cientos de fragmentos de código especializados en ilustrar casos límite, advertencias sobre trampas habituales del compilador, cuestionarios de opción múltiple al final de cada capítulo y un simulacro de examen completo (mock exam) con preguntas idénticas al formato y dificultad oficial de Oracle. Su gran valor formativo radica en la profundidad conceptual y la rigurosidad con la que desmenuza las sutilezas de la sintaxis y la máquina virtual de Java 8. Deja fuera el desarrollo web y frameworks empresariales como Spring o Jakarta EE, enfocándose con precisión quirúrgica en el temario de certificación. Es indispensable compilar y experimentar con los ejemplos de código antes de afrontar la prueba.",
+    "temas": [
+      "Certificación OCPJP 8",
+      "Examen 1Z0-809",
+      "Java SE 8",
+      "Expresiones Lambda",
+      "Stream API",
+      "Interfaces funcionales",
+      "Genéricos y colecciones",
+      "Concurrencia y multithreading",
+      "Java NIO.2",
+      "JDBC",
+      "API java.time",
+      "Internacionalización y localización"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1836-5",
+      "https://www.apress.com/gp/book/9781484218358",
+      "https://www.oreilly.com/library/view/oracle-certified-professional/9781484218365/"
+    ]
+  },
+  "php-7-zend-certification-study-guide-2017": {
+    "descripcion": "Manual de referencia y preparación académica enfocado en superar el examen oficial ZCE 2017-PHP (Zend Certified Engineer para PHP 7), desarrollado por Andrew Beak. La obra se centra en el motor y las especificaciones de PHP 7 (incluyendo novedades de la versión 7.1) y está destinada a desarrolladores web de nivel intermedio que cuentan con un par de años de experiencia práctica en PHP y buscan una acreditación profesional formal que valide su dominio de los estándares y buenas prácticas del lenguaje.\n\nEl contenido cubre el temario oficial de la certificación a lo largo de once áreas temáticas clave: fundamentos del lenguaje y comportamiento del tipado dinámico (type juggling); funciones con declaraciones de tipos escalares, retornos estrictos, tipos anulables (nullable types), funciones variádicas y clausuras; manipulación de cadenas con expresiones regulares (PCRE); y estructuras de datos con arrays. Profundiza en programación orientada a objetos (herencia, interfaces, clases abstractas, traits, clases anónimas, reflexión, métodos mágicos y la Standard PHP Library - SPL), prácticas de seguridad web (validación de datos con filter_var, prevención de ataques XSS, CSRF, inyección SQL y hashing de contraseñas), formatos de datos (JSON, XML con SimpleXML y DOM, y la clase DateTime), entrada y salida mediante flujos (streams y contextos), características web (gestión de sesiones, cookies y cabeceras HTTP), interacción con bases de datos relacionales a través de PDO y consultas preparadas, y la jerarquía de errores y excepciones estructurada sobre la interfaz Throwable.\n\nEl aprendizaje se consolida mediante el análisis de snippets de código concisos que evidencian el comportamiento interno de PHP 7, acompañados de cuestionarios de repaso por capítulo y un simulacro de examen final compuesto por 70 preguntas tipo test que reproducen la estructura, ambigüedades calculadas y nivel de exigencia de la evaluación de Zend. Su gran mérito es sintetizar con claridad quirúrgica las particularidades y esquinas oscuras del lenguaje que no suelen dominarse en el uso de frameworks de alto nivel. No incluye el desarrollo de aplicaciones completas ni cubre frameworks como Laravel o Symfony. Es muy recomendable contar con experiencia previa escribiendo código en PHP antes de utilizar este texto como guía de estudio.",
+    "temas": [
+      "Certificación Zend PHP",
+      "Examen ZCE 2017-PHP",
+      "PHP 7",
+      "Programación orientada a objetos en PHP",
+      "Tipado escalar y return types",
+      "Seguridad web y XSS",
+      "PDO y bases de datos",
+      "Jerarquía Throwable y excepciones",
+      "Standard PHP Library (SPL)",
+      "Streams y entrada/salida",
+      "Formatos JSON y XML",
+      "Sesiones y cookies"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3246-0",
+      "https://www.apress.com/gp/book/9781484232453",
+      "https://www.oreilly.com/library/view/php-7-zend/9781484232460/"
+    ]
+  },
+  "pivotal-certified-professional-core-spring-5-developer-exam-2nd-edition-2019": {
+    "descripcion": "Guía de preparación exhaustiva escrita por Iuliana Cosmina para superar el examen oficial Pivotal Certified Professional Core Spring 5 Developer, basada en Spring Framework 5 (con soporte para Spring Boot 2.x, Java 8 a 11 y Kotlin). La obra está orientada a desarrolladores Java de nivel intermedio a avanzado que ya cuentan con bases sólidas en el lenguaje y programación orientada a objetos, y desean profundizar en la arquitectura interna y las mejores prácticas del ecosistema Spring empresarial.\n\nEl texto aborda en profundidad los componentes nucleares de Spring: contenedor de inversión de control (IoC), ciclo de vida de los beans y configuración basada en anotaciones (@Configuration, @Bean, BeanPostProcessor). Enseña pruebas automatizadas con JUnit 5 y Spring TestContext Framework, programación orientada a aspectos (AOP) mediante anotaciones de AspectJ, persistencia con JDBC (JdbcTemplate), gestión de transacciones declarativas (@Transactional), integración con Spring Data JPA y NoSQL con MongoDB. Además, detalla el desarrollo web con Spring MVC y servicios REST, la securización integral con Spring Security, el empaquetado y monitorización con Spring Boot y Actuator, los fundamentos de microservicios con Spring Cloud, y el paradigma reactivo mediante Spring WebFlux y Project Reactor.\n\nEl aprendizaje práctico se apoya en preguntas de autoevaluación, exámenes de prueba y el desarrollo incremental de CEMS (Criminal Evidence Management System), una aplicación empresarial multimódulo construida con Gradle que contiene módulos de práctica con pruebas y código incompleto para resolver. El libro destaca por su rigor técnico y su nivel de detalle sobre el funcionamiento interno del framework, convirtiéndose en un manual de referencia duradero más allá del examen. No cubre conceptos básicos de Java ni desarrollo frontend, por lo que exige soltura previa con Maven o Gradle y bases sólidas de SQL y arquitectura de software.",
+    "temas": [
+      "Spring Framework 5",
+      "Spring Boot 2",
+      "Inyección de dependencias",
+      "Spring Security",
+      "Spring Data JPA",
+      "Spring MVC",
+      "Spring WebFlux",
+      "AOP",
+      "Microservicios",
+      "JUnit 5",
+      "Actuator"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "CEMS (Criminal Evidence Management System)",
+        "descripcion": "Aplicación empresarial modular gestionada con Gradle que implementa la gestión de evidencias criminales mediante Spring Framework 5, persistencia con Spring Data JPA y MongoDB, seguridad con Spring Security y APIs reactivas y REST con WebFlux."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5136-2",
+      "https://www.oreilly.com/library/view/pivotal-certified-professional/9781484251362/",
+      "https://github.com/Apress/pivotal-certified-pro-spring-dev-exam-02"
+    ]
+  },
+  "practical-lpic-1-linux-certification-study-guide-2016": {
+    "descripcion": "Manual de estudio práctico y conciso de David Clinton orientado a la preparación de los exámenes 101-400 y 102-400 para obtener la certificación LPIC-1 (Linux Professional Institute Certification). Está dirigido a administradores de sistemas en formación, ingenieros de soporte y profesionales de DevOps con conocimientos informáticos previos que buscan estructurar y validar sus competencias operativas en la administración de entornos Linux desde la línea de comandos.\n\nEl contenido cubre los diez temas oficiales del temario de LPIC-1: arquitectura del sistema y configuración de hardware (lspci, lsusb, gestión de módulos del kernel con modprobe), secuencia de arranque (BIOS/UEFI, GRUB y GRUB2, niveles de ejecución System V y objetivos de systemd), gestión de paquetes en distribuciones Debian (dpkg, apt-get) y Red Hat (rpm, yum), comandos estándar GNU/Unix para manipulación de flujos, filtros y expresiones regulares con sed y grep, estructura del sistema de archivos (FHS), particionado con fdisk y gdisk, cuotas de disco, administración de usuarios y grupos, tareas programadas con cron y at, servicios esenciales (registro con rsyslog y journald, sincronización NTP, servidores de correo básicos), fundamentos de red (configuración IP, enrutamiento, DNS) y seguridad básica con OpenSSH y permisos de archivos.\n\nA través de sus páginas, Clinton propone tareas de terminal y ejercicios guiados pensados para ejecutarse en máquinas virtuales de laboratorio, complementados con cuestionarios de autoevaluación al final de cada capítulo. Su gran virtud es la brevedad y el enfoque directo a los puntos evaluados en el examen, eliminando rodeos innecesarios. No obstante, no profundiza en la configuración avanzada de servidores de producción ni en orquestación de contenedores, por lo que conviene tener un entorno de pruebas listo (como VirtualBox) para practicar activamente cada comando.",
+    "temas": [
+      "Linux",
+      "LPIC-1",
+      "Línea de comandos",
+      "systemd",
+      "Bash",
+      "Gestión de paquetes",
+      "Sistemas de archivos",
+      "Administración de usuarios",
+      "Redes Linux",
+      "Seguridad OpenSSH"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2358-1",
+      "https://www.oreilly.com/library/view/practical-lpic-1-linux-certification/9781484223581/"
+    ]
+  },
+  "salesforce-platform-app-builder-certification-2019": {
+    "descripcion": "Guía de preparación técnica escrita por el arquitecto y MVP de Salesforce Rakesh Gupta, diseñada específicamente para superar el examen oficial Salesforce Certified Platform App Builder. La obra se centra en el entorno de desarrollo declarativo en Salesforce Lightning Experience y está pensada para administradores de Salesforce de nivel intermedio, consultores funcionales y desarrolladores no-code que desean certificar su habilidad para diseñar aplicaciones empresariales personalizadas sin necesidad de programar código tradicional.\n\nEl libro examina detalladamente el abanico de herramientas declarativas de la plataforma: criterios de selección entre soluciones del AppExchange, configuración declarativa o programación; modelado de datos mediante objetos estándar y personalizados, tipos de campos y relaciones (Lookup, Master-Detail, objetos de unión para relaciones muchos a muchos y External Objects); reglas de validación, fórmulas avanzadas y campos de resumen (Roll-Up Summary); el modelo de seguridad y visibilidad de registros (perfiles, conjuntos de permisos, Organización por Defecto u OWD, jerarquía de funciones y reglas de uso compartido); automatización de procesos empresariales con Salesforce Flow (Screen Flows y Record-Triggered Flows), Process Builder y procesos de aprobación; y personalización de interfaces de usuario con Lightning App Builder, formatos de página, acciones globales, menús móviles y gestión del ciclo de vida de aplicaciones con sandboxes y Change Sets.\n\nLa metodología de enseñanza combina escenarios de negocio reales simulados con ejercicios paso a paso en entornos de prueba de Salesforce y bancos de preguntas de práctica al término de cada capítulo. El valor principal del texto reside en la experiencia del autor para resolver dilemas arquitectónicos reales de automatización y gobernanza de datos bajo límites de la plataforma (Governor Limits). Deja deliberadamente al margen el desarrollo con código (Apex, triggers y Lightning Web Components), por lo que resulta ideal para quienes dominan la administración estándar y quieren dar el salto al diseño estructurado de aplicaciones low-code.",
+    "temas": [
+      "Salesforce",
+      "Platform App Builder",
+      "Lightning Experience",
+      "Salesforce Flow",
+      "Modelado de datos",
+      "Seguridad Salesforce",
+      "Process Builder",
+      "Lightning App Builder",
+      "Change Sets",
+      "Desarrollo declarativo"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5479-0",
+      "https://www.oreilly.com/library/view/salesforce-platform-app-builder/9781484254790/",
+      "https://automationchampion.com/"
+    ]
+  },
+  "the-c-programmers-study-guide-mcsd-2017": {
+    "descripcion": "Manual de estudio redactado por Ali Asad y Hamza Ali para preparar el examen de certificación Microsoft 70-483 (Programming in C#), requisito clave para las credenciales MCSA y MCSD. El libro cubre C# (versiones 6.0 y 7.0) sobre .NET Framework (4.6 y 4.7) y está dirigido a programadores y desarrolladores .NET de nivel intermedio que ya programan en C# pero necesitan afianzar los conceptos formales de la plataforma, el runtime de .NET (CLR) y las peculiaridades del lenguaje evaluadas en los exámenes oficiales.\n\nOrganizado bajo el enfoque pedagógico de \"Qué, Por qué y Cómo\", el texto profundiza en el control de flujo y la concurrencia: multihilo (Thread, ThreadPool), la biblioteca Task Parallel Library (TPL), patrones async/await, colecciones concurrentes y mecanismos de sincronización (Monitor, lock). Enseña la gestión de tipos en memoria (tipos por valor frente a tipos por referencia, boxing/unboxing, recolección de basura y patrón IDisposable), diseño orientado a objetos con interfaces y polimorfismo, delegados, eventos y expresiones lambda. Asimismo, abarca consultas de datos complejas con LINQ (a objetos, XML y entidades), acceso a datos con ADO.NET, serialización (JSON, XML, binaria), operaciones de entrada/salida y flujos de archivos, instrumentación y diagnóstico (Trace, Debug, contadores de rendimiento) y criptografía aplicada (cifrado simétrico, asimétrico, hashing y certificados con System.Security.Cryptography).\n\nCada sección incluye retos prácticos de código, fragmentos ilustrativos de casos límite y preguntas tipo test con respuestas detalladas que replican la complejidad de la prueba de certificación. Su gran beneficio es desmitificar áreas que los programadores autodidactas suelen descuidar, como los hilos de bajo nivel, la reflexión o el cifrado seguro. No construye una aplicación completa desde cero ni aborda tecnologías web cliente como ASP.NET MVC o frontend moderno, centrándose exclusivamente en la robustez y precisión del lenguaje C# en el backend.",
+    "temas": [
+      "C#",
+      ".NET Framework",
+      "Exam 70-483",
+      "Multithreading",
+      "Async Await",
+      "TPL",
+      "LINQ",
+      "ADO.NET",
+      "Criptografía",
+      "Delegados y eventos",
+      "Garbage Collection"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2860-9",
+      "https://www.oreilly.com/library/view/the-c-programmers/9781484228609/"
+    ]
+  },
+  "oca-java-se-8-programmer-i-certification-guide-2016": {
+    "descripcion": "Guía de certificación de referencia escrita por Mala Gupta y publicada por Manning para superar el examen Oracle Certified Associate Java SE 8 Programmer I (1Z0-808). Está concebida para estudiantes y desarrolladores Java de nivel principiante e intermedio que poseen nociones de programación orientada a objetos y desean adquirir una comprensión rigurosa y a prueba de trampas de la sintaxis y el comportamiento del lenguaje en su versión Java SE 8.\n\nEl libro desglosa de manera exhaustiva todos los objetivos del examen: fundamentos de la plataforma Java (estructura de paquetes, importaciones estáticas, método main y alcance de variables), tipos de datos primitivos, envoltorios (wrappers), operadores y orden de precedencia. Enseña métodos y encapsulación (modificadores de acceso, sobrecarga, constructores por defecto y definidos), clases clave de la API estándar (String, StringBuilder, ArrayList y la API de fecha y hora java.time con LocalDate, LocalTime y DateTimeFormatter), matrices simples y multidimensionales, estructuras de control (if/else, switch, bucles for, while, do-while y sentencias de salto), herencia y polimorfismo (sobrescritura, enlaces dinámicos, métodos estáticos y por defecto en interfaces), introducción a expresiones lambda mediante la interfaz funcional Predicate, y gestión avanzada de excepciones (try-catch-finally, excepciones verificadas y no verificadas).\n\nLa obra destaca por sus recursos didácticos: esquemas visuales, diagramas UML, acertijos (\"Twist in the Tale\"), ejercicios de detección de errores (\"Catch the Bug\"), resúmenes de advertencia sobre preguntas trampa del examen y un examen de simulación completo con respuestas extensamente justificadas. Aporta un dominio milimétrico del código que evita errores sutiles de compilación y ejecución en el día a día profesional. Deja fuera temas avanzados como Streams, concurrencia o acceso a bases de datos (reservados para la certificación OCP 1Z0-809), por lo que es la antesala ideal antes de abordar arquitecturas Java de mayor complejidad.",
+    "temas": [
+      "Java SE 8",
+      "Certificación OCA",
+      "Examen 1Z0-808",
+      "POO",
+      "Encapsulamiento",
+      "Herencia y polimorfismo",
+      "java.time",
+      "Expresiones lambda",
+      "Manejo de excepciones",
+      "ArrayList",
+      "String y StringBuilder"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/oca-java-se-8-programmer-i-certification-guide",
+      "https://www.oreilly.com/library/view/oca-java-se/9781617293252/"
+    ]
+  },
+  "exam-ref-70-480-programming-in-html5-with-javascript-and-css3-2014": {
+    "descripcion": "Guía oficial de Microsoft Press escrita por Rick Delorme para preparar el examen de certificación 70-480 (Programming in HTML5 with JavaScript and CSS3), requisito del itinerario MCSD (Microsoft Certified Solutions Developer). Cubre los estándares web de HTML5, CSS3 y JavaScript (ECMAScript 5) integrados en el ecosistema de desarrollo de Visual Studio 2012 y 2013. Está pensada para desarrolladores frontend de nivel intermedio que ya poseen experiencia previa creando páginas web y desean validar formalmente su dominio técnico y criterio de toma de decisiones bajo los estándares de Microsoft.\n\nEl temario profundiza en la estructura y manipulación del DOM, diseño semántico con elementos HTML5 (como article, section, nav, canvas y controles multimedia) y manejo de eventos. En el bloque de JavaScript aborda el control de flujo, jerarquías de herencia prototípica, clausuras, serialización JSON y consumo asíncrono de datos mediante XMLHttpRequest/AJAX. También enseña el uso de APIs nativas de HTML5 clave como Web Storage (localStorage y sessionStorage), Geolocation API y Web Workers para ejecución en segundo plano. En la capa de diseño con CSS3, cubre selectores avanzados, tipografía, transformaciones 2D/3D, transiciones, animaciones y diseño adaptativo mediante Flexbox y Media Queries.\n\nLa preparación no se basa en construir una aplicación monolítica guiada, sino en el análisis riguroso de cada objetivo del examen a través de fragmentos de código específicos y \"Thought Experiments\" (ejercicios y casos prácticos de análisis al final de cada sección con respuestas razonadas). Su valor radica en ordenar sistemáticamente los conocimientos de la web estándar y señalar las trampas conceptuales frecuentes de la prueba. Deja fuera frameworks como React o Angular y herramientas modernas de bundling, pues su meta es afianzar con solidez los fundamentos nativos del navegador evaluados en la certificación.",
+    "temas": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "DOM",
+      "Web Storage",
+      "Web Workers",
+      "Canvas",
+      "Flexbox",
+      "Media Queries",
+      "AJAX",
+      "Certificación Microsoft"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/exam-ref-70-480-programming-in-html5-with-javascript-9780735676633",
+      "https://www.oreilly.com/library/view/exam-ref-70-480/9780133966312/",
+      "https://www.amazon.com/Exam-Ref-70-480-Programming-JavaScript/dp/0735676631"
+    ]
+  },
+  "exam-ref-70-483-programming-in-c-2013": {
+    "descripcion": "Manual oficial de estudio elaborado por Wouter de Kort para superar el examen 70-483 (Programming in C#), una de las evaluaciones troncales para las certificaciones profesionales MCSD de Microsoft. El contenido se sitúa en C# 5.0 y .NET Framework 4.5, utilizando las herramientas de Visual Studio 2012 y 2013. Su audiencia natural son programadores con conocimientos previos de programación orientada a objetos y familiaridad básica con .NET que buscan elevar su nivel técnico hacia el estándar profesional exigido en proyectos corporativos.\n\nEl texto desglosa minuciosamente cuatro áreas troncales: gestión del flujo de ejecución mediante concurrencia y asincronía (Task Parallel Library, async/await, subprocesamiento, PLINQ y colecciones concurrentes), delegados, eventos y expresiones lambda; creación y uso de tipos (estructuras, clases, genéricos, métodos de extensión, reflexión, atributos personalizados y manipulación de cadenas); depuración e implementación de seguridad (validación de datos, firmas digitales, algoritmos de cifrado simétrico y asimétrico, gestión de certificados y directivas de seguridad CAS); e implementación de acceso a datos (operaciones de I/O sobre flujos y archivos, consultas con LINQ to Objects y LINQ to XML, serialización binaria/XML/JSON y acceso mediante ADO.NET).\n\nEl libro no construye un proyecto de software de principio a fin; en su lugar, utiliza ejemplos de código precisos y situaciones de toma de decisiones técnicas plasmadas en \"Thought Experiments\" con respuestas explicadas para cada objetivo evaluable. Destaca especialmente por la claridad con la que enseña los patrones asíncronos introducidos en C# 5 y el manejo avanzado de tipos y memoria. No aborda el diseño de interfaces gráficas ni arquitecturas completas de microservicios, pero constituye un recurso de referencia de alto valor para dominar los fundamentos de C# a bajo nivel.",
+    "temas": [
+      "C# 5.0",
+      ".NET Framework 4.5",
+      "Async/Await",
+      "Task Parallel Library",
+      "LINQ",
+      "Multithreading",
+      "Reflexión",
+      "Criptografía",
+      "Serialización",
+      "ADO.NET",
+      "Certificación Microsoft"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/exam-ref-70-483-programming-in-c-mcse-9780735676824",
+      "https://www.oreilly.com/library/view/exam-ref-70-483/9780735676824/",
+      "https://www.amazon.com/Exam-Ref-70-483-Programming-MCSD/dp/0735676828"
+    ]
+  },
+  "exam-ref-70-484-essentials-of-developing-windows-store-apps-using-c-2013": {
+    "descripcion": "Guía de preparación oficial escrita por Indrajit Chakrabarty enfocada en el examen Microsoft 70-484 (Essentials of Developing Windows Store Apps using C#), la primera prueba técnica requerida para la acreditación MCSD en desarrollo de aplicaciones Windows Store. Se centra en el desarrollo para Windows 8 y 8.1 utilizando el runtime de WinRT, C# y XAML en Visual Studio 2012 y Blend. Está destinada a desarrolladores con experiencia intermedia en C# que deseen introducirse en la creación de aplicaciones orientadas a pantallas táctiles y al ecosistema de la tienda de Microsoft.\n\nLa obra enseña los principios del patrón arquitectónico MVVM (Model-View-ViewModel) y la separación de responsabilidades, junto con el ciclo de vida de ejecución con Process Lifetime Management (PLM), que regula la suspensión, reanudación y preservación de estado transitorio de la aplicación. En el ámbito visual cubre controles XAML esenciales (ListView, GridView, SemanticZoom), vinculación de datos (Data Binding), estilos y plantillas. Además, profundiza en la integración con las características del sistema operativo: contratos de búsqueda y uso compartido (Search y Share Charms), notificaciones dinámicas (live tiles, badges y toasts vía WNS), tareas en segundo plano (IBackgroundTask) y almacenamiento local, móvil (roaming) y temporal mediante las APIs de ApplicationData.\n\nEl libro carece de un proyecto integral continuado; su pedagogía se estructura en torno a fragmentos de código demostrativos y \"Thought Experiments\" al final de cada sección que plantean problemas reales de arquitectura y empaquetado para que el lector evalúe la solución correcta. Aporta una comprensión rigurosa de las directivas y restricciones de rendimiento impuestas por la certificación de la tienda de Windows. Aunque el modelo específico de WinRT de Windows 8 ha sido sucedido por UWP y el Windows App SDK, los patrones de diseño desacoplado y gestión de ciclo de vida resultan formativos para cualquier desarrollo cliente en Windows.",
+    "temas": [
+      "Windows Store Apps",
+      "Windows 8",
+      "WinRT",
+      "XAML",
+      "C#",
+      "Patrón MVVM",
+      "Process Lifetime Management",
+      "Live Tiles",
+      "Tareas en segundo plano",
+      "Contratos de Windows",
+      "Certificación Microsoft"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/exam-ref-70-484-essentials-of-developing-windows-store-9780735676848",
+      "https://www.oreilly.com/library/view/exam-ref-70-484-essentials/9780735676848/",
+      "https://www.amazon.com/Exam-Ref-70-484-Essentials-Developing/dp/0735676844"
+    ]
+  },
+  "exam-ref-70-485-advanced-windows-store-app-development-using-c-2013": {
+    "descripcion": "Manual oficial de certificación de nivel avanzado redactado por Roberto Brunetti y Vanni Boncinelli para preparar el examen 70-485 (Advanced Windows Store App Development Using C#), la etapa culminante para obtener la credencial MCSD: Windows Store Apps. Ambientado en Windows 8 y 8.1, profundiza en el uso extensivo de C#, XAML y la API WinRT con Visual Studio 2012 y 2013. Se dirige a ingenieros de software sénior que ya dominan los fundamentos del examen 70-484 y necesitan gestionar capacidades complejas de hardware, rendimiento y servicios de sistema.\n\nEl temario profundiza en temas avanzados de la plataforma Windows Runtime: creación y registro de componentes nativos WinMD y tareas en segundo plano con aplazamientos (deferrals); interacción con dispositivos periféricos y sensores (acelerómetro, compás, giroscopio, geolocalización, cámara y micrófono); y comunicación mediante protocolos Bluetooth, Proximity/NFC y USB. En interacción de usuario y presentación abarca la digitalización de tinta (Inking), gestos multitáctiles, síntesis por voz, contratos de impresión, transmisión multimedia con PlayTo y personalización de controles XAML mediante Visual State Manager y plantillas avanzadas. También detalla el cifrado de datos, el uso de Web Authentication Broker, Credential Locker, internacionalización de recursos (archivos RESW) y la implementación de monetización con compras dentro de la aplicación y versiones de prueba en la Windows Store.\n\nEl aprendizaje se articula mediante casos de estudio técnicos y escenarios de toma de decisiones expuestos en \"Thought Experiments\" con respuestas justificadas, prescindiendo del formato de proyecto de extremo a extremo. Su mayor valor reside en cubrir aspectos avanzados del sistema operativo e integración con periféricos que rara vez se documentan en guías generales. A pesar de que la plataforma Windows 8 ha sido reemplazada en el mercado, el tratamiento de la interacción hardware-software y el diseño seguro de aplicaciones cliente conserva un gran interés conceptual.",
+    "temas": [
+      "Windows Store Apps",
+      "WinRT",
+      "Sensores",
+      "Multitouch y Gestos",
+      "Inking",
+      "Web Authentication Broker",
+      "Tareas en segundo plano",
+      "Compras integradas",
+      "Bluetooth y NFC",
+      "XAML",
+      "Certificación Microsoft"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/exam-ref-70-485-advanced-windows-store-app-development-9780735676862",
+      "https://www.oreilly.com/library/view/exam-ref-70-485-advanced/9780735676862/",
+      "https://www.amazon.com/Exam-Ref-70-485-Development-MCSD/dp/0735676860"
+    ]
+  },
+  "exam-ref-70-486-developing-asp-net-mvc-4-web-applications-2013": {
+    "descripcion": "Guía oficial de Microsoft Press elaborada por William Penberthy para preparar el examen 70-486 (Developing ASP.NET MVC 4 Web Applications), elemento clave para la credencial profesional MCSD: Web Applications. Desarrollada con ASP.NET MVC 4 sobre .NET Framework 4.5, IIS 8 y servicios tempranos de Windows Azure en Visual Studio 2012. Está orientada a programadores web de nivel intermedio con base en C# que deseen dominar el patrón Modelo-Vista-Controlador de Microsoft y consolidar criterios arquitectónicos para el diseño de soluciones web empresariales.\n\nEl contenido abarca los cinco dominios oficiales del examen: diseño de la arquitectura de la aplicación (ciclo de vida de la petición HTTP, enrutamiento, inyección de dependencias, filtros de autorización/acción/excepción y módulos HTTP); diseño y desarrollo de la experiencia de usuario (motor de vistas Razor, vistas parciales, plantillas de diseño, Display Modes para adaptación a dispositivos móviles, optimización mediante empaquetado y minificación con WebGrease, y soporte asíncrono con jQuery y JavaScript discreto); depuración, diagnóstico y pruebas (pruebas unitarias, Health Monitoring, rastreo con System.Diagnostics y gestión de errores); e implementación de seguridad (autenticación mediante Forms Authentication, Windows Authentication y proveedores OAuth/OpenID con SimpleMembership, autorización basada en roles y claims, y prevención de vulnerabilidades web como inyecciones SQL, ataques XSS y CSRF mediante AntiForgeryToken).\n\nEn lugar de una aplicación completa guiada, el libro organiza su contenido a través de fragmentos de código representativos y preguntas situacionales de análisis (\"Thought Experiments\") con respuestas analíticas para validar cada decisión de diseño. Su principal aporte es la visión integral que ofrece sobre la arquitectura web robusta, la seguridad y el rendimiento dentro del stack tradicional de ASP.NET. Conviene tener presente que fue publicado antes de la convergencia moderna de ASP.NET Core, por lo que resulta ideal para el mantenimiento y comprensión profunda de aplicaciones web .NET legadas.",
+    "temas": [
+      "ASP.NET MVC 4",
+      ".NET Framework 4.5",
+      "Razor",
+      "Enrutamiento",
+      "Inyección de dependencias",
+      "Seguridad web",
+      "OAuth",
+      "CSRF y XSS",
+      "Depuración y Diagnóstico",
+      "Windows Azure",
+      "Certificación Microsoft"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/exam-ref-70-486-developing-asp-net-mvc-4-web-applications-9780735677227",
+      "https://www.oreilly.com/library/view/exam-ref-70-486-developing/9780735677227/",
+      "https://www.amazon.com/Exam-Ref-70-486-Developing-Applications-MCSD/dp/0735677220"
+    ]
+  },
+  "exam-ref-70-487-developing-windows-azure-and-web-services-2013": {
+    "descripcion": "Guía oficial de preparación para el examen de certificación 70-487 de Microsoft, requisito central para obtener la credencial MCSD: Web Applications. El texto aborda el diseño, la creación y el despliegue de servicios web y soluciones en la nube basándose en .NET Framework 4.5, C# y la plataforma Windows Azure (actual Microsoft Azure) vigente en 2013. Está concebido para desarrolladores de nivel intermedio a avanzado que ya cuentan con experiencia sólida programando en C# y creando aplicaciones web en .NET, y que necesitan validar sus competencias en arquitecturas orientadas a servicios y computación en la nube.\n\nEl temario cubre a fondo las cinco áreas medidas por el examen: acceso a datos, manipulación con Entity Framework, desarrollo de servicios WCF, creación de servicios Web API y despliegue en Azure. En el plano de datos, examina el uso de ADO.NET, Entity Framework (enfoques Code First y Database First, LINQ to Entities y DbContext), estrategias de almacenamiento en Azure (Table Storage, Blob Storage, Colas y Azure SQL Database) y transacciones distribuidas con System.Transactions. En la capa de servicios, profundiza en Windows Communication Foundation (contratos de datos y servicios, enlaces SOAP, WebHttpBinding y seguridad), el diseño de APIs RESTful con ASP.NET Web API (enrutamiento, controladores, formateadores JSON/XML, filtros y HttpClient), y el despliegue continuo mediante NuGet, Web Deploy y Azure Cloud Services.\n\nFiel a la metodología de la serie Exam Ref, el libro no guía el desarrollo de un proyecto integral paso a paso, sino que presenta fragmentos de código arquitectónicos, configuraciones técnicas y los ejercicios de toma de decisiones conocidos como 'Thought Experiments', diseñados para entrenar el criterio profesional ante casos reales de examen. Su principal valor radica en la claridad para comparar alternativas tecnológicas (como elegir entre WCF y Web API o seleccionar la estrategia adecuada de almacenamiento en la nube) y en sus recomendaciones estratégicas ('Exam Tips'). Quedan fuera las aplicaciones cliente de interfaz gráfica y conviene dominar previamente C# y fundamentos de redes antes de abordarlo.",
+    "temas": [
+      "Microsoft Azure",
+      "ASP.NET Web API",
+      "WCF",
+      "Entity Framework",
+      "ADO.NET",
+      "REST",
+      "SOAP",
+      "Azure Storage",
+      "LINQ to Entities",
+      "Web Deploy",
+      "Certificación 70-487"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/exam-ref-70-487-developing-windows-azure-and-web-9780735677241",
+      "https://www.oreilly.com/library/view/exam-ref-70-487/9780735677241/",
+      "https://www.amazon.com/Exam-Ref-70-487-Developing-Services/dp/0735677240",
+      "https://www.goodreads.com/book/show/18128919-exam-ref-70-487"
+    ]
+  },
+  "exam-ref-70-762-developing-sql-databases-2017": {
+    "descripcion": "Manual oficial de estudio publicado por Microsoft Press para superar el examen 70-762, prueba obligatoria para alcanzar la certificación MCSA: SQL 2016 Database Development. La obra se enfoca en el diseño estructural, la programación, optimización y gestión de bases de datos relacionales utilizando Microsoft SQL Server 2016 y Azure SQL Database. Está dirigida a desarrolladores de bases de datos, administradores y profesionales de datos de nivel intermedio que dominan la sintaxis básica de Transact-SQL y buscan profundizar en técnicas avanzadas de diseño y rendimiento en entornos corporativos.\n\nEl contenido se divide en los cuatro dominios técnicos del examen: diseño de objetos de base de datos, implementación de objetos de programabilidad, gestión de concurrencia y optimización de infraestructura. Explica el diseño normalizado de esquemas, tablas temporales, índices agrupados, no agrupados y Columnstore, junto con vistas indexadas y particionadas. En programación con T-SQL, cubre procedimientos almacenados, parámetros con valores de tabla (TVP), funciones definidas por el usuario (UDFs) y desencadenadores (triggers DML, DDL y de inicio de sesión). Aborda con gran detalle el control de concurrencia: niveles de aislamiento (desde Read Committed hasta Snapshot), detección y solución de interbloqueos (deadlocks) mediante Dynamic Management Views (DMVs) y el aprovechamiento de tablas optimizadas para memoria y procedimientos compilados de forma nativa (In-Memory OLTP). Asimismo, profundiza en el análisis de planes de ejecución y herramientas de diagnóstico como Query Store y Extended Events.\n\nLa estructura prescinde de una aplicación monolítica o un proyecto de extremo a extremo, enfocándose en scripts T-SQL demostrativos, casos prácticos y ejercicios de evaluación de escenarios arquitectónicos ('Thought Experiments') con sus soluciones justificadas. Destaca por el criterio experto de Davidson y Varga para explicar cómo opera internamente el motor relacional y cómo resolver cuellos de botella reales en servidores locales o en la nube. Quedan fuera las bases de datos NoSQL y la administración de hardware físico, y resulta altamente recomendable haber aprobado o estudiado previamente el examen 70-761 (Querying Data with Transact-SQL).",
+    "temas": [
+      "SQL Server 2016",
+      "Transact-SQL",
+      "In-Memory OLTP",
+      "Columnstore",
+      "Procedimientos almacenados",
+      "Vistas indexadas",
+      "Niveles de aislamiento",
+      "Deadlocks",
+      "Query Store",
+      "Extended Events",
+      "Azure SQL Database",
+      "Certificación 70-762"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/exam-ref-70-762-developing-sql-databases-9781509304912",
+      "https://www.oreilly.com/library/view/exam-ref-70-762/9781509304912/",
+      "https://www.amazon.com/Exam-Ref-70-762-Developing-Databases/dp/1509304916",
+      "https://www.goodreads.com/book/show/32600867-exam-ref-70-762-developing-sql-databases"
+    ]
+  },
+  "mcpd-exam-ref-70-518-windows-application-net-framework-4-2011": {
+    "descripcion": "Guía de preparación oficial diseñada para el examen 70-518: 'Designing and Developing Windows Applications Using Microsoft .NET Framework 4', que otorgaba la certificación de nivel superior MCPD: Windows Developer 4. El libro se centra en la toma de decisiones arquitectónicas y el diseño integral de aplicaciones ricas para el entorno de escritorio utilizando .NET Framework 4 y C#. Está dirigido a desarrolladores de nivel intermedio a avanzado que ya cuentan con destrezas prácticas en la programación con tecnologías cliente de Microsoft (habiendo preparado o cursado certificaciones MCTS previas como 70-511) y desean dar el salto hacia el diseño estructural y la arquitectura de software.\n\nEl texto analiza el diseño y la separación de responsabilidades a lo largo de todas las capas de una solución corporativa. En la capa de presentación, orienta la elección técnica entre Windows Presentation Foundation (WPF) y Windows Forms (incluida la interoperabilidad mediante WindowsFormsHost), la optimización de la respuesta de la interfaz con subprocesos secundarios, estilos, plantillas y enlace de datos. En la capa de acceso a datos, cubre el modelado con Entity Framework 4 (ObjectContext, LINQ to Entities) y ADO.NET, el trabajo con datos conectados y desconectados, serialización y esquemas de caché local. También aborda la comunicación distribuida a través de WCF, estrategias de distribución y despliegue mediante ClickOnce y paquetes MSI, configuraciones de usuario y el diseño para estabilidad mediante tracing con System.Diagnostics, gestión de excepciones y pruebas unitarias.\n\nEl manual no construye una aplicación completa desde cero; su dinámica pedagógica se basa en el análisis de requisitos empresariales, código representativo y ejercicios tipo 'Thought Experiment' donde se examinan opciones de compromiso (trade-offs) entre rendimiento, seguridad y mantenibilidad. Su gran aporte consiste en enseñar a pensar con mentalidad de arquitecto ante decisiones de despliegue, capas y tecnologías de cliente. Quedan fuera las plataformas web y los desarrollos móviles modernos, y es indispensable contar con experiencia sólida previa en programación orientada a objetos en C# y WPF.",
+    "temas": [
+      ".NET Framework 4",
+      "WPF",
+      "Windows Forms",
+      "Entity Framework 4",
+      "ADO.NET",
+      "WCF",
+      "ClickOnce",
+      "Arquitectura en capas",
+      "System.Diagnostics",
+      "Data Binding",
+      "Certificación 70-518"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/mcpd-exam-ref-70-518-designing-and-developing-windows-9780735657236",
+      "https://www.oreilly.com/library/view/mcpd-70-518-exam/9780735657236/",
+      "https://www.amazon.com/MCPD-Exam-Ref-70-518-Applications/dp/0735657238",
+      "https://www.goodreads.com/book/show/10439600-mcpd-exam-ref-70-518"
+    ]
+  },
+  "mcpd-exam-ref-70-519-web-applications-net-framework-4-2011": {
+    "descripcion": "Texto oficial de Microsoft Press concebido para superar el examen 70-519: 'Designing and Developing Web Applications Using Microsoft .NET Framework 4', que acreditaba la certificación profesional MCPD: Web Developer 4. El libro está enfocado en la arquitectura técnica, la seguridad y el ciclo de vida de aplicaciones web empresariales construidas sobre ASP.NET 4, C# e IIS 7.0/7.5. Su público objetivo son desarrolladores web de nivel intermedio a avanzado que ya dominan la implementación de soluciones con ASP.NET (nivel equivalente a la certificación base MCTS 70-515) y necesitan asumir el rol de diseñador técnico o líder de arquitectura web.\n\nEl recorrido formativo desglosa las áreas esenciales de una aplicación web moderna de la época: arquitectura general, experiencia de usuario, estrategias de datos, seguridad, diagnóstico y despliegue. Enseña a evaluar cuándo emplear ASP.NET Web Forms frente al patrón ASP.NET MVC, la integración de llamadas asíncronas con AJAX y JavaScript, y la creación de servicios con WCF y WCF Data Services. En la gestión de datos, profundiza en la selección entre ADO.NET y Entity Framework 4, transacciones y almacenamiento en caché de estado. En seguridad, cubre la arquitectura de autenticación (Forms vs. Windows), control de membresía (Membership API), autorización basada en roles y protección frente a ataques comunes (inyección SQL, XSS y CSRF). Concluye con técnicas de diagnóstico mediante tracing, contadores de rendimiento, monitoreo de estado (health monitoring) y empaquetado con Web Deploy y transformaciones de web.config.\n\nEn lugar de guiar la programación guiada de un proyecto singular, el libro utiliza casos de estudio hipotéticos y 'Thought Experiments' con respuestas explicadas para afianzar el pensamiento crítico y la toma de decisiones arquitectónicas. Su mayor valor radica en proporcionar un marco metódico para estructurar aplicaciones escalables y seguras en servidores web Windows. No cubre las tecnologías posteriores como ASP.NET Core ni librerías frontend modernas (React o Angular), por lo que requiere conocimientos consolidados de C#, ASP.NET y el protocolo HTTP.",
+    "temas": [
+      "ASP.NET 4",
+      "ASP.NET MVC",
+      "ASP.NET Web Forms",
+      "Entity Framework 4",
+      "WCF",
+      "IIS 7.5",
+      "Web Deploy",
+      "Seguridad web",
+      "Membership API",
+      "AJAX",
+      "Certificación 70-519"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/mcpd-exam-ref-70-519-designing-and-developing-web-9780735657267",
+      "https://www.oreilly.com/library/view/mcpd-70-519-exam/9780735657267/",
+      "https://www.amazon.com/MCPD-Exam-Ref-70-519-Applications/dp/0735657262",
+      "https://www.goodreads.com/book/show/10439601-mcpd-exam-ref-70-519"
+    ]
+  },
+  "mcts-self-paced-training-kit-exam-70-502-2008": {
+    "descripcion": "Kit de autoaprendizaje oficial de Microsoft Press creado para superar el examen MCTS 70-502: 'Microsoft .NET Framework 3.5, Windows Presentation Foundation Application Development'. El libro ofrece una formación integral y metódica para aprender a diseñar e implementar interfaces de usuario modernas utilizando WPF y el lenguaje declarativo XAML bajo .NET Framework 3.5 y Visual Studio 2008. Está dirigido a desarrolladores de software de escritorio con nivel intermedio que conocen C# (o Visual Basic .NET) y los conceptos fundamentales de la programación en Windows, pero desean dominar la arquitectura visual y declarativa de WPF.\n\nA lo largo de diez capítulos estructurados en lecciones conceptuales y prácticas dirigidas, la obra aborda desde los tipos de aplicaciones (aplicaciones de escritorio tradicionales y aplicaciones de explorador XBAP) hasta el despliegue. Detalla el sistema de composición de XAML, contenedores de diseño (Grid, StackPanel, Canvas, DockPanel), eventos enrutados (routed events) y comandos. Examina en profundidad el enlace de datos (data binding bidireccional, fuentes de datos de objetos, ADO.NET y XML, validación e interfaces como IValueConverter), la personalización de controles con estilos y plantillas (ControlTemplate y DataTemplate), animaciones mediante Storyboards, integración de gráficos vectoriales y multimedia, gestión de recursos y publicación mediante ClickOnce y paquetes MSI.\n\nA diferencia de los títulos de la serie Exam Ref orientados a la reflexión analítica, este Training Kit tiene una marcada vocación práctica: cada lección incorpora ejercicios guiados paso a paso ('Practices'), preguntas de repaso y escenarios prácticos de laboratorio para ejercitar cada habilidad en el entorno de desarrollo. No construye una aplicación comercial única que se extienda a lo largo del libro, sino múltiples ejercicios modulares enfocados en cada subsistema de WPF. Su mayor fortaleza radica en explicar con claridad las bases de las propiedades de dependencia (DependencyProperties) y la separación entre diseño e implementación en XAML. Deja fuera patrones que maduraron más tarde como MVVM formal y presupone familiaridad sólida con C# y orientación a objetos.",
+    "temas": [
+      "WPF",
+      "XAML",
+      ".NET Framework 3.5",
+      "Data Binding",
+      "Estilos y plantillas",
+      "Animaciones",
+      "Eventos enrutados",
+      "XBAP",
+      "ClickOnce",
+      "Visual Studio 2008",
+      "Certificación 70-502"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/mcts-self-paced-training-kit-exam-70-502-microsoft-9780735625662",
+      "https://www.oreilly.com/library/view/mcts-self-paced-training/9780735625662/",
+      "https://www.amazon.com/Self-Paced-Training-Exam-70-502-Applications/dp/0735625662"
+    ]
+  },
+  "mcts-self-paced-training-kit-exam-70-503-2009": {
+    "descripcion": "Guía oficial de estudio y preparación técnica de Microsoft Press, escrita por Bruce Johnson, Peter Madziak y Sara Morgan, enfocada en la creación de servicios distribuidos con Windows Communication Foundation (WCF) sobre .NET Framework 3.5 para el examen de certificación MCTS 70-503. Está dirigida a desarrolladores .NET de nivel intermedio que necesitan implementar arquitecturas orientadas a servicios (SOA) en entornos corporativos o certificar sus conocimientos en la plataforma. Se asume un conocimiento sólido de programación orientada a objetos en C# o Visual Basic .NET y nociones fundamentales sobre redes, protocolos HTTP/TCP y conceptos de mensajería SOAP y servicios web XML.\n\nEl texto profundiza en el modelo unificado de comunicación de WCF y desglosa minuciosamente sus pilares esenciales (Address, Binding y Contract). Enseña a definir e implementar contratos de servicio, contratos de datos (DataContract, DataMember), contratos de mensajes (MessageContract) y gestión de errores estructurados con FaultContract. Cubre la configuración y uso de bindings estándar como basicHttpBinding, wsHttpBinding, netTcpBinding, netNamedPipeBinding y colas transaccionales con netMsmqBinding, además de servicios REST con webHttpBinding. Aborda las modalidades de hospedaje (auto-hospedaje en aplicaciones de consola y servicios de Windows, IIS 7.0 y WAS), el consumo de servicios mediante svcutil.exe y Visual Studio, la seguridad a nivel de transporte y de mensaje (autenticación con Windows, certificados X.509 y WS-Security), el control del ciclo de vida y concurrencia (InstanceContextMode, ConcurrencyMode), y la instrumentación mediante seguimiento de mensajes con la herramienta Service Trace Viewer (SvcTraceViewer.exe).\n\nA través de laboratorios paso a paso, ejercicios guiados y escenarios de caso al final de cada lección, se practica la configuración imperativa y declarativa (App.config y Web.config) de endpoints múltiples, la serialización de tipos de datos complejos, el aseguramiento de canales de comunicación y la monitorización de trazas de diagnóstico. El libro destaca por su rigor arquitectónico y su capacidad para desmitificar la complejidad interna de WCF en .NET 3.5. Su alcance se concentra estrictamente en los objetivos del examen 70-503, por lo que deja fuera otras tecnologías de la época como Windows Workflow Foundation (WF) y las simplificaciones de configuración que llegarían con .NET 4. Conviene familiarizarse previamente con la administración básica de IIS y los conceptos de seguridad en Windows antes de iniciar su lectura.",
+    "temas": [
+      "Windows Communication Foundation (WCF)",
+      ".NET Framework 3.5",
+      "C#",
+      "Visual Basic .NET",
+      "Arquitectura orientada a servicios (SOA)",
+      "Endpoints y Bindings",
+      "DataContract y ServiceContract",
+      "Seguridad WS-Security",
+      "Hosting en IIS y WAS",
+      "MSMQ",
+      "SvcTraceViewer"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.amazon.com/Self-Paced-Training-Exam-70-503-Communication/dp/0735625654",
+      "https://www.goodreads.com/book/show/3430588-mcts-self-paced-training-kit-exam-70-503"
+    ]
+  },
+  "mcts-self-paced-training-kit-exam-70-505-2009": {
+    "descripcion": "Manual oficial de formación y preparación de Microsoft Press, escrito por Matthew A. Stoecker y Steven J. Stein, centrado en el desarrollo de aplicaciones cliente de escritorio con Windows Forms utilizando Microsoft .NET Framework 3.5 y Visual Studio 2008. Está dirigido a programadores de nivel intermedio que diseñan interfaces enriquecidas para el sistema operativo Windows o preparan el examen de certificación MCTS 70-505. Para aprovecharlo al máximo, se requiere dominio de programación orientada a objetos en C# o Visual Basic .NET, así como familiaridad con el ciclo de vida de los eventos de interfaz de usuario.\n\nEl libro recorre de forma exhaustiva las capacidades de la biblioteca Windows Forms, enseñando a construir formularios avanzados tanto en tiempo de diseño como dinámicamente en tiempo de ejecución. Detalla el uso de controles modernos de navegación y disposición (ToolStrip, MenuStrip, StatusStrip, TableLayoutPanel, FlowLayoutPanel), la arquitectura de interfaces MDI y SDI, y la validación de formularios mediante ErrorProvider. En el ámbito de los datos, explica el enlace simple y complejo con BindingSource, BindingNavigator y DataGridView, integrando orígenes de datos basados en colecciones, DataSets y consultas LINQ to SQL. Además, aborda el renderizado gráfico en 2D con GDI+ (System.Drawing), la gestión de impresión con PrintDocument, la ejecución en segundo plano para evitar el bloqueo de la UI con BackgroundWorker, la persistencia de configuración del usuario (ApplicationSettings), la creación de controles de usuario personalizados (UserControl), la interoperabilidad con código nativo mediante P/Invoke y COM Interop, y la distribución mediante ClickOnce y Windows Installer.\n\nLa metodología combina teoría con prácticas de laboratorio paso a paso y escenarios de caso que ejercitan la creación de controles propios, la manipulación de fuentes de datos relacionales en rejillas interactivas, la implementación de operaciones de arrastrar y soltar (drag and drop) y la configuración de paquetes de instalación con actualización automática. Su valor fundamental reside en ser una guía definitiva y consolidada sobre la tecnología Windows Forms en su fase de madurez dentro de .NET 3.5. Como texto centrado en WinForms, deja al margen Windows Presentation Foundation (WPF), que emergía como la alternativa vectorial moderna de la plataforma. Es una lectura muy recomendable para quienes mantienen sistemas empresariales clásicos de escritorio.",
+    "temas": [
+      "Windows Forms",
+      ".NET Framework 3.5",
+      "C#",
+      "Visual Basic .NET",
+      "Data Binding",
+      "DataGridView",
+      "GDI+",
+      "BackgroundWorker",
+      "ClickOnce",
+      "Controles de usuario",
+      "LINQ to SQL"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.amazon.com/Self-Paced-Training-Exam-70-505-Applications/dp/0735626375",
+      "https://www.goodreads.com/book/show/6014457-mcts-self-paced-training-kit-exam-70-505"
+    ]
+  },
+  "mcts-self-paced-training-kit-exam-70-511-2011": {
+    "descripcion": "Guía oficial de capacitación de Microsoft Press, desarrollada por Matthew A. Stoecker, orientada al diseño y desarrollo de aplicaciones cliente de escritorio utilizando Windows Presentation Foundation (WPF) sobre .NET Framework 4 y Visual Studio 2010. Está dirigida a desarrolladores .NET de nivel intermedio que necesitan crear interfaces gráficas modernas y fluidas para Windows o prepararse para la certificación MCTS correspondiente al examen 70-511. Se asume experiencia sólida en el desarrollo con C# o Visual Basic .NET y comprensión de conceptos de diseño de interfaces orientadas a objetos y eventos.\n\nEl contenido desmenuza en profundidad el lenguaje declarativo XAML y el motor visual de WPF en .NET 4. Explica la estructura de paneles de maquetación (Grid, StackPanel, DockPanel, WrapPanel, Canvas), el funcionamiento interno de las propiedades de dependencia (DependencyProperty), propiedades adjuntas y eventos enrutados (RoutedEvents). Profundiza en el mecanismo de enlace de datos (Data Binding), abordando modos de enlace, convertidores de tipos (IValueConverter), plantillas de datos (DataTemplate), controles de datos como DataGrid y TreeView, y reglas de validación (ValidationRule, IDataErrorInfo). Asimismo, enseña a desacoplar el diseño mediante estilos (Style), plantillas de control (ControlTemplate) y desencadenadores (Triggers), el uso de gráficos vectoriales, animaciones mediante Storyboard, transformaciones 2D/3D, comandos (ICommand, RoutedCommand), programación asíncrona con el despachador de la interfaz (Dispatcher), integración híbrida con Windows Forms mediante WindowsFormsHost y despliegue con tecnología ClickOnce.\n\nEl libro propone prácticas guiadas, laboratorios de solución de problemas y escenarios de caso en los que se implementan pantallas interactivas, personalización profunda de controles estándar, manipulación de plantillas reutilizables y enlace dinámico de colecciones de negocio con validación de datos en tiempo real. Su gran fortaleza es la rigurosidad técnica con la que explica la arquitectura interna y la pila de representación gráfica de WPF 4. Aunque cubre a fondo el enlace de datos y los comandos enrutados, no se enfoca en librerías o frameworks MVVM de terceros (como Prism o MVVM Light), concentrándose en el estándar que evalúa el examen. Resulta imprescindible para dominar la base arquitectónica de XAML en entornos de escritorio de Microsoft.",
+    "temas": [
+      "Windows Presentation Foundation (WPF)",
+      ".NET Framework 4",
+      "XAML",
+      "C#",
+      "Data Binding",
+      "DataGrid",
+      "ControlTemplate y Estilos",
+      "Dependency Properties",
+      "Routed Events",
+      "Animaciones y Storyboard",
+      "ClickOnce"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/mcts-self-paced-training-kit-exam-70-511-windows-applications-9780735627420",
+      "https://www.amazon.com/MCTS-Self-Paced-Training-Exam-70-511/dp/0735627428",
+      "https://www.goodreads.com/book/show/9623868-mcts-self-paced-training-kit-exam-70-511"
+    ]
+  },
+  "mcts-self-paced-training-kit-exam-70-515-2010": {
+    "descripcion": "Volumen oficial de formación técnica publicado por Microsoft Press, escrito por Tony Northrup y Mike Snell, dedicado al desarrollo integral de aplicaciones web empresariales con ASP.NET 4 sobre .NET Framework 4 y Visual Studio 2010. Está pensado para desarrolladores de software de nivel intermedio que desean dominar el desarrollo web en el ecosistema de Microsoft o preparar el examen de certificación MCTS 70-515. Es recomendable contar con una base firme en C# o Visual Basic .NET, así como conocimientos esenciales sobre HTML, hojas de estilo CSS y el protocolo HTTP.\n\nLa obra abarca ampliamente los dos paradigmas web principales de la plataforma en ese momento: Web Forms y el emergente ASP.NET MVC 2. Enseña a dominar el ciclo de vida de páginas y controles de servidor (Init, Load, PreRender), el diseño homogéneo mediante Master Pages, temas y hojas de estilo, la optimización con ClientIDMode y el control de estado (ViewState, SessionState, ApplicationState, cookies y caché de salida). En el apartado de datos, cubre el uso de LINQ, controles de origen de datos (EntityDataSource, LinqDataSource) y controles enlazados como GridView, ListView y DataPager. Además, examina la interactividad cliente mediante ASP.NET AJAX (ScriptManager, UpdatePanel), la integración con JavaScript y jQuery, la exposición de servicios web y endpoints WCF, la infraestructura de seguridad y membresía (Forms Authentication, Membership Provider, Roles y Profiles), y los fundamentos de ASP.NET MVC 2 (controladores, acciones, vistas tipadas, enrutamiento por URL y Data Annotations), concluyendo con técnicas de depuración, instrumentación y empaquetado con Web Deploy.\n\nA través de ejercicios prácticos paso a paso, escenarios de caso y cuestionarios de autoevaluación, se practica la configuración de portales web interactivos, la persistencia de perfiles de usuario autenticados, el refresco asíncrono de zonas de pantalla sin recarga completa y la estructuración de soluciones con el patrón MVC. El libro destaca por su enorme amplitud y profundidad temática, ofreciendo más de mil páginas de formación exhaustiva sobre ASP.NET 4. Quedan fuera las versiones modernas basadas en ASP.NET Core o los frameworks de interfaz de usuario para aplicaciones de página única (SPA), pero proporciona una comprensión sólida y panorámica de la infraestructura web empresarial clásica de Microsoft.",
+    "temas": [
+      "ASP.NET 4",
+      ".NET Framework 4",
+      "ASP.NET Web Forms",
+      "ASP.NET MVC 2",
+      "C#",
+      "Master Pages",
+      "ASP.NET AJAX",
+      "jQuery",
+      "LINQ",
+      "Membership Provider",
+      "Web Deploy"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/mcts-self-paced-training-kit-exam-70-515-web-applications-9780735627406",
+      "https://www.oreilly.com/library/view/mcts-self-paced-training/9780735627406/",
+      "https://www.amazon.com/MCTS-Self-Paced-Training-Exam-70-515/dp/0735627401",
+      "https://www.goodreads.com/book/show/8702981-mcts-self-paced-training-kit-exam-70-515"
+    ]
+  },
+  "mcts-self-paced-training-kit-exam-70-516-2011": {
+    "descripcion": "Kit oficial de entrenamiento y certificación de Microsoft Press, escrito por Glenn Johnson, dedicado al acceso, consulta y manipulación de datos en aplicaciones .NET utilizando Microsoft .NET Framework 4 y Visual Studio 2010. Está dirigido a programadores y arquitectos de nivel intermedio que necesitan dominar la capa de persistencia y servicios de datos de la plataforma o superar con éxito el examen MCTS 70-516. Requiere sólidos conocimientos de C# o Visual Basic .NET, así como comprensión del modelo relacional, bases de datos SQL Server y lenguaje SQL.\n\nEl texto ofrece una cobertura integral de las tecnologías de datos de .NET 4, estructurada desde el acceso relacional tradicional hasta los modelos de persistencia orientados a objetos y servicios de datos. Explica la arquitectura clásica de ADO.NET conectada (SqlConnection, SqlCommand, SqlDataReader, transacciones SqlTransaction) y desconectada (DataSet, DataTable, SqlDataAdapter, DataSets tipados). Desarrolla extensamente LINQ en sus variantes LINQ to SQL, LINQ to Objects y LINQ to XML (XDocument, XElement). Su núcleo principal profundiza en ADO.NET Entity Framework 4: diseño del Entity Data Model (EDM, archivos .edmx), generación de código mediante plantillas T4, entidades POCO, seguimiento de cambios con ObjectStateManager, estrategias de carga (perezosa, explícita e inmediata con .Include()), consultas con LINQ to Entities y Entity SQL (eSQL), y gestión de concurrencia optimista (OptimisticConcurrencyException). Asimismo, aborda la exposición y consumo de servicios REST con WCF Data Services bajo el protocolo OData, sincronización de bases de datos con Microsoft Sync Framework, protección criptográfica de datos y despliegue de componentes de base de datos.\n\nA lo largo de sus capítulos, el libro proporciona prácticas de laboratorio guiadas y escenarios de estudio donde se ejercita la ejecución de transacciones distribuidas, el mapeo de relaciones complejas en modelos de entidades, la optimización de consultas en Entity Framework y el consumo de fuentes OData mediante DataServiceContext. Su valor principal reside en guiar con claridad la transición generacional del desarrollo .NET desde el uso de DataSets hacia el mapeo objeto-relacional (ORM) robusto con Entity Framework 4. Deja fuera las aproximaciones Code First posteriores y Entity Framework Core, pero consolida con maestría las bases del acceso a datos moderno en la era de .NET 4.",
+    "temas": [
+      "ADO.NET",
+      "Entity Framework 4",
+      ".NET Framework 4",
+      "LINQ to Entities",
+      "C#",
+      "WCF Data Services",
+      "OData",
+      "POCO",
+      "LINQ to XML",
+      "DataSets tipados",
+      "SQL Server"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/mcts-self-paced-training-kit-exam-70-516-accessing-data-9780735627390",
+      "https://www.amazon.com/MCTS-Self-Paced-Training-Exam-70-516/dp/0735627397",
+      "https://www.goodreads.com/book/show/11516709-mcts-self-paced-training-kit-exam-70-516"
+    ]
+  },
+  "mcts-self-paced-training-kit-exam-70-526-2006": {
+    "descripcion": "Guía oficial de preparación publicada por Microsoft Press para el examen de certificación MCTS 70-526, orientada a la creación de aplicaciones cliente enriquecidas para escritorio con el .NET Framework 2.0 y Visual Studio 2005. El texto está pensado para desarrolladores de software de nivel intermedio que ya programan en C# o Visual Basic .NET y dominan los principios de la programación orientada a objetos, pero que necesitan profundizar en la arquitectura y las buenas prácticas del desarrollo de clientes en Windows.\n\nEl temario aborda el ecosistema de Windows Forms, detallando el uso de contenedores de maquetación avanzada como FlowLayoutPanel y TableLayoutPanel, sistemas de menús y barras de herramientas con ToolStrip, MenuStrip y StatusStrip, y el control DataGridView. Explica en profundidad el enlace de datos (data binding) tanto bidireccional como en entornos conectados y desconectados con ADO.NET (DataSet, DataTable y TableAdapter). Además, cubre la lectura y validación de documentos XML mediante XmlReader y esquemas XSD, la creación de gráficos e impresión asistida con GDI+ (System.Drawing y System.Drawing.Printing), la ejecución de procesos en segundo plano con el componente BackgroundWorker, la instrumentación con EventLog y TraceSource, la seguridad con Code Access Security (CAS) y la interoperabilidad nativa con COM Interop y P/Invoke.\n\nPuesto que se trata de un manual de certificación estructurado en lecciones, no desarrolla una única aplicación de inicio a fin; en su lugar, propone laboratorios paso a paso («Practices») y casos de estudio reales («Case Scenarios») al final de cada capítulo, que van desde formularios maestros con DataGridView hasta rutinas de dibujo personalizado e instalación mediante ClickOnce y paquetes MSI. Su gran valor radica en su rigurosidad técnica sobre el funcionamiento interno de Windows Forms en .NET 2.0; como contrapartida, no aborda el paradigma declarativo de WPF ni tecnologías web, centrándose exclusivamente en clientes clásicos de escritorio para Windows.",
+    "temas": [
+      ".NET Framework 2.0",
+      "Windows Forms",
+      "C#",
+      "Visual Basic .NET",
+      "ADO.NET",
+      "DataGridView",
+      "ClickOnce",
+      "GDI+",
+      "BackgroundWorker",
+      "P/Invoke",
+      "MCTS"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/mcts-self-paced-training-kit-exam-70-526-microsoft-9780735623330",
+      "https://www.amazon.com/dp/0735623333",
+      "https://www.goodreads.com/book/show/243621.MCTS_Self_Paced_Training_Kit_Exam_70_526_"
+    ]
+  },
+  "mcts-self-paced-training-kit-exam-70-528-2007": {
+    "descripcion": "Kit oficial de autoaprendizaje de Microsoft Press diseñado para preparar a los desarrolladores para el examen de certificación MCTS 70-528, centrado en el desarrollo de aplicaciones web con ASP.NET 2.0 y Visual Studio 2005 sobre IIS 6.0. La obra se dirige a programadores web de nivel intermedio que ya conocen la sintaxis de C# o Visual Basic .NET y poseen nociones fundamentales de HTML, CSS y bases de datos relacionales, y que buscan dominar el modelo de desarrollo de servidor corporativo de Microsoft.\n\nEl libro detalla el ciclo de vida de la página web (Page Lifecycle, postbacks y renderizado) y enseña a trabajar con controles de servidor estándar, de validación, controles de usuario (.ascx) y controles personalizados, así como el diseño uniforme mediante Master Pages y Themes. Cubre exhaustivamente la administración del estado del lado cliente (ViewState y ControlState) y del servidor (Session State en proceso, StateServer y SQL Server, además de Application State y Application Cache). También profundiza en el acceso y presentación de datos con ADO.NET mediante SqlDataSource, ObjectDataSource y controles como GridView, DetailsView y FormView; la navegación estructurada con SiteMapPath, TreeView y Menu; la seguridad declarativa mediante la Membership API, RoleManager y perfiles; y el consumo y diseño de Web Services XML basados en ASMX y SOAP.\n\nEl aprendizaje se articula a través de ejercicios guiados de laboratorio («Practices») y escenarios empresariales («Case Scenarios») por lección, en los que se configuran sitios web en IIS, flujos de autenticación Forms, portales con plantillas maestras y servicios web ASMX, prescindiendo del desarrollo de un único proyecto continuo. Su mayor fortaleza es la claridad con la que explica la arquitectura de estado y seguridad de ASP.NET 2.0; deja fuera marcos modernos como ASP.NET Core o bibliotecas SPA, pero resulta indispensable para comprender a fondo los cimientos de Web Forms en entornos empresariales heredados.",
+    "temas": [
+      "ASP.NET 2.0",
+      "Web Forms",
+      ".NET Framework 2.0",
+      "C#",
+      "Master Pages",
+      "GridView",
+      "Membership API",
+      "ViewState",
+      "ADO.NET",
+      "ASMX Web Services",
+      "IIS",
+      "MCTS"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/mcts-self-paced-training-kit-exam-70-528-microsoft-9780735623347",
+      "https://www.amazon.com/dp/0735623341",
+      "https://www.goodreads.com/book/show/615468.MCTS_Self_Paced_Training_Kit_Exam_70_528_"
+    ]
+  },
+  "mcts-self-paced-training-kit-exam-70-529-2007": {
+    "descripcion": "Manual oficial de estudio de Microsoft Press creado para superar el examen MCTS 70-529, enfocado en el diseño e implementación de sistemas distribuidos empresariales utilizando las tecnologías del .NET Framework 2.0 y Visual Studio 2005. Está dirigido a desarrolladores e ingenieros de software de nivel intermedio con experiencia sólida en C# o Visual Basic .NET y conceptos de arquitectura de software, que necesitan comunicar aplicaciones a través de redes locales o Internet mediante llamadas remotas y mensajería.\n\nEl núcleo del libro desglosa las cuatro tecnologías troncales de comunicación distribuida de la era .NET 2.0: los servicios web XML (ASMX), con contratos WSDL, serialización SOAP y extensiones de seguridad con WSE 3.0 (Web Services Enhancements); la arquitectura de .NET Remoting, examinando canales TCP, HTTP e IPC, formateadores binarios y SOAP, activación por llamada única, singleton o cliente, y gestión de arrendamientos (leases); Enterprise Services (COM+), para el desarrollo de componentes con transacciones atómicas distribuidas gestionadas por DTC, agrupamiento de objetos (Object Pooling) y activación JIT; y la integración con Message Queuing (MSMQ) mediante el espacio de nombres System.Messaging para el procesamiento asíncrono y componentes en cola (Queued Components).\n\nLa estructura didáctica descarta la construcción de un producto de software integral en favor de ejercicios prácticos guiados («Practices») y casos de análisis («Case Scenarios») independientes en cada módulo: desde crear un servidor y cliente de .NET Remoting de alto rendimiento hasta desplegar componentes COM+ transaccionales o configurar colas seguras en MSMQ. El volumen ofrece un valor histórico y técnico sobresaliente para entender la infraestructura que precedió a Windows Communication Foundation (WCF); no cubre REST moderno ni microservicios, pero es fundamental para el soporte y migración de sistemas transaccionales distribuidos heredados de Microsoft.",
+    "temas": [
+      ".NET Framework 2.0",
+      ".NET Remoting",
+      "Enterprise Services",
+      "COM+",
+      "ASMX Web Services",
+      "MSMQ",
+      "WSE 3.0",
+      "Transacciones distribuidas",
+      "SOAP",
+      "C#",
+      "MCTS"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/mcts-self-paced-training-kit-exam-70-529-microsoft-9780735623323",
+      "https://www.amazon.com/dp/0735623325",
+      "https://www.goodreads.com/book/show/615469.MCTS_Self_Paced_Training_Kit_Exam_70_529_"
+    ]
+  },
+  "mcts-self-paced-training-kit-exam-70-536-2006": {
+    "descripcion": "Guía de preparación oficial y enciclopédica de Microsoft Press orientada al examen MCTS 70-536, que constituía la base obligatoria (Application Development Foundation) de prácticamente todas las certificaciones MCTS y MCPD sobre .NET Framework 2.0. Está dirigida a programadores intermedios que ya dominan la sintaxis de C# o Visual Basic .NET y los paradigmas de objetos, pero que necesitan un dominio exhaustivo de las clases fundamentales del Common Language Runtime (CLR) y la Base Class Library (BCL).\n\nEl contenido abarca dieciséis capítulos dedicados a las APIs centrales de la plataforma: tipos por valor y referencia, colecciones fuertemente tipadas y genéricas (System.Collections.Generic como List<T> y Dictionary<TKey, TValue>), flujos de entrada/salida y compresión con System.IO, expresiones regulares con System.Text.RegularExpressions, codificación de texto y serialización de objetos en formatos binario, SOAP y XML. Asimismo, aborda la gestión de subprocesos y concurrencia (System.Threading, bloqueos, Semaphore y ThreadPool), servicios de Windows (ServiceBase), dominios de aplicación (AppDomain), instrumentación (TraceSource, EventLog y PerformanceCounter), criptografía (System.Security.Cryptography), seguridad CAS (Code Access Security), interoperabilidad con código nativo (P/Invoke y COM Interop), reflexión dinámica (System.Reflection), envío de correo (System.Net.Mail) y globalización con CultureInfo.\n\nEn coherencia con la serie Self-Paced Training Kit, la obra no construye un único proyecto aplicativo, sino que desglosa cada lección en ejercicios prácticos («Practices») y casos prácticos («Case Scenarios») diseñados para poner a prueba las APIs evaluadas en la prueba oficial. Es uno de los textos de referencia técnica más densos y formativos jamás publicados sobre las tripas del CLR en .NET 2.0; deja fuera las capas de interfaz gráfica y frameworks web (tratados en otros exámenes), pero constituye una lectura esencial para entender en profundidad cómo gestiona .NET la memoria, la seguridad y el hardware subyacente.",
+    "temas": [
+      ".NET Framework 2.0",
+      "BCL",
+      "C#",
+      "Generics",
+      "Multithreading",
+      "Serialización",
+      "System.IO",
+      "Criptografía",
+      "Code Access Security",
+      "Reflection",
+      "P/Invoke",
+      "MCTS"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/mcts-self-paced-training-kit-exam-70-536-microsoft-9780735622777",
+      "https://www.amazon.com/dp/0735622779",
+      "https://www.goodreads.com/book/show/614425.MCTS_Self_Paced_Training_Kit_Exam_70_536_"
+    ]
+  },
+  "mcts-self-paced-training-kit-exam-70-562-2009": {
+    "descripcion": "Manual oficial de autoestudio publicado por Microsoft Press enfocado en el examen MCTS 70-562, que evalúa el desarrollo de soluciones web utilizando ASP.NET 3.5, .NET Framework 3.5 y Visual Studio 2008 sobre el servidor web IIS 7.0. Está orientado a desarrolladores web de nivel intermedio que ya manejan C# o Visual Basic .NET y cuentan con experiencia en versiones previas de ASP.NET, buscando actualizar sus habilidades hacia las nuevas capacidades de consulta declarativa y desarrollo web asíncrono.\n\nEl temario profundiza en los avances introducidos en .NET 3.5: la integración de LINQ (Language Integrated Query) tanto en memoria como con LINQ to SQL a través del control LinqDataSource, y el uso de controles de datos modernos y flexibles como ListView y DataPager, que ofrecen control total del marcado HTML frente al tradicional GridView. Detalla la implementación de interactividad del lado cliente con ASP.NET AJAX mediante ScriptManager, UpdatePanel, UpdateProgress y temporizadores, la personalización mediante Master Pages, Web Parts y controles de servidor compuestos, la integración con servicios WCF (Windows Communication Foundation) para intercambio REST/JSON y SOAP, la seguridad con Forms Authentication y Membership API, y las técnicas de caché, depuración y despliegue sobre el pipeline integrado de IIS 7.0.\n\nEl método pedagógico se basa en laboratorios prácticos paso a paso («Practices») y escenarios de examen («Case Scenarios») al cierre de cada capítulo, donde se practican consultas con LINQ to SQL, interfaces dinámicas con UpdatePanel y securización de endpoints de servicios, sin unificar el código en un único proyecto monolítico. Su gran valor estriba en capturar con precisión el punto culminante de la evolución de Web Forms y el nacimiento de las aplicaciones ricas en ASP.NET antes de la consolidación de ASP.NET MVC; deja fuera las arquitecturas modernas basadas en microservicios o SPAs contemporáneas, pero es una guía exhaustiva para dominar la plataforma .NET 3.5 en entornos de producción tradicionales.",
+    "temas": [
+      "ASP.NET 3.5",
+      ".NET Framework 3.5",
+      "LINQ",
+      "LINQ to SQL",
+      "ASP.NET AJAX",
+      "UpdatePanel",
+      "ListView",
+      "WCF",
+      "IIS 7.0",
+      "Membership API",
+      "C#",
+      "MCTS"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/self-paced-training-kit-exam-70-562-microsoft-net-9780735625624",
+      "https://www.amazon.com/dp/073562562X",
+      "https://www.goodreads.com/book/show/6463934-mcts-self-paced-training-kit-exam-70-562",
+      "https://www.oreilly.com/library/view/errata-for-mcts/9780735625624/"
+    ]
+  },
+  "ocp-java-se-8-programmer-ii-exam-guide-2018": {
+    "descripcion": "Guía oficial y completa de preparación para el examen de certificación Oracle Certified Professional Java SE 8 Programmer II (examen 1Z0-809), publicada bajo el sello Oracle Press. La obra se concentra exclusivamente en la plataforma Java Standard Edition 8 (Java SE 8) y está diseñada para desarrolladores de nivel intermedio o avanzado que ya poseen una base firme en el lenguaje (preferiblemente habiendo obtenido la certificación OCA Java SE 8 o contando con experiencia equivalente en programación orientada a objetos en Java).\n\nEl libro aborda en profundidad las características fundamentales añadidas en Java 8 y los aspectos más avanzados del lenguaje. Detalla el diseño orientado a objetos con enumeraciones y clases anidadas (internas, locales, anónimas y estáticas), aserciones y manejo de excepciones, así como el paquete java.time (LocalDate, ZonedDateTime, Duration, Period y DateTimeFormatter) y la internacionalización con Locale y ResourceBundle. El núcleo técnico profundiza en la programación funcional con expresiones lambda e interfaces funcionales del paquete java.util.function (Predicate, Consumer, Function, Supplier), el procesamiento de datos con la API de Streams (operaciones intermedias, terminales, reducciones y flujos paralelos), genéricos y colecciones en java.util, operaciones de entrada/salida tradicional y moderna con NIO.2 (Path, Files), multihilo y concurrencia avanzada (java.util.concurrent, ExecutorService, ForkJoinPool, variables atómicas y colecciones concurrentes), y persistencia relacional con JDBC (java.sql: Connection, Statement, PreparedStatement y ResultSet).\n\nEn lugar de una aplicación completa de extremo a extremo, el libro incluye numerosos ejercicios prácticos paso a paso en código, ejemplos ilustrativos de casos trampa y cuestionarios de autoevaluación al final de cada capítulo que replican la estructura y dificultad del examen. Su mayor valor reside en las secciones 'Exam Watch' y 'On the Job', que desglosan las sutilezas de la JVM y los errores críticos en tiempo de compilación frente a tiempo de ejecución. Deja fuera tecnologías empresariales (como Spring o Jakarta EE) y frameworks web, orientándose con precisión a dominar los estándares de la plataforma y garantizar el éxito en la certificación.",
+    "temas": [
+      "Java SE 8",
+      "Certificación 1Z0-809",
+      "Expresiones Lambda",
+      "Streams API",
+      "Colecciones y Genéricos",
+      "Concurrencia y Multihilo",
+      "NIO.2",
+      "JDBC",
+      "java.time",
+      "Programación Funcional"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.amazon.com/Programmer-Exam-Guide-1Z0-809-Oracle/dp/1260117383",
+      "https://www.oreilly.com/library/view/ocp-java-se/9781260117370/"
+    ]
+  },
+  "aws-certified-cloud-practitioner-study-guide-2019": {
+    "descripcion": "Manual exhaustivo orientado a asimilar los fundamentos del cómputo en la nube y preparar el examen de certificación fundacional AWS Certified Cloud Practitioner (código CLF-C01). El texto aborda el catálogo y los principios arquitectónicos de Amazon Web Services (AWS) vigentes para dicha edición del examen. Está dirigido a profesionales de nivel principiante e intermedio, tanto técnicos (desarrolladores o administradores noveles) como perfiles de gestión, ventas y análisis de negocio que necesitan comprender el vocabulario, las capacidades y el modelo de valor de AWS sin requerir conocimientos previos de programación o administración avanzada de servidores.\n\nEl contenido introduce los conceptos nucleares de la computación en la nube (IaaS, PaaS, SaaS, elasticidad, alta disponibilidad, tolerancia a fallos y el modelo de inversión operativa frente a capital) y la infraestructura global de AWS (regiones, zonas de disponibilidad y puntos de presencia). Explica los servicios esenciales de la plataforma: computación con Amazon EC2, AWS Lambda y Elastic Beanstalk; almacenamiento con Amazon S3, S3 Glacier, EBS y EFS; bases de datos relacionales y NoSQL con Amazon RDS, Aurora y DynamoDB; redes mediante Amazon VPC, subredes, tablas de enrutamiento y CloudFront; seguridad y gobernanza a través de AWS IAM, el modelo de responsabilidad compartida, AWS Shield, KMS, WAF y CloudTrail; y la gestión económica con AWS Cost Explorer, Pricing Calculator, presupuestos (AWS Budgets), Organizaciones de AWS y los planes de soporte técnico.\n\nEl libro propone ejercicios prácticos guiados para interactuar de forma directa con la Consola de Administración de AWS (como configurar cuentas, crear usuarios y políticas en IAM, levantar instancias EC2 y crear buckets de S3), complementados con preguntas de repaso tipo test al término de cada capítulo. Su gran aporte es traducir la complejidad de la infraestructura en la nube a conceptos claros y comprensibles, sentando una base indispensable para progresar hacia certificaciones de nivel asociado (como Solutions Architect o SysOps). No profundiza en automatización mediante CLI avanzada, infraestructura como código compleja ni diseño arquitectónico detallado.",
+    "temas": [
+      "AWS Cloud",
+      "Certificación CLF-C01",
+      "Amazon EC2",
+      "Amazon S3",
+      "AWS IAM",
+      "Amazon VPC",
+      "Amazon RDS",
+      "Cloud Computing",
+      "Facturación y Costos Cloud",
+      "Seguridad en la Nube"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/AWS+Certified+Cloud+Practitioner+Study+Guide%3A+CLF+C01+Exam-p-9781119490708",
+      "https://www.amazon.com/Certified-Cloud-Practitioner-Study-Guide/dp/1119490705",
+      "https://www.oreilly.com/library/view/aws-certified-cloud/9781119490708/"
+    ]
+  },
+  "aws-certified-sysops-administrator-practice-tests-2020": {
+    "descripcion": "Recurso especializado de entrenamiento y evaluación intensiva enfocado en el examen de certificación AWS Certified SysOps Administrator - Associate (código SOA-C01). El libro examina las operaciones técnicas y la administración de infraestructura sobre Amazon Web Services (AWS). Está destinado a ingenieros de operaciones en la nube, administradores de sistemas y profesionales DevOps de nivel intermedio que ya poseen conocimientos teóricos consolidados de AWS y experiencia en la gestión operativa de entornos cloud, buscando validar su preparación antes de presentarse al examen oficial.\n\nLa obra compila 1.000 preguntas de práctica organizadas metódicamente en torno a los dominios del examen SOA-C01: monitorización, métricas y registro de eventos con Amazon CloudWatch, CloudTrail y AWS Config; alta disponibilidad y continuidad de negocio mediante Auto Scaling, Elastic Load Balancing (ALB, NLB) y despliegues Multi-AZ en Amazon RDS; aprovisionamiento y mantenimiento de cargas de trabajo con AWS CloudFormation, AWS OpsWorks, AWS Systems Manager y Elastic Beanstalk; gestión del ciclo de vida y políticas de almacenamiento en Amazon S3, EBS, EFS y S3 Glacier; configuración de redes seguras con Amazon VPC, subredes, NAT Gateways, Security Groups, Network ACLs, VPN y Direct Connect; seguridad de identidades y cifrado con AWS IAM y KMS; y optimización de costes y recursos utilizando AWS Trusted Advisor y Cost Explorer.\n\nSe trata de un compendio riguroso de simulaciones de examen con preguntas contextualizadas en escenarios reales y justificaciones detalladas de cada respuesta correcta e incorrecta. No incluye exposición teórica guiada paso a paso ni proyectos de desarrollo de software, ya que su objetivo primordial es identificar vacíos conceptuales, desmitificar trampas en las preguntas y afianzar la velocidad de análisis técnico. Conviene haber cursado una guía teórica previa y contar con experiencia práctica real configurando y solucionando incidencias en la nube de AWS.",
+    "temas": [
+      "AWS SysOps",
+      "Certificación SOA-C01",
+      "Amazon CloudWatch",
+      "Amazon VPC",
+      "AWS CloudFormation",
+      "Alta Disponibilidad",
+      "AWS IAM",
+      "Amazon EC2 y Auto Scaling",
+      "Almacenamiento Cloud",
+      "Optimización Operativa"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/AWS+Certified+SysOps+Administrator+Practice+Tests%3A+Associate+%28SOA+C01%29+Exam-p-9781119622727",
+      "https://www.amazon.com/Certified-SysOps-Administrator-Practice-Tests/dp/1119622725",
+      "https://www.oreilly.com/library/view/aws-certified-sysops/9781119622727/"
+    ]
+  },
+  "comptia-linux-practice-tests-2nd-edition-2019": {
+    "descripcion": "Batería exhaustiva de exámenes prácticos diseñada para certificar las habilidades operativas requeridas por la credencial CompTIA Linux+ bajo el código de examen XK0-004. Trabaja sobre los estándares modernos del sistema operativo GNU/Linux, abarcando las familias de distribuciones más utilizadas en entornos empresariales (Red Hat/CentOS y Debian/Ubuntu). Es ideal para administradores de sistemas de nivel intermedio, operadores de infraestructura, técnicos de soporte y estudiantes que ya han asimilado la teoría de Linux y precisan entrenar la resolución de problemas y medir su preparación técnica previo al examen.\n\nEl libro contiene 1.000 preguntas de práctica y exámenes de simulación completos divididos en los cinco dominios del examen XK0-004: configuración de hardware y arranque (módulos del kernel con modprobe/lsmod, firmware BIOS/UEFI, gestor GRUB2 y systemd); operaciones del sistema y mantenimiento (gestión de paquetes con APT, DNF, YUM, RPM y dpkg, monitorización de procesos con ps, top y kill, servicios con systemctl y journalctl, y tareas con cron y at); seguridad del sistema (permisos POSIX, ACLs con setfacl, contextos de SELinux y AppArmor, cortafuegos con firewalld, iptables y UFW, configuración de SSH y privilegios en sudoers); diagnóstico de incidencias y análisis de rendimiento (depuración de redes con ip, ss, netstat, tcpdump y traceroute, y comprobación de almacenamiento y memoria); y automatización mediante scripts en Bash (variables, condicionales, bucles, expresiones regulares), conceptos de control de versiones con Git y nociones básicas de orquestación con Ansible.\n\nLa obra ofrece una práctica intensiva orientada a la autoevaluación, con respuestas minuciosamente razonadas que explican los parámetros, sintaxis y rutas de configuración de cada herramienta del sistema. No es un manual para aprender Linux desde cero ni propone proyectos de construcción de software; su función reside en fijar la precisión técnica en la línea de comandos, eliminar dudas de sintaxis y familiarizarse con el formato de evaluación situacional de CompTIA. Es indispensable contar con un entorno de terminal o laboratorio virtual donde reproducir los comandos antes de realizar los simulacros.",
+    "temas": [
+      "CompTIA Linux+",
+      "Certificación XK0-004",
+      "Administración Linux",
+      "systemd",
+      "Bash Scripting",
+      "Seguridad Linux",
+      "SELinux",
+      "Gestión de Paquetes",
+      "Almacenamiento y LVM",
+      "Diagnóstico de Redes"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/CompTIA+Linux%2B+Practice+Tests%3A+Exam+XK0+004%2C+2nd+Edition-p-9781119555964",
+      "https://www.amazon.com/CompTIA-Linux-Practice-Tests-XK0-004/dp/1119555965",
+      "https://www.oreilly.com/library/view/comptia-linux-practice/9781119555964/"
+    ]
+  },
+  "comptia-linux-study-guide-4th-edition-2019": {
+    "descripcion": "Guía integral de referencia y estudio orientada a dominar la administración de servidores y preparar exhaustivamente el examen de certificación CompTIA Linux+ (código XK0-004). Analiza las características del sistema operativo GNU/Linux cubriendo en paralelo las dos vertientes dominantes del sector: la familia Debian/Ubuntu y la familia Red Hat/CentOS. Está dirigida a estudiantes, técnicos de soporte y administradores de sistemas principiantes e intermedios que cuentan con nociones elementales de informática y desean adquirir una sólida solvencia técnica en la terminal de comandos y los servicios del sistema.\n\nLa obra desglosa de manera pormenorizada cada uno de los objetivos oficiales de la certificación. Enseña la instalación y preparación del entorno; el procesamiento avanzado de texto y archivos con tuberías, redirecciones y herramientas como grep, sed, awk y expresiones regulares; la gestión del arranque con GRUB2 y el control integral de unidades y servicios mediante systemd; la administración del almacenamiento con particionado MBR/GPT (fdisk, parted), sistemas de archivos (ext4, XFS, Btrfs), volúmenes lógicos con LVM y software RAID; la gestión de paquetes con APT, DNF, YUM y RPM; la configuración de redes IPv4 e IPv6, resolución DNS y herramientas de depuración (ip, nmcli, ss, traceroute); la seguridad avanzada con permisos, ACLs, atributos, SELinux, AppArmor, cortafuegos (firewalld, UFW) y servidores OpenSSH; la automatización de tareas con scripts en Bash (variables de entorno, operadores, estructuras de control y funciones); el control de versiones con Git y fundamentos de Ansible; y el diagnóstico de incidentes de hardware, memoria, disco y procesos.\n\nEl libro complementa las explicaciones teóricas con ejercicios prácticos guiados de laboratorio ('Hands-on Exercises'), análisis de casos de uso profesional ('Real World Scenarios') y exámenes de comprobación al término de cada capítulo. No desarrolla una aplicación de software unificada, sino que entrena sistemáticamente la configuración, el mantenimiento y el endurecimiento de servidores Linux reales. Constituye una base técnica de alto valor para ejercer labores profesionales de administración de sistemas, requiriendo únicamente disponer de una máquina virtual o servidor Linux para ejecutar los laboratorios prácticos.",
+    "temas": [
+      "CompTIA Linux+",
+      "Certificación XK0-004",
+      "Administración Linux",
+      "systemd",
+      "Bash Scripting",
+      "SELinux",
+      "LVM y Particiones",
+      "Gestión de Paquetes",
+      "Seguridad en Linux",
+      "Redes en Linux",
+      "Git y Ansible"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/CompTIA+Linux%2B+Study+Guide%3A+Exam+XK0+004%2C+4th+Edition-p-9781119556039",
+      "https://www.amazon.com/CompTIA-Linux-Study-Guide-XK0-004/dp/1119556031",
+      "https://www.oreilly.com/library/view/comptia-linux-study/9781119556039/"
+    ]
+  },
+  "lpic-1-linux-professional-institute-certification-study-guide-5th-edition-2019": {
+    "descripcion": "Guía de estudio oficial de Sybex diseñada para preparar los exámenes 101-500 y 102-500 de la certificación LPIC-1 (versión 5.0), emitida por el Linux Professional Institute. Está dirigida a administradores de sistemas júnior o intermedios, técnicos de soporte y profesionales de infraestructura que desean formalizar y consolidar sus competencias en entornos Linux heterogéneos. Para aprovechar el texto se requieren nociones básicas de informática y cierta familiaridad con el uso elemental de la terminal de comandos.\n\nEl contenido cubre el temario oficial de ambos exámenes utilizando tanto distribuciones de la familia Debian como Red Hat. Enseña arquitectura del sistema, hardware, arranque mediante BIOS y UEFI, gestores GRUB y GRUB2, e inicialización de servicios con systemd y SysVinit. Explica la administración de paquetes con dpkg, apt, rpm, yum y dnf; el procesamiento de texto en terminal con grep, sed, awk, cut, sort y expresiones regulares; y el editor vi/vim. Asimismo, abarca la gestión del almacenamiento con particionado (fdisk, gdisk), cuotas y montaje bajo el estándar FHS (Filesystem Hierarchy Standard), la automatización mediante scripts en Bash, tareas programadas con cron y at, gestión de usuarios, grupos y permisos (chmod, chown, umask, SUID/SGID), servicios de red (SSH, GPG, sincronización horaria con NTP y chrony, servidores de correo Postfix y CUPS) y utilidades de red como ip, netstat, ss, ping, route y traceroute.\n\nCada capítulo incluye objetivos de certificación, resúmenes, preguntas de repaso tipo examen y ejercicios prácticos guiados paso a paso para ejecutar en consola. El libro aporta una perspectiva neutral e independiente de distribuciones, permitiendo desenvolverse con soltura en Debian, Ubuntu, CentOS o RHEL. No aborda conceptos avanzados de nivel LPIC-2 o LPIC-3 como alta disponibilidad, virtualización o clusters. Conviene disponer de un par de máquinas virtuales locales para reproducir los laboratorios y afianzar las rutinas de administración antes de rendir las pruebas.",
+    "temas": [
+      "Linux",
+      "LPIC-1",
+      "Administración de sistemas",
+      "Bash",
+      "systemd",
+      "Gestión de paquetes",
+      "Sistemas de archivos",
+      "Redes Linux",
+      "Seguridad Linux",
+      "Permisos y usuarios"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/LPIC+1+Linux+Professional+Institute+Certification+Study+Guide%3A+Exam+101+500+and+Exam+102+500%2C+5th+Edition-p-9781119582120",
+      "https://www.amazon.com/LPIC-1-Linux-Professional-Institute-Certification/dp/1119582127",
+      "https://www.oreilly.com/library/view/lpic-1-linux-professional/9781119582120/"
+    ]
+  },
+  "oca-oracle-certified-associate-java-se-8-programmer-i-study-guide-exam-1z0-808-2014": {
+    "descripcion": "Manual de referencia y preparación para el examen 1Z0-808 correspondiente a la certificación Oracle Certified Associate Java SE 8 Programmer I. Escrito por los reconocidos formadores Jeanne Boyarsky y Scott Selikoff, está pensado para desarrolladores que desean certificar los fundamentos del lenguaje Java bajo la especificación Java Standard Edition 8 (Java SE 8). Resulta apropiado para programadores principiantes e intermedios con nociones de programación estructurada u orientada a objetos que buscan dominar con precisión milimétrica las reglas de sintaxis y las decisiones del compilador.\n\nEl libro profundiza en los seis objetivos nucleares evaluados en la prueba. Aborda los bloques de construcción de Java (paquetes, imports, ciclo de vida de objetos y recolección de basura), tipos primitivos, conversión de tipos (casting), operadores, precedencia y estructuras de control de flujo (if/else, switch, bucles while, do-while y for en sus distintas variantes). Analiza minuciosamente las APIs centrales, destacando la inmutabilidad de String, la clase StringBuilder, arrays unidimensionales y multidimensionales, ArrayList y la API de fecha y hora introducida en Java 8 (LocalDate, LocalTime, LocalDateTime, DateTimeFormatter y Period). También cubre el diseño orientado a objetos con métodos, constructores, control de acceso (public, private, protected, package-private), herencia, polimorfismo, interfaces con métodos default y static, una introducción al paradigma funcional con expresiones lambda y la interfaz Predicate, y el control de errores con la jerarquía de excepciones (try, catch, finally, excepciones verificadas y no verificadas).\n\nEl entrenamiento se realiza a través de pruebas diagnósticas iniciales, explicaciones de trampas sintácticas y extensos cuestionarios de evaluación al final de cada capítulo formulados con el estilo y la dificultad del examen real de Oracle. No desarrolla una aplicación o proyecto de software integral, ya que su propósito es afinar la capacidad analítica para identificar errores de compilación y comportamientos en tiempo de ejecución. Deja fuera los temas avanzados del examen OCP (como la API Stream completa, colecciones complejas, concurrencia o JDBC). Conviene acompañar su lectura programando y comprobando cada fragmento de código con el JDK 8 instalado.",
+    "temas": [
+      "Java SE 8",
+      "Certificación OCA",
+      "Programación orientada a objetos",
+      "Tipos de datos y operadores",
+      "Control de flujo",
+      "StringBuilder",
+      "ArrayList",
+      "Expresiones Lambda",
+      "Manejo de excepciones",
+      "Herencia y polimorfismo"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/OCA%3A+Oracle+Certified+Associate+Java+SE+8+Programmer+I+Study+Guide%3A+Exam+1Z0+808-p-9781118957400",
+      "https://www.amazon.com/Oracle-Certified-Associate-Programmer-1Z0-808/dp/1118957407",
+      "https://www.oreilly.com/library/view/oca-oracle-certified/9781118957400/"
+    ]
+  },
+  "ocp-oracle-certified-professional-java-se-11-programmer-i-study-guide-2019": {
+    "descripcion": "Guía de estudio orientada a superar el examen 1Z0-815, primer examen de la trayectoria de certificación Oracle Certified Professional para Java SE 11 (versión con soporte a largo plazo o LTS). Autores como Jeanne Boyarsky y Scott Selikoff presentan este recurso para desarrolladores Java júnior e intermedios que desean certificar sus competencias técnicas y asimilar las características introducidas en la plataforma hasta Java 11. Además, funciona como base indispensable para quienes preparen el examen unificado posterior (1Z0-819). Se requieren conocimientos previos básicos de sintaxis y programación orientada a objetos en Java.\n\nLa obra desglosa el temario del examen en once capítulos especializados. Detalla la inferencia de tipos para variables locales mediante la palabra clave `var`, los operadores, las estructuras condicionales e iterativas, y las APIs centrales, incorporando los métodos modernos de String (strip, isBlank, repeat, lines), colecciones inmutables y la API java.time. Dedica un amplio espacio a la programación orientada a objetos avanzada, incluyendo clases internas (inner classes, static nested classes), interfaces con métodos privados, clases abstractas, polimorfismo y lambdas con interfaces funcionales comunes. Un punto central del libro es su capítulo sobre el Sistema de Módulos de la Plataforma Java (JPMS), donde enseña a diseñar y estructurar archivos `module-info.java`, directivas de modularidad (requires, exports, opens, provides, uses), tipos de módulos (con nombre, automáticos y sin nombre) y el uso de herramientas de línea de comandos como javac, java, jar, jdeps y jlink.\n\nEl aprendizaje se articula mediante cuestionarios de diagnóstico, análisis de código con trampas clásicas de compilación y bancos de preguntas de práctica al cierre de cada capítulo. No construye una aplicación completa ni desarrolla proyectos de software, enfocándose con rigor en la agudeza sintáctica que exige Oracle. Aporta una de las explicaciones más accesibles y claras existentes sobre el sistema modular de Java y las reglas de `var`. Deja fuera los temas correspondientes al examen Programmer II (1Z0-816), tales como Streams avanzados, concurrencia, canales de NIO.2, seguridad y conectividad JDBC.",
+    "temas": [
+      "Java SE 11",
+      "Certificación OCP",
+      "Sistema de Módulos (JPMS)",
+      "Inferencia de tipos (var)",
+      "Programación orientada a objetos",
+      "Expresiones Lambda",
+      "APIs de Java",
+      "Manejo de excepciones",
+      "Herramientas JDK"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/OCP+Oracle+Certified+Professional+Java+SE+11+Programmer+I+Study+Guide%3A+Exam+1Z0-815-p-9781119584704",
+      "https://www.amazon.com/Oracle-Certified-Professional-Programmer-Study/dp/1119584707",
+      "https://www.oreilly.com/library/view/ocp-oracle-certified/9781119584704/"
+    ]
+  },
+  "official-google-cloud-certified-professional-cloud-architect-study-guide-2019": {
+    "descripcion": "Guía oficial de certificación escrita por Dan Sullivan para preparar el examen Professional Cloud Architect de Google Cloud Platform (GCP). Está dirigida a arquitectos de software, consultores de infraestructura, administradores de sistemas y líderes técnicos que buscan validar su capacidad para diseñar soluciones escalables, confiables, seguras y de alta disponibilidad en la nube de Google. Para aprovecharla es conveniente contar con experiencia previa en redes, sistemas operativos, arquitectura de aplicaciones y conceptos fundamentales de cómputo en la nube.\n\nEl temario abarca todas las competencias evaluadas en la certificación arquitectónica. Enseña a traducir requerimientos técnicos y comerciales en topologías cloud, evaluando disponibilidad (SLAs, SLOs, SLIs), optimización de costes y continuidad del negocio. Analiza los servicios de cómputo principales: Compute Engine (instancias, grupos de instancias administrados y políticas de autoescalado), Google Kubernetes Engine (GKE para despliegues en contenedores), App Engine y Cloud Functions. Aborda la persistencia y gestión de datos con Cloud Storage, Cloud SQL, Cloud Spanner, Cloud Bigtable, Cloud Firestore/Datastore y BigQuery. Explica la arquitectura de redes con VPCs, subredes, cortafuegos, balanceadores de carga globales y regionales (Cloud Load Balancing), conectividad híbrida con Cloud VPN y Cloud Interconnect, gobierno de identidades y accesos con Cloud IAM, gestión criptográfica con Cloud KMS, y supervisión operativa mediante la suite de operaciones de Google Cloud (Cloud Monitoring, Logging y Trace).\n\nEl punto más destacado de la obra es el análisis pormenorizado de los casos de estudio oficiales del examen (Mountkirk Games, Dress4Win, TerramEarth y JencoMart), donde se descompone la arquitectura recomendada para cada escenario empresarial. No propone el desarrollo de software ni ejercicios de codificación paso a paso, ya que el examen mide el criterio de diseño arquitectónico, la resiliencia y el cumplimiento de normativas de seguridad (como GDPR o HIPAA). Aporta un marco conceptual excelente para la toma de decisiones tecnológicas en GCP. Se recomienda complementar el estudio interactuando directamente con la consola de Google Cloud y la herramienta de línea de comandos gcloud.",
+    "temas": [
+      "Google Cloud Platform",
+      "Arquitectura Cloud",
+      "GCP Professional Cloud Architect",
+      "Compute Engine",
+      "Google Kubernetes Engine",
+      "Cloud Spanner",
+      "BigQuery",
+      "VPC y redes",
+      "Cloud IAM",
+      "Casos de estudio GCP"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Official+Google+Cloud+Certified+Professional+Cloud+Architect+Study+Guide-p-9781119602446",
+      "https://www.amazon.com/Official-Google-Certified-Professional-Architect/dp/1119602446",
+      "https://www.oreilly.com/library/view/official-google-cloud/9781119602446/"
+    ]
+  },
+  "official-google-cloud-certified-professional-data-engineer-study-guide-2020": {
+    "descripcion": "Manual oficial de Sybex preparado por Dan Sullivan para superar la certificación Google Cloud Certified Professional Data Engineer. El texto está dirigido a ingenieros de datos, arquitectos de big data, analistas de datos sénior y desarrolladores de backend que diseñan, implementan, supervisan y protegen canalizaciones de datos y soluciones de análisis en Google Cloud Platform (GCP). Es recomendable poseer conocimientos previos en SQL, modelado de bases de datos relacionales y NoSQL, y conceptos de procesamiento distribuido de información.\n\nEl libro realiza un recorrido completo por el ecosistema de datos e inteligencia artificial de Google Cloud. Enseña la ingesta de flujos continuos a gran escala con Cloud Pub/Sub, el procesamiento batch y streaming mediante canalizaciones de Cloud Dataflow (basado en Apache Beam con ventanas temporales y marcas de agua), y la ejecución y migración de clústeres de Apache Spark y Hadoop con Cloud Dataproc. Explica en profundidad el almacenamiento analítico con BigQuery (particionamiento, clustering, optimización de consultas SQL y modelado predictivo con BigQuery ML), bases de datos NoSQL de baja latencia con Cloud Bigtable, y soluciones estructuradas como Cloud Spanner y Cloud SQL. Asimismo, abarca la orquestación de flujos de trabajo con Cloud Composer (basado en Apache Airflow), la limpieza interactiva con Cloud Dataprep, y la integración de modelos de aprendizaje automático mediante Cloud AI Platform, AutoML y APIs preentrenadas (Vision, Natural Language y Translation).\n\nCada capítulo cuenta con objetivos del examen, resúmenes estratégicos y preguntas de autoevaluación orientadas a resolver escenarios arquitectónicos y operativos reales del manejo de datos. No contiene proyectos de código de software completos para descargar, sino que prepara al profesional para tomar decisiones fundamentadas sobre almacenamiento, costes, seguridad (Cloud IAM, claves CMEK/CSEK y Cloud Data Loss Prevention) y rendimiento de pipelines. Aporta una taxonomía clara de cuándo usar cada servicio del stack de datos de Google. Deja fuera la programación avanzada de transformaciones complejas en Apache Beam o scripts en PySpark, aspectos que conviene ejercitar de forma independiente en entornos de laboratorio.",
+    "temas": [
+      "Google Cloud Platform",
+      "Data Engineering",
+      "BigQuery",
+      "Cloud Dataflow",
+      "Cloud Pub/Sub",
+      "Cloud Dataproc",
+      "Cloud Bigtable",
+      "Cloud Composer",
+      "Machine Learning en GCP",
+      "Apache Beam"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Official+Google+Cloud+Certified+Professional+Data+Engineer+Study+Guide-p-9781119618430",
+      "https://www.amazon.com/Official-Google-Certified-Professional-Engineer/dp/1119618431",
+      "https://www.oreilly.com/library/view/official-google-cloud/9781119618430/"
+    ]
+  },
+  "pic-2-linux-professional-institute-certification-study-guide-2nd-edition-2016": {
+    "descripcion": "Guía de estudio oficial de Sybex concebida para preparar la certificación avanzada LPIC-2 (Linux Professional Institute Certification Level 2), cubriendo de manera integral los objetivos de los exámenes 201 y 202 (versión 4.0 / 4.5). Está dirigida a administradores de sistemas y profesionales de Linux de nivel intermedio a avanzado que ya cuentan con la certificación LPIC-1 (o experiencia equivalente en la consola de Linux) y necesitan dominar la gestión de servicios corporativos, almacenamiento avanzado y optimización del núcleo del sistema operativo en entornos empresariales heterogéneos.\n\nEl contenido técnico profundiza en la configuración y compilación del kernel de Linux (parches, módulos del núcleo mediante modprobe, lsmod y ajustes en caliente a través de sysctl y /proc/sys), sistemas de arranque (SysVinit, systemd y Upstart; gestores GRUB Legacy y GRUB 2) y almacenamiento avanzado con RAID por software (mdadm) y volúmenes lógicos con LVM (pvcreate, vgcreate, lvcreate). En la sección dedicada al examen 202, desglosa la administración de servicios de red e infraestructura: servidores DNS con BIND 9 (named.conf, zonas maestras/esclavas, dig y DNSSEC), servidores web HTTP con Apache y Nginx, proxies con Squid, almacenamiento compartido con Samba y NFS, autenticación centralizada con OpenLDAP y PAM, servidores de correo con Postfix, Dovecot y Sendmail, y seguridad perimetral con iptables, SSH, Snort y Fail2ban.\n\nA lo largo de la obra se proponen ejercicios guiados de laboratorio (Hands-on Exercises), escenarios de resolución de problemas del mundo real y baterías de preguntas de repaso al cierre de cada capítulo, complementados con acceso a un entorno interactivo de exámenes de prueba. El texto destaca por su exhaustividad y rigor para asegurar el aprobado en los exámenes del LPI; no obstante, se enfoca estrictamente en administración tradicional de servidores y deja fuera tecnologías de infraestructura moderna como Docker, Kubernetes o Ansible. Conviene contar con un laboratorio con un par de máquinas virtuales Linux para practicar los despliegues de red.",
+    "temas": [
+      "LPIC-2",
+      "Linux Kernel",
+      "systemd",
+      "LVM y RAID",
+      "BIND 9 (DNS)",
+      "Apache HTTP Server",
+      "Samba y NFS",
+      "Postfix y Dovecot",
+      "OpenLDAP y PAM",
+      "iptables",
+      "Squid Proxy"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/LPIC+2%3A+Linux+Professional+Institute+Certification+Study+Guide%3A+Exam+201+and+Exam+202%2C+2nd+Edition-p-9781119150794",
+      "https://www.oreilly.com/library/view/lpic-2-linux-professional/9781119150794/",
+      "https://www.amazon.com/LPIC-2-Linux-Professional-Institute-Certification/dp/1119150795"
+    ]
+  },
+  "oca-ocp-practice-tests-exam-1z0-808-and-exam-1z0-809-2017": {
+    "descripcion": "Compendio de exámenes prácticos y preguntas de simulación publicado por Sybex para preparar las certificaciones oficiales de Oracle: Java SE 8 Programmer I (OCA, examen 1Z0-808) y Java SE 8 Programmer II (OCP, examen 1Z0-809). Está pensado para desarrolladores Java de nivel intermedio que ya han asimilado la teoría a través de guías de estudio o experiencia profesional y desean medir su nivel real, familiarizarse con las preguntas trampa del examen y pulir su capacidad de identificar errores de compilación y ejecución bajo presión de tiempo.\n\nEl volumen reúne más de 1.000 preguntas de opción múltiple estructuradas por áreas temáticas, acompañadas de explicaciones exhaustivas tanto de las opciones correctas como de los distractores. Para el nivel OCA, pone a prueba fundamentos como sintaxis, tipos primitivos, operadores, bucles, alcance de métodos, encapsulamiento, polimorfismo, manejo de excepciones y clases seleccionadas de la API estándar (String, StringBuilder, ArrayList y la API java.time con LocalDate). Para el examen OCP, sube notablemente la complejidad al ejercitar patrones avanzados de diseño, tipos genéricos, la Stream API (flujos secuenciales y paralelos, operaciones intermedias y terminales), interfaces funcionales integradas (Predicate, Consumer, Function, Supplier), concurrencia (ExecutorService, ForkJoinPool, colecciones concurrentes y variables atómicas), I/O clásica y NIO.2 (Path, Files), conectividad de bases de datos con JDBC e internacionalización con ResourceBundle.\n\nSu estructura se compone de simulacros por capítulo seguidos de dos exámenes prácticos completos para cada una de las dos certificaciones. Su mayor valor reside en el análisis detallado de cada error sutil que hace fallar la compilación en Java 8, lo que eleva drásticamente las probabilidades de éxito en la prueba real. No incluye teoría explicativa previa ni desarrolla aplicaciones de software completas, por lo que debe utilizarse estrictamente como herramienta de entrenamiento intensivo tras haber estudiado los temas en profundidad.",
+    "temas": [
+      "Java SE 8",
+      "Certificación OCA (1Z0-808)",
+      "Certificación OCP (1Z0-809)",
+      "Stream API",
+      "Expresiones Lambda",
+      "Concurrencia y Threads",
+      "NIO.2",
+      "JDBC",
+      "Generics y Colecciones",
+      "Excepciones y Assertions"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/OCA+%2F+OCP+Java+SE+8+Programmer+Practice+Tests-p-9781119363392",
+      "https://www.oreilly.com/library/view/oca-ocp-java/9781119363392/",
+      "https://selikoff.net/oca-ocp-practice-tests/",
+      "https://www.amazon.com/Programmer-Practice-Tests-1Z0-808-1Z0-809/dp/1119363390"
+    ]
+  },
+  "mcsd-certification-toolkit-exam-70-483-programming-c-2013": {
+    "descripcion": "Guía integral de preparación publicada por Wrox para el examen oficial de Microsoft 70-483 (Programming in C#), el cual constituía un requisito medular para obtener las credenciales MCSD (Microsoft Certified Solutions Developer) y MCSA en el desarrollo sobre .NET Framework 4.5. Está orientada a programadores de software con experiencia intermedia en programación orientada a objetos que busquen validar formalmente su dominio del lenguaje C# y los componentes fundamentales del runtime de Microsoft en Visual Studio.\n\nEl temario cubre con precisión los cuatro objetivos del examen: control del flujo del programa mediante procesamiento multitarea y asincronía (Task Parallel Library, async/await, sincronización de subprocesos con lock, Monitor y Mutex), creación y consumo de tipos (tipos valor y referencia, conversión de tipos y boxing/unboxing, dynamic, interfaces, jerarquías de clases y ciclo de vida de objetos con IDisposable y Garbage Collection), depuración y seguridad (expresiones regulares, criptografía simétrica y asimétrica con AES y RSA, firmas digitales, gestión de ensamblados en la GAC y directivas de preprocesador), y acceso a datos utilizando LINQ (LINQ to Objects, XML y Entities), serialización (XmlSerializer, DataContractSerializer, BinaryFormatter) y operaciones de I/O sobre ficheros y red con HttpClient.\n\nCada capítulo combina explicaciones conceptuales con fragmentos de código explicativos (\"Try It Out\"), consejos de certificación y cuestionarios de autoevaluación con respuestas detalladas. Su principal ventaja es el rigor con el que enseña mecanismos internos de la plataforma .NET que habitualmente se descuidan en el trabajo diario, como la administración de memoria no administrada o la seguridad criptográfica; no obstante, al enfocarse en .NET Framework 4.5 clásico, varias APIs de serialización y manejo de ensamblados han quedado en desuso frente a las versiones modernas de .NET (.NET 6/8/9).",
+    "temas": [
+      "C#",
+      ".NET Framework 4.5",
+      "Examen 70-483",
+      "TPL y Async/Await",
+      "Multithreading",
+      "LINQ",
+      "Criptografía y Seguridad",
+      "Serialización",
+      "Reflection",
+      "Garbage Collection"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/MCSD+Certification+Toolkit+%28Exam+70-483%29%3A+Programming+in+C%23-p-9781118612095",
+      "https://www.oreilly.com/library/view/mcsd-certification-toolkit/9781118612095/",
+      "https://www.amazon.com/MCSD-Certification-Toolkit-Exam-70-483/dp/1118612095"
+    ]
+  }
+}

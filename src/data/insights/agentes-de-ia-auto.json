@@ -1,0 +1,1891 @@
+{
+  "learn-model-context-protocol-with-typescript-2025": {
+    "descripcion": "Guía pionera y de referencia escrita por Christoffer Noring (con prólogo de Dan Wahlin) y publicada por Packt, dedicada al estándar abierto Model Context Protocol (MCP) introducido para unificar la forma en que los modelos de lenguaje acceden a datos, herramientas y prompts del mundo real. Escrito íntegramente en TypeScript sobre Node.js y el SDK oficial (@modelcontextprotocol/sdk), está dirigido a desarrolladores backend, ingenieros full-stack y arquitectos de soluciones de nivel intermedio que conocen JavaScript/TypeScript moderno y desean construir ecosistemas de agentes de IA modulares, seguros y desacoplados.\n\nEl recorrido formativo desmenuza la arquitectura de clientes, servidores y anfitriones (hosts) de MCP, enseñando a exponer herramientas (tools), recursos de lectura (resources) y plantillas de prompts estructuradas. Explica cómo implementar los diversos canales de transporte, desde la entrada/salida estándar (stdio) para utilidades de escritorio hasta Server-Sent Events (SSE) y Streamable HTTP para entornos web distribuidos. Aborda además patrones avanzados como la delegación de tareas mediante muestreo (sampling), la captura interactiva de información (elicitation), la depuración visual con MCP Inspector, la integración en herramientas como Claude Desktop y Visual Studio Code, así como el endurecimiento de la seguridad, autenticación y despliegue en la nube.\n\nA lo largo de los capítulos se crean servidores MCP funcionales para consulta de datos y ejecución de herramientas, un servidor web accesible mediante Streamable HTTP y clientes personalizados que consumen servicios remotos integrados con Claude Desktop. Es una obra de inmenso valor al ser de los primeros textos estructurados dedicados por completo a la especificación estándar de agentes con TypeScript y arquitectura limpia. No aborda frameworks de agentes propietarios como CrewAI o LangGraph, centrándose exclusivamente en el protocolo MCP; resulta indispensable tener buen manejo de TypeScript asíncrono y desarrollo con Node.js.",
+    "temas": [
+      "Model Context Protocol (MCP)",
+      "TypeScript",
+      "Node.js",
+      "Agentes de IA",
+      "Servidores MCP",
+      "Server-Sent Events (SSE)",
+      "Streamable HTTP",
+      "Claude Desktop",
+      "MCP Inspector",
+      "Sampling y Elicitation",
+      "Arquitectura limpia",
+      "Seguridad en IA"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor MCP con transporte SSE y Streamable HTTP",
+        "descripcion": "Servicio en TypeScript que implementa el protocolo MCP sobre flujos SSE y HTTP para exponer herramientas y recursos a clientes y agentes remotos."
+      },
+      {
+        "nombre": "Cliente personalizado e integración con Claude Desktop",
+        "descripcion": "Implementación de herramientas y recursos personalizados en TypeScript conectados a Claude Desktop y VS Code para ampliar el contexto operativo del asistente."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/PacktPublishing/Learn-Model-Context-Protocol-with-TypeScript",
+      "https://www.oreilly.com/library/view/learn-model-context/9781806661398/",
+      "https://www.amazon.com/dp/180666139X"
+    ]
+  },
+  "learn-model-context-protocol-with-python-2025": {
+    "descripcion": "Guía técnica y práctica escrita por Christoffer Noring (con aportaciones de Dan Wahlin) dedicada a dominar el Model Context Protocol (MCP), el estándar abierto impulsado por Anthropic para homogeneizar la conexión entre modelos de lenguaje, agentes autónomos y fuentes de datos externas. La obra trabaja con la especificación moderna de MCP sobre Python 3.8 o superior (utilizando el SDK oficial de MCP y el framework FastMCP) y está dirigida a ingenieros de software, arquitectos de sistemas y desarrolladores de IA de nivel intermedio que cuenten con una base sólida en Python y conceptos generales de redes (HTTP, JSON-RPC).\n\nEl libro aborda en profundidad la arquitectura cliente-servidor de MCP, desglosando la función de hosts, clientes y servidores. Enseña a implementar las primitivas fundamentales del protocolo: herramientas ejecutables (tools), recursos de contexto de solo lectura (resources) y plantillas estructuradas (prompts). Trata en detalle los mecanismos de transporte tanto locales mediante entrada/salida estándar (stdio) como remotos a través de Server-Sent Events (SSE) y Streamable HTTP. Además, profundiza en conceptos avanzados como el muestreo asistido por LLMs (sampling), la elicitación interactiva, la depuración con MCP Inspector, la integración con entornos de usuario final como Claude Desktop y Visual Studio Code Agents, y las pautas críticas de seguridad, mitigación de riesgos y despliegue en entornos productivos en la nube.\n\nA lo largo de los capítulos se crean múltiples servidores modulares en Python y clientes programáticos capaces de negociar capacidades y consumir herramientas dinámicamente. El libro aporta un valor notable al ser de las primeras obras formales dedicadas a estructurar la extensibilidad de los agentes de IA mediante un estándar interoperable, superando el código personalizado y frágil. Deja fuera el entrenamiento de redes neuronales o el ajuste fino (fine-tuning), ya que su foco exclusivo es la ingeniería de contexto e integración de sistemas. Conviene tener instalados entornos como Claude Desktop o VS Code para aprovechar al máximo las pruebas de integración en vivo.",
+    "temas": [
+      "Model Context Protocol",
+      "Python",
+      "FastMCP",
+      "JSON-RPC",
+      "Server-Sent Events",
+      "Streamable HTTP",
+      "MCP Inspector",
+      "Claude Desktop",
+      "VS Code Agents",
+      "Seguridad en agentes"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidores MCP modulares en Python",
+        "descripcion": "Desarrollo de servidores locales y remotos con FastMCP y el SDK oficial de Python que exponen herramientas, recursos dinámicos y plantillas de prompts mediante transportes stdio y Server-Sent Events (SSE)."
+      },
+      {
+        "nombre": "Cliente MCP e integración con entornos de desarrollo",
+        "descripcion": "Construcción de un cliente programático en Python que negocia capacidades con servidores MCP, gestiona peticiones a LLMs y se conecta a Claude Desktop y Visual Studio Code Agents."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/PacktPublishing/Learn-Model-Context-Protocol-with-Python",
+      "https://www.oreilly.com/library/view/learn-model-context/9781836647416/"
+    ]
+  },
+  "building-mcp-servers-with-c-2026": {
+    "descripcion": "Manual técnico centrado en la práctica escrito por Gerald Versluis, ingeniero de software en Microsoft, enfocado en conectar aplicaciones empresariales construidas con el ecosistema .NET a modelos y agentes de IA mediante el Model Context Protocol (MCP). La obra emplea C# sobre versiones modernas (.NET 8 y .NET 9) junto con el paquete oficial de NuGet `ModelContextProtocol`. Está pensada para desarrolladores backend y arquitectos de software .NET de nivel intermedio que dominan C# y la inyección de dependencias en ASP.NET Core, y buscan exponer la lógica y datos de su organización a herramientas como GitHub Copilot, Claude Desktop o ChatGPT.\n\nEl autor desglosa la arquitectura interna de MCP y el protocolo JSON-RPC 2.0, guiando paso a paso en la creación de las tres primitivas cardinales: herramientas invocables (Tools), fuentes de datos contextuales (Resources) y plantillas de prompts predefinidas (Prompts). Profundiza en la integración idiomática con las librerías estándar de Microsoft: el contenedor de inyección de dependencias (`IServiceCollection`), el patrón de opciones (`IOptions`), `HttpClientFactory`, registro estructurado con `ILogger` y pruebas automatizadas. Asimismo, enseña a seleccionar y configurar los canales de transporte (stdio frente a Streamable HTTP), patrones de integración empresarial, empaquetado como herramientas globales de .NET, contenedorización con Docker y automatización de despliegues en Azure mediante GitHub Actions.\n\nA través de sus páginas se avanza desde un servidor básico hasta un cliente MCP en .NET y un proyecto integrador completo: el \"Cosmic Pizza Server\", un servidor de dominio que permite a los agentes de IA consultar menús, personalizar ingredientes y tramitar pedidos de comida en tiempo real. La obra destaca por trasladar con rigor un protocolo emergente al estándar de calidad y tipado estricto del desarrollo empresarial en .NET. No enseña matemáticas de modelos fundacionales ni técnicas de prompt engineering artístico, limitándose al rol de ingeniería de software e integración. Resulta imprescindible para desarrolladores de C# que necesiten preparar sus sistemas heredados o nuevos microservicios para la era de los agentes inteligentes.",
+    "temas": [
+      "Model Context Protocol",
+      "C#",
+      ".NET 9",
+      "ASP.NET Core",
+      "JSON-RPC 2.0",
+      "Inyección de dependencias",
+      "Streamable HTTP",
+      "Docker",
+      "GitHub Copilot",
+      "Microsoft Azure"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Cosmic Pizza Server",
+        "descripcion": "Servidor MCP de dominio empresarial desarrollado en C# y .NET que expone herramientas para consultar menús, gestionar carritos y registrar órdenes de compra para asistentes de IA mediante inyección de dependencias y transporte HTTP."
+      },
+      {
+        "nombre": "Cliente MCP en .NET",
+        "descripcion": "Cliente programático implementado en C# capaz de negociar capacidades de protocolo, descubrir herramientas e invocar funciones de servidores MCP locales o remotos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/979-8-8688-3010-5",
+      "https://jfversluis.dev"
+    ]
+  },
+  "a-complete-guide-to-agentforce-2026": {
+    "descripcion": "Guía técnica y estratégica elaborada por Timo Kovala dedicada a Agentforce, la plataforma insignia de Salesforce para el diseño, despliegue y operación de agentes de inteligencia artificial autónomos en entornos corporativos. La obra aborda la arquitectura moderna del ecosistema de Salesforce, integrando Data Cloud, Einstein Trust Layer y el motor de razonamiento Atlas Reasoning Engine. Está dirigida a administradores de Salesforce, consultores funcionales, desarrolladores de Apex y arquitectos de soluciones de nivel intermedio que necesitan migrar de la automatización rígida basada en reglas tradicionales hacia sistemas de agentes colaborativos que actúen como colegas digitales.\n\nEl libro detalla los bloques fundamentales de Agentforce: la definición y segmentación de tópicos temáticos (Topics), la redacción de instrucciones en lenguaje natural, las barreras de contención (Guardrails) y la asignación de acciones estándar o personalizadas basadas en Salesforce Flow, clases Apex y llamadas a APIs externas. Analiza a fondo el funcionamiento del Atlas Reasoning Engine, las estrategias de recuperación aumentada por generación (RAG), la memoria operativa y contextual, y la estructuración de respuestas con Prompt Builder y Data Cloud. Asimismo, examina el ciclo de vida de los agentes (AgentOps), esquemas de gobernanza corporativa, métricas de observabilidad y patrones de diseño avanzados como el encadenamiento de agentes (Agent Chaining via Flow) y la activación programada o remota.\n\nA nivel práctico, el texto guía en la preparación de una organización de Salesforce para Agentforce y en la creación iterativa de un agente autónomo orientado a procesos empresariales habituales (como gestión de casos de soporte y cualificación de oportunidades comerciales), incluyendo fases de prueba y despliegue con supervisión humana (human-in-the-loop). Aporta una visión holística que une el enfoque declarativo (\"low-code\") con la extensibilidad programática (\"pro-code\"). Deja fuera el desarrollo de agentes con librerías de código abierto de propósito general en Python, pues está restringido estrictamente a la nube de Salesforce. Se aconseja contar con experiencia previa en flujos de Salesforce Flow y modelos de datos CRM.",
+    "temas": [
+      "Salesforce Agentforce",
+      "Atlas Reasoning Engine",
+      "Salesforce Flow",
+      "Apex",
+      "Prompt Builder",
+      "Data Cloud",
+      "RAG",
+      "AgentOps",
+      "Gobernanza de IA",
+      "Einstein Trust Layer"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Agente autónomo empresarial en Salesforce",
+        "descripcion": "Configuración y despliegue iterativo de un agente digital en Salesforce Agentforce para atención al cliente y soporte de ventas, definiendo tópicos, restricciones éticas, acciones con Flow/Apex y contextualización con Data Cloud."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/979-8-8688-2471-5",
+      "https://www.oreilly.com/library/view/a-complete-guide/9798868824708/"
+    ]
+  },
+  "agentic-ai-for-engineers-2026": {
+    "descripcion": "Manual práctico y metodológico de ingeniería de software escrito por Dhivya Nagasubramanian, enfocado en tender un puente entre la automatización determinista y los sistemas autónomos dirigidos por metas (goal-driven systems). Empleando Python y las versiones contemporáneas de las principales herramientas del sector (como LangChain y CrewAI), el texto está dirigido a ingenieros de software, profesionales de DevOps, ingenieros de datos y líderes técnicos de nivel intermedio que no poseen un trasfondo matemático en ciencia de datos pero necesitan diseñar, evaluar y mantener agentes de IA fiables en producción.\n\nEl contenido introduce los fundamentos de la agencia artificial y los modelos Transformer antes de adentrarse en los bloques constitutivos de los sistemas agenticos: patrones de diseño arquitectónicos, bucles de razonamiento y acción (patrón ReAct), gestión de entornos, estados y memoria contextual, y técnicas avanzadas de prompt engineering. Explica cómo conectar modelos de lenguaje con herramientas externas (`tool use`), orquestar flujos de trabajo multiagente mediante CrewAI y estructurar cadenas de ejecución con LangChain. Da una importancia central a los aspectos críticos de ingeniería en producción: diseño de barreras de seguridad (guardrails), alineación, mitigación de riesgos de bucle infinito, validación de esquemas y evaluación de predictibilidad ante entradas complejas del entorno.\n\nEn la parte práctica, se guía al lector en el desarrollo paso a paso en Python de su primer agente inteligente autónomo provisto de herramientas locales y memoria dinámica, progresando posteriormente hacia la coordinación de sistemas multiagente distribuidos para la resolución colaborativa de problemas complejos. Su principal mérito radica en tratar la inteligencia artificial desde la perspectiva de la disciplina de la ingeniería de software y la robustez de sistemas. Deja de lado el preentrenamiento de redes neuronales y las derivaciones matemáticas profundas, priorizando la arquitectura y la observabilidad. Conviene tener fluidez con Python orientado a objetos y nociones básicas sobre consumo de APIs de LLMs.",
+    "temas": [
+      "Agentic AI",
+      "Python",
+      "LangChain",
+      "CrewAI",
+      "Arquitectura ReAct",
+      "Transformers",
+      "LLMs",
+      "Prompt Engineering",
+      "Guardrails",
+      "Sistemas multiagente"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Agente reactivo orientado a metas",
+        "descripcion": "Construcción en Python de un agente autónomo basado en el bucle ReAct y LangChain, dotado de herramientas para interactuar con APIs externas, memoria conversacional y mecanismos de control de errores."
+      },
+      {
+        "nombre": "Sistema multiagente colaborativo",
+        "descripcion": "Diseño de un equipo de agentes especializados implementado con CrewAI, donde cada agente asume un rol y tareas independientes coordinadas para resolver objetivos complejos por descomposición de trabajo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/979-8-8688-2361-9",
+      "https://github.com/Apress/Agentic-AI-for-Engineers",
+      "https://www.oreilly.com/library/view/agentic-ai-for/9798868823619/"
+    ]
+  },
+  "ai-agents-for-secure-and-sdn-2026": {
+    "descripcion": "Tratado técnico y conceptual escrito por el investigador Het Mehta, enfocado en la convergencia estratégica entre agentes de inteligencia artificial autónomos y las redes definidas por software (SDN). La obra investiga cómo transformar infraestructuras corporativas, nubes híbridas, centros de datos modernos, IoT y redes 5G mediante sistemas de gestión y seguridad descentralizados e inteligentes. Está dirigida a arquitectos de redes, ingenieros de telecomunicaciones, analistas de ciberseguridad y responsables de infraestructura de nivel intermedio que conocen los principios de enrutamiento, conmutación y virtualización de red, y desean comprender cómo la automatización cognitiva revoluciona los planos de control y de datos.\n\nA lo largo de veintiséis capítulos temáticos concisos, el autor expone los principios de las redes basadas en intenciones (Intent-Based Networking o IBN), orquestación de políticas dinámicas, provisión de cero contactos (Zero-Touch Provisioning o ZTP) y encadenamiento de funciones de red (Service Function Chaining). Detalla la integración de tecnologías avanzadas de machine learning en redes: aprendizaje por refuerzo (RL) para ingeniería y enrutamiento autónomo de tráfico, aprendizaje federado (Federated Learning) para optimización colaborativa sin exponer datos privados, gemelos digitales (Digital Twins) para simulación de topologías y redes neuronales de grafos (GNN) para el análisis topológico. En el plano de la seguridad, aborda la detección proactiva de amenazas, mitigación de ataques dirigidos al controlador centralizado de SDN, planos de datos programables y optimización segura de arquitecturas SD-WAN.\n\nEl libro posee un carácter esencialmente teórico y arquitectónico: no ofrece tutoriales de programación guiada paso a paso ni repositorios de código práctico, sino patrones de diseño de sistemas, modelos matemáticos y directrices de arquitectura para infraestructuras autorreparables (self-healing networks). Su gran aporte reside en reunir de forma ordenada la investigación contemporánea sobre redes cognitivas y resiliencia cibernética ante la creciente complejidad del tráfico actual. No debe esperarse un manual de configuración de controladores específicos (como OpenDaylight o Ryu) ni laboratorios de sintaxis P4; es una lectura de referencia conceptual orientada al diseño y la toma de decisiones tecnológicas.",
+    "temas": [
+      "Software-Defined Networking",
+      "Agentes de IA autónomos",
+      "Intent-Based Networking",
+      "Federated Learning",
+      "Digital Twins",
+      "Graph Neural Networks",
+      "Reinforcement Learning",
+      "Ciberseguridad en redes",
+      "Zero-Touch Provisioning",
+      "SD-WAN"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/979-8-8688-2358-9"
+    ]
+  },
+  "breaking-the-model-context-protocol-2026": {
+    "descripcion": "Obra especializada de Thejes Sree Satheesh Kumar y Srinivasan Sekar publicada por Apress (2026) que aborda de lleno la seguridad ofensiva y defensiva en sistemas de inteligencia artificial integrados con el estándar Model Context Protocol (MCP). El texto se fundamenta en la especificación de MCP promovida originalmente por Anthropic y transferida a la Agentic AI Foundation de la Linux Foundation. Está dirigido a ingenieros de seguridad, especialistas en pruebas de penetración (pentesting), equipos de Red Team y Blue Team, y arquitectos de software de nivel intermedio que ya entienden la interacción con modelos de lenguaje mediante llamadas a funciones o herramientas (tool calling) y necesitan dominar los vectores de vulnerabilidad inherentes a los flujos agentic autónomos.\n\nEl recorrido técnico descompone minuciosamente las fronteras de confianza del protocolo y la cadena de ataque (kill chain) específica para agentes de IA. Enseña a identificar y ejecutar ataques de envenenamiento avanzado de herramientas (Advanced Tool Poisoning Attacks o ATPA), ocultamiento de firmas maliciosas mediante parámetros invisibles, abusos basados en muestreo (sampling abuse) y técnicas de elicitación que instrumentalizan formularios y páginas web comunes. Asimismo, profundiza en vectores a nivel de red y entorno como la revinculación de DNS (DNS rebinding) contra redes internas, la inserción de servidores MCP maliciosos, problemas de autorización del diputado confundido (confused deputy) por propagación implícita de privilegios, y el modelo de WebMCP donde el propio navegador web opera como servidor autenticado. En el frente defensivo, instruye sobre validación estricta de esquemas, contratos de capacidades, telemetría y auditoría en tiempo real, junto con políticas de mínimo privilegio para limitar el radio de impacto (blast radius).\n\nA lo largo de sus doce capítulos organizados en seis partes temáticas, el libro plantea una estructura de confrontación activa entre Red Team y Blue Team apoyada en laboratorios prácticos de explotación y respuesta, compilando las contramedidas en la guía de referencia Defender's Pocket Playbook. Su principal valor radica en ser uno de los primeros recursos dedicados a la seguridad de la capa de integración de agentes, demostrando cómo un atacante ya no necesita vulnerar el servidor si puede subvertir el razonamiento probabilístico del modelo mediante herramientas envenenadas. No enseña a programar agentes desde cero ni profundiza en matemáticas de deep learning, por lo que se requiere experiencia previa en seguridad de aplicaciones web, redes y consumo de APIs bajo formatos REST y JSON-RPC.",
+    "temas": [
+      "Model Context Protocol (MCP)",
+      "Seguridad en agentes de IA",
+      "Red teaming",
+      "Blue teaming",
+      "Tool poisoning (ATPA)",
+      "Confused deputy",
+      "DNS rebinding",
+      "WebMCP",
+      "Auditoría y telemetría",
+      "Defensa en profundidad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/979-8-8688-2968-0",
+      "https://thejessree.com",
+      "https://www.oreilly.com/library/view/breaking-the-model/9798868829673/"
+    ]
+  },
+  "building-generative-ai-agents-2025": {
+    "descripcion": "Manual técnico publicado por Apress en 2025 y redactado por Tom Taulli y Gaurav Deshmukh, enfocado en el diseño, desarrollo, despliegue y supervisión de sistemas de agentes autónomos impulsados por modelos de lenguaje generativos. El libro trabaja con las versiones contemporáneas de los marcos de orquestación en Python más adoptados de la industria (LangGraph, AutoGen y CrewAI, con menciones a LangChain y Haystack). Está dirigido a desarrolladores de software, ingenieros de datos y arquitectos de soluciones de nivel intermedio que ya manejan Python y los fundamentos de las llamadas a LLMs de OpenAI o modelos de código abierto, y buscan evolucionar desde la ingeniería de prompts básica hacia arquitecturas multiagente coordinadas.\n\nLa obra profundiza en las capacidades nucleares que articulan a un agente autónomo: razonamiento, descomposición y planificación de tareas, memoria a corto y largo plazo, bucles de reflexión y uso de herramientas externas. Cubre de forma práctica la API de Asistentes de OpenAI (Assistants API) y los Custom GPTs, el marco AutoGen de Microsoft (analizando ConversableAgent, dinámicas de chat grupal, agentes de búsqueda web, la interfaz visual AutoGen Studio y ejecución de modelos locales mediante Ollama), el ecosistema CrewAI para la orquestación colaborativa basada en roles, personas y tareas secuenciales o jerárquicas, y LangGraph para modelar flujos de trabajo cíclicos estructurados sobre grafos de estado. También examina la integración de canales de recuperación y búsqueda semántica (RAG) con Haystack, junto con metodologías de pruebas, depuración y monitoreo en entornos de producción.\n\nA lo largo del libro se implementan aplicaciones prácticas guiadas para cada tecnología estudiada, tales como cuadrillas de investigación automatizada en CrewAI, agentes conversacionales asistidos por herramientas en AutoGen y grafos de ejecución con memoria persistente en LangGraph. Su aportación más valiosa es la comparativa directa entre los principales marcos de trabajo, permitiendo evaluar qué paradigma (mensajería conversacional, roles orientados a procesos o grafos de estado deterministas) conviene aplicar según la complejidad del proyecto. No aborda el entrenamiento ni el ajuste fino (fine-tuning) de modelos fundacionales, por lo que resulta indispensable tener soltura con programación asíncrona en Python y consumo de APIs estructuradas.",
+    "temas": [
+      "Agentes de IA",
+      "LangGraph",
+      "AutoGen",
+      "CrewAI",
+      "LangChain",
+      "Haystack",
+      "OpenAI Assistants API",
+      "RAG",
+      "Ollama",
+      "Grafos de estado",
+      "Sistemas multiagente"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Equipo colaborativo de investigación y redacción con CrewAI",
+        "descripcion": "Cuadrilla de agentes coordinados con roles y objetivos específicos (investigador técnico y redactor de contenidos) que ejecutan tareas secuenciales apoyándose en herramientas de búsqueda web automatizadas."
+      },
+      {
+        "nombre": "Sistema conversacional y reflexivo con AutoGen",
+        "descripcion": "Configuración de agentes interactivos (ConversableAgent) que colaboran en dinámicas de chat grupal y ciclos de autorreflexión, conectando herramientas personalizadas y modelos locales mediante Ollama."
+      },
+      {
+        "nombre": "Flujo de trabajo cíclico con grafos de estado en LangGraph",
+        "descripcion": "Diseño de un grafo de ejecución cíclica con persistencia de estado, bucles de decisión condicional y memoria contextual para la resolución de tareas complejas de múltiples pasos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/979-8-8688-1134-0",
+      "https://www.oreilly.com/library/view/building-generative-ai/9798868811340/"
+    ]
+  },
+  "creative-ai-agents-with-copilot-studio-2026": {
+    "descripcion": "Guía integral escrita por Mezba Uddin y publicada por Apress en 2026 como parte de la serie Inside Copilot, centrada en la concepción, configuración y despliegue de asistentes inteligentes y agentes conversacionales autónomos con Microsoft Copilot Studio. El libro trabaja con la versión moderna de la plataforma low-code de Microsoft (anteriormente Power Virtual Agents) potenciada con modelos de IA generativa. Está dirigida a desarrolladores, consultores de Power Platform, arquitectos de soluciones y profesionales de negocio, marketing o contenido de nivel intermedio que conocen el entorno de Microsoft 365 y buscan automatizar procesos creativos e interactivos sin necesidad de desarrollar modelos de aprendizaje automático en código nativo.\n\nEl recorrido formativo profundiza en los bloques constitutivos de la plataforma a lo largo de diez capítulos: aprovisionamiento del entorno, diseño conversacional adaptado a tareas creativas, gestión de temas (topics), frases desencadenadoras, entidades y variables de contexto. Explica cómo fundamentar el razonamiento del agente en repositorios corporativos mediante respuestas generativas (Generative Answers) conectadas a SharePoint, Microsoft Dataverse, Microsoft 365 y Azure AI Services. Asimismo, detalla la habilitación de acciones reales a través de flujos de automatización en la nube con Power Automate, llamadas a conectores personalizados y APIs externas, además de cubrir técnicas de ingeniería de prompts, directrices de IA responsable (prevención de sesgos y protección de propiedad intelectual), depuración, pruebas de rendimiento y gobernanza empresarial.\n\nEl aprendizaje se materializa en la construcción guiada de asistentes especializados orientados a industrias específicas, abarcando desde la generación de copys publicitarios, publicaciones y guiones de marca hasta la resolución automatizada de solicitudes complejas de soporte empresarial. Su gran mérito reside en transformar una herramienta habitualmente asociada a chatbots rígidos en una plataforma de agentes con capacidad de acción y generación de contenido dinámico de alto nivel. Queda fuera la programación directa en lenguajes como Python o el despliegue de modelos en infraestructuras propias, por lo que es aconsejable familiarizarse previamente con los fundamentos de Power Platform y la administración básica de Microsoft 365.",
+    "temas": [
+      "Microsoft Copilot Studio",
+      "Power Automate",
+      "Microsoft Dataverse",
+      "SharePoint",
+      "Generative Answers",
+      "Power Platform",
+      "Diseño conversacional",
+      "Agentes autónomos",
+      "Azure AI Services",
+      "IA responsable"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Agente creativo de marketing y generación de contenidos",
+        "descripcion": "Asistente conversacional en Copilot Studio configurado para redactar artículos, publicaciones y guiones publicitarios fundamentados en repositorios documentales y de marca alojados en SharePoint."
+      },
+      {
+        "nombre": "Copilot sectorial con flujos automatizados en Power Automate",
+        "descripcion": "Agente empresarial contextualizado con Microsoft Dataverse y servicios de Azure AI para ejecutar acciones automáticas en sistemas corporativos y resolver consultas especializadas de usuarios."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/979-8-8688-2779-2",
+      "https://www.oreilly.com/library/view/creative-ai-agents/9798868827792/"
+    ]
+  },
+  "data-engineering-with-generative-and-agentic-ai-on-aws-2026": {
+    "descripcion": "Tratado técnico avanzado publicado por Apress en 2026 y desarrollado por Justin J. Leto, Principal Solutions Architect en AWS, enfocado en revolucionar las prácticas de ingeniería de datos empresarial mediante la incorporación de IA generativa y agentes autónomos. La obra trabaja con el ecosistema analítico moderno de Amazon Web Services, integrando servicios como Amazon Bedrock, Apache Iceberg sobre Amazon S3 Tables, Amazon DataZone, AWS Glue, Amazon Kinesis, Amazon Redshift y Amazon QuickSight. Está dirigido a ingenieros de datos, arquitectos cloud y especialistas en analítica de nivel intermedio a avanzado que cuenten con experiencia previa en Python, SQL y diseño de canalizaciones en la nube, y aspiren a implementar sistemas de datos autorregulados y potenciados por agentes.\n\nA lo largo de sus doce capítulos, el texto cubre metódicamente el ciclo de vida completo de una arquitectura de datos moderna. Enseña a diseñar lagos de datos transaccionales con Apache Iceberg y Amazon S3 Tables, implementar mallas de datos (Data Mesh) federadas con Amazon DataZone, y procesar y transformar grandes volúmenes de datos con AWS Glue asistido por agentes. Desarrolla la extracción multimodal y enriquecimiento con Amazon Bedrock, la implementación de patrones de Generación Aumentada por Recuperación (RAG) mediante S3 Vectors y bases vectoriales, y la ingesta de streaming en tiempo real con Kinesis y modelos ultrarrápidos (Claude Haiku y Amazon Nova Micro). Concluye con el diseño de data warehouses en esquema en estrella con interfaces text-to-SQL y machine learning in-database (RedshiftML), además de paneles analíticos generativos (GenBI) con Amazon QuickSight y orquestación multiagente mediante Bedrock AgentCore.\n\nEl valor distintivo del libro estriba en su abundante dotación de código listo para producción, compuesto por plantillas de CloudFormation, scripts en Python, código SQL y notebooks que materializan soluciones funcionales: lagos de datos transaccionales, canalizaciones de reconciliación financiera en tiempo real y datamarts gobernados consultables en lenguaje natural. Demuestra con rigor cómo los agentes no solo analizan datos terminados, sino que intervienen activamente en el diseño de esquemas, optimización de consultas y autorremediación de pipelines. No enseña conceptos básicos de AWS ni sintaxis básica de SQL o Python, por lo que es imprescindible tener un dominio fluido de la infraestructura de datos en la nube antes de comenzar.",
+    "temas": [
+      "AWS",
+      "Amazon Bedrock",
+      "Apache Iceberg",
+      "Amazon S3 Tables",
+      "Amazon Redshift",
+      "AWS Glue",
+      "Amazon Kinesis",
+      "Text-to-SQL",
+      "Amazon DataZone",
+      "Bedrock AgentCore",
+      "RAG",
+      "Ingeniería de datos"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Data Lake transaccional con Apache Iceberg y AWS Glue",
+        "descripcion": "Diseño de un lago de datos moderno con tablas Apache Iceberg en Amazon S3 Tables, gestionado por agentes de IA que automatizan el perfilado de datos y las transformaciones ETL en AWS Glue."
+      },
+      {
+        "nombre": "Canal de streaming y reconciliación financiera en tiempo real",
+        "descripcion": "Pipeline de baja latencia con Amazon Kinesis y modelos ligeros en Amazon Bedrock (Claude Haiku y Nova Micro) para análisis de sentimiento y reconciliación de operaciones bursátiles en tablas Iceberg."
+      },
+      {
+        "nombre": "Data Mart de ventas con Text-to-SQL en Amazon Redshift",
+        "descripcion": "Almacén de datos con esquema en estrella y arquitectura agentic text-to-SQL que traduce preguntas en lenguaje natural a consultas SQL analíticas complejas y modelos predictivos con RedshiftML."
+      },
+      {
+        "nombre": "Plataforma multiagente con Amazon Bedrock AgentCore",
+        "descripcion": "Ecosistema de agentes autónomos especializados para la supervisión observacional, extracción multimodal y enriquecimiento dinámico a lo largo de flujos analíticos en AWS."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/Apress/Data-Engineering-with-Generative-and-Agentic-AI-on-AWS",
+      "https://agenticdataengineering.ai",
+      "https://www.oreilly.com/library/view/data-engineering-with/9798868821998/"
+    ]
+  },
+  "enterprise-guide-for-implementing-generative-ai-and-agentic-ai-2026": {
+    "descripcion": "Guía estratégica y técnica publicada por Apress en 2026 y elaborada por Shakuntala Gupta Edward, Rahul Bhattacharya y Vikas Sinha, concebida para orientar a organizaciones en la transición desde pruebas de concepto (PoC) aisladas hacia soluciones escalables, gobernadas y rentables de IA generativa y agentes de IA. La obra toma como referencia los modelos fundacionales contemporáneos y estándares de integración modernos como el Model Context Protocol (MCP). Su público objetivo abarca arquitectos de soluciones empresariales, ingenieros de software, directores técnicos y especialistas en MLOps/LLMOps de nivel intermedio que necesitan metodologías robustas para implementar aplicaciones basadas en agentes dentro de marcos corporativos de alta exigencia.\n\nEl temario profundiza en los patrones de diseño arquitectónico indispensables para la adopción empresarial: patrones de autorreflexión (Self-Reflection Pattern), razonamiento multiagente, estándares de interoperabilidad mediante Model Context Protocol (MCP) y arquitecturas de datos basadas en el patrón medallón (capas bronce, plata y oro). Enseña a estructurar canalizaciones de ingesta, vectorización e indexación semántica, benchmarking y selección comparativa de modelos de lenguaje, así como compresión y optimización de prompts para minimizar la latencia y el coste por token. Asimismo, aborda de forma exhaustiva las operaciones (LLMOps), las topologías de despliegue en producción, los marcos de evaluación holística (HELM) y la gobernanza mediante marcos de gestión de riesgos como el NIST AI Risk Management Framework (NIST AI RMF).\n\nEl libro vertebra su vertiente práctica en la construcción de principio a fin de un caso de uso empresarial concreto: el sistema Intelligent Data Flow Explorer (IDFE), guiando paso a paso los requisitos funcionales y no funcionales, la canalización de datos, la orquestación de agentes y el despliegue operativo. Su mayor fortaleza radica en equilibrar la implementación tecnológica con los requisitos de observabilidad, cumplimiento normativo y reducción de riesgos operativos de la IA responsable. No se detiene en tutoriales básicos de sintaxis de Python o uso introductorio de librerías, por lo que es muy recomendable contar con experiencia en desarrollo backend corporativo, arquitectura de software y gestión de datos.",
+    "temas": [
+      "IA generativa empresarial",
+      "Agentes de IA",
+      "Model Context Protocol (MCP)",
+      "LLMOps",
+      "Arquitectura medallón",
+      "NIST AI RMF",
+      "HELM",
+      "Self-Reflection Pattern",
+      "Vectorización",
+      "Gobernanza de IA"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Intelligent Data Flow Explorer (IDFE)",
+        "descripcion": "Solución empresarial integral que implementa una canalización medallón (bronce, plata y oro), indexación vectorial y agentes con patrones de autorreflexión y protocolo MCP para la exploración y análisis inteligente de flujos de datos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/979-8-8688-1603-1",
+      "https://www.oreilly.com/library/view/enterprise-guide-for/9798868816024/"
+    ]
+  },
+  "the-mcp-standard-2026": {
+    "descripcion": "Guía especializada escrita por Srinivasan Sekar que analiza en detalle el Model Context Protocol (MCP), el estándar abierto impulsado para conectar modelos de lenguaje con herramientas externas, fuentes de datos y servicios de forma desacoplada y neutral frente al proveedor. Situado en las especificaciones del protocolo para 2024–2026, el libro está pensado para desarrolladores de software, arquitectos de sistemas y directores de ingeniería de nivel intermedio que dominen TypeScript y deseen superar las limitaciones de las integraciones propietarias e incompatibles entre LLMs y APIs.\n\nEl texto desglosa la arquitectura interna de la especificación, examinando con precisión las responsabilidades y patrones de intercambio de mensajes JSON-RPC entre Host, Client y Server. Utilizando el SDK oficial de MCP para TypeScript junto a Zod para el tipado y validación de esquemas, enseña a implementar las tres primitivas fundamentales del estándar: Tools (herramientas ejecutadas a petición del modelo), Resources (fuentes de datos gobernadas por la aplicación) y Prompts (plantillas dirigidas por el usuario). Además, aborda capacidades avanzadas como server-side sampling, elicitation y un catálogo integral de seguridad y DevSecOps que abarca autenticación con OAuth 2.1 y OIDC, mitigación de inyecciones de prompts y prevención de suplantación de herramientas (tool shadowing).\n\nEn la parte práctica, el lector construye desde cero un servidor MCP completo con TypeScript, un cliente reactivo que procesa notificaciones asíncronas y un caso de estudio real consistente en un flujo de recuperación aumentada generativa (RAG) agéntico. Su principal virtud reside en ser una referencia técnica formal dedicada a la estandarización y securización de herramientas de IA; por otro lado, sus 170 páginas se centran exclusivamente en el ecosistema Node.js/TypeScript, sin tratar implementaciones en Python. Conviene contar con experiencia previa en diseño de APIs y TypeScript para aprovecharlo al máximo.",
+    "temas": [
+      "Model Context Protocol (MCP)",
+      "TypeScript",
+      "Zod",
+      "JSON-RPC",
+      "Host-Client-Server",
+      "Herramientas de IA (Tools)",
+      "Recursos y Prompts",
+      "RAG agéntico",
+      "Seguridad en agentes",
+      "OAuth 2.1"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor MCP completo con TypeScript",
+        "descripcion": "Servidor que expone herramientas dinámicas y recursos contextuales validados con Zod mediante el SDK oficial de MCP, gestionando el ciclo de vida de peticiones y respuestas JSON-RPC."
+      },
+      {
+        "nombre": "Cliente reactivo y pipeline RAG agéntico",
+        "descripcion": "Cliente interactivo que gestiona la comunicación bidireccional y notificaciones del servidor MCP para orquestar un flujo de RAG autónomo con control de permisos y autenticación."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/979-8-8688-2364-0",
+      "https://github.com/Apress/The-MCP-Standard",
+      "https://learning.oreilly.com/library/view/the-mcp-standard/9798868823640/"
+    ]
+  },
+  "building-applications-with-ai-agents-2025": {
+    "descripcion": "Obra técnica del Dr. Manish Gupta, investigador en aprendizaje automático por el IIT Delhi con experiencia en organizaciones de primer nivel como Microsoft y el sector financiero, centrada en la transición desde los chatbots reactivos y el prompting básico hacia agentes de inteligencia artificial verdaderamente autónomos. El libro se contextualiza en el estado actual de la tecnología de agentes (2025–2026) y está dirigido a desarrolladores, científicos de datos y líderes técnicos de nivel intermedio con bases en Python y nociones de machine learning que buscan estructurar sistemas que ejecuten flujos de trabajo autónomos en producción.\n\nEl contenido disecciona la anatomía de los agentes autónomos: motores de razonamiento, ciclos de planificación (como ReAct y mecanismos de reflexión), gestión de memoria a corto y largo plazo, y el uso coordinado de herramientas externas (tool calling) para interactuar con sistemas informáticos. Analiza los principales patrones de diseño agéntico y profundiza en arquitecturas multiagente donde distintas entidades colaboran e intercambian contexto para resolver tareas distribuidas. Asimismo, dedica secciones críticas a la seguridad, la gobernanza de datos, la mitigación de alucinaciones y la alineación ética, respaldadas por estudios de caso orientados a sectores empresariales de alta demanda como finanzas, salud y comercio electrónico.\n\nEl libro expone planos de diseño arquitectónico y metodologías guiadas para construir, evaluar y escalar agentes en entornos reales, priorizando patrones agénticos reutilizables sobre aplicaciones cerradas de juguete. Su punto más destacado es la perspectiva pragmática de ingeniería y gobierno corporativo aportada por el autor, ideal para dimensionar riesgos y fiabilidad en despliegues a gran escala; no obstante, no profundiza exhaustivamente en la sintaxis de un framework comercial específico, por lo que debe complementarse con la documentación de librerías concretas. Conviene tener familiaridad con la integración de LLMs mediante APIs.",
+    "temas": [
+      "Agentes de IA",
+      "Sistemas multiagente",
+      "Patrones de diseño agéntico",
+      "ReAct",
+      "Memoria en agentes",
+      "Llamada a herramientas (Tool Calling)",
+      "Gobernanza de IA",
+      "Evaluación de agentes",
+      "Casos de uso empresariales"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bpbonline.com/products/building-applications-with-ai-agents",
+      "https://play.google.com/store/books/details?id=7s4zEQAAQBAJ"
+    ]
+  },
+  "building-multimodal-generative-ai-and-agentic-applications-2026": {
+    "descripcion": "Volumen exhaustivo escrito por Indrajit Kar que aborda la convergencia entre la inteligencia artificial generativa multimodal y las arquitecturas agénticas autónomas de última generación (2026). El libro está dirigido a ingenieros de software, científicos de datos y arquitectos de IA de nivel intermedio que dominan Python y los conceptos fundamentales de machine learning y necesitan trascender las aplicaciones circunscritas exclusivamente al texto para diseñar sistemas capaces de razonar conjuntamente con texto, imágenes, audio y bases de datos estructuradas.\n\nA lo largo de 18 capítulos, el autor cubre la implementación de modelos de visión y lenguaje (Vision-Language Models), tanto locales como mediante APIs, y el diseño de sistemas RAG (Retrieval-Augmented Generation) multimodales bidireccionales potenciados con bases de datos vectoriales y reordenamiento con cross-encoders. Además, explora la creación de agentes con supervisión humana en el bucle (Human-in-the-loop), motores agénticos de Text-to-SQL para la explotación autónoma de bases de datos relacionales, extracción de información en documentos mediante OCR generativo y procesamiento de voz. La obra concluye con la integración de modelos de ML clásico en flujos de IA generativa y la implantación de pipelines de LLMOps para observabilidad, evaluación de calidad y escalado.\n\nEl manual tiene una orientación marcadamente práctica respaldada por su repositorio oficial de código en GitHub, guiando el desarrollo paso a paso de múltiples aplicaciones complejas listas para producción. Destaca por su capacidad para unificar la teoría de la multimodalidad con flujos agénticos reproducibles y aplicables en la industria; por su amplitud y densidad (cerca de 580 páginas), demanda gestionar entornos locales exigentes y costes de consumo de APIs. Es un texto de referencia indispensable para quienes desarrollan soluciones de inteligencia artificial avanzada.",
+    "temas": [
+      "IA multimodal",
+      "Modelos de visión y lenguaje (VLM)",
+      "RAG multimodal",
+      "Bases de datos vectoriales",
+      "Cross-encoders y reranking",
+      "Agentes autónomos",
+      "Human-in-the-loop",
+      "Text-to-SQL agéntico",
+      "OCR con GenAI",
+      "Entrada de voz",
+      "LLMOps"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema RAG multimodal bidireccional con reranking",
+        "descripcion": "Pipeline de recuperación aumentada capaz de indexar y buscar conjuntamente texto e imágenes utilizando bases de datos vectoriales y reordenamiento de relevancia con cross-encoders."
+      },
+      {
+        "nombre": "Agente autónomo Text-to-SQL",
+        "descripcion": "Sistema agéntico que inspecciona esquemas relacionales, genera y ejecuta consultas SQL optimizadas a partir de peticiones en lenguaje natural con bucles de autocorrección."
+      },
+      {
+        "nombre": "Extractor documental y OCR con Human-in-the-loop",
+        "descripcion": "Aplicación de visión por computador y modelos generativos para procesar imágenes de documentos y extraer información estructurada incorporando validación humana en la toma de decisiones."
+      },
+      {
+        "nombre": "Asistente multimodal activado por voz",
+        "descripcion": "Sistema interactivo que procesa comandos de audio para consultar, razonar y describir contenidos visuales y documentos combinando modelos de voz, visión y lenguaje."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bpbonline.com/products/building-multimodal-generative-ai-and-agentic-applications",
+      "https://github.com/bpbpublications/Building-Multimodal-Generative-AI-and-Agentic-Applications",
+      "https://www.overdrive.com/media/11388647/building-multimodal-generative-ai-and-agentic-applications"
+    ]
+  },
+  "practical-approach-to-agentic-ai-2025": {
+    "descripcion": "Manual exhaustivo y práctico elaborado por Shweta Kamath y Vikas Gautam enfocado en la evolución desde los modelos de lenguaje convencionales hacia sistemas autónomos guiados por objetivos en el paradigma de la Agentic AI. Diseñado con las tecnologías de referencia para 2025–2026, está orientado a desarrolladores, ingenieros de producto y arquitectos empresariales de nivel intermedio que poseen soltura en Python y fundamentos de IA generativa y buscan implementar ecosistemas multiagente robustos en entornos de negocio reales.\n\nEl temario establece los cimientos teóricos revisando el papel de los LLMs, el aprendizaje por refuerzo y las propiedades cardinales del agente: gestión de memoria, perfiles de rol (personas) y control del ciclo de vida. A continuación, ofrece un análisis práctico comparativo de los tres marcos dominantes del mercado: AutoGen, CrewAI y LangGraph, detallando cómo implementar orquestaciones complejas en cada uno. Asimismo, dedica capítulos a la gobernanza y gestión de datos, estudios de caso en industrias críticas (detección de fraude en finanzas, personalización en salud y logística de cadenas de suministro), y prácticas de AgentOps que contemplan telemetría, auditoría de comportamiento, contenedorización y evaluación mediante el patrón LLM-as-a-judge.\n\nA lo largo de sus más de 400 páginas, el libro enseña a concebir, probar y desplegar sistemas agénticos funcionales, destacando la construcción de un bot autónomo para gestión de entregas y flujos corporativos coordinados con múltiples agentes. Su mayor virtud es el equilibrio entre el código práctico con librerías modernas y las exigencias de observabilidad y control que requiere una organización para llevar agentes a producción; deja fuera aspectos de entrenamiento y afinado a bajo nivel del modelo para focalizarse en la arquitectura y orquestación. Es una guía muy recomendada para dar el salto de los experimentos a la operativa profesional.",
+    "temas": [
+      "Agentic AI",
+      "AutoGen",
+      "CrewAI",
+      "LangGraph",
+      "Sistemas multiagente",
+      "Memoria y Personas",
+      "Gobernanza de datos",
+      "AgentOps",
+      "LLM-as-a-judge",
+      "Contenedorización"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Bot de entrega y logística autónoma (Delivery Bot)",
+        "descripcion": "Sistema agéntico que planifica rutas de despacho, supervisa estados de entrega y resuelve incidencias logísticas en tiempo real mediante coordinación de herramientas y eventos."
+      },
+      {
+        "nombre": "Flujo de orquestación multiagente empresarial",
+        "descripcion": "Pipeline de colaboración entre agentes especializados configurados con AutoGen, CrewAI y LangGraph para resolver tareas complejas de análisis y toma de decisiones."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bpbonline.com/products/practical-approach-to-agentic-ai",
+      "https://www.skillsoft.com/course/practical-approach-to-agentic-ai-from-theory-to-real-world-applications-in-agentic-ai-a8fa2e0d-b4b3-4fe6-b48e-7164ffc4c23c",
+      "https://www.perlego.com/book/5623049/practical-approach-to-agentic-ai-from-theory-to-realworld-applications-in-agentic-ai-pdf"
+    ]
+  },
+  "ai-agents-2025": {
+    "descripcion": "Guía técnica e ilustrada creada por Avi Chawla y Akshay Pachaar, fundadores de la publicación técnica Daily Dose of Data Science. Con una extensión ágil de 117 páginas y orientada al estado del arte de 2025, la obra está concebida para desarrolladores, analistas de datos e ingenieros de machine learning de nivel intermedio que conocen las bases de Python y el uso habitual de LLMs, pero necesitan asimilar con claridad visual e intuición de primeros principios el funcionamiento de los agentes de IA y los bucles de decisión autónomos.\n\nEl libro recurre a esquemas arquitectónicos para estructurar los seis componentes fundamentales del agente (role-playing, foco, herramientas, cooperación, guardarraíles y memoria) y examinar cinco patrones de diseño agéntico esenciales: reflexión, uso de herramientas, ReAct (razonamiento y acción), planificación y orquestación multiagente. En su vertiente técnica, aborda tecnologías y utilidades modernas como Model Context Protocol (MCP) para la creación de herramientas estándar, el framework CrewAI para coordinar equipos de agentes, LlamaIndex para RAG agéntico, modelos multilingües como Command R-7B de Cohere, integración con Serper API y plataformas de observabilidad como Opik.\n\nA través de implementaciones prácticas documentadas, los autores guían la construcción de casos reales como un generador multiagente de noticias con citas verificadas, planificadores cooperativos de viajes y asistentes financieros dotados de herramientas mediante MCP. Su principal atractivo radica en su formato sintético y altamente visual, que desmitifica la complejidad de los agentes sin recurrir a relleno teórico; como contrapartida, al tratarse de una guía compacta de 117 páginas, no profundiza en infraestructuras de clúster ni en optimizaciones matemáticas avanzadas. Es un punto de partida idóneo para adquirir rigor conceptual y comenzar a prototipar agentes con librerías punteras.",
+    "temas": [
+      "Agentes de IA",
+      "Model Context Protocol (MCP)",
+      "CrewAI",
+      "LlamaIndex",
+      "Patrones agénticos",
+      "ReAct",
+      "Multiagente",
+      "Memoria de agentes",
+      "Guardarraíles",
+      "Observabilidad"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Generador multiagente de noticias automatizado",
+        "descripcion": "Flujo de dos agentes coordinados con CrewAI y el modelo Command R-7B de Cohere que investiga temas en internet mediante la API de Serper y redacta artículos periodísticos con citas."
+      },
+      {
+        "nombre": "Asistente de análisis financiero con MCP",
+        "descripcion": "Agente conectado mediante Model Context Protocol a herramientas financieras y cotizaciones bursátiles para extraer métricas y generar diagnósticos de inversión."
+      },
+      {
+        "nombre": "Buscador y planificador multiagente de viajes",
+        "descripcion": "Sistema colaborativo donde varios agentes dividen tareas de consulta de tarifas, conexión de escalas y ajuste presupuestario para armar itinerarios óptimos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://dailydoseofds.com",
+      "https://www.dailydoseofds.com/p/hands-on-building-a-multi-agent-news-generator"
+    ]
+  },
+  "microsoft-agent-framework-in-practice-2026": {
+    "descripcion": "Guía práctica e independiente escrita por Daniel S. Scott que aborda la transición desde prototipos elementales de modelos de lenguaje hacia sistemas multiagente autónomos, observables y listos para producción empresarial. Publicada en 2026, la obra se enfoca en el ecosistema unificado de Microsoft para agentes de inteligencia artificial (integrando los cimientos de Semantic Kernel, AutoGen y las abstracciones modernas de Microsoft.Extensions.AI), trabajando en paralelo con implementaciones tanto en Python como en .NET (C#). Está dirigida a desarrolladores backend, ingenieros de software y arquitectos de nivel intermedio a avanzado que ya cuentan con bases sólidas de programación en alguno de estos lenguajes y buscan dominar patrones de orquestación fiables en lugar de scripts de prueba aislados.\n\nA lo largo de sus capítulos, el texto desglosa cómo dotar a los agentes de capacidades operativas mediante la integración de herramientas externas utilizando el estándar Model Context Protocol (MCP) y llamadas a funciones nativas. Aborda el diseño de flujos de control complejos —tales como derivación secuencial, transferencias (handoffs) entre agentes y ejecución concurrente—, la gestión de memoria contextual a corto y largo plazo, y el anclaje de datos con técnicas de RAG sobre Azure AI Foundry y puntos de conexión de OpenAI. Asimismo, profundiza en aspectos críticos para entornos corporativos: seguridad mediante autenticación e identidades gestionadas, barreras de protección (guardrails), mecanismos de aprobación humana (human-in-the-loop) e instrumentación de observabilidad integral a través de OpenTelemetry y Application Insights.\n\nLa parte práctica se centra en la construcción de arquitecturas colaborativas escalables preparadas para desplegarse en contenedores Docker y servicios serverless en la nube de Azure, acompañadas de puntos de control (checkpointing) para tolerar fallos en ejecuciones prolongadas. La principal fortaleza del libro radica en su enfoque dual (.NET y Python) y su tratamiento riguroso de la estabilidad del sistema, alejándose del determinismo ilusorio de los prompts simples para construir flujos tolerantes a fallos. Como contrapartida, no es un manual introductorio para aprender sintaxis de C# o conceptos básicos de aprendizaje automático, por lo que conviene tener experiencia previa en desarrollo backend y servicios en la nube antes de implementarlo.",
+    "temas": [
+      "Microsoft Agent Framework",
+      "Python",
+      ".NET",
+      "Model Context Protocol (MCP)",
+      "Sistemas multiagente",
+      "Azure AI Foundry",
+      "Semantic Kernel",
+      "OpenTelemetry",
+      "Guardrails y gobernanza",
+      "Persistencia de estado"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Orquestador multiagente empresarial con herramientas MCP",
+        "descripcion": "Sistema colaborativo implementado en Python y .NET donde múltiples agentes especializados ejecutan flujos de trabajo con handoffs, resuelven tareas complejas consumiendo herramientas mediante el protocolo MCP y persisten su estado de ejecución en la nube."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.amazon.com/dp/B0H48V2197",
+      "https://books.google.com/books?vid=ISBN9798196459627"
+    ]
+  },
+  "systems-thinking-for-agentic-ai-2026": {
+    "descripcion": "Obra de referencia orientada al diseño y la arquitectura de software escrita por Ediz Najim, centrada en aplicar los principios del pensamiento sistémico al desarrollo de aplicaciones basadas en modelos de lenguaje y agentes autónomos. Publicada en 2026 a través de Leanpub y plataformas de distribución técnica, la obra parte de una premisa contundente: un LLM por sí solo es únicamente un motor de inferencia probabilístico y no un sistema completo de software. Está concebida para arquitectos de software, desarrolladores sénior y líderes técnicos con experiencia en desarrollo backend que buscan diseñar soluciones con inteligencia artificial tolerantes a fallos, predecibles y preparadas para soportar la carga y los requerimientos de entornos de producción.\n\nEl libro ofrece un recorrido exhaustivo por la pila tecnológica agentica moderna, analizando los principales marcos de orquestación del sector como LangChain, LangGraph, Microsoft Agent Framework y CrewAI, así como los nuevos estándares de comunicación como el Model Context Protocol (MCP) y el protocolo agente a agente (A2A). Najim enseña a construir bucles de control estructurados para agentes individuales y redes multiagente, integrando arquitecturas RAG avanzadas para recuperación de contexto, gestión híbrida de memoria persistente, llamadas a APIs externas y mecanismos de validación de esquemas. Además, presta especial atención al diseño defensivo contra alucinaciones, la implementación de guardrails, el rastreo distribuido y el marco de pruebas automatizadas para evaluar salidas no deterministas antes de desplegar flujos de trabajo.\n\nA nivel aplicativo, el libro guía el diseño de arquitecturas de referencia para agentes individuales resilientes y sistemas colaborativos distribuidos con control de estado y mitigación de bucles infinitos. Su mayor virtud es su perspectiva de ingeniería formal: enseña a desacoplar la lógica de control del modelo subyacente y a evaluar rigurosamente componentes aislados antes de integrarlos en grafos complejos. Como contraparte, no es un recetario para copiar y pegar código superficial ni un tutorial para principiantes en Python; presupone familiaridad con patrones de diseño, concurrencia y servicios web, convirtiéndose en una lectura imprescindible para quienes deben justificar decisiones de arquitectura corporativa en IA.",
+    "temas": [
+      "Pensamiento sistémico",
+      "Arquitectura de software",
+      "LangGraph",
+      "CrewAI",
+      "Microsoft Agent Framework",
+      "Model Context Protocol (MCP)",
+      "Protocolo A2A",
+      "Sistemas multiagente",
+      "Guardrails",
+      "Observabilidad y evaluación"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Bucle de control agentico resiliente con MCP",
+        "descripcion": "Diseño e implementación de un agente autónomo estructurado con control de ejecución, integración de herramientas externas bajo el protocolo MCP, memoria persistente y guardrails que bloquean alucinaciones y llamadas cíclicas."
+      },
+      {
+        "nombre": "Topología multiagente colaborativa",
+        "descripcion": "Arquitectura coordinada con LangGraph y CrewAI que implementa patrones de delegación entre agentes especializados, gestionando el intercambio de mensajes y la sincronización de estado compartido en tareas concurrentes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://leanpub.com/staai",
+      "https://www.amazon.com/s?k=Systems+Thinking+for+Agentic+AI+Ediz+Najim"
+    ]
+  },
+  "c-ai-agents-made-easy-2026": {
+    "descripcion": "Manual práctico y extenso de 676 páginas escrito por el Dr. Liew Voon Kiong, orientado a capacitar a desarrolladores del ecosistema Microsoft en la construcción de agentes inteligentes y aplicaciones asistidas por inteligencia artificial. Publicado en su segunda edición de 2026, el libro adopta un enfoque accesible adaptado a las novedades de C#, .NET 10 y Visual Studio. Su propuesta central se desmarca de las tendencias habituales al priorizar la ejecución de modelos de código abierto en local para evitar el pago de suscripciones recurrentes o créditos de API en la nube, lo que lo convierte en una opción idónea para programadores de nivel intermedio, estudiantes universitarios y equipos que manejan datos confidenciales.\n\nEl temario combina el uso de herramientas locales como Ollama y modelos ligeros como la familia Qwen con el marco oficial Microsoft Semantic Kernel para orquestar la interacción entre el código C# y el razonamiento del modelo. A lo largo del libro se enseña a configurar llamadas a funciones nativas (function calling), diseñar plugins extensibles y construir canales de generación aumentada por recuperación (RAG) conectados con bases de datos SQL Server y múltiples formatos documentales (PDF, Word, Markdown, CSV y archivos de texto). Adicionalmente, el autor incorpora capítulos dedicados a la implementación tanto de clientes como de servidores basados en el estándar Model Context Protocol (MCP) en C#, así como técnicas de preservación del contexto conversacional y coordinación de múltiples agentes.\n\nLa metodología del libro es eminentemente práctica: guía la construcción incremental de asistentes de escritorio para oficina, herramientas de soporte automatizado y componentes de integración con bases de datos locales. Su gran contribución es demostrar que es perfectamente viable programar aplicaciones agenticas funcionales y autónomas en .NET sin depender de la infraestructura de OpenAI o Azure. Deja en un plano secundario la teoría matemática profunda del aprendizaje profundo y los despliegues a gran escala en Kubernetes. Es un recurso muy valioso para desarrolladores de escritorio o backend en C# que deseen adquirir competencias en IA con herramientas gratuitas y tangibles.",
+    "temas": [
+      "C#",
+      ".NET 10",
+      "Visual Studio",
+      "Semantic Kernel",
+      "Ollama",
+      "Model Context Protocol (MCP)",
+      "RAG local",
+      "SQL Server",
+      "Llamada a funciones",
+      "Modelos Qwen"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Asistente de productividad documental y soporte en .NET",
+        "descripcion": "Aplicación de escritorio en C# que analiza archivos locales (PDF, Office, CSV) y registros de SQL Server mediante un flujo RAG alimentado por modelos ejecutados localmente en Ollama."
+      },
+      {
+        "nombre": "Servidor y cliente MCP en C#",
+        "descripcion": "Implementación en .NET de un servidor y cliente bajo el estándar Model Context Protocol para exponer funciones de negocio locales como herramientas consumibles por agentes de Semantic Kernel."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.amazon.com/dp/B0H1CYK5WG",
+      "https://www.vbtutor.net"
+    ]
+  },
+  "ai-agents-and-applications-2026": {
+    "descripcion": "Libro técnico de Manning Publications escrito por Roberto Infante que ofrece un recorrido integral y guiado para crear aplicaciones basadas en modelos de lenguaje y agentes autónomos preparados para el mundo real. Centrado en el ecosistema de Python de 2026, la obra aborda desde los fundamentos de la ingeniería de prompts y el control determinista de salidas hasta la orquestación avanzada con LangChain, LangGraph y el protocolo Model Context Protocol (MCP). Está destinado a desarrolladores de software, ingenieros de datos y profesionales de IA de nivel intermedio que dominan Python y quieren dejar atrás los experimentos en Jupyter Notebooks para estructurar arquitecturas con lógica de bifurcación y ciclos de ejecución confiables.\n\nEl contenido técnico del texto se divide en etapas progresivas muy claras: inicia con la ejecución programática de prompts, estrategias de resumen estructurado y motores de preguntas y respuestas antes de saltar a la arquitectura de grafos de LangGraph para controlar flujos agenticos no lineales y estados compartidos. Enseña a implementar canales RAG avanzados mediante la base de datos vectorial Chroma DB, incorporando técnicas de transformación de consultas, indexación optimizada y enrutamiento inteligente. Asimismo, el autor dedica secciones fundamentales al desarrollo y consumo de servidores MCP para conectar agentes a herramientas externas modulares, junto con la instrumentación de observabilidad, rastreo y depuración de llamadas utilizando la plataforma LangSmith.\n\nA lo largo de los capítulos se construyen sistemas prácticos que evolucionan desde motores de investigación documental automatizada hasta redes colaborativas multiagente capaces de consultar APIs y ejecutar tareas complejas de forma autónoma. El valor diferencial del libro reside en su equilibrio pedagógico característico de Manning, desmitificando el funcionamiento interno de LangGraph y dotando al lector de criterios sólidos sobre costos, latencia y prevención de alucinaciones. Aunque no profundiza en el entrenamiento o fine-tuning de modelos fundacionales, proporciona exactamente las herramientas arquitectónicas que un ingeniero de software necesita para desplegar agentes modernos en entornos empresariales.",
+    "temas": [
+      "Python",
+      "LangChain",
+      "LangGraph",
+      "Model Context Protocol (MCP)",
+      "Chroma DB",
+      "LangSmith",
+      "RAG avanzado",
+      "Grafos de estados",
+      "Sistemas multiagente",
+      "Ingeniería de contexto"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de resumen e investigación documental con RAG",
+        "descripcion": "Aplicación construida con LangChain y Chroma DB que ingiere conjuntos documentales extensos, realiza transformaciones de consulta y genera resúmenes analíticos precisos con trazabilidad de fuentes."
+      },
+      {
+        "nombre": "Red multiagente coordinada con LangGraph y herramientas MCP",
+        "descripcion": "Sistema de agentes especializados orquestados mediante un grafo de estados en LangGraph, que resuelve tareas colaborativas consumiendo servicios externos conectados a través de servidores MCP y monitorizados con LangSmith."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/ai-agents-and-applications"
+    ]
+  },
+  "ai-agents-in-action-2025": {
+    "descripcion": "Primera edición del libro de Micheal Lanham (Manning, 2025) sobre cómo construir agentes y asistentes autónomos basados en modelos de lenguaje grandes (LLMs), tanto para tareas de negocio como personales. Está dirigido a programadores de Python de nivel intermedio.\n\nEl libro presenta un marco práctico para diseñar agentes y recorre los patrones de comportamiento de un agente, el uso de la API de asistentes de OpenAI y herramientas relacionadas, y las acciones que permiten al agente actuar sobre su entorno. Dedica capítulos a los árboles de comportamiento (behavior trees) para construir asistentes autónomos, a los sistemas de conocimiento y memoria con generación aumentada por recuperación (RAG), a técnicas avanzadas de prompting y a la planificación con ciclos de retroalimentación que permiten al agente mejorar sus propios resultados. También muestra cómo orquestar sistemas multiagente colaborativos, cómo llevar los agentes a producción y cómo darles capacidades de voz y visión.\n\nEs una buena introducción práctica al diseño de agentes con el ecosistema de OpenAI. La segunda edición (2026) es una reescritura casi completa, centrada en MCP, A2A y la evaluación de agentes, así que conviene elegir esa si se busca el enfoque más actual.",
+    "temas": [
+      "Agentes de IA",
+      "Python",
+      "OpenAI Assistants API",
+      "Behavior trees",
+      "RAG",
+      "Memoria de agentes",
+      "Prompting avanzado",
+      "Planificación y retroalimentación",
+      "Sistemas multiagente",
+      "Voz y visión"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Asistentes autónomos con árboles de comportamiento",
+        "descripcion": "Agentes que combinan la API de asistentes de OpenAI con behavior trees para decidir y ejecutar acciones de forma autónoma."
+      },
+      {
+        "nombre": "Agente con memoria y conocimiento (RAG)",
+        "descripcion": "Asistente que recupera información de una base de conocimiento propia y mantiene memoria entre conversaciones."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/ai-agents-in-action"
+    ]
+  },
+  "ai-agents-in-action-2nd-edition-2026": {
+    "descripcion": "Segunda edición completamente renovada (más del 95 % del contenido es nuevo respecto a la primera edición, de 2025) en la que Micheal Lanham enseña a diseñar, programar y desplegar agentes autónomos y sistemas multiagente con Python. Está orientada a desarrolladores e ingenieros de software con nivel intermedio en Python y nociones sobre modelos de lenguaje grandes (LLMs), que buscan superar las interacciones conversacionales básicas mediante bucles de decisión autónomos orientados a objetivos con capacidad de ejecución de herramientas.\n\nEl texto profundiza en el ciclo de vida del agente (agentic loop) estructurado en cuatro fases clave: percibir, planificar, actuar y aprender (sense-plan-act-learn). Desglosa la arquitectura en cinco capas funcionales esenciales: personalidad (persona), herramientas y acciones, razonamiento y planificación, memoria y conocimiento mediante RAG con búsqueda híbrida, y evaluación con retroalimentación. Entre sus temas centrales destaca la adopción práctica del Model Context Protocol (MCP) para conectar agentes a herramientas y servidores locales, la comunicación entre agentes con A2A, los patrones de razonamiento ReAct, Reflexion, Tree-of-Thought y Sequential Thinking, y la orquestación multiagente mediante flujos en cadena de montaje (assembly flow), orquestación y colaboración, además de evaluación con LLM-as-a-judge y agentes orientados a voz.\n\nA lo largo de sus páginas se desarrollan proyectos prácticos que van desde herramientas integradas con servidores MCP locales hasta un sistema de soporte y atención al cliente (Help Desk) estructurado por capas y un agente de investigación profunda (Deep Research Agent) dotado de síntesis iterativa y metacognición. El libro destaca por modernizar la ingeniería de agentes incorporando estándares recientes como MCP y marcos de pruebas automatizadas (TDD), llenando el vacío entre los prototipos frágiles y los agentes fiables. No aborda el entrenamiento matemático ni el ajuste fino (fine-tuning) de modelos fundacionales, ya que se enfoca estrictamente en la ingeniería de software y la orquestación de sistemas agénticos.",
+    "temas": [
+      "Agentes de IA",
+      "Python",
+      "Model Context Protocol (MCP)",
+      "Sistemas multiagente",
+      "RAG híbrido",
+      "Bucle agéntico",
+      "LLM-as-a-judge",
+      "Orquestación",
+      "A2A",
+      "ReAct y Reflexion"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor local y herramientas con Model Context Protocol (MCP)",
+        "descripcion": "Implementación de servidores de herramientas locales conectados con agentes mediante MCP para ejecutar acciones del sistema y consultar recursos de forma segura."
+      },
+      {
+        "nombre": "Sistema de soporte y mesa de ayuda (Help Desk) multi-capa",
+        "descripcion": "Agente autónomo de atención técnica estructurado en capas funcionales con personalidad definida, gestión de memoria mediante RAG y resolución de incidencias guiada por objetivos."
+      },
+      {
+        "nombre": "Agente de investigación profunda (Deep Research Agent)",
+        "descripcion": "Sistema agéntico con bucle de razonamiento de largo horizonte capaz de explorar fuentes iterativamente, sintetizar informes analíticos y autoevaluar sus conclusiones."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/ai-agents-in-action-second-edition"
+    ]
+  },
+  "build-an-ai-agent-2026": {
+    "descripcion": "Guía técnica y práctica escrita por Jungjun Hur y Younghee Song que enseña a diseñar y programar agentes de inteligencia artificial completamente desde cero en Python, prescindiendo deliberadamente de librerías de abstracción de alto nivel como LangChain, AutoGen o CrewAI. Está dirigida a desarrolladores intermedios de Python que ya han interactuado con APIs de modelos de lenguaje mediante prompts y desean comprender la mecánica interna y los componentes fundamentales que permiten a un LLM operar como un agente autónomo transparente y predecible.\n\nLa obra aborda paso a paso los fundamentos del bucle agéntico ReAct bajo el paradigma de Pensamiento, Acción y Observación (Think-Act-Observe). Enseña a convertir funciones estándar de Python en especificaciones de llamada a herramientas (tool calling), gestionar la falta de estado en las APIs de LLMs y estructurar salidas con Pydantic. Pone especial énfasis en la ingeniería de contexto (Context Engineering) para combatir el fenómeno de la pérdida de información en el medio (Lost in the Middle) y la degradación de contexto (context rot). También abarca la integración de bases de conocimiento mediante RAG vectorial, la persistencia de memoria para registrar fallos pasados, la ejecución aislada de código, protocolos de comunicación entre agentes y metodologías de evaluación estandarizadas utilizando el benchmark GAIA (General AI Assistants).\n\nEl libro propone la construcción progresiva de un agente de investigación autónomo capaz de explorar el sistema de archivos local, realizar búsquedas web personalizadas, ejecutar scripts de código y coordinarse con otros agentes para resolver tareas complejas. Su mayor valor reside en enseñar a programar la arquitectura interna sin atarse a marcos de trabajo volátiles, otorgando al lector un control absoluto del flujo de ejecución y de las llamadas a la API. Como contrapartida, no cubre el despliegue a gran escala en infraestructuras distribuidas (como clústeres Kubernetes o Ray), por lo que conviene tener solidez previa con manejo de archivos y entornos virtuales en Python.",
+    "temas": [
+      "Agentes de IA",
+      "Python",
+      "Arquitectura ReAct",
+      "Tool calling",
+      "Pydantic",
+      "Ingeniería de contexto",
+      "RAG",
+      "Persistencia de memoria",
+      "Benchmark GAIA",
+      "Sistemas multiagente"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor agéntico ReAct desde cero",
+        "descripcion": "Bucle de control autónomo programado en Python puro sin librerías externas que ejecuta el ciclo pensar-actuar-observar, parsea salidas con Pydantic y gestiona la invocación dinámica de funciones."
+      },
+      {
+        "nombre": "Agente de investigación autónoma de propósito general",
+        "descripcion": "Agente avanzado capaz de examinar sistemas de archivos locales, buscar en la web, ejecutar fragmentos de código y resolver problemas complejos evaluados contra el benchmark GAIA."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/build-an-ai-agent-from-scratch"
+    ]
+  },
+  "agentic-graphrag-2026": {
+    "descripcion": "Obra especializada de Anthony Alcaraz y Sam Julien que plantea una evolución decisiva frente a los sistemas RAG convencionales, integrando grafos de conocimiento (Knowledge Graphs), razonamiento neuro-simbólico y agentes de IA autónomos. Está orientada a ingenieros de software sénior, arquitectos de datos y líderes técnicos con bases sólidas en Python, bases de datos y arquitecturas de recuperación de información que buscan construir soluciones de inteligencia artificial corporativas capaces de realizar razonamientos complejos multirrelacionales sin depender exclusivamente de la búsqueda por similitud vectorial plana.\n\nEl contenido desglosa en profundidad la arquitectura de doble grafo (Dual-Graph Architecture), que combina un grafo de conocimiento vertical (para representar dominios y relaciones del negocio) con un grafo horizontal de flujos de trabajo (para orquestar procesos operacionales y nodos de ejecución agénticos). Enseña a modelar ontologías, consultar bases de datos orientadas a grafos mediante Neo4j y Cypher, implementar técnicas de razonamiento neuro-simbólico que unen la lógica formal determinista con los LLMs, y dotar a los agentes de memoria contextual dinámica, planificación estructurada y mecanismos de autocorrección continua (self-evolution data flywheel).\n\nA través de cuadernos pedagógicos y repositorios de código en Python, el libro guía la modelización del gemelo digital de una infraestructura tecnológica corporativa y la puesta en marcha de un agente autónomo de DevOps enfocado en la mitigación de incidentes y remediación de fallos (self-healing systems). Su gran aportación es solventar las limitaciones inherentes al RAG vectorial tradicional —como la falta de contexto holístico y la imposibilidad de enlazar relaciones indirectas de varios saltos (multi-hop reasoning)—. No se detiene en interfaces de usuario ni en programación frontend, requiriendo familiaridad previa con estructuras de datos en grafos y fundamentos de LLMs para aprovecharlo al máximo.",
+    "temas": [
+      "Agentic GraphRAG",
+      "Grafos de conocimiento",
+      "Neo4j",
+      "Cypher",
+      "Razonamiento neuro-simbólico",
+      "Dual-Graph Architecture",
+      "Agentes de IA",
+      "Python",
+      "Sistemas autorreparables",
+      "Enterprise AI"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Gemelo digital de infraestructura en grafo",
+        "descripcion": "Modelado de una arquitectura de servicios y recursos en la nube mediante Neo4j y Cypher que mapea dependencias, estados y topología del sistema corporativo."
+      },
+      {
+        "nombre": "Agente autónomo de DevOps y autorreparación (Self-Healing Agent)",
+        "descripcion": "Agente impulsado por GraphRAG que navega la topología del gemelo digital para detectar anomalías, diagnosticar causas raíz mediante razonamiento multirrelacional y ejecutar planes de mitigación."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/agentic-graphrag/9798341623163/"
+    ]
+  },
+  "agentic-mesh-2026": {
+    "descripcion": "Tratado de arquitectura de software y diseño estratégico en el que Eric Broda y Davis Broda abordan el desafío de escalar la adopción de agentes de inteligencia artificial desde pruebas de concepto aisladas hacia una malla coordinada de ecosistemas autónomos (Agentic Mesh). Está concebido para directores de tecnología (CTOs), arquitectos empresariales y directores de ingeniería con experiencia en sistemas distribuidos que necesitan establecer las bases estructurales, la gobernanza corporativa y los estándares operativos antes de integrar decenas o cientos de agentes en procesos de misión crítica.\n\nInspirándose en patrones consagrados de sistemas distribuidos como Service Mesh y Data Mesh, el libro articula el ecosistema en torno a cuatro pilares esenciales: Identidad (Identity), Intención (Intent), Semántica (Semantics) y Contratos de Servicio (Contracts). Examina la infraestructura base necesaria para habilitar la interoperabilidad de agentes, incluyendo registros de agentes (Agent Registries) para descubrimiento dinámico, catálogos y mercados internos de capacidades, servidores de gestión de interacciones y proxies de ejecución. Asimismo, aborda los marcos de confianza, límites de seguridad perimetral, auditoría de conductas emergentes no deseadas y supervisión con humanos en el bucle (Human-in-the-Loop).\n\nEl enfoque del libro es eminentemente arquitectónico y metodológico: en lugar de proyectos de código individuales, formaliza el concepto de factoría de agentes (Agent Factory) y define una hoja de ruta estratégica para estandarizar la creación, certificación y monitoreo de agentes a escala organizacional. Su valor reside en aportar un marco conceptual riguroso para evitar la proliferación de agentes descontrolados y silos tecnológicos dentro de la empresa. Deja de lado la programación de bajo nivel, la ingeniería de prompts y la implementación con librerías específicas de Python, por lo que resulta un complemento estratégico indispensable para manuales puramente técnicos.",
+    "temas": [
+      "Agentic Mesh",
+      "Arquitectura empresarial",
+      "Ecosistemas de agentes",
+      "Gobernanza de IA",
+      "Contratos de interacción",
+      "Registro de agentes",
+      "Service Mesh",
+      "Sistemas distribuidos",
+      "Seguridad en IA",
+      "Modelo operativo"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/agentic-mesh/9798341621633/"
+    ]
+  },
+  "ai-agents-the-definitive-guide-2026": {
+    "descripcion": "Manual exhaustivo y de referencia avanzada escrito por Nicole Koenigstein que sitúa el desarrollo de agentes de inteligencia artificial en el terreno riguroso de la ingeniería de software y la fiabilidad de producción. Está dirigido a ingenieros de software sénior, ingenieros de aprendizaje automático (MLEs) y arquitectos de plataformas de IA con experiencia en Python y sistemas en la nube, cuyo objetivo sea superar las fragilidades habituales de los prototipos iniciales (alucinaciones, fallos en la invocación de herramientas, costes de inferencia descontrolados y brechas de seguridad) para poner en marcha agentes estables en entornos reales.\n\nEl texto expone patrones de arquitectura y planificación avanzados como ReAct, Reflexion, árboles de pensamiento (Tree-of-Thoughts) y flujos dirigidos por grafos de estado con LangGraph. En el plano de la optimización y sistemas, analiza técnicas de cómputo en inferencia (test-time compute), búsqueda, inferencia consciente de hardware y GPU, y contratos de API estrictos con entornos de aislamiento (sandboxing) para evitar ataques por inyección de prompts. También cubre el diseño de memorias de estado persistentes, tuberías de evaluación y benchmarking para evitar el agent-washing, observabilidad integral y despliegues elásticos sobre infraestructuras distribuidas basadas en clústeres con Kubernetes y Ray.\n\nEl recorrido formativo plantea la implementación de una canalización integral de evaluación para agentes con métricas de seguridad y rendimiento previas al paso a producción, así como el diseño de una arquitectura distribuida tolerante a fallos con mecanismos de respaldo (fallbacks) y ejecución aislada de código. Destaca por su enfoque holístico y pragmático de ingeniería de confiabilidad (SRE aplicada a agentes), distanciándose de guías introductorias que se quedan en scripts simples. Deja fuera la teoría matemática sobre el entrenamiento previo de redes neuronales, concentrándose de lleno en la ingeniería de sistemas, la robustez operativa y la escalabilidad técnica.",
+    "temas": [
+      "Agentes de IA",
+      "LangGraph",
+      "Producción",
+      "ReAct",
+      "Reflexion",
+      "Sandboxing",
+      "Kubernetes",
+      "Ray",
+      "Evaluación de agentes",
+      "Seguridad en LLMs",
+      "Test-time compute"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline continuo de evaluación y benchmarking para agentes",
+        "descripcion": "Marco de evaluación automatizado que mide cuantitativamente la precisión en el uso de herramientas, la fidelidad de razonamiento y la resistencia frente a inyecciones de prompts en entornos de preproducción."
+      },
+      {
+        "nombre": "Arquitectura distribuida de agentes tolerante a fallos",
+        "descripcion": "Infraestructura multiagente escalable desplegada sobre clústeres de Ray y Kubernetes que incorpora sandboxing seguro para ejecución de herramientas y degradación elegante ante errores."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/ai-agents-the/9798341666931/"
+    ]
+  },
+  "ai-agents-with-mcp-2026": {
+    "descripcion": "Guía técnica y de ingeniería de sistemas escrita por Kyle Stratis y publicada por O'Reilly en 2026, enfocada de manera íntegra en el Model Context Protocol (MCP) propuesto por Anthropic y en su implementación práctica en Python. Está pensada para ingenieros de software, desarrolladores de IA y arquitectos de soluciones de nivel intermedio que ya manejan Python y llamadas a APIs de modelos de lenguaje, pero quieren dar el salto desde integraciones ad-hoc hacia arquitecturas estandarizadas, desacopladas y preparadas para producción.\n\nEl libro disecciona en profundidad el protocolo MCP, examinando su arquitectura cliente-servidor y sus mecanismos de transporte mediante stdio (entrada/salida estándar) y Server-Sent Events (SSE). Con el SDK oficial de Python (v2.x), enseña a programar tanto clientes que consumen servicios como servidores personalizados que exponen las tres primitivas fundamentales de la especificación: Tools (herramientas ejecutables para interactuar con sistemas externos), Resources (datos y contextos estructurados estáticos o dinámicos) y Prompts (plantillas parametrizadas). También cubre a fondo el diseño robusto de interfaces de herramientas, el establecimiento de fronteras de seguridad y confianza, la validación de esquemas y la escritura de pruebas unitarias y de integración para servidores de contexto.\n\nA lo largo de sus capítulos prácticos se construye desde cero un servidor MCP que publica herramientas operativas y recursos de datos, así como una aplicación cliente que descubre capacidades, resuelve permisos y orquesta llamadas a modelos conectándolos a entornos externos de forma dinámica. La principal virtud de la obra es su enfoque de ingeniería de protocolos: no se limita a usar librerías de alto nivel preempaquetadas, sino que enseña cómo funciona la comunicación bajo el capó para crear extensiones seguras y reutilizables. Deja fuera temas como el preentrenamiento de modelos o el afinamiento de pesos, pues su foco es la capa de integración de sistemas. Conviene tener soltura previa con programación asíncrona (asyncio) y serialización en formato JSON-RPC.",
+    "temas": [
+      "Model Context Protocol (MCP)",
+      "Anthropic MCP",
+      "Python SDK v2.x",
+      "Servidores MCP",
+      "Clientes MCP",
+      "Tools y Resources",
+      "Transición stdio y SSE",
+      "Seguridad de agentes",
+      "Pruebas de integración",
+      "Agentes autónomos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor MCP personalizado en Python",
+        "descripcion": "Servidor desarrollado con el SDK oficial de Python que implementa transporte stdio y SSE para exponer herramientas computacionales, recursos estructurados y plantillas de prompts consumibles por agentes autónomos."
+      },
+      {
+        "nombre": "Cliente de agente integrado con protocolo MCP",
+        "descripcion": "Aplicación cliente que conecta modelos de lenguaje con múltiples servidores MCP, negociando capacidades dinámicas, validando esquemas de ejecución y gestionando límites de seguridad."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/ai-agents-with/9798341639546/",
+      "https://kylestratis.com/books/ai-agents-mcp/"
+    ]
+  },
+  "an-illustrated-guide-to-ai-agents-2026": {
+    "descripcion": "Tratado técnico y visual de más de 580 páginas escrito por Maarten Grootendorst y Jay Alammar, publicado por O'Reilly en 2026 para explicar de raíz cómo operan los agentes autónomos de inteligencia artificial. Está dirigido a desarrolladores, científicos de datos e ingenieros de nivel intermedio que conocen los fundamentos de los grandes modelos de lenguaje (LLMs) y la programación en Python, y desean entender en profundidad cómo un modelo pasa de generar respuestas reactivas a planificar, actuar y resolver problemas de forma autónoma.\n\nRespaldado por más de 300 ilustraciones conceptuales detalladas, el texto descompone la anatomía completa de un agente inteligente: bucles de razonamiento ReAct (pensamiento, acción y observación), modelos de razonamiento avanzado (como sistemas de chain-of-thought interno), memoria a corto y largo plazo, e ingeniería de contexto. Explora la integración de herramientas mediante function calling y el protocolo Model Context Protocol (MCP), algoritmos de planificación autónoma y descomposición de tareas, entornos multimodales y arquitecturas de colaboración multi-agente. Dedica también un capítulo a la evaluación de agentes.\n\nEn la vertiente práctica, el libro prescinde de abstracciones opacas y guía al lector en la construcción paso a paso de TinyAgent, un framework minimalista implementado en Python puro que permite ejecutar bucles agenticos completos e inspeccionar en consola cada fase de deducción, uso de herramientas y actualización de memoria. El último capítulo culmina con un agente de programación que se ejecuta desde la línea de comandos. La gran aportación de la obra es su equilibrio entre profundidad técnica y claridad visual, haciendo comprensibles problemas complejos de estado y orquestación. Deja fuera el desarrollo frontend de interfaces gráficas o la infraestructura cloud de proveedores concretos. Es altamente recomendable contar con bases sólidas de programación en Python y familiaridad con peticiones HTTP y APIs de LLMs.",
+    "temas": [
+      "Agentes de IA",
+      "TinyAgent",
+      "Patrón ReAct",
+      "Model Context Protocol (MCP)",
+      "Memoria para agentes",
+      "Tool Calling",
+      "Planificación autónoma",
+      "Sistemas multi-agente",
+      "LLMs de razonamiento",
+      "Evaluación de agentes",
+      "Agente de programación (CLI)"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "TinyAgent Framework",
+        "descripcion": "Framework minimalista de agentes autónomos programado desde cero en Python puro, que implementa bucles de razonamiento pensamiento-acción-observación, invocación de herramientas, gestión de memoria contextual y planificación por pasos sin dependencias de alto nivel."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/an-illustrated-guide/9798341662681/",
+      "https://ai-agents-book.com",
+      "https://github.com/HandsOnLLM/An-Illustrated-Guide-To-AI-Agents"
+    ]
+  },
+  "building-agentic-solutions-with-microsoft-foundry-2026": {
+    "descripcion": "Manual práctico y empresarial escrito por el arquitecto de soluciones de IA Colby T. Ford, publicado por O'Reilly en 2026, enfocado en el diseño, despliegue y gobierno de agentes inteligentes dentro del ecosistema Microsoft Foundry (en el marco de Azure AI). Está orientado a ingenieros cloud, desarrolladores de soluciones y líderes técnicos de nivel intermedio que dominan los servicios fundamentales de Microsoft Azure y Python, y necesitan trasladar prototipos de agentes hacia entornos corporativos regulados, escalables y auditables.\n\nEl libro detalla el despliegue y gestión de modelos fundacionales en la plataforma Microsoft Foundry, abordando la conexión de agentes con fuentes de datos empresariales mediante pipelines de Retrieval-Augmented Generation (RAG) basados en Foundry IQ. Explica la integración de herramientas externas y sistemas legacy empleando el Model Context Protocol (MCP), la estructuración de patrones de orquestación multi-agente y el ajuste fino (fine-tuning) supervisado. Un pilar central de la obra es la ingeniería de operaciones corporativas: observabilidad nativa, telemetría y trazabilidad, gestión de cuotas de cómputo, políticas de seguridad perimetral y gobernanza de IA responsable.\n\nA través de sus casos de estudio se implementa una solución agentica empresarial completa sobre Azure que utiliza Foundry IQ para consultar bases de conocimiento corporativas, ejecuta acciones seguras mediante herramientas MCP y monitoriza el rendimiento y los costos operativos en tiempo real. Su mayor valor reside en centrarse en los retos reales de producción corporativa (cumplimiento normativo, seguridad de datos privados y control de costos), aspectos que las guías teóricas suelen ignorar. Al estar muy especializado en la plataforma cloud de Microsoft, no es el recurso idóneo para quienes busquen soluciones multi-cloud o despliegues locales independientes de Azure. Conviene disponer de acceso a una suscripción de Azure para replicar las arquitecturas.",
+    "temas": [
+      "Microsoft Foundry",
+      "Azure AI",
+      "Foundry IQ",
+      "Model Context Protocol (MCP)",
+      "RAG empresarial",
+      "Sistemas multi-agente",
+      "Fine-tuning",
+      "Observabilidad cloud",
+      "Gobernanza de IA",
+      "Seguridad corporativa"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Solución agentica empresarial con Microsoft Foundry",
+        "descripcion": "Arquitectura de agentes autónomos desplegada en Azure que integra modelos de lenguaje con bases de conocimiento privadas mediante Foundry IQ y RAG, ejecuta herramientas conectadas por MCP y cuenta con telemetría y controles de gobernanza corporativos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://foundrybook.ai",
+      "https://www.oreilly.com/library/view/building-agentic-solutions/9798341673328/"
+    ]
+  },
+  "building-applications-with-ai-agents-2025-2": {
+    "descripcion": "Extensa obra de ingeniería de software de más de 550 páginas escrita por Michael Albada (Principal Applied Scientist en Microsoft) y publicada por O'Reilly en 2025, centrada en el diseño y construcción de sistemas agenticos complejos individuales y multi-agente con modelos fundacionales modernos. Está destinada a ingenieros de software sénior, ingenieros de machine learning y científicos de datos aplicados que ya cuentan con amplia experiencia en Python y desarrollo backend, y buscan patrones arquitectónicos formales para construir aplicaciones autónomas fiables más allá de simples chatbots o cadenas de prompts.\n\nEl texto analiza con minuciosidad los pilares de la ingeniería agentica: el uso y diseño de habilidades (skills) y function calling, diseño de experiencia de usuario (UX) para sistemas autónomos, patrones de orquestación basados en cadenas, árboles y grafos, y persistencia de memoria contextual. Presenta y compara implementaciones en frameworks líderes como LangGraph, AutoGen y CrewAI, y profundiza en aspectos críticos de producción a menudo desatendidos: marcos de validación y medición sistemática del rendimiento de agentes, observabilidad distribuida mediante OpenTelemetry, Grafana Tempo y Loki, bucles de retroalimentación para aprendizaje continuo y barreras de seguridad (guardrails) contra inyecciones de prompts y ejecuciones no seguras.\n\nEn el plano práctico, respaldado por su repositorio de código abierto complementario, el lector desarrolla una arquitectura multi-agente completa con especificaciones agnósticas de framework, comparando flujos de trabajo en LangGraph y AutoGen con instrumentación completa de trazas y suites de pruebas automatizadas. El principal aporte del libro es su rigor metodológico y su enfoque de sistemas distribuidos, tratando a los agentes como componentes de software que requieren pruebas, métricas y observabilidad estricta. Quedan fuera las explicaciones introductorias sobre cómo programar en Python o los principios básicos del deep learning. Es indispensable contar con sólidos fundamentos de arquitectura de software y desarrollo asíncrono.",
+    "temas": [
+      "Sistemas multi-agente",
+      "LangGraph",
+      "AutoGen",
+      "CrewAI",
+      "Patrones de orquestación",
+      "Tool Calling y Skills",
+      "OpenTelemetry",
+      "Observabilidad con Tempo y Loki",
+      "Evaluación de agentes",
+      "Guardrails y seguridad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema multi-agente orquestado con observabilidad y evaluación",
+        "descripcion": "Aplicación colaborativa multi-agente construida bajo especificaciones agnósticas (comparadas en LangGraph y AutoGen) que resuelve flujos complejos con herramientas externas, instrumentada con trazas completas en OpenTelemetry y suites de evaluación continua."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/building-applications-with/9781098176501/",
+      "https://github.com/michaelalbada/BuildingApplicationsWithAIAgents"
+    ]
+  },
+  "managing-memory-for-ai-agents-2025": {
+    "descripcion": "Informe técnico especializado de O'Reilly de 59 páginas, elaborado por Benjamin Labaschin junto a Jim Allen Wallace, Andrew Brookins y Manvinder Singh en 2025, dedicado a abordar y resolver el problema de la \"amnesia digital\" en los agentes de inteligencia artificial. Está dirigido a arquitectos de software, ingenieros de backend e investigadores de IA de nivel intermedio que ya construyen soluciones con modelos de lenguaje y buscan estructurar sistemas con estado (stateful) que recuerden, aprendan y mantengan la continuidad operativa a través de múltiples sesiones y a lo largo del tiempo.\n\nEl documento desglosa la taxonomía técnica y cognitiva de la memoria para agentes, trazando paralelismos con la cognición humana: memoria de trabajo y a corto plazo (gestión dinámica de ventanas de contexto y scratchpads) frente a memoria a largo plazo (episódica, semántica y procedimental). Examina la integración de bases de datos vectoriales (vector stores), embeddings, búsqueda híbrida (semántica y léxica), capas de caché semántico y algoritmos de asignación de relevancia (importance scoring). Además, evalúa el dilema de construir soluciones propietarias frente a adoptar plataformas emergentes (estrategias build vs. buy con herramientas como Mem0 o Letta), el impacto económico del consumo de tokens y latencia de recuperación, y las arquitecturas de memoria transactiva para la sincronización entre múltiples agentes.\n\nAl tratarse de un informe técnico ejecutivo y analítico, no desarrolla una aplicación de software monolítica de principio a fin, sino que proporciona marcos conceptuales rigurosos, matrices cuantitativas de decisión técnica y diagramas de patrones de lectura/escritura para diseñar capas de memoria robustas y escalables. Su gran mérito reside en tratar la memoria como una disciplina arquitectónica estratégica independiente, evitando la trampa de depender ciegamente de ventanas de contexto gigantes y costosas. Quedan fuera el código boilerplate extenso y los tutoriales guiados paso a paso de frameworks específicos. Es conveniente tener conocimientos de bases de datos, indexación vectorial y consumo de APIs de LLMs.",
+    "temas": [
+      "Memoria para agentes de IA",
+      "Memoria a largo plazo",
+      "Memoria episódica y semántica",
+      "Bases de datos vectoriales",
+      "Caché semántico",
+      "Importance Scoring",
+      "Arquitecturas con estado",
+      "Optimización de tokens",
+      "Memoria compartida multi-agente"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/managing-memory-for/9798341661240/",
+      "https://econoben.dev"
+    ]
+  },
+  "30-agents-every-ai-engineer-must-build-2026": {
+    "descripcion": "Manual práctico y catálogo arquitectónico orientado a ingenieros de software, científicos de datos y desarrolladores de inteligencia artificial de nivel intermedio a avanzado que ya cuentan con experiencia en Python y modelos de lenguaje (LLMs). En lugar de limitarse a técnicas básicas de ingeniería de prompts o asistentes conversacionales reactivos, Imran Ahmad ofrece una guía exhaustiva para diseñar agentes autónomos y dirigidos por objetivos, abordando retos críticos de ingeniería como latencia, costes operativos, confiabilidad, barreras de seguridad y gobernanza en producción.\n\nLa obra organiza sus implementaciones alrededor del bucle cognitivo central (percepción, razonamiento, políticas de seguridad, ejecución y aprendizaje continuo). A lo largo del texto se profundiza en frameworks como LangChain y LangGraph, el protocolo Model Context Protocol (MCP), estándares de comunicación Agent-to-Agent (A2A), bases de datos vectoriales para canalizaciones avanzadas de RAG con citas precisas, extracción y lectura multimodal de documentos (tablas, coordenadas e imágenes), gestión de memoria de múltiples niveles (operativa, episódica y semántica) y técnicas de explicabilidad algorítmica como LIME y SHAP.\n\nEl núcleo del libro consiste en la construcción progresiva de 30 arquitecturas agénticas especializadas, que abarcan desde agentes cognitivos de planificación y motores de síntesis documental hasta agentes de desarrollo de software, asistentes empáticos y agentes verticales regulados en finanzas, salud o descubrimiento científico. Destaca especialmente su entorno de pruebas con modo de simulación («Simulation Mode» con MockLLM), que permite ejecutar y validar la lógica sin incurrir en costes de API, o alternar a proveedores en vivo como OpenAI (GPT-4o), Anthropic (Claude 3.5 Sonnet), Google Gemini o modelos locales con Ollama. No es un texto para principiantes en programación, por lo que exige un manejo sólido de backend y diseño de sistemas.",
+    "temas": [
+      "Agentes autónomos",
+      "LangChain",
+      "LangGraph",
+      "Model Context Protocol (MCP)",
+      "RAG multimodal",
+      "Memoria episódica y semántica",
+      "Orquestación multiagente",
+      "Guardrails y seguridad",
+      "Agent-to-Agent (A2A)",
+      "Explicabilidad (LIME/SHAP)",
+      "Ollama"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Catálogo de 30 arquitecturas agénticas",
+        "descripcion": "Implementación en Python de 30 patrones de agentes autónomos que abarcan cognición, RAG multimodal con citas, ejecución segura de herramientas, coordinación de equipos de software y agentes para sectores regulados, compatibles con OpenAI, Claude, Gemini y Ollama."
+      },
+      {
+        "nombre": "Motor de síntesis documental y RAG multimodal",
+        "descripcion": "Agente capaz de procesar textos complejos, imágenes y esquemas estructurados para extraer datos verificables y generar respuestas fundamentadas con citas directas mediante bases de datos vectoriales."
+      },
+      {
+        "nombre": "Equipo colaborativo de ingeniería de software",
+        "descripcion": "Flujo multiagente orquestado con LangGraph donde distintos agentes especializados descomponen requerimientos, escriben código, ejecutan pruebas automatizadas y validan políticas de calidad antes de la integración."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/30-agents-every-ai-engineer-must-build-9781806109012",
+      "https://github.com/PacktPublishing/30-Agents-Every-AI-Engineer-Must-Build",
+      "https://www.oreilly.com/library/view/30-agents-every/9781806109012/"
+    ]
+  },
+  "agentic-ai-for-devops-engineers-2026": {
+    "descripcion": "Guía práctica y contemporánea orientada a ingenieros de DevOps, Site Reliability Engineers (SREs), ingenieros de plataforma y arquitectos cloud que buscan superar los scripts estáticos tradicionales e integrar agentes de inteligencia artificial autónomos en el ciclo de vida de operaciones y entrega continua. Se dirige a un perfil intermedio que ya comprende conceptos de CI/CD, automatización de infraestructura y desarrollo en entornos empresariales modernos.\n\nTrevoir Williams enseña a desarrollar flujos agénticos combinando tecnologías de automatización y el stack de inteligencia artificial de Microsoft y OpenAI. El temario profundiza en el uso de scripts basados en .NET 10 y C#, integrando librerías y paquetes como Microsoft.Agents.AI, Microsoft.Extensions.AI, Azure.AI.OpenAI, el protocolo Model Context Protocol (MCP) y flujos de GitHub Actions. Además, aborda la conexión segura con APIs de proveedores de nube, el diseño de memoria para contextos operacionales, la creación de barreras de gobernanza y el establecimiento de puertas con intervención humana («human-in-the-loop») para tareas sensibles de infraestructura.\n\nEl aprendizaje se articula a través de implementaciones de código reales aplicadas a problemáticas DevOps cotidianas: un agente evaluador de calidad en pull requests integrado a GitHub Actions, un agente de triaje y resolución de fallos en canalizaciones de CI/CD, y un flujo multiagente de respuesta a incidentes acoplado a telemetría y observabilidad. Su mayor virtud es aterrizar los conceptos de agentes al ecosistema corporativo de .NET y cloud computing con código directo y ejecutable. Conviene contar con bases sólidas de Git, administración de contenedores y desarrollo en C# para aprovechar el código al máximo.",
+    "temas": [
+      "DevOps",
+      "Agentes autónomos",
+      "CI/CD autónomo",
+      ".NET 10",
+      "Microsoft.Agents.AI",
+      "Azure OpenAI",
+      "Model Context Protocol (MCP)",
+      "GitHub Actions",
+      "Triaje de fallos",
+      "Respuesta a incidentes",
+      "Observabilidad"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Agente evaluador de calidad y seguridad en pull requests",
+        "descripcion": "Agente autónomo implementado en C# con Microsoft.Agents.AI y GitHub Actions (`PRCodeQualityAgent.cs`) que analiza diffs de código, detecta regresiones o vulnerabilidades y publica recomendaciones directamente en el PR."
+      },
+      {
+        "nombre": "Agente de triaje y diagnóstico de rupturas en pipelines CI/CD",
+        "descripcion": "Herramienta agéntica (`DevOpsFailureTriageAgent.cs`) que inspecciona trazas de error y registros de ejecución de compilaciones para diagnosticar fallas de dependencias o tests y sugerir soluciones."
+      },
+      {
+        "nombre": "Sistema multiagente de mitigación de incidentes con observabilidad",
+        "descripcion": "Flujo colaborativo (`MultiAgentIncidentResponseWorkflowWithObservability.cs`) que coordina alertas operativas en tiempo real, ejecuta runbooks automáticos y preserva registros de auditoría."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/agentic-ai-for-devops-engineers-9781808083570",
+      "https://github.com/PacktPublishing/Agentic-AI-for-DevOps-Engineers",
+      "https://www.oreilly.com/library/view/agentic-ai-for/9781808083570/"
+    ]
+  },
+  "agentic-ai-for-platform-engineering-2026": {
+    "descripcion": "Obra técnica dirigida a ingenieros de plataforma, arquitectos cloud, administradores de sistemas y líderes tecnológicos de nivel intermedio que buscan transformar portales internos de autoservicio estáticos en plataformas autónomas e inteligentes. Los lectores deben poseer conocimientos previos en contenedores Docker, gestión de clústeres Kubernetes, infraestructura como código y metodologías GitOps.\n\nEl libro detalla la arquitectura de las plataformas internas de desarrollo (IDPs) potenciadas por agentes, RAG y el protocolo Model Context Protocol (MCP). Los autores explican cómo articular ecosistemas que integran clústeres Kubernetes (locales mediante kind o gestionados en la nube con Amazon EKS), Helm, Argo CD, Backstage y modelos de lenguaje servidos a través de Amazon Bedrock o la API de Anthropic. Se profundiza en la creación de interfaces conversacionales para generar plantillas de Terraform y manifiestos de Kubernetes, el diseño de conectores MCP seguros para consultar infraestructura, y la implementación de marcos de observabilidad de agentes con herramientas como Langfuse.\n\nLa propuesta práctica guía en la construcción de una plataforma integral donde agentes autónomos asisten en el aprovisionamiento de infraestructura mediante lenguaje natural, auditan el estado del clúster con herramientas de solo lectura y formulan propuestas de cambio a través de pull requests en un ciclo GitOps gobernado. El gran diferencial del libro es su énfasis en la gobernanza y la seguridad: establece límites claros contra inyecciones de prompts en entornos de despliegue, gestión rigurosa de secretos y supervisión humana antes de aplicar cambios destructivos. Se requiere solvencia en el manejo de Kubernetes para implementar los laboratorios.",
+    "temas": [
+      "Platform Engineering",
+      "Internal Developer Platforms (IDP)",
+      "Kubernetes",
+      "Argo CD",
+      "GitOps",
+      "Backstage",
+      "Amazon Bedrock",
+      "Model Context Protocol (MCP)",
+      "Terraform",
+      "RAG organizacional",
+      "Observabilidad de agentes"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma interna de desarrollo agéntica sobre Kubernetes",
+        "descripcion": "Laboratorio que despliega un portal IDP sobre un clúster local (`kind`) o Amazon EKS, orquestado con Argo CD y Backstage, integrando agentes de IA para el autoservicio de desarrolladores."
+      },
+      {
+        "nombre": "Asistente agéntico de generación de infraestructura y GitOps",
+        "descripcion": "Agente conversacional que transforma requerimientos en lenguaje natural a código de Terraform y manifiestos K8s, canalizando los despliegues a través de pull requests auditables."
+      },
+      {
+        "nombre": "Agente de diagnóstico y autoreparación de clústeres",
+        "descripcion": "Herramienta conectada por servidores MCP que monitorea logs y eventos de Kubernetes en modo de solo lectura para identificar anomalías operativas y recomendar acciones correctivas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/agentic-ai-for-platform-engineering-9781806386659",
+      "https://github.com/PacktPublishing/Agentic-AI-for-Platform-Engineering",
+      "https://www.oreilly.com/library/view/agentic-ai-for/9781806386659/"
+    ]
+  },
+  "agentic-ai-with-microsoft-foundry-2026": {
+    "descripcion": "Guía integral concebida para desarrolladores de software, ingenieros de datos y arquitectos de soluciones que desean construir copilotos empresariales y agentes autónomos escalables utilizando la plataforma unificada Microsoft Foundry (anteriormente conocida como Azure AI Foundry). El texto está orientado a profesionales de nivel intermedio familiarizados con el entorno de Microsoft Azure, APIs de OpenAI y programación en Python o C#.\n\nEl libro cubre minuciosamente los componentes de Microsoft Foundry y el Microsoft Agent Framework: aprovisionamiento de hubs y proyectos, exploración y despliegue desde el Model Catalog, y personalización de modelos mediante fine-tuning. Desarrolla patrones de Retrieval-Augmented Generation (RAG) basados en Azure AI Search con búsqueda híbrida y semántica, el uso de plugins y herramientas mediante el estándar Model Context Protocol (MCP), y la orquestación de sistemas multiagente con transferencia fluida de contexto («handoffs»). Asimismo, incluye directivas de IA responsable (Responsible AI), filtros de moderación de contenido y evaluación automatizada de métricas como fidelidad y coherencia.\n\nEn la práctica, se implementan asistentes basados en conocimiento corporativo y redes de agentes colaborativos capaces de resolver tareas de múltiples pasos comunicándose con APIs y bases de datos empresariales. Su valor fundamental radica en presentar el estándar oficial y la metodología de ingeniería recomendada por Microsoft para la transición de simples prototipos de chat a sistemas agénticos gobernados y productivos en la nube. No cubre el entrenamiento matemático de modelos fundacionales, enfocándose de lleno en la arquitectura y el despliegue en Azure.",
+    "temas": [
+      "Microsoft Foundry",
+      "Azure AI Foundry",
+      "Microsoft Agent Framework",
+      "Azure OpenAI",
+      "Azure AI Search",
+      "RAG híbrido",
+      "Model Context Protocol (MCP)",
+      "Fine-tuning",
+      "Orquestación multiagente",
+      "Responsible AI",
+      "Evaluación de agentes"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Asistente agéntico corporativo con RAG sobre Azure AI Search",
+        "descripcion": "Sistema de consulta inteligente conectado a bases de datos empresariales mediante Azure AI Search que suministra respuestas fundamentadas con citas bibliográficas y filtros de seguridad."
+      },
+      {
+        "nombre": "Red multiagente colaborativa con Microsoft Agent Framework",
+        "descripcion": "Arquitectura de agentes coordinados en Microsoft Foundry que distribuyen subtareas de análisis y ejecutan herramientas externas mediante conectores seguros basados en MCP."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/agentic-ai-with-microsoft-foundry-9781806673957",
+      "https://github.com/PacktPublishing/Agentic-AI-with-Microsoft-Foundry",
+      "https://www.oreilly.com/library/view/agentic-ai-with/9781806673957/"
+    ]
+  },
+  "agentic-architectural-patterns-for-building-multi-agent-systems-2026": {
+    "descripcion": "Tratado avanzado de arquitectura de software para ingenieros de sistemas, directores técnicos y arquitectos de soluciones de IA que necesitan llevar prototipos de inteligencia artificial generativa hacia arquitecturas multiagente distribuidas, tolerantes a fallos y listas para producción. Requiere conocimientos sólidos previos en diseño de sistemas distribuidos, patrones de software corporativos y desarrollo en Python.\n\nInspirado en la rigurosidad estructural de los catálogos de patrones tradicionales (como el clásico del Gang of Four), el libro descompone la pila de sistemas agénticos en capas bien delimitadas. Enseña protocolos de interacción como Model Context Protocol (MCP) y Agent-to-Agent (A2A), y cataloga patrones de coordinación avanzados: orquestación jerárquica, director de directores («manager-of-managers»), comunicación entre pares (P2P), pizarras compartidas («blackboard») y redes de licitación contractual. Para su materialización técnica, explora frameworks como LangGraph, CrewAI y Agent Development Kit (ADK), sumados a estrategias de AgentOps y LLMOps orientadas a observabilidad, manejo de callbacks de ciclo de vida y resiliencia ante derivas de instrucciones.\n\nLa aplicación práctica se canaliza a través de un caso de estudio troncal: la automatización integral de flujos de concesión de préstamos bancarios («loan processing»), evolucionando desde una arquitectura de agente único con reflexión y planificación hasta un ecosistema multiagente distribuido y cooperativo implementado tanto en LangGraph como en CrewAI. Su gran mérito es la profundidad conceptual y la precisión taxonómica para estandarizar la arquitectura multiagente en grandes empresas, aunque por su naturaleza prescinde del aprendizaje básico de redes neuronales. Es un texto de referencia indispensable para diseñar sistemas autónomos a gran escala.",
+    "temas": [
+      "Arquitectura de software",
+      "Sistemas multiagente",
+      "Patrones de diseño agénticos",
+      "LangGraph",
+      "CrewAI",
+      "Model Context Protocol (MCP)",
+      "Agent-to-Agent (A2A)",
+      "Orquestación jerárquica",
+      "AgentOps y observabilidad",
+      "Tolerancia a fallos",
+      "Cumplimiento y explicabilidad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Agente único de análisis y validación de préstamos",
+        "descripcion": "Módulo de evaluación financiera que implementa patrones de planificación, reflexión y llamadas estructuradas a funciones para validar políticas crediticias y procesar antecedentes de solicitantes."
+      },
+      {
+        "nombre": "Ecosistema multiagente jerárquico de procesamiento crediticio con LangGraph y CrewAI",
+        "descripcion": "Arquitectura distribuida donde agentes especializados (extracción documental, análisis de solvencia, verificación regulatoria y aprobación final) interactúan bajo un orquestador supervisor."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/agentic-architectural-patterns-for-building-multi-agent-systems-9781806029570",
+      "https://github.com/PacktPublishing/Agentic-Architectural-Patterns-for-Building-Multi-Agent-Systems",
+      "https://www.oreilly.com/library/view/agentic-architectural-patterns/9781806029570/"
+    ]
+  },
+  "agentic-coding-with-claude-code-2025": {
+    "descripcion": "Guía técnica escrita por Eden Marco centrada en la adopción práctica de Claude Code, la interfaz de línea de comandos (CLI) de Anthropic orientada al desarrollo de software asistido por agentes de inteligencia artificial. La obra está pensada para desarrolladores de software y programadores web de nivel intermedio que ya cuentan con fluidez en terminales Unix, Git, JavaScript o TypeScript y editores modernos, y que buscan dar el salto desde el envío manual de prompts hacia flujos de trabajo autónomos donde el agente comprende la estructura completa de un repositorio.\n\nEl libro aborda en profundidad la ingeniería de contexto como disciplina clave para controlar modelos de lenguaje en tareas reales de ingeniería de software. Enseña a gestionar la memoria persistente mediante archivos CLAUDE.md, configurar directivas de sistema, utilizar comandos de barra diagonal (slash commands) y estructurar subagentes para aislar contextos en tareas complejas. Asimismo, profundiza en el estándar Model Context Protocol (MCP) para conectar servidores de herramientas externas, la automatización del ciclo de desarrollo vinculada a GitHub (revisión de pull requests y resolución de issues) y el trabajo concurrente mediante ramas de trabajo aisladas con Git worktrees.\n\nA lo largo de sus capítulos se practica la configuración de Claude Code en terminal y escritorio, el diseño de servidores MCP propios para extender las herramientas del asistente y la iteración guiada sobre una aplicación web full-stack en Next.js. Su mayor aporte radica en proporcionar un marco metódico de contención y diseño de contexto que previene alucinaciones y modificaciones descontroladas en el código base; deja de lado el entrenamiento y fine-tuning de modelos LLM, centrando todo su valor en la integración práctica del agente. Conviene contar con acceso a la API de Anthropic o una suscripción activa a Claude Pro o Team para replicar los flujos propuestos.",
+    "temas": [
+      "Claude Code",
+      "Ingeniería de contexto",
+      "Model Context Protocol (MCP)",
+      "Subagentes",
+      "Agentes de codificación",
+      "GitHub",
+      "Git Worktrees",
+      "Next.js",
+      "Automatización de desarrollo",
+      "Anthropic"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor MCP personalizado y extensión de herramientas",
+        "descripcion": "Creación y configuración de un servidor bajo el estándar Model Context Protocol (MCP) para conectar fuentes de datos y utilidades locales directamente al entorno de ejecución de Claude Code."
+      },
+      {
+        "nombre": "Pipeline de automatización de código con GitHub y Claude Code",
+        "descripcion": "Implementación de flujos de trabajo automatizados para revisión de código, creación de pull requests y resolución de incidencias en repositorios Git mediante agentes autónomos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/agentic-coding-with-claude-code-9781836647904",
+      "https://github.com/PacktPublishing/Agentic-Coding-with-Claude-Code",
+      "https://www.oreilly.com/library/view/agentic-coding-with/9781836647904/"
+    ]
+  },
+  "agentic-devops-with-claude-code-2026": {
+    "descripcion": "Manual técnico de Michael Rishi Forrester que profundiza en la convergencia entre la ingeniería de plataformas en la nube y los agentes de inteligencia artificial, situando a Claude Code como operador y asistente dentro de límites de seguridad estrictos. El libro está dirigido a ingenieros de DevOps, arquitectos cloud y especialistas en SRE (Site Reliability Engineering) de nivel intermedio o avanzado que poseen experiencia práctica con sistemas Linux, contenedores y la administración de clústeres en Kubernetes, y que desean incorporar autonomía agentica en su infraestructura sin comprometer la estabilidad ni el cumplimiento normativo.\n\nEl núcleo del libro enseña a concebir e implementar una plataforma interna para desarrolladores (Internal Developer Platform o IDP) nativa de IA y fuertemente gobernada. Cubre la base de GitOps utilizando Argo CD y ApplicationSets, el aprovisionamiento seguro de secretos mediante OpenBao y External Secrets Operator, la validación de políticas con Kyverno y la gestión de certificados con cert-manager. En el ámbito del tráfico de IA, detalla el enrutamiento y control de pasarelas con Gateway API, kgateway, agentgateway y kagent, la integración de herramientas vía Model Context Protocol (MCP), el despliegue de modelos compatibles con OpenAI en Kubernetes mediante KServe y vLLM, y la defensa perimetral con LLM Guard, todo respaldado por una observabilidad integral con Prometheus, Grafana, Loki, Tempo y OpenTelemetry.\n\nEl contenido guía la construcción paso a paso de una plataforma en Kubernetes donde los desarrolladores consumen rutas doradas ('golden paths') mediante plantillas de Backstage, y Claude Code interviene como agente controlado mediante especificaciones formales, pruebas automatizadas y puertas de aprobación humana. Su gran valor está en trasladar la IA agentica desde el experimento local hacia la infraestructura de producción con una gobernanza sólida; no cubre el diseño de pipelines CI/CD tradicionales en entornos ajenos a contenedores ni el desarrollo de aplicaciones web de usuario final. Requiere familiaridad con manifiestos YAML y un clúster Kubernetes funcional para ejecutar las prácticas.",
+    "temas": [
+      "DevOps con IA",
+      "Claude Code",
+      "Kubernetes",
+      "GitOps",
+      "Argo CD",
+      "Backstage",
+      "OpenTelemetry",
+      "Model Context Protocol (MCP)",
+      "KServe",
+      "vLLM",
+      "Gobernanza de IA",
+      "Kyverno"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma interna para desarrolladores (IDP) nativa de IA en Kubernetes",
+        "descripcion": "Construcción de una plataforma gobernada sobre Kubernetes con GitOps (Argo CD), gestión de secretos con OpenBao, políticas de seguridad con Kyverno y observabilidad unificada mediante Prometheus, Grafana y OpenTelemetry."
+      },
+      {
+        "nombre": "Pasarela y portal de autoservicio con Backstage y Claude Code",
+        "descripcion": "Implementación de rutas 'golden path' con plantillas de Backstage, pasarelas de agentes seguras con Gateway API y LLM Guard, y despliegue de modelos locales con KServe y vLLM."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/agentic-devops-with-claude-code-9781808344190",
+      "https://github.com/PacktPublishing/Agentic-DevOps-with-Claude-Code",
+      "https://www.oreilly.com/library/view/agentic-devops-with/9781808344190/"
+    ]
+  },
+  "ai-agents-harnesses-foundations-2026": {
+    "descripcion": "Texto formativo y de fundamentos desarrollado por Eden Marco que explora la arquitectura interna y la mecánica de los agentes de inteligencia artificial y sus arneses de ejecución prolongada (agent harnesses). Está diseñado para ingenieros de software, programadores de backend y desarrolladores de IA de nivel intermedio que conocen Python y llamadas a APIs de modelos de lenguaje (LLMs), pero buscan entender el funcionamiento de los agentes desde primeros principios para no depender a ciegas de librerías de alto nivel.\n\nEl temario inicia con una revisión rigurosa de las primitivas esenciales de LangChain (modelos, mensajes, plantillas de prompts, llamadas a herramientas y formatos estructurados) para deconstruir de inmediato el ciclo del agente (Agent Loop): invocación del modelo, ejecución de herramientas, ingesta de observaciones e iteración. El autor enseña a construir bucles ReAct (Reasoning and Acting) desde cero en Python puro, empleando expresiones regulares y prompts planos sin asistencia de function calling nativo. Luego avanza hacia la orquestación avanzada con estado mediante LangGraph, la ingeniería y compresión de ventanas de contexto, la integración con sistemas RAG, la adopción del estándar Model Context Protocol (MCP) y la observabilidad y depuración de trazas complejas con LangSmith.\n\nEn la vertiente práctica se construyen dos implementaciones principales: un motor ReAct manual sin dependencias y un arnés de agente para tareas de largo horizonte ('deep agents') con bifurcaciones condicionales, memoria persistente y puntos de control. El mayor aporte del libro es desmitificar la supuesta 'magia' de los agentes y brindar al programador herramientas para diagnosticar bucles infinitos y fallos de estado; no cubre el despliegue de modelos a escala ni el fine-tuning de pesos. Es recomendable contar con una sólida base en programación orientada a objetos en Python y conceptos básicos de concurrencia.",
+    "temas": [
+      "LangChain",
+      "LangGraph",
+      "LangSmith",
+      "Arneses de agentes",
+      "Bucle ReAct",
+      "Model Context Protocol (MCP)",
+      "Ingeniería de contexto",
+      "Agentes autónomos",
+      "Python",
+      "Llamada a herramientas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de agente ReAct en Python puro sin frameworks",
+        "descripcion": "Implementación desde cero de un bucle autónomo de razonamiento y acción (ReAct) utilizando prompts directos, expresiones regulares y llamadas a herramientas sin depender de librerías externas."
+      },
+      {
+        "nombre": "Arnés de agente de largo horizonte con LangGraph y LangSmith",
+        "descripcion": "Desarrollo de un arnés para agentes que gestiona flujos con estado, memoria persistente, integración de herramientas mediante MCP y trazabilidad de ejecuciones complejas con LangSmith."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/ai-agents-and-harnesses-foundations-9781808087318",
+      "https://github.com/PacktPublishing/AI-Agents-and-Harnesses-Foundations",
+      "https://www.oreilly.com/library/view/ai-agents-harnesses/9781808087318/"
+    ]
+  },
+  "ai-agents-in-practice-2025": {
+    "descripcion": "Guía práctica elaborada por Valentina Alto que orienta la transición desde aplicaciones básicas de chat y prompts aislados hacia sistemas autónomos de IA y arquitecturas multiagente orientadas a entornos de producción. Está dirigida a desarrolladores de software, científicos de datos y arquitectos de soluciones de nivel intermedio con conocimientos prácticos de Python y conceptos fundamentales de procesamiento de lenguaje natural y LLMs, que necesitan estructurar soluciones con agentes para resolver casos de negocio reales.\n\nEl libro detalla los pilares constitutivos de un agente autónomo: motores de orquestación, administración de memoria a corto y largo plazo, gestión de contexto e integración con APIs y herramientas externas. La autora utiliza el ecosistema de LangChain para construir agentes individuales y se adentra en el diseño de arquitecturas multiagente, comparando patrones de colaboración y herramientas como LangGraph y AutoGen. Asimismo, dedica atención primordial a la IA responsable, abordando mecanismos de supervisión humana (human-in-the-loop), auditoría, monitorización de comportamiento y diseño de barreras de seguridad y control de costes.\n\nLa práctica se concreta en el desarrollo de un agente funcional para comercio electrónico que gestiona consultas de catálogo y tareas operativas, así como en la estructuración de un sistema multiagente donde varias entidades coordinadas resuelven procesos complejos bajo supervisión humana. Su fortaleza radica en ofrecer una visión clara, didáctica y estructurada de los elementos que componen un agente empresarial; deja fuera la optimización de latencia en bajo nivel y el autoalojamiento de modelos masivos en clústeres propios. Es conveniente contar con claves de API para servicios de LLMs (como OpenAI) para ejecutar el código de los ejemplos.",
+    "temas": [
+      "Agentes autónomos",
+      "LangChain",
+      "LangGraph",
+      "AutoGen",
+      "Sistemas multiagente",
+      "Memoria y contexto",
+      "Human-in-the-loop",
+      "IA responsable",
+      "Llamada a herramientas",
+      "Python"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Agente autónomo para comercio electrónico con LangChain",
+        "descripcion": "Implementación de un agente que integra memoria de sesión, acceso a catálogos mediante llamadas a herramientas y gestión de flujos de atención y consulta de pedidos."
+      },
+      {
+        "nombre": "Sistema colaborativo multiagente con orquestación y Human-in-the-Loop",
+        "descripcion": "Arquitectura coordinada donde varios agentes especializados colaboran para resolver flujos de trabajo complejos con puntos de aprobación y control humano utilizando LangGraph y AutoGen."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/ai-agents-in-practice-9781836646877",
+      "https://github.com/PacktPublishing/AI-Agents-in-Practice",
+      "https://www.oreilly.com/library/view/ai-agents-in/9781836646877/"
+    ]
+  },
+  "ai-agents-on-aws-2026": {
+    "descripcion": "Manual técnico escrito por Bunny Kaushik y Mona M. que establece una hoja de ruta completa para diseñar, construir, desplegar y gobernar agentes de inteligencia artificial dentro del ecosistema en la nube de Amazon Web Services (AWS). El libro está pensado para arquitectos de soluciones, ingenieros de datos y desarrolladores de software de nivel intermedio que conocen Python y los fundamentos de la consola de AWS, y buscan trasladar soluciones agenticas al ámbito empresarial bajo estándares estrictos de seguridad, escalabilidad y cumplimiento.\n\nLa obra analiza a fondo el stack agentico de AWS, enfocándose en Amazon Bedrock, Bedrock AgentCore y Amazon SageMaker AI. Detalla el uso del SDK AWS Strands Agents y la integración de flujos con LangGraph, además de abordar estándares de interoperabilidad como Model Context Protocol (MCP) y Agent-to-Agent Protocol (A2A). En el ámbito de producción y gobernanza, el contenido cubre la paquetización en contenedores Docker, la evaluación asistida por jueces LLM mediante Bedrock AgentCore Evaluations, el trazado distribuido con OpenTelemetry, Jaeger, Langfuse y LangSmith, y la autorización determinista de llamadas a herramientas mediante políticas basadas en Cedar combinadas con filtros de contenido de Amazon Bedrock Guardrails.\n\nA través de sus capítulos se construye un agente empresarial capaz de interactuar con herramientas externas mediante llamadas a funciones y retención de memoria contextual, además de un sistema multiagente distribuido con control de accesos determinista y supervisión en tiempo real. Su valor diferencial reside en situar a los agentes en el entorno cloud más extendido del sector corporativo, resolviendo retos esenciales como la autorización granular con Cedar y la mitigación de inyecciones de prompts en infraestructura; deja fuera las particularidades de otros proveedores como Azure o Google Cloud. Se recomienda disponer de una cuenta activa en AWS con cuota para habilitar modelos fundacionales en Amazon Bedrock.",
+    "temas": [
+      "Amazon Web Services (AWS)",
+      "Amazon Bedrock",
+      "Amazon Bedrock Guardrails",
+      "Amazon SageMaker AI",
+      "Model Context Protocol (MCP)",
+      "LangGraph",
+      "OpenTelemetry",
+      "Políticas Cedar",
+      "Sistemas multiagente",
+      "Gobernanza de IA",
+      "Python"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Agente empresarial con herramientas y memoria en Amazon Bedrock",
+        "descripcion": "Construcción de un agente autónomo que utiliza el stack de Amazon Bedrock y el SDK Strands para ejecutar llamadas a funciones externas y persistir memoria conversacional y contextual."
+      },
+      {
+        "nombre": "Sistema multiagente gobernado con Bedrock Guardrails, Cedar y OpenTelemetry",
+        "descripcion": "Implementación de una arquitectura colaborativa de agentes comunicados vía MCP/A2A, con trazabilidad distribuida en Jaeger/Langfuse y control estricto de accesos mediante políticas Cedar y filtros de seguridad."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/ai-agents-on-aws-9781806387212",
+      "https://github.com/PacktPublishing/AI-Agents-on-AWS",
+      "https://aiagentsonaws.com",
+      "https://www.oreilly.com/library/view/ai-agents-on/9781806387212/"
+    ]
+  },
+  "building-agent-powered-applications-2026": {
+    "descripcion": "Manual integral de ingeniería de software e inteligencia artificial en el que Vasyl Zvarydchuk, ingeniero principal de IA en Microsoft, guía la transición desde prototipos experimentales de modelos de lenguaje grande (LLM) hacia sistemas de agentes robustos y listos para producción empresarial. Diseñado sobre las versiones modernas de Python 3 y los modelos fundacionales más recientes (familias GPT de OpenAI y Claude de Anthropic), el texto está dirigido a ingenieros de software, científicos de datos y arquitectos de soluciones con nivel intermedio que ya dominan la programación en Python y desean comprender en profundidad el ciclo de vida completo de las aplicaciones generativas avanzadas.\n\nLa obra aborda con rigor los fundamentos del procesamiento del lenguaje natural (NLP), embeddings y transformers, antes de adentrarse en técnicas avanzadas de prompt engineering como Chain-of-Thought y Tree-of-Thought. Profundiza en el diseño de arquitecturas de Retrieval-Augmented Generation (RAG) híbridas (combinando búsqueda léxica y semántica con bases de datos vectoriales), los criterios técnicos para elegir entre prompting, RAG o ajuste fino (fine-tuning con PEFT/LoRA), y la construcción de flujos agentic dotados de llamadas a funciones (function calling), memoria de corto y largo plazo, orquestación de herramientas y salvaguardas éticas con humanos en el bucle (human-in-the-loop).\n\nA través de cuadernos interactivos en Jupyter y Google Colab, se experimenta con el cálculo de métricas de similitud, la indexación vectorial, el ajuste supervisado y la implementación de un agente funcional con acceso a herramientas externas y evaluación sistemática mediante esquemas LLM-as-a-judge. Su mayor fortaleza radica en su visión arquitectónica holística y empresarial, evitando aislar los componentes y enseñando cómo coordinarlos bajo criterios de fiabilidad y observabilidad. Deja fuera la creación de interfaces gráficas de usuario y la infraestructura profunda de clústeres Kubernetes, por lo que conviene contar con experiencia previa en APIs REST y computación en la nube.",
+    "temas": [
+      "Python",
+      "LLMs",
+      "Agentes de IA",
+      "RAG híbrido",
+      "Bases de datos vectoriales",
+      "Fine-tuning",
+      "Prompt Engineering",
+      "Function Calling",
+      "LLM-as-a-judge",
+      "IA Responsable"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline de RAG híbrido y evaluación",
+        "descripcion": "Implementación de un flujo de recuperación que combina búsqueda léxica y semántica sobre bases vectoriales, integrando validación sistemática de respuestas mediante LLM-as-a-judge para minimizar alucinaciones."
+      },
+      {
+        "nombre": "Agente autónomo con herramientas y memoria",
+        "descripcion": "Sistema de agente inteligente implementado en Python que utiliza llamadas a funciones (function calling), persistencia de memoria contextual y controles con humanos en el bucle."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/building-agent-powered-applications-9781807605179",
+      "https://github.com/PacktPublishing/Building-Agent-Powered-Applications",
+      "https://www.oreilly.com/library/view/building-agent-powered-applications/9781807605179/"
+    ]
+  },
+  "building-agentic-ai-systems-2025": {
+    "descripcion": "Obra orientada al diseño conceptual y arquitectónico de agentes autónomos inteligentes escrita por Anjanava Biswas y Wrick Talukdar, especialistas en soluciones de inteligencia artificial. Centrada en el ecosistema actual de modelos generativos y lenguaje natural en Python, la guía está pensada para desarrolladores de software, ingenieros de machine learning y arquitectos técnicos de nivel intermedio que buscan trascender los típicos bots de preguntas y respuestas para crear sistemas agentic capaces de razonar de forma independiente, descomponer metas complejas y adaptarse a entornos dinámicos.\n\nEl contenido desglosa los componentes fundamentales de los agentes inteligentes: ciclos de percepción-acción, mecanismos de introspección y autorreflexión (reflection) para la detección y corrección de errores, y marcos de planificación multietapa. Profundiza notablemente en el patrón arquitectónico de Coordinador, Trabajador y Delegador (Coordinator, Worker, and Delegator) para la colaboración y comunicación agente a agente (A2A), junto con la integración de herramientas externas, políticas de confianza, mitigación de sesgos, seguridad operativa y cumplimiento ético en sectores críticos como finanzas, sanidad y automatización empresarial.\n\nA nivel práctico, el libro proporciona cuadernos en Python que implementan bucles de control agentic (harnesses), flujos de delegación distribuida y rutinas de evaluación de desempeño de agentes. Su aportación más valiosa es el enfoque disciplinado en patrones de diseño y gobernanza para entornos corporativos, marcando una clara distinción entre prototipos frágiles y sistemas autónomos fiables. No se detiene en implementaciones matemáticas de bajo nivel de redes neuronales ni en el entrenamiento desde cero de modelos fundacionales, por lo que es indispensable contar con experiencia previa en Python y consumo de APIs de LLMs.",
+    "temas": [
+      "Python",
+      "Agentes autónomos",
+      "Sistemas multiagente",
+      "Planificación multietapa",
+      "Patrón Coordinador-Trabajador",
+      "Introspección y Reflection",
+      "Comunicación A2A",
+      "Tool Calling",
+      "Ética y Seguridad en IA"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura multiagente Coordinador-Trabajador-Delegador",
+        "descripcion": "Sistema colaborativo donde un agente coordinador descompone objetivos complejos, delega subtareas a agentes trabajadores especializados y consolida resultados mediante comunicación agente a agente."
+      },
+      {
+        "nombre": "Agente autónomo con autorreflexión y herramientas",
+        "descripcion": "Agente inteligente con mecanismos de introspección para evaluar sus propias respuestas, invocar herramientas externas y autocorregirse iterativamente ante desviaciones o fallos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/building-agentic-ai-systems-9781803238753",
+      "https://www.amazon.com/Building-Agentic-Systems-intelligent-autonomous/dp/1803238755",
+      "https://github.com/PacktPublishing/Building-Agentic-AI-Systems",
+      "https://www.oreilly.com/library/view/building-agentic-ai/9781803238753/"
+    ]
+  },
+  "building-agents-with-openai-agents-sdk-2025": {
+    "descripcion": "Guía práctica y de ingeniería escrita por Henry Habib que se sumerge de lleno en el framework oficial de OpenAI para el desarrollo de flujos autónomos: el OpenAI Agents SDK en Python. Dirigido a desarrolladores de software, ingenieros de IA y profesionales de soluciones digitales de nivel intermedio, el libro asume que el lector ya posee destreza con Python y las bases del consumo de modelos como GPT, y busca dominar las primitivas nativas que ofrece OpenAI para construir arquitecturas agentic modulares, confiables y escalables.\n\nLa obra examina minuciosamente los pilares del SDK: runners, definición de agentes, llamadas a herramientas personalizadas e integración con servidores basados en el estándar Model Context Protocol (MCP). Profundiza en la persistencia de memoria contextual, la integración de bases de conocimiento mediante Retrieval-Augmented Generation (RAG), la coordinación en sistemas multiagente mediante transferencias de control nativas (handoffs), la gestión y optimización del tamaño de contexto, y la implementación de guardrails de seguridad junto con herramientas de rastreo (tracing) y observabilidad operacional.\n\nA lo largo del texto, el aprendizaje se estructura en torno al desarrollo de proyectos de complejidad incremental: desde agentes de atención al cliente con traspaso fluido de sesiones hasta asistentes para procesamiento de facturas, inventarios y análisis automatizado de datos. Su valor esencial reside en ser una referencia temprana y directa sobre el SDK nativo de OpenAI y el protocolo MCP, prescindiendo de librerías intermedias de terceros. Como contrapartida, está fuertemente acoplado al ecosistema y modelos de OpenAI, dejando fuera marcos agnósticos o modelos de código abierto locales.",
+    "temas": [
+      "OpenAI Agents SDK",
+      "Python",
+      "Model Context Protocol (MCP)",
+      "Sistemas multiagente",
+      "Handoffs",
+      "Tool Calling",
+      "Memoria contextual",
+      "RAG",
+      "Guardrails",
+      "Tracing y Observabilidad"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Agente de soporte al cliente con traspasos (handoffs)",
+        "descripcion": "Sistema de atención donde un agente frontal recibe la interacción inicial y realiza transferencias de contexto transparentes hacia agentes especializados según el requerimiento del cliente."
+      },
+      {
+        "nombre": "Asistente inteligente de facturación e inventario",
+        "descripcion": "Agente empresarial conectado a herramientas externas y servidores MCP para consultar bases de datos corporativas, verificar existencias y procesar comprobantes contables."
+      },
+      {
+        "nombre": "Analista de datos automatizado con RAG y memoria",
+        "descripcion": "Agente analítico dotado de memoria persistente y recuperación contextual que procesa conjuntos de información, genera informes ejecutivos y documenta su trazabilidad."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/building-agents-with-openai-agents-sdk-9781806112012",
+      "https://www.amazon.com/Building-Agents-OpenAI-SDK-practical/dp/1806112019",
+      "https://github.com/PacktPublishing/Building-Agents-with-OpenAI-Agents-SDK",
+      "https://www.oreilly.com/library/view/building-agents-with/9781806112012/"
+    ]
+  },
+  "building-ai-agents-for-network-operations-2026": {
+    "descripcion": "Manual técnico e innovador en la intersección entre la ingeniería de redes (NetOps) y la inteligencia artificial agentic, escrito por Sif Baksh. El libro se enfoca en el despliegue de modelos de lenguaje locales mediante Python y Ollama para garantizar que la telemetría y configuraciones críticas de red nunca salgan de la infraestructura interna de la organización. Está destinado a ingenieros de redes, operadores de centros de control (NOC), ingenieros SRE y especialistas en automatización de nivel intermedio que conocen la línea de comandos de infraestructura y desean modernizar sus flujos de diagnóstico mediante agentes inteligentes.\n\nLa obra profundiza en la ingeniería de prompts estructurados mediante el framework RACE, diseñada específicamente para generar salidas predecibles y seguras en tareas operativas de red. Enseña a parsear y transformar salidas desestructuradas y ruidosas de consolas CLI (estados de interfaces, tablas de enrutamiento BGP y contadores de tráfico) en formatos estructurados procesables por LLMs, para luego implementar llamadas a herramientas especializadas, memoria conversacional y encapsulación de utilidades de diagnóstico mediante el estándar Model Context Protocol (MCP).\n\nEl aprendizaje se canaliza a través del desarrollo práctico de un chatbot con memoria para consultas de red, un agente integral de resolución de problemas (troubleshooting) y un servidor de herramientas MCP para auditoría en modo de solo lectura. Su mayor virtud es abordar los desafíos reales del entorno de producción: seguridad de datos confidenciales, control de acceso basado en roles (RBAC), registro de auditoría y supervisión con humanos en el bucle (human-in-the-loop) para prevenir ejecuciones no autorizadas. No profundiza en arquitecturas matemáticas de deep learning, requiriendo conocimientos previos sólidos en redes TCP/IP y scripts básicos de Python.",
+    "temas": [
+      "Python",
+      "Ollama",
+      "LLMs locales",
+      "NetOps",
+      "Model Context Protocol (MCP)",
+      "Parsing de CLI",
+      "BGP y Enrutamiento",
+      "Troubleshooting de red",
+      "Framework RACE",
+      "Control de acceso (RBAC)"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Chatbot de operaciones de red con memoria",
+        "descripcion": "Asistente conversacional con memoria de contexto capaz de responder consultas operativas, interpretar terminología de red y asistir en la revisión de estados de equipos."
+      },
+      {
+        "nombre": "Agente de resolución de problemas de red (Troubleshooting Agent)",
+        "descripcion": "Sistema autónomo que parsea salidas de CLI, diagnostica fallas de conectividad y tablas BGP, e invoca utilidades de verificación de red de forma automatizada y segura."
+      },
+      {
+        "nombre": "Servidor de herramientas NetOps con MCP",
+        "descripcion": "Empaquetado de scripts de diagnóstico y verificación de infraestructura bajo el protocolo Model Context Protocol (MCP) para su consumo reutilizable y controlado en modo de solo lectura."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/building-ai-agents-for-network-operations-9781808346835",
+      "https://github.com/PacktPublishing/Building-AI-Agents-for-Network-Operations",
+      "https://www.oreilly.com/library/view/building-ai-agents/9781808346835/"
+    ]
+  },
+  "building-ai-agents-with-llms-rag-and-knowledge-graphs-2025": {
+    "descripcion": "Tratado exhaustivo y práctico de cerca de 600 páginas escrito por Salvatore Raieli y Gabriele Iuculano que explora cómo dotar a los modelos de lenguaje de razonamiento fáctico estructurado y capacidad de acción en el mundo real. Utilizando Python 3.10+, PyTorch y frameworks modernos de orquestación, el texto está concebido para ingenieros de software, científicos de datos y desarrolladores de IA de nivel intermedio que conocen los conceptos básicos de machine learning y buscan dominar la integración sinérgica entre LLMs, Retrieval-Augmented Generation (RAG) y grafos de conocimiento (Knowledge Graphs).\n\nEl recorrido temático abarca desde los fundamentos de procesamiento de texto con Deep Learning y la arquitectura Transformer hasta el uso de LLMs como motores centrales de razonamiento. Enseña a implementar estrategias de RAG avanzadas (particionado inteligente de texto, búsqueda vectorial con librerías como Chroma o FAISS y reordenamiento con re-rankers), la construcción y consulta de grafos de conocimiento para anclar relaciones lógicas complejas, y el diseño de agentes capaces de interactuar con APIs web y ejecutar scraping de datos. También examina la aplicación de aprendizaje por refuerzo en agentes, la colaboración multiagente y el despliegue con Streamlit y Docker.\n\nEn el apartado práctico, los autores desarrollan un agente de extracción web, un sistema híbrido de RAG conectado a grafos para minimizar alucinaciones y una aplicación multiagente completa contenerizada con Docker y servida con interfaz visual en Streamlit. Su gran valor añadido radica en cómo unifica el conocimiento no estructurado (vectores) con el conocimiento estructurado y relacional (grafos), aportando una base técnica integral difícil de encontrar en obras más concisas. Conviene disponer de un entorno con GPU para los capítulos de modelos y embeddings, además de familiaridad con estructuras de datos en grafo.",
+    "temas": [
+      "Python",
+      "PyTorch",
+      "Transformers",
+      "Knowledge Graphs",
+      "RAG avanzado",
+      "Bases vectoriales",
+      "Sistemas multiagente",
+      "Web Scraping",
+      "Reinforcement Learning",
+      "Streamlit",
+      "Docker"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Agente de extracción y scraping web",
+        "descripcion": "Agente autónomo capaz de navegar por sitios web, extraer contenido no estructurado y procesarlo mediante un LLM para responder preguntas y estructurar información."
+      },
+      {
+        "nombre": "Pipeline de RAG avanzado con grafos de conocimiento",
+        "descripcion": "Sistema de recuperación que combina búsqueda vectorial densa con un grafo de conocimiento estructurado para enriquecer el contexto y eliminar alucinaciones fácticas."
+      },
+      {
+        "nombre": "Aplicación agentic interactiva con Streamlit y Docker",
+        "descripcion": "Sistema multiagente conectado a APIs web externas, empaquetado en contenedores Docker y dotado de una interfaz interactiva desarrollada en Streamlit."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/building-ai-agents-with-llms-rag-and-knowledge-graphs-9781835087060",
+      "https://www.amazon.com/Building-Agents-LLMs-Knowledge-Graphs/dp/1835087060",
+      "https://github.com/PacktPublishing/Modern-AI-Agents",
+      "https://www.oreilly.com/library/view/building-ai-agents/9781835087060/"
+    ]
+  },
+  "building-complex-multi-agent-systems-using-pattern-prompting-2026": {
+    "descripcion": "Guía práctica y arquitectónica escrita por Tim O'Brien que aborda la construcción de sistemas multiagente y aplicaciones de inteligencia artificial generativa complejas sin depender de la volatilidad de frameworks efímeros. El libro está orientado a desarrolladores intermedios, ingenieros de IA y arquitectos de software que cuentan con experiencia en programación orientada a objetos (especialmente en Python) y fundamentos de sistemas distribuidos, y que desean diseñar soluciones robustas basadas en principios de ingeniería de software consolidados.\n\nEl núcleo del texto traduce conceptos clave de la IA generativa (embeddings, bucles de razonamiento de agentes y almacenamiento vectorial) a patrones de diseño clásicos como los del Gang of Four (GoF), adaptadores, componentes y microarquitecturas. Enseña a implementar canalizaciones de RAG conectando herramientas de ingestión de datos como Airbyte con bases de datos vectoriales como Pinecone, y demuestra cómo orquestar la comunicación inter-agente mediante brokers de mensajería empresarial como RabbitMQ. Asimismo, introduce la metodología de 'pattern prompting' y la plantilla 'Topologos' para modelar, simular e iterar topologías de agentes desacopladas que implementan patrones como ReAct sobre colas de mensajes.\n\nA lo largo de sus capítulos se construye una canalización RAG completa con Airbyte y Pinecone, además de un sistema multiagente distribuido con colas e intercambios en RabbitMQ. Su principal valor radica en elevar el desarrollo de agentes al estándar de la ingeniería de software tradicional y la tolerancia a fallos, alejándose de los scripts frágiles. Deja fuera el fine-tuning profundo de modelos y el desarrollo de interfaces de usuario, concentrándose por completo en la arquitectura y la estabilidad del backend agentic. Resulta muy recomendable tener nociones previas sobre colas de mensajes y patrones de diseño orientados a objetos.",
+    "temas": [
+      "Patrones de diseño GoF",
+      "Sistemas multiagente",
+      "RabbitMQ",
+      "Pinecone",
+      "Airbyte",
+      "RAG",
+      "Pattern prompting",
+      "Patrón ReAct",
+      "Arquitectura de software",
+      "Topologos prompt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Canalización RAG con Airbyte y Pinecone",
+        "descripcion": "Canalización de datos que ingesta y transforma información empresarial mediante Airbyte para indexarla en la base de datos vectorial Pinecone y alimentar flujos RAG precisos."
+      },
+      {
+        "nombre": "Sistema multiagente desacoplado con RabbitMQ",
+        "descripcion": "Arquitectura distribuida que implementa el patrón de razonamiento ReAct y la comunicación asíncrona entre agentes mediante colas e intercambios en RabbitMQ para asegurar tolerancia a fallos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/building-complex-multi-agent-systems-using-pattern-prompting-9781806114290",
+      "https://github.com/PacktPublishing/Building-Complex-Multi-Agent-Systems-Using-Pattern-Prompting",
+      "https://www.amazon.com/dp/1806114291"
+    ]
+  },
+  "building-production-ai-agents-for-the-web-2026": {
+    "descripcion": "Manual exhaustivo desarrollado por Christoffer Noring que aborda el diseño, la orquestación y el despliegue de agentes de IA autónomos integrados en aplicaciones web modernas. Está dirigido a desarrolladores web full-stack, ingenieros de software y programadores de JavaScript/TypeScript de nivel intermedio que dominan el entorno Node.js y la creación de APIs, y que buscan evolucionar desde chatbots básicos o simples envolturas de LLMs hacia agentes interactivos y autónomos preparados para operar en producción.\n\nLa obra detalla la integración práctica de SDKs de modelos de lenguaje con streaming de respuestas, ingeniería de contexto y ejecución de llamadas a herramientas (tool calling) conectadas a bases de datos y servicios externos. Cubre en profundidad la adopción del Model Context Protocol (MCP) para estandarizar el acceso a recursos locales y remotos, la implementación de RAG convencional y GraphRAG para consultas que dependen de relaciones complejas, y el patrón de razonamiento ReAct. Además, profundiza en la ingeniería de arneses (Harness Engineering): construcción de guardrails de seguridad, sistemas de evaluación (evals) de modelos no deterministas y mecanismos de resiliencia frente a errores en entornos web en tiempo real.\n\nEn la práctica se construyen asistentes web interactivos con streaming y tool calling, canalizaciones de recuperación sobre grafos de conocimiento con GraphRAG y un entorno de agentes coordinados con soporte para MCP y módulos de planificación. Su mayor virtud es su enfoque web nativo, que aterriza problemas concretos de latencia, coste y fiabilidad que a menudo se ignoran en prototipos de consola. Deja fuera el desarrollo móvil y el entrenamiento de modelos fundacionales, enfocándose en la capa de aplicación y orquestación web.",
+    "temas": [
+      "Model Context Protocol (MCP)",
+      "Sistemas multiagente",
+      "Harness Engineering",
+      "GraphRAG",
+      "RAG",
+      "Patrón ReAct",
+      "Tool calling",
+      "TypeScript",
+      "Orquestación de agentes",
+      "Guardrails"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Asistente web interactivo con Tool Calling y streaming",
+        "descripcion": "Aplicación conversacional para la web que transmite respuestas en tiempo real mediante streaming y ejecuta llamadas estructuradas a APIs y bases de datos a través de SDKs de LLM."
+      },
+      {
+        "nombre": "Motor de recuperación con GraphRAG",
+        "descripcion": "Sistema de consulta contextual que estructura información interconectada en grafos de conocimiento para responder preguntas complejas de múltiples saltos en la web."
+      },
+      {
+        "nombre": "Plataforma multiagente con MCP y arnés de producción",
+        "descripcion": "Entorno coordinado donde múltiples agentes autónomos colaboran utilizando el Model Context Protocol, complementado con módulos de planificación y guardrails de seguridad."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/building-production-ai-agents-for-the-web-9781806103331",
+      "https://www.amazon.com/dp/1806103338",
+      "https://books.google.com/books/about/Building_Production_AI_Agents_for_the_We.html?id=z187EQAAQBAJ"
+    ]
+  },
+  "building-the-agentic-enterprise-2026": {
+    "descripcion": "Guía de campo y análisis estratégico escrito por Jaroslav Pantsjoha enfocado en superar el 'problema del Día 2' en la inteligencia artificial generativa: la transición desde pruebas de concepto aisladas hacia sistemas multiagente gobernados, seguros y escalables en grandes empresas. El libro está diseñado para arquitectos empresariales, ingenieros de plataforma, directores de tecnología y desarrolladores sénior que conocen la infraestructura en la nube y desean desplegar sistemas agentic sobre Google Cloud (utilizando modelos Gemini, Vertex AI y Google Agent Development Kit).\n\nEl autor desglosa la transición del desarrollo informal a la ingeniería de contexto rigurosa, tratando el contexto, la memoria y el estado como activos estratégicos corporativos. Explica patrones de diseño para sistemas mono y multiagente, marcos de identidad federada, seguridad y guardrails corporativos, así como las disciplinas de AgentOps y EvalOps para supervisar modelos no deterministas. Asimismo, cubre la adaptación de la integración y despliegue continuos (CI/CD con despliegues canario y shadow releases) y analiza los nuevos modelos organizacionales: el AI Squad Model para trabajo híbrido humano-agente, el cambio de paradigma 'Service-as-Software' y la visión comercial B2A (Business-to-Agent).\n\nEl libro culmina con la presentación detallada de la arquitectura de referencia MREP (Macro Research and Education Platform), un sistema empresarial desplegado en Google Cloud que ensambla flujos de investigación, persistencia de decisiones y trazabilidad entre agentes. Su principal mérito es ofrecer una perspectiva holística que une ingeniería de plataforma, gobierno de datos y transformación de procesos de negocio, yendo más allá del mero código. Conviene poseer experiencia sólida en arquitecturas cloud y operaciones antes de abordarlo.",
+    "temas": [
+      "Google Cloud",
+      "Vertex AI",
+      "Gemini",
+      "Sistemas multiagente",
+      "AgentOps",
+      "EvalOps",
+      "Ingeniería de contexto",
+      "Platform Engineering",
+      "Gobernanza de IA",
+      "Guardrails",
+      "AI Squad Model"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "MREP (Macro Research and Education Platform)",
+        "descripcion": "Arquitectura de referencia integral implementada en Google Cloud que orquesta agentes de investigación macroeconómica con persistencia de decisiones y supervisión mediante Vertex AI y Google ADK."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/building-the-agentic-enterprise-9781807604455",
+      "https://www.oreilly.com/library/view/building-the-agentic/9781807604455/",
+      "https://www.amazon.com/dp/1807604454"
+    ]
+  },
+  "context-engineering-for-multi-agent-systems-2025": {
+    "descripcion": "Obra metodológica y práctica escrita por Denis Rothman que propone superar la fragilidad del prompt engineering mediante el diseño arquitectónico de un 'Context Engine' (Motor de Contexto). Está orientada a programadores de Python, ingenieros de aprendizaje automático y científicos de datos de nivel intermedio que conocen los fundamentos de los modelos de lenguaje y necesitan construir sistemas multiagente auditables, predecibles y de 'caja de cristal' (glass-box), evitando cajas negras incontrolables.\n\nEl libro desarrolla la creación de planos semánticos estructurados que definen los roles, objetivos y fronteras de cada agente dentro del sistema. Enseña a integrar el Model Context Protocol (MCP) para comunicar agentes con herramientas y fuentes externas, gestionar modelos de memoria a corto y largo plazo entre sesiones, y estructurar tuberías RAG de alta fidelidad con atribución verificable de fuentes. Asimismo, enseña a crear agentes sintetizadores para la compresión y reducción de contexto, defensas contra inyecciones de prompts y envenenamiento de datos, y políticas de moderación para controlar latencia y costes en entornos reales.\n\nA través de sus capítulos se desarrollan casos prácticos aplicados a distintas industrias: un asistente de investigación de alta fidelidad con defensas contra alucinaciones inspirado en la NASA, un motor de marketing estratégico adaptable a la voz de marca y un agente sintetizador de contexto para optimizar ventanas de tokens. Lo más valioso es su insistencia en la transparencia del razonamiento y el control estricto del contexto sobre prompts improvisados. No aborda el preentrenamiento de modelos desde cero, enfocándose en la arquitectura del contexto y la colaboración multiagente.",
+    "temas": [
+      "Model Context Protocol (MCP)",
+      "Ingeniería de contexto",
+      "Sistemas multiagente",
+      "RAG de alta fidelidad",
+      "Arquitectura Glass-Box",
+      "Agentes sintetizadores",
+      "Mitigación de alucinaciones",
+      "Seguridad en LLMs",
+      "Python"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Asistente de investigación inspirado en la NASA",
+        "descripcion": "Sistema RAG de alta fidelidad con atribución rigurosa de fuentes y salvaguardas avanzadas contra alucinaciones y envenenamiento de datos en Python."
+      },
+      {
+        "nombre": "Motor de marketing estratégico",
+        "descripcion": "Arquitectura multiagente que coordina la generación y evaluación de contenido de marca conforme a políticas corporativas y contextos dinámicos."
+      },
+      {
+        "nombre": "Agente sintetizador de contexto (Summarizer Agent)",
+        "descripcion": "Agente especializado que procesa historiales conversacionales y fuentes extensas para comprimir el contexto, reduciendo latencia y consumo de tokens."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/context-engineering-for-multi-agent-systems-9781806690053",
+      "https://github.com/PacktPublishing/Context-Engineering-for-Multi-Agent-Systems",
+      "https://www.amazon.com/dp/1806690055"
+    ]
+  },
+  "design-multi-agent-ai-systems-using-mcp-and-a2a-2026": {
+    "descripcion": "Manual exhaustivo y centrado en la ingeniería de software escrito por Gigi Sayfan (ingeniero de infraestructura de agentes en Perplexity) para aprender a diseñar y construir un framework propio de agentes de IA en Python desde cero, prescindiendo de librerías de caja negra como LangChain o CrewAI. Está concebido para desarrolladores de Python, ingenieros de software e ingenieros de IA de nivel intermedio que desean tener control absoluto sobre el ciclo de vida, la memoria y la orquestación de sus agentes.\n\nEl autor guía la construcción paso a paso del bucle central del agente (percepción, razonamiento y acción), la implementación de esquemas de invocación de herramientas seguras y la conexión con interfaces de usuario interactivas mediante Chainlit y bots de Slack. La arquitectura del framework se articula sobre dos estándares: el Model Context Protocol (MCP) como conector universal de contexto, memoria y herramientas externas, y el protocolo de mensajería Agent-to-Agent (A2A) para la coordinación, enrutamiento y delegación autónoma entre múltiples agentes distribuidos. También aborda el aislamiento en entornos seguros (sandboxing), telemetría, depuración y pruebas unitarias de sistemas multiagente.\n\nDurante la lectura se construye un framework modular en Python con ejecución de herramientas y memoria, interfaces de usuario en tiempo real en Slack y Chainlit con intervención humana (human-in-the-loop), y una red distribuida de agentes que colaboran a través de servidores MCP y mensajes A2A. Su gran fortaleza es desmitificar la creación de agentes con código limpio, asíncrono y desacoplado, sin atarse a dependencias externas complejas. Requiere un buen dominio de Python moderno (asyncio y tipado estático) y familiaridad con el consumo de APIs de modelos fundacionales.",
+    "temas": [
+      "Model Context Protocol (MCP)",
+      "Protocolo Agent-to-Agent (A2A)",
+      "Python",
+      "Chainlit",
+      "Slack API",
+      "Tool use",
+      "Frameworks propios",
+      "Sistemas multiagente",
+      "Asyncio",
+      "Pruebas y observabilidad"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework modular de agentes en Python",
+        "descripcion": "Framework desarrollado desde cero en Python con programación asíncrona que implementa el ciclo de razonamiento, memoria y ejecución segura de herramientas personalizadas."
+      },
+      {
+        "nombre": "Red colaborativa de agentes con MCP y A2A",
+        "descripcion": "Sistema multiagente donde los agentes se comunican entre sí mediante mensajes bajo el protocolo Agent-to-Agent y acceden a herramientas externas mediante servidores MCP."
+      },
+      {
+        "nombre": "Interfaz interactiva con Slack y Chainlit",
+        "descripcion": "Aplicación conversacional que conecta el framework propio de agentes a canales de Slack y a una interfaz web en Chainlit, facilitando flujos con intervención humana."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/design-multi-agent-ai-systems-using-mcp-and-a2a-9781806116478",
+      "https://github.com/PacktPublishing/Design-Multi-Agent-AI-Systems-Using-MCP-and-A2A",
+      "https://www.amazon.com/dp/1806116472"
+    ]
+  },
+  "enterprise-vibe-coding-for-agentic-engineering-2026": {
+    "descripcion": "Manual técnico de Valentina Alto enfocado en la transición desde el «vibe coding» informal (la generación rápida y desestructurada de código mediante prompts conversacionales) hacia la ingeniería agentica empresarial («Agentic Engineering»). La obra está orientada a líderes técnicos, ingenieros de software sénior, equipos de plataforma y arquitectos de DevOps que ya poseen experiencia en desarrollo corporativo y control de versiones, y buscan incorporar asistentes y agentes de software autónomos en sus flujos diarios de trabajo garantizando seguridad, verificabilidad y gobernanza de código.\n\nEl núcleo metodológico del libro es el modelo operativo Hypervelocity Engineering (HVE) y la formalización de seis primitivas agenticas nativas del repositorio: instrucciones, prompts, agentes, habilidades (skills), hooks y configuraciones del Model Context Protocol (MCP). La autora enseña a implementar la cadencia de entrega RPI (Research, Plan, Implement) a lo largo del ciclo de vida del desarrollo de software (SDLC), reemplazando la estocasticidad impredecible de los modelos con controles deterministas mediante políticas como código (policy-as-code), jerarquías de instrucciones, puertas de aprobación humana y especificaciones de bucles de entrega acotados, integrando herramientas como GitHub Copilot, Cursor, Git y servidores MCP.\n\nEl texto ofrece arquitecturas completas y prototipos reproducibles para tres casos de uso empresariales: procesamiento automatizado de reclamos de seguros, comercio conversacional y un generador de campañas de marketing. Su valor distintivo radica en desmitificar el desarrollo impulsado por IA para llevarlo a estándares de ingeniería reproducibles y auditables; prescinde de trucos superficiales de prompt engineering o teoría de entrenamiento de modelos para centrarse en la arquitectura del repositorio y CI/CD. Conviene contar con un conocimiento sólido de integración continua y prácticas modernas de Git antes de abordarlo.",
+    "temas": [
+      "Agentic Engineering",
+      "Hypervelocity Engineering",
+      "Model Context Protocol (MCP)",
+      "GitHub Copilot",
+      "Cursor",
+      "Policy as Code",
+      "DevOps para IA",
+      "Gobernanza de software",
+      "Ciclo RPI",
+      "Hooks y automatización"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Planos arquitectónicos HVE de extremo a extremo",
+        "descripcion": "Conjunto de prototipos ejecutables que abarcan procesamiento de reclamos en seguros, comercio conversacional y generación de campañas de marketing, implementados con primitivas repo-nativas, hooks de validación y flujos de trabajo sobre GitHub Copilot y MCP."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/PacktPublishing/Enterprise-Vibe-Coding-for-Agentic-AI",
+      "https://www.amazon.com/dp/1808087394"
+    ]
+  },
+  "from-systems-of-record-to-agentic-systems-of-action-2026": {
+    "descripcion": "Guía de arquitectura empresarial elaborada por especialistas de datos y sistemas corporativos (Jeff Needham, Humza Akhtar, Peyman Parsi, Albert Cortez, Taylor Hedgecock y Sebastian Rojas Arbulu) para superar el estancamiento de los proyectos piloto de IA. El libro aborda la evolución de los tradicionales sistemas de registro (Systems of Record, como ERPs, CRMs y bases de datos transaccionales) hacia sistemas de acción agenticos (Agentic Systems of Action), permitiendo que los agentes de IA ejecuten decisiones de negocio complejas sin vulnerar la integridad de los datos. Está dirigido a arquitectos empresariales, ingenieros de datos y desarrolladores de backend con experiencia previa en bases de datos y servicios en la nube.\n\nLa obra enseña a diseñar una capa de contexto inteligente (Intelligence Context Layer) alrededor de los objetos de negocio empresariales. Se apoya extensamente en el ecosistema de MongoDB (MongoDB Atlas, Vector Search, colecciones de series temporales, Atlas Stream Processing y Change Streams), integrándolo con patrones de RAG agentico y el estándar Model Context Protocol (MCP). Los autores explican cómo capturar «trazas de decisión» (decision traces) para auditar el razonamiento y las fuentes exactas de cada acción autónoma, sincronizar eventos en tiempo real, coordinar flujos multi-agente y gestionar la memoria de trabajo manteniendo los sistemas transaccionales como fuentes autorizadas de verdad.\n\nEl contenido incluye modelos de coexistencia arquitectónica y casos de estudio detallados en sectores fuertemente regulados como servicios financieros, seguros, salud y manufactura. Destaca por ofrecer una solución pragmática que no exige reescribir o reemplazar la infraestructura heredada de la empresa, sino integrarla con capas de ejecución inteligentes. No es un manual para crear chatbots sencillos de preguntas y respuestas; requiere comprender flujos guiados por eventos, APIs y diseño de esquemas de datos.",
+    "temas": [
+      "Sistemas de acción",
+      "Sistemas de registro",
+      "MongoDB Atlas",
+      "Atlas Vector Search",
+      "Atlas Stream Processing",
+      "Agentic RAG",
+      "Trazabilidad de decisiones",
+      "Model Context Protocol (MCP)",
+      "Memoria de agentes",
+      "Arquitectura empresarial"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Capa de contexto inteligente y coexistencia empresarial",
+        "descripcion": "Arquitectura de referencia sobre MongoDB Atlas que sincroniza flujos de eventos con agentes autónomos en tiempo real, capturando trazas de decisión auditables y ejecutando escrituras controladas sobre sistemas de registro en finanzas y salud."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.ebooks.com/en-us/book/212003882/from-systems-of-record-to-agentic-systems-of-action/jeff-needham/"
+    ]
+  },
+  "model-context-protocol-for-llms-2026": {
+    "descripcion": "Tratado técnico y guía de referencia de Naveen Krishnan dedicado en profundidad al estándar abierto Model Context Protocol (MCP), concebido para estandarizar la conexión entre modelos de lenguaje grande (LLMs) y fuentes externas de datos, herramientas y servicios. La obra se orienta a desarrolladores de software, ingenieros de IA y arquitectos de soluciones de nivel intermedio a avanzado que cuenten con experiencia en Python y conocimientos de arquitecturas RAG, y deseen sustituir integraciones propietarias y frágiles por un protocolo unificado y seguro.\n\nA lo largo de 20 capítulos organizados en cuatro partes, el autor cubre la arquitectura completa de MCP, desde la especificación cliente-servidor y transportes (stdio y Server-Sent Events / SSE) hasta la implementación modular de proveedores de recursos, herramientas y prompts reutilizables. Detalla la integración práctica de MCP con entornos de orquestación populares como LangChain y AutoGen, el despliegue de servidores seguros mediante TLS, autenticación y control de accesos, y el desarrollo de arquitecturas RAG agenticas. Además, aborda la gestión de conocimiento empresarial, aplicaciones multimodales, motores de personalización y métricas de rendimiento como latencia, balanceo de carga y políticas de caché.\n\nA través de sus capítulos, se construyen servidores y clientes funcionales en Python que conectan agentes inteligentes con bases de datos y APIs externas mediante interfaces estándar. Lo más valioso de la obra es su enfoque integral en un protocolo que resuelve el problema de fragmentación de conectores en la IA moderna; no se limita a ejemplos triviales, sino que enfatiza la robustez de producción y el rendimiento. Es recomendable dominar la programación asíncrona en Python (asyncio) y conceptos de redes antes de leerlo.",
+    "temas": [
+      "Model Context Protocol (MCP)",
+      "Servidores y clientes MCP",
+      "LangChain",
+      "AutoGen",
+      "Agentic RAG",
+      "Tool Calling",
+      "Seguridad y TLS",
+      "Métricas de latencia",
+      "Sistemas multi-agente",
+      "Python asíncrono"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Infraestructura modular de servidor y cliente MCP",
+        "descripcion": "Implementación en Python de un entorno cliente-servidor basado en Model Context Protocol para exponer de forma segura bases de datos y herramientas externas a agentes autónomos desarrollados en LangChain y AutoGen."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/model-context-protocol/9781806662272/",
+      "https://github.com/PacktPublishing"
+    ]
+  },
+  "multi-agent-ai-engineering-2026": {
+    "descripcion": "Tratado exhaustivo de más de 800 páginas coescrito por el Dr. Chi Wang (creador de AutoGen en Microsoft Research y cofundador de AG2) y el Dr. Xiao Ma (arquitecto de sistemas distribuidos y observabilidad empresarial). El libro se sitúa en la frontera de la ingeniería de software y la inteligencia artificial, concebido para ingenieros de aprendizaje automático, desarrolladores sénior y arquitectos de sistemas que necesitan trascender las demos de un solo agente para diseñar, construir y operar sistemas multi-agente colaborativos y resilientes en entornos de producción.\n\nLa obra aborda con rigor los principios fundacionales de la descomposición de tareas, protocolos de comunicación entre agentes, flujos de consenso, debate y orquestación jerárquica u horizontal. Enseña a implementar arquitecturas de memoria compartida y distribuida, gestión dinámica de contexto, llamadas seguras a herramientas y mecanismos de recuperación de fallos en Python. Un pilar fundamental del libro es la ingeniería de operaciones para IA: instrumentación con estándares de OpenTelemetry, trazabilidad distribuida del razonamiento de los agentes, benchmarking determinista, pruebas de seguridad (red-teaming) y estrategias de auto-mejora continua en producción.\n\nEl lector acompaña la construcción paso a paso de arquitecturas coordinadas completas capaces de resolver flujos de trabajo extensos y tolerar fallos sin degradar la confiabilidad. Su mayor valor reside en la profunda autoridad de sus autores, quienes unen la vanguardia de la investigación académica de AutoGen con las exigencias reales de infraestructura y observabilidad de nivel empresarial. Quedan fuera las explicaciones elementales de sintaxis de Python o conceptos básicos de machine learning, por lo que se asume una base sólida de ingeniería de software.",
+    "temas": [
+      "Sistemas multi-agente",
+      "AutoGen",
+      "AG2",
+      "Patrones de orquestación",
+      "OpenTelemetry",
+      "Memoria distribuida",
+      "Red-teaming",
+      "Evaluación de agentes",
+      "Tolerancia a fallos",
+      "Ingeniería de software de IA"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma multi-agente empresarial para producción",
+        "descripcion": "Arquitectura distribuida en Python con agentes coordinados mediante patrones jerárquicos y de consenso, equipada con memoria persistente, gestión de contexto e instrumentación con OpenTelemetry para trazabilidad y tolerancia a fallos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.amazon.com/dp/1806690870",
+      "https://deepengineering.net"
+    ]
+  },
+  "designing-multi-agent-systems-2025": {
+    "descripcion": "Obra integral y práctica de Victor Dibia (investigador sénior en Microsoft Research, creador de AutoGen Studio y contribuidor clave del ecosistema AutoGen), orientada a comprender y diseñar aplicaciones multi-agente desde primeros principios. El libro prescinde deliberadamente de la dependencia inicial de librerías complejas de caja negra para enseñar los fundamentos mecánicos que gobiernan a los agentes. Está pensado para programadores de software, investigadores e ingenieros de IA con nivel intermedio en Python y nociones de APIs de modelos generativos que buscan un entendimiento profundo y transferible de los sistemas agenticos.\n\nA lo largo de 15 capítulos distribuidos en cuatro partes, el autor guía al lector en la creación desde cero de «PicoAgents», una biblioteca modular y funcional en Python. En ella se implementan bucles de razonamiento asíncrono, clientes agnósticos de modelos (OpenAI, Anthropic, Azure OpenAI y modelos locales), llamadas a herramientas con validación estricta, aprobación humana (human-in-the-loop), memoria a corto y largo plazo, middleware para guardrails e intercepción de estados, flujos de trabajo deterministas y orquestación autónoma. Cubre también el diseño de interfaces de usuario web con streaming y rieles de depuración en vivo, así como la integración del protocolo Model Context Protocol (MCP) y métodos de evaluación de trayectorias.\n\nAdemás del desarrollo paso a paso del framework PicoAgents, el libro culmina con dos proyectos de caso de estudio reales: un sistema de extracción y análisis cualitativo y cuantitativo de datos no estructurados de mercado y startups (usando el directorio de Y Combinator), y un agente autónomo de ingeniería de software y uso de computadora (computer-use) capaz de interactuar con el entorno del sistema operativo. Su valor sobresaliente radica en su claridad pedagógica, sus decenas de diagramas arquitectónicos y la ausencia de magia oculta, permitiendo extrapolar los conceptos aprendidos a cualquier marco moderno como AutoGen, CrewAI o LangGraph.",
+    "temas": [
+      "PicoAgents",
+      "Sistemas multi-agente",
+      "AutoGen Studio",
+      "Bucles de razonamiento (Agent Loops)",
+      "Model Context Protocol (MCP)",
+      "Patrones de orquestación",
+      "Diseño de UX para agentes",
+      "Evaluación de trayectorias",
+      "Middleware y guardrails",
+      "Agentes de Computer-Use"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "PicoAgents Framework y Web UI",
+        "descripcion": "Biblioteca modular de agentes construida completamente desde cero en Python con bucles asíncronos, middleware, memoria semántica, soporte para MCP y una interfaz web con panel de depuración e historial de ejecuciones."
+      },
+      {
+        "nombre": "Agente de análisis de datos no estructurados de mercado",
+        "descripcion": "Flujo de trabajo multi-agente para procesar, estructurar y extraer información financiera y estratégica a partir de datos no tabulados y perfiles de empresas de Y Combinator."
+      },
+      {
+        "nombre": "Agente autónomo de ingeniería de software y computer-use",
+        "descripcion": "Sistema de agentes capaces de interactuar directamente con herramientas de desarrollo y la interfaz del sistema operativo para diagnosticar errores, ejecutar código y resolver tareas de programación de inicio a fin."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://multiagentbook.com",
+      "https://github.com/victordibia/designing-multiagent-systems",
+      "https://victordibia.com"
+    ]
+  },
+  "generative-ai-and-agentic-operations-2026": {
+    "descripcion": "Manual estratégico y de ingeniería de sistemas centrado en la transición desde pruebas de concepto aisladas con modelos de lenguaje grande (LLM) y simples chatbots hacia operaciones multiagente autónomas, escalables y seguras en entornos empresariales. Enfocado en el ecosistema de IA generativa de mediados de la década de 2020, está dirigido a directores de ingeniería, arquitectos de software, líderes de operaciones y desarrolladores sénior que ya dominan los conceptos básicos de prompting e inferencia con LLMs y buscan gobernar flujos de trabajo autónomos y no deterministas a gran escala.\n\nEl núcleo conceptual del libro es el marco metodológico AgenticOps Lifecycle, desglosado en cinco etapas críticas: definición, construcción, evaluación, puesta en producción y mantenimiento. Chilukuri profundiza en el desmantelamiento de la «caja negra» del razonamiento de los LLM mediante bucles de razonamiento iterativo, cadenas de pensamiento (Chain-of-Thought) y metaprompting; el diseño de arquitecturas con memoria persistente y llamadas a herramientas (tool calling); la gestión de fuerzas de trabajo mixtas con supervisión humana (Human-in-the-Loop y gestión de excepciones); nuevos cuadros de mando que reemplazan los tiempos clásicos de respuesta por métricas de calidad holística, costos de inferencia y tasas efectivas de automatización; y salvaguardas contra sesgos sistémicos y prevención de agentes descontrolados («runaway agents»).\n\nCon una extensión ágil y concisa de 160 páginas, el libro adopta un enfoque eminentemente conceptual, metodológico y de arquitectura operativa; no guía la programación paso a paso de aplicaciones completas ni incluye proyectos de software detallados en código, apoyándose en su lugar en patrones arquitectónicos y lecciones extraídas de operaciones masivas de datos (como Google Maps). Aporta una visión directiva fundamental para gobernar flotas de agentes antes de que generen riesgos operativos o sobrecostos, dejando fuera la implementación técnica con frameworks concretos (como LangGraph, AutoGen o CrewAI). Es una lectura de alineación ideal antes de iniciar un despliegue agentico en producción.",
+    "temas": [
+      "Agentes autónomos",
+      "AgenticOps",
+      "Modelos de lenguaje (LLM)",
+      "Sistemas multiagente",
+      "Human-in-the-Loop",
+      "Guardarraíles de seguridad",
+      "Razonamiento iterativo",
+      "Gobernanza de IA",
+      "Métricas operativas",
+      "Metaprompting"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Generative+AI+and+Agentic+Operations%3A+Reliable%2C+Scalable%2C+Safe+Systems-p-9781394451739",
+      "https://www.amazon.com/dp/1394451733"
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "net-development-using-the-compiler-api-2016": {
+    "descripcion": "Tratado técnico especializado sobre metaprogramación y compiladores en .NET escrito por Jason Bock y publicado por Apress en 2016. Enseña a utilizar la API del compilador Roslyn.\n\nAborda el análisis de árboles de sintaxis abstracta (AST), el modelo semántico de símbolos y tipos, la creación de analizadores estáticos de código personalizados con diagnósticos y la implementación de soluciones de refactorización automática (CodeFixProviders).\n\nJason Bock, reconocido consultor y conferenciante internacional, desvela cómo crear herramientas de productividad y aplicar estándares de código corporativos de forma automatizada en tiempo de compilación. Indispensable para ingenieros sénior de .NET.",
+    "temas": [
+      "Roslyn Compiler API",
+      "Analizadores de Código",
+      "AST",
+      "CodeFixProviders",
+      "Refactorización",
+      "Jason Bock",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Analizador Roslyn Personalizado con Corrección Automática de Código",
+        "descripcion": "Construcción de un paquete NuGet que detecta malas prácticas en tiempo real en Visual Studio y ofrece correcciones automatizadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2111-2"
+    ]
+  },
+  "pro-telerik-asp-net-and-silverlight-controls-2010": {
+    "descripcion": "Guía práctica de desarrollo de interfaces web enriquecidas escrita por José Rolando Guay Paz y publicada por Apress en 2010. Enseña a utilizar la suite comercial RadControls de Telerik.\n\nCubre controles complejos para ASP.NET AJAX y Silverlight: rejillas de datos avanzadas (RadGrid), planificadores tipo calendario (RadScheduler), menús dinámicos, editores enriquecidos (RadEditor) y optimización de tráfico Ajax.\n\nJosé Rolando Guay Paz aporta instrucciones paso a paso para acelerar el desarrollo corporativo sin sacrificar la estética ni el rendimiento de las páginas web. Una referencia clásica para usuarios de la suite Telerik.",
+    "temas": [
+      "Telerik",
+      "RadControls",
+      "RadGrid",
+      "ASP.NET AJAX",
+      "Silverlight",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Web de Gestión de Citas y Calendario con Telerik RadScheduler",
+        "descripcion": "Construcción de una aplicación web interactiva con agenda de citas y rejillas de datos conectadas a base de datos relacional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-3004-5"
+    ]
+  },
+  "microsoft-net-architecting-applications-for-the-enterprise-2nd-edition-2014": {
+    "descripcion": "Segunda edición del tratado canónico sobre arquitectura de software empresarial escrito por Dino Esposito y Andrea Saltarello, publicado por Microsoft Press en 2014. Estableció estándares de diseño en el ecosistema .NET.\n\nAnaliza Domain-Driven Design (DDD), patrones CQRS (Command Query Responsibility Segregation), Event Sourcing, capas de persistencia y servicios, y mitigación de deudas técnicas en aplicaciones de gran escala.\n\nEsposito y Saltarello ofrecen una visión sumamente pragmática sobre los compromisos entre complejidad y escalabilidad, advirtiendo contra la sobre-arquitectura. Lectura de cabecera obligatoria para arquitectos de software.",
+    "temas": [
+      "Arquitectura .NET",
+      "DDD",
+      "CQRS",
+      "Event Sourcing",
+      "Dino Esposito",
+      "Microsoft Press"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura Empresarial con Separación CQRS y Bus de Eventos",
+        "descripcion": "Diseño de un sistema de comercio electrónico desacoplando el modelo de lectura rápida del modelo transaccional de comandos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoft.com/"
+    ]
+  },
+  "net-technology-guide-for-business-applications-2013": {
+    "descripcion": "Guía oficial de arquitectura y toma de decisiones tecnológicas publicada por Microsoft en 2013, escrita por César de la Torre y David Carmona. Proporciona una brújula estratégica para directores técnicos y arquitectos.\n\nExamina los criterios para seleccionar entre tecnologías web (ASP.NET MVC vs. Web Forms), servicios distribuidos (Web API vs. WCF), persistencia (Entity Framework vs. NoSQL) y despliegues en la nube híbrida con Windows Azure.\n\nLos autores aportan matrices de decisión y árboles de patrones que orientan la inversión tecnológica corporativa según el ciclo de vida del producto. Una referencia estratégica de gran valor formativo.",
+    "temas": [
+      "Arquitectura Tecnológica",
+      "Microsoft .NET",
+      "César de la Torre",
+      "Azure",
+      "Toma de Decisiones",
+      "Microsoft Press"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoft.com/"
+    ]
+  },
+  "radcontrols-for-asp-net-ajax": {
+    "descripcion": "Manual técnico oficial de la suite RadControls para ASP.NET AJAX de Telerik. Enseña a integrar controles de interfaz de usuario de nivel comercial en aplicaciones web corporativas.\n\nCubre la configuración de ScriptManager, diseño de rejillas RadGrid con ordenación, paginación y filtrado automáticos, navegación con RadMenu y RadTreeView, y optimización de peticiones Ajax asíncronas con RadAjaxManager.\n\nEl texto ofrece una guía detallada con tablas de propiedades y fragmentos de código listos para su adaptación en sistemas empresariales que requieren componentes visuales ricos y probados.",
+    "temas": [
+      "RadControls",
+      "Telerik",
+      "RadGrid",
+      "ASP.NET AJAX",
+      "RadAjaxManager",
+      "UI Controls"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Panel Administrativo Corporativo con Componentes Telerik AJAX",
+        "descripcion": "Desarrollo de una interfaz web con actualización asíncrona de secciones sin parpadeos mediante RadAjaxManager."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.telerik.com/"
+    ]
+  },
+  "radcontrols-for-winforms": {
+    "descripcion": "Guía técnica oficial de referencia para el desarrollo de clientes de escritorio enriquecidos utilizando la suite RadControls for WinForms de Telerik.\n\nExplora la arquitectura de controles temáticos Telerik Presentation Framework (TPF), diseño de formularios modernos con RadGridView, menús interactivos, diagramas en RadChart y soporte completo de temas visuales modernos para Windows.\n\nProporciona directrices paso a paso para transformar aplicaciones de escritorio tradicionales en software con aspecto contemporáneo y alta velocidad de procesamiento de datos en pantalla.",
+    "temas": [
+      "RadControls",
+      "WinForms",
+      "Telerik",
+      "RadGridView",
+      "TPF",
+      "Desktop Themes"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Software de Punto de Venta con Interfaz Estilizada Telerik WinForms",
+        "descripcion": "Construcción de un cliente de escritorio con tablas interactivas de alta velocidad y selector dinámico de temas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.telerik.com/"
+    ]
+  },
+  "25-secrets-for-faster-asp-net-2013": {
+    "descripcion": "Compendio técnico y práctico sobre optimización de rendimiento en aplicaciones web corporativas escrito por Michaela Murray y publicado por Red Gate en 2013. Reúne 25 consejos de alto impacto.\n\nAborda la reducción del ViewState, compresión de respuestas HTTP, configuración eficiente del pool de aplicaciones en IIS, optimización del almacenamiento en caché de salida (OutputCache), y depuración con ANTS Performance Profiler.\n\nMichaela Murray ofrece consejos directos y de rápida aplicación que resuelven los cuellos de botella más habituales en servidores de producción. Muy útil para desarrolladores y administradores web.",
+    "temas": [
+      "ASP.NET Performance",
+      "ViewState",
+      "OutputCache",
+      "IIS Optimization",
+      "Red Gate",
+      "Profiling"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.red-gate.com/"
+    ]
+  },
+  "52-tips-tricks-to-boost-net-performance-2013": {
+    "descripcion": "Guía práctica de optimización técnica y dimensionamiento de memoria en la plataforma .NET escrita por Carly Meichen y publicada por Red Gate en 2013. Contiene 52 recomendaciones concretas.\n\nCubre la prevención de fugas de memoria con eventos desvinculados, reducción del impacto del Large Object Heap (LOH), uso eficiente de estructuras vs. clases, optimización de consultas en Entity Framework y perfilado con ANTS Memory Profiler.\n\nCarly Meichen ofrece una guía ágil y amena que ayuda a los desarrolladores a diagnosticar anomalías de consumo de CPU y memoria en sistemas de misión crítica. Excelente para la caja de herramientas de cualquier programador de .NET.",
+    "temas": [
+      ".NET Performance",
+      "Memory Leaks",
+      "Large Object Heap",
+      "Entity Framework",
+      "Red Gate",
+      "Profiling"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.red-gate.com/"
+    ]
+  },
+  "telerik-reporting": {
+    "descripcion": "Manual oficial de diseño y generación de reportes corporativos interactivos con la biblioteca Telerik Reporting. Enseña a integrar motores de informes en aplicaciones web y de escritorio.\n\nAborda el diseñador visual de reportes en Visual Studio, enlace a orígenes de datos relacionales y objetos de negocio, diseño de gráficos y tablas cruzadas (crosstabs), y exportación en múltiples formatos (PDF, Excel, Word).\n\nEl documento ofrece un recorrido práctico por las capacidades de presentación de datos empresariales, permitiendo a los ingenieros automatizar la emisión de facturas y cuadros de mando interactivos.",
+    "temas": [
+      "Telerik Reporting",
+      "Generación de Informes",
+      "Crosstabs",
+      "Exportación PDF",
+      "Business Intelligence"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Módulo de Facturación y Reportes Financieros en PDF con Telerik Reporting",
+        "descripcion": "Diseño de plantillas visuales con tablas dinámicas y generación programática de documentos contables exportables."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.telerik.com/"
+    ]
+  },
+  "professional-devexpress-asp-net-controls-2010": {
+    "descripcion": "Manual técnico sobre la suite comercial de componentes DevExpress para la web escrito por Paul Kimmel, Julian Bucknall y Joe Kunk, publicado por Wrox / Wiley en 2010.\n\nExplora los controles clave de la suite: rejillas avanzadas (ASPxGridView), editores enriquecidos, menús y barras de navegación, gráficos interactivos con ASPxChart y optimizaciones de llamadas Ajax sin recarga.\n\nLos autores aportan tutoriales detallados para integrar los componentes de DevExpress en aplicaciones empresariales de gran volumen, facilitando la creación de interfaces de alta calidad visual y rendimiento. Muy recomendado para desarrolladores .NET.",
+    "temas": [
+      "DevExpress",
+      "ASPxGridView",
+      "ASP.NET AJAX",
+      "UI Controls",
+      "Paul Kimmel",
+      "Wrox",
+      "Wiley"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Web Financiero con Tablas Dinámicas DevExpress ASPxGridView",
+        "descripcion": "Desarrollo de un panel de control con agrupaciones multidimensionales, edición en línea y exportación a hojas de cálculo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

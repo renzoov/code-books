@@ -1,0 +1,212 @@
+{
+  "real-time-communication-with-webrtc-2014": {
+    "descripcion": "Libro de O'Reilly (2014) en el que Salvatore Loreto y Simon Pietro Romano, investigadores con experiencia en la estandarización de comunicaciones en tiempo real, explican cómo añadir audio, vídeo e intercambio de datos peer-to-peer a aplicaciones de navegador sin plugins propietarios. Trabaja con las APIs de WebRTC 1.0 tal como estaban en Chrome y Firefox en esa época. Va dirigido a dos perfiles: programadores web que quieren entender la comunicación en tiempo real y arquitectos de telecomunicaciones que no conocen HTML5 ni el desarrollo cliente-servidor en JavaScript. El nivel es intermedio.\n\nTras una introducción a la arquitectura web y a la de WebRTC (el modelo del «trapecio», la señalización y las APIs MediaStream, PeerConnection y DataChannel), el libro sigue una receta de diez pasos. Primero enseña a capturar medios con getUserMedia() y a usar restricciones (constraints). Después usa RTCPeerConnection en local, con llamada, colgado y un DataChannel para enviar texto. Más adelante construye un canal de señalización mediado por un servidor y, por último, junta todo en un flujo de llamada completo: oferta y respuesta SDP, intercambio de candidatos ICE y paso a la conexión peer-to-peer. También enseña a depurar con la herramienta chrome://webrtc-internals.\n\nEl resultado práctico es un sistema WebRTC de navegador a navegador construido desde cero, con vídeo y chat por DataChannel. El último capítulo presenta funciones avanzadas: conferencias, identidad y autenticación, DTMF peer-to-peer y el modelo de estadísticas. Un apéndice sirve de referencia de las APIs RTCPeerConnection y RTCDataChannel. Su gran virtud es la claridad conceptual sobre el flujo de señalización. Como contrapartida, parte del código usa prefijos y APIs con callbacks ya obsoletos (hoy se usan promesas y addTrack), y apenas trata STUN/TURN en producción ni servidores de medios. Existe una segunda edición de 2017.",
+    "temas": [
+      "WebRTC",
+      "getUserMedia",
+      "MediaStream",
+      "RTCPeerConnection",
+      "RTCDataChannel",
+      "Señalización",
+      "SDP",
+      "ICE",
+      "Conferencias",
+      "Identidad y autenticación",
+      "Estadísticas WebRTC"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema WebRTC desde cero",
+        "descripcion": "Aplicación de navegador a navegador construida paso a paso. Captura audio y vídeo con getUserMedia, negocia la sesión con un canal de señalización mediado por un servidor (ofertas, respuestas y candidatos ICE) y establece una conexión RTCPeerConnection con un DataChannel para chatear."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/real-time-communication-with-webrtc-peer-to-peer-in-the-browser-salvatore-loreto-simon-pietro-romano,e_2guy.htm",
+      "https://oreilly.com/library/view/real-time-communication-with/9781449371869"
+    ]
+  },
+  "getting-started-with-webrtc-2013": {
+    "descripcion": "Guía práctica de Rob Manson, publicada por Packt en 2013, para incorporar comunicación en tiempo real peer-to-peer a aplicaciones web con WebRTC. Refleja el estado de la tecnología en sus primeros años, con soporte inicial en Chrome y Firefox. Está pensada para principiantes en WebRTC: basta con conocimientos básicos de HTML y JavaScript, y el autor explica qué es WebRTC, cómo funciona y para qué sirve antes de entrar en el código.\n\nLos dos primeros capítulos ofrecen una introducción general y otra técnica: casos de uso, soporte de navegadores, el flujo de una conexión (señalización, candidatos ICE y negociación de sesión) y las APIs MediaStream, RTCPeerConnection y RTCDataChannel. A partir de ahí el libro es muy práctico. Se monta un servidor de señalización basado en WebSockets, se gestiona el intercambio de oferta y respuesta y se muestran los flujos de vídeo. Luego se amplía la aplicación con una variante solo de audio, un chat de texto y la compartición de archivos mediante un input de archivo o arrastrar y soltar, con envío por WebSockets o RTCDataChannel, miniaturas de vista previa y avisos de progreso.\n\nLos dos últimos capítulos analizan arquitecturas de aplicaciones reales: una plataforma educativa y de e-learning y una herramienta de comunicación para equipos. Cubren servidores de señalización, TURN, archivo y mensajería, además de privacidad, derechos de autor, redes restringidas y seguridad de los datos. Es una buena primera toma de contacto y muy breve, pero el código usa APIs y prefijos de 2013 que han cambiado bastante. Conviene contrastarlo con la API actual basada en promesas y no esperar un tratamiento profundo de STUN/TURN ni de escalado.",
+    "temas": [
+      "WebRTC",
+      "MediaStream",
+      "RTCPeerConnection",
+      "RTCDataChannel",
+      "Señalización",
+      "WebSocket",
+      "Videollamadas",
+      "Llamadas de audio",
+      "Chat de texto",
+      "Compartir archivos",
+      "TURN"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Videollamada peer-to-peer",
+        "descripcion": "Aplicación de videollamada entre dos navegadores con RTCPeerConnection y un servidor de señalización basado en WebSockets que intercambia ofertas y respuestas. Incluye una extensión al estilo Chatroulette."
+      },
+      {
+        "nombre": "Llamada solo de audio",
+        "descripcion": "Variante de la aplicación anterior que adapta la interfaz y el flujo de señalización para llamadas únicamente de voz."
+      },
+      {
+        "nombre": "Chat de texto y compartición de archivos",
+        "descripcion": "Ampliación de la videollamada con un chat de texto y envío de archivos con arrastrar y soltar, miniaturas de vista previa y progreso de la transferencia, por WebSockets o RTCDataChannel."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/getting-started-with-webrtc-if-you-have-basic-html-and-javascript-you-re-well-on-the-way-to-adding-rob-manson,e_3cyn.htm",
+      "https://packtpub.com/en-za/product/getting-started-with-webrtc-9781782166306/chapter/preface-pref05/section/preface-pref05",
+      "https://tenlong.com.tw/products/9781782166306"
+    ]
+  },
+  "learning-webrtc-2015": {
+    "descripcion": "Libro de Dan Ristic, publicado por Packt en 2015, que enseña la API de WebRTC desde cero para desarrollar aplicaciones interactivas de comunicación en tiempo real en el navegador. Se dirige a desarrolladores web que están empezando su carrera y quieren entender a fondo WebRTC. Da por sabidos HTML5 y JavaScript; conocer algo de Node.js ayuda en la parte de servidor.\n\nEmpieza con una visión general de WebRTC y con la captura de audio y vídeo mediante la API Media Capture and Streams (getUserMedia, restricciones y manejo de dispositivos). Después crea una primera aplicación WebRTC básica con RTCPeerConnection en una sola página y la convierte en una aplicación real que necesita señalización. Para ello se construye un servidor de señalización con Node.js y WebSockets que permite localizar y llamar a otros usuarios. Los capítulos siguientes enseñan a enviar datos arbitrarios con RTCDataChannel, a compartir archivos entre pares y, por último, a tratar la seguridad y el rendimiento: cifrado, STUN/TURN y escalado a varios usuarios con redes en malla (mesh) y unidades de control multipunto (MCU).\n\nA lo largo del libro se construye una aplicación de videollamada que crece hasta incluir un chat de texto y la transferencia de archivos peer-to-peer. Destaca por su progresión clara y por explicar el porqué de cada pieza, sobre todo la señalización. Como libro de 2015, parte del código usa APIs con callbacks y prefijos ya sustituidos por promesas y addTrack, así que conviene contrastarlo con la especificación actual. Tampoco profundiza en servidores de medios (SFU) ni en despliegue en producción.",
+    "temas": [
+      "WebRTC",
+      "getUserMedia",
+      "Media Capture and Streams",
+      "RTCPeerConnection",
+      "Señalización",
+      "Node.js",
+      "WebSocket",
+      "RTCDataChannel",
+      "Compartir archivos",
+      "STUN/TURN",
+      "Seguridad",
+      "Mesh y MCU"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de videollamada con señalización",
+        "descripcion": "Cliente WebRTC que captura cámara y micrófono y conecta a dos usuarios mediante RTCPeerConnection, con un servidor de señalización en Node.js y WebSockets para buscar y llamar a otros usuarios."
+      },
+      {
+        "nombre": "Chat de texto y compartición de archivos",
+        "descripcion": "Ampliación de la aplicación que usa RTCDataChannel para enviar mensajes de texto y transferir archivos directamente entre navegadores, sin pasar por el servidor."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://ebookpoint.pl/ksiazki/learning-webrtc-develop-interactive-real-time-communication-applications-with-webrtc-daniel-m-ristic,e_3c5i.htm",
+      "https://subscription.packtpub.com/book/web-development/9781783983667/1",
+      "https://tenlong.com.tw/products/9781783983667"
+    ]
+  },
+  "webrtc-blueprints-2014": {
+    "descripcion": "Libro práctico de Andrii Sergiienko, desarrollador ucraniano con amplia experiencia en C, C++, Java, Erlang y JavaScript, que enseña a construir aplicaciones y servicios web en tiempo real con WebRTC a través de proyectos completos. Se publicó en 2014, cuando la API aún estaba en evolución y difería entre Chrome y Firefox. No es una introducción: está dirigido a desarrolladores de nivel intermedio que ya saben crear aplicaciones WebRTC sencillas y manejan JavaScript, HTML5 y algo de programación del lado del servidor.\n\nEl libro trata las dos caras de una aplicación WebRTC: el cliente en el navegador (getUserMedia, RTCPeerConnection, intercambio de SDP y candidatos ICE) y el servidor de señalización que pone en contacto a los pares. Sus capítulos recorren el desarrollo de una aplicación de videoconferencia, la API de datos de WebRTC (RTCDataChannel) para intercambiar archivos de igual a igual, el streaming de video pregrabado y la compartición de pantalla, la seguridad y la autenticación de usuarios, incluida la integración con un servidor TURN propio para atravesar NAT y cortafuegos, y por último el uso de WebRTC en plataformas móviles.\n\nCada capítulo gira en torno a una aplicación funcional, lo que permite ver cómo encajan las piezas en un escenario real y no solo en fragmentos aislados. Su principal aporte es la parte de infraestructura (señalización, TURN, autenticación), que muchos tutoriales pasan por alto. Hay que tener en cuenta su antigüedad: prefijos de navegador, la API basada en callbacks y la compartición de pantalla mediante extensiones de Chrome ya no se usan, así que conviene contrastar el código con la API estándar actual (promesas, getDisplayMedia). Es más útil para entender la arquitectura que como referencia de código para copiar.",
+    "temas": [
+      "WebRTC",
+      "RTCPeerConnection",
+      "Servidor de señalización",
+      "Videoconferencia",
+      "RTCDataChannel",
+      "Compartir archivos P2P",
+      "Compartir pantalla",
+      "Streaming de video",
+      "STUN/TURN",
+      "Autenticación",
+      "WebRTC móvil"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de videoconferencia WebRTC",
+        "descripcion": "Aplicación de comunicación por video entre navegadores, con su cliente JavaScript y un servidor de señalización propio que intercambia la información de sesión entre los pares."
+      },
+      {
+        "nombre": "Compartición de archivos P2P",
+        "descripcion": "Aplicación sencilla que envía archivos directamente entre navegadores usando la API de datos de WebRTC (RTCDataChannel), sin pasar los archivos por un servidor."
+      },
+      {
+        "nombre": "Servicio de streaming y screencasting",
+        "descripcion": "Servicio que transmite video pregrabado y comparte la pantalla del escritorio con otros participantes mediante flujos multimedia de WebRTC."
+      },
+      {
+        "nombre": "Aplicación con autenticación y servidor TURN",
+        "descripcion": "Variante segura de una aplicación WebRTC que añade autenticación de usuarios y se integra con un servidor TURN propio para garantizar la conectividad detrás de NAT y cortafuegos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://subscription.packtpub.com/book/web-development/9781783983100/1",
+      "https://subscription.packtpub.com/book/web-development/9781783983100/pref03",
+      "https://libcat.mcphs.edu/Record/in00000086050"
+    ]
+  },
+  "webrtc-cookbook-2015": {
+    "descripcion": "Recetario práctico de Andrii Sergiienko, su segundo libro sobre la materia después de WebRTC Blueprints, que reúne soluciones paso a paso a problemas habituales al desarrollar aplicaciones de comunicación en tiempo real con WebRTC. Publicado en 2015, está dirigido a desarrolladores JavaScript de nivel intermedio que ya conocen lo básico de WebRTC y del desarrollo de software y quieren profundizar en aspectos más avanzados y de infraestructura.\n\nLas recetas se organizan en ocho capítulos: conexiones entre pares (incluida la construcción de un servidor de señalización y la implementación de un chat sobre data channels), seguridad (configuración de servidores STUN/TURN propios y cifrado de la comunicación), integración con plataformas de telefonía como Asterisk y FreeSWITCH, depuración de aplicaciones WebRTC, filtros de video con HTML5 aplicados en tiempo real, aplicaciones nativas para móviles, librerías de terceros que simplifican el trabajo con WebRTC y funciones avanzadas. La mayor parte del código es JavaScript del lado del cliente, mientras que los componentes de servidor se apoyan en Erlang y Java.\n\nEl formato de recetas permite consultar cada problema de forma independiente: compartir pantalla, transferir datos, integrar WebRTC con VoIP o diagnosticar una conexión que falla. Su principal aporte es cubrir la parte menos documentada del ecosistema, como TURN, la telefonía SIP y la depuración. A cambio, no ofrece un hilo conductor ni enseña los fundamentos desde cero, y el código refleja la API de 2015 (prefijos de navegador, callbacks y extensiones para capturar la pantalla), por lo que conviene adaptarlo a la API estándar actual. Tener alguna noción de Erlang o Java ayuda a aprovechar las recetas de servidor.",
+    "temas": [
+      "WebRTC",
+      "Peer connections",
+      "Servidor de señalización",
+      "Data channels",
+      "STUN/TURN",
+      "Seguridad",
+      "Asterisk",
+      "FreeSWITCH",
+      "Depuración",
+      "Filtros de video",
+      "Aplicaciones móviles nativas",
+      "Erlang"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://ebookpoint.pl/ksiazki/webrtc-cookbook-get-to-grips-with-advanced-real-time-communication-applications-and-services-on-web-andrii-sergiienko,e_3cod.htm",
+      "https://subscription.packtpub.com/book/web-development/9781783284450/1/ch01lvl1sec02/introduction",
+      "https://subscription.packtpub.com/book/web-development/9781783284450/1/ch01lvl1sec07/implementing-a-chat-using-data-channels"
+    ]
+  },
+  "webrtc-integrator-s-guide-2014": {
+    "descripcion": "Guía de Altanai Bisht, ingeniera con experiencia en despliegues IMS, que aborda WebRTC desde el punto de vista de las telecomunicaciones: cómo construir una infraestructura WebRTC propia y escalable, y sobre todo cómo integrarla con las redes de telefonía existentes. Publicada por Packt en 2014, se dirige a programadores e ingenieros de telecomunicaciones de nivel intermedio que quieren aprovechar la comunicación en tiempo real en el navegador. Se da por supuesto que el lector sabe montar una infraestructura de telecomunicaciones básica y tiene nociones de programación y scripting.\n\nEl libro empieza con la pila multimedia de WebRTC y las APIs de medios del navegador, compara el funcionamiento de WebRTC con y sin SIP, y muestra cómo crear un cliente de comunicación independiente con señalización propia. A partir de ahí se centra en la integración: WebRTC con SIP e IMS, con Redes Inteligentes (IN) y SS7, y con la red telefónica conmutada (PSTN). También trata las funciones básicas de llamada sobre SIP (control de llamadas, servicios enriquecidos), la integración con frameworks de la industria, los estándares de comunicación enriquecida RCS, la interacción entre aplicaciones SIP nativas y clientes WebRTC, y otros casos de uso.\n\nEs uno de los pocos libros que conectan el mundo web con el de los operadores de telefonía, y en eso está su valor: muestra cómo un cliente WebRTC en el navegador puede hablar con softphones SIP, núcleos IMS o líneas PSTN mediante pasarelas. A cambio, quien venga del desarrollo web encontrará mucha terminología de telecomunicaciones que el libro no explica desde cero, y quien busque una guía de JavaScript moderno se quedará corto. Al ser de 2014, algunas APIs y productos mencionados han cambiado, por lo que conviene leerlo como una referencia de arquitectura e integración más que como un manual de código actual.",
+    "temas": [
+      "WebRTC",
+      "SIP",
+      "IMS",
+      "PSTN",
+      "SS7",
+      "Redes Inteligentes",
+      "RCS",
+      "Señalización",
+      "Cliente WebRTC",
+      "Control de llamadas",
+      "Telecomunicaciones"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Cliente de comunicación WebRTC independiente",
+        "descripcion": "Cliente de audio y video en el navegador con un mecanismo de señalización propio, sin depender de SIP, que sirve de base para las integraciones posteriores."
+      },
+      {
+        "nombre": "Aplicación web con frameworks de la industria",
+        "descripcion": "Aplicación de comunicaciones que combina WebRTC con SIP y frameworks de telecomunicaciones estándar para ofrecer servicios de llamada y comunicación enriquecida."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://packtpub.com/en-us/product/webrtc-integrators-guide-9781783981267",
+      "https://ebookpoint.pl/ksiazki/webrtc-integrator-s-guide-successfully-build-your-very-own-scalable-webrtc-infrastructure-quickly-a-altanai-bisht,e_3cud.htm",
+      "https://www.oreilly.com/library/view/-/9781783981267/"
+    ]
+  }
+}

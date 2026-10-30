@@ -1,0 +1,821 @@
+{
+  "node-js-for-embedded-systems-2016": {
+    "descripcion": "Manual práctico escrito por Patrick Mulder y Kelsey Breseman que enseña a aplicar JavaScript y el ecosistema asíncrono de Node.js a la computación física y el Internet de las Cosas (IoT). El libro está enfocado a desarrolladores web con conocimientos de JavaScript que desean programar componentes electrónicos, así como a ingenieros de hardware que buscan aprovechar la rapidez de prototipado y las librerías de npm para comunicar dispositivos conectados.\n\nLa obra explora diversas plataformas de hardware: microcontroladores tradicionales como Arduino Uno/Mega a través del protocolo Firmata, placas con ejecución nativa de JavaScript como Espruino y Tessel 2, módulos Wi-Fi como Particle Photon y ordenadores de placa única como Raspberry Pi e Intel Edison. Detalla el uso de la librería Johnny-Five para controlar pines digitales y PWM, la conexión de sensores ambientales y potenciómetros, y el manejo de protocolos de comunicación en red (TCP, HTTP, WebSockets y telemetría ligera mediante MQTT). Asimismo, enseña a implementar conectividad inalámbrica por Bluetooth Low Energy (BLE) utilizando los módulos Noble y Bleno, y a visualizar telemetría en tiempo real mediante interfaces web con D3.js y p5.js.\n\nA lo largo del texto se implementan prototipos funcionales que abarcan desde el control de actuadores y monitores ambientales hasta brazos robóticos con servomotores y detectores de proximidad. Su punto fuerte radica en demostrar la versatilidad de la arquitectura dirigida por eventos de Node.js en tareas de hardware con baja latencia y comunicación bidireccional cliente-servidor. Conviene tener conocimientos básicos de circuitos electrónicos elementales y de la terminal, teniendo en cuenta que algunas plataformas analizadas (como Intel Edison o Tessel) hoy son históricas, aunque sus patrones arquitectónicos con Node.js y MQTT siguen plenamente vigentes.",
+    "temas": [
+      "Node.js",
+      "JavaScript",
+      "IoT",
+      "Arduino",
+      "Raspberry Pi",
+      "Tessel 2",
+      "Johnny-Five",
+      "MQTT",
+      "WebSockets",
+      "Bluetooth Low Energy",
+      "Robótica"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Control de entradas y salidas con Arduino y Johnny-Five",
+        "descripcion": "Integración donde Node.js controla el encendido de actuadores y la lectura de sensores analógicos en Arduino comunicándose a través del protocolo Firmata."
+      },
+      {
+        "nombre": "Estación de monitoreo con Tessel 2 y Particle Photon",
+        "descripcion": "Dispositivo embebido que lee métricas ambientales de sensores y transmite los datos por Wi-Fi hacia eventos y plataformas en la nube mediante JavaScript."
+      },
+      {
+        "nombre": "Cuadro de mandos web para sensores con WebSockets y D3.js",
+        "descripcion": "Panel de control en el navegador servido por Raspberry Pi que muestra telemetría de sensores en tiempo real vía WebSockets y visualizaciones dinámicas con D3.js y p5.js."
+      },
+      {
+        "nombre": "Garra robótica y vehículo móvil con servomotores",
+        "descripcion": "Sistema electromecánico gobernado por Node.js y controladores de motor para articular una pinza robótica y dirigir el desplazamiento de un chasis rodante."
+      },
+      {
+        "nombre": "Detector de proximidad con Bluetooth Low Energy",
+        "descripcion": "Aplicación basada en las librerías Noble y Bleno que opera como baliza BLE para detectar la presencia de dispositivos cercanos y disparar automatizaciones."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/node-js-for-embedded/9781491928981/",
+      "https://www.amazon.com/Node-js-Embedded-Systems-Patrick-Mulder/dp/1491928999"
+    ]
+  },
+  "programming-32-bit-microcontrollers-in-c-2008": {
+    "descripcion": "Obra técnica de referencia escrita por Lucio Di Jasio —especialista de aplicaciones en Microchip— para adentrarse en la arquitectura de microcontroladores de 32 bits mediante la familia PIC32MX (con núcleo MIPS M4K de 32 bits a 80 MHz). El libro está estructurado como un recorrido de aprendizaje progresivo organizado en 16 jornadas de trabajo (\"Days\") y orientado a ingenieros electrónicos, desarrolladores de sistemas embebidos y estudiantes que ya cuentan con nociones básicas de microcontroladores de 8 o 16 bits (como PIC16, PIC18 o PIC24) y buscan dar el salto al diseño y programación profesional en lenguaje C para arquitecturas de 32 bits de alto rendimiento.\n\nA lo largo de sus capítulos se explora a fondo el entorno clásico MPLAB IDE junto con el compilador Microchip MPLAB C32 (basado en GCC) y herramientas de depuración y simulación como MPLAB SIM e ICD. Di Jasio profundiza en la gestión del mapa de memoria física y virtual, scripts del enlazador (linker scripts), cachés de instrucciones y datos, osciladores con PLL, temporizadores y el Core Timer interno del núcleo MIPS. En el plano periférico y de comunicación, aborda el controlador de interrupciones vectorizadas con prioridades, módulos de entrada/salida digital (GPIO), puertos serie UART/RS-232, buses SPI e I2C, el controlador de acceso directo a memoria (DMA), el convertidor analógico a digital (ADC) de 10 bits y la pila de sistema de archivos Microchip MDD (Memory Disk Drive) File System con soporte FAT.\n\nLa obra destaca por guiar la construcción práctica de subsistemas embebidos de creciente complejidad, entre los que sobresalen la generación directa de video compuesto monocromático en estándar NTSC/PAL mediante SPI y DMA, el acceso y lectura/escritura de tarjetas de memoria SD/MMC formateadas en FAT, y la implementación de un reproductor de audio digital de archivos WAV aprovechando transferencias DMA y temporizadores. Su principal valor radica en la claridad didáctica con la que expone la arquitectura interna de un chip de 32 bits sin esconder la complejidad de los registros y el silicio. No obstante, al haberse publicado en 2008, emplea versiones heredadas de las herramientas de Microchip (MPLAB v8 en lugar de MPLAB X y librerías periféricas clásicas previas a MPLAB Harmony), por lo que el lector actual necesitará adaptar la configuración si utiliza compiladores XC32 modernos.",
+    "temas": [
+      "PIC32",
+      "Microchip",
+      "Lenguaje C",
+      "MIPS",
+      "MPLAB C32",
+      "DMA",
+      "Sistemas embebidos",
+      "Tarjetas SD",
+      "Video compuesto",
+      "Audio WAV",
+      "Interrupciones",
+      "ADC"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Generador de video compuesto monocromático",
+        "descripcion": "Genera señales de video en escala de grises en estándares NTSC y PAL directamente con el microcontrolador PIC32, sincronizando temporizadores, el periférico SPI y transferencias DMA sin sobrecargar la CPU."
+      },
+      {
+        "nombre": "Lector y gestor de archivos en tarjetas SD",
+        "descripcion": "Conecta tarjetas de memoria multimedia SD/MMC mediante el bus SPI y la biblioteca Microchip MDD File System para gestionar la lectura y escritura de ficheros en particiones FAT."
+      },
+      {
+        "nombre": "Reproductor de audio digital WAV",
+        "descripcion": "Decodifica y reproduce pistas de audio sin comprimir en formato WAV leídas desde una tarjeta SD, enviando muestras continuas mediante canales DMA y modulación PWM hacia una salida analógica."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.sciencedirect.com/book/9780750687096/programming-32-bit-microcontrollers-in-c",
+      "https://www.oreilly.com/library/view/programming-32-bit-microcontrollers/9780750687096/",
+      "https://www.amazon.com/Programming-32-bit-Microcontrollers-C-Exploring/dp/0750687096"
+    ]
+  },
+  "beginning-c-for-arduino-2nd-edition-2015": {
+    "descripcion": "Manual introductorio de Jack Purdum enfocado en enseñar la programación rigurosa en lenguaje C utilizando el hardware de Arduino (principalmente placas Arduino Uno y compatibles basadas en microcontroladores AVR como el ATmega328P). Esta segunda edición está orientada a principiantes absolutos en informática o electrónica, estudiantes y aficionados que desean entender cómo funciona realmente el código que controla un microcontrolador, alejándose del mero corta y pega de ejemplos para adquirir una base sólida de programación desde cero sin requerir conocimientos técnicos previos.\n\nEl texto guía al lector a través del entorno Arduino IDE y detalla minuciosamente los tipos de datos fundamentales y su representación en memoria en arquitecturas de 8 bits (char, int, float), operadores aritméticos y lógicos, estructuras de control condicional (`if`, `switch`) y bucles (`for`, `while`, `do-while`). Dedica capítulos enteros a conceptos que suelen resultar difíciles para los principiantes, como el ámbito de variables y clases de almacenamiento (`static`, `volatile`), el uso eficaz de punteros y aritmética de direcciones, cadenas de caracteres estilo C, estructuras (`struct`) y uniones (`union`). Asimismo, profundiza en directivas del preprocesador de C (`#define`, `#ifdef`), operaciones a nivel de bit (máscaras y desplazamientos), la creación de librerías propias (.h y .cpp), interrupciones externas, comunicación mediante el bus SPI y una introducción conceptual a clases y objetos en C++.\n\nLa metodología del libro es marcadamente formativa y gradual: cada lección incluye explicaciones exhaustivas sobre el porqué de cada instrucción y concluye con una sección fija de ejercicios de autoevaluación y preguntas de repaso para afianzar los conceptos antes de avanzar. No busca construir proyectos finales complejos ni sistemas de gran envergadura, sino que utiliza pequeños montajes en protoboard (con LEDs, conmutadores, sensores y módulos SPI) como banco de pruebas para ilustrar los principios del lenguaje C. Es una lectura idónea para quienes consideran que la documentación típica de Arduino es demasiado superficial y buscan la disciplina mental necesaria para escribir código eficiente en memoria reducida.",
+    "temas": [
+      "Arduino",
+      "Lenguaje C",
+      "ATmega328P",
+      "Punteros",
+      "Estructuras de datos",
+      "Manipulación de bits",
+      "Librerías Arduino",
+      "Preprocesador C",
+      "SPI",
+      "Interrupciones",
+      "Arduino IDE"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-0940-0",
+      "https://www.oreilly.com/library/view/beginning-c-for/9781484209400/",
+      "https://github.com/Apress/beg-c-for-arduino-2ed",
+      "https://www.amazon.com/Beginning-Arduino-Second-Jack-Purdum/dp/1484209419"
+    ]
+  },
+  "c-programming-for-the-pic-microcontroller-2019": {
+    "descripcion": "Guía práctica escrita por Hubert Henry Ward orientada a desmitificar la programación de microcontroladores PIC de 8 bits de Microchip utilizando el lenguaje C estándar. Centrado principalmente en dispositivos de gama media-alta como el PIC18F4525, el libro está concebido para aficionados a la electrónica, estudiantes de ciclos técnicos o ingeniería y desarrolladores habituados a entornos de alto nivel (como Arduino) que quieren adentrarse en la arquitectura real de los PIC y aprender a programar interactuando directamente con los registros del microcontrolador.\n\nEl itinerario didáctico se apoya en el entorno de desarrollo oficial MPLAB X IDE, el compilador Microchip XC8 y herramientas de depuración como PICkit y el simulador MPLAB SIM. Ward enseña a configurar desde cero los fusibles del dispositivo (bits de configuración del oscilador y vigilancia), gestionar los registros de control de puertos (`TRISA`, `TRISB`, `PORT`, `LAT`), diseñar bucles de retardo precisos basados en la frecuencia de reloj y capturar señales analógicas a través del módulo conversor A/D (ADC de 10 bits con registros `ADCON0` y `ADCON1`). Además, aborda la lectura de entradas físicas (pulsadores con antirrebote), el control de salidas digitales y la comunicación con pantallas de cristal líquido (LCD) alfanuméricas compatibles con el controlador HD44780, rematando con la creación de ficheros de cabecera (`.h`) para modularizar y reutilizar código.\n\nEl libro adopta una pedagogía incremental donde cada capítulo amplía el circuito y el código del anterior, prescindiendo del código opaco y explicando cada línea y cada bit de registro. Se practican montajes reales para medir magnitudes físicas del mundo real (tensión, temperatura o velocidad) y visualizarlas en pantalla LCD, concluyendo con el ensamblaje de librerías reutilizables. Su valor radica en enseñar a pensar a nivel de hardware y prescindir de bibliotecas mágicas; como contrapartida, deja fuera periféricos avanzados como la modulación PWM por hardware, buses I2C/SPI o interrupciones complejas, materias que el autor reservó para su volumen complementario posterior (\"Intermediate C Programming for the PIC Microcontroller\").",
+    "temas": [
+      "PIC",
+      "Microchip",
+      "PIC18F4525",
+      "Lenguaje C",
+      "MPLAB X",
+      "Compilador XC8",
+      "Registros SFR",
+      "ADC",
+      "Pantalla LCD",
+      "GPIO",
+      "Sistemas embebidos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Controlador y medidor analógico con pantalla LCD",
+        "descripcion": "Sistema de medición que adquiere magnitudes físicas analógicas mediante el convertidor ADC del PIC18F4525 y las formatea para representarlas en tiempo real sobre una pantalla LCD alfanumérica HD44780."
+      },
+      {
+        "nombre": "Librería modular de control de periféricos",
+        "descripcion": "Conjunto de archivos de cabecera (.h) y módulos en C desarrollados paso a paso para estandarizar retardos temporales, asignación de puertos y comandos de interfaz con hardware externo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5525-4",
+      "https://www.oreilly.com/library/view/c-programming-for/9781484255254/",
+      "https://www.amazon.com/Programming-PIC-Microcontroller-Demystify-Embedded/dp/1484255240"
+    ]
+  },
+  "commercial-and-industrial-internet-of-things-applications-with-the-raspberry-pi-2020": {
+    "descripcion": "Tratado aplicado escrito por Alexandru Radovici, Cristian Rusu e Ioana Culic para transformar la Raspberry Pi (modelos 3 y 4 bajo Raspberry Pi OS) en un nodo fiable de computación perimetral (Edge Computing) para aplicaciones comerciales e industriales (IIoT). Está dirigido a ingenieros de producto, desarrolladores de IoT y creadores con experiencia previa en electrónica o programación que desean superar la fase de prototipos recreativos o maquetas caseras para construir soluciones industriales robustas, capaces de operar de forma ininterrumpida y convivir con arquitecturas SCADA corporativas.\n\nEl libro cubre una arquitectura tecnológica heterogénea y moderna: utiliza el entorno de desarrollo Wyliodrin STUDIO, Node.js, Electron (para interfaces gráficas de usuario en quioscos y pantallas táctiles) y Python para la lógica de sensores y comunicaciones. En el ámbito de redes y protocolos, profundiza en servicios REST, mensajería MQTT con niveles de calidad de servicio (QoS 0, 1 y 2), el estándar de comunicación industrial OPC UA para interoperabilidad entre servidores de planta y la integración de paneles de telemetría en la nube mediante Ubidots. También explica la gestión de almacenamiento local y registros masivos mediante bases de datos MariaDB configuradas en almacenamiento externo, junto con el control de relés de potencia e integración de enchufes inteligentes comerciales (TP-Link HS110) a través de sus SDKs.\n\nLa metodología es eminentemente proyectual: cada capítulo central desarrolla una aplicación comercial completa desde el esquema de conexiones y componentes hasta el software y su monitorización remota. Se construyen sistemas como cartelería digital interactiva con Electron, un dispensador de bebidas automatizado con telemetría en la nube, una pasarela de monitorización energética industrial conectada a OPC UA y una infraestructura de aparcamiento inteligente con notificaciones push seguras. El texto sobresale por abordar problemas críticos de despliegue real que muchos libros ignoran —como caídas de conectividad, desgaste de tarjetas SD, concurrencia y persistencia de datos—, aunque asume que el lector ya domina los fundamentos de Linux y la programación básica en JavaScript o Python.",
+    "temas": [
+      "Raspberry Pi",
+      "IIoT",
+      "Internet de las Cosas",
+      "Edge Computing",
+      "OPC UA",
+      "MQTT",
+      "Electron",
+      "Node.js",
+      "Python",
+      "MariaDB",
+      "Ubidots",
+      "SCADA"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Cartelería digital inteligente (Smart Digital Signage)",
+        "descripcion": "Aplicación comercial tipo quiosco publicitario desarrollada con Electron, Node.js y HTML5 para reproducir contenidos multimedia dinámicos y anuncios programados desde la Raspberry Pi."
+      },
+      {
+        "nombre": "Dispensador inteligente de refrescos (Smart Soda Dispenser)",
+        "descripcion": "Sistema de control de bombas y relés con interfaz táctil y conexión a la plataforma Ubidots para supervisar existencias, dispensar bebidas y visualizar telemetría en tiempo real."
+      },
+      {
+        "nombre": "Servidor industrial de monitorización energética (Smart Metering)",
+        "descripcion": "Pasarela de medición de consumo eléctrico implementada con un servidor industrial OPC UA y scripts en Python que registran datos de enchufes inteligentes HS110 en MariaDB."
+      },
+      {
+        "nombre": "Sistema de estacionamiento inteligente (Smart Parking)",
+        "descripcion": "Red perimetral de sensores de detección de vehículos que procesa la ocupación de plazas y transmite alertas de estado mediante notificaciones push y mensajería MQTT con QoS garantizada."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-6131-6",
+      "https://www.oreilly.com/library/view/commercial-and-industrial/9781484261316/",
+      "https://www.amazon.com/Commercial-Industrial-Internet-Applications-Raspberry/dp/1484261305"
+    ]
+  },
+  "exploring-the-raspberry-pi-2-with-c-2019": {
+    "descripcion": "Obra especializada de Warren Gay que explora la programación a bajo nivel en C++ para la Raspberry Pi 2 (con procesador quad-core ARM Cortex-A7 BCM2836 y sistema operativo Raspbian Linux). El libro está pensado para desarrolladores de software, ingenieros de sistemas embebidos y estudiantes de electrónica con conocimientos intermedios de C o C++ y Linux que quieren ir más allá de los scripts estándar de Python y exprimir la potencia del silicio, el hardware GPIO y la arquitectura multinúcleo de la placa con código compilado y de alto rendimiento.\n\nEl contenido combina ingeniería de software y electrónica digital: abarca la configuración de un banco de trabajo con placas de pruebas, la compilación e instalación de un kernel Linux personalizado para optimizar el soporte del procesador, y el análisis riguroso de la física de la interfaz GPIO y la tecnología CMOS (niveles de tensión, corrientes y protección contra descargas electrostáticas ESD). En software, el autor desarrolla utilidades CLI en C++ como la herramienta `gp`, aborda la generación de relojes de propósito general (GPCLK), modulación por ancho de pulsos por hardware (PWM con la utilidad `pipwm`), técnicas de debouncing de pulsadores tanto por software como por hardware (con el circuito integrado MC14490), uso de contenedores e iteradores de la biblioteca estándar (STL) de C++, y el diseño de servidores concurrentes mediante la biblioteca de eventos asíncronos `libevent`.\n\nEl libro destaca por el desarrollo práctico de proyectos de instrumentación y sistemas que explotan la capacidad multinúcleo del procesador. El lector construye una matriz LED 8x8 con el controlador MAX7219 para mostrar la utilización en tiempo real de cada uno de los cuatro núcleos de la CPU, un analizador lógico digital completo (PiSpy) para muestrear y examinar señales GPIO de alta velocidad, y un servidor web multihilo escalable basado en `libevent`. Constituye una aportación excelente para comprender cómo el sistema operativo Linux gestiona el hardware y cómo escribir controladores y servicios eficientes; no obstante, conviene tener en cuenta que está centrado en el procesador ARMv7 de la Pi 2 y en versiones anteriores del kernel, requiriendo adaptaciones menores si se implementa en modelos modernos de 64 bits como la Raspberry Pi 4 o 5.",
+    "temas": [
+      "Raspberry Pi 2",
+      "C++",
+      "GPIO",
+      "Sistemas embebidos",
+      "Linux Kernel",
+      "Multiprocesamiento",
+      "libevent",
+      "MAX7219",
+      "PWM",
+      "Analizador lógico",
+      "CMOS",
+      "STL"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Monitor de CPU multinúcleo en matriz LED",
+        "descripcion": "Dispositivo que lee la actividad de los cuatro núcleos de la Raspberry Pi 2 mediante una utilidad en C++ (`mtop`) y visualiza dinámicamente la carga en una matriz de LEDs 8x8 gobernada por el chip MAX7219 vía GPIO."
+      },
+      {
+        "nombre": "Analizador lógico digital PiSpy",
+        "descripcion": "Aplicación de instrumentación en C++ que captura, almacena y visualiza secuencias de señales digitales de alta frecuencia recibidas a través de los pines GPIO para depuración de hardware."
+      },
+      {
+        "nombre": "Servidor web concurrente multinúcleo",
+        "descripcion": "Servidor HTTP multihilo de alto rendimiento implementado desde cero en C++ sobre la biblioteca asíncrona `libevent`, distribuyendo la atención de peticiones de red entre los cuatro núcleos del procesador."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1739-9",
+      "https://www.oreilly.com/library/view/exploring-the-raspberry/9781484217399/",
+      "https://github.com/ve3wwg/raspberry_pi2",
+      "https://www.amazon.com/Exploring-Raspberry-Pi-Warren-Gay/dp/1484217381"
+    ]
+  },
+  "junk-box-arduino-2016": {
+    "descripcion": "Manual práctico y atípico dedicado al reciclaje electrónico y a la reutilización de componentes descartados («upcycling») para crear proyectos funcionales y comprender el hardware a bajo nivel. Trabaja con el entorno Arduino IDE (1.6.x) y enseña a construir una placa compatible propia basada en el microcontrolador ATmega1284P con reloj de 20 MHz, denominada Cestino. Está pensado para makers, técnicos y aficionados de nivel intermedio que ya dominan los tutoriales básicos de Arduino y desean alejarse de los módulos comerciales preempaquetados para adentrarse en la electrónica digital clásica y la arquitectura de ordenadores.\n\nEl autor enseña a montar la placa Cestino en placa perforada y a dominar la manipulación directa de puertos y registros de 8 bits (DDR, PORT, PIN), lógica binaria, operaciones a nivel de bit e interrupciones de hardware (attachInterrupt). Explica en profundidad el funcionamiento físico y la caracterización de transistores bipolares y FET, el diagnóstico de puertas lógicas TTL de la serie 7400, la multiplexación de displays de siete segmentos, la lectura y volcado de memorias paralelas EPROM y Flash recuperadas de cartuchos o placas base, la comunicación a bajo nivel con discos duros IDE mediante comandos del protocolo ATA paralelo, y la interfaz con un microprocesador clásico Zilog Z80 real donde el microcontrolador ATmega simula memoria, reloj y buses para ejecutar código ensamblador.\n\nA través de diez proyectos de taller y banco de pruebas (como el analizador de transistores, la sonda lógica, el probador de chips TTL, el lector de EPROM o el explorador Z80), la obra aporta una valiosa desmitificación de la informática retro y de la electrónica digital discreta. Su gran mérito reside en enseñar a diagnosticar y dar nueva vida a la chatarra tecnológica aprendiendo fundamentos reales de computación; no obstante, deja fuera tecnologías modernas como IoT, microcontroladores de 32 bits y conectividad inalámbrica, y exige destreza soldando, paciencia para desoldar piezas de aparatos viejos y nociones previas de circuitos.",
+    "temas": [
+      "Arduino IDE",
+      "ATmega1284P",
+      "Upcycling electrónico",
+      "Manipulación de puertos",
+      "Lógica TTL serie 7400",
+      "Transistores bipolares",
+      "Memorias EPROM",
+      "Protocolo ATA / PATA",
+      "Microprocesador Zilog Z80",
+      "Interrupciones de hardware",
+      "Displays 7 segmentos",
+      "Diagnóstico de circuitos"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Placa Cestino (clon de Arduino)",
+        "descripcion": "Construcción en placa perforada de una placa compatible con Arduino basada en el microcontrolador ATmega1284P a 20 MHz para disponer de mayor memoria RAM, almacenamiento flash y pines de entrada/salida."
+      },
+      {
+        "nombre": "Escáner Larson",
+        "descripcion": "Circuito secuencial de luces tipo Cylon que ejercita el control simultáneo de puertos paralelos de 8 bits y operaciones binarias a nivel de registro."
+      },
+      {
+        "nombre": "Sonda lógica digital",
+        "descripcion": "Instrumento de banco de trabajo para verificar estados lógicos altos, bajos, trenes de pulsos y niveles de alta impedancia en circuitos digitales."
+      },
+      {
+        "nombre": "Analizador de transistores",
+        "descripcion": "Comprobador interactivo que identifica patillajes y evalúa el correcto funcionamiento y ganancia de transistores bipolares y FET recuperados sin riesgo de dañarlos."
+      },
+      {
+        "nombre": "Probador de circuitos lógicos TTL",
+        "descripcion": "Dispositivo de testeo que inyecta secuencias de verdad para verificar automáticamente el estado de compuertas lógicas integradas de la familia 7400."
+      },
+      {
+        "nombre": "Dado digital para juegos de rol",
+        "descripcion": "Generador de números aleatorios para dados poliédricos que visualiza resultados en un display de dos dígitos y siete segmentos multiplexado mediante interrupciones."
+      },
+      {
+        "nombre": "Explorador de memorias EPROM / Flash",
+        "descripcion": "Lector de buses paralelos que accede a chips de memoria no volátil rescatados de equipos antiguos para volcar, leer y analizar su contenido binario."
+      },
+      {
+        "nombre": "Explorador de discos duros ATA / PATA",
+        "descripcion": "Interfaz de bus paralelo que implementa comandos ATA de bajo nivel para comunicarse directamente con discos duros IDE mecánicos y leer sus sectores."
+      },
+      {
+        "nombre": "Explorador del microprocesador Z80",
+        "descripcion": "Entorno experimental donde el ATmega1284P simula memoria ROM/RAM, líneas de control y señal de reloj para alimentar y ejecutar programas en ensamblador sobre una CPU Zilog Z80 real."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1425-1",
+      "https://www.amazon.com/Junk-Box-Arduino-Upcycled-Electronics/dp/1484214268"
+    ]
+  },
+  "programming-arduino-getting-started-with-sketches-2012": {
+    "descripcion": "Guía introductoria orientada a enseñar los fundamentos del desarrollo de software para Arduino de forma gradual y sin jerga técnica innecesaria. Basado en la placa estándar Arduino Uno (con microcontrolador ATmega328P) y la versión 1.0 del Arduino IDE, el libro está concebido para principiantes absolutos, aficionados, artistas y estudiantes que carecen de experiencia previa en programación y desean aprender a controlar hardware sin tropezar con la rigidez de los manuales clásicos de C/C++.\n\nSimon Monk aborda la estructura fundamental de un boceto (setup y loop), variables, constantes, tipos de datos primitivos, operadores, estructuras de control (if, for, while) y funciones personalizadas. Enseña a manipular entradas y salidas digitales y analógicas (digitalRead, digitalWrite, analogRead y PWM con analogWrite), depurar código mediante el monitor serie, almacenar datos persistentes en la memoria EEPROM interna con la librería EEPROM, controlar pantallas alfanuméricas con LiquidCrystal, conectar el dispositivo a redes de área local mediante la shield oficial Ethernet (librería Ethernet) para servir páginas web sencillas, y encapsular código reutilizable creando clases y librerías C++ propias organizadas en archivos de cabecera (.h) e implementación (.cpp).\n\nEl texto combina la teoría básica de programación con experimentos guiados y mini-proyectos prácticos (como un tablero de mensajes LCD gobernado desde la computadora por USB, un servidor web para monitorizar sensores o una librería orientada a objetos para temporizar parpadeos de LEDs). Su mayor virtud es la claridad expositiva y la curva de aprendizaje accesible; deja fuera temas avanzados como protocolos I2C/SPI, interrupciones complejas o manipulación de registros internos, presentándose como el punto de partida idóneo antes de dar el salto a proyectos de mayor escala.",
+    "temas": [
+      "Arduino IDE",
+      "Arduino Uno",
+      "Lenguaje C/C++",
+      "Estructura de sketches",
+      "Entradas y salidas digitales",
+      "Lectura analógica y PWM",
+      "Monitor serie",
+      "Librería LiquidCrystal",
+      "Shield Ethernet",
+      "Memoria EEPROM",
+      "Creación de librerías C++"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tablero de mensajes USB con pantalla LCD",
+        "descripcion": "Dispositivo de visualización conectado con la librería LiquidCrystal que recibe cadenas de texto a través del puerto serie/USB desde la computadora y las muestra en dos líneas."
+      },
+      {
+        "nombre": "Servidor web con Arduino Ethernet",
+        "descripcion": "Servidor web embebido que utiliza una shield Ethernet para procesar peticiones HTTP en red local y presentar el valor en tiempo real de los pines analógicos y digitales."
+      },
+      {
+        "nombre": "Librería C++ Flasher",
+        "descripcion": "Módulo de software reutilizable empaquetado en archivos .h y .cpp que implementa una clase en C++ para temporizar y automatizar secuencias de parpadeo de LEDs."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.amazon.com/Programming-Arduino-Getting-Started-Sketches/dp/0071790022",
+      "https://simonmonk.org/"
+    ]
+  },
+  "arduino-playground-2016": {
+    "descripcion": "Recopilación de proyectos prácticos de nivel avanzado diseñada para makers y aficionados que dominan las recetas básicas en protoboard y buscan diseñar aparatos electrónicos acabados y resistentes. Centrado en placas compactas como Arduino Nano y Pro Mini junto con el Arduino IDE, el libro está pensado para desarrolladores con conocimientos previos de C/C++ y electrónica que quieren construir instrumentos reales para el taller, el hogar y el laboratorio.\n\nWarren Andrews enseña a resolver desafíos de acondicionamiento de señal, precisión de temporización y control de potencia. Explora el trabajo con electrodos de pH para análisis de líquidos, barreras infrarrojas fotoeléctricas para cronometraje de alta velocidad, amplificadores operacionales, fuentes de alimentación reguladas con ajuste fino de tensión, sensores ultrasónicos para detección de proximidad, generadores de señales de onda cuadrada, servomotores y motores de corriente continua, y visualización cromática con secuencias de LEDs multicolor. Asimismo, cubre el diseño de circuitos impresos (PCB) para fabricación química casera, esquemáticos y construcción de envolventes y carcasas protectoras.\n\nEl libro se estructura en diez proyectos completos y originales, entre los que destacan un cronógrafo balístico para medir la velocidad de proyectiles, un agitador motorizado para atacado de PCBs, un protector inteligente para evitar la descarga profunda de baterías o una fuente regulada de banco. Aporta un salto cualitativo al enseñar a concebir proyectos con mentalidad de producto terminado y montaje seguro; no cubre conectividad en la nube, microcontroladores inalámbricos ni frameworks de alto nivel, requiriendo soltura con el soldador, lectura fluida de diagramas y manejo de instrumental de medida.",
+    "temas": [
+      "Arduino Nano",
+      "Arduino Pro Mini",
+      "Diseño de PCBs",
+      "Fuentes de alimentación reguladas",
+      "Sensores de pH",
+      "Medición balística",
+      "Temporización de precisión",
+      "Generador de ondas cuadradas",
+      "Acondicionamiento de señal",
+      "Protección de baterías",
+      "Diseño de carcasas"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "The Reaction-Time Machine (Máquina de tiempo de reacción)",
+        "descripcion": "Dispositivo interactivo de juego que mide con exactitud de milisegundos los reflejos de respuesta del usuario mediante pulsadores y temporizadores internos del Arduino."
+      },
+      {
+        "nombre": "Automated Agitator for PCB Etching (Agitador automático para grabado de PCBs)",
+        "descripcion": "Mecanismo motorizado que sacude suavemente las cubetas de ácido para acelerar y uniformar el atacado químico de placas de circuito impreso caseras."
+      },
+      {
+        "nombre": "Regulated Power Supply (Fuente de alimentación regulada)",
+        "descripcion": "Fuente de alimentación para banco de laboratorio con voltaje de salida variable controlado y monitorizado digitalmente mediante Arduino."
+      },
+      {
+        "nombre": "Kinetic Watch Winder (Bobinador cinético para relojes)",
+        "descripcion": "Dispositivo motorizado giratorio con efectos de iluminación LED que mantiene cargada la cuerda de relojes de pulsera automáticos cuando no están en uso."
+      },
+      {
+        "nombre": "The Garage Sentry Parking Assistant (Asistente de estacionamiento para garaje)",
+        "descripcion": "Sistema de proximidad ultrasónico con señalización luminosa por LEDs que ayuda a aparcar el vehículo a la distancia exacta en espacios estrechos."
+      },
+      {
+        "nombre": "Battery Saver (Protector inteligente de baterías)",
+        "descripcion": "Circuito de corte automático de corriente que desconecta la carga cuando la tensión de la batería baja de un umbral crítico para prevenir descargas profundas."
+      },
+      {
+        "nombre": "Custom pH Meter (Medidor de pH personalizado)",
+        "descripcion": "Instrumento electroquímico con sonda analógica de pH para medir y visualizar con precisión el nivel de acidez en acuarios, piscinas o cultivos hidropónicos."
+      },
+      {
+        "nombre": "Ballistic Chronograph (Cronógrafo balístico)",
+        "descripcion": "Instrumento de laboratorio que calcula la velocidad en boca de proyectiles (airsoft o perdigones) cronometrando su paso entre dos barreras ópticas infrarrojas."
+      },
+      {
+        "nombre": "Square-Wave Generator (Generador de ondas cuadradas)",
+        "descripcion": "Herramienta de calibración de señales que produce ondas cuadradas ajustables y estables para pruebas y depuración de circuitos digitales."
+      },
+      {
+        "nombre": "The Chromatic Thermometer (Termómetro cromático)",
+        "descripcion": "Indicador de temperatura ambiente que mapea las lecturas de los sensores en un degradado visual de colores a través de una hilera de LEDs."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/arduinoplayground",
+      "https://www.amazon.com/Arduino-Playground-Geeky-Projects-Experienced/dp/159327744X"
+    ]
+  },
+  "arduino-workshop-2013": {
+    "descripcion": "Curso práctico e integral que acompaña al lector a través de 65 proyectos progresivos para dominar tanto el hardware electrónico como la programación en Arduino. Toma como referencia la placa Arduino Uno (con ATmega328P) y el entorno Arduino IDE (1.0.x). Está diseñado para principiantes e intermedios que no cuentan con formación previa en ingeniería ni desarrollo de software, proporcionando explicaciones claras desde la primera toma de contacto con una protoboard hasta el montaje de prototipos con múltiples periféricos.\n\nJohn Boxall introduce los fundamentos de la electrónica (ley de Ohm, esquemáticos, resistencias, condensadores y transistores) y avanza hacia el manejo de componentes complejos. Enseña a utilizar registros de desplazamiento (74HC595) para expandir pines de salida, el controlador MAX7219 para matrices de LEDs y displays de siete segmentos, pantallas alfanuméricas LCD (controlador HD44780), teclados numéricos matriciales, pantallas táctiles resistivas, servomotores y motores de corriente continua accionados por puentes H (L293D), buses de comunicación serie I2C y SPI, módulos de reloj en tiempo real (RTC DS1307), receptores de posicionamiento satelital GPS, enlaces de radiofrecuencia (433 MHz), controles remotos infrarrojos, lectores de etiquetas RFID y módulos de conectividad Ethernet y celular para el envío de alertas por SMS.\n\nA lo largo de sus 65 proyectos (como un termómetro digital con gráficas en LCD, una cerradura con código PIN, un registrador de rutas GPS o un tanque robótico móvil con esquiva de obstáculos), el libro destaca por su gran valor pedagógico y la reproducibilidad de sus montajes sobre placa de pruebas. Al pertenecer a la edición de 2013, deja fuera placas modernas de 32 bits con Wi-Fi nativo (como el ESP8266 o ESP32) y la interfaz del IDE 2.x, pero ofrece un conocimiento sólido, riguroso y perfectamente transferible sobre la interacción física entre código y circuitos.",
+    "temas": [
+      "Arduino Uno",
+      "Electrónica básica",
+      "65 proyectos",
+      "Registros de desplazamiento 74HC595",
+      "Controlador MAX7219",
+      "Pantallas LCD",
+      "Bus I2C y SPI",
+      "Módulos GPS",
+      "Control de acceso RFID",
+      "Reloj en tiempo real (RTC)",
+      "Robótica móvil y motores DC",
+      "Comunicaciones inalámbricas"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Termómetro digital con registro en pantalla LCD",
+        "descripcion": "Monitor ambiental con sensor TMP36 que presenta valores numéricos de temperatura y representaciones gráficas de evolución en una pantalla LCD alfanumérica."
+      },
+      {
+        "nombre": "Cerradura electrónica con teclado numérico",
+        "descripcion": "Sistema de seguridad que valida un código PIN de cuatro cifras ingresado en un teclado matricial para desbloquear un cerrojo electromagnético o servomotor."
+      },
+      {
+        "nombre": "Registrador de datos GPS (GPS Data Logger)",
+        "descripcion": "Dispositivo portátil que decodifica sentencias NMEA de un módulo GPS para registrar coordenadas geográficas, altitud y hora en memoria para su visualización en mapas."
+      },
+      {
+        "nombre": "Vehículo robótico móvil con evasión de obstáculos",
+        "descripcion": "Chasis robótico de dos ruedas motrices gobernado por motores DC y un puente H L293D que utiliza sensores de distancia para sortear colisiones autónomamente."
+      },
+      {
+        "nombre": "Control de acceso mediante tarjetas RFID",
+        "descripcion": "Lector de identificación inalámbrica que contrasta el identificador único de llaveros o tarjetas RFID para conceder acceso y activar actuadores."
+      },
+      {
+        "nombre": "Dado electrónico interactivo con LEDs",
+        "descripcion": "Juego electrónico que simula tiradas de dados de seis caras iluminando una matriz de LEDs mediante un generador pseudoaleatorio accionado por pulsador."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/arduinoworkshop",
+      "https://www.amazon.com/Arduino-Workshop-Hands-Introduction-Projects/dp/1593274483"
+    ]
+  },
+  "arduino-cookbook-2011": {
+    "descripcion": "Obra de referencia exhaustiva en formato de recetario que reúne más de doscientas técnicas y soluciones prácticas para resolver desafíos de computación física e interacción con hardware. Enfocado en placas clásicas como Arduino Uno, Duemilanove y Mega bajo el Arduino IDE (versiones 0022 a 1.0), está concebido para estudiantes, ingenieros, diseñadores y makers de nivel intermedio que necesitan respuestas concretas, explicaciones fundamentadas y código comprobado para integrar componentes físicos en sus creaciones.\n\nMichael Margolis organiza el material en recetas que abarcan desde el procesamiento de texto y operaciones matemáticas hasta temporizaciones de precisión sin bloquear el flujo de ejecución (millis). Detalla la captura de señales analógicas y digitales (sensores capacitivos, táctiles, ópticos, de flexión y temperatura), generación de tonos y melodías de audio, control de movimiento mediante servomotores, motores paso a paso y de continua con modulación por ancho de pulsos (PWM), visualización en matrices de LEDs y pantallas LCD, decodificación de mandos a distancia infrarrojos, comunicación por buses I2C y SPI, enlaces inalámbricos mediante módulos XBee y Bluetooth, creación de clientes y servidores web con la shield Ethernet, optimización del uso de memoria RAM con PROGMEM, manejo de interrupciones externas y manipulación directa de registros y temporizadores del microcontrolador ATmega.\n\nEstructurado bajo el formato «Problema, Solución y Discusión», el libro no busca guiar la construcción de un producto cerrado único, sino proporcionar un inmenso repertorio modular listo para reutilizarse y adaptarse a proyectos a medida, destacando además la conexión bidireccional entre bocetos de Arduino y programas de interfaz gráfica en Processing. Su punto fuerte radica en la amplitud técnica y la profundidad conceptual con la que desmenuza cada solución; como recetario, carece de proyectos paso a paso de diseño de carcasas o productos finales, y varias de sus recetas de red Ethernet requieren actualización hacia los estándares y cifrados seguros actuales.",
+    "temas": [
+      "Arduino IDE",
+      "Recetas de hardware",
+      "Sensores analógicos y digitales",
+      "Servomotores y motores paso a paso",
+      "Temporización sin bloqueo (millis)",
+      "Bus I2C y SPI",
+      "Shield Ethernet",
+      "Módulos XBee y Bluetooth",
+      "Gestión de memoria y PROGMEM",
+      "Interrupciones de hardware",
+      "Integración con Processing"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/arduino-cookbook/9781449399368/",
+      "https://www.amazon.com/Arduino-Cookbook-Michael-Margolis/dp/0596802471"
+    ]
+  },
+  "arduino-by-example-2015": {
+    "descripcion": "Guía práctica orientada a la creación de dispositivos físicos y prototipos interactivos mediante la plataforma Arduino, enfocada en el entorno Arduino IDE 1.6 y placas como Arduino Uno y Arduino Mega 2560. Está dirigida a entusiastas del movimiento maker, estudiantes y desarrolladores con un nivel intermedio que ya poseen conocimientos fundamentales de programación en C/C++ y nociones básicas de circuitos electrónicos, y que desean ir más allá de los ejemplos elementales para construir proyectos completos de hardware funcional.\n\nEl texto profundiza en la integración directa de sensores, actuadores y módulos de comunicación externa. Enseña a manipular sensores ultrasónicos de distancia (HC-SR04), detectores de presencia por infrarrojos pasivos (PIR) y entradas táctiles capacitivas, además de gobernar servomotores, pantallas LCD alfanuméricas con la librería LiquidCrystal y módulos de relés para cargas de corriente alterna. También aborda la conectividad inalámbrica mediante módulos Bluetooth y shields Wi-Fi (CC3000), e integra el microcontrolador con herramientas de software externas como Processing para la visualización gráfica de datos e interfaces de usuario, scripts en Python para la captura y transmisión de imágenes, y mecanismos de reconocimiento de voz.\n\nA lo largo de los capítulos se construyen cinco proyectos completos y progresivos: una regla métrica digital, un reconocedor de gestos dactilares conectado a una interfaz gráfica, una alarma antirrobo con alertas inalámbricas, un sistema de domótica para conmutar electrodomésticos y un perro robótico cuadrúpedo articulado con múltiples servos. La principal aportación del libro es mostrar cómo conectar el mundo físico con aplicaciones de escritorio y periféricos avanzados; como contrapartida, módulos como el shield Wi-Fi CC3000 han quedado obsoletos frente a chips modernos como el ESP32, y el montaje mecánico del robot exige paciencia y una fuente de alimentación externa dimensionada para evitar caídas de tensión. Conviene tener soltura previa en el cableado sobre protoboard y lectura de esquemas antes de iniciar.",
+    "temas": [
+      "Arduino Uno",
+      "Arduino Mega 2560",
+      "Sensor HC-SR04",
+      "Sensor PIR",
+      "Processing",
+      "Python",
+      "Robótica cuadrúpeda",
+      "Domótica",
+      "Bluetooth",
+      "Servomotores"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Regla métrica digital",
+        "descripcion": "Dispositivo de medición que calcula distancias en tiempo real mediante un sensor ultrasónico HC-SR04 y presenta las lecturas visualmente en una pantalla LCD alfanumérica gestionada con la librería LiquidCrystal."
+      },
+      {
+        "nombre": "Traductor de gestos dactilares a texto",
+        "descripcion": "Sistema interactivo que registra pulsaciones y secuencias mediante sensores táctiles capacitivos, enviando los caracteres decodificados por comunicación serie hacia una interfaz gráfica desarrollada en Processing."
+      },
+      {
+        "nombre": "Alarma antirrobo inteligente",
+        "descripcion": "Sistema de seguridad que detecta intrusiones mediante un sensor de movimiento PIR, activa avisos sonoros y se sincroniza con un script en Python para disparar capturas de cámara y control inalámbrico vía Bluetooth."
+      },
+      {
+        "nombre": "Automatización doméstica inalámbrica",
+        "descripcion": "Central domótica que controla lámparas y aparatos domésticos mediante módulos de relé y un shield Wi-Fi CC3000, integrando activación remota y comandos por voz."
+      },
+      {
+        "nombre": "Perro robótico cuadrúpedo",
+        "descripcion": "Robot móvil caminante de cuatro patas controlado por un Arduino Mega 2560 que sincroniza múltiples servomotores para calibrar la cinemática de marcha y admitir instrucciones de voz."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/arduino-by-example-9781785289088",
+      "https://www.oreilly.com/library/view/arduino-by-example/9781785289088/",
+      "https://www.amazon.com/Arduino-Example-Adith-Jagadish-Boloor/dp/1785289087"
+    ]
+  },
+  "arduino-development-cookbook-2015": {
+    "descripcion": "Recetario técnico eminentemente práctico centrado en la resolución de problemas cotidianos de hardware y software en la plataforma Arduino (trabajando sobre Arduino IDE 1.6 y placas estándar como Arduino Uno). Está pensado para desarrolladores, técnicos y creadores con nivel intermedio que ya entienden la sintaxis básica de C/C++ y buscan soluciones modulares y patrones de diseño reutilizables para conectar componentes, depurar circuitos y optimizar el rendimiento de sus proyectos sin tener que atravesar explicaciones teóricas extensas.\n\nLa obra enseña a través de más de 50 recetas estructuradas que cubren desde el acondicionamiento de señales y la gestión de entradas digitales con resistencias pull-up y técnicas de eliminación de rebote (debouncing por software y hardware), hasta el control avanzado de actuadores. Aborda el manejo de potenciómetros, sensores de temperatura (LM35/TMP36), módulos PIR, sensores ultrasónicos, acelerómetros y receptores GPS. En el apartado de salidas y potencia, detalla el uso de modulación por ancho de pulsos (PWM), transistores, puentes H para motores de corriente continua, servomotores, motores paso a paso y motores brushless, así como registros de desplazamiento (shift registers 74HC595), displays de 7 segmentos y optoacopladores. Asimismo, profundiza en protocolos de comunicación serie (UART, SoftwareSerial), buses I2C y SPI, tarjetas SD, shields Ethernet y técnicas de optimización interna como la manipulación de registros de temporizadores y la memoria EEPROM.\n\nEl contenido no desarrolla un proyecto monolítico de gran escala, sino una extensa colección de soluciones modulares y experimentos de laboratorio directamente aplicables a desarrollos propios. Destaca por sus recetas de trucos avanzados (\"hacking\"), que enseñan a exprimir el hardware desbloqueando pines auxiliares, acelerando frecuencias PWM y gestionando la memoria no volátil para preservar estados ante cortes de energía. Deja fuera aspectos como el diseño formal de circuitos impresos (PCB) y los microcontroladores de 32 bits más recientes. Es una obra de consulta indispensable para tener junto a la mesa de trabajo y resolver dudas puntuales de conexión y lógica en placas de 8 bits.",
+    "temas": [
+      "Arduino Uno",
+      "C++ embebido",
+      "Sensores analógicos y digitales",
+      "Control de motores",
+      "PWM",
+      "I2C",
+      "SPI",
+      "Shift Registers",
+      "EEPROM",
+      "Debouncing"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/arduino-development-cookbook-9781783982943",
+      "https://www.oreilly.com/library/view/arduino-development-cookbook/9781783982943/",
+      "https://www.amazon.com/Arduino-Development-Cookbook-Cornel-Amariei/dp/178398294X"
+    ]
+  },
+  "arduino-networking-2014": {
+    "descripcion": "Manual de ingeniería de redes y telecomunicaciones enfocado en dotar de conectividad cableada a microcontroladores Arduino mediante el Arduino Ethernet Shield oficial (con controlador Wiznet W5100) y la librería estándar Ethernet sobre el entorno Arduino IDE 1.0/1.5. Está dirigido a programadores y aficionados de nivel intermedio que dominan el desarrollo elemental en C/C++ para microcontroladores y buscan comprender cómo integrar dispositivos embebidos en redes locales e infraestructuras de Internet.\n\nEl contenido desglosa los fundamentos de la pila de protocolos TCP/IP adaptados a recursos de memoria limitados, abordando la configuración IP dinámica (DHCP) y estática, resolución DNS y arquitectura cliente-servidor. Enseña a enviar telemetría ambiental desde sensores de temperatura y humedad DHT11 mediante solicitudes HTTP (GET y POST) hacia servidores web locales y remotos, implementar un servidor web embebido capaz de servir páginas HTML y leer parámetros de consulta (query strings), y registrar datos históricos en tarjetas microSD con la librería SD. Además, cubre la integración con plataformas en la nube mediante REST APIs y payloads JSON, utilizando servicios pioneros de la época como Xively para la monitorización gráfica en tiempo real y la herramienta de automatización Temboo para desencadenar correos electrónicos con Gmail y registrar lecturas en hojas de cálculo de Google.\n\nA través de sus páginas se desarrollan cuatro proyectos guiados centrados en la conectividad: un cliente HTTP emisor de métricas ambientales, un servidor web embebido con registro local en tarjeta SD, un panel web para conmutación de relés y cargas eléctricas a distancia, y una pasarela de monitorización conectada a la nube. Su mayor valor reside en enseñar con claridad meridiana los conceptos de red a nivel de sockets y peticiones HTTP en hardware con memoria RAM extremadamente reducida. Debe tenerse en cuenta que se centra con exclusividad en conexiones cableadas por Ethernet (sin soporte nativo para Wi-Fi) y que plataformas externas como Xively han sido descatalogadas o modificadas, por lo que el lector moderno deberá adaptar la capa de nube a alternativas actuales como Adafruit IO o ThingsBoard.",
+    "temas": [
+      "Arduino Uno",
+      "Ethernet Shield",
+      "Wiznet W5100",
+      "Servidor web embebido",
+      "HTTP",
+      "IoT",
+      "DHCP",
+      "Sensor DHT11",
+      "Tarjeta microSD",
+      "Temboo"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Cliente HTTP para telemetría ambiental",
+        "descripcion": "Dispositivo que realiza lecturas periódicas de un sensor DHT11 y emite peticiones HTTP GET/POST a través del Ethernet Shield para enviar mediciones a un servidor web remoto."
+      },
+      {
+        "nombre": "Servidor web embebido con registro en microSD",
+        "descripcion": "Servidor HTTP ejecutado en el microcontrolador que despacha páginas web con el estado de los sensores y almacena un histórico de eventos en una tarjeta microSD mediante la librería SD."
+      },
+      {
+        "nombre": "Panel de control remoto de actuadores por web",
+        "descripcion": "Sistema que procesa comandos entrantes desde un navegador web mediante el análisis de URLs y solicitudes HTTP para activar o desactivar LEDs y relés de conmutación eléctrica."
+      },
+      {
+        "nombre": "Pasarela de monitorización IoT en la nube",
+        "descripcion": "Integración del Arduino con plataformas en la nube que publica datos estructurados en formato JSON hacia Xively y utiliza el conector Temboo para enviar alertas automáticas por Gmail y archivar datos en Google Sheets."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/arduino-networking-9781783986866",
+      "https://www.oreilly.com/library/view/arduino-networking/9781783986866/",
+      "https://www.amazon.com/Arduino-Networking-Marco-Schwartz/dp/1783986864"
+    ]
+  },
+  "arduino-for-dummies-2nd-edition-2018": {
+    "descripcion": "Segunda edición de una de las guías de iniciación más reconocidas a la computación física y el desarrollo con microcontroladores, centrada en la placa Arduino Uno R3 y el entorno oficial Arduino IDE 1.8. Escrito por el diseñador e interactólogo John Nussey, este volumen está especialmente diseñado para principiantes absolutos, diseñadores, artistas, estudiantes y entusiastas sin ninguna experiencia previa en electrónica ni programación de software, que desean aprender a dar interactividad a objetos cotidianos.\n\nEl texto introduce paso a paso los fundamentos teóricos y prácticos de la electricidad (Ley de Ohm, cálculo de resistencias, voltaje y corriente) y el montaje seguro de circuitos sobre protoboard utilizando componentes básicos como interruptores, potenciómetros, fotorresistencias (LDR) y diodos LED. Enseña los conceptos esenciales de programación en C/C++ adaptados a la plataforma (funciones setup() y loop(), variables, condicionales if/else, bucles for, temporizaciones y creación de funciones propias), la modulación por ancho de pulsos (PWM) para atenuar iluminación, el accionamiento de servomotores y motores de corriente continua mediante transistores, la generación de sonidos con zumbadores piezoeléctricos mediante la instrucción tone(), la comunicación bidireccional por puerto serie y la integración con el entorno de desarrollo gráfico Processing para visualizar datos en la computadora.\n\nEl aprendizaje se estructura a través de experimentos prácticos guiados y circuitos demostrativos modulares, complementados con un capítulo dedicado al aprendizaje de técnicas de soldadura de estaño, seguridad con herramientas y ensamblado de protoshields para crear prototipos permanentes. El gran acierto de Nussey es su lenguaje pedagógico, exento de jerga técnica innecesaria y repleto de analogías visuales y guías de depuración (\"Part of Tens\") para solucionar errores comunes de cableado y compilación. Quedan fuera aspectos de arquitectura de bajo nivel, registros de microcontroladores y protocolos de red complejos. Es el manual perfecto para dar los primeros pasos antes de abordar proyectos de mayor escala o libros de nivel intermedio.",
+    "temas": [
+      "Arduino Uno R3",
+      "Electrónica básica",
+      "Arduino IDE",
+      "C++ para Arduino",
+      "PWM",
+      "Sensores y actuadores",
+      "Servomotores",
+      "Processing",
+      "Soldadura",
+      "Prototipado"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Arduino+For+Dummies%2C+2nd+Edition-p-9781119489542",
+      "https://www.oreilly.com/library/view/arduino-for-dummies-2nd/9781119489542/",
+      "https://www.amazon.com/Arduino-Dummies-John-Nussey/dp/1119489544"
+    ]
+  },
+  "advanced-robotic-vehicles-programming-2020": {
+    "descripcion": "Tratado técnico avanzado y riguroso dedicado a la programación de bajo nivel de vehículos autónomos robóticos no tripulados utilizando el hardware de control de vuelo Pixhawk (basado en microcontroladores ARM Cortex-M4 STM32) y las librerías de código abierto de ArduPilot en C++. Escrito por un equipo multidisciplinar de doctores e investigadores en robótica, el texto está dirigido a estudiantes de ingeniería mecatrónica, investigadores y desarrolladores de software embebido con un nivel avanzado que ya dominan la programación en C/C++, el álgebra lineal y los fundamentos de dinámica y control de sistemas.\n\nLa obra enseña a desarrollar firmware de control a medida desde el SDK de ArduPilot, alejándose de los configuradores gráficos comerciales para trabajar directamente sobre las abstracciones de hardware (AP_HAL). Cubre la adquisición y filtrado digital de señales de sensores inerciales integrados (acelerómetros, giroscopios y magnetómetros dentro de la IMU), altímetros barométricos y receptores de posición global (GPS), así como la decodificación de señales de radiocontrol (canales PPM/S.Bus). Enseña el control de actuadores mediante señales PWM de alta resolución para ESCs de motores brushless y servomotores, la comunicación serie UART para telemetría bidireccional con estaciones de tierra (Mission Planner), y el almacenamiento de datos de vuelo en tarjetas SD. Además, aborda la formulación matemática de matrices de asignación de empuje (allocation matrix) y el salto de un bucle de ejecución secuencial hacia una arquitectura concurrente y multitarea en tiempo real gobernada por el planificador cooperativo AP_Scheduler.\n\nEl núcleo práctico del libro se plasma en la concepción y programación de dos firmwares completos para drones multirrotor: un controlador secuencial que implementa un modo de vuelo suave (smooth flight mode) con estabilización y mezcla de motores, y un sistema avanzado en tiempo real que estructura tareas periódicas con prioridades estrictas y telemetría activa. Su valor reside en su profundidad académica y en abrir la \"caja negra\" del código fuente de ArduPilot para permitir el diseño de algoritmos de navegación propios en drones aéreos, rovers terrestres o vehículos submarinos. Su limitación principal es una curva de aprendizaje pronunciada que exige un firme dominio matemático de ecuaciones de movimiento y teoría de control, prescindiendo deliberadamente de visión por computador o marcos como ROS para concentrarse en la aviónica de vuelo crítico.",
+    "temas": [
+      "ArduPilot",
+      "Pixhawk",
+      "Drones autónomos",
+      "Cuadricóptero",
+      "Sistemas de tiempo real",
+      "C++ embebido",
+      "Teoría de control",
+      "Unidad IMU",
+      "Telemetría UART",
+      "STM32"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Controlador de vuelo secuencial para dron cuadricóptero",
+        "descripcion": "Firmware en bucle secuencial que integra lectura y filtrado de sensores inerciales y GPS, procesamiento de mandos por radio y aplicación de una matriz de asignación de motores con modo de vuelo suave (smooth flight mode)."
+      },
+      {
+        "nombre": "Sistema de control multirrotor en tiempo real con ArduPilot Scheduler",
+        "descripcion": "Arquitectura de control de vuelo concurrente basada en el planificador AP_Scheduler de ArduPilot, que gestiona tareas periódicas priorizadas, telemetría serie UART y registro de datos para su análisis en Mission Planner."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5531-5",
+      "https://www.oreilly.com/library/view/advanced-robotic-vehicles/9781484255315/",
+      "https://www.amazon.com/Advanced-Robotic-Vehicles-Programming-Ardupilot/dp/1484255306"
+    ]
+  },
+  "building-embedded-systems-2016": {
+    "descripcion": "Manual técnico y de arquitectura orientado a unir el desarrollo de software y la ingeniería de hardware dentro del diseño de sistemas embebidos profesionales. Publicado en 2016 por Apress, el libro aborda tanto procesadores estándar como sistemas en chip programables (SOPC) y matrices de puertas lógicas programables en campo (FPGA), tomando como referencia plataformas de fabricantes líderes como Altera (Intel) y Xilinx con núcleos de procesamiento duros (ARM) y blandos (Nios II). Está concebido para programadores de software que necesitan comprender el comportamiento físico del silicio e ingenieros electrónicos que buscan estructurar firmware profesional, asumiendo conocimientos previos en lenguaje C y electrónica digital elemental.\n\nLa obra profundiza en el ciclo de vida completo del sistema a bajo nivel: la secuencia de energizado (power-on sequence), el arranque del procesador y el diseño de bootloaders; la organización de la memoria (RAM, DMA, esquemas de buses como AMBA o Avalon) y el manejo de interrupciones (ISR). Enseña a estructurar firmware eficiente en C y C++ para sistemas bare-metal, configurando cadenas de compilación cruzada con GCC, Makefiles y depuración con GDB. Asimismo, introduce el diseño digital con SystemVerilog y la herramienta Quartus para crear periféricos a medida en FPGAs, cubriendo aspectos críticos de señal como el filtrado antirrebote (debounce), algoritmos matemáticos en punto fijo (fixed-point math), control de pantallas y gestión de consumo de energía con el apoyo de instrumental como analizadores lógicos y osciloscopios.\n\nNo propone el ensamblaje paso a paso de un producto de consumo cerrado, sino la implementación y prueba modular de bloques funcionales de hardware (en SystemVerilog) y rutinas de firmware (en C): controladores de bus, generadores de reloj, módulos aritméticos en punto fijo y temporizadores. Su principal valor radica en derribar la separación artificial entre código y silicio, explicando con rigor de ingeniería los compromisos temporales y de recursos de hardware. Quedan fuera los sistemas operativos en tiempo real (RTOS) comerciales y las pilas complejas de comunicación inalámbrica, por lo que resulta ideal para quienes buscan afianzar las bases de hardware y firmware antes de dar el salto a sistemas embebidos de mayor nivel.",
+    "temas": [
+      "Sistemas embebidos",
+      "FPGAs",
+      "SOPC",
+      "Firmware en C",
+      "SystemVerilog",
+      "Bootloaders",
+      "Arquitectura de buses",
+      "Controladores DMA",
+      "Matemáticas en punto fijo",
+      "Quartus",
+      "Depuración hardware"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1919-5",
+      "https://github.com/Apress/building-embedded-systems"
+    ]
+  },
+  "usb-complete-3rd-edition-2005": {
+    "descripcion": "Guía de referencia clásica para ingenieros de firmware y desarrolladores de software que necesitan diseñar, conectar y depurar periféricos USB personalizados para interactuar con sistemas de escritorio. Esta tercera edición, publicada en 2005 por Lakeview Research, cubre en detalle la especificación USB 2.0 (con sus velocidades Low-Speed, Full-Speed y High-Speed a 480 Mbps) e introduce las bases de USB On-The-Go (OTG) para dispositivos de doble rol. Está dirigida a desarrolladores de hardware y programadores de sistemas que requieran comunicar microcontroladores con PCs Windows, requiriendo familiaridad con programación en C para microcontroladores y nociones de desarrollo en Windows (.NET o Win32).\n\nEl texto descompone la arquitectura del bus USB sin rodeos innecesarios: el proceso de enumeración, la estructura de descriptores (de dispositivo, configuración, interfaz y endpoint) y los cuatro tipos de transferencia (Control, Bulk, Interrupción e Isócrona). Explica cómo elegir y gobernar controladores de interfaz USB (como el Philips ISP1181B o el National Semiconductor USBN9603) y microcontroladores con periférico USB incorporado (como las familias PIC18F de Microchip o Cypress FX2). Se detalla especialmente la implementación de la clase HID (Human Interface Device) como estrategia para enviar datos de propósito general sin necesidad de programar controladores de dispositivo (drivers) dedicados para el sistema operativo. En el lado del host, enseña a programar utilidades en Visual C# .NET y Visual Basic .NET que acceden a las APIs de Windows (CreateFile, ReadFile, WriteFile, HidD_GetFeature y RegisterDeviceNotification) para detectar la inserción y extracción de periféricos y transferir reportes de datos.\n\nSu dinámica combina la explicación del protocolo con la construcción de ejemplos prácticos de comunicación bidireccional entre placas con microcontrolador y programas anfitriones en Windows: desde el envío de comandos de control y lecturas de sensores hasta la depuración de transacciones y pruebas de conformidad. Su mayor virtud es sintetizar las miles de páginas del estándar oficial de USB en explicaciones directas, modelos mentales claros y plantillas de código reutilizables. Conviene tener presente que, al ser una edición de 2005, no aborda estándares posteriores como USB 3.0 (SuperSpeed) o USB-C, y los ejemplos de host apuntan a versiones tempranas de .NET en Windows XP/2000; aun así, la arquitectura básica del protocolo USB 2.0, los formatos de descriptores y el uso de la clase HID se mantienen plenamente vigentes.",
+    "temas": [
+      "USB 2.0",
+      "Firmware USB",
+      "Clase HID",
+      "Enumeración de dispositivos",
+      "Descriptores USB",
+      "USB On-The-Go (OTG)",
+      "Visual C# .NET",
+      "Visual Basic .NET",
+      "Win32 API",
+      "Microcontroladores"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://janaxelson.com/usb.htm",
+      "https://www.amazon.com/USB-Complete-Developers-Guide-Guides/dp/1931448027"
+    ]
+  },
+  "microbit-for-mad-scientists-2019": {
+    "descripcion": "Guía práctica y entretenida orientada a aprender computación física, electrónica básica y robótica mediante la popular tarjeta de desarrollo BBC micro:bit. Publicada en 2019 por No Starch Press, la obra guía a los lectores utilizando dos entornos complementarios: la programación visual por bloques con Microsoft MakeCode y el lenguaje textual MicroPython. Está pensada para niños, jóvenes estudiantes, docentes y aficionados maker que se inician desde cero, sin necesidad de conocimientos previos de código ni de circuitos eléctricos.\n\nEl libro aprovecha todas las capacidades de hardware integradas en la placa micro:bit: su matriz de 25 LEDs programables, los pulsadores, el acelerómetro, el magnetómetro (brújula digital), el sensor térmico y el transceptor de radiofrecuencia integrado. En el plano de la electrónica externa, enseña a conectar y controlar actuadores y sensores mediante cables con pinzas de cocodrilo y protoboards, introduciendo zumbadores piezoeléctricos, servomotores estándar y de rotación continua, transistores de conmutación, fotorresistencias (LDR), bombas de agua miniatura de corriente continua y sondas resistivas caseras.\n\nEl aprendizaje se articula a través de 30 proyectos guiados paso a paso ambientados en un laboratorio de «científico loco», que progresan desde simples alertas de luz y sonido hasta robots móviles y autómatas interactivos. Destaca por su enfoque STEAM lúdico y estimulante, que prioriza el aprendizaje empírico con materiales accesibles y reciclados. No profundiza en arquitectura de hardware de bajo nivel ni en optimización de memoria, concentrándose en prototipos rápidos y divertidos que consolidan la lógica de programación y la interacción física.",
+    "temas": [
+      "BBC micro:bit",
+      "MicroPython",
+      "Microsoft MakeCode",
+      "Robótica educativa",
+      "Electrónica básica",
+      "Acelerómetro",
+      "Servomotores",
+      "Módulo de radio",
+      "Sensores analógicos",
+      "STEAM"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Guitarra óptica digital",
+        "descripcion": "Instrumento musical experimental que altera el tono de un zumbador piezoeléctrico según la sombra o distancia de la mano sobre el sensor de luz de la BBC micro:bit mediante MakeCode o MicroPython."
+      },
+      {
+        "nombre": "Detector de mentiras casero",
+        "descripcion": "Dispositivo detector que mide las variaciones en la resistencia galvánica de la piel a través de terminales con pinzas de cocodrilo y muestra el nivel de estrés en la pantalla de LEDs."
+      },
+      {
+        "nombre": "Sistema de riego automático para plantas",
+        "descripcion": "Circuito de monitoreo ambiental que mide la conductividad de la tierra con sondas y acciona una pequeña bomba de agua o servomotor para regar una maceta cuando el suelo se seca."
+      },
+      {
+        "nombre": "Rover robótico de dos ruedas",
+        "descripcion": "Pequeño vehículo con servomotores continuos teledirigido de forma inalámbrica aprovechando la comunicación por radio entre dos tarjetas micro:bit."
+      },
+      {
+        "nombre": "Cabeza robótica parlante",
+        "descripcion": "Figura interactiva articulada que mueve sus ojos con servomotores y reproduce efectos de sonido o voz sintetizada elemental a través de un altavoz externo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/microbit-mad-scientists",
+      "https://www.oreilly.com/library/view/microbit-for-mad/9781593279745/"
+    ]
+  },
+  "beginning-nfc-2014": {
+    "descripcion": "Manual práctico enfocado en el desarrollo de aplicaciones interactivas mediante tecnología NFC (Near Field Communication), conectando teléfonos inteligentes con microcontroladores y ordenadores monoplaca. Publicado en 2014 por O'Reilly Media, el texto explora el ecosistema NFC integrando la plataforma Android, aplicaciones móviles híbridas con Apache Cordova / PhoneGap, placas Arduino (Uno / Leonardo) mediante shields NFC dedicados y sistemas embebidos bajo Linux como Raspberry Pi y BeagleBone. Está diseñado para programadores web, desarrolladores móviles y makers con conocimientos previos en HTML, JavaScript y nociones básicas de sintaxis en Arduino C/C++.\n\nLa obra desentraña los estándares RFID (ISO 14443 tipos A y B, FeliCa), los tipos de etiquetas NFC (Type 1 al Type 4) y, con especial detalle, la estructura interna del formato de intercambio NDEF (NFC Data Exchange Format), explicando cómo conformar registros de texto, URIs, tipos MIME y formatos propietarios. Enseña a utilizar el plugin PhoneGap-NFC para interceptar y despachar etiquetas desde JavaScript en Android, a interactuar con el controlador NFC NXP PN532 en Arduino mediante SPI o I2C (utilizando bibliotecas NDEF de Arduino) y a programar scripts de lectura y emulación en Linux embebido utilizando Node.js y la biblioteca node-nfc. Además, aborda el intercambio de datos entre dispositivos pares (Peer-to-Peer / Android Beam) sin necesidad de emparejamiento manual previo.\n\nSu planteamiento es práctico y orientado a proyectos de interacción física, como lectores de tarjetas de hotel, sistemas de automatización con etiquetas y comunicación móvil entre terminales. Su gran ventaja es que permite a desarrolladores web trasladar sus habilidades a la computación física sin tener que descender a protocolos de radiofrecuencia de bajo nivel. Hay que considerar que PhoneGap y Android Beam han quedado descontinuados en el desarrollo móvil moderno, pero los fundamentos del formato NDEF, la interacción con etiquetas NFC y el uso de módulos PN532 con Arduino y placas Linux continúan siendo estándares de referencia en la industria.",
+    "temas": [
+      "NFC",
+      "Arduino",
+      "NDEF",
+      "Android",
+      "PhoneGap",
+      "RFID",
+      "NXP PN532",
+      "Node.js",
+      "Peer-to-Peer",
+      "Raspberry Pi",
+      "Internet de las Cosas"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de cerradura y tarjetas de hotel con Arduino",
+        "descripcion": "Grabador de tarjetas NFC gestionado desde el navegador web y cerradura electrónica activada por un lector PN532 conectado a Arduino que valida los permisos de acceso NDEF."
+      },
+      {
+        "nombre": "Lector interactivo de etiquetas multimedia con PhoneGap",
+        "descripcion": "Aplicación móvil para Android construida con HTML y JavaScript que detecta etiquetas NDEF para activar pistas de sonido y controlar dispositivos de iluminación en red."
+      },
+      {
+        "nombre": "Intercambio Peer-to-Peer (P2P) entre dispositivos",
+        "descripcion": "Módulo de transferencia directa de información NDEF entre dos terminales móviles Android o entre un teléfono inteligente y un dispositivo embebido con Arduino y Linux."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/beginning-nfc/9781449324094/",
+      "https://github.com/don/beginning-nfc"
+    ]
+  },
+  "intel-galileo-networking-cookbook-2015": {
+    "descripcion": "Libro de recetas técnicas (cookbook) enfocado en dotar de conectividad cableada, inalámbrica y acceso a la nube a la placa de desarrollo Intel Galileo (versiones Gen 1 y Gen 2). Publicada por Packt en 2015, la obra trabaja sobre la distribución Linux Yocto (imagen IoT) ejecutándose sobre el procesador Intel Quark SoC X1000 de 32 bits, aprovechando tanto el entorno de desarrollo Arduino IDE como la plataforma de ejecución Node.js. Está dirigida a makers, estudiantes de ingeniería y programadores de hardware que ya dominan los conceptos elementales de Arduino o JavaScript y desean transformar sus circuitos aislados en dispositivos conectados a la red local y a servicios cloud de IoT.\n\nEl recorrido explica paso a paso la configuración de la tarjeta micro-SD con el sistema operativo Linux IoT, el acceso remoto mediante SSH y la gestión de interfaces de red por cable (Ethernet) y Wi-Fi (a través de ranuras mini-PCIe). Enseña a manipular sensores analógicos y digitales, pantallas LCD y actuadores mediante bocetos de Arduino y mediante la biblioteca MRAA de bajo nivel en Node.js. Asimismo, cubre el despliegue de servidores HTTP locales empleando el framework Express para servir paneles de control y APIs REST, la monitorización remota de telemetría a través de plataformas IoT como Temboo, ThingSpeak y Dweet.io, y la gestión de intercambio de datos estructurados en formato JSON.\n\nAl seguir la estructura clásica de recetario de Packt («Cómo hacerlo...» y «Cómo funciona...»), cada fórmula resuelve una necesidad concreta de conectividad que converge en soluciones completas, como servidores embebidos de control de actuadores, registradores de temperatura en la nube y un concentrador central de domótica para el hogar. Su principal atractivo radica en enseñar a explotar la arquitectura híbrida de la Intel Galileo, combinando la facilidad de pines de Arduino con las capacidades de un servidor Linux x86 autónomo. El factor crucial a considerar es que la línea Intel Galileo fue descontinuada formalmente por el fabricante en 2017, por lo que el hardware hoy es considerado legado, aunque la arquitectura de servidores web embebidos con Node.js y monitorización REST conserva todo su valor pedagógico.",
+    "temas": [
+      "Intel Galileo",
+      "Internet de las Cosas (IoT)",
+      "Linux Yocto",
+      "Node.js",
+      "Express",
+      "Ethernet",
+      "Wi-Fi",
+      "Biblioteca MRAA",
+      "Temboo",
+      "ThingSpeak",
+      "Domótica",
+      "Arduino IDE"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor web embebido para control de hardware",
+        "descripcion": "Servidor HTTP montado en la Intel Galileo con Node.js y Express que expone un panel web y rutas REST para encender actuadores y consultar el estado de entradas digitales."
+      },
+      {
+        "nombre": "Estación de telemetría ambiental en la nube",
+        "descripcion": "Dispositivo de monitorización que lee sensores térmicos y de luz para publicar periódicamente los registros en plataformas de visualización remota como ThingSpeak y Temboo vía Wi-Fi."
+      },
+      {
+        "nombre": "Centro de automatización del hogar (Home Automation Hub)",
+        "descripcion": "Sistema domótico centralizado que integra lectura de múltiples sensores de la vivienda, conmutación de relés de potencia y una interfaz de gestión accesible desde la red local."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/intel-galileo-networking-cookbook-9781785281198",
+      "https://www.amazon.com/Intel-Galileo-Networking-Cookbook-Schwartz/dp/1785281194"
+    ]
+  }
+}

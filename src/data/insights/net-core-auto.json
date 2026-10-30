@@ -1,0 +1,1134 @@
+{
+  "advanced-asp-net-core-3-security-2020": {
+    "descripcion": "Guía avanzada enfocada en la protección integral de aplicaciones web desarrolladas con ASP.NET Core 3, analizando vectores de ataque modernos y mecanismos de defensa en profundidad. El autor desglosa la arquitectura de seguridad del framework para blindar servicios y APIs contra vulnerabilidades comunes y ataques dirigidos.\n\nEl contenido profundiza en autenticación basada en tokens JWT, integración con servidores OpenID Connect y OAuth 2.0, políticas de autorización declarativas y basadas en recursos, así como protección contra CSRF, XSS, inyección SQL y secuestro de clics. También aborda el manejo seguro de secretos, configuración de Data Protection API y cifrado de datos sensibles en tránsito y reposo.\n\nEs una lectura esencial para arquitectos y desarrolladores backend que buscan implementar modelos de seguridad robustos y auditables en producción, integrando defensas activas en el pipeline de middlewares de ASP.NET Core.",
+    "temas": [
+      "ASP.NET Core 3",
+      "Seguridad Web",
+      "JWT",
+      "OAuth 2.0",
+      "OpenID Connect",
+      "Data Protection API",
+      "OWASP Top 10",
+      "Middlewares"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor de autenticación y autorización segura con ASP.NET Core 3",
+        "descripcion": "Implementación de un sistema de login con autenticación federada, rotación de refresh tokens y políticas granulares basadas en claims."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "advanced-asp-net-core-8-security-2nd-edition-2024": {
+    "descripcion": "Segunda edición completamente actualizada que cubre las características de seguridad más avanzadas de ASP.NET Core 8 y .NET 8. Scott Norberg explica cómo mitigar amenazas contemporáneas aplicando principios de Zero Trust y mejores prácticas de ciberseguridad en arquitecturas cloud y microservicios.\n\nLa obra examina los nuevos endpoints de autenticación simplificados de ASP.NET Core 8, mitigación de vulnerabilidades de deserialización, gestión de identidades con Duende Software / Keycloak, hashing de contraseñas resistente a cuántica, rate limiting nativo y aislamiento de procesos en contenedores Docker y Kubernetes. También se detalla el uso de Azure Key Vault y proveedores de configuración cifrados.\n\nDirigido a ingenieros senior y líderes técnicos que necesitan certificar el cumplimiento de estándares de seguridad estrictos en aplicaciones corporativas de alto tráfico construidas con .NET 8.",
+    "temas": [
+      "ASP.NET Core 8",
+      ".NET 8",
+      "Zero Trust",
+      "Ciberseguridad",
+      "Keycloak",
+      "Rate Limiting",
+      "Azure Key Vault",
+      "Microservicios"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura Zero Trust para microservicios con ASP.NET Core 8",
+        "descripcion": "Desarrollo de un ecosistema de APIs con autenticación mTLS, inspección de tokens delegados y auditoría inmutable de accesos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "asp-net-core-recipes-2nd-edition-2017": {
+    "descripcion": "Colección pragmática de soluciones y patrones de código para resolver los desafíos cotidianos más frecuentes al construir aplicaciones web con ASP.NET Core. Presentado en formato de recetario de problemas y soluciones, el texto guía al programador a través de casos reales de desarrollo rápido y eficiente.\n\nLos capítulos exploran desde el enrutamiento avanzado, controladores MVC y renderizado de vistas Razor, hasta la inyección de dependencias, configuración modular multiplataforma, integración con Entity Framework Core y consumo de APIs externas. Incluye recetas para manejo de sesiones, caching distribuido en Redis y despliegues en servidores Linux y Windows.\n\nIdeal para desarrolladores con experiencia previa en .NET Framework que requieren una referencia rápida para migrar y adoptar productivamente los nuevos paradigmas de ASP.NET Core.",
+    "temas": [
+      "ASP.NET Core",
+      "Recetas de Código",
+      "MVC",
+      "Dependency Injection",
+      "Entity Framework Core",
+      "Razor",
+      "Redis",
+      "Despliegue Multiplataforma"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "beginning-grpc-with-asp-net-core-6-2022": {
+    "descripcion": "Introducción integral a gRPC y Protocol Buffers en el ecosistema .NET 6, demostrando cómo crear servicios distribuidos de ultrabaja latencia y alto rendimiento. El autor presenta la especificación gRPC y su contraste con las arquitecturas REST tradicionales en escenarios empresariales.\n\nEl libro detalla el diseño de contratos con archivos .proto, la generación automática de clientes y stubs de servidor en C#, y la implementación de los cuatro tipos de comunicación: RPC unario, streaming del servidor, streaming del cliente y streaming bidireccional. Además, aborda streaming de telemetría, balanceo de carga, interceptores y securización de canales gRPC con TLS.\n\nRecomendado para desarrolladores backend y arquitectos de microservicios que buscan optimizar la comunicación entre servicios internos mediante serialización binaria ultrarrápida con ASP.NET Core 6.",
+    "temas": [
+      "gRPC",
+      "ASP.NET Core 6",
+      ".NET 6",
+      "Protocol Buffers",
+      "Microservicios",
+      "Streaming RPC",
+      "mTLS",
+      "Interceptors"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de telemetría en streaming de alta velocidad",
+        "descripcion": "Construcción de un servicio gRPC bidireccional para monitoreo de métricas de servidores en tiempo real con clientes .NET."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "beginning-solid-principles-and-design-patterns-for-asp-net-developers-2016": {
+    "descripcion": "Tratado didáctico enfocado en elevar la calidad del código en aplicaciones ASP.NET mediante los cinco principios SOLID y patrones de diseño clásicos de la banda de los cuatro (GoF). El libro enseña a crear sistemas desacoplados, testeables y fáciles de mantener a largo plazo.\n\nBipin Joshi ilustra cada principio (responsabilidad única, abierto/cerrado, sustitución de Liskov, segregación de interfaces e inversión de dependencias) con ejemplos directos en C#. Asimismo, cubre patrones creacionales (Factory, Singleton), estructurales (Adapter, Decorator) y de comportamiento (Observer, Strategy, Command), adaptados al ciclo de vida de peticiones HTTP en ASP.NET.\n\nUn recurso fundamental para programadores junior e intermedios que desean consolidar fundamentos sólidos de diseño orientado a objetos y escribir software empresarial mantenible.",
+    "temas": [
+      "SOLID",
+      "Patrones de Diseño",
+      "ASP.NET",
+      "C#",
+      "Inversión de Dependencias",
+      "Refactorización",
+      "Clean Code",
+      "Arquitectura"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Módulo de procesamiento de pedidos desacoplado",
+        "descripcion": "Refactorización integral de un sistema de facturación y notificaciones aplicando principios SOLID y patrones Strategy y Factory."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "beginning-visual-studio-for-mac-2017": {
+    "descripcion": "Guía práctica para desarrolladores macOS que desean aprovechar el entorno de desarrollo integrado Visual Studio for Mac para crear soluciones modernas multiplataforma con .NET Core, C# y Xamarin. Alessandro Del Sole ofrece un recorrido paso a paso por las herramientas nativas del IDE.\n\nEl temario abarca la configuración inicial del entorno, navegación y gestión de proyectos, depuración visual avanzada, integración de control de versiones con Git y pruebas unitarias. Se exploran flujos de desarrollo para APIs web ASP.NET Core, aplicaciones de consola y clientes móviles con Xamarin.Forms.\n\nAdecuado para desarrolladores que trabajan en entornos Apple y buscan dominar la suite de herramientas de desarrollo de Microsoft en Mac para construir software backend y móvil.",
+    "temas": [
+      "Visual Studio for Mac",
+      ".NET Core",
+      "C#",
+      "macOS",
+      "Depuración",
+      "Git",
+      "Xamarin.Forms",
+      "ASP.NET Core"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Solución multiplataforma con API ASP.NET Core y cliente móvil",
+        "descripcion": "Creación, depuración y empaquetado de un servicio web REST y una app móvil en macOS usando Visual Studio for Mac."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "building-single-page-applications-in-net-core-3-2020": {
+    "descripcion": "Manual conciso y directo para integrar arquitecturas de aplicaciones de página única (SPA) con el backend de ASP.NET Core 3. El texto muestra cómo articular la velocidad y fluidez del frontend moderno con la robustez y seguridad del ecosistema .NET.\n\nEl autor repasa la configuración del middleware de SPA en ASP.NET Core, el uso de plantillas integradas con Angular y React, y la comunicación cliente-servidor mediante APIs REST y SignalR para actualizaciones en tiempo real. Se estudian patrones de autenticación, manejo de estado y optimizaciones en el empaquetado y entrega de assets estáticos.\n\nMuy útil para desarrolladores full-stack que buscan coordinar eficientemente sus frameworks JavaScript con soluciones backend en .NET Core 3.",
+    "temas": [
+      "SPA",
+      "ASP.NET Core 3",
+      "Angular",
+      "React",
+      "SignalR",
+      "REST APIs",
+      "Full Stack",
+      "Web Development"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "SPA interactiva con backend reactivo en .NET Core 3",
+        "descripcion": "Desarrollo completo de un tablero de gestión con frontend React/Angular alimentado por ASP.NET Core y SignalR."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "building-web-applications-with-net-core-2-1-and-javascript-2nd-edition-2019": {
+    "descripcion": "Guía integral orientada al desarrollo web moderno que combina la potencia de .NET Core 2.1 con tecnologías de vanguardia del ecosistema JavaScript. Los autores exponen cómo diseñar soluciones web escalables aprovechando lo mejor de ambos entornos.\n\nEl contenido cubre la construcción de APIs RESTful en ASP.NET Core, patrones de consumo con Vue, React y Angular, gestión del estado del cliente, empaquetado con Webpack y persistencia de datos mediante Entity Framework Core. También se analizan flujos de integración continua, pruebas de integración y despliegues en Azure App Service.\n\nDiseñado para equipos de desarrollo full-stack que necesitan unificar herramientas de frontend y backend en un flujo de trabajo cohesivo y profesional.",
+    "temas": [
+      ".NET Core 2.1",
+      "JavaScript",
+      "ASP.NET Core",
+      "Webpack",
+      "Vue",
+      "React",
+      "EF Core",
+      "Azure App Service"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación web corporativa full-stack",
+        "descripcion": "Construcción de un portal comercial con frontend JavaScript desacoplado y micro-APIs en ASP.NET Core 2.1 sobre base de datos relacional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "building-web-applications-with-visual-studio-2017-2017": {
+    "descripcion": "Manual exhaustivo sobre el uso de Visual Studio 2017 para la creación de aplicaciones web empresariales modernas utilizando el nuevo paradigma de .NET Core y la nube de Azure. El libro desmitifica las nuevas capacidades del IDE más utilizado en el entorno Microsoft.\n\nSe analizan a fondo las mejoras de productividad en el editor de código, el soporte para contenedores Docker nativos, diagnóstico de rendimiento en vivo y la integración fluida con herramientas de front-end como npm y Gulp. Asimismo, abarca la creación de APIs REST, autenticación Azure AD y pruebas automatizadas con MSTest y xUnit.\n\nIdeal para desarrolladores y administradores de proyectos que buscaban maximizar el rendimiento y las nuevas capacidades colaborativas de Visual Studio 2017.",
+    "temas": [
+      "Visual Studio 2017",
+      ".NET Core",
+      "Azure",
+      "Docker",
+      "Web Development",
+      "Debugging",
+      "Testing",
+      "APIs"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema web empresarial con contenedores en VS 2017",
+        "descripcion": "Configuración y despliegue de una solución con base de datos, servicio API y frontend empaquetados en contenedores Docker."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "coding-clean-reliable-and-safe-rest-apis-with-asp-net-core-8-2023": {
+    "descripcion": "Guía práctica de nivel profesional para diseñar y construir APIs REST limpias, tolerantes a fallos y altamente seguras utilizando ASP.NET Core 8 y C# 12. Anthony Giretti vuelca años de experiencia en la ingeniería de servicios de producción de nivel empresarial.\n\nEl temario aborda el diseño de contratos bajo OpenAPI y Swagger, implementación de Minimal APIs frente a controladores, validaciones fluidas con FluentValidation, manejo centralizado de excepciones mediante Problem Details (RFC 7807), autenticación con JWT y mitigación de amenazas con rate limiting y cabeceras de seguridad. Incluye patrones de caching con Redis y observabilidad con OpenTelemetry.\n\nIndispensable para ingenieros de software backend que desean aplicar arquitectura limpia y prácticas de código defensivo al construir APIs de misión crítica en .NET 8.",
+    "temas": [
+      "ASP.NET Core 8",
+      ".NET 8",
+      "REST APIs",
+      "Clean Architecture",
+      "Minimal APIs",
+      "FluentValidation",
+      "OpenTelemetry",
+      "Seguridad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API REST empresarial lista para producción",
+        "descripcion": "Implementación de un servicio bancario con validaciones rigurosas, Problem Details, OpenTelemetry, rate limiting y pruebas unitarias completas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "devsecops-for-net-core-2020": {
+    "descripcion": "Tratado fundamental sobre la convergencia entre desarrollo, seguridad y operaciones (DevSecOps) en el ciclo de vida de aplicaciones construidas con .NET Core. El autor detalla cómo trasladar la seguridad hacia la izquierda (shift-left security) en pipelines de entrega continua.\n\nSe estudian técnicas de análisis estático de código (SAST) con SonarQube, análisis de dependencias vulnerables (SCA) con OWASP Dependency-Check, integración de escaneo dinámico (DAST) y auditoría de contenedores Docker en pipelines de Azure DevOps y GitHub Actions. También aborda la gestión criptográfica de secretos con HashiCorp Vault y Azure Key Vault.\n\nDirigido a ingenieros DevOps, arquitectos de software y líderes de seguridad que buscan automatizar la verificación de vulnerabilidades en proyectos .NET Core.",
+    "temas": [
+      "DevSecOps",
+      ".NET Core",
+      "CI/CD",
+      "Azure DevOps",
+      "GitHub Actions",
+      "SonarQube",
+      "Docker",
+      "Seguridad de Contenedores"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline DevSecOps automatizado en Azure DevOps",
+        "descripcion": "Creación de un flujo de CI/CD que compila una solución .NET Core, ejecuta análisis SAST/SCA e interrumpe el despliegue ante fallos críticos de seguridad."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "exploring-the-net-core-3-0-runtime-2019": {
+    "descripcion": "Inmersión técnica de bajo nivel en las entrañas del runtime de .NET Core 3.0 (CoreCLR), desentrañando su arquitectura interna, ejecución de código y gestión de recursos. Roger Villela ofrece una perspectiva profunda sobre cómo opera el motor de ejecución multiplataforma.\n\nEl libro disecciona el compilador Just-In-Time (JIT) RyuJIT, las fases de recolección de basura (Garbage Collector), optimizaciones de memoria con Span<T> y Memory<T>, la carga de ensamblados mediante AssemblyLoadContext y la interoperabilidad nativa con librerías en C y C++ (P/Invoke). También se exploran los diagnósticos de rendimiento a través de EventPipe.\n\nLectura avanzada indispensable para programadores de sistemas y desarrolladores senior que requieren extraer el máximo rendimiento de hardware en aplicaciones críticas.",
+    "temas": [
+      ".NET Core 3.0",
+      "CoreCLR",
+      "RyuJIT",
+      "Garbage Collection",
+      "Span<T>",
+      "AssemblyLoadContext",
+      "P/Invoke",
+      "Performance"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mastering-asp-net-core-10-2025": {
+    "descripcion": "Obra magna y exhaustiva sobre la versión más moderna y puntera de ASP.NET Core 10, proyectando las tendencias del desarrollo web en la nube y el procesamiento asistido por inteligencia artificial. El texto recorre la plataforma con un nivel de profundidad sin precedentes.\n\nEl autor cubre los últimos refinamientos en rendimiento de .NET 10, optimización AOT (Ahead-Of-Time), integración nativa con agentes LLM y modelos generativos mediante Semantic Kernel, arquitecturas de microservicios distribuidas con .NET Aspire, streaming gRPC HTTP/3 y resiliencia con Polly. Se detalla la observabilidad integral mediante OpenTelemetry y métricas cloud-native.\n\nEs el recurso de referencia definitivo para arquitectos principales e ingenieros de software que construyen la próxima generación de aplicaciones empresariales masivamente escalables.",
+    "temas": [
+      "ASP.NET Core 10",
+      ".NET 10",
+      ".NET Aspire",
+      "Native AOT",
+      "HTTP/3",
+      "Semantic Kernel",
+      "Microservicios",
+      "OpenTelemetry"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma distribuida inteligente con .NET Aspire y ASP.NET Core 10",
+        "descripcion": "Diseño de un sistema de microservicios con orquestación distribuida, agentes inteligentes generativos y compilación Native AOT para máxima densidad."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "modern-api-design-with-asp-net-core-2-2018": {
+    "descripcion": "Guía especializada en el diseño arquitectónico de interfaces de programación de aplicaciones RESTful con ASP.NET Core 2. Fanie Reynders analiza las convenciones y patrones indispensables para construir servicios web limpios, estandarizados y fáciles de consumir.\n\nSe exploran conceptos fundamentales como el diseño centrado en recursos, versionado de APIs mediante URLs y cabeceras, negociación de contenido, formateadores personalizados, documentación viva con Swagger/OpenAPI y manejo uniforme de errores. También se cubren estrategias de autorización con JWT y pruebas de integración con TestServer.\n\nRecomendado para desarrolladores web y backend que desean implementar interfaces de servicios consistentes y amigables para desarrolladores frontend y móviles.",
+    "temas": [
+      "ASP.NET Core 2",
+      "API REST",
+      "Swagger",
+      "Versionado",
+      "Content Negotiation",
+      "JWT",
+      "Swagger",
+      "TestServer"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API pública versionada con ASP.NET Core 2",
+        "descripcion": "Creación de un servicio REST con soporte multi-versión (v1/v2), documentación Swagger interactiva y filtros globales de validación."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "modernizing-net-web-applications-2024": {
+    "descripcion": "Estrategia integral y metodológica para actualizar aplicaciones heredadas escritas en ASP.NET Web Forms y MVC clásico hacia la plataforma moderna y multiplataforma de .NET 8+. Tomas Herceg comparte soluciones comprobadas en migraciones complejas del mundo real.\n\nEl libro detalla el uso del .NET Upgrade Assistant, estrategias de migración gradual utilizando el patrón Strangler Fig (estrangulamiento), desacoplamiento de dependencias de System.Web, modernización de capas de acceso a datos de EDMX a EF Core y alternativas modernas para UI como DotVVM y Blazor. Además, muestra cómo contenerizar aplicaciones durante la transición.\n\nUna lectura vital para arquitectos de software, consultores y gerentes de ingeniería responsables de modernizar sistemas legados sin detener la operación del negocio.",
+    "temas": [
+      "Modernización",
+      ".NET 8",
+      "ASP.NET Web Forms",
+      "Strangler Fig",
+      "EF Core",
+      "Upgrade Assistant",
+      "DotVVM",
+      "Docker"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Migración incremental de un monolito Web Forms a ASP.NET Core",
+        "descripcion": "Implementación de una arquitectura híbrida con proxy inverso YARP para migrar pantallas y servicios de negocio hacia .NET moderno gradualmente."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-asp-net-core-3-8th-edition-2020": {
+    "descripcion": "La octava edición del tratado canónico de Adam Freeman sobre ASP.NET Core 3, considerado el estándar de facto para aprender a fondo el framework web de Microsoft. El texto destaca por su claridad didáctica, rigor conceptual y ejemplos de código completos.\n\nEl manual analiza con maestría el pipeline de solicitudes HTTP, el sistema de inyección de dependencias, configuración modular, controladores MVC, Razor Pages, componentes de vista y routing de endpoints. También profundiza en Entity Framework Core 3, seguridad, Blazor Server introductorio y despliegues tanto en IIS como en servidores Linux con Nginx.\n\nUna obra indispensable tanto para desarrolladores noveles que desean dominar el framework desde sus cimientos como para veteranos que buscan una referencia técnica de cabecera.",
+    "temas": [
+      "ASP.NET Core 3",
+      "Adam Freeman",
+      "Razor Pages",
+      "MVC",
+      "Dependency Injection",
+      "EF Core 3",
+      "Blazor Server",
+      "Linux"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de comercio electrónico 'SportsStore'",
+        "descripcion": "Construcción exhaustiva de una tienda en línea con catálogo de productos, carrito de compras, checkout seguro y panel de administración."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-asp-net-core-6-9th-edition-2022": {
+    "descripcion": "Novena edición de la influyente obra de Adam Freeman, actualizada para reflejar las profundas transformaciones introducidas en .NET 6 y ASP.NET Core 6. Freeman analiza el modelo de hosting unificado y el nuevo paradigma de Minimal APIs.\n\nEl contenido disecciona la unificación de Program.cs y Startup.cs, el compilador C# 10 con directivas using implícitas y tipos de referencia nullables, Razor Pages, controladores Web API y la arquitectura de componentes Blazor. Además, abarca tests unitarios y de integración con xUnit y Moq, persistencia con EF Core 6 y optimización de rendimiento.\n\nEl texto de referencia absoluto para cualquier programador profesional que busque una comprensión profunda y rigurosa de las bases de .NET 6 en el desarrollo web moderno.",
+    "temas": [
+      "ASP.NET Core 6",
+      ".NET 6",
+      "Minimal APIs",
+      "C# 10",
+      "Razor Pages",
+      "Blazor",
+      "EF Core 6",
+      "xUnit"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación comercial moderna SportsStore en .NET 6",
+        "descripcion": "Implementación completa de la clásica solución SportsStore reimaginada con Minimal APIs, Blazor y Entity Framework Core 6."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-asp-net-core-identity-2021": {
+    "descripcion": "Guía especializada de Adam Freeman centrada exclusivamente en el subsistema de identidad y seguridad de usuarios en ASP.NET Core: ASP.NET Core Identity. El libro resuelve las dudas más complejas sobre autenticación y gestión de usuarios.\n\nEl autor expone cómo configurar los almacenes de usuario con Entity Framework Core, personalizar las entidades de usuario y rol, implementar autenticación de dos factores (2FA) mediante aplicaciones autenticadoras y SMS, bloqueo por intentos fallidos y recuperación segura de cuentas. También se explica la integración con proveedores OAuth externos como Google y Microsoft.\n\nUn manual imprescindible para desarrolladores backend que necesitan implementar flujos de registro, inicio de sesión y gestión de credenciales con estándares de seguridad industriales.",
+    "temas": [
+      "ASP.NET Core Identity",
+      "Autenticación",
+      "2FA",
+      "Entity Framework Core",
+      "OAuth",
+      "Claims",
+      "Roles",
+      "Seguridad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal de gestión de identidades con 2FA",
+        "descripcion": "Desarrollo de un sistema de membresía corporativo con verificación en dos pasos por QR, confirmación de correo y administración de roles."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "real-time-web-application-development-2017": {
+    "descripcion": "Manual práctico sobre la construcción de aplicaciones web en tiempo real utilizando SignalR en el ecosistema .NET. Rami Vemula introduce los conceptos esenciales de comunicación bidireccional y persistente entre clientes y servidores.\n\nEl temario aborda el transporte subyacente (WebSockets, Server-Sent Events, Long Polling) y cómo SignalR abstrae la selección óptima del canal. Se enseña a estructurar Hubs, emitir mensajes dirigidos a grupos de usuarios específicos, escalar SignalR horizontalmente utilizando backplanes con Redis o Azure Service Bus y conectar clientes web y móviles.\n\nRecomendado para desarrolladores que buscan implementar tableros de control en vivo, chats colaborativos y notificaciones instantáneas en aplicaciones .NET.",
+    "temas": [
+      "SignalR",
+      ".NET Core",
+      "WebSockets",
+      "Tiempo Real",
+      "Redis Backplane",
+      "Hubs",
+      "JavaScript Client",
+      "Escalabilidad"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sala de chat colaborativa con tablero de métricas en tiempo real",
+        "descripcion": "Creación de una aplicación con notificaciones instantáneas y actualización gráfica de indicadores sincronizada con SignalR."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "understanding-system-io-for-net-core-3-2020": {
+    "descripcion": "Estudio minucioso de la biblioteca System.IO en .NET Core 3, orientado al procesamiento eficiente de flujos de datos, archivos y operaciones de entrada/salida de alto rendimiento. Roger Villela explica cómo gestionar I/O sin penalizar el rendimiento del sistema.\n\nSe analizan flujos asíncronos (Pipelines, System.IO.Pipelines), buffers de memoria reutilizables con ArrayPool, lectura y escritura de archivos grandes, compresión de streams, serialización binaria y el nuevo motor System.Text.Json con lectura basada en spans sin alocación. Además, examina la manipulación de directorios y permisos multiplataforma.\n\nIndispensable para programadores backend y creadores de librerías que manejan ingesta masiva de archivos, sockets de red y optimizaciones de bajo consumo de memoria.",
+    "temas": [
+      "System.IO",
+      ".NET Core 3",
+      "System.IO.Pipelines",
+      "ArrayPool",
+      "Streams",
+      "System.Text.Json",
+      "Asynchronous I/O",
+      "Buffers"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mastering-asp-net-core-security-2021": {
+    "descripcion": "Tratado avanzado sobre ciberseguridad aplicada al desarrollo web con ASP.NET Core, escrito para preparar a ingenieros de software ante amenazas cibernéticas modernas. Roman Provaznik examina cómo construir defensas activas y estructuradas en cada capa de la aplicación.\n\nEl autor aborda criptografía aplicada (AES, RSA, hashing seguro con Argon2 y PBKDF2), autenticación federada con OAuth 2.0 y OpenID Connect, autorización basada en directivas complejas y protección contra vulnerabilidades del Top 10 de OWASP. También se explican mecanismos de auditoría, registro forense de eventos y pruebas automatizadas de penetración.\n\nUn manual fundamental para desarrolladores senior y consultores de seguridad que protegen aplicaciones financieras y corporativas construidas en ASP.NET Core.",
+    "temas": [
+      "ASP.NET Core",
+      "Ciberseguridad",
+      "Criptografía",
+      "OWASP",
+      "OAuth 2.0",
+      "Auditoría",
+      "Penetration Testing",
+      "Seguridad Backend"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de seguridad para servicios financieros",
+        "descripcion": "Implementación de una API con cifrado de campos de datos, auditoría inmutable de accesos y prevención activa de ataques de fuerza bruta."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "api-development-in-asp-net-core-web-api-2023": {
+    "descripcion": "Guía práctica y metódica para crear interfaces de programación de aplicaciones RESTful con ASP.NET Core Web API y C#. Joydip Kanjilal expone cómo transitar desde los requisitos de negocio hasta servicios en producción con alta disponibilidad y mantenibilidad.\n\nEl libro cubre la arquitectura basada en controladores y Minimal APIs, enrutamiento semántico, inyección de dependencias, mapeo de objetos con AutoMapper, validaciones con FluentValidation y acceso a datos relacionales con Dapper y EF Core. Asimismo, explora estrategias de caching distribuido, versionado de APIs y generación de documentación con Swagger.\n\nRecomendado para desarrolladores que desean dominar el ciclo de vida completo de creación de APIs modernas en entornos empresariales con .NET.",
+    "temas": [
+      "ASP.NET Core",
+      "Web API",
+      "RESTful",
+      "AutoMapper",
+      "FluentValidation",
+      "Dapper",
+      "EF Core",
+      "Swagger"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API de gestión de inventarios y logística",
+        "descripcion": "Desarrollo de un servicio Web API desacoplado con Dapper, caching distribuido con Redis y pruebas automatizadas con xUnit."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "hallo-net-8-practical-asp-net-core-minimal-api-2023": {
+    "descripcion": "Enfoque eminentemente práctico para dominar el desarrollo ágil de APIs web utilizando la arquitectura de Minimal APIs introducida y madurada en .NET 8. Hendry Luk muestra cómo construir microservicios rápidos y limpios con una mínima sobrecarga de código de plantilla.\n\nEl contenido incluye la definición concisa de rutas con MapGet y MapPost, validación de parámetros y payloads, inyección de dependencias por método, autenticación basada en JWT y configuración de filtros de endpoints (Endpoint Filters) para validación y logging. También se tratan pruebas de integración ultrarrápidas con WebApplicationFactory.\n\nIdeal para desarrolladores que prefieren un estilo funcional y directo, similar a Express.js o FastAPI, sin renunciar al rendimiento nativo de .NET 8.",
+    "temas": [
+      ".NET 8",
+      "Minimal APIs",
+      "ASP.NET Core",
+      "Endpoint Filters",
+      "Microservicios",
+      "JWT",
+      "WebApplicationFactory",
+      "Clean Code"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Microservicio de catálogo ligero con Minimal APIs",
+        "descripcion": "Construcción de una API de alto rendimiento con validación mediante filtros de endpoint y pruebas de integración automáticas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "net-core-in-action-2018": {
+    "descripcion": "Guía seminal de Dustin Metzgar que desentraña los conceptos fundamentales de la arquitectura multiplataforma de .NET Core desde sus primeras versiones. El libro enseña a escribir código portable y modular capaz de ejecutarse indistintamente en Windows, Linux y macOS.\n\nEl autor detalla la estructura del CLI de .NET (`dotnet new`, `build`, `publish`), la separación entre .NET Standard y los runtimes específicos, la compilación de paquetes NuGet, y la creación de herramientas de línea de comandos robustas. También aborda el despliegue de microservicios contenerizados en Docker.\n\nUna lectura histórica y técnica muy valiosa para comprender la filosofía de diseño detrás del renacimiento multiplataforma y de código abierto de .NET.",
+    "temas": [
+      ".NET Core",
+      "Multiplataforma",
+      ".NET CLI",
+      ".NET Standard",
+      "Docker",
+      "NuGet",
+      "Microservicios",
+      "Linux"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Herramienta CLI multiplataforma distribuida como herramienta global de .NET",
+        "descripcion": "Desarrollo de una utilidad de procesamiento de archivos por línea de comandos empaquetada como NuGet Global Tool y ejecutable en Linux y Windows."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "asp-net-core-in-action-2018": {
+    "descripcion": "Tratado exhaustivo de Andrew Lock que se convirtió rápidamente en la guía de cabecera definitiva para aprender ASP.NET Core desde cero. El autor desmenuza la arquitectura interna del framework mediante explicaciones lúcidas y diagramas sumamente claros.\n\nEl libro guía al lector a través de la anatomía de una aplicación web, la pipeline de middlewares, el sistema de inyección de dependencias, configuración de entornos, Razor Pages, controladores MVC, autenticación y persistencia con Entity Framework Core. También aborda el despliegue en entornos Linux y Azure.\n\nIndispensable para desarrolladores que desean dominar no solo cómo usar las herramientas de ASP.NET Core, sino cómo funcionan internamente cada una de sus piezas.",
+    "temas": [
+      "ASP.NET Core",
+      "Andrew Lock",
+      "Middlewares",
+      "Inyección de Dependencias",
+      "Razor Pages",
+      "MVC",
+      "Entity Framework Core",
+      "Linux"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación web completa con gestión de usuarios y productos",
+        "descripcion": "Construcción progresiva de una solución web con autenticación, persistencia relacional y pipeline de procesamiento personalizado."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "asp-net-core-in-action-2nd-edition-2021": {
+    "descripcion": "Segunda edición ampliamente revisada y expandida del clásico de Andrew Lock, actualizada para cubrir las versiones .NET Core 3.1 y .NET 5. Incluye más de 100 páginas de contenido nuevo sobre arquitecturas de APIs y mejoras de rendimiento.\n\nEl autor examina el enrutamiento de endpoints, la separación modular de servicios, gRPC en .NET, creación de servicios en segundo plano con IHostedService, integración de OpenAPI/Swagger y mejoras en el compilador de C#. Asimismo, detalla estrategias de testing unitario y funcional con WebApplicationFactory.\n\nRecomendado para programadores intermedios y avanzados que buscan una referencia técnica autorizada y detallada sobre el ecosistema .NET unificado.",
+    "temas": [
+      "ASP.NET Core",
+      ".NET 5",
+      "Andrew Lock",
+      "Endpoint Routing",
+      "gRPC",
+      "IHostedService",
+      "OpenAPI",
+      "WebApplicationFactory"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Microservicio empresarial con endpoints y tareas en background",
+        "descripcion": "Desarrollo de una arquitectura con procesamiento asíncrono en cola (IHostedService), endpoints HTTP documentados con Swagger y tests de integración."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "asp-net-core-in-action-3rd-edition-2023": {
+    "descripcion": "Tercera edición de la aclamada obra maestra de Andrew Lock, completamente actualizada para .NET 7 y .NET 8. Freeman y Lock ofrecen una visión magistral sobre las arquitecturas modernas en la plataforma web de Microsoft.\n\nEsta edición cubre a fondo Minimal APIs, generación de código con interceptores y source generators, autenticación simplificada, rate limiting nativo, renderizado del lado del servidor (SSR) y streaming. También aborda contenedores Docker ligeros, despliegue en Kubernetes y observabilidad con OpenTelemetry.\n\nLa guía de referencia por excelencia para cualquier ingeniero que desee dominar ASP.NET Core moderno con la máxima rigurosidad técnica.",
+    "temas": [
+      "ASP.NET Core 8",
+      ".NET 8",
+      "Minimal APIs",
+      "Rate Limiting",
+      "OpenTelemetry",
+      "Docker",
+      "Source Generators",
+      "Andrew Lock"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma web nativa de la nube en .NET 8",
+        "descripcion": "Implementación de un sistema cloud-ready con Minimal APIs, observabilidad distribuida, rate limiting y despliegue en contenedores optimizados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "asp-net-core-razor-pages-in-action-2022": {
+    "descripcion": "Guía especializada de Mike Brind enfocada íntegramente en Razor Pages, el enfoque simplificado y centrado en páginas de ASP.NET Core para crear aplicaciones web dinámicas basadas en servidor sin la sobrecarga del patrón MVC tradicional.\n\nEl texto detalla el modelo de enlace de datos bidireccional (Model Binding), validaciones del modelo, handlers OnGet y OnPost, reutilización de vistas con Tag Helpers y View Components, y persistencia con EF Core. También se explica la gestión de sesiones, seguridad contra CSRF y diseño responsivo.\n\nIdeal para desarrolladores web que buscan construir aplicaciones orientadas a formularios y contenidos con rapidez, claridad de código y alta productividad.",
+    "temas": [
+      "Razor Pages",
+      "ASP.NET Core",
+      "Model Binding",
+      "Tag Helpers",
+      "View Components",
+      "EF Core",
+      "Validación",
+      "Web Forms Alternative"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal de gestión y reservas comerciales en Razor Pages",
+        "descripcion": "Construcción completa de una aplicación web administrativa con validaciones avanzadas, subida de archivos y paneles interactivos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "asp-net-core-security-2022": {
+    "descripcion": "Manual exhaustivo y práctico de Christian Wenz dedicado a la protección contra amenazas, mitigación de vulnerabilidades y buenas prácticas de ciberseguridad en ASP.NET Core. El autor guía al desarrollador a través de ataques reales y sus contramedidas de código.\n\nSe exploran en detalle ataques de inyección (SQL, NoSQL, comandos), Cross-Site Scripting (XSS), falsificación de peticiones en sitios cruzados (CSRF), clickjacking y ataques de deserialización insegura. Además, profundiza en políticas CSP (Content Security Policy), autenticación multifactor, cifrado en reposo y gestión segura de secretos.\n\nLectura obligatoria para profesionales del desarrollo web que deben garantizar que sus soluciones cumplan los requisitos de auditoría y seguridad más exigentes.",
+    "temas": [
+      "Seguridad Web",
+      "ASP.NET Core",
+      "OWASP",
+      "XSS",
+      "CSRF",
+      "Content Security Policy",
+      "Criptografía",
+      "Auditoría"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Bastionado de seguridad para un portal de comercio electrónico",
+        "descripcion": "Auditoría, corrección de brechas e implementación de cabeceras de seguridad estrictas, CSP y protección CSRF avanzada."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-asp-net-core-7-10th-edition-2023": {
+    "descripcion": "Décima edición de la monumental guía de Adam Freeman, adaptada meticulosamente a las características y mejoras introducidas en .NET 7 y ASP.NET Core 7. El volumen proporciona una cobertura exhaustiva de la arquitectura del framework web.\n\nFreeman explica a fondo las novedades de Minimal APIs con filtros de endpoint, mejoras en el enlace de parámetros, streaming de resultados, optimizaciones en Razor Pages y Blazor, y el soporte para HTTP/3. También profundiza en pruebas automatizadas con xUnit, patrones de inyección de dependencias y persistencia avanzada con Entity Framework Core 7.\n\nUna referencia técnica indispensable tanto para principiantes ambiciosos como para arquitectos senior que necesitan una guía confiable de la plataforma .NET 7.",
+    "temas": [
+      "ASP.NET Core 7",
+      ".NET 7",
+      "Adam Freeman",
+      "Minimal APIs",
+      "HTTP/3",
+      "Razor Pages",
+      "Blazor",
+      "EF Core 7"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma SportsStore sobre ASP.NET Core 7",
+        "descripcion": "Implementación de una tienda web de escala empresarial que incorpora Minimal APIs, Blazor y Entity Framework Core 7."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "an-atypical-asp-net-core-6-design-patterns-guide-2nd-edition-2022": {
+    "descripcion": "Segunda edición de la innovadora guía de Carl-Hugo Marcotte y Abdelhamid Zebdi, que trasciende la simple teoría de patrones para enseñar cómo aplicar patrones de diseño modernos y arquitecturas desacopladas en el contexto nativo de ASP.NET Core 6.\n\nLos autores revisan patrones clásicos (Decorator, Strategy, Adapter) y patrones arquitectónicos contemporáneos como Vertical Slice Architecture, CQRS (Command Query Responsibility Segregation) con MediatR, Domain-Driven Design (DDD) táctico y el patrón Options. El libro hace especial hincapié en la testabilidad y el mantenimiento continuo.\n\nIdeal para desarrolladores experimentados de C# que buscan escribir código más limpio, modular y resiliente en aplicaciones web y microservicios complejos.",
+    "temas": [
+      "Patrones de Diseño",
+      "ASP.NET Core 6",
+      "CQRS",
+      "MediatR",
+      "Vertical Slice Architecture",
+      "DDD",
+      "Dependency Injection",
+      "Clean Code"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura en Vertical Slices con CQRS",
+        "descripcion": "Desarrollo de un backend empresarial organizado por casos de uso verticales utilizando MediatR, FluentValidation y EF Core."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "apps-and-services-with-net-7-2022": {
+    "descripcion": "Manual práctico y completo de Mark J. Price centrado en la construcción de servicios especializados y aplicaciones distribuidas sobre .NET 7 y C# 11. El autor combina teoría concisa con proyectos prácticos del mundo profesional.\n\nEl libro cubre la creación de servicios web con ASP.NET Core, gRPC de alta velocidad, streaming en tiempo real con SignalR, microservicios con mensajería distribuida (RabbitMQ y Azure Service Bus), caching distribuido con Redis y clientes gráficos multiplataforma con .NET MAUI y Blazor.\n\nRecomendado para desarrolladores que dominan los conceptos básicos de C# y desean dar el salto hacia el desarrollo de soluciones integrales distribuidas en la nube.",
+    "temas": [
+      ".NET 7",
+      "C# 11",
+      "Mark J. Price",
+      "gRPC",
+      "SignalR",
+      "RabbitMQ",
+      "Redis",
+      ".NET MAUI"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Ecosistema de microservicios con mensajería y caché distribuida",
+        "descripcion": "Construcción de una suite de servicios conectados mediante RabbitMQ, APIs REST documentadas y caché compartida con Redis."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "apps-and-services-with-net-8-2nd-edition-2023": {
+    "descripcion": "Segunda edición actualizada del libro de referencia de Mark J. Price, adaptada a las nuevas funcionalidades y optimizaciones de .NET 8 y C# 12. Se centra en el desarrollo de servicios web modernos y arquitecturas orientadas a eventos.\n\nEl temario explora el diseño de Minimal APIs de alto rendimiento, comunicación RPC binaria con gRPC, integración de colas de mensajes con RabbitMQ y Kafka, bases de datos relacionales y NoSQL, y creación de aplicaciones ricas para escritorio y móvil con .NET MAUI. Asimismo, aborda la observabilidad cloud-native.\n\nUna excelente guía integral para ingenieros que necesitan construir servicios backend robustos, testeables y listos para su despliegue en entornos productivos.",
+    "temas": [
+      ".NET 8",
+      "C# 12",
+      "Mark J. Price",
+      "Minimal APIs",
+      "gRPC",
+      "Kafka",
+      "RabbitMQ",
+      ".NET MAUI"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de servicios distribuidos con mensajería asíncrona",
+        "descripcion": "Diseño de un sistema de procesamiento de pagos y notificaciones utilizando Minimal APIs, eventos en Kafka y base de datos relacional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "architecting-asp-net-core-applications-2024": {
+    "descripcion": "Tratado avanzado de Carl-Hugo Marcotte sobre el diseño arquitectónico de aplicaciones de nivel corporativo en ASP.NET Core y .NET 8. El autor presenta metodologías prácticas para gestionar la complejidad creciente del software empresarial.\n\nSe exploran patrones como Clean Architecture, Hexagonal Architecture, Domain-Driven Design (DDD), Modular Monoliths y Microservicios. El libro detalla cómo estructurar capas de dominio independientes, implementar event sourcing, publicar eventos de integración y desplegar soluciones desacopladas y altamente comprobables con xUnit y Testcontainers.\n\nLectura vital para arquitectos de software, líderes técnicos y desarrolladores senior que deben tomar decisiones de diseño estructural de alto impacto.",
+    "temas": [
+      "Arquitectura de Software",
+      "Clean Architecture",
+      "Modular Monolith",
+      "DDD",
+      "Event Sourcing",
+      "Microservicios",
+      "Testcontainers",
+      ".NET 8"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Monolito modular escalable con Domain-Driven Design",
+        "descripcion": "Implementación de un sistema de gestión empresarial segmentado en módulos independientes con eventos de dominio y persistencia aislada."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "asp-net-core-1-0-high-performance-2016": {
+    "descripcion": "Guía pionera de optimización y tuning de rendimiento para la versión inicial de ASP.NET Core 1.0. James Singleton expone cómo aprovechar la reingeniería modular del runtime para reducir drásticamente el uso de memoria y mejorar el throughput de solicitudes HTTP.\n\nEl contenido abarca técnicas de profiling con herramientas nativas de diagnóstico, optimización de pipelines de middlewares, compresión de respuestas HTTP, configuración eficiente del servidor Kestrel y estrategias de caching en memoria y distribuido. También examina la asincronía en controladores y accesos a bases de datos.\n\nUna referencia técnica histórica de gran valor conceptual sobre cómo se estructuraron los fundamentos de alto rendimiento en el nacimiento de .NET Core.",
+    "temas": [
+      "ASP.NET Core 1.0",
+      "Performance Tuning",
+      "Kestrel",
+      "Caching",
+      "Profiling",
+      "Async Programming",
+      "Throughput",
+      "Memoria"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "asp-net-core-9-0-essentials-2025": {
+    "descripcion": "Guía introductoria y concisa para dominar rápidamente las características esenciales de ASP.NET Core 9.0 y C# 13. Albert S. Tanure guía al lector en la creación de aplicaciones web contemporáneas, ágiles y eficientes.\n\nEl autor repasa los fundamentos del middleware, endpoints mínimos, controladores Web API, soporte para OpenAPI v3 integrado en el compilador, mejoras en la serialización System.Text.Json y novedades de inyección de dependencias con resolución por clave (Keyed Services). Además, aborda el empaquetado de contenedores sin Dockerfile nativo de .NET 9.\n\nPerfecto para desarrolladores que desean actualizarse a las últimas mejoras de ASP.NET Core 9 sin perderse en teoría excesiva.",
+    "temas": [
+      "ASP.NET Core 9",
+      ".NET 9",
+      "C# 13",
+      "Minimal APIs",
+      "Keyed Services",
+      "OpenAPI",
+      "System.Text.Json",
+      "Contenedores"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servicio de gestión ágil con ASP.NET Core 9",
+        "descripcion": "Creación de un microservicio REST utilizando Keyed Services, OpenAPI integrado y compilación optimizada para contenedores en .NET 9."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "c-7-1-and-net-core-2-0-3rd-edition-2017": {
+    "descripcion": "Tercera edición de la prestigiosa serie de desarrollo multiplataforma de Mark J. Price, orientada a C# 7.1 y .NET Core 2.0. Price introduce la sintaxis del lenguaje moderno junto con la amplia biblioteca de clases base de .NET.\n\nEl temario profundiza en métodos asíncronos en Main, inferencia de tuplas, coincidencia de patrones (pattern matching), colecciones genéricas, LINQ a objetos, acceso a datos con EF Core 2.0 y creación de servicios web con ASP.NET Core. También cubre el uso de Visual Studio Code y Visual Studio en Windows y macOS.\n\nIdeal para quienes se iniciaban en el desarrollo con la plataforma .NET Core en su momento de consolidación global.",
+    "temas": [
+      "C# 7.1",
+      ".NET Core 2.0",
+      "LINQ",
+      "Pattern Matching",
+      "EF Core",
+      "Tuplas",
+      "Visual Studio Code",
+      "Multiplataforma"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de catálogo comercial multiplataforma",
+        "descripcion": "Desarrollo de una solución que gestiona registros comerciales en SQLite mediante Entity Framework Core y una interfaz de consola y web básica."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "c-8-0-and-net-core-3-0-modern-cross-platform-development-4th-edition-2019": {
+    "descripcion": "Cuarta edición del bestseller de Mark J. Price, ampliamente reconocida por su rigor al enseñar C# 8.0 y la plataforma unificada .NET Core 3.0 en Linux, Windows y macOS. El autor desentraña las capacidades que definieron la era moderna de C#.\n\nEl libro detalla tipos de referencia nullables (Nullable Reference Types), streams asíncronos (IAsyncEnumerable), expresiones switch mejoradas, índices y rangos, además de la creación de aplicaciones con Blazor, ASP.NET Core Razor Pages, Web API y gRPC. Incluye capítulos dedicados a bases de datos con EF Core y pruebas unitarias con xUnit.\n\nUn manual imprescindible para programadores que buscan un dominio sólido de la sintaxis contemporánea de C# y su ecosistema multiplataforma.",
+    "temas": [
+      "C# 8.0",
+      ".NET Core 3.0",
+      "Nullable Reference Types",
+      "IAsyncEnumerable",
+      "Blazor",
+      "gRPC",
+      "EF Core",
+      "xUnit"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de gestión Northwind con servicios web y cliente Blazor",
+        "descripcion": "Construcción integral de una solución con base de datos de pedidos, endpoints Web API y un cliente Blazor interactivo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "hands-on-design-patterns-with-c-and-net-core-2019": {
+    "descripcion": "Manual práctico y aplicado que traduce los patrones de diseño orientados a objetos al contexto contemporáneo de C# y .NET Core. Gaurav Aroraa y Jeffrey Chilberto enseñan cómo escribir código desacoplado y reutilizable en proyectos del mundo real.\n\nSe analizan patrones creacionales (Factory Method, Abstract Factory, Builder, Prototype), estructurales (Adapter, Composite, Decorator, Facade) y de comportamiento (Chain of Responsibility, Mediator, Observer, Strategy). Los autores demuestran cómo los patrones se integran naturalmente con la inyección de dependencias nativa y los middlewares de ASP.NET Core.\n\nRecomendado para desarrolladores que desean transformar código spaghetti en soluciones elegantes y estructuradas.",
+    "temas": [
+      "Patrones de Diseño",
+      "C#",
+      ".NET Core",
+      "Gang of Four",
+      "Inyección de Dependencias",
+      "Mediator",
+      "Factory",
+      "Arquitectura"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de flujos de trabajo con patrones de diseño",
+        "descripcion": "Construcción de un pipeline de procesamiento de órdenes combinando Chain of Responsibility, Strategy y Mediator en ASP.NET Core."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "hands-on-software-architecture-with-c-8-and-net-core-3-2019": {
+    "descripcion": "Tratado integral sobre principios de arquitectura de software para el desarrollo de soluciones empresariales robustas y escalables con C# 8 y .NET Core 3. Los autores guían al lector desde el modelado del dominio hasta el despliegue en la nube.\n\nEl temario abarca Clean Architecture, Domain-Driven Design (DDD), patrones de microservicios, Service Bus, CQRS con MediatR, persistencia con EF Core y Dapper, y contenerización con Docker. Además, analiza el diseño de pruebas automatizadas en todos los niveles de la pirámide de testing.\n\nUna lectura estratégica para desarrolladores senior que están en transición hacia roles de arquitecto de soluciones .NET.",
+    "temas": [
+      "Arquitectura de Software",
+      "Clean Architecture",
+      "C# 8",
+      ".NET Core 3",
+      "DDD",
+      "CQRS",
+      "Docker",
+      "Microservicios"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura empresarial basada en eventos con DDD",
+        "descripcion": "Diseño de un sistema de gestión empresarial con bounded contexts bien definidos, separación de comandos y consultas, y persistencia desacoplada."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "learn-asp-net-core-3-2019": {
+    "descripcion": "Guía estructurada paso a paso para aprender el desarrollo web integral con ASP.NET Core 3. Kenneth Fukizi, Jason De Oliveira y Michel Bruchet presentan un enfoque claro y progresivo para desarrolladores de cualquier nivel.\n\nEl libro aborda la creación de controladores MVC, diseño de vistas Razor, creación de APIs RESTful, autenticación de usuarios mediante Identity, validaciones de modelos y pruebas automatizadas. También se detalla la configuración de bases de datos mediante migraciones de Entity Framework Core y el despliegue en Microsoft Azure.\n\nIdeal para quienes comienzan su andadura en el desarrollo web con la plataforma Microsoft y buscan una guía estructurada y didáctica.",
+    "temas": [
+      "ASP.NET Core 3",
+      "MVC",
+      "REST APIs",
+      "EF Core",
+      "Identity",
+      "Azure",
+      "Razor",
+      "Testing"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de portal web colaborativo",
+        "descripcion": "Construcción paso a paso de una aplicación web completa con autenticación de usuarios, roles, operaciones CRUD y publicación en la nube."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "modern-distributed-tracing-in-net-2023": {
+    "descripcion": "Tratado exhaustivo y de máxima actualidad sobre la observabilidad y el rastreo distribuido de microservicios utilizando los estándares de OpenTelemetry en el entorno .NET. Liudmila Molkova, experta en telemetría de Microsoft, comparte lecciones invaluables de ingeniería.\n\nLa autora analiza la correlación de solicitudes a través de fronteras de red mediante cabeceras W3C TraceContext, instrumentación automática y manual con ActivitySource, recolección de trazas y métricas con OpenTelemetry .NET SDK, y exportación a plataformas como Prometheus, Grafana, Jaeger y Azure Application Insights. También se detalla cómo diagnosticar cuellos de botella en producción sin degradar el rendimiento.\n\nUna lectura técnica indispensable para ingenieros de fiabilidad de sitios (SRE), arquitectos de microservicios y desarrolladores backend en la nube.",
+    "temas": [
+      "Distributed Tracing",
+      "OpenTelemetry",
+      ".NET",
+      "ActivitySource",
+      "Microservicios",
+      "Jaeger",
+      "Prometheus",
+      "SRE"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Malla de observabilidad completa para ecosistema de microservicios",
+        "descripcion": "Configuración e instrumentación de múltiples microservicios interconectados con exportación de trazas a Jaeger y tableros en Grafana."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "modern-full-stack-web-development-with-asp-net-core-2025": {
+    "descripcion": "Guía moderna para construir aplicaciones full-stack de última generación combinando el backend de ASP.NET Core con los frameworks cliente más dinámicos de la actualidad. Alexandre Malavasi enseña a diseñar soluciones ágiles y altamente escalables.\n\nEl libro detalla la arquitectura de APIs con ASP.NET Core, integración fluida con React y Next.js mediante Server Components, autenticación moderna basada en JWT y cookies HttpOnly, sincronización en tiempo real con WebSockets y SignalR, y despliegue continuo mediante contenedores en la nube. También incluye optimizaciones de caching y SEO.\n\nRecomendado para desarrolladores full-stack que buscan dominar la sinergia entre el ecosistema frontend contemporáneo y la velocidad de .NET en el servidor.",
+    "temas": [
+      "Full Stack",
+      "ASP.NET Core",
+      "React",
+      "Next.js",
+      "SignalR",
+      "JWT",
+      "Docker",
+      "Cloud Deployment"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de comercio electrónico interactiva full-stack",
+        "descripcion": "Construcción integral de una tienda web con frontend React dinámico, carrito en tiempo real sincronizado por SignalR y backend en ASP.NET Core."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "real-world-web-development-with-net-10-2nd-edition-2025": {
+    "descripcion": "Segunda edición vanguardista de Mark J. Price, dedicada a la ingeniería de software y desarrollo web avanzado con las capacidades punteras de .NET 10 y C# 14. El texto sitúa al programador en los más exigentes escenarios empresariales modernos.\n\nPrice analiza la integración nativa de agentes de inteligencia artificial generativa, pipelines de procesamiento ultraeficientes con Native AOT, orquestación de sistemas distribuidos con .NET Aspire, Minimal APIs avanzadas y persistencia políglota combinando bases relacionales y bases vectoriales para embeddings. Además, incluye prácticas rigurosas de seguridad y rendimiento.\n\nEl recurso definitivo para desarrolladores senior y líderes de equipo que buscan construir el software de la próxima década sobre la plataforma .NET 10.",
+    "temas": [
+      ".NET 10",
+      "C# 14",
+      "Mark J. Price",
+      ".NET Aspire",
+      "Native AOT",
+      "Vector Databases",
+      "IA Generativa",
+      "Cloud Native"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma inteligente cloud-native con .NET Aspire y búsqueda vectorial",
+        "descripcion": "Desarrollo de una solución distribuida con orquestación .NET Aspire, agentes semánticos y persistencia vectorial compilada con Native AOT."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "real-world-web-development-with-net-9-2024": {
+    "descripcion": "Tratado práctico de Mark J. Price enfocado en el desarrollo web profesional con .NET 9 y C# 13. El autor expone técnicas comprobadas para resolver problemas de escala, arquitectura y seguridad en aplicaciones web contemporáneas.\n\nSe exploran en detalle el nuevo sistema híbrido de Blazor Web Apps, APIs minimalistas con OpenAPI incorporado, integración de bases de datos con Entity Framework Core 9, optimizaciones del runtime y caching híbrido (HybridCache). También se tratan técnicas de despliegue contenerizado en Azure y Kubernetes.\n\nUna guía de enorme valor para ingenieros y arquitectos que necesitan aprovechar al máximo las mejoras de rendimiento y ergonomía de .NET 9.",
+    "temas": [
+      ".NET 9",
+      "C# 13",
+      "Mark J. Price",
+      "HybridCache",
+      "Blazor Web Apps",
+      "EF Core 9",
+      "OpenAPI",
+      "Contenedores"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal corporativo de alta concurrencia con HybridCache",
+        "descripcion": "Implementación de una solución web que combina Blazor interactivo en el cliente con Minimal APIs y HybridCache para soportar picos masivos de tráfico."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "solution-architecture-with-net-2021": {
+    "descripcion": "Manual estratégico sobre arquitectura de soluciones con tecnologías .NET, escrito por Jamil Hallal para capacitar a ingenieros en la toma de decisiones tecnológicas globales. La obra cubre tanto los aspectos técnicos como los patrones organizacionales.\n\nEl contenido examina el diseño de arquitecturas orientadas a eventos (EDA), monolitos modulares, microservicios, integración empresarial (EAI), mensajería distribuida y computación sin servidor (Serverless con Azure Functions). Asimismo, aborda los atributos de calidad: escalabilidad, disponibilidad, resiliencia y seguridad corporativa.\n\nIndispensable para líderes de tecnología, aspirantes a arquitectos y desarrolladores senior que buscan proyectar soluciones robustas alineadas con las metas del negocio.",
+    "temas": [
+      "Arquitectura de Soluciones",
+      ".NET",
+      "Microservicios",
+      "Event-Driven",
+      "Azure Functions",
+      "Resiliencia",
+      "EAI",
+      "Cloud Architecture"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Diseño de arquitectura de solución para sistema financiero distribuido",
+        "descripcion": "Modelado de una solución integral basada en microservicios, mensajería asíncrona, redundancia geográfica y planes de recuperación ante desastres."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "tools-and-skills-for-net-10-2nd-edition-2025": {
+    "descripcion": "Segunda edición del compendio práctico de herramientas, técnicas y destrezas esenciales para el desarrollador moderno de .NET 10. Mark J. Price reúne las utilidades y conocimientos que separan a un programador promedio de un profesional de élite.\n\nEl autor cubre a fondo el dominio del CLI de .NET, Git avanzado, diagnósticos en tiempo real con dotnet-dump, dotnet-trace y dotnet-counters, pruebas unitarias y de carga (k6 y BenchmarkDotNet), seguridad en la cadena de suministro de software (SBOM) y flujos de CI/CD automatizados en GitHub Actions y Azure DevOps. También explora la depuración de Native AOT.\n\nUna guía de referencia y productividad imprescindible para elevar la calidad, velocidad y rigor del trabajo diario de cualquier programador en .NET 10.",
+    "temas": [
+      ".NET 10",
+      "Mark J. Price",
+      "Herramientas CLI",
+      "BenchmarkDotNet",
+      "dotnet-trace",
+      "CI/CD",
+      "GitHub Actions",
+      "SBOM"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de automatización y benchmarking para librerías .NET",
+        "descripcion": "Creación de un repositorio profesional con pipelines de CI/CD, escaneo SBOM, pruebas de rendimiento comparativas con BenchmarkDotNet y publicación automática a NuGet."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "tools-and-skills-for-net-8-2024": {
+    "descripcion": "Compendio exhaustivo de más de 1200 páginas escrito por Mark J. Price para dominar el herramental completo del desarrollador .NET 8. El autor expone con minucioso detalle el repertorio de herramientas profesionales que rodean al código C#.\n\nSe analizan a fondo el depurador de Visual Studio y VS Code, perfiles de memoria y rendimiento con dotnet-dump y Visual Studio Profiler, pruebas automatizadas con xUnit, Moq y FluentAssertions, automatización de compilación con MSBuild, creación de paquetes NuGet y pipelines en GitHub Actions. También se estudian técnicas de análisis estático con Roslyn Analyzers.\n\nUna auténtica enciclopedia práctica de ingeniería y herramientas de desarrollo que todo profesional de .NET 8 debería consultar habitualmente.",
+    "temas": [
+      ".NET 8",
+      "Mark J. Price",
+      "Herramientas de Diagnóstico",
+      "MSBuild",
+      "Roslyn Analyzers",
+      "NuGet",
+      "GitHub Actions",
+      "Testing"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Entorno empresarial de ingeniería y calidad continua",
+        "descripcion": "Configuración de un entorno integral con análisis de código Roslyn estricto, análisis de memoria automatizado y publicación de paquetes NuGet versionados semánticamente."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

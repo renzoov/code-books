@@ -1,0 +1,1479 @@
+{
+  "javascript-data-structures-and-algorithms-2019": {
+    "descripcion": "Guía práctica y accesible escrita por Sammie Bae y publicada por Apress en 2019, diseñada para trasladar las estructuras de datos y algoritmos clásicos al contexto de JavaScript moderno (estándar ECMAScript 6+ / Node.js). Está concebida para desarrolladores web principiantes e intermedios, autodidactas y graduados de bootcamps que manejan el lenguaje en su trabajo cotidiano pero carecen de una base formal en ciencias de la computación y necesitan prepararse para entrevistas técnicas de programación.\n\nEl contenido introduce el análisis de complejidad con notación Big-O y examina los tipos de datos fundamentales y la gestión de memoria en JavaScript (el call stack, la memoria heap y el recolector de basura). A continuación, implementa paso a paso desde cero listas enlazadas (simples y dobles), pilas, colas, tablas hash, conjuntos (Sets), árboles binarios de búsqueda (BST), montículos (heaps) y grafos. En el ámbito algorítmico, cubre recursión, técnicas de ordenación (burbuja, selección, inserción, merge sort y quicksort), búsqueda lineal y binaria, algoritmos de grafos (BFS, DFS y Dijkstra), manipulación de bits y principios de programación dinámica.\n\nEl libro no construye una aplicación de software integral; en su lugar, cada capítulo propone baterías de ejercicios prácticos basados en retos de código típicos de plataformas como LeetCode o HackerRank, acompañados de sus soluciones explicadas en JavaScript. Su mayor acierto es hacer asequibles conceptos que a menudo se enseñan en Java o C++, usando construcciones idiomáticas de JavaScript. Deja fuera optimizaciones avanzadas de bajo nivel para el motor V8 o librerías de inmutabilidad persistente, por lo que constituye un excelente manual de entrenamiento para superar filtros técnicos de contratación.",
+    "temas": [
+      "JavaScript ES6",
+      "Estructuras de datos",
+      "Algoritmos",
+      "Notación Big-O",
+      "Listas enlazadas",
+      "Árboles binarios",
+      "Grafos",
+      "Algoritmos de ordenación",
+      "Programación dinámica",
+      "Entrevistas técnicas",
+      "Recursión"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3988-9",
+      "https://www.amazon.com/JavaScript-Data-Structures-Algorithms-Understanding/dp/1484239873",
+      "https://www.oreilly.com/library/view/javascript-data-structures/9781484239889/",
+      "https://github.com/Apress/javascript-data-structures-and-algorithms"
+    ]
+  },
+  "data-structures-and-algorithms-in-javascript-2025": {
+    "descripcion": "Tratado exhaustivo y riguroso de Federico Kereki, publicado por No Starch Press (edición 2024/2025), enfocado en la implementación de estructuras de datos y algoritmos utilizando las capacidades más avanzadas de JavaScript moderno (ES2024/ESNext) con un marcado énfasis en la programación funcional y la inmutabilidad. Está dirigido a desarrolladores de nivel intermedio y avanzado —ingenieros frontend que manejan estados complejos en el navegador, programadores backend que diseñan servicios de alto rendimiento en Node.js y candidatos a puestos senior en empresas tecnológicas— que buscan un nivel de profundidad equivalente al de un curso universitario de ciencias de la computación.\n\nLa obra estructura sus contenidos combinando tipos de datos abstractos (TDA) y el análisis matemático de rendimiento mediante notación Big-O con patrones funcionales limpios. Enseña estrategias de diseño como fuerza bruta, divide y vencerás, algoritmos voraces (greedy), retroceso (backtracking) y programación dinámica. Abarca algoritmos de ordenación (quicksort, merge sort, timsort, heapsort), selección, barajado (shuffling) y búsqueda digital. En cuanto a estructuras, va mucho más allá de lo básico: implementa listas, bolsas (bags), conjuntos, mapas, árboles binarios de búsqueda autobalanceados, árboles generales y bosques, montículos binarios y extendidos (priority queues), árboles digitales de búsqueda (trie) y grafos (con algoritmos de recorrido, caminos mínimos y árboles de recubrimiento mínimo), priorizando estructuras de datos funcionales e inmutables.\n\nEl texto sigue un modelo mixto: equilibra explicaciones teóricas rigurosas con código JavaScript modular y listo para su uso, completando cada capítulo con preguntas de revisión teórica y problemas de código de nivel entrevista técnica con soluciones razonadas. No desarrolla un único proyecto monolítico de software, sino componentes reutilizables y algoritmos probados. Destaca por elevar el nivel habitual de los textos sobre JavaScript, ofreciendo un puente sólido entre la teoría algorítmica y las aplicaciones contemporáneas. Conviene contar con bases sólidas de JavaScript moderno, manejo fluido de funciones de orden superior y conceptos elementales de matemáticas discretas.",
+    "temas": [
+      "JavaScript moderno",
+      "Estructuras de datos avanzadas",
+      "Algoritmos",
+      "Programación funcional",
+      "Notación Big-O",
+      "Árboles y bosques",
+      "Grafos",
+      "Montículos (Heaps)",
+      "Programación dinámica",
+      "Backtracking",
+      "Inmutabilidad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/data-structures-and-algorithms-javascript",
+      "https://www.penguinrandomhouse.com/books/709420/data-structures-and-algorithms-in-javascript-by-federico-kereki/",
+      "https://www.oreilly.com/library/view/data-structures-and/9781098191245/",
+      "https://www.amazon.com/Data-Structures-Algorithms-JavaScript-Federico/dp/1718502621"
+    ]
+  },
+  "data-structures-and-algorithms-with-javascript-2014": {
+    "descripcion": "Obra formativa de Michael McMillan publicada por O'Reilly que traslada los conceptos fundamentales de las ciencias de la computación al ecosistema de JavaScript bajo el estándar ECMAScript 5 (ES5). Está dirigida a desarrolladores web e ingenieros frontend de nivel intermedio que dominan la sintaxis básica del lenguaje y el manejo habitual de objetos y funciones, pero que carecen de una base formal en informática y necesitan comprender cómo estructurar y manipular datos de forma eficiente en entornos como Node.js o el navegador.\n\nEl libro aborda la implementación paso a paso de las estructuras de datos tradicionales: arreglos (arrays), listas, pilas (stacks), colas (queues) y colas de prioridad, listas enlazadas simples, dobles y circulares, diccionarios, tablas hash con resolución de colisiones por encadenamiento separado y sondeo lineal, y conjuntos (sets). En la parte algorítmica, analiza en detalle árboles binarios de búsqueda (BST), grafos modelados con listas de adyacencia, algoritmos de recorrido en profundidad (DFS) y anchura (BFS), algoritmos de ordenamiento clásicos (burbuja, selección, inserción, Shellsort, mezcla y Quicksort), búsquedas secuenciales y binarias, y concluye con una introducción a la programación dinámica y algoritmos voraces (greedy) mediante problemas como el de la mochila.\n\nEl aprendizaje se articula a través de explicaciones teóricas acompañadas de código de referencia y ejercicios prácticos al cierre de cada capítulo (como la evaluación de expresiones posfijas, la verificación de palíndromos o la simulación de colas de espera). No construye una aplicación completa de punta a punta, pero aporta un entendimiento exhaustivo de la mecánica interna de cada estructura sin depender de librerías externas. Conviene tener en cuenta que su código utiliza prototipos y funciones constructoras anteriores a ES6, por lo que el desarrollador actual deberá adaptar las implementaciones a la sintaxis moderna de clases y contrastarlas con las estructuras que hoy en día JavaScript ya incluye de manera nativa.",
+    "temas": [
+      "JavaScript ES5",
+      "Estructuras de datos",
+      "Pilas y colas",
+      "Listas enlazadas",
+      "Tablas hash",
+      "Árboles binarios de búsqueda",
+      "Grafos",
+      "Algoritmos de ordenamiento",
+      "Búsqueda binaria",
+      "Programación dinámica",
+      "Algoritmos voraces"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/data-structures-and/9781449373931/",
+      "https://www.amazon.com/Data-Structures-Algorithms-JavaScript-McMillan/dp/1449373949"
+    ]
+  },
+  "hands-on-data-structures-and-algorithms-with-javascript-2018": {
+    "descripcion": "Guía práctica de Kashyap Mukkamala editada por Packt que conecta la algoritmia clásica con los estándares modernos de JavaScript (ES6 / ECMAScript 2015 y Node.js). El texto está orientado a desarrolladores de nivel intermedio a avanzado que ya programan regularmente en JavaScript y quieren escribir código altamente optimizado y escalable, entendiendo qué estructura de datos elegir para minimizar el consumo de memoria y optimizar el tiempo de ejecución en aplicaciones web y backend.\n\nA lo largo de los capítulos se construyen estructuras clásicas con sintaxis moderna de clases (pilas y colas) y se profundiza en las colecciones nativas de ES6: Set, Map, WeakSet y WeakMap, explicando su relación directa con la recolección de basura. Continúa con estructuras jerárquicas como árboles de búsqueda, árboles de prefijos (Trie), árboles de decisión y grafos, junto con algoritmos de ordenamiento (Merge Sort, Quicksort, Insertion Sort) y algoritmos avanzados como Dijkstra y la mochila 0/1. Dedica además secciones específicas al análisis de complejidad con notación Big O y a microoptimizaciones dentro del motor V8 de Google Chrome para mitigar fugas de memoria.\n\nA diferencia de manuales abstractos, el valor diferencial del libro reside en que cada estructura se aterriza en un componente funcional o mini-proyecto de aplicación real, como analizadores de código, motores de historial, sistemas de mensajería con colas y recomendadores en grafos. Aporta una perspectiva pragmática para la ingeniería de software cotidiana en JavaScript, dejando fuera aspectos de diseño de interfaces visuales o bases de datos relacionales. Resulta fundamental dominar previamente la sintaxis de ES6 y los patrones asíncronos en Node.js.",
+    "temas": [
+      "JavaScript ES6",
+      "Estructuras de datos",
+      "Pilas y colas",
+      "Map y Set",
+      "Árboles Trie",
+      "Grafos",
+      "Algoritmo de Dijkstra",
+      "Notación Big O",
+      "Motor V8",
+      "Optimización de memoria"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Analizador sintáctico y gestor de navegación",
+        "descripcion": "Utiliza pilas en JavaScript para procesar y evaluar código dentro de un editor web, además de modelar el historial de navegación hacia atrás de una interfaz de usuario."
+      },
+      {
+        "nombre": "Servicio de mensajería asíncrona con cola",
+        "descripcion": "Implementa colas y colas de prioridad en JavaScript para secuenciar el procesamiento de mensajes y gestionar escenarios de fallo con reintentos."
+      },
+      {
+        "nombre": "Buscador autocompletado y predictor de crédito",
+        "descripcion": "Aplica árboles Trie para realizar búsquedas predictivas en tiempo real (typeahead) y un árbol de decisión para clasificar solicitudes de aprobación crediticia."
+      },
+      {
+        "nombre": "Sistema de recomendaciones en redes sociales",
+        "descripcion": "Modela relaciones complejas entre usuarios mediante estructuras de grafos para generar sugerencias de contactos y referencias en bolsas de trabajo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/hands-on-data-structures-and-algorithms-with-javascript-9781788398558",
+      "https://github.com/PacktPublishing/Hands-On-Data-Structures-and-Algorithms-with-JavaScript",
+      "https://www.oreilly.com/library/view/hands-on-data-structures-and/9781788398558/"
+    ]
+  },
+  "learn-data-structures-and-algorithms-with-golang-2019": {
+    "descripcion": "Manual técnico de Bhagvan Kommadi publicado por Packt que explora la conceptualización e implementación de estructuras de datos y algoritmos aprovechando la filosofía, el sistema de tipos y la concurrencia del lenguaje Go (Golang 1.11+). Está dirigido a programadores e ingenieros de software con experiencia básica en la sintaxis de Go que desean elevar su nivel técnico hacia el desarrollo de sistemas de alto rendimiento, optimización de infraestructura backend o superación de entrevistas técnicas exigentes.\n\nEl temario aborda tanto particularidades sintácticas de Go —slices multidimensionales, structs, interfaces, punteros, funciones variádicas y directivas de control como defer, panic y recover— como la clasificación entre estructuras homogéneas, heterogéneas y dinámicas. Cubre de forma rigurosa listas enlazadas, tuplas, conjuntos, pilas, colas, árboles binarios de búsqueda, montículos (heaps), árboles trie, matrices dispersas (sparse matrices) y modelos de redes/grafos. Asimismo, profundiza en paradigmas algorítmicos (fuerza bruta, divide y vencerás, vuelta atrás o backtracking), patrones de diseño estructurales adaptados a Go (Adapter, Decorator, Facade, Proxy) y el impacto del recolector de basura (Garbage Collector) y la gestión de memoria en el rendimiento global.\n\nLa obra adopta un enfoque teórico-práctico que enlaza el análisis de complejidad temporal y espacial (Big O) con implementaciones de código idiomático y preguntas de autoevaluación y ejercicios al final de los capítulos. No construye una aplicación web integral ni una suite de microservicios con base de datos, concentrándose de lleno en la ingeniería interna de los algoritmos y el uso eficiente de memoria. Proporciona una base sólida para diseñar componentes robustos en Go, siendo muy conveniente contar previamente con soltura en el manejo del compilador y el entorno de trabajo del lenguaje.",
+    "temas": [
+      "Go (Golang)",
+      "Estructuras de datos",
+      "Slices y punteros",
+      "Listas y pilas",
+      "Árboles y montículos",
+      "Grafos",
+      "Matrices dispersas",
+      "Algoritmos clásicos",
+      "Patrones de diseño",
+      "Notación Big O",
+      "Garbage Collector"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/learn-data-structures-and-algorithms-with-golang-9781789618501",
+      "https://github.com/PacktPublishing/Learn-Data-Structures-and-Algorithms-with-Golang",
+      "https://www.oreilly.com/library/view/learn-data-structures-and/9781789618501/"
+    ]
+  },
+  "java-and-algorithmic-thinking-for-the-complete-beginner-3rd-edition-2024": {
+    "descripcion": "Voluminoso tratado didáctico de Aristides S. Bouras (tercera edición de 2024, con más de 1.000 páginas) concebido para introducir en la programación y el razonamiento formal a principiantes absolutos utilizando Java moderno (Java SE 17/21). Está especialmente diseñado para personas sin experiencia previa en informática, estudiantes universitarios de primer ingreso, alumnos de secundaria y docentes que buscan un itinerario minucioso para enseñar a estructurar soluciones lógicas antes de plasmarlas en código fuente.\n\nEl libro prioriza la asimilación del pensamiento algorítmico mediante diagramas de flujo, pseudocódigo y tablas de traza para seguir la ejecución manual paso a paso. Posteriormente introduce los componentes de Java: variables, tipos de datos primitivos, operadores lógicos, estructuras condicionales (if-else, switch) y repetitivas (bucles while, do-while, for), junto con patrones de control como bucles anidados y banderas (flags). Abarca arreglos unidimensionales y bidimensionales (matrices), estructuras de colecciones elementales como ArrayList y HashMap, manipulación de archivos de texto (lectura y escritura), métodos modulares y una introducción gradual a la programación orientada a objetos (clases, instancias y encapsulamiento), finalizando con algoritmos tradicionales de búsqueda y ordenamiento.\n\nEl núcleo de su propuesta es una batería colosal de ejercitación: contiene más de 250 ejercicios resueltos paso a paso, cerca de 480 ejercicios propuestos, cientos de preguntas de verdadero/falso, pruebas de opción múltiple y crucigramas conceptuales. No desarrolla proyectos comerciales con interfaces gráficas ni arquitecturas cliente-servidor, sino infinidad de rutinas algorítmicas, juegos sencillos y utilidades de procesamiento de datos por consola. Aporta una claridad pedagógica extraordinaria y elimina cualquier barrera de entrada para quien empieza desde cero, aunque su avance deliberadamente pausado puede resultar redundante para quienes ya conocen otro lenguaje.",
+    "temas": [
+      "Java",
+      "Pensamiento algorítmico",
+      "Diagramas de flujo",
+      "Pseudocódigo",
+      "Estructuras de control",
+      "Arreglos y matrices",
+      "ArrayList y HashMap",
+      "Archivos de texto",
+      "POO básica",
+      "Algoritmos de ordenamiento",
+      "Búsqueda binaria"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.bouraspage.com/java-and-algorithmic-thinking-for-the-complete-beginner-third-edition",
+      "https://www.amazon.com/dp/B0CV694V1W",
+      "https://www.bouraspage.com/books"
+    ]
+  },
+  "a-concise-introduction-to-data-structures-using-java-2014": {
+    "descripcion": "Texto académico de Mark J. Johnson publicado por CRC Press (Chapman & Hall) que ofrece una presentación concisa y estructurada de las estructuras de datos y algoritmos esenciales para un segundo curso universitario de ciencias de la computación (CS2) en Java (Java SE 7/8). Está pensado para estudiantes de grado y programadores en formación que ya conocen los rudimentos de la programación orientada a objetos en Java y necesitan dominar el diseño, análisis e implementación formal de colecciones de datos sin recurrir a manuales excesivamente extensos.\n\nEl temario comienza con un repaso rápido de clases, referencias, arreglos y genéricos en Java, articulado con el análisis formal de complejidad temporal mediante la notación Big O. Luego examina y compara las dos formas canónicas de implementar estructuras lineales —mediante arreglos contiguos y mediante listas enlazadas con nodos dinámicos— para pilas (stacks con evaluación de expresiones), colas (queues) y listas (lists con iteradores). El bloque avanzado aborda el funcionamiento de la recursión en la pila de llamadas, árboles binarios de búsqueda (BST) con sus recorridos, montículos (heaps) orientados al algoritmo Heapsort y tablas hash basadas en la interfaz Map, analizando esquemas de resolución de colisiones como encadenamiento y direccionamiento abierto.\n\nLa metodología pedagógica combina exposiciones conceptuales rigurosas con implementaciones parciales donde el autor proporciona el armazón y desafía al lector a programar métodos críticos, además de ejercicios por capítulo y proyectos aplicados como una simulación de colas de eventos discretos. Su gran valor reside en su brevedad (menos de 250 páginas) y su capacidad de ir directo al núcleo algorítmico. Deja fuera estructuras más complejas como árboles autobalanceados (AVL, rojo-negro) y grafos avanzados, por lo que resulta un puente formativo ideal antes de cursar materias de algoritmia superior.",
+    "temas": [
+      "Java",
+      "Estructuras de datos",
+      "Notación Big-O",
+      "Pilas y colas",
+      "Listas enlazadas",
+      "Recursión",
+      "Árboles binarios de búsqueda",
+      "Montículos (Heaps)",
+      "Heapsort",
+      "Tablas hash",
+      "Genéricos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Simulación de colas de eventos de longitud fija",
+        "descripcion": "Modela un sistema de eventos discretos en Java empleando colas con capacidad acotada para analizar el flujo de atención y los tiempos de espera de procesos o clientes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/A-Concise-Introduction-to-Data-Structures-using-Java/Johnson/p/book/9781466589896",
+      "https://www.oreilly.com/library/view/a-concise-introduction/9781466589902/",
+      "https://www.amazon.com/Concise-Introduction-Structures-Chapman-Computing/dp/1466589899"
+    ]
+  },
+  "data-structures-algorithms-in-python-2023": {
+    "descripcion": "Adaptación exhaustiva al ecosistema de Python (Python 3) del clásico y aclamado texto universitario de Robert Lafore sobre estructuras de datos. Desarrollada por John Canning, Alan Broder y el propio Lafore, la obra está concebida tanto para estudiantes de ciencias de la computación como para desarrolladores autodidactas de nivel intermedio que ya dominan la sintaxis fundamental y los conceptos básicos de orientación a objetos en Python, y buscan comprender cómo organizar y procesar información eficientemente a gran escala.\n\nEl temario aborda el núcleo tradicional de las ciencias de la computación sin abrumar con demostraciones matemáticas abstractas excesivas: análisis de complejidad temporal y espacial (notación Big O), arreglos y listas de Python, algoritmos de ordenamiento elemental (burbuja, selección, inserción) y avanzado (Shellsort, Quicksort, Radix sort), estructuras lineales como pilas, colas ordinarias, colas de prioridad y listas enlazadas (simples, dobles, ordenadas e iteradores). En estructuras no lineales y jerárquicas profundiza en recursión (Torres de Hanói, ordenamiento por mezcla), árboles de búsqueda binaria, codificación de Huffman, árboles 2-3-4, árboles balanceados (AVL y Red-Black), tablas hash (resolución de colisiones por encadenamiento separado y direccionamiento abierto), estructuras espaciales (Quadtrees y árboles k-d), montículos (heaps) y grafos dirigidos y ponderados (recorridos BFS y DFS, árbol de recubrimiento mínimo, ordenamiento topológico y caminos más cortos con Dijkstra y Floyd-Warshall). Además, se apoya en herramientas web de visualización interactiva (datastructures.live).\n\nCada capítulo concluye con extensas baterías de preguntas de repaso y proyectos de programación prácticos que simulan desafíos reales, como el análisis sintáctico de expresiones aritméticas con pilas o la compresión de archivos de texto con árboles de Huffman. Su gran virtud radica en la claridad didáctica, el apoyo visual de los procesos y la amplitud enciclopédica del catálogo de estructuras; no aborda desarrollo de aplicaciones web, bases de datos relacionales ni frameworks modernos, enfocándose de lleno en la solidez algorítmica fundamental.",
+    "temas": [
+      "Python 3",
+      "Estructuras de datos",
+      "Algoritmos de ordenamiento",
+      "Listas enlazadas",
+      "Árboles binarios",
+      "Árboles 2-3-4",
+      "Árboles balanceados",
+      "Tablas hash",
+      "Grafos",
+      "Algoritmo de Dijkstra",
+      "Notación Big O"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Analizador y evaluador de expresiones aritméticas",
+        "descripcion": "Parser en consola que utiliza pilas (stacks) para transformar expresiones matemáticas de notación infija a postfija y calcular su resultado respetando la precedencia de operadores."
+      },
+      {
+        "nombre": "Compresor de texto mediante codificación de Huffman",
+        "descripcion": "Herramienta de compresión sin pérdida que construye un árbol binario de frecuencias para generar códigos de longitud variable y empaquetar cadenas de texto."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/data-structures-and-algorithms-in-python-9780134855684",
+      "https://www.pearson.com/en-us/subject-catalog/p/data-structures-and-algorithms-in-python/P200000003509/9780134855929",
+      "https://www.oreilly.com/library/view/data-structures-and/9780134855912/"
+    ]
+  },
+  "algorithms-and-data-structures-with-python-2023": {
+    "descripcion": "Manual práctico y pedagógico elaborado por el equipo de Cuantum Technologies LLC para enseñar estructuras de datos y algoritmos en Python (Python 3). Está orientado a desarrolladores principiantes e intermedios, así como a estudiantes que conocen los fundamentos del lenguaje y quieren dar el salto hacia la escritura de código escalable, eficiente y optimizado, preparando las bases para retos de la industria y entrevistas técnicas de programación.\n\nEl libro comienza repasando la sintaxis moderna de Python, el manejo de tipos de datos nativos (listas, tuplas, conjuntos y diccionarios) y los principios de programación orientada a objetos (clases, encapsulamiento y modularidad). Luego profundiza en estructuras de datos lineales (pilas, colas, listas enlazadas), algoritmos clásicos de ordenamiento (burbuja, selección, inserción, Merge Sort y Quick Sort) y técnicas de búsqueda (lineal, binaria y hashing). En su segunda mitad aborda estructuras jerárquicas y relacionales, detallando árboles binarios, árboles de búsqueda, grafos (representación matricial y listas de adyacencia), tablas hash con políticas de resolución de colisiones, algoritmos de redes y análisis formal de complejidad temporal y espacial mediante notación Big O.\n\nEl aprendizaje se organiza en torno a cuestionarios interactivos, ejercicios prácticos y tres proyectos integradores construidos paso a paso al final de cada bloque temático: una calculadora basada en pilas, un gestor de contactos optimizado con estructuras de búsqueda rápida y un sistema de rutas sobre grafos con el algoritmo de Dijkstra. Su punto fuerte es la combinación equilibrada de teoría accesible y aplicación directa en código; prescinde de derivaciones matemáticas abstractas complejas y de frameworks de terceros, manteniéndose enfocado en la biblioteca estándar de Python.",
+    "temas": [
+      "Python 3",
+      "Estructuras de datos",
+      "Programación orientada a objetos",
+      "Pilas y colas",
+      "Algoritmos de ordenamiento",
+      "Algoritmos de búsqueda",
+      "Árboles de búsqueda",
+      "Grafos",
+      "Tablas hash",
+      "Algoritmo de Dijkstra",
+      "Complejidad algorítmica"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Calculadora básica",
+        "descripcion": "Aplicación de consola modular que implementa el análisis sintáctico y la evaluación de expresiones matemáticas utilizando pilas (stacks) para gestionar operadores y operandos."
+      },
+      {
+        "nombre": "Libreta de contactos",
+        "descripcion": "Sistema de gestión y consulta rápida de información personal que emplea tablas hash y árboles de búsqueda para garantizar inserciones y búsquedas eficientes."
+      },
+      {
+        "nombre": "Aplicación de enrutamiento cartográfico",
+        "descripcion": "Herramienta de navegación sobre redes viales que modela conexiones geográficas como un grafo ponderado e implementa el algoritmo de Dijkstra para calcular trayectos óptimos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/algorithms-and-data/9781836208549/",
+      "https://www.vitalsource.com/products/algorithms-and-data-structures-with-python-cuantum-technologies-llc-v9781836208549",
+      "https://cuantum.tech/courses/algorithms-and-data-structures-with-python/"
+    ]
+  },
+  "dive-into-algorithms-2021": {
+    "descripcion": "Obra amena y multidisciplinaria escrita por Bradford Tuckfield y publicada por No Starch Press, concebida como una introducción intuitiva y práctica al pensamiento algorítmico utilizando Python 3. Está pensada para programadores principiantes curiosos y desarrolladores intermedios que cuentan con nociones elementales de álgebra escolar y sintaxis básica en Python, y desean descubrir cómo los algoritmos resuelven problemas reales sin atascarse en la aridez de la teoría matemática tradicional.\n\nEl autor explora una variada gama de algoritmos clásicos y modernos implementados con Python puro y visualizados con la librería Matplotlib: algoritmos históricos (el algoritmo de Euclides para el MCD, la multiplicación del campesino ruso y cuadrados mágicos tradicionales), algoritmos de búsqueda y ordenamiento (Insertion Sort, Merge Sort, Sleep Sort, Binary Search), métodos de matemática pura (fracciones continuas, el algoritmo babilónico para raíces cuadradas y generadores de números pseudoaleatorios como LCG y LFSR), técnicas de optimización (ascenso y descenso de gradiente, escalada y recocido simulado para el problema del viajante), geometría computacional (diagramas de Voronoi y triangulaciones de Delaunay), procesamiento de lenguaje natural (tokenización, n-gramas e inserción de espacios en textos continuos) e inteligencia artificial (árboles de decisión, random forests y árboles de juego minimax).\n\nCada capítulo acompaña la explicación teórica con la construcción paso a paso de un programa funcional, entre los que destacan un motor de IA para el juego de puntos y cajas (Dots and Boxes), un optimizador heurístico de rutas de transporte y un generador de diagramas de cobertura geográfica. Su principal atractivo es su enfoque creativo, intuitivo y conectado con situaciones cotidianas e históricas; deja fuera demostraciones formales de teoremas y no contiene listas de ejercicios académicos al final de los capítulos.",
+    "temas": [
+      "Python 3",
+      "Algoritmos de búsqueda",
+      "Algoritmos de ordenamiento",
+      "Optimización matemática",
+      "Gradiente descendente",
+      "Recocido simulado",
+      "Geometría computacional",
+      "Diagramas de Voronoi",
+      "Procesamiento de lenguaje natural",
+      "Árboles de decisión",
+      "Inteligencia artificial",
+      "Matplotlib"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Agente de IA para el juego La Pipopipette",
+        "descripcion": "Motor de inteligencia artificial que modela y evalúa árboles de juego mediante la estrategia minimax para jugar de manera autónoma al clásico Dots and Boxes (puntos y cajas)."
+      },
+      {
+        "nombre": "Generador de diagramas de Voronoi",
+        "descripcion": "Herramienta geométrica implementada en Python con Matplotlib que procesa coordenadas bidimensionales y genera triangulaciones de Delaunay para resolver problemas de zonificación espacial."
+      },
+      {
+        "nombre": "Optimizador de rutas del problema del viajante",
+        "descripcion": "Programa que implementa el algoritmo del vecino más cercano y la metaheurística de recocido simulado (Simulated Annealing) para encontrar rutas de viaje de distancia mínima."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/dive-into-algorithms",
+      "https://www.oreilly.com/library/view/dive-into-algorithms/9781718500693/",
+      "https://pythonbooks.org/dive-into-algorithms/"
+    ]
+  },
+  "hands-on-data-structures-and-algorithms-with-python-3rd-edition-2022": {
+    "descripcion": "Tercera edición del manual de referencia de Dr. Basant Agarwal publicado por Packt, actualizado minuciosamente para las novedades y el tipado de Python 3.10+. Está dirigido a desarrolladores de software, programadores de Python y estudiantes de nivel intermedio que conocen la sintaxis del lenguaje y buscan dominar los fundamentos internos de las estructuras de datos, aprender a implementarlas desde cero y optimizar el rendimiento de sus aplicaciones de cara a la producción y las pruebas técnicas.\n\nEl recorrido formativo cubre las estructuras nativas de Python (listas, tuplas, conjuntos, diccionarios) y su comportamiento interno de memoria, diseño de algoritmos y métricas de complejidad mediante notación Big O y análisis amortizado, así como paradigmas clave: divide y vencerás, algoritmos voraces (greedy) y programación dinámica. Concretamente enseña a codificar desde cero listas enlazadas (simples, dobles y circulares), pilas, colas, montículos binarios (heaps con el módulo heapq), tablas hash (con funciones hash y resolución de colisiones por direccionamiento abierto y encadenamiento), árboles binarios de búsqueda (BST, AVL, árboles Red-Black), grafos (representaciones, recorridos BFS y DFS, algoritmos de Dijkstra, Prim y Kruskal), algoritmos de búsqueda y ordenamiento (Merge Sort, Quick Sort, Radix Sort), algoritmos de selección (Quickselect) y algoritmos de coincidencia de patrones en cadenas de texto (Knuth-Morris-Pratt, Boyer-Moore y Rabin-Karp).\n\nEl libro adopta un estilo práctico donde cada estructura y algoritmo se programa paso a paso, complementándose con secciones de preguntas de autoevaluación y ejercicios de repaso al final de cada capítulo (con sus correspondientes soluciones en el apéndice). Destaca por su rigor conceptual y la claridad de su código en Python 3.10 nativo; no construye aplicaciones monolíticas completas con bases de datos o interfaces gráficas, ni utiliza paquetes pesados de ciencia de datos, concentrándose en la comprensión profunda y la eficiencia algorítmica pura.",
+    "temas": [
+      "Python 3.10",
+      "Estructuras de datos",
+      "Notación Big O",
+      "Listas enlazadas",
+      "Pilas y colas",
+      "Árboles binarios",
+      "Montículos (Heaps)",
+      "Tablas hash",
+      "Grafos",
+      "Programación dinámica",
+      "Algoritmos voraces",
+      "Algoritmos de cadenas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/product/hands-on-data-structures-and-algorithms-with-python-third-edition/9781801073448",
+      "https://github.com/PacktPublishing/Hands-On-Data-Structures-and-Algorithms-with-Python-Third-Edition",
+      "https://www.oreilly.com/library/view/hands-on-data-structures/9781801073448/"
+    ]
+  },
+  "modern-graph-theory-algorithms-with-python-2024": {
+    "descripcion": "Guía especializada escrita por Colleen M. Farrelly y Franck Kalala Mutombo, publicada por Packt Publishing en 2024, dedicada a la teoría moderna de grafos y la ciencia de redes con Python. Está diseñada para científicos de datos, ingenieros de machine learning, analistas e investigadores de nivel intermedio que ya manejan Python y herramientas analíticas estándar (NumPy, pandas), y quieren incorporar el modelado basado en grafos para descifrar relaciones complejas en grandes volúmenes de información.\n\nEl texto instruye detalladamente en la transformación y limpieza de datos estructurados, espaciales, demográficos y temporales para convertirlos en topologías de red funcionales. Hace un uso exhaustivo de bibliotecas del ecosistema de redes de Python como NetworkX y python-igraph, además de pandas, scikit-learn y bases de datos orientadas a grafos como Neo4j. Se estudian métricas de centralidad (grado, intermediación, cercanía, vector propio y PageRank), detección de comunidades (algoritmo de Louvain y modularidad), modelado de redes sociales dinámicas y procesos de difusión, algoritmos de aprendizaje automático sobre grafos (extracción de atributos topológicos, clasificación de nodos, predicción de enlaces), redes neuronales de grafos (GNNs) e incluso una aproximación inicial a algoritmos cuánticos aplicados a redes.\n\nEl contenido se estructura a través de casos prácticos y proyectos aplicados a problemáticas del mundo real: simulación de la propagación de desinformación y patógenos en redes sociales, análisis de series temporales de precios de acciones convertidas en redes de correlación para predecir caídas financieras, y minería de trayectorias curriculares para modelar el éxito académico. Su gran valor reside en conectar la teoría de redes con disciplinas industriales tangibles (finanzas, salud pública, lingüística y educación); deja de lado las estructuras de datos tradicionales de ciencias de la computación (árboles binarios, pilas o colas) y requiere familiaridad previa con manipulación de datos y machine learning.",
+    "temas": [
+      "Python 3",
+      "Teoría de grafos",
+      "Ciencia de redes",
+      "NetworkX",
+      "python-igraph",
+      "Métricas de centralidad",
+      "Detección de comunidades",
+      "Redes sociales dinámicas",
+      "Graph Neural Networks (GNN)",
+      "Bases de datos de grafos",
+      "Neo4j",
+      "pandas"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Simulador de propagación de epidemias y desinformación",
+        "descripcion": "Modelo de difusión sobre redes dinámicas con NetworkX e igraph que simula cómo se transmiten patógenos o noticias falsas para probar mecanismos de mitigación."
+      },
+      {
+        "nombre": "Analizador de riesgo y volatilidad bursátil",
+        "descripcion": "Herramienta que transforma series temporales del mercado financiero en grafos de correlación para anticipar caídas bursátiles y patrones de precios."
+      },
+      {
+        "nombre": "Motor de minería de trayectorias educativas",
+        "descripcion": "Sistema analítico que modela secuencias de cursos y prerrequisitos académicos mediante grafos para evaluar itinerarios formativos y predecir el éxito estudiantil."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/product/modern-graph-theory-algorithms-with-python/9781805128038",
+      "https://github.com/PacktPublishing/Modern-Graph-Theory-Algorithms-with-Python",
+      "https://www.oreilly.com/library/view/modern-graph-theory/9781805128038/"
+    ]
+  },
+  "introducing-algorithms-in-c-2020": {
+    "descripcion": "Introducción concisa y visual a los conceptos fundamentales de los algoritmos y las estructuras de datos utilizando el lenguaje C estándar (C99/C11). Publicado por Apress y escrito por Luciano Manelli, el libro está concebido para estudiantes universitarios que inician sus estudios en informática o sistemas de información, así como para autodidactas con conocimientos nulos o muy elementales que buscan una transición amigable desde la lógica procedimental abstracta hasta la sintaxis concreta de C.\n\nLa obra se organiza en tres bloques principales: estructuras de datos, diseño algorítmico e implementación en C. Describe tanto tipos simples como compuestos (registros struct, arreglos, pilas, colas, árboles, grafos y tablas hash) apoyándose intensamente en diagramas de flujo y tablas de evolución paso a paso para desmenuzar la ejecución lógica antes de codificar. En la fase de programación en C puro mediante la biblioteca estándar stdio.h, implementa rutinas elementales y canónicas: bucles de sumatoria, conversión de base decimal a binario, búsqueda del valor máximo y mínimo, búsqueda lineal y binaria, ordenamiento por burbuja y selección, fusión de arreglos ordenados, lectura de caracteres de archivos y cálculo recursivo de factoriales y secuencias de Fibonacci.\n\nEl texto no plantea proyectos de software integrados ni aplicaciones comerciales; su objetivo es desglosar microejemplos algorítmicos paso a paso para asegurar que el lector domine el seguimiento de variables y el flujo de control en memoria. Su principal virtud reside en la claridad pedagógica y el apoyo visual, lo que evita la saturación que suelen provocar los tratados densos de algoritmia. En contrapartida, sus escasas 146 páginas dejan fuera el análisis formal de complejidad asintótica (notación Big-O detallada) y la codificación de estructuras dinámicas avanzadas, por lo que resulta ideal como puente introductorio previo a manuales más rigurosos.",
+    "temas": [
+      "C",
+      "Algoritmos",
+      "Estructuras de datos",
+      "Diagramas de flujo",
+      "Búsqueda binaria",
+      "Búsqueda secuencial",
+      "Ordenamiento por burbuja",
+      "Ordenamiento por selección",
+      "Recursión",
+      "Punteros",
+      "Manejo de archivos",
+      "Tablas de seguimiento"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5623-7"
+    ]
+  },
+  "data-structures-using-c-2nd-edition-2014": {
+    "descripcion": "Tratado universitario exhaustivo sobre el diseño y la implementación de estructuras de datos fundamentales y avanzadas en lenguaje C (estándar ANSI C/C99). Escrito por la profesora Reema Thareja y publicado por Oxford University Press en su segunda edición, está orientado a estudiantes de ingeniería en computación, ciencias informáticas y desarrolladores que cuentan con nociones elementales de sintaxis procedimental y necesitan dominar la gestión de memoria y el fundamento algorítmico riguroso.\n\nEl contenido comienza con un repaso detallado de apuntadores, aritmética de punteros, gestión dinámica de memoria (malloc, calloc, realloc, free) y estructuras, vinculándolos al análisis de complejidad temporal y espacial mediante notaciones asintóticas (O grande, Omega y Theta). Desarrolla exhaustivamente listas enlazadas (simples, dobles, circulares y multilistas), pilas y sus aplicaciones (conversión infija a postfija/prefija, evaluación de expresiones y algoritmos recursivos como la Torre de Hanoi), colas (lineales, circulares, de doble extremo y de prioridad con montículos), árboles (binarios, de búsqueda BST, enhebrados, AVL, árboles 2-3, B-trees y B+), grafos (representación por matrices y listas de adyacencia, recorridos BFS y DFS, algoritmos de Dijkstra, Prim y Kruskal), algoritmos de búsqueda y ordenamiento (quicksort, mergesort, heapsort, radix sort, interpolation search, tree sort), así como técnicas de dispersión (hashing) con resolución de colisiones y organización de archivos indexados.\n\nEl libro contiene decenas de programas completos en C listos para compilar, sin depender de librerías de terceros, acompañados de trazas de ejecución, preguntas de repaso conceptual, cuestionarios de opción múltiple (MCQ) y ejercicios de programación al final de cada capítulo. No desarrolla una aplicación monolítica o de producción, ya que su enfoque es puramente académico y formativo. Constituye una guía de referencia fundamental para superar asignaturas universitarias de ciencias de la computación y preparar entrevistas técnicas de algoritmos de bajo nivel.",
+    "temas": [
+      "C",
+      "Estructuras de datos",
+      "Algoritmos",
+      "Gestión de memoria dinámica",
+      "Listas enlazadas",
+      "Pilas y colas",
+      "Árboles binarios",
+      "Árboles AVL",
+      "Grafos",
+      "Algoritmo de Dijkstra",
+      "Algoritmos de ordenamiento",
+      "Hashing"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://books.google.com/books?id=y5WGSQAACAAJ",
+      "https://india.oup.com",
+      "https://www.goodreads.com/book/show/13554868-data-structures-using-c"
+    ]
+  },
+  "data-structures-using-c-2012": {
+    "descripcion": "Manual académico integral de más de 800 páginas que aborda el diseño y la implementación de estructuras de datos bajo el paradigma de programación orientada a objetos (POO) en C++ (C++03/C++11). Escrito por la doctora Varsha H. Patil y editado por Oxford University Press, está diseñado para estudiantes universitarios de ingeniería informática y carreras afines que conocen los fundamentos de programación y desean formalizar el modelado de Tipos Abstractos de Datos (ADT) mediante clases y plantillas (templates).\n\nEl temario inicia con los principios del ciclo de vida del software (SDLC) y el análisis formal de complejidad asintótica (Big-O, Omega y Theta), integrándolos con conceptos de abstracción, constructores, sobrecarga de operadores y programación genérica en C++. Desglosa estructuras lineales completas: arreglos, matrices dispersas, pilas, colas (lineales, circulares, de doble extremo y de prioridad) y listas enlazadas (simples, dobles, circulares y generalizadas), con aplicaciones a evaluación de expresiones y recursión. En estructuras no lineales, cubre árboles binarios, árboles de búsqueda (BST), árboles balanceados (AVL, árboles B, B+ y splay trees), montículos (heaps) y grafos (recorridos BFS y DFS, caminos mínimos de Dijkstra y Floyd, y árboles de recubrimiento mínimo de Kruskal y Prim). También profundiza en técnicas de hashing, algoritmos de búsqueda y ordenamiento (quicksort, mergesort, heapsort, shell sort, búsqueda de Fibonacci), manejo de archivos secuenciales y de acceso directo con fstream, y una introducción práctica a la biblioteca estándar de plantillas (STL: vector, list, map, iteradores y algoritmos genéricos).\n\nCada capítulo ofrece programas completos en C++ estructurados en clases, acompañados de cuestionarios de opción múltiple (MCQ), preguntas de revisión teórica y problemas prácticos de laboratorio para afianzar el código. Su principal fortaleza radica en enlazar con claridad la teoría de los ADT con el diseño orientado a objetos y el uso de la STL moderna. No incluye proyectos integrados de software comercial, pues su propósito es sentar las bases conceptuales y prácticas que exige la ingeniería informática.",
+    "temas": [
+      "C++",
+      "Estructuras de datos",
+      "Programación orientada a objetos",
+      "Tipos Abstractos de Datos (ADT)",
+      "Plantillas (Templates)",
+      "Listas enlazadas",
+      "Árboles binarios",
+      "Árboles AVL",
+      "Grafos",
+      "Algoritmos de ordenamiento",
+      "Hashing",
+      "C++ STL"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://global.oup.com",
+      "https://openlibrary.org/books/OL25178696M/Data_Structures_using_C++",
+      "https://www.abebooks.com/9780198066231/Data-Structures-Using-Varsha-Patil-0198066236/plp"
+    ]
+  },
+  "data-structures-algorithm-analysis-in-c-4th-edition-2013": {
+    "descripcion": "Texto de referencia y clásico fundamental en la educación informática avanzada, escrito por el catedrático Mark Allen Weiss y publicado por Pearson. Esta cuarta edición moderniza completamente las implementaciones de código adaptándolas al estándar C++11, incorporando semántica de movimiento (rvalue references), punteros inteligentes, nullptr, bucles range-based for y plantillas genéricas. Está dirigido a estudiantes de nivel intermedio a avanzado y a ingenieros de software que dominan C++ y buscan dominar la eficiencia matemática y computacional de las estructuras de datos.\n\nLa obra destaca por entrelazar el código en C++11 con un análisis matemático formal y riguroso (notaciones Big-Oh, Omega, Theta y Little-oh). Desarrolla desde cero estructuras canónicas con iteradores propios (como las clases Vector y List), pilas y colas, antes de pasar a árboles de búsqueda binaria, árboles balanceados AVL, splay trees, árboles B y árboles AA. En tablas hash cubre técnicas de vanguardia como cuckoo hashing, hopscotch hashing y funciones de dispersión universal; en colas de prioridad analiza montículos izquierdistas (leftist heaps), skew heaps, colas binomiales y pairing heaps. Aborda extensamente algoritmos de grafos (caminos mínimos con Dijkstra y Bellman-Ford, flujo de redes, componentes fuertemente conexos, árboles de expansión mínima), ordenamiento interno y externo (fusión polifásica), conjuntos disjuntos (union-find con compresión de caminos), paradigmas de diseño (programación dinámica, algoritmos voraces, divide y vencerás), análisis amortizado mediante el método del potencial y una introducción formal a la NP-completitud.\n\nAporta un nivel de profundidad teórica y analítica excepcional, demostrando cotas inferiores de complejidad y ofreciendo código C++11 robusto y eficiente en el repositorio oficial del autor. Cada capítulo concluye con una amplia selección de problemas y ejercicios teóricos y de programación. No construye aplicaciones completas con interfaz gráfica ni sistemas comerciales, y su curva de dificultad requiere solidez previa en matemáticas discretas. Es un libro imprescindible para aspirantes a superar entrevistas técnicas de alta exigencia (nivel FAANG) o desarrolladores de software de infraestructura y sistemas de alto rendimiento.",
+    "temas": [
+      "C++11",
+      "Algoritmos",
+      "Estructuras de datos",
+      "Complejidad asintótica",
+      "Semántica de movimiento",
+      "Árboles AVL y Splay",
+      "Tablas hash avanzadas",
+      "Colas de prioridad",
+      "Algoritmos de grafos",
+      "Análisis amortizado",
+      "Programación dinámica",
+      "NP-completitud"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.pearson.com/en-us/subject-catalog/p/data-structures-and-algorithm-analysis-in-c/P200000003310/9780132847377",
+      "https://users.cs.fiu.edu/~weiss/dsaa_c++4/code/",
+      "https://users.cs.fiu.edu/~weiss/dsaa_c++4/errata/"
+    ]
+  },
+  "c-data-structures-and-algorithms-2nd-edition-2024": {
+    "descripcion": "Guía práctica y actualizada que enseña cómo implementar y aprovechar estructuras de datos y algoritmos eficientes en el ecosistema moderno de C# y .NET (actualizado para C# 12 y .NET 8). Escrito por Marcin Jamro y publicado por Packt en su segunda edición de 2024, el libro está orientado a desarrolladores C# de nivel intermedio que desean escribir código optimizado, escalable y limpio, conociendo tanto las colecciones nativas de la Base Class Library (.NET BCL) como los detalles internos de construir estructuras a medida desde cero.\n\nEl temario repasa los fundamentos del sistema de tipos en C# (tipos por valor y referencia, structs, records, tuplas y tipos anulables) y el cálculo de complejidad algorítmica (Big-O). Continúa con colecciones lineales como arreglos unidimensionales, multidimensionales y dentados (jagged arrays), ordenamientos (burbuja, selección, inserción, quicksort, mergesort, heapsort), variantes de listas (List<T>, LinkedList<T>), pilas (Stack<T>), colas (Queue<T>) y la clase moderna PriorityQueue<TElement, TPriority>. En estructuras asociativas y no lineales, profundiza en tablas de dispersión y conjuntos (Dictionary<TKey, TValue>, HashSet<T>, SortedSet<T>), variantes de árboles (árboles binarios de búsqueda BST, árboles AVL, árboles rojo-negro) y grafos (recorridos BFS y DFS, coloreado, camino más corto con Dijkstra y árboles de expansión mínima con Kruskal y Prim).\n\nEn su sección práctica, el libro aterriza la teoría implementando proyectos y retos lógicos concretos, como la Torre de Hanoi, un solucionador automático de Sudoku y la generación gráfica de fractales recursivos. Su gran valor añadido respecto a los textos puramente académicos es que conecta cada estructura teórica con las clases reales de .NET, enseñando cuándo reutilizar componentes existentes y cuándo implementar estructuras especializadas para maximizar el rendimiento. No incluye demostraciones matemáticas extensas ni ejercicios teóricos de examen, concentrándose directamente en la aplicación profesional de la algoritmia.",
+    "temas": [
+      "C# 12",
+      ".NET 8",
+      "Estructuras de datos",
+      "Algoritmos",
+      "Colecciones genéricas",
+      "Árboles binarios",
+      "Grafos",
+      "Algoritmo de Dijkstra",
+      "Backtracking",
+      "Recursión",
+      "PriorityQueue",
+      "Complejidad Big-O"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Solucionador de Sudoku",
+        "descripcion": "Aplicación en C# que resuelve tableros de Sudoku mediante algoritmos de vuelta atrás (backtracking), evaluando de forma recursiva restricciones de filas, columnas y cuadrículas."
+      },
+      {
+        "nombre": "Resolución de la Torre de Hanoi",
+        "descripcion": "Programa que implementa y visualiza la transferencia secuencial óptima de discos entre varillas utilizando llamadas recursivas y estructuras de pila."
+      },
+      {
+        "nombre": "Generador de fractales",
+        "descripcion": "Herramienta gráfica que dibuja patrones geométricos complejos y autosimilares aprovechando la recursión matemática y el renderizado en .NET."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/PacktPublishing/C-Sharp-Data-Structures-and-Algorithms---Second-Edition",
+      "https://www.oreilly.com/library/view/c-data-structures/9781803248271/"
+    ]
+  },
+  "c-data-structures-2023": {
+    "descripcion": "Libro autopublicado por Theophilus Edet, ingeniero de software y autor de una extensa colección de manuales sobre lenguajes y modelos de programación. Apareció a finales de 2023 y, en las tiendas, la obra de Edet sobre este tema figura con el título «Algorithms and Data Structures for OOP With C#». Está dirigido a programadores de C#, estudiantes de informática y a quien quiera aprender programación orientada a objetos, algoritmos y estructuras de datos con este lenguaje. Conviene conocer ya la sintaxis básica de C#.\n\nSegún la descripción del libro, combina las estructuras de datos clásicas con su implementación orientada a objetos en C#: árboles binarios, tablas hash y otras colecciones, junto con algoritmos de ordenación, programación dinámica y algoritmos heurísticos. Cada tema se acompaña de fragmentos de código y de ejemplos inspirados en problemas reales, con la idea de equilibrar la teoría con la implementación práctica. Por el tema, cabe esperar también un análisis de la eficiencia de cada estructura, aunque la descripción oficial no detalla el índice capítulo a capítulo.\n\nEs un texto explicativo con ejemplos de código, más que un libro de ejercicios o de proyectos: no anuncia cuestionarios ni aplicaciones completas. Ofrece una visión de conjunto, así que no hay que esperar demostraciones matemáticas formales ni la profundidad de los textos académicos de algoritmos. Tampoco indica con qué versión de .NET trabaja; para ejecutar los ejemplos basta con el SDK de .NET actual y un editor como Visual Studio o VS Code.",
+    "temas": [
+      "C#",
+      "Programación orientada a objetos",
+      "Estructuras de datos",
+      "Algoritmos",
+      "Árboles binarios",
+      "Tablas hash",
+      "Ordenación",
+      "Programación dinámica",
+      "Algoritmos heurísticos"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "media",
+    "fuentes": [
+      "https://www.amazon.com/stores/Theophilus-Edet/author/B0CVV4VJN9",
+      "https://www.goodreads.com/author/show/47262176.Theophilus_Edet",
+      "https://www.goodreads.com/book/show/201535402-algorithms-and-data-structures-for-oop-with-c"
+    ]
+  },
+  "algorithhms-4th-edition-2011": {
+    "descripcion": "Tratado universitario de referencia mundial en ciencias de la computación, desarrollado por Robert Sedgewick y Kevin Wayne en la Universidad de Princeton para su curso troncal de algoritmos. La obra implementa sus soluciones en Java (compatible desde Java 6 en adelante), empleando un paradigma moderno y riguroso fundamentado en tipos abstractos de datos, encapsulación e interfaces genéricas. Está orientada a estudiantes de informática y programadores de nivel intermedio que ya dominan la programación orientada a objetos en Java y buscan una base sólida en diseño analítico, estructuras de datos clásicas y verificación experimental del rendimiento.\n\nEl contenido abarca con profundidad matemática y práctica las grandes áreas de la algoritmia: fundamentos y tipos abstractos (Bags, Queues, Stacks y el algoritmo Union-Find con compresión de caminos); ordenamiento (Selection sort, Insertion sort, Shellsort, Mergesort ascendente y descendente, Quicksort con partición en tres vías y montículos con Heapsort); búsqueda y tablas de símbolos (Binary Search Trees, árboles rojinegros balanceados a la izquierda y tablas hash por encadenamiento o direccionamiento abierto); algoritmos sobre grafos dirigidos y no dirigidos (DFS, BFS, componentes conexas, ordenamiento topológico, componentes fuertemente conexas con Kosaraju-Sharir, Prim, Kruskal, Dijkstra y Bellman-Ford); y procesamiento de cadenas (ordenación LSD/MSD, Tries, TST, búsqueda de subcadenas con Knuth-Morris-Pratt, Boyer-Moore y Rabin-Karp, autómatas NFA para expresiones regulares y compresión con Huffman y LZW). Se apoya en la biblioteca Java de Princeton (algs4.jar), integrando módulos estándar de entrada/salida y visualización gráfica como StdIn, StdOut, StdDraw y StdRandom.\n\nCada capítulo incluye decenas de actividades clasificadas en ejercicios directos de comprensión, problemas de diseño e implementación creativa (\"Creative Problems\") y experimentos empíricos (\"Experiments\") orientados a contrastar la complejidad asintótica con mediciones de tiempo de CPU y consumo de memoria. El libro no construye proyectos comerciales comerciales, sino programas autónomos y tipos de datos abstractos completamente verificados. Destaca por su rigor científico, sus diagramas visuales paso a paso de cada traza algorítmica y su modelo pedagógico; deja fuera marcos empresariales modernos, demandando madurez matemática previa para el análisis asintótico y las demostraciones formales.",
+    "temas": [
+      "Java",
+      "Algoritmos",
+      "Estructuras de datos",
+      "Análisis de algoritmos",
+      "Ordenamiento",
+      "Árboles Red-Black",
+      "Grafos",
+      "Dijkstra",
+      "Búsqueda de cadenas",
+      "Compresión de datos",
+      "Union-Find",
+      "Biblioteca algs4"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://algs4.cs.princeton.edu/",
+      "https://www.pearson.com/en-us/subject-catalog/p/algorithms/P200000003309",
+      "https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/0321573510"
+    ]
+  },
+  "data-structures-and-algorithms-in-swift-2020": {
+    "descripcion": "Guía práctica y concisa que conecta la programación en el ecosistema Apple con los fundamentos teóricos de la computación utilizando Swift 5. Escrita por Elshad Karimov y publicada por Apress, está pensada para desarrolladores de iOS y macOS de nivel básico e intermedio que dominan la sintaxis del lenguaje, pero no poseen una formación formal en ciencias de la computación y necesitan comprender la eficiencia de recursos o prepararse para procesos de selección y entrevistas técnicas de código.\n\nEl libro aborda tanto las colecciones nativas de Swift como la implementación manual de estructuras clásicas mediante clases, estructuras y tipos genéricos. Enseña a manipular colecciones estándar (Arrays, Dictionaries y Sets); estructuras lineales como pilas (Stacks), colas (Queues) y listas enlazadas simples y dobles (Linked Lists); tablas hash con resolución de colisiones; y estructuras jerárquicas como árboles binarios de búsqueda, árboles balanceados (AVL y Red-Black), montículos (Heaps), árboles de prefijos (Tries) y grafos representados mediante matrices y listas de adyacencia. En la parte algorítmica, cubre notación Big-O, algoritmos de búsqueda (lineal, binaria y el algoritmo Rabin-Karp para cadenas), ordenamientos clásicos (Bubble, Selection, Insertion, Merge y Quick sort) y recorridos de grafos (BFS y DFS).\n\nSu metodología combina la explicación teórica directa de cada estructura con ejercicios de codificación y preguntas de entrevista técnica al cierre de cada tema, cuyas soluciones completas y comentadas se analizan al final del volumen. No enseña a crear una aplicación móvil para la App Store (no incluye UIKit, SwiftUI ni Core Data), sino implementaciones limpias orientadas a Swift Playgrounds o proyectos de consola. Su mayor ventaja es explicar conceptos abstractos con lenguaje sencillo y código idiomático en Swift, siendo un recurso muy accesible para mejorar la calidad del software antes de afrontar problemas de escalabilidad o entrevistas laborales.",
+    "temas": [
+      "Swift 5",
+      "iOS",
+      "Estructuras de datos",
+      "Algoritmos",
+      "Notación Big-O",
+      "Listas enlazadas",
+      "Pilas y colas",
+      "Árboles binarios",
+      "Tries",
+      "Grafos",
+      "Ordenamiento",
+      "Entrevistas técnicas"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5769-2",
+      "https://www.amazon.com/Data-Structures-Algorithms-Swift-Dictionaries/dp/1484257688",
+      "https://www.oreilly.com/library/view/data-structures-and/9781484257692/"
+    ]
+  },
+  "genetic-algorithms-in-java-basics-2015": {
+    "descripcion": "Manual introductorio y enfocado en la aplicación directa de la computación evolutiva y la inteligencia artificial heurística mediante Java (Java 8). Escrito por Lee Jacobson y Burak Kanber y publicado por Apress, está orientado a programadores principiantes en IA y desarrolladores de Java con conocimientos básicos a intermedios en programación orientada a objetos que buscan resolver problemas combinatorios de optimización difícil sin enredarse en complejas demostraciones matemáticas.\n\nEl libro explica la traslación de la biología evolutiva a la ingeniería de software: modelado de cromosomas (representaciones binarias y de ordenamiento), generación de poblaciones, funciones de evaluación de aptitud (fitness), métodos de selección (por torneo y por ruleta), operadores de cruce (crossover uniforme, de un punto y ordenado), operadores de mutación (bit-flip y de intercambio) y técnicas de elitismo. Asimismo, explora estrategias de optimización avanzada como algoritmos genéticos adaptativos con parámetros dinámicos de cruce y mutación. Toda la arquitectura se construye en Java estándar definiendo clases limpias como Individual, Population y GeneticAlgorithm.\n\nEl aprendizaje está estructurado en torno a proyectos prácticos guiados paso a paso donde se implementan soluciones ejecutables para problemas clásicos de optimización, complementados con pequeños ejercicios de ajuste al final de los capítulos. El texto aporta una transición fluida desde la teoría conceptual hasta un programa en ejecución con salidas por consola; prescinde de frameworks modernos de deep learning o computación paralela masiva, concentrándose exclusivamente en la heurística evolutiva pura. Conviene contar con un entorno de desarrollo Java para compilar y calibrar las tasas de mutación y tamaño poblacional de cada simulación.",
+    "temas": [
+      "Java",
+      "Algoritmos genéticos",
+      "Computación evolutiva",
+      "Inteligencia artificial",
+      "Optimización heurística",
+      "Operadores genéticos",
+      "Cruce y mutación",
+      "Problema del viajante (TSP)",
+      "Planificación de horarios",
+      "Robótica simulada"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Controlador de navegación para robot virtual",
+        "descripcion": "Agente simulado en Java que evoluciona mediante selección y mutación genética para aprender a desplazarse de forma autónoma por un laberinto esquivando obstáculos."
+      },
+      {
+        "nombre": "Optimizador del problema del viajante de comercio (TSP)",
+        "descripcion": "Solucionador combinatorio en Java que encuentra la ruta de menor distancia para recorrer un conjunto de ciudades sin repetir destinos mediante cruce ordenado y mutación por intercambio."
+      },
+      {
+        "nombre": "Generador automático de horarios universitarios (Class Scheduler)",
+        "descripcion": "Sistema de asignación en Java que optimiza la distribución de aulas, grupos de estudiantes y profesores respetando restricciones operativas y minimizando cruces de horarios."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-0328-6",
+      "https://www.amazon.com/Genetic-Algorithms-Java-Basics-Jacobson/dp/1484203294",
+      "https://www.oreilly.com/library/view/genetic-algorithms-in/9781484203286/"
+    ]
+  },
+  "python-algorithms-2nd-edition-2014": {
+    "descripcion": "Segunda edición actualizada a Python 3 del aclamado tratado de diseño y análisis algorítmico escrito por Magnus Lie Hetland, profesor asociado en la Universidad Noruega de Ciencia y Tecnología (NTNU). La obra está orientada a desarrolladores y estudiantes con conocimientos previos de la sintaxis y colecciones básicas de Python que quieren trascender la simple codificación para aprender a pensar algorítmicamente, formular soluciones formales y entender en profundidad el porqué de la eficiencia y corrección de un algoritmo.\n\nEl núcleo didáctico del libro utiliza la inducción matemática como principio unificador para diseñar y comprender código recursivo e iterativo. Hetland analiza la complejidad asintótica (notaciones Big-O, Omega y Theta), el paradigma divide y vencerás (búsqueda binaria, Mergesort, Quicksort y árboles de recurrencia), algoritmos voraces o Greedy (árboles de expansión mínima con Kruskal y Prim, y códigos de Huffman), y programación dinámica mediante memoización y descomposición en subproblemas. En el área de grafos, detalla recorridos BFS y DFS, caminos mínimos con Dijkstra y Bellman-Ford, componentes fuertemente conexas, emparejamientos y problemas de corte mínimo y flujo máximo con Ford-Fulkerson. También aborda la teoría de la complejidad computacional (clases P, NP y NP-completitud) y técnicas prácticas de profiling y aceleración de Python mediante PyPy, Cython y extensiones en C.\n\nEl enfoque combina explicaciones conceptuales y analíticas con implementaciones en código Python sumamente idiomático, complementadas al final de cada capítulo con ejercicios reflexivos y de resolución de problemas cuyas pistas y guías se recogen en el Apéndice D. No plantea proyectos de aplicaciones finales de usuario o web, sino rutinas algorítmicas compactas y elegantes. Su valor diferencial reside en desmitificar la matemática formal conectándola con la expresividad natural de Python; requiere disposición hacia el pensamiento abstracto y deja de lado frameworks específicos para concentrarse en la ciencia computacional pura.",
+    "temas": [
+      "Python 3",
+      "Algoritmos",
+      "Inducción matemática",
+      "Notación Big-O",
+      "Divide y vencerás",
+      "Programación dinámica",
+      "Algoritmos voraces",
+      "Grafos",
+      "Dijkstra",
+      "Flujo máximo",
+      "Problemas NP-completos",
+      "Cython"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-0055-1",
+      "https://www.amazon.com/Python-Algorithms-Mastering-Basic-Language/dp/1484200562",
+      "https://www.oreilly.com/library/view/python-algorithms-mastering/9781484200551/"
+    ]
+  },
+  "the-design-of-approximation-algorithms-2011": {
+    "descripcion": "Monografía académica de referencia escrita por David P. Williamson y David B. Shmoys y publicada por Cambridge University Press en 2011, enfocada en el diseño formal y análisis matemático de algoritmos de aproximación eficientes con garantías teóricas demostrables para problemas de optimización combinatoria NP-hard. La obra está orientada a estudiantes de posgrado, investigadores y profesionales avanzados en ciencias de la computación, investigación operativa y matemática aplicada. Exige una sólida base previa en diseño y análisis de algoritmos, teoría de la complejidad computacional (clases P, NP y reducciones), álgebra lineal, cálculo de probabilidades y familiaridad con demostraciones matemáticas rigurosas.\n\nA diferencia de los textos tradicionales estructurados por problemas aislados, la obra organiza su propuesta en torno a los paradigmas de diseño fundamentales: algoritmos codiciosos (greedy) y búsqueda local, redondeo de datos y programación dinámica, esquemas de aproximación en tiempo polinomial (PTAS y FPTAS), programación lineal (LP) y técnicas de redondeo determinista y aleatorizado, programación semidefinida (SDP), el método primal-dual, y cortes y métricas (embeddings métricos). Con estas herramientas analiza y resuelve problemas emblemáticos como Set Cover, Knapsack, el problema del viajante de comercio métrico (TSP), Maximum Satisfiability (MAX-SAT), el algoritmo de Goemans-Williamson para MAX-CUT, Multicut, Multiway Cut y Facility Location, además de abordar temas avanzados como diseño de redes (buy-at-bulk network design) y técnicas para demostrar la dureza de aproximación (inaproximabilidad) basadas en el teorema PCP y reducciones de brecha.\n\nEl libro no propone proyectos de desarrollo de software ni programación guiada en lenguajes específicos, sino que expresa todos los algoritmos mediante pseudocódigo matemático formal y concluye cada capítulo con un conjunto riguroso de ejercicios teóricos y notas bibliográficas. Su gran aporte radica en enseñar a pensar de forma metodológica a través de técnicas transferibles a nuevos problemas de optimización, siendo un texto de cabecera en la teoría de la aproximación moderna. Deja fuera la implementación en código ejecutable, la heurística empírica y la optimización en arquitecturas reales de hardware. Conviene dominar previamente la teoría de la dualidad en programación lineal antes de abordar sus capítulos intermedios y avanzados.",
+    "temas": [
+      "Algoritmos de aproximación",
+      "Optimización combinatoria",
+      "Problemas NP-hard",
+      "Programación lineal",
+      "Programación semidefinida",
+      "Método primal-dual",
+      "Redondeo aleatorizado",
+      "Algoritmos codiciosos",
+      "Cortes y métricas",
+      "Teorema PCP",
+      "Inaproximabilidad"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.cambridge.org/core/books/design-of-approximation-algorithms/0521195276",
+      "https://www.designofapproxalgs.com/",
+      "https://www.amazon.com/Design-Approximation-Algorithms-David-Williamson/dp/0521195276"
+    ]
+  },
+  "algorithms-and-theory-of-computation-handbook-general-concepts-and-techniques-2010": {
+    "descripcion": "Primer volumen de la segunda edición (2010) del manual enciclopédico de referencia de CRC Press (Chapman & Hall/CRC), editado por Mikhail J. Atallah y Marina Blanton con capítulos monográficos de destacados investigadores en ciencias de la computación. Esta obra de casi mil páginas abarca de forma exhaustiva los conceptos, estructuras de datos y paradigmas analíticos fundamentales de la computación teórica y aplicada. Está dirigida a estudiantes de posgrado, académicos, investigadores e ingenieros que diseñan sistemas complejos que demandan una fundamentación algorítmica rigurosa. Requiere conocimientos previos de matemáticas discretas, álgebra y estructuras de datos elementales.\n\nEl contenido expone detalladamente las técnicas esenciales de diseño y análisis (dividir y conquistar, programación dinámica, análisis amortizado y de caso promedio), algoritmos de búsqueda, ordenamiento y estadísticos de orden, y estructuras de datos básicas, avanzadas y multidimensionales para aplicaciones espaciales (como kd-trees y R-trees). Profundiza en algoritmos para grafos (estáticos, combinatorios y grafos dinámicos), algoritmos para memoria externa (I/O-efficient), algoritmos aleatorizados, coincidencia de cadenas y patrones generales (algoritmos Knuth-Morris-Pratt, Boyer-Moore, árboles de sufijos), compresión de datos de texto (Huffman, Lempel-Ziv), teoría de números computacional, algoritmos algebraicos y numéricos, aplicaciones de la Transformada Rápida de Fourier (FFT), matrices estructuradas, teoría de la complejidad computacional (autómatas, computabilidad, clases P, NP y PSPACE, completitud, algoritmos parametrizados), teoría del aprendizaje computacional y optimización matemática (lineal, entera y convexa).\n\nAl ser un manual enciclopédico de referencia profesional, no incluye proyectos de desarrollo de software ni ejercicios prácticos para el lector, sino artículos profundos de revisión que sintetizan teoremas, lemas, análisis de complejidad asintótica, pseudocódigo y un amplio catálogo de referencias bibliográficas. Su valor diferencial reside en condensar en un único tomo el núcleo canónico de la ciencia de la computación, sirviendo de puente entre la teoría matemática y las metodologías del software moderno. Deja fuera tutoriales de programación en código fuente y ejercicios resueltos paso a paso. Es una obra de consulta indispensable para sustentar formalmente investigaciones y soluciones algorítmicas de alto nivel.",
+    "temas": [
+      "Estructuras de datos",
+      "Análisis de algoritmos",
+      "Algoritmos de grafos",
+      "Búsqueda y ordenamiento",
+      "Algoritmos de memoria externa",
+      "Algoritmos aleatorizados",
+      "Compresión de datos",
+      "Transformada Rápida de Fourier (FFT)",
+      "Teoría de la complejidad",
+      "Optimización convexa",
+      "Algoritmos parametrizados"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Algorithms-and-Theory-of-Computation-Handbook-Second-Edition---2-Volume-Set/Atallah-Blanton/p/book/9781584888185",
+      "https://www.taylorfrancis.com/books/edit/10.1201/9781420078206/algorithms-theory-computation-handbook-mikhail-atallah-marina-blanton",
+      "https://www.amazon.com/Algorithms-Theory-Computation-Handbook-Techniques/dp/1584888220"
+    ]
+  },
+  "algorithms-and-theory-of-computation-handbook-special-topics-and-techniques-2010": {
+    "descripcion": "Segundo volumen de la segunda edición (2010) del compendio de CRC Press (Chapman & Hall/CRC), editado por Mikhail J. Atallah y Marina Blanton. A diferencia del tomo inicial centrado en fundamentos universales, este volumen de más de 950 páginas se enfoca en ramas especializadas y aplicaciones avanzadas de la algoritmia moderna. Está concebido para investigadores, estudiantes de posgrado e ingenieros especializados en disciplinas de frontera como criptografía, computación gráfica, robótica, bioinformática o sistemas concurrentes. Requiere contar con los fundamentos teóricos del primer tomo o una base equivalente sólida en estructuras de datos avanzadas, matemáticas discretas y complejidad computacional.\n\nLa obra compila contribuciones especializadas sobre áreas críticas: geometría computacional y topología computacional (envolventes convexas, diagramas de Voronoi, triangulaciones de Delaunay), algoritmos de robótica (planificación de trayectorias y movimientos) y visión computacional/procesamiento de imágenes; algoritmos de trazado de grafos (graph drawing) y diseño físico de circuitos integrados a muy gran escala (VLSI); algoritmia biomédica (como la planificación en radioterapia de intensidad modulada o IMRT); fundamentos criptográficos avanzados (cifrado asimétrico RSA y ECC, funciones hash, firmas digitales, computación multiparte segura, esquemas de votación electrónica, protocolos de subastas y secuencias pseudoaleatorias); teoría de la privacidad y anonimato (k-anonimato, privacidad diferencial); teoría de bases de datos, algoritmos de secuenciación (scheduling), algoritmos de búsqueda en inteligencia artificial, computación paralela y sistemas distribuidos autoestabilizantes.\n\nComo manual de consulta de alto nivel, carece de ejercicios prácticos al final de los capítulos y de proyectos guiados de codificación; cada capítulo constituye una monografía autosuficiente con formulaciones matemáticas rigurosas, pseudocódigo abstracto y un relevamiento bibliográfico exhaustivo del estado del arte. Su gran mérito radica en unificar disciplinas algorítmicas de frontera que habitualmente se encuentran dispersas en actas de congresos y revistas científicas, mostrando la aplicación directa de modelos teóricos a problemas industriales y científicos reales. Deja fuera implementaciones en código ejecutable o tutoriales de librerías comerciales. Conviene recurrir a él como material de apoyo e investigación para resolver desafíos técnicos altamente especializados.",
+    "temas": [
+      "Geometría computacional",
+      "Criptografía",
+      "Topología computacional",
+      "Computación multiparte segura",
+      "Visión artificial",
+      "Planificación de robots",
+      "Diseño VLSI",
+      "Trazado de grafos",
+      "Privacidad de datos",
+      "Sistemas autoestabilizantes",
+      "Algoritmos de búsqueda en IA"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Algorithms-and-Theory-of-Computation-Handbook-Second-Edition---2-Volume-Set/Atallah-Blanton/p/book/9781584888185",
+      "https://www.taylorfrancis.com/books/edit/10.1201/9781420078220/algorithms-theory-computation-handbook-mikhail-atallah-marina-blanton",
+      "https://www.amazon.com/Algorithms-Theory-Computation-Handbook-Techniques/dp/1584888204"
+    ]
+  },
+  "data-structure-practice-for-collegiate-programming-contests-and-education-2016": {
+    "descripcion": "Manual de entrenamiento práctico publicado por CRC Press en 2016, escrito por Yonghui Wu (entrenador de equipos finalistas mundiales de ICPC en la Universidad de Fudan) y Jiande Wang (entrenador de la Olimpiada de Informática en China). La obra está orientada a la preparación intensiva de estudiantes universitarios, competidores de programación competitiva (ICPC, IOI, Codeforces) y docentes que buscan afianzar las estructuras de datos clásicas mediante la resolución sistemática de problemas de certámenes reales. Requiere un nivel intermedio de programación en C++, soltura con la recursión y comprensión elemental de la complejidad temporal y espacial en notación asintótica.\n\nEl libro utiliza el lenguaje C++ y componentes clave de la biblioteca estándar (STL: vector, queue, stack, priority_queue, set, map, list) a lo largo de 14 capítulos divididos en 4 secciones experimentales: destrezas básicas de programación (cálculo directo, simulación y recursión simple); listas lineales (vectores, listas enlazadas secuenciales, pilas, colas, listas indexadas generalizadas y ordenamiento); estructuras de árbol (árboles binarios, árboles de búsqueda, montículos binarios, árboles de Huffman y árboles de segmentos); y estructuras de grafos (matrices y listas de adyacencia, recorridos en anchura BFS y profundidad DFS, árboles de recubrimiento mínimo mediante Prim y Kruskal, caminos más cortos con Dijkstra, Bellman-Ford y Floyd-Warshall, y grafos bipartitos con flujo en redes y algoritmos de emparejamiento). En conjunto, desglosa más de 200 problemas extraídos de eliminatorias y finales de ACM-ICPC desde 1990.\n\nSu enfoque está volcado por completo a la práctica de ejercicios de concurso: no construye proyectos de software de gran escala, sino que para cada problema presenta el enunciado del reto, analiza el modelo subyacente, aporta pistas de diseño y ofrece la solución completa en C++, enlazando los identificadores de problemas en jueces en línea como POJ, UVa y ZOJ para su comprobación. Su mayor fortaleza reside en enseñar a elegir la estructura de datos precisa para evitar errores de límite de tiempo o memoria bajo restricciones estrictas de concurso. Deja de lado patrones de diseño de software empresarial, desarrollo guiado por pruebas (TDD) y bases de datos. Es un texto sumamente útil para quienes se preparan para torneos competitivos o entrevistas técnicas de empresas tecnológicas de primer nivel.",
+    "temas": [
+      "Programación competitiva",
+      "C++",
+      "STL",
+      "Estructuras de datos",
+      "Árboles de segmentos",
+      "Algoritmos de grafos",
+      "Caminos mínimos",
+      "Árboles de recubrimiento mínimo",
+      "Flujo en redes",
+      "ACM-ICPC",
+      "Jueces en línea"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Data-Structure-Practice-for-Collegiate-Programming-Contests-and-Education/Wu-Wang/p/book/9781498776639",
+      "https://www.taylorfrancis.com/books/mono/10.1201/b21588/data-structure-practice-collegiate-programming-contests-education-yonghui-wu-jiande-wang",
+      "https://www.amazon.com/Structure-Collegiate-Programming-Contests-Education/dp/1498776634"
+    ]
+  },
+  "distributed-systems-an-algorithmic-approach-2nd-edition-2014": {
+    "descripcion": "Texto universitario de referencia publicado por CRC Press en 2014 (segunda edición), escrito por Sukumar Ghosh, profesor de la Universidad de Iowa. La obra aborda los modelos formales, principios abstractos y protocolos fundamentales que rigen los sistemas distribuidos, priorizando la claridad conceptual y la intuición metodológica sobre una notación matemática excesivamente densa. Está dirigida a estudiantes universitarios de nivel avanzado, posgraduados, investigadores y arquitectos de software distribuido. Presupone nociones sólidas de sistemas operativos (concurrencia, procesos, hilos, comunicación interproceso), estructuras de datos y conceptos básicos de redes y lógica matemática.\n\nEl temario abarca exhaustivamente los fundamentos del área: comunicación por paso de mensajes (modelos síncronos y asíncronos), especificación de algoritmos mediante sintaxis de acciones condicionadas por guardas, razonamiento de corrección mediante propiedades de seguridad (safety), vivacidad (liveness) e invariantes; noción de tiempo y sincronización de relojes (relojes lógicos de Lamport, relojes vectoriales, algoritmos de Cristian y NTP); paradigmas de coordinación como exclusión mutua distribuida (algoritmos de Ricart-Agrawala, Maekawa, Suzuki-Kasami), detección de estados globales e instantáneas distribuidas (algoritmo de Chandy-Lamport), detección de bloqueos y algoritmos de elección de líder; tolerancia a fallos y consenso (modelos de fallo por caída, omisión y fallos bizantinos, el resultado de imposibilidad FLP, protocolo Paxos), transacciones distribuidas y compromiso atómico (2PC y 3PC), comunicación de grupo (difusión atómica y orden causal), replicación de datos y modelos de consistencia (secuencial, linealizable y eventual, sistemas basados en quórums), sistemas autoestabilizantes, simulación discreta distribuida (Time Warp), seguridad básica y redes entre pares (P2P y tablas hash distribuidas como Chord).\n\nEl libro no incluye proyectos de desarrollo de software guiados en un lenguaje concreto ni código fuente listo para desplegar, sino que emplea pseudocódigo formal y presenta al final de cada capítulo una variada colección de ejercicios analíticos de diseño de protocolos, derivación de invariantes y trazado de ejecuciones distribuidas. Su principal aporte es desentrañar con rigor y sencillez los dilemas teóricos universales (como concurrencia, asincronía y fallos parciales) que subyacen en las tecnologías en la nube modernas. No enseña herramientas o frameworks comerciales como Apache Kafka, Kubernetes o gRPC. Conviene abordarlo con fundamentos previos de sistemas operativos para asimilar sin dificultad las implicaciones de las condiciones de carrera distribuidas y los modelos de fallo.",
+    "temas": [
+      "Sistemas distribuidos",
+      "Relojes lógicos de Lamport",
+      "Relojes vectoriales",
+      "Consenso distribuido",
+      "Algoritmo Paxos",
+      "Exclusión mutua distribuida",
+      "Instantáneas de Chandy-Lamport",
+      "Tolerancia a fallos",
+      "Sistemas autoestabilizantes",
+      "Tablas hash distribuidas (DHT)",
+      "Transacciones distribuidas"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Distributed-Systems-An-Algorithmic-Approach/Ghosh/p/book/9781466552975",
+      "https://www.taylorfrancis.com/books/mono/10.1201/b17548/distributed-systems-sukumar-ghosh",
+      "https://www.amazon.com/Distributed-Systems-Algorithmic-Approach-Second/dp/1466552972"
+    ]
+  },
+  "foundations-of-statistical-algorithms-2013": {
+    "descripcion": "Tratado técnico y riguroso publicado por CRC Press dentro de su serie de computación y análisis de datos, enfocado en los fundamentos matemáticos, históricos y computacionales de los algoritmos estadísticos modernos. Utiliza como entorno práctico el lenguaje de programación R (series R 2.x/3.x) y está dirigido a estudiantes de posgrado, investigadores, bioestadísticos y científicos de datos con un nivel intermedio o avanzado que ya dominan el cálculo multivariable, el álgebra lineal y los conceptos centrales de la inferencia estadística, y que buscan comprender qué ocurre en el interior de los motores de cálculo estadístico.\n\nEl texto huye deliberadamente de ser un mero catálogo de funciones y organiza su contenido en torno a los pilares que sustentan la computación estadística: aritmética de punto flotante, errores de redondeo y estabilidad numérica; verificación rigurosa y diseño de casos de prueba adversos (worst-case inputs); algoritmos de optimización iterativa uni y multivariable (Newton-Raphson, métodos Cuasi-Newton, Nelder-Mead y el algoritmo EM con sus variantes); deducción formal de propiedades asintóticas y de convergencia; generación de números pseudoaleatorios y muestreo mediante cadenas de Markov y Monte Carlo (MCMC); técnicas de repetición como bootstrap, jackknife y validación cruzada; y estrategias de escalabilidad y computación paralela en R mediante librerías como parallel y snowfall para el tratamiento de conjuntos de datos masivos.\n\nLa obra propone ejercicios conceptuales y aplicados al cierre de cada capítulo con soluciones seleccionadas para el autoaprendizaje, vinculando la teoría matemática con paquetes estándar del ecosistema CRAN de R. Su principal valor radica en desmontar el enfoque de «caja negra» de los paquetes estadísticos comerciales, enseñando a detectar inestabilidades numéricas y problemas de escala. No aborda la creación de aplicaciones web ni canalizaciones de ingeniería de datos distribuida (como Spark o Hadoop), centrándose exclusivamente en la formulación, corrección y rendimiento del algoritmo. Conviene tener fluidez leyendo código en R y familiaridad previa con la estadística matemática.",
+    "temas": [
+      "Algoritmos estadísticos",
+      "R",
+      "Optimización numérica",
+      "Algoritmo EM",
+      "MCMC",
+      "Aritmética de punto flotante",
+      "Bootstrap",
+      "Validación cruzada",
+      "Computación paralela",
+      "Estabilidad numérica"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Foundations-of-Statistical-Algorithms-With-References-to-R-Packages/Weihs-Mersmann-Ligges/p/book/9780367379094",
+      "https://www.amazon.com/Foundations-Statistical-Algorithms-References-Packages/dp/1439878867",
+      "https://www.researchgate.net/publication/262980193_Foundations_of_Statistical_Algorithms_With_References_to_R_Packages"
+    ]
+  },
+  "introduction-to-recursive-programming-2018": {
+    "descripcion": "Texto formativo y metodológico publicado por CRC Press orientado a desmitificar la recursión, uno de los conceptos tradicionalmente más esquivos en las ciencias de la computación. Utiliza Python 3 con un estilo deliberadamente limpio, imperativo y elemental para que las lecciones puedan trasladarse fácilmente a lenguajes como Java, C++ o C#. Está dirigido a programadores principiantes e intermedios, estudiantes universitarios y desarrolladores autodidactas que conocen la sintaxis básica y las estructuras de control iterativas convencionales, pero que tienen dificultades para conceptualizar y formular soluciones recursivas por sí mismos.\n\nEl autor formula un marco sistemático de razonamiento recursivo respaldado por la inducción matemática, el diseño basado en diagramas y plantillas para descomponer problemas en casos base y llamadas inductivas. Enseña a analizar la complejidad temporal a través de relaciones de recurrencia y el método de expansión, para luego desglosar sistemáticamente los principales tipos de recursión: recursión lineal y de cola (con algoritmos como Quickselect, bisección de raíces y el algoritmo de Euclides), esquemas de divide y vencerás (Quicksort, multiplicación de matrices de Strassen, multiplicación rápida de enteros y el problema del contorno urbano o skyline), puzles clásicos y fractales (Torres de Hanói, copo de nieve de Koch, triángulo de Sierpinski), problemas de conteo combinatorio, recursión mutua aplicada a parsers descendentes y juegos de tablero, el funcionamiento interno de la pila de llamadas (call stack) junto a la memoización, y la técnica de backtracking para resolver las N reinas, puzles de Sudoku, suma de subconjuntos y el problema de la mochila.\n\nCada uno de los doce capítulos contiene una extensa batería de ejercicios guiados y problemas de codificación que refuerzan la intuición espacial y matemática del estudiante. El libro no desarrolla aplicaciones de software de gran escala ni proyectos comerciales, pues su objetivo es afinar la capacidad analítica y algorítmica fundamental. Resulta un recurso extraordinario para preparar pruebas técnicas de selección y superar el bloqueo habitual frente a la recursión antes de abordar estructuras de datos no lineales como árboles y grafos avanzados.",
+    "temas": [
+      "Recursión",
+      "Python 3",
+      "Divide y vencerás",
+      "Backtracking",
+      "Inducción matemática",
+      "Relaciones de recurrencia",
+      "Pila de llamadas",
+      "Memoización",
+      "Torres de Hanói",
+      "Algoritmos combinatorios"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Introduction-to-Recursive-Programming/Rubio-Sanchez/p/book/9781498735285",
+      "https://www.taylorfrancis.com/books/mono/10.1201/9781315153759/introduction-recursive-programming-manuel-rubio-s%C3%A1nchez",
+      "https://www.amazon.com/Introduction-Recursive-Programming-Manuel-Rubio-S%C3%A1nchez/dp/1498735282"
+    ]
+  },
+  "numerical-methods-algorithms-and-tools-in-c-2010": {
+    "descripcion": "Obra de referencia técnica publicada por CRC Press que traslada el cálculo científico y el análisis numérico clásico al paradigma de la programación orientada a objetos en C# dentro del entorno .NET Framework (versiones .NET 2.0/3.5 y Visual Studio). Está dirigida a programadores, ingenieros, físicos y estudiantes de informática con conocimientos básicos de C# y cálculo universitario que necesitan implementar algoritmos matemáticos fiables desde cero sin recurrir a paquetes comerciales cerrados como MATLAB o dependencias externas complejas.\n\nEl libro expone la construcción estructurada de clases reutilizables para el cálculo matemático, cubriendo operaciones con vectores y matrices (tanto en el campo real como en el complejo) y la sobrecarga de operadores en C#. Profundiza en sistemas de ecuaciones lineales mediante eliminación gaussiana y factorización LU; algoritmos de ordenación y búsqueda como Quicksort; manipulación de bits y precisión binaria según el estándar IEEE 754; métodos de interpolación polinómica (Lagrange, diferencias divididas y splines); cálculo de raíces en ecuaciones no lineales (bisección, secante y Newton-Raphson); generadores de números pseudoaleatorios y modelos estocásticos; integración numérica mediante reglas de Simpson y Romberg junto al cálculo de funciones especiales (Gamma, Beta, Bessel); ajuste de datos por mínimos cuadrados y regresión lineal múltiple; integración numérica de ecuaciones diferenciales ordinarias (Runge-Kutta RK4) y en derivadas parciales por diferencias finitas; y algoritmos de optimización uni y multidimensional como la búsqueda de sección áurea y el descenso de gradiente.\n\nEl volumen funciona como un manual de arquitectura matemática en código donde cada técnica viene acompañada de clases de servicio y aplicaciones de consola de demostración listas para depurarse en Visual Studio. No incluye listas tradicionales de ejercicios académicos de fin de capítulo ni proyectos de usuario final con interfaces gráficas, sino que entrega una biblioteca modular de utilidades numéricas. Su valor radica en la claridad didáctica de las implementaciones orientadas a objetos; como advertencia temporal, al haber sido publicado en 2010, no incorpora novedades de versiones recientes de C# ni las optimizaciones vectoriales SIMD o tipos de bajo consumo de memoria (como Span<T>) propios del .NET moderno.",
+    "temas": [
+      "C#",
+      ".NET Framework",
+      "Métodos numéricos",
+      "Álgebra lineal",
+      "Eliminación gaussiana",
+      "Factorización LU",
+      "Interpolación",
+      "Ecuaciones diferenciales",
+      "Optimización numérica",
+      "Ajuste por mínimos cuadrados",
+      "Números complejos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Numerical-Methods-Algorithms-and-Tools-in-C/Passos/p/book/9780849374791",
+      "https://www.amazon.com/Numerical-Methods-Algorithms-Tools-Passos/dp/0849374796",
+      "https://www.researchgate.net/publication/265324545_Numerical_Methods_Algorithms_and_Tools_in_C"
+    ]
+  },
+  "grokking-algorithms-2016": {
+    "descripcion": "Manual introductorio y ampliamente aclamado publicado por Manning en 2016, concebido por Aditya Bhargava para enseñar los fundamentos de la algoritmia y las estructuras de datos prescindiendo del formalismo matemático árido y apoyándose en más de 400 diagramas e ilustraciones explicativas. Utiliza fragmentos de código concisos en Python (compatible con Python 2 y 3) y está especialmente diseñado para desarrolladores autodidactas, estudiantes universitarios iniciales y profesionales de la programación que preparan entrevistas técnicas o que desean refrescar conceptos esenciales de ciencias de la computación sin perderse en notaciones densas.\n\nEl autor desglosa de manera progresiva los conceptos fundamentales del rendimiento y diseño de software: la notación Big O y las clases de complejidad temporal; la comparación funcional y en memoria entre arreglos continuos y listas enlazadas; la búsqueda binaria y el algoritmo de ordenación por selección; la mecánica interna de la recursión ilustrada con la pila de llamadas (call stack); la técnica de divide y vencerás materializada en Quicksort; la creación y prevención de colisiones en tablas hash para cachés y búsquedas en tiempo constante; la teoría de grafos mediante búsqueda en anchura (BFS) para calcular rutas mínimas en grafos sin ponderar; el algoritmo de Dijkstra para grafos dirigidos con pesos positivos; la resolución aproximada de problemas NP-completos con algoritmos voraces (greedy); la programación dinámica para problemas de optimización con dependencias (como la mochila de objetos y secuencias comunes); y una introducción al algoritmo de clasificación y recomendación K-vecinos más cercanos (KNN).\n\nCada capítulo integra pequeños problemas y ejercicios breves intercalados a lo largo de las explicaciones, cuyas soluciones completas y razonadas se recogen en un apéndice final. La gran fortaleza del libro radica en su capacidad para fijar modelos mentales intuitivos sobre qué algoritmo escoger para cada situación práctica; no obstante, deja fuera demostraciones formales de corrección matemática, cálculo riguroso de cotas asintóticas y estructuras avanzadas (como árboles binarios autobalanceados o algoritmos de grafos con pesos negativos), por lo que funciona como una excelente rampa de acceso previa a textos académicos más densos como Cormen o Sedgewick.",
+    "temas": [
+      "Algoritmos",
+      "Estructuras de datos",
+      "Python",
+      "Notación Big O",
+      "Búsqueda binaria",
+      "Quicksort",
+      "Tablas hash",
+      "Búsqueda en anchura (BFS)",
+      "Algoritmo de Dijkstra",
+      "Algoritmos voraces",
+      "Programación dinámica",
+      "KNN"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/grokking-algorithms",
+      "https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230",
+      "https://adit.io/posts/2016-04-18-Grokking-Algorithms.html"
+    ]
+  },
+  "algorithms-in-a-nutshell-2nd-edition-2016": {
+    "descripcion": "Segunda edición del manual de referencia publicado por O'Reilly en 2016, diseñado para salvar la brecha entre la teoría abstracta de algoritmos y su aplicación efectiva en sistemas de software en producción. A diferencia de los libros de texto universitarios tradicionales, adopta un formato orientado a patrones de diseño que permite a ingenieros de software, programadores de sistemas y arquitectos de nivel básico a intermedio comprender cuándo, por qué y bajo qué precondiciones aplicar cada algoritmo para optimizar el rendimiento. Las soluciones se exponen mediante pseudocódigo estructurado e implementaciones comparativas en lenguajes como C, C++, Java y Python.\n\nLa obra clasifica y examina en detalle las familias de algoritmos más empleadas en la industria: fundamentos matemáticos de complejidad, casos medio y peor, y evaluación empírica con bancos de pruebas reales; algoritmos de ordenación clásicos y de tiempo lineal (Insertion Sort, Quicksort, Merge Sort, Heap Sort, Counting Sort y Radix Sort); técnicas de búsqueda secuencial, tablas hash y árboles de búsqueda balanceados (árboles Rojo-Negro); algoritmos de grafos para caminos más cortos y árboles de expansión mínima (Dijkstra, Bellman-Ford, Floyd-Warshall, Prim y Kruskal); búsqueda heurística de caminos e inteligencia artificial básica (algoritmo A* y Minimax con poda alfa-beta para juegos); algoritmos de flujo en redes (Ford-Fulkerson y Edmonds-Karp); geometría computacional (cálculo de envolvente convexa mediante Graham scan, intersección de segmentos y polígonos); y estructuras en árbol multidimensionales para datos espaciales (k-d Trees, Quadtrees y R-Trees), concluyendo con una revisión de algoritmos paralelos, probabilísticos y de aproximación.\n\nEl libro carece de ejercicios escolares de fin de capítulo y no desarrolla una aplicación monolítica guiada, ya que su propósito es servir como manual de consulta inmediata («desktop reference») para desarrolladores que necesitan código contrastado y benchmarks empíricos reales (disponibles en su repositorio oficial de código abierto en GitHub). Destaca por su honestidad experimental al demostrar cómo factores como la arquitectura del procesador o la recolección de basura impactan en las cotas teóricas Big O. Conviene contar con bases sólidas en programación estructurada y familiaridad con punteros o referencias a objetos en C o Java.",
+    "temas": [
+      "Algoritmos",
+      "Estructuras de datos",
+      "Java",
+      "C++",
+      "Python",
+      "Algoritmos de grafos",
+      "Algoritmo A*",
+      "Geometría computacional",
+      "Árboles k-d",
+      "Quadtrees",
+      "Flujo en redes",
+      "Benchmarking"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/algorithms-in-a-nutshell/9781491948910/",
+      "https://www.amazon.com/Algorithms-Nutshell-Practical-George-Heineman/dp/1491948922",
+      "https://github.com/heineman/algorithms-nutshell-2ed"
+    ]
+  },
+  "mastering-algorithms-with-c-1999": {
+    "descripcion": "Obra de referencia clásica escrita por Kyle Loudon y publicada por O'Reilly Media en 1999, enfocada en el diseño y la implementación rigurosa de estructuras de datos y algoritmos en lenguaje C (estándar ANSI C / C89). Aunque introduce los conceptos desde sus bases teóricas, está orientada a desarrolladores de nivel intermedio a avanzado y estudiantes de ciencias de la computación que ya conocen la sintaxis de C, pero necesitan dominar la gestión manual de memoria dinámica y el uso avanzado de punteros para construir soluciones robustas y eficientes.\n\nEl temario se organiza en tres bloques: fundamentos, estructuras de datos y algoritmos aplicados. En la sección inicial profundiza en aritmética de punteros, punteros genéricos (`void*`), punteros a funciones, recursión, recursión de cola (*tail recursion*) y análisis de complejidad asintótica mediante notación Big-O. Luego implementa tipos abstractos de datos modulares: listas enlazadas (simples, dobles y circulares), pilas, colas, conjuntos, tablas hash (por encadenamiento y direccionamiento abierto), árboles binarios de búsqueda, árboles AVL balanceados, montículos binarios (*heaps*), colas de prioridad y grafos con recorridos BFS y DFS. Por último, cubre algoritmos de ordenación (Quicksort, Mergesort, Insertion Sort, Radix Sort, Counting Sort), búsqueda binaria, métodos numéricos (interpolación polinómica, estimación por mínimos cuadrados, aproximación de raíces), compresión de datos con codificación de Huffman y LZ77 mediante manipulación a nivel de bits, criptografía elemental con DES y RSA, algoritmos sobre grafos (Prim para árboles de expansión mínima, Dijkstra para caminos más cortos y aproximación al viajante de comercio) y geometría computacional (intersección de segmentos y cálculo de envolvente convexa).\n\nCada estructura y algoritmo se presenta con una interfaz formal en cabeceras C (`.h`) y su implementación completa (`.c`), lista para integrarse como biblioteca en proyectos reales, acompañada de una sección final de preguntas y respuestas que examina sutilezas de diseño, fugas de memoria y compensaciones de rendimiento. Destaca por su enfoque de ingeniería de software, ya que enseña a desacoplar el tipo abstracto de los datos almacenados mediante funciones de comparación y punteros genéricos, una técnica poco habitual en manuales elementales. Quedan fuera paradigmas modernos como la concurrencia o la programación genérica de C++, por lo que su valor reside en afianzar las bases sólidas de bajo nivel indispensables antes de abordar el desarrollo de sistemas operativos, motores o sistemas embebidos.",
+    "temas": [
+      "ANSI C",
+      "Punteros y memoria dinámica",
+      "Notación Big-O",
+      "Listas enlazadas",
+      "Árboles AVL",
+      "Tablas hash",
+      "Algoritmos de ordenación",
+      "Compresión Huffman y LZ77",
+      "Criptografía DES y RSA",
+      "Algoritmos de grafos",
+      "Geometría computacional"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/mastering-algorithms-with/1565924539/",
+      "https://www.amazon.com/Mastering-Algorithms-C-Kyle-Loudon/dp/1565924539"
+    ]
+  },
+  "mastering-algorithms-with-perl-1999": {
+    "descripcion": "Tratado exhaustivo publicado por O'Reilly en 1999 y escrito a seis manos por Jarkko Hietaniemi (creador y bibliotecario principal de CPAN), John Macdonald y Jon Orwant (fundador de *The Perl Journal*). El texto aborda el análisis y la implementación de estructuras de datos y algoritmos clásicos aprovechando las características expresivas y nativas de Perl 5. Está pensado para desarrolladores con un nivel intermedio o avanzado en Perl que desean superar el uso del lenguaje como simple herramienta de secuencias de comandos (*scripts*) o manipulación de texto y buscan resolver problemas computacionales complejos con eficiencia de tiempo y memoria.\n\nEl manual cubre una amplitud temática excepcional, adaptando algoritmos canónicos al paradigma idiomático de Perl en lugar de limitarse a traducir código C o Java. Detalla el uso de referencias y estructuras anidadas, listas enlazadas, listas infinitas, árboles binarios, montículos (*heaps* como Janus Heap), matrices dispersas y grafos con algoritmos de recorrido y caminos mínimos. En el ámbito de algoritmos sobre texto y cadenas, explora la distancia de Levenshtein, fonética computacional (Soundex y Metaphone), compresión y optimización con el motor de expresiones regulares de Perl. Asimismo, dedica capítulos especializados a geometría computacional en dos y tres dimensiones, teoría de números (aritmética modular, números primos, factorización con `Math::BigInt`), criptografía clásica y moderna (DES, RSA, funciones hash como MD5), simulaciones probabilísticas de Montecarlo, estadística descriptiva y análisis numérico (derivación, integración numérica, resolución de raíces mediante el método de Newton y ajuste de curvas mediante *splines* cúbicos).\n\nA lo largo del volumen, los autores presentan módulos funcionales y subrutinas reutilizables optimizadas, integrando módulos consolidados de CPAN y comparando el rendimiento de soluciones nativas en Perl frente a llamadas a bibliotecas externas en C. Su principal aportación es demostrar que Perl es un lenguaje apto para la informática teórica y científica, enseñando técnicas como la transformación Schwartziana para optimizar ordenaciones complejas y la gestión eficiente del recolector de basura por conteo de referencias. Al ser una obra de 1999, no contempla las adiciones modernas de Perl 5.20+ ni Perl 7, y asume que el lector ya domina el manejo fluido de referencias complejas, expresiones regulares avanzadas y programación orientada a objetos básica en Perl.",
+    "temas": [
+      "Perl 5",
+      "CPAN",
+      "Estructuras de datos",
+      "Expresiones regulares",
+      "Algoritmos de grafos",
+      "Procesamiento de texto",
+      "Teoría de números",
+      "Criptografía",
+      "Análisis numérico",
+      "Simulaciones de Montecarlo",
+      "Transformación Schwartziana"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/mastering-algorithms-with/1565923987/",
+      "https://www.amazon.com/Mastering-Algorithms-Perl-Jon-Orwant/dp/1565923987"
+    ]
+  },
+  "algorithms-design-and-analysis-2015": {
+    "descripcion": "Manual universitario escrito por Harsh Bhasin y publicado en 2015 por Oxford University Press (OUP India), concebido como libro de texto integral para estudiantes de grado y posgrado en Ingeniería Informática, Ciencias de la Computación y Sistemas. También funciona como guía preparatoria rigurosa para exámenes competitivos de ingeniería (como GATE) y entrevistas técnicas en el sector tecnológico. Su enfoque pedagógico parte de un nivel formativo básico y progresivo, requiriendo únicamente conocimientos previos elementales de programación estructurada en C y nociones fundamentales de matemáticas discretas.\n\nLa obra está estructurada didácticamente en cuatro grandes bloques: fundamentos de complejidad, estructuras de datos, paradigmas de diseño algorítmico y temas avanzados. Explica con precisión matemática el crecimiento de funciones, recurrencias y el teorema maestro, y revisa estructuras esenciales como listas, pilas, colas, árboles binarios de búsqueda, árboles AVL, árboles Rojo-Negro, árboles B y grafos. A continuación, profundiza en las metodologías clásicas de diseño: divide y vencerás (Quicksort, Mergesort, multiplicación de Strassen), enfoque voraz (*greedy*, como Kruskal, Prim, codificación de Huffman), programación dinámica (mochila 0/1, subsecuencia común más larga, Floyd-Warshall), vuelta atrás (*backtracking*, como el problema de las N-Reinas y ciclos hamiltonianos), ramificación y poda (*branch and bound*, como el puzzle del 15 y el viajante de comercio) y algoritmos probabilísticos. El tramo final aborda la teoría de complejidad computacional (clases P, NP, NP-completo y NP-duro mediante el teorema de Cook), algoritmos de aproximación, emparejamiento de cadenas (Knuth-Morris-Pratt y Rabin-Karp), geometría computacional y aplicaciones contemporáneas en aprendizaje automático (*machine learning*) y biología computacional.\n\nCada algoritmo se acompaña de su derivación matemática formal, trazas de ejecución ilustradas, pseudocódigo estandarizado e implementaciones completas en lenguaje C. El mayor valor del libro reside en su arsenal de recursos didácticos: incluye cientos de ejercicios de fin de capítulo, problemas analíticos y baterías de preguntas de opción múltiple (MCQs) orientadas a exámenes oficiales. Al tratarse de un texto eminentemente académico, no desarrolla aplicaciones de software comerciales completas, pero proporciona una base analítica impecable indispensable para superar con solvencia pruebas técnicas de selección y cursos universitarios de algoritmos avanzados.",
+    "temas": [
+      "Diseño de algoritmos",
+      "Análisis de complejidad",
+      "Programación dinámica",
+      "Algoritmos voraces",
+      "Divide y vencerás",
+      "Vuelta atrás (Backtracking)",
+      "Ramificación y poda",
+      "Clases P y NP",
+      "Lenguaje C",
+      "Árboles avanzados",
+      "Algoritmos de cadenas"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://india.oup.com/product/algorithms-design-and-analysis-9780199456666",
+      "https://www.amazon.com/Algorithms-Design-Analysis-Harsh-Bhasin/dp/0199456666"
+    ]
+  },
+  "learning-f-functional-data-structures-and-algorithms-2015": {
+    "descripcion": "Guía práctica escrita por el arquitecto de software y Microsoft MVP Adnan Masood, publicada por Packt Publishing en junio de 2015. El libro introduce el paradigma funcional aplicado al modelado de estructuras de datos y algoritmos utilizando el lenguaje F# (orientado a F# 3.0 / 4.0 sobre el ecosistema .NET y Visual Studio). Está concebido para programadores de nivel básico o intermedio con bagaje en desarrollo imperativo u orientado a objetos (habitualmente en C# o Java) que desean iniciarse en la computación funcional y comprender cómo resolver problemas clásicos sin recurrir a estados mutables ni bucles iterativos tradicionales.\n\nEl recorrido comienza sentando los principios del pensamiento funcional: inmutabilidad, composición de funciones, evaluación perezosa (*lazy evaluation*), tipos algebraicos mediante uniones discriminadas (*discriminated unions*), tipos de registro (*records*), tipos opción (`Option`) para el manejo seguro de nulos y coincidencia de patrones (*pattern matching* con *active patterns*). Seguidamente, explora el uso y procesamiento eficiente de colecciones nativas de F# como secuencias (`seq<'T>`), listas y conjuntos, así como el consumo funcional de flujos de datos y archivos CSV. En los capítulos centrales, implementa estructuras de datos funcionales persistentes desde cero: pilas inmutables, colas puras basadas en listas emparejadas, árboles binarios inmutables con sus recorridos, y modelado de grafos con algoritmos de cálculo de caminos más cortos (Dijkstra) y coste mínimo, examinando en cada caso la interoperabilidad con la Base Class Library (BCL) de .NET.\n\nA través de problemas canónicos como las Torres de Hanoi, la serie de Fibonacci con memoización y el procesamiento de flujos mediante secuencias perezosas, el texto demuestra cómo la inmutabilidad simplifica el razonamiento del código y facilita el diseño de programas inherentemente seguros frente a condiciones de carrera concurrentes. Su gran ventaja es servir como puente accesible para desarrolladores del entorno .NET que buscan adoptar F# sin perderse en una formalidad matemática excesiva. No obstante, por su extensión concisa (alrededor de 200 páginas), no profundiza en estructuras funcionales puras avanzadas (como árboles rojo-negro persistentes o montículos de Okasaki), siendo un excelente punto de partida práctico antes de abordar obras teóricas de mayor densidad.",
+    "temas": [
+      "F# 4.0",
+      ".NET",
+      "Programación funcional",
+      "Inmutabilidad",
+      "Pattern matching",
+      "Evaluación perezosa (Lazy)",
+      "Memoización",
+      "Estructuras persistentes",
+      "Pilas y colas funcionales",
+      "Árboles binarios",
+      "Algoritmos de grafos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/learning-f-functional-data-structures-and-algorithms-9781783558490",
+      "https://www.oreilly.com/library/view/learning-f-functional/9781783558490/",
+      "https://www.amazon.com/Learning-Functional-Data-Structures-Algorithms/dp/1783558492"
+    ]
+  },
+  "learning-javascript-data-structures-and-algorithms-2016": {
+    "descripcion": "Segunda edición de la guía formativa escrita por Loiane Groner y publicada por Packt Publishing en junio de 2016, diseñada para enseñar estructuras de datos y algoritmos fundamentales utilizando el lenguaje JavaScript. Esta edición actualiza todos los ejemplos al estándar moderno ECMAScript 6 (ES6 / ES2015), utilizando clases, constantes, variables de ámbito de bloque (`let`/`const`) y los nuevos tipos nativos de la especificación. Está dirigida a desarrolladores web frontend y backend de nivel básico e intermedio que dominan los rudimentos de JavaScript pero carecen de una base formal de ciencias de la computación y necesitan comprender qué ocurre bajo el capó para escribir código más óptimo y escalable.\n\nEl libro guía al lector en la implementación artesanal y orientada a objetos de cada estructura sin depender de bibliotecas externas. Comienza repasando métodos funcionales sobre matrices (`forEach`, `map`, `filter`, `reduce`), y pasa a construir desde cero clases en ES6 para pilas (LIFO), colas regulares y de prioridad (FIFO), listas enlazadas (simples, doblemente enlazadas y circulares), conjuntos matemáticos (con operaciones de unión, intersección y diferencia), diccionarios y tablas hash con resolución de colisiones mediante encadenamiento separado y sondeo lineal, comparándolos con las estructuras nativas `Set`, `Map`, `WeakSet` y `WeakMap` de ES6. Posteriormente, cubre árboles binarios de búsqueda (BST) con recorridos in-order, pre-order y post-order, árboles auto-balanceados AVL, y grafos representados por listas y matrices de adyacencia con algoritmos de recorrido (BFS, DFS), caminos mínimos (Dijkstra, Floyd-Warshall) y árboles de expansión mínima (Prim y Kruskal). Por último, explica algoritmos de ordenación (Burbuja, Selección, Inserción, Merge Sort, Quicksort), búsqueda binaria, el barajado de Fisher-Yates y patrones algorítmicos como divide y vencerás, programación dinámica y algoritmos voraces.\n\nLa autora combina la teoría elemental de cada estructura con implementaciones prácticas inmediatas que resuelven problemas cotidianos, como la simulación de colas circulares o la conversión de representaciones numéricas mediante pilas. Su mayor valor reside en desmitificar las ciencias de la computación para el ecosistema web, explicando la notación Big-O con claridad y mostrando cómo estructurar código limpio y mantenible en JavaScript moderno. No profundiza en estructuras avanzadas de memoria compartida, concurrencia en Web Workers ni tipado estático con TypeScript, pero constituye un texto introductorio idóneo para preparar entrevistas técnicas de frontend y dar el salto cualitativo de desarrollador empírico a programador con bases arquitectónicas sólidas.",
+    "temas": [
+      "JavaScript ES6",
+      "Estructuras de datos",
+      "Pilas y colas",
+      "Listas enlazadas",
+      "Tablas hash",
+      "Árboles binarios (BST)",
+      "Árboles AVL",
+      "Grafos y Dijkstra",
+      "Algoritmos de ordenación",
+      "Notación Big-O",
+      "Programación dinámica"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Conversor de base numérica",
+        "descripcion": "Algoritmo interactivo basado en una estructura de pila (LIFO) implementada en clases ES6 que convierte números enteros en base decimal a binario o a cualquier base personalizada hasta base 36."
+      },
+      {
+        "nombre": "Simulador del juego de la patata caliente",
+        "descripcion": "Simulación por turnos de un juego de eliminación circular basada en una estructura de cola FIFO en JavaScript ES6 para determinar al ganador de forma interactiva."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/learning-javascript-data-structures-and-algorithms-second-edition-9781785880339",
+      "https://www.oreilly.com/library/view/learning-javascript-data/9781785880339/",
+      "https://www.amazon.com/Learning-JavaScript-Data-Structures-Algorithms/dp/1785880332"
+    ]
+  },
+  "data-structures-and-algorithms-with-python-2015": {
+    "descripcion": "Manual universitario enfocado en la comprensión profunda de las estructuras de datos y el análisis de algoritmos utilizando Python 3 como lenguaje de implementación. Escrito por Kent D. Lee y Steve Hubbard dentro de la serie Undergraduate Topics in Computer Science de Springer, está pensado para estudiantes de ciencias de la computación que cursan su segunda materia de programación (CS2), así como para desarrolladores autodidactas con conocimientos elementales de programación o provenientes de lenguajes orientados a objetos como Java o C++ que buscan asentar las bases algorítmicas formales.\n\nEl texto aborda la eficiencia algorítmica y la notación Big-O mediante análisis empírico y temporal, adentrándose en la recursión y en el diseño interno de colecciones. Detalla la construcción desde cero de estructuras de datos secuenciales como listas dinámicas (recreando PyList), listas enlazadas simples y dobles, pilas y colas. Explora a fondo las tablas hash para implementar conjuntos y mapas con técnicas de memoización, árboles de sintaxis abstracta (AST), árboles binarios de búsqueda (BST), árboles balanceados AVL y Splay, y estructuras B-Tree orientadas a bases de datos relacionales. También cubre montículos (heaps), colas de prioridad, filtros de Bloom, algoritmos de grafos como Dijkstra y Kruskal, y búsqueda heurística en laberintos mediante algoritmos BFS y DFS, apoyándose en la biblioteca estándar de Python y en Tkinter y turtle para la visualización gráfica.\n\nA lo largo de los capítulos se construyen utilidades e interfaces interactivas, como una aplicación de dibujo vectorial con Tkinter y turtle, un resolvedor de tableros de Sudoku mediante backtracking y mapas de restricciones, un evaluador de expresiones matemáticas basado en árboles AST y la simulación de índices de bases de datos con árboles B. Su mayor mérito radica en desmitificar cómo funcionan internamente los tipos de datos nativos de Python bajo el capó en CPython, facilitando un aprendizaje práctico respaldado por código funcional. Deja fuera el tratamiento de algoritmos concurrentes o distribuidos, reservando la programación paralela para revisiones posteriores. Conviene dominar nociones básicas de orientación a objetos en Python antes de sumergirse en su contenido.",
+    "temas": [
+      "Python 3",
+      "Estructuras de datos",
+      "Notación Big-O",
+      "Listas enlazadas",
+      "Tablas hash",
+      "Árboles binarios",
+      "Árboles AVL",
+      "B-Trees",
+      "Algoritmo de Dijkstra",
+      "Backtracking",
+      "Tkinter"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de dibujo vectorial con Tkinter",
+        "descripcion": "Herramienta gráfica interactiva de dibujo y trazado sobre lienzo desarrollada con Tkinter y el módulo turtle para consolidar la programación orientada a objetos en Python."
+      },
+      {
+        "nombre": "Resolvedor de Sudokus",
+        "descripcion": "Programa que resuelve tableros de Sudoku aplicando algoritmos de backtracking combinados con estructuras de conjuntos y mapas para la verificación de restricciones lógicas."
+      },
+      {
+        "nombre": "Evaluador de expresiones aritméticas con AST",
+        "descripcion": "Intérprete que analiza expresiones matemáticas, construye un árbol de sintaxis abstracta y evalúa las operaciones mediante recorridos recursivos de los nodos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-3-319-13072-9",
+      "https://kentdlee.github.io/CS2Plus/",
+      "https://www.amazon.com/Data-Structures-Algorithms-Python-Undergraduate/dp/3319130714"
+    ]
+  },
+  "parameterized-algorithms-2015": {
+    "descripcion": "Tratado exhaustivo y de referencia internacional sobre la algoritmia parametrizada y la teoría de tractabilidad con parámetro fijo (Fixed-Parameter Tractability o FPT), orientado a resolver de manera exacta problemas computacionales NP-difíciles donde los algoritmos en tiempo polinomial clásico no son viables. Al tratarse de un texto de fundamentación matemática y complejidad computacional, es independiente de lenguajes de software específicos. Está concebido para investigadores, profesores y estudiantes de posgrado o cursos avanzados de informática teórica que cuenten con una sólida formación previa en matemáticas discretas, teoría de grafos y teoría de la complejidad computacional clásica (clases P, NP y reducciones polinomiales).\n\nLa obra enseña con extremo rigor las técnicas centrales y avanzadas de la disciplina. En su primera parte cubre paradigmas esenciales como la reducción de datos y kernelización (kernelization), árboles de búsqueda acotada (bounded search trees), compresión iterativa (iterative compression), métodos aleatorizados como el color coding y programación dinámica sobre descomposiciones de árboles (tree decompositions y treewidth). En su segunda parte profundiza en herramientas de vanguardia, tales como la técnica Cut & Count, separadores importantes (important separators), ramificación basada en programación lineal, familias representativas en matroides algebraicos y resultados de cota inferior apoyados en reducciones de dureza W[1]/W[2] y la hipótesis del tiempo exponencial (ETH y SETH).\n\nEl libro no plantea el desarrollo de proyectos de software ni la codificación en un lenguaje de programación concreto, sino la resolución y demostración formal de problemas algorítmicos al final de cada capítulo, clasificados por dificultad e incluyendo pistas para problemas selectos. Su valor diferencial reside en constituir la obra canónica moderna más completa sobre complejidad parametrizada, unificando décadas de investigación dispersa en artículos académicos. Deja fuera cualquier aspecto de desarrollo de aplicaciones, librerías de software o benchmarks prácticos en máquinas reales. Es un texto indispensable para el ámbito académico que exige un dominio previo riguroso de álgebra lineal, combinatoria y análisis asintótico formal.",
+    "temas": [
+      "Algoritmos parametrizados",
+      "Fixed-Parameter Tractability (FPT)",
+      "Kernelización",
+      "Treewidth",
+      "Programación dinámica",
+      "Compresión iterativa",
+      "Color coding",
+      "Teoría de la complejidad",
+      "W-jerarquía",
+      "Exponential Time Hypothesis (ETH)"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-3-319-21275-3",
+      "https://www.mimuw.edu.pl/~kowalik/book/",
+      "https://www.amazon.com/Parameterized-Algorithms-Marek-Cygan/dp/3319212745"
+    ]
+  },
+  "algorithms-unlocked-2013": {
+    "descripcion": "Guía divulgativa y accesible diseñada para desentrañar el funcionamiento interno de los algoritmos y la computación sin abrumar al lector con aparato matemático denso ni demostraciones complejas. Escrita por Thomas H. Cormen, coautor del emblemático manual de referencia CLRS, la obra no requiere versiones particulares de software ni dependencias de librerías, ya que recurre a un pseudocódigo estructurado claro en inglés y diagramas conceptuales. Está dirigida a principiantes absolutos en informática, estudiantes que inician carreras tecnológicas, profesionales de otras disciplinas y personas curiosas sin experiencia previa en programación que desean comprender cómo las máquinas resuelven tareas cotidianas de manera óptima.\n\nEl autor expone con claridad los conceptos fundamentales de corrección algorítmica, invariantes de bucle, uso de recursos y caracterización de tiempos de ejecución mediante la notación Big-O. Explica en detalle métodos clásicos de búsqueda (búsqueda lineal y binaria) y ordenamiento por comparación (selección, inserción, mezcla / merge sort y quicksort), así como las cotas inferiores del ordenamiento y cómo superarlas con algoritmos no comparativos como counting sort y radix sort. Además, cubre grafos dirigidos acíclicos (DAGs) y ordenamiento topológico, cálculo de caminos críticos (PERT), algoritmos de caminos más cortos (Dijkstra, Bellman-Ford y Floyd-Warshall), algoritmos de cadenas (subsecuencia común más larga y coincidencia de patrones), principios de criptografía simétrica y asimétrica con RSA, compresión de datos mediante códigos de Huffman y LZW, y una introducción intuitiva a la clase de problemas NP-completos y la indecidibilidad.\n\nEl enfoque es enteramente conceptual y no incorpora ejercicios prácticos al final de los capítulos ni la construcción de proyectos de software programados. Su principal aporte es tender un puente comprensible entre el mundo de la programación práctica y la ciencia de la computación rigurosa, facilitando que cualquier persona asimile la lógica detrás del software que usa a diario (como navegadores GPS, compresión de archivos y cifrado web). Deja fuera implementaciones de código ejecutable en lenguajes concretos y demostraciones matemáticas formales de convergencia. Es la lectura introductoria idónea antes de aventurarse en obras de mayor calado técnico como el propio manual CLRS.",
+    "temas": [
+      "Algoritmos",
+      "Notación Big-O",
+      "Búsqueda binaria",
+      "Algoritmos de ordenamiento",
+      "Grafos dirigidos acíclicos",
+      "Algoritmo de Dijkstra",
+      "Algoritmo de Bellman-Ford",
+      "Algoritmos de cadenas",
+      "Criptografía RSA",
+      "Compresión Huffman",
+      "NP-completitud"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://mitpress.mit.edu/9780262518802/algorithms-unlocked/",
+      "https://www.amazon.com/Algorithms-Unlocked-Thomas-H-Cormen/dp/0262518805",
+      "https://www.goodreads.com/book/show/15982512-algorithms-unlocked"
+    ]
+  },
+  "c-algorithms-2023": {
+    "descripcion": "Manual de referencia práctica centrado en el diseño, implementación y optimización de algoritmos esenciales utilizando el lenguaje C# dentro del entorno moderno de .NET. Escrito por Theophilus Edet, está dirigido a desarrolladores de software de nivel principiante e intermedio que ya dominan la sintaxis fundamental de C# y los principios de la programación orientada a objetos, y que buscan dar un salto cualitativo hacia la escritura de código eficiente, escalable y preparado para escenarios de rendimiento exigente.\n\nEl texto repasa la importancia del análisis de complejidad algorítmica en tiempo y espacio (notación Big-O) y guía al lector a través de implementaciones en C# de algoritmos de ordenamiento clásicos (como Bubble Sort, Insertion Sort, QuickSort y MergeSort) y algoritmos de búsqueda lineal y binaria. Detalla el diseño de funciones recursivas, la manipulación de estructuras de datos y colecciones de .NET (arreglos, listas, colas, pilas y diccionarios), el recorrido y modelado de grafos mediante búsqueda en anchura (BFS) y búsqueda en profundidad (DFS), el cálculo de caminos mínimos y la formulación de soluciones mediante estrategias voraces (greedy) y programación dinámica, destacando buenas prácticas para evitar sobrecargas innecesarias de memoria en el runtime.\n\nLa metodología del libro se basa en ejemplos modulares y fragmentos de código listos para probar, sin articular una aplicación de software integral de punta a punta, ni plantear talleres de ejercicios formales de evaluación. Su punto fuerte reside en mostrar cómo trasladar la algoritmia tradicional a la sintaxis tipada, limpia y moderna de C#, ayudando a los ingenieros de software a afianzar conceptos para entrevistas técnicas o depurar cuellos de botella en código de producción. Deja fuera el tratamiento avanzado de paralelismo masivo con Task Parallel Library (TPL), PLINQ o estructuras concurrentes complejas. Conviene contar con un entorno de desarrollo como Visual Studio o VS Code con el SDK de .NET instalado para compilar y experimentar con las implementaciones.",
+    "temas": [
+      "C#",
+      ".NET",
+      "Algoritmos",
+      "Estructuras de datos",
+      "Complejidad algorítmica",
+      "QuickSort",
+      "Búsqueda binaria",
+      "Grafos",
+      "Programación dinámica",
+      "Algoritmos voraces",
+      "Optimización de código"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.goodreads.com/book/show/208882585-c-algorithms",
+      "https://www.amazon.com/Algorithms-Constructing-Efficient-Optimised-Solutions-ebook/dp/B0CW1GB9WM"
+    ]
+  },
+  "algorithms-and-parallel-computing-2011": {
+    "descripcion": "Texto técnico y universitario que aborda la brecha existente entre el potencial del hardware multinúcleo contemporáneo y las técnicas tradicionales de desarrollo de software, presentando metodologías formales para mapear algoritmos secuenciales sobre arquitecturas de computación paralela. Escrito por Fayez Gebali como parte de la serie sobre computación paralela y distribuida de Wiley, se sitúa en un nivel intermedio a avanzado y requiere conocimientos sólidos previos en arquitectura de computadores, diseño de algoritmos, álgebra lineal y programación en lenguajes de sistemas como C o C++.\n\nLa obra enseña a representar y clasificar algoritmos según sus dependencias de datos y tareas, diferenciando algoritmos secuenciales, paralelos iterativos regulares y paralelos no secuenciales (NSPAs) mediante grafos dirigidos de dependencia y matrices de adyacencia. Examina las leyes de escalabilidad y rendimiento de Amdahl y Gustafson-Barsis, la jerarquía de memoria compartida, coherencia de caché, protocolos de consistencia y topologías de redes de interconexión (malla, anillo, matriz cruzada y redes multietapa). Asimismo, revisa plataformas de concurrencia como OpenMP, NVIDIA CUDA y Cilk++, e introduce técnicas de análisis formal basadas en la transformada Z y geometría computacional tridimensional (cascos convexos y matrices de dependencia) aplicadas a casos de estudio reales: filtros digitales IIR 1D/2D/3D, diezmadores e interpoladores multirruta, coincidencia de cadenas y algoritmos de estimación de movimiento por bloques (FBMA) para compresión de video.\n\nEl libro propone un entrenamiento riguroso mediante problemas y ejercicios analíticos al final de cada capítulo, destinados a calcular transformaciones de bucles, planificar tareas paralelas y detectar ciclos en grafos de dependencia, prescindiendo del desarrollo de una aplicación informática comercial completa. Su principal valor radica en proporcionar una base matemática y formal que enseña al desarrollador a razonar sobre la paralelización a nivel algorítmico y de dependencias antes de escribir una sola línea de código, evitando errores sutiles de sincronización y contención. Deja fuera los frameworks modernos de computación distribuida en clúster o en la nube como Hadoop o Spark. Resulta una lectura idónea para ingenieros de sistemas embebidos, procesamiento de señales y computación de alto rendimiento.",
+    "temas": [
+      "Computación paralela",
+      "Algoritmos paralelos",
+      "Grafos de dependencia",
+      "Multiprocesamiento",
+      "OpenMP",
+      "CUDA",
+      "Ley de Amdahl",
+      "Memoria compartida",
+      "Redes de interconexión",
+      "Filtros digitales IIR",
+      "Estimación de movimiento"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Algorithms+and+Parallel+Computing-p-9780470902103",
+      "https://www.amazon.com/Algorithms-Parallel-Computing-Fayez-Gebali/dp/0470902103"
+    ]
+  },
+  "algorithms-for-dummies-2017": {
+    "descripcion": "Algorithms For Dummies es una introducción accesible al diseño y funcionamiento de los algoritmos informáticos escrita por John Paul Mueller y Luca Massaron, basada en Python 3 (mediante el ecosistema Anaconda y Jupyter Notebooks). Está orientada a principiantes en programación, estudiantes universitarios iniciales y profesionales de diversas disciplinas (negocios, ciencia o gestión) que necesitan desmitificar el pensamiento algorítmico y comprender cómo operan los sistemas automatizados modernos sin tropezar con barreras matemáticas intimidantes. Para seguirlo con soltura basta con contar con nociones muy elementales de informática o lógica de programación.\n\nEl libro expone con claridad los fundamentos del análisis algorítmico, introduciendo la notación Big-O y los patrones clásicos de diseño de soluciones como divide y vencerás, algoritmos voraces (greedy) y programación dinámica. Abarca la manipulación de estructuras de datos esenciales (arreglos, listas, pilas, colas, tablas hash y árboles) y los algoritmos tradicionales de ordenación (Merge Sort, Quick Sort) y búsqueda. Más adelante, profundiza en el análisis y recorrido de redes y grafos utilizando la librería NetworkX (incluyendo el cálculo de caminos mínimos y el algoritmo PageRank de búsqueda web), el procesamiento de grandes volúmenes de datos con operaciones MapReduce, técnicas de compresión con codificación Huffman y métodos avanzados de optimización heurística, como algoritmos genéticos, recocido simulado y programación lineal elemental con NumPy y SciPy.\n\nEl aprendizaje es eminentemente práctico y se desarrolla mediante scripts interactivos y modulares que el lector ejecuta y modifica en cuadernos de notas de Jupyter, observando de inmediato el comportamiento temporal y las salidas visuales de cada técnica. Su gran aporte consiste en tender un puente comprensible entre la teoría computacional abstracta y los algoritmos que moldean la vida cotidiana (motores de búsqueda, comercio electrónico y recomendaciones personalizadas). Deja fuera las demostraciones formales de teoremas, las pruebas rigurosas de corrección matemática y el control de bajo nivel de memoria, por lo que no sustituye a un texto académico riguroso de ciencias de la computación, pero funciona como un excelente trampolín introductorio.",
+    "temas": [
+      "Python 3",
+      "Notación Big-O",
+      "Divide y vencerás",
+      "Programación dinámica",
+      "Algoritmos voraces",
+      "Estructuras de datos",
+      "Ordenación y búsqueda",
+      "NetworkX",
+      "Algoritmo PageRank",
+      "MapReduce",
+      "Heurísticas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Algorithms+For+Dummies-p-9781119330493",
+      "https://www.oreilly.com/library/view/algorithms-for-dummies/9781119330493/"
+    ]
+  },
+  "data-mining-algorithms-2015": {
+    "descripcion": "Data Mining Algorithms: Explained Using R, obra del profesor Paweł Cichosz, es un tratado técnico y riguroso dedicado a la explicación detallada e implementación de los algoritmos de minería de datos y aprendizaje automático utilizando el lenguaje de programación R (compatible con R 3.x). El libro está concebido para estudiantes avanzados y de posgrado en estadística, ciencia de datos o informática, así como para analistas cuantitativos e ingenieros de machine learning de nivel intermedio que deseen comprender la mecánica matemática y algorítmica interna de cada modelo. Requiere conocimientos previos de álgebra lineal, estadística básica y familiaridad con la programación y manejo de datos en R.\n\nLa obra analiza a fondo los tres pilares del aprendizaje inductivo supervisado y no supervisado: clasificación, regresión y clustering. En el bloque de clasificación, desglosa los árboles de decisión (criterios de división de entropía e índice Gini), el clasificador Naïve Bayes, modelos lineales y logísticos, calibración de probabilidades, matrices de confusión, curvas ROC y optimización bajo matrices de costes de mala clasificación. En regresión, aborda la regresión lineal múltiple, los árboles de regresión y diversas métricas de error predictivo. En agrupamiento, explora medidas de proximidad y distancia, k-means, k-medoides y clustering jerárquico aglomerativo. Además, cubre técnicas avanzadas como métodos de ensamblado (bagging, boosting, Random Forests), máquinas de vectores de soporte (SVM) con funciones kernel, discretización de atributos y selección de variables predictoras (filtros y wrappers), empleando tanto implementaciones desde cero en R base como paquetes estándar del ecosistema como rpart, randomForest, e1071 y mlbench.\n\nEl texto resalta porque desentraña los algoritmos escribiendo código R explícito para cada paso computacional, permitiendo al lector inspeccionar el flujo operativo completo en lugar de tratar los paquetes como cajas negras opacas. El libro concluye con tres estudios de caso integrales sobre conjuntos de datos del mundo real donde se aplican cadenas completas de preprocesamiento, selección de atributos y evaluación comparativa. Aporta un nivel de comprensión algorítmica y matemática difícil de encontrar en manuales puramente aplicados, aunque no incluye cuestionarios de ejercicios al final de los capítulos y deja fuera el aprendizaje profundo contemporáneo y la computación distribuida de Big Data. Es una lectura fundamental para asentar con precisión la ciencia de datos clásica.",
+    "temas": [
+      "Lenguaje R",
+      "Minería de datos",
+      "Árboles de decisión",
+      "Clasificador Naïve Bayes",
+      "Regresión lineal",
+      "Clustering k-means",
+      "Random Forest",
+      "Support Vector Machines",
+      "Curvas ROC",
+      "Selección de características",
+      "rpart",
+      "e1071"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Census Income (Predicción de ingresos salariales)",
+        "descripcion": "Proyecto de clasificación binaria que procesa variables demográficas y laborales del censo de EE. UU. para predecir si los ingresos anuales superan los 50.000 dólares, aplicando preprocesamiento de atributos, árboles y análisis de costes en R."
+      },
+      {
+        "nombre": "Communities and Crime (Estimación de tasas de criminalidad)",
+        "descripcion": "Proyecto de regresión cuantitativa que analiza indicadores socioeconómicos comunitarios para estimar tasas de delitos violentos, evaluando algoritmos de selección de variables y regresión en R."
+      },
+      {
+        "nombre": "Forest Cover Type (Clasificación de cubierta forestal)",
+        "descripcion": "Proyecto de clasificación multiclase sobre mediciones cartográficas y geológicas para determinar el tipo dominante de vegetación arbórea, comparando ensembles y modelos predictivos en R."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Data+Mining+Algorithms%3A+Explained+Using+R-p-9781118332580",
+      "https://www.oreilly.com/library/view/data-mining-algorithms/9781118332580/"
+    ]
+  },
+  "data-structures-and-algorithms-in-c-2nd-edition-2011": {
+    "descripcion": "La segunda edición de Data Structures and Algorithms in C++, desarrollada por David M. Mount, Michael T. Goodrich y Roberto Tamassia, es un manual de referencia universitario para el curso formativo de estructuras de datos y algoritmos (CS2). La obra aborda el diseño, análisis matemático e implementación práctica de componentes de software haciendo uso de C++ estándar y su paradigma de programación orientada a objetos y genérica mediante plantillas (templates). Está pensada para estudiantes de ciencias de la computación, ingeniería informática y programadores con formación previa en sintaxis básica de C o C++ que buscan asentar las bases del diseño robusto de software y la eficiencia computacional.\n\nEl libro comienza con un repaso exhaustivo de la orientación a objetos en C++, cubriendo clases, herencia, polimorfismo, gestión de excepciones, sobrecarga de operadores y patrones de diseño, para luego establecer las herramientas analíticas de complejidad temporal y espacial mediante notaciones asintóticas (Big-O, Omega, Theta) y análisis amortizado. Introduce la formalización de tipos de datos abstractos (ADTs) y sus implementaciones concretas para arreglos, listas enlazadas simples, dobles y circulares, pilas, colas, deques e iteradores. Progresa hacia estructuras jerárquicas y no lineales como árboles binarios y generales, colas de prioridad basadas en montículos (heaps), tablas hash, mapas, diccionarios y skip lists, complementados por árboles binarios de búsqueda auto-balanceables (árboles AVL y árboles Splay). Asimismo, examina algoritmos de ordenación (MergeSort, QuickSort, ordenamiento en tiempo lineal), procesamiento de cadenas (algoritmos Boyer-Moore y Knuth-Morris-Pratt), programación dinámica, algoritmos en grafos (DFS, BFS, Dijkstra, Prim-Jarník, Kruskal) y secciones ampliadas en esta edición sobre gestión de memoria secundaria, recolección de basura y árboles B.\n\nEl aprendizaje combina rigurosas demostraciones formales de complejidad con implementaciones de clases en C++ limpias y reutilizables, apoyándose en cientos de ejercicios clasificados metódicamente al cierre de cada capítulo en refuerzo de conceptos (Reinforcement), retos analíticos de diseño (Creativity) y asignaciones de programación (Projects). Aporta una disciplina arquitectónica invaluable para estructurar tipos de datos sin depender mecánicamente de la Standard Template Library (STL). Deja fuera estándares modernos del lenguaje como C++14 en adelante (punteros inteligentes avanzados, semántica de movimiento o programación concurrente), enfocándose exclusivamente en los principios algorítmicos fundamentales. Resulta una lectura académica imprescindible para adquirir solvencia técnica en C++.",
+    "temas": [
+      "C++",
+      "Estructuras de datos",
+      "Notación Big-O",
+      "Plantillas (Templates)",
+      "Listas enlazadas",
+      "Árboles AVL",
+      "Tablas hash",
+      "Colas de prioridad",
+      "Algoritmos de ordenación",
+      "Grafos",
+      "Programación dinámica",
+      "Árboles B"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Data+Structures+and+Algorithms+in+C%2B%2B%2C+2nd+Edition-p-9780470383278",
+      "https://www.oreilly.com/library/view/data-structures-and/9780470383278/"
+    ]
+  },
+  "data-structures-and-algorithms-in-java-6th-edition-2014": {
+    "descripcion": "La sexta edición de Data Structures and Algorithms in Java, escrita por Michael T. Goodrich, Roberto Tamassia y Michael H. Goldwasser, es un pilar formativo universitario para cursos de nivelación y desarrollo en algoritmia (curso CS2). Esta edición renueva y moderniza íntegramente su repertorio de código para sacar partido a Java 7, incorporando tipos genéricos parametrizados, interfaces limpias y el operador diamante (<>). El texto se dirige a estudiantes universitarios de ingeniería informática y desarrolladores principiantes que conocen los rudimentos de la sintaxis y control de flujo en Java y requieren dominar la ingeniería orientada a objetos aplicada a estructuras de datos y el análisis formal de eficiencia de algoritmos.\n\nEl contenido establece desde el inicio buenas prácticas de ingeniería de software mediante principios de abstracción, diseño por contratos, interfaces Java, jerarquías de clases y herramientas de análisis matemático de algoritmos (notaciones Big-O, Omega y Theta, cotas inferiores y coste amortizado). Todo el código está vertebrado en torno al paquete didáctico net.datastructures, abordando listas enlazadas (simples, dobles y circulares), arreglos dinámicos, pilas, colas, deques y listas posicionales con iteradores. Cubre extensamente árboles binarios y generales, colas de prioridad con montículos (heaps) adaptables, mapas asociativos, tablas hash con direccionamiento abierto y encadenamiento, y mapas ordenados con skip lists. Destaca por su detallada formulación de árboles de búsqueda balanceados (árboles AVL, árboles Splay, árboles multi-camino 2-4 y árboles Rojo-Negro), algoritmos de ordenación y selección (MergeSort, QuickSort determinista y aleatorizado, RadixSort, QuickSelect), búsqueda de patrones en texto y programación dinámica (algoritmos KMP, Boyer-Moore, subsecuencia común más larga), grafos (recorridos DFS y BFS, ordenamiento topológico, Dijkstra, Prim-Jarník, Kruskal), así como gestión de memoria, recolección de basura y árboles B para almacenamiento persistente.\n\nEl texto ofrece un equilibrio excepcional entre rigor deductivo y código Java ejecutable, complementado por una colección pedagógica de 794 ejercicios organizados en tres niveles: preguntas directas de refuerzo (R), problemas de creatividad y análisis matemático (C) y retos prácticos de programación e implementación (P). Constituye una referencia formativa que prepara con solidez tanto para asignaturas universitarias avanzadas como para entrevistas técnicas de ingeniería de software. No aborda características funcionales añadidas en versiones posteriores como Streams o expresiones lambda de Java 8, ni concurrencia multitarea, priorizando la pureza del diseño clásico de estructuras de datos. Es un texto canónico y de máxima vigencia metodológica.",
+    "temas": [
+      "Java",
+      "Estructuras de datos",
+      "Tipos genéricos",
+      "Notación Big-O",
+      "net.datastructures",
+      "Árboles binarios",
+      "Árboles Rojo-Negro",
+      "Tablas hash",
+      "Heaps",
+      "Grafos",
+      "Programación dinámica",
+      "Algoritmos de ordenación"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Data+Structures+and+Algorithms+in+Java%2C+6th+Edition-p-9781118771334",
+      "https://www.oreilly.com/library/view/data-structures-and/9781118771334/"
+    ]
+  },
+  "data-structures-and-algorithms-in-python-2013": {
+    "descripcion": "Data Structures and Algorithms in Python, coescrito por Michael H. Goldwasser, Michael T. Goodrich y Roberto Tamassia, traslada la prestigiosa tradición pedagógica de los autores al entorno moderno de Python 3. Concebido como texto central para cursos universitarios de fundamentos de informática (CS2), está destinado a estudiantes de grado, ingenieros en formación y programadores autodidactas con conocimientos elementales de programación en Python que necesitan aprender a modelar datos eficientemente, diseñar clases robustas y analizar con rigor matemático la complejidad espacial y temporal de los algoritmos computacionales.\n\nLa obra comienza consolidando los rasgos distintivos y modismos de Python 3: el modelo de objetos, tipos mutables e inmutables, generadores con yield, iteradores, manejo de excepciones, métodos especiales dunder y clases abstractas mediante el módulo abc. Establece las bases del análisis asintótico con la notación Big-O, examinando minuciosamente el coste temporal real y el análisis amortizado de la redimensión de las secuencias dinámicas nativas (list, tuple y str). Detalla la recursión y el desarrollo desde cero de estructuras lineales (pilas, colas circulares, deques, listas enlazadas simples, dobles y circulares, y ADTs de lista posicional). Prosigue con estructuras jerárquicas y relacionales: árboles binarios y generales, colas de prioridad implementadas con montículos (heaps), tablas de dispersión (hash tables) con resolución de colisiones por sondeo o encadenamiento, mapas ordenados y skip lists, árboles de búsqueda balanceados (árboles AVL, Splay, 2-4 y árboles Rojo-Negro), ordenación y selección (Merge-Sort, Quick-Sort, Radix-Sort, Quick-Select), procesamiento de textos (KMP, Boyer-Moore, árboles trie, compresión Huffman), programación dinámica y grafos (DFS, BFS, caminos mínimos con Dijkstra y árboles de expansión mínima con Kruskal y Prim-Jarník), cerrando con gestión de memoria y árboles B.\n\nEl punto más destacado del libro es cómo adopta la filosofía idiomática y la expresividad de Python sin sacrificar en ningún momento el rigor analítico de las ciencias de la computación clásicas, transparentando la complejidad oculta tras las estructuras nativas del lenguaje. Cuenta con más de 700 ejercicios distribuidos metódicamente en tres categorías: refuerzo conceptual (Reinforcement), razonamiento analítico y creativo (Creativity) y desarrollo de código (Projects). Prescinde de librerías externas como NumPy o dependencias de terceros para enfocarse por entero en la construcción autónoma de algoritmos y estructuras. Es una de las guías universitarias más rigurosas y completas disponibles para dominar la algoritmia con Python.",
+    "temas": [
+      "Python 3",
+      "Estructuras de datos",
+      "Notación Big-O",
+      "POO en Python",
+      "Generadores e iteradores",
+      "Árboles binarios",
+      "Árboles AVL",
+      "Tablas hash",
+      "Heaps",
+      "Grafos",
+      "Programación dinámica",
+      "Compresión de Huffman"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Data+Structures+and+Algorithms+in+Python-p-9781118290279",
+      "https://www.oreilly.com/library/view/data-structures-and/9781118290279/"
+    ]
+  },
+  "data-structures-and-algorithms-using-python-2010": {
+    "descripcion": "Manual universitario escrito por Rance D. Necaise que aborda de manera formal la ingeniería del software, los tipos abstractos de datos y el análisis algorítmico empleando Python 3 como lenguaje base de implementación. Está orientado a estudiantes de ciencias de la computación y programadores que ya dominan la sintaxis elemental y el flujo de control en Python y desean comprender en profundidad el diseño interno y el rendimiento de las estructuras de datos, en lugar de utilizarlas como cajas negras.\n\nEl libro enseña a modelar e implementar desde cero Tipos Abstractos de Datos (ADT) mediante la programación orientada a objetos de Python. Explica la construcción de estructuras lineales y multidimensionales (arreglos unidimensionales y matrices implementados con el módulo de bajo nivel ctypes), vectores dinámicos redimensionables, bolsas (bags), conjuntos y mapas. Cubre el análisis asintótico con la notación Big-O y el coste amortizado, algoritmos de búsqueda (lineal y binaria) y ordenación (burbuja, selección, inserción, mezcla y quicksort), estructuras enlazadas (listas simples, dobles, circulares y multienlazadas), pilas, colas de espera, colas de prioridad, tablas hash con diversas estrategias de resolución de colisiones, funciones recursivas, árboles binarios y árboles de búsqueda binaria (BST).\n\nCada bloque temático culmina con el desarrollo de una aplicación práctica completa que demuestra la utilidad del ADT estudiado, desde simulaciones celulares y de colas hasta optimizaciones de memoria y algoritmos de retroceso (backtracking). El texto destaca por su rigor conceptual y su claridad didáctica paso a paso, prescindiendo deliberadamente de librerías avanzadas como NumPy para que el lector construya cada mecanismo con código puro. Resulta una base académica excelente antes de adentrarse en algoritmia avanzada o ciencia de datos.",
+    "temas": [
+      "Python 3",
+      "Estructuras de datos",
+      "Tipos Abstractos de Datos (ADT)",
+      "Notación Big-O",
+      "Algoritmos de ordenación",
+      "Listas enlazadas",
+      "Pilas y colas",
+      "Tablas hash",
+      "Árboles binarios",
+      "Recursión",
+      "Backtracking",
+      "ctypes"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Simulador del Juego de la Vida de Conway",
+        "descripcion": "Implementación del autómata celular de John Conway que calcula y muestra la evolución de generaciones de células usando una estructura ADT de matriz bidimensional en Python 3."
+      },
+      {
+        "nombre": "Simulador de colas de facturación aérea",
+        "descripcion": "Simulación de eventos discretos que modela el flujo y los tiempos de espera de pasajeros en mostradores de una aerolínea utilizando colas FIFO y colas de prioridad."
+      },
+      {
+        "nombre": "Solucionador de laberintos por backtracking",
+        "descripcion": "Programa que explora y encuentra caminos de salida válidos en una cuadrícula mediante algoritmos de retroceso respaldados por una estructura de pila personalizada."
+      },
+      {
+        "nombre": "Gestor de matrices dispersas",
+        "descripcion": "Estructura de almacenamiento eficiente para matrices numéricas con gran cantidad de ceros, implementada desde cero con arreglos de listas multienlazadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Data+Structures+and+Algorithms+Using+Python-p-9780470618295",
+      "https://books.google.com/books/about/Data_Structures_and_Algorithms_Using_Pyt.html?id=o1m5yAEACAAJ",
+      "https://www.amazon.com/Data-Structures-Algorithms-Using-Python/dp/0470618299"
+    ]
+  },
+  "essential-algorithms-2013": {
+    "descripcion": "Obra de referencia enciclopédica y muy accesible escrita por Rod Stephens, centrada en explicar los algoritmos fundamentales de la informática mediante un enfoque pragmático y visual, prescindiendo de demostraciones matemáticas complejas. En el texto principal se emplea pseudocódigo claro y universal, acompañado de implementaciones completas de referencia en C# (.NET Framework) para poner a prueba el código. Está dirigido a desarrolladores de software en activo, estudiantes y autodidactas que dominan los fundamentos de la programación orientada a objetos y desean entender cómo optimizar el rendimiento de sus sistemas.\n\nEl temario ofrece un recorrido exhaustivo: introduce el análisis de complejidad con notación Big-O y aborda algoritmos numéricos esenciales (números primos con la criba de Eratóstenes, máximo común divisor de Euclides, factorización y generadores pseudoaleatorios). Explora estructuras de datos lineales y dinámicas (listas enlazadas, arreglos multidimensionales, matrices dispersas, pilas y colas), métodos de ordenación clásicos y avanzados (quicksort, mergesort, heapsort, radix sort), búsqueda e indexación con tablas hash, recursión y algoritmos sobre árboles (árboles AVL, árboles Rojo-Negro y árboles de decisión con poda alfa-beta para juegos). Asimismo, profundiza en grafos y redes (algoritmos de Dijkstra, Floyd-Warshall, Prim, Kruskal y Ford-Fulkerson para flujo máximo), algoritmos de cadenas (Boyer-Moore, Knuth-Morris-Pratt, distancia de Levenshtein), criptografía básica (cifrados simétricos y RSA) y problemas NP-completos con aproximaciones heurísticas.\n\nCada capítulo concluye con una batería extensa de ejercicios prácticos cuyas soluciones detalladas se incluyen íntegramente en el Apéndice B del libro. No articula su aprendizaje en torno a un producto final único, sino que aporta un inmenso catálogo de recetas algorítmicas probadas y esquemas de resolución para acertijos típicos de entrevistas técnicas. Su gran valor radica en transformar conceptos habitualmente densos en procedimientos lógicos intuitivos y fáciles de trasladar a cualquier lenguaje de programación moderno.",
+    "temas": [
+      "Algoritmos",
+      "Estructuras de datos",
+      "Pseudocódigo",
+      "C#",
+      "Notación Big-O",
+      "Algoritmos de grafos",
+      "Dijkstra",
+      "Árboles balanceados",
+      "Recursión",
+      "Algoritmos de cadenas",
+      "Criptografía",
+      "Problemas NP-completos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Essential+Algorithms%3A+A+Practical+Approach+to+Computer+Algorithms-p-9781118612101",
+      "https://www.oreilly.com/library/view/essential-algorithms-a/9781118612101/",
+      "https://www.amazon.com/Essential-Algorithms-Practical-Approach-Computer/dp/1118612108"
+    ]
+  },
+  "cracking-the-coding-interview-6th-edition-2015": {
+    "descripcion": "La sexta edición de la popular guía de Gayle Laakmann McDowell es el manual formativo de referencia internacional para preparar entrevistas técnicas de ingeniería de software en empresas tecnológicas de primer nivel (como Google, Amazon, Microsoft, Apple o Meta). Emplea Java (versiones 7 y 8) como lenguaje principal para el código de las soluciones, junto con diagramas de flujo y esquemas de arquitectura para el diseño conceptual. Está destinada a ingenieros de software de nivel intermedio, graduados en computación y profesionales con experiencia que ya conocen las bases del desarrollo y necesitan perfeccionar su capacidad para resolver problemas algorítmicos complejos bajo presión de tiempo.\n\nEl libro ofrece una sólida revisión conceptual que inicia con un análisis minucioso de la notación Big-O (tanto temporal como espacial) y continúa con las estructuras de datos fundamentales: arreglos, cadenas, listas enlazadas, pilas, colas, árboles binarios, árboles de búsqueda y grafos con recorridos BFS y DFS. Enseña patrones esenciales de resolución algorítmica como manipulación de bits, razonamiento inductivo, recursión, memoización y programación dinámica (técnicas top-down y bottom-up). Incluye además bloques especializados en diseño orientado a objetos con patrones de software, pruebas unitarias (testing), concurrencia (hilos y cerrojos) y un capítulo fundamental de diseño de sistemas y escalabilidad horizontal (balanceadores de carga, microservicios, bases de datos distribuidas con sharding, sistemas de caché y CDN).\n\nEl núcleo de la obra lo componen 189 ejercicios reales de entrevistas de programación, cada uno con pistas graduadas para guiar el pensamiento de forma autónoma y soluciones completas comentadas en Java con análisis de complejidad. No construye una aplicación comercial completa, sino que enseña a deconstruir problemas ambiguos, identificar casos límite y refactorizar soluciones ingenuas hasta obtener implementaciones óptimas. Es un libro imprescindible para la preparación laboral en la industria del software, que asume un manejo fluido y previo de la programación orientada a objetos.",
+    "temas": [
+      "Entrevistas técnicas",
+      "Java",
+      "Algoritmos",
+      "Estructuras de datos",
+      "Notación Big-O",
+      "Programación dinámica",
+      "Recursión",
+      "Diseño de sistemas",
+      "Escalabilidad",
+      "Grafos",
+      "Árboles binarios",
+      "Manipulación de bits"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.crackingthecodinginterview.com/",
+      "https://www.careercup.com/book",
+      "https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850"
+    ]
+  },
+  "algorithmic-thinking-2nd-edition-2024": {
+    "descripcion": "Segunda edición (publicada en 2024) del manual de Daniel Zingaro dedicado a enseñar el pensamiento algorítmico y la resolución rigurosa de problemas mediante retos de competiciones internacionales de programación. Utiliza el lenguaje C estándar (C99/C11) como herramienta central por su control explícito de la memoria, su ausencia de abstracciones ocultas y su excelente velocidad de ejecución en jueces de código en línea como DMOJ, UVa y SPOJ. Está dirigido a estudiantes de informática y programadores que conocen la sintaxis fundamental y el control de flujo de cualquier lenguaje imperativo y desean adquirir destreza para diseñar soluciones algorítmicas óptimas sin perderse en formalismos matemáticos abstractos.\n\nEl autor estructura el aprendizaje a través del análisis de cuellos de botella: cada capítulo comienza con un problema complejo cuya solución ingenua resulta inviable en tiempo o memoria, motivando la necesidad de estructuras de datos y estrategias específicas. Enseña a implementar desde cero tablas hash con encadenamiento, árboles binarios y recursión, programación dinámica y memoización (con un nuevo capítulo dedicado a técnicas avanzadas de programación dinámica), grafos y búsqueda en anchura (BFS), cálculo de rutas más cortas con el algoritmo de Dijkstra, búsqueda binaria directa y búsqueda binaria sobre el espacio de respuestas, montículos binarios (heaps), árboles de segmentos (segment trees) para consultas dinámicas sobre rangos, estructuras Union-Find para conjuntos disjuntos y algoritmos aleatorizados (otra de las grandes adiciones de esta edición).\n\nEl enfoque es estrictamente práctico y basado en retos competitivos reales: el lector escribe el código de cada algoritmo en C y verifica su validez y eficiencia enviándolo directamente a plataformas de jueces en línea con retroalimentación automática. No desarrolla aplicaciones de usuario final con interfaces visuales ni servicios de red, sino que entrena la capacidad lógica necesaria para descomponer problemas algorítmicos difíciles y optimizarlos al máximo. Para lectores que no provienen del ecosistema de C, la obra incluye un apéndice específico que aclara el uso de punteros y la reserva dinámica de memoria.",
+    "temas": [
+      "C",
+      "Pensamiento algorítmico",
+      "Programación competitiva",
+      "Tablas hash",
+      "Programación dinámica",
+      "Algoritmo de Dijkstra",
+      "Grafos",
+      "Búsqueda binaria",
+      "Árboles de segmentos",
+      "Union-Find",
+      "Montículos",
+      "DMOJ"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/algorithmic-thinking-2nd-edition",
+      "https://danielzingaro.com/algorithmic-thinking-2nd-edition/",
+      "https://www.oreilly.com/library/view/algorithmic-thinking-2nd/9781718503229/",
+      "https://www.amazon.com/Algorithmic-Thinking-2nd-Problem-Based-Introduction/dp/1718503220"
+    ]
+  }
+}

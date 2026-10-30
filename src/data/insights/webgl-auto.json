@@ -1,0 +1,306 @@
+{
+  "learning-three-js-the-javascript-3d-library-for-webgl-2013": {
+    "descripcion": "Guía práctica de Jos Dirksen publicada por Packt en 2013 que introduce al desarrollo de gráficos 3D interactivos en la web mediante Three.js (versión r60). Dirigida a programadores JavaScript y diseñadores web que desean crear escenas tridimensionales en el navegador sin tener que enfrentarse directamente a la complejidad matemática y de bajo nivel de la API pura de WebGL.\n\nEl contenido avanza de manera progresiva partiendo de la creación de una primera escena con cámaras, luces y mallas básicas. Detalla el uso de diversos tipos de iluminación (ambiental, direccional, puntual y focos), materiales avanzados, geometrías estándar y operaciones booleanas constructivas (CSG). Explora en profundidad sistemas de partículas, carga de modelos 3D externos en formatos como OBJ, DAE (Collada) y STL, animaciones esqueletales y morphing, mapas de texturas (incluyendo normal maps y texturas de vídeo/canvas), shaders personalizados y pases de postprocesamiento de renderizado. Además, enseña a integrar física de cuerpos rígidos con la librería Physijs.\n\nEl aprendizaje es muy práctico y visual, respaldado por decenas de demostraciones interactivas controladas en tiempo real con dat.GUI y Tween.js. Su mayor fortaleza radica en explicar cada concepto con ejemplos claros y directos. Debe tenerse en cuenta que la API de Three.js ha cambiado con los años y algunos cargadores antiguos han sido reemplazados por glTF, pero la estructura conceptual de escenas, cámaras, luces y materiales sigue siendo completamente vigente.",
+    "temas": [
+      "Three.js",
+      "WebGL",
+      "Gráficos 3D",
+      "Shaders GLSL",
+      "Física 3D",
+      "Animación 3D",
+      "Texturizado",
+      "Physijs",
+      "Postprocesamiento"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Escena Interactiva con Simulación Física",
+        "descripcion": "Construcción de una escena 3D dinámica con Three.js y Physijs que simula colisiones realistas entre objetos geométricos y restricciones mecánicas."
+      },
+      {
+        "nombre": "Visualizador de Modelos 3D Complejos",
+        "descripcion": "Aplicación web para cargar, iluminar y animar mallas 3D externas importadas desde software de modelado usando pases de postprocesamiento."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/learning-threejs-the-javascript-3d-library-for-webgl-9781782166283",
+      "https://github.com/josdirksen/learning-threejs"
+    ]
+  },
+  "three-js-cookbook-2015": {
+    "descripcion": "Libro de recetas de Jos Dirksen publicado por Packt en enero de 2015, diseñado para resolver desafíos concretos y habituales en la programación 3D web con Three.js. Orientado a desarrolladores web e ingenieros front-end con conocimientos previos de JavaScript y conceptos básicos de 3D que buscan soluciones directas y patrones de código listos para producción.\n\nLa obra compila más de 80 recetas organizadas temáticamente. Cubre la configuración rápida de escenas, técnicas avanzadas de cámara y renderizado estéreo/VR inicial, manipulación de geometrías procedurales, carga y optimización de modelos en formatos OBJ y Collada, y creación de materiales realistas con mapas especulares y de relieve. También aborda el trabajo con esqueletos de animación, renderizado a texturas (framebuffers), efectos de partículas para simular fuego o lluvia, filtros de postprocesamiento (bloom, desenfoque, sepia) y trucos para maximizar la tasa de cuadros por segundo en navegadores de escritorio y móviles.\n\nCada receta sigue una estructura rigurosa de problema, solución con código paso a paso y explicación técnica de cómo funciona internamente. Su principal ventaja es su orientación al grano: permite copiar, adaptar y aplicar técnicas específicas en proyectos en curso. Aunque Three.js ha continuado evolucionando, los patrones de iluminación, texturizado, detección de colisiones con raycasting y optimización descritos siguen siendo fundamentales.",
+    "temas": [
+      "Three.js",
+      "WebGL",
+      "Recetas 3D",
+      "Postprocesamiento",
+      "Raycasting",
+      "Sistemas de partículas",
+      "Optimización 3D",
+      "Modelado procedural"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/threejs-cookbook-9781783981182",
+      "https://github.com/josdirksen/threejs-cookbook"
+    ]
+  },
+  "three-js-essentials-2014": {
+    "descripcion": "Guía concisa de Jos Dirksen publicada por Packt en julio de 2014, pensada como una vía de aprendizaje rápida para comprender los pilares esenciales de Three.js sin saturar al lector con teoría matemática excesiva. Diseñada para programadores web con buen manejo de JavaScript y HTML5 que desean agregar capacidades 3D a sus sitios web en poco tiempo.\n\nEl texto desglosa los componentes fundamentales de cualquier aplicación 3D en el navegador: inicialización del renderizador WebGL, gestión del bucle de animación, configuración de cámaras de perspectiva y ortográficas, y modelado con geometrías básicas (cubos, esferas, toros). Explica cómo iluminar escenas adecuadamente con diferentes fuentes de luz, cómo aplicar texturas e imágenes a las superficies, y cómo habilitar la interacción del usuario mediante eventos de ratón, controles de órbita y selección de objetos con raycasting.\n\nA lo largo de los capítulos se construyen ejemplos funcionales e interactivos que consolidan las bases necesarias para saltar luego a proyectos más ambiciosos. Destaca por su claridad expositiva y su ritmo ágil. Es una obra introductoria ideal para entender el flujo mental de Three.js, requiriendo únicamente complementar posteriormente los formatos de archivo más modernos como glTF/GLB.",
+    "temas": [
+      "Three.js",
+      "WebGL",
+      "Fundamentos 3D",
+      "Raycasting",
+      "Cámaras 3D",
+      "Iluminación",
+      "Texturas",
+      "Controles de usuario"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Escena Tridimensional Interactiva",
+        "descripcion": "Desarrollo de un entorno 3D navegable con control de cámara orbital, mallas texturizadas y detección de clics del usuario sobre objetos tridimensionales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/threejs-essentials-9781783980864",
+      "https://github.com/josdirksen/threejs-essentials"
+    ]
+  },
+  "webgl-programming-guide-2013": {
+    "descripcion": "Obra de referencia canónica escrita por Kouichi Matsuda y Rodger Lea, publicada por Addison-Wesley en 2013 dentro de la prestigiosa serie 'OpenGL Technical Library'. Se enfoca en la programación directa sobre la API pura de WebGL 1.0 y el lenguaje de sombreado GLSL ES sin depender de librerías intermedias. Está pensada para programadores web y de gráficos por ordenador que desean dominar a fondo la canalización gráfica (rendering pipeline) del navegador.\n\nEl temario aborda exhaustivamente la arquitectura gráfica: inicialización del contexto WebGL en canvas, paso de datos a la GPU mediante buffers (VBOs), y escritura y compilación de vertex y fragment shaders. Profundiza en álgebra lineal aplicada a 3D (matrices de modelo, vista y proyección), iluminación por vértice y por píxel (modelo Phong/Blinn-Phong), mapeo de texturas múltiples, manejo de profundidad (z-buffer) y transparencias (alpha blending). Asimismo, detalla técnicas avanzadas como sombras arrojadas mediante shadow maps, selección de objetos por coordenadas de pantalla y carga de archivos Wavefront OBJ.\n\nIncluye cerca de 100 programas de demostración minuciosamente documentados que ilustran cada concepto de forma progresiva. Su mayor valor pedagógico es que desmitifica el funcionamiento interno de WebGL y proporciona una comprensión profunda e intemporal de los shaders y la GPU. Es la base técnica perfecta para cualquier desarrollador que aspire a crear motores gráficos propios o escribir shaders a medida.",
+    "temas": [
+      "WebGL",
+      "GLSL ES",
+      "Vertex shaders",
+      "Fragment shaders",
+      "Matrices 3D",
+      "Rendering pipeline",
+      "Iluminación Phong",
+      "Shadow mapping",
+      "GPU"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de Renderizado con Sombras y Luces",
+        "descripcion": "Implementación en WebGL puro y GLSL de una escena 3D con cálculo de iluminación por fragmento, sombras proyectadas con shadow maps y carga de mallas OBJ."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/webgl-programming-guide/9780133444865/",
+      "https://sites.google.com/site/webglbook/"
+    ]
+  },
+  "beginning-webgl-for-html5-2012": {
+    "descripcion": "Libro introductorio de Brian Danchilla publicado por Apress en 2012, diseñado para familiarizar a los desarrolladores con el estándar WebGL en el ecosistema HTML5. Orientado a programadores con experiencia en JavaScript y desarrollo web general que buscan dar sus primeros pasos en computación gráfica 3D sin formación previa en OpenGL.\n\nEl texto comienza repasando la evolución del elemento canvas y los fundamentos matemáticos necesarios (vectores, matrices de transformación, proyecciones en perspectiva). Enseña cómo configurar el contexto de WebGL, crear geometrías con buffers de vértices, definir shaders básicos en GLSL y gestionar el bucle de actualización visual con requestAnimationFrame. Luego introduce la utilización de bibliotecas auxiliares de la época para simplificar el manejo de mallas complejas y texturizado, cubriendo interacción con eventos del teclado y ratón.\n\nLa enseñanza se estructura en torno a ejemplos ilustrativos breves que culminan en aplicaciones tridimensionales interactivas en el navegador. Su principal cualidad es la accesibilidad y el tono didáctico con el que introduce la jerga gráfica. Aunque los navegadores han madurado notablemente desde 2012, ofrece una panorámica clara del puente entre HTML5 y el renderizado acelerado por hardware.",
+    "temas": [
+      "WebGL",
+      "HTML5 Canvas",
+      "Gráficos 3D",
+      "GLSL",
+      "Vectores y matrices",
+      "Buffers de vértices",
+      "Interacción de usuario"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Visualizador 3D Interactivo para Web",
+        "descripcion": "Construcción de un lienzo HTML5 con WebGL para rotar, escalar y transformar modelos 3D con respuestas a eventos del ratón y teclado."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-3995-6",
+      "https://www.apress.com/gp/book/9781430239949"
+    ]
+  },
+  "webgl-insights-2015": {
+    "descripcion": "Volumen de ingeniería avanzada editado por Patrick Cozzi (creador de CesiumJS) y publicado por CRC Press en 2015, que recopila contribuciones técnicas de ingenieros líderes de navegadores (Mozilla, Google, Apple), autores de la especificación Khronos y creadores de motores como Three.js y Babylon.js. Dirigido a ingenieros gráficos profesionales y desarrolladores senior de WebGL.\n\nLa obra profundiza en los desafíos reales de rendimiento, compatibilidad multiplataforma y arquitectura de motores 3D modernos en la web. Aborda temas críticos como gestión de memoria en JavaScript para evitar pausas del recolector de basura, optimización de draw calls y buffer batching, técnicas avanzadas de iluminación diferida (deferred shading), renderizado de terrenos masivos y visualización geoespacial a escala planetaria. También analiza las peculiaridades de los controladores gráficos en dispositivos móviles, depuración en profundidad con herramientas de inspección WebGL y lecciones de arquitectura extraídas de motores de producción.\n\nNo es un tutorial para principiantes, sino un tratado de alto nivel con análisis empíricos, benchmarks y soluciones a problemas que solo aparecen al escalar aplicaciones 3D exigentes en producción. Su gran aportación radica en reunir la sabiduría técnica colectiva de quienes diseñaron y optimizaron el estándar WebGL. Sigue siendo una lectura imprescindible para arquitectos de software gráfico y motores web.",
+    "temas": [
+      "WebGL",
+      "Arquitectura de motores",
+      "Optimización de GPU",
+      "Deferred shading",
+      "Gestión de memoria",
+      "WebGL móvil",
+      "CesiumJS",
+      "Khronos Group"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "http://www.webglinsights.com/",
+      "https://www.routledge.com/WebGL-Insights/Cozzi/p/book/9781498716079"
+    ]
+  },
+  "programming-3d-applications-with-html5-and-webgl-2014": {
+    "descripcion": "Manual exhaustivo escrito por Tony Parisi (pionero de la realidad virtual y co-creador de VRML), publicado por O'Reilly en 2014. Explica cómo concebir, estructurar y desarrollar aplicaciones 3D complejas y de grado profesional para la web utilizando Three.js y el pipeline de HTML5. Pensado para desarrolladores front-end con solidez en JavaScript que desean dar el salto a proyectos 3D comerciales.\n\nEl recorrido abarca desde los fundamentos de la computación visual y el grafo de escena hasta la integración de flujos de trabajo de producción con modelado 3D (Blender, Maya) y exportación en formatos estándares. Detalla técnicas de animación por fotogramas clave con Tween.js, iluminación realista, mapeo de sombras, programación de shaders GLSL personalizados y diseño de interfaces de usuario en entornos espaciales. Dedica secciones sustanciales a la creación de videojuegos 3D en el navegador, simulación física e interactividad móvil en WebGL.\n\nA lo largo del libro se desarrollan múltiples proyectos prácticos representativos de sectores reales, como un visualizador de productos para comercio electrónico, un juego de simulación espacial y aplicaciones arquitectónicas interactivas. Su valor distintivo es que combina la técnica pura de Three.js con principios de diseño de producto y consideraciones de rendimiento multiplataforma.",
+    "temas": [
+      "Three.js",
+      "WebGL",
+      "Grafo de escena",
+      "Pipeline 3D",
+      "Videojuegos web",
+      "E-commerce 3D",
+      "Shaders",
+      "Tween.js"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Visualizador 3D de Productos para E-commerce",
+        "descripcion": "Aplicación web que permite a los usuarios inspeccionar productos en 360 grados, alternar materiales y colores, y realizar zoom con animaciones suaves."
+      },
+      {
+        "nombre": "Juego 3D en el Navegador",
+        "descripcion": "Desarrollo de un juego espacial tridimensional interactivo con detección de colisiones, cámara en tercera persona y efectos de partículas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/programming-3d-applications/9781449363949/",
+      "https://github.com/tparisi/Programming3DApplications"
+    ]
+  },
+  "webgl-up-and-running-2012": {
+    "descripcion": "Guía práctica de iniciación escrita por Tony Parisi y publicada por O'Reilly en 2012. Planteada como un aterrizaje rápido y sin fricciones en el mundo de los gráficos 3D acelerados por hardware en el navegador web, orientada a desarrolladores front-end con experiencia previa en JavaScript, HTML y CSS.\n\nEl autor expone los conceptos fundamentales de WebGL evitando abrumar con matemáticas complejas, apoyándose en Three.js como herramienta principal. Enseña a inicializar el viewport, estructurar el grafo de escena, posicionar cámaras de perspectiva, aplicar luces y definir mallas geométricas simples y compuestas. Explica el uso de texturas, materiales con sombreado Phong y Gouraud, y la manipulación de rotaciones y traslaciones para generar movimiento fluido.\n\nEl eje pedagógico del libro es la construcción gradual de un juego interactivo de carreras en 3D en el navegador, donde el lector programa el vehículo, la pista, las luces de la escena y la interacción mediante el teclado. Su principal mérito es ser extremadamente conciso, práctico y ameno, sirviendo como un excelente primer peldaño en el desarrollo 3D en la web.",
+    "temas": [
+      "Three.js",
+      "WebGL",
+      "Canvas 3D",
+      "Juegos 3D",
+      "Grafo de escena",
+      "Iluminación",
+      "Texturas",
+      "Interactividad"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Juego de Carreras 3D en Web",
+        "descripcion": "Desarrollo paso a paso de un videojuego 3D donde se controla un automóvil sobre un circuito tridimensional con simulación de movimiento y respuesta a entradas de teclado."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/webgl-up-and/9781449323578/",
+      "https://github.com/tparisi/WebGLUpAndRunning"
+    ]
+  },
+  "webgl-beginner-s-guide-2012": {
+    "descripcion": "Guía formativa escrita por Diego Cantor y Brandon Jones (ingeniero de Google y editor del estándar WebGL), publicada por Packt en 2012. Proporciona una introducción rigurosa y directa al estándar WebGL y GLSL sin capas de abstracción adicionales, dirigida a programadores web interesados en comprender los fundamentos de la computación gráfica.\n\nEl recorrido explica paso a paso la inicialización del contexto WebGL en HTML5, la gestión de la memoria de la GPU con WebGLBuffer, y la escritura y vinculación de programas de sombreado (shaders). Detalla las operaciones de álgebra matricial para transformaciones afines, el diseño de cámaras virtuales (modelo LookAt), el mapeo de texturas mediante coordenadas UV y la simulación de modelos de iluminación difusa y especular. Cada capítulo incluye secciones de autoevaluación ('Time for action') para fijar los conceptos aprendidos.\n\nA través de una serie de ejercicios guiados, el lector construye visualizadores tridimensionales interactivos donde experimenta directamente con el paso de uniforms, attributes y varyings entre JavaScript y la GPU. Destaca por su rigor técnico y la claridad didáctica con la que aborda la arquitectura de bajo nivel de WebGL.",
+    "temas": [
+      "WebGL",
+      "GLSL",
+      "Buffers de vértices",
+      "Transformaciones matriciales",
+      "Cámaras LookAt",
+      "Texturizado UV",
+      "Iluminación",
+      "GPU"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Visualizador 3D con Shaders en Tiempo Real",
+        "descripcion": "Aplicación en WebGL puro que permite inspeccionar y rotar objetos tridimensionales aplicando diferentes esquemas de iluminación calculados en shaders GLSL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/webgl-beginners-guide-9781849691727",
+      "https://github.com/diegocantor/webgl-beginners-guide"
+    ]
+  },
+  "webgl-game-development-2014": {
+    "descripcion": "Manual de desarrollo de videojuegos de Sumeet Arora publicado por Packt en 2014. Enseña a diseñar y programar juegos 3D en el navegador combinando la API nativa de WebGL con JavaScript moderno, dirigido a desarrolladores front-end y programadores de videojuegos que buscan crear títulos tridimensionales sin plugins.\n\nEl contenido estructura la arquitectura de un motor de juegos web desde cero: gestión del bucle principal (game loop), carga y renderizado de mallas complejas desde Blender mediante formatos OBJ y JSON, e iluminación de escenarios con fuentes múltiples. Cubre texturizado avanzado con cube maps para reflejos de entorno, cámaras en primera y tercera persona, generación y renderizado de terrenos 3D con mapas de altura, sistemas de animación esqueletal (skinning) para personajes, y detección de colisiones mediante raycasting y volúmenes delimitadores (bounding boxes). Además, aborda la comunicación en tiempo real con WebSockets para modos multijugador.\n\nEl lector aplica cada concepto directamente en la creación de un videojuego funcional, integrando modelos animados, colisiones y entorno físico en un flujo cohesivo. Su valor radica en abarcar todas las piezas necesarias para un juego comercial (arte, animación, física y multijugador). Ofrece una base sólida sobre la estructura y arquitectura que requiere un juego 3D en la web.",
+    "temas": [
+      "WebGL",
+      "Desarrollo de videojuegos",
+      "Animación esqueletal (skinning)",
+      "Generación de terrenos",
+      "Raycasting y colisiones",
+      "Juegos multijugador",
+      "Cube maps",
+      "Blender a WebGL"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Juego 3D con Personajes Animados y Terreno",
+        "descripcion": "Construcción completa de un videojuego 3D en el navegador con navegación sobre terreno irregular, personajes articulados con animación esqueletal y colisiones."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/webgl-game-development-9781849699792",
+      "https://github.com/sumeetarora/WebGL-Game-Development"
+    ]
+  },
+  "webgl-hotshot-2014": {
+    "descripcion": "Libro de proyectos prácticos de Mitch Williams publicado por Packt en mayo de 2014. Diseñado como un laboratorio de aplicación de WebGL a casos de uso del mundo real, dirigido a desarrolladores web e ingenieros visuales que desean explorar el potencial de los gráficos 3D interactivos en aplicaciones empresariales y creativas.\n\nLa obra se organiza en diez proyectos integrales que demuestran la versatilidad de WebGL: desde la creación de un sistema solar interactivo con múltiples cámaras, hasta catálogos 3D interactivos para comercio electrónico con inspección de productos. También aborda interfaces espaciales para visualización de datos financieros y series temporales en 3D, mapas de entorno y refracción para arquitectura e ingeniería médica, interfaces tridimensionales para videojuegos móviles, y entornos educativos y museos virtuales.\n\nCada proyecto se desarrolla de inicio a fin explicando las decisiones de diseño visual, la optimización del orden de transparencias, la manipulación de shaders para efectos especiales y la integración con el DOM y datos externos. Su gran atractivo es su variedad temático-práctica, mostrando cómo WebGL resuelve problemas más allá del mero entretenimiento.",
+    "temas": [
+      "WebGL",
+      "Proyectos 3D",
+      "E-commerce 3D",
+      "Visualización de datos 3D",
+      "Arquitectura Web3D",
+      "Shaders GLSL",
+      "Mapeo de entorno",
+      "Interfaces espaciales"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Catálogo de E-commerce 3D Interactivo",
+        "descripcion": "Desarrollo de un showroom de productos en 3D con materiales interactivos, selección de variantes e iluminación adaptativa."
+      },
+      {
+        "nombre": "Visualizador de Datos Financieros en 3D",
+        "descripcion": "Aplicación tridimensional para comparar series históricas de acciones bursátiles y datos financieros con niveles de detalle dinámicos."
+      },
+      {
+        "nombre": "Simulador del Sistema Solar Multicámara",
+        "descripcion": "Modelo interactivo a escala del sistema solar con texturizado esférico, órbitas animadas y navegación fluida entre múltiples puntos de vista."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/webgl-hotshot-9781783280919",
+      "https://github.com/mitchw/WebGL-Hotshot"
+    ]
+  }
+}

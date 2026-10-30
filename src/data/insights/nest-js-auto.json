@@ -1,0 +1,110 @@
+{
+  "mastering-nestjs-2024": {
+    "descripcion": "Guía técnica de Aarav Joshi publicada en 2024, orientada a desarrolladores de Node.js y TypeScript que desean dominar el diseño arquitectónico de microservicios y APIs robustas con NestJS. Enfocada en ingenieros de backend de nivel intermedio a avanzado que buscan aplicar patrones de software empresariales en sistemas distribuidos.\n\nEl temario explora en profundidad la inyección de dependencias modular de NestJS, la configuración de pipelines de validación con class-validator y la implementación de interceptores, pipes y guards para seguridad y autenticación mediante JWT y OAuth2. Desarrolla la integración de bases de datos relacionales y NoSQL mediante TypeORM y Prisma, la implementación de APIs REST y GraphQL (con code-first y schema-first), y la comunicación asíncrona entre microservicios utilizando transportes como RabbitMQ, Kafka y Redis Pub/Sub.\n\nEl autor plantea patrones de arquitectura limpia (Clean Architecture / Hexagonal) con ejemplos de código orientados a la producción, pruebas unitarias y de integración exhaustivas con Jest, y empaquetado en contenedores Docker. Es un recurso muy completo para estructurar proyectos corporativos escalables y mantenibles en el ecosistema TypeScript.",
+    "temas": [
+      "NestJS",
+      "TypeScript",
+      "Clean Architecture",
+      "Microservicios",
+      "Prisma y TypeORM",
+      "GraphQL",
+      "RabbitMQ y Kafka",
+      "Seguridad JWT"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de Microservicios Distribuidos con NestJS",
+        "descripcion": "Diseño e implementación de un sistema modular de backend con servicios independientes comunicados mediante RabbitMQ, autenticación centralizada y persistencia con TypeORM."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nestjs.com/",
+      "https://docs.nestjs.com/"
+    ]
+  },
+  "practical-nest-js-2022": {
+    "descripcion": "Manual práctico escrito por Daniel Correa y Greg Lim, publicado en 2022. Diseñado con una pedagogía directa y libre de rodeos, enseña a construir aplicaciones web completas basadas en el patrón MVC (Modelo-Vista-Controlador) utilizando NestJS y TypeScript. Pensado para programadores que conocen JavaScript básico y quieren aprender un framework estructurado y tipado para backend.\n\nEl libro guía al lector a través de la creación desde cero de una tienda online funcional: configuración del entorno, diseño de controladores y módulos, integración de plantillas visuales con Handlebars (HBS), y modelado de datos persistentes con MySQL y TypeORM. Cubre la creación de formularios con validación, registro y autenticación de usuarios con sesiones y contraseñas cifradas, carritos de compras, roles de administración y despliegue final en la nube.\n\nEl enfoque es 100% práctico y centrado en el proyecto: cada capítulo añade una funcionalidad visible a la aplicación de comercio electrónico. Su punto fuerte es la sencillez y el ritmo ágil, permitiendo a los desarrolladores perder el miedo a TypeScript y entender de inmediato cómo se combinan las piezas de NestJS en una aplicación real.",
+    "temas": [
+      "NestJS",
+      "TypeScript",
+      "Patrón MVC",
+      "TypeORM",
+      "MySQL",
+      "Handlebars (HBS)",
+      "Autenticación",
+      "Tienda Online"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tienda Online con NestJS y TypeORM",
+        "descripcion": "Desarrollo completo de una aplicación de comercio electrónico con catálogo de productos, carrito de compras, gestión de usuarios, panel de administración y base de datos MySQL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/practical-books/practical-nestjs",
+      "https://greglim.gumroad.com/l/nestjs"
+    ]
+  },
+  "nest-js-2019": {
+    "descripcion": "Primera obra editorial dedicada íntegramente al framework, escrita por Greg Magolan, Patrick Housley, Adrien de Peretti, Jay Bell y David Guijarro, publicada por Packt a finales de 2018 / 2019 con prólogo del creador de NestJS, Kamil Myśliwiec. Introduce la arquitectura progresiva de NestJS como la respuesta definitiva a la fragmentación en el desarrollo backend con Node.js.\n\nEl libro explica la filosofía inspirada en Angular de módulos, proveedores y controladores en TypeScript. Enseña a diseñar APIs REST limpias, implementar filtros de excepciones, guards de autorización y middlewares reutilizables. Detalla la conexión con bases de datos SQL y NoSQL (Mongoose y TypeORM), la creación de APIs en tiempo real con WebSockets y Socket.io, y la introducción a la arquitectura de microservicios con gRPC y Redis.\n\nA través de ejemplos paso a paso, los autores muestran cómo estructurar código corporativo eliminando el código espagueti habitual en proyectos Node.js tradicionales. Aunque NestJS ha lanzado versiones posteriores con nuevas utilidades CLI, la explicación de los fundamentos de inyección de dependencias y el ciclo de vida de peticiones que ofrece este libro sigue siendo de referencia.",
+    "temas": [
+      "NestJS",
+      "TypeScript",
+      "Node.js",
+      "Inyección de dependencias",
+      "TypeORM",
+      "WebSockets",
+      "Microservicios",
+      "Arquitectura backend"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API Empresarial en Tiempo Real",
+        "descripcion": "Construcción de un backend escalable con endpoints REST protegidos por guards, autenticación JWT y un canal bidireccional en tiempo real mediante WebSockets."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/nestjs-a-progressive-nodejs-framework-9781789539097",
+      "https://github.com/PacktPublishing/Nest.js-A-Progressive-Node.js-Framework"
+    ]
+  },
+  "scalable-application-development-with-nestjs-2025": {
+    "descripcion": "Tratado avanzado de Pacifique Linjanja publicado por Packt a inicios de 2025. Pensado como una guía exhaustiva y moderna para tech leads y desarrolladores senior que construyen infraestructuras de backend para alta concurrencia y entornos corporativos exigentes utilizando las últimas versiones de NestJS y Node.js.\n\nLa obra aborda tanto el diseño de APIs REST hiperoptimizadas como arquitecturas GraphQL federadas mediante Apollo Federation. Desarrolla patrones de microservicios basados en eventos con Kafka y RabbitMQ, persistencia híbrida con PostgreSQL y Redis para caché de baja latencia, y patrones de resiliencia (circuit breakers, rate limiting y retry backoff). Dedica capítulos clave a la observabilidad (OpenTelemetry, Prometheus, Grafana), seguridad avanzada con OAuth2/OIDC, testing automatizado con suites unitarias y e2e, y despliegues con Docker y Kubernetes.\n\nEl enfoque es estrictamente profesional, simulando los desafíos reales de rendimiento y modularidad de sistemas en producción. Destaca por su modernidad técnica, cubriendo las mejores prácticas de la industria para crear plataformas de microservicios preparadas para escalar a millones de peticiones diarias.",
+    "temas": [
+      "NestJS 10+",
+      "Microservicios",
+      "Apollo Federation",
+      "Kafka",
+      "OpenTelemetry",
+      "PostgreSQL y Redis",
+      "Kubernetes",
+      "Resiliencia y escalabilidad"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Microservicios Empresarial Federada",
+        "descripcion": "Construcción integral de un ecosistema de backend con pasarela GraphQL federada, microservicios dirigidos por eventos en Kafka, monitorización con OpenTelemetry y despliegue en Kubernetes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/scalable-application-development-with-nestjs-9781835467619",
+      "https://github.com/PacktPublishing/Scalable-Application-Development-with-NestJS"
+    ]
+  }
+}

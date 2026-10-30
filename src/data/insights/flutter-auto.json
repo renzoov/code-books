@@ -1,0 +1,194 @@
+{
+  "beginning-app-development-with-flutter-2019": {
+    "descripcion": "Guía introductoria escrita por Rap Payne para construir aplicaciones móviles multiplataforma para Android e iOS a partir de una única base de código, centrada en las bases de Flutter 1.x y el lenguaje Dart 2. Está dirigida a desarrolladores principiantes en el ecosistema móvil que posean conocimientos elementales de programación orientada a objetos (en lenguajes como Java, C#, JavaScript o C++) y deseen crear interfaces móviles modernas sin necesidad de dominar los lenguajes nativos de cada sistema operativo.\n\nEl libro desglosa el paradigma declarativo y reactivo de Flutter, donde cada elemento visual es un widget. Enseña a preparar el entorno con el SDK de Flutter, Android Studio y VS Code, y examina a fondo la diferencia entre StatelessWidget y StatefulWidget. Cubre la estructura de interfaces mediante layouts como Row, Column, Container y Stack, la captura de gestos táctiles (toques, arrastres y deslizamientos), navegación jerárquica y enrutamiento entre pantallas, y estilización visual con temas, fuentes y BoxDecoration. En su bloque avanzado introduce la gestión de estado, lectura y escritura de archivos locales en formato JSON, consumo asíncrono de APIs REST mediante peticiones HTTP/Ajax (Future, async/await) y la configuración inicial de Google Firebase para servicios en la nube.\n\nLa metodología del libro es directa y práctica, organizándose en talleres o laboratorios por capítulo que proporcionan plantillas de código inicial (\"starter\") y soluciones terminadas (\"solution\") para practicar cada componente. No profundiza en arquitecturas de producción a gran escala ni en soluciones modernas de estado como Riverpod o Bloc complejo, centrándose en los mecanismos estándar provistos por el framework. Constituye una excelente introducción conceptual a la filosofía de desarrollo de Flutter, aunque conviene saber que fue publicado antes de la llegada de Flutter 2 y la introducción del sistema Null Safety en Dart.",
+    "temas": [
+      "Flutter 1.x",
+      "Dart 2",
+      "StatelessWidget",
+      "StatefulWidget",
+      "Gestión de estado",
+      "Layouts y Widgets",
+      "Navegación y rutas",
+      "APIs REST",
+      "HTTP",
+      "Firebase",
+      "JSON"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5181-2",
+      "https://www.amazon.com/Beginning-App-Development-Flutter-Cross-Platform/dp/1484251806",
+      "https://github.com/Apress/beginning-app-development-with-flutter"
+    ]
+  },
+  "flutter-recipes-2019": {
+    "descripcion": "Manual de referencia técnico en el que Fu Cheng compila soluciones directas, recetas de código y buenas prácticas para resolver problemas cotidianos de desarrollo multiplataforma en iOS y Android con Flutter (enfocado en su ciclo inicial Flutter 1.x sobre Dart 2.x). Está pensado para desarrolladores de nivel intermedio o con experiencia previa en programación orientada a objetos (Java, Kotlin, Swift o JavaScript) que ya entienden la base del framework y necesitan respuestas concretas para resolver situaciones del día a día sin tener que leer un manual teórico desde cero.\n\nEl libro está estructurado en recetas modulares que abarcan desde el dominio de las herramientas del SDK (Dart Observatory, Android Studio, VS Code y utilidades de línea de comandos) y un repaso rápido a las peculiaridades de Dart, hasta el uso de widgets de interfaz, sistemas de diseño de layouts responsivos, validación de formularios interactivos y navegación entre vistas con paso de argumentos. En las áreas avanzadas, enseña a implementar peticiones de red y consumo de APIs REST/JSON con el paquete http, gestión del estado de la aplicación, creación de animaciones fluidas con AnimationController, invocación de APIs nativas de Android e iOS mediante Platform Channels, y técnicas de depuración, optimización de rendimiento y pruebas automatizadas (unitarias y de widgets).\n\nAl tratarse de un recetario puro, Fu Cheng no desarrolla una única aplicación monolítica, sino decenas de ejemplos breves, aislados y listos para adaptar. Su mayor aportación es la amplitud del catálogo de problemas resueltos y la atención prestada a temas que muchos manuales omiten, como el profiling de memoria con Observatory y la integración nativa. No obstante, al haber sido publicado en 2019, varias recetas no contemplan la seguridad estricta frente a nulos (Sound Null Safety) ni las APIs más recientes de enrutamiento (Navigator 2.0), aspectos que conviene considerar al reutilizar su código.",
+    "temas": [
+      "Flutter 1.x",
+      "Dart",
+      "Widgets y layouts",
+      "Formularios y validación",
+      "Rutas y navegación",
+      "Gestión del estado",
+      "Consumo de APIs REST",
+      "Animaciones",
+      "Platform Channels",
+      "Dart Observatory",
+      "Testing y depuración"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4982-6",
+      "https://www.amazon.com/dp/1484249817",
+      "https://www.oreilly.com/library/view/flutter-recipes/9781484249826/"
+    ]
+  },
+  "practical-flutter-2019": {
+    "descripcion": "Guía práctica y orientada a la ingeniería de software en la que Frank Zammetti introduce el desarrollo móvil con Flutter (versión 1.x sobre Dart 2.x) mediante un enfoque completamente guiado por proyectos reales. Está dirigida a desarrolladores intermedios o programadores provenientes de entornos web y móviles (JavaScript, Java o C#) que prefieren aprender una nueva tecnología levantando sistemas funcionales de principio a fin, en lugar de limitarse a interfaces estáticas o ejemplos aislados.\n\nTras una introducción condensada a la sintaxis de Dart y a la composición de la jerarquía de widgets, la obra enseña a diseñar aplicaciones con persistencia local relacional mediante SQLite (utilizando el plugin sqflite), formateo de datos y calendarios con intl, y gestión reactiva del estado mediante ScopedModel. También aborda la arquitectura cliente-servidor construyendo un backend completo con Node.js, Express, MongoDB y WebSockets, que se comunica en tiempo real con la app móvil a través de la librería socket_io_client. Además, explora el renderizado gráfico avanzado utilizando CustomPainter, Canvas, transformaciones matemáticas, bucles de juego (game loops con Ticker) y reproducción de audio con el paquete audioplayers.\n\nEl núcleo del libro es el desarrollo exhaustivo de tres aplicaciones muy diferenciadas: FlutterBook (un gestor de información personal con base de datos local), FlutterChat (un sistema de mensajería instantánea en tiempo real) y FlutterHero (un videojuego de acción arcade en 2D). La principal virtud de la obra es demostrar la versatilidad de Flutter más allá del típico software de gestión empresarial, adentrándose con soltura en gráficos por canvas y comunicación bidireccional por sockets. Conviene tener presente que patrones como ScopedModel han sido ampliamente sustituidos en el ecosistema moderno por Provider o Riverpod, y que el código data de la época previa a Null Safety.",
+    "temas": [
+      "Flutter 1.x",
+      "Dart",
+      "SQLite (sqflite)",
+      "ScopedModel",
+      "Node.js y Express",
+      "Socket.IO y WebSockets",
+      "MongoDB",
+      "CustomPainter y Canvas",
+      "Videojuegos 2D",
+      "Audioplayers",
+      "Gestión de estado"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "FlutterBook",
+        "descripcion": "Aplicación de gestión de información personal (PIM) para notas, tareas, contactos y citas, con almacenamiento relacional local en SQLite mediante sqflite y gestión de estado con ScopedModel."
+      },
+      {
+        "nombre": "FlutterChat",
+        "descripcion": "Sistema de chat multiplataforma en tiempo real con servidor propio en Node.js, Express, MongoDB y Socket.IO, y cliente Flutter que gestiona salas y mensajes bidireccionales con socket_io_client."
+      },
+      {
+        "nombre": "FlutterHero",
+        "descripcion": "Videojuego de acción arcade en 2D desarrollado enteramente en Flutter utilizando Canvas, CustomPainter, bucle de animación con Ticker y efectos de sonido con audioplayers."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4972-7",
+      "https://github.com/Apress/practical-flutter",
+      "https://www.oreilly.com/library/view/practical-flutter/9781484249727/",
+      "https://www.amazon.com/dp/148424971X"
+    ]
+  },
+  "flutter-in-action-2019": {
+    "descripcion": "Manual de formación arquitectónica publicado por Manning en el que Eric Windmill explica con minuciosidad y rigor conceptual cómo construir aplicaciones nativas y reactivas para iOS y Android con Flutter (versión 1.x sobre Dart 2). El libro está concebido para desarrolladores con conocimientos básicos de desarrollo web o móvil y familiaridad con conceptos comunes de programación orientada a objetos y asincronía, que buscan entender el funcionamiento interno del framework y sus decisiones de diseño sin saltarse los fundamentos.\n\nEl autor desglosa la anatomía de Flutter explicando la relación entre el árbol de widgets, el árbol de elementos (Element Tree) y los RenderObjects que dibujan en pantalla. Enseña a maquetar interfaces adaptables, gestionar formularios complejos con validación, procesar gestos táctiles, utilizar el lienzo con CustomPainter y orquestar animaciones con AnimationController. En el apartado de arquitectura, examina el sistema de rutas dinámicas y con nombre, la gestión de estado con InheritedWidget y el patrón BLoC (Business Logic Component) sustentado en Streams y Sink, programación asíncrona avanzada (Futures y scroll infinito), peticiones HTTP con decodificación de JSON, integración con bases de datos en la nube como Cloud Firestore y automatización de pruebas unitarias y de widgets.\n\nEl aprendizaje se articula a través de dos aplicaciones centrales: una app meteorológica (Weather App) para dominar la interfaz, los gestos y los gráficos con canvas, y una aplicación de catálogo y carrito de compras (E-commerce App) donde se ponen a prueba la navegación, el patrón BLoC, el scroll infinito y la persistencia remota en Firestore. El gran aporte del libro es su capacidad pedagógica para desmitificar cómo opera Flutter por debajo del código visual. Como punto a tener en cuenta, al pertenecer a la etapa previa a Flutter 2 y Null Safety, ciertas declaraciones sintácticas de Dart requerirán actualización en entornos modernos.",
+    "temas": [
+      "Flutter 1.x",
+      "Dart",
+      "Árbol de widgets y elementos",
+      "BLoC Pattern",
+      "Streams y Futures",
+      "InheritedWidget",
+      "CustomPainter y Canvas",
+      "Navegación y rutas",
+      "Cloud Firestore",
+      "HTTP y JSON",
+      "Testing de widgets"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Weather App",
+        "descripcion": "Aplicación del clima orientada al diseño de interfaz, donde se practican maquetaciones flexibles, captura de eventos gestuales, gráficos dibujados con CustomPainter y Canvas y animaciones con controladores."
+      },
+      {
+        "nombre": "E-commerce Catalog App",
+        "descripcion": "Tienda en línea completa con catálogo de productos, carrito de compras, listas de carga infinita, arquitectura reactiva BLoC basada en Streams y sincronización de datos con Cloud Firestore y APIs HTTP."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/flutter-in-action",
+      "https://github.com/ericwindmill/flutter_in_action_public",
+      "https://www.oreilly.com/library/view/flutter-in-action/9781617296147/",
+      "https://www.amazon.com/dp/1617296144"
+    ]
+  },
+  "flutter-for-dummies-2020": {
+    "descripcion": "Manual introductorio y accesible en el que el veterano docente Barry Burd presenta los fundamentos del desarrollo de aplicaciones móviles multiplataforma para Android e iOS mediante Flutter (versión 1.x sobre Dart 2). Siguiendo la filosofía pedagógica y distendida de la serie 'For Dummies', la obra está pensada para principiantes absolutos en programación móvil o personas con conocimientos elementales de informática que desean comenzar a crear sus primeras apps sin verse intimidados por la jerga técnica especializada.\n\nEl temario acompaña al lector desde la preparación paso a paso del entorno de trabajo (instalación del SDK de Flutter, Android Studio, VS Code y configuración de emuladores) y el aprovechamiento de la recarga en caliente (Hot Reload), hasta las estructuras básicas del lenguaje Dart (variables, tipos, condicionales, listas, mapas y clases). A continuación, profundiza en la creación de interfaces mediante widgets estructurales y visuales de Material Design (Container, Row, Column, Text, Image, Scaffold y AppBar), el control de entradas del usuario a través de campos de texto y botones, la gestión del estado elemental con StatefulWidget y setState(), el enrutamiento de vistas con Navigator y la renderización de colecciones interactivas mediante ListView.\n\nLa metodología se apoya en ejemplos cortos y graduados que culminan en 'Doris's Dating App', una pequeña aplicación de citas donde se combinan navegación entre pantallas, recopilación de preferencias mediante formularios y visualización de perfiles en tarjetas y listas. Su principal valor radica en el estilo amigable del autor y sus secciones 'The Part of Tens', repletas de consejos para esquivar errores comunes de principiante. No aborda arquitecturas de estado complejas (como BLoC o Redux) ni integración con bases de datos avanzadas, y al ser una publicación de 2020 previa a Null Safety, algunos fragmentos de código requerirán leves ajustes de sintaxis para compilar en versiones recientes de Flutter.",
+    "temas": [
+      "Flutter 1.x",
+      "Dart",
+      "Fundamentos de programación",
+      "Widgets básicos",
+      "Layouts (Row y Column)",
+      "StatefulWidget y setState",
+      "Hot Reload",
+      "Navigator y rutas",
+      "ListView",
+      "Formularios e interactividad",
+      "Buenas prácticas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Doris's Dating App",
+        "descripcion": "Aplicación de emparejamiento y perfiles que integra pantallas de bienvenida, formularios de preferencias de usuario, navegación entre vistas con Navigator y listados dinámicos con ListView."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Flutter+For+Dummies-p-9781119612582",
+      "https://www.dummies.com/book/technology/programming-web-design/general-programming-web-design/flutter-for-dummies-281987/",
+      "https://www.oreilly.com/library/view/flutter-for-dummies/9781119612582/",
+      "https://www.amazon.com/dp/1119612589"
+    ]
+  },
+  "beginning-flutter-2019": {
+    "descripcion": "Extensa guía práctica de referencia publicada por Wrox en la que Marco L. Napoli enseña el desarrollo de aplicaciones móviles multiplataforma para Android e iOS a partir de una única base de código con Flutter (versión 1.x sobre Dart 2). El libro está orientado a desarrolladores principiantes en el ecosistema móvil o programadores con bagaje previo en otras tecnologías (como Java, Swift o JavaScript) que desean un itinerario progresivo y estructurado, avanzando desde los cimientos del lenguaje hasta patrones arquitectónicos empresariales en la nube.\n\nLa obra recorre metódicamente la sintaxis de Dart (orientación a objetos, funciones y colecciones), la composición de interfaces mediante widgets de Material Design y Cupertino, el control de layouts flexibles (Row, Column, Stack, Flex y Expanded), la orquestación de animaciones visuales y la navegación entre pantallas con rutas y paso de datos. En su segunda mitad, el autor profundiza en temas avanzados: comunicación con APIs nativas mediante Platform Channels, persistencia local con SharedPreferences y bases de datos SQLite (usando sqflite), integración de servicios en la nube con Firebase Authentication y Cloud Firestore, y gestión de estado reactiva implementando el patrón BLoC (Business Logic Component) mediante Streams, Sinks y StreamBuilder.\n\nEl eje formativo del libro es el desarrollo incremental de 'Journal App', una aplicación de diario personal que inicia almacenando datos de manera local en SQLite y evoluciona hasta convertirse en una aplicación conectada a Firebase con registro de usuarios y arquitectura BLoC desacoplada de la interfaz. Su mayor fortaleza radica en tender un puente sólido entre los conceptos básicos de diseño visual y una arquitectura robusta orientada a producción con backend en la nube. Conviene tener presente que fue publicado en 2019, por lo que no incorpora Null Safety y los paquetes de Firebase mostrados corresponden a sus versiones preliminares, requiriendo consultar los cambios de API en la documentación actual.",
+    "temas": [
+      "Flutter 1.x",
+      "Dart",
+      "Árbol de widgets",
+      "Material Design y Cupertino",
+      "Animaciones",
+      "Navegación de rutas",
+      "Platform Channels",
+      "SQLite (sqflite)",
+      "Firebase Authentication",
+      "Cloud Firestore",
+      "BLoC Pattern",
+      "Streams y Sinks"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Journal App",
+        "descripcion": "Aplicación de diario personal con registro de entradas, fechas y categorías, que evoluciona desde almacenamiento local persistente en SQLite hasta una solución en la nube con Firebase Authentication, Cloud Firestore y arquitectura reactiva con el patrón BLoC."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Beginning+Flutter%3A+A+Hands+On+Guide+to+App+Development-p-9781119550822",
+      "https://www.oreilly.com/library/view/beginning-flutter-a/9781119550822/",
+      "https://www.amazon.com/dp/1119550826"
+    ]
+  }
+}

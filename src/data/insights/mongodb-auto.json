@@ -1,0 +1,623 @@
+{
+  "data-science-fundamentals-for-python-and-mongodb-2018": {
+    "descripcion": "Guía práctica de David Paper orientada a la manipulación, limpieza y análisis exploratorio de datos utilizando Python y MongoDB como almacén documental no estructurado.\n\nEl autor enseña a extraer datos mediante consultas JSON complejas, transformar colecciones con el framework de agregación de MongoDB, y cargarlos en estructuras DataFrame de Pandas. Muestra cómo entrenar modelos estadísticos y de Machine Learning con Scikit-learn a partir de datos recuperados directamente de la base de datos documental.\n\nMuy recomendable para científicos de datos y analistas que trabajan con fuentes heterogéneas de información no relacional.",
+    "temas": [
+      "Data Science",
+      "Python",
+      "MongoDB",
+      "Pandas",
+      "Scikit-Learn",
+      "Machine Learning",
+      "Aggregation Framework",
+      "NoSQL"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline de análisis predictivo de clientes con MongoDB y Pandas",
+        "descripcion": "Construcción de un flujo de ingesta de perfiles de usuario desde MongoDB, limpieza con Pandas y entrenamiento de un modelo de clasificación."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mongodb-basics-2014": {
+    "descripcion": "Manual introductorio y accesible de David Hows, Eelco Plugge y Peter Membrey diseñado para enseñar los fundamentos de MongoDB a desarrolladores y administradores noveles.\n\nLos autores explican la filosofía de almacenamiento orientada a documentos en formato BSON, el diseño de esquemas flexibles sin tablas fijas, operaciones CRUD fundamentales mediante la consola mongo shell, y la creación de índices simples y compuestos. Además, abordan una introducción clara a conjuntos de réplicas (replica sets) y particionamiento (sharding).\n\nIdeal para quienes buscan una primera toma de contacto estructurada y práctica con el motor NoSQL más utilizado del mercado.",
+    "temas": [
+      "MongoDB",
+      "BSON",
+      "CRUD",
+      "mongo shell",
+      "Índices",
+      "Replica Sets",
+      "NoSQL",
+      "Documentos"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mongodb-recipes-2019": {
+    "descripcion": "Recetario práctico de Dharanitharan Ganesan y Subhashini Chellappan que ofrece soluciones directas a más de 100 problemas cotidianos de consulta, agregación y administración en MongoDB 4.x.\n\nEl texto ofrece recetas para modelado de relaciones uno a uno y uno a muchos mediante documentos incrustados vs referencias, pipelines de agregación multietapa ($match, $group, $lookup, $unwind), gestión de transacciones multidocumento ACID nativas, y copias de seguridad con mongodump y mongorestore.\n\nUna excelente guía de consulta rápida para tener siempre a mano patrones de consulta optimizados durante el desarrollo de aplicaciones.",
+    "temas": [
+      "MongoDB Recipes",
+      "Cookbook",
+      "Aggregation Framework",
+      "$lookup",
+      "Transacciones ACID",
+      "BSON",
+      "mongodump",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "practical-mongodb-2015": {
+    "descripcion": "Guía práctica de Navin Sabharwal y Shakuntala Gupta Edward enfocada en el diseño, desarrollo y despliegue de soluciones escalables basadas en MongoDB 3.0.\n\nLos autores analizan el motor de almacenamiento WiredTiger introducido en la versión 3.0 (concurrencia a nivel de documento y compresión en disco), índices de texto completo y geoespaciales (2dsphere), seguridad con autenticación SCRAM-SHA-1 y autorización por roles. Explica cómo conectar aplicaciones en Java y Node.js con MongoDB.\n\nRecomendado para ingenieros backend que necesitan implementar almacenes documentales seguros y de alta concurrencia.",
+    "temas": [
+      "MongoDB 3.0",
+      "WiredTiger",
+      "Índices Geoespaciales",
+      "SCRAM-SHA-1",
+      "Seguridad",
+      "Java",
+      "Node.js",
+      "Compresión"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servicio de geolocalización de comercios cercanos con índices 2dsphere",
+        "descripcion": "Implementación de una API que consulta tiendas y restaurantes en un radio geográfico determinado utilizando operadores geoespaciales de MongoDB."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-hibernate-and-mongodb-2013": {
+    "descripcion": "Tratado técnico especializado de Anghel Leonard dedicado a la persistencia políglota y mapeo de objetos en Java utilizando Hibernate OGM (Object/Grid Mapper) sobre MongoDB.\n\nEl autor enseña a reutilizar el estándar JPA (Java Persistence API) y las anotaciones clásicas de Hibernate para persistir entidades orientadas a objetos directamente como documentos BSON en MongoDB sin escribir consultas nativas. Analiza el mapeo de asociaciones, colecciones, transacciones y consultas JPQL sobre el motor NoSQL.\n\nUna lectura de gran valor formativo para desarrolladores Java empresariales que buscan adoptar MongoDB aprovechando su experiencia previa en Hibernate.",
+    "temas": [
+      "Hibernate OGM",
+      "MongoDB",
+      "JPA",
+      "Java",
+      "Persistencia Políglota",
+      "BSON",
+      "JPQL",
+      "Entidades"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Capa de persistencia híbrida en Java con Hibernate OGM y MongoDB",
+        "descripcion": "Construcción de una arquitectura corporativa que utiliza anotaciones JPA para gestionar catálogos documentales persistidos transparentemente en MongoDB."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "pro-mongodb-development-2015": {
+    "descripcion": "Guía especializada de Deepak Vohra sobre el desarrollo de aplicaciones completas con MongoDB en el ecosistema Java y plataformas modernas de big data.\n\nEl libro cubre la interacción con el controlador nativo Java de MongoDB, mapeo objeto-documento con Morphia, integración con frameworks como Spring Data MongoDB, e ingesta masiva de datos conectando MongoDB con Apache Hadoop y Pig para procesamiento analítico distribuido.\n\nIdeal para arquitectos de datos e ingenieros de software empresarial en Java que integran almacenes NoSQL en sus infraestructuras corporativas.",
+    "temas": [
+      "Pro MongoDB",
+      "Spring Data MongoDB",
+      "Morphia",
+      "Java",
+      "Hadoop",
+      "Big Data",
+      "Controlador Java",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Microservicio empresarial con Spring Data MongoDB y validaciones",
+        "descripcion": "Desarrollo de una API RESTful en Java que implementa repositorios desacoplados con Spring Data y persistencia documental en MongoDB."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "the-definitive-guide-to-mongodb-3rd-edition-2015": {
+    "descripcion": "Tercera edición de la guía enciclopédica de David Hows, Eelco Plugge, Peter Membrey y Tim Hawkins sobre MongoDB 3.0 y el motor WiredTiger.\n\nLos autores ofrecen una cobertura monumental: anatomía de documentos BSON, indexación avanzada (índices únicos, dispersos, TTL para caducidad automática de sesiones), framework de agregación multietapa, replicación con conjuntos de réplicas y particionamiento distribuido (sharding) con routers mongos. Dedican capítulos especiales a la administración y copias de seguridad continuas.\n\nUna referencia técnica clásica de gran prestigio para administradores de bases de datos y desarrolladores backend.",
+    "temas": [
+      "Definitive Guide",
+      "MongoDB 3.0",
+      "WiredTiger",
+      "Sharding",
+      "mongos",
+      "TTL Index",
+      "Replica Sets",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Infraestructura sharded de escala masiva en MongoDB",
+        "descripcion": "Configuración de un clúster particionado con múltiples shards, servidores de configuración redundantes y balanceo automático de chunks."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mongodb-in-action-2nd-edition-2016": {
+    "descripcion": "Segunda edición del celebrado tratado de Kyle Banker, Peter Bakkum, Shaun Verch, Doug Garrett y Tim Hawkins, ampliamente reconocido como una de las obras cumbres de la literatura NoSQL.\n\nLos autores enseñan a pensar con la mentalidad documental: patrones de diseño (incrustación vs referencia), modelado de comercio electrónico, redes sociales y analítica de datos, consultas atómicas con findAndModify, y el uso extensivo del Aggregation Framework. Además, desmenuza la arquitectura de alta disponibilidad con réplicas y escalado con sharding.\n\nUna lectura obligatoria y magistral para ingenieros de software que construyen aplicaciones web comerciales sobre MongoDB.",
+    "temas": [
+      "MongoDB in Action",
+      "Kyle Banker",
+      "Manning",
+      "Aggregation Framework",
+      "Modelado Documental",
+      "Sharding",
+      "Replica Sets",
+      "findAndModify"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de comercio electrónico con carrito y checkout en MongoDB",
+        "descripcion": "Construcción completa de una tienda virtual con catálogo flexible, gestión de inventario con actualizaciones atómicas y agregaciones analíticas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mongodb-in-action-3rd-edition-2025": {
+    "descripcion": "Tercera edición de vanguardia técnica de Arek Borucki, completamente renovada para abarcar las innovaciones punteras de MongoDB 7.0 y 8.0.\n\nEl autor profundiza en colecciones de series temporales nativas (Time Series Collections), cifrado de datos consultable del lado del cliente (Queryable Encryption), transacciones distribuidas ACID, búsqueda de texto completo y semántica con Atlas Search y búsqueda vectorial con Atlas Vector Search para aplicaciones de IA generativa. Muestra la integración con arquitecturas cloud y microservicios.\n\nLa referencia técnica moderna por excelencia para ingenieros que diseñan la nueva generación de aplicaciones inteligentes sobre MongoDB.",
+    "temas": [
+      "MongoDB 7.0",
+      "Arek Borucki",
+      "Atlas Vector Search",
+      "Time Series",
+      "Queryable Encryption",
+      "Manning",
+      "IA Generativa",
+      "Cloud"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de búsqueda semántica y telemetría en MongoDB 7.0",
+        "descripcion": "Desarrollo de un sistema con colecciones time-series para ingesta de métricas IoT y búsqueda vectorial de similitud mediante Atlas Vector Search."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "50-tips-and-tricks-for-mongodb-developers-2011": {
+    "descripcion": "Guía práctica y concisa de Kristina Chodorow, ingeniera clave en el equipo de desarrollo del núcleo de MongoDB, que recopila 50 recomendaciones esenciales para desarrolladores.\n\nChodorow ofrece consejos directos sobre diseño de aplicaciones: cuándo incrustar documentos y cuándo referenciarlos, cómo evitar mutaciones de tamaño de documento que fuercen reubicaciones en disco, uso eficiente de operadores de actualización ($inc, $push, $set), creación de índices compuestos en el orden correcto y trampas comunes con cursores. Cada consejo se acompaña de explicaciones claras.\n\nUna lectura de cabecera clásica muy valiosa para erradicar errores habituales de rendimiento y diseño en MongoDB.",
+    "temas": [
+      "Kristina Chodorow",
+      "Tips and Tricks",
+      "O'Reilly",
+      "Modelado Documental",
+      "Índices Compuestos",
+      "Operadores de Actualización",
+      "Best Practices",
+      "NoSQL"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mongodb-and-php-2012": {
+    "descripcion": "Manual práctico de Steve Francia, líder del equipo de controladores de MongoDB y destacado desarrollador de código abierto, sobre la integración de MongoDB con PHP.\n\nEl autor enseña a instalar y utilizar la extensión nativa de PHP, realizar operaciones CRUD con la clase MongoClient, diseñar esquemas documentales optimizados para aplicaciones web PHP, implementar sesiones web en memoria con TTL, y procesar agregaciones. Además, cubre librerías de mapeo objeto-documento como Doctrine MongoDB ODM.\n\nUna referencia técnica indispensable para desarrolladores del stack LAMP que modernizan su almacenamiento hacia NoSQL.",
+    "temas": [
+      "MongoDB",
+      "PHP",
+      "Steve Francia",
+      "Doctrine ODM",
+      "MongoClient",
+      "Sesiones Web",
+      "O'Reilly",
+      "Web Development"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal de publicación de contenidos dinámicos en PHP y MongoDB",
+        "descripcion": "Construcción de un gestor de artículos y comentarios con etiquetas, búsqueda rápida y persistencia en MongoDB mediante Doctrine ODM."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mongodb-and-python-2011": {
+    "descripcion": "Guía práctica de Niall O'Higgins sobre el uso de MongoDB en el ecosistema Python utilizando el controlador oficial PyMongo.\n\nEl autor explica cómo almacenar estructuras de datos nativas de Python (diccionarios y listas) directamente en MongoDB sin necesidad de capas ORM complejas. Cubre operaciones CRUD, consultas con operadores avanzados, índices geoespaciales, gridFS para almacenamiento de archivos binarios grandes (imágenes, videos) y la integración con frameworks web como Django y Flask.\n\nIdeal para desarrolladores de Python que buscan una solución de almacenamiento de datos ágil, natural y altamente escalable.",
+    "temas": [
+      "MongoDB",
+      "Python",
+      "PyMongo",
+      "GridFS",
+      "Flask",
+      "Django",
+      "Niall O'Higgins",
+      "O'Reilly"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servicio de almacenamiento y streaming de archivos multimedia con GridFS",
+        "descripcion": "Desarrollo de una aplicación web en Flask que sube, fragmenta y sirve archivos de audio y video utilizando GridFS en MongoDB."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mongodb-applied-design-patterns-2013": {
+    "descripcion": "Tratado metodológico y arquitectónico de Rick Copeland dedicado a patrones de diseño aplicados en MongoDB para diversos dominios de negocio.\n\nEl autor analiza patrones específicos para casos reales: comercio electrónico (catálogos políglotas, carritos persistentes), sistemas de gestión de contenidos (CMS con control de versiones de páginas), procesamiento de datos temporales y series de tiempo, almacenamiento de eventos de telemetría y redes sociales con grafos emulados. Muestra cómo balancear normalización vs desnormalización.\n\nLectura imprescindible para ingenieros de datos y arquitectos que diseñan modelos documentales a escala corporativa.",
+    "temas": [
+      "Design Patterns",
+      "Rick Copeland",
+      "Modelado Documental",
+      "E-Commerce",
+      "Series Temporales",
+      "CMS",
+      "Desnormalización",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura documental para motor de pedidos y catálogo comercial",
+        "descripcion": "Diseño de un esquema con desnormalización controlada para optimizar consultas de lectura rápida de productos y consistencia transaccional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mongodb-the-definitive-guide-2nd-edition-2013": {
+    "descripcion": "Segunda edición de la guía canónica de referencia de Kristina Chodorow sobre MongoDB 2.4 y 2.6 para O'Reilly Media.\n\nLa autora, ingeniera del equipo original de MongoDB, desmenuza la arquitectura completa: tipos BSON, consultas de agregación, indexación geoespacial y de texto, administración de clústeres con conjuntos de réplicas, conmutación por error automatizada y particionamiento horizontal con sharding. Incluye directrices de seguridad y monitorización de producción.\n\nUno de los libros más influyentes en la historia de las bases de datos NoSQL, referente formativo obligatorio.",
+    "temas": [
+      "MongoDB Definitive Guide",
+      "Kristina Chodorow",
+      "O'Reilly",
+      "BSON",
+      "Sharding",
+      "Replica Sets",
+      "Aggregation",
+      "NoSQL"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Clúster tolerante a fallos con conjunto de réplicas de tres nodos",
+        "descripcion": "Configuración de un replica set con nodo primario, secundario y árbitro, validando la elección automática de líder ante caídas de red."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mongodb-the-definitive-guide-3rd-edition-2019": {
+    "descripcion": "Tercera edición magistral y completamente renovada de Shannon Bradshaw, Eoin Brazil y Kristina Chodorow, adaptada a MongoDB 4.2 y el soporte nativo de transacciones multidocumento ACID.\n\nLos autores actualizan la obra canónica de O'Reilly incorporando el motor WiredTiger, el framework de agregación moderno con etapas avanzadas ($graphLookup, $facet), transacciones distribuidas en clústeres sharded, índices comodín (wildcard indexes), y herramientas en la nube como MongoDB Atlas. Se complementa con directrices rigurosas de seguridad y cumplimiento.\n\nLa referencia definitiva de cabecera indiscutible en la actualidad para cualquier ingeniero que trabaje con MongoDB profesionalmente.",
+    "temas": [
+      "MongoDB 4.2",
+      "Shannon Bradshaw",
+      "Eoin Brazil",
+      "Transacciones ACID",
+      "WiredTiger",
+      "Atlas",
+      "Aggregation Framework",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de transferencias financieras con transacciones multidocumento ACID",
+        "descripcion": "Implementación de operaciones atómicas entre múltiples colecciones de cuentas bancarias garantizando consistencia estricta en MongoDB."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "scaling-mongodb-2011": {
+    "descripcion": "Guía especializada de Kristina Chodorow dedicada exclusivamente a las técnicas de escalabilidad horizontal y particionamiento (sharding) en MongoDB.\n\nLa autora explica cómo funciona el enrutamiento de peticiones mediante procesos mongos, la elección crítica de la clave de partición (shard key) para evitar puntos calientes (hotspots), la distribución de chunks y el balanceador en segundo plano. Analiza las compensaciones entre latencia, consistencia y rendimiento en infraestructuras distribuidas.\n\nUna lectura técnica esencial para ingenieros de sistemas y arquitectos que deben escalar bases de datos MongoDB para soportar terabytes de datos.",
+    "temas": [
+      "Scaling MongoDB",
+      "Kristina Chodorow",
+      "Sharding",
+      "Shard Key",
+      "mongos",
+      "Chunk Balancing",
+      "Hotspots",
+      "O'Reilly"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mastering-mongodb-7-0-4th-edition-2024": {
+    "descripcion": "Cuarta edición del tratado avanzado de Marko Aleksendric sobre MongoDB 7.0, consolidado como la guía de nivel experto más actualizada sobre el motor documental.\n\nEl autor cubre a fondo la optimización del rendimiento en WiredTiger, índices vectoriales para búsqueda semántica con IA, transacciones distribuidas en la nube, colecciones de series temporales, auditoría de seguridad y cifrado con Queryable Encryption. Detalla la automatización de operaciones con Kubernetes Operator de MongoDB y herramientas de infraestructura como código (Terraform).\n\nIndispensable para arquitectos de datos senior, DBAs en la nube e ingenieros backend que operan clústeres MongoDB de gran escala.",
+    "temas": [
+      "MongoDB 7.0",
+      "Marko Aleksendric",
+      "Atlas Vector Search",
+      "WiredTiger Tuning",
+      "Kubernetes Operator",
+      "Queryable Encryption",
+      "Packt",
+      "DBA"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Infraestructura empresarial MongoDB 7.0 automatizada con Kubernetes",
+        "descripcion": "Despliegue de un clúster particionado con cifrado consultable en reposo, backups continuos y monitorización con Prometheus y Grafana."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mongodb-cookbook-2nd-edition-2016": {
+    "descripcion": "Segunda edición del práctico recetario de Amol Nayak y Cyrus Dasadia con más de 80 recetas probadas para administradores y desarrolladores de MongoDB 3.x.\n\nEl libro contiene soluciones directas para la configuración de WiredTiger, pipelines de agregación complejos, indexación geoespacial y de texto, autenticación LDAP y Kerberos, monitorización de métricas de rendimiento con MMS/Ops Manager, y copias de seguridad consistentes sin interrupción del servicio.\n\nUna excelente guía de consulta rápida para resolver problemas específicos de ingeniería en entornos de producción con MongoDB.",
+    "temas": [
+      "MongoDB Cookbook",
+      "Amol Nayak",
+      "Cyrus Dasadia",
+      "WiredTiger",
+      "Aggregation",
+      "Kerberos",
+      "Ops Manager",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mongodb-data-modeling-2015": {
+    "descripcion": "Tratado metodológico de Wilson da Rocha França enfocado en el arte y la ciencia del modelado de datos en esquemas de documentos para MongoDB.\n\nEl autor compara las reglas tradicionales del diseño relacional frente a las técnicas no relacionales: relaciones uno a uno, uno a muchos y muchos a muchos mediante incrustación (embedding) y referencias (linking). Analiza patrones avanzados como el patrón de cubeta (bucket pattern) para series de tiempo, el patrón de subconjunto (subset pattern) para pantallas móviles, y técnicas de control de versiones de documentos.\n\nLectura imprescindible para desarrolladores y diseñadores de datos que buscan maximizar la velocidad de lectura y minimizar el consumo de almacenamiento.",
+    "temas": [
+      "Modelado de Datos",
+      "Wilson da Rocha França",
+      "Embedding vs Linking",
+      "Subset Pattern",
+      "Bucket Pattern",
+      "NoSQL Schema",
+      "Packt",
+      "Rendimiento"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Rediseño de esquema relacional hacia modelo documental optimizado",
+        "descripcion": "Transformación de un esquema SQL con decenas de tablas unidas por joins hacia un modelo MongoDB con documentos incrustados y subconjuntos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mongodb-essentials-2025": {
+    "descripcion": "Manual moderno y conciso publicado por The MongoDB Team para capacitar a desarrolladores en los conceptos y prácticas fundamentales de MongoDB 8.0 y MongoDB Atlas.\n\nEl texto desglosa la creación de bases de datos y colecciones en la nube, consultas declarativas en el lenguaje de consulta MQL moderno, indexación estratégica, pipelines de agregación esenciales y el consumo desde Node.js, Python y C#. Aborda la seguridad nativa, gestión de roles y la integración con herramientas analíticas.\n\nUn recurso accesible, claro y autorizado para cualquier programador que desea adquirir competencias firmes en la plataforma de datos de MongoDB.",
+    "temas": [
+      "MongoDB Essentials",
+      "MongoDB 8.0",
+      "MongoDB Atlas",
+      "MQL",
+      "Aggregation",
+      "NoSQL",
+      "Cloud Database",
+      "Official Guide"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Microservicio cloud moderno conectado a MongoDB Atlas",
+        "descripcion": "Construcción de una API RESTful en la nube con consultas MQL optimizadas, validación de esquemas JSON y gestión segura de credenciales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mongodb-for-java-developers-2015": {
+    "descripcion": "Guía especializada de Francesco Marchioni orientada a desarrolladores de software en Java que implementan soluciones de persistencia documental con MongoDB.\n\nEl autor cubre la conexión con el controlador Java oficial, operaciones CRUD asíncronas con Reactive Streams, mapeo de objetos con Morphia, integración con frameworks corporativos Java EE / Spring, y manejo de transacciones. Además, aborda el diseño de pipelines de agregación tipados en código Java.\n\nMuy práctico para ingenieros Java que buscan integrar MongoDB de forma idiomática en sus proyectos backend.",
+    "temas": [
+      "Java",
+      "MongoDB",
+      "Francesco Marchioni",
+      "Morphia",
+      "Reactive Streams",
+      "Spring",
+      "Controlador Java",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API reactiva en Java con MongoDB Reactive Streams",
+        "descripcion": "Desarrollo de un servicio web no bloqueante en Spring Boot con operaciones de base de datos reactivas y streaming de documentos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mongodb-fundamentals-2020": {
+    "descripcion": "Manual pedagógico y estructurado de Amit Phaltankar diseñado para aprender MongoDB de forma progresiva mediante teoría clara y ejercicios guiados paso a paso.\n\nEl autor repasa los conceptos clave: documentos BSON, consultas y operadores de comparación/lógicos, diseño de índices para optimizar lecturas, agregaciones multietapa para generar reportes analíticos, y operaciones de importación/exportación de datos. Incluye casos prácticos sobre tiendas virtuales y gestión de usuarios.\n\nUna excelente opción formativa para estudiantes y programadores principiantes que buscan consolidar habilidades prácticas en bases de datos NoSQL.",
+    "temas": [
+      "MongoDB Fundamentals",
+      "Amit Phaltankar",
+      "BSON",
+      "Índices",
+      "Aggregation",
+      "Packt",
+      "Principiantes",
+      "NoSQL"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Gestor de catálogo comercial interactivo en MongoDB",
+        "descripcion": "Construcción de una base de datos con índices compuestos y consultas de agregación para reportar ventas y productos más populares."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "php-and-mongodb-web-development-beginner-s-guide-2011": {
+    "descripcion": "Guía didáctica de Rubayeet Islam orientada a desarrolladores web de PHP que desean construir aplicaciones web dinámicas utilizando MongoDB como motor de almacenamiento.\n\nEl autor enseña a configurar el entorno de desarrollo, conectar PHP con MongoDB mediante el controlador nativo, ejecutar operaciones CRUD, diseñar formularios interactivos con almacenamiento documental y utilizar índices para acelerar búsquedas. Muestra cómo manejar sesiones de usuario y subir archivos con GridFS.\n\nUn manual de iniciación amigable y directo para quienes transitaban de la clásica combinación PHP/MySQL hacia el mundo NoSQL.",
+    "temas": [
+      "PHP",
+      "MongoDB",
+      "Rubayeet Islam",
+      "GridFS",
+      "Web Development",
+      "CRUD",
+      "Packt",
+      "Principiantes"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Blog interactivo con sistema de comentarios y archivos en PHP y MongoDB",
+        "descripcion": "Desarrollo de un gestor de publicaciones web con almacenamiento de entradas y comentarios incrustados, y galería de imágenes con GridFS."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "practical-mongodb-aggregations-2023": {
+    "descripcion": "Obra técnica especializada de Paul Done (arquitecto de soluciones senior en MongoDB), consolidada como el tratado de referencia definitivo sobre el Framework de Agregación de MongoDB.\n\nEl autor disecciona más de 30 patrones de agregación del mundo real: transformaciones complejas de arrays ($map, $filter, $reduce), uniones de colecciones enriquecidas con $lookup y sub-pipelines, desanidamiento con $unwind, agregaciones facetadas ($facet) para búsquedas de comercio electrónico, y optimizaciones de pipeline para permitir el uso de índices. Incluye código probado en JavaScript, Python y C#.\n\nUna lectura técnica indispensable para cualquier desarrollador que necesita transformar, filtrar y resumir datos a alta velocidad dentro de MongoDB.",
+    "temas": [
+      "Paul Done",
+      "Aggregation Framework",
+      "MongoDB",
+      "$lookup",
+      "$facet",
+      "$reduce",
+      "Optimización de Pipelines",
+      "Patrones de Agregación"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de búsqueda facetada y agregaciones analíticas para tienda en línea",
+        "descripcion": "Construcción de un pipeline de agregación complejo que genera conteos por categorías, filtros de precios y resultados paginados en una sola consulta."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "web-development-with-mongodb-and-node-js-2014": {
+    "descripcion": "Guía práctica de Jason Krol enfocada en el desarrollo full-stack JavaScript moderno combinando Node.js, Express y MongoDB (la base del stack MEAN).\n\nEl autor enseña a estructurar una aplicación web completa: configuración del servidor con Express, modelado de documentos con Mongoose, subida y procesamiento de imágenes, autenticación de usuarios y despliegue en servidores en la nube. Muestra cómo unificar el lenguaje JavaScript en el cliente, servidor y base de datos.\n\nMuy formativo para desarrolladores web que buscan dominar el flujo completo de desarrollo con tecnologías JavaScript modernas.",
+    "temas": [
+      "Node.js",
+      "MongoDB",
+      "Express",
+      "Mongoose",
+      "MEAN Stack",
+      "Jason Krol",
+      "Full Stack",
+      "JavaScript"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de compartición de fotografías 'ImageLover' en Node.js y MongoDB",
+        "descripcion": "Construcción integral de una red social de fotos con subida de imágenes, comentarios en tiempo real y persistencia con Mongoose."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "data-modeling-made-simple-with-er-studio-data-architect-2nd-edition-2015": {
+    "descripcion": "Segunda edición del manual de Steve Hoberman que enseña los conceptos y buenas prácticas del modelado de datos aplicándolos directamente en ER/Studio Data Architect, la herramienta de modelado de Embarcadero (hoy de Idera).\n\nEl libro recorre los objetos de un modelo (entidades, submodelos, atributos, dominios y relaciones) y la construcción de modelos conceptuales, lógicos y físicos. Después cubre funciones de la herramienta como el diccionario de datos, el linaje, la importación y exportación, los estándares de nombres con traducción automática y la utilidad Compare/Merge. Esta edición añade el soporte de ER/Studio para equipos ágiles y para estructuras NoSQL, como el anidamiento de documentos de MongoDB.\n\nEs muy práctico para quien usa o va a usar ER/Studio. Quien busque un tratado de modelado independiente de herramientas encontrará más útil la edición general del mismo autor.",
+    "temas": [
+      "Steve Hoberman",
+      "Modelado de datos",
+      "ER/Studio Data Architect",
+      "Modelos conceptuales, lógicos y físicos",
+      "Linaje de datos",
+      "Compare/Merge",
+      "Modelado ágil",
+      "MongoDB",
+      "Technics"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://technicspub.com/erstudio-data-architect/"
+    ]
+  },
+  "high-performance-with-mongodb-2025": {
+    "descripcion": "Tratado técnico maestro y de máxima autoridad escrito por Asya Kamsky (ingeniera principal de rendimiento en MongoDB), Ger Hartnett y Alex Bevilacqua sobre la optimización extrema del motor.\n\nLos autores desentrañan los secretos más profundos de producción: diseño de claves de índice óptimas con la regla ESR (Equality, Sort, Range), análisis forense de la cola de ejecución y de WiredTiger Cache, mitigación de table scans, optimización de pipelines de agregación masivos y ajuste del kernel de Linux para servidores de alta densidad. Incluye pautas sobre particionamiento y diagnóstico con métricas de MongoDB Atlas.\n\nLa guía de rendimiento definitiva de cabecera para arquitectos, ingenieros de fiabilidad (SRE) y DBAs senior que gestionan clústeres MongoDB de misión crítica.",
+    "temas": [
+      "High Performance",
+      "Asya Kamsky",
+      "MongoDB Engineering",
+      "Regla ESR",
+      "WiredTiger Cache",
+      "Optimizador de Consultas",
+      "Atlas",
+      "DBA"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Auditoría forense de rendimiento y reestructuración de índices con la regla ESR",
+        "descripcion": "Diagnóstico de cuellos de botella en un clúster de alta carga y reducción drástica de tiempos de bloqueo mediante índices alineados con ESR."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

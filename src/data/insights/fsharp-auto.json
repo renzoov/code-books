@@ -1,0 +1,169 @@
+{
+  "beginning-f-4-0-2nd-edition-2016": {
+    "descripcion": "Segunda edición de la guía introductoria por excelencia al lenguaje funcional de Microsoft escrita por Kit Eason y Robert Pickering, publicada por Apress en 2016. Adaptada para F# 4.0 en .NET Framework y .NET Core.\n\nAborda los principios del paradigma funcional: inmutabilidad, tipos de datos algebraicos (uniones discriminadas y registros), coincidencia de patrones (pattern matching), funciones de orden superior, Type Providers para acceso tipado a datos y concurrencia con agentes MailboxProcessor.\n\nLos autores guían al lector desde conceptos elementales hasta aplicaciones comerciales, demostrando cómo F# erradica categorías enteras de errores como `NullReferenceException`. Excelente para desarrolladores de C# que dan el salto a la programación funcional.",
+    "temas": [
+      "F# 4.0",
+      "Programación Funcional",
+      "Pattern Matching",
+      "Type Providers",
+      "MailboxProcessor",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Analizador de Datos Financieros y Agente de Concurrencia con F#",
+        "descripcion": "Construcción de un pipeline funcional para procesar feeds de noticias y series de datos con Type Providers y MailboxProcessor."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1375-9"
+    ]
+  },
+  "expert-f-3-0-3rd-edition-2012": {
+    "descripcion": "Tercera edición del tratado de referencia máxima y autoridad absoluta escrito por Don Syme (diseñador y creador de F#), Adam Granicz y Antonio Cisternino, publicado por Apress en 2012. Es la obra canónica de la comunidad de F#.\n\nProfundiza en el sistema de tipos de F# 3.0, la revolucionaria tecnología de Type Providers para bases de datos SQL y servicios web OData, expresiones de computación (computation expressions monádicas), metaprogramación con Quotations y programación paralela y asíncrona.\n\nDon Syme y los coautores ofrecen explicaciones incomparables sobre la visión y la mecánica interna del lenguaje, conectando la teoría formal de tipos con el desarrollo en el mundo real. Indispensable para cualquier programador de F#.",
+    "temas": [
+      "Expert F#",
+      "Don Syme",
+      "Type Providers",
+      "Computation Expressions",
+      "Quotations",
+      "F# 3.0",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de Consultas de Datos Heterogéneos con Type Providers de F#",
+        "descripcion": "Implementación de una arquitectura tipada de acceso a servicios web y bases de datos relacionales sin generación de código estático."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-4651-0"
+    ]
+  },
+  "expert-f-4-0-4th-edition-2015": {
+    "descripcion": "Cuarta edición de la monumental obra de referencia escrita por Don Syme, Adam Granicz y Antonio Cisternino, publicada por Apress en 2015. Actualizada exhaustivamente para F# 4.0 y la plataforma .NET moderna.\n\nAborda mejoras en la inferencia de tipos, Type Providers avanzados, integración con la web moderna (Suave framework), computación en la nube y Big Data (MBrace), y prácticas de diseño limpio combinando orientación a objetos con programación funcional pura.\n\nDon Syme mantiene el estándar indiscutido de excelencia técnica y conceptual, capacitando a los ingenieros para resolver problemas computacionales complejos con código conciso, elegante y seguro. La cumbre de la literatura en F#.",
+    "temas": [
+      "Expert F#",
+      "Don Syme",
+      "F# 4.0",
+      "Type Providers",
+      "Suave Web",
+      "MBrace",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor Web Funcional y Pipeline de Big Data con F# y Suave",
+        "descripcion": "Desarrollo de microservicios RESTful ultraligeros con composición monádica de rutas y procesamiento concurrente."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-0741-3"
+    ]
+  },
+  "f-for-c-developers-2013": {
+    "descripcion": "Guía práctica de transición idiomática escrita por Tao Liu y publicada por Microsoft Press en 2013. Diseñada específicamente para desarrolladores experimentados en C# que desean incorporar F# en sus proyectos.\n\nCompara la programación imperativa y orientada a objetos de C# con los equivalentes funcionales en F#, modelado de dominio con tipos inmutables, sustitución de jerarquías de herencia complejas por uniones discriminadas, y pruebas unitarias más concisas.\n\nTao Liu, ingeniero sénior en Microsoft, enseña a adoptar F# de forma incremental dentro de soluciones existentes de Visual Studio, compartiendo ensamblados entre C# y F#. Muy formativo para ingenieros .NET.",
+    "temas": [
+      "F# para C# Developers",
+      "Programación Funcional",
+      "Uniones Discriminadas",
+      "Interop .NET",
+      "Tao Liu",
+      "Microsoft Press"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Librería de Dominio Financiero en F# Consumida desde C#",
+        "descripcion": "Construcción de un motor de cálculo actuarial libre de efectos secundarios consumido desde una interfaz C# existente."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoft.com/"
+    ]
+  },
+  "the-book-of-f-2018": {
+    "descripcion": "Tratado formativo y didáctico sobre programación funcional en .NET escrito por Dave Fancher y publicado por No Starch Press en 2018. Enseña a dominar F# para escribir código conciso, seguro y elegante.\n\nExplora funciones puras, inmutabilidad, tuplas, registros, uniones discriminadas, coincidencia de patrones (pattern matching), colecciones funcionales (`List`, `Seq`, `Map`), expresiones de computación y concurrencia con el modelo de actores MailboxProcessor.\n\nDave Fancher destaca por una prosa excepcionalmente clara y accesible que desmitifica los conceptos teóricos de la programación funcional, demostrando su enorme valor en el software cotidiano. Una de las mejores introducciones al lenguaje.",
+    "temas": [
+      "The Book of F#",
+      "Programación Funcional",
+      "Pattern Matching",
+      "Inmutabilidad",
+      "Dave Fancher",
+      "No Starch Press"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de Reglas de Negocio y Simulación Concurrente con Actores",
+        "descripcion": "Implementación de un sistema de procesamiento de pedidos asíncrono basado en mensajes tipados y agentes MailboxProcessor."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/fsharp"
+    ]
+  },
+  "programming-f-2009": {
+    "descripcion": "Guía práctica integral sobre F# escrita por Chris Smith (ingeniero de pruebas en el equipo de F# en Microsoft) y publicada por O'Reilly en 2009. Diseñada para aprender el lenguaje en su integración oficial con Visual Studio.\n\nCubre sintaxis funcional, programación orientada a objetos en F#, programación imperativa cuando es necesaria, tipos algebraicos, flujos de trabajo asíncronos (`async`), y desarrollo de interfaces visuales WPF y WinForms con F#.\n\nChris Smith aporta una visión pedagógica directa y llena de ejemplos prácticos que ilustran cómo aprovechar las ventajas de la JVM y .NET mientras se programa con la elegancia matemática de OCaml. Una referencia clásica muy apreciada.",
+    "temas": [
+      "Programming F#",
+      "Chris Smith",
+      "Async Workflows",
+      "POO en F#",
+      "O'Reilly"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Rastreador Web Concurrente con Flujos Asíncronos de F#",
+        "descripcion": "Construcción de un procesador de páginas web no bloqueante con flujos de trabajo asíncronos e interfaz visual WPF."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/programming-f/9780596153649/"
+    ]
+  },
+  "f-for-quantitative-finance-2013": {
+    "descripcion": "Manual técnico especializado en finanzas cuantitativas y modelos matemáticos escrito por Johan Åstborg y publicado por Packt en 2013. Enseña a modelar y valorar derivados financieros con F#.\n\nAborda el cálculo de precios de opciones europeas y americanas con el modelo Black-Scholes, métodos de árboles binomiales, simulaciones de Monte Carlo para valoración de carteras, y análisis de series temporales de activos bursátiles.\n\nJohan Åstborg demuestra cómo la seguridad del tipado estático y el rendimiento en ejecución de F# lo convierten en el lenguaje ideal para la industria financiera y fondos cuantitativos. Imprescindible para analistas financieros e ingenieros de software cuantitativo.",
+    "temas": [
+      "Finanzas Cuantitativas",
+      "Black-Scholes",
+      "Simulación Monte Carlo",
+      "F#",
+      "Derivados Financieros",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de Valoración de Derivados Financieros por Simulación Monte Carlo",
+        "descripcion": "Implementación de algoritmos paralelos en F# para simular miles de trayectorias bursátiles y calcular precios de opciones complejas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

@@ -1,46 +1,25 @@
-# Astro Starter Kit: Basics
+# CodeBooks
 
-```sh
-npm create astro@latest -- --template basics
-```
+Catálogo informativo de libros de programación (sin venta ni descargas), hecho con Astro y Tailwind.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Datos
 
-## 🚀 Project Structure
+- `public/books/*.xlsx`: listas de origen. Cada Excel es una categoría y cada pestaña una sección. Nunca
+  se editan: contienen enlaces de descarga, así que se borran de la salida al compilar.
+- `scripts/import-books.mjs` genera `src/data/books.json` a partir de los Excel. Las correcciones viven
+  en `scripts/`: `reclassify.mjs` (reasignaciones, duplicados y exclusiones) y `metadata-fixes.mjs`
+  (títulos, autores, editoriales, años y páginas verificados).
+- `src/data/insights/*.json`: descripción de cada libro, por sección.
+- `src/assets/covers/*.webp` + `src/data/covers.json`: portadas y su origen.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Comandos
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+| Comando                  | Acción                                                           |
+| :----------------------- | :--------------------------------------------------------------- |
+| `npm run dev`            | Servidor de desarrollo en `localhost:4321`                       |
+| `npm run build`          | Importa los Excel y compila el sitio en `./dist/`                |
+| `npm run import`         | Solo regenera `src/data/books.json`                              |
+| `npm run covers`         | Descarga por ISBN las portadas que falten (`--tech <sección>`)   |
+| `npm run covers:optimize`| Convierte a WebP las portadas nuevas                             |
+| `npm run insights`       | Genera descripciones pendientes con `claude -p` (`--tech`/`--slug`) |
+| `npm run check:insights` | Cuenta los libros con descripción                                |

@@ -1,0 +1,282 @@
+{
+  "interactive-computer-graphics-6th-edition-2011": {
+    "descripcion": "Sexta edición del clásico manual universitario de Edward Angel y Dave Shreiner, publicado por Addison-Wesley en 2011. Esta edición histórica representa la transición definitiva del libro hacia un enfoque de arriba hacia abajo ('top-down') basado enteramente en shaders y en el pipeline programable moderno de OpenGL con GLSL, abandonando la canalización fija obsoleta. Dirigido a estudiantes de ciencias de la computación e ingenieros de software que buscan una comprensión integral y rigurosa de la computación gráfica tridimensional.\n\nEl texto inicia introduciendo rápidamente al alumno en la generación de imágenes interactivas en pantalla, para luego profundizar en los fundamentos matemáticos de las transformaciones afines tridimensionales y el álgebra de matrices. Explora la arquitectura del pipeline de renderizado, el diseño y paso de parámetros a vertex y fragment shaders, modelos de iluminación Phong y sombreado suave, técnicas de mapeo de texturas, rasterización y eliminación de superficies ocultas. Además, analiza el diseño de interfaces interactivas y eventos de usuario para la manipulación de escenas 3D.\n\nEl aprendizaje se asienta sobre programas de ejemplo completos en C++ y OpenGL con GLUT/GLEW que el alumno compila y modifica para observar de inmediato el impacto visual. Su mayor virtud es la solidez pedagógica y la armonía entre teoría geométrica y programación de shaders en GPU. Es un pilar académico formativo para cualquier profesional de gráficos interactivos, simulación o desarrollo de motores.",
+    "temas": [
+      "OpenGL",
+      "GLSL",
+      "Computación gráfica",
+      "Pipeline programable",
+      "Álgebra matricial 3D",
+      "Shaders",
+      "Modelos de iluminación",
+      "Transformaciones afines"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Entorno Gráfico Interactivo Tridimensional",
+        "descripcion": "Construcción de un simulador visual con cámara de perspectiva orientable, mallas poligonales transformables e iluminación difusa y especular calculada en shaders GLSL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.pearson.com/en-us/subject-catalog/p/interactive-computer-graphics-a-top-down-approach-with-shader-based-opengl/P200000003254",
+      "https://www.cs.unm.edu/~angel/BOOK/INTERACTIVE_COMPUTER_GRAPHICS/SIXTH_EDITION/"
+    ]
+  },
+  "opengl-programming-guide-8th-edition-2013": {
+    "descripcion": "Octava edición de la guía oficial canónica conocida en la industria como 'The Red Book' (El Libro Rojo), coescrita por Dave Shreiner, Graham Sellers, John Kessenich y Bill Licea-Kane, publicada por Addison-Wesley en 2013. Reescrita íntegramente para cubrir OpenGL 4.3 en su Core Profile, prescinde de cualquier función en desuso para centrarse al cien por cien en la arquitectura gráfica programable moderna. Dirigida a desarrolladores de software profesional, ingenieros de simulación y creadores de motores gráficos que necesitan una referencia autorizada.\n\nLa obra desglosa con máxima precisión la especificación de OpenGL 4.3 y GLSL 4.30: configuración de Vertex Buffer Objects (VBOs) y Vertex Array Objects (VAOs), arquitectura de shaders, transformaciones geométricas con matrices de proyección y vista, y técnicas de iluminación de vanguardia. Cubre en profundidad shaders de geometría, etapas de teselación (tessellation control y evaluation shaders), compute shaders para procesamiento de propósito general en GPU (GPGPU), retroalimentación de transformaciones (transform feedback) y texturizado avanzado con samplers y mipmapping.\n\nContiene explicaciones exhaustivas respaldadas por fragmentos de código oficiales y programas de muestra estructurados. Su punto fuerte es la autoridad inigualable de sus autores, miembros directos del consorcio Khronos Group. Es el manual definitivo para exprimir el rendimiento de la GPU y dominar cada etapa del pipeline gráfico contemporáneo.",
+    "temas": [
+      "OpenGL 4.3",
+      "GLSL",
+      "Core Profile",
+      "Compute shaders",
+      "Teselación en GPU",
+      "Geometry shaders",
+      "Transform Feedback",
+      "Khronos Group"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline Gráfico Avanzado con Teselación y Cómputo",
+        "descripcion": "Implementación de una escena 3D compleja que emplea shaders de teselación para generar detalle geométrico adaptativo y compute shaders para procesamiento de datos en GPU."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/opengl-programming-guide/9780133408898/",
+      "https://www.khronos.org/opengl/"
+    ]
+  },
+  "pro-opengl-es-for-android-2012": {
+    "descripcion": "Guía técnica especializada de Mayank Verma y Mike Smithwick, publicada por Apress en 2012. Enseña a desarrollar gráficos 3D acelerados por hardware en la plataforma Android utilizando el estándar OpenGL ES. Orientada a desarrolladores de aplicaciones móviles con experiencia en Java y el SDK de Android que desean crear juegos interactivos y visualizaciones tridimensionales fluidas en teléfonos y tabletas.\n\nEl temario aborda la integración de GLSurfaceView y el ciclo de renderizado en Android, la creación de mallas 3D personalizadas, la gestión de la memoria nativa y el paso de datos entre Java y el hardware gráfico. Explica las matemáticas de proyecciones ortogonales y en perspectiva, la iluminación dinámica de escenarios, el texturizado de superficies con imágenes de mapas de bits, y el manejo eficiente de eventos táctiles para interactuar con objetos espaciales (rotación, zoom y paneo táctil).\n\nEl aprendizaje gira en torno a la construcción práctica de un simulador 3D del sistema solar completo, donde se modelan planetas texturizados, órbitas elípticas, rotaciones planetarias e iluminación desde el Sol. Su mayor atractivo es conectar de forma fluida el ecosistema móvil de Android con los principios de la computación visual en tiempo real.",
+    "temas": [
+      "OpenGL ES",
+      "Android",
+      "Gráficos 3D móviles",
+      "GLSurfaceView",
+      "Texturas 3D",
+      "Interacción táctil",
+      "Iluminación móvil",
+      "Java"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Simulador 3D del Sistema Solar para Android",
+        "descripcion": "Desarrollo de una aplicación Android interactiva con mallas esféricas texturizadas, iluminación dinámica procedente del Sol y controles táctiles para explorar los planetas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-4000-6",
+      "https://github.com/Apress/pro-opengl-es-for-android"
+    ]
+  },
+  "pro-opengl-es-for-ios-2011": {
+    "descripcion": "Manual avanzado de desarrollo gráfico escrito por Mike Smithwick y publicado por Apress a finales de 2011. Enseña a los programadores del entorno Apple a exprimir la GPU de los dispositivos iPhone e iPad mediante OpenGL ES en Objective-C. Orientado a desarrolladores de iOS con base en Cocoa Touch que buscan dar el salto al desarrollo de juegos y aplicaciones interactivas en tres dimensiones.\n\nEl autor desglosa la creación de vistas CAEAGLLayer con UIKit, la gestión de contextos gráficos de Apple y el diseño de la canalización de dibujado optimizada para la arquitectura de memoria unificada de iOS. Cubre el diseño de mallas tridimensionales, el texturizado con compresión PVRTC, modelos de iluminación, gestión de cámaras, y la integración de sensores de movimiento (acelerómetro y giroscopio) junto con eventos multitáctiles para controlar la experiencia 3D.\n\nAl igual que su contraparte de Android, el libro guía al lector en la creación de una aplicación tridimensional del sistema solar altamente pulida, con órbitas astronómicas, fuentes de luz direccionales y navegación intuitiva. Destaca por sus consejos prácticos de optimización de memoria y consumo de batería en hardware móvil.",
+    "temas": [
+      "OpenGL ES",
+      "iOS",
+      "Objective-C",
+      "CAEAGLLayer",
+      "Texturizado PVRTC",
+      "Multitouch 3D",
+      "Optimización móvil",
+      "Gráficos 3D"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Explorador Espacial 3D para iOS",
+        "descripcion": "Construcción de un simulador astronómico para iPhone e iPad que renderiza planetas en 3D con texturas optimizadas y control mediante gestos táctiles y orientación del dispositivo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-3841-6",
+      "https://github.com/Apress/pro-opengl-es-for-ios"
+    ]
+  },
+  "computer-graphics-through-opengl-2nd-edition-2014": {
+    "descripcion": "Segunda edición del aclamado tratado universitario de Sumanta Guha, publicado por CRC Press en 2014. Diseñado bajo el lema 'De la teoría a los experimentos', une con rigor pedagógico los fundamentos matemáticos y conceptuales de la computación gráfica con la práctica directa en OpenGL moderno y shaders GLSL. Orientado a estudiantes y graduados en ciencias e ingeniería de software.\n\nEl contenido abarca un amplio espectro de la computación visual: primitivas geométricas, algoritmos de rasterización, curvas y superficies paramétricas (Bézier, B-splines), álgebra proyectiva y matrices de vista. Desarrolla la programación moderna de shaders, cálculo de iluminación local y global, mapas de texturas procedurales, sombras dinámicas y técnicas de animación de partículas. Cada concepto teórico se complementa con experimentos en código C++ que permiten comprobar visualmente las propiedades matemáticas explicadas.\n\nContiene más de 180 programas de prueba completos y cientos de ejercicios matemáticos y de programación. Es una obra sumamente rica para quienes desean entender en profundidad por qué y cómo funcionan las fórmulas detrás de cada matriz y cada fragmento renderizado por la tarjeta gráfica.",
+    "temas": [
+      "OpenGL",
+      "GLSL",
+      "Computación gráfica",
+      "Curvas Bézier y Splines",
+      "Geometría proyectiva",
+      "Iluminación y sombras",
+      "Matemáticas para 3D",
+      "C++"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Modelador Gráfico Experimental con Curvas y Shaders",
+        "descripcion": "Implementación de una suite de experimentos visuales que renderiza superficies paramétricas dinámicas, curvas de spline y sombras en tiempo real con shaders GLSL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Computer-Graphics-Through-OpenGL-From-Theory-to-Experiments/Guha/p/book/9781482258394"
+    ]
+  },
+  "learning-game-physics-with-bullet-physics-and-opengl-2013": {
+    "descripcion": "Guía práctica de desarrollo de simulación física escrita por Chris Dickinson y publicada por Packt en 2013. Enseña a integrar el prestigioso motor de física de código abierto Bullet Physics (usado en cine y videojuegos triple A) con una canalización gráfica en OpenGL y C++. Dirigida a programadores de videojuegos e ingenieros de software con base en C++ que desean añadir física realista a sus motores gráficos.\n\nEl texto desglosa la inicialización del mundo de simulación física en Bullet: detección de colisiones en fase amplia y estrecha, definición de cuerpos rígidos con masa e inercia, y vinculación de las matrices de transformación del motor físico con las matrices de dibujado de OpenGL. Explora formas de colisión primitivas y convexas (cajas, esferas, cápsulas, mallas complejas), restricciones cinemáticas (bisagras, deslizadores y rótulas), simulación de vehículos terrestres con ruedas y resortes, y optimización del bucle de físicas con pasos de tiempo fijos.\n\nEl lector construye gradualmente un entorno interactivo tipo 'sandbox' donde lanza proyectiles, derrumba estructuras de bloques y conduce un vehículo con suspensión física en tiempo real. Su valor principal es que resuelve la compleja sincronización matemática entre la simulación física y el pipeline de renderizado gráfico de OpenGL.",
+    "temas": [
+      "Bullet Physics",
+      "OpenGL",
+      "Física de videojuegos",
+      "Cuerpos rígidos",
+      "Detección de colisiones",
+      "Restricciones mecánicas",
+      "Simulación de vehículos",
+      "C++"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Simulador de Destrucción y Físicas Interactivas",
+        "descripcion": "Desarrollo de un sandbox 3D en C++ con Bullet y OpenGL donde interactúan cuerpos rígidos colisionables, proyectiles y estructuras destructibles."
+      },
+      {
+        "nombre": "Simulador de Vehículo Todo Terreno",
+        "descripcion": "Construcción de un automóvil 3D con simulación física de suspensión en las cuatro ruedas, aceleración, fricción y respuesta a colisiones con el terreno."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/learning-game-physics-with-bullet-physics-and-opengl-9781783281879",
+      "https://github.com/bulletphysics/bullet3"
+    ]
+  },
+  "opengl-4-shading-language-cookbook-2nd-edition-2013": {
+    "descripcion": "Segunda edición del popular recetario técnico de David Wolff, publicado por Packt en 2013. Se centra en la programación avanzada de shaders con GLSL 4.x para OpenGL 4.3, presentando soluciones directas, modernas y listas para producción en tarjetas gráficas actuales. Dirigido a desarrolladores de motores, artistas técnicos y programadores de gráficos en C++.\n\nLa obra compila decenas de recetas prácticas organizadas en temas esenciales: iluminación difusa, especular (Blinn-Phong) y modelos de múltiples fuentes; texturizado avanzado con mapas normales, reflexiones especulares y cubemaps; técnicas de sombras dinámicas (shadow maps y PCF); y efectos de postprocesamiento de pantalla completa mediante Framebuffer Objects (FBOs) como bloom, desenfoque gaussiano, profundidad de campo y corrección gamma. Además, profundiza en el uso de geometry shaders, tessellation shaders para generación de terreno procedural y compute shaders para procesamiento de partículas masivas en GPU.\n\nCada receta detalla el código del vertex, fragment o compute shader correspondiente, junto con el código C++ necesario en el lado del host para vincular uniformes y texturas. Es un manual de referencia indispensable para tener en el escritorio a la hora de implementar técnicas visuales contemporáneas en OpenGL.",
+    "temas": [
+      "GLSL 4.3",
+      "OpenGL 4",
+      "Shaders de postprocesamiento",
+      "Shadow mapping",
+      "FBOs",
+      "Compute shaders",
+      "Teselación",
+      "Recetas gráficas"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/opengl-4-shading-language-cookbook-second-edition-9781782167020",
+      "https://github.com/PacktPublishing/OpenGL-4-Shading-Language-Cookbook-Second-Edition"
+    ]
+  },
+  "opengl-4-0-shading-language-cookbook-2011": {
+    "descripcion": "Primera edición del recetario especializado de David Wolff, publicado por Packt en 2011. Introduce las novedades introducidas en la especificación OpenGL 4.0 y el lenguaje de sombreado GLSL 4.00, marcando las bases de la programación moderna de shaders en GPU sin soporte legado. Dirigido a programadores de computación gráfica y C++.\n\nEl autor presenta un catálogo estructurado de recetas que cubren la iluminación por fragmento, cálculo de atenuación de luz, mapas de normales, mapas de desplazamiento y texturas proyectivas. Aborda el uso de subrutinas de shaders para alternar algoritmos en tiempo de ejecución, el procesamiento de mallas con geometry shaders, el renderizado a texturas múltiples (MRT) para efectos diferidos, y la implementación de filtros de convolución y desenfoque para postprocesamiento.\n\nSigue la clásica estructura de Packt: planteamiento del problema gráfico, solución en código GLSL y C++, y explicación pormenorizada de la técnica subyacente. Aunque la segunda edición actualizó los ejemplos a OpenGL 4.3, esta primera entrega sigue siendo un recurso pedagógico claro y conciso sobre los fundamentos de GLSL 4.",
+    "temas": [
+      "GLSL 4.0",
+      "OpenGL 4.0",
+      "Recetas de shaders",
+      "Mapas normales",
+      "Subrutinas GLSL",
+      "Geometry shaders",
+      "Filtros de imagen",
+      "Renderizado diferido"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/opengl-40-shading-language-cookbook-9781849514767",
+      "https://github.com/daw42/glslcookbook"
+    ]
+  },
+  "opengl-data-visualization-cookbook-2015": {
+    "descripcion": "Manual especializado de Raymond C. H. Lo y William C. Y. Lo, publicado por Packt en 2015. Se centra en el empleo de OpenGL y shaders GLSL para la visualización interactiva y en tiempo real de grandes volúmenes de datos científicos, médicos y de ingeniería. Dirigido a científicos de datos, ingenieros biomédicos y programadores de software visual interactivo.\n\nEl temario ofrece recetas directas para renderizar nubes de puntos 3D masivas (LiDAR), mapas de calor tridimensionales (heatmaps), renderizado volumétrico de datos médicos (cortes tomográficos y resonancias magnéticas), y superficies de altura topográficas. Enseña a optimizar el rendimiento mediante buffers de vértices en streaming, mapeo de paletas de color con texturas 1D y 2D, filtrado de datos dinámico directamente en shaders, y técnicas de realidad aumentada para superponer datos tridimensionales sobre flujos de vídeo en directo.\n\nCada capítulo proporciona ejemplos funcionales que transforman datos numéricos crudos en visualizaciones espaciales de alta fidelidad con interacción en tiempo real. Su gran valor distintivo es aplicar la potencia de OpenGL a la ciencia de datos y la ingeniería, más allá de la industria del videojuego.",
+    "temas": [
+      "OpenGL",
+      "Visualización de datos",
+      "Nubes de puntos (Point Clouds)",
+      "Renderizado volumétrico",
+      "Mapas de calor 3D",
+      "Visualización científica",
+      "GLSL",
+      "Streaming de datos"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/opengl-data-visualization-cookbook-9781782169727",
+      "https://github.com/PacktPublishing/OpenGL-Data-Visualization-Cookbook"
+    ]
+  },
+  "opengl-es-3-0-cookbook-2015": {
+    "descripcion": "Recetario avanzado de Parminder Singh publicado por Packt en mayo de 2015. Enseña a utilizar las capacidades de OpenGL ES 3.0 en aplicaciones y motores gráficos móviles multiplataforma (iOS y Android), aprovechando las mejoras de hardware de los dispositivos móviles modernos. Dirigido a desarrolladores de juegos móviles e ingenieros gráficos embebidos.\n\nEl contenido reúne recetas para configurar proyectos multiplataforma, gestionar objetos de memoria (VAOs, VBOs, PBOs y FBOs) e implementar técnicas de renderizado complejas en teléfonos. Destaca el uso de consultas de oclusión (occlusion queries), instanciado geométrico para pintar miles de objetos repetidos en pantalla con una sola llamada, transform feedback para simulación de partículas en GPU móvil, sombras dinámicas con shadow maps, y compresión de texturas moderna (ETC2 y ASTC).\n\nCada receta ofrece soluciones de código probadas en dispositivos Android e iOS reales, analizando cuellos de botella y pautas para maximizar la tasa de fotogramas sin sobrecalentar el hardware ni drenar la batería. Es una referencia muy práctica para optimizar motores móviles en OpenGL ES 3.",
+    "temas": [
+      "OpenGL ES 3.0",
+      "Gráficos móviles",
+      "Instanciado en GPU",
+      "Occlusion queries",
+      "Transform feedback",
+      "Texturas ETC2 y ASTC",
+      "Android e iOS",
+      "Optimización móvil"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/opengl-es-30-cookbook-9781785287343",
+      "https://github.com/Parminder-Singh/OpenGL-ES-3.0-Cookbook"
+    ]
+  },
+  "opengl-es-2-for-android-2013": {
+    "descripcion": "Guía formativa de Kevin Brothaler publicada por The Pragmatic Programmers en 2013. Enseña a programar gráficos tridimensionales en Android mediante OpenGL ES 2.0 y GLSL desde una aproximación eminentemente lúdica y práctica. Orientada a desarrolladores de Android con conocimientos de Java que quieren crear su primer juego en 3D sin depender de librerías externas.\n\nEl recorrido del libro construye de forma incremental un juego interactivo de air hockey en tres dimensiones. Empieza desde un lienzo 2D dibujando las líneas de la mesa, pasando luego al espacio tridimensional con matrices de perspectiva y vista. Enseña a escribir vertex y fragment shaders, aplicar texturas para las paletas y el disco, simular iluminación, programar un sistema de partículas para chispas en colisiones, y detectar toques y arrastres en la pantalla táctil mediante proyecciones invertidas (unprojecting raycasting) para golpear el disco.\n\nDestaca por el legendario estilo pedagógico de Pragmatic Bookshelf: explicaciones amenas, diagramas visuales detallados y un proyecto entretenido y completo que se refactoriza paso a paso. Es uno de los mejores libros de iniciación existentes para comprender el pipeline gráfico programable en dispositivos móviles.",
+    "temas": [
+      "OpenGL ES 2.0",
+      "Android",
+      "Videojuegos móviles",
+      "Shaders GLSL",
+      "Sistemas de partículas",
+      "Interactividad táctil",
+      "Raycasting táctil",
+      "Java"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Juego 3D de Air Hockey para Android",
+        "descripcion": "Desarrollo completo de un juego de hockey de mesa en 3D con mesa texturizada, disco con simulación de rebotes, efectos de partículas e interacción táctil en tiempo real."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://pragprog.com/titles/kbogla/opengl-es-2-for-android/",
+      "https://github.com/learn-opengles-2-android"
+    ]
+  }
+}

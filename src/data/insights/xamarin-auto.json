@@ -1,0 +1,528 @@
+{
+  "beginning-xamarin-development-for-the-mac-2018": {
+    "descripcion": "Manual introductorio publicado por Apress en 2018 y escrito por Dawid Borycki, concebido para desarrollar aplicaciones nativas dentro del ecosistema de Apple utilizando Xamarin.iOS, C# y el entorno Visual Studio for Mac. Está dirigido a desarrolladores con conocimientos básicos o intermedios en C# y la plataforma .NET que desean iniciarse en la creación de aplicaciones móviles y wearables para Apple sin verse obligados a aprender Objective-C o Swift.\n\nEl texto instruye en el uso de Visual Studio for Mac sobre macOS, desglosando la estructura de proyectos Xamarin, el ciclo de vida de aplicaciones en Apple, el patrón Modelo-Vista-Controlador (MVC) y las prácticas de Test-Driven Development (TDD). A nivel técnico, cubre la creación de interfaces con vistas nativas (UIView), navegación con controladores de vista, captura de toques y gestos (UIGestureRecognizer), pruebas unitarias en C#, consumo de servicios web RESTful mediante HTTP y JSON, y la integración backend con ASP.NET Core y servicios Web API, además de la gestión del código fuente con Git. Asimismo, dedica capítulos monográficos a la creación de aplicaciones para el Apple Watch con watchOS y para Apple TV con tvOS.\n\nEl aprendizaje se desarrolla mediante ejemplos prácticos paso a paso adaptados a cada plataforma de Apple (aplicaciones iOS con navegación e interacción táctil, interfaces ligeras para watchOS y experiencias adaptadas al control remoto en tvOS conectadas a servicios web). Su punto fuerte es ofrecer una ruta directa y unificada para programar en C# múltiples dispositivos de Apple desde un entorno Mac. Conviene tener presente que el ecosistema Xamarin fue sucedido posteriormente por .NET MAUI y que Microsoft discontinuó Visual Studio for Mac, por lo que su interés actual reside en la comprensión conceptual de los enlaces nativos de iOS y el mantenimiento de código legado.",
+    "temas": [
+      "Xamarin.iOS",
+      "C#",
+      "Visual Studio for Mac",
+      "iOS",
+      "watchOS",
+      "tvOS",
+      "MVC",
+      "REST APIs",
+      "ASP.NET Core",
+      "Pruebas unitarias",
+      "Git"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3132-6",
+      "https://www.oreilly.com/library/view/beginning-xamarin-development/9781484231326/",
+      "https://www.amazon.com/Beginning-Xamarin-Development-Mac-watchOS/dp/1484231319"
+    ]
+  },
+  "building-xamarin-forms-mobile-apps-using-xaml-2019": {
+    "descripcion": "Manual técnico publicado por Apress y escrito por Dan Hermes y Nima Mazloumi que profundiza en el diseño y desarrollo de interfaces de usuario móviles declarativas mediante XAML en Xamarin.Forms (centrado en la generación Xamarin.Forms 3.x y 4.x). Concebido como la contraparte visual y basada en marcado del libro previo de Dan Hermes (que trabajaba imperativamente desde C#), está pensado para desarrolladores de nivel intermedio con experiencia en C# y la plataforma .NET que buscan dominar XAML para crear aplicaciones móviles nativas para iOS y Android compartiendo la definición gráfica.\n\nLa obra desglosa de manera exhaustiva la sintaxis y los mecanismos de XAML: espacios de nombres, extensiones de marcado, constructores con argumentos y el estándar XAML. Enseña a estructurar pantallas utilizando contenedores como StackLayout, Grid, AbsoluteLayout, RelativeLayout, FlexLayout y Frame. Cubre la creación y aplicación de estilos con ResourceDictionary, Styles, DynamicResource, temas y la compatibilidad con hojas de estilo CSS integradas en Xamarin.Forms. Asimismo, profundiza en la interacción mediante Behaviors, Triggers y Commands, patrones de navegación (NavigationPage, MasterDetailPage, TabbedPage), enlace de datos bidireccional (Data Binding), la arquitectura Model-View-ViewModel (MVVM) y la personalización por plataforma mediante Custom Renderers, Effects y Native View Declaration.\n\nEl aprendizaje se articula a través de soluciones modulares y ejemplos prácticos por capítulos (disponibles en el repositorio oficial de GitHub danhermes/xamarin-xaml-book-examples), donde se construyen controles y vistas funcionales para cada subsistema. Su mayor aporte radica en la dedicación exclusiva a los detalles de XAML, cubriendo aspectos como CSS y FlexLayout que otros textos pasan por alto. Deja fuera la configuración de backend, el consumo avanzado de servicios web o bases de datos locales, ya que su foco está estrictamente en la capa de presentación. Conviene tener solidez previa en C# y Visual Studio antes de abordarlo.",
+    "temas": [
+      "Xamarin.Forms",
+      "XAML",
+      "C#",
+      "iOS",
+      "Android",
+      "MVVM",
+      "FlexLayout",
+      "Custom Renderers",
+      "Data Binding",
+      "CSS en Xamarin",
+      "Estilos y Recursos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4030-4",
+      "https://www.amazon.com/Building-Xamarin-Forms-Mobile-Apps-Using/dp/1484240292",
+      "https://github.com/danhermes/xamarin-xaml-book-examples"
+    ]
+  },
+  "cross-platform-localization-for-native-mobile-apps-with-xamarin-2017": {
+    "descripcion": "Monografía técnica de Apress escrita por Christopher Miller, Microsoft MVP, enfocada exclusivamente en la internacionalización (i18n) y localización (l10n) de aplicaciones móviles nativas creadas con Xamarin.Forms y .NET en Visual Studio. Está orientada a programadores de nivel intermedio que ya desarrollan en C# y Xamarin y necesitan preparar y adaptar sus aplicaciones para un mercado global multilingüe, compartiendo hasta el 99 % del código y los recursos de idioma entre Android, iOS y Windows (UWP).\n\nEl libro explica con precisión las diferencias entre globalización, internacionalización y localización, y detalla el funcionamiento de los archivos de recursos estándar de .NET (.resx), contrastándolos con formatos nativos como strings.xml de Android y Localizable.strings de iOS. Enseña a utilizar la extensión Multilingual App Toolkit (MAT) en Visual Studio para gestionar traducciones, trabajar con archivos de intercambio XLIFF y aplicar seudolocalización para detectar problemas de recorte de interfaz o textos fijos sin parametrizar. También cubre el formateo cultural de fechas, horas, números y monedas mediante CultureInfo, la dirección del texto (LTR y RTL) y la configuración específica en manifiestos de plataforma (como Info.plist en iOS) para que el propio nombre de la aplicación se muestre traducido en el menú del sistema.\n\nA lo largo de los capítulos se desarrolla un proyecto práctico guiado, la aplicación de menú para restaurantes o resorts «Island Menu Application», que comienza con una configuración base en inglés y se internacionaliza por completo paso a paso. La obra aporta una especialización que los manuales generales de Xamarin suelen tratar superficialmente; en contrapartida, excluye temas ajenos a la localización como bases de datos, autenticación o patrones arquitectónicos avanzados. Es indispensable contar con conocimientos previos del ciclo de vida de Xamarin.Forms y Visual Studio configurado para compilar en múltiples plataformas.",
+    "temas": [
+      "Xamarin.Forms",
+      "Localización (l10n)",
+      "Internacionalización (i18n)",
+      ".NET",
+      "C#",
+      "Archivos RESX",
+      "Multilingual App Toolkit (MAT)",
+      "iOS",
+      "Android",
+      "UWP",
+      "Formateo cultural"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Island Menu Application",
+        "descripcion": "Aplicación móvil multiplataforma desarrollada en Xamarin.Forms para iOS, Android y UWP que presenta un menú interactivo; se construye inicialmente en inglés y se internacionaliza con archivos .resx y Multilingual App Toolkit, adaptando textos, moneda y el nombre de la app por plataforma."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2466-3",
+      "https://www.amazon.com/Cross-platform-Localization-Native-Mobile-Xamarin/dp/1484224653",
+      "https://github.com/Apress/cross-platform-localization-xamarin"
+    ]
+  },
+  "using-mvvm-light-with-your-xamarin-apps-2018": {
+    "descripcion": "Guía práctica de Apress elaborada por Paul Johnson, orientada a la implementación del patrón de arquitectura Model-View-ViewModel (MVVM) en aplicaciones móviles multiplataforma mediante el popular framework MVVM Light Toolkit (desarrollado por Laurent Bugnion). La obra trabaja sobre el ecosistema Xamarin (abarcando Xamarin.Forms, Xamarin.iOS, Xamarin.Android y UWP con bibliotecas .NET Standard), y está dirigida a desarrolladores móviles y de .NET de nivel intermedio que buscan desacoplar la interfaz gráfica de la lógica empresarial para construir aplicaciones mantenibles y fáciles de probar.\n\nEl texto desglosa los componentes nucleares de MVVM Light: la configuración del contenedor de inversión de control e inyección de dependencias (SimpleIoc), el registro y resolución de modelos de vista mediante ViewModelLocator, y la comunicación desacoplada entre vistas y módulos a través de la clase Messenger. Explica cómo implementar comandos reutilizables con RelayCommand, abstraer los servicios de navegación multiplataforma y consumir servicios web externos mediante HttpClient y deserialización JSON. Además, dedica secciones clave a la creación de pruebas unitarias automatizadas sobre ViewModels utilizando NUnit y dobles de prueba (mocks), así como a la refactorización y migración de proyectos monolíticos o heredados hacia MVVM.\n\nEl libro propone un enfoque de aprendizaje progresivo en el que se construye una aplicación móvil paso a paso agregando capacidades arquitectónicas capítulo a capítulo (con soluciones disponibles en el repositorio de Apress en GitHub), concluyendo con el refactor de una app existente. Su principal virtud es ofrecer una entrada directa y comprensible a la arquitectura MVVM sin la curva de aprendizaje de frameworks más pesados como MvvmCross o Prism. Deja fuera técnicas reactivas complejas o persistencia con sincronización offline. Conviene dominar C#, interfaces y programación asíncrona antes de su lectura.",
+    "temas": [
+      "Xamarin.Forms",
+      "MVVM Light",
+      "Arquitectura MVVM",
+      "C#",
+      "Inversión de Control (IoC)",
+      "Inyección de dependencias",
+      "SimpleIoc",
+      "Pruebas unitarias",
+      "Servicios Web",
+      ".NET Standard"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2475-5",
+      "https://www.amazon.com/Using-MVVM-Light-Xamarin-Apps/dp/1484224742",
+      "https://github.com/Apress/using-mvvm-light-w-your-xamarin-apps"
+    ]
+  },
+  "xamarin-mobile-application-development-2015": {
+    "descripcion": "Manual de iniciación integral publicado por Apress y escrito por el arquitecto de software Dan Hermes, centrado en la creación de aplicaciones móviles nativas para iOS, Android y Windows Phone utilizando C#, .NET y las herramientas de Xamarin (en su versión inicial de Xamarin.Forms 1.x junto con Xamarin.iOS y Xamarin.Android). Está dirigido a desarrolladores principiantes en el entorno móvil que ya cuentan con conocimientos básicos de C# y de programación orientada a objetos, y buscan comprender cómo unificar la lógica empresarial y las interfaces entre distintos sistemas operativos.\n\nEl libro enseña la construcción de interfaces de usuario principalmente desde código C# (enfoque code-first), detallando los tipos de páginas (ContentPage, NavigationPage, MasterDetailPage, TabbedPage), los contenedores de maquetación (StackLayout, Grid, AbsoluteLayout, RelativeLayout) y los controles habituales de interacción (Button, Entry, Picker, Slider, Switch, ListView). Explica el enlace de datos (Data Binding), la persistencia local de información con SQLite.NET y ADO.NET, la integración con servicios en la nube y el uso de DependencyService para consumir APIs específicas de cada plataforma. Asimismo, profundiza en la creación de Custom Renderers para personalizar controles nativos en iOS y Android, y compara las estrategias de proyectos compartidos (Shared Projects) frente a bibliotecas de clases portables (PCL).\n\nEl contenido se ejercita mediante soluciones y proyectos modulares ordenados por capítulos (alojados en el repositorio oficial danhermes/xamarin-book-examples), cubriendo desde la maquetación visual hasta operaciones con base de datos local y navegación por pila. Su mayor aportación es la claridad pedagógica con la que estructura los cimientos de Xamarin con C#. Sin embargo, al haber sido publicado en 2015, refleja una época en la que aún se soportaba Windows Phone y el diseño de vistas se realizaba predominantemente en C# antes de que XAML se convirtiera en el estándar dominante de la industria. Requiere conocimientos de programación orientada a objetos en C# y Visual Studio.",
+    "temas": [
+      "Xamarin.Forms",
+      "Xamarin.iOS",
+      "Xamarin.Android",
+      "C#",
+      "SQLite.NET",
+      "Data Binding",
+      "Custom Renderers",
+      "DependencyService",
+      "Layouts y Controles",
+      "Arquitectura móvil"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-0214-2",
+      "https://www.amazon.com/Xamarin-Mobile-Application-Development-Cross-Platform/dp/1484202153",
+      "https://github.com/danhermes/xamarin-book-examples"
+    ]
+  },
+  "xamarin-in-action-2018": {
+    "descripcion": "Extensa obra de Manning Publications escrita por Jim Bennett (con prólogo de James Montemagno) que aborda el desarrollo profesional de aplicaciones móviles nativas para iOS y Android utilizando C# y el enfoque tradicional de Xamarin (Xamarin.iOS y Xamarin.Android). Publicado en 2018, el libro está pensado para programadores de C# sin experiencia previa en desarrollo móvil (o con nivel básico) que deseen maximizar la reutilización de código (alcanzando más del 70-80 % de lógica compartida) sin sacrificar el aspecto, el rendimiento y los patrones de diseño propios de cada sistema operativo.\n\nLa obra profundiza en el diseño arquitectónico multiplataforma guiado por el patrón Model-View-ViewModel (MVVM) utilizando la librería MvvmCross, complementada con comparativas hacia MVVM Light. Enseña a crear modelos y ViewModels compartidos, a gestionar la concurrencia y la sincronización con el hilo de interfaz de usuario mediante tareas asíncronas con async/await, y a construir interfaces 100 % nativas: Storyboards, View Controllers y Auto Layout en iOS, junto con layouts XML, Activities y Fragments en Android. Asimismo, aborda la persistencia de datos local con SQLite, pruebas unitarias automatizadas con NUnit y Moq, pruebas de interfaz de usuario de extremo a extremo mediante Xamarin.UITest, y la integración de telemetría y diagnóstico de fallos en producción con Visual Studio App Center (HockeyApp).\n\nEl libro sigue una metodología práctica basada en la construcción progresiva de dos proyectos representativos: «SquareRt», una aplicación de cálculo matemático utilizada para dominar el estado y los comandos en ViewModels compartidos, y «Countr», una completa aplicación de conteo múltiple para iOS y Android desarrollada a lo largo de los capítulos con navegación, enlace de datos con MvvmCross, pruebas unitarias y pruebas de interfaz automatizadas. Destaca por su rigurosa insistencia en buenas prácticas de ingeniería de software, testabilidad y ciclo de vida de producción. Deja deliberadamente fuera Xamarin.Forms para enfocarse en interfaces nativas puras, por lo que quienes busquen una capa de UI compartida única deberán consultar otros títulos. Conviene contar con un conocimiento sólido de C# moderno.",
+    "temas": [
+      "Xamarin.iOS",
+      "Xamarin.Android",
+      "C#",
+      "MVVM",
+      "MvvmCross",
+      "Xamarin.UITest",
+      "NUnit",
+      "Storyboards de iOS",
+      "Layouts de Android",
+      "App Center",
+      "SQLite",
+      "async/await"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Countr",
+        "descripcion": "Aplicación móvil de conteo para iOS y Android que comparte la lógica de negocio y ViewModels mediante MvvmCross, con persistencia local en SQLite, interfaces nativas (Storyboards y XML), pruebas unitarias con NUnit y pruebas automatizadas con Xamarin.UITest."
+      },
+      {
+        "nombre": "SquareRt",
+        "descripcion": "Aplicación de cálculo matemático diseñada para ejercitar de forma aislada los fundamentos del patrón MVVM, la gestión del estado interno y la ejecución de comandos en ViewModels compartidos multiplataforma."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/xamarin-in-action",
+      "https://www.amazon.com/Xamarin-Action-Creating-native-mobile/dp/1617294380",
+      "https://github.com/jimbobbennett/Countr"
+    ]
+  },
+  "creating-mobile-apps-with-xamarin-forms-2016": {
+    "descripcion": "Guía técnica y de referencia fundamental escrita por Charles Petzold y publicada por Microsoft Press, dedicada a la creación de aplicaciones móviles nativas multiplataforma utilizando las versiones iniciales y consolidadas de Xamarin.Forms (versiones 1.5 y 2.0). Está dirigida a desarrolladores con experiencia previa en el lenguaje C# y el entorno .NET que buscan dar el salto al desarrollo móvil para iOS, Android y Windows (UWP) compartiendo la lógica de negocio y la interfaz de usuario sin necesidad de programar en tres lenguajes distintos.\n\nEl texto cubre minuciosamente los cimientos del desarrollo con XAML y C#: contenedores de diseño como StackLayout, Grid y AbsoluteLayout, propiedades enlazables (BindableProperty), jerarquía de vistas, estilos visuales y extensiones de marcado. Profundiza en el patrón arquitectónico MVVM (Model-View-ViewModel), el enlace de datos (Data Binding), colecciones interactivas con ListView, animaciones personalizadas, transformaciones vectoriales, manejo de llamadas asíncronas con async/await y acceso al sistema de archivos. Además, enseña a conectar con APIs nativas mediante Custom Renderers, Behaviors, Triggers y la biblioteca de mapas Xamarin.Forms.Maps.\n\nA lo largo del volumen, el autor construye aplicaciones prácticas completas de ejemplo para poner a prueba los conceptos, destacando el juego de memoria MonkeyTap, la aplicación de catálogo educativo SchoolOfFineArt para dominar listas y MVVM, y el reloj animado XamlClock. Es una obra monumental e imprescindible para entender a bajo nivel los principios del diseño de interfaces compartidas en el ecosistema Microsoft, sentando las bases de lo que hoy es .NET MAUI; no obstante, deja fuera aspectos de backend como la autenticación remota o bases de datos en la nube, centrándose exclusivamente en la arquitectura cliente del dispositivo.",
+    "temas": [
+      "Xamarin.Forms",
+      "C#",
+      "XAML",
+      "MVVM",
+      "Data Binding",
+      "Custom Renderers",
+      "Layouts",
+      "ListView",
+      "Animaciones",
+      "Xamarin.Forms.Maps",
+      "Multiplataforma"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "MonkeyTap",
+        "descripcion": "Juego interactivo de memoria visual y auditiva tipo Simón dice, implementado con layouts de Xamarin.Forms, temporizadores, efectos de sonido y eventos táctiles en C# y XAML."
+      },
+      {
+        "nombre": "SchoolOfFineArt",
+        "descripcion": "Aplicación de catálogo de estudiantes que sirve como caso de estudio integral para ilustrar el patrón MVVM, enlace de datos bidireccional, plantillas de datos y visualización dinámica en ListView."
+      },
+      {
+        "nombre": "XamlClock",
+        "descripcion": "Reloj analógico y digital interactivo que demuestra el renderizado con extensiones de marcado XAML, transformaciones vectoriales, animaciones de manecillas y enlace reactivo a temporizadores."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/creating-mobile-apps-with-xamarin.forms-9781509302970",
+      "https://learn.microsoft.com/en-us/xamarin/xamarin-forms/creating-mobile-apps-xamarin-forms/",
+      "https://github.com/xamarin/xamarin-forms-book-samples",
+      "https://www.amazon.com/Creating-Mobile-Xamarin-Forms-Developer-Reference/dp/1509302978"
+    ]
+  },
+  "cross-platform-ui-development-with-xamarin-forms-2015": {
+    "descripcion": "Manual práctico publicado por Packt que aborda el diseño y la construcción de interfaces de usuario compartidas mediante Xamarin.Forms en el entorno de Xamarin 3. Está orientado a desarrolladores de nivel intermedio familiarizados con la sintaxis de C# y los conceptos de la plataforma .NET que necesitan unificar el desarrollo visual para iOS, Android y Windows Phone, evitando la duplicación de código entre plataformas móviles.\n\nEl contenido recorre la planificación arquitectónica de aplicaciones móviles, el diseño visual mediante código C# y XAML, y la estructuración de proyectos compartidos a través de Portable Class Libraries (PCL). Enseña a implementar enlace de datos reactivo, almacenamiento y consultas de datos con LINQ y SQLite, consumo de servicios web mediante llamadas REST y WCF, y gestión de gestos e interacción táctil. También profundiza en el uso de servicios del dispositivo como geolocalización por GPS, visualización en mapas y la integración de utilidades avanzadas con el conjunto de herramientas de la comunidad XLabs (Xamarin.Forms Labs) y APIs de redes sociales.\n\nLa formación práctica se articula en torno a la construcción progresiva de una aplicación de libreta de contactos (AddressBook) que integra pantallas de autenticación de usuario, almacenamiento persistente en base de datos local y geoposicionamiento. Su gran valor está en mostrar la transición desde la planificación hasta el despliegue con un enfoque pragmático en el ahorro de código; sin embargo, al apoyarse fuertemente en PCLs y en la librería XLabs (hoy descontinuadas en el ecosistema actual de .NET MAUI), conviene considerarlo como una referencia formativa sobre patrones de arquitectura móvil más que una guía de dependencias vigentes.",
+    "temas": [
+      "Xamarin.Forms",
+      "C#",
+      "PCL (Portable Class Libraries)",
+      "XAML",
+      "Data Binding",
+      "SQLite",
+      "Servicios REST",
+      "WCF",
+      "XLabs",
+      "GPS y Mapas",
+      "iOS y Android"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "AddressBook",
+        "descripcion": "Aplicación de libreta de direcciones multiplataforma con pantalla de inicio de sesión, almacenamiento local de contactos en SQLite, sincronización con servicios REST y localización por GPS."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/cross-platform-ui-development-with-xamarinforms-9781784391195",
+      "https://www.amazon.com/Cross-platform-Development-Xamarin-Forms-Paul-Johnson/dp/1784391199",
+      "https://www.goodreads.com/book/show/26849419-cross-platform-ui-development-with-xamarin-forms"
+    ]
+  },
+  "ios-development-with-xamarin-cookbook-2014": {
+    "descripcion": "Guía en formato de recetario práctico publicada por Packt, orientada a la programación de aplicaciones nativas para el sistema operativo iOS (versiones 7 y 8) utilizando C# y la plataforma Xamarin.iOS (anteriormente conocida como MonoTouch). El libro está dirigido a desarrolladores .NET de nivel intermedio que desean crear soluciones para iPhone e iPad aprovechando su experiencia en C# sin tener que aprender Objective-C ni Swift.\n\nEl texto reúne más de un centenar de recetas que exploran el amplio ecosistema del SDK de iOS adaptado a .NET: controles de interfaz gráfica (UIView, UIButton, UITableView, UICollectionView) y controladores de vistas (UIViewController) enlazados mediante Xcode Interface Builder y Storyboards. Enseña persistencia de datos local con SQLite.NET y serialización en archivos, integración con servicios remotos REST y WCF, reproducción y captura de medios con AVFoundation (cámara, micrófono, galería fotográfica), integración con contactos y calendario del sistema, lectura de sensores de movimiento mediante Core Motion (acelerómetro y giroscopio), geolocalización con Core Location y mapas nativos, así como animaciones con Core Animation y soporte de multitarea en segundo plano.\n\nAl organizarse estrictamente como un recetario de problemas y soluciones, no desarrolla un proyecto único de extremo a extremo, sino que ofrece más de cien proyectos de muestra pequeños y específicos enfocados en características puntuales del hardware y del sistema de Apple. Aporta un valor inmenso para programadores que buscan resolver rápidamente casos prácticos de interacción con el hardware de iOS en C#; no obstante, prescinde por completo de Xamarin.Forms (se enfoca exclusivamente en Xamarin.iOS tradicional) y no aborda las interfaces declarativas modernas de SwiftUI.",
+    "temas": [
+      "Xamarin.iOS",
+      "C#",
+      "iOS SDK",
+      "MonoTouch",
+      "Storyboards",
+      "SQLite.NET",
+      "Core Location",
+      "Core Motion",
+      "AVFoundation",
+      "Core Animation",
+      "Servicios REST",
+      "Multitarea en iOS"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/ios-development-with-xamarin-cookbook-9781849698924",
+      "https://www.amazon.com/iOS-Development-Xamarin-Cookbook-Dimitris/dp/1849698921",
+      "https://www.oreilly.com/library/view/ios-development-with/9781849698924/"
+    ]
+  },
+  "learning-xamarin-studio-2014": {
+    "descripcion": "Guía tutorial de Packt orientada al dominio y configuración integral de Xamarin Studio como entorno de desarrollo integrado principal para proyectos móviles bajo Xamarin 3. Está pensada para desarrolladores .NET principiantes o profesionales acostumbrados a Visual Studio en Windows que dan sus primeros pasos creando aplicaciones móviles para Android e iOS y necesitan comprender la configuración de herramientas, emuladores y flujos de trabajo de compilación cruzada.\n\nEl contenido desglosa paso a paso la instalación, licenciamiento y personalización de Xamarin Studio, así como la configuración y vinculación con Xcode y el Android SDK. Aborda la estructura de plantillas de proyectos, la gestión de extensiones (add-ins), el control del ciclo de vida de la aplicación tanto en iOS (AppDelegate, UIViewController) como en Android (Activities y estados), la creación de proyectos compartidos mediante las primeras versiones de Xamarin.Forms, la conexión en red entre entornos Windows y máquinas Mac para compilación remota de iOS, la ejecución de pruebas unitarias automatizadas con NUnitLite (Touch.Unit y Andr.Unit) y el análisis de ejecución con Instruments.\n\nA través de proyectos base de prueba y ejercicios de configuración, el lector aprende a desplegar aplicaciones en simuladores, conectar dispositivos físicos mediante depuración remota y preparar los paquetes binarios firmados con certificados y perfiles de aprovisionamiento para su publicación en Google Play y Apple App Store. Su mayor utilidad es aclarar las dificultades operativas de configurar un flujo de trabajo móvil con herramientas mixtas (Mac y PC); sin embargo, dado que Xamarin Studio fue sustituido posteriormente por Visual Studio for Mac y el ecosistema ha migrado a .NET MAUI con VS Code y Visual Studio, su relevancia actual es predominantemente histórica sobre el funcionamiento de los primeros entornos de compilación de Xamarin.",
+    "temas": [
+      "Xamarin Studio",
+      "C#",
+      "Xamarin 3",
+      "Xamarin.iOS",
+      "Xamarin.Android",
+      "Xamarin.Forms",
+      "Xcode",
+      "Android SDK",
+      "NUnitLite",
+      "Depuración",
+      "Aprovisionamiento y Tiendas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/learning-xamarin-studio-9781783550814",
+      "https://www.amazon.com/Learning-Xamarin-Studio-William-Smith/dp/1783550811",
+      "https://www.goodreads.com/book/show/23249052-learning-xamarin-studio"
+    ]
+  },
+  "mastering-cross-platform-development-with-xamarin-2016": {
+    "descripcion": "Libro técnico avanzado publicado por Packt que explora la arquitectura, optimización y gestión del ciclo de vida de aplicaciones móviles multiplataforma construidas con Xamarin (cubriendo Xamarin.iOS, Xamarin.Android y Xamarin.Forms 2.x). Está diseñado para ingenieros y arquitectos de software con conocimientos sólidos de C# y experiencia previa en Xamarin que necesitan llevar sus aplicaciones al nivel empresarial, priorizando la estabilidad, el rendimiento y la mantenibilidad del código.\n\nLa obra se sumerge en áreas críticas de bajo nivel que definen la calidad en producción: gestión avanzada de memoria para evitar fugas (memory leaks) derivadas de las referencias cruzadas entre el recolector de basura de Mono y los entornos de ejecución nativos (ARC de iOS y JVM de Android), patrones de concurrencia y programación asíncrona no bloqueante con async/await y tareas en segundo plano, persistencia local segura mediante SQLite para escenarios offline-first y consumo optimizado de APIs REST. En la capa de presentación, analiza patrones de diseño de interfaz de usuario reutilizables (MVVM, Custom Renderers, adaptabilidad entre plataformas) y abarca estrategias integrales de Application Lifecycle Management (ALM) que incluyen colaboración entre desarrollo y QA, integración continua y distribución a través de canales públicos y privados.\n\nEn lugar de guiar un único proyecto de principio a fin, el libro implementa soluciones de código modulares e iterativas para cada reto arquitectónico (como la sincronización de datos locales con la nube, optimización de renderizado y automatización de compilaciones). Aporta una visión indispensable sobre la ingeniería interna de Xamarin que pocos libros tocan con tanta seriedad técnica; no obstante, no es apto para principiantes que buscan aprender sintaxis o diseñar pantallas básicas, y requiere familiaridad sólida con patrones de arquitectura y desarrollo orientado a objetos en .NET.",
+    "temas": [
+      "Xamarin",
+      "C#",
+      "Arquitectura de software",
+      "Gestión de memoria",
+      "Programación asíncrona",
+      "SQLite",
+      "Offline-first",
+      "Xamarin.Forms",
+      "Patrones de UI",
+      "ALM y CI/CD",
+      "Publicación de aplicaciones"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-cross-platform-development-with-xamarin-9781785283284",
+      "https://www.amazon.com/Mastering-Cross-Platform-Development-Xamarin-Bilgin/dp/1785283284",
+      "https://www.goodreads.com/book/show/29505856-mastering-cross-platform-development-with-xamarin"
+    ]
+  },
+  "xamarin-blueprints-2016": {
+    "descripcion": "Guía práctica y orientada a proyectos en la que Michael Williams aborda el desarrollo de aplicaciones móviles nativas y multiplataforma con C# utilizando el ecosistema de Xamarin (cubriendo Xamarin.Forms, Xamarin.iOS y Xamarin.Android en el entorno de C# 6 y Visual Studio / Xamarin Studio en 2016). El texto está orientado a desarrolladores de nivel básico a intermedio que ya conocen la sintaxis de C# y los principios de la programación orientada a objetos, pero necesitan un recorrido estructurado para transformar sus habilidades de escritorio o web en aplicaciones móviles completas para iOS y Android.\n\nA lo largo de sus capítulos, el libro enseña a estructurar el código compartido mediante Proyectos Compartidos (Shared Projects) y el patrón MVVM. Explora la creación de interfaces nativas con UITableView y UIViewController en iOS y ListView junto a layouts XML en Android. En el apartado de APIs y servicios, cubre la persistencia local con SQLite, el consumo de servicios web REST con HttpClient y la serialización JSON con Newtonsoft.Json, servicios de localización geográfica mediante LocationManager y mapas, síntesis de texto a voz (Text-to-Speech), reproducción y gestión de audio en segundo plano, manipulación de mapas de bits, acceso a la cámara nativa, mensajería en tiempo real mediante WebSockets/OWIN y el despliegue de repositorios en Google Cloud Source Repositories.\n\nEl núcleo de la obra consiste en la construcción desde cero de ocho aplicaciones independientes que resuelven necesidades concretas de hardware, almacenamiento y red. Su gran virtud reside en mostrar cómo integrar APIs nativas de ambas plataformas que los tutoriales superficiales suelen omitir, si bien deja fuera temas de integración continua o pruebas unitarias automatizadas. Conviene contar con un entorno de desarrollo configurado con emuladores o dispositivos físicos antes de comenzar.",
+    "temas": [
+      "Xamarin.Forms",
+      "Xamarin.iOS",
+      "Xamarin.Android",
+      "C#",
+      "SQLite",
+      "REST APIs",
+      "Newtonsoft.Json",
+      "MVVM",
+      "DependencyService",
+      "GPS",
+      "Multimedia",
+      "WebSockets"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Gallery Application",
+        "descripcion": "Galería de imágenes con interfaces nativas que implementa UITableView en iOS y ListView en Android, gestionando renderizado de celdas personalizadas y mapas de bits a través de un proyecto compartido."
+      },
+      {
+        "nombre": "SpeechTalk",
+        "descripcion": "Aplicación de síntesis de voz que aprovecha las APIs de texto a voz de cada plataforma integrándolas en Xamarin.Forms mediante inversión de control y el servicio de dependencias."
+      },
+      {
+        "nombre": "GPS Locator Application",
+        "descripcion": "Herramienta de geolocalización y mapas que consulta y visualiza en tiempo real las coordenadas del usuario haciendo uso de LocationManager y los servicios nativos de posicionamiento."
+      },
+      {
+        "nombre": "Audio Player Application",
+        "descripcion": "Reproductor multimedia móvil que administra colas de pistas de audio y permite el control de la reproducción en segundo plano en iOS y Android."
+      },
+      {
+        "nombre": "Stocklist Application",
+        "descripcion": "Monitor financiero que consulta cotizaciones bursátiles remotas en formato JSON mediante HttpClient y Newtonsoft.Json, persistiendo los datos localmente con SQLite para consulta offline."
+      },
+      {
+        "nombre": "Chat Application",
+        "descripcion": "Aplicación de mensajería instantánea que implementa comunicación bidireccional en tiempo real apoyada en componentes OWIN y WebSockets."
+      },
+      {
+        "nombre": "File Storage Application",
+        "descripcion": "Gestor de almacenamiento que lee y escribe archivos directamente en los sistemas de archivos locales de cada plataforma utilizando DependencyService en Xamarin.Forms."
+      },
+      {
+        "nombre": "Camera Application",
+        "descripcion": "Aplicación fotográfica que interactúa directamente con el hardware de la cámara del dispositivo para capturar imágenes y aplicar procesamiento básico de bitmaps."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/xamarin-blueprints-9781785887444",
+      "https://www.amazon.com/Xamarin-Blueprints-Michael-Williams/dp/1785887440",
+      "https://www.oreilly.com/library/view/xamarin-blueprints/9781785887444/"
+    ]
+  },
+  "xamarin-cross-platform-application-development-2nd-edition-2015": {
+    "descripcion": "Segunda edición de la guía de referencia de Jonathan Peppers, enfocada en la creación de aplicaciones móviles multiplataforma nativas con la versión Xamarin 3 y la introducción temprana de Xamarin.Forms. Está dirigida a desarrolladores con experiencia previa en C# y tecnologías .NET (como ASP.NET, WPF o Windows Phone) de nivel intermedio, que desean iniciarse en el desarrollo para iOS y Android sin tener que aprender Objective-C o Java, maximizando la reutilización de código de lógica empresarial.\n\nEl libro detalla el patrón de diseño MVVM y las estrategias para organizar proyectos compartidos mediante bibliotecas de clases portables (PCL). Compara el patrón MVC de Apple y el ciclo de vida de los UIViewControllers frente al ciclo de vida de las Activities en Android. Enseña a implementar inyección de dependencias e inversión de control, pruebas unitarias con NUnit, consumo de servicios web REST, integración con servicios en la nube de Azure Mobile Services, notificaciones push nativas (APNs en iOS y Google Cloud Messaging en Android), librerías externas de terceros (como ZXing para lectura de códigos de barras) y el diseño de interfaces compartidas con Xamarin.Forms.\n\nLa columna vertebral del aprendizaje es la construcción incremental de una aplicación de mensajería completa (XamChat), en la que el lector crea primero los modelos y viewmodels desacoplados, luego las interfaces nativas de usuario para cada sistema operativo y finalmente la integración con la nube. Es un libro de gran valor arquitectónico que además enseña a evitar fugas de memoria, optimizar el linker y comprender la compilación AOT/JIT, aunque se debe considerar que los servicios de Azure y las notificaciones push han cambiado su configuración respecto a 2015. Se recomienda tener una base sólida en programación orientada a objetos en C#.",
+    "temas": [
+      "Xamarin 3",
+      "Xamarin.Forms",
+      "Xamarin.iOS",
+      "Xamarin.Android",
+      "C#",
+      "MVVM",
+      "PCL",
+      "Azure Mobile Services",
+      "Push Notifications",
+      "Pruebas unitarias",
+      "REST APIs"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "XamChat",
+        "descripcion": "Aplicación de mensajería y chat multiplataforma desarrollada incrementalmente con C#; implementa arquitectura MVVM mediante PCL, capas de servicio simuladas y reales, interfaces nativas en iOS (UINavigationController, UITableView) y Android (ListView, BaseAdapter), y backend en la nube con Azure Mobile Services y notificaciones push."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/xamarin-cross-platform-application-development-second-edition-9781784397883",
+      "https://www.amazon.com/Xamarin-Cross-platform-Application-Development-Second/dp/1784397881",
+      "https://github.com/PacktPublishing/Xamarin-Cross-platform-Application-Development-Second-Edition"
+    ]
+  },
+  "xamarin-essentials-2014": {
+    "descripcion": "Texto introductorio y formativo de Mark Reynolds concebido para explicar los cimientos y el funcionamiento interno de la tecnología Xamarin a finales de 2014. Está dirigido a programadores principiantes en el mundo móvil pero que ya poseen conocimientos básicos de C# y de la plataforma .NET, cuyo objetivo es comprender la arquitectura y los mecanismos técnicos que hacen posible ejecutar C# de forma nativa en sistemas operativos móviles antes de afrontar desarrollos complejos.\n\nEl autor expone con detalle la coexistencia entre el runtime Mono y las plataformas anfitrionas: la compilación estática por adelantado (Ahead-of-Time o AOT) obligatoria en iOS frente al modelo de compilación Just-in-Time sobre la máquina virtual de Android. Enseña a configurar los entornos de desarrollo en Windows y Mac (Xamarin Studio y Visual Studio), a construir las primeras interfaces nativas con Storyboards en iOS y layouts XML en Android, y analiza en profundidad las diferentes opciones para compartir código: Proyectos Compartidos, bibliotecas PCL, el framework MvvmCross para vinculación de datos avanzada y la adopción de Xamarin.Forms, finalizando con los pasos de firma, aprovisionamiento y empaquetado para despliegue.\n\nEl libro combina explicaciones conceptuales rigurosas con la creación guiada de pequeñas aplicaciones introductorias en iOS y Android, además de bancos de pruebas para comparar PCL, MvvmCross y Xamarin.Forms. Su principal contribución es desmitificar qué sucede tras bambalinas en la comunicación entre el runtime y las APIs nativas, permitiendo al desarrollador entender dónde y por qué ocurren los cuellos de botella o fallos de compilación. No enseña a crear una aplicación empresarial compleja, por lo que resulta ideal como lectura de base técnica antes de abordar recetarios o libros de proyectos.",
+    "temas": [
+      "Xamarin",
+      "Mono Runtime",
+      "Xamarin.iOS",
+      "Xamarin.Android",
+      "C#",
+      "Xamarin.Forms",
+      "MvvmCross",
+      "PCL",
+      "Compilación AOT",
+      "Arquitectura móvil",
+      "Despliegue de aplicaciones"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicaciones nativas de iniciación",
+        "descripcion": "Proyectos paso a paso para iOS (con Storyboards y controladores de vista) y Android (con Activities y layouts XML), diseñados para comprender la estructura de soluciones Xamarin y el ciclo de vida de cada plataforma."
+      },
+      {
+        "nombre": "Proyectos de demostración de código compartido",
+        "descripcion": "Soluciones de prueba que implementan y contrastan la reutilización de lógica mediante bibliotecas PCL, el framework MvvmCross para databinding y pantallas multiplataforma con Xamarin.Forms."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/xamarin-essentials-9781783550838",
+      "https://www.amazon.com/Xamarin-Essentials-Mark-Reynolds/dp/178355083X"
+    ]
+  },
+  "xamarin-mobile-application-development-for-android-2014": {
+    "descripcion": "Monografía práctica de Mark Reynolds enfocada exclusivamente en el desarrollo nativo para Android utilizando C# y Xamarin.Android (correspondiente a las APIs de Android 4.x Jelly Bean y KitKat en 2014). Está concebida para desarrolladores de nivel intermedio familiarizados con C# y el entorno .NET que quieren especializarse en el ecosistema Android y aprovechar sus herramientas habituales de Visual Studio o Xamarin Studio sin necesidad de programar en Java.\n\nEl libro aborda la anatomía del sistema operativo Android (el kernel de Linux, las librerías nativas, la máquina virtual y el framework de aplicaciones) y la manera en que Xamarin.Android expone las APIs del SDK en C#. Enseña a maquetar vistas con layouts XML y recursos nativos, gobernar el ciclo de vida de las Activities, gestionar colecciones de datos mediante ListView y adaptadores personalizados, desacoplar pantallas para tabletas mediante Fragments, implementar almacenamiento de datos local, consumir servicios web HTTP y acceder a los sensores del teléfono, integrando geolocalización con LocationManager/GPS y la captura de imágenes mediante la cámara del dispositivo.\n\nEl aprendizaje se articula de principio a fin alrededor de la creación de POIApp (Points of Interest App), una aplicación completa para documentar puntos de interés turísticos o geográficos. Su mayor ventaja es su total dedicación al stack de Android, lo que permite profundizar en el uso de Android Device Monitor, la depuración en emuladores o dispositivos físicos y el empaquetado y firma de archivos APK para Google Play. Al ser un libro previo a la popularización de Xamarin.Forms y enfocado solo en Android, no cubre iOS ni código compartido entre plataformas.",
+    "temas": [
+      "Xamarin.Android",
+      "C#",
+      "Android SDK",
+      "Activities",
+      "Fragments",
+      "ListView",
+      "Adaptadores",
+      "Geolocalización y GPS",
+      "Cámara de Android",
+      "Almacenamiento local",
+      "Google Play"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "POIApp (Points of Interest App)",
+        "descripcion": "Aplicación Android completa en C# para registrar y consultar puntos de interés; incluye navegación maestro-detalle, interfaces adaptadas a tabletas mediante Fragments, almacenamiento de datos, geolocalización en tiempo real por GPS y captura fotográfica con la cámara."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/xamarin-mobile-application-development-for-android-9781783559176",
+      "https://www.amazon.com/Xamarin-Mobile-Application-Development-Android/dp/1783559179"
+    ]
+  },
+  "xamarin-mobile-development-for-android-cookbook-2015": {
+    "descripcion": "Extenso recetario técnico de más de 450 páginas escrito por Matthew Leibowitz, desarrollador del equipo de Xamarin y especialista en componentes móviles. Publicado a finales de 2015 para el ecosistema de Android 5 Lollipop y Android 6 Marshmallow, está orientado a desarrolladores intermedios y avanzados que ya poseen conocimientos sólidos de C# y Xamarin.Android y buscan soluciones prácticas y reutilizables para problemas concretos de ingeniería móvil nativa.\n\nLa obra contiene decenas de recetas organizadas temáticamente que cubren el diseño de interfaces modernas (Action Bar, menús contextuales, Navigation Drawer, temas globales y animaciones de propiedades), gestión de Fragments y preservación de estado de vistas. En el apartado de datos y comunicación, aborda SharedPreferences, acceso a datos con ADO.NET y SQLite.NET, cifrado de bases de datos con SQLCipher, consumo y creación de Content Providers, peticiones REST con HttpClient, gestión de descargas con DownloadManager, ejecución de tareas asíncronas y servicios en segundo plano con Android Services, sistema de notificaciones con Notification Builder, reproducción de multimedia (audio y video), sensores, conectividad hardware mediante Bluetooth y NFC, emparejamiento con dispositivos Android Wear y compras integradas con In-App Billing.\n\nAl tratarse de un recetario en formato estándar (problema, solución técnica y análisis del código), no construye una única aplicación integral, sino recetas atómicas probadas y listas para incorporar a proyectos en producción. Su gran fortaleza es la enorme variedad de casos reales y el uso de las Android Support Libraries para garantizar compatibilidad entre versiones del sistema operativo. Deja fuera cualquier mención a iOS o Xamarin.Forms, siendo un manual de consulta altamente especializado en exprimir las capacidades nativas de Android desde C#.",
+    "temas": [
+      "Xamarin.Android",
+      "C#",
+      "Android Support Libraries",
+      "SQLite.NET",
+      "SQLCipher",
+      "Fragments",
+      "Servicios en segundo plano",
+      "REST APIs",
+      "Bluetooth",
+      "NFC",
+      "Android Wear",
+      "In-App Billing"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/xamarin-mobile-development-for-android-cookbook-9781784398576",
+      "https://www.amazon.com/Xamarin-Mobile-Development-Android-Cookbook/dp/1784398578",
+      "https://www.oreilly.com/library/view/xamarin-mobile-development/9781784398576/"
+    ]
+  },
+  "xamarin-studio-for-android-programming-a-c-cookbook-2015": {
+    "descripcion": "Manual práctico en formato de recetario elaborado por Mathieu Nayrolles para desarrollar aplicaciones móviles nativas para el sistema operativo Android utilizando C#, el entorno de desarrollo Xamarin Studio y la plataforma Xamarin.Android sobre el runtime Mono (en el contexto de versiones como Android 4.x y 5.x Lollipop). Está dirigido a programadores de C# y el ecosistema .NET de nivel intermedio que desean introducirse en el desarrollo móvil nativo sin tener que programar en Java, así como a desarrolladores de Android que buscan aprovechar el tipado fuerte y la expresividad de C#.\n\nLa obra compila más de 50 recetas paso a paso que desglosan los aspectos fundamentales del desarrollo en Android: gestión del ciclo de vida de actividades (Activities, preservación de estado con onSaveInstanceState y adaptación a cambios de orientación de pantalla), construcción de interfaces de usuario mediante layouts en XML (LinearLayout, RelativeLayout) y uso de controles nativos y adaptadores de datos para ListView y Spinner. Profundiza en el almacenamiento local a través de SharedPreferences, archivos internos y externos, serialización de objetos y persistencia relacional con bases de datos SQLite mediante la librería SQLite-net. Asimismo, enseña a crear y vincular servicios en segundo plano (Started y Bound Services), despachar notificaciones con NotificationManager, comunicar componentes mediante Intents explícitos e implícitos (cámara, llamadas telefónicas, correo y navegador web), manipular gráficos 2D con Canvas y Paint, modularizar interfaces para tabletas con Fragments, interactuar con sensores y hardware del terminal (GPS con LocationManager, acelerómetro, Bluetooth y NFC), depurar mediante Logcat y monetizar integrando anuncios con Google AdMob.\n\nAl ser un libro de recetas (cookbook), no se construye una aplicación única y monolítica, sino soluciones puntuales, modulares y reutilizables diseñadas para resolver problemas concretos de la API de Android. Destaca por ilustrar con exactitud cómo se mapean los patrones nativos del SDK de Android a las abstracciones y eventos de C#. Conviene tener en cuenta que el texto se centra en Xamarin.Android tradicional y no en Xamarin.Forms, y que la herramienta Xamarin Studio fue sucedida posteriormente por Visual Studio y más recientemente por .NET MAUI; no obstante, sus fundamentos de enlace con las APIs nativas de Android conservan gran valor didáctico.",
+    "temas": [
+      "Xamarin Studio",
+      "Xamarin.Android",
+      "C#",
+      ".NET",
+      "Ciclo de vida de actividades",
+      "SQLite-net",
+      "Intents",
+      "Fragments",
+      "Sensores y GPS",
+      "AdMob",
+      "Google Play"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.goodreads.com/book/show/28448375-xamarin-studio-for-android-programming",
+      "https://www.amazon.com/dp/1849691401"
+    ]
+  }
+}

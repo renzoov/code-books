@@ -1,11 +1,44 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
+import CategoryCard from '../components/CategoryCard.astro';
+import { books, techs, categories } from '../lib/data';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const editoriales = new Set(books.map((b) => b.editorial).filter(Boolean)).size;
+const stats = [
+  [new Set(books.map((b) => b.slug)).size, 'libros'],
+  [techs.length, 'tecnologías'],
+  [editoriales, 'editoriales'],
+];
 ---
 
 <Layout>
-	<Welcome />
+  <section class="pb-12 pt-6">
+    <p class="font-mono text-xs uppercase tracking-widest text-[var(--accent)]">Biblioteca de programación</p>
+    <h1 class="mt-3 max-w-3xl text-balance text-5xl font-bold leading-[1.05] sm:text-7xl">
+      Qué enseña cada libro, antes de abrirlo.
+    </h1>
+    <p class="mt-5 max-w-xl text-lg text-muted">
+      Nivel, páginas, editorial y una explicación clara de si el libro es teoría pura, trae ejercicios o te hace construir proyectos.
+    </p>
+    <dl class="mt-8 flex gap-8 font-mono">
+      {
+        stats.map(([n, label]) => (
+          <div>
+            <dd class="text-3xl font-bold">{n}</dd>
+            <dt class="text-xs text-muted">{label}</dt>
+          </div>
+        ))
+      }
+    </dl>
+  </section>
+
+  <section aria-labelledby="categorias">
+    <header class="mb-5 flex items-baseline justify-between gap-4 border-b border-line pb-3">
+      <h2 id="categorias" class="text-2xl font-bold">Categorías</h2>
+      <span class="font-mono text-xs text-muted">{categories.length} categorías · elige una para ver sus secciones</span>
+    </header>
+    <div class="grid grid-flow-dense auto-rows-[11rem] gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      {categories.map((c) => <CategoryCard category={c} />)}
+    </div>
+  </section>
 </Layout>

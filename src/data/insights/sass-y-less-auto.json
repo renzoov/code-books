@@ -1,0 +1,109 @@
+{
+  "sass-and-compass-in-action-2013": {
+    "descripcion": "Guía práctica de referencia escrita por figuras clave del ecosistema de preprocesadores: Nathan Weizenbaum (creador original de Sass), Chris Eppstein (creador de Compass), Wynn Netherland y Brandon Mathis. El texto aborda Sass 3.2 y el framework Compass en el entorno de Ruby, dirigiéndose a diseñadores web y programadores frontend que dominan la sintaxis tradicional de CSS pero buscan eliminar la redundancia, mejorar el mantenimiento y estructurar sistemas de hojas de estilo escalables en proyectos de gran envergadura.\n\nEl libro recorre exhaustivamente la sintaxis de Sass (tanto SCSS como la sintaxis indentada original), detallando variables, anidamiento de reglas, mixins con argumentos, herencia selectiva con @extend y funciones matemáticas y de manipulación de color. En el apartado de Compass, profundiza en el uso de resets estandarizados, mixins para propiedades de CSS3 con prefijos automáticos (vendor prefixes), generación automatizada de sprites de imágenes a partir de directorios de recursos, y maquetación con sistemas de cuadrículas (grids como Blueprint, 960gs y Susy). También dedica capítulos avanzados al scripting en Sass con directivas de control (@if, @for, @each, @while) y a la creación y distribución de extensiones personalizadas para Compass.\n\nLa obra enseña mediante ejemplos aplicados y la construcción de un sistema de diseño modular para interfaces web, optimizando además las hojas de estilo para entornos de producción mediante minificación y control de versiones de caché. Su mayor valor reside en provenir de los propios creadores de las herramientas, transmitiendo la filosofía de arquitectura y modularidad que definió las bases del CSS moderno. Aunque Compass ha quedado obsoleto y el ecosistema ha migrado hacia Dart Sass y módulos (@use/@forward), los patrones de reutilización, abstracción de diseño y automatización explicados continúan siendo sumamente formativos.",
+    "temas": [
+      "Sass y SCSS",
+      "Compass Framework",
+      "Mixins y funciones",
+      "Herencia (@extend)",
+      "Sistemas de cuadrícula (grids)",
+      "Generación de sprites",
+      "Directivas de control",
+      "CSS3 y vendor prefixes",
+      "Arquitectura de estilos",
+      "Optimización para producción"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de estilos modular con Compass",
+        "descripcion": "Arquitectura completa de estilos para un sitio web que implementa una cuadrícula responsive, sprites automáticos de iconos y mixins reutilizables de CSS3."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/sass-and-compass-in-action",
+      "https://www.oreilly.com/library/view/sass-and-compass/9781617290145/"
+    ]
+  },
+  "instant-sass-css-how-to-2013": {
+    "descripcion": "Guía concisa de unas 80 páginas publicada por Packt en su serie Instant, elaborada por Alex Libby como una introducción ágil y directa al preprocesamiento de estilos con Sass. Está pensada para maquetadores y diseñadores web que ya conocen CSS básico y desean aprender rápidamente a instalar, configurar y compilar hojas de estilo dinámicas sin verse abrumados por conceptos excesivamente abstractos o largas introducciones teóricas.\n\nOrganizado en un recetario práctico paso a paso, el libro enseña a preparar el entorno instalando Sass sobre Ruby mediante la línea de comandos, integrar el compilador en editores de texto y configurar la observación automática de archivos con la opción watch. A continuación, explica cómo declarar y reutilizar variables, estructurar selectores con anidamiento, crear mixins con argumentos predeterminados, realizar cálculos con operadores aritméticos y aplicar funciones nativas para ajustar matices de color. También introduce directivas de control como @if y @for para generar clases dinámicas, explora los cuatro formatos de salida CSS (nested, expanded, compact y compressed) y presenta una primera aproximación al uso de bibliotecas de mixins externas como Compass y su integración en CMS como WordPress.\n\nEl aprendizaje se articula a través de ejercicios prácticos independientes que muestran el problema en CSS estándar y su resolución limpia en Sass. Su principal punto a favor es la inmediatez: permite a cualquier desarrollador ponerse en marcha en cuestión de pocas horas y desmitificar el uso de la terminal. Debido a su corta extensión y a la época en que fue redactado, no aborda arquitecturas frontend a gran escala ni los estándares modernos de Dart Sass o PostCSS, pero cumple con solidez su función como guía introductoria.",
+    "temas": [
+      "Sass básico",
+      "SCSS",
+      "Variables y mixins",
+      "Anidamiento de reglas",
+      "Operadores y funciones",
+      "Directivas de control",
+      "Compilación de estilos",
+      "Estilos de salida CSS",
+      "Introducción a Compass",
+      "Integración con CMS"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/instant-sass-css-how-to-9781782163787",
+      "https://www.amazon.com/dp/1782163784"
+    ]
+  },
+  "less-web-development-cookbook-2015": {
+    "descripcion": "Recetario avanzado y exhaustivo de casi 400 páginas escrito por Bass Jobsen y Amin Meyghani, enfocado en el desarrollo profesional de hojas de estilo con Less versión 2 (Less 2.x). Está diseñado para maquetadores frontend, diseñadores de temas y programadores web con buen dominio de CSS que necesitan dominar la modularización, la automatización del flujo de trabajo y la personalización de frameworks y plataformas del mundo real.\n\nEl contenido reúne más de 110 recetas estructuradas que cubren desde la configuración del compilador en cliente (less.js) y en servidor con Node.js (lessc) hasta técnicas complejas del lenguaje: pattern matching en mixins, guardas condicionales con la cláusula when, mixins paramétricos con número variable de argumentos y simulación de bucles mediante mixins recursivos. Destaca por su enfoque práctico en la integración y personalización de frameworks como Twitter Bootstrap 3 y Semantic UI, la depuración visual con CSS Source Maps, y la creación de temas de WordPress utilizando herramientas como Roots.io/Sage, JBST y WooCommerce. Asimismo, dedica un bloque completo a la automatización con Grunt, cubriendo tareas de compilación continua, LiveReload, minificación con clean-css, prefijado automático con autoprefixer y linting con CSS Lint.\n\nAl estructurarse como un compendio de soluciones prácticas a desafíos reales de diseño web y desarrollo de plantillas, el libro resulta de consulta inmediata para implementar componentes modulares y optimizados. Su valor reside en su profundidad técnica sobre Less y su excelente cobertura de la automatización en el frontend. Aunque el desarrollo web actual prefiere bundlers modernos como Vite y estilos utilitarios o Sass, este texto sigue siendo el manual de referencia definitivo para mantener o refactorizar proyectos empresariales y temas basados en Less y Bootstrap.",
+    "temas": [
+      "Less 2.x",
+      "Mixins paramétricos",
+      "Pattern matching",
+      "Guardas condicionales",
+      "Bucles en Less",
+      "Compilación con Node.js",
+      "Automatización con Grunt",
+      "Personalización de Bootstrap",
+      "Depuración y Source Maps",
+      "Temas de WordPress",
+      "Optimización y CSS Lint"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/less-web-development-cookbook-9781783984602",
+      "https://www.amazon.com/dp/1783984609"
+    ]
+  },
+  "less-web-development-essentials-2014": {
+    "descripcion": "Manual progresivo y didáctico de unas 200 páginas escrito por Bass Jobsen, reconocido desarrollador y contribuidor del ecosistema Bootstrap y Less. El libro está concebido para diseñadores y desarrolladores web que ya manejan los fundamentos de HTML5 y CSS3, pero que sufren con la duplicación de código, el cálculo repetitivo de colores y la dificultad de mantener hojas de estilo complejas a medida que los proyectos crecen.\n\nLa obra comienza repasando conceptos clave de cascada, especificidad y flexbox, para luego guiar la instalación de Less tanto en el navegador para pruebas locales como en el servidor mediante Node.js y npm, además de herramientas gráficas de compilación. Enseña a utilizar variables para centralizar paletas de colores y fuentes, aplicar escape de valores, definir mixins básicos y paramétricos, y anidar reglas aprovechando el selector padre (&) para pseudo-clases y modificadores. También profundiza en operaciones matemáticas de espaciado y dimensiones, funciones nativas para manipular colores (lighten, darken, saturate), directivas @import para fragmentar el código en módulos limpios y la encapsulación de propiedades avanzadas de CSS3 como sombras, degradados, transiciones y animaciones.\n\nEl autor enseña construyendo progresivamente una maquetación web responsive con componentes reutilizables (barras de navegación, tipografías escalables y botones temáticos), promoviendo el principio de no reinventar la rueda mediante mixins bien organizados. Su mérito radica en presentar una curva de aprendizaje suave y bien fundamentada para adoptar preprocesadores en flujos de trabajo profesionales. Si bien las versiones más recientes de CSS han incorporado variables nativas y anidamiento, este libro aporta una base sólida y comprensible sobre la lógica y modularidad de estilos.",
+    "temas": [
+      "Less",
+      "Variables y alcance",
+      "Mixins paramétricos",
+      "Anidamiento y selector padre",
+      "Operaciones matemáticas",
+      "Manipulación de color",
+      "Compilación cliente y servidor",
+      "Modularización (@import)",
+      "Efectos CSS3",
+      "Buenas prácticas de maquetación"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Maquetación web responsive con Less",
+        "descripcion": "Construcción de un conjunto de estilos modulares para una interfaz web con barra de navegación, tipografía escalable, componentes CSS3 y paleta de colores calculada dinámicamente con funciones de Less."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/less-web-development-essentials-9781783981489",
+      "https://www.amazon.com/dp/1783981480"
+    ]
+  }
+}

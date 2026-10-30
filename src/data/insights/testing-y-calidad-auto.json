@@ -1,0 +1,370 @@
+{
+  "practical-test-automation-2020": {
+    "descripcion": "Guía práctica publicada por Apress en 2020 en la que Panos Matsinopoulos enseña a estructurar y automatizar pruebas de software siguiendo las disciplinas de Desarrollo Guiado por Pruebas (TDD) y Desarrollo Guiado por Comportamiento (BDD). Está dirigida a desarrolladores web y especialistas en control de calidad (QA) de nivel principiante e intermedio que poseen nociones básicas de programación en JavaScript o Ruby y buscan adoptar una metodología rigurosa para diseñar software fiable y libre de regresiones.\n\nEl contenido aborda tres herramientas representativas de automatización de pruebas: Jasmine para pruebas unitarias de JavaScript en el navegador y entornos como JS Bin, Minitest como biblioteca básica de pruebas en Ruby, RSpec para la creación de especificaciones orientadas a comportamiento con matchers avanzados y dobles de prueba (mocks, stubs y spies), y Cucumber con sintaxis Gherkin (escenarios Given/When/Then) para pruebas de aceptación legibles por perfiles de negocio. Enseña a manejar asincronía en JavaScript, a estructurar tablas de datos y hooks en Cucumber, y a articular escenarios BDD ejecutables conectando Cucumber con las aserciones de RSpec.\n\nA través de ejercicios graduales y componentes de código de muestra (como módulos de cálculo, lógica de negocio y validación de reglas), el lector practica el ciclo de trabajo rojo-verde-refactorización y la especificación ejecutable de requisitos. Su mayor valor reside en mostrar de forma accesible cómo conviven las pruebas unitarias puramente técnicas con los criterios de aceptación funcionales de negocio en dos ecosistemas de gran vigencia. Deja fuera la configuración de pipelines de CI/CD, pruebas de rendimiento y herramientas end-to-end de navegador completo como Playwright o Cypress, posicionándose como un sólido manual de fundamentos antes de abordar esas capas.",
+    "temas": [
+      "Test-Driven Development (TDD)",
+      "Behavior-Driven Development (BDD)",
+      "Jasmine",
+      "RSpec",
+      "Cucumber",
+      "Gherkin",
+      "Minitest",
+      "JavaScript Testing",
+      "Ruby Testing",
+      "Mocks y Spies",
+      "Pruebas unitarias"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-6141-5",
+      "https://github.com/Apress/practical-test-automation",
+      "https://www.amazon.com/Practical-Test-Automation-Effectively-Your/dp/1484261405"
+    ]
+  },
+  "the-art-of-unit-testing-3rd-edition-2024": {
+    "descripcion": "Tercera edición del tratado de referencia sobre pruebas unitarias escrito por Roy Osherove, con contribuciones destacadas de Vladimir Khorikov. Esta revisión actualiza por completo el enfoque de las ediciones anteriores al trasladar sus ejemplos prácticos al ecosistema de JavaScript, TypeScript y Node.js. Está dirigida a desarrolladores de software de nivel intermedio que ya dominan la sintaxis moderna de JavaScript y el desarrollo backend o frontend, pero necesitan interiorizar la disciplina y mentalidad necesarias para diseñar pruebas automatizadas fiables, limpias y fáciles de mantener a largo plazo.\n\nEl texto desglosa minuciosamente la anatomía del patrón Arrange-Act-Assert (AAA), la definición estricta de unidad de trabajo y el uso del framework Jest para pruebas unitarias y asíncronas. Profundiza en la diferencia conceptual entre fakes, stubs y mock objects, explicando cómo utilizar librerías de aislamiento, funciones espía (spies) y técnicas de inyección de dependencias ligeras para romper el acoplamiento sin depender de contenedores pesados. También dedica secciones clave al testeo de promesas, temporizadores, código asíncrono y flujos observables, además de definir convenciones de nombres y jerarquías de pruebas estructuradas dentro de una organización.\n\nA lo largo de la obra se practica la refactorización iterativa de componentes con acoplamiento problemático (como validadores de acceso, servicios de registro y clientes HTTP simulados), transformándolos paso a paso en código modular y testeable. Su principal virtud reside en tender un puente entre la teoría arquitectónica del testing y los patrones del desarrollo web moderno, enseñando a detectar cuándo una prueba aporta valor real y cuándo introduce fragilidad. Aunque no construye una aplicación monolítica completa ni cubre pruebas de extremo a extremo (E2E) con navegadores, constituye una lectura fundamental para erradicar las pruebas frágiles en entornos Node.js y TypeScript.",
+    "temas": [
+      "Pruebas unitarias",
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "Jest",
+      "Mocks y stubs",
+      "Inyección de dependencias",
+      "Código asíncrono",
+      "Refactorización",
+      "Estrategias de testing"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/the-art-of-unit-testing-third-edition",
+      "https://artofunittesting.com",
+      "https://www.oreilly.com/library/view/the-art-of/9781617297489/"
+    ]
+  },
+  "software-testing-with-visual-studio-2010-2010": {
+    "descripcion": "Manual técnico exhaustivo escrito por Jeff Levinson que explora las capacidades de aseguramiento de la calidad y gestión del ciclo de vida de las aplicaciones (ALM) introducidas con Microsoft Visual Studio 2010 y Team Foundation Server (TFS) 2010. Está pensado para ingenieros de control de calidad (QA), líderes de pruebas y desarrolladores .NET de nivel intermedio que debían coordinar planes de pruebas empresariales y conectar las tareas de desarrollo con los requerimientos del negocio en infraestructuras corporativas de Microsoft.\n\nEl contenido cubre en profundidad las herramientas clave del ecosistema de testing de Microsoft de dicha generación: Microsoft Test Manager (MTM), Visual Studio Test Professional y Visual Studio Ultimate. Enseña a diseñar planes y suites de prueba estructurados, a ejecutar pruebas manuales interactivas mediante Test Runner capturando diagnósticos en tiempo real (vídeo, capturas de pantalla y registros de eventos) y a automatizar pruebas funcionales de interfaz con Coded UI Tests (CUIT). Asimismo, detalla el uso de IntelliTrace para generar informes de error reproducibles con datos históricos de ejecución, la integración de suites automatizadas en los flujos de compilación continua de TFS y el aprovisionamiento de entornos de prueba virtualizados mediante Microsoft Lab Management y SCVMM.\n\nEl libro guía al lector a través de la configuración práctica de laboratorios virtuales de pruebas, la parametrización de casos de prueba con fuentes de datos externas y la creación de cuadros de mando con métricas de cobertura y calidad en Excel y SQL Server Reporting Services. Representa una radiografía técnica valiosa para comprender la maduración del modelo ALM de Microsoft a comienzos de la década de 2010. Conviene tener en cuenta que gran parte de su instrumental (como Microsoft Test Manager y Coded UI Tests) ha sido discontinuado o sustituido en la actualidad por Azure DevOps, Playwright y pipelines modernos de CI/CD, por lo que su valor contemporáneo se enfoca en el mantenimiento de sistemas legados o en el análisis evolutivo de procesos QA.",
+    "temas": [
+      "Visual Studio 2010",
+      "Microsoft Test Manager (MTM)",
+      "Team Foundation Server (TFS)",
+      "Pruebas manuales",
+      "Coded UI Tests",
+      "IntelliTrace",
+      "Lab Management",
+      "Gestión ALM",
+      "Métricas de calidad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/software-testing-with-visual-studio-2010-9780321734488",
+      "https://www.oreilly.com/library/view/software-testing-with/9780132616232/",
+      "https://www.amazon.com/Software-Testing-Visual-Microsoft-Development/dp/0321734483"
+    ]
+  },
+  "the-unit-testing-practice-cookbook-2025": {
+    "descripcion": "Guía eminentemente práctica elaborada por Anthony Giretti, Microsoft MVP, diseñada para dominar el diseño y ejecución de pruebas unitarias en versiones modernas de la plataforma .NET (.NET 8 y .NET 9) junto con C# 12. El texto se orienta a desarrolladores .NET de nivel intermedio que conocen la sintaxis del lenguaje y la estructura de proyectos en Visual Studio, pero que se enfrentan a dificultades cotidianas al escribir pruebas limpias, rápidas y resistentes al refactorizado en soluciones reales de backend o microservicios.\n\nOrganizado bajo un formato directo de recetario de problemas y soluciones, el libro enseña a implementar suites de prueba utilizando el framework xUnit junto con librerías estándar de la industria como FluentAssertions para aserciones expresivas y NSubstitute o Moq para la creación de dobles de prueba (test doubles). Explica cómo aplicar principios de Clean Code y Clean Architecture para desacoplar las capas de Dominio, Aplicación e Infraestructura, e incluye técnicas específicas para probar Minimal APIs, controladores de ASP.NET Core, componentes asíncronos y persistencia con Entity Framework Core mediante bases de datos en memoria o SQLite. También aborda la generación de datos de prueba con Bogus, la medición de cobertura con Coverlet y la automatización de la ejecución en pipelines de integración continua con GitHub Actions.\n\nA través de recetas de código independientes y un caso de estudio integrador, el lector practica la refactorización paso a paso de código legacy y servicios acoplados hacia arquitecturas testeables basadas en inyección de dependencias. Su mayor acierto es prescindir de disquisiciones teóricas abstractas para ofrecer soluciones de código inmediatas a bloqueos frecuentes en el día a día de un equipo .NET. No profundiza en pruebas de estrés ni en escenarios de interfaz de usuario de cliente (como Blazor o MAUI), pero resulta una referencia de consulta ágil y sumamente eficaz para consolidar suites de pruebas unitarias modernas.",
+    "temas": [
+      ".NET",
+      "C#",
+      "xUnit",
+      "FluentAssertions",
+      "NSubstitute",
+      "Moq",
+      "Clean Architecture",
+      "ASP.NET Core",
+      "Entity Framework Core",
+      "GitHub Actions",
+      "Cobertura de código"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/9798868814549",
+      "https://learning.oreilly.com/library/view/the-unit-testing-practice/9798868814549/",
+      "https://github.com/Apress/The-Unit-Testing-Practice-Cookbook"
+    ]
+  },
+  "the-art-of-unit-testing-2nd-edition-2014": {
+    "descripcion": "Segunda edición del tratado clásico de Roy Osherove (con prólogos de Michael Feathers y Robert C. Martin), considerado uno de los textos fundacionales sobre la disciplina de las pruebas unitarias. Desarrollado con ejemplos en C# sobre el ecosistema .NET, el libro está concebido para programadores de nivel intermedio con conocimientos básicos de orientación a objetos que desean aprender a redactar pruebas automatizadas fiables, legibles y fáciles de mantener, trascendiendo las particularidades de cualquier lenguaje.\n\nEl texto establece con rigor los principios fundamentales del testing unitario frente al de integración, adoptando el framework NUnit y el patrón Arrange-Act-Assert (AAA) como base de trabajo. Enseña a distinguir con total claridad entre fakes, stubs y mock objects, profundizando en el uso práctico de herramientas de aislamiento como Moq, FakeItEasy, NSubstitute y Typemock Isolator. Explica patrones de diseño e inyección de dependencias para aislar sistemas de archivos, llamadas web y servicios externos, a la vez que examina detalladamente los tres pilares de una buena prueba: confiabilidad, mantenibilidad y legibilidad.\n\nLa parte práctica se articula en torno a la refactorización iterativa de clases dependientes de infraestructura (como analizadores de registros y verificadores de autenticación), mostrando cómo introducir pruebas en bases de código heredadas y cómo superar la resistencia cultural al testing en equipos de trabajo. Su principal contribución fue fijar un vocabulario común y unas directrices de diseño comprobable que siguen siendo plenamente vigentes. Aunque sus ejemplos técnicos reflejan la era de .NET Framework anterior a .NET Core, sus lecciones conceptuales sobre dobles de prueba, jerarquías de tests y prevención de pruebas frágiles conservan un valor pedagógico incalculable.",
+    "temas": [
+      "Pruebas unitarias",
+      "C#",
+      ".NET",
+      "NUnit",
+      "Mocks y stubs",
+      "NSubstitute",
+      "Moq",
+      "Inyección de dependencias",
+      "Código legado",
+      "Patrón AAA",
+      "Refactorización"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/the-art-of-unit-testing-second-edition",
+      "https://www.oreilly.com/library/view/the-art-of/9781617290893/",
+      "https://artofunittesting.com"
+    ]
+  },
+  "unit-testing-principles-practices-and-patterns-2020": {
+    "descripcion": "Obra de referencia moderna escrita por Vladimir Khorikov que replantea la estrategia de pruebas unitarias enfocándose en maximizar el retorno de inversión (ROI) del esfuerzo de desarrollo. Con ejemplos claros implementados en C# y .NET, el libro se dirige a desarrolladores e ingenieros de software de nivel intermedio a avanzado que ya escriben pruebas, pero que lidian con suites lentas, falsos positivos o tests frágiles que se rompen con cada cambio en el código de producción.\n\nEl libro analiza con profundidad metodológica las diferencias fundamentales entre la Escuela Clásica (Detroit / Chicago) y la Escuela de Londres (Mockist), demostrando por qué el uso excesivo de mocks acopla los tests a los detalles de implementación y mina la resistencia al refactorizado. Presenta los cuatro pilares de una buena prueba unitaria (protección contra regresiones, resistencia al refactorizado, retroalimentación rápida y mantenibilidad) y enseña a estructurar el código mediante arquitectura funcional y el patrón Humble Object, separando la lógica pura del dominio de las operaciones con efectos secundarios. Asimismo, cubre el diseño de pruebas de integración con Entity Framework Core y bases de datos relacionales reales, estableciendo reglas nítidas sobre cuándo mockear (solo dependencias no gestionadas, como pasarelas de pago o colas de mensajería externas).\n\nEn sus secciones prácticas, el autor refactoriza modelos de negocio realistas (como sistemas de gestión de usuarios y compañías o tiendas virtuales), erradicando anti-patrones habituales como la comprobación de métodos privados, la fuga de lógica de dominio a los tests o la obsesión acrítica por métricas de cobertura de código del 100%. Su valor pedagógico es extraordinario, pues ofrece criterios objetivos y cuantitativos para evaluar la calidad de cada test antes de escribirlo. Deja fuera las pruebas de interfaz gráfica (UI) y las pruebas de carga, concentrándose de manera magistral en el núcleo del dominio y la capa de persistencia.",
+    "temas": [
+      "Pruebas unitarias",
+      "Pruebas de integración",
+      "C#",
+      "Escuela Clásica vs Londres",
+      "Resistencia al refactorizado",
+      "Mocks y stubs",
+      "Patrón Humble Object",
+      "Arquitectura funcional",
+      "Anti-patrones de testing",
+      "Bases de datos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/unit-testing-principles-practices-and-patterns",
+      "https://www.oreilly.com/library/view/unit-testing-principles/9781617296277/",
+      "https://enterprisecraftsmanship.com"
+    ]
+  },
+  "embedded-software-testing-2026": {
+    "descripcion": "Manual técnico y exhaustivo enfocado en los fundamentos y metodologías avanzadas de verificación y validación de software embebido para sistemas críticos (automotriz, aeroespacial, dispositivos médicos y automatización industrial). El contenido se sitúa en los estándares de calidad y desarrollo de la industria vigentes hacia 2026 y está concebido para desarrolladores de firmware, ingenieros de sistemas embebidos, profesionales de QA y líderes de pruebas que cuentan con conocimientos previos de programación en C o C++, así como nociones básicas de arquitectura de microcontroladores y sistemas operativos en tiempo real.\n\nLa obra aborda sistemáticamente todas las fases del ciclo de vida de pruebas en entornos con restricciones severas de hardware y memoria. Enseña a estructurar la ingeniería y trazabilidad de requerimientos, a implementar análisis estático automatizado de código y revisiones técnicas formales, y a diseñar pruebas unitarias y de integración midiendo cobertura de código (incluidos criterios rigurosos como MC/DC). Se adentra en problemas propios del bajo nivel: análisis de tiempo de ejecución en el peor caso (Worst-Case Execution Time o WCET), análisis de planificabilidad en sistemas concurrentes y distribuidos, análisis de interacción hardware-software basado en FMEA (Failure Mode and Effects Analysis), y la adopción de pruebas basadas en modelos y técnicas asistidas por inteligencia artificial, todo bajo el marco normativo de estándares como ISO 9001 y CMMI.\n\nA lo largo de los capítulos se proponen ejercicios técnicos y problemas aplicados donde se analizan interfaces de comunicación, se resuelven condiciones de carrera en RTOS y se implementan dobles de prueba (stubs, mocks y emuladores) para desacoplar el software del hardware físico. Su mayor valor reside en llenar el vacío de la literatura tradicional de testing, que suele asumir entornos de ejecución ideales en PC o servidores, aportando rigor sobre la frontera electrónica y temporal. Conviene dominar C/C++ y depuración de microcontroladores antes de leerlo, ya que no enseña electrónica básica ni sintaxis inicial.",
+    "temas": [
+      "Software embebido",
+      "Sistemas en tiempo real",
+      "Pruebas unitarias",
+      "RTOS",
+      "Análisis estático de código",
+      "WCET",
+      "FMEA",
+      "Trazabilidad de requerimientos",
+      "Cobertura de código",
+      "ISO 9001",
+      "Testing con IA"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bpbonline.com/products/embedded-software-testing",
+      "https://adammackay.com/"
+    ]
+  },
+  "learning-test-driven-development-2021": {
+    "descripcion": "Guía práctica e introductoria sobre Desarrollo Guiado por Pruebas (TDD) que desmitifica la técnica enseñándola como una disciplina de diseño y estructuración de código limpio, desacoplado y simple. El libro adopta un enfoque políglota moderno trabajando en paralelo con tres lenguajes fundamentales: Go, JavaScript (Node.js / ES6+) y Python 3. Está dirigido a desarrolladores de software de nivel principiante e intermedio que conocen la sintaxis básica de al menos uno de estos lenguajes y buscan adquirir el hábito profesional de escribir pruebas automáticas antes de implementar la funcionalidad.\n\nEl autor guía al lector a través de la mecánica fundamental del ciclo Red-Green-Refactor, demostrando cómo descomponer requerimientos de negocio complejos en pequeños pasos incrementales y manejables. Explica cómo modelar Value Objects inmutables, aislar dependencias, calcular métricas de calidad de código (complejidad ciclomática, acoplamiento y cohesión) y realizar refactorizaciones estructurales seguras respaldadas por la suite de pruebas. El texto emplea las herramientas de prueba idiomáticas de cada lenguaje: el paquete estándar testing en Go, el módulo assert en JavaScript/Node.js y el framework unittest en Python, complementándose con la configuración de integración continua (CI) mediante Git y GitHub Actions.\n\nLa práctica se articula en torno a la construcción progresiva de una calculadora de portafolio multidivisa (inspirada en el problema clásico del dinero de Kent Beck), en la que se implementan operaciones aritméticas, tasas de cambio dinámicas y conversiones entre divisas (dólares, euros y wones coreanos), replicando la arquitectura paso a paso en Go, JavaScript y Python. La gran fortaleza del libro es evidenciar que el TDD es universal e independiente del lenguaje; sin embargo, prescinde de pruebas de interfaz de usuario, interacción con bases de datos o frameworks complejos de mocking para mantener el foco en la lógica de dominio.",
+    "temas": [
+      "TDD",
+      "Red-Green-Refactor",
+      "Go",
+      "JavaScript",
+      "Python",
+      "Pruebas unitarias",
+      "Refactorización",
+      "Diseño de software",
+      "Integración continua",
+      "GitHub Actions"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Calculadora de portafolio multidivisa",
+        "descripcion": "Aplicación financiera que gestiona sumas, multiplicaciones y conversiones monetarias dinámicas entre múltiples monedas (USD, EUR, KRW); se construye, refactoriza y valida paso a paso en Go, JavaScript y Python integrándose con pipelines de CI en GitHub Actions."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-test-driven-development/9781098106461/",
+      "https://www.amazon.com/Learning-Test-Driven-Development-Saleem-Siddiqui/dp/1098106478",
+      "https://github.com/saleem/tdd-book-code"
+    ]
+  },
+  "complete-guide-to-test-automation-2018": {
+    "descripcion": "Obra técnica y estratégica de referencia orientada a evitar que las iniciativas de automatización de pruebas fracasen o terminen abandonadas debido a costos inmanejables de mantenimiento y arquitecturas frágiles. Aunque sus principios aplican a cualquier lenguaje orientado a objetos, el libro presenta su código e implementaciones en C# y la plataforma .NET (con paralelismos hacia Java). Está dirigido a desarrolladores, ingenieros de automatización (SDET) y arquitectos de QA de nivel intermedio a avanzado que necesitan diseñar frameworks sostenibles en proyectos ágiles y de entrega continua.\n\nEl autor estructura el libro dividiendo la teoría de la implementación práctica. Enseña a analizar la viabilidad económica y el ROI de la automatización, a delimitar con precisión qué conviene automatizar frente a qué mantener manual, y a diseñar suites que cubran pruebas de regresión, integración y UI. En el plano técnico detalla la construcción de capas de abstracción robustas aplicando el patrón Page Object Model (POM), el uso de Selenium WebDriver, el manejo de datos de prueba, la gestión de entornos aislados y la adopción de metodologías como ATDD (Acceptance Test-Driven Development) y TDD, integrando los resultados en pipelines de integración continua.\n\nEn su segunda mitad, el libro guía la creación paso a paso de un framework modular de pruebas automatizadas en C# contra una aplicación de demostración con código heredado (DemoLegacyApp), abordando desde el primer caso de prueba hasta el diagnóstico sistemático de fallos y la refactorización arquitectónica. Su principal virtud radica en tratar el código de prueba con el mismo rigor ingenieril que el código de producción. Conviene tener buen dominio previo de programación orientada a objetos en C# o Java, ya que no es un tutorial básico de sintaxis ni una introducción superficial a Selenium.",
+    "temas": [
+      "Automatización de pruebas",
+      "C#",
+      ".NET",
+      "Selenium WebDriver",
+      "Page Object Model",
+      "Arquitectura de software",
+      "ATDD",
+      "TDD",
+      "Integración continua",
+      "Mantenibilidad de código",
+      "Pruebas de regresión"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework de automatización para DemoLegacyApp",
+        "descripcion": "Marco de pruebas automatizadas modular desarrollado desde cero en C# con Selenium WebDriver sobre una aplicación con código legado, implementando abstracciones con Page Object Model, diagnóstico de fallas y ejecución en integración continua."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3832-5",
+      "https://www.apress.com/gp/book/9781484238318",
+      "https://github.com/arnonax/DemoLegacyApp"
+    ]
+  },
+  "leveraging-the-wisdom-of-the-crowd-in-software-testing-2014": {
+    "descripcion": "Tratado conceptual y estratégico pionero sobre la adopción del crowdsourced testing (pruebas colectivas o en masa) y su convergencia con la infraestructura en la nube para el aseguramiento de la calidad del software. El libro está diseñado para gerentes de QA, directores de ingeniería, consultores de calidad y líderes de producto de nivel intermedio que enfrentan los desafíos de verificar aplicaciones en el mundo real ante la proliferación masiva de dispositivos móviles, configuraciones de red, idiomas y sistemas operativos.\n\nLa obra expone los distintos modelos de interacción con la multitud: comunidades públicas frente a grupos privados de evaluadores, modelos administrados frente a autogestionados y sinergias con pruebas en la nube. Detalla cómo planificar ciclos de prueba eficaces, definiendo qué componentes externalizar (como pruebas exploratorias, compatibilidad multidispositivo, localización lingüística y usabilidad) y cuáles reservar internamente. Dedica capítulos fundamentales al triaje y gestión de defectos (control de reportes duplicados y validación de severidad), a mitigar riesgos de seguridad y confidencialidad mediante acuerdos NDA, a calcular el retorno de inversión (ROI) y a entender el ecosistema de plataformas especializadas del sector como uTest (Applause) o Bugcrowd.\n\nEl texto no plantea la programación de aplicaciones ni ejercicios prácticos de código, sino que examina casos de estudio reales de empresas de productos digitales y servicios de TI, ofreciendo una guía metodológica para orquestar pilotos internos y vencer la resistencia cultural de los equipos. Su valor esencial consiste en desmitificar el crowdtesting: aclara con honestidad dónde falla y subraya que no sustituye a las pruebas unitarias ni a la automatización interna, sino que actúa como un complemento indispensable para descubrir errores en condiciones reales de uso.",
+    "temas": [
+      "Crowdsourced testing",
+      "Cloud testing",
+      "Aseguramiento de la calidad",
+      "Gestión de defectos",
+      "Pruebas exploratorias",
+      "Pruebas de compatibilidad",
+      "Pruebas de usabilidad",
+      "Gestión de QA",
+      "ROI en testing",
+      "Seguridad y confidencialidad"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Leveraging-the-Wisdom-of-the-Crowd-in-Software-Testing/Sharma-Padmanaban/p/book/9781466580978",
+      "https://www.taylorfrancis.com/books/mono/10.1201/b17178/leveraging-wisdom-crowd-software-testing-mukesh-sharma-rajini-padmanaban",
+      "https://www.amazon.com/Leveraging-Wisdom-Crowd-Software-Testing/dp/146658097X"
+    ]
+  },
+  "bdd-in-action-2014": {
+    "descripcion": "Obra de referencia esencial sobre el Desarrollo Guiado por el Comportamiento (BDD), concebido no meramente como una técnica de automatización de pruebas, sino como una metodología integral de comunicación y diseño ágil que alinea los objetivos del negocio con el software entregado. El texto se apoya en los frameworks estándar del ecosistema BDD (Cucumber, JBehave, SpecFlow y Thucydides/Serenity BDD) y está pensado para desarrolladores, evaluadores/QA y analistas de negocio o product owners (la tríada 'Three Amigos') que desean transformar requerimientos ambiguos en especificaciones vivas y verificables.\n\nEl autor profundiza en técnicas para descubrir requerimientos de valor como Feature Injection, Impact Mapping y la redacción formal de escenarios con ejemplos usando la sintaxis Gherkin (Given-When-Then). Enseña a automatizar estos criterios de aceptación en múltiples capas técnicas: desde la interfaz gráfica web mediante Selenium WebDriver y pruebas en servicios web/APIs sin interfaz gráfica, hasta la aplicación de BDD a nivel de código con pruebas unitarias orientadas al comportamiento. Adicionalmente, explica cómo generar 'documentación viva' (living documentation) y tableros de reportes automáticos que muestran el progreso funcional del proyecto en un lenguaje comprensible para todas las partes interesadas mediante Thucydides (luego conocido como Serenity BDD).\n\nA lo largo de la obra se desarrolla y modela el caso práctico de Flying High Airlines, una aerolínea comercial ficticia que rediseña su programa de fidelización de viajeros frecuentes. El lector ve cómo se definen las historias, se especifican las reglas de acumulación y canje de millas y se implementan las suites de pruebas automatizadas con Cucumber y Selenium. Su gran mérito es demostrar que BDD es ante todo una disciplina de conversación que previene el retrabajo antes de codificar. Si bien los ejemplos reflejan el panorama de 2014, sus patrones de diseño y colaboración siguen siendo la base fundamental de la disciplina.",
+    "temas": [
+      "BDD",
+      "Cucumber",
+      "Gherkin",
+      "Selenium WebDriver",
+      "JBehave",
+      "SpecFlow",
+      "Thucydides",
+      "Serenity BDD",
+      "Documentación viva",
+      "Criterios de aceptación",
+      "Pruebas de software"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de viajero frecuente de Flying High Airlines",
+        "descripcion": "Diseño, especificación y automatización de las reglas de negocio del programa de fidelización de una aerolínea (cálculo de millas y niveles de membresía), formalizando escenarios en Gherkin y automatizándolos mediante Cucumber, JBehave y Selenium."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/bdd-in-action",
+      "https://www.amazon.com/BDD-Action-Behavior-driven-development-lifecycle/dp/161729165X"
+    ]
+  },
+  "testing-microservices-with-mountebank-2019": {
+    "descripcion": "Guía especializada y técnica sobre virtualización de servicios (service virtualization) aplicada a arquitecturas distribuidas, escrita directamente por Brandon Byars, creador de la herramienta de código abierto Mountebank (sobre Node.js). El texto está orientado a desarrolladores backend, ingenieros de control de calidad (QA) y arquitectos de software con nivel intermedio que necesitan probar microservicios de forma fiable sin depender de entornos compartidos inestables o dependencias de red lentas. Se asume familiaridad previa con el paradigma de microservicios, el protocolo HTTP, formato JSON y conocimientos básicos de JavaScript para la definición de comportamientos dinámicos.\n\nEl contenido desglosa en detalle cómo crear y gestionar dobles de prueba a nivel de red (over-the-wire test doubles) mediante las primitivas de Mountebank: impostores (imposters), respuestas enlatadas (canned responses), predicados de coincidencia con operadores lógicos y expresiones regulares, y comportamientos avanzados como la simulación de latencia de red y la decoración de respuestas. Enseña a implementar el patrón de captura y reproducción (record/replay proxy) para clonar el comportamiento de servicios reales en vivo, inyectar funciones personalizadas en JavaScript para simular estados mutables en las respuestas, y operar sobre protocolos más allá de HTTP y HTTPS, tales como TCP en crudo y protocolos binarios o personalizados. Además, aborda la estrategia de integración de virtualización de servicios dentro de pipelines de entrega continua (CI/CD) y su convivencia con las pruebas de contrato (contract testing).\n\nA través de sus páginas se configuran diversos escenarios de prueba realistas: impostores para dependencias críticas de terceros (como pasarelas de pago o APIs REST externas), servicios virtuales con estado dinámico y un flujo automatizado de integración continua que ejecuta pruebas funcionales y de rendimiento con aislamiento total. Su mayor mérito consiste en proporcionar una alternativa ligera, multiplataforma y sin coste a las complejas suites comerciales de virtualización empresarial, desacoplando los ciclos de despliegue de los equipos. No enseña a programar microservicios desde cero ni profundiza en pruebas unitarias a nivel de código fuente. Conviene tener claridad sobre la arquitectura de redes y el diseño de APIs antes de comenzar.",
+    "temas": [
+      "Mountebank",
+      "Virtualización de servicios",
+      "Microservicios",
+      "Impostores y stubs",
+      "Predicados y enrutamiento",
+      "Record and replay",
+      "Inyección de JavaScript",
+      "Simulación de latencia",
+      "Protocolos TCP y HTTPS",
+      "Pipelines CI/CD",
+      "Pruebas de integración"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/testing-microservices-with-mountebank",
+      "https://www.oreilly.com/library/view/testing-microservices-with/9781617294310/"
+    ]
+  },
+  "soapui-cookbook-2015": {
+    "descripcion": "Recetario práctico estructurado en más de 65 soluciones paso a paso, escrito por Rupert Anderson para dominar SoapUI (versión 5.x y distinciones clave respecto a SoapUI Pro / ReadyAPI) en la automatización y aseguramiento de calidad de servicios web empresariales. Está dirigido a desarrolladores de integración, ingenieros de automatización de pruebas y técnicos de QA de nivel intermedio que necesitan validar sistemas distribuidos corporativos. Requiere conocimientos previos de arquitecturas cliente-servidor basadas en SOAP y REST, manejo básico de XML y JSON, y nociones de programación orientada a objetos (preferentemente en Java o scripting).\n\nEl libro profundiza en una amplia variedad de técnicas avanzadas mediante SoapUI: generación de stubs WSDL-first con integración de Apache CXF, diseño de pruebas dirigidas por datos (Data-Driven Testing) conectadas a fuentes externas mediante JDBC, archivos CSV y bases de datos H2 o MongoDB, y validación estricta de cumplimiento de esquemas XML, WS-I y JSON Schema. Detalla la construcción de servicios mock dinámicos controlados por bases de datos y orquestados mediante scripting en Groovy, soporte para adjuntos MTOM/XOP, enlaces HATEOAS y callbacks asíncronos. Asimismo, dedica secciones completas a pruebas de seguridad funcional (vulnerabilidades, inyección, WS-Security con certificados X.509 y cifrado SSL/TLS), autenticación OAuth 2 con proveedores como Google o Dropbox, y firma de llamadas a servicios en la nube de Amazon Web Services (AWS), junto con la ejecución en consola mediante testrunner y su incorporación a Jenkins, Maven, Gradle y JUnit.\n\nCada receta permite construir componentes de prueba reutilizables: suites de regresión automatizadas con aserciones complejas, servidores mock interactivos desplegables como archivos WAR o ejecutables en consola, y tuberías de integración continua con reportes automatizados. Su mayor fortaleza radica en exprimir la flexibilidad de Groovy para superar las barreras de la versión comunitaria de SoapUI, transformando una herramienta visual en un entorno de pruebas programable de primer nivel. No es un texto conceptual para aprender fundamentos de testing ni cubre tecnologías más modernas como GraphQL o gRPC. Conviene repasar la sintaxis básica de Groovy y el protocolo SOAP para aprovechar al máximo sus recetas.",
+    "temas": [
+      "SoapUI",
+      "Servicios SOAP y WSDL",
+      "APIs REST",
+      "Scripting con Groovy",
+      "Data-Driven Testing",
+      "Mocks dinámicos",
+      "WS-Security",
+      "OAuth 2",
+      "Validación de esquemas JSON y XML",
+      "Maven y Jenkins",
+      "Pruebas de seguridad"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/soapui-cookbook-9781784394219",
+      "https://www.oreilly.com/library/view/soapui-cookbook/9781784394219/"
+    ]
+  },
+  "the-way-of-the-web-tester-2016": {
+    "descripcion": "Manual formativo y altamente visual redactado por Jonathan Rasmusson que introduce los fundamentos metodológicos y prácticos de la automatización de pruebas en aplicaciones web modernas. Aunque está diseñado como una puerta de entrada accesible para testers manuales que buscan aprender a programar pruebas y para desarrolladores web que quieren crear código más mantenible, su enfoque estructural lo sitúa en un nivel intermedio de comprensión arquitectónica. Requiere conocimientos básicos sobre el funcionamiento del navegador web, la estructura del DOM y nociones elementales de desarrollo frontend en HTML, CSS y JavaScript.\n\nEl núcleo de la enseñanza se articula alrededor de la Pirámide de Pruebas (Testing Pyramid), guiando al lector en el equilibrio estratégico entre pruebas de interfaz (UI), pruebas de integración y pruebas unitarias. Se abordan herramientas y estándares clave: automatización de navegadores con Selenium WebDriver para pruebas de humo (smoke tests) utilizando selectores CSS limpios, integración segura de pruebas automatizadas sobre sistemas heredados (legacy systems), y verificación de servicios web RESTful mediante peticiones HTTP directas con intercambio de datos en JSON. En la capa unitaria, enseña a ejecutar especificaciones en JavaScript dentro del navegador empleando Jasmine. Además, incluye un bloque dedicado a la higiene de código (\"Programming 101\"), patrones de organización para evitar pruebas intermitentes (flaky tests), uso de dobles de prueba y mocks, y la mecánica esencial del desarrollo guiado por pruebas (TDD: Red, Green, Refactor).\n\nA través de ejercicios progresivos y casos de depuración guiados, se construyen suites de validación que van desde scripts de interacción con el navegador en Selenium hasta pruebas de integración de endpoints REST y especificaciones unitarias en el cliente. Su principal virtud reside en su estilo ágil, repleto de esquemas e ilustraciones que desmitifican la automatización sin perder rigor metodológico ni atar al lector a herramientas efímeras. No profundiza en frameworks de última generación (como Cypress, Playwright o Jest) ni aborda pruebas de carga o seguridad complejas. Es una lectura introductoria ideal para unificar el vocabulario de calidad entre programadores y testers antes de abordar suites empresariales complejas.",
+    "temas": [
+      "Pirámide de pruebas",
+      "Selenium WebDriver",
+      "Pruebas de interfaz (UI)",
+      "Pruebas unitarias",
+      "Pruebas de integración",
+      "APIs REST",
+      "JavaScript y Jasmine",
+      "Selectores CSS y DOM",
+      "TDD",
+      "Mocking",
+      "Pruebas en sistemas legacy"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://pragprog.com/titles/jrtest/the-way-of-the-web-tester/",
+      "https://www.oreilly.com/library/view/the-way-of/9781680502213/"
+    ]
+  }
+}

@@ -1,0 +1,661 @@
+{
+  "nhibernate-in-action-2009": {
+    "descripcion": "Obra canónica sobre mapeo objeto-relacional (ORM) en .NET escrita por Pierre Henri Kuaté, Tobin Harris, Christian Bauer y Gavin King (creador original de Hibernate), publicada por Manning en 2009.\n\nExplora los fundamentos del desacoplamiento objeto-relacional en C#, mapeo mediante archivos XML y Fluent NHibernate, lenguaje de consultas HQL y Criteria API, gestión de sesiones (`ISession`), estrategias de caché L1 y L2, y transacciones ACID.\n\nLos autores aportan un rigor conceptual inigualable, adaptando la probada arquitectura de Hibernate al ecosistema .NET. Una referencia histórica y técnica imprescindible sobre persistencia relacional.",
+    "temas": [
+      "NHibernate",
+      "ORM",
+      "Gavin King",
+      "ISession",
+      "HQL",
+      "Caché L2",
+      "Manning"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Capa de Persistencia Empresarial con NHibernate y Mapeo Fluido",
+        "descripcion": "Diseño de un modelo de dominio rico con relaciones complejas y transacciones seguras gestionadas por NHibernate."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/nhibernate-in-action"
+    ]
+  },
+  "learning-nhibernate-4-2015": {
+    "descripcion": "Guía práctica de persistencia relacional escrita por Suhas Chatekar y publicada por Packt en 2015. Diseñada para dominar NHibernate 4 en aplicaciones modernas de C# y .NET.\n\nAborda la configuración por código (Loquacious mapping) sin XML, consultas con QueryOver y LINQ to NHibernate, optimización de consultas batch, manejo de concurrencia y pruebas unitarias con bases de datos en memoria como SQLite.\n\nSuhas Chatekar ofrece un recorrido directo y pedagógico que capacita al desarrollador para construir capas de datos desacopladas y de alto rendimiento. Muy formativo para ingenieros .NET.",
+    "temas": [
+      "NHibernate 4",
+      "QueryOver",
+      "LINQ",
+      "Code Mapping",
+      "SQLite",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Gestión de Almacén con NHibernate 4 y QueryOver",
+        "descripcion": "Construcción de un repositorio de datos con mapeo fluido en código y pruebas automatizadas de integración."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "nhibernate-2-2010": {
+    "descripcion": "Manual exhaustivo sobre el framework ORM de código abierto escrito por Aaron Cure y publicado por Packt en 2010. Examina la arquitectura y capacidades de NHibernate 2.x.\n\nCubre mapeo de herencia (table-per-class, table-per-subclass), carga perezosa (lazy loading), transacciones distribuidas, optimización del problema de consultas N+1 y profiling de consultas SQL generadas.\n\nAaron Cure proporciona una instrucción paso a paso con abundantes ejemplos de código que esclarecen el comportamiento de la sesión y las transacciones. Una referencia clásica muy sólida.",
+    "temas": [
+      "NHibernate 2",
+      "ORM",
+      "Lazy Loading",
+      "Problema N+1",
+      "Persistencia",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Capa de Datos de Alto Rendimiento para E-Commerce con NHibernate",
+        "descripcion": "Implementación de mapeos optimizados con eliminación de consultas redundantes y caché de segundo nivel."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "nhibernate-2-x-beginner-s-guide-2010": {
+    "descripcion": "Guía didáctica de iniciación al mapeo objeto-relacional escrita por Aaron Cure y publicada por Packt en 2010. Diseñada para programadores que utilizan un ORM por primera vez en .NET.\n\nExplora la instalación y configuración básica, creación de entidades simples, mapeo con archivos `.hbm.xml`, operaciones CRUD con `ISession`, y consultas básicas con HQL y Criteria.\n\nAaron Cure destaca por un enfoque accesible que minimiza la intimidación conceptual de los ORMs, acompañando al estudiante en la construcción de su primera capa de persistencia. Muy útil para principiantes.",
+    "temas": [
+      "NHibernate",
+      "Principiantes",
+      "ISession",
+      "HQL",
+      "CRUD",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de Registro de Clientes y Pedidos con NHibernate",
+        "descripcion": "Desarrollo paso a paso de una aplicación de consola con persistencia automática en SQL Server mediante NHibernate."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "nhibernate-3-beginner-s-guide-2011": {
+    "descripcion": "Manual formativo para principiantes sobre NHibernate 3 escrito por Aaron Cure y el Dr. Gabriel Nicolas Schenker, publicado por Packt en 2011.\n\nIntroduce el soporte nativo de LINQ to NHibernate, el constructor de consultas fuertemente tipadas QueryOver, configuración fluida y la reducción drástica de archivos de mapeo XML.\n\nLos autores aportan un enfoque práctico que ayuda a los programadores de C# a aprovechar la seguridad de tipos en tiempo de compilación para sus consultas de base de datos. Una guía de iniciación muy recomendada.",
+    "temas": [
+      "NHibernate 3",
+      "QueryOver",
+      "LINQ to NHibernate",
+      "Seguridad de Tipos",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Catálogo de Productos con Consultas LINQ to NHibernate",
+        "descripcion": "Construcción de un repositorio de acceso a datos con filtrado dinámico tipado y gestión transaccional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "working-with-nhibernate-3-0-2011": {
+    "descripcion": "Manual práctico y conciso sobre desarrollo corporativo con NHibernate 3.0 escrito por Benjamin Perkins y publicado por Packt en 2011. Resuelve tareas habituales de persistencia en entornos de producción.\n\nAborda el manejo de transacciones, interceptores y eventos de sesión, optimización de consultas complejas, auditoría de cambios y pruebas de integración con NUnit.\n\nBenjamin Perkins aporta la visión de un consultor experimentado, ofreciendo consejos realistas sobre diagnóstico y solución de cuellos de botella en bases de datos empresariales. Muy formativo para ingenieros .NET.",
+    "temas": [
+      "NHibernate 3",
+      "Interceptores",
+      "Transacciones",
+      "Auditoría",
+      "NUnit",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Módulo de Auditoría de Entidades y Registro de Cambios con NHibernate",
+        "descripcion": "Implementación de interceptores automáticos para registrar autoría y fecha de modificación en tablas de base de datos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "asp-net-mvc-with-entity-framework-and-css-2016": {
+    "descripcion": "Guía práctica de desarrollo full stack escrita por Lee Naylor y publicada por Apress en 2016. Enseña a integrar ASP.NET MVC, Entity Framework 6 y estilos CSS modernos en soluciones comerciales completas.\n\nCubre el diseño de modelos con Entity Framework Code First, migraciones automáticas, diseño de vistas responsivas con Bootstrap y CSS personalizado, validaciones con DataAnnotations y autenticación de usuarios.\n\nLee Naylor combina la ingeniería de la capa de datos con el diseño visual del frontend, guiando al lector a través de un proyecto de tienda web completo. Excelente para desarrolladores web de nivel intermedio.",
+    "temas": [
+      "Entity Framework 6",
+      "ASP.NET MVC",
+      "Code First",
+      "Bootstrap",
+      "CSS",
+      "Lee Naylor",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tienda en Línea Completa con Entity Framework Code First y Bootstrap",
+        "descripcion": "Desarrollo de una aplicación comercial con catálogo de productos, carrito de compras y diseño web responsivo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2137-2"
+    ]
+  },
+  "beginning-entity-framework-core-2-0-2018": {
+    "descripcion": "Manual introductorio sobre el rediseñado motor de acceso a datos de Microsoft escrito por Derek J. Rouleau y publicado por Apress en 2018. Diseñado para dominar Entity Framework Core 2.0.\n\nAborda el modelo DbContext, definición de entidades y relaciones (uno a uno, uno a muchos, muchos a muchos), Fluent API, migraciones de base de datos y consultas LINQ optimizadas.\n\nDerek Rouleau ofrece explicaciones claras y pedagógicas que permiten a los desarrolladores asimilar el nuevo framework multiplataforma ligero de Microsoft sin complicaciones. Muy adecuado para principiantes.",
+    "temas": [
+      "EF Core 2.0",
+      "DbContext",
+      "Fluent API",
+      "Migraciones",
+      "LINQ",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Gestión de Clientes y Facturas con EF Core 2.0",
+        "descripcion": "Construcción de un repositorio de datos con relaciones foráneas, migraciones automáticas y consultas transaccionales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3474-7"
+    ]
+  },
+  "beginning-entity-framework-core-5-2021": {
+    "descripcion": "Guía práctica y actualizada sobre persistencia relacional moderna escrita por Eric Vogel y publicada por Apress en 2021. Explora las características de Entity Framework Core 5.\n\nCubre relaciones de muchos a muchos sin tabla de unión explícita, división de tablas y entidades (table splitting), consultas divididas (`AsSplitQuery`), filtros globales de consulta (soft delete) y pruebas con SQLite en memoria.\n\nEric Vogel destaca por su enfoque directo orientado a la resolución de problemas cotidianos de bases de datos relacionales en .NET 5. Una referencia formativa muy accesible y moderna.",
+    "temas": [
+      "EF Core 5",
+      "Many-to-Many",
+      "AsSplitQuery",
+      "Soft Delete",
+      "SQLite Memory",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Repositorio de Datos Empresarial con Soft Delete y EF Core 5",
+        "descripcion": "Implementación de filtros globales para borrado lógico de registros y optimización de consultas complejas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-6936-7"
+    ]
+  },
+  "entity-framework-6-recipes-2nd-edition-2013": {
+    "descripcion": "Segunda edición del monumental recetario de soluciones técnicas para persistencia relacional escrito por Zeeshan Hirani, Larry Tenny, Brian Driscoll, Nitin Gupta y Robert Vettor, publicado por Apress en 2013.\n\nContiene cientos de recetas para Entity Framework 6: modelado con Code First y Database First, mapeo de herencia (TPH, TPT, TPC), procedimientos almacenados, optimización de rendimiento, transacciones y seguimiento de cambios.\n\nLos autores aportan soluciones exhaustivas y rigurosas a prácticamente cualquier problema de modelado y persistencia en SQL Server con EF6. La obra de consulta definitiva para proyectos basados en Entity Framework clásico.",
+    "temas": [
+      "Entity Framework 6",
+      "Recetas EF6",
+      "Code First",
+      "Herencia ORM",
+      "Procedimientos Almacenados",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-5789-9"
+    ]
+  },
+  "modern-data-access-with-entity-framework-core-2018": {
+    "descripcion": "Tratado técnico exhaustivo sobre acceso a datos contemporáneo escrito por el Dr. Holger Schwichtenberg y publicado por Apress en 2018. Analiza en profundidad la arquitectura de Entity Framework Core.\n\nDetalla el ciclo de vida del DbContext, Change Tracker, compilación y parametrización de consultas SQL, mapeo relacional complejo con Fluent API, soporte para bases relacionales y NoSQL (Cosmos DB), y tuning de rendimiento.\n\nEl Dr. Holger Schwichtenberg, consultor líder de software empresarial en Europa, combina teoría rigurosa con benchmarks de producción, enseñando a evitar cuellos de botella en sistemas de alto volumen. Indispensable para ingenieros sénior.",
+    "temas": [
+      "EF Core",
+      "Change Tracker",
+      "Tuning SQL",
+      "Fluent API",
+      "Holger Schwichtenberg",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Capa de Persistencia de Alto Throughput con EF Core y Benchmarking",
+        "descripcion": "Diseño de un repositorio con consultas compiladas, sin seguimiento (no-tracking) y medición de tiempos de ejecución."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3552-2"
+    ]
+  },
+  "practical-entity-framework-2020": {
+    "descripcion": "Manual práctico y pedagógico sobre persistencia relacional con .NET Core escrito por Brian L. Gorman y publicado por Apress en 2020. Enseña a utilizar Entity Framework Core en aplicaciones del mundo real.\n\nAborda el diseño de modelos con anotaciones y Fluent API, migraciones continuas, consultas LINQ eficientes, pruebas unitarias desacopladas con repositorios genéricos y optimización de rendimiento.\n\nBrian Gorman adopta un estilo paciente y estructurado que conduce al desarrollador desde conceptos básicos hasta patrones arquitectónicos de grado comercial. Muy recomendado para programadores de nivel inicial e intermedio.",
+    "temas": [
+      "Practical EF",
+      "EF Core",
+      "Fluent API",
+      "Repositorios Genéricos",
+      "Migraciones",
+      "Brian Gorman",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Gestión de Citas y Pacientes con EF Core",
+        "descripcion": "Construcción de un backend con patrón Repository y Unit of Work sobre base de datos SQL Server."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-6038-8"
+    ]
+  },
+  "pro-entity-framework-core-2-for-asp-net-core-mvc-2018": {
+    "descripcion": "Tratado exhaustivo y de referencia formal escrito por Adam Freeman y publicado por Apress en 2018. Enseña a integrar Entity Framework Core 2 en aplicaciones web corporativas con ASP.NET Core MVC.\n\nCubre la configuración en el contenedor de inyección de dependencias, definición de modelos relacionales, migraciones automáticas, relaciones complejas, transacciones y pruebas de integración con bases de datos en memoria.\n\nAdam Freeman aporta su inconfundible rigor didáctico, guiando al lector a través del diseño de capas de persistencia robustas que alimentan aplicaciones web de alto rendimiento. Un texto fundamental para la era .NET Core 2.",
+    "temas": [
+      "EF Core 2",
+      "ASP.NET Core MVC",
+      "Inyección de Dependencias",
+      "Migraciones",
+      "Adam Freeman",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Capa de Datos Empresarial para Tienda Web con EF Core y MVC",
+        "descripcion": "Construcción de repositorios desacoplados con migraciones de esquema y consultas optimizadas para catálogos comerciales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3477-8"
+    ]
+  },
+  "entity-framework-core-2024": {
+    "descripcion": "Guía práctica y contemporánea de persistencia relacional en .NET 8 escrita por Kenji Elzerman y publicada en 2024. Diseñada para dominar Entity Framework Core en aplicaciones modernas.\n\nAborda las últimas mejoras de EF Core 8: soporte nativo para tipos JSON en columnas relacionales, consultas raw SQL sin seguimiento con tipos no mapeados, bulk updates/deletes automáticos y optimizaciones de rendimiento.\n\nKenji Elzerman proporciona ejemplos directos y concisos que van al grano, permitiendo a los ingenieros aprovechar las capacidades más avanzadas del ORM moderno de Microsoft. Una excelente referencia actualizada.",
+    "temas": [
+      "EF Core 8",
+      ".NET 8",
+      "Columnas JSON",
+      "Bulk Updates",
+      "Raw SQL",
+      "Kenji Elzerman"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Microservicio de Catálogo de Productos con Columnas JSON en EF Core 8",
+        "descripcion": "Implementación de consultas semánticas sobre atributos dinámicos almacenados en formato JSON nativo en SQL Server."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "ado-net-entity-framework-4-1-2011": {
+    "descripcion": "Manual técnico pionero sobre la revolución de Code First en .NET escrito por Unai Zorrilla Castro y publicado por Packt en 2011. Analiza el lanzamiento de Entity Framework 4.1.\n\nExplora la API DbContext, el enfoque de desarrollo Code First sin diseñadores visuales EDMX, Fluent API para mapeo relacional, validaciones integradas y pruebas unitarias con mocks.\n\nUnai Zorrilla Castro, referente internacional en arquitectura .NET y Microsoft MVP, explica con claridad magistral cómo Code First modernizó la persistencia en el ecosistema Microsoft. Una referencia clásica esencial.",
+    "temas": [
+      "Entity Framework 4.1",
+      "DbContext",
+      "Code First",
+      "Fluent API",
+      "Unai Zorrilla",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Gestión de Clientes con EF 4.1 DbContext Code First",
+        "descripcion": "Construcción paso a paso de una capa de datos puramente tipada en C# sin intervención de diseñadores visuales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "entity-framework-4-in-action-2011": {
+    "descripcion": "Tratado técnico y de máxima reputación sobre persistencia relacional corporativa escrito por Daniele Bochicchio, Marco De Sanctis y Stefano Mostarda, publicado por Manning en 2011.\n\nAborda el Entity Data Model (EDM), consultas con LINQ to Entities y Entity SQL, entidades POCO (Plain Old CLR Objects), seguimiento de cambios con ObjectStateManager, transacciones distribuidas y patrones Repository y Unit of Work.\n\nLos autores, líderes de la comunidad italiana de .NET (ASPItalia), aportan patrones de software maduros y soluciones probadas en proyectos de gran escala. Una de las obras más influyentes sobre Entity Framework 4.",
+    "temas": [
+      "Entity Framework 4",
+      "POCO",
+      "LINQ to Entities",
+      "ObjectStateManager",
+      "Repository Pattern",
+      "Manning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura Empresarial con Entidades POCO y Unit of Work",
+        "descripcion": "Diseño de un modelo de dominio rico completamente desacoplado del motor de base de datos con EF4."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/entity-framework-4-in-action"
+    ]
+  },
+  "entity-framework-core-in-action-2018": {
+    "descripcion": "Obra cumbre y exhaustiva sobre persistencia moderna escrita por Jon P. Smith y publicada por Manning en 2018. Es considerada la biblia indiscutida de Entity Framework Core.\n\nDesarrolla en profundidad la arquitectura interna de EF Core, Change Tracker, configuración con Fluent API, consultas eficientes evitando el problema N+1, patrones de arquitectura de software, y pruebas unitarias con bases de datos en memoria.\n\nJon Smith acompaña al lector en el desarrollo de una librería online comercial ('MyFirstDb'), compartiendo directrices de rendimiento y métricas de producción invaluables. Una lectura obligatoria para cualquier desarrollador de .NET.",
+    "temas": [
+      "EF Core in Action",
+      "Jon Smith",
+      "Change Tracker",
+      "Fluent API",
+      "Optimización SQL",
+      "Manning"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Librería en Línea Comercial de Alto Rendimiento con EF Core",
+        "descripcion": "Construcción completa de una capa de datos con consultas complejas optimizadas, índices relacionales y transacciones seguras."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/entity-framework-core-in-action"
+    ]
+  },
+  "entity-framework-core-in-action-2nd-edition-2021": {
+    "descripcion": "Segunda edición monumental y profundamente ampliada de la obra maestra de Jon P. Smith, publicada por Manning en 2021. Más de 700 páginas exhaustivamente adaptadas a Entity Framework Core 5.\n\nProfundiza en relaciones muchos a muchos sin tablas intermedias, consultas divididas (`AsSplitQuery`), filtros globales de consulta (multitenancy y soft delete), entidades mapeadas a vistas y funciones SQL, y auditoría automática de entidades.\n\nJon Smith eleva aún más el listón de excelencia técnica, proveyendo un compendio exhaustivo que enseña a diagnosticar, afinar y exprimir la velocidad de cualquier base de datos relacional con EF Core. La mejor obra jamás escrita sobre Entity Framework.",
+    "temas": [
+      "EF Core in Action",
+      "Jon Smith",
+      "EF Core 5",
+      "Multitenancy",
+      "AsSplitQuery",
+      "Auditoría",
+      "Manning"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de E-Commerce Multi-Inquilino (Multi-Tenant) con EF Core 5",
+        "descripcion": "Diseño de un repositorio empresarial con aislamiento seguro de datos por cliente, auditoría de cambios y consultas divididas optimizadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/entity-framework-core-in-action-second-edition"
+    ]
+  },
+  "microsoft-ado-net-entity-framework-step-by-step-2013": {
+    "descripcion": "Manual formativo paso a paso sobre desarrollo de capas de persistencia relacional escrito por John Paul Mueller y publicado por Microsoft Press en 2013. Diseñado para aprender Entity Framework 6 con Visual Studio.\n\nAborda el diseño con Database First, Model First y Code First, consultas con LINQ to Entities, operaciones asíncronas con `async` y `await`, manejo de concurrencia optimista y control transaccional.\n\nJohn Paul Mueller ofrece una estructura pedagógica metódica con laboratorios prácticos guiados que garantizan que el estudiante adquiera solidez en el manejo del ORM corporativo de Microsoft. Excelente para cursos técnicos y autodidactas.",
+    "temas": [
+      "ADO.NET Entity Framework",
+      "Step by Step",
+      "EF6",
+      "Code First",
+      "Concurrencia Optimista",
+      "John Paul Mueller",
+      "Microsoft Press"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Facturación Empresarial con Entity Framework 6",
+        "descripcion": "Construcción paso a paso de un modelo de persistencia relacional con control de bloqueos de concurrencia y consultas asíncronas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoft.com/"
+    ]
+  },
+  "murach-s-ado-net-3-5-linq-and-the-entity-framework-with-c-2008-2009": {
+    "descripcion": "Manual didáctico integral de acceso a datos escrito por Anne Boehm y publicado por Mike Murach & Associates en 2009. Cubre la transición desde ADO.NET clásico y DataSets tipados hacia LINQ y la primera generación de Entity Framework.\n\nEstructurado con la metodología clásica de Murach en páginas dobles enfrentadas, aborda conexiones y comandos SQL, DataAdapters, LINQ to SQL, LINQ to Entities y la gestión de entidades con ObjectContext.\n\nAnne Boehm destaca por una redacción limpia y sumamente clara que elimina la frustración del estudiante al conectar bases de datos con aplicaciones de escritorio y web en C#. Una referencia formativa clásica muy valorada.",
+    "temas": [
+      "Murach",
+      "ADO.NET 3.5",
+      "LINQ to Entities",
+      "DataSets",
+      "ObjectContext",
+      "Anne Boehm"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Control de Inventario con LINQ to Entities y Windows Forms",
+        "descripcion": "Desarrollo de un software de escritorio conectado a base de datos relacional con tablas de clientes, pedidos y productos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.murach.com/"
+    ]
+  },
+  "programming-entity-framework-2nd-edition-2010": {
+    "descripcion": "Segunda edición de la célebre obra canónica de más de 900 páginas escrita por Julia Lerman (Microsoft Regional Director y 'reina de Entity Framework'), publicada por O'Reilly en 2010. Cubre Entity Framework 4 en .NET 4.\n\nProfundiza en el diseñador de modelos EDM, generación de clases POCO, consultas con ObjectQuery y LINQ to Entities, seguimiento de cambios con ObjectStateManager, transacciones y arquitectura de software desacoplada.\n\nJulia Lerman combina una autoridad técnica incomparable con una pedagogía cercana y lúcida que formó a toda una generación de desarrolladores en el uso del ORM de Microsoft. Un hito formativo monumental en la historia de .NET.",
+    "temas": [
+      "Programming Entity Framework",
+      "Julia Lerman",
+      "EF4",
+      "POCO",
+      "LINQ to Entities",
+      "EDM",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Reservas y Facturación Empresarial con EF4 POCO",
+        "descripcion": "Diseño de un modelo de entidades desacopladas con persistencia relacional transaccional y validación de reglas de negocio."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/programming-entity-framework/9780596807269/"
+    ]
+  },
+  "programming-entity-framework-code-first-2011": {
+    "descripcion": "Tratado técnico especializado y conciso escrito por Julia Lerman y Rowan Miller (program manager del equipo de Entity Framework en Microsoft), publicado por O'Reilly en 2011.\n\nExplora la revolución del desarrollo Code First: definición de modelos mediante clases C# puras, convenciones de nombres automáticas, configuración con DataAnnotations y Fluent API, y el ciclo de vida de la inicialización de bases de datos.\n\nLerman y Miller desglosan cómo el equipo de Microsoft rediseñó el acceso a datos para prescindir de pesados archivos XML y diseñadores visuales, priorizando el código C# limpio. Indispensable para entender las bases de Code First.",
+    "temas": [
+      "Code First",
+      "Julia Lerman",
+      "Rowan Miller",
+      "Fluent API",
+      "DataAnnotations",
+      "O'Reilly"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Capa de Datos Code First con Mapeo Fluido Avanzado",
+        "descripcion": "Construcción de un modelo relacional con claves compuestas, nombres de tablas personalizados y relaciones complejas configuradas con Fluent API."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/programming-entity-framework/9781449317867/"
+    ]
+  },
+  "programming-entity-framework-dbcontext-2012": {
+    "descripcion": "Guía especializada de máxima autoridad sobre la API DbContext escrita por Julia Lerman y Rowan Miller, publicada por O'Reilly en 2012. Analiza el corazón de Entity Framework moderno.\n\nCubre la gestión de instancias DbContext, DbSet, operaciones de consulta y actualización, estados de entidades en el ChangeTracker (`Added`, `Modified`, `Deleted`), validación integrada y manejo de concurrencia optimista.\n\nLos autores aportan explicaciones precisas que esclarecen el comportamiento interno del seguimiento de entidades y la generación de comandos SQL. Una referencia clásica insustituible para desarrolladores de .NET.",
+    "temas": [
+      "DbContext",
+      "ChangeTracker",
+      "Julia Lerman",
+      "Rowan Miller",
+      "DbSet",
+      "O'Reilly"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/programming-entity-framework/9781449339593/"
+    ]
+  },
+  "code-first-development-with-entity-framework-2015": {
+    "descripcion": "Manual práctico y enfocado en proyectos escrito por Sergey Barskiy y publicado por Packt en 2015. Enseña a construir capas de persistencia robustas utilizando Entity Framework 6 Code First.\n\nAborda el diseño de entidades desacopladas, migraciones con `DbMigrationsConfiguration`, configuración de relaciones complejas con Fluent API, interceptores de comandos de base de datos para logging y pruebas automatizadas con Moq.\n\nSergey Barskiy ofrece un recorrido estructurado con código claro y testeable, demostrando cómo mantener un control absoluto sobre el esquema relacional sin depender de diseñadores visuales. Muy formativo para ingenieros .NET.",
+    "temas": [
+      "Code First",
+      "EF6",
+      "Migraciones",
+      "Fluent API",
+      "Moq",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Seguimiento de Activos Empresariales con EF6 Code First",
+        "descripcion": "Construcción de una solución con migraciones de esquema continuas, auditoría de comandos SQL y pruebas unitarias de repositorios."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "entity-framework-core-cookbook-2nd-edition-2016": {
+    "descripcion": "Segunda edición del recetario práctico de persistencia relacional moderna escrito por Ricardo Peres y publicado por Packt en 2016. Resuelve retos cotidianos en la primera generación de Entity Framework Core.\n\nContiene recetas para la configuración de DbContext, inyección de dependencias, mapeo con Fluent API, ejecución de consultas raw SQL, auditoría de cambios y pruebas de integración con proveedores de base de datos en memoria.\n\nRicardo Peres, consultor sénior y Microsoft MVP, ofrece soluciones directas a problemas de modelado y rendimiento en aplicaciones web y de consola multiplataforma. Muy útil para desarrolladores en activo.",
+    "temas": [
+      "EF Core Cookbook",
+      "Fluent API",
+      "Raw SQL",
+      "Inyección de Dependencias",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "entity-framework-tutorial-2008": {
+    "descripcion": "Guía formativa pionera sobre la primera versión de Entity Framework (versión 1.0 en .NET 3.5 SP1) escrita por Joydip Kanjilal y publicada por Packt en 2008. Introdujo el ORM de Microsoft a la comunidad técnica.\n\nExplora la arquitectura de tres capas del Entity Data Model (Conceptual, Storage y Mapping), diseño visual con archivos `.edmx`, consultas con ObjectQuery y EntityClient, y enlaces de datos básicos en Windows Forms.\n\nJoydip Kanjilal documenta los orígenes del framework de persistencia de Microsoft, ayudando a los desarrolladores a comprender la transición desde el clásico ADO.NET hacia el modelado semántico de entidades. Una referencia histórica de gran interés.",
+    "temas": [
+      "Entity Framework 1.0",
+      "EDMX",
+      "EntityClient",
+      "ADO.NET",
+      "Joydip Kanjilal",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de Registro de Clientes con Entity Framework 1.0 EDMX",
+        "descripcion": "Desarrollo de un modelo conceptual con diseñador visual EDMX y persistencia en base de datos SQL Server."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "entity-framework-tutorial-2nd-edition-2015": {
+    "descripcion": "Segunda edición actualizada del manual formativo de Joydip Kanjilal, publicada por Packt en 2015. Adapta la enseñanza a Entity Framework 6 y a las prácticas contemporáneas de desarrollo en .NET Framework 4.5+.\n\nCubre la comparación entre Database First y Code First, migraciones automáticas, optimización de consultas LINQ, transacciones asíncronas con `async` y `await`, y auditoría de entidades modificadas.\n\nKanjilal proporciona un enfoque didáctico accesible respaldado por laboratorios prácticos paso a paso que facilitan la adopción de EF6 en proyectos corporativos. Muy recomendado para programadores de nivel intermedio.",
+    "temas": [
+      "Entity Framework 6",
+      "Code First",
+      "Migraciones",
+      "Async/Await",
+      "Joydip Kanjilal",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Facturación Asíncrona con Entity Framework 6",
+        "descripcion": "Construcción de una capa de acceso a datos con métodos asíncronos y auditoría automática de transacciones."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mastering-entity-framework-2015": {
+    "descripcion": "Tratado técnico avanzado sobre arquitectura y rendimiento en Entity Framework 6 escrito por Rahul Rajat Singh y publicado por Packt en 2015. Diseñado para desarrolladores sénior y arquitectos de bases de datos.\n\nProfundiza en la mecánica interna del Change Tracker, optimización de consultas complejas evitando el problema N+1, uso de vistas pregeneradas para acelerar el arranque, transacciones distribuidas con TransactionScope y patrones Repository y Unit of Work.\n\nRahul Rajat Singh ofrece una perspectiva orientada a la ingeniería de software y a sistemas de misión crítica, enseñando a exprimir al máximo la velocidad de EF6 en entornos productivos. Indispensable para arquitectos .NET.",
+    "temas": [
+      "Mastering EF",
+      "EF6",
+      "Change Tracker",
+      "TransactionScope",
+      "Vistas Pregeneradas",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de Persistencia de Misión Crítica con EF6 Optimizado",
+        "descripcion": "Diseño de un repositorio con vistas precompiladas, transacciones distribuidas y eliminación sistemática de consultas redundantes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mastering-entity-framework-core-2-0-2017": {
+    "descripcion": "Tratado técnico de nivel profesional sobre el rediseñado motor de acceso a datos escrito por Prabhakaran Anbazhagan y publicado por Packt en 2017. Analiza en profundidad Entity Framework Core 2.0.\n\nAborda el mapeo de modelos con Fluent API, filtros globales de consulta (soft delete), funciones escalares definidas por el usuario en bases de datos, entidades sin clave (Keyless Entities), y optimización de rendimiento en contenedores Docker y Linux.\n\nPrabhakaran Anbazhagan ofrece directrices de diseño arquitectónico y tuning de consultas que preparan a los desarrolladores para construir servicios de datos de alta escala en la nube. Muy valorado por ingenieros sénior.",
+    "temas": [
+      "Mastering EF Core",
+      "EF Core 2.0",
+      "Filtros Globales",
+      "Funciones SQL Escalares",
+      "Keyless Entities",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Microservicio de Acceso a Datos de Alta Escala con EF Core 2.0",
+        "descripcion": "Implementación de una arquitectura con filtros de seguridad globales, consultas raw SQL tipadas y contenedor Docker."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

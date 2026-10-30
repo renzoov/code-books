@@ -1,0 +1,1394 @@
+{
+  "jquery-and-javascript-phrasebook-2013": {
+    "descripcion": "Libro de consulta rápida de la colección Phrasebook de Addison-Wesley en el que Brad Dayley reúne más de 100 fragmentos de código listos para usar en las tareas habituales del desarrollo web con jQuery y JavaScript. Corresponde a la etapa de jQuery 1.x/2.x de 2013 y está pensado para desarrolladores que crean sitios nuevos o migran sitios existentes a jQuery. Aunque los tres primeros capítulos repasan JavaScript, conviene llegar con una base razonable del lenguaje, HTML y CSS: el nivel adecuado es de principiante avanzado a intermedio.\n\nTras una introducción breve al lenguaje JavaScript y a la interacción con el navegador, el libro se centra en jQuery: selectores y acceso a elementos HTML, manipulación del conjunto de objetos jQuery, captura y uso de eventos del navegador y del usuario, modificación dinámica de elementos, estilos CSS y diseño de la página, trabajo y validación de formularios, y creación de contenido nuevo en el DOM. Los capítulos finales abordan los widgets de jQuery UI (autocompletado, arrastrar y soltar, sliders, tooltips), animaciones y efectos especiales, comunicación con servidores y servicios web mediante AJAX con JSON y XML, y una introducción a los sitios móviles con jQuery Mobile.\n\nNo hay proyectos completos: cada sección es una receta corta y probada que resuelve una tarea concreta y se puede adaptar al propio código, así que funciona más como «chuleta» que como curso. Su valor está en la organización por tareas y en los recuadros con detalles que suelen pasarse por alto. Como contrapartida, la parte de JavaScript es demasiado escueta para explicar algunos patrones en los que se apoya jQuery, faltan ejemplos largos y no sustituye a una referencia exhaustiva. Hoy conviene leerlo sabiendo que muchas de sus recetas tienen equivalente directo en las APIs nativas modernas del DOM (querySelector, fetch, classList).",
+    "temas": [
+      "jQuery",
+      "JavaScript",
+      "Selectores",
+      "Manipulación del DOM",
+      "Eventos",
+      "Formularios y validación",
+      "jQuery UI",
+      "Animaciones",
+      "AJAX",
+      "JSON",
+      "jQuery Mobile"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/jquery-and-javascript-phrasebook-9780321918963",
+      "https://www.i-programmer.info/bookreviews/29-javascript/7107-jquery-and-javascript-phrasebook-.html"
+    ]
+  },
+  "beginning-jquery-2013": {
+    "descripcion": "Introducción paso a paso a jQuery en la que Jack Franklin lleva al lector desde los primeros pasos con la librería hasta extenderla escribiendo sus propios plugins. Es la primera edición (Apress, 2013), escrita para la jQuery de esa época; la segunda edición de 2017 la actualiza a jQuery 3. Está dirigida a desarrolladores web que ya se manejan con HTML y CSS y quieren empezar con JavaScript de forma práctica, así que no exige experiencia previa en programación del lado del cliente.\n\nEl libro arranca con un capítulo sobre el JavaScript imprescindible para entender jQuery y sigue con los fundamentos de la librería: recorrido del DOM, manipulación de elementos y actualización dinámica de contenido, una introducción a los eventos y un segundo capítulo con un uso más avanzado de ellos (como la delegación), animaciones y peticiones Ajax con jQuery. Los capítulos finales se dedican a escribir plugins de jQuery: cómo estructurarlos, hacerlos configurables y reutilizarlos. A lo largo del texto el autor señala buenas prácticas y los errores típicos de quien empieza.\n\nLa práctica se basa en ejemplos que crecen capítulo a capítulo, con dos piezas más completas: un plugin de acordeón desarrollado a partir del código de capítulos anteriores y un slider de imágenes construido como cierre del libro. Es una obra breve y bien enfocada, ideal para entender cómo pensar en jQuery más allá de copiar fragmentos. Deja fuera jQuery UI, jQuery Mobile, las pruebas automatizadas y la integración con herramientas de construcción, y hoy conviene leerla sabiendo que jQuery ha perdido protagonismo frente a las APIs nativas del DOM y a los frameworks modernos.",
+    "temas": [
+      "jQuery",
+      "JavaScript básico",
+      "Recorrido del DOM",
+      "Manipulación del DOM",
+      "Eventos",
+      "Animaciones",
+      "Ajax",
+      "Plugins de jQuery",
+      "Slider de imágenes",
+      "Buenas prácticas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plugin de acordeón",
+        "descripcion": "Plugin de jQuery reutilizable que despliega y pliega secciones de contenido; se construye a partir del código de eventos y animaciones de capítulos anteriores."
+      },
+      {
+        "nombre": "Slider de imágenes con jQuery",
+        "descripcion": "Carrusel de imágenes desarrollado en el último capítulo con jQuery, animaciones y eventos, incluida la navegación con las flechas del teclado."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://archive.org/details/beginningjquery0000fran",
+      "https://www.goodreads.com/book/show/17063562-beginning-jquery",
+      "https://github.com/Apress/beg-jquery",
+      "https://skillsoft.com/book/beginning-jquery-851c43a0-f1dc-11e6-9684-0242c0a80902"
+    ]
+  },
+  "beginning-jquery-2-for-asp-net-developers-2013": {
+    "descripcion": "Guía de Bipin Joshi, autor veterano del ecosistema .NET, para incorporar jQuery 2 a aplicaciones ASP.NET Web Forms y ASP.NET MVC. Está escrita para desarrolladores ASP.NET que dominan el lado del servidor con C# y Visual Studio pero tienen poca experiencia en scripting del lado del cliente; por eso empieza por el JavaScript necesario y no presupone conocimientos previos de jQuery.\n\nTras el repaso de JavaScript, explica cómo añadir jQuery a proyectos ASP.NET y referenciarlo desde páginas Web Forms y vistas MVC, y cómo los selectores de jQuery se relacionan con el HTML que generan los controles de servidor de ASP.NET. Luego recorre el manejo de eventos, la manipulación del DOM y el contenido dinámico, el recorrido del DOM y otros métodos útiles, y los efectos y animaciones. El capítulo de Ajax es especialmente relevante para este público: muestra llamadas que intercambian JSON con servicios web ASMX, web methods, servicios WCF, acciones de controladores MVC, HTTP handlers y ASP.NET Web API. Cierra con la creación y el uso de plugins, una introducción a jQuery UI y jQuery Mobile, y un capítulo de recetas útiles de jQuery para aplicaciones ASP.NET, más un apéndice de recursos para seguir aprendiendo.\n\nNo construye una aplicación completa: se aprende con ejemplos en Web Forms y MVC que acompañan a cada capítulo, cuyo código fuente publica Apress, y con el capítulo final de recetas. Su principal aporte es mostrar cómo encaja jQuery con el stack de Microsoft de la época, algo que los libros genéricos de jQuery no cubren. Conviene saber que se apoya en Web Forms y en el ASP.NET MVC clásico de .NET Framework, hoy reemplazados por ASP.NET Core, por lo que tiene sobre todo valor para mantener aplicaciones heredadas.",
+    "temas": [
+      "jQuery 2",
+      "ASP.NET Web Forms",
+      "ASP.NET MVC",
+      "Selectores y controles de servidor",
+      "Eventos",
+      "Manipulación del DOM",
+      "Efectos y animaciones",
+      "Ajax y JSON",
+      "WCF y Web API",
+      "Plugins de jQuery",
+      "jQuery UI",
+      "jQuery Mobile"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.binaryintellect.net/articles/14a71a46-04ca-4752-85c1-311e300df152.aspx",
+      "https://link.springer.com/book/10.1007/978-1-4302-6305-0",
+      "https://www.oreilly.com/library/view/beginning-jquery-2/9781430263043/",
+      "https://github.com/Apress/beg-jquery-2-for-asp.net-devs"
+    ]
+  },
+  "beginning-jquery-2nd-edition-2017": {
+    "descripcion": "Segunda edición del manual introductorio de Jack Franklin, revisado y ampliado por Russ Ferguson, que enseña jQuery paso a paso desde lo más básico hasta escribir plug-ins propios. Está actualizada para jQuery 3.x y pensada para desarrolladores web que ya se manejan bien con HTML y CSS y quieren dar el salto a JavaScript. También sirve para quienes conocen otras herramientas y quieren sumar jQuery a su repertorio.\n\nEl libro abre con un capítulo sobre el JavaScript imprescindible (variables, funciones, objetos y ámbito) y luego entra en el núcleo de la librería: selectores y la función $, recorrido del DOM, manipulación de elementos y contenido, manejo de eventos en dos capítulos (incluida la delegación de eventos), animaciones y peticiones Ajax con los métodos de jQuery. Esta edición añade la integración con npm, el uso de Yeoman para generar proyectos y de Jasmine para probar el código, además de pautas para trabajar con la especificación de la API dataset (atributos data-*). A lo largo del texto se insiste en las buenas prácticas y en los errores típicos de quien empieza, así como en cómo jQuery resuelve las diferencias entre navegadores.\n\nLa parte práctica llega al final: dos capítulos dedicados a crear plug-ins reutilizables y otro en el que se construye un slider de imágenes animado, que integra casi todo lo visto. Es un libro breve, claro y bien ordenado para aprender jQuery como primer contacto con la programación en el navegador. Hay que tener en cuenta que, en 2017, jQuery ya estaba perdiendo terreno frente al DOM nativo y a frameworks como React o Angular, y el libro no los trata. Resulta útil sobre todo para mantener sitios existentes o entender código heredado.",
+    "temas": [
+      "jQuery 3",
+      "Fundamentos de JavaScript",
+      "Selectores",
+      "Recorrido del DOM",
+      "Manipulación del DOM",
+      "Eventos",
+      "Animaciones",
+      "Ajax",
+      "Plug-ins de jQuery",
+      "npm",
+      "Jasmine",
+      "API dataset"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plug-ins de jQuery propios",
+        "descripcion": "A lo largo de dos capítulos se escriben plug-ins reutilizables que extienden jQuery con opciones configurables, siguiendo las convenciones y buenas prácticas de la librería."
+      },
+      {
+        "nombre": "Slider de imágenes con jQuery",
+        "descripcion": "Carrusel de imágenes animado construido en el último capítulo, en el que se combinan selección y manipulación del DOM, eventos y animaciones de jQuery."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://exlibris.ch/fr/livres/livres-anglais/russ-ferguson/beginning-jquery/id/9781484230268/",
+      "https://www.oreilly.com/library/view/-/9781484230275/"
+    ]
+  },
+  "beyond-jquery-2016": {
+    "descripcion": "Ray Nicholus, que antes publicó la serie de artículos «You Don't Need jQuery», escribe aquí una guía para dejar de depender de jQuery y trabajar directamente con la API web nativa del navegador y JavaScript estándar (ES5 y ES2015, con un adelanto de lo que venía en 2016). Está dirigido a desarrolladores de nivel intermedio que ya usan jQuery a diario y quieren entender qué hay debajo, cuándo la librería les hace falta de verdad y cuándo pueden prescindir de ella.\n\nDespués de unos capítulos que explican los inconvenientes de depender de jQuery y presentan la API web y el JavaScript «vanilla», el libro repasa por áreas las tareas que suelen resolverse con jQuery y muestra cómo hacerlas sin él. Cada caso compara el código de jQuery con su equivalente nativo y explica cómo funciona jQuery por dentro. Las áreas son la selección de elementos HTML (querySelector y querySelectorAll), los atributos y el almacenamiento de datos en los elementos, los estilos, la creación, el movimiento y la eliminación de nodos del DOM, las peticiones Ajax con XMLHttpRequest y la Fetch API, y los eventos del navegador (creación, propagación y eventos personalizados). Hay un capítulo dedicado a las tareas asíncronas con Promises y async functions, y otro a las funciones de utilidad comunes. Se mencionan también especificaciones que entonces eran novedosas, como WeakMap, y se tiene en cuenta la compatibilidad con navegadores antiguos.\n\nNo se construye ninguna aplicación: es un libro de referencia y de cambio de mentalidad, con muchos fragmentos comparativos. Su valor está en quitar el miedo al DOM nativo y en enseñar a leer las especificaciones web. Hoy buena parte de su contenido es práctica habitual, porque los navegadores modernos ya cubren casi todo lo que antes resolvía jQuery. Conviene conocer jQuery de antemano para aprovechar las comparaciones, y no trata frameworks como React o Angular.",
+    "temas": [
+      "Web API nativa",
+      "JavaScript vanilla",
+      "Selección de elementos",
+      "Atributos y datos",
+      "Estilos con JavaScript",
+      "Manipulación del DOM",
+      "Ajax y Fetch API",
+      "Eventos del navegador",
+      "Promises",
+      "Async functions",
+      "Migración desde jQuery"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.skillsoft.com/book/beyond-jquery-b2dace70-f41a-11e6-bb29-0242c0a80506",
+      "https://psnz.umt.edu.my/seal/Record/978-1-4842-2235-5/Details"
+    ]
+  },
+  "jquery-recipes-2010": {
+    "descripcion": "Recetario de Bintu Harwani (B. M. Harwani) que sigue el formato problema-solución típico de Apress y está basado en jQuery 1.x, la versión vigente en 2010. Empieza por los problemas pequeños y habituales del trabajo con jQuery y va subiendo de complejidad poco a poco. Está pensado para principiantes con algo de HTML que quieren crear sitios dinámicos, y para desarrolladores que buscan interactividad escribiendo poco código.\n\nLos capítulos recorren los fundamentos de jQuery (selectores y acceso al DOM), el trabajo con arrays y cadenas mediante las funciones de utilidad de la librería, el manejo de eventos, la validación de formularios, la navegación de páginas (menús y pestañas, por ejemplo), los efectos visuales y las animaciones, y la manipulación de tablas (ordenar, filtrar, resaltar o paginar filas). Siguen las peticiones Ajax para actualizar contenido sin recargar la página, el uso de plug-ins de terceros para ampliar jQuery y la aplicación de CSS desde jQuery. Cada receta explica el problema, muestra el código completo y lo analiza con capturas del resultado.\n\nNo hay un proyecto conductor: son soluciones independientes que se pueden consultar por separado o adaptar al propio sitio, útiles como banco de ejemplos para tareas de interfaz concretas. Su punto débil es la antigüedad: algunos métodos que usa quedaron obsoletos en jQuery 3, y patrones como la validación manual o las tablas dinámicas hoy se resuelven con HTML5 o con librerías especializadas. El autor publicó en 2021 una segunda edición actualizada, más recomendable si se empieza ahora. Esta primera edición sirve sobre todo para entender código jQuery heredado.",
+    "temas": [
+      "jQuery 1.x",
+      "Selectores",
+      "Arrays y cadenas",
+      "Eventos",
+      "Validación de formularios",
+      "Navegación de páginas",
+      "Efectos visuales",
+      "Tablas dinámicas",
+      "Ajax",
+      "Plug-ins",
+      "CSS con jQuery"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.eyrolles.com/Informatique/Livre/jquery-recipes-9781430227090",
+      "https://ebook.library.uitm.edu.my/Record/8567"
+    ]
+  },
+  "jquery2-recipes-2014": {
+    "descripcion": "Recetario extenso de Arun K. Pande que sigue el formato problema-solución de la serie Recipes de Apress, centrado en jQuery 2 y en las bibliotecas de su ecosistema: jQuery UI y jQuery Mobile. Está pensado para desarrolladores web de nivel intermedio que ya conocen HTML, CSS y lo básico de JavaScript y de jQuery, y buscan soluciones listas para usar en los problemas habituales del desarrollo de interfaces.\n\nLos primeros capítulos repasan los fundamentos de jQuery y luego profundizan en los selectores (incluidos el filtrado y la ampliación de selecciones), el recorrido del DOM (traversing), su manipulación, el manejo de eventos, los efectos y animaciones y las llamadas AJAX. A continuación vienen bloques sobre jQuery UI y sus widgets, un capítulo extenso dedicado a jQuery Mobile para interfaces táctiles y otro a jqWidgets, una biblioteca de componentes construida sobre jQuery, HTML5 y CSS3. Cierra con recetas de registro (logging), manejo de errores y depuración del código jQuery.\n\nNo hay un proyecto conductor: cada receta plantea un problema concreto, muestra el código completo y explica cómo funciona, por lo que sirve tanto para estudiar por temas como de obra de consulta. Su valor hoy es sobre todo para quien mantiene código heredado basado en jQuery 2: jQuery Mobile está descontinuado, jqWidgets es un producto comercial y muchas de estas tareas se resuelven ahora con JavaScript nativo o frameworks modernos. Conviene llegar con soltura en JavaScript para sacarle partido.",
+    "temas": [
+      "jQuery 2",
+      "Selectores",
+      "Traversing del DOM",
+      "Manipulación del DOM",
+      "Eventos",
+      "Efectos y animaciones",
+      "AJAX",
+      "jQuery UI",
+      "jQuery Mobile",
+      "jqWidgets",
+      "Depuración"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.apress.com/gp/book/9781430264330",
+      "https://www.oreilly.com/library/view/jquery-2-recipes/9781430264347/",
+      "https://www.oreilly.com/library/view/jquery-2-recipes/9781430264347/9781430264330_Ch12.xhtml",
+      "https://opencourser.com/book/yzfcs0/jquery-2-recipes"
+    ]
+  },
+  "practical-jquery-2015": {
+    "descripcion": "Guía práctica de Ankur Kumar y Mukund Chaudhary que recorre jQuery desde su origen y su instalación hasta extenderlo con plug-ins propios y probarlo con pruebas automatizadas. Se publicó en 2015, en la época de jQuery 1.11/2.x, y está dirigida a desarrolladores web de nivel principiante a intermedio que ya conocen HTML, CSS y JavaScript y quieren usar jQuery en proyectos reales.\n\nEl libro arranca con la evolución de jQuery y su puesta en marcha, y sigue con el recorrido del DOM, su manipulación y el sistema de eventos, al que dedica dos capítulos: uno con la API de eventos y otro con escenarios de eventos del mundo real. Después aborda AJAX con jQuery, con el contexto de la técnica, las tecnologías que la componen y el uso de JSON. La parte final trata la creación de plug-ins propios, la integración de plug-ins de terceros, el uso de frameworks basados en jQuery y la prueba del código y del DOM con QUnit.\n\nCombina explicaciones con ejemplos de código que el lector puede ir reproduciendo, sin un proyecto único que vertebre el libro. Su punto fuerte frente a otros títulos introductorios es la parte final, dedicada a extender jQuery con plug-ins y a probar el código, algo que muchos manuales omiten. A cambio, no es una referencia exhaustiva de la API y no trata jQuery Mobile en profundidad. Sirve sobre todo para entender o mantener código jQuery existente.",
+    "temas": [
+      "jQuery",
+      "Traversing del DOM",
+      "Manipulación del DOM",
+      "Eventos",
+      "AJAX",
+      "JSON",
+      "Plug-ins",
+      "Frameworks basados en jQuery",
+      "QUnit",
+      "Testing"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.apress.com/9781484207888",
+      "https://www.oreilly.com/library/view/practical-jquery/9781484207871/",
+      "https://www.oreilly.com/library/view/practical-jquery/9781484207871/9781484207888_Ch06.xhtml",
+      "https://www.oreilly.com/library/view/practical-jquery/9781484207871/9781484207888_Ch09.xhtml",
+      "https://www.oreilly.com/library/view/practical-jquery/9781484207871/9781484207888_Ch11.xhtml"
+    ]
+  },
+  "pro-jquery-2-0-2nd-edition-2013": {
+    "descripcion": "Segunda edición, actualizada a jQuery 2.0, del extenso manual de Adam Freeman sobre jQuery y sus bibliotecas oficiales, jQuery UI y jQuery Mobile. Con más de mil páginas, está pensado para desarrolladores web en activo, de nivel intermedio a avanzado. Incluye un repaso rápido de HTML, CSS y JavaScript, pero da por sentado que el lector ya los maneja con soltura.\n\nEstá organizado en seis partes. Tras ese repaso inicial, la segunda parte cubre el núcleo de jQuery: selectores, manipulación del DOM, eventos y efectos. La tercera trata los datos: plantillas de datos con el plug-in jQuery Templates, formularios HTML y validación, y dos capítulos completos sobre AJAX. La cuarta se dedica a jQuery UI, con widgets como botones, sliders, pestañas, datepicker y diálogos, además de interacciones como arrastrar y soltar o las listas ordenables y seleccionables. La quinta aborda jQuery Mobile: páginas, navegación, temas, formularios, listas y gestos táctiles. La sexta reúne funciones avanzadas: métodos de utilidad, efectos del framework CSS de jQuery UI y los objetos Deferred.\n\nCada capítulo empieza con una tabla que relaciona problemas habituales con su solución, por lo que también funciona como obra de consulta. Un ejemplo de tienda en línea recorre el libro y, al cerrar la parte del núcleo, se convierte en una página de productos. Las reseñas destacan la claridad de la escritura y lo completa que es la parte de AJAX. Como contras, apuesta más por el código y las tablas que por la explicación de fondo, es muy extenso y depende de jQuery Templates, un plug-in ya obsoleto cuando se publicó. Hoy resulta útil sobre todo para mantener aplicaciones construidas con jQuery.",
+    "temas": [
+      "jQuery 2.0",
+      "Selectores",
+      "Manipulación del DOM",
+      "Eventos",
+      "Efectos",
+      "AJAX",
+      "Formularios y validación",
+      "jQuery UI",
+      "jQuery Mobile",
+      "Objetos Deferred",
+      "Plantillas de datos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Página de productos de una tienda en línea",
+        "descripcion": "Ejemplo que acompaña al lector a lo largo del libro y que, al terminar la parte del núcleo, se convierte en una página de productos construida con selectores, manipulación del DOM, eventos y efectos de jQuery. En capítulos posteriores se amplía con formularios, AJAX y widgets de jQuery UI."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.i-programmer.info/bookreviews/29-javascript/7178-pro-jquery-20-.html",
+      "https://www.oreilly.com/library/view/pro-jquery-20/9781430263883/"
+    ]
+  },
+  "manual-de-jquery-2009": {
+    "descripcion": "Manual gratuito en español publicado por DesarrolloWeb.com y elaborado bajo la dirección de Miguel Ángel Álvarez, director del portal. Presenta jQuery como un framework de JavaScript, es decir, un conjunto de funciones listas para usar que simplifican el trabajo con el DOM, y no como un lenguaje nuevo. La edición de 2009 se basa en la rama 1.3 de jQuery, la de esa época. Está pensado para principiantes en jQuery que ya saben JavaScript; el propio portal insiste en aprender JavaScript primero y remite a su manual de ese lenguaje.\n\nEl recorrido empieza por qué es jQuery y una primera demostración sencilla. Luego explica cómo incluir la librería en la página y el evento ready, y pasa a la función $() y los métodos del núcleo, como each(), size()/length y data(). Siguen los selectores, incluidos los jerárquicos, y la manipulación de atributos con attr() y removeAttr(). También trata los estilos con css() y la adición y eliminación de clases. Después llegan los eventos y el objeto evento (posición del ratón, teclas pulsadas), las funciones bind()/unbind() y live(), los efectos para mostrar, ocultar y desvanecer, la animación con animate() y las colas de efectos. Cierra con Ajax mediante load() y $.get(), incluido un mensaje de \"cargando\". Una parte importante del manual enseña a crear plugins propios: reglas para escribirlos, opciones configurables con extend() y funciones privadas.\n\nNo es un libro de proyectos, sino un manual formado por artículos cortos con ejemplos prácticos que se pueden probar en el navegador. Algunos ejemplos de plugins que el portal publica en su versión actual son un textarea que cuenta caracteres, un tooltip configurable y un checkbox personalizado. Es una introducción clara y accesible en español a la manera de trabajar de jQuery, pero hoy está muy desactualizada. La edición de 2009 es anterior a métodos como prop() y on(), y el manual en línea se fue ampliando después, con capítulos sobre CDN, eventos delegados y QUnit que probablemente no estén en esta versión de 126 páginas. Sirve para entender código jQuery heredado o los fundamentos de la librería, no como referencia actual.",
+    "temas": [
+      "jQuery 1.3",
+      "Función $()",
+      "Evento ready",
+      "Selectores",
+      "Manipulación de atributos",
+      "CSS y clases",
+      "Eventos",
+      "Efectos y animaciones",
+      "Colas de efectos",
+      "Ajax con load()",
+      "Creación de plugins"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "media",
+    "fuentes": [
+      "https://desarrolloweb.com/manuales/manual-jquery.html"
+    ]
+  },
+  "extending-jquery-2013": {
+    "descripcion": "Libro de Manning escrito por Keith Wood, autor de más de 20 plugins de jQuery, entre ellos el Datepicker original, Countdown, World Calendar y SVG. Tiene prólogo de Dave Methvin, entonces presidente del jQuery Foundation. No enseña a usar jQuery, sino a extenderlo: explica cómo crear extensiones propias, reutilizables y bien integradas con la librería y con otros plugins, en la época de jQuery 1.x y jQuery UI 1.10. Está dirigido a desarrolladores con nivel intermedio en jQuery y JavaScript; no hace falta haber escrito plugins antes.\n\nEl libro recorre de forma sistemática los puntos de extensión de jQuery y se organiza en cuatro partes. La primera presenta la arquitectura de extensiones de jQuery con ejemplos conocidos, como jQuery UI, Validation, un slider gráfico, la integración con Google Maps, las cookies y la animación de colores. En esta parte se escribe un primer plugin de marca de agua (watermark) para textos de ejemplo en campos de formulario, y se enseña a añadir selectores de pseudoclase y filtros de conjunto propios. La segunda parte cubre los principios de diseño de plugins, los plugins de colección (que operan sobre los elementos seleccionados), las funciones utilitarias y cómo probar, empaquetar y documentar un plugin. La tercera se dedica a jQuery UI: widgets mediante la widget factory, interacciones de ratón y efectos. La cuarta trata la animación de propiedades CSS personalizadas, la extensión de Ajax, los eventos especiales y las reglas propias para el plugin Validation.\n\nEl enfoque es práctico: cada tipo de extensión se acompaña de código completo que se puede reutilizar, como el plugin Watermark o un plugin MaxLength que limita la longitud de los textarea. Su valor está en las buenas prácticas de diseño de plugins (opciones, estado, limpieza, espacios de nombres), que aplica un autor con amplia experiencia publicando plugins. Hay que tener en cuenta que refleja el ecosistema de 2013: no trata los módulos ES ni npm como hoy los entendemos, y parte de jQuery UI ha quedado en desuso. Aun así, es muy útil para mantener o crear plugins en proyectos que siguen usando jQuery.",
+    "temas": [
+      "Plugins de jQuery",
+      "Puntos de extensión",
+      "Selectores personalizados",
+      "Plugins de colección",
+      "Funciones utilitarias",
+      "jQuery UI Widget Factory",
+      "Efectos de jQuery UI",
+      "Animación de propiedades",
+      "Extensiones de Ajax",
+      "Eventos especiales",
+      "jQuery Validation",
+      "Pruebas y empaquetado"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/extending-jquery",
+      "https://livebook.manning.com/book/extending-jquery/table-of-contents",
+      "https://livebook.manning.com/book/extending-jquery/chapter-1"
+    ]
+  },
+  "jquery-in-action-3rd-edition-2015": {
+    "descripcion": "Tercera edición del clásico de Manning sobre jQuery, actualizada por Aurelio De Rosa junto a Bear Bibeault y Yehuda Katz (este último, miembro del equipo central de jQuery). Según la editorial, está actualizada para jQuery 3, entonces en desarrollo, y explica cómo elegir entre las ramas de la librería. Se centra en las tareas que aparecen en casi cualquier proyecto web. Está pensada para lectores con conocimientos básicos de JavaScript e incluye un apéndice con los conceptos del lenguaje que conviene dominar.\n\nSe divide en tres partes. La primera presenta jQuery: JavaScript no intrusivo, instalación desde un CDN, compilaciones personalizadas, el objeto jQuery y el manejador de document ready. La segunda cubre el núcleo de la librería. Empieza por los selectores (básicos, jerárquicos, por atributos, filtros y filtros personalizados), las operaciones sobre colecciones y el trabajo con propiedades, atributos y datos. Sigue con la manipulación del DOM, el modelo de eventos, las animaciones y efectos, las funciones utilitarias y la comunicación con el servidor mediante Ajax. La tercera aborda temas avanzados: la creación de plugins, los objetos Deferred y las promesas para evitar el \"callback hell\", las pruebas unitarias con QUnit y cómo encaja jQuery en proyectos grandes, con herramientas como Bower para gestionar dependencias.\n\nEl libro combina explicación y práctica. Sus \"Lab Pages\" permiten experimentar con selectores y métodos en el navegador, e incluye ejercicios. Según los autores, también desarrolla tres proyectos de ejemplo y tres plugins. Es una de las referencias más completas y ordenadas sobre jQuery. Su valor actual está en mantener código existente o entender cómo funciona la librería, más que en arrancar proyectos nuevos, donde hoy predominan JavaScript nativo y los frameworks modernos. No profundiza en jQuery UI ni en jQuery Mobile.",
+    "temas": [
+      "jQuery 3",
+      "Selectores y filtros",
+      "Manipulación del DOM",
+      "Eventos",
+      "Animaciones y efectos",
+      "Funciones utilitarias",
+      "Ajax",
+      "Plugins",
+      "Deferred y promesas",
+      "QUnit",
+      "Bower"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "DVD discs locator",
+        "descripcion": "Demostración guiada que cierra la parte de eventos: una página para buscar y filtrar discos que aplica selectores, manipulación del DOM y manejo de eventos con jQuery."
+      },
+      {
+        "nombre": "Formulario de contacto con Ajax",
+        "descripcion": "Demostración que pone en práctica el capítulo de Ajax: un formulario de contacto que envía los datos al servidor sin recargar la página."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/jquery-in-action-third-edition",
+      "https://livebook.manning.com/book/jquery-in-action-third-edition/table-of-contents",
+      "https://livebook.manning.com/book/jquery-in-action-third-edition/about-this-book"
+    ]
+  },
+  "murach-s-jquery-2nd-edition-2015": {
+    "descripcion": "Segunda edición del manual de jQuery de la editorial Mike Murach & Associates, escrita por Zak Ruvalcaba y Anne Boehm y publicada en 2015, cuando jQuery 1.x/2.x, jQuery UI y jQuery Mobile eran todavía el estándar de facto del desarrollo front-end. Está pensada para principiantes: no da por sabido HTML, CSS ni JavaScript, porque empieza con un curso intensivo de JavaScript. Aun así, a quien nunca haya escrito una página web le vendrá bien llegar con algo de HTML y CSS.\n\nEl libro tiene cinco secciones. La primera, de unos cuatro capítulos, repasa los fundamentos de las aplicaciones web y el subconjunto de JavaScript necesario para usar jQuery. También muestra cómo manejar el DOM sin librerías y cómo depurar con las herramientas para desarrolladores de Chrome. La segunda es el núcleo jQuery: selectores y métodos, eventos, efectos y animaciones, creación de plugins propios, formularios y validación de datos, y manipulación y recorrido del DOM. La tercera dedica dos capítulos a los widgets e interacciones de jQuery UI. La cuarta trata Ajax y JSON, la API de Google Maps, la geolocalización, el almacenamiento web y los Web Workers. La quinta enseña a crear sitios móviles con jQuery Mobile.\n\nSigue el formato típico de Murach, con texto a un lado y ejemplos al otro, y cada capítulo termina con ejercicios sobre aplicaciones que se modifican y amplían. Funciona bien para el autoestudio o para clases. Su punto fuerte es la amplitud y el gran número de ejemplos. A cambio, críticas como la de I Programmer señalan que dedica poco espacio a las sutilezas del núcleo de jQuery (cómo razonar sobre el objeto jQuery y el encadenamiento) y mucho a jQuery UI, jQuery Mobile y APIs del navegador que poco tienen que ver con jQuery. Hoy conviene leerlo sabiendo que jQuery Mobile está abandonado y que gran parte de lo que resolvía jQuery ya lo hace el JavaScript moderno.",
+    "temas": [
+      "jQuery",
+      "JavaScript básico",
+      "DOM",
+      "Selectores",
+      "Eventos",
+      "Efectos y animaciones",
+      "Plugins de jQuery",
+      "Validación de formularios",
+      "jQuery UI",
+      "Ajax y JSON",
+      "Google Maps API",
+      "jQuery Mobile"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://i-programmer.info/bookreviews/29-javascript/9732-murachs-jquery-2e.html",
+      "https://www.i-programmer.info/book-watch-archive/9093-murachs-jquery-2nd-ed-murach-books.html",
+      "https://www.goodreads.com/work/editions/46520018-murach-s-jquery"
+    ]
+  },
+  "head-first-jquery-2011": {
+    "descripcion": "Título de la serie Head First de O'Reilly, escrito por Ryan Benedetti y Ronan Cranley y publicado en 2011, en la época de jQuery 1.6–1.7. Introduce jQuery con el estilo visual y repetitivo de la serie: dibujos, diálogos, cuestionarios y muchos ejercicios. Está dirigido a principiantes que saben algo de HTML y CSS y quieren dar interactividad a sus páginas sin experiencia previa seria en programación.\n\nArranca explicando qué aporta un script a una página y cómo se carga jQuery. Luego dedica un capítulo muy gráfico a los selectores y sigue con eventos y funciones, manipulación del DOM para crear páginas dinámicas y efectos y animaciones. Después profundiza en JavaScript (funciones propias, objetos, arrays y bucles) para combinarlo con jQuery. La parte final pasa a Ajax en el cliente y, del lado del servidor, a PHP y MySQL para generar y consumir datos en JSON. Cierra con jQuery UI, que usa para renovar por completo un formulario con widgets y efectos de interfaz, y con una aplicación que usa la API de Google Maps.\n\nCada capítulo gira en torno a una pequeña página o aplicación de ejemplo que se construye paso a paso, con ejercicios, rompecabezas y preguntas de repaso. Es raro y valioso que un libro para principiantes conecte el cliente con un backend sencillo en PHP, aunque eso obliga a aprender algo de ese lenguaje. No trata jQuery Mobile, la creación de plugins ni JavaScript avanzado. Su ritmo lento y redundante ayuda a quien programa por primera vez, pero a un desarrollador con experiencia le resultará largo. Hoy sirve sobre todo para entender el DOM y los eventos o para mantener código antiguo.",
+    "temas": [
+      "jQuery",
+      "Selectores",
+      "Eventos",
+      "Manipulación del DOM",
+      "Efectos y animaciones",
+      "Funciones en JavaScript",
+      "Ajax",
+      "JSON",
+      "PHP y MySQL",
+      "jQuery UI",
+      "Google Maps API"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Páginas de ejemplo por capítulo",
+        "descripcion": "Cada capítulo construye una pequeña página interactiva con jQuery (selectores, eventos, manipulación del DOM y animaciones) que se va ampliando a medida que se introducen nuevos conceptos."
+      },
+      {
+        "nombre": "Aplicación con Ajax y backend PHP",
+        "descripcion": "Página que intercambia datos con el servidor mediante Ajax. Un script en PHP con MySQL genera las respuestas en JSON."
+      },
+      {
+        "nombre": "Aplicación con jQuery UI y Google Maps",
+        "descripcion": "Proyecto final que combina widgets de jQuery UI con la API de Google Maps para mostrar información sobre un mapa interactivo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/head-first-jquery/9781449311988",
+      "https://www.i-programmer.info/bookreviews/29-javascript/3599-head-first-jquery.html",
+      "https://oreilly.com/library/view/head-first-jquery/9781449311988/ch09.html",
+      "https://app.oreilly.com/pub/pr/2069"
+    ]
+  },
+  "jquery-cookbook-2009": {
+    "descripcion": "Recetario de O'Reilly coordinado por Cody Lindley y publicado en noviembre de 2009, con jQuery 1.3 como versión de referencia. Reúne a unos 19 colaboradores vinculados al equipo de jQuery y a su comunidad, y cada uno escribe sobre el área que mejor conoce. Está pensado para desarrolladores de nivel intermedio que ya escriben algo de JavaScript y conocen lo básico de jQuery, y que buscan soluciones probadas a problemas habituales del desarrollo web.\n\nSigue el formato problema-solución-discusión a lo largo de 18 capítulos. Empieza con los fundamentos y la filosofía de jQuery, la selección de elementos, las utilidades y las dimensiones y posiciones de los elementos. Sigue con los efectos, los eventos (incluidos eventos personalizados y paso de datos con ellos) y la mejora de formularios HTML, tanto desde cero como con plugins. Después explica cómo crear plugins propios y cómo construir componentes de interfaz desde cero, como pestañas, acordeones y ventanas modales. También cubre jQuery UI y su sistema de temas (ThemeRoller y el framework CSS), Ajax con formatos de datos como HTML, XML, JSON y JSONP, la organización del código en proyectos grandes y el rendimiento. Termina con pruebas unitarias usando QUnit.\n\nNo tiene un proyecto que guíe todo el libro: es una colección de recetas independientes con código listo para adaptar y explicaciones de por qué funciona. Su valor está en las buenas prácticas, el rendimiento, la creación de plugins y el testing, explicados por personas que participaron en el desarrollo de la librería. A cambio, algunos capítulos son desiguales por la cantidad de autores, y como se basa en jQuery 1.3 faltan novedades posteriores como on()/off(), los Deferred/Promises o los cambios de jQuery 3. Hoy sirve sobre todo como referencia de patrones o para mantener código antiguo.",
+    "temas": [
+      "jQuery 1.3",
+      "Selectores",
+      "Utilidades",
+      "Dimensiones y posicionamiento",
+      "Efectos",
+      "Eventos personalizados",
+      "Formularios",
+      "Plugins",
+      "Componentes de interfaz",
+      "jQuery UI y ThemeRoller",
+      "Ajax, JSON y JSONP",
+      "QUnit"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://oreilly.com/library/view/jquery-cookbook/9780596806941",
+      "https://lwn.net/Articles/363471/",
+      "https://developers.slashdot.org/story/10/04/28/1322222/jQuery-Cookbook"
+    ]
+  },
+  "jquery-pocket-reference-2010": {
+    "descripcion": "Guía de bolsillo de David Flanagan, autor de \"JavaScript: The Definitive Guide\", que resume en unas 160 páginas lo esencial de jQuery en la época de jQuery 1.4. Su lema, \"lee menos, aprende más\", juega con el \"escribe menos, haz más\" de la librería. Va dirigida a desarrolladores que ya programan en JavaScript y manejan el DOM, y que quieren una explicación compacta del modelo de jQuery y una consulta rápida de su API. No sirve como introducción a la programación web.\n\nEl texto avanza por los bloques de la librería: la función jQuery() y los resultados de las consultas; los getters y setters para atributos HTML, CSS, clases, valores de formularios, contenido, geometría y datos de los elementos; y la modificación de la estructura del documento (insertar, reemplazar, copiar, envolver y eliminar elementos). También trata los eventos: registro simple y avanzado, el objeto de evento, cómo desregistrar manejadores, disparar eventos, eventos personalizados y eventos \"live\". Sigue con los efectos y animaciones personalizadas con sus colas, y con Ajax: load(), getJSON(), getScript(), get/post, jQuery.ajax() con sus opciones y callbacks, y los eventos Ajax. Cierra con funciones utilitarias, la gramática de selectores, la creación de plugins y una introducción a jQuery UI.\n\nNo tiene ejercicios ni proyectos. Los ejemplos de código son breves, y el libro termina con una referencia rápida de unas 25 páginas con las firmas de los métodos agrupadas por categoría. Su fuerte es la claridad conceptual de Flanagan. Algunas reseñas critican que se lee más como un capítulo de su libro de JavaScript que como una verdadera referencia de bolsillo. Ten en cuenta que está desactualizado: métodos como live() se eliminaron en versiones posteriores y no cubre Deferreds ni los cambios de jQuery 1.7 en adelante (on/off). Hoy tiene sobre todo valor para mantener código heredado o para entender las ideas de fondo de la librería.",
+    "temas": [
+      "jQuery 1.4",
+      "Selectores",
+      "Manipulación del DOM",
+      "Getters y setters",
+      "Eventos",
+      "Animaciones",
+      "Ajax",
+      "Plugins",
+      "jQuery UI",
+      "Referencia de API"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/jquery-pocket-reference/9781449398958/",
+      "https://s.helion.pl/ksiazki/jquery-pocket-reference-read-less-learn-more-david-flanagan,e_2gqu.htm",
+      "https://www.oreilly.com/pub/pr/2717",
+      "https://www.i-programmer.info/bookreviews/29-javascript/2328-jquery-pocket-reference.html"
+    ]
+  },
+  "learning-from-jquery-2013": {
+    "descripcion": "Libro breve de Callum Macrae, desarrollador JavaScript británico que ha contribuido a proyectos como phpBB y jQuery++. Está pensado para quien ya usa jQuery con soltura pero entiende poco del JavaScript que la librería resuelve por debajo. La idea es ir de lo que sabes hacer con jQuery a cómo hacerlo en JavaScript puro. Así reduces dependencias y peso, y comprendes mejor lo que pasa en el navegador. Es de nivel básico y trae un apéndice de fundamentos del lenguaje para quien llegue con poca base.\n\nCada capítulo compara la forma jQuery con la forma nativa. En eventos explica addEventListener, la propagación y el attachEvent de Internet Explorer 8, y escribe funciones envoltorio para añadir, disparar y quitar manejadores, además de listeners de un solo uso. Luego trata constructores, prototipos, encadenamiento de métodos y hasOwnProperty. En el DOM muestra cómo seleccionar con selectores CSS (querySelector), recorrer hijos y hermanos, y crear, modificar, mover y copiar elementos. En AJAX usa XMLHttpRequest con peticiones GET y POST, depuración y un envoltorio propio. El capítulo de convenciones cubre estilo de código, literales, optimizaciones, declaraciones frente a expresiones de función, antipatrones (eval, with, document.write) y los patrones Singleton, Factory, Iterator y Facade. Por último recomienda herramientas como un buen IDE, JSHint, JSPerf, MDN, Gist, JSFiddle, GitHub y control de versiones.\n\nLa práctica se reduce a ejemplos de código y a pequeñas funciones utilitarias que el lector reconstruye, incluida una aplicación sencilla de AJAX. No hay un proyecto completo. Su valor es didáctico: rompe la dependencia ciega de jQuery y enseña de dónde viene cada abstracción. Está anclado en la era ES5 y en la compatibilidad con IE8. No cubre fetch, promesas, módulos ni sintaxis ES2015+, así que conviene completarlo con material de JavaScript moderno.",
+    "temas": [
+      "JavaScript puro",
+      "jQuery",
+      "Eventos del DOM",
+      "Prototipos",
+      "Constructores",
+      "Manipulación del DOM",
+      "XMLHttpRequest",
+      "Compatibilidad con IE8",
+      "Patrones de diseño",
+      "Buenas prácticas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-from-jquery/9781449335182/",
+      "https://www.oreilly.com/library/view/learning-from-jquery/9781449335182/author_bios.html",
+      "https://helion.pl/ksiazki/learning-from-jquery-building-on-core-skills-callum-macrae,e_2gx0.htm"
+    ]
+  },
+  "learning-jquery-deferreds-2013": {
+    "descripcion": "Guía concisa de Terry Jones y Nicholas H. Tollervey sobre los Deferreds y Promises de jQuery para orquestar llamadas asíncronas en JavaScript y escapar del \"callback hell\". Trabaja con la API de Deferred de jQuery 1.8 en adelante e incluye un apartado sobre los métodos obsoletos y los cambios de la API. Es para desarrolladores de nivel intermedio que ya conocen JavaScript y jQuery y quieren dominar la programación asíncrona, tanto en el cliente como en el servidor.\n\nEmpieza aclarando la diferencia entre deferred y promise. Después recorre a fondo la API: para consumir promesas, done, fail, always, progress, then, state y $.when; para crear deferreds, resolve/resolveWith, reject/rejectWith y notify/notifyWith; y además la dinámica interna de los deferreds y los métodos obsoletos como pipe e isResolved. El núcleo del libro son 18 recetas sobre problemas reales: un reemplazo de setTimeout basado en promesas, mensajería y almacenamiento local en extensiones de Chrome, ejecución secuencial de funciones que devuelven promesas, pools de promesas, Google Maps, Web Workers, WebSockets, reintentos automáticos, memoización, colas diferidas, \"when2\" (una versión mejorada de jQuery.when), timeouts y desactivación de promesas. Cierra con la especificación Promises/A+, las ventajas y dificultades de los deferreds y las estructuras de datos asíncronas.\n\nCada receta trae desafíos para el lector: unos 75 rompecabezas, con pistas en un apéndice. Por eso es más un cuaderno de ejercicios que un libro de proyectos. Es de lo más profundo que se ha escrito sobre los deferreds de jQuery y entrena muy bien el razonamiento asíncrono. Hay que tener en cuenta que es anterior a la adopción generalizada de las promesas nativas de ES2015 y de async/await, y que los deferreds de jQuery no cumplían Promises/A+ hasta jQuery 3. Aun así, las ideas se trasladan bien a las promesas modernas.",
+    "temas": [
+      "jQuery Deferred",
+      "Promises",
+      "Programación asíncrona",
+      "Callback hell",
+      "$.when",
+      "Promises/A+",
+      "Web Workers",
+      "WebSockets",
+      "Extensiones de Chrome",
+      "Memoización",
+      "Timeouts y reintentos"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-jquery-deferreds/9781449369385/",
+      "https://shop.oreilly.com/product/0636920030508.do",
+      "https://helion.pl/ksiazki/learning-jquery-deferreds-taming-callback-hell-with-deferreds-and-promises-terry-jones-nicholas-h-tollervey,e_2gcg.htm"
+    ]
+  },
+  "asp-net-jquery-cookbook-2nd-edition-2016": {
+    "descripcion": "Recetario de Packt en el que Sonal Aneel Allana enseña a escribir código de cliente con jQuery dentro de aplicaciones ASP.NET 4.6. Esta segunda edición, de 2016, actualiza el material de la primera a la versión de .NET y Visual Studio de esa época. Está pensado para desarrolladores ASP.NET que ya programan en C# y conocen lo básico de HTML y JavaScript, y que quieren usar jQuery para ganar compatibilidad entre navegadores y escribir menos código en el cliente.\n\nEl libro reúne más de 60 recetas repartidas en ocho capítulos. Empieza por la descarga e inclusión de jQuery en las páginas, ya sea desde Visual Studio, con el gestor de paquetes NuGet o desde una CDN. Luego explica cómo seleccionar controles de servidor de ASP.NET con los selectores de jQuery, teniendo en cuenta los identificadores que genera el framework, y cómo manejar eventos en las páginas ASP.NET. También cubre el recorrido y la manipulación del DOM, los efectos visuales y las animaciones, y el trabajo con gráficos e imágenes en sitios ASP.NET. Los dos últimos capítulos tratan las peticiones AJAX con jQuery para comunicarse con el servidor sin recargar la página y la creación y el uso de plugins de jQuery reutilizables.\n\nCada receta sigue el esquema típico de los cookbooks de Packt: preparación, pasos y explicación de cómo funciona. Por eso sirve más como obra de consulta para resolver problemas concretos que como curso lineal. Su valor está en mostrar cómo se integra jQuery con los controles y el ciclo de vida de ASP.NET, algo que los libros genéricos de jQuery no explican. Hoy hay que leerlo como material de mantenimiento: se centra en el ASP.NET clásico de .NET Framework, no en ASP.NET Core ni en frameworks de frontend modernos, y mucho de lo que jQuery resolvía ya lo cubren el JavaScript estándar y la Fetch API. Es útil sobre todo si mantienes aplicaciones Web Forms o MVC heredadas.",
+    "temas": [
+      "jQuery",
+      "ASP.NET 4.6",
+      "Visual Studio",
+      "NuGet",
+      "Selectores",
+      "Controles de servidor",
+      "Eventos",
+      "Manipulación del DOM",
+      "Efectos y animaciones",
+      "Gráficos",
+      "AJAX",
+      "Plugins de jQuery"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/product/aspnet-jquery-cookbook-second-edition/9781782173113",
+      "https://biblio.pl/szczegoly/e_3b6z_ebook/asp-net-jquery-cookbook-second-edition-over-60-recipes-for-writing-client-script-in-asp-net-4-6-a-sonal-aneel-allana?jezyk=en",
+      "https://www.bookshare.org/browse/book/1584338"
+    ]
+  },
+  "jquery-1-4-animation-techniques-2011": {
+    "descripcion": "Guía de la serie Beginner's Guide de Packt en la que Dan Wellman, autor de varios libros sobre jQuery y jQuery UI, se dedica por completo a la animación web con jQuery 1.4. Está dirigida a diseñadores web y desarrolladores frontend que dominan HTML y CSS y ya tienen algo de experiencia con jQuery, y que quieren pasar de los efectos básicos a animaciones más elaboradas.\n\nEl recorrido empieza con los fundamentos de la animación web y un primer cargador animado. Después repasa las animaciones de fundido (fadeIn, fadeOut, fadeToggle, fadeTo), la gestión de la cola de efectos (encadenar, detener animaciones en curso con stop() y añadir retrasos con delay()) y las animaciones de deslizamiento (slideDown, slideUp, slideToggle) con easing. El núcleo del libro es el método animate() para crear animaciones personalizadas. A continuación muestra los efectos ampliados de jQuery UI: easing, animación de colores y transiciones entre clases. Los últimos capítulos tratan animaciones de página completa (desplazamiento, parallax, navegación de una sola página y stop-motion), efectos populares como animaciones por proximidad del ratón, cabeceras animadas o texto tipo marquesina, transformaciones 2D y 3D con CSS3 y animación con la API de Canvas, incluida la compatibilidad con Internet Explorer de la época.\n\nSigue el formato de la serie: secciones prácticas paso a paso («Time for action»), explicaciones de lo que acaba de ocurrir, cuestionarios («Pop quiz», con respuestas en un apéndice) y retos para el lector. Construye varias piezas reutilizables, como un visor de contenido animado, un plugin propio y un pequeño juego en Canvas. El libro aporta una visión muy completa de la animación con jQuery, pero ha envejecido: está atado a jQuery 1.4 y a soluciones pensadas para navegadores antiguos, y hoy muchos de estos efectos se resuelven con transiciones y animaciones CSS, la Web Animations API o requestAnimationFrame. Vale la pena para entender los principios de la animación por código o para mantener sitios heredados.",
+    "temas": [
+      "jQuery 1.4",
+      "Animaciones",
+      "Fades",
+      "Slides",
+      "animate()",
+      "Cola de efectos",
+      "Easing",
+      "jQuery UI",
+      "Parallax",
+      "Transformaciones CSS3",
+      "Canvas",
+      "Plugins"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Cargador animado",
+        "descripcion": "Primer ejemplo del libro: un indicador de carga animado construido con jQuery para presentar las bases de la animación web."
+      },
+      {
+        "nombre": "Visor de contenido animado",
+        "descripcion": "Componente que hace transiciones entre bloques de contenido usando el método animate() de jQuery; en el mismo capítulo se convierte la lógica en un plugin reutilizable."
+      },
+      {
+        "nombre": "Sitio de una sola página con desplazamiento animado",
+        "descripcion": "Ejemplos de animación a página completa: navegación de una sola página con scroll animado, efecto parallax y animación stop-motion con jQuery."
+      },
+      {
+        "nombre": "Juego con Canvas",
+        "descripcion": "Pequeño juego del capítulo final que dibuja y anima elementos con la API de Canvas de HTML5, combinada con jQuery."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://s.helion.pl/ksiazki/jquery-1-4-animation-techniques-beginners-guide-this-book-and-ebook-will-enable-you-to-quickly-mas-dan-wellman-jquery-foundation,e_3cyu.htm",
+      "https://www.oreilly.com/library/view/jquery-1-4-animation/9781849513302/ch04.html"
+    ]
+  },
+  "jquery-2-0-development-cookbook-2014": {
+    "descripcion": "Recetario de Packt en el que Leon Revill, desarrollador web con experiencia en PHP, MySQL y JavaScript, reúne más de 80 soluciones a problemas habituales del desarrollo web con jQuery 2.0, la rama que abandonó la compatibilidad con Internet Explorer 6 a 8. La editorial lo presenta como apto para todos los niveles: repasa lo básico de jQuery para quien empieza y luego pasa a ejemplos más complejos. Se da por hecho que el lector conoce JavaScript, HTML y CSS.\n\nLos capítulos recorren la manipulación del DOM, los eventos de usuario (clics, cambios, pulsaciones de teclas, hover, disparo manual de eventos y eventos personalizados), la carga y manipulación de contenido dinámico con AJAX y JSON, los efectos visuales y la animación de interfaces combinando jQuery y CSS, y el manejo de formularios con validación y mensajes al usuario. Dedica capítulos a construir elementos de interfaz propios, como acordeones, ventanas modales, tooltips, sliders de contenido o un indicador de fortaleza de contraseña. También explica cómo crear plugins de jQuery a partir de una plantilla, cómo usar los widgets de jQuery UI (autocompletado, selector de fechas, arrastrar y soltar) y cómo crear un sitio y una aplicación web móviles con jQuery Mobile. Algunos ejemplos de AJAX se apoyan en un backend sencillo en PHP con MySQL.\n\nCada receta sigue el formato típico de Packt (preparación, pasos, cómo funciona y variantes), así que el libro funciona bien como consulta para copiar y adaptar soluciones a proyectos propios. Su punto fuerte es la amplitud: cubre en un solo volumen jQuery, jQuery UI, jQuery Mobile y el desarrollo de plugins. Conviene tener en cuenta su fecha: jQuery Mobile está prácticamente abandonado, muchas tareas se resuelven hoy con JavaScript estándar y la Fetch API, y el código no contempla los cambios de jQuery 3. Es útil para mantener proyectos con jQuery o para entender cómo se hacían las interfaces dinámicas antes de los frameworks modernos.",
+    "temas": [
+      "jQuery 2.0",
+      "Manipulación del DOM",
+      "Eventos",
+      "AJAX",
+      "JSON",
+      "Efectos y animaciones",
+      "Formularios y validación",
+      "Componentes de interfaz",
+      "Plugins de jQuery",
+      "jQuery UI",
+      "jQuery Mobile",
+      "PHP y MySQL"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/jquery-20-development-cookbook-9781783280896",
+      "https://books.google.com.pe/books/about/jQuery_2_0_Development_Cookbook.html?id=zzjoAgAAQBAJ&redir_esc=y",
+      "https://subscription.packtpub.com/book/web-development/9781783280896/10/ch10lvl1sec94/10-working-with-jquery-mobile",
+      "https://www.oreilly.com/library/view/jquery-2-0-development/9781783280896/ch08s02.html"
+    ]
+  },
+  "jquery-design-patterns-2016": {
+    "descripcion": "Libro de Packt en el que Thodoris Greasidis, ingeniero web sénior y colaborador del equipo Angular-UI, explica cómo aplicar los patrones de diseño clásicos al desarrollo con jQuery para escribir código mejor organizado, extensible y eficiente. Es de 2016 y se basa en la rama de jQuery de esa época (1.x/2.x, con la 3.0 recién llegada). Está dirigido a desarrolladores web de nivel intermedio que ya manejan lo básico de jQuery y JavaScript y quieren dejar de escribir scripts sueltos para pasar a una arquitectura más ordenada.\n\nEl libro abre con un repaso de jQuery explicado a través del patrón Composite, que es la idea que hay detrás de las colecciones de elementos que devuelve $(). A partir de ahí recorre los patrones Observer (el sistema de eventos de jQuery), Publisher/Subscriber para desacoplar componentes, Module para dividir una aplicación en piezas independientes, Facade, Builder y Factory, y los patrones de control de flujo asíncrono con Deferred y Promises. También dedica capítulos al patrón Mock Object para desarrollar y probar sin depender del servidor, a las plantillas del lado del cliente, a los patrones para crear plugins y widgets de jQuery y a técnicas de optimización del rendimiento.\n\nEs un libro conceptual con ejemplos de código para cada patrón, no un libro de proyectos: no se construye una aplicación completa de principio a fin. Su valor está en dar nombre y estructura a prácticas que muchos desarrolladores de jQuery usan sin saberlo, y gran parte de lo que enseña (módulos, pub/sub, promesas, mocks) sirve también fuera de jQuery. Hay que tener en cuenta que hoy el ecosistema ha migrado a módulos ES, async/await y frameworks de componentes, así que resulta más útil para mantener código jQuery existente o como introducción a los patrones en JavaScript que para empezar un proyecto nuevo.",
+    "temas": [
+      "jQuery",
+      "Patrones de diseño",
+      "Composite",
+      "Observer",
+      "Publisher/Subscriber",
+      "Module pattern",
+      "Facade",
+      "Builder y Factory",
+      "Deferred y Promises",
+      "Mock Object",
+      "Plantillas del lado del cliente",
+      "Desarrollo de plugins"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/jquery-design-patterns/9781785888687/",
+      "https://ebookpoint.pl/ksiazki/jquery-design-patterns-write-elegant-structured-and-efficient-jquery-thodoris-greasidis,e_3bp8.htm"
+    ]
+  },
+  "jquery-for-designers-2nd-edition-2014": {
+    "descripcion": "Segunda edición (2014) de la guía para principiantes de la serie Beginner's Guide de Packt, escrita por Natalie MacLees, diseñadora web desde 1997 y fundadora de la agencia Purple Pen Productions. Está pensada para diseñadores que ya dominan HTML y CSS pero tienen poca o ninguna experiencia con JavaScript, y quieren añadir interactividad y efectos a sus páginas usando jQuery sin tener que convertirse en programadores.\n\nEl libro empieza con una introducción a jQuery y a lo mínimo de JavaScript que hace falta, y desde muy pronto enseña a apoyarse en plugins de terceros, como PowerTip para crear tooltips personalizados en los enlaces. Después recorre, capítulo a capítulo, los recursos típicos de la interfaz: mejorar los enlaces, una página de preguntas frecuentes con contenido desplegable, menús de navegación interactivos y animados, lightboxes para mostrar contenido, presentaciones de diapositivas y sliders, diseño responsive, galerías y tratamiento de imágenes, mejoras tipográficas, presentación atractiva de tablas y datos, efectos al hacer scroll (como el parallax) y formularios más usables.\n\nCada capítulo se organiza en ejercicios guiados del tipo \"manos a la obra\", en los que se construye un componente concreto de una página. Es una forma accesible y visual de perder el miedo a JavaScript, con atención a la accesibilidad y la usabilidad, que son temas que la autora defiende. A cambio, enseña más a combinar y configurar plugins que a programar: no profundiza en la lógica de JavaScript, en Ajax ni en arquitectura de código. Además, muchos de los plugins y técnicas de 2014 hoy se resuelven con CSS moderno o JavaScript nativo, así que conviene leerlo sabiendo que es un libro de su época.",
+    "temas": [
+      "jQuery",
+      "Diseño web",
+      "Plugins de jQuery",
+      "Tooltips",
+      "Menús de navegación",
+      "Lightbox",
+      "Sliders y slideshows",
+      "Diseño responsive",
+      "Tipografía web",
+      "Parallax scrolling",
+      "Formularios",
+      "Animaciones"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://ebookpoint.pl/ksiazki/jquery-for-designers-beginner-s-guide-second-edition-design-interactive-websites-to-improve-user-ex-natalie-maclees,e_3cyx.htm",
+      "https://www.packtpub.com/en-us/product/jquery-for-designers-beginner-s-guide-second-edition-1-9781783284535/chapter/designer-meet-jquery/summary",
+      "https://skoobe.de/books/natalie-maclees/jquery-for-designers-beginners-guide-second-edition"
+    ]
+  },
+  "jquery-game-development-essentials-2013": {
+    "descripcion": "Libro de Packt (2013) escrito por Selim Arsever, creador de gameQuery, un motor de juegos de código abierto basado en jQuery. Enseña a crear juegos que se ejecutan directamente en el navegador usando manipulación del DOM y transformaciones CSS en lugar de canvas, de modo que funcionen en la mayor cantidad posible de navegadores y dispositivos. Se basa en jQuery 1.7 y está dirigido a desarrolladores web de nivel intermedio que ya conocen jQuery y quieren aplicarlo al desarrollo de videojuegos.\n\nEl primer capítulo repasa las partes de jQuery más útiles para juegos: encadenamiento, colas de animación, manejo de eventos y datos asociados a elementos del DOM. A partir de ahí el autor construye su propio mini-framework y explica técnicas clásicas: sprites animados, bucle principal del juego, sondeo del teclado, cómo evitar reflows, movimiento con CSS transforms y requestAnimationFrame, mapas de tiles, detección de colisiones, parallax scrolling, ordenación de la oclusión en vistas cenitales e isométricas y carga de niveles con $.ajax y JSON. Los últimos capítulos tratan multijugador con lógica en el servidor, tablas de puntuación y técnicas contra las trampas, integración con Twitter y Facebook (autenticación, logros y publicaciones), soporte móvil (controles táctiles, orientación del dispositivo, application cache y web storage) y sonido con el elemento Audio de HTML5, la Web Audio API y SoundManager 2 como alternativa con Flash.\n\nSe aprende construyendo varios juegos completos y mejorándolos capítulo a capítulo, lo que hace el recorrido muy práctico. Es interesante para entender los fundamentos de cualquier motor 2D, pero tiene mucho de su época: Flash y application cache ya no existen, las APIs de Twitter y Facebook han cambiado y, para juegos actuales, lo habitual es usar canvas o WebGL con motores como Phaser. La parte de servidor del multijugador se apoya en código de backend, así que ayuda tener nociones básicas de programación del lado del servidor.",
+    "temas": [
+      "jQuery",
+      "Desarrollo de juegos",
+      "Sprites y animación",
+      "Mapas de tiles",
+      "Detección de colisiones",
+      "Parallax scrolling",
+      "Juegos isométricos",
+      "Multijugador",
+      "Integración con redes sociales",
+      "Juegos móviles",
+      "Web Audio API",
+      "requestAnimationFrame"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Primer juego con sprites",
+        "descripcion": "Juego sencillo con el que se arma el mini-framework del libro: sprites animados, precarga de recursos, bucle principal y detección de colisiones con jQuery y manipulación del DOM."
+      },
+      {
+        "nombre": "Juego de plataformas con scroll lateral",
+        "descripcion": "Plataformas con mapas de tiles, control del jugador, enemigos y parallax scrolling. Después se amplía con varios niveles que se cargan con $.ajax y JSON."
+      },
+      {
+        "nombre": "Juego con vista cenital e isométrica",
+        "descripcion": "Juego de perspectiva superior con tiles optimizados, ordenación de la oclusión y colisiones con el entorno, NPC y enemigos, y una variante con tiles isométricos."
+      },
+      {
+        "nombre": "World of Ar'PiGi (RPG multijugador)",
+        "descripcion": "Juego de rol multijugador con cuentas de jugador, sincronización entre clientes, monstruos y combate resuelto en el servidor."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/jquery-game-development-essentials-learn-how-to-make-fun-and-addictive-multi-platform-games-using-j-selim-arsever,e_3bjs.htm",
+      "https://www.packtpub.com/product/jquery-game-development-essentials/9781849695060",
+      "https://skoobe.de/books/selim-arsever/jquery-game-development-essentials"
+    ]
+  },
+  "jquery-hotshot-2013": {
+    "descripcion": "Libro de la serie Hotshot de Packt en el que Dan Wellman propone diez proyectos prácticos e independientes para consolidar el dominio de jQuery. Cubre la API hasta jQuery 1.9, la versión vigente a comienzos de 2013, y está dirigido sobre todo a desarrolladores front-end que ya tienen algo de experiencia con jQuery, HTML y CSS y quieren pasar de los fragmentos sueltos a aplicaciones completas.\n\nCada capítulo sigue el formato de 'misión' de la serie (planteamiento, tareas por fases y cierre con propuestas de mejora) y, además de jQuery, presenta una tecnología relacionada. A lo largo del libro aparecen jQuery UI (por ejemplo, el componente draggable), jQuery Mobile, la API de Google Maps, la API de extensiones de Google Chrome, Knockout.js, funciones de HTML5 como localStorage y la API de archivos con arrastrar y soltar, plantillas del lado del cliente, peticiones Ajax para paginar datos y la compilación de una versión personalizada de la propia librería. También toca temas de programación más generales, como algoritmos de ordenación en el puzle.\n\nSu punto fuerte es la variedad: en pocas páginas se recorre un abanico amplio de casos reales (juegos, mapas, móviles, extensiones, analítica de clics) y se aprende a combinar jQuery con otras herramientas. A cambio, cada proyecto se trata con cierta brevedad y no se profundiza en arquitectura ni en pruebas. Hoy conviene leerlo como material de referencia para mantener código heredado o entender patrones clásicos del DOM: varias de las APIs que usa (jQuery Mobile, las extensiones de Chrome de entonces, Knockout) evolucionaron mucho o quedaron en desuso.",
+    "temas": [
+      "jQuery 1.9",
+      "jQuery UI",
+      "jQuery Mobile",
+      "Google Maps API",
+      "Extensiones de Chrome",
+      "Knockout.js",
+      "localStorage",
+      "Subida de archivos",
+      "Scroll infinito",
+      "Ajax",
+      "Animaciones",
+      "Build personalizado"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sliding Puzzle",
+        "descripcion": "Puzle deslizante que usa el componente draggable de jQuery UI, un algoritmo de ordenación para mezclar las piezas y localStorage para guardar el progreso de la partida."
+      },
+      {
+        "nombre": "Barra lateral fija con desplazamiento animado",
+        "descripcion": "Navegación lateral que se queda fija en la pantalla y desplaza la página con animaciones hasta cada sección."
+      },
+      {
+        "nombre": "Mapa interactivo de Google",
+        "descripcion": "Mapa basado en la API de Google Maps al que el usuario le agrega marcadores y con el que interactúa mediante jQuery."
+      },
+      {
+        "nombre": "Aplicación de una sola página con jQuery Mobile",
+        "descripcion": "App móvil de una sola página construida con jQuery Mobile que consume datos remotos y los muestra con plantillas."
+      },
+      {
+        "nombre": "Subidor de archivos con jQuery",
+        "descripcion": "Componente para subir varios archivos con arrastrar y soltar, apoyado en las APIs de archivos de HTML5."
+      },
+      {
+        "nombre": "Extensión de Chrome con jQuery",
+        "descripcion": "Extensión para el navegador Google Chrome que usa jQuery para leer y manipular el contenido de las páginas."
+      },
+      {
+        "nombre": "Build Your Own jQuery",
+        "descripcion": "Compilación de una versión a medida de jQuery que incluye solo los módulos necesarios para reducir su tamaño."
+      },
+      {
+        "nombre": "Scroll infinito",
+        "descripcion": "Sistema que pide datos por Ajax y, cuando el usuario llega al final de la página, carga y muestra automáticamente la siguiente página de resultados."
+      },
+      {
+        "nombre": "Mapa de calor con jQuery",
+        "descripcion": "Registro de los clics de los usuarios sobre una página y visualización de esos datos como mapa de calor desde una consola de administración."
+      },
+      {
+        "nombre": "Tabla ordenable y paginada con Knockout.js",
+        "descripcion": "Tabla de datos con ordenación y paginación implementada combinando jQuery con el enlace de datos de Knockout.js."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://packtpub.com/en-in/product/jquery-hotshot-9781849519106/chapter/sliding-puzzle-1/section/mission-briefing-ch01lvl1sec09",
+      "https://packtpub.com/en-br/product/jquery-hotshot-9781849519106/chapter/jquery-file-uploader-5/section/mission-briefing-ch05lvl1sec52",
+      "https://packtpub.com/en-lu/product/jquery-hotshot-9781849519106/chapter/infinite-scrolling-with-jquery-8/section/mission-briefing-ch08lvl1sec82",
+      "https://packtpub.com/en-gb/product/jquery-hotshot-9781849519106/chapter/an-interactive-google-map-3/section/initializing-the-map-ch03lvl1sec32",
+      "https://packtpub.com/en-br/product/jquery-hotshot-9781849519106/chapter/a-jquery-heat-map-9/section/adding-the-management-console-ch09lvl1sec93",
+      "https://subscription.packtpub.com/book/web-development/9781849519106/7"
+    ]
+  },
+  "learning-jquery-4th-edition-2013": {
+    "descripcion": "Cuarta edición del clásico de Jonathan Chaffer y Karl Swedberg, dos veteranos de la comunidad jQuery, que enseña la librería desde cero de forma ordenada y en profundidad. Está actualizada para las ramas jQuery 1.10 y 2.0 (2013) y se dirige a diseñadores y desarrolladores web que manejan HTML y CSS y tienen nociones básicas de JavaScript; promete guiar incluso a quienes antes se sintieron perdidos con el lenguaje.\n\nEl libro tiene dos mitades. La primera cubre los fundamentos: puesta en marcha, selección de elementos, manejo de eventos, estilos y animaciones, manipulación del DOM, envío de datos con Ajax, uso de plugins (incluidos jQuery UI y jQuery Mobile) y desarrollo de plugins propios. La segunda retoma cada tema a un nivel avanzado: selectores y recorrido del DOM, delegación y eventos personalizados, efectos avanzados con colas y easing, manipulación avanzada del DOM y Ajax avanzado con objetos Deferred y promesas. Los apéndices explican los closures de JavaScript, las pruebas con QUnit (el framework que usa el propio proyecto jQuery) y una referencia rápida de la API.\n\nCada capítulo termina con una sección de ejercicios que invitan a ampliar los ejemplos, por ejemplo definir una nueva constante de velocidad de animación, lo que lo convierte en un buen libro de estudio y no solo de consulta. No se organiza en torno a una aplicación completa, sino a ejemplos ilustrativos sobre páginas de muestra. Es uno de los textos más completos y rigurosos sobre jQuery; hoy sirve sobre todo para entender bien código existente, ya que parte de lo que enseña lo resuelve ahora el DOM nativo o los frameworks modernos.",
+    "temas": [
+      "jQuery 1.10 / 2.0",
+      "Selectores",
+      "Eventos",
+      "Animaciones",
+      "Manipulación del DOM",
+      "Ajax",
+      "Deferred y promesas",
+      "Plugins",
+      "jQuery UI",
+      "QUnit",
+      "Closures"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://subscription.packtpub.com/book/web-development/9781782163145/3/ch03/handling-events",
+      "https://subscription.packtpub.com/book/web-development/9781782163145/7/ch07/using-plugins",
+      "https://subscription.packtpub.com/book/web-development/9781782163145/13/ch13/advanced-ajax",
+      "https://subscription.packtpub.com/book/web-development/9781782163145/13/ch13lvl1sec106/exercises",
+      "https://packtpub.com/en-nl/product/learning-jquery-fourth-edition-9781782163145/chapter/styling-and-animating-4/section/exercises-ch04lvl1sec37",
+      "https://subscription-non-live.prod.packtpub.com/book/web-development/9781782163145/appB",
+      "https://book.douban.com/subject/25733582/"
+    ]
+  },
+  "mastering-jquery-2015": {
+    "descripcion": "Libro de nivel avanzado de Alex Libby, autor prolífico de títulos de Packt sobre jQuery, HTML5 y CSS, pensado para quienes ya usan jQuery a diario y quieren sacarle más partido. Trabaja con las versiones de 2015 (ramas 1.x y 2.x) y supone un nivel intermedio en jQuery, JavaScript, HTML5 y CSS.\n\nEl recorrido empieza por aspectos que suelen pasarse por alto: instalar jQuery con gestores de paquetes, personalizar la descarga, usar source maps y crear builds a medida de la librería. Sigue con la organización del código mediante patrones de diseño, formularios con validación avanzada basada en expresiones regulares, integración de Ajax, animaciones, manejo avanzado de eventos, efectos y APIs web de rendimiento y del navegador, como la Page Visibility API. Después aborda la manipulación de imágenes, la creación de plugins avanzados, el uso de jQuery en aplicaciones de escritorio con node-webkit (hoy NW.js), la optimización del rendimiento y las pruebas con QUnit, automatizadas con Node.js y RequireJS.\n\nEs un libro de ejemplos prácticos, no de proyectos guiados: cada capítulo propone demos pequeñas que el lector construye y ejecuta para ver cada técnica. Su valor está en mostrar el ecosistema alrededor de jQuery (herramientas de build, testing, rendimiento) más que en repasar la API básica, que se da por sabida. Algunas herramientas que menciona quedaron desfasadas, y el libro trata cada tema con amplitud más que con profundidad, así que conviene tomarlo como un mapa de técnicas avanzadas para el mantenimiento de proyectos jQuery.",
+    "temas": [
+      "jQuery avanzado",
+      "Builds personalizados",
+      "Patrones de diseño",
+      "Validación de formularios",
+      "Ajax",
+      "Animaciones",
+      "Eventos avanzados",
+      "Page Visibility API",
+      "Plugins avanzados",
+      "node-webkit",
+      "Rendimiento",
+      "QUnit"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://subscription.packtpub.com/book/web-development/9781783985463/pref02",
+      "https://subscription.packtpub.com/book/web-development/9781783985463/3",
+      "https://www.goodreads.com/book/show/25787828-mastering-jquery",
+      "https://tenlong.com.tw/products/9781783985463"
+    ]
+  },
+  "jquery-novice-to-ninja-2010": {
+    "descripcion": "Primera edición del libro de SitePoint en el que Earle Castledine ('Mr. Speaker') y Craig Sharkie enseñan jQuery desde lo más básico hasta técnicas avanzadas, con el tono ameno característico de la colección Novice to Ninja. Corresponde a la época de jQuery 1.4 (2010) y está dirigido a diseñadores y desarrolladores que ya dominan HTML y CSS a nivel intermedio o avanzado; tener algunas nociones de programación ayuda, aunque no es imprescindible.\n\nLos capítulos se organizan según los componentes de interfaz que se piden en un sitio real: selección y decoración de elementos, animación, desplazamiento y redimensionado, imágenes y presentaciones de diapositivas, menús, pestañas, tooltips y paneles, Ajax e interactividad, formularios, controles y diálogos, listas, árboles y tablas, y para terminar plugins, temas y temas avanzados. Se apoya en jQuery UI para widgets y temas y explica cómo escribir plugins propios. Los apéndices incluyen referencias y conceptos de JavaScript útiles para el resto del libro.\n\nEl hilo conductor es StarTrackr!, un sitio ficticio de seguimiento de celebridades para un cliente imaginario: cada capítulo añade funciones nuevas al proyecto, lo que da contexto práctico a cada técnica. Es una introducción muy accesible y bien escrita, aunque ya muy desfasada; la segunda edición (2012) la amplió con jQuery Mobile. Hoy sirve sobre todo para entender patrones clásicos de interfaz y código heredado, no como guía de desarrollo front-end actual.",
+    "temas": [
+      "jQuery 1.4",
+      "Selectores",
+      "Animaciones",
+      "Slideshows",
+      "Menús y pestañas",
+      "Tooltips",
+      "Ajax",
+      "Formularios",
+      "jQuery UI",
+      "Plugins",
+      "Tablas y árboles"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "StarTrackr!",
+        "descripcion": "Sitio ficticio de seguimiento de celebridades que se va ampliando capítulo a capítulo con jQuery y jQuery UI: efectos, galerías, menús, pestañas, formularios, Ajax y tablas interactivas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.sitepoint.com/books/jquery1/",
+      "https://www.sitepoint.com/jquery-tutorial-select-css/",
+      "https://qcpl.quezoncity.gov.ph/catalog/24629",
+      "https://www.oreilly.com/pub/pr/2509",
+      "https://www.oreilly.com/library/view/jquery-novice-to/9780987153012/"
+    ]
+  },
+  "jquery-for-dummies-2010": {
+    "descripcion": "Guía introductoria de la serie For Dummies de Wiley, escrita por Lynn Beighley, diseñadora y desarrolladora web y autora de varios libros y cursos. Se publicó en 2010, en la época de jQuery 1.4, y está pensada para principiantes absolutos: no supone experiencia previa en programación, solo nociones de HTML y CSS para crear páginas.\n\nEstá organizada en siete partes y 22 capítulos. Empieza por instalar jQuery, seleccionar elementos y manejar eventos; sigue con efectos para ocultar, deslizar, desvanecer y animar elementos, y con la manipulación de la página: crear contenido dinámico, aplicar clases CSS y reemplazar, eliminar o copiar elementos. Dedica varios capítulos a plugins y widgets (efectos de imagen, formularios, maquetación, calendarios y componentes de interfaz), y explica Ajax con jQuery y sus plugins. Un rasgo poco común es la parte sobre gestores de contenido, que muestra cómo integrar jQuery en Drupal, Joomla! y WordPress. Cierra con las clásicas listas de diez: plugins, trucos de diseño y de código, y recursos.\n\nEs un libro de recetas cortas y ejemplos fáciles de seguir, ideal para quien quiere añadir interactividad a su sitio o a su CMS sin aprender JavaScript a fondo. Justamente por eso apenas explica el lenguaje ni las buenas prácticas de organización del código, y no guía la construcción de una aplicación completa. Muchos plugins que recomienda están abandonados; hoy su utilidad es sobre todo histórica o para mantener sitios antiguos.",
+    "temas": [
+      "jQuery 1.4",
+      "Selectores",
+      "Eventos",
+      "Efectos y animaciones",
+      "Manipulación del DOM",
+      "Plugins",
+      "Widgets",
+      "Ajax",
+      "WordPress",
+      "Drupal",
+      "Joomla!"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://gov.wiley.com/WileyCDA/WileyTitle/productCd-0470584459,descCd-tableOfContents.html",
+      "https://gov.wiley.com/WileyCDA/WileyTitle/productCd-0470584459,descCd-authorInfo.html",
+      "https://skillsoft.com/book/jquery-for-dummies-53a5a680-f025-11e6-be4a-0242c0a80906"
+    ]
+  },
+  "professional-jquery-2012": {
+    "descripcion": "Manual de la serie Wrox Professional en el que Cesar Otero y Rob Larsen recorren jQuery a fondo, desde el núcleo hasta funciones avanzadas. Trabaja con jQuery 1.7.1 y señala las diferencias con versiones anteriores cuando hace falta. La editorial lo dirige a desarrolladores que ya tienen experiencia con HTML, CSS y JavaScript, no a principiantes absolutos. Aun así, algunas reseñas opinan que encaja mejor con programadores de JavaScript que están empezando con jQuery que con perfiles intermedios.\n\nLa primera parte cubre lo esencial: puesta en marcha y depuración, un repaso breve de JavaScript, el núcleo de jQuery, los selectores agrupados por tipo y la gestión de eventos entre navegadores. En eventos explica primero el antiguo bind y después on/off. Siguen formularios y Ajax, y luego animaciones y efectos (mover, desvanecer, alternar, redimensionar), con una breve incursión en canvas. La segunda parte, más aplicada, presenta jQuery UI con ThemeRoller, sus widgets e interacciones de ratón (arrastrar, seleccionar, ordenar, redimensionar). También trata el rendimiento con mediciones en navegadores, el plugin jQuery Templates, la creación de plugins para jQuery y jQuery UI, la programación asíncrona con el objeto Deferred y las pruebas unitarias con QUnit.\n\nNo hay un proyecto guiado: avanza con ejemplos de código cortos y muchas tablas de métodos y parámetros, así que a ratos se lee como una referencia comentada. Su mayor aporte está en los capítulos de rendimiento, buenas prácticas, Deferred y QUnit, poco tratados en otros libros de la época. Conviene saber que jQuery Templates ya estaba obsoleto cuando se publicó y que gran parte de la API refleja jQuery 1.7. Hoy sirve sobre todo para entender o mantener código jQuery heredado.",
+    "temas": [
+      "jQuery 1.7",
+      "Selectores",
+      "Manipulación del DOM",
+      "Eventos",
+      "Ajax",
+      "Animaciones y efectos",
+      "jQuery UI",
+      "ThemeRoller",
+      "Creación de plugins",
+      "Deferred",
+      "QUnit",
+      "Rendimiento"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Professional+jQuery-p-9781118026687",
+      "https://i-programmer.info/bookreviews/29-javascript/5875-professional-jquery.html",
+      "https://www.goodreads.com/book/show/20454427-professional-jquery"
+    ]
+  },
+  "web-development-with-jquery-2015": {
+    "descripcion": "Obra extensa de Richard York para Wrox, revisión y continuación de su libro de 2009 Beginning JavaScript and CSS Development with jQuery. Más de la mitad del contenido es nuevo o se actualizó. Está pensado para desarrolladores web de nivel intermedio que conocen HTML, CSS y algo de JavaScript y quieren dominar jQuery como herramienta diaria, desde la API básica hasta jQuery UI y plugins de terceros.\n\nLa primera parte recorre la API de jQuery: selección y filtrado de elementos, recorrido y manipulación del DOM, eventos, manipulación de CSS, Ajax, animaciones, desarrollo de plugins y arrastrar y soltar con HTML5. Esta edición amplía los temas de eventos, CSS, Ajax, animación y drag and drop. La segunda parte se dedica a jQuery UI: draggable y droppable, sortable, selectable, y los widgets accordion, datepicker, dialog y tabs. La tercera trabaja con plugins de terceros como Tablesorter para tablas interactivas. Según la editorial, también incluye material sobre aplicaciones móviles y jQuery Mobile.\n\nLa última parte es la más práctica: en cada capítulo se construye una pieza concreta, como un pase de diapositivas interactivo, un reproductor que controla audio y video HTML5 y un editor WYSIWYG sencillo. Su punto fuerte es la amplitud y las explicaciones detalladas, propias de un libro de referencia y aprendizaje a la vez. Por su tamaño, conviene usarlo por capítulos y no leerlo de corrido. Hay que tener en cuenta que se centra en el jQuery de 2014–2015 y no trata frameworks modernos ni herramientas de compilación.",
+    "temas": [
+      "jQuery",
+      "Selectores y filtrado",
+      "Manipulación del DOM",
+      "Eventos",
+      "Ajax",
+      "Animaciones",
+      "Drag and drop HTML5",
+      "Plugins",
+      "jQuery UI",
+      "Tablesorter",
+      "Audio y video HTML5",
+      "jQuery Mobile"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pase de diapositivas interactivo",
+        "descripcion": "Slideshow construido con jQuery que combina manipulación del DOM, eventos y animaciones para navegar entre imágenes."
+      },
+      {
+        "nombre": "Controles de audio y video HTML5",
+        "descripcion": "Interfaz hecha con jQuery para controlar los elementos audio y video de HTML5 (reproducción, pausa y otros controles)."
+      },
+      {
+        "nombre": "Editor WYSIWYG sencillo",
+        "descripcion": "Editor de texto enriquecido básico en el navegador, con barra de herramientas manejada mediante jQuery."
+      },
+      {
+        "nombre": "Tabla interactiva con Tablesorter",
+        "descripcion": "Tabla HTML con ordenación por columnas usando el plugin de terceros Tablesorter."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/-/9781118866009/",
+      "https://tenlong.com.tw/products/9781118866078",
+      "https://www.ellibs.com/book/9781118866078/web-development-with-jquery"
+    ]
+  },
+  "jquery-ui-in-action-2014": {
+    "descripcion": "Guía práctica de Manning escrita por TJ VanToll, miembro del equipo central de jQuery UI, sobre cómo usar y personalizar los componentes de la biblioteca en su versión 1.11. Va dirigida a desarrolladores frontend y diseñadores web que ya tienen nociones básicas de jQuery y quieren crear interfaces ricas sin reinventar widgets. Prioriza escenarios de uso reales en vez de repetir la documentación de la API.\n\nEl libro se divide en tres partes. La primera presenta jQuery UI y muestra cómo mejorar interfaces con widgets. La segunda cubre el núcleo: los doce widgets (datepicker, dialog, autocomplete, tabs, accordion, slider, spinner, menu, tooltip, entre otros) aplicados a formularios, maquetación y utilidades, las cinco interacciones (draggable, droppable, resizable, selectable y sortable), los efectos visuales y el sistema de temas CSS con ThemeRoller. La tercera aborda el uso avanzado: la widget factory para crear plugins con estado y extender widgets existentes, la preparación de la aplicación para producción y un capítulo final que explica cómo funciona jQuery UI por dentro.\n\nLos ejemplos crecen de forma progresiva, desde colocar un datepicker en una página hasta interfaces completas con formulario de contacto y carrito de compras. Además, un capítulo entero construye una aplicación de búsqueda de vuelos. Insiste en técnicas que funcionan en distintos dispositivos, incluido el soporte táctil. Es probablemente el libro más sólido y actual sobre jQuery UI, y su capítulo sobre la widget factory resulta muy valioso. Eso sí, la biblioteca está hoy en modo de mantenimiento, así que conviene leerlo pensando en proyectos existentes o como estudio de diseño de componentes.",
+    "temas": [
+      "jQuery UI 1.11",
+      "Widgets",
+      "Datepicker",
+      "Dialog",
+      "Autocomplete",
+      "Interacciones",
+      "Drag and drop",
+      "Efectos",
+      "Temas CSS",
+      "ThemeRoller",
+      "Widget factory",
+      "Producción"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Formulario de contacto y carrito de compras",
+        "descripcion": "Interfaces construidas a lo largo de los capítulos con widgets de jQuery UI (datepicker, autocomplete, dialog, etc.) e interacciones como arrastrar y soltar productos al carrito."
+      },
+      {
+        "nombre": "Aplicación de búsqueda de vuelos",
+        "descripcion": "Aplicación completa del capítulo final de la tercera parte que integra widgets, temas y widgets propios creados con la widget factory en una interfaz de búsqueda de vuelos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/jquery-ui-in-action",
+      "https://www.manning.com/authors/tj-vantoll",
+      "https://bookshop.org/p/books/jquery-ui-in-action-tj-vantoll/d7592bcbf553d039"
+    ]
+  },
+  "jquery-ui-2012": {
+    "descripcion": "Guía introductoria de Eric Sarrion, publicada por O'Reilly en 2012, sobre jQuery UI, la biblioteca oficial de componentes de interfaz construida sobre jQuery. Trabaja con jQuery UI 1.8 y explica cómo añadir a una página web los widgets que HTML5 no trae de serie, como pestañas, acordeones y cuadros de diálogo, además de interacciones como arrastrar y soltar y el autocompletado, todo con muy poco código. Está pensada para principiantes y desarrolladores de nivel intermedio que ya conocen HTML, CSS, JavaScript y lo básico de jQuery (selectores, eventos y manipulación del DOM).\n\nSalvo el primero, cada capítulo trata una sola extensión de la biblioteca. El libro empieza con una introducción a jQuery UI y sigue con la gestión de pestañas (tabs), los menús de acordeón y los cuadros de diálogo. Después pasa por los botones, las barras de progreso, los sliders, los selectores de fecha (datepicker) y el autocompletado. La segunda parte se dedica a las interacciones: arrastrar y soltar (draggable y droppable), selección de elementos (selectable), reordenamiento (sortable) y redimensionamiento (resizable). Termina con los nuevos efectos visuales de la biblioteca. En cada componente se explica cómo crearlo con el método correspondiente y se incluyen tablas de referencia rápida con sus opciones, métodos y eventos.\n\nEl libro se practica con ejemplos cortos de HTML y JavaScript para cada widget, no con una aplicación completa. Lo que aporta es una referencia ordenada y fácil de consultar: como cada componente tiene su capítulo, se puede ir directamente al que haga falta. Como limitaciones, apenas trata casos reales ni temas avanzados, como crear widgets propios con la widget factory, la personalización a fondo de temas o la integración en aplicaciones grandes. Además, la versión 1.8 quedó muy atrás frente a jQuery UI 1.12/1.13, que cambiaron parte de la API, y hoy la biblioteca está en modo de mantenimiento. Sirve sobre todo para mantener proyectos heredados o para entender el enfoque clásico de jQuery para los componentes de interfaz.",
+    "temas": [
+      "jQuery UI 1.8",
+      "jQuery",
+      "Tabs",
+      "Accordion",
+      "Dialog",
+      "Datepicker",
+      "Autocomplete",
+      "Sliders y progress bars",
+      "Drag and drop",
+      "Sortable y resizable",
+      "Efectos visuales"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/jquery-ui/9781449325176",
+      "https://www.oreilly.com/library/view/jquery-ui/9781449325176/pr01.html",
+      "https://fale.io/blog/2012/04/17/jquery-ui-by-eric-sarrion-oreilly"
+    ]
+  },
+  "jquery-ui-1-10-the-user-interface-library-for-jquery-2013": {
+    "descripcion": "Nueva edición, actualizada por Alex Libby, del clásico de Packt que Dan Wellman empezó con versiones anteriores de jQuery UI. Esta está dedicada específicamente a jQuery UI 1.10 y requiere jQuery 1.6 o superior. Está pensada para diseñadores y desarrolladores frontend que quieren aprender jQuery UI rápido y ya manejan HTML, CSS y JavaScript, idealmente con algo de soltura en jQuery.\n\nEl libro dedica a cada componente un tratamiento paso a paso. Primero muestra una implementación básica y luego explora opciones de configuración, métodos y eventos personalizados que dispara cada widget, para adaptarlo a necesidades concretas. Recorre el framework CSS y los temas, los widgets de la biblioteca (pestañas, acordeón, diálogo, slider, barra de progreso, datepicker, botones, autocompletado, menús, tooltips y spinner, entre otros) y las interacciones de arrastrar y soltar, redimensionar, seleccionar y ordenar. Termina con los efectos de UI disponibles en jQuery UI. Incluye además un capítulo sobre la widget factory, que la editorial ofrece como descarga, con un ejemplo de creación de un widget propio.\n\nEs un libro amplio y de consulta práctica: en cada capítulo se construyen ejemplos funcionales del componente estudiado, a menudo combinados con datos remotos o con otros widgets, pero sin una aplicación integradora a lo largo del libro. Su principal valor es la cobertura exhaustiva de opciones y eventos de cada widget en la versión 1.10. Como contrapartida, tiene mucho de referencia y queda desfasado frente a jQuery UI 1.11 y posteriores. Conviene tener a mano la documentación oficial para revisar los cambios de API.",
+    "temas": [
+      "jQuery UI 1.10",
+      "Framework CSS",
+      "Temas",
+      "Widgets",
+      "Tabs",
+      "Dialog",
+      "Datepicker",
+      "Autocomplete",
+      "Interacciones",
+      "Efectos",
+      "Widget factory"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://subscription.packtpub.com/book/web-development/9781782162209/1",
+      "https://tenlong.com.tw/products/9781782162209",
+      "https://www.goodreads.com/work/editions/40567164-jquery-ui-1-10-the-user-interface-library-for-jquery",
+      "https://www.packtpub.com/product/jquery-ui-1-10-the-user-interface-library-for-jquery/9781782162209"
+    ]
+  },
+  "jquery-ui-cookbook-2013": {
+    "descripcion": "Recetario de Adam Boduch, publicado por Packt en 2013, que recorre todos los widgets de jQuery UI de la rama 1.10, la vigente en ese momento. No es un libro de iniciación. Está pensado para desarrolladores de nivel intermedio que ya han escrito código con jQuery UI y quieren mejorar aplicaciones existentes, encontrar ideas nuevas o entender mejor cómo está construida la arquitectura de widgets. Se da por sentado que el lector maneja bien jQuery, HTML, CSS y JavaScript.\n\nHay un capítulo por componente: acordeones, autocompletado, botones, datepickers, diálogos, menús, barras de progreso, sliders, spinners, pestañas y tooltips. Cierra con un capítulo final de widgets y técnicas avanzadas. Las recetas van desde ajustes visuales pequeños, como controlar el espaciado con el theme framework, dar estilo a una barra de progreso o añadir efectos al hover de los botones, hasta cambios de comportamiento más profundos. Algunos ejemplos: arrastrar secciones entre acordeones, construir menús de forma dinámica, aplicar efectos a los menús desplegables, conectar diálogos con datos de una API mediante objetos deferred, ordenar pestañas, mostrar el progreso de una subida de archivos, marcar los incrementos de un slider y mostrar tooltips sobre el texto seleccionado. También trata la widget factory para extender o crear widgets propios, las utilidades de eventos que comunican unos widgets con otros y la integración de widgets en aplicaciones Backbone.\n\nEl libro funciona como obra de consulta: cada receta resuelve un problema concreto y explica la solución, y no hay una aplicación completa que recorra todo el libro. Lo mejor que aporta es entender por dentro cómo se extienden los widgets y las convenciones de código pensadas para que el resultado sea fácil de mantener. Hay que tener en cuenta que corresponde a jQuery UI 1.10. Las versiones posteriores (1.11 y 1.12) cambiaron algunas APIs y, sobre todo, los temas, y hoy jQuery UI está en modo de mantenimiento. Conviene leerlo como referencia para mantener proyectos que ya usan la librería, más que como punto de partida para proyectos nuevos.",
+    "temas": [
+      "jQuery UI 1.10",
+      "Widgets",
+      "Widget factory",
+      "Theme framework",
+      "Acordeones",
+      "Autocompletado",
+      "Datepickers",
+      "Diálogos",
+      "Menús",
+      "Sliders y spinners",
+      "Tooltips",
+      "Backbone"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://books.google.com/books/about/JQuery_UI_Cookbook.html?id=UYokzPVFC0IC",
+      "https://www.packtpub.com/en-us/product/jquery-ui-cookbook-9781782162186",
+      "https://www.goodreads.com/work/editions/25666559-jquery-ui-cookbook"
+    ]
+  },
+  "mastering-jquery-ui-2015": {
+    "descripcion": "Libro avanzado de Vijay Joshi, publicado por Packt en 2015, para llevar el dominio de jQuery UI a nivel experto. Trabaja con jQuery UI 1.11.2 (con referencias a la 1.10.4) y jQuery 1.10.2. Va dirigido a desarrolladores frontend que ya usan jQuery y jQuery UI a diario y manejan con soltura HTML, CSS y JSON. Algunos capítulos necesitan además un servidor web (se recomienda Apache) con PHP 5.2 o superior.\n\nCada capítulo es un miniproyecto independiente que se puede leer en cualquier orden y que exprime uno o varios componentes. Las interacciones (draggable, droppable y sortable) se usan para quizzes, puzzles y CAPTCHAs. Sliders, tooltips, diálogos y spinners sirven para construir líneas de tiempo, tours guiados y gestores de fotos. Las pestañas se combinan con AJAX. El libro también muestra cómo mezclar jQuery UI con APIs externas como la de Reddit y Google Maps, cómo crear widgets propios con la widget factory y cómo aplicar buenas prácticas de rendimiento y de personalización visual con ThemeRoller, que se tratan en un apéndice.\n\nEs un libro muy práctico que muestra jQuery UI aplicado a casos concretos en lugar de repasar su API componente por componente, y deja ver opciones y matices de cada widget que la documentación oficial no explica. El capítulo final reúne lo anterior en un dashboard con varios widgets. Hay que tener en cuenta que no explica lo básico y que su tecnología está ya en modo de mantenimiento: interesa sobre todo a quien mantiene aplicaciones basadas en jQuery UI o quiere aprender a diseñar widgets reutilizables. Parte del código de servidor está en PHP, así que conviene tener nociones de ese lenguaje.",
+    "temas": [
+      "jQuery UI 1.11",
+      "Draggable y droppable",
+      "Sortable",
+      "Sliders",
+      "Tooltips y diálogos",
+      "Widget factory",
+      "AJAX",
+      "Reddit API",
+      "Google Maps API",
+      "ThemeRoller",
+      "PHP"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de quiz simple",
+        "descripcion": "Cuestionario en el que el usuario arrastra nombres de países sobre sus capitales correspondientes, construido con los componentes draggable y droppable."
+      },
+      {
+        "nombre": "Juego de rompecabezas (jigsaw puzzle)",
+        "descripcion": "Puzzle en el que hay que reordenar las piezas de una imagen arrastrándolas y soltándolas, usando las interacciones de jQuery UI."
+      },
+      {
+        "nombre": "Tour guiado por un sitio web",
+        "descripcion": "Recorrido paso a paso que resalta y explica las distintas partes de una página, apoyado en tooltips y diálogos."
+      },
+      {
+        "nombre": "Lector de noticias con pestañas",
+        "descripcion": "Lector que carga noticias de la API de Reddit mediante AJAX y las organiza en pestañas de jQuery UI."
+      },
+      {
+        "nombre": "CAPTCHA con draggable y droppable",
+        "descripcion": "Sistema de verificación en el que el usuario demuestra que es humano arrastrando elementos al lugar correcto."
+      },
+      {
+        "nombre": "Línea de tiempo de eventos",
+        "descripcion": "Línea de tiempo interactiva que, con un slider, muestra eventos de distintos años."
+      },
+      {
+        "nombre": "jQuery UI con Google Maps",
+        "descripcion": "Mashup con la API de Google Maps en el que un slider controla los marcadores del mapa y un spinner, el nivel de zoom."
+      },
+      {
+        "nombre": "Gestor de álbumes de fotos",
+        "descripcion": "Herramienta para organizar fotos en álbumes que combina componentes como sortable, diálogos y otras interacciones de jQuery UI."
+      },
+      {
+        "nombre": "Selector de color con conversión Hex/RGB",
+        "descripcion": "Color picker propio construido con sliders que convierte entre valores RGB y hexadecimales."
+      },
+      {
+        "nombre": "Dashboard completo",
+        "descripcion": "Panel que reúne varios widgets desarrollados a lo largo del libro en una sola interfaz, con botones para compartir."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.everand.com/book/272077551/Mastering-jQuery-UI",
+      "https://packtpub.com/en-us/product/mastering-jquery-ui-9781783286652",
+      "https://www.oreilly.com/library/view/mastering-jquery-ui/9781783286652/"
+    ]
+  },
+  "pro-jquery-mobile-2011": {
+    "descripcion": "Guía de Brad Broulik, publicada por Apress a finales de 2011, para crear aplicaciones web móviles multiplataforma con jQuery Mobile. Se escribió en torno a la versión 1.0 del framework, publicada pocas semanas antes. Pese al «Pro» del título, es accesible para desarrolladores web de nivel intermedio que ya tienen experiencia con jQuery, HTML y CSS y quieren llevar sus conocimientos al desarrollo móvil.\n\nLos diez capítulos empiezan explicando por qué usar jQuery Mobile y cómo poner en marcha el framework: plantilla de página, estructura y configuración. Después recorren los componentes de interfaz: barras de herramientas y de navegación, formularios y botones, list views y grids para maquetar contenido. También tratan el diseño con temas y swatches, y repasan a fondo la API de jQuery Mobile: opciones de configuración, métodos y el ciclo de eventos de página, que el autor resume en un diagrama publicado también en su blog. Los últimos capítulos presentan estrategias para integrar servicios web y Google Maps en las aplicaciones y para empaquetarlas y distribuirlas como apps nativas con PhoneGap.\n\nEl enfoque es explicativo, con muchos ejemplos de código, y Apress publica el código fuente en GitHub. No hay un gran proyecto que recorra todo el libro, aunque sí ejemplos de integración bastante completos. Su punto fuerte es cubrir la API de punta a punta y explicar con claridad los eventos de página. La pega es la antigüedad: describe jQuery Mobile 1.0, y versiones posteriores como la 1.3 y la 1.4 cambiaron temas, widgets y navegación. Además, el proyecto jQuery Mobile está hoy abandonado. Sirve sobre todo para entender o mantener aplicaciones de esa época.",
+    "temas": [
+      "jQuery Mobile 1.0",
+      "Plantilla de página",
+      "Toolbars y navbars",
+      "Formularios",
+      "List views",
+      "Grids",
+      "Temas",
+      "API de jQuery Mobile",
+      "Eventos de página",
+      "Google Maps",
+      "Servicios web",
+      "PhoneGap"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-3967-3",
+      "https://github.com/Apress/pro-jquery-mobile",
+      "http://bradbroulik.blogspot.com/2011/12/jquery-mobile-events-diagram.html",
+      "https://www.goodreads.com/work/editions/17294184-pro-jquery-mobile"
+    ]
+  },
+  "jquery-mobile-up-and-running-2012": {
+    "descripcion": "Guía introductoria de Maximiliano Firtman, especialista en desarrollo móvil y HTML5, publicada por O'Reilly en 2012. Enseña a crear con jQuery Mobile (versiones 1.0 y 1.1) una sola aplicación web que funcione en smartphones y tablets como iPhone, iPad, Android y Kindle Fire. El autor afirma que no hace falta experiencia previa en programación ni en jQuery. Aun así, quien conozca HTML y algo de JavaScript le sacará mucho más partido.\n\nEl libro empieza con un panorama de la plataforma móvil y los mitos de la web móvil, y explica cómo encaja jQuery Mobile con HTML5, CSS3 y JavaScript. Después presenta la arquitectura del framework y sus componentes de interfaz: toolbars, cabeceras y pies fijos, navbars, botones, listas y componentes de formulario. A continuación enseña a generar contenido dinámico con JavaScript, Ajax y el núcleo de jQuery, y a personalizar la interfaz con temas y CSS3. Dedica un capítulo a que el usuario instale la aplicación desde el navegador y la use sin conexión mediante el almacenamiento offline de HTML5. Termina mostrando cómo extender el framework con plugins y cómo empaquetar la aplicación como app nativa para las tiendas de aplicaciones.\n\nIncluye ejercicios prácticos a lo largo de los capítulos y un capítulo entero dedicado a construir una aplicación web completa que reúne lo aprendido. Su punto fuerte es la visión de conjunto del autor sobre la web móvil y el recorrido completo, desde el primer documento HTML5 hasta la publicación en tiendas. Hay que tener en cuenta que refleja el estado del ecosistema en 2012: versiones posteriores como la 1.4 cambiaron temas y navegación, y jQuery Mobile está hoy discontinuado. Por eso tiene más valor histórico o para mantener aplicaciones existentes que para proyectos nuevos.",
+    "temas": [
+      "jQuery Mobile 1.x",
+      "HTML5",
+      "CSS3",
+      "Componentes de interfaz",
+      "Listas",
+      "Formularios",
+      "Ajax",
+      "Temas",
+      "Modo offline",
+      "Plugins",
+      "Apps nativas empaquetadas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación web completa",
+        "descripcion": "Capítulo dedicado a construir una aplicación web móvil completa con jQuery Mobile, HTML5 y JavaScript que integra navegación, listas, formularios, temas y contenido dinámico vistos a lo largo del libro."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://books.google.com/books/about/JQuery_Mobile.html?id=LH9v7puyb80C",
+      "https://oreilly.com/library/view/jquery-mobile-up/9781449331085",
+      "https://www.amazon.com/jQuery-Mobile-Running-Maximiliano-Firtman/dp/1449397654"
+    ]
+  },
+  "creating-mobile-apps-with-jquery-mobile-2nd-edition-2015": {
+    "descripcion": "Segunda edición, publicada por Packt en 2015, del libro de Shane Gliser, ahora con Andy Matthews como coautor. Está actualizada a jQuery Mobile 1.4.5 y enseña a crear sitios y aplicaciones móviles responsive a través de una serie de casos prácticos. Va dirigida a desarrolladores web de nivel intermedio que ya manejan HTML, CSS, JavaScript y jQuery y quieren aplicar jQuery Mobile a proyectos con necesidades reales.\n\nEl libro empieza por el prototipado de interfaces con jQuery Mobile y avanza por casos cada vez más complejos. Aborda la medición con Google Analytics, los formularios largos con validación en el frontend usando jQuery Validate, los códigos QR, la API de Geolocalización con seguimiento de posición, la API de Google Maps y el vídeo HTML5. También trata las plantillas del lado del cliente consumiendo APIs JSON (incluida Google Feeds) con almacenamiento en Web Storage, y el audio HTML5. Dedica un capítulo a automatizar tareas repetitivas con Grunt, enseña a hacer una web totalmente responsive para fotógrafos con el plugin lightGallery y explica cómo integrar jQuery Mobile en sitios existentes, en gestores de contenido como WordPress y Drupal y en el generador estático HarpJS.\n\nEs un libro orientado a proyectos: cada capítulo resuelve el encargo de un cliente distinto, y el último reúne todo en la aplicación Flood.FM. Lo mejor que aporta es la mirada de flujo de trabajo profesional, que no se queda en los widgets e incluye analítica, automatización e integración con CMS. Hay que tener en cuenta que jQuery Mobile 1.4.5 fue prácticamente la última versión estable del framework, hoy discontinuado, y que herramientas como Grunt o la API de Google Feeds también han quedado atrás. Sirve para mantener proyectos heredados o para aprender buenas prácticas de web móvil de esa época.",
+    "temas": [
+      "jQuery Mobile 1.4.5",
+      "Prototipado",
+      "Google Analytics",
+      "jQuery Validate",
+      "Geolocalización",
+      "Google Maps API",
+      "Códigos QR",
+      "Vídeo y audio HTML5",
+      "Web Storage",
+      "Plantillas en el cliente",
+      "Grunt",
+      "WordPress y Drupal"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio móvil para un pequeño negocio familiar",
+        "descripcion": "Web móvil para un negocio local (un «mom-and-pop») construida con jQuery Mobile, que sirve para aplicar la estructura de páginas, la navegación y los temas del framework."
+      },
+      {
+        "nombre": "Formularios largos con analítica y validación",
+        "descripcion": "Formularios extensos optimizados para el móvil, con validación en el frontend mediante jQuery Validate y seguimiento del uso con Google Analytics."
+      },
+      {
+        "nombre": "App con QR, geolocalización y mapas",
+        "descripcion": "Aplicación que combina códigos QR, la API de Geolocalización, la API de Google Maps y vídeo HTML5 para ofrecer información según la ubicación del usuario."
+      },
+      {
+        "nombre": "Cliente de APIs JSON con plantillas",
+        "descripcion": "Aplicación que consume APIs JSON de terceros, genera la interfaz con plantillas del lado del cliente y guarda datos en Web Storage de HTML5."
+      },
+      {
+        "nombre": "Sitio de fotografía totalmente responsive",
+        "descripcion": "Web para fotógrafos que se adapta a cualquier pantalla y muestra las galerías con el plugin lightGallery."
+      },
+      {
+        "nombre": "Flood.FM",
+        "descripcion": "Proyecto final que reúne las técnicas del libro, como el audio HTML5, las plantillas y las APIs, en una aplicación móvil completa."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.schweitzer-online.de/buch/Gliser/Creating-Mobile-Apps-jQuery-Mobile/9781783555116/A30050850/",
+      "https://www.goodreads.com/work/editions/44925527-creating-mobile-apps-with-jquery-mobile---second-edition",
+      "https://en.bookmate.com/books/SvbevFkM"
+    ]
+  },
+  "jquery-mobile-cookbook-2012": {
+    "descripcion": "Recetario de Packt en el que Chetan K. Jain reúne más de 80 recetas para crear aplicaciones web móviles multiplataforma con jQuery Mobile, el framework de interfaz basado en HTML5, CSS3 y marcado declarativo construido sobre jQuery. Se publicó a finales de 2012, así que trabaja con las versiones 1.1–1.2 del framework, que eran las vigentes entonces. Sirve tanto a principiantes que ya manejan jQuery o JavaScript como a desarrolladores con experiencia que quieren ir más allá del uso básico y personalizar o extender el framework con scripts.\n\nLos capítulos siguen la estructura de jQuery Mobile: primeros pasos, páginas y diálogos, barras de herramientas, botones y formato de contenido, formularios y list views. Después pasa a temas más avanzados: opciones de configuración global, eventos del framework, métodos y utilidades de la API de JavaScript y el sistema de temas. Las recetas enseñan a crear aplicaciones de una sola página y de varias páginas, usar el caché de páginas para mejorar el rendimiento, aplicar transiciones personalizadas, sprites de iconos, estilos y temas propios, y combinar jQuery Mobile con la semántica y las nuevas funciones de HTML5.\n\nComo todo cookbook, se practica con fragmentos cortos y autocontenidos (problema, solución y explicación), no con una aplicación completa. Su punto fuerte es que cubre de forma sistemática la configuración, los eventos y los métodos, la parte peor documentada en su momento. Conviene saber que jQuery Mobile está hoy abandonado (el proyecto se dio por obsoleto en 2021) y que muchas APIs de la rama 1.2 cambiaron en la 1.4. Por eso el libro tiene sobre todo valor para mantener aplicaciones antiguas o para entender cómo funcionaba un framework móvil declarativo.",
+    "temas": [
+      "jQuery Mobile 1.2",
+      "Páginas y diálogos",
+      "Toolbars",
+      "Botones",
+      "Formularios",
+      "List views",
+      "Configuración",
+      "Eventos",
+      "Métodos y utilidades",
+      "Theme framework",
+      "Transiciones",
+      "HTML5"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://ebookpoint.pl/ksiazki/jquery-mobile-cookbook-over-80-recipes-with-examples-and-practical-tips-to-help-you-quickly-learn-a-chetan-jain,e_3cse.htm",
+      "https://skoobe.de/books/chetan-k-jain/jquery-mobile-cookbook",
+      "https://tenlong.com.tw/products/9781849517225"
+    ]
+  },
+  "jquery-mobile-web-development-essentials-2nd-edition-2013": {
+    "descripcion": "Segunda edición de la guía práctica de Raymond Camden y Andy Matthews sobre jQuery Mobile, actualizada a la versión 1.3.2 del framework (los autores aclaran que no llegaron a esperar la 1.4). Está dirigida a desarrolladores web que quieren crear sitios optimizados para móviles. Solo pide conocimientos básicos de HTML: tener alguna soltura con JavaScript ayuda, pero no es imprescindible.\n\nEl libro parte de páginas HTML simples y muestra cómo jQuery Mobile las mejora automáticamente con atributos data-*. Desde ahí recorre los bloques del diseño por componentes: páginas, cabeceras, pies y barras de herramientas, listas, formularios, diálogos, grids y bloques plegables. Esta edición añade las novedades de interfaz de la 1.3, como los paneles laterales y las tablas responsive. Después pasa a la configuración, los eventos, la API de JavaScript para sitios más complejos y la personalización del aspecto mediante temas. Cada widget se explica con ejemplos detallados y capturas de pantalla.\n\nLo aprendido se aplica construyendo tres aplicaciones móviles de ejemplo a lo largo del libro, por lo que conviene leerlo en orden, ya que los capítulos se apoyan unos en otros. Su estilo es claro y accesible, ideal como primer contacto con el framework, aunque se queda en un nivel introductorio-intermedio. Ten en cuenta que la versión 1.4 cambió el sistema de temas y deprecó varias APIs, y que jQuery Mobile hoy está abandonado. Existe una tercera edición de 2016 actualizada a la 1.4.",
+    "temas": [
+      "jQuery Mobile 1.3",
+      "Atributos data-*",
+      "Páginas",
+      "Toolbars",
+      "Listas",
+      "Formularios",
+      "Paneles",
+      "Tablas responsive",
+      "Eventos",
+      "API JavaScript",
+      "Temas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tres aplicaciones móviles de ejemplo",
+        "descripcion": "A lo largo del libro se desarrollan tres aplicaciones web móviles con jQuery Mobile que combinan páginas, listas, formularios, eventos y la API de JavaScript. En otras ediciones de la serie incluyen, por ejemplo, una app de notas (Notekeeper) y un lector RSS."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.raymondcamden.com/2013/09/26/jQuery-Mobile-Web-Development-Essentials-Second-Edition",
+      "https://balka-book.com/javascript_jquery_dojo-313/jquery_mobile_web_development_essentials_second_edition-12858",
+      "https://www.goodreads.com/work/editions/21404238-jquery-mobile-web-development-essentials?page=1"
+    ]
+  },
+  "mastering-jquery-mobile-2015": {
+    "descripcion": "Libro avanzado de la serie Mastering de Packt en el que Chip Lambert y Shreerang Patwardhan abordan temas de jQuery Mobile que van más allá de la documentación oficial. Trabaja con la rama 1.4 del framework (los ejemplos usan jQuery Mobile 1.4.5 junto con jQuery 1.11). Está pensado para quienes ya han empezado con jQuery Mobile y tienen experiencia previa en JavaScript y PHP.\n\nPrimero prepara el entorno de desarrollo, con Aptana Studio y XAMPP en local, y presenta herramientas de prueba multiplataforma como Screenfly y ThemeRoller para los temas. También introduce el diseño móvil: diseño responsive con media queries, detección de características y de dispositivos, y una breve introducción a RESS. Luego profundiza en la navegación táctil y las transiciones entre páginas, en los widgets y controles (páginas, paneles, popups, toolbars y navbars) con su configuración, inicialización y eventos, y en el manejo de datos con PHP: formularios, validación y base de datos. La parte final añade iconos personalizados, convierte la app en nativa con Apache Cordova y explora integraciones con Node.js, Backbone.js, RequireJS y un tema móvil para WordPress, además de buenas prácticas y optimización.\n\nLa columna vertebral es un proyecto principal que crece capítulo a capítulo, complementado con ejemplos independientes sobre funciones avanzadas. Aporta una visión más completa que la típica introducción, porque une interfaz, backend en PHP y empaquetado nativo. A cambio, algunas integraciones (Node.js, Backbone, WordPress) se tratan solo de forma superficial. Conviene saber que tanto jQuery Mobile como Backbone y RequireJS son hoy tecnologías heredadas, así que su utilidad actual es sobre todo de mantenimiento o de referencia.",
+    "temas": [
+      "jQuery Mobile 1.4",
+      "Diseño responsive",
+      "Detección de dispositivos",
+      "ThemeRoller",
+      "Navegación y transiciones",
+      "Widgets",
+      "PHP",
+      "Formularios y bases de datos",
+      "Apache Cordova",
+      "Backbone.js",
+      "RequireJS",
+      "Optimización"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "App del Anytown Civic Center",
+        "descripcion": "Sitio y aplicación móvil para un centro cívico ficticio que muestra los próximos eventos y permite enviar consultas sobre ellos. Se construye con jQuery Mobile y PHP con base de datos, y al final se empaqueta como app nativa con Cordova."
+      },
+      {
+        "nombre": "Proyectos independientes avanzados",
+        "descripcion": "Ejemplos sueltos que muestran jQuery Mobile junto a Node.js, su integración con Backbone.js y RequireJS, y la creación de un tema móvil básico para WordPress."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://iweb.qq.com/read/1036703400/7",
+      "https://ebookpoint.pl/ksiazki/mastering-jquery-mobile-design-and-develop-cutting-edge-mobile-web-applications-using-jquery-mobile-chip-lambert-chip-lambert-shreerang-patwardhan,e_3cgp.htm",
+      "https://tenlong.com.tw/products/9781783559084"
+    ]
+  },
+  "jquery-mobile-in-24-hours-2012": {
+    "descripcion": "Título de la colección Sams Teach Yourself en el que Phil Dutson enseña, en 24 lecciones de aproximadamente una hora, a crear sitios y aplicaciones móviles con jQuery Mobile. Se publicó en 2012, cuando estaba vigente la versión 1.1 del framework. Es para principiantes: repasa desde cero HTML, CSS, JavaScript y jQuery antes de entrar en el framework, así que basta con tener nociones generales de desarrollo web.\n\nLa primera parte presenta jQuery Mobile, los data-roles, la estructura de una página y los eventos de inicialización. La segunda se dedica a la interfaz: capacidades de los dispositivos (resolución, PPI, sistemas y navegadores), diseños de una y varias páginas, grids, contenido plegable, toolbars, botones e iconos, formularios, listas con búsqueda y miniaturas, eventos táctiles, de ratón virtual y de orientación, y el theme framework. Después aborda la personalización con media queries, ThemeRoller, licencias de imágenes y fuentes, y detección de dispositivos con .htaccess, PHP y JavaScript. La última parte va más allá del framework: vídeo incrustado (YouTube, Vimeo y alojamiento propio) y su codificación, códigos QR y Microsoft Tag, compresión con gzip/deflate y mod_pagespeed en Apache, emuladores, empaquetado con PhoneGap y creación de un tema móvil para WordPress.\n\nCada lección incluye instrucciones paso a paso, preguntas de repaso y ejercicios, y las lecciones se van apoyando unas en otras. Su valor está en la amplitud: además del framework, cubre el contexto práctico de publicar un sitio móvil (rendimiento, vídeo, pruebas, empaquetado nativo). A cambio, no profundiza en la API de JavaScript ni en arquitecturas de aplicaciones complejas. Hoy es material histórico, porque jQuery Mobile, PhoneGap y Microsoft Tag están descontinuados.",
+    "temas": [
+      "jQuery Mobile 1.1",
+      "HTML, CSS y JavaScript",
+      "jQuery",
+      "Toolbars y botones",
+      "Formularios y listas",
+      "Eventos táctiles",
+      "ThemeRoller",
+      "Media queries",
+      "Detección de dispositivos",
+      "Vídeo móvil",
+      "PhoneGap",
+      "WordPress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "App con PhoneGap y jQuery Mobile",
+        "descripcion": "En la hora 23 se construye y compila una aplicación móvil que empaqueta una interfaz de jQuery Mobile como app nativa con PhoneGap."
+      },
+      {
+        "nombre": "Tema móvil para WordPress",
+        "descripcion": "En la hora 24 se crea un tema de WordPress que incorpora jQuery Mobile para servir el sitio con una interfaz optimizada para móviles."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/sams-teach-yourself-jquery-mobile-in-24-hours-9780672335945",
+      "https://www.oreilly.com/library/view/sams-teach-yourself/9780132966245/",
+      "https://tenlong.com.tw/products/9780672335945"
+    ]
+  }
+}

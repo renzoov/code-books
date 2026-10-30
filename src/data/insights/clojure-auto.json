@@ -1,0 +1,381 @@
+{
+  "quick-clojure-2017": {
+    "descripcion": "Guía práctica de Mark McDonnell publicada por Apress en 2017. Diseñada como una introducción acelerada y directa al lenguaje Clojure para desarrolladores que trabajan en la Máquina Virtual de Java (JVM).\n\nEl libro recorre la sintaxis Lisp con mínimos paréntesis innecesarios: colecciones inmutables (vectores, listas, mapas y sets), funciones puras, secuencias perezosas (lazy sequences) y desestructuración. Enseña a utilizar el gestor de dependencias y construcción Leiningen, a trabajar interactivamente con el REPL y a interoperar sin problemas con clases y métodos de Java.\n\nEs un manual conciso que permite a programadores orientados a objetos familiarizarse rápidamente con el pensamiento funcional y la inmutabilidad de Clojure.",
+    "temas": [
+      "Clojure",
+      "Lisp",
+      "JVM",
+      "Leiningen",
+      "REPL",
+      "Secuencias perezosas",
+      "Programación funcional",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Herramienta de Consola Funcional en Clojure",
+        "descripcion": "Desarrollo de una utilidad interactiva en Clojure que procesa y transforma flujos de datos mediante secuencias perezosas y composición de funciones puras."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2952-1",
+      "https://github.com/Apress/quick-clojure"
+    ]
+  },
+  "clojure-in-action-2011": {
+    "descripcion": "Manual exhaustivo de Amit Rathore publicado por Manning en 2011. Introduce el desarrollo práctico en Clojure guiando a programadores Java a través del cambio de paradigma hacia la programación funcional y la gestión segura de concurrencia.\n\nEl autor cubre las estructuras de datos inmutables y persistentes, las funciones de orden superior y el modelo de concurrencia sin bloqueos de Clojure basado en Software Transactional Memory (STM), Refs, Atoms y Agents. Enseña a interactuar con librerías Java, crear macros para extender el lenguaje y desarrollar aplicaciones web con Compojure y Ring persistiendo datos en bases de datos relacionales y NoSQL.\n\nA lo largo del texto se construye una aplicación web colaborativa completa. Destaca por su enfoque práctico y riguroso para adoptar Clojure en entornos de backend corporativos.",
+    "temas": [
+      "Clojure",
+      "STM (Software Transactional Memory)",
+      "Atoms y Refs",
+      "Ring y Compojure",
+      "Macros",
+      "Concurrencia",
+      "Manning in Action"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web Concurrente con Clojure y Ring",
+        "descripcion": "Construcción completa de una aplicación web multiusuario gestionada con Ring y Compojure, utilizando Atoms y STM para el control de estado concurrente."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/clojure-in-action",
+      "https://github.com/amitrathore/clojure-in-action"
+    ]
+  },
+  "the-joy-of-clojure-2nd-edition-2014": {
+    "descripcion": "Segunda edición de la célebre obra de Michael Fogus y Chris Houser, publicada por Manning en 2014. Considerada un clásico moderno de la literatura de programación, no se limita a enseñar la sintaxis, sino que enseña a 'pensar en Clojure' de manera profunda e idiomática.\n\nLos autores analizan los principios filosóficos de Rich Hickey: la separación de identidad y estado, el polimorfismo basado en tipos y protocolos (defprotocol, deftype), la potencia de las transducciones y el diseño de sistemas basados en transformaciones de datos puras sin efectos secundarios. Cubre la metaprogramación elegante con macros y la interoperabilidad fluida con la JVM.\n\nEs una lectura intelectualmente estimulante que desafía las convenciones del diseño orientado a objetos tradicional. Es el libro de cabecera que transforma a desarrolladores noveles en auténticos programadores funcionales de Clojure.",
+    "temas": [
+      "Clojure idiomático",
+      "Michael Fogus",
+      "Filosofía funcional",
+      "Protocolos y Tipos",
+      "Identidad y Estado",
+      "Transductores",
+      "Manning"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/the-joy-of-clojure-second-edition",
+      "https://joyofclojure.com/"
+    ]
+  },
+  "clojure-cookbook-2014": {
+    "descripcion": "Recetario comunitario editado por Luke VanderHart y Ryan Neufeld, publicado por O'Reilly en 2014. Reúne decenas de recetas prácticas aportadas por los desarrolladores más experimentados de la comunidad internacional de Clojure.\n\nLa obra compila soluciones directas para: procesamiento de texto, manipulación de colecciones y estructuras asociativas, concurrencia y paralelismo con `core.async`, programación de servidores web con Ring, acceso a bases de datos relacionales con clojure.java.jdbc y motores NoSQL, y testing y despliegue de artefactos en producción.\n\nCada receta expone el código funcional idiomático acompañado de una discusión técnica detallada. Es una herramienta indispensable para resolver con elegancia problemas cotidianos en proyectos de software basados en Clojure.",
+    "temas": [
+      "Clojure",
+      "Recetas prácticas",
+      "core.async",
+      "Ring",
+      "Bases de datos",
+      "Concurrencia",
+      "O'Reilly"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/clojure-cookbook/9781449366384/",
+      "https://github.com/clojure-cookbook/clojure-cookbook"
+    ]
+  },
+  "clojure-programming-2012": {
+    "descripcion": "Tratado exhaustivo de Chas Emerick, Brian Carper y Christophe Grand, publicado por O'Reilly en 2012. Ofrece una cobertura enciclopédica del lenguaje Clojure, sus fundamentos teóricos y sus aplicaciones prácticas en el mundo real.\n\nEl contenido abarca desde el núcleo funcional y el modelo de concurrencia de Clojure hasta la creación de aplicaciones web escalables con Ring y Compojure, la metaprogramación avanzada con macros y la integración con la base de datos distribuida Datomic. Explora en profundidad la interoperabilidad bidireccional con Java y el diseño de sistemas concurrentes masivos.\n\nRespaldado por proyectos completos y un rigor técnico impecable, es una de las referencias más respetadas y citadas para la adopción corporativa de Clojure sobre la JVM.",
+    "temas": [
+      "Clojure",
+      "Chas Emerick",
+      "Concurrencia STM",
+      "Ring y Compojure",
+      "Datomic",
+      "Macros",
+      "Interoperabilidad Java",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Servicios Web Distribuida con Clojure",
+        "descripcion": "Desarrollo de una arquitectura web backend con Ring y Compojure, almacenamiento de datos inmutable y gestión de hilos concurrentes en la JVM."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/clojure-programming/9781449310387/",
+      "https://github.com/clojurebook/ClojureProgramming"
+    ]
+  },
+  "clojurescript-up-and-running-2012": {
+    "descripcion": "Guía práctica de Stuart Sierra y Luke VanderHart, publicada por O'Reilly en 2012. Enseña a utilizar ClojureScript para compilar el poder expresivo de Clojure directamente a código JavaScript eficiente para navegadores y motores web.\n\nLos autores explican la configuración del compilador de ClojureScript, la integración con el optimizador Google Closure Compiler para generar paquetes compactos, y la manipulación funcional del DOM. Detalla el flujo de desarrollo interactivo mediante REPL en el navegador y el uso de librerías cliente para crear interfaces de usuario dinámicas.\n\nEs la obra de referencia histórica que abrió el camino al desarrollo frontend funcional sobre JavaScript, sirviendo como fundamento directo para librerías reactivas posteriores como Reagent y Om.",
+    "temas": [
+      "ClojureScript",
+      "JavaScript",
+      "Google Closure Compiler",
+      "Stuart Sierra",
+      "Frontend funcional",
+      "REPL",
+      "O'Reilly"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web Frontend Interactiva con ClojureScript",
+        "descripcion": "Construcción de una interfaz de usuario reactiva en ClojureScript compilada a JavaScript optimizado para ejecutarse en el navegador con soporte REPL en vivo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/clojurescript-up-and/9781449327422/",
+      "https://clojurescript.org/"
+    ]
+  },
+  "living-clojure-2015": {
+    "descripcion": "Manual formativo y ameno de Carin Meier publicado por O'Reilly en 2015. Plantea un programa estructurado de aprendizaje de 7 semanas para que cualquier programador se sienta cómodo y productivo programando en Clojure.\n\nEl libro guía al lector a través de colecciones inmutables, funciones puras, resolución de acertijos de programación ('koans'), y herramientas modernas de concurrencia como `core.async`. Explora la creación de microservicios y la interacción con hardware y visualizaciones interactivas de datos.\n\nSu estilo accesible, fresco y estructurado paso a paso hace que la transición mental hacia el paradigma funcional sea divertida y gradual. Es uno de los recursos educativos más recomendados para principiantes en Clojure.",
+    "temas": [
+      "Clojure",
+      "Carin Meier",
+      "Entrenamiento funcional",
+      "Koans",
+      "core.async",
+      "Estructuras inmutables",
+      "O'Reilly"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Simulador de Vida Artificial con Clojure y core.async",
+        "descripcion": "Implementación de una simulación interactiva con autómatas celulares utilizando procesos concurrentes comunicados por canales en core.async."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/living-clojure/9781491909287/",
+      "https://github.com/gigasquid/living-clojure-code"
+    ]
+  },
+  "clojure-high-performance-programming-2013": {
+    "descripcion": "Monografía técnica de Shantanu Kumar publicada por Packt en 2013. Se centra exclusivamente en exprimir al máximo el rendimiento y la velocidad de ejecución de aplicaciones Clojure sobre la Máquina Virtual de Java.\n\nEl autor analiza los cuellos de botella más habituales: la eliminación del 'boxing' de tipos primitivos mediante anotaciones de tipo (type hints), el uso de estructuras de datos transitorias (transients) para mutabilidad local controlada, y la optimización de algoritmos mediante llamadas a primitivas nativas de Java. Cubre la paralelización con reducers, el profiling de CPU y memoria en la JVM y técnicas de reducción de pausas del recolector de basura (GC).\n\nEs una lectura de ingeniería imprescindible para desarrolladores que necesitan ejecutar cargas de trabajo de baja latencia o cómputo masivo en Clojure sin sacrificar la elegancia del código funcional.",
+    "temas": [
+      "Clojure",
+      "Alto rendimiento",
+      "JVM Tuning",
+      "Type Hints",
+      "Transients",
+      "Reducers",
+      "Garbage Collection",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/clojure-high-performance-programming-9781782165606",
+      "https://github.com/PacktPublishing/Clojure-High-Performance-Programming"
+    ]
+  },
+  "clojure-reactive-programming-2015": {
+    "descripcion": "Guía especializada de Leonardo Borges publicada por Packt en 2015. Enseña a construir aplicaciones reactivas, asíncronas y resilientes combinando Clojure y ClojureScript con los principios del Manifiesto Reactivo.\n\nEl texto desglosa el uso de la librería `core.async` (modelo CSP de procesos comunicados por canales similar a Go), flujos de eventos reactivos con RxClojure (Reactive Extensions) y arquitecturas dirigidas por eventos. Enseña a coordinar peticiones asíncronas sin caer en el infierno de callbacks, gestionar el estado del cliente con Reagent y construir servicios web no bloqueantes.\n\nA través de ejemplos prácticos y visuales, el lector aprende a manejar flujos continuos de datos en tiempo real de manera declarativa y predecible. Es un recurso clave para dominar la programación reactiva en el ecosistema de Clojure.",
+    "temas": [
+      "Clojure",
+      "Programación reactiva",
+      "core.async",
+      "RxClojure",
+      "ClojureScript",
+      "CSP",
+      "Reagent",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Dashboard en Tiempo Real Reactivo con core.async",
+        "descripcion": "Construcción de un panel de control interactivo en ClojureScript y core.async que consume eventos continuos mediante WebSockets y actualiza la interfaz reactivamente."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/clojure-reactive-programming-9781783986668",
+      "https://github.com/leonardo-borges/clojure-reactive-programming"
+    ]
+  },
+  "clojure-web-development-essentials-2015": {
+    "descripcion": "Manual paso a paso de Ryan Baldwin publicado por Packt en 2015. Diseñado para enseñar a desarrolladores cómo construir aplicaciones web completas y robustas en Clojure utilizando el stack tecnológico estándar de la comunidad.\n\nEl autor guía al lector a través de la arquitectura web de Clojure: el middleware Ring como especificación HTTP subyacente, el enrutador Compojure, el motor de plantillas Selmer para renderizado HTML dinámico y la persistencia relacional con Korma ORM sobre bases de datos SQL. Además, cubre la validación de formularios, autenticación con sesiones y contraseñas seguras, y la creación de APIs REST.\n\nEl aprendizaje se basa en la construcción de una aplicación web real de catálogo y comercio electrónico. Es un libro formativo ideal para programadores de Python, Ruby o PHP que quieren crear su primera web completa en Clojure.",
+    "temas": [
+      "Clojure",
+      "Desarrollo web",
+      "Ring",
+      "Compojure",
+      "Selmer",
+      "Korma ORM",
+      "APIs REST",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Web Completo con Clojure, Ring y Compojure",
+        "descripcion": "Desarrollo de una aplicación web comercial con autenticación de usuarios, vistas dinámicas con Selmer, enrutamiento con Compojure y base de datos con Korma."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/clojure-web-development-essentials-9781785282881",
+      "https://github.com/PacktPublishing/Clojure-Web-Development-Essentials"
+    ]
+  },
+  "clojure-applied-2015": {
+    "descripcion": "Tratado de ingeniería de software escrito por Ben Vandgrift y Alex Miller (desarrollador líder de Clojure en Cognitect), publicado por The Pragmatic Programmers en 2015. Enseña a llevar Clojure desde el conocimiento de la sintaxis básica hasta la arquitectura y diseño de aplicaciones de producción reales.\n\nLos autores abordan cómo modelar entidades de dominio mediante mapas inmutables, diseñar pipelines de transformación de datos con funciones puras, gestionar recursos del sistema y dependencias con Component, y estructurar aplicaciones en capas mantenibles. Explora el manejo seguro de mutabilidad, concurrencia en la práctica y pruebas de software automáticas.\n\nEs un manual de arquitectura pragmática imprescindible para cualquier equipo que desarrolla software comercial en Clojure, ofreciendo patrones consolidados para evitar errores de diseño.",
+    "temas": [
+      "Clojure",
+      "Alex Miller",
+      "Arquitectura de software",
+      "Component framework",
+      "Modelado de datos",
+      "Pipelines funcionales",
+      "Pragmatic Programmers"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Procesamiento Empresarial con Component",
+        "descripcion": "Diseño de un servicio corporativo en Clojure estructurado en capas con el framework Component, pipelines de datos puros y persistencia desacoplada."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://pragprog.com/titles/vmcloj/clojure-applied/",
+      "https://github.com/alexdmiller/clojure-applied-code"
+    ]
+  },
+  "mastering-clojure-macros-2014": {
+    "descripcion": "Monografía especializada de Colin Jones publicada por The Pragmatic Programmers en 2014. Dedicada por completo a desmitificar y dominar el sistema de macros de Clojure, la herramienta de metaprogramación más poderosa del lenguaje.\n\nEl autor desglosa el ciclo de evaluación del código (tiempo de lectura, macroexpansión y tiempo de compilación), el uso preciso de las comillas sintácticas (`syntax-quote`), la evaluación dinámica con `unquote` y `unquote-splicing`, y la prevención de colisiones de variables mediante identificadores higiénicos generados automáticamente con `gensym`. Además, enseña a construir DSLs expresivos y a evitar los abusos comunes de las macros.\n\nCon un tono didáctico y entretenido, este libro convierte un tema a menudo considerado complejo en algo accesible y aplicable en proyectos reales. Es la guía definitiva sobre macros en Clojure.",
+    "temas": [
+      "Clojure",
+      "Macros",
+      "Metaprogramación",
+      "DSL",
+      "Syntax-quote",
+      "Gensym",
+      "Pragmatic Programmers"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Lenguaje de Dominio Específico (DSL) con Macros en Clojure",
+        "descripcion": "Construcción de un mini-lenguaje declarativo para reglas de negocio mediante macros higiénicas que transforman la sintaxis en código funcional optimizado."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://pragprog.com/titles/cjclm/mastering-clojure-macros/",
+      "https://github.com/colinfjones/mastering-clojure-macros"
+    ]
+  },
+  "programming-clojure-2nd-edition-2012": {
+    "descripcion": "Segunda edición del manual fundacional escrito por Stuart Halloway y Aaron Bedra, publicado por The Pragmatic Programmers en 2012. Actualizado para Clojure 1.3, es una de las presentaciones más respetadas y rigurosas de la visión y las capacidades de Clojure.\n\nLos autores guían al lector a través de la inmutabilidad, las estructuras de datos persistentes, la programación funcional pura y el modelo de concurrencia basado en STM, Refs, Atoms y Agents. Enseña a interoperar con el rico ecosistema de Java, diseñar protocolos y tipos personalizados y extender el lenguaje mediante macros.\n\nFiel al estilo pedagógico inconfundible de Pragmatic Bookshelf, combina teoría conceptual sólida con ejemplos prácticos y concisos. Es una de las mejores obras de referencia para entender por qué Clojure es tan valioso en la ingeniería de software moderna.",
+    "temas": [
+      "Clojure 1.3",
+      "Stuart Halloway",
+      "Inmutabilidad",
+      "STM",
+      "Protocolos",
+      "Concurrencia",
+      "Pragmatic Programmers"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de Simulación y Análisis Concurrente en Clojure",
+        "descripcion": "Implementación de un sistema de simulación multi-hilo en la JVM con control transaccional de memoria (STM) y estructuras inmutables persistentes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://pragprog.com/titles/shcloj2/programming-clojure-2nd-edition/",
+      "https://github.com/stuarthalloway/programming-clojure"
+    ]
+  },
+  "web-development-with-clojure-2nd-edition-2016": {
+    "descripcion": "Segunda edición del aclamado manual de Dmitri Sotnikov (creador del popular framework Luminus), publicado por The Pragmatic Programmers en 2016. Enseña a construir aplicaciones web completas, modernas y listas para producción en Clojure y ClojureScript.\n\nEl autor estructura el backend sobre Luminus, integrando Ring, Compojure, migraciones de base de datos con Migratus y consultas seguras con HugSQL. En el frontend, enseña a construir interfaces dinámicas de una sola página (SPA) con ClojureScript y Reagent (wrapper reactivo de React). Además, cubre la autenticación con sesiones cifradas, WebSockets para comunicación en tiempo real y despliegue con contenedores.\n\nA lo largo del texto se construye una aplicación web colaborativa completa. Es la guía por excelencia para cualquier desarrollador que busca un flujo de trabajo full-stack productivo y moderno con Clojure.",
+    "temas": [
+      "Clojure Web",
+      "Luminus",
+      "ClojureScript",
+      "Reagent (React)",
+      "HugSQL",
+      "WebSockets",
+      "Pragmatic Programmers"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web Full-Stack Colaborativa con Luminus y Reagent",
+        "descripcion": "Construcción completa de una aplicación SPA con frontend en Reagent/ClojureScript, backend en Luminus/Ring, persistencia con HugSQL y WebSockets en vivo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://pragprog.com/titles/dswcloj2/web-development-with-clojure-second-edition/",
+      "https://luminusweb.com/"
+    ]
+  },
+  "professional-clojure-2016": {
+    "descripcion": "Manual exhaustivo y corporativo escrito por Jeremy Anderson, Justin Holguín, Michael Gaare, Nick Bailey y Timothy Pratley, publicado por Wrox en 2016. Enfocado en el uso y la implantación de Clojure en grandes empresas y proyectos de escala industrial.\n\nLa obra aborda la arquitectura de sistemas distribuidos en Clojure, el procesamiento de datos masivos y flujos de trabajo asíncronos con core.async, la integración con sistemas corporativos legados en Java, y la construcción de APIs seguras y mantenibles. Dedica capítulos sustanciales a las mejores prácticas de testing automatizado, profiling de rendimiento, monitorización en producción y despliegue continuo.\n\nSu enfoque está claramente dirigido a ingenieros de software senior y arquitectos que necesitan justificar, diseñar y mantener proyectos de Clojure en entornos corporativos exigentes. Es una referencia muy sólida para la práctica profesional del lenguaje.",
+    "temas": [
+      "Clojure empresarial",
+      "Wrox",
+      "Sistemas distribuidos",
+      "core.async",
+      "Integración Java corporativa",
+      "Testing y Profiling",
+      "Arquitectura de software"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Servicios Distribuidos Empresarial",
+        "descripcion": "Diseño de una arquitectura de servicios de backend corporativa en Clojure con procesamiento asíncrono con core.async, monitorización y tests automatizados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Professional+Clojure-p-9781119267270"
+    ]
+  }
+}

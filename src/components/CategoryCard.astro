@@ -1,0 +1,75 @@
+---
+import TechLogo from './TechLogo.astro';
+import { categoryHref, type Category } from '../lib/data';
+
+interface Props {
+  category: Category;
+}
+const { category: c } = Astro.props;
+// Tamaño en la grilla bento según el número de libros. Los umbrales están ajustados para que las 11
+// categorías llenen exactamente 6 filas de 4 columnas (2 dobles, 7 anchas y 2 simples): si cambian mucho
+// los totales, conviene revisarlos para no dejar huecos.
+const size = c.total >= 500 ? 'big' : c.total >= 220 ? 'wide' : 'small';
+// Secciones con más libros primero; las tarjetas grandes muestran también sus nombres.
+const top = [...c.techs].sort((a, b) => b.total - a.total);
+const logos = top.slice(0, size === 'small' ? 4 : 7);
+const extra = c.techs.length - logos.length;
+---
+
+<a
+  href={categoryHref(c)}
+  class:list={[
+    'group relative flex flex-col justify-between gap-4 overflow-hidden rounded-2xl border border-line bg-panel p-5 transition hover:-translate-y-0.5 hover:border-[var(--c)]',
+    size === 'big' && 'sm:col-span-2 sm:row-span-2 sm:p-7',
+    size === 'wide' && 'sm:col-span-2',
+  ]}
+  style={`--c:${c.color}`}
+>
+  <div
+    class:list={[
+      'pointer-events-none absolute rounded-full opacity-20 blur-3xl transition group-hover:opacity-35',
+      size === 'big' ? '-right-16 -top-16 size-72' : '-right-10 -top-10 size-40',
+    ]}
+    style="background:var(--c)"
+  >
+  </div>
+
+  <div class="relative flex flex-wrap items-center gap-2">
+    {
+      logos.map((t) => (
+        <span
+          class:list={[
+            'grid place-items-center rounded-lg border border-line bg-ink/60',
+            size === 'big' ? 'size-10 p-2 sm:size-12 sm:p-2.5' : 'size-9 p-1.5',
+          ]}
+          style={`color:${t.color}`}
+          title={t.nombre}
+        >
+          <TechLogo tech={t.slug} class="size-full" aria-hidden="true" />
+        </span>
+      ))
+    }
+    {extra > 0 && <span class="font-mono text-xs text-muted">+{extra}</span>}
+  </div>
+
+  <div class="relative">
+    <h3
+      class:list={['w-fit font-bold leading-tight', size === 'big' ? 'text-3xl sm:text-5xl' : 'text-2xl']}
+      style="color:var(--c)"
+      data-morph-tech={`cat-${c.slug}`}
+    >
+      {c.nombre}
+    </h3>
+    <p class="mt-2 font-mono text-xs text-muted">
+      {c.techs.length} secciones · {c.total} libros
+    </p>
+    {
+      size === 'big' && (
+        <p class="mt-4 hidden text-sm text-[#cdd3df] sm:block">
+          {top.slice(0, 8).map((t) => t.nombre).join(' · ')}
+          {c.techs.length > 8 && ' …'}
+        </p>
+      )
+    }
+  </div>
+</a>

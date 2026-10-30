@@ -1,0 +1,10 @@
+---
+// Enlace "← volver" de las páginas internas. data-direction="back" hace que la transición de página
+// se anime hacia atrás aunque sea una navegación nueva (ver Layout.astro).
+interface Props {
+  href: string;
+}
+const { href } = Astro.props;
+---
+
+<a href={href} data-direction="back" class="font-mono text-sm text-muted hover:text-white"><slot /></a>

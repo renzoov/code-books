@@ -1,0 +1,204 @@
+{
+  "realtime-web-apps-2013": {
+    "descripcion": "Libro de Apress (2013), cuyo título completo es «Realtime Web Apps: With HTML5 WebSocket, PHP, and jQuery», en el que Jason Lengstorf y Phil Leggetter enseñan a añadir comunicación en tiempo real a aplicaciones web con el stack clásico de la época: HTML5, PHP, MySQL y jQuery. La editorial lo presenta como un libro para principiantes e intermedios, pero en la práctica requiere soltura previa con HTML, CSS, JavaScript y PHP, porque esas tecnologías se introducen muy por encima.\n\nLa primera parte explica cómo se resolvía antes el tiempo real, con long polling y HTTP streaming, y luego introduce WebSocket y su protocolo. A continuación repasa las herramientas que se usarán y presenta Pusher, un servicio alojado que ofrece canales y eventos sobre WebSocket con alternativas automáticas para navegadores antiguos. La segunda parte trata la planificación de la aplicación: aplicaciones nativas frente a web, la definición de objetivos, el patrón MVC, la normalización de la base de datos y los wireframes. La tercera parte se ocupa del diseño visual (tipografía y formularios), del maquetado en HTML y CSS, de un pequeño framework MVC propio en PHP para el backend, de las animaciones con jQuery y de la autenticación con OAuth.\n\nTodo el libro gira en torno a una aplicación de preguntas y respuestas en tiempo real que funciona en navegadores de escritorio y móviles, y que se desarrolla desde el diseño hasta la implementación. Es útil como caso práctico de una aplicación completa, pero conviene saber que gran parte del libro trata temas ajenos al tiempo real, como el diseño, el MVC o la base de datos, y que la API de WebSocket apenas se explica, porque la comunicación se delega en Pusher. Quien busque entender WebSocket a bajo nivel o montar su propio servidor de tiempo real debería complementarlo con un libro centrado en el protocolo.",
+    "temas": [
+      "WebSocket",
+      "Long polling",
+      "HTTP streaming",
+      "Pusher",
+      "PHP",
+      "MySQL",
+      "jQuery",
+      "MVC",
+      "OAuth",
+      "Diseño de aplicaciones web",
+      "Tiempo real"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de preguntas y respuestas en tiempo real",
+        "descripcion": "Aplicación web de varias páginas en la que las preguntas y respuestas de los asistentes se actualizan al instante en escritorio y móvil. Usa HTML5, CSS y jQuery en el frontend, un framework MVC propio en PHP con MySQL en el backend, Pusher para los eventos en tiempo real y OAuth para la autenticación."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/realtime-web-apps/9781430246206/",
+      "https://i-programmer.info/bookreviews/12-web-design-and-development-/6965-realtime-web-apps.html",
+      "https://link.springer.com/10.1007/978-1-4302-4621-3"
+    ]
+  },
+  "the-definitive-guide-to-html5-websocket-2013": {
+    "descripcion": "Guía de Apress (2013) escrita por Vanessa Wang, Frank Salim y Peter Moskovits, ingenieros de Kaazing, una empresa especializada en infraestructura WebSocket. Explica la API de WebSocket de HTML5 y el protocolo estandarizado en el RFC 6455, recién publicado entonces. Está dirigida a desarrolladores web que conocen JavaScript y nociones de HTTP y quieren entender tanto el uso de la API como lo que pasa por la red y cómo llevar WebSocket a entornos empresariales.\n\nTras una introducción a WebSocket y su motivación frente a las técnicas de polling, los capítulos dedicados a la API y al protocolo explican los eventos, los métodos y los atributos del objeto WebSocket en el navegador, el handshake de apertura, el formato de las tramas, el enmascarado y el cierre de la conexión. La parte más original del libro muestra cómo montar protocolos de alto nivel sobre WebSocket: XMPP para mensajería instantánea y chat, STOMP para mensajería de publicación y suscripción con un broker de mensajes, y el protocolo Remote Framebuffer (RFB) de VNC para el control remoto de escritorios desde el navegador. Cierra con capítulos sobre seguridad (modelo de origen, TLS, amenazas habituales) y sobre despliegue en producción (proxies, balanceo de carga, cortafuegos), además de apéndices con herramientas para inspeccionar el tráfico WebSocket.\n\nEl libro combina explicación conceptual con ejemplos funcionales para cada protocolo: un cliente de chat sobre XMPP, una aplicación de publicación y suscripción con STOMP y un cliente VNC en el navegador. Su gran aporte es mostrar WebSocket como capa de transporte para protocolos existentes, y no solo como canal para enviar mensajes sueltos. Por su fecha, no trata Socket.IO moderno, HTTP/2 ni WebSocket sobre HTTP/2 (RFC 8441), y algunas herramientas que menciona han cambiado. Aun así, sigue siendo una buena base para entender el protocolo y su arquitectura.",
+    "temas": [
+      "HTML5 WebSocket",
+      "API de WebSocket",
+      "RFC 6455",
+      "Handshake y tramas",
+      "XMPP",
+      "Chat",
+      "STOMP",
+      "Publicación/suscripción",
+      "VNC / RFB",
+      "Seguridad",
+      "Despliegue empresarial"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Chat y mensajería instantánea con XMPP sobre WebSocket",
+        "descripcion": "Cliente web de chat que usa XMPP sobre WebSocket para mensajería instantánea y presencia, conectado a un servidor XMPP."
+      },
+      {
+        "nombre": "Mensajería publicación/suscripción con STOMP",
+        "descripcion": "Ejemplo que monta STOMP sobre WebSocket para publicar mensajes y suscribirse a ellos a través de un broker de mensajes desde el navegador."
+      },
+      {
+        "nombre": "Cliente VNC con Remote Framebuffer Protocol",
+        "descripcion": "Cliente de escritorio remoto en el navegador que transporta el protocolo RFB de VNC sobre WebSocket."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/-/9781430247401/",
+      "https://www.oreilly.com/library/view/the-definitive-guide/9781430247401/9781430247401_Ch04.xhtml",
+      "https://skillsoft.com/book/the-definitive-guide-to-html5-websocket-7a635c50-f1dc-11e6-b696-0242c0a80a09"
+    ]
+  },
+  "the-websocket-protocol-2011": {
+    "descripcion": "No es un libro, sino el RFC 6455, la especificación oficial del protocolo WebSocket publicada por la IETF en diciembre de 2011 como estándar propuesto. Sus autores son Ian Fette (Google) y Alexey Melnikov (Isode). Define cómo un cliente, normalmente un navegador, y un servidor mantienen una comunicación bidireccional sobre una única conexión TCP sin abrir conexiones HTTP repetidas. Está dirigido a quienes implementan clientes, servidores, proxies o librerías de WebSocket, y a desarrolladores que quieren entender el protocolo a fondo. Requiere conocer bien HTTP y TCP.\n\nEl documento describe el handshake de apertura, que es una petición HTTP Upgrade con las cabeceras Sec-WebSocket-Key, Sec-WebSocket-Accept, Sec-WebSocket-Version, Sec-WebSocket-Protocol y Sec-WebSocket-Extensions. También especifica el formato de las tramas (bit FIN, opcodes, longitud de la carga, enmascarado obligatorio desde el cliente), la fragmentación de mensajes, las tramas de control ping, pong y close, el handshake de cierre con sus códigos de estado, los esquemas de URI ws:// y wss://, y el mecanismo de subprotocolos y extensiones. Dedica un apartado amplio a la seguridad: el modelo basado en el origen que usan los navegadores, el enmascarado contra el envenenamiento de cachés de proxies y la validación de las entradas.\n\nAl ser una especificación normativa, no tiene ejercicios ni proyectos. Su lenguaje es preciso y formal, con los términos MUST, SHOULD y MAY del RFC 2119, y sirve como referencia definitiva para resolver dudas de interoperabilidad. Conviene saber que se ha ampliado después: el RFC 7936 (registro de cabeceras), el RFC 8307 (URI conocidas) y el RFC 8441 (WebSocket sobre HTTP/2). Además, la extensión de compresión permessage-deflate se define aparte, en el RFC 7692. Para aprender a usar WebSocket en una aplicación es mejor empezar por un libro práctico y consultar el RFC cuando haga falta.",
+    "temas": [
+      "RFC 6455",
+      "Protocolo WebSocket",
+      "Handshake HTTP Upgrade",
+      "Formato de tramas",
+      "Enmascarado",
+      "Ping/Pong",
+      "Handshake de cierre",
+      "Subprotocolos",
+      "Extensiones",
+      "ws:// y wss://",
+      "Seguridad basada en origen"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://datatracker.ietf.org/doc/rfc6455",
+      "https://www.rfc-editor.org/info/rfc6455",
+      "https://www.rfc-editor.org/inline-errata/rfc6455.html"
+    ]
+  },
+  "websocket-lightweight-client-server-communications-2015": {
+    "descripcion": "Guía práctica y breve de O'Reilly en la que Andrew Lombardi enseña a usar WebSocket para crear aplicaciones en el navegador que se comportan como aplicaciones de escritorio, con comunicación bidireccional sobre una sola conexión en lugar de Ajax, Comet o long polling. Está dirigida a desarrolladores que conocen JavaScript y, preferiblemente, algo de Node.js, que es la plataforma de servidor de todos los ejemplos.\n\nEmpieza con la instalación de Node.js y npm y un «Hola, mundo» con WebSocket. Luego recorre la API del navegador: los eventos open, message, error y close, el ping/pong, los métodos send y close, los atributos readyState, bufferedAmount y protocol, y cómo detectar si el navegador admite WebSocket. Después implementa STOMP 1.0 sobre WebSocket con RabbitMQ y su plugin Web-Stomp, y compara alternativas de compatibilidad para navegadores antiguos: SockJS, Socket.IO (incluido su modo con Adobe Flash) y el servicio comercial Pusher, además del uso de proxies inversos. Los capítulos finales tratan la seguridad (WebSocket sobre TLS con certificados autofirmados, el modelo de seguridad basado en el origen, clickjacking y X-Frame-Options, denegación de servicio, enmascarado de tramas y validación de clientes), la depuración con OWASP ZAP para inspeccionar el handshake y las tramas, y un repaso detallado del protocolo: handshake, cabeceras Sec-WebSocket-Key y Sec-WebSocket-Accept, bit FIN, opcodes, fragmentación, cierre, subprotocolos y extensiones.\n\nLos ejemplos se van construyendo a lo largo de los capítulos: una interfaz de cotizaciones bursátiles con su servidor, una aplicación de chat bidireccional que se vuelve a implementar con SockJS, Socket.IO y Pusher, y un demonio de precios de acciones conectado a RabbitMQ mediante STOMP. Es una introducción compacta y muy completa para sus 144 páginas, y su punto fuerte es que combina el uso práctico con la depuración y la seguridad. No trata frameworks de frontend ni el escalado horizontal de servidores WebSocket, y como todo el servidor es Node.js, quien trabaje con otro lenguaje tendrá que adaptar el código. Algunas soluciones de compatibilidad, como el modo Flash de Socket.IO, ya están obsoletas.",
+    "temas": [
+      "WebSocket API",
+      "Node.js",
+      "Chat bidireccional",
+      "STOMP",
+      "RabbitMQ",
+      "SockJS",
+      "Socket.IO",
+      "Pusher",
+      "TLS / wss",
+      "Seguridad",
+      "Depuración con ZAP",
+      "Protocolo WebSocket"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Cotizaciones bursátiles en tiempo real",
+        "descripcion": "Interfaz web con un servidor Node.js que envía precios de acciones por WebSocket. Sirve para practicar los eventos, métodos y atributos de la API."
+      },
+      {
+        "nombre": "Chat bidireccional",
+        "descripcion": "Aplicación de chat con identidad de clientes, eventos y notificaciones, cliente en el navegador y servidor en Node.js. Después se vuelve a implementar con SockJS, Socket.IO y Pusher para comparar las opciones de compatibilidad."
+      },
+      {
+        "nombre": "Demonio de precios con STOMP y RabbitMQ",
+        "descripcion": "Servidor que implementa STOMP 1.0 sobre WebSocket y se conecta a RabbitMQ para distribuir precios de acciones. También incluye un cliente de eco con el plugin Web-Stomp."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/websocket-lightweight-client-server-communications-andrew-lombardi,e_2g40.htm",
+      "https://bookshare.org/browse/book/1574005",
+      "https://bookwire.bowker.com/book/AUS/WebSocket-9781449369279-Andrew-Lombardi-49192936"
+    ]
+  },
+  "getting-started-with-html5-websocket-programming-2013": {
+    "descripcion": "Introducción breve y práctica de Vangos Pterneas, publicada por Packt en 2013, a la programación en tiempo real con la API WebSocket de HTML5. Explica cómo WebSocket ofrece comunicación bidireccional y full-duplex sobre una conexión TCP persistente, con menos sobrecarga y menos latencia que técnicas anteriores como el polling, el long-polling o Comet. Está pensada para desarrolladores que empiezan con el tiempo real y que ya conocen lo básico del desarrollo frontend: HTML/XHTML y JavaScript.\n\nEl recorrido empieza con el contexto: el handshake de WebSocket, la evolución desde el polling y el streaming, quién usa ya la tecnología y su papel en dispositivos móviles. Después presenta la API WebSocket del lado del cliente (apertura de la conexión, eventos, envío y recepción de mensajes) y pasa a configurar un servidor, tras repasar las tecnologías disponibles para ello (C/C++, Java, .NET, PHP, Python, Ruby o JavaScript). También trata el envío de distintos tipos de datos, incluidos datos binarios como imágenes y vídeo, la seguridad frente a ataques habituales, el manejo de errores, las técnicas de respaldo (fallback) para navegadores antiguos y, en el último capítulo, el salto a los móviles: web móvil frente a aplicación nativa y la creación de una app para iPhone, con notas para el iPad.\n\nEl ejemplo central es una aplicación de chat sencilla que crece capítulo a capítulo hasta tener envío de mensajes entre usuarios y de contenido multimedia, además de una versión móvil. Con unas 110 páginas, funciona bien como primer contacto con WebSocket, pero no profundiza en arquitectura de servidores, escalabilidad ni librerías como Socket.IO. Además, sus menciones a la compatibilidad de navegadores y a los fallbacks reflejan el panorama de 2013, que hoy está superado: la API WebSocket es estándar en todos los navegadores modernos.",
+    "temas": [
+      "WebSocket API",
+      "HTML5",
+      "Handshake",
+      "Polling vs WebSocket",
+      "Configuración del servidor",
+      "Datos binarios",
+      "Seguridad",
+      "Manejo de errores",
+      "Fallbacks",
+      "Aplicaciones móviles",
+      "Chat en tiempo real"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de chat con WebSocket",
+        "descripcion": "Chat web que se construye a lo largo del libro con la API WebSocket de HTML5 y JavaScript: intercambia mensajes de texto y datos binarios (imágenes y vídeo) a través de un servidor WebSocket, con fallbacks para navegadores antiguos y una versión adaptada a móviles."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://skoobe.de/books/vangos-pterneas/getting-started-with-html5-websocket-programming",
+      "https://tenlong.com.tw/products/9781782166962",
+      "https://eld.bl.uk/catalog/018005413",
+      "https://subscription.packtpub.com/book/web_development/9781782166962/1/ch01lvl1sec08/life-before-websocket"
+    ]
+  },
+  "websocket-essentials-building-apps-with-html5-websockets-2015": {
+    "descripcion": "Guía breve de Varun Chopra, publicada por Packt en 2015, para crear aplicaciones web en tiempo real con el protocolo WebSocket y las funciones modernas de HTML5. Se dirige a desarrolladores web que quieren incorporar WebSocket a sus aplicaciones para navegadores modernos. Basta con conocer HTML, CSS y JavaScript; algo de experiencia con Node.js ayuda, pero no es imprescindible.\n\nEl libro arranca con un repaso del ecosistema de las aplicaciones web y de los primeros pasos con WebSocket: la API del navegador, sus eventos y el envío de mensajes. Después explica cómo configurar un servidor WebSocket con Node.js y transmitir datos en tiempo real entre usuarios, y lleva esos conceptos a escenarios reales. Los capítulos finales tratan el uso de WebSocket en móviles y tabletas y el desarrollo con herramientas modernas de la época, como AngularJS y Bootstrap, para estructurar la aplicación y su interfaz.\n\nLa práctica gira en torno a una aplicación de dibujo colaborativo en tiempo real, donde varios usuarios ven al instante los trazos de los demás, y a una aplicación para compartir presentaciones. Es una introducción ágil y concreta, útil para entender el flujo cliente-servidor de WebSocket con Node.js. Su brevedad (unas 110 páginas) implica que no cubre escalado, autenticación ni librerías como Socket.IO en profundidad. Además, AngularJS ya está descontinuado, así que esa parte conviene leerla como referencia conceptual.",
+    "temas": [
+      "WebSocket",
+      "HTML5",
+      "Node.js",
+      "Servidor WebSocket",
+      "Datos en tiempo real",
+      "Canvas",
+      "AngularJS",
+      "Bootstrap",
+      "Móviles y tabletas",
+      "Colaboración en tiempo real"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de dibujo colaborativo en tiempo real",
+        "descripcion": "Aplicación HTML5 en la que varios usuarios dibujan a la vez y ven los trazos de los demás al instante; los datos se envían mediante WebSocket a un servidor Node.js que los reenvía a los demás usuarios."
+      },
+      {
+        "nombre": "Aplicación para compartir presentaciones",
+        "descripcion": "App web que usa un servidor Node.js y WebSocket para sincronizar en tiempo real una presentación entre quien la dirige y los espectadores."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://reference-global.com/book/9781784395001",
+      "https://packtpub.com/en-us/product/websocket-essentials-building-apps-with-html5-websockets-9781784395001",
+      "https://www.oreilly.com/library/view/websocket-essentials/9781784396756/"
+    ]
+  }
+}

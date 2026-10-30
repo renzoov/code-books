@@ -1,0 +1,312 @@
+{
+  "essential-sharepoint-2013-3rd-edition-2014": {
+    "descripcion": "Guía estratégica y arquitectónica de referencia escrita por Scott Jamison, Susan Hanley y Chris Bortlik, orientada a la planificación, gobierno y despliegue eficaz de soluciones sobre SharePoint 2013 (abarcando implementaciones locales de SharePoint Server 2013 y despliegues en la nube con SharePoint Online en Office 365). Está dirigida a arquitectos de soluciones, consultores empresariales, directores de TI y administradores de negocio de nivel intermedio que conocen los conceptos básicos de Microsoft SharePoint y buscan asegurar que las implantaciones ofrezcan un retorno medible y resuelvan problemas operativos reales.\n\nA lo largo de sus secciones, los autores profundizan en los componentes de arquitectura empresarial de la plataforma sin atarse a código de programación. Detallan la formulación de marcos de gobernanza operativa y de negocio, el diseño de la arquitectura de información mediante el Servicio de Metadatos Administrados (Managed Metadata Service), tipos de contenido corporativos y taxonomías empresariales, así como la gestión de contenido empresarial (ECM), retención documental y eDiscovery. Analizan a fondo el motor Enterprise Search de SharePoint 2013 y sus Display Templates, las funciones sociales y de colaboración comunitaria (con integración de Yammer y My Sites), los servicios de Business Intelligence (Excel Services, Visio Services, PerformancePoint) y la integración nativa con la suite Microsoft Office 2013.\n\nEn lugar de ejercicios de codificación o proyectos de desarrollo de software guiados paso a paso, la obra proporciona planes de adopción de usuarios, modelos de evaluación de ROI, matrices de gobernanza y listas de control arquitectónico directamente reutilizables. Aporta un valor sobresaliente al cubrir el factor humano y organizativo, que suele ser la causa principal del fracaso en implementaciones de SharePoint, dejando deliberadamente de lado el desarrollo técnico de bajo nivel en C# o PowerShell. Es una lectura fundamental para líderes de proyectos y arquitectos previa a cualquier migración o despliegue a gran escala.",
+    "temas": [
+      "SharePoint 2013",
+      "SharePoint Online",
+      "Gobernanza empresarial",
+      "Arquitectura de información",
+      "Gestión de contenido empresarial (ECM)",
+      "Metadatos administrados",
+      "Enterprise Search",
+      "Business Intelligence",
+      "Adopción de usuarios",
+      "Migración y actualización",
+      "Office 365",
+      "Office 2013"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/essential-sharepoint-2013-practical-guidance-for-9780321884114",
+      "https://www.oreilly.com/library/view/essential-sharepoint-2013/9780133118940/",
+      "https://www.amazon.com/Essential-SharePoint-2013-Practical-Guidance/dp/0321884114"
+    ]
+  },
+  "augmenting-customer-experience-with-sharepoint-online-2019": {
+    "descripcion": "Monografía técnica y de gestión escrita por Charles Waghmare centrada en redefinir el rol de SharePoint Online dentro de Office 365 / Microsoft 365, transformándolo de una intranet estática en una plataforma activa para potenciar la Experiencia Digital del Cliente (Digital Customer Experience o DCX). Está concebida para consultores funcionales, arquitectos de negocio, administradores de SharePoint y líderes de transformación digital de nivel intermedio que dominan el ecosistema de productividad en la nube de Microsoft y desean mejorar la interacción con usuarios externos, socios y clientes.\n\nEl libro examina la convergencia entre tecnologías colaborativas y el diseño centrado en el cliente. Aborda el diseño de portales inteligentes (Smart Portals) y sitios modernos de SharePoint Online con foco en usabilidad y diseño de interfaz (UI/UX), la gestión de contenido web y empresarial (WCM/ECM) para bases de conocimiento de autoservicio (Solution Database), y la habilitación de extranets seguras para interactuar con proveedores y el ecosistema de socios (Partner Ecosystem). Explora asimismo la colaboración en tiempo real con Microsoft Teams, la incorporación de automatizaciones con Power Platform y el uso emergente de Inteligencia Artificial mediante chatbots de atención para optimizar el recorrido del cliente.\n\nLa obra plantea directrices de diseño y análisis de casos reales de despliegue en diversas industrias, en lugar de tutoriales prácticos de programación o proyectos de software guiados paso a paso. Su mayor aportación es el cambio de mentalidad: demuestra cómo aprovechar herramientas SaaS ya existentes en Microsoft 365 para fines de atención y autoservicio sin necesidad de costosos desarrollos a medida. Deja fuera el desarrollo técnico en código con SharePoint Framework (SPFx) o TypeScript, por lo que quienes busquen construir componentes web interactivos desde el código deberán acudir a manuales especializados de desarrollo frontend.",
+    "temas": [
+      "SharePoint Online",
+      "Office 365",
+      "Experiencia de cliente (CX)",
+      "Diseño UX/UI",
+      "Portales inteligentes",
+      "Extranets y socios",
+      "Microsoft Teams",
+      "Bases de conocimiento",
+      "Inteligencia Artificial en CX",
+      "Gestión de contenido",
+      "Transformación digital"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5534-6",
+      "https://www.apress.com/gp/book/9781484255339",
+      "https://www.amazon.com/Augmenting-Customer-Experience-SharePoint-Online/dp/1484255333"
+    ]
+  },
+  "pro-sharepoint-2013-app-development-2013": {
+    "descripcion": "Manual técnico exhaustivo elaborado por Steve Wright que aborda el cambio de paradigma introducido en la plataforma con el modelo de aplicaciones en la nube (Cloud App Model) para SharePoint 2013 y SharePoint Online (Office 365). Está dirigido a desarrolladores de software de nivel intermedio con experiencia previa en .NET, C# y desarrollo web que necesitan aprender a crear aplicaciones desacopladas del servidor de SharePoint, migrando desde las antiguas soluciones de granja de código completo hacia estándares web modernos.\n\nEl texto desgrana las diferentes modalidades de arquitectura: SharePoint-Hosted Apps, Provider-Hosted Apps y Auto-Hosted Apps. Enseña a configurar entornos de trabajo con Visual Studio (Office Developer Tools) y la herramienta web Napa, a gestionar el ciclo de vida y despliegue del paquete de aplicación (.app) en el Catálogo de Aplicaciones o en la Office Store, y a implementar lógica del lado del cliente mediante JavaScript, CSOM (Client-Side Object Model) y librerías como jQuery y Knockout.js. Asimismo, cubre en profundidad el consumo de listas y documentos mediante APIs REST y el protocolo OData, el marco de seguridad y autenticación basado en OAuth 2.0 y Server-to-Server (S2S), la integración de datos externos con Business Connectivity Services (BCS) y la interacción con el motor de búsqueda Enterprise Search.\n\nA través de ejercicios prácticos guiados, el lector construye aplicaciones de prueba alojadas en SharePoint con vinculación reactiva de datos y aplicaciones hospedadas en proveedores externos conectadas de forma remota mediante tokens de seguridad OAuth. El libro supuso un salto formativo crucial para abrir SharePoint a las tecnologías web estándar y seguras. Conviene advertir que, con el tiempo, Microsoft rebautizó este modelo como SharePoint Add-ins (retirando la opción Auto-Hosted) y posteriormente impulsó el SharePoint Framework (SPFx); no obstante, el libro sigue siendo muy instructivo para comprender la arquitectura de CSOM, endpoints REST y autenticación moderna en soluciones heredadas o de transición.",
+    "temas": [
+      "SharePoint 2013",
+      "Cloud App Model",
+      "SharePoint-Hosted Apps",
+      "Provider-Hosted Apps",
+      "REST y OData",
+      "CSOM",
+      "JavaScript",
+      "Knockout.js",
+      "OAuth 2.0",
+      "Visual Studio",
+      "Business Connectivity Services (BCS)",
+      "Enterprise Search"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación SharePoint-Hosted con JavaScript y Knockout",
+        "descripcion": "Aplicación del lado del cliente alojada directamente en SharePoint que interactúa con listas y bibliotecas mediante llamadas REST/OData y vinculación reactiva de datos con Knockout.js."
+      },
+      {
+        "nombre": "Aplicación Provider-Hosted con autenticación OAuth",
+        "descripcion": "Solución externa alojada en un servidor web independiente que se integra con SharePoint mediante el protocolo OAuth 2.0, consumiendo servicios de datos y exponiendo App Parts en el sitio."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-5885-8",
+      "https://www.apress.com/gp/book/9781430258841",
+      "https://www.oreilly.com/library/view/pro-sharepoint-2013/9781430258841/",
+      "https://www.amazon.com/SharePoint-2013-Development-Experts-Voice/dp/1430258848"
+    ]
+  },
+  "microsoft-sharepoint-2013-administration-inside-out-2014": {
+    "descripcion": "Manual exhaustivo de administración e infraestructura de sistemas centrado en Microsoft SharePoint 2013 (abarcando despliegues locales on-premises y escenarios híbridos). Escrito por un equipo de consultores y Microsoft MVPs (Randy Williams, CA Callahan, Chris Givens, John Milan Gross y Brian Alderman), está pensado para administradores de sistemas, ingenieros de TI y arquitectos de infraestructura de nivel intermedio a avanzado que ya cuentan con experiencia previa en Windows Server, Active Directory, redes y bases de datos relacionales.\n\nEl libro cubre a fondo la planificación y el dimensionamiento de topologías de granja (server farms), la instalación automatizada mediante scripts de Windows PowerShell y la gestión integral desde Central Administration. Profundiza en el mantenimiento y optimización de bases de datos de contenido en SQL Server, la configuración de aplicaciones de servicio esenciales (Search Service Application, User Profile Service, Managed Metadata Service, Business Connectivity Services y Secure Store), la arquitectura de seguridad e identidad (autenticación basada en notificaciones o claims, Kerberos, certificados y OAuth), la habilitación del catálogo para SharePoint Apps y la integración con Office Web Apps Server (WAC).\n\nLa obra no incluye proyectos de desarrollo de software ni ejercicios de autoevaluación, sino detallados procedimientos paso a paso, diagnósticos para resolver incidencias reales de producción (troubleshooting) y estrategias para implementar alta disponibilidad, respaldos y recuperación ante desastres (disaster recovery). Su gran virtud reside en el nivel de detalle operativo y las recomendaciones basadas en la experiencia práctica de campo; por contra, excluye por completo la programación de código (.NET o C#). Conviene dominar previamente la administración de servidores Windows y la consola de PowerShell.",
+    "temas": [
+      "SharePoint 2013",
+      "Windows PowerShell",
+      "Administración de granjas (Server Farms)",
+      "Central Administration",
+      "Search Service Application",
+      "User Profile Service",
+      "Managed Metadata",
+      "Business Connectivity Services (BCS)",
+      "Seguridad y autenticación claims",
+      "SQL Server",
+      "Alta disponibilidad y respaldo"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/microsoft-sharepoint-2013-administration-inside-out-9780735675391",
+      "https://www.oreilly.com/library/view/microsoft-sharepoint-2013/9780735675384/",
+      "https://www.amazon.com/Microsoft-SharePoint-2013-Administration-Inside/dp/0735675392"
+    ]
+  },
+  "microsoft-sharepoint-2013-app-development-2013": {
+    "descripcion": "Guía de referencia técnica escrita por los reconocidos instructores y MVPs Scot Hillier y Ted Pattison, enfocada exclusivamente en el paradigma de desarrollo introducido con Microsoft SharePoint 2013 y Office 365. Está dirigida a desarrolladores web y de .NET de nivel intermedio que dominan C#, JavaScript, HTML y CSS, y que necesitan evolucionar desde las tradicionales soluciones de servidor de plena confianza (full-trust farm solutions) hacia el modelo desacoplado y orientado a la nube de aplicaciones para SharePoint (App Model).\n\nEl contenido explica con detalle la arquitectura de las dos grandes modalidades del modelo: aplicaciones hospedadas en SharePoint (SharePoint-hosted apps) y aplicaciones hospedadas por el proveedor o en la nube (provider-hosted y autohosted apps). Enseña a interactuar con la plataforma mediante el modelo de objetos del lado cliente en JavaScript (JSOM / CSOM) y las API REST de SharePoint, a estructurar la seguridad e identidad con tokens OAuth 2.0 y certificados servidor a servidor (S2S trusts), a utilizar las herramientas de desarrollo en Visual Studio 2012, y a manejar listas, definiciones de datos y receptores de eventos remotos (remote event receivers).\n\nEl texto adopta un enfoque mixto y didáctico que combina explicaciones arquitectónicas con la construcción guiada de aplicaciones de muestra bajo el nuevo modelo. Su valor radica en clarificar con enorme agilidad los conceptos más desafiantes del modelo de aplicaciones (context tokens, app webs frente a host webs, permisos de app y llamadas cross-domain); sin embargo, al tratarse de un volumen sintético de apenas 200 páginas, prescinde de temas como flujos de trabajo con Workflow Manager o administración de granjas. Es fundamental dominar desarrollo web antes de leerlo.",
+    "temas": [
+      "SharePoint 2013",
+      "SharePoint App Model",
+      "SharePoint-hosted Apps",
+      "Provider-hosted Apps",
+      "JavaScript Object Model (JSOM)",
+      "Client-Side Object Model (CSOM)",
+      "SharePoint REST API",
+      "OAuth 2.0",
+      "S2S Trust",
+      "Visual Studio 2012",
+      "Remote Event Receivers"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación hospedada en SharePoint (SharePoint-hosted App)",
+        "descripcion": "Aplicación client-side desplegada en un app web aislado que interactúa con datos y listas del host web mediante JavaScript, JSOM y llamadas REST."
+      },
+      {
+        "nombre": "Aplicación hospedada por el proveedor (Provider-hosted App)",
+        "descripcion": "Solución externa basada en ASP.NET y C# que se comunica de forma remota y segura con SharePoint 2013 mediante tokens de acceso OAuth 2.0 y el Client-Side Object Model (CSOM)."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/microsoft-sharepoint-2013-app-development-9780735674981",
+      "https://www.oreilly.com/library/view/microsoft-sharepoint-2013/9780735674981/",
+      "https://www.amazon.com/Microsoft-SharePoint-2013-Development-Developer/dp/0735674981"
+    ]
+  },
+  "microsoft-sharepoint-2013-developer-reference-2013": {
+    "descripcion": "Tratado integral de programación sobre Microsoft SharePoint 2013, escrito por el arquitecto de software y Microsoft MVP Paolo Pialorsi para la serie Developer Reference de Microsoft Press. Está destinado a desarrolladores de .NET y C# de nivel intermedio a avanzado que necesitan dominar tanto las técnicas de desarrollo de soluciones de servidor consolidadas como las modernas arquitecturas orientadas a la nube y al cliente.\n\nEl volumen cubre de forma exhaustiva el ecosistema de desarrollo de SharePoint 2013: aprovisionamiento declarativo de datos, desarrollo con Server Object Model (SOM) y LINQ to SharePoint, programación del lado cliente con el Client-Side Object Model (CSOM y JSOM) y consumo de las API REST de SharePoint. Asimismo, detalla la creación de SharePoint Apps, receptores de eventos remotos, desarrollo de Web Parts personalizados, modificación de la interfaz mediante plantillas maestras y CSR (Client-Side Rendering), integración de datos con Business Connectivity Services (BCS), orquestación de procesos con Windows Workflow Foundation y Workflow Manager 1.0, y esquemas de identidad con notificaciones (claims), federación y OAuth con Azure Access Control Service (ACS).\n\nEl enfoque del libro es mixto: combina un análisis conceptual riguroso con ejemplos de código completos y aplicados a cada subsistema en Visual Studio 2012, sin estructurarse en torno a un único proyecto monolítico. Su punto fuerte es la amplitud y profundidad enciclopédica con la que aborda cada API oficial de SharePoint 2013, ofreciendo un equilibrio sólido entre el código clásico de servidor y las nuevas interfaces cliente; no obstante, deja fuera la administración pura de infraestructura y sistemas. Requiere conocimientos sólidos previos de C#, ASP.NET y conceptos básicos de arquitectura orientada a servicios.",
+    "temas": [
+      "SharePoint 2013",
+      "Server Object Model (SOM)",
+      "Client-Side Object Model (CSOM)",
+      "SharePoint REST API",
+      "SharePoint Apps",
+      "LINQ to SharePoint",
+      "Web Parts",
+      "Workflow Manager 1.0",
+      "Windows Workflow Foundation",
+      "Business Connectivity Services (BCS)",
+      "Claims-based Authentication y OAuth"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoftpressstore.com/store/microsoft-sharepoint-2013-developer-reference-9780735670716",
+      "https://www.oreilly.com/library/view/microsoft-sharepoint-2013/9780735670716/",
+      "https://www.amazon.com/Microsoft-SharePoint-2013-Developer-Reference/dp/0735670718"
+    ]
+  },
+  "sharepoint-2016-for-dummies-2016": {
+    "descripcion": "Guía accesible y directa escrita por Rosemarie Withee y Ken Withee para la serie For Dummies de Wiley, centrada en Microsoft SharePoint 2016 y su integración con SharePoint Online / Office 365. Está pensada para usuarios comerciales, oficinistas, gestores de proyectos y administradores noveles de sitios que no cuentan con formación técnica en programación y necesitan organizar documentos, colaborar en equipo y estructurar portales de trabajo sin complicaciones.\n\nLa obra enseña a sacar provecho de las capacidades nativas de la plataforma a través del explorador: creación de sitios de equipo (Team Sites), diseño y organización de listas y bibliotecas de documentos, control de versiones, metadatos y procesos de aprobación de contenido. También explica la inserción y parametrización de elementos web (Web Parts), la edición de páginas wiki, la administración de permisos y grupos de seguridad a nivel de sitio, el uso del motor de búsqueda corporativo, el aprovechamiento de características sociales y perfiles (Delve / My Sites), y la configuración de flujos de trabajo de aprobación básicos.\n\nSu enfoque es mixto y enteramente práctico desde la perspectiva de usuario y administrador web, guiando las tareas mediante capturas e instrucciones paso a paso sin requerir líneas de comandos ni código. Su gran aporte es desmitificar la terminología de Microsoft y fomentar buenas prácticas de gobernanza documental; en contrapartida, excluye por completo el desarrollo de código (.NET, C#, APIs) y la administración de infraestructura de servidores o PowerShell. Es un excelente punto de partida para cualquier profesional que deba gestionar la colaboración diaria en SharePoint.",
+    "temas": [
+      "SharePoint 2016",
+      "SharePoint Online",
+      "Office 365",
+      "Sitios de equipo (Team Sites)",
+      "Bibliotecas de documentos",
+      "Listas personalizadas",
+      "Web Parts",
+      "Permisos y seguridad",
+      "Gestión de contenido empresarial",
+      "Flujos de trabajo básicos",
+      "Búsqueda empresarial",
+      "Gobernanza"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/SharePoint+2016+For+Dummies-p-9781119181736",
+      "https://www.oreilly.com/library/view/sharepoint-2016-for/9781119181736/",
+      "https://www.amazon.com/SharePoint-2016-Dummies-Computer-Tech/dp/1119181737"
+    ]
+  },
+  "beginning-sharepoint-2010-development-2010": {
+    "descripcion": "Manual introductorio al desarrollo de soluciones sobre Microsoft SharePoint 2010 (tanto SharePoint Foundation como SharePoint Server), elaborado por Steve Fox para el sello Wrox de John Wiley & Sons. Está concebido para programadores principiantes en SharePoint que cuentan con conocimientos previos de la plataforma .NET, C# y desarrollo web (HTML, CSS y JavaScript) y desean aprender a extender y personalizar entornos corporativos usando Visual Studio 2010 y SharePoint Designer 2010.\n\nEl libro instruye en la definición de la arquitectura de datos de SharePoint mediante listas, columnas de sitio y tipos de contenido; la creación de Web Parts visuales y basados en código; la programación de receptores de eventos (event receivers) y páginas maestras (master pages); y la consulta de datos mediante el Server-Side Object Model, el Client Object Model (CSOM), servicios web ASP.NET y endpoints REST. Además, examina la integración de datos de negocio con Business Connectivity Services (BCS), la incorporación de interfaces interactivas con Silverlight, la creación de servicios WCF, la automatización con Microsoft Office (InfoPath, Excel Services, Word Services) y la seguridad basada en autenticación por notificaciones (claims).\n\nEl libro posee un enfoque mixto con ejercicios guiados y el desarrollo paso a paso de una aplicación de negocios completa (\"Customer Sales Dashboard\"), que integra listas de clientes y ventas con elementos web de gráficos analíticos. Su valor principal estriba en servir de puente entre el desarrollo tradicional de .NET y las herramientas especializadas de SharePoint 2010; por otra parte, varias de las tecnologías complementarias que utiliza (como Silverlight e InfoPath) han quedado descontinuadas en el ecosistema actual. Conviene tener conocimientos básicos de C# y SQL Server antes de empezar.",
+    "temas": [
+      "SharePoint 2010",
+      "Visual Studio 2010",
+      "SharePoint Designer 2010",
+      "Web Parts",
+      "Server-Side Object Model",
+      "Client Object Model (CSOM)",
+      "Business Connectivity Services (BCS)",
+      "Event Receivers",
+      "WCF y servicios REST",
+      "Microsoft Silverlight",
+      "InfoPath y Excel Services"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Panel de control de ventas de clientes (Customer Sales Dashboard)",
+        "descripcion": "Aplicación empresarial que gestiona datos de ventas y clientes a través de listas personalizadas de SharePoint, integrando elementos web visuales y gráficos analíticos interactivos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/beginning-sharepoint-2010-development-p-9780470584637",
+      "https://www.oreilly.com/library/view/beginning-sharepoint-2010/9780470584637/",
+      "https://www.amazon.com/Beginning-SharePoint-2010-Development-Steve/dp/0470584637"
+    ]
+  },
+  "beginning-sharepoint-2013-development-2013": {
+    "descripcion": "Manual introductorio enfocado en guiar a programadores hacia el desarrollo personalizado en la plataforma SharePoint 2013, tanto en implementaciones locales (on-premises) como en entornos cloud con SharePoint Online (Office 365). La obra está dirigida a desarrolladores con conocimientos previos de C#, .NET Framework, Visual Studio y tecnologías web estándar (HTML, JavaScript y XML) que necesitan comprender el radical cambio de paradigma introducido en esta versión respecto a las soluciones de granja clásicas.\n\nEl núcleo de la enseñanza gira en torno al nuevo Modelo de Aplicaciones (App Model) de SharePoint 2013: aplicaciones hospedadas en SharePoint (SharePoint-hosted), hospedadas por el proveedor (provider-hosted) y autohospedadas (autohosted). A lo largo de sus capítulos se explican el Modelo de Objetos del Lado del Cliente (CSOM tanto para .NET como para JavaScript/JSOM), las APIs REST y OData para consultar listas y bibliotecas, la autenticación mediante OAuth y protocolos Server-to-Server (S2S), la integración con Windows Azure, la creación de receptores de eventos remotos (Remote Event Receivers), el nuevo motor de flujos de trabajo basado en Workflow Manager y la integración con Business Connectivity Services (BCS) y Apps for Office.\n\nEl lector pone en práctica los conceptos configurando un entorno de desarrollo con Visual Studio 2012 y SharePoint Developer Tools, empaquetando aplicaciones y desplegándolas a través del Catálogo de Aplicaciones corporativo o la Tienda de SharePoint. Su mayor valor radica en explicar con claridad la transición hacia arquitecturas desacopladas que evitan ejecutar código personalizado sin aislamiento en el servidor central. Deja fuera la administración compleja de infraestructura y escenarios híbridos a gran escala, pero constituye una base sólida para iniciar proyectos modernos en SharePoint 2013.",
+    "temas": [
+      "SharePoint 2013",
+      "SharePoint App Model",
+      "CSOM (.NET y JSOM)",
+      "REST APIs y OData",
+      "OAuth y S2S",
+      "Windows Azure",
+      "Workflow Manager",
+      "Business Connectivity Services (BCS)",
+      "Remote Event Receivers",
+      "Apps for Office",
+      "Visual Studio 2012"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación hospedada en SharePoint (SharePoint-Hosted App)",
+        "descripcion": "Construcción y empaquetado de una solución que se ejecuta íntegramente en el navegador dentro de una web aislada de la colección de sitios, utilizando JavaScript y CSOM para interactuar con listas y datos de SharePoint."
+      },
+      {
+        "nombre": "Aplicación hospedada por proveedor con integración en Azure (Provider-Hosted App)",
+        "descripcion": "Desarrollo de un servicio web externo alojado en Windows Azure que interactúa de manera segura con el entorno de SharePoint 2013 mediante tokens OAuth y llamadas REST/CSOM."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Beginning+SharePoint+2013+Development-p-9781118654873",
+      "https://www.oreilly.com/library/view/beginning-sharepoint-2013/9781118654873/",
+      "https://www.amazon.com/Beginning-SharePoint-2013-Development-Steve/dp/1118654870"
+    ]
+  },
+  "professional-sharepoint-2013-development-2013": {
+    "descripcion": "Guía de referencia avanzada escrita por un destacado equipo de especialistas y Microsoft MVPs para dominar el desarrollo empresarial en SharePoint 2013 (tanto en entornos on-premises Enterprise como en la nube). Está diseñada para desarrolladores de software, consultores e ingenieros de soluciones con nivel intermedio o avanzado que cuenten con experiencia previa en el desarrollo con ASP.NET, C# y versiones anteriores de SharePoint, y que precisen diseñar soluciones escalables de nivel corporativo.\n\nEl libro aborda en profundidad la arquitectura interna de la plataforma y el ciclo de vida de las aplicaciones (ALM, incluyendo compilaciones continuas y despliegues automatizados). Explora el nuevo App Model, la computación en la nube con Windows Azure, el desarrollo de aplicaciones sociales (Social API, feeds corporativos, microblogging y perfiles de usuario), la arquitectura de búsqueda avanzada (Content Search Web Part, Display Templates en HTML/JS, Query Rules y motores de indexación), la gestión de contenido web (WCM, catálogos de publicación y representaciones de imágenes), formularios con InfoPath 2013, Business Connectivity Services (BCS con conectores personalizados), Workflow Manager 1.0, SQL Server Reporting Services (SSRS) en modo integrado y Business Intelligence con Excel Services y PerformancePoint Services.\n\nA lo largo de la obra se implementan soluciones corporativas complejas: personalización completa de la experiencia de búsqueda mediante plantillas de visualización en JavaScript, orquestación de procesos de negocio desacoplados y cuadros de mando interactivos con KPIs enlazados a bases de datos relacionales como AdventureWorks. Su principal fortaleza reside en su rigor arquitectónico y en las mejores prácticas de ingeniería de software para organizaciones. No profundiza en la administración pura de sistemas ni en el mantenimiento de granjas de servidores, aspectos cubiertos en su título hermano de administración.",
+    "temas": [
+      "SharePoint 2013",
+      "Application Lifecycle Management (ALM)",
+      "Display Templates y UX de Búsqueda",
+      "Social APIs y Feeds",
+      "Web Content Management (WCM)",
+      "Business Connectivity Services (BCS)",
+      "Workflow Manager 1.0",
+      "PerformancePoint Services",
+      "Excel Services y REST",
+      "SSRS en SharePoint",
+      "Windows Azure",
+      "InfoPath 2013"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Cuadro de mando analítico con PerformancePoint Services",
+        "descripcion": "Implementación de un panel de Business Intelligence corporativo en SharePoint que integra scorecards, métricas KPI e informes dinámicos conectados a una base de datos relacional de ejemplo mediante PerformancePoint y Excel Services."
+      },
+      {
+        "nombre": "Experiencia de búsqueda corporativa con Display Templates",
+        "descripcion": "Desarrollo de una solución de búsqueda personalizada que transforma la presentación de resultados utilizando Display Templates en JavaScript y HTML, reglas de consulta y el Content Search Web Part."
+      },
+      {
+        "nombre": "Integración de datos empresariales mediante conectores BCS",
+        "descripcion": "Diseño y empaquetado de tipos de contenido externo (ECT) y listas de SharePoint que exponen datos de sistemas externos de manera bidireccional usando Business Connectivity Services y Secure Store Service."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Professional+SharePoint+2013+Development-p-9781118495827",
+      "https://www.oreilly.com/library/view/professional-sharepoint-2013/9781118495827/",
+      "https://www.amazon.com/Professional-SharePoint-2013-Development-Alirezaei/dp/1118495829"
+    ]
+  }
+}

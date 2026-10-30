@@ -1,0 +1,641 @@
+{
+  "pro-angular-16-6th-edition-2024": {
+    "descripcion": "Sexta edición del extenso manual de Adam Freeman, actualizada para Angular 16 e incluyendo novedades como signals. Va de los componentes básicos a las funciones más complejas del framework y está dirigida a desarrolladores web que conocen JavaScript y HTML básicos; no exige experiencia previa con Angular, pero por su tamaño y profundidad rinde más en lectores dispuestos a un estudio exhaustivo.\n\nEmpieza con un repaso de HTML y TypeScript y la configuración de las herramientas de desarrollo y proyectos con Angular CLI. Después cubre a fondo la funcionalidad integrada: data binding, componentes, directivas (integradas y personalizadas), servicios e inyección de dependencias, pipes, formularios, gestión de cambios de datos con signals, peticiones HTTP asíncronas, routing por URL con guards y carga diferida, animaciones, pre-renderizado y renderizado del lado del servidor, y el uso de librerías de componentes populares como Angular Material. Explica también cómo personalizar el comportamiento del framework y señala errores comunes.\n\nComo es habitual en la serie, el libro construye pronto una aplicación realista, SportsStore, con catálogo, carrito, checkout, administración y despliegue, y luego desarrolla cada característica con ejemplos detallados. Es una referencia muy completa para Angular 16, aunque es anterior a las versiones que hicieron predeterminados los componentes standalone y el nuevo control flow (@if, @for), por lo que algunos patrones conviene contrastarlos con la documentación actual.",
+    "temas": [
+      "Angular 16",
+      "TypeScript",
+      "Angular CLI",
+      "Componentes",
+      "Directivas",
+      "Pipes",
+      "Servicios e inyección de dependencias",
+      "Signals",
+      "Formularios",
+      "HTTP",
+      "Routing",
+      "SSR y pre-renderizado"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "SportsStore",
+        "descripcion": "Tienda en línea de artículos deportivos construida con Angular 16: catálogo con paginación, carrito, checkout, área de administración protegida y despliegue de la aplicación, consumiendo un servicio de datos REST."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/pro-angular-16"
+    ]
+  },
+  "testing-angular-applications-2018": {
+    "descripcion": "Guía práctica, escrita por Corinna Cohn, Craig Nishina, Jesse Palmer y Mike Giambalvo (los dos últimos, ingenieros de Google), para probar todas las partes de una aplicación Angular (Angular 2 en adelante, con TypeScript), desde las pruebas unitarias hasta las de extremo a extremo. Está dirigida a desarrolladores con conocimientos intermedios de JavaScript; incluye una introducción a TypeScript, por lo que no es imprescindible dominarlo de antemano.\n\nLa primera parte trata las pruebas unitarias con Jasmine y Karma: escribir y depurar los primeros tests, ajustar la configuración y probar componentes (con TestBed), directivas, pipes, servicios y el router. La segunda parte se dedica a las pruebas end-to-end con Protractor, incluyendo el manejo de timeouts y esperas y temas avanzados. La tercera muestra cómo integrar toda la batería de pruebas en un pipeline de integración continua, con ejemplos en CircleCI.\n\nTodo se practica sobre una aplicación de gestión de contactos que acompaña al libro y cuyo código está organizado por capítulos en GitHub. Explica bien las bases de las pruebas en Angular y sigue siendo útil para entender TestBed y la filosofía de testing del framework, pero está anclado a su época: Protractor fue retirado por el equipo de Angular y hoy se usan Cypress o Playwright, y Karma se está sustituyendo por alternativas como Jest o Vitest, así que la parte de E2E y de herramientas debe complementarse con material actual.",
+    "temas": [
+      "Testing en Angular",
+      "TypeScript",
+      "Jasmine",
+      "Karma",
+      "TestBed",
+      "Pruebas de componentes",
+      "Pruebas de servicios",
+      "Pruebas del router",
+      "Protractor",
+      "Pruebas E2E",
+      "Integración continua",
+      "CircleCI"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de contactos",
+        "descripcion": "Gestor de contactos en Angular que sirve como base de todo el libro: sobre él se escriben pruebas unitarias con Jasmine y Karma, pruebas end-to-end con Protractor y un pipeline de integración continua."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/testing-angular-applications",
+      "https://github.com/testing-angular-applications/testing-angular-applications",
+      "https://livebook.manning.com/book/testing-angular-applications/foreword"
+    ]
+  },
+  "modern-web-development-with-angular-2024": {
+    "descripcion": "Introducción completa al Angular moderno escrita por Duncan Faulkner y Pierre Bouillon y publicada por Orange Education (AVA) en 2024. Trabaja con las versiones recientes del framework, de la época de Angular 17 y 18, con componentes standalone, la nueva sintaxis de control de flujo y Signals. Los propios autores la presentan como un libro para quienes llegan nuevos a Angular: desarrolladores que empiezan en el desarrollo web, que vienen de otra tecnología o que quieren afianzar lo que ya saben. No hace falta haber usado otro framework, pero sí ayuda tener nociones de HTML, JavaScript o TypeScript.\n\nEl recorrido empieza con la preparación del entorno: Node.js mediante gestores de versiones como nvm, nvm-for-windows o Volta, Git, la instalación de Angular CLI y la configuración del editor. Luego se crea la primera aplicación y hay un capítulo de introducción a TypeScript. El núcleo del libro está en los componentes, las directivas, los pipes y los servicios, seguidos de la reactividad (Signals y RxJS), la comunicación entre componentes y el flujo de datos. También cubre los formularios reactivos y los basados en plantillas, su validación, el enrutamiento con Angular Router y, para cerrar, las pruebas unitarias (algunas fichas mencionan Jest).\n\nEs un tutorial guiado y progresivo: se construyen aplicaciones reactivas de varias páginas mientras se presentan los conceptos, y no una colección de proyectos independientes. Su punto fuerte es que enseña Angular directamente con las APIs actuales, sin arrastrar los NgModules ni la sintaxis antigua. Deja fuera temas avanzados como la gestión de estado con NgRx, el renderizado del lado del servidor (SSR) o el despliegue, así que encaja mejor como primer libro de Angular que como referencia para proyectos empresariales.",
+    "temas": [
+      "Angular 17/18",
+      "TypeScript",
+      "Angular CLI",
+      "Componentes standalone",
+      "Directivas y pipes",
+      "Servicios",
+      "Signals",
+      "RxJS",
+      "Formularios reactivos",
+      "Validación de formularios",
+      "Routing",
+      "Pruebas unitarias"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://dev.to/pbouillon/my-first-book-modern-web-development-with-angular-4h7n",
+      "https://www.everand.com/book/798506668/Modern-Web-Development-with-Angular-Build-Cutting-Edge-Scalable-Web-Apps-from-Scratch-with-Angular-TypeScript-and-Reactive-Programming-English-Ed",
+      "https://www.hoepli.it/ebook/modern-web-development-with-angular/9788196815097.html"
+    ]
+  },
+  "angularjs-up-and-running-2014": {
+    "descripcion": "Guía de O'Reilly sobre AngularJS 1.x escrita por Shyam Seshadri y Brad Green, este último responsable de ingeniería del proyecto AngularJS en Google. Se publicó en 2014, en la época de AngularJS 1.2 y 1.3, y está pensada para desarrolladores web con conocimientos de JavaScript, HTML y CSS que quieren aprender el framework desde cero con un enfoque práctico y orientado a buenas prácticas. Ojo: trata del AngularJS original, no del Angular moderno (2+), sobre el que Seshadri escribió por separado «Angular: Up and Running» (2018).\n\nEl libro avanza por bloques y, después de cada concepto importante, incluye un capítulo breve dedicado a probarlo. Recorre las directivas básicas y los controladores, los formularios y los inputs, los servicios y la inyección de dependencias, la comunicación con el servidor mediante $http, los filtros, las aplicaciones de una sola página con ngRoute y las directivas básicas y avanzadas para crear componentes reutilizables. Las pruebas son un eje central: pruebas unitarias con Karma como ejecutor y Jasmine como framework, y pruebas de extremo a extremo sobre la aplicación completa. Cierra con buenas prácticas para la estructura de directorios, los servicios, los controladores y las directivas, la compilación y minificación con Grunt, y herramientas como Batarang y WebStorm.\n\nLos ejemplos crecen capítulo a capítulo y el código de los 15 capítulos está disponible en GitHub. Su gran aporte es enseñar AngularJS con la disciplina de las pruebas desde el principio, algo poco habitual en los libros de su época. Hoy su valor es sobre todo para mantener o migrar aplicaciones AngularJS heredadas, ya que el framework dejó de tener soporte oficial a finales de 2021. Para proyectos nuevos conviene un libro de Angular moderno.",
+    "temas": [
+      "AngularJS 1.x",
+      "Controladores",
+      "Directivas",
+      "Servicios",
+      "Inyección de dependencias",
+      "$http",
+      "Filtros",
+      "ngRoute",
+      "Karma",
+      "Jasmine",
+      "Pruebas end-to-end",
+      "Grunt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/angularjs-up-and/9781491901939/",
+      "https://www.lehmanns.de/shop/mathematik-informatik/30142589-9781491901946-angularjs-up-and-running",
+      "https://github.com/shyamseshadri/angularjs-up-and-running"
+    ]
+  },
+  "learning-angularjs-a-guide-to-angularjs-development-2015": {
+    "descripcion": "Libro de O'Reilly (2015) en el que Ken Williamson, ingeniero y arquitecto de software con más de veinte años de experiencia, enseña AngularJS 1.x de forma práctica para crear aplicaciones del lado del cliente, de escritorio y móviles, que se apoyan en servicios web REST como backend. Es una evolución de su guía autopublicada «A Guide to AngularJS Development» (2014). Está dirigido a principiantes e intermedios en AngularJS que ya conocen JavaScript, el desarrollo web y los patrones de diseño de software.\n\nTras explicar en qué se diferencia AngularJS de otros frameworks MVC, el autor dedica un capítulo al IDE y a la estructura de los proyectos. Después recorre el patrón MVC aplicado a AngularJS: controladores, vistas con Bootstrap y modelos. Luego muestra cómo consumir servicios REST públicos, cómo organizar la lógica de negocio en servicios, cómo crear y probar directivas y cómo construir una capa de seguridad con servicios de AngularJS que no son REST. La parte final sitúa AngularJS dentro del stack MEAN (MongoDB, Express, AngularJS y Node.js), con despliegue en la nube y uso en móviles, y dedica un capítulo al SEO de sitios hechos con AngularJS.\n\nEl aprendizaje gira en torno a una aplicación de ejemplo, un blog, que se construye a lo largo de los capítulos y termina desplegada en la plataforma OpenShift de Red Hat. Su aporte es mostrar una aplicación AngularJS completa conectada a un backend real, incluyendo temas que otros libros omiten, como la seguridad o el SEO en aplicaciones de una sola página. Su contenido ha quedado desfasado: AngularJS ya no tiene soporte, y tanto OpenShift como las prácticas de SEO cambiaron mucho, así que hoy sirve sobre todo para entender o mantener proyectos heredados.",
+    "temas": [
+      "AngularJS 1.x",
+      "MVC",
+      "Controladores",
+      "Vistas con Bootstrap",
+      "Servicios REST",
+      "Directivas",
+      "Seguridad",
+      "Stack MEAN",
+      "Node.js y Express",
+      "MongoDB",
+      "OpenShift",
+      "SEO"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de blog con AngularJS y MEAN",
+        "descripcion": "Blog que se construye a lo largo del libro con controladores, vistas Bootstrap, modelos y servicios de AngularJS que consumen APIs REST, con una capa de seguridad propia. Al final se integra en el stack MEAN y se despliega en la nube de OpenShift."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-angularjs/9781491916742",
+      "https://helion.pl/ksiazki/learning-angularjs-a-guide-to-angularjs-development-ken-williamson,e_2gfm.htm",
+      "https://www.i-programmer.info/book-watch-archive/8612-learning-angularjs-oreilly.html",
+      "https://www.oreilly.com/library/view/learning-angularjs/9781491916742/ch11.html"
+    ]
+  },
+  "angular-design-patterns-and-best-practices-2024": {
+    "descripcion": "Libro de Packt (2024) en el que Alvaro Camillo Neto, desarrollador web con larga experiencia en Angular, repasa los patrones de diseño y las buenas prácticas para crear aplicaciones de una sola página escalables y fáciles de mantener. El código trabaja con Angular 16 y 17, TypeScript 5.2 y RxJS 7. Está pensado para desarrolladores de nivel intermedio o avanzado que ya han hecho proyectos con Angular y quieren estructurarlos mejor, no para quien empieza con el framework.\n\nEl libro está organizado por partes. Empieza por los fundamentos: cómo organizar la aplicación en módulos (incluido el patrón SharedModule) y cómo aprovechar TypeScript para ganar productividad y calidad. Después se centra en el diseño de componentes y en los patrones de comunicación entre ellos, como la propagación de eventos desde componentes anidados, en los servicios y en los formularios tipados con validación. También cubre la integración con el backend mediante el patrón Interceptor (por ejemplo, para gestionar tokens), la reactividad con RxJS, las pruebas, el manejo de errores y las buenas prácticas de despliegue. La parte final trata los micro frontends con Angular Elements y componentes standalone, y el capítulo «The Angular Renaissance», sobre Signals, la nueva sintaxis de control de flujo y @defer.\n\nLos patrones se ilustran con ejemplos que crecen a lo largo de los capítulos, entre ellos una aplicación de diario de entrenamiento (gym-diary) del repositorio oficial, más que con proyectos cerrados. Su valor está en explicar el porqué de cada decisión de arquitectura y no solo la sintaxis. Conviene dominar ya los fundamentos de Angular y RxJS. Toca la gestión de estado de forma más ligera que un libro dedicado a NgRx y, al estar escrito en plena transición del framework, parte de la arquitectura basada en módulos convive con el enfoque standalone que hoy es el predeterminado.",
+    "temas": [
+      "Angular 16/17",
+      "Patrones de diseño",
+      "Arquitectura de aplicaciones",
+      "TypeScript",
+      "Comunicación entre componentes",
+      "Formularios tipados",
+      "Interceptores HTTP",
+      "RxJS",
+      "Micro frontends",
+      "Angular Elements",
+      "Signals",
+      "Despliegue"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/PacktPublishing/Angular-Design-Patterns-and-Best-Practices",
+      "https://www.packtpub.com/en-in/product/angular-design-patterns-and-best-practices-9781837631971",
+      "https://www.amazon.com/Angular-Design-Patterns-Best-Practices/dp/1837631972",
+      "https://www.oreilly.com/library/view/angular-design-patterns/9781837631971"
+    ]
+  },
+  "angular-projects-3rd-edition-2023": {
+    "descripcion": "Tercera edición del libro de proyectos de Aristeidis Bampakos, publicada por Packt en 2023, que enseña Angular 16 construyendo diez aplicaciones reales, cada una combinada con una librería o herramienta distinta del ecosistema. Está dirigida a desarrolladores que ya tienen una base de Angular y TypeScript y quieren ampliarla con casos prácticos, más allá del típico tutorial introductorio.\n\nCada capítulo presenta una tecnología diferente: Angular CLI y Nx Console para crear y gestionar proyectos, Scully y Angular Router para sitios Jamstack, formularios reactivos tipados, Angular Service Worker para PWA y Electron para aplicaciones de escritorio. También usa Capacitor e Ionic para móviles, con mapas 3D; el renderizado del lado del servidor (SSR) de Angular para páginas amigables con el SEO; monorepos con Nx y gestión de estado con NgRx; Angular CDK para librerías de componentes y, por último, schematics para personalizar los comandos de Angular CLI.\n\nEs un libro de amplitud más que de profundidad: cada proyecto ocupa un capítulo y sirve para conocer una herramienta y saber cuándo usarla, no para dominarla. Es ideal para descubrir el ecosistema de Angular de una sola vez. Hay que tener en cuenta que algunas piezas han cambiado desde 2023: Scully está prácticamente abandonado y en Angular 17+ el SSR se configura de otra forma, así que conviene adaptar esos capítulos a las versiones actuales.",
+    "temas": [
+      "Angular 16",
+      "Angular CLI",
+      "Nx",
+      "Scully y Jamstack",
+      "Formularios reactivos",
+      "PWA",
+      "Electron",
+      "Capacitor e Ionic",
+      "SSR",
+      "NgRx",
+      "Angular CDK",
+      "Schematics"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Primera aplicación web con Angular",
+        "descripcion": "Aplicación inicial creada con Angular CLI y Nx Console para conocer la estructura de un proyecto y las herramientas de desarrollo."
+      },
+      {
+        "nombre": "Blog SPA con Scully",
+        "descripcion": "Blog de enfoque Jamstack con navegación mediante Angular Router y páginas prerenderizadas con Scully y sus plugins."
+      },
+      {
+        "nombre": "Sistema de seguimiento de incidencias",
+        "descripcion": "Gestor de incidencias (issue tracker) construido con formularios reactivos tipados de Angular y su validación."
+      },
+      {
+        "nombre": "App meteorológica PWA",
+        "descripcion": "Aplicación del clima que funciona como Progressive Web App gracias a Angular Service Worker, con soporte sin conexión y actualizaciones."
+      },
+      {
+        "nombre": "Editor WYSIWYG de escritorio",
+        "descripcion": "Editor de texto enriquecido empaquetado como aplicación de escritorio con Electron, que se comunica con el sistema de archivos."
+      },
+      {
+        "nombre": "App móvil de geoetiquetado de fotos",
+        "descripcion": "Aplicación móvil hecha con Ionic y Capacitor que toma fotos con la cámara, las geolocaliza y las muestra en mapas 3D."
+      },
+      {
+        "nombre": "Portafolio de GitHub con SSR",
+        "descripcion": "Sitio que muestra un perfil de GitHub, renderizado del lado del servidor con Angular para mejorar el rendimiento y el SEO."
+      },
+      {
+        "nombre": "Portal empresarial con Nx y NgRx",
+        "descripcion": "Portal con área de administración organizado como monorepo Nx, con la gestión de estado centralizada en NgRx."
+      },
+      {
+        "nombre": "Librería de componentes UI",
+        "descripcion": "Librería de componentes reutilizables creada con Angular CLI y Angular CDK, lista para publicarse y usarse en otros proyectos."
+      },
+      {
+        "nombre": "Schematics personalizados de Angular CLI",
+        "descripcion": "Colección de schematics propios que amplían los comandos de Angular CLI para generar código según las convenciones del equipo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/PacktPublishing/Angular-Projects-Third-Edition",
+      "https://www.packtpub.com/en-us/product/angular-projects-third-edition-9781803239118"
+    ]
+  },
+  "angular-projects-4th-edition-2026": {
+    "descripcion": "Cuarta edición del conocido libro de proyectos de Aristeidis Bampakos, Google Developer Expert en Angular. En algunos listados aparece Fabio Biondi como coautor. Publicada por Packt a mediados de 2026, trabaja con las funciones del Angular actual (componentes standalone, signals, SSR y SSG), aunque los listados oficiales no indican una versión concreta. No es un libro para empezar desde cero: está pensado para desarrolladores que ya conocen los fundamentos de Angular y TypeScript y quieren pasar de los tutoriales a aplicaciones con aspecto profesional y empresarial.\n\nCada capítulo es una aplicación completa con la que se repasa un conjunto de técnicas. El primero prepara el terreno con desarrollo asistido por IA: se crea el proyecto con Angular CLI y se configura GitHub Copilot para seguir las buenas prácticas de Angular. A lo largo del libro se tratan los signals, los formularios basados en plantillas y los reactivos, el routing y el manejo de datos. También se usan librerías de componentes como PrimeNG, Angular Material y Telerik UI, la integración con Google Maps, el arrastrar y soltar, la lectura de códigos QR y las APIs nativas del navegador. En el lado del servidor aparecen NestJS con MongoDB, los servicios de Firebase y el envío de notificaciones por correo. Cierran el recorrido el renderizado en servidor (SSR), la generación estática (SSG), la mejora de las Core Web Vitals, la gestión de estado y las aplicaciones PWA con soporte sin conexión.\n\nSu punto fuerte es la variedad: nueve dominios de negocio distintos (incidencias, restaurante, almacén, parking, reservas, gastos, turnos, punto de venta y notas) que obligan a resolver problemas reales. Además pone al día la serie con IA y renderizado moderno. Como en todo libro de proyectos, cada tema se trata con menos profundidad que en un manual de referencia, y el backend con NestJS o Firebase sirve solo de apoyo. Conviene llegar con soltura en Angular moderno, tener cuentas de Firebase y Google Maps para seguir los ejemplos y, para el primer capítulo, acceso a GitHub Copilot.",
+    "temas": [
+      "Angular moderno",
+      "Signals",
+      "Formularios reactivos",
+      "GitHub Copilot",
+      "PrimeNG",
+      "Angular Material",
+      "Google Maps",
+      "NestJS",
+      "MongoDB",
+      "Firebase",
+      "SSR y SSG",
+      "PWA"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Angular AI Kick-Starter",
+        "descripcion": "Creación de una aplicación Angular con Angular CLI y GitHub Copilot configurado para seguir las buenas prácticas del framework. Sirve como base de desarrollo asistido por IA para el resto del libro."
+      },
+      {
+        "nombre": "IssueTracker Lite",
+        "descripcion": "Sistema de seguimiento de incidencias para crear, gestionar y resolver bugs, con formularios y listados de datos al estilo de una aplicación empresarial."
+      },
+      {
+        "nombre": "EasyMenu",
+        "descripcion": "Aplicación de gestión de pedidos por mesa para los camareros de un restaurante."
+      },
+      {
+        "nombre": "SmartFactory Picker",
+        "descripcion": "App de almacén para preparar pedidos de inventario mediante la lectura de códigos QR."
+      },
+      {
+        "nombre": "CityPass Parking",
+        "descripcion": "Validador de aparcamiento para personal de campo, con funciones asistidas por IA."
+      },
+      {
+        "nombre": "Studio BookMaster",
+        "descripcion": "Aplicación de reserva de salas con calendario y planificación, con funciones mejoradas por IA."
+      },
+      {
+        "nombre": "Expense Builder",
+        "descripcion": "Gestor de gastos con formularios optimizados y renderizado en servidor (SSR) para mejorar el rendimiento y las Core Web Vitals."
+      },
+      {
+        "nombre": "SmartFactory Shifts",
+        "descripcion": "Planificador de turnos de trabajo basado en arrastrar y soltar."
+      },
+      {
+        "nombre": "Flash POS",
+        "descripcion": "Punto de venta moderno con categorías de productos y carrito, construido sobre una capa de gestión de estado."
+      },
+      {
+        "nombre": "NotesAI Desktop",
+        "descripcion": "PWA de notas con resúmenes generados por IA, almacenamiento local, funcionamiento sin conexión y funciones de escritorio."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/angular-projects-9781806668472",
+      "https://us.amazon.com/Angular-Projects-building-real-world-enterprise-ebook/dp/B0GDRPDM1P",
+      "https://www.oreilly.com/library/view/angular-projects/9781806668472/",
+      "https://codingsonata.com/angular-projects-book-review",
+      "https://ebooki.swiatczytnikow.pl/ebook/9781806668465,aristeidis-bampakos--fabio-biondi--angular-projects-learn-angular-by-building-10.html"
+    ]
+  },
+  "angularjs-by-example-2015": {
+    "descripcion": "Introducción práctica a AngularJS, la rama 1.x del framework de Google, publicada por Packt en 2015. Su autor, Chandermani, llegó al desarrollo JavaScript desde la plataforma Microsoft. El libro enseña el framework construyendo aplicaciones de complejidad creciente en lugar de repasar la API en abstracto. Está dirigido a desarrolladores con una base sólida de JavaScript, HTML y CSS que no conocen AngularJS o lo han usado poco.\n\nEmpieza con los componentes esenciales y la arquitectura MVC de AngularJS: módulos, controladores, $scope, data binding bidireccional, expresiones y directivas integradas. Después pasa a la inyección de dependencias, los servicios, el routing con ngRoute, los filtros, las animaciones y el audio. La comunicación con el servidor se trata con $http y $resource y las promesas. Hay capítulos dedicados a crear directivas propias y a las pruebas, con Jasmine para los tests unitarios y pruebas end-to-end. El último capítulo cubre situaciones habituales como la internacionalización, la autenticación y el rendimiento.\n\nSu valor está en el hilo conductor: se aprende viendo cómo crece una aplicación real. Hoy es material histórico: AngularJS dejó de tener soporte oficial en 2022 y su modelo no se parece al Angular actual basado en componentes y TypeScript. Solo tiene sentido si necesitas mantener aplicaciones heredadas en AngularJS o te interesa entender la evolución del framework. Packt publicó después versiones del mismo enfoque para Angular 2 y posteriores.",
+    "temas": [
+      "AngularJS 1.x",
+      "MVC",
+      "Controladores y $scope",
+      "Data binding",
+      "Servicios",
+      "Routing (ngRoute)",
+      "$http y $resource",
+      "Directivas personalizadas",
+      "Animaciones",
+      "Jasmine",
+      "Pruebas E2E"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Guess the Number",
+        "descripcion": "Pequeño juego de adivinar un número con el que se presentan los componentes básicos de AngularJS: modelo, controlador, vista y data binding."
+      },
+      {
+        "nombre": "7 Minute Workout",
+        "descripcion": "App de entrenamiento con temporizador que guía una rutina de ejercicios. En un segundo capítulo se amplía con audio, animaciones, filtros e historial de entrenamientos."
+      },
+      {
+        "nombre": "Personal Trainer",
+        "descripcion": "Ampliación del anterior a una aplicación para diseñar entrenamientos personalizados, con formularios, routing y persistencia de datos en un servidor mediante $http y $resource. Sirve de base para los capítulos de directivas y pruebas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.schweitzer-online.de/buch/Chandermani/AngularJS-Example/9781783553815/A30092877/",
+      "https://tenlong.com.tw/products/9781783553815",
+      "https://github.com/chandermani/angularjsbyexample"
+    ]
+  },
+  "angularjs-deployment-essentials-2015": {
+    "descripcion": "Guía de Zachariah Moreno, publicada por Packt en 2015, dedicada a una parte que la mayoría de libros de AngularJS (rama 1.x) deja de lado: llevar la aplicación del entorno local a producción. Sirve tanto a quien despliega por primera vez una aplicación AngularJS como a desarrolladores con experiencia que quieren comparar varias plataformas de alojamiento. Se da por sabido lo básico de AngularJS y de la línea de comandos.\n\nEl primer capítulo monta el entorno y la cadena de herramientas: se genera el proyecto con Yeoman, Grunt y Bower, se levanta un servidor local de desarrollo con Node.js y se presenta la aplicación de ejemplo. También se trata cómo optimizar el código para producción. Los capítulos siguientes despliegan esa misma aplicación paso a paso, con capturas, en un servidor Apache, en Heroku y en Firebase Hosting, con apartados de resolución de problemas. Después se convierte en app móvil con Ionic Framework y Cordova y en aplicación de Chrome. El cierre se centra en el trabajo posterior al despliegue: nuevas funciones y corrección de errores.\n\nTodo el libro gira en torno a krakn, un chat en tiempo real hecho con AngularJS, Firebase (AngularFire) e Ionic. Así el lector compara los distintos destinos con un mismo código. Es corto y muy práctico, pero ha envejecido mucho: Grunt y Bower están en desuso, las Chrome Apps desaparecieron y los procesos de Heroku y Firebase han cambiado. Hoy interesa sobre todo para mantener proyectos AngularJS heredados o como visión general de los conceptos de despliegue de una SPA.",
+    "temas": [
+      "AngularJS 1.x",
+      "Despliegue",
+      "Yeoman",
+      "Grunt",
+      "Bower",
+      "Node.js",
+      "Apache",
+      "Heroku",
+      "Firebase Hosting",
+      "Ionic Framework",
+      "Cordova",
+      "Chrome Apps"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "krakn",
+        "descripcion": "Chat en tiempo real construido con AngularJS, Firebase (AngularFire) e Ionic. Se despliega como web en Apache, Heroku y Firebase Hosting, luego como app móvil con Cordova/Ionic y por último como aplicación de Chrome."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/angularjs-deployment-essentials-9781783983582",
+      "https://github.com/ZachMoreno/krakn",
+      "https://univ-senegal.scholarvox.com/catalog/book/88852837"
+    ]
+  },
+  "angularjs-directives-2013": {
+    "descripcion": "Libro breve publicado por Packt en 2013, en el que Alex Vanston estudia a fondo las directivas de AngularJS (rama 1.x), la pieza que permite crear componentes reutilizables y extender el HTML. Packt lo dirige a desarrolladores JavaScript de nivel intermedio que quieren entender mejor el desarrollo de aplicaciones de una sola página. Los lectores coinciden en que no es para principiantes: conviene llegar con experiencia previa en AngularJS.\n\nEl libro construye directivas desde cero y explica su anatomía y configuración. Dedica un capítulo a la diferencia entre las fases de compilación (compile) y enlace (link), muy valorado por los lectores. Trata el manejo del scope dentro de la directiva (heredado o aislado), la comunicación y el intercambio de datos con los controladores, y la transclusión. Incluye ejemplos prácticos como un componente de autocompletado y la integración con el plugin jQuery Masonry. También hay capítulos de pruebas unitarias y end-to-end de directivas, y buenas prácticas para que sean independientes y mantenibles dentro de aplicaciones de varios módulos.\n\nCon un centenar de páginas, es una monografía concentrada y útil como referencia sobre un tema que la documentación oficial de la época explicaba mal. Las críticas más repetidas apuntan a la legibilidad del código, con exceso de comentarios y saltos de línea. Hoy tiene interés sobre todo para mantener código AngularJS heredado: AngularJS ya no tiene soporte, y en el Angular actual el papel de las directivas lo cumplen los componentes y las directivas de atributo con otra API.",
+    "temas": [
+      "AngularJS 1.x",
+      "Directivas",
+      "Compile vs link",
+      "Scope aislado",
+      "Transclusión",
+      "Comunicación con controladores",
+      "jQuery",
+      "Pruebas unitarias",
+      "Pruebas E2E",
+      "Buenas prácticas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.goodreads.com/book/show/18457934-angularjs-directives",
+      "https://tenlong.com.tw/products/9781783280339",
+      "https://www.iberlibro.com/9781783280339/AngularJS-Directives-Alex-Vanston-1783280336/plp"
+    ]
+  },
+  "angularjs-directives-cookbook-2015": {
+    "descripcion": "Recetario de Fernando Monteiro, ingeniero frontend y creador de proyectos como Responsive Boilerplate, publicado por Packt en 2015. Reúne más de 30 recetas para crear y personalizar directivas en AngularJS (rama 1.x). Está dirigido a desarrolladores que ya conocen AngularJS. Ayuda tener algo de experiencia con herramientas como Yeoman y Bower, aunque no es imprescindible.\n\nCada receta sigue el formato clásico de Packt (preparación, pasos, explicación y ampliaciones). Las recetas abarcan directivas de modal y pestañas con plantillas en línea y externas, la función link, una barra de navegación propia con su función controller, y la personalización de las directivas de Bootstrap UI (modales, pestañas, acordeones, contenido dinámico y scope aislado). También hay directivas interactivas con jQuery UI (draggable y droppable) y manipulación del DOM. Con el generador generator-angm de Yeoman se integran ngMap, Angular-Loading-Bar y ng-grid. Otros capítulos tratan la creación de componentes de interfaz (menú off-canvas, carrito de compras), las plantillas dinámicas con la función compile, las directivas reutilizables (incluido un formulario con validación personalizada) y las pruebas unitarias con Karma y Jasmine.\n\nEs un libro de consulta práctico: cada receta resuelve un problema concreto de interfaz y deja código listo para adaptar. Es más útil para quien mantiene aplicaciones AngularJS con Bootstrap o jQuery UI que como introducción teórica a las directivas. Hay que tener en cuenta que el ecosistema que usa (Bower, ng-grid, Bootstrap UI para AngularJS) está obsoleto y que AngularJS ya no tiene soporte, así que su valor actual se limita a proyectos heredados.",
+    "temas": [
+      "AngularJS 1.x",
+      "Directivas personalizadas",
+      "Bootstrap UI",
+      "jQuery UI",
+      "Yeoman",
+      "Bower",
+      "ngMap",
+      "ng-grid",
+      "Plantillas dinámicas",
+      "Validación de formularios",
+      "Karma",
+      "Jasmine"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.everand.com/book/342444263",
+      "https://tenlong.com.tw/products/9781784395896",
+      "https://www.abebooks.co.uk/AngularJS-Directives-Cookbook-Fernando-Monteiro-Packt/31177716665/bd"
+    ]
+  },
+  "angularjs-essentials-2014": {
+    "descripcion": "Introducción compacta a AngularJS 1.x (la rama 1.2/1.3 vigente en 2014) escrita por Rodrigo Branas, arquitecto de software y formador brasileño con amplia experiencia en proyectos empresariales con AngularJS. Está pensada para desarrolladores web que ya dominan HTML y JavaScript y quieren aprender a crear aplicaciones reutilizables, mantenibles y modulares con el framework sin tener que pasar por un manual extenso.\n\nEn unos ocho capítulos recorre los conceptos de arquitectura del framework, la instalación y la organización del código, y después se centra en los componentes clave: directivas para crear componentes reutilizables, expresiones y filtros para presentar y transformar datos, validación de formularios, módulos, servicios y el mecanismo de inyección de dependencias, que permite desacoplar las capas y facilita las pruebas. Los capítulos finales abordan las pruebas unitarias y los mocks con Jasmine, Karma y ngMock, y el empaquetado y la distribución de la aplicación con Grunt y Bower.\n\nEs un libro de teoría con ejemplos de código que se van aplicando sobre una aplicación de ejemplo, no un curso de proyectos completos. Su valor está en la claridad y la brevedad: sirve como primera toma de contacto ordenada con AngularJS o como repaso estructurado. Hay que tener en cuenta que trata exclusivamente AngularJS 1.x, hoy sin soporte oficial y muy diferente del Angular moderno (basado en TypeScript y componentes), así que resulta útil sobre todo para mantener aplicaciones heredadas. Herramientas como Grunt y Bower también han quedado en desuso.",
+    "temas": [
+      "AngularJS 1.x",
+      "Directivas",
+      "Expresiones",
+      "Filtros",
+      "Validación de formularios",
+      "Módulos",
+      "Servicios",
+      "Inyección de dependencias",
+      "Jasmine",
+      "Karma",
+      "Grunt",
+      "Bower"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.goodreads.com/book/show/23139559-angularjs-essentials",
+      "https://www.schweitzer-online.de/buch/Branas/AngularJS-Essentials/9781783980086/A22664632/",
+      "https://tenlong.com.tw/products/9781783980086"
+    ]
+  },
+  "angularjs-services-2014": {
+    "descripcion": "Libro monográfico de Jim Lavin, CTO de una empresa de pedidos en línea para restaurantes y coordinador del grupo de AngularJS de Dallas/Fort Worth, dedicado por completo a los servicios de AngularJS 1.x. Va dirigido a desarrolladores que ya conocen lo básico de AngularJS y tienen experiencia sólida en JavaScript, y que quieren aprender a sacar la lógica de los controladores para organizar mejor sus aplicaciones.\n\nEmpieza explicando qué son los servicios y qué papel cumplen frente a los demás componentes del framework, junto con buenas prácticas de JavaScript y los distintos tipos de servicio (constant, value, factory, service, provider). Después dedica un capítulo a probar servicios con Jasmine y recorre las distintas capas de una aplicación: servicios de mensajería, aspectos transversales como el registro de eventos (logging) y la autorización de usuarios, acceso a datos y caché en el cliente, consumo de servicios externos (con un ejemplo de integración con Google Calendar) y objetos de lógica de negocio compleja.\n\nEl último capítulo reúne todo lo anterior en una aplicación más grande cuyo código facilita la editorial, lo que ayuda a ver cómo encajan los servicios en una arquitectura real. Es una lectura útil para quien quiera estructurar bien código AngularJS heredado y reforzar la idea de que la lógica debe vivir en servicios. Hay que tener en cuenta que no enseña AngularJS desde cero ni cubre el Angular moderno, cuyo sistema de servicios e inyección de dependencias funciona de otra manera.",
+    "temas": [
+      "AngularJS 1.x",
+      "Servicios",
+      "Inyección de dependencias",
+      "Jasmine",
+      "Logging",
+      "Autenticación",
+      "Mensajería",
+      "Acceso a datos",
+      "Caché en el cliente",
+      "Google Calendar API",
+      "Lógica de negocio"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación integradora basada en servicios",
+        "descripcion": "En el capítulo final se integran todos los servicios del libro (mensajería, autorización, datos, caché, servicios externos y lógica de negocio) en una aplicación AngularJS más grande, con su código de ejemplo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.goodreads.com/book/show/23099362-angularjs-services",
+      "https://tenlong.com.tw/products/9781783983568"
+    ]
+  },
+  "angularjs-test-driven-development-2015": {
+    "descripcion": "Guía de Tim Chaplin, especialista en calidad de código y pruebas en proyectos AngularJS, para aplicar desarrollo guiado por pruebas (TDD) en aplicaciones AngularJS 1.x. Está dirigida a desarrolladores con conocimientos básicos de HTML, JavaScript y AngularJS que quieren incorporar las pruebas al flujo de trabajo diario en lugar de añadirlas al final.\n\nLa primera parte presenta los conceptos y técnicas de TDD y explica dónde encajan las dos herramientas principales: Karma para las pruebas unitarias (incluida la ejecución en un navegador headless y el modo de vigilancia de archivos para automatizar las pruebas) y Protractor para las pruebas de extremo a extremo. Usa Jasmine para escribir las pruebas y los dobles de prueba con spies, y prueba controladores, modelos y el scope. Los capítulos siguientes (\"The First Step\", \"Flip Flop\", \"Telling the World\" y \"Give Me Some Data\") aplican el ciclo de TDD a funcionalidades cada vez más complejas, como la navegación entre vistas, la comunicación entre componentes y el consumo de datos de una API externa. Los apéndices tratan la integración de Selenium Server con Protractor y la integración continua con Travis CI y Karma.\n\nEl libro enseña construyendo: cada funcionalidad empieza por una prueba que falla y termina con el código que la satisface, lo que ayuda a interiorizar el ciclo rojo-verde-refactorizar. Es valioso para entender la mentalidad de TDD con herramientas de su época, pero hay que tener en cuenta que Protractor ya está descontinuado y que AngularJS 1.x no tiene soporte, así que conviene trasladar las ideas a herramientas actuales como Jest, Vitest, Cypress o Playwright.",
+    "temas": [
+      "AngularJS 1.x",
+      "TDD",
+      "Karma",
+      "Protractor",
+      "Jasmine",
+      "Spies",
+      "Pruebas unitarias",
+      "Pruebas end-to-end",
+      "Selenium",
+      "Travis CI",
+      "Integración continua"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación AngularJS desarrollada con TDD",
+        "descripcion": "A lo largo de los capítulos prácticos se construye una aplicación AngularJS paso a paso empezando siempre por las pruebas, con Karma y Jasmine para la parte unitaria y Protractor para la de extremo a extremo, hasta llegar a consumir datos de una API externa."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://subscription.packtpub.com/book/web-development/9781784398835/pref02",
+      "https://subscription.packtpub.com/book/web-development/9781784398835/appC",
+      "https://www.goodreads.com/work/editions/44451216-angularjs-test-driven-development"
+    ]
+  },
+  "angularjs-testing-cookbook-2015": {
+    "descripcion": "Recetario de Simon Bailey, desarrollador frontend británico y formador en TDD, con más de 50 recetas prácticas para probar aplicaciones AngularJS 1.x. Está dirigido a desarrolladores que ya conocen el framework y los conceptos básicos de testing y buscan soluciones concretas a problemas habituales al probar cada pieza de una aplicación.\n\nEl primer capítulo se dedica a preparar el entorno: instalación y ejecución de pruebas con Karma, Protractor y Testem, y su automatización con Grunt y Gulp. Luego repasa los fundamentos de Jasmine, el uso de spies para mejorar la cobertura y técnicas para simular dependencias inyectadas (mocks). Las recetas siguientes se organizan por tipo de componente: pruebas de controladores, directivas, filtros, servicios, eventos, rutas y navegación, y animaciones, combinando pruebas unitarias y de extremo a extremo con Protractor y webdriver-manager.\n\nSu formato de recetas (preparación, pasos y explicación) lo hace muy útil como obra de consulta cuando hay que probar algo concreto, más que como lectura lineal. La editorial publica en GitHub el código de cada capítulo. No enseña AngularJS ni la teoría del testing desde cero, y varias de sus herramientas (Protractor, Testem, Grunt) han quedado en desuso, por lo que su utilidad actual se centra en proyectos AngularJS heredados.",
+    "temas": [
+      "AngularJS 1.x",
+      "Jasmine",
+      "Karma",
+      "Protractor",
+      "Testem",
+      "Grunt",
+      "Gulp",
+      "Spies",
+      "Mocks",
+      "Pruebas de directivas",
+      "Pruebas de servicios",
+      "Pruebas end-to-end"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/PacktPublishing/AngularJS-Testing-Cookbook",
+      "https://subscription.packtpub.com/book/web-development/9781783983742/pref02",
+      "https://www.goodreads.com/work/editions/45368746-angularjs-testing-cookbook"
+    ]
+  },
+  "angularjs-ui-development-2014": {
+    "descripcion": "Libro de Amit Gharat y Matthias Nehlsen sobre cómo diseñar, construir y probar interfaces de usuario listas para producción con AngularJS 1.x y el ecosistema AngularUI. Está dirigido a desarrolladores con conocimientos prácticos de JavaScript, HTML y CSS que quieren resolver problemas reales de interfaz en aplicaciones de una sola página (SPA).\n\nEmpieza montando un entorno automatizado de desarrollo con Grunt para las tareas, Bower para las dependencias, Git para el control de versiones y Karma con Protractor para las pruebas unitarias y de extremo a extremo. Después recorre las utilidades de AngularUI y sus módulos extendidos, con la integración de Google Maps y de un componente de calendario, la personalización de tablas de datos con ng-grid, animaciones con CSS3 integradas en AngularJS, widgets interactivos como mapas y gráficos, y el diseño de versiones adaptadas a móviles con los frameworks responsive Twitter Bootstrap y Foundation. También dedica espacio a entender el funcionamiento interno de Angular.\n\nSe aprende construyendo aplicaciones de ejemplo, cuyo código por capítulos está publicado en GitHub. Su punto fuerte es tratar la interfaz con un flujo de trabajo profesional (automatización y pruebas incluidas), algo poco común en libros de UI de la época. Hay que tener en cuenta que AngularUI, ng-grid, Grunt y Bower pertenecen al ecosistema de AngularJS 1.x y hoy están en desuso, así que el libro sirve sobre todo para mantener proyectos heredados o como referencia de buenas prácticas.",
+    "temas": [
+      "AngularJS 1.x",
+      "AngularUI",
+      "ng-grid",
+      "Google Maps",
+      "Animaciones CSS3",
+      "Twitter Bootstrap",
+      "Foundation",
+      "Diseño responsive",
+      "Grunt",
+      "Bower",
+      "Karma",
+      "Protractor"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de tareas (to-do)",
+        "descripcion": "Aplicación de lista de tareas construida con AngularJS para practicar componentes de interfaz y el flujo de trabajo automatizado con Grunt, Bower y pruebas con Karma y Protractor."
+      },
+      {
+        "nombre": "Panel de GitHub",
+        "descripcion": "Dashboard que muestra información de GitHub en una interfaz AngularJS con widgets interactivos."
+      },
+      {
+        "nombre": "Aplicación de gestión de proyectos",
+        "descripcion": "Herramienta de gestión de proyectos que combina componentes de AngularUI, tablas de datos y diseño adaptable a móviles."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/matthiasn/AngularUI-Code",
+      "https://tenlong.com.tw/products/9781783288472",
+      "https://www.goodreads.com/book/show/23878751-angularjs-ui-development"
+    ]
+  },
+  "angularjs-web-application-development-blueprints-2014": {
+    "descripcion": "Libro práctico de Vinci Rufus, publicado por Packt en 2014, que enseña AngularJS (la versión 1.2, es decir, el framework clásico y no el Angular moderno) construyendo varias aplicaciones completas. Está pensado para desarrolladores web que quieren usar AngularJS en proyectos reales. Hay que saber JavaScript y HTML; conocer AngularJS ayuda, pero no es obligatorio. El autor recomienda a los principiantes leer los tres primeros capítulos antes de pasar a los proyectos.\n\nEmpieza explicando qué es una aplicación de una sola página (SPA) y los conceptos básicos de AngularJS: controladores, data binding, scope y directivas. Luego prepara un entorno de trabajo con Node.js, Grunt y Yeoman, y muestra cómo hacer prototipos rápidos con el sistema de rejilla de Bootstrap. Más adelante consume servicios web REST, crea directivas propias (por ejemplo, una para iniciar sesión con Facebook) y usa ngAnimate junto con funciones de HTML5 como localStorage en una app móvil táctil. También desarrolla un CMS sobre el stack MEAN (MongoDB, Express, AngularJS y Node.js) y explica una arquitectura escalable para desplegar en Amazon Web Services.\n\nCada capítulo gira en torno a un proyecto distinto, así que se ve la variedad de aplicaciones que permite AngularJS: desde una agenda sencilla hasta una tienda en línea. Su valor hoy es sobre todo histórico o útil para mantener código heredado en AngularJS 1.x. Ese framework ya no tiene soporte y es muy distinto del Angular actual con TypeScript. Además, las herramientas que usa (Grunt, Yeoman, Bower) han sido reemplazadas. Los proyectos cubren muchos temas, pero ninguno a fondo: sirve más para ver panoramas que para dominar un tema concreto.",
+    "temas": [
+      "AngularJS 1.2",
+      "SPA",
+      "Directivas",
+      "Servicios REST",
+      "Bootstrap",
+      "Yeoman y Grunt",
+      "Facebook API",
+      "ngAnimate",
+      "localStorage",
+      "Stack MEAN",
+      "AWS",
+      "E-commerce"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Address Book App",
+        "descripcion": "Agenda de contactos sencilla que sirve de introducción a AngularJS y a las aplicaciones de una sola página: alta y listado de contactos con data binding y controladores."
+      },
+      {
+        "nombre": "Facebook Friends' Birthday Reminder App",
+        "descripcion": "Aplicación que se conecta a Facebook para recordar los cumpleaños de los amigos. Sirve para explicar las directivas, incluida una directiva propia de inicio de sesión con Facebook."
+      },
+      {
+        "nombre": "Expense Manager Mobile App",
+        "descripcion": "App móvil adaptable y táctil para registrar gastos, hecha con AngularJS, ngAnimate y localStorage de HTML5."
+      },
+      {
+        "nombre": "CMS sobre el stack MEAN",
+        "descripcion": "Gestor de contenidos con MongoDB, Express y Node.js en el servidor y AngularJS en el cliente."
+      },
+      {
+        "nombre": "Tienda en línea",
+        "descripcion": "Tienda de comercio electrónico construida con AngularJS en el último capítulo. Antes, otro capítulo trata el despliegue escalable en AWS."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.everand.com/book/272076837/AngularJS-Web-Application-Development-Blueprints",
+      "https://www.oreilly.com/library/view/angularjs-web-application/9781783285617"
+    ]
+  }
+}

@@ -1,0 +1,670 @@
+{
+  "asp-net-web-api-2-recipes-2014": {
+    "descripcion": "Recetario técnico práctico sobre servicios RESTful escrito por Filip Wojcieszyn y publicado por Apress en 2014. Ofrece soluciones directas a retos cotidianos en ASP.NET Web API 2.\n\nContiene recetas para enrutamiento por atributos, negociación de contenido personalizada, autenticación con tokens portadores (Bearer Tokens), serialización JSON/BSON con Json.NET, manejo de CORS y pruebas de integración con Owin TestServer.\n\nFilip Wojcieszyn estructura cada receta con código claro y explicaciones sobre los mecanismos internos del pipeline de peticiones HTTP en Web API. Una referencia de consulta muy valorada.",
+    "temas": [
+      "ASP.NET Web API 2",
+      "Recetas REST",
+      "Bearer Tokens",
+      "CORS",
+      "Owin TestServer",
+      "Filip Wojcieszyn",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-6433-0"
+    ]
+  },
+  "asp-net-web-api-2-2nd-edition-2014": {
+    "descripcion": "Segunda edición del manual integral sobre desarrollo de servicios web escrito por Brian Wortman y Jamie Kurtz, publicado por Apress en 2014. Diseñado para dominar ASP.NET Web API 2.\n\nAborda el diseño de contratos RESTful, serialización, inyección de dependencias, seguridad con OAuth 2.0 y JWT, filtrado y paginación con OData v4, y consumo desde aplicaciones cliente SPA y móviles.\n\nLos autores aportan un enfoque práctico centrado en la separación de responsabilidades y en la construcción de APIs limpias y mantenibles. Excelente para desarrolladores que construyen backends de servicios en .NET.",
+    "temas": [
+      "Web API 2",
+      "OAuth 2.0",
+      "JWT",
+      "OData v4",
+      "RESTful Design",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API RESTful Empresarial de Gestión Logística con OAuth 2.0",
+        "descripcion": "Construcción de un backend de servicios con seguridad basada en tokens, endpoints OData para consultas complejas y pruebas automatizadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-0086-5"
+    ]
+  },
+  "coding-clean-reliable-and-safe-rest-apis-with-asp-net-core-8-2023": {
+    "descripcion": "Tratado técnico contemporáneo sobre desarrollo de servicios web backend escrito por Anthony Giretti y publicado por Apress en 2023. Enseña a construir APIs limpias, seguras y fiables con ASP.NET Core 8.\n\nCubre Minimal APIs, controladores de API tradicionales, validación con FluentValidation, arquitectura limpia (Clean Architecture), gestión de identidades con OpenID Connect y JWT, observabilidad con OpenTelemetry y tests con WebApplicationFactory.\n\nAnthony Giretti, Microsoft MVP, aporta directrices rigurosas de ciberseguridad y diseño arquitectónico para evitar vulnerabilidades comunes en producción. Imprescindible para desarrolladores backend modernos en .NET 8.",
+    "temas": [
+      "ASP.NET Core 8",
+      "Minimal APIs",
+      "Clean Architecture",
+      "OpenTelemetry",
+      "FluentValidation",
+      "Anthony Giretti",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API RESTful Bancaria Segura y Resiliente con ASP.NET Core 8",
+        "descripcion": "Desarrollo de un microservicio con arquitectura limpia, trazabilidad OpenTelemetry, rate limiting y pruebas automatizadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-9980-7"
+    ]
+  },
+  "expert-asp-net-web-api-2-for-mvc-developers-2014": {
+    "descripcion": "Manual exhaustivo para desarrolladores de nivel avanzado escrito por Adam Freeman y publicado por Apress en 2014. Diseñado para programadores experimentados en MVC que desean dominar ASP.NET Web API 2.\n\nProfundiza en el pipeline de mensajes HTTP (DelegatingHandler, HttpMessageHandler), enrutamiento por atributos, negociación de contenidos personalizada, inyección de dependencias, seguridad y CORS, y consumo desde clientes SPA y móviles.\n\nAdam Freeman aporta su inigualable rigor técnico y didáctico, explicando en detalle el flujo de cada petición HTTP en el servidor. Una obra de consulta imprescindible para arquitectos de servicios en .NET.",
+    "temas": [
+      "Web API 2",
+      "DelegatingHandler",
+      "HttpMessageHandler",
+      "CORS",
+      "Inyección de Dependencias",
+      "Adam Freeman",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servicio de Mensajería y Notificaciones con Pipeline HTTP Personalizado",
+        "descripcion": "Implementación de una API con manejadores de mensajes personalizados para auditoría, compresión y autenticación descentralizada."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-0109-1"
+    ]
+  },
+  "migrating-asp-net-microservices-to-asp-net-core-2019": {
+    "descripcion": "Guía práctica de modernización y migración arquitectónica escrita por Iris Classon y publicada por Apress en 2019. Enseña a migrar microservicios heredados de ASP.NET al runtime multiplataforma de ASP.NET Core.\n\nAborda la evaluación de dependencias con .NET Portability Analyzer, reescritura de módulos HTTP y handlers hacia middlewares, adaptación de configuración hacia `appsettings.json`, contenedorización con Docker y pruebas de regresión.\n\nIris Classon, Microsoft MVP y consultora sénior, ofrece una hoja de ruta pragmática y libre de riesgos para modernizar sistemas empresariales sin interrumpir la operación de negocio. Una lectura muy valiosa para equipos que afrontan migraciones.",
+    "temas": [
+      "Migración .NET Core",
+      "Microservicios",
+      "Docker",
+      "Middleware",
+      "Portability Analyzer",
+      "Iris Classon",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Migración y Contenerización de Microservicio Legado a ASP.NET Core",
+        "descripcion": "Refactorización completa de un servicio SOAP/Web API tradicional hacia una API contenerizada en Docker con ASP.NET Core."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4941-3"
+    ]
+  },
+  "practical-asp-net-web-api-2013": {
+    "descripcion": "Tratado técnico exhaustivo sobre arquitectura HTTP y servicios RESTful escrito por Badrinarayanan Lakshmiraghavan y publicado por Apress en 2013. Explora el protocolo HTTP y su implementación en ASP.NET Web API.\n\nCubre la semántica de cabeceras HTTP, códigos de estado, control de caché con `ETag` y `Cache-Control`, compresión de respuestas, soporte OData, controladores asíncronos y extensibilidad de formateadores de medios (MediaTypeFormatters).\n\nBadrinarayanan Lakshmiraghavan ofrece una visión fundamentada en las especificaciones RFC de HTTP, enseñando a diseñar APIs que aprovechan al máximo la infraestructura web nativa. Una referencia técnica de gran calidad.",
+    "temas": [
+      "HTTP Architecture",
+      "Web API",
+      "ETag",
+      "Cache-Control",
+      "MediaTypeFormatter",
+      "OData",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API RESTful con Soporte de Caché Condicional y Formateadores Personalizados",
+        "descripcion": "Desarrollo de servicios web conformes a estándares RFC con validación de ETags y serialización binaria personalizada."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-5980-0"
+    ]
+  },
+  "pro-asp-net-web-api-security-2014": {
+    "descripcion": "Tratado exhaustivo y especializado en ciberseguridad para servicios web escrito por Badrinarayanan Lakshmiraghavan y publicado por Apress en 2014. Explora las técnicas para proteger APIs de nivel empresarial.\n\nDetalla la autenticación HTTP básica y digest, autenticación basada en claims, OAuth 2.0 y OpenID Connect, protección contra CSRF y ataques de inyección, cifrado de mensajes con HTTPS/TLS y autorización granular por roles y atributos.\n\nLakshmiraghavan proporciona un compendio riguroso sobre cómo blindar APIs públicas y corporativas frente a amenazas modernas en la web. La referencia definitiva sobre seguridad en ASP.NET Web API.",
+    "temas": [
+      "Web API Security",
+      "OAuth 2.0",
+      "OpenID Connect",
+      "Claims",
+      "TLS/SSL",
+      "CSRF Mitigation",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor de Autorización OAuth 2.0 y API de Recursos Segura",
+        "descripcion": "Construcción de un ecosistema seguro de servicios con emisión y validación de tokens JWT cifrados y control de acceso."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-5783-7"
+    ]
+  },
+  "pro-asp-net-web-api-2013": {
+    "descripcion": "Guía técnica integral y profunda sobre desarrollo de servicios RESTful escrita por Ali Kheyrollahi, Alexander Zeitler y Tugberk Ugurlu, publicada por Apress en 2013.\n\nAborda la arquitectura de enrutamiento, negociación de contenidos, filtros de excepción y autorización, inyección de dependencias con IoC, pruebas unitarias e integración continua, y consumo desde aplicaciones JavaScript en el cliente.\n\nLos autores aportan patrones de código y buenas prácticas nacidas de la experiencia directa en proyectos comerciales de gran volumen. Una obra de consulta muy completa y valorada por la comunidad .NET.",
+    "temas": [
+      "ASP.NET Web API",
+      "RESTful Services",
+      "Filtros",
+      "Negociación de Contenidos",
+      "Inyección de Dependencias",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API RESTful de Catálogo de Productos con Pruebas Automatizadas",
+        "descripcion": "Implementación de un backend de servicios con validación de modelos, manejo centralizado de errores y suite de tests."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-4726-5"
+    ]
+  },
+  "pro-microservices-in-net-10-2nd-edition-2025": {
+    "descripcion": "Segunda edición del tratado técnico de sistemas distribuidos y microservicios escrito por Sean Whitesell y publicado por Apress en 2025. Diseñado para dominar la arquitectura moderna sobre .NET 10.\n\nAborda patrones de diseño distribuidos (API Gateway, Saga, Circuit Breaker, Outbox Pattern), comunicación asíncrona con Apache Kafka y RabbitMQ, persistencia políglota, observabilidad completa con OpenTelemetry y orquestación con Kubernetes y Dapr.\n\nSean Whitesell guía a los arquitectos e ingenieros en el diseño de sistemas distribuidos escalables, desacoplados y resilientes ante fallos de infraestructura. Imprescindible para el desarrollo empresarial contemporáneo en .NET.",
+    "temas": [
+      "Microservicios",
+      ".NET 10",
+      "Dapr",
+      "Kubernetes",
+      "Kafka",
+      "Saga Pattern",
+      "OpenTelemetry",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Ecosistema de Microservicios Cloud-Native en .NET 10 con Dapr y Kafka",
+        "descripcion": "Construcción de una arquitectura distribuida de pedidos con sagas orquestadas, telemetría y despliegue en Kubernetes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-9999-9"
+    ]
+  },
+  "understanding-microservices-with-net-2026": {
+    "descripcion": "Manual exhaustivo y didáctico sobre arquitectura de sistemas distribuidos escrito por Sepehr Pakbaz y publicado por Apress en 2026. Explora los fundamentos conceptuales y prácticos de los microservicios en .NET.\n\nCubre la descomposición de monolitos mediante Domain-Driven Design (DDD), comunicación síncrona con gRPC y REST, mensajería asíncrona con colas, patrones de consistencia eventual, autenticación federada y despliegue en contenedores.\n\nSepehr Pakbaz destaca por un enfoque claro que ayuda a los ingenieros a evitar los errores más comunes de sobre-particionamiento y complejidad innecesaria. Una lectura formativa muy sólida para la transición hacia microservicios.",
+    "temas": [
+      "Microservicios",
+      "DDD",
+      "gRPC",
+      "Consistencia Eventual",
+      "Docker",
+      "Sepehr Pakbaz",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Reservas y Pagos Distribuida con gRPC y DDD",
+        "descripcion": "Diseño de un conjunto de microservicios con límites de contexto claros (Bounded Contexts) y comunicación gRPC de alto rendimiento."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-9992-0"
+    ]
+  },
+  "ultimate-asp-net-core-web-api-2nd-edition-2022": {
+    "descripcion": "Guía práctica y canónica de desarrollo backend profesional escrita por Marinko Spasojevic y Vladimir Pecanac (fundadores de Code Maze) y publicada en 2022. Enseña a construir APIs empresariales de principio a fin.\n\nAborda la arquitectura en capas limpia, persistencia con Entity Framework Core, validación con ActionFilters, paginación, filtrado y ordenación dinámica, soporte HATEOAS, caché con Redis y pruebas unitarias con xUnit y Moq.\n\nLos autores aportan un enfoque sumamente metódico y estructurado que ha formado a miles de programadores en el blog Code Maze. Una de las guías de desarrollo de APIs más recomendadas de la comunidad de .NET.",
+    "temas": [
+      "ASP.NET Core Web API",
+      "Code Maze",
+      "Clean Architecture",
+      "HATEOAS",
+      "EF Core",
+      "xUnit"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API RESTful Corporativa Completa con HATEOAS y Caché Redis",
+        "descripcion": "Construcción de un backend de servicios completo con paginación avanzada, validación de modelos y pruebas automatizadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://code-maze.com/ultimate-aspnetcore-webapi-second-edition/"
+    ]
+  },
+  "hallo-net-8-0-practical-asp-net-core-minimal-api-2023": {
+    "descripcion": "Manual práctico de inicio rápido sobre desarrollo de servicios web ultraligeros escrito por Agus Kurniawan y publicado en 2023. Enseña a construir APIs minimalistas con ASP.NET Core 8.\n\nCubre la definición de endpoints con `MapGet` y `MapPost`, inyección de dependencias en parámetros, validación de esquemas con TypedResults, persistencia ligera con SQLite y Entity Framework Core, y documentación automática con OpenAPI.\n\nAgus Kurniawan ofrece una guía directa y libre de código repetitivo que permite a los desarrolladores publicar microservicios veloces y de bajo consumo en cuestión de minutos. Muy adecuado para desarrolladores de APIs ligeras.",
+    "temas": [
+      "Minimal APIs",
+      "ASP.NET Core 8",
+      "OpenAPI",
+      "TypedResults",
+      "EF Core",
+      "Agus Kurniawan"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Microservicio Minimal API de Gestión de Inventario en .NET 8",
+        "descripcion": "Construcción de un servicio web ligero con endpoints tipados, persistencia en base de datos y documentación Swagger."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "building-web-apis-with-asp-net-core-2023": {
+    "descripcion": "Guía práctica integral sobre diseño y despliegue de servicios web escrita por Valerio De Sanctis y publicada por Packt en 2023. Enseña a construir APIs RESTful modernas sobre ASP.NET Core 7 y 8.\n\nAborda Minimal APIs y controladores clásicos, persistencia relacional y migraciones con Entity Framework Core, autenticación con JWT y ASP.NET Core Identity, documentación OpenAPI/Swagger, contenedores Docker y despliegue en Azure.\n\nValerio De Sanctis acompaña al lector en el desarrollo de un proyecto real completo, explicando los principios arquitectónicos y de seguridad en cada etapa. Muy formativo para programadores backend y full stack.",
+    "temas": [
+      "Web APIs",
+      "ASP.NET Core",
+      "Minimal APIs",
+      "EF Core",
+      "Docker",
+      "Azure",
+      "Valerio De Sanctis",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API RESTful de Juegos de Mesa con Autenticación JWT y Docker",
+        "descripcion": "Construcción y despliegue de un backend de servicios con búsqueda de datos, seguridad por tokens y contenedor Docker."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "microservices-in-net-core-2017": {
+    "descripcion": "Manual exhaustivo y pionero sobre diseño de microservicios escrito por Christian Horsdal Gammelgaard y publicado por Manning en 2017. Explora la transición hacia arquitecturas distribuidas con .NET Core.\n\nAborda el diseño de servicios autónomos, comunicación síncrona mediante APIs HTTP ligeras (usando NancyFX y ASP.NET Core), comunicación asíncrona basada en eventos con colas, colaboración entre servicios y despliegue con Docker.\n\nChristian Horsdal enseña a diseñar microservicios que realmente sean independientes y posean sus propios datos, evitando el temido 'monolito distribuido'. Una obra formativa indispensable para entender los microservicios en .NET.",
+    "temas": [
+      "Microservicios",
+      ".NET Core",
+      "Docker",
+      "Servicios Autónomos",
+      "Eventos",
+      "Christian Horsdal",
+      "Manning"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de Microservicios para Tienda en Línea con Docker",
+        "descripcion": "Construcción de un conjunto de microservicios autónomos coordinados mediante eventos y desplegados en contenedores."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/microservices-in-net-core"
+    ]
+  },
+  "microservices-in-net-2nd-edition-2021": {
+    "descripcion": "Segunda edición ampliamente ampliada del celebrado manual de Christian Horsdal Gammelgaard, publicada por Manning en 2021. Actualizada para .NET 5 y las prácticas modernas de arquitectura en la nube.\n\nProfundiza en la persistencia políglota, mensajería asíncrona con RabbitMQ, monitoreo distribuido con Prometheus y Grafana, patrones de resiliencia con Polly, y orquestación con Kubernetes.\n\nHorsdal Gammelgaard ofrece directrices maduras basadas en despliegues reales, enseñando a construir sistemas altamente escalables que soportan caídas de nodos sin degradar el servicio. Lectura obligatoria para ingenieros de plataformas y backend.",
+    "temas": [
+      "Microservicios",
+      ".NET 5",
+      "Kubernetes",
+      "Polly",
+      "RabbitMQ",
+      "Prometheus",
+      "Christian Horsdal",
+      "Manning"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Microservicios Resilientes en Kubernetes con Polly",
+        "descripcion": "Implementación de servicios interconectados con reintentos automáticos, circuit breakers y monitorización de telemetría."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/microservices-in-net-second-edition"
+    ]
+  },
+  "net-microservices-architecturefor-containerized-net-applications-2018": {
+    "descripcion": "Guía oficial y canónica de arquitectura de microservicios de Microsoft, escrita por César de la Torre, Bill Wagner y Mike Rousos, publicada en 2018. Acompaña a la célebre arquitectura de referencia eShopOnContainers.\n\nAborda Domain-Driven Design (DDD), patrones CQRS, eventos de integración con EventBus (RabbitMQ/Azure Service Bus), Docker multi-contenedor, API Gateways con Ocelot y despliegue en Azure Kubernetes Service (AKS).\n\nLos autores presentan la guía técnica definitiva de Microsoft sobre cómo diseñar aplicaciones de nivel empresarial modernas y contenerizadas. Una obra de consulta obligada para arquitectos de software.",
+    "temas": [
+      "eShopOnContainers",
+      "Microservicios",
+      "DDD",
+      "CQRS",
+      "EventBus",
+      "Docker",
+      "AKS",
+      "Microsoft Press"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de Referencia eShopOnContainers en Kubernetes",
+        "descripcion": "Despliegue y configuración de una suite de microservicios empresariales con API Gateways, buses de eventos y persistencia políglota."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://dotnet.microsoft.com/learn/dotnet/architecture-guides"
+    ]
+  },
+  "building-microservices-with-asp-net-core-2017": {
+    "descripcion": "Tratado técnico sobre diseño de servicios distribuidos en la nube escrito por Kevin Hoffman y publicado por O'Reilly en 2017. Enseña a construir microservicios aplicando la metodología Twelve-Factor App con ASP.NET Core.\n\nCubre la creación de servicios REST y gRPC, gestión de configuración distribuida, descubrimiento de servicios con Consul, balanceo de carga, inyección de dependencias y despliegue continuo en clústeres de contenedores Docker.\n\nKevin Hoffman destaca por su enfoque centrado en la portabilidad y la nube híbrida, capacitando a los ingenieros para diseñar aplicaciones desacopladas y de alta densidad de procesamiento. Muy útil para desarrolladores cloud.",
+    "temas": [
+      "Microservicios",
+      "Twelve-Factor App",
+      "Consul",
+      "Docker",
+      "ASP.NET Core",
+      "Kevin Hoffman",
+      "O'Reilly"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Malla de Microservicios con Descubrimiento Dinámico Consul",
+        "descripcion": "Construcción de servicios ASP.NET Core que se registran y descubren automáticamente en tiempo de ejecución."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/building-microservices-with/9781491961728/"
+    ]
+  },
+  "designing-evolvable-web-apis-with-asp-net-2014": {
+    "descripcion": "Tratado técnico y de máxima autoridad sobre el diseño sostenible de interfaces HTTP escrito por Glenn Block, Pablo Cibraro, Pedro Félix, Howard Dierking y Darrel Miller, publicado por O'Reilly en 2014.\n\nAborda los principios formales de REST: identificación de recursos, manipulación mediante representaciones, mensajes autodescriptivos e hipermedios como motor del estado de la aplicación (HATEOAS), junto a estrategias de versionado sin roturas.\n\nEl equipo de autores, líderes en la especificación de Web API y HTTP, ofrece un análisis profundo sobre cómo construir APIs destinadas a evolucionar durante décadas sin invalidar clientes existentes. La obra canónica sobre diseño evolutivo de APIs en .NET.",
+    "temas": [
+      "HATEOAS",
+      "Web APIs Evolutivas",
+      "REST",
+      "Versionado de APIs",
+      "Glenn Block",
+      "Pablo Cibraro",
+      "O'Reilly"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API RESTful Hipermedia Completa con Enlaces HATEOAS en ASP.NET",
+        "descripcion": "Diseño de un servicio web que guía a los clientes mediante controles de hipermedios dinámicos en formatos HAL y Siren."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/designing-evolvable-web/9781449337919/"
+    ]
+  },
+  "asp-net-web-api-2013": {
+    "descripcion": "Guía práctica de desarrollo de servicios web backend escrita por Joydip Kanjilal y publicada por Packt en 2013. Introduce la creación de servicios RESTful sobre ASP.NET Web API.\n\nCubre el diseño de controladores ApiController, enrutamiento semántico, negociación de contenidos (XML/JSON), validación de peticiones, persistencia con Entity Framework y consumo desde aplicaciones cliente.\n\nJoydip Kanjilal, Microsoft MVP y consultor de software, ofrece tutoriales directos que permiten a desarrolladores de aplicaciones web tradicionales crear sus primeros servicios desacoplados con facilidad. Excelente para iniciarse.",
+    "temas": [
+      "ASP.NET Web API",
+      "RESTful Services",
+      "ApiController",
+      "Entity Framework",
+      "Joydip Kanjilal",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API de Catálogo de Productos y Pedidos con ASP.NET Web API",
+        "descripcion": "Construcción de un backend de servicios con operaciones CRUD completas y serialización JSON."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "building-mobile-applications-using-kendo-ui-mobile-and-asp-net-web-api-2013": {
+    "descripcion": "Manual práctico sobre desarrollo móvil híbrido y backend RESTful escrito por Nishanth Nair y Ragini Kumbhat Bhandari, publicado por Packt en 2013. Une Kendo UI Mobile con ASP.NET Web API.\n\nAborda la creación de interfaces táctiles con Kendo UI Mobile, enlace de datos a modelos remotos, diseño de endpoints JSON seguros con Web API y empaquetado para plataformas móviles con Apache Cordova/PhoneGap.\n\nLos autores aportan soluciones paso a paso para construir aplicaciones móviles multiplataforma consumiendo un backend unificado en .NET. Una referencia formativa interesante sobre desarrollo móvil híbrido.",
+    "temas": [
+      "Kendo UI Mobile",
+      "ASP.NET Web API",
+      "PhoneGap",
+      "Cordova",
+      "Desarrollo Móvil",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Móvil Híbrida de Inventario con Kendo UI y Web API",
+        "descripcion": "Desarrollo de un cliente móvil táctil que interactúa con un servidor ASP.NET Web API mediante peticiones asíncronas JSON."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "hands-on-microservices-with-c-8-and-net-core-3-3rd-edition-2020": {
+    "descripcion": "Tercera edición del manual práctico sobre microservicios escrito por Gaurav Aroraa y Ed Price, publicado por Packt en 2020. Diseñado para construir servicios escalables con C# 8 y .NET Core 3.\n\nCubre la arquitectura orientada a servicios, gRPC de alto rendimiento, comunicación asíncrona con RabbitMQ, persistencia con bases de datos NoSQL y relacionales, contenedores Docker y orquestación con Kubernetes.\n\nLos autores proporcionan laboratorios prácticos paso a paso que capacitan al desarrollador para implementar patrones de resiliencia y monitoreo en entornos de nube. Muy formativo para ingenieros backend.",
+    "temas": [
+      "Microservicios",
+      "C# 8",
+      ".NET Core 3",
+      "gRPC",
+      "RabbitMQ",
+      "Docker",
+      "Kubernetes",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de Microservicios para Reserva de Hoteles con gRPC",
+        "descripcion": "Construcción de servicios desacoplados interconectados con llamadas RPC binarias ultrarrápidas y mensajería RabbitMQ."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mastering-asp-net-web-api-2017": {
+    "descripcion": "Tratado técnico avanzado sobre arquitectura de servicios web escrito por Mithun Pattankar y Malendra Hurbuns, publicado por Packt en 2017. Enseña a diseñar APIs empresariales de alto rendimiento con ASP.NET Web API.\n\nAborda el diseño de contratos RESTful, seguridad con OAuth 2.0 y JWT, filtrado con OData, inyección de dependencias, almacenamiento en caché, compresión y pruebas automatizadas con herramientas de testing.\n\nLos autores combinan directrices de diseño limpio con técnicas de optimización de rendimiento en servidores de alta carga. Una referencia avanzada muy sólida para desarrolladores sénior de .NET.",
+    "temas": [
+      "Mastering Web API",
+      "OAuth 2.0",
+      "JWT",
+      "OData",
+      "Caché HTTP",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API RESTful Corporativa con OData y Seguridad JWT",
+        "descripcion": "Desarrollo de un backend de servicios con autenticación descentralizada y soporte de consultas complejas OData."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "microservices-design-patterns-in-net-2022": {
+    "descripcion": "Manual exhaustivo y práctico sobre patrones de arquitectura para sistemas distribuidos escrito por Trevoir Williams y publicado por Packt en 2022. Explora los patrones fundamentales de microservicios con .NET 6.\n\nDetalla patrones como API Gateway con Ocelot, Circuit Breaker y Retry con Polly, Command Query Responsibility Segregation (CQRS) con MediatR, Event Sourcing y agregación de servicios.\n\nTrevoir Williams guía al lector a través de implementaciones paso a paso en C#, analizando los trade-offs de consistencia eventual y desacoplamiento de componentes. Esencial para arquitectos de software en .NET.",
+    "temas": [
+      "Microservices Patterns",
+      "Polly",
+      "MediatR",
+      "CQRS",
+      "Ocelot",
+      "Trevoir Williams",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Ecosistema de Microservicios Resilientes con MediatR y Polly",
+        "descripcion": "Construcción de una arquitectura de pedidos con aislamiento de fallos, reintentos automáticos y separación CQRS."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "microservices-design-patterns-in-net-2nd-edition-2025": {
+    "descripcion": "Segunda edición profundamente renovada y actualizada de la obra de Trevoir Williams, publicada por Packt en 2025. Adaptada a .NET 9 y a las tendencias contemporáneas de sistemas distribuidos.\n\nIncorpora el Outbox Pattern transaccional, Saga Pattern con orquestación y coreografía, observabilidad distribuida con OpenTelemetry, Minimal APIs de alta velocidad y despliegues en Azure Container Apps.\n\nTrevoir Williams refina sus patrones con lecciones de producción contemporáneas, capacitando a los ingenieros para diseñar sistemas empresariales fiables y escalables. La referencia obligada sobre patrones de microservicios en .NET.",
+    "temas": [
+      "Microservices Patterns",
+      ".NET 9",
+      "Outbox Pattern",
+      "Saga Pattern",
+      "OpenTelemetry",
+      "Azure Container Apps",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Distribuida de Comercio Electrónico con Outbox Pattern y Sagas",
+        "descripcion": "Implementación de microservicios coordinados con entrega de eventos garantizada y compensación automática de fallos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "practical-microservices-with-dapr-and-net-2020": {
+    "descripcion": "Tratado técnico innovador sobre computación distribuida desacoplada escrito por Davide Bedin y publicado por Packt en 2020. Enseña a utilizar el Distributed Application Runtime (Dapr) con .NET y C#.\n\nExplora los bloques de construcción de Dapr: invocación de servicios (service-to-service), gestión de estado distribuida, publicación y suscripción de eventos (Pub/Sub), bindings externos, actores virtuales y observabilidad con Zipkin.\n\nDavide Bedin demuestra cómo Dapr simplifica drásticamente la arquitectura de microservicios al abstraer la infraestructura (Redis, Kafka, AWS, Azure) del código de negocio de C#. Una lectura pionera e indispensable para arquitectos de software.",
+    "temas": [
+      "Dapr",
+      "Microservicios",
+      "Pub/Sub",
+      "Actores Virtuales",
+      "State Management",
+      "Davide Bedin",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Microservicios con Dapr y Mensajería Pub/Sub Desacoplada",
+        "descripcion": "Construcción de un sistema distribuido que intercambia eventos y gestiona estados mediante sidecars Dapr sin acoplamiento a brokers específicos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "serverless-and-microservices-with-c-2025": {
+    "descripcion": "Manual técnico de vanguardia sobre arquitecturas en la nube escrito por Gabriel Baptista y publicado por Packt en 2025. Enseña a combinar microservicios con computación sin servidor (Serverless) en C# y .NET 9.\n\nAborda Azure Functions en modelo aislado (isolated worker), contenedores serverless con Azure Container Apps, mensajería con Azure Service Bus y Event Grid, persistencia distribuida con Cosmos DB y observabilidad con Application Insights.\n\nGabriel Baptista guía al lector en la creación de arquitecturas elásticas que reducen costes operativos a cero cuando no reciben tráfico y escalan masivamente bajo demanda. Imprescindible para desarrolladores cloud en Azure.",
+    "temas": [
+      "Serverless",
+      "Azure Functions",
+      "Azure Container Apps",
+      "Cosmos DB",
+      "C#",
+      "Gabriel Baptista",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura Serverless de Procesamiento de Pagos y Eventos en Azure",
+        "descripcion": "Desarrollo de funciones aisladas y contenedores serverless coordinados por eventos con persistencia en Cosmos DB."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "web-api-development-with-asp-net-core-8-2024": {
+    "descripcion": "Guía práctica y completa de ingeniería de software backend escrita por Xiaodi Yan y publicada por Packt en 2024. Diseñada para dominar la construcción de APIs profesionales con ASP.NET Core 8.\n\nAborda Minimal APIs, controladores de API, inyección de dependencias declarativa, persistencia con Entity Framework Core 8, autenticación con JWT, documentación con Swagger/OpenAPI y pruebas automatizadas con xUnit.\n\nXiaodi Yan estructura el aprendizaje paso a paso acompañando al programador en el diseño de un backend comercial limpio y testeable. Excelente manual formativo para desarrolladores de APIs en .NET 8.",
+    "temas": [
+      "ASP.NET Core 8",
+      "Minimal APIs",
+      "EF Core 8",
+      "JWT",
+      "Swagger",
+      "xUnit",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API RESTful Empresarial de Gestión Inmobiliaria en .NET 8",
+        "descripcion": "Construcción completa de un backend con validación de datos, autenticación por tokens y documentación interactiva."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "c-microservices-web-applications-2024": {
+    "descripcion": "Manual exhaustivo y didáctico sobre desarrollo de servicios web modulares escrito por Theophilus Edet y publicado en 2024. Enseña a diseñar aplicaciones distribuidas y servicios desacoplados en C#.\n\nCubre la separación de dominios de negocio, creación de APIs REST con ASP.NET Core, comunicación entre microservicios, persistencia con bases de datos relacionales y contenedores Docker para empaquetado.\n\nTheophilus Edet adopta una metodología accesible que descompone conceptos arquitectónicos complejos en pasos de codificación claros y reproducibles. Muy útil para desarrolladores que desean dar el salto a arquitecturas de microservicios.",
+    "temas": [
+      "C# Microservices",
+      "ASP.NET Core",
+      "Docker",
+      "APIs REST",
+      "Arquitectura Distribuida",
+      "Theophilus Edet"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Microservicios Comerciales de Facturación e Inventario",
+        "descripcion": "Desarrollo de servicios independientes interconectados mediante APIs REST con empaquetado en contenedores Docker."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

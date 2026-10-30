@@ -1,0 +1,38 @@
+---
+// Contenido del menú "Tecnologías", agrupado por categoría y subgrupo. Se publica una sola vez en
+// /tech-menu/ y TechNav lo carga al abrir el menú, en lugar de repetirlo en cada página.
+import TechLogo from './TechLogo.astro';
+import { categories, categoryHref, techHref } from '../lib/data';
+---
+
+<div data-tech-menu-list>
+  {
+    categories.map((cat) => (
+      <section class="mb-4 last:mb-0">
+        <h2 class="mb-2 font-mono text-[11px] uppercase tracking-widest text-muted">
+          <a href={categoryHref(cat)} class="transition hover:text-white">{cat.nombre} →</a>
+        </h2>
+        {cat.grupos.map((g) => (
+          <>
+            {g.nombre && <h3 class="mb-1 mt-2 px-2 text-[11px] text-muted/80">{g.nombre}</h3>}
+            <ul class="grid grid-cols-2 gap-1 sm:grid-cols-3">
+              {g.techs.map((t) => (
+                <li>
+                  <a
+                    href={techHref(t.slug)}
+                    class="flex items-center gap-2 rounded-md px-2 py-1.5 text-sm transition hover:bg-white/5 aria-[current=page]:bg-white/10"
+                    style={`color:${t.color}`}
+                  >
+                    <TechLogo tech={t.slug} class="size-4 shrink-0" aria-hidden="true" />
+                    <span class="truncate text-[#e7e9ee]">{t.nombre}</span>
+                    <span class="ml-auto font-mono text-[10px] text-muted">{t.total}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </>
+        ))}
+      </section>
+    ))
+  }
+</div>

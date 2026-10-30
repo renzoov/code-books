@@ -1,0 +1,1614 @@
+{
+  "architecting-css-2020": {
+    "descripcion": "Guía de unas 240 páginas enfocada en aplicar principios de ingeniería de software y arquitectura a las hojas de estilo en cascada. Martine Dowden y Michael Dowden escribieron este libro pensando en programadores y desarrolladores web que ya conocen la sintaxis básica de CSS y HTML, pero que sufren cuando los estilos crecen y se vuelven difíciles de mantener o depurar en proyectos medianos y grandes. En lugar de centrarse en diseño gráfico o creatividad visual, el texto aborda CSS desde la disciplina del código limpio, la modularidad y el control de la complejidad.\n\nEl recorrido comienza desglosando a fondo el algoritmo de la cascada, el cálculo de especificidad, la herencia y las reglas de precedencia para evitar el abuso de !important. Luego examina sistemas de maquetación modernos como Flexbox y CSS Grid, técnicas de compatibilidad y diseño responsive con media queries, e interacciones y transiciones fluidas sin depender en exceso de JavaScript. Dedica capítulos clave a la modularización mediante preprocesadores (principalmente Sass/SCSS), el uso de variables nativas (CSS Custom Properties) para temas dinámicos y white-labeling, la interacción controlada entre CSS y JavaScript en el DOM, y patrones arquitectónicos reconocidos como BEM, OOCSS y SMACSS.\n\nEnseña mediante ejemplos de código específicos, técnicas de refactorización y guías de organización de carpetas y componentes, en lugar de guiar la construcción de una única aplicación desde cero. Su principal valor radica en cambiar la mentalidad del programador hacia CSS, dotándolo de herramientas para estructurar sistemas de diseño accesibles y escalables. Por su enfoque y fecha de publicación (2020), no profundiza en librerías de utilidades como Tailwind CSS ni en soluciones de CSS-in-JS complejas, pero sus fundamentos sobre especificidad, accesibilidad y desacoplamiento de estilos siguen siendo esenciales para cualquier equipo frontend.",
+    "temas": [
+      "Arquitectura CSS",
+      "Especificidad y cascada",
+      "Flexbox",
+      "CSS Grid",
+      "BEM y patrones",
+      "Sass / SCSS",
+      "CSS Custom Properties",
+      "Accesibilidad web",
+      "Diseño responsive",
+      "Organización modular"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/architecting-css/9781484257500/",
+      "https://link.springer.com/book/10.1007/978-1-4842-5750-0"
+    ]
+  },
+  "beginning-css-preprocessors-2015": {
+    "descripcion": "Introducción breve, publicada por Apress en 2015 dentro de la serie Expert's Voice in Web Development, a los preprocesadores de CSS: Sass, Less y Compass. Su autor es Anirudh Prabhu, desarrollador especializado en HTML5, CSS3, jQuery, Bootstrap y Sass. Está pensada para maquetadores y desarrolladores frontend que ya dominan CSS y quieren escribir hojas de estilo más fáciles de mantener y reutilizar.\n\nTiene cinco capítulos. El primero explica qué es un preprocesador y qué frameworks existen. Dos capítulos están dedicados a Sass: los conceptos básicos (variables, anidamiento, partials, mixins, herencia con @extend) y los avanzados (funciones, condicionales y bucles). Le siguen un capítulo sobre desarrollo con Less y otro sobre Compass, el framework construido sobre Sass, con el que se automatizan tareas como generar sprites de imágenes y minificar el CSS.\n\nNo tiene proyectos completos: enseña con fragmentos de código cortos que comparan el código fuente con el CSS generado. Es útil para entender rápidamente qué aporta cada herramienta y elegir una. Su vigencia es limitada: Compass está abandonado, Less se usa poco y Sass ha pasado de Ruby Sass a Dart Sass y al sistema de módulos (@use), que el libro no recoge. Además, las variables nativas de CSS cubren hoy parte de lo que antes requería un preprocesador.",
+    "temas": [
+      "Preprocesadores CSS",
+      "Sass",
+      "SCSS",
+      "Less",
+      "Compass",
+      "Variables",
+      "Mixins",
+      "Anidamiento",
+      "Bucles y condicionales",
+      "Sprites",
+      "Minificación"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/-/9781484213476/",
+      "https://www.skillsoft.com/book/beginning-css-preprocessors-with-sass-compassjs-and-lessjs-65ba9fc0-f3ad-11e6-ad5d-0242c0a80607",
+      "https://eld.bl.uk/catalog/019126937"
+    ]
+  },
+  "beginning-css3-2012": {
+    "descripcion": "Introducción amplia y muy didáctica a las hojas de estilo, escrita por David Powers (autor de varios libros de PHP y Dreamweaver) y publicada por Apress en 2012. Cubre todo CSS2.1 y las partes de CSS3 que ya eran estables en esa época. Está pensada para principiantes y diseñadores web que conocen lo básico de HTML y quieren aprender a dar estilo y maquetar páginas desde cero, sin depender de editores visuales.\n\nEl libro arranca con los fundamentos: cómo funciona la cascada, los selectores básicos, las unidades, los colores y los estilos de texto. Dedica un capítulo propio a incrustar fuentes web con @font-face y a elegir los formatos adecuados. Un bloque central sobre maquetación explica el modelo de caja, los floats, los fondos, los bordes con esquinas redondeadas y sombras, el estilo de listas y menús de navegación, el posicionamiento preciso y las técnicas de maquetación compatibles con distintos navegadores. La parte avanzada trata selectores avanzados, tablas, contenido generado y media queries para adaptar los estilos a distintos dispositivos. También muestra cómo crear degradados sin imágenes y aplicar otros efectos propios de CSS3.\n\nSe aprende con ejercicios prácticos paso a paso, cuyo código de cada capítulo está en el repositorio oficial de Apress en GitHub. Su gran mérito es la claridad con que explica conceptos que suelen confundir a quien empieza, como la especificidad, el modelo de caja o los floats. Hay que tener en cuenta su época: es anterior a la adopción generalizada de Flexbox y CSS Grid, así que la maquetación se basa en floats y posicionamiento, y la información sobre compatibilidad (prefijos de proveedor, versiones antiguas de Internet Explorer) está desactualizada. Sigue siendo útil para entender los fundamentos, pero conviene completarlo con un texto moderno sobre layout.",
+    "temas": [
+      "CSS2.1",
+      "CSS3",
+      "Selectores",
+      "Modelo de caja",
+      "Floats",
+      "Posicionamiento",
+      "Fuentes web (@font-face)",
+      "Fondos y bordes",
+      "Menús de navegación",
+      "Tablas",
+      "Media queries",
+      "Degradados"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.goodreads.com/book/show/15945006-beginning-css3",
+      "https://www.barnesandnoble.com/w/beginning-css3-david-powers/1112556457",
+      "https://github.com/Apress/beg-css3",
+      "https://www.oreilly.com/library/view/beginning-css3/9781430244738/"
+    ]
+  },
+  "css-framework-alternatives-2018": {
+    "descripcion": "Libro breve de Aravind Shenoy y Anirudh Prabhu (Apress, 2018) que presenta cinco frameworks CSS ligeros como alternativa a los dos más usados en aquel momento, Bootstrap y Foundation. Va dirigido a quienes ya tienen conocimientos básicos de HTML, CSS y JavaScript, y también a diseñadores con experiencia que solo han trabajado con Bootstrap o Foundation y quieren conocer opciones más ligeras y sencillas.\n\nTras un capítulo inicial sobre por qué y cuándo elegir un framework ligero, cada capítulo se dedica a una herramienta: Skeleton, una base mínima con grilla responsive; Milligram, un framework minimalista para tipografía y formularios; UIkit, de YOOtheme, con una amplia colección de componentes interactivos; Material Design Lite, la implementación de Google de Material Design sin dependencias pesadas de JavaScript; y Susy, un sistema de grillas basado en Sass. En cada caso se explican la instalación, la grilla y los componentes principales, siempre aplicados a un ejemplo concreto.\n\nEl aprendizaje es práctico: cada framework se usa en un proyecto propio, como una landing page con Skeleton y la página de producto de un servicio VPN con Milligram. Su valor está en mostrar que no todo proyecto necesita un framework pesado y en comparar enfoques diferentes. Hoy hay que leerlo con cautela: Material Design Lite está discontinuado, Susy dejó de mantenerse y UIkit ha cambiado de versión. Además, CSS Grid y Flexbox nativos, junto con herramientas como Tailwind CSS, han cambiado el panorama. Sirve más como ejercicio de criterio que como guía de herramientas vigentes.",
+    "temas": [
+      "Frameworks CSS",
+      "Skeleton",
+      "Milligram",
+      "UIkit",
+      "Material Design Lite",
+      "Susy",
+      "Sass",
+      "Grillas responsive",
+      "Landing pages",
+      "Alternativas a Bootstrap"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Landing page con Skeleton",
+        "descripcion": "Página de aterrizaje responsive maquetada con la grilla y los estilos base de Skeleton, un framework mínimo de HTML y CSS."
+      },
+      {
+        "nombre": "Página de producto de un VPN con Milligram",
+        "descripcion": "Página de presentación de un producto de VPN seguro construida con Milligram, aprovechando su tipografía, botones y formularios minimalistas."
+      },
+      {
+        "nombre": "Páginas interactivas con UIkit, Material Design Lite y Susy",
+        "descripcion": "Ejemplos prácticos en los que se construyen páginas interactivas con los componentes de UIkit, la estética Material de Material Design Lite y grillas personalizadas en Sass con Susy."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bookshare.org/browse/book/1979314",
+      "https://link.springer.com/book/10.1007/978-1-4842-3399-3",
+      "https://github.com/Apress/css-framework-alternatives"
+    ]
+  },
+  "css-mastery-3rd-edition-2016": {
+    "descripcion": "Tercera edición, totalmente actualizada, de un clásico de CSS avanzado. Andy Budd, cofundador de la consultora Clearleft, la escribió junto a Emil Björklund, director técnico de inUse, y la publicó Apress en 2016. Se centra en CSS3 y en los navegadores modernos de esa época. Está dirigida a diseñadores y desarrolladores web de nivel intermedio y avanzado que ya conocen lo básico de CSS y quieren dominar las técnicas profesionales y entender a fondo cómo funciona el lenguaje.\n\nLos doce capítulos van de los cimientos a la vanguardia de entonces. Empiezan con un repaso de las bases: marcado semántico, selectores, cascada y especificidad, y el modelo de formato visual. Siguen con tipografía web, cajas con fondos, bordes y sombras, y maquetación de contenido y de página con sistemas de grillas, incluidos los modelos de layout que estaban surgiendo. También tratan el diseño responsive, el estilo de formularios y tablas de datos (incluidas las tablas responsive), y las transformaciones, transiciones y animaciones. El penúltimo capítulo explora efectos visuales avanzados y el último se dedica a la calidad del código y al flujo de trabajo: CSS modular, organización y mantenimiento de hojas de estilo.\n\nNo se organiza alrededor de un proyecto, sino de numerosos ejemplos y soluciones a problemas reales, como errores habituales, diferencias entre navegadores y las partes más difíciles de CSS. Desmonta además algunos mitos comunes. Su aporte principal es enseñar a pensar en CSS de forma estructurada y mantenible, más que listar propiedades. Conviene saber que, desde 2016, CSS Grid y Flexbox se han asentado y han surgido funciones como las container queries o el anidamiento, así que algunas partes sobre compatibilidad han envejecido. No es un libro para principiantes.",
+    "temas": [
+      "CSS3",
+      "Especificidad y cascada",
+      "Modelo de formato visual",
+      "Tipografía web",
+      "Maquetación con grillas",
+      "Diseño responsive",
+      "Formularios y tablas",
+      "Transiciones y animaciones",
+      "Efectos visuales",
+      "CSS modular",
+      "Flujo de trabajo"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://books.google.com/books/about/CSS_Mastery.html?id=4L--DAAAQBAJ",
+      "https://link.springer.com/book/10.1007/978-1-4302-5864-3",
+      "https://www.oreilly.com/library/view/css-mastery-third/9781430258643"
+    ]
+  },
+  "css3-quick-syntax-reference-2nd-edition-2019": {
+    "descripcion": "Guía de bolsillo de Mikael Olsson (Apress, 2019, segunda edición) que resume de forma concisa la sintaxis de CSS3. Está pensada para programadores y desarrolladores web con experiencia que son nuevos en CSS3, o incluso en CSS en general, y quieren una referencia rápida y ordenada en lugar de un curso extenso.\n\nEn 27 capítulos cortos recorre el lenguaje de forma sistemática: cómo incluir CSS en una página, agrupación, selectores de clase e ID, de atributo y pseudoselectores, relaciones entre selectores y especificidad. Luego pasa a colores, unidades, propiedades de texto y fuentes, fondos y degradados, el modelo de caja (márgenes, bordes, relleno y dimensiones), posicionamiento, listas y tablas. Cierra con un capítulo sobre medios y media queries para diseño responsive, otro sobre las técnicas de maquetación y uno final de buenas prácticas.\n\nNo incluye proyectos ni ejercicios guiados: cada tema se explica con fragmentos de código breves y directos, al estilo de un manual de consulta. Es útil para tenerlo cerca mientras se programa o para repasar rápidamente la sintaxis, pero no enseña a diseñar interfaces ni a estructurar hojas de estilo grandes. Quien busque aprender maquetación moderna en profundidad o funciones recientes como las container queries necesitará un texto más extenso y actualizado.",
+    "temas": [
+      "CSS3",
+      "Sintaxis",
+      "Selectores",
+      "Especificidad",
+      "Colores y unidades",
+      "Texto y fuentes",
+      "Modelo de caja",
+      "Posicionamiento",
+      "Listas y tablas",
+      "Media queries",
+      "Layout",
+      "Buenas prácticas"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4903-1",
+      "https://www.apress.com/gp/book/9781484249024",
+      "https://skillsoft.com/book/css3-quick-syntax-reference-a-pocket-guide-to-the-cascading-style-sheets-language-second-edition-78a3cc15-e363-409f-a301-ee3a6eab931b"
+    ]
+  },
+  "modern-css-2020": {
+    "descripcion": "Libro de Joe Attardi, ingeniero especializado en front-end con más de quince años de experiencia, publicado por Apress en 2020. Repasa los conceptos clave del CSS actual. Está dirigido a quienes ya tienen algo de experiencia con HTML y CSS pero no dominan las técnicas más nuevas, como Flexbox o CSS Grid, y también a quienes quieren refrescar y ordenar lo que saben del lenguaje.\n\nSus trece capítulos avanzan de lo básico a lo avanzado. Empieza con la sintaxis de los selectores y el cálculo de la especificidad, el modelo de caja y los conceptos fundamentales. Sigue con fondos y degradados, estilo de texto y posicionamiento. Luego aborda transformaciones, transiciones y animaciones, la maquetación con Flexbox, los fundamentos del diseño responsive y CSS Grid. Por el camino repasa las propiedades personalizadas (variables CSS). Cuando es posible, indica la compatibilidad con Internet Explorer 11, aunque algunas funciones solo funcionan en navegadores modernos.\n\nTodo se explica con ejemplos de código, capturas y diagramas, pero sin un proyecto conductor ni ejercicios formales. Su punto fuerte es poner al día a quien aprendió CSS con floats y tablas y llevarlo a los modelos de layout modernos de forma clara y progresiva. Deja fuera las arquitecturas de CSS (BEM, metodologías), los preprocesadores y frameworks, y funciones posteriores a 2020 como las container queries, :has() o el anidamiento, que Apress incorporó en una edición posterior.",
+    "temas": [
+      "CSS moderno",
+      "Selectores y especificidad",
+      "Modelo de caja",
+      "Fondos y degradados",
+      "Tipografía",
+      "Posicionamiento",
+      "Transformaciones",
+      "Transiciones y animaciones",
+      "Flexbox",
+      "CSS Grid",
+      "Diseño responsive",
+      "Variables CSS"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://oreilly.com/library/view/modern-css-master/9781484262948",
+      "https://www.apress.com/9781484262931",
+      "https://skillsoft.com/book/modern-css-master-the-key-concepts-of-css-for-modern-web-development-44450967-49a1-4dc4-84d4-b05328415d1a"
+    ]
+  },
+  "pro-css-for-high-traffic-websites-2011": {
+    "descripcion": "Libro de Apress (2011) en el que Antony Kennedy e Inayaili de León explican cómo escribir y mantener CSS en sitios grandes, con mucho tráfico y equipos numerosos, donde el reto no es lograr un efecto visual concreto sino que miles de líneas de estilos sigan siendo coherentes, rápidas y fáciles de mantener con el paso del tiempo. Trabaja con CSS 2.1 y las primeras propiedades de CSS3 de la época. Está dirigido a desarrolladores de nivel intermedio o avanzado que ya dominan la sintaxis de CSS y trabajan, o van a trabajar, en proyectos con varios desarrolladores.\n\nEl recorrido empieza por el proceso: cómo organizar el trabajo en equipo y cómo redactar y aplicar una guía de estilo de CSS para que todos escriban código consistente. Después repasa los fundamentos (herencia, selectores, especificidad y hacks), argumenta a favor de usar frameworks CSS en lugar de partir siempre de cero y dedica capítulos a la implementación de la identidad de marca (colores, tipografía y la dificultad de reproducir fuentes corporativas), la accesibilidad y la adaptación a distintos dispositivos. La parte más técnica trata el rendimiento (tamaño de archivos, minificación y optimización de selectores), el CSS dinámico con preprocesadores y generación de estilos desde el servidor, y las pruebas y la depuración. Cierra con un capítulo que aplica todo a un caso práctico y con apéndices sobre estándares de código, accesibilidad, soporte de navegadores y proceso de desarrollo.\n\nSu aporte está en tratar el CSS como código de ingeniería: convenciones, documentación, procesos y mantenimiento a largo plazo, temas que casi ningún libro de la época abordaba. No es un libro de trucos ni de diseño visual, y algunas microoptimizaciones de rendimiento que propone han quedado obsoletas o tienen poco impacto real, así que conviene leerlo con espíritu crítico. Además, es anterior a Flexbox, Grid, las variables CSS y metodologías como BEM, aunque las ideas de guías de estilo y organización siguen vigentes. Resulta especialmente útil para equipos que deban poner orden en hojas de estilo grandes.",
+    "temas": [
+      "CSS a gran escala",
+      "Guías de estilo",
+      "Trabajo en equipo",
+      "Frameworks CSS",
+      "Identidad de marca",
+      "Accesibilidad",
+      "Rendimiento",
+      "Preprocesadores",
+      "Pruebas y depuración",
+      "Compatibilidad entre navegadores"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Caso práctico final: creación del CSS de un sitio",
+        "descripcion": "El último capítulo aplica el proceso del libro (guía de estilo, framework, marca, accesibilidad y rendimiento) a la construcción de las hojas de estilo de un sitio de ejemplo, de principio a fin."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/pro-css-for/9781430232889/",
+      "https://i-programmer.info/bookreviews/12-web-design-and-development-/3312-pro-css-for-high-traffic-websites.html",
+      "https://www-test.barnesandnoble.com/w/pro-css-for-high-traffic-websites-antony-kennedy/1100211959"
+    ]
+  },
+  "pro-css-techniques-2006": {
+    "descripcion": "Libro de la serie Expert's Voice de Apress (2006) escrito por Jeff Croft, Ian Lloyd y Dan Rubin, tres diseñadores web reconocidos de la época de los estándares web. Recorre CSS 1 y 2.1, con un vistazo a lo que entonces se anunciaba en CSS3, y presta especial atención al soporte real de los navegadores de su tiempo, incluido el recién llegado Internet Explorer 7. Está pensado para diseñadores y desarrolladores que ya conocen los fundamentos de HTML y CSS y quieren pasar a un uso profesional; el «Pro» del título, según los propios autores, se refiere a quien vive de hacer webs, no necesariamente a un experto.\n\nLos primeros capítulos repasan la promesa de separar contenido y presentación, el lenguaje de las hojas de estilo, la especificidad y la cascada, las diferencias entre navegadores y la organización de los archivos CSS. Luego aborda los hacks y técnicas de compatibilidad, la maquetación de páginas completas con CSS y la creación de elementos comunes de página. La segunda mitad funciona casi como un recetario por tipo de contenido: tipografía, tablas, formularios, listas y hojas de estilo para impresión y otros medios. El capítulo final, «Everything Falls Apart», trata la depuración cuando el diseño se rompe, y los apéndices incluyen una referencia de CSS, una tabla de especificidad y una tabla de soporte de propiedades por navegador.\n\nEs un libro práctico y bien estructurado, con muchos ejemplos de código para resolver problemas reales de maquetación de mediados de los 2000. Hoy su valor es sobre todo histórico y formativo: explica muy bien la cascada y la especificidad, pero buena parte de su contenido (hacks para IE, layouts con floats, técnicas de compatibilidad) ha quedado superada por Flexbox, Grid y navegadores modernos. Algunos lectores echaron en falta más profundidad en temas como hasLayout de IE o la impresión. Conviene leerlo sabiendo que describe el estado del arte de 2006.",
+    "temas": [
+      "CSS 2.1",
+      "Especificidad y cascada",
+      "Compatibilidad entre navegadores",
+      "Hacks para Internet Explorer",
+      "Maquetación con CSS",
+      "Tipografía",
+      "Formularios",
+      "Tablas y listas",
+      "CSS para impresión",
+      "Depuración"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://snook.ca/archives/snooks_book_nook/review_pro_css_techniques",
+      "https://www.goodreads.com/work/editions/304941-pro-css-techniques-pro",
+      "https://www.eyrolles.com/Informatique/Livre/pro-css-techniques-9781590597323"
+    ]
+  },
+  "pro-css3-animation-2012": {
+    "descripcion": "Libro breve de Apress (2012) en el que Dudley Storey, profesor y diseñador canadiense con experiencia como desarrollador y artista 3D, enseña a animar páginas web solo con CSS3, sin depender de Flash ni de librerías JavaScript para los efectos. Trabaja con los módulos de transformaciones, transiciones y animaciones de CSS3 tal como se implementaban en 2012, todavía con prefijos de proveedor. Está dirigido a diseñadores y programadores con algunos años de experiencia en desarrollo web, de nivel intermedio a avanzado, que ya dominan HTML y CSS.\n\nEl recorrido empieza con las transformaciones 2D (traslación, rotación, escala, inclinación) y las transiciones, incluida la combinación de varios efectos de transición. Sigue con las animaciones por keyframes (@keyframes y sus propiedades de duración, retardo, iteración y funciones de temporización) y su aplicación a contenido web real, como interfaces y elementos de página. Después integra las animaciones CSS3 con SVG y con los filtros CSS, muestra cómo combinarlas con JavaScript para lograr animaciones adaptables (responsive) y controladas por eventos, y entra en las transformaciones 3D (perspectiva, rotaciones en el espacio). El libro termina repasando herramientas para crear animaciones CSS.\n\nLa obra se apoya en muchos ejemplos cortos y prácticos que el lector puede reproducir y adaptar, más que en un gran proyecto. Su aporte es una introducción compacta y visual a un tema que en su momento era novedoso. Hoy hay que tener en cuenta que los prefijos y las advertencias sobre soporte de navegadores están desfasados, y que no cubre APIs posteriores como Web Animations ni temas como la preferencia de movimiento reducido o el rendimiento en la GPU con el detalle actual. Sigue siendo útil para entender a fondo transiciones, keyframes y transformaciones.",
+    "temas": [
+      "CSS3",
+      "Transformaciones 2D",
+      "Transiciones",
+      "Animaciones con keyframes",
+      "Transformaciones 3D",
+      "SVG",
+      "Filtros CSS",
+      "JavaScript",
+      "Diseño responsive",
+      "Herramientas de animación"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.apress.com/us/book/9781430247227",
+      "https://www.oreilly.com/library/view/-/9781430247227",
+      "https://www.oreilly.com/library/view/pro-css3-animation/9781430247227/9781430247227_Introduction.xhtml",
+      "https://skillsoft.com/book/pro-css3-animation-009ad410-f26e-11e6-adc4-0242c0a80902"
+    ]
+  },
+  "pro-css3-layout-techniques-2016": {
+    "descripcion": "Libro de Apress (2016) en el que Sam Hampton-Smith repasa las herramientas de maquetación de CSS3 para construir diseños web y de aplicaciones más flexibles que los que permitía CSS 2.1. Cubre tanto los módulos que ya estaban bien soportados en 2016 como otros que el W3C aún estaba desarrollando. Está pensado para diseñadores y desarrolladores web de nivel intermedio que ya conocen HTML y CSS y quieren dejar atrás los layouts basados en floats y posicionamiento.\n\nTras plantear los retos habituales de la maquetación web, el autor repasa los mecanismos clásicos (position, float y display) y los compara con los nuevos módulos de layout. Luego dedica capítulos a cada uno: el diseño en varias columnas (multi-column), Flexbox con especial detalle, CSS Grid y CSS Regions, entonces experimental. También explica cómo dar soporte a navegadores antiguos con polyfills y alternativas progresivas, cómo agilizar el trabajo con librerías y frameworks CSS, y termina con una mirada al futuro de la maquetación con CSS.\n\nEl libro combina un enfoque de tutorial, con ejemplos prácticos de casos reales, con secciones que sirven de referencia. Su principal limitación es la fecha: Grid se estabilizó en los navegadores en 2017, después de la publicación, así que parte de su sintaxis y de su información sobre soporte puede estar desactualizada, y CSS Regions nunca llegó a adoptarse ampliamente. Conviene contrastarlo con documentación actual (MDN, caniuse) y no se ocupa de novedades posteriores como subgrid o las container queries. Sigue siendo una buena introducción conceptual a Flexbox y al razonamiento detrás de los layouts modernos.",
+    "temas": [
+      "CSS3",
+      "Flexbox",
+      "CSS Grid",
+      "Multi-column",
+      "CSS Regions",
+      "Position, float y display",
+      "Polyfills",
+      "Navegadores antiguos",
+      "Frameworks CSS",
+      "Maquetación web"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.apress.com/book/9781430265023",
+      "https://www.oreilly.com/library/view/-/9781430265030/",
+      "https://www.jarir.com/sa-en/pro-css3-layout-techniques-9781430265023.html",
+      "https://skillsoft.com/book/pro-css3-layout-techniques-e25c4bb0-f3f7-11e6-b0e2-0242c0a80804"
+    ]
+  },
+  "css-mastery-2nd-edition-2009": {
+    "descripcion": "Segunda edición (2009, sello friends of ED de Apress) del clásico de Andy Budd, con la colaboración de Simon Collison y Cameron Moll, que reúne en una sola guía las técnicas de diseño con CSS basadas en estándares web. Esta edición se actualizó para incluir CSS3: muestra las técnicas ya probadas de CSS 2.1 junto a sus equivalentes en CSS3, con información de soporte de navegadores revisada. Está dirigido a diseñadores y desarrolladores intermedios con una base sólida en HTML y CSS, y también sirve como libro de consulta para perfiles avanzados.\n\nLos primeros capítulos sientan las bases: marcado semántico y estructura del código, selectores, especificidad y cascada, y el modelo de formato visual (modelo de caja, posicionamiento, floats). A partir de ahí trabaja técnicas concretas: uso de imágenes de fondo para efectos visuales (esquinas redondeadas, sombras, sprites e imágenes reemplazadas), estilos de enlaces, listas y barras de navegación, formularios y tablas de datos, y layouts de varias columnas fijos, líquidos y elásticos. El capítulo de errores y su corrección enseña a diagnosticar y resolver los fallos de los navegadores, con especial atención a Internet Explorer y hasLayout.\n\nSe puede leer de principio a fin, porque los capítulos van construyendo sobre los anteriores, o usar como recetario. El cierre con dos casos de estudio reales, a cargo de Moll y Collison, muestra cómo profesionales experimentados combinan todas las técnicas en sitios completos. Hoy muchas soluciones (trucos con imágenes de fondo, layouts con floats, hacks para IE) están superadas por Flexbox, Grid y las propiedades CSS3 nativas, y existe una tercera edición de 2016 más actual. Aun así, su explicación de la cascada, del modelo de caja y de la forma de razonar el CSS sigue siendo muy valiosa.",
+    "temas": [
+      "CSS 2.1",
+      "CSS3",
+      "Selectores y especificidad",
+      "Modelo de caja",
+      "Imágenes de fondo",
+      "Navegación con listas",
+      "Formularios y tablas",
+      "Layouts líquidos y elásticos",
+      "Bugs de navegadores",
+      "Casos de estudio"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Caso de estudio: Roma Italia",
+        "descripcion": "Cameron Moll analiza el diseño de un sitio de ejemplo sobre Italia y explica cómo resolvió su maquetación y sus detalles visuales con CSS 2.1 y algunas técnicas de CSS3."
+      },
+      {
+        "nombre": "Caso de estudio: Climb the Mountains",
+        "descripcion": "Simon Collison desglosa un sitio de ejemplo sobre montañismo y muestra cómo organiza el CSS y combina las técnicas del libro en un diseño completo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://apress.com/9781430223979",
+      "https://www.oreilly.com/library/view/-/9781430223979/",
+      "https://www.oreilly.com/library/view/css-mastery-advanced/9781430223979/ch10.html",
+      "https://book.douban.com/subject/3887227/"
+    ]
+  },
+  "css-avanzado-2009": {
+    "descripcion": "Libro en español de Javier Eguíluz Pérez, publicado gratis en LibrosWeb con licencia Creative Commons y pensado como continuación de su «Introducción a CSS». Es de la época de CSS 2.1, cuando Internet Explorer 6 y 7 todavía dominaban el mercado, y está dirigido a maquetadores y desarrolladores que ya conocen los selectores, el modelo de cajas y el posicionamiento, y quieren resolver los problemas reales que aparecían al maquetar sitios completos.\n\nEl primer capítulo, «Técnicas imprescindibles», reúne los recursos que todo maquetador de la época debía dominar: propiedades abreviadas (shorthand), la propiedad interna hasLayout de Internet Explorer y sus efectos, la limpieza de elementos flotantes (clearfix), las columnas de igual altura y la simulación de sombras. Después vienen las buenas prácticas para organizar hojas de estilo y la inicialización o reseteo de estilos (reset CSS). El resto del libro, según su planteamiento, trata selectores y propiedades menos conocidas, técnicas de maquetación con floats, hacks y filtros para navegadores antiguos y recursos y frameworks CSS de aquellos años.\n\nEs un libro muy práctico, hecho de técnicas listas para usar más que de teoría, pero hoy tiene sobre todo valor histórico. Buena parte de su contenido (hasLayout, hacks para IE, columnas simuladas con imágenes de fondo, sombras sin box-shadow) ya no hace falta gracias a Flexbox, Grid y CSS3. Sirve para entender código heredado o el origen de muchas convenciones actuales. Para aprender CSS moderno conviene complementarlo con recursos actualizados como MDN. La propia versión de 2009 se presentaba como una obra todavía incompleta.",
+    "temas": [
+      "CSS 2.1",
+      "Propiedades shorthand",
+      "hasLayout",
+      "Clearfix",
+      "Columnas de igual altura",
+      "Reset CSS",
+      "Buenas prácticas",
+      "Hacks de navegador",
+      "Internet Explorer",
+      "Maquetación con floats"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "media",
+    "fuentes": []
+  },
+  "introduccion-a-css-2009": {
+    "descripcion": "Manual introductorio en español de Javier Eguíluz Pérez, publicado gratis en LibrosWeb con licencia Creative Commons (BY-NC-ND 3.0). Enseña CSS 2.1 aplicado a documentos XHTML, el estándar de la época, y está pensado para principiantes que saben algo de HTML y quieren aprender a separar el contenido de la presentación usando hojas de estilo.\n\nEl recorrido empieza con la historia y el propósito de CSS y explica cómo incluir estilos en un documento XHTML: en línea, en el bloque style o en archivos externos. Sigue con los selectores, las unidades de medida y los colores, y el modelo de cajas (márgenes, relleno, bordes, ancho y alto). Después pasa al posicionamiento y la visualización (display, float, position, z-index) y al formato de texto, enlaces, imágenes, listas, tablas y formularios, para terminar con la maquetación de páginas completas mediante floats.\n\nEs un manual claro y bien ordenado, con muchos ejemplos de código y ejercicios con solución que ayudan a fijar cada tema. Es de 2009, así que no cubre CSS3 (bordes redondeados, sombras, degradados, media queries), ni Flexbox, Grid, variables CSS o diseño responsive. Además, sus técnicas de maquetación con floats y XHTML están superadas. Sigue siendo útil para entender bien la cascada, los selectores y el modelo de cajas, pero conviene completarlo con un recurso actual de CSS moderno.",
+    "temas": [
+      "CSS 2.1",
+      "XHTML",
+      "Selectores",
+      "Unidades y colores",
+      "Modelo de cajas",
+      "Posicionamiento",
+      "Floats",
+      "Texto y enlaces",
+      "Listas y tablas",
+      "Formularios",
+      "Maquetación"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "media",
+    "fuentes": []
+  },
+  "css3-for-web-designers-2010": {
+    "descripcion": "Segundo título de la colección A Book Apart, editada por Mandy Brown y con prólogo de Jeffrey Zeldman. En él, Dan Cederholm (creador de SimpleBits y cofundador de Dribbble) muestra cómo usar las novedades de CSS3 en proyectos reales cuando todavía no todos los navegadores las soportaban. Es un libro breve, dirigido a diseñadores web y maquetadores que ya dominan HTML y CSS 2.1 y quieren aprender CSS3 de forma práctica y sin rodeos.\n\nTiene siete capítulos: «Using CSS3 Today» (cómo y cuándo usar CSS3 ya, prefijos de proveedor y enriquecimiento progresivo), «Understanding CSS Transitions», «Hover-Crafting with CSS3» (efectos de hover con transiciones), «Transforming the Message» (transformaciones 2D), «Multiple Backgrounds» (varios fondos en un solo elemento), «Enriching Forms» y una conclusión. A lo largo del libro aparecen border-radius, text-shadow, box-shadow, RGBA y opacidad, degradados, selectores avanzados, contenido generado, web fonts con @font-face y animaciones. Siempre se explica qué alternativa ver en los navegadores que no soportan cada propiedad.\n\nEl planteamiento es aplicar CSS3 a los aspectos «visuales» y no críticos de un sitio: si un navegador no los soporta, la página sigue funcionando. Los ejemplos se van aplicando a un sitio de muestra para ver cada técnica en contexto. Es ágil, bien escrito y muy visual, pero no trata la maquetación moderna (Flexbox, Grid) ni media queries ni diseño responsive, que la colección dejó para otros títulos. Muchos prefijos y advertencias de compatibilidad están hoy superados. La segunda edición (2015) actualizó el código y añadió un capítulo sobre micro layouts.",
+    "temas": [
+      "CSS3",
+      "Enriquecimiento progresivo",
+      "Prefijos de proveedor",
+      "Transiciones",
+      "Transformaciones",
+      "Efectos hover",
+      "Fondos múltiples",
+      "Sombras y bordes redondeados",
+      "RGBA",
+      "Web fonts",
+      "Formularios"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://abookapart.com/products/css3-for-web-designers",
+      "https://www.goodreads.com/author_blog_posts/777951-a-book-apart-no-2-css3-for-web-designers-by-dan-cederholm"
+    ]
+  },
+  "css-in-depth-2018": {
+    "descripcion": "Libro de Manning en el que Keith J. Grant, desarrollador web senior que ha trabajado, entre otros, en el sitio de la Bolsa de Nueva York, profundiza en los conceptos de CSS que más confusión generan y en las técnicas de maquetación modernas de 2018. Está dirigido a desarrolladores web que ya conocen lo básico de HTML y CSS y quieren dejar de «pelearse» con las hojas de estilo para entender de verdad cómo funcionan.\n\nTiene cuatro partes. «Reviewing the fundamentals» trata la cascada, la especificidad y la herencia, las unidades relativas (em, rem, unidades de viewport) y el modelo de cajas. «Mastering layout» explica floats (chapter «Making sense of floats»), Flexbox, CSS Grid, el posicionamiento y los contextos de apilamiento, y el diseño responsive con media queries. «CSS at scale» aborda la arquitectura modular de CSS y los pattern libraries, o bibliotecas de patrones de componentes. «Advanced topics» cubre fondos, sombras y modos de fusión, contraste, color y espaciado, tipografía con web fonts, transiciones, transformaciones y animaciones con keyframes. Los apéndices incluyen una referencia de selectores y una introducción a preprocesadores como Sass.\n\nCada concepto se acompaña de ejemplos de código completos que el lector va construyendo, como páginas maquetadas, componentes reutilizables y animaciones, más que de ejercicios formales. Destaca por explicar el porqué de cada comportamiento (márgenes que colapsan, contextos de apilamiento, cálculo de la especificidad) y por sus consejos para mantener un CSS ordenado en equipos grandes. Al ser de 2018, no incluye container queries, cascade layers, subgrid, nesting nativo ni las nuevas funciones de color, que la segunda edición sí trata.",
+    "temas": [
+      "Cascada y especificidad",
+      "Unidades relativas",
+      "Modelo de cajas",
+      "Floats",
+      "Flexbox",
+      "CSS Grid",
+      "Posicionamiento y z-index",
+      "Diseño responsive",
+      "CSS modular",
+      "Pattern libraries",
+      "Tipografía",
+      "Transiciones y animaciones"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/css-in-depth",
+      "https://livebook.manning.com/book/css-in-depth/"
+    ]
+  },
+  "css-in-depth-2nd-edition-2024": {
+    "descripcion": "Segunda edición, revisada por completo, del libro de Keith J. Grant en Manning, actualizada al CSS moderno de 2024. Mantiene el objetivo de la primera, que es dominar en profundidad la cascada, la maquetación y la organización del código, e incorpora las grandes novedades recientes del estándar. Está pensada para desarrolladores web que ya conocen lo básico de HTML y CSS y quieren escribir CSS profesional, modular y fácil de mantener.\n\nSe organiza en cinco partes. La primera trata la cascada, la especificidad y la herencia, las unidades relativas y el flujo del documento y el modelo de cajas, incluidos el centrado vertical y el colapso de márgenes. La segunda cubre Flexbox, Grid (con subgrid), el posicionamiento y los contextos de apilamiento, y el diseño responsive. La tercera está dedicada a CSS a gran escala: cascade layers (@layer) y nesting nativo, CSS modular y ámbito (scope), y container queries. La cuarta trata color y contraste (con las nuevas funciones de color), tipografía y espaciado, degradados, sombras y modos de fusión, y máscaras, formas y recortes (clip-path, mask, shape-outside). La quinta cubre transiciones, transformaciones y animaciones. También aparecen las propiedades lógicas, y los apéndices incluyen una referencia de selectores y una introducción a los preprocesadores.\n\nComo en la primera edición, se aprende con ejemplos completos que se van construyendo, como menús desplegables, cuadros de diálogo modales, componentes reutilizables y animaciones que guían la atención del usuario, más que con ejercicios formales. Desaparece el capítulo dedicado a floats y se pone el foco en las herramientas actuales. Es una de las referencias más completas para ponerse al día con CSS moderno, aunque no cubre frameworks como Tailwind ni soluciones CSS-in-JS. Si ya leíste la primera edición, merece la pena sobre todo por los capítulos de layers, container queries, color y máscaras.",
+    "temas": [
+      "Cascada y especificidad",
+      "Cascade layers",
+      "Nesting CSS",
+      "Flexbox",
+      "CSS Grid y subgrid",
+      "Container queries",
+      "Diseño responsive",
+      "CSS modular y scope",
+      "Propiedades lógicas",
+      "Funciones de color",
+      "Máscaras y clip-path",
+      "Animaciones"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/css-in-depth-second-edition",
+      "https://livebook.manning.com/book/css-in-depth-second-edition/",
+      "https://opencourser.com/book/sdj3vu/css-in-depth"
+    ]
+  },
+  "tiny-css-projects-2023": {
+    "descripcion": "Libro práctico de Manning en el que Martine Dowden y Michael Gearon enseñan CSS moderno a través de doce miniproyectos, cada uno centrado en un conjunto de técnicas. Está pensado para quienes ya manejan HTML y nociones básicas de desarrollo frontend, pero no tienen experiencia previa en CSS o la tienen poco ordenada. Trabaja con el CSS actual, el de 2023 (Grid, Flexbox, propiedades personalizadas, media queries de preferencias del usuario), en lugar de centrarse en una versión concreta de la especificación.\n\nEl primer capítulo explica los fundamentos: separación de responsabilidades, formas de añadir CSS (en línea, embebido y externo) y la cascada, con hojas de estilo del agente de usuario, del autor y del usuario, además de resets y normalizadores. Después cada capítulo parte de un esqueleto HTML descargable que se va completando con estilos: maquetación con CSS Grid, gráficos SVG animados con keyframes y respeto a prefers-reduced-motion, estilizado de la barra de progreso nativa, layouts de varias columnas, transiciones en estados hover, propiedades personalizadas y centrado con Flexbox, un repaso a fondo de float, estilizado de formularios y de botones de radio, fuentes embebidas, pseudoelementos y, para cerrar, el uso de preprocesadores.\n\nEl formato de proyectos pequeños e independientes permite leer los capítulos en el orden que convenga y ver cada técnica aplicada a una interfaz reconocible: tarjetas, carritos, formularios o enlaces para compartir. A lo largo del libro se presta atención a la accesibilidad y al diseño responsive. No es una referencia exhaustiva de la especificación ni trata arquitectura de CSS a gran escala (metodologías, design systems o frameworks como Tailwind), así que conviene complementarlo con una referencia más completa. Para alguien que empieza con CSS o lo usa de forma intuitiva, es una forma amena y bien estructurada de ganar soltura.",
+    "temas": [
+      "CSS Grid",
+      "Flexbox",
+      "Cascada",
+      "Animaciones con keyframes",
+      "Transiciones",
+      "SVG",
+      "Media queries",
+      "Custom properties",
+      "Float",
+      "Estilizado de formularios",
+      "Pseudoelementos",
+      "Preprocesadores"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Página de artículo",
+        "descripcion": "Maquetación de un artículo estático de una sola columna con encabezados, texto e imágenes, que sirve para practicar cómo se añade CSS y cómo funciona la cascada."
+      },
+      {
+        "nombre": "Layout con CSS Grid",
+        "descripcion": "Diseño de la estructura de una página con CSS Grid, definiendo filas, columnas y áreas."
+      },
+      {
+        "nombre": "Pantalla de carga animada y responsive",
+        "descripcion": "Pantalla de carga hecha con gráficos SVG animados mediante keyframes, que respeta prefers-reduced-motion e incluye una barra de progreso HTML con estilos propios."
+      },
+      {
+        "nombre": "Periódico web responsive",
+        "descripcion": "Maquetación de varias columnas al estilo de un periódico que se adapta a distintos tamaños de pantalla con media queries."
+      },
+      {
+        "nombre": "Tarjetas resumen con interacciones hover",
+        "descripcion": "Tarjetas de contenido que revelan información o cambian de aspecto al pasar el cursor, usando transiciones."
+      },
+      {
+        "nombre": "Tarjeta de perfil",
+        "descripcion": "Tarjeta de usuario construida con propiedades personalizadas de CSS y centrada y organizada con Flexbox, con botones de acción estilizados."
+      },
+      {
+        "nombre": "Maquetación con float",
+        "descripcion": "Proyecto que aprovecha float para envolver texto alrededor de elementos y muestra cuándo esta propiedad sigue siendo útil."
+      },
+      {
+        "nombre": "Carrito de compra (checkout cart)",
+        "descripcion": "Interfaz de un carrito con su resumen de pedido, que combina tablas o listas, Grid/Flexbox y diseño responsive."
+      },
+      {
+        "nombre": "Tarjeta de crédito virtual",
+        "descripcion": "Representación visual de una tarjeta de crédito realizada solo con CSS, con fondos, tipografía y efectos visuales."
+      },
+      {
+        "nombre": "Formularios estilizados",
+        "descripcion": "Formulario con campos, botones de radio y otros controles con estilos personalizados, cuidando la accesibilidad."
+      },
+      {
+        "nombre": "Enlaces animados para compartir en redes sociales",
+        "descripcion": "Botones para compartir en redes sociales animados con pseudoelementos y transiciones."
+      },
+      {
+        "nombre": "Proyecto con preprocesadores",
+        "descripcion": "Capítulo final que reescribe estilos usando un preprocesador de CSS para aprovechar variables, anidamiento y reutilización de código."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/tiny-css-projects",
+      "https://livebook.manning.com/book/tiny-css-projects",
+      "https://www.goodreads.com/book/show/61397625-tiny-css-projects"
+    ]
+  },
+  "plug-in-css-100-power-solutions-2011": {
+    "descripcion": "Colección de soluciones listas para usar en la que Robin Nixon, autor veterano de libros sobre desarrollo web, reúne 100 «plug-ins» de CSS (fragmentos de hojas de estilo con su HTML de ejemplo) para añadir efectos y comportamientos dinámicos a un sitio web. Se publicó en 2011, en plena transición a CSS3 y HTML5, y está dirigido a diseñadores y desarrolladores con conocimientos básicos de HTML y CSS que buscan resultados rápidos sin escribir cada estilo desde cero.\n\nLas soluciones están agrupadas por áreas: manipulación de objetos, texto y tipografía (incluidas fuentes personalizadas), menús y navegación (entre ellos menús animados), maquetación de páginas, efectos visuales, clases dinámicas, formularios con estilos propios, integración con JavaScript y, al final, las «superclases», que combinan varios plug-ins en una sola clase reutilizable. Cada solución es autocontenida: se explica paso a paso, se acompaña de ejemplos en HTML y capturas del resultado, y las hojas de estilo se pueden obtener desde el sitio complementario del libro.\n\nEs un libro de consulta tipo recetario más que un curso: sirve para tomar una solución, adaptarla y entender cómo está hecha, pero no enseña a construir un sitio completo ni la teoría de la cascada o del modelo de caja. Hoy hay que leerlo con perspectiva histórica: muchas técnicas usaban prefijos de navegador y trucos de compatibilidad de la época, y no cubre Flexbox, Grid ni las propiedades personalizadas actuales. Puede ser útil para entender la lógica de las clases reutilizables, pero conviene contrastar cada receta con el CSS moderno.",
+    "temas": [
+      "CSS3",
+      "Recetas CSS",
+      "Tipografía",
+      "Fuentes web",
+      "Menús y navegación",
+      "Maquetación",
+      "Efectos visuales",
+      "Formularios",
+      "CSS y JavaScript",
+      "Clases reutilizables"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.goodreads.com/book/show/16961703-plug-in-css-100-power-solutions"
+    ]
+  },
+  "stunning-css3-2010": {
+    "descripcion": "Guía de New Riders, basada en proyectos, en la que Zoe Mickley Gillenwater (autora de Flexible Web Design) presenta las novedades de CSS3 tal como se podían usar a finales de 2010. Está dirigida a diseñadores y desarrolladores web que ya dominan CSS2 y HTML y quieren incorporar CSS3 a su trabajo de forma progresiva, sin esperar a que todos los navegadores lo soporten.\n\nTras un capítulo inicial sobre el estado de CSS3 y cómo usarlo de forma responsable, cada capítulo se dedica a una técnica concreta que luego se puede trasladar a otros proyectos. Se trabajan border-radius, colores semitransparentes HSLA/RGBA, text-shadow, word-wrap, contenido generado, @font-face, background-clip y fondos múltiples, selectores de atributo y pseudoclases para estilizar enlaces e imágenes según su tipo, transformaciones y transiciones para pequeñas animaciones, media queries para adaptar el diseño a distintos tamaños de pantalla y el módulo de varias columnas. La revisión técnica del código estuvo a cargo de Chris Mills.\n\nSu valor está en el enfoque práctico y en la idea de mejora progresiva: cada efecto se aplica de modo que la página siga funcionando en navegadores antiguos. Los capítulos sobre diseño adaptado a la pantalla y maquetación por columnas son de los más destacados. Hoy buena parte del contenido sobre prefijos de navegador y compatibilidad está desactualizada, y el libro es anterior a Flexbox y Grid tal como existen hoy, así que interesa sobre todo como introducción histórica o para entender los fundamentos de estas propiedades.",
+    "temas": [
+      "CSS3",
+      "border-radius",
+      "RGBA/HSLA",
+      "text-shadow",
+      "@font-face",
+      "Contenido generado",
+      "Pseudoclases",
+      "Selectores de atributo",
+      "Transformaciones y transiciones",
+      "Media queries",
+      "Multicolumna",
+      "Mejora progresiva"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Speech Bubbles (bocadillos de diálogo)",
+        "descripcion": "Comentarios con forma de bocadillo creados sin imágenes, usando border-radius, contenido generado, word-wrap y fondos semitransparentes con HSLA/RGBA."
+      },
+      {
+        "nombre": "Notebook Paper (papel de cuaderno)",
+        "descripcion": "Recreación del aspecto de una hoja de cuaderno rayada con fondos, fuentes web mediante @font-face, sombras y otros efectos de CSS3."
+      },
+      {
+        "nombre": "Imágenes y enlaces según su tipo",
+        "descripcion": "Uso de selectores de atributo para añadir iconos y estilos automáticos a enlaces e imágenes en función del tipo de archivo o destino."
+      },
+      {
+        "nombre": "Mejora de la eficiencia con pseudoclases",
+        "descripcion": "Aplicación de pseudoclases estructurales de CSS3 para estilizar tablas y listas sin añadir clases extra al HTML."
+      },
+      {
+        "nombre": "Distinto tamaño de pantalla, distinto diseño",
+        "descripcion": "Adaptación de un diseño a pantallas grandes y móviles mediante media queries."
+      },
+      {
+        "nombre": "Maquetación con varias columnas",
+        "descripcion": "Distribución del contenido en columnas con el módulo multicolumna de CSS3 como parte de un layout flexible."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/stunning-css3-a/9780132366847/",
+      "https://www.css3.info/book-review-stunning-css3-by-zoe-gillenwater/"
+    ]
+  },
+  "the-book-of-css3-2nd-edition-2014": {
+    "descripcion": "Segunda edición de la guía de Peter Gasston, colaborador original de CSS3.info y autor de The Modern Web, que traduce a un lenguaje claro la densa especificación de CSS3 y muestra qué se podía usar realmente en los principales navegadores a finales de 2014. Está dirigida a desarrolladores y diseñadores web de nivel intermedio que ya conocen CSS2.1 y quieren dominar los módulos más recientes del lenguaje.\n\nEl recorrido sigue el orden de los módulos de la especificación: media queries; selectores, pseudoclases y pseudoelementos; fuentes web; efectos de texto y tipografía; varias columnas; imágenes de fondo; bordes y efectos de caja; color y opacidad; degradados; transformaciones 2D y 3D; transiciones y animaciones; Flexbox; valores y tamaños (calc(), unidades relativas al viewport y similares); Grid Layout, y modos de fusión, filtros y máscaras. Esta edición actualiza la sintaxis de degradados, Grid y Flexbox, y añade capítulos nuevos sobre valores y tamaños y sobre efectos gráficos. Se cierra con un capítulo sobre el futuro de CSS y apéndices con el soporte en navegadores y recursos en línea.\n\nEs un libro de referencia explicativa con numerosos ejemplos de código y figuras; no tiene proyectos guiados ni ejercicios, pero cada propiedad se ilustra con casos de uso reales. Su principal fortaleza es la claridad con la que explica sintaxis difíciles, como la de los degradados o las transformaciones 3D. Conviene tener en cuenta que la parte de Grid refleja un borrador anterior a la implementación definitiva de 2017 y que la información de compatibilidad está desfasada; para Grid y para las novedades posteriores (custom properties, container queries) hacen falta fuentes más actuales.",
+    "temas": [
+      "CSS3",
+      "Media queries",
+      "Selectores",
+      "Pseudoclases",
+      "Fuentes web",
+      "Degradados",
+      "Transformaciones 2D y 3D",
+      "Transiciones y animaciones",
+      "Flexbox",
+      "Grid Layout",
+      "Filtros y blend modes",
+      "Compatibilidad de navegadores"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/css3_2e",
+      "https://www.i-programmer.info/bookreviews/12-web-design-and-development-/8015-the-book-of-css3-2e.html"
+    ]
+  },
+  "basic-visual-formatting-in-css-2015": {
+    "descripcion": "Breve monografía de O'Reilly (unas 72 páginas) en la que Eric A. Meyer, una de las grandes autoridades en CSS, explica cómo el navegador dispone visualmente los elementos en la página. Es un extracto adelantado de la cuarta edición de CSS: The Definitive Guide y se basa en el estándar CSS2.1/CSS3 vigente en 2015. Está dirigido a desarrolladores que ya escriben CSS y quieren entender a fondo por qué los elementos se colocan y miden como lo hacen.\n\nEl libro trata los tipos de caja que genera cada elemento (block, inline, inline-block, list-item y run-in) y cómo cambiarlos con display. Explica el formateo horizontal y vertical de las cajas de bloque: cálculo de anchos y altos, márgenes, márgenes automáticos y colapso de márgenes. También detalla el formateo en línea: line boxes, inline boxes, leading, line-height y alineación vertical, y las diferencias entre elementos reemplazados (como imágenes) y no reemplazados.\n\nEs un texto puramente conceptual, sin proyectos ni ejercicios, pero muy valioso para dejar de «pelearse» con el CSS y comprender la lógica del modelo de formateo visual que sirve de base a todo lo demás. No aborda Flexbox ni Grid, que se tratan en otros títulos de la misma serie, y su contenido quedó integrado más tarde en la cuarta edición de la guía completa. Es recomendable para quien ya tiene práctica con CSS y quiere una base teórica sólida.",
+    "temas": [
+      "Modelo de formateo visual",
+      "Tipos de caja",
+      "display",
+      "Cajas de bloque",
+      "Colapso de márgenes",
+      "Formateo en línea",
+      "line-height",
+      "vertical-align",
+      "Elementos reemplazados",
+      "CSS2.1"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://oreilly.com/library/view/basic-visual-formatting/9781491929957",
+      "https://tenlong.com.tw/products/9781491929964"
+    ]
+  },
+  "colors-backgrounds-and-gradients-2015": {
+    "descripcion": "Libro breve de Eric A. Meyer, publicado por O'Reilly en 2015 como adelanto de la cuarta edición de «CSS: The Definitive Guide». Se ocupa de una sola área de CSS, la de colores, fondos y degradados, tal como estaba en CSS3 y en los módulos Backgrounds and Borders e Image Values de la época. Está pensado para maquetadores y desarrolladores de nivel intermedio que ya escriben CSS con soltura y quieren entender a fondo cómo funcionan estas propiedades, más allá de copiar fragmentos.\n\nEl único capítulo tiene tres bloques. El primero trata del color de primer plano con la propiedad color: cómo afecta a los bordes y a los elementos de formulario y cómo se hereda. El segundo, dedicado a los fondos, es el más extenso: background-color, recorte con background-clip, imágenes de fondo y por qué no se heredan, posicionamiento con palabras clave, porcentajes y longitudes (incluido el cambio de borde de referencia), la caja de posicionamiento (background-origin), repeticiones con los valores space y round, fondos fijos al viewport con background-attachment, tamaño con background-size (cover y contain), la propiedad abreviada background y los fondos múltiples. El tercero cubre los degradados lineales y radiales: paradas de color, la geometría detallada de la línea y del rayo del degradado, forma y tamaño de los radiales, casos degenerados y degradados repetitivos.\n\nNo trae proyectos ni ejercicios. Funciona como un capítulo de referencia muy minucioso, con muchos ejemplos visuales que se pueden reproducir en el navegador, como focos de luz o sombras circulares hechos con radial-gradient. Su fuerte es la precisión: explica los casos límite que casi ningún tutorial toca. Hay que tener en cuenta que es anterior a funciones de color más recientes como hsl() con sintaxis moderna, lab(), color-mix() y conic-gradient(). Tampoco cubre filtros ni modos de fusión, que quedan para otros títulos de la misma serie.",
+    "temas": [
+      "CSS3",
+      "color",
+      "Fondos",
+      "background-position",
+      "background-size",
+      "background-clip",
+      "Fondos múltiples",
+      "linear-gradient",
+      "radial-gradient",
+      "Degradados repetitivos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/colors-backgrounds-and-gradients-adding-individuality-with-css-eric-a-meyer,e_2g5g.htm"
+    ]
+  },
+  "css-and-documents-2012": {
+    "descripcion": "Folleto gratuito de unas 19 páginas que O'Reilly publicó en 2012 como adelanto de la cuarta edición de «CSS: The Definitive Guide», de Eric A. Meyer. Es el capítulo introductorio de esa obra: explica qué es CSS, de dónde viene y cómo se relaciona con los documentos HTML. Aunque se cataloga como intermedio, sirve a cualquiera que ya sepa HTML y quiera unas bases conceptuales firmes antes de estudiar selectores, cascada y maquetación.\n\nEmpieza con una breve historia del estilo en la web. Luego distingue los elementos reemplazados de los no reemplazados y los roles de visualización en bloque y en línea. Después repasa todas las formas de vincular CSS con HTML: la etiqueta link y sus atributos, incluidas las hojas de estilo alternativas, el elemento style, la directiva @import, la vinculación por cabeceras HTTP y los estilos en línea. Dedica un apartado a las media queries (tipos de medio, descriptores y características) para elegir hojas de estilo según el dispositivo: pantalla, móvil, proyector, televisión, Braille, impresión o voz. Cierra con la estructura de las reglas, los prefijos de fabricante, el tratamiento de los espacios en blanco, los bloques de medios y los comentarios.\n\nNo hay ejercicios ni proyectos: es un texto conceptual de lectura rápida, útil para ordenar ideas que muchos desarrolladores manejan solo de forma intuitiva. Una parte ha envejecido: los prefijos de fabricante ya casi no se usan y varios tipos de medio quedaron obsoletos. La explicación de cómo se cargan y combinan las hojas de estilo y de los tipos de elemento sigue vigente. Conviene leerlo como puerta de entrada a la serie de Meyer, no como guía práctica.",
+    "temas": [
+      "Fundamentos de CSS",
+      "Historia de CSS",
+      "Elementos reemplazados",
+      "Bloque e inline",
+      "link y @import",
+      "Hojas de estilo alternativas",
+      "Media queries",
+      "Estructura de reglas",
+      "Prefijos de fabricante"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/css-and-documents-eric-a-meyer,e_2g0i.htm"
+    ]
+  },
+  "css-floating-2016": {
+    "descripcion": "Guía corta de 48 páginas publicada por O'Reilly en 2016, otro adelanto de la cuarta edición de «CSS: The Definitive Guide» de Eric A. Meyer. Explica a fondo cómo funcionan los elementos flotantes en CSS y el módulo CSS Shapes, que entonces era la novedad: permite que el texto rodee formas no rectangulares. Va dirigida a desarrolladores de nivel intermedio que ya usan float pero quieren entender sus reglas exactas en lugar de recurrir a trucos.\n\nLa primera parte detalla qué ocurre al hacer flotar un elemento, sea una imagen, un párrafo o una lista. Expone las reglas formales que rigen la colocación de los flotantes, cómo se aplican en la práctica, cómo interactúan con el contenido que los rodea y cuándo se solapan, además de excepciones como los márgenes negativos. Luego explica la propiedad clear para que los flotantes no afecten a los elementos siguientes. La segunda parte cubre las formas de flotación con shape-outside: formas inset con esquinas redondeadas, círculos, elipses y polígonos. También muestra cómo definir la forma a partir de la transparencia de una imagen (shape-image-threshold) y cómo añadir un margen alrededor de la forma (shape-margin).\n\nEs un único capítulo con muchos ejemplos visuales, sin ejercicios ni proyectos. Su valor está en la parte de CSS Shapes, poco tratada en otros libros, que permite composiciones de tipo editorial como texto que rodea una silueta o un círculo. Conviene saber que, desde que existen flexbox y grid, float ya no se usa para maquetar páginas. Este libro tiene sentido sobre todo para su uso original, que el contenido fluya alrededor de elementos, y para entender código heredado.",
+    "temas": [
+      "float",
+      "clear",
+      "Reglas de flotación",
+      "Márgenes negativos",
+      "CSS Shapes",
+      "shape-outside",
+      "circle() y ellipse()",
+      "polygon()",
+      "shape-image-threshold",
+      "shape-margin"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/css-floating-floats-and-float-shapes-eric-a-meyer,e_2gny.htm"
+    ]
+  },
+  "css-fonts-2013": {
+    "descripcion": "Guía breve de unas 68 páginas publicada por O'Reilly en 2013, adelanto de la cuarta edición de «CSS: The Definitive Guide» de Eric A. Meyer. Trata la tipografía web con las propiedades de fuentes de CSS3, que entonces ampliaban mucho las posibilidades de control tipográfico en el navegador. Está pensada para diseñadores y desarrolladores de nivel intermedio que ya escriben CSS y quieren dominar cómo se eligen, cargan y muestran las fuentes.\n\nEl contenido parte de la especificación de fuentes de CSS. Explica cómo declarar familias tipográficas con font-family y sus familias genéricas de reserva, y dedica una parte importante a @font-face para cargar fuentes descargables personalizadas y a sus descriptores. Luego aborda el dimensionado con font-size usando tamaños absolutos y relativos, porcentajes y longitudes, el grosor con font-weight y la diferencia entre cursiva e inclinada (italic y oblique). También cubre el control del kerning y de otras características tipográficas de la fuente, y la síntesis de negritas o cursivas cuando la fuente no las incluye.\n\nComo los demás títulos de esta serie, es un capítulo explicativo con ejemplos, sin ejercicios ni proyectos. Algunos lectores lo notan algo escueto y muy pegado a la especificación. Su valor está en aclarar con rigor cómo el navegador elige y combina las fuentes. Por su fecha, no cubre las fuentes variables, font-display ni las prácticas actuales de carga y rendimiento de fuentes web, así que conviene completarlo con documentación más reciente.",
+    "temas": [
+      "Tipografía web",
+      "font-family",
+      "Familias genéricas",
+      "@font-face",
+      "font-size",
+      "font-weight",
+      "italic y oblique",
+      "Kerning",
+      "Síntesis de fuentes",
+      "CSS3"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bookshare.org/browse/book/6420576"
+    ]
+  },
+  "css-pocket-reference-5th-edition-2018": {
+    "descripcion": "Quinta edición, de 2018, de la referencia de bolsillo de CSS de Eric A. Meyer publicada por O'Reilly. Está actualizada para CSS3 e incorpora las propiedades que habían madurado desde la edición anterior, como grid y flexbox. Un nuevo formato de maquetación permitió reducir la extensión a unas 200 páginas. Está dirigida a diseñadores y desarrolladores web de nivel intermedio y avanzado que ya conocen CSS y necesitan consultar rápido una sintaxis, un valor o un comportamiento mientras trabajan.\n\nEl primer capítulo resume los conceptos básicos: formas de añadir estilos a HTML (en línea, incrustados y externos), estructura de las reglas, reglas @, comentarios, precedencia (especificidad, herencia y cascada), roles de visualización, maquetación visual básica, flotación, posicionamiento y los modelos de maquetación flexbox, grid y tablas. El segundo repasa los tipos de valores: palabras clave, colores, números, porcentajes, longitudes, unidades fr, URI, ángulos, tiempos, posiciones, cálculos con calc() y variables o propiedades personalizadas. El tercero cubre los selectores, las pseudoclases estructurales y de interacción, la negación, los pseudoelementos, las media queries y las consultas de características (@supports). El cuarto, el más extenso, es la referencia alfabética de propiedades, de align-content a z-index. Indica si cada una se hereda y si es animable, e incluye recorte, máscaras, composición, filtros y animaciones.\n\nNo enseña paso a paso ni tiene ejercicios: es una obra de consulta para tener a mano, no para aprender CSS desde cero. Su punto fuerte es la densidad y la fiabilidad de cada entrada, propias de uno de los mayores expertos en el estándar. Por su fecha, faltan novedades posteriores como las container queries, :has(), las capas de cascada (@layer), el anidamiento nativo o las nuevas funciones de color. Para esas, habrá que acudir a MDN o a las especificaciones actuales.",
+    "temas": [
+      "Referencia CSS",
+      "Cascada y especificidad",
+      "Selectores",
+      "Pseudoclases",
+      "Media queries",
+      "@supports",
+      "Flexbox",
+      "CSS Grid",
+      "Propiedades personalizadas",
+      "Máscaras y recortes",
+      "Animaciones",
+      "Filtros"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/css-pocket-reference-visual-presentation-for-the-web-5th-edition-eric-a-meyer,e_0toa.htm",
+      "https://meyerweb.com/eric/thoughts/2018/02/15/css-pocket-reference-5th-edition-to-production/"
+    ]
+  },
+  "css-refactoring-2016": {
+    "descripcion": "Libro breve de O'Reilly en el que Steve Lindstrom traslada a CSS una práctica habitual en otros lenguajes: el refactoring, es decir, reescribir código redundante o inconsistente sin cambiar lo que hace. Se basa en CSS3 tal como estaba en 2015-2016 y está pensado para desarrolladores front-end que heredan hojas de estilo desordenadas o que empiezan un proyecto y quieren organizarlo bien desde el principio. Basta con manejar HTML y CSS en el día a día; no requiere conocimientos avanzados.\n\nSon seis capítulos. Empieza explicando qué es el refactoring, cuándo conviene hacerlo y cuándo no, y cómo se relaciona con la arquitectura de un proyecto. Después repasa la cascada y la especificidad de los selectores, base para entender por qué el CSS se vuelve difícil de mantener. Siguen recomendaciones para escribir mejor CSS, una forma de clasificar los estilos según su función (estilos base o de reseteo, componentes, estructura, utilidades, estilos específicos de navegador) y un capítulo sobre pruebas en distintos navegadores. Cierra con la organización de archivos, las estrategias para refactorizar paso a paso y cómo medir si el cambio funcionó. Un apéndice trata normalize.css.\n\nNo construye proyectos ni incluye ejercicios: es un texto de criterios y buenas prácticas con fragmentos de código ilustrativos. Sirve como punto de partida para definir un estándar de código CSS en un equipo y para entender por qué ciertos patrones generan deuda técnica. Algunos lectores señalan que la mayor parte del libro repasa fundamentos y que la guía concreta para rescatar una hoja de estilo heredada es escasa. Algunas recomendaciones, como concatenar archivos, han perdido peso con HTTP/2, y el libro no cubre herramientas actuales como cascade layers, variables CSS modernas, CSS Modules o Tailwind. Encaja mejor con perfiles junior que con desarrolladores que ya conocen metodologías como BEM o SMACSS.",
+    "temas": [
+      "Refactoring",
+      "Arquitectura CSS",
+      "Cascada",
+      "Especificidad",
+      "Buenas prácticas",
+      "Clasificación de estilos",
+      "Pruebas en navegadores",
+      "Organización de archivos",
+      "normalize.css",
+      "Mantenibilidad"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/css-refactoring/9781491978528/",
+      "https://bookwire.bowker.com/book/USA/CSS-Refactoring-9781491906422-Lindstrom-Steve-50035999",
+      "https://www.goodreads.com/book/show/22967417-css-refactoring"
+    ]
+  },
+  "css-secrets-2015": {
+    "descripcion": "Colección de 47 técnicas de CSS escrita por Lea Verou, conocida por sus charlas en conferencias de desarrollo web y por su trabajo en el W3C. Nació de esas charlas y aprovecha a fondo lo que ofrecía CSS3 en 2015: fondos múltiples, gradientes, transformaciones, filtros, animaciones y selectores avanzados. Está dirigido a desarrolladores de nivel intermedio o avanzado que ya dominan los fundamentos de CSS y quieren resolver problemas de diseño cotidianos con código limpio, sin imágenes extra, marcado de relleno ni JavaScript.\n\nTras una introducción sobre estándares web y consejos para escribir CSS DRY y mantenible, el libro se organiza en siete bloques. Fondos y bordes: bordes semitransparentes, bordes múltiples, fondos rayados y patrones complejos con gradientes, y border-image. Formas: elipses, paralelogramos, esquinas recortadas, pestañas trapezoidales y gráficos circulares. Efectos visuales: sombras en un solo lado, drop-shadow para formas irregulares, tintes de color, vidrio esmerilado con filtros y esquinas dobladas. Tipografía: guiones automáticos, filas tipo cebra, ligaduras, subrayados personalizados y texto en círculo. Experiencia de usuario: cursores, áreas de clic más grandes, casillas de verificación personalizadas, indicadores de scroll y comparación de imágenes. Estructura y layout: tamaño intrínseco, estilos según el número de hermanos, centrado vertical y footer fijo al fondo de la pantalla. Transiciones y animaciones: rebotes, animación por fotogramas, efecto de escritura y movimiento circular.\n\nCada técnica sigue el mismo formato: plantea un problema real, analiza soluciones ingenuas y llega a una más elegante, explicando el razonamiento y las especificaciones implicadas. Hay demos en vivo para experimentar con el código. Es más un libro de recetas avanzadas que un curso, así que no construye una aplicación completa. Su gran aporte es enseñar a pensar en CSS: varias de sus soluciones siguen siendo referencia. Conviene saber que algunos trucos (prefijos de proveedor, hacks para navegadores antiguos o el centrado vertical) han quedado superados por Flexbox, Grid y propiedades más recientes como aspect-ratio o accent-color, que el libro no cubre.",
+    "temas": [
+      "CSS3",
+      "Fondos y bordes",
+      "Gradientes",
+      "Formas con CSS",
+      "Efectos visuales",
+      "Filtros",
+      "Tipografía",
+      "Experiencia de usuario",
+      "Layout",
+      "Transiciones",
+      "Animaciones",
+      "Selectores avanzados"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/css-secrets-better-solutions-to-everyday-web-design-problems-lea-verou,e_e00y.htm",
+      "https://www.oreilly.co.jp/books/9784873117669/",
+      "https://catalog.dmpl.org/Record/115666"
+    ]
+  },
+  "css-text-2013": {
+    "descripcion": "Guía muy breve (56 páginas) de Eric A. Meyer dedicada a las propiedades de CSS que controlan el aspecto del texto sin cambiar la fuente. Es un adelanto del capítulo «Text Properties» de la cuarta edición de CSS: The Definitive Guide y refleja el estado de CSS3 en 2013. Va dirigida a diseñadores y desarrolladores que ya escriben CSS y quieren entender en detalle cómo se comporta el texto en el navegador.\n\nEl único capítulo cubre la sangría y la alineación horizontal (text-indent, text-align y text-align-last), la alineación vertical y la altura de línea (line-height, vertical-align), la separación entre palabras y letras (word-spacing, letter-spacing), las transformaciones de mayúsculas y minúsculas (text-transform) y las decoraciones como subrayados, líneas superiores, tachados y sombras (text-decoration, text-shadow). También explica text-rendering, que indica al navegador si debe priorizar velocidad, legibilidad o precisión geométrica; el manejo de espacios en blanco y tabulaciones (white-space, tab-size); el ajuste de líneas y la separación silábica (word-wrap/overflow-wrap, hyphens), y la dirección del texto, de izquierda a derecha o vertical.\n\nNo tiene proyectos ni ejercicios: es material de referencia conceptual con ejemplos y figuras. Su fuerza es la precisión de Meyer al explicar casos límite, como el cálculo de la altura de línea o la interacción entre vertical-align y las cajas en línea. Hoy tiene más sentido leer este contenido actualizado en la quinta edición de The Definitive Guide, porque desde 2013 aparecieron o maduraron propiedades como text-decoration-thickness, text-underline-offset, text-wrap y text-emphasis. La tipografía (font-family, @font-face) no se trata aquí: Meyer la cubrió en otro volumen, CSS Fonts.",
+    "temas": [
+      "Propiedades de texto",
+      "Alineación",
+      "line-height",
+      "vertical-align",
+      "Espaciado de letras",
+      "text-transform",
+      "text-decoration",
+      "text-shadow",
+      "white-space",
+      "Separación silábica",
+      "Dirección del texto"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/-/9781449373757/",
+      "https://helion.pl/ksiazki/css-text-styling-your-words-eric-a-meyer,e_2gj6.htm"
+    ]
+  },
+  "css-the-definitive-guide-4th-edition-2017": {
+    "descripcion": "Cuarta edición de la obra de referencia más completa sobre CSS, escrita por Eric A. Meyer, uno de los pioneros del lenguaje, y Estelle Weyl. Publicada en 2017, con más de mil páginas, refleja el estado de CSS en ese momento e incorpora por primera vez capítulos completos sobre Flexbox y Grid. Aunque el catálogo la marca como básica porque empieza desde cero, está pensada para diseñadores y desarrolladores web que quieren entender CSS en profundidad, no solo copiar fragmentos. Solo exige conocer HTML.\n\nSus 20 capítulos recorren casi todo el lenguaje. Primero los fundamentos: relación entre CSS y el documento, selectores, especificidad y cascada, valores y unidades. Luego fuentes y propiedades de texto, el modelo de formato visual y el modelo de caja (padding, bordes, outlines y márgenes), y colores, fondos y gradientes. La parte de maquetación explica floats y shapes, posicionamiento, Flexbox, Grid y tablas, además de listas y contenido generado. Cierra con transformaciones 2D y 3D, transiciones, animaciones, blending, filtros, composición y máscaras, y estilos según el medio (media queries y estilos de impresión). Los apéndices incluyen las propiedades animables, una referencia básica de propiedades y una tabla de equivalencias de color.\n\nNo es un libro de proyectos: cada propiedad se explica con detalle, con su sintaxis, valores, casos límite y ejemplos visuales. Es ideal para consultar o para estudiar por partes y entender por qué el navegador hace lo que hace. Su principal limitación es la fecha: no cubre variables CSS a fondo, subgrid, propiedades lógicas, container queries ni cascade layers. Para quien empieza hoy conviene la quinta edición (2023), aunque los apéndices de referencia de esta edición, que se eliminaron en la siguiente, siguen siendo útiles.",
+    "temas": [
+      "Selectores",
+      "Cascada y especificidad",
+      "Valores y unidades",
+      "Modelo de caja",
+      "Tipografía",
+      "Fondos y gradientes",
+      "Posicionamiento",
+      "Flexbox",
+      "CSS Grid",
+      "Transformaciones",
+      "Transiciones y animaciones",
+      "Media queries"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://meyerweb.com/eric/books/css-tdg/ed-fourth",
+      "https://meyerweb.com/eric/thoughts/2017/07/05/css-the-definitive-guide-4th-edition/",
+      "https://www.oreilly.com/library/view/css-the-definitive/9781449325053"
+    ]
+  },
+  "css-the-definitive-guide-5th-edition-2023": {
+    "descripcion": "Quinta edición, publicada en 2023, de la referencia clásica de Eric A. Meyer y Estelle Weyl sobre CSS. Con más de 1.100 páginas, actualiza la obra a las especificaciones modernas del lenguaje. Está dirigida a diseñadores y desarrolladores web de cualquier nivel que quieran dominar CSS a fondo. Empieza por lo más básico, así que basta con conocer HTML, pero su profundidad la hace útil también para profesionales con experiencia.\n\nLos capítulos se reorganizaron respecto a la edición anterior. Cubre los fundamentos (cómo se aplica CSS a un documento), los selectores, con un capítulo propio para pseudoclases y pseudoelementos, la especificidad y la cascada, incluidas las nuevas cascade layers, y los valores y unidades. Siguen el formato visual básico, el modelo de caja, fondos, gradientes (incluidos los cónicos), floats y posicionamiento. La maquetación moderna recibe mucha atención: Flexbox, Grid con subgrid, y layout de tablas. Luego vienen fuentes, propiedades de texto, listas y contenido generado, transformaciones, transiciones, animaciones, filtros, blending, recortes y máscaras. Un capítulo final repasa las at-rules (@media, @supports, @container, entre otras). A lo largo del libro aparecen propiedades lógicas, variables y container queries.\n\nComo la edición anterior, es un libro de referencia exhaustivo, sin proyectos guiados ni ejercicios: cada propiedad se explica con su sintaxis, comportamiento, casos límite y abundantes ejemplos visuales. Es la mejor opción para entender el porqué del comportamiento de CSS y para consultar dudas concretas, aunque leerlo de principio a fin exige constancia. Para ganar espacio se eliminaron los apéndices de referencia de la cuarta edición. Tampoco trata preprocesadores, frameworks como Tailwind ni el flujo de trabajo de un proyecto real, así que conviene complementarlo con práctica propia. Algunas novedades posteriores a 2023, como :has() con soporte completo, nesting nativo o view transitions, pueden aparecer poco o nada.",
+    "temas": [
+      "Selectores",
+      "Pseudoclases y pseudoelementos",
+      "Cascade layers",
+      "Especificidad",
+      "Modelo de caja",
+      "Gradientes",
+      "Flexbox",
+      "CSS Grid y subgrid",
+      "Propiedades lógicas",
+      "Container queries",
+      "Transiciones y animaciones",
+      "At-rules"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://meyerweb.com/eric/books/css-tdg",
+      "https://www.oreilly.com/library/view/css-the-definitive/9781098117603",
+      "https://www.lavoisier.fr/livre/informatique/css-the-definitive-guide/descriptif_4857902"
+    ]
+  },
+  "css3-the-missing-manual-3rd-edition-2012": {
+    "descripcion": "Tercera edición, revisada a fondo, del conocido manual de David Sawyer McFarland para aprender CSS con las novedades de CSS3 y las etiquetas de HTML5 que los navegadores de la época ya soportaban. Está pensado para quienes ya escriben algo de HTML y han tocado CSS de forma básica, y quieren pasar a diseñar páginas atractivas, rápidas y adaptables a cualquier pantalla. El tono es didáctico y accesible, como en el resto de la serie Missing Manual, así que también sirve a principiantes con paciencia.\n\nEl libro arranca con los fundamentos: cómo escribir HTML pensado para CSS, cómo crear estilos y hojas de estilo, los selectores, la herencia y la cascada. Después pasa al diseño aplicado: formato de texto y fuentes web, márgenes, relleno y bordes, uso de imágenes y fondos, menús y barras de navegación, y formato de tablas y formularios. Dedica espacio a lo más llamativo de CSS3 en ese momento (transformaciones, transiciones y animaciones) y a la maquetación profesional con floats y posicionamiento. Cierra con diseño web adaptable (responsive) mediante media queries para escritorio, tableta y móvil, hojas de estilo para impresión y buenas prácticas para organizar y mantener el CSS.\n\nCasi todos los capítulos terminan con tutoriales paso a paso en los que se aplica lo visto sobre páginas de ejemplo; por ejemplo, el capítulo de gráficos incluye mejorar imágenes, montar una galería de fotos y trabajar con imágenes de fondo. Es una referencia muy completa y bien explicada, pero hay que tener en cuenta su fecha: es anterior a Flexbox y CSS Grid como estándares de uso general, así que la maquetación se apoya en floats y posicionamiento, hoy técnicas superadas para el layout principal. Sigue siendo valioso para entender selectores, cascada, modelo de caja y efectos visuales; para maquetar conviene completarlo con material moderno.",
+    "temas": [
+      "CSS3",
+      "HTML5",
+      "Selectores",
+      "Cascada y herencia",
+      "Tipografía web",
+      "Modelo de caja",
+      "Navegación",
+      "Transiciones y animaciones",
+      "Tablas y formularios",
+      "Floats y posicionamiento",
+      "Responsive design",
+      "CSS para impresión"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://app.oreilly.com/pub/pr/3179",
+      "https://www.oreilly.com/library/view/-/9781449339456/",
+      "https://discover.knoxcountylibrary.org/oreilly/ocn827944894"
+    ]
+  },
+  "flexbox-in-css-2017": {
+    "descripcion": "Libro breve de Estelle Weyl dedicado por completo al módulo de diseño de caja flexible de CSS (Flexbox), en su especificación ya estable en 2017. Está dirigido a maquetadores y desarrolladores front-end que conocen CSS y están cansados de construir layouts a base de floats, clears y rellenos; aunque el catálogo lo marca como básico, O'Reilly lo sitúa entre intermedio y avanzado por la profundidad con la que trata cada propiedad.\n\nEstá organizado en cuatro capítulos: una introducción a Flexbox, el contenedor flexible y los elementos flexibles, y un capítulo final de ejemplos. En el contenedor se estudian display: flex e inline-flex, flex-direction, flex-wrap, flex-flow y las propiedades de alineación justify-content, align-items y align-content. En los elementos se explican flex-grow, flex-shrink, flex-basis y el atajo flex, align-self y order, con atención al cálculo de cómo se reparte el espacio sobrante o faltante, que es donde suele fallar la intuición.\n\nNo es un libro de proyectos: el capítulo de ejemplos muestra patrones habituales de interfaz resueltos con Flexbox (barras de navegación, alineaciones, componentes tipo tarjeta, diseños adaptables). Su gran aporte es el detalle con que explica el algoritmo de flexibilidad, apoyado en muchos diagramas. Deja fuera CSS Grid, que hoy se usa junto con Flexbox para el layout de página, así que conviene leerlo junto con un texto sobre Grid. Hace falta dominar el modelo de caja y los selectores antes de empezar.",
+    "temas": [
+      "Flexbox",
+      "Flex container",
+      "Flex items",
+      "flex-direction y flex-wrap",
+      "justify-content",
+      "align-items y align-self",
+      "flex-grow y flex-shrink",
+      "flex-basis",
+      "order",
+      "Patrones de layout"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/-/9781491981474/",
+      "https://www.goodreads.com/book/show/35432578-flexbox-in-css"
+    ]
+  },
+  "grid-layout-in-css-2016": {
+    "descripcion": "Libro corto y denso de Eric A. Meyer, veterano de los estándares web y antiguo miembro del CSS Working Group del W3C, que explica el módulo CSS Grid Layout justo antes de que llegara a los navegadores principales en 2017. Es un extracto de la cuarta edición de CSS: The Definitive Guide, por lo que tiene su rigor y su estilo de referencia. Está pensado para quienes ya manejan CSS y quieren entender a fondo el primer sistema de maquetación bidimensional real del lenguaje.\n\nRecorre la terminología de Grid (líneas, celdas, pistas, áreas) y la diferencia entre un contenedor de grid y un contenedor de bloque, así como grids anidados e inline. Explica cómo definir columnas y filas con grid-template-columns y grid-template-rows, la unidad fr, repeat(), minmax() y las áreas con nombre de grid-template-areas; cómo colocar elementos sobre líneas o áreas; el grid implícito y el flujo automático (grid-auto-flow); los espacios entre pistas (gutters) y la alineación de los elementos y del grid completo.\n\nNo incluye proyectos ni ejercicios: es una explicación conceptual con muchos ejemplos de código y figuras. Su valor está en la precisión con la que describe cómo funciona Grid, independientemente del orden del HTML. Al ser de 2016, no cubre subgrid ni algunas propiedades renombradas después (por ejemplo, grid-gap pasó a gap), así que conviene contrastar la sintaxis con la documentación actual de MDN.",
+    "temas": [
+      "CSS Grid",
+      "Grid container",
+      "Líneas y pistas",
+      "grid-template-columns",
+      "Unidad fr",
+      "Áreas con nombre",
+      "Grid implícito",
+      "grid-auto-flow",
+      "Gutters",
+      "Alineación"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/-/9781491930205",
+      "https://www.goodreads.com/book/show/29895089-grid-layout-in-css"
+    ]
+  },
+  "padding-borders-outlines-and-margins-in-css-2016": {
+    "descripcion": "Breve monografía de Eric A. Meyer sobre los detalles del modelo de caja de CSS, publicada como extracto de la cuarta edición de CSS: The Definitive Guide. Va dirigida a desarrolladores y diseñadores que ya escriben CSS a diario pero quieren entender con exactitud cómo se calculan y combinan los espacios y bordes de cada elemento, en lugar de ajustar valores a prueba y error.\n\nExplica el modelo de caja y cómo interactúan sus propiedades; el relleno (padding), incluido su comportamiento en elementos en línea; los bordes con sus anchos, estilos y colores, además de las imágenes de borde (border-image) y las esquinas redondeadas; los contornos (outline), que son puramente visuales y no afectan al diseño; y los márgenes, incluidos los márgenes negativos y el colapso de márgenes verticales, una de las fuentes de confusión más comunes en CSS.\n\nEs un texto de referencia conceptual, sin ejercicios ni proyectos, con ejemplos de código y figuras para cada caso. Su aporte es aclarar comportamientos sutiles que pocos tutoriales explican. No cubre box-sizing en profundidad ni técnicas de maquetación como Flexbox o Grid, que Meyer trata en otros títulos de la misma serie, y tampoco las propiedades lógicas (margin-inline, padding-block) que se popularizaron después.",
+    "temas": [
+      "Modelo de caja",
+      "Padding",
+      "Bordes",
+      "border-image",
+      "border-radius",
+      "Outline",
+      "Márgenes",
+      "Colapso de márgenes",
+      "Elementos en línea"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/-/9781491929797"
+    ]
+  },
+  "positioning-in-css-2016": {
+    "descripcion": "Libro muy breve (unas 50 páginas) de Eric A. Meyer sobre el posicionamiento en CSS, también extraído de la cuarta edición de CSS: The Definitive Guide. Se dirige a desarrolladores de nivel intermedio que ya conocen el modelo de caja y quieren dominar cómo colocar elementos de forma precisa respecto a su contenedor o a la ventana.\n\nCubre los cuatro tipos de posicionamiento: relativo, absoluto, fijo y sticky, que entonces era una novedad. Explica el bloque contenedor (containing block) y cómo se determina en cada caso, las propiedades de desplazamiento top, right, bottom y left, el ancho y el alto de los elementos posicionados, el manejo del contenido desbordado con overflow y clip, el apilamiento con z-index y los contextos de apilamiento, y la visibilidad de los elementos.\n\nEs puramente conceptual, sin ejercicios ni proyectos, aunque cada propiedad se acompaña de ejemplos y figuras. Sirve para resolver dudas típicas: por qué un elemento absoluto se coloca respecto a un ancestro inesperado o por qué un z-index alto no funciona. No trata Flexbox ni Grid, que hoy resuelven el layout general; el posicionamiento queda para casos puntuales como superposiciones, menús o cabeceras fijas. Conviene leerlo después del título de Meyer sobre el modelo de caja.",
+    "temas": [
+      "Posicionamiento CSS",
+      "position: relative",
+      "position: absolute",
+      "position: fixed",
+      "position: sticky",
+      "Containing block",
+      "Offsets",
+      "z-index",
+      "Contextos de apilamiento",
+      "Overflow"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/positioning-in-css/9781491930366"
+    ]
+  },
+  "selectors-specificity-and-the-cascade-2012": {
+    "descripcion": "Libro breve de Eric A. Meyer, uno de los referentes históricos de CSS, que explica a fondo cómo los selectores aplican estilos a los elementos y cómo el navegador decide entre reglas que entran en conflicto. Es un adelanto de dos capítulos de la cuarta edición de «CSS: The Definitive Guide» y trabaja con los selectores de CSS3 (la situación de 2012). Está pensado para maquetadores y desarrolladores front-end de nivel intermedio que ya escriben CSS a diario pero quieren dejar de resolver los conflictos de estilos a base de prueba y error.\n\nEl primer capítulo recorre todo el sistema de selectores: reglas básicas y selectores de elemento, agrupación de selectores y declaraciones, el selector universal, selectores de clase e ID (y cuándo elegir uno u otro), selectores de atributo con coincidencia exacta y parcial (palabra en una lista, subcadena, prefijo y sufijo), combinadores de descendiente, hijo, hermano adyacente y hermanos siguientes, y las pseudoclases estructurales (:root, :empty, :only-child, :first-child, :nth-child, :nth-of-type…), dinámicas (enlaces y acciones del usuario), de estado de la interfaz (:enabled, :disabled, :checked), :target, :lang y la negación :not(). Cierra con los pseudoelementos ::first-letter, ::first-line, ::before y ::after. El segundo capítulo explica la especificidad (incluidos el selector universal, los ID, los atributos, los estilos en línea y !important), la herencia y la cascada: ordenación por peso y origen, por especificidad y por orden de aparición, además de las indicaciones de presentación ajenas a CSS.\n\nNo hay proyectos ni ejercicios guiados: es un texto de referencia con fragmentos de código y ejemplos visuales para cada concepto. Su valor está en la precisión con la que explica el porqué de la cascada, algo que sigue vigente. Conviene saber que es de 2012, así que no cubre selectores y mecanismos más recientes como :is(), :where(), :has(), las capas de cascada (@layer) o el anidamiento nativo, que cambian bastante la forma de gestionar la especificidad hoy.",
+    "temas": [
+      "Selectores CSS",
+      "Selectores de atributo",
+      "Combinadores",
+      "Pseudoclases",
+      "Pseudoelementos",
+      "Especificidad",
+      "Herencia",
+      "Cascada",
+      "!important",
+      "CSS3"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/selectors-specificity-and-the-cascade-eric-a-meyer,e_2gs1.htm"
+    ]
+  },
+  "table-layout-in-css-2016": {
+    "descripcion": "Pequeña monografía de Eric A. Meyer que explica cómo CSS dispone y dibuja las tablas, y no cómo usar tablas para maquetar páginas. Es un extracto de la cuarta edición de «CSS: The Definitive Guide» y describe el modelo de tablas de CSS 2.1 tal como lo implementaban los navegadores en 2016. Está dirigida a desarrolladores front-end de nivel intermedio que ya dominan el modelo de cajas y quieren entender con precisión por qué una tabla se comporta como lo hace.\n\nEl contenido se organiza en tres bloques. El primero trata el formateo: las reglas para ordenar visualmente una tabla, los valores de display propios de las tablas (table, table-row, table-cell, table-column…), la primacía de las filas sobre las columnas, los objetos de tabla anónimos que el navegador inserta cuando falta algún elemento, las capas de la tabla y los títulos (caption). El segundo trata los bordes de las celdas: el modelo de bordes separados, con border-spacing y el manejo de celdas vacías, y el modelo de bordes colapsados, con las reglas que deciden qué borde gana cuando dos se juntan. El tercero trata el tamaño: el cálculo del ancho con table-layout fixed frente a auto, el cálculo de la altura y la alineación del contenido de las celdas.\n\nEs un texto de referencia sin ejercicios ni proyectos, útil sobre todo para quien maquete tablas de datos complejas o use display: table para imitar su comportamiento. Su principal limitación es el alcance: hoy Flexbox y Grid cubren la mayoría de los casos de maquetación, y el libro no habla de tablas responsivas ni de accesibilidad. Aun así, sus explicaciones sobre los bordes colapsados y el algoritmo de anchos automáticos son difíciles de encontrar con este nivel de detalle.",
+    "temas": [
+      "Tablas CSS",
+      "display: table",
+      "Objetos anónimos",
+      "Capas de tabla",
+      "border-collapse",
+      "border-spacing",
+      "table-layout",
+      "Tamaño de tablas",
+      "Alineación de celdas"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/table-layout-in-css-css-table-rendering-in-detail-eric-a-meyer,e_05y9.htm"
+    ]
+  },
+  "transforms-in-css-2015": {
+    "descripcion": "Guía corta de Eric A. Meyer sobre las transformaciones de CSS en dos y tres dimensiones. Es un extracto de la cuarta edición de «CSS: The Definitive Guide» y describe el módulo CSS Transforms tal como estaba en 2015. Está pensada para desarrolladores front-end y diseñadores web de nivel intermedio que ya manejan CSS con soltura y quieren rotar imágenes, crear efectos de perspectiva o interfaces que muestran la cara posterior de un elemento.\n\nEmpieza con los sistemas de coordenadas que usan las transformaciones (el cartesiano y el esférico) y luego recorre en detalle la propiedad transform y sus funciones: traslación (translate y sus variantes por eje y 3D), escalado, rotación, sesgado (skew), la función perspective() y las funciones de matriz (matrix y matrix3d), con una nota sobre cuándo dos transformaciones distintas llegan al mismo estado final. La segunda parte cubre las propiedades complementarias: transform-origin para mover el punto de origen, transform-style para conservar el espacio 3D entre elementos anidados, perspective y perspective-origin para dar una perspectiva común a un grupo de elementos, y backface-visibility para controlar la cara posterior.\n\nNo incluye proyectos guiados; cada función se explica con fragmentos de código y figuras que muestran el resultado. Es una referencia precisa y compacta que ayuda a entender sobre todo el orden de aplicación de las funciones y la diferencia entre perspective() y la propiedad perspective. Conviene combinarlo con un texto sobre transiciones y animaciones para dar movimiento a estas transformaciones. Tampoco cubre las propiedades individuales translate, rotate y scale, que llegaron después.",
+    "temas": [
+      "CSS Transforms",
+      "Transformaciones 2D",
+      "Transformaciones 3D",
+      "Sistemas de coordenadas",
+      "translate/scale/rotate/skew",
+      "matrix",
+      "transform-origin",
+      "transform-style",
+      "Perspectiva",
+      "backface-visibility"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/transforms-in-css-revamp-the-way-you-design-eric-a-meyer,e_2gif.htm",
+      "https://i-programmer.info/book-watch-archive/8740-transforms-in-css-oreilly.html"
+    ]
+  },
+  "transitions-and-animations-in-css-2016": {
+    "descripcion": "Libro de Estelle Weyl, ingeniera front-end especializada en estándares web y accesibilidad, dedicado a añadir movimiento a las páginas solo con CSS. Es un extracto ampliado de la cuarta edición de «CSS: The Definitive Guide» y trata los módulos CSS Transitions y CSS Animations tal como los soportaban los navegadores en 2016, incluidos los prefijos de proveedor. Está pensado para desarrolladores de nivel principiante a intermedio que ya conocen CSS y quieren animar interfaces sin depender de JavaScript.\n\nEmpieza con los 12 principios básicos de la animación de Disney y con lo que hay que tener en cuenta antes de animar una interfaz. El capítulo de transiciones explica las cuatro propiedades (transition-property, transition-duration, transition-timing-function y transition-delay) y su forma abreviada, los valores all y none, las demoras negativas, la vuelta al estado inicial, cómo se interpolan los valores, qué propiedades se pueden animar, el evento transitionend y el uso de las transiciones como mejora progresiva. El capítulo de animaciones cubre @keyframes y sus selectores, el cambio dinámico de animaciones y las nueve propiedades animation-* (nombre, duración, número de repeticiones, dirección, demora, funciones de temporización y steps(), estado de reproducción y modo de relleno). También trata la interacción con la especificidad y !important, el orden de las animaciones, el caso de display: none, el hilo de la interfaz, los riesgos para personas con epilepsia fotosensible, los eventos animationstart, animationend y animationiteration, y cómo se comportan al imprimir.\n\nNo tiene proyectos completos, pero abunda en ejemplos concretos, como una pelota que rebota, un menú desplegable que se expande o efectos al pasar el ratón. Su gran aporte, como destaca la reseña de Ben Nadel, es dejar claro que transiciones y animaciones son mecanismos distintos y cuándo conviene cada uno. Hay que tener en cuenta que no trata la Web Animations API, las animaciones vinculadas al scroll ni las librerías de JavaScript, y que parte de lo que dice sobre prefijos ya está desfasado.",
+    "temas": [
+      "CSS Transitions",
+      "CSS Animations",
+      "@keyframes",
+      "Funciones de temporización",
+      "steps()",
+      "Propiedades animables",
+      "Eventos de animación",
+      "Principios de animación",
+      "Mejora progresiva",
+      "Accesibilidad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/transitions-and-animations-in-css-adding-motion-with-css-estelle-weyl,e_01f7.htm",
+      "https://www.bennadel.com/blog/3134-transitions-and-animations-in-css-by-estelle-weyl.htm"
+    ]
+  },
+  "values-units-and-colors-2012": {
+    "descripcion": "Breve referencia de Eric A. Meyer sobre los tipos de valores y unidades que aceptan las propiedades CSS, base de todo lo que se escribe en una hoja de estilos. Es un extracto de la cuarta edición de «CSS: The Definitive Guide» y refleja el estado de CSS3 en 2012. Está dirigido a desarrolladores y maquetadores de nivel intermedio que usan CSS a diario pero quieren entender con exactitud cómo funcionan las unidades y los colores.\n\nEl único capítulo recorre los valores de texto (palabras clave como inherit e initial, cadenas, URLs, imágenes e identificadores), los números enteros, los números reales y los porcentajes, y las distancias: unidades absolutas, la teoría del píxel CSS, unidades de resolución (dpi, dpcm, dppx) y unidades relativas como em, ex, rem, ch y las relativas al viewport (vw, vh, vmin). La parte de color explica los colores con nombre, RGB en notación funcional y hexadecimal, RGBa, HSL y HSLa, e incluye una tabla de equivalencias de color. Termina con los ángulos, los valores de tiempo y frecuencia (los que usan transiciones y animaciones) y los valores de posición.\n\nNo hay ejercicios ni proyectos: es una referencia conceptual con ejemplos breves. Aclara confusiones frecuentes, como la diferencia entre none y 0 o entre número, entero y porcentaje, y explica bien cómo se calculan em y rem. Por su fecha, no incluye funciones como calc() en profundidad, las variables CSS (custom properties), los nuevos espacios de color (lab, lch, oklch) ni las unidades de viewport dinámicas (dvh, svh), así que conviene complementarlo con documentación actual.",
+    "temas": [
+      "Valores CSS",
+      "Unidades de longitud",
+      "em y rem",
+      "Unidades de viewport",
+      "Píxel CSS",
+      "Unidades de resolución",
+      "Colores RGB/RGBa",
+      "HSL/HSLa",
+      "Ángulos y tiempo",
+      "Palabras clave globales"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/values-units-and-colors-eric-a-meyer,e_e00a.htm"
+    ]
+  },
+  "what-s-new-in-css3-2012": {
+    "descripcion": "Informe breve de O'Reilly en el que Estelle Weyl, especialista en CSS y coautora de «CSS: The Definitive Guide», repasa en pocas páginas el estado de CSS3 en 2012. No es un tutorial: está pensado para quien necesita entender qué es CSS3, cómo se organiza en módulos y en qué punto del proceso de estandarización del W3C estaba cada uno. Puede leerlo un desarrollador intermedio que quiera ordenar ideas, pero también un responsable técnico o de producto que sigue la evolución de la web.\n\nEl texto explica el paso del CSS monolítico (CSS1, CSS2 y CSS 2.1) a un conjunto de módulos independientes, y clasifica cuáles ya eran Recomendación, cuáles seguían como Borrador de Trabajo y cuáles se habían dejado de lado. Repasa las novedades más llamativas, como transformaciones, transiciones y animaciones, los nuevos selectores y los nuevos métodos de maquetación que cambiaban la forma de trabajar, y menciona además lo que se esperaba de CSS4 (Selectors Level 4). Se centra en el qué y el porqué de cada función, no en cómo se implementa.\n\nNo trae ejemplos de código, ejercicios ni listados de propiedades, y algunos lectores lo encuentran demasiado superficial para el trabajo diario. También ha envejecido: los prefijos de proveedor y el soporte de navegadores que describe ya no reflejan la realidad, y Flexbox y Grid han cambiado mucho desde entonces. Hoy sirve sobre todo como contexto histórico para entender de dónde viene el CSS moderno. Si lo que buscas es aprender CSS3 en la práctica, un libro de referencia completo o la documentación de MDN te servirán más.",
+    "temas": [
+      "CSS3",
+      "Módulos de CSS",
+      "Estandarización W3C",
+      "Selectores",
+      "Transformaciones",
+      "Transiciones",
+      "Animaciones",
+      "Maquetación",
+      "Prefijos de proveedor",
+      "Historia de CSS"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bookshare.org/browse/book/578129",
+      "https://www.goodreads.com/book/show/17017526"
+    ]
+  },
+  "mastering-css-grid-2023": {
+    "descripcion": "Guía completa de Pascal Thormeier, publicada por Packt en 2023, dedicada por entero al módulo CSS Grid Layout tal como se usa hoy en los navegadores modernos, subgrid incluido. Está pensada para desarrolladores y diseñadores web que ya manejan HTML y CSS y quieren llevar sus maquetaciones a un nivel avanzado. Aun así, empieza por lo básico, de modo que quien no haya usado Grid también puede seguirlo.\n\nLa primera parte cubre las reglas y estructuras básicas: filas, columnas, plantillas de rejilla, áreas, líneas, huecos y propiedades abreviadas, además de cómo depurar rejillas con las herramientas de desarrollo de los navegadores basados en Chromium. Después pasa a maquetaciones avanzadas: áreas complejas, alineación y colocación de elementos dentro de las celdas, diferencias entre subgrid y rejillas anidadas, cómo emular subgrid y diseños tipo masonry. Siguen capítulos sobre rejillas responsivas y fluidas, la combinación de Flexbox y Grid, cuándo conviene y cuándo no usar Grid, cómo escribir polyfills propios en JavaScript para las funciones que todavía faltan, y cómo implementan las rejillas los frameworks CSS más populares. Cierra con una guía de referencia rápida.\n\nTodo el libro gira en torno a un único proyecto que se va ampliando de capítulo en capítulo, así que la teoría se aplica de inmediato a un caso realista. Hay código de apoyo para los nueve capítulos. Es de lo más completo y actual que hay sobre Grid, y el análisis de frameworks y polyfills le da un valor añadido frente a los tutoriales en línea. Eso sí, conviene dominar ya el modelo de cajas y las nociones básicas de Flexbox, y la parte de polyfills requiere algo de soltura con JavaScript.",
+    "temas": [
+      "CSS Grid",
+      "Grid template areas",
+      "Subgrid",
+      "Masonry",
+      "Diseño responsivo",
+      "Flexbox",
+      "Polyfills",
+      "JavaScript",
+      "Frameworks CSS",
+      "Chrome DevTools"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Proyecto continuo de maquetación con Grid",
+        "descripcion": "Una aplicación web de ejemplo que se presenta al principio del libro y cuya interfaz se va maquetando y ampliando capítulo a capítulo con CSS Grid y Flexbox: layouts avanzados, versiones responsivas y polyfills en JavaScript."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-css-grid-9781804614846",
+      "https://github.com/PacktPublishing/Mastering-CSS-Grid",
+      "https://www.packtpub.com/en-bg/product/mastering-css-grid-9781804614846/chapter/chapter-3-building-advanced-grid-layouts-4/section/creating-subgrids-ch04lvl1sec23"
+    ]
+  },
+  "css3-visual-quickstart-guide-5th-edition-2011": {
+    "descripcion": "Quinta edición de la conocida guía visual de Jason Cranford Teague, de la serie Visual QuickStart Guide de Peachpit Press (2010-2011). Es una referencia práctica, organizada por tareas, que cubre CSS 2.1 y las funciones de CSS3 que los navegadores empezaban a soportar en aquel momento. Está pensada para principiantes y usuarios intermedios: el principiante puede seguirla desde el recorrido inicial por el lenguaje y el usuario con experiencia puede ir directamente al capítulo que necesite.\n\nCada tema se explica con instrucciones paso a paso y abundantes capturas de pantalla. Repasa la sintaxis de las reglas, los tipos de hojas de estilo y la cascada, los selectores básicos y los nuevos de CSS3, la herencia y la especificidad, y propiedades de texto y fuentes, incluidas las fuentes web con @font-face. Trata también el color y la transparencia (RGBA y HSL), los fondos, el modelo de cajas, la posición y la visibilidad, y los nuevos efectos de CSS3: bordes redondeados, sombras, gradientes, transformaciones y transiciones. Incluye además media queries, tablas y listas, la maquetación con floats y posicionamiento, y el manejo de las diferencias entre navegadores, con prefijos de proveedor y soluciones para Internet Explorer.\n\nNo se construye un proyecto completo: se practica con ejemplos breves, tarea por tarea, que se aplican de inmediato. Su formato visual lo hace muy accesible para empezar, pero el contenido está muy desactualizado. Antecede a Flexbox y Grid, depende mucho de prefijos y trucos para navegadores antiguos, y Peachpit ya lo dio por agotado; existe una sexta edición posterior. Hoy vale como introducción ilustrada a los fundamentos de CSS, que no han cambiado, pero no para la maquetación moderna.",
+    "temas": [
+      "CSS 2.1",
+      "CSS3",
+      "Selectores",
+      "Cascada y especificidad",
+      "Tipografía web",
+      "@font-face",
+      "Modelo de cajas",
+      "Bordes y sombras",
+      "Transformaciones",
+      "Transiciones",
+      "Media queries",
+      "Compatibilidad entre navegadores"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/-/9780131389892",
+      "https://www.peachpit.com/store/css3-visual-quickstart-guide-9780321719638",
+      "https://www.oreilly.com/library/view/css3-visual-quickstart/9780131389892/"
+    ]
+  },
+  "css-grid-layout-2018": {
+    "descripcion": "Antología práctica publicada por SitePoint en 2018 con el título completo «CSS Grid Layout: 5 Practical Projects». Reúne cinco tutoriales de distintos autores: Ilya Bodrov-Krukowski, Giulio Mainardi, Ahmed Bouchefra, Diogo Souza y Craig Buckler. Salió cuando CSS Grid acababa de llegar de forma estable a los principales navegadores, y está pensada para desarrolladores con algo de experiencia en CSS que quieren aprender Grid aplicándolo a casos concretos y no a partir de la especificación.\n\nCada capítulo enseña las piezas centrales de Grid sobre un ejemplo real: definir filas y columnas con grid-template-columns y grid-template-rows, usar la unidad fr, repeat(), minmax() y auto-fit/auto-fill para rejillas adaptables, nombrar áreas con grid-template-areas, colocar elementos por líneas y ajustar los huecos con gap. También muestra cómo combinar Grid con media queries para lograr diseños responsivos, cómo aplicar la mejora progresiva con @supports para pasar de floats a Flexbox y de ahí a Grid sin dejar fuera a los navegadores antiguos, y cómo usar Grid para alinear formularios.\n\nEs un libro corto y directo que se lee como una serie de artículos de SitePoint. Su ventaja es que cada proyecto se puede seguir por separado y deja una técnica concreta reutilizable. Por el formato de antología, la profundidad y el estilo cambian de un capítulo a otro y no hay un hilo teórico común, y es anterior a subgrid y a las mejoras de Grid más recientes. Conviene complementarlo con una referencia más sistemática.",
+    "temas": [
+      "CSS Grid",
+      "grid-template-areas",
+      "Unidad fr",
+      "minmax y auto-fit",
+      "Diseño responsivo",
+      "Mejora progresiva",
+      "Floats",
+      "Flexbox",
+      "@supports",
+      "Formularios",
+      "Layouts de tarjetas"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Rediseño de un sitio con CSS Grid Layout",
+        "descripcion": "Ilya Bodrov-Krukowski toma un sitio existente y reconstruye su maquetación con CSS Grid, sustituyendo las técnicas antiguas por filas, columnas y áreas de rejilla."
+      },
+      {
+        "nombre": "Rediseño de un layout de tarjetas al estilo Tumblr",
+        "descripcion": "Giulio Mainardi rehace con Grid una interfaz basada en tarjetas, como la de Tumblr, para organizar publicaciones de distintos tamaños de forma adaptable."
+      },
+      {
+        "nombre": "Layout moderno y responsivo con CSS Grid",
+        "descripcion": "Ahmed Bouchefra construye una maquetación de página que se adapta a cualquier pantalla combinando Grid con media queries y unidades flexibles."
+      },
+      {
+        "nombre": "Layouts con mejora progresiva: de floats a Flexbox y Grid",
+        "descripcion": "Diogo Souza muestra cómo construir un mismo diseño por capas: floats como base, Flexbox y finalmente Grid, detectando el soporte del navegador con @supports."
+      },
+      {
+        "nombre": "Formularios mejores con CSS Grid",
+        "descripcion": "Craig Buckler usa Grid para alinear etiquetas, campos y botones de formularios responsivos sin necesidad de marcado adicional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bookshare.org/browse/book/2481133",
+      "https://oreilly.com/library/view/css-grid-layout/9781492069928"
+    ]
+  },
+  "css-master-3rd-edition-2021": {
+    "descripcion": "Tercera edición, publicada por SitePoint en 2021, del manual de Tiffany B. Brown para pasar de saber CSS a dominarlo. Se apoya en CSS moderno: selectores de nivel 4, Flexbox, Grid, propiedades personalizadas, Scroll Snap y efectos visuales con buen soporte en los navegadores de esa época. El catálogo lo clasifica como básico, pero la editorial lo dirige a desarrolladores de nivel intermedio. Conviene llegar sabiendo escribir HTML y CSS con soltura (box model, selectores simples, maquetación sencilla).\n\nEn sus 13 capítulos repasa a fondo los selectores, la especificidad y la cascada, y cómo organizar hojas de estilo mantenibles y reutilizables. También enseña a depurar y optimizar con las herramientas de desarrollo del navegador, por ejemplo para detectar las propiedades que provocan reflows y repaints. La parte de maquetación es la más extensa de esta edición: explica en detalle cómo funcionan Flexbox y Grid, junto con multicolumna y CSS Shapes. Le siguen transiciones, transformaciones y animaciones, las propiedades personalizadas (variables CSS) para reutilizar valores y cambiarlos dinámicamente, y CSS aplicado a SVG. Las novedades de esta edición son un capítulo de Scroll Snap, para crear carruseles y presentaciones de diapositivas con muy poco JavaScript, y otro de efectos visuales: filtros, máscaras, recortes (clip-path) y modos de fusión. Rachel Andrew fue la editora técnica.\n\nEs una obra de referencia conceptual con muchos fragmentos de código y demostraciones, no un curso basado en proyectos. Su valor está en explicar por qué CSS se comporta como lo hace, algo que suele faltar en los tutoriales. No trata preprocesadores como Sass, frameworks como Tailwind o Bootstrap, ni metodologías de componentes en profundidad. Algunas funciones más recientes (por ejemplo container queries, :has() o cascade layers) quedaron fuera o apenas se mencionan, porque se generalizaron después de 2021. Es muy recomendable para afianzar los fundamentos modernos del lenguaje.",
+    "temas": [
+      "Selectores",
+      "Cascada y especificidad",
+      "Arquitectura CSS",
+      "Depuración y rendimiento",
+      "Flexbox",
+      "CSS Grid",
+      "CSS Shapes",
+      "Transiciones y animaciones",
+      "Transformaciones",
+      "Custom properties",
+      "Scroll Snap",
+      "Filtros, máscaras y blend modes"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://tiffanybbrown.com/2021/09/css-master-third-edition/",
+      "https://www.oreilly.com/library/view/css-master-3rd/9781098124793/",
+      "https://www.sitepoint.com/premium/books/css-master-3rd-edition/"
+    ]
+  },
+  "getting-started-with-css-2009": {
+    "descripcion": "Introducción a CSS escrita por David Powers para la serie StartED de friends of ED (Apress), publicada a finales de 2009. Cubre a fondo CSS 2.1 y presenta algunas funciones de CSS3 que empezaban a llegar a los navegadores. Está pensada para principiantes absolutos o para quienes usan CSS de forma ocasional y solo necesitan conocer HTML básico. Su enfoque gradual y su apéndice de referencia también la hacen útil para desarrolladores con más experiencia.\n\nEl libro avanza por etapas. Primero cambia el estilo por defecto de las etiquetas HTML para mejorar el texto y los enlaces (fuentes, color, pseudoclases, propiedades abreviadas y unidades de medida). Después pasa al modelo de caja, los márgenes y el centrado, y luego a los floats y su limpieza, los fondos y los bordes, el ancho y el alto (min/max, overflow, visibility) y la posición. Las clases, los ID y otros selectores aparecen más tarde, de forma deliberada, para evitar el abuso de clases. Además dedica capítulos a las listas y los menús de navegación horizontales y verticales con sprites CSS para los efectos rollover, al contenido generado, a las tablas, a los diseños de página fijos, líquidos y elásticos de una, dos y tres columnas, y a las hojas de estilo para impresión. Cierra con un apéndice que recoge todas las propiedades y selectores de CSS 2.1 con notas de soporte en los navegadores.\n\nLa práctica se hace con ejemplos guiados paso a paso, como un gráfico del clima maquetado con tablas, menús con sprites y una página completa preparada para imprimir. Está muy bien escrito y tiene pocas erratas. Las reseñas critican que algunos temas aparecen en sitios poco lógicos, lo que dificulta usarlo como consulta. Hoy hay que leerlo con perspectiva histórica: se basa en floats y en trucos para Internet Explorer 6 y no trata Flexbox, Grid, diseño responsive ni variables CSS. Sigue siendo valioso para entender la cascada, el modelo de caja y el flujo normal, pero conviene complementarlo con material de maquetación moderna.",
+    "temas": [
+      "CSS 2.1",
+      "Introducción a CSS3",
+      "Cascada",
+      "Modelo de caja",
+      "Floats",
+      "Fondos y bordes",
+      "Posicionamiento",
+      "Menús de navegación",
+      "Sprites CSS",
+      "Tablas",
+      "Layouts fijos y líquidos",
+      "Estilos de impresión"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.elated.com/?p=3794",
+      "https://www.i-programmer.info/bookreviews/12-web-design-and-development-/618-getting-started-with-css-.html",
+      "https://www.goodreads.com/work/editions/10334853-getting-started-with-css"
+    ]
+  },
+  "jump-start-css-2013": {
+    "descripcion": "Libro breve de la serie Jump Start de SitePoint en el que Louis Lazaris ofrece una introducción práctica y amena a CSS, con el subtítulo \"Get Up to Speed with CSS in a Weekend\" (ponte al día con CSS en un fin de semana). Se publicó en 2013, cuando CSS3 empezaba a usarse con normalidad. Está dirigido a principiantes que ya saben escribir HTML y quieren aprender a dar estilo y maquetar páginas web, y busca darles la base y la confianza necesarias para seguir experimentando por su cuenta.\n\nEl contenido se organiza en cuatro bloques. El primero enseña las técnicas de maquetación de la época: modelo de caja, floats, posicionamiento y estructuras de columnas. El segundo trata las imágenes, los fondos y el texto (tipografía, colores y fondos con imagen). El tercero se ocupa de la navegación y la presentación de formularios. El último, \"Getting fancy with CSS3\", presenta funciones como esquinas redondeadas, sombras, degradados, transiciones y transformaciones. Las explicaciones son cortas y van directas a lo que se necesita en el día a día, sin profundizar en la especificación.\n\nTodo el libro gira en torno al diseño de un sitio web de recetas que se va construyendo y estilizando capítulo a capítulo, lo que ayuda a ver los conceptos aplicados en un caso real. Su brevedad (unas 150 páginas) es su mayor ventaja y también su límite: es una puerta de entrada, no una referencia completa. Por su fecha no cubre Flexbox, Grid ni las propiedades personalizadas, y la maquetación se basa en floats, así que conviene continuar con un libro de CSS moderno.",
+    "temas": [
+      "Fundamentos de CSS",
+      "Selectores",
+      "Modelo de caja",
+      "Maquetación con floats",
+      "Tipografía",
+      "Imágenes y fondos",
+      "Navegación",
+      "Formularios",
+      "CSS3",
+      "Transiciones"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio web de recetas",
+        "descripcion": "Diseño de un sitio web de recetas, hecho solo con HTML y CSS, que sirve de ejemplo a lo largo del libro: se va maquetando y estilizando capítulo a capítulo con layout, tipografía, fondos, navegación y detalles visuales de CSS3."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nlb.overdrive.com/media/2133117",
+      "https://www.oreilly.com/library/view/-/9781457174315"
+    ]
+  },
+  "the-advanced-css-collection-2018": {
+    "descripcion": "Antología publicada por SitePoint en octubre de 2018 que reúne en un solo volumen tres de sus libros cortos sobre CSS avanzado. Los capítulos están escritos por varios autores, entre ellos Craig Buckler, Ilya Bodrov-Krukowski, Claudio Ribeiro, Ahmed Bouchefra y Tiffany B. Brown. La idea central es mostrar todo lo que CSS ya puede hacer por sí solo, cuando antes hacía falta JavaScript complejo o directamente no era posible. Está pensada para desarrolladores front-end con experiencia previa en CSS que quieren ponerse al día con el CSS de 2018.\n\nEl primer libro, Modern CSS, trata transformaciones CSS, fuentes variables, Scroll Snap, SVG, temas con propiedades personalizadas controladas desde JavaScript, CSS en aplicaciones web progresivas (PWA) y rendimiento de CSS. El segundo, CSS Grid Layout: 5 Practical Projects, se dedica por completo a Grid Layout y lo combina con Flexbox, floats y mejora progresiva. El tercero, CSS Tools & Skills, se centra en el flujo de trabajo: automatización de tareas con Gulp.js, herramientas de optimización de CSS para PWA, linters y herramientas de calidad de código, depuración con las DevTools del navegador, minificación con CSSO y hojas de estilo para imprimir.\n\nLa parte más práctica es la de Grid, con cinco proyectos guiados. El resto combina explicación con ejemplos de código. Al ser una recopilación de artículos, el nivel y el estilo varían entre capítulos y no hay un hilo conductor único, aunque la variedad de temas es una ventaja. Algunas herramientas, como Gulp, han perdido protagonismo frente a Vite o PostCSS, y no trata Sass ni container queries. Conviene leerlo sabiendo ya las bases de selectores, cascada y Flexbox.",
+    "temas": [
+      "CSS Grid",
+      "Flexbox",
+      "Mejora progresiva",
+      "Transformaciones",
+      "Fuentes variables",
+      "Custom properties",
+      "Scroll Snap",
+      "SVG",
+      "Rendimiento CSS",
+      "Gulp.js",
+      "Depuración con DevTools",
+      "Minificación con CSSO"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Rediseño de un sitio con CSS Grid",
+        "descripcion": "Se toma un sitio existente y se rehace su maquetación con CSS Grid Layout en lugar de técnicas antiguas."
+      },
+      {
+        "nombre": "Layout de tarjetas al estilo Tumblr",
+        "descripcion": "Rediseño con CSS Grid de una página basada en tarjetas, al estilo de Tumblr, para colocar y redimensionar los bloques de contenido."
+      },
+      {
+        "nombre": "Layout responsive con Grid",
+        "descripcion": "Parte de una demo maquetada con floats y la migra a CSS Grid: centrado de elementos, elementos que ocupan varias celdas y cambio de diseño en pantallas pequeñas."
+      },
+      {
+        "nombre": "Layout con mejora progresiva",
+        "descripcion": "Construye un diseño que pasa de floats a Flexbox y de Flexbox a Grid según el soporte del navegador, aplicando mejora progresiva."
+      },
+      {
+        "nombre": "Formularios con CSS Grid",
+        "descripcion": "Usa CSS Grid para maquetar formularios limpios y adaptables, alineando etiquetas y campos sin marcado extra."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://lapl.overdrive.com/media/4383571",
+      "https://www.goodreads.com/book/show/42595648-the-advanced-css-collection",
+      "https://www.oreilly.com/library/view/-/9781492069928",
+      "https://www.oreilly.com/library/view/css-tools/9781492069836/",
+      "https://www.sitepoint.com/premium/books/modern-css"
+    ]
+  },
+  "the-css3-anthology-4th-edition-2012": {
+    "descripcion": "Cuarta edición, publicada por SitePoint en 2012, del clásico recetario de Rachel Andrew. Cambió de nombre de The CSS Anthology a The CSS3 Anthology porque es una reescritura casi total, revisada y actualizada para CSS3 y HTML5. Está dirigida a diseñadores y desarrolladores con conocimientos básicos o intermedios de HTML y CSS que buscan soluciones probadas a problemas habituales de maquetación y estilo, para aplicarlas directamente en sitios reales.\n\nEstá organizada como un manual de preguntas y respuestas con más de cien tutoriales. Cada receta plantea un problema concreto, muestra la solución en CSS y explica cómo funciona. Recorre el formato de texto y la tipografía, el trabajo con imágenes y fondos, los menús de navegación, la presentación de datos en tablas y el diseño de formularios e interfaces de usuario. También trata la compatibilidad entre navegadores y la accesibilidad. CSS3 ocupa un lugar central, con bordes redondeados, sombras, degradados, transiciones, selectores avanzados y media queries. Un capítulo ayuda a decidir qué hacer con los navegadores antiguos que aún hay que soportar, y el último explica cómo construir diseños de ancho fijo y luego introduce el diseño responsive y la web móvil. El código de cada componente está disponible para descargar.\n\nSu punto fuerte es la orientación práctica: son las técnicas que la autora usaría en producción, bien explicadas y fáciles de reutilizar. Se puede leer de principio a fin o consultar solo la receta que se necesita. Por su fecha, la maquetación se apoya en floats y posicionamiento, el diseño responsive solo se introduce y no aparecen Flexbox, Grid ni las propiedades personalizadas. Además, gran parte de los trucos para versiones antiguas de Internet Explorer ya no hacen falta. Es útil para entender soluciones clásicas, pero conviene completarlo con material de CSS moderno.",
+    "temas": [
+      "CSS3",
+      "HTML5",
+      "Recetas CSS",
+      "Tipografía",
+      "Imágenes y fondos",
+      "Navegación",
+      "Tablas",
+      "Formularios",
+      "Compatibilidad entre navegadores",
+      "Accesibilidad",
+      "Layouts de ancho fijo",
+      "Diseño responsive"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://rachelandrew.co.uk/?p=861",
+      "https://www.oreilly.com/library/view/the-css3-anthology/9780987153029/",
+      "https://app.oreilly.com/pub/pr/3034"
+    ]
+  },
+  "unleashing-the-power-of-css-2023": {
+    "descripcion": "Libro breve de la serie Hybrid de SitePoint, publicado en mayo de 2023, en el que Stephanie Eckles (creadora de ModernCSS.dev, SmolCSS.dev y StyleStage.dev) repasa las funciones de CSS moderno que ya tienen buen soporte en los navegadores. Su subtítulo, «Advanced Techniques for Responsive User Interfaces», resume el objetivo: crear interfaces adaptables con menos código y sin trucos heredados. Está dirigido a desarrolladores front-end de nivel intermedio que ya dominan los fundamentos de CSS (cascada, especificidad, Flexbox y Grid básicos) y quieren ponerse al día con lo que ha cambiado en los últimos años.\n\nSe organiza en cuatro capítulos. El primero, «What You've Missed in CSS Land», hace un recorrido por las mejoras recientes en layout, diseño responsivo, estilado de elementos, propiedades y selectores, y adelanta funciones que estaban por llegar. El segundo se centra en el selector relacional :has() y en cómo aprovecharlo para que los componentes reutilizables se adapten según su contenido. El tercero muestra usos prácticos de las container queries, que permiten que un componente responda al tamaño de su contenedor y no al de la ventana. El cuarto enseña a construir layouts responsivos sin media queries, con técnicas intrínsecas basadas en Grid, Flexbox y funciones como clamp(), min() y max().\n\nNo hay un proyecto único, sino ejemplos de componentes y patrones de layout que se pueden trasladar directamente a un sistema de diseño. Su valor está en lo actualizado y concreto: en menos de cien páginas reúne las técnicas que más cambian la forma de escribir CSS responsivo hoy. Al ser tan corto, no es una referencia exhaustiva ni sirve para aprender CSS desde cero, y algunos temas (como las cascade layers o el anidamiento nativo) apenas se mencionan, si es que aparecen. Conviene complementarlo con los artículos de la propia autora y con la documentación de MDN.",
+    "temas": [
+      "CSS moderno",
+      "Selector :has()",
+      "Container queries",
+      "Diseño responsivo",
+      "Layout intrínseco",
+      "CSS Grid",
+      "Flexbox",
+      "clamp()/min()/max()",
+      "Componentes reutilizables"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.sitepoint.com/premium/books/unleashing-the-power-of-css/",
+      "https://www.oreilly.com/library/view/unleashing-the-power/9781925836561/",
+      "https://opencourser.com/book/98lzdd/unleashing-the-power-of-css"
+    ]
+  },
+  "sitepoint-designing-with-css-grid-layout-2017": {
+    "descripcion": "Antología breve publicada por SitePoint en julio de 2017 que reúne cinco tutoriales de su canal de HTML y CSS, escritos por Ahmad Ajmi, Nitish Kumar y Adrian Roworth, para introducir el módulo CSS Grid Layout justo cuando empezaba a tener soporte estable en los navegadores principales. Está dirigido a desarrolladores front-end y diseñadores web que ya tienen experiencia con CSS y quieren entender el nuevo sistema de maquetación bidimensional.\n\nLos capítulos avanzan de forma progresiva: una introducción al módulo y su terminología (contenedor, ítems, líneas, pistas, celdas y áreas); las distintas formas de colocar elementos en la cuadrícula (por número o nombre de línea, con span y con grid-template-areas); el ordenamiento y la alineación de ítems con propiedades como justify-items, align-items y order; y el algoritmo de auto-placement, que explica cómo el navegador sitúa los elementos sin posición explícita y cómo controlarlo con grid-auto-flow y dense. El último capítulo aplica lo aprendido a un caso práctico.\n\nEl proyecto final es un crucigrama hecho solo con CSS, un ejercicio vistoso que muestra la precisión de Grid para colocar elementos. Como introducción concisa sigue siendo útil, ya que la sintaxis básica de Grid apenas ha cambiado. Al ser de 2017, no cubre subgrid ni las container queries, y algunas notas sobre el soporte de los navegadores y los prefijos están desactualizadas. Para proyectos más completos, SitePoint publicó después «CSS Grid Layout: 5 Practical Projects».",
+    "temas": [
+      "CSS Grid Layout",
+      "Líneas y pistas",
+      "grid-template-areas",
+      "Colocación de elementos",
+      "Alineación",
+      "Auto-placement",
+      "Diseño de layouts"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Crucigrama con CSS puro",
+        "descripcion": "Crucigrama maquetado únicamente con HTML y CSS Grid, que aplica la colocación por líneas y la alineación de celdas para reproducir la cuadrícula del juego sin JavaScript."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.sitepoint.com/premium/books/designing-with-css-grid-layout/",
+      "https://oreilly.com/library/view/designing-with-css/9781492023418"
+    ]
+  },
+  "smashing-css-2011": {
+    "descripcion": "Libro de Eric A. Meyer, uno de los referentes históricos de CSS y de los estándares web, publicado por Wiley dentro de la serie de libros de Smashing Magazine (finales de 2010, con fecha de 2011 en muchas ediciones). Es una colección de técnicas profesionales de maquetación y efectos visuales de la época de CSS 2.1 y de los primeros pasos de CSS3 y HTML5. Aunque está catalogado como básico, se dirige a quienes ya conocen algo de CSS y JavaScript y quieren pasar a técnicas más avanzadas.\n\nSe divide en siete capítulos: herramientas, selectores, consejos, layouts, efectos, tablas y «The (Near) Future». Explica cómo ocultar o desplazar elementos fuera de la pantalla y cómo trabajar con los fondos de html y body. Recorre más de quince técnicas de maquetación clásicas: clearfix, multicolumna, faux columns, One True Layout, Holy Grail, layouts en em, rejillas fluidas y sticky footers. También incluye efectos como pop-ups en CSS, esquinas redondeadas, sprites CSS, Sliding Doors y ragged floats, además del estilado avanzado de tablas (thead, tfoot, tbody, encabezados de fila e incluso convertir tablas en gráficos o mapas). Cierra con un adelanto de CSS3 —border-radius, fondos múltiples y colores RGBA— y su uso junto con jQuery.\n\nSe aprende con recetas: cada técnica es un fragmento independiente que se puede probar y adaptar. Hoy tiene sobre todo valor histórico y formativo: ayuda a entender la cascada, los floats y el posicionamiento, y por qué existían esos trucos. Sin embargo, gran parte de sus layouts basados en floats quedaron obsoletos con Flexbox y Grid, que el libro no trata. Conviene leerlo junto a una guía de CSS moderno.",
+    "temas": [
+      "CSS 2.1",
+      "Selectores",
+      "Floats",
+      "Técnicas de layout",
+      "Holy Grail",
+      "Rejillas fluidas",
+      "Sprites CSS",
+      "Tablas",
+      "CSS3",
+      "jQuery"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://mail.meyerweb.com/eric/books/smashing/",
+      "https://www.oreilly.com/library/view/-/9780470684160/",
+      "https://www.eyrolles.com/Informatique/Livre/smashing-css-9780470684160/"
+    ]
+  },
+  "modern-css-with-tailwind-2nd-edition-2022": {
+    "descripcion": "Segunda edición, publicada en mayo de 2022 por The Pragmatic Bookshelf, de la introducción de Noel Rappin a Tailwind CSS, el framework que construye estilos combinando clases utilitarias directamente en el HTML. Esta edición está actualizada a Tailwind 3.0 e incorpora su nuevo motor de generación de CSS bajo demanda, los valores arbitrarios, la sintaxis que combina color y opacidad en una sola clase, y la herramienta de línea de comandos standalone. Está pensada para quienes ya tienen conocimientos básicos de HTML y CSS; no enseña CSS desde cero ni pretende ser una referencia completa de Tailwind.\n\nTras la instalación y los fundamentos (utilidades, Preflight, modificadores, unidades y cómo evitar la duplicación), recorre la tipografía (tamaños, color y opacidad, espaciado, listas y los plugins oficiales de typography y forms) y el modelo de caja (padding, márgenes, bordes, fondos, filtros y dimensiones). Luego aborda la maquetación con contenedores, posicionamiento, tablas, columnas, Flexbox y Grid, y las animaciones con transiciones y transformaciones. Después trata el diseño responsivo con breakpoints, para adaptar una interfaz del móvil a pantallas anchas, y termina con la personalización: archivo tailwind.config.js, valores por defecto, variantes, integración con CSS existente, acceso desde JavaScript y plugins.\n\nSe aprende con ejemplos breves que se aplican a páginas de muestra a lo largo del libro, sin un proyecto grande. Su punto fuerte es la concisión: en unas cien páginas explica la filosofía utility-first y cubre lo esencial para ser productivo. No incluye la integración con frameworks concretos (React, Rails, etc.) ni con librerías de componentes. Además, Tailwind 4 cambió la configuración a un enfoque basado en CSS, así que el capítulo de personalización está algo desactualizado.",
+    "temas": [
+      "Tailwind CSS 3",
+      "Utility-first",
+      "Tipografía",
+      "Modelo de caja",
+      "Flexbox",
+      "CSS Grid",
+      "Animaciones y transiciones",
+      "Diseño responsivo",
+      "Configuración de Tailwind",
+      "Plugins"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://pragprog.com/titles/tailwind2/modern-css-with-tailwind-second-edition/",
+      "https://www.oreilly.com/library/view/modern-css-with/9781680509892"
+    ]
+  },
+  "css3-foundations-2013": {
+    "descripcion": "Libro de Ian Lunn, desarrollador front-end británico, publicado por Wiley en la serie Treehouse Book Series (diciembre de 2012, con copyright de 2013) y concebido como complemento de los cursos en vídeo de Treehouse. Enseña CSS desde los fundamentos hasta las funciones de CSS3 disponibles en ese momento. Está pensado para principiantes que conocen algo de HTML y quieren aprender a estilar sitios web reales.\n\nEmpieza por cómo añadir CSS a una página, la sintaxis, los selectores y la cascada. Después aborda el estilo del texto, el formato visual, el modelo de caja y la maquetación de la estructura de la página. Con CSS3 trabaja fondos, degradados, sombras, bordes redondeados, transformaciones, transiciones y animaciones. También dedica una parte importante al diseño responsivo con media queries, al enfoque mobile-first y a la mejora progresiva, así como a la compatibilidad entre navegadores: soluciones para versiones antiguas de Internet Explorer y uso seguro de propiedades experimentales con prefijos de proveedor. Cada propiedad incluye una ficha de referencia rápida con su valor inicial y su soporte en los navegadores.\n\nEl libro sigue un único proyecto de principio a fin: parte de una plantilla de sitio web básica y la va transformando, capítulo a capítulo, en un sitio moderno y adaptable. Es un buen enfoque práctico para principiantes, y las fichas de referencia aportan valor añadido. Sin embargo, es anterior a Flexbox y Grid, por lo que su maquetación se basa en floats. Además, muchas notas sobre prefijos y soporte de navegadores están hoy superadas. Conviene complementarlo con material actualizado sobre layout moderno.",
+    "temas": [
+      "Fundamentos de CSS",
+      "Selectores",
+      "Modelo de caja",
+      "Tipografía",
+      "CSS3",
+      "Transiciones y animaciones",
+      "Media queries",
+      "Mobile-first",
+      "Compatibilidad entre navegadores",
+      "Mejora progresiva"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio web a partir de una plantilla básica",
+        "descripcion": "A lo largo del libro, una plantilla HTML sencilla se convierte en un sitio web moderno y responsivo con CSS3: estructura, tipografía, efectos visuales, animaciones, media queries y soluciones para navegadores antiguos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://ianlunn.co.uk/portfolio/css3-foundations",
+      "https://www.oreilly.com/library/view/-/9781118425152/",
+      "https://wiley-vch.e-bookshelf.de/css3-foundations-752787.html"
+    ]
+  },
+  "beginning-css-3rd-edition-2011": {
+    "descripcion": "Manual introductorio de la serie Beginning de Wrox, a todo color, en el que Ian Pouncey y Richard York enseñan a dar estilo a páginas web con hojas de estilo en cascada. Esta tercera edición (2011) se revisó para que cada lección fuera más breve. Está actualizada para las versiones de Firefox, Safari, Internet Explorer y Google Chrome de la época, y tiene en cuenta los navegadores móviles, entonces en pleno crecimiento. Se dirige a principiantes que ya saben escribir HTML básico y quieren dejar de dar formato elemento por elemento para separar el contenido de la presentación.\n\nEl libro se organiza en tres partes. «The Basics» presenta CSS y los motores de los navegadores, la anatomía de una hoja de estilo (reglas, declaraciones, valores y unidades), los selectores (de clase, de ID, universal, descendientes y otros) y el funcionamiento de la cascada y la herencia. La parte de propiedades recorre el formato de texto y fuentes, los fondos, el modelo de caja, el uso de float y la alineación vertical, el posicionamiento, las listas y las tablas. La última parte, de CSS avanzado y medios alternativos, trata las fuentes incrustadas con @font-face, las primeras funciones de CSS3 y la adaptación a otros medios, como el móvil y la impresión. Cierra con un apéndice de referencia de CSS con tablas de compatibilidad entre navegadores.\n\nLa práctica se basa en ejemplos y en los ejercicios guiados «Try It Out» propios de la serie Wrox, con soluciones a problemas habituales y avisos sobre errores conocidos de cada navegador. Es una buena base para entender por qué CSS se comporta como lo hace: la especificidad, la cascada y el modelo de caja siguen vigentes. Sin embargo, el libro es anterior a Flexbox, CSS Grid, las variables CSS y el diseño responsive tal como se entiende hoy, y dedica mucho espacio a trucos para Internet Explorer que ya no sirven. Conviene leerlo como fundamento conceptual y completarlo con material actual sobre maquetación moderna.",
+    "temas": [
+      "CSS 2.1",
+      "CSS3",
+      "Selectores",
+      "Cascada y herencia",
+      "Especificidad",
+      "Modelo de caja",
+      "Floats",
+      "Posicionamiento",
+      "Tipografía web",
+      "@font-face",
+      "Compatibilidad entre navegadores",
+      "Estilos para móvil e impresión"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Beginning+CSS%3A+Cascading+Style+Sheets+for+Web+Design%2C+3rd+Edition-p-9780470891520",
+      "https://www.oreilly.com/library/view/beginning-css-cascading/9780470891520/08_contents.html",
+      "https://www.oreilly.com/library/view/beginning-css-cascading/9780470891520/34_app03.html"
+    ]
+  },
+  "professional-css3-2016": {
+    "descripcion": "Guía práctica de Piotr Sikora, desarrollador web y formador, publicada por Packt en 2016, que recorre CSS3 desde los fundamentos hasta técnicas de maquetación y arquitectura de estilos para sitios modernos. Trabaja con el CSS3 de la época, cuando Flexbox ya era una opción madura pero CSS Grid aún no estaba disponible en los navegadores. Está pensada para diseñadores y desarrolladores front-end de nivel principiante a intermedio que ya escriben HTML y CSS básico y quieren pasar a escribir código más limpio, escalable y fácil de mantener.\n\nLos primeros capítulos repasan las bases y las herramientas de trabajo, los fundamentos del lenguaje y el uso a fondo de pseudoelementos y pseudoclases. Luego aborda el diseño responsive con media queries para distintos dispositivos, el manejo de imágenes en CSS, el estilo de formularios y la solución de problemas clásicos de maquetación. La parte más moderna cubre Flexbox y las transformaciones, y también calc(), los degradados y las sombras. El autor usa el preprocesador Sass para aplicar el principio DRY y dedica un capítulo a los fundamentos de las plantillas de correo electrónico (mailers), con sus particularidades de compatibilidad. Cierra con escalabilidad y modularidad mediante metodologías CSS, optimización del código y automatización de tareas front-end con Gulp.js.\n\nEl libro avanza con ejemplos de código en cada capítulo, más que con un proyecto único guiado de principio a fin. Su punto fuerte es la amplitud: une técnicas visuales, organización del código y flujo de trabajo, algo que muchos libros de CSS tratan por separado. Hay que leerlo sabiendo que es de 2016: no cubre CSS Grid, las custom properties modernas ni las container queries, y parte de las herramientas, como Gulp, ya no son las más habituales hoy. Aun así, los capítulos sobre selectores, Sass, modularidad y correos HTML siguen siendo útiles.",
+    "temas": [
+      "CSS3",
+      "Selectores",
+      "Pseudoelementos y pseudoclases",
+      "Diseño responsive",
+      "Formularios",
+      "Flexbox",
+      "Transformaciones",
+      "Degradados y sombras",
+      "Sass",
+      "Correos HTML",
+      "Arquitectura CSS",
+      "Gulp.js"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://biblio.pl/e_3b72/professional-css3-harness-the-power-of-css3-to-design-stunning-modern-websites-piotr-sikora/e",
+      "https://www.oreilly.com/library/view/professional-css3/9781785880940"
+    ]
+  }
+}

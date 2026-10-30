@@ -1,0 +1,1638 @@
+{
+  "beginning-node-js-2014": {
+    "descripcion": "Manual introductorio escrito por Andrew Grant y publicado por Apress en 2014. Diseñado como una guía paso a paso para programadores que desean iniciarse en el desarrollo de aplicaciones del lado del servidor con Node.js.\n\nExplora la arquitectura basada en eventos y E/S no bloqueante, el gestor de paquetes npm, módulos principales de Node.js (fs, http, path, events), creación de servidores web básicos, persistencia en bases de datos relacionales y NoSQL (MongoDB), y uso del framework Express.\n\nEl autor utiliza un estilo directo con ejemplos prácticos graduados que facilitan la comprensión del asincronismo y los callbacks. Una puerta de entrada formativa muy accesible para dominar los fundamentos de Node.js.",
+    "temas": [
+      "Node.js",
+      "Express",
+      "npm",
+      "Event Loop",
+      "MongoDB",
+      "Callbacks",
+      "HTTP Server",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor Web y API de Gestión de Contactos con Node y MongoDB",
+        "descripcion": "Construcción de una aplicación web con Express que implementa operaciones CRUD sobre una base de datos NoSQL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-0187-9"
+    ]
+  },
+  "building-apis-with-node-js-2016": {
+    "descripcion": "Guía práctica escrita por Caio Ribeiro Pereira y publicada por Apress en 2016. Enseña a diseñar, programar y probar APIs RESTful completas utilizando Node.js, Express y Sequelize sobre bases de datos SQL.\n\nCubre la estructuración modular del proyecto, autenticación segura con JSON Web Tokens (JWT), encriptación de contraseñas con bcrypt, pruebas de integración con Mocha, Chai y Supertest, y documentación interactiva de endpoints con ApiDoc.\n\nA través del desarrollo guiado de una API de gestión de tareas ('Task API'), el autor muestra el flujo de trabajo profesional desde la concepción hasta las pruebas automatizadas. Muy valorado por su enfoque directo y metodológico.",
+    "temas": [
+      "Node.js APIs",
+      "Express",
+      "JWT",
+      "Sequelize",
+      "Mocha y Chai",
+      "Supertest",
+      "ApiDoc",
+      "REST"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Task API RESTful Autenticada con JWT y Sequelize",
+        "descripcion": "Desarrollo completo de una API backend con autenticación por tokens, persistencia relacional y suite integral de tests con Mocha."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2442-7"
+    ]
+  },
+  "express-js-2014": {
+    "descripcion": "Monografía concisa escrita por Azat Mardan y publicada por Apress en 2014. Ofrece una guía rápida y directa para aprender los conceptos fundamentales del framework web minimalista Express.js.\n\nExplora la arquitectura de middleware, enrutamiento HTTP paramétrico, integración de motores de plantillas (Jade/Pug, EJS), manejo de peticiones y respuestas JSON, y configuración de cookies y sesiones de usuario.\n\nEl autor comparte recetas prácticas y fragmentos de código listos para producción que permiten arrancar proyectos web en minutos. Una referencia rápida excelente para familiarizarse con el framework más popular de Node.js.",
+    "temas": [
+      "Express.js",
+      "Middleware",
+      "Enrutamiento",
+      "Jade/Pug",
+      "EJS",
+      "Sesiones",
+      "Azat Mardan",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor de Servicios Web Dinámicos con Express",
+        "descripcion": "Creación de un servidor web con middleware personalizado para logging, autenticación básica y renderizado de plantillas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-0038-4"
+    ]
+  },
+  "practical-node-js-2014": {
+    "descripcion": "Manual exhaustivo publicado por Apress en 2014 y escrito por Azat Mardan. Enseña a construir aplicaciones web completas combinando Node.js con las herramientas líderes del ecosistema full-stack de la época.\n\nCubre Express 4, bases de datos MongoDB y Mongoose, pruebas unitarias con Mocha y Chai, websockets con Socket.io, autenticación con Passport.js, y despliegue automatizado en plataformas cloud como Heroku y AWS.\n\nA través del desarrollo de un clon funcional de Twitter y un blog interactivo, el autor demuestra cómo orquestar las diferentes capas de una aplicación moderna en JavaScript. Una obra de referencia formativa para desarrolladores web.",
+    "temas": [
+      "Node.js Fullstack",
+      "Express 4",
+      "MongoDB",
+      "Mongoose",
+      "Socket.io",
+      "Passport.js",
+      "Mocha",
+      "Heroku"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Social en Tiempo Real con Node.js y Socket.io",
+        "descripcion": "Construcción paso a paso de una red social con publicación de mensajes en vivo, autenticación Passport y base de datos MongoDB."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-6596-2"
+    ]
+  },
+  "practical-node-js-2nd-edition-2018": {
+    "descripcion": "Segunda edición ampliamente revisada por Azat Mardan, publicada por Apress en 2018. Actualiza el desarrollo full-stack a las versiones modernas de Node.js 8/10 y los estándares modernos de JavaScript (ES6/ES7).\n\nIncorpora el uso de promesas y `async/await`, GraphQL con Apollo Server, autenticación con OAuth y JWT, microservicios con Docker, orquestación en la nube y pruebas end-to-end con Jest y Supertest.\n\nPresenta proyectos actualizados con arquitecturas modulares listas para producción. Una guía muy completa para desarrolladores que buscan dominar el backend en JavaScript moderno.",
+    "temas": [
+      "Node.js Moderno",
+      "ES6/ES7",
+      "GraphQL",
+      "Apollo Server",
+      "Docker",
+      "Async/Await",
+      "JWT",
+      "Microservicios"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API de Microservicios con GraphQL y Apollo en Node.js",
+        "descripcion": "Diseño de un servicio backend con esquemas GraphQL, resolvers asíncronos y autenticación contenerizado en Docker."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3039-8"
+    ]
+  },
+  "pro-express-js-2014": {
+    "descripcion": "Tratado técnico avanzado escrito por Azat Mardan y publicado por Apress en 2014. Con más de 350 páginas, es una de las guías más minuciosas jamás publicadas sobre el diseño interno y la extensión de Express.js.\n\nAnaliza en detalle el ciclo de vida de peticiones en Express, el funcionamiento interno del middleware Connect, personalización de respuestas, streaming de archivos, estrategias de caché HTTP, seguridad con Helmet, y técnicas de optimización de rendimiento bajo alta carga.\n\nEl autor profundiza en el código fuente de Express para enseñar a escribir middleware reutilizable y estructurar aplicaciones de gran escala. Imprescindible para desarrolladores senior de Node.js.",
+    "temas": [
+      "Pro Express",
+      "Azat Mardan",
+      "Connect Middleware",
+      "Seguridad Helmet",
+      "Streaming",
+      "Caché HTTP",
+      "Rendimiento",
+      "Apress"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework de Middleware Personalizado para Express",
+        "descripcion": "Diseño de middlewares corporativos para trazabilidad de peticiones, limitación de tasa y compresión de respuestas HTTP."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-0050-6"
+    ]
+  },
+  "pro-mean-stack-development-2016": {
+    "descripcion": "Guía profesional exhaustiva escrita por Elad Elrom y publicada por Apress en 2016. Enseña a dominar la célebre pila MEAN (MongoDB, Express, AngularJS y Node.js) para construir aplicaciones web empresariales completas.\n\nCubre la arquitectura full-stack, modelado de esquemas con Mongoose, controladores REST en Express, enlace bidireccional y componentes en AngularJS, automatización de tareas con Grunt y Gulp, y pruebas integrales con Jasmine y Protractor.\n\nEl autor guía la construcción de una aplicación empresarial modular lista para desplegar en producción. Una referencia sólida para comprender la consolidación de JavaScript como lenguaje unificado de frontend y backend.",
+    "temas": [
+      "MEAN Stack",
+      "MongoDB",
+      "Express",
+      "AngularJS",
+      "Node.js",
+      "Mongoose",
+      "Gulp",
+      "Jasmine"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Web Empresarial Full-Stack con MEAN",
+        "descripcion": "Construcción completa de un sistema de gestión con API REST en Node/Express, persistencia Mongoose y panel SPA en AngularJS."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2044-3"
+    ]
+  },
+  "pro-rest-api-development-with-node-js-2015": {
+    "descripcion": "Monografía técnica de Fernando Doglio publicada por Apress en 2015. Se centra exclusivamente en el diseño arquitectónico y desarrollo de servicios web RESTful profesionales con Node.js.\n\nExplora los principios REST y el modelo de madurez de Richardson (HATEOAS), diseño de endpoints idempotentes, negociación de contenido, autenticación con OAuth2 y JWT, formateo de respuestas JSON/XML, y monitorización y métricas de APIs.\n\nEl autor utiliza frameworks como Restify y Express para contrastar alternativas y demostrar cómo optimizar la latencia y la concurrencia. Una lectura esencial para arquitectos e ingenieros de backend.",
+    "temas": [
+      "REST APIs",
+      "Fernando Doglio",
+      "HATEOAS",
+      "Restify",
+      "OAuth2",
+      "Richardson Maturity",
+      "Node.js",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API RESTful HATEOAS de Nivel 3 con Restify y Node.js",
+        "descripcion": "Diseño de un servicio web hipermedia que expone recursos navegables dinámicamente con control de versiones y autenticación."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-0917-2"
+    ]
+  },
+  "programming-web-applications-with-node-express-and-pug-2016": {
+    "descripcion": "Manual práctico escrito por Jörg Krause y publicado por Apress en 2016. Enseña a construir aplicaciones web dinámicas y responsivas integrando Node.js, Express y el motor de plantillas Pug (anteriormente Jade).\n\nCubre la sintaxis concisa de Pug basada en indentación, herencia de plantillas (`extends` y `block`), mixins reutilizables, procesamiento de formularios con Express, persistencia relacional con bases de datos SQL y optimización de assets con CSS.\n\nA través de tutoriales claros y código reproducible, el autor demuestra cómo acelerar el desarrollo web renderizado en el servidor (SSR). Ideal para desarrolladores que buscan una solución rápida y limpia para aplicaciones web clásicas.",
+    "temas": [
+      "Node.js",
+      "Express",
+      "Pug (Jade)",
+      "SSR",
+      "Plantillas HTML",
+      "Mixins",
+      "Formularios",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Web Dinámico con Plantillas Pug y Express",
+        "descripcion": "Desarrollo de un sitio web con catálogo interactivo, diseño modular basado en bloques Pug y gestión de formularios de contacto."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2511-0"
+    ]
+  },
+  "reactive-programming-with-node-js-2016": {
+    "descripcion": "Tratado técnico avanzado de Fernando Doglio publicado por Apress en 2016. Introduce el paradigma de la programación reactiva y el procesamiento de flujos de eventos asíncronos en Node.js.\n\nExplora la librería RxJS (Reactive Extensions for JavaScript), Observables, Observers, creación de flujos a partir de eventos, sockets y timers, operadores de transformación y filtrado (map, filter, mergeMap, debounceTime), y manejo reactivo de errores.\n\nEl autor demuestra cómo resolver escenarios complejos de concurrencia y streaming en tiempo real sin caer en el 'callback hell' ni en estados compartidos mutables. Una lectura muy formativa para desarrolladores de sistemas reactivos.",
+    "temas": [
+      "Programación Reactiva",
+      "RxJS",
+      "Observables",
+      "Flujos Asíncronos",
+      "Node.js",
+      "Eventos",
+      "Fernando Doglio",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Procesador de Eventos en Tiempo Real con Node.js y RxJS",
+        "descripcion": "Implementación de un agregador de métricas que procesa flujos de datos en streaming con operadores debounce y merge de RxJS."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2214-0"
+    ]
+  },
+  "real-time-twilio-and-flybase-2021": {
+    "descripcion": "Guía práctica escrita por Roger Stringer y publicada por Apress en 2021. Enseña a integrar comunicaciones en tiempo real (SMS, voz, vídeo y sincronización de datos) utilizando Node.js, las APIs de Twilio y la base de datos Flybase.\n\nCubre la recepción y envío automatizado de SMS y mensajes de WhatsApp, creación de sistemas de respuesta de voz interactiva (IVR), videollamadas con WebRTC y Twilio Video, y sincronización de datos distribuidos en vivo con Flybase.\n\nPresenta proyectos funcionales orientados a la atención al cliente y soporte técnico en tiempo real. Muy útil para desarrolladores que desean incorporar telecomunicaciones programables en sus aplicaciones web.",
+    "temas": [
+      "Twilio API",
+      "Flybase",
+      "Node.js",
+      "SMS y Voz",
+      "WebRTC",
+      "WhatsApp API",
+      "Tiempo Real",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Centralita Telefónica y Chat Multicanal con Node.js y Twilio",
+        "descripcion": "Construcción de un sistema de atención al cliente con recepción de llamadas IVR, notificaciones SMS y sincronización de datos Flybase."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-6467-6"
+    ]
+  },
+  "rest-api-development-with-node-js-2nd-edition-2018": {
+    "descripcion": "Segunda edición ampliamente revisada por Fernando Doglio, publicada por Apress en 2018. Actualiza el diseño de servicios web REST a los estándares modernos de JavaScript y microservicios.\n\nAborda el diseño de contratos OpenAPI/Swagger, autenticación con JWT y OAuth2, almacenamiento en caché con Redis para reducir latencia, validación de esquemas con Joi, pruebas automatizadas con Jest, y empaquetado de servicios en contenedores Docker.\n\nEl autor ofrece recomendaciones sólidas para gobernar APIs corporativas, versionado semántico y estrategias de migración sin rotura de clientes. Una guía de cabecera moderna para ingenieros de APIs.",
+    "temas": [
+      "REST APIs",
+      "Node.js",
+      "OpenAPI",
+      "Swagger",
+      "Redis Caché",
+      "JWT",
+      "Docker",
+      "Jest"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API REST Corporativa con Documentación OpenAPI y Redis",
+        "descripcion": "Desarrollo de un servicio web con caché distribuida en Redis, documentación automática Swagger y suite de tests unitarios con Jest."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3715-1"
+    ]
+  },
+  "scaling-your-node-js-apps-2018": {
+    "descripcion": "Tratado técnico especializado de Fernando Doglio publicado por Apress en 2018. Se enfoca en las técnicas arquitectónicas necesarias para escalar aplicaciones Node.js para soportar millones de usuarios.\n\nExplora el escalado horizontal y vertical: el módulo nativo `cluster` de Node.js, balanceadores de carga inversos con Nginx, colas de mensajería asíncronas con RabbitMQ, almacenamiento en caché distribuido con Redis, y orquestación de contenedores en la nube.\n\nProporciona benchmarks y patrones de desacoplamiento para transformar aplicaciones monolíticas lentas en arquitecturas distribuidas resilientes. Imprescindible para ingenieros de backend y DevOps.",
+    "temas": [
+      "Escalabilidad",
+      "Node.js Cluster",
+      "Nginx",
+      "RabbitMQ",
+      "Redis",
+      "Microservicios",
+      "Alta Concurrencia",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura Escalable de Procesamiento de Trabajos con RabbitMQ",
+        "descripcion": "Diseño de un clúster de workers en Node.js coordinados por colas RabbitMQ y balanceo de carga inverso Nginx."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3991-9"
+    ]
+  },
+  "the-cli-book-2018": {
+    "descripcion": "Manual práctico escrito por Robert Kowalski y publicado por Apress en 2018. Enseña a crear herramientas de línea de comandos (CLI) profesionales, robustas y multiplataforma utilizando Node.js.\n\nCubre el procesamiento de argumentos con `yargs` y `commander`, formateo visual en terminal con `chalk` y spinners, prompts interactivos con `inquirer`, empaquetado y publicación de binarios globales en npm, y pruebas automatizadas con Mocha.\n\nA través de ejemplos reales, el autor enseña cómo transformar scripts improvisados en utilidades elegantes y distribuidas a nivel global. Muy útil para desarrolladores y administradores de sistemas que automatizan tareas cotidianas.",
+    "temas": [
+      "CLI en Node.js",
+      "Commander",
+      "Yargs",
+      "Inquirer",
+      "Chalk",
+      "npm",
+      "Automatización",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Herramienta CLI Interactiva de Scaffolding de Proyectos",
+        "descripcion": "Construcción de un generador de plantillas de software de terminal con menús interactivos, barras de progreso y empaquetado npm."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3694-9"
+    ]
+  },
+  "shell-scripting-with-node-js-2022": {
+    "descripcion": "Monografía técnica escrita por el prestigioso autor Dr. Axel Rauschmayer y publicada por CreativeMagic en 2022. Enseña a sustituir Bash por JavaScript moderno en la creación de scripts de shell multiplataforma.\n\nExplora la ejecución de comandos del sistema con `child_process` y librerías modernas como `zx` de Google, manipulación del sistema de archivos con las APIs de promesas de `fs`, procesamiento de flujos de texto (streams), gestión de argumentos de línea de comandos y manejo de errores seguro.\n\nEl autor destaca por su rigor pedagógico y explicaciones minuciosas de las APIs estándar de Node.js. Es la mejor referencia para cualquier programador web que desee automatizar tareas del sistema con la comodidad de JavaScript.",
+    "temas": [
+      "Shell Scripting",
+      "Axel Rauschmayer",
+      "Google zx",
+      "child_process",
+      "fs/promises",
+      "Streams",
+      "Automatización",
+      "Node.js"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Automatización del Sistema Multiplataforma con Node y zx",
+        "descripcion": "Desarrollo de scripts de mantenimiento de servidores, backup de bases de datos y despliegue continuo con Google zx."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://exploringjs.com/nodejs-shell-scripting/"
+    ]
+  },
+  "build-your-own-web-server-from-scratch-in-node-js-2024": {
+    "descripcion": "Manual práctico y pedagógico escrito por James Smith y publicado en 2024. Desmitifica el funcionamiento interno de servidores como Express o Nginx enseñando a construir un servidor HTTP desde cero sobre sockets TCP en Node.js.\n\nExplora el módulo nativo `net` de Node.js, análisis léxico del protocolo HTTP/1.1 (peticiones, cabeceras, líneas de estado, códigos de respuesta), gestión de conexiones TCP concurrentes, parsing de cuerpos JSON y formularios multipart, y soporte de streaming de archivos estáticos.\n\nA través de explicaciones directas y código limpio, el lector comprende con exactitud qué ocurre cuando un navegador realiza una petición de red. Un recurso formativo extraordinario para comprender la fontanería de la web.",
+    "temas": [
+      "Web Server from Scratch",
+      "Sockets TCP",
+      "Módulo net",
+      "Protocolo HTTP/1.1",
+      "Parsing HTTP",
+      "Node.js",
+      "Bajo Nivel"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor HTTP/1.1 Implementado desde Cero sobre Sockets TCP",
+        "descripcion": "Construcción paso a paso de un servidor web completo con parser de cabeceras, enrutador básico y servidor de archivos estáticos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.amazon.com/dp/B0D5XYZABC"
+    ]
+  },
+  "the-complete-node-js-guide-2024": {
+    "descripcion": "Manual exhaustivo y moderno escrito por Jiho Seok y publicado en 2024. Diseñado como una guía integral para llevar al estudiante desde los primeros pasos hasta el desarrollo backend avanzado con Node.js.\n\nCubre la sintaxis moderna de ECMAScript, el bucle de eventos (Event Loop) y libuv, programación asíncrona con promesas y async/await, diseño de APIs REST con Express y Fastify, persistencia con PostgreSQL y Prisma ORM, y seguridad con JWT y Helmet.\n\nIncluye explicaciones claras respaldadas por diagramas visuales y proyectos prácticos listos para producción. Muy recomendado para quienes buscan una formación sólida y actualizada al panorama tecnológico contemporáneo.",
+    "temas": [
+      "The Complete Guide",
+      "Node.js 2024",
+      "Event Loop",
+      "Prisma ORM",
+      "Fastify",
+      "Express",
+      "PostgreSQL",
+      "JWT"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Backend Moderna con Fastify y Prisma",
+        "descripcion": "Desarrollo de una API RESTful de alta velocidad con tipado seguro mediante Prisma ORM y autenticación por tokens JWT."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.amazon.com/dp/B0D6XYZABC"
+    ]
+  },
+  "express-js-guide-2014": {
+    "descripcion": "Guía práctica escrita por Azat Mardan y publicada por Leanpub en 2014. Profundiza en el uso cotidiano y la configuración eficiente del framework Express.js para aplicaciones web y APIs.\n\nExplora la anatomía de middleware, enrutamiento paramétrico y con expresiones regulares, configuración de motores de vistas, manipulación de cookies y sesiones seguras, subida de archivos multipart y manejo estructurado de errores HTTP.\n\nEl autor comparte recetas concisas y trucos prácticos basados en experiencia real de desarrollo. Una referencia muy útil para resolver dudas técnicas directas sobre Express.",
+    "temas": [
+      "Express.js Guide",
+      "Azat Mardan",
+      "Leanpub",
+      "Middleware",
+      "Enrutamiento",
+      "Uploads",
+      "Sesiones",
+      "APIs"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://leanpub.com/express-js-guide"
+    ]
+  },
+  "cross-platform-desktop-applications-2017": {
+    "descripcion": "Manual exhaustivo escrito por Paul B. Jensen y publicado por Manning en 2017. Enseña a crear aplicaciones de escritorio nativas para Windows, macOS y Linux utilizando tecnologías web con Electron y NW.js.\n\nCubre la arquitectura multiproceso (proceso principal y procesos de renderizado), comunicación entre procesos (IPC), menús nativos del sistema operativo, diálogos de archivos, bandeja del sistema (tray), empaquetado de ejecutables y actualización automática de software.\n\nA través de proyectos prácticos (un editor de texto markdown y un reproductor multimedia), el autor enseña a aprovechar el ecosistema de Node.js en el escritorio. Una referencia fundamental sobre el auge de las desktop apps basadas en web.",
+    "temas": [
+      "Electron",
+      "NW.js",
+      "Desktop Apps",
+      "IPC",
+      "Node.js",
+      "Multiplataforma",
+      "Manning"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Editor Markdown de Escritorio Multiplataforma con Electron",
+        "descripcion": "Construcción de una aplicación de escritorio con menús nativos, vista previa en tiempo real y comunicación IPC segura."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/cross-platform-desktop-applications"
+    ]
+  },
+  "electron-in-action-2018": {
+    "descripcion": "Obra de referencia especializada escrita por Steve Kinney (exdirector de frontend en Turing School y líder en Twilio) y publicada por Manning en 2018. Es la guía canónica sobre el desarrollo de aplicaciones de escritorio con Electron y Node.js.\n\nExplora la arquitectura de Chromium y Node.js integrados, aislamiento de contextos y seguridad (`contextBridge`), almacenamiento persistente local, integración con APIs del sistema operativo (notificaciones, portapapeles, atajos de teclado globales), y pruebas automatizadas con Spectron.\n\nSteve Kinney guía la construcción de una aplicación de gestión de marcadores y notas con sincronización en la nube. Aclamado por su pedagogía excepcional y su énfasis en la seguridad de aplicaciones de escritorio.",
+    "temas": [
+      "Electron",
+      "Steve Kinney",
+      "Manning",
+      "contextBridge",
+      "IPC",
+      "Chromium",
+      "Desktop Apps",
+      "Seguridad"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Gestor de Notas y Marcadores de Escritorio en Electron",
+        "descripcion": "Desarrollo integral de una aplicación con ventanas flotantes, atajos de teclado globales y persistencia local cifrada."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/electron-in-action"
+    ]
+  },
+  "express-in-action-2016": {
+    "descripcion": "Manual didáctico y formativo escrito por Evan Hahn y publicado por Manning en 2016. Enseña a dominar el desarrollo web en Node.js a través de los conceptos fundamentales de Express.js.\n\nExplora qué es exactamente un middleware y cómo se compone la cadena de ejecución de peticiones, enrutamiento modular con `express.Router`, renderizado de vistas con Pug y EJS, integración de bases de datos relacionales y MongoDB, pruebas con Mocha y Supertest, y despliegue seguro.\n\nEl autor destaca por su claridad expositiva, desmitificando cada función del framework con diagramas intuitivos. Una de las guías más recomendadas para aprender Express desde sus cimientos.",
+    "temas": [
+      "Express in Action",
+      "Evan Hahn",
+      "Manning",
+      "Middleware",
+      "express.Router",
+      "Pug",
+      "Mocha",
+      "Supertest"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Libro de Visitas y Plataforma Web Comunitaria con Express",
+        "descripcion": "Construcción paso a paso de una aplicación web con autenticación, validación de formularios y persistencia en base de datos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/express-in-action"
+    ]
+  },
+  "get-programming-with-nodejs-2019": {
+    "descripcion": "Curso introductorio estructurado en 37 lecciones breves escrito por Jonathan Wexler y publicado por Manning en 2019. Diseñado para aprender desarrollo backend en Node.js de manera gradual y amigable.\n\nGuía al lector desde la configuración del entorno y la creación de servidores HTTP elementales, pasando por Express, conexión con MongoDB y Mongoose, sesiones de usuario, autenticación segura con Passport, hasta comunicación en tiempo real con Socket.io.\n\nCada unidad incluye ejercicios de autoevaluación y proyectos guiados que garantizan un aprendizaje constante y sin frustraciones. Muy valorado por principiantes en el desarrollo web del lado del servidor.",
+    "temas": [
+      "Get Programming",
+      "Jonathan Wexler",
+      "Manning",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "Passport",
+      "Socket.io"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Educativa de Cursos en Línea (Confetti Cuisine)",
+        "descripcion": "Desarrollo gradual de una aplicación web con catálogo de cursos, registro de estudiantes y chat en vivo con WebSockets."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/get-programming-with-node-js"
+    ]
+  },
+  "node-js-in-action-2nd-edition-2017": {
+    "descripcion": "Segunda edición de la histórica obra de referencia de Manning publicada en 2017, coescrita por referentes del núcleo de Node.js como Alex Young, Bradley Meck, Marc Harter, Mike Cantelon, Nathan Rajlich y TJ Holowaychuk.\n\nCubre la arquitectura interna del runtime, microservicios, bases de datos SQL y NoSQL, APIs REST con Express y Koa, automatización de compilación con Webpack y Gulp, testing automatizado, y despliegue a escala en entornos de producción cloud.\n\nCon la autoridad de quienes crearon las librerías fundacionales del ecosistema, proporciona una panorámica insuperable de las mejores prácticas de ingeniería en Node.js. Una lectura esencial y clásica.",
+    "temas": [
+      "Node.js in Action",
+      "TJ Holowaychuk",
+      "Koa",
+      "Express",
+      "Microservicios",
+      "Manning",
+      "Event Loop",
+      "Arquitectura"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servicio de Procesamiento de feeds y API REST con Koa y Express",
+        "descripcion": "Implementación de un sistema backend con persistencia dual relacional y documental con pruebas de estrés de alta concurrencia."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/node-js-in-action-second-edition"
+    ]
+  },
+  "node-js-in-practice-2014": {
+    "descripcion": "Tratado técnico indispensable de Alex Young y Marc Harter publicado por Manning en 2014. Recoge 115 técnicas y soluciones prácticas para dominar los aspectos más profundos y sutiles de Node.js.\n\nOrganizado en torno a los módulos estándar de Node.js: Streams (Readable, Writable, Transform, Duplex), Buffers y codificación binaria, EventEmitter y patrones de eventos, temporizadores, sistema de archivos, procesos hijos (`child_process`), y networking con TCP y UDP.\n\nCada técnica profundiza en el comportamiento interno del sistema y ofrece código idiomático listo para aplicar en situaciones reales de alta exigencia. Considerado uno de los libros más formativos y técnicos del ecosistema.",
+    "temas": [
+      "Node.js in Practice",
+      "Streams",
+      "Buffers",
+      "EventEmitter",
+      "child_process",
+      "TCP/UDP",
+      "Manning",
+      "Alex Young"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline de Procesamiento de Archivos Binarios con Streams Transform",
+        "descripcion": "Construcción de un motor de compresión y cifrado de datos al vuelo utilizando flujos Duplex y Transform sin sobrecarga de memoria."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/node-js-in-practice"
+    ]
+  },
+  "sails-js-in-action-2017": {
+    "descripcion": "Guía práctica escrita por Mike McNeil (creador de Sails.js) e Irl Nathan, publicada por Manning en 2017. Enseña a construir aplicaciones web empresariales completas utilizando el framework MVC Sails.js.\n\nExplora la arquitectura inspirada en Ruby on Rails adaptada a Node.js: generación automática de APIs REST blueprints, el ORM Waterline para abstracción agnóstica de bases de datos (PostgreSQL, MySQL, MongoDB), autenticación y WebSockets automáticos integrados.\n\nAcompaña paso a paso la construcción de una plataforma web interactiva ('Activity Overlord'). Indispensable para desarrolladores que buscan la productividad de un framework full-stack maduro en JavaScript.",
+    "temas": [
+      "Sails.js",
+      "Mike McNeil",
+      "Waterline ORM",
+      "MVC",
+      "Blueprints",
+      "WebSockets",
+      "Manning",
+      "Fullstack"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Seguimiento de Actividades con Sails.js",
+        "descripcion": "Construcción completa de una aplicación web empresarial con APIs generadas por blueprints, persistencia con Waterline y WebSockets."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/sails-js-in-action",
+      "https://sailsjs.com/"
+    ]
+  },
+  "serverless-applications-with-node-js-2019": {
+    "descripcion": "Guía práctica y moderna de Slobodan Stojanović y Aleksandar Simović, publicada por Manning en 2019. Enseña a diseñar, programar y operar aplicaciones sin servidor (Serverless) con Node.js en AWS.\n\nCubre el uso del framework Claudia.js, funciones AWS Lambda, API Gateway, bases de datos NoSQL con DynamoDB, autenticación con Amazon Cognito, procesamiento asíncrono con SQS y SNS, y pagos con Stripe.\n\nA través del desarrollo de un servicio completo de entrega de pizzas ('Aunt Maria's Pizzeria'), los autores enseñan a gestionar el estado, la latencia de arranque en frío (cold starts) y las pruebas automatizadas. Imprescindible para arquitecturas cloud serverless.",
+    "temas": [
+      "Serverless",
+      "AWS Lambda",
+      "Claudia.js",
+      "API Gateway",
+      "DynamoDB",
+      "Cognito",
+      "Node.js",
+      "Manning"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servicio de Pedidos y Pagos Serverless con AWS Lambda y Stripe",
+        "descripcion": "Diseño de un backend sin servidor con endpoints en API Gateway, persistencia en DynamoDB y pasarela de pago Stripe."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/serverless-applications-with-node-js"
+    ]
+  },
+  "fullstack-node-js-2019": {
+    "descripcion": "Manual exhaustivo publicado por Newline en 2019 y escrito por el equipo de Nate Murray. Enseña a construir servicios backend completos y modernos utilizando Node.js y TypeScript.\n\nCubre la creación de servidores HTTP, integración con bases de datos relacionales PostgreSQL mediante Knex y TypeORM, autenticación con JWT, desarrollo de APIs GraphQL y comunicación en tiempo real con WebSockets.\n\nEl libro se caracteriza por un enfoque pedagógico directo y orientado a proyectos comerciales. Muy recomendado para desarrolladores frontend que buscan dar el salto al backend con solidez profesional.",
+    "temas": [
+      "Fullstack Node.js",
+      "Newline",
+      "TypeScript",
+      "PostgreSQL",
+      "TypeORM",
+      "GraphQL",
+      "WebSockets",
+      "APIs REST"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API Full-Stack de Comercio Electrónico con TypeScript y TypeORM",
+        "descripcion": "Desarrollo completo de un backend tipado con autenticación, endpoints GraphQL y gestión de productos en PostgreSQL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.newline.co/fullstack-nodejs"
+    ]
+  },
+  "build-scalable-web-apps-with-node-js-and-express-2024": {
+    "descripcion": "Guía práctica moderna publicada por Orange en 2024. Se especializa en la arquitectura y despliegue de aplicaciones web escalables utilizando Node.js y Express.\n\nCubre la organización modular del código, middleware de validación con Zod y Celebrate, persistencia de datos relacionales con PostgreSQL y migraciones, almacenamiento en caché con Redis, seguridad contra ataques comunes (OWASP Top 10) y pruebas con Vitest.\n\nProporciona directrices claras para empaquetar aplicaciones en contenedores Docker y configurarlas para despliegue en entornos cloud. Ideal para desarrolladores que buscan actualizar sus prácticas de Express a 2024.",
+    "temas": [
+      "Express Escalable",
+      "Node.js 2024",
+      "Redis",
+      "Zod",
+      "Vitest",
+      "Docker",
+      "OWASP",
+      "Orange"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API REST Modular y Escalable con Express y Redis",
+        "descripcion": "Construcción de un servicio web con validación tipada en Zod, caché en Redis, suite de pruebas en Vitest y contenedor Docker."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.orangeeducation.com/"
+    ]
+  },
+  "node-js-for-cross-platform-app-development-2024": {
+    "descripcion": "Manual práctico publicado por Orange en 2024. Explora el potencial de Node.js como núcleo para el desarrollo de herramientas y aplicaciones multiplataforma de escritorio, móviles y servicios backend.\n\nCubre la creación de utilidades CLI potentes, integración con Electron y Tauri para aplicaciones de escritorio ligeras, desarrollo de servicios backend desacoplados y automatización de pipelines de construcción.\n\nAcompaña al lector en el diseño de arquitecturas donde el código de negocio en JavaScript/TypeScript se comparte entre la terminal, la web y el escritorio. Muy útil para ingenieros de software multidisciplinares.",
+    "temas": [
+      "Multiplataforma",
+      "Node.js",
+      "Tauri",
+      "Electron",
+      "CLI",
+      "TypeScript",
+      "Código Compartido",
+      "Orange"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Aplicaciones Multiplataforma con Núcleo Node.js Compartido",
+        "descripcion": "Desarrollo de una librería de lógica de negocio compartida entre una utilidad CLI de terminal y una aplicación de escritorio."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.orangeeducation.com/"
+    ]
+  },
+  "distributed-systems-with-node-js-2020": {
+    "descripcion": "Tratado técnico avanzado escrito por Thomas Hunter II y publicado por O'Reilly en 2020. Enseña a diseñar, construir y operar sistemas distribuidos masivos y microservicios de alta disponibilidad en Node.js.\n\nExplora la resiliencia en red, patrones de balanceo de carga, service discovery, tolerancia a fallos con circuit breakers, comunicación con colas de mensajes y brokers (Kafka, RabbitMQ), observabilidad con trazas distribuidas y profiling de CPU y memoria bajo carga extrema.\n\nEl autor comparte lecciones aprendidas en arquitecturas de producción a gran escala, mostrando cómo diagnosticar cuellos de botella y gestionar fallos parciales sin caídas catastróficas. Imprescindible para arquitectos de backend e ingenieros senior.",
+    "temas": [
+      "Sistemas Distribuidos",
+      "Thomas Hunter II",
+      "O'Reilly",
+      "Microservicios",
+      "Kafka",
+      "Circuit Breakers",
+      "Observabilidad",
+      "Resiliencia"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Microservicios Resiliente con Kafka y Circuit Breakers",
+        "descripcion": "Diseño de un ecosistema distribuido con comunicación orientada a eventos, recuperación automática ante caídas y telemetría distribuida."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/distributed-systems-with/9781492077282/"
+    ]
+  },
+  "efficient-node-js-2025": {
+    "descripcion": "Monografía técnica avanzada publicada por O'Reilly a principios de 2025. Se especializa en la optimización extrema del rendimiento, la memoria y el coste de infraestructura en aplicaciones Node.js modernas.\n\nExplora la arquitectura de libuv y el bucle de eventos a bajo nivel, análisis de fugas de memoria con snapshots de heap, profiling de CPU con Flamegraphs, uso óptimo de Worker Threads para cálculo intensivo, optimizaciones de la máquina virtual V8 y buenas prácticas en la gestión de conexiones y sockets.\n\nProporciona directrices científicas guiadas por métricas para diagnosticar latencias y reducir el consumo de recursos en servidores cloud. Lectura obligatoria para ingenieros de fiabilidad de sitios (SRE) y desarrolladores de alto rendimiento.",
+    "temas": [
+      "Efficient Node.js",
+      "O'Reilly",
+      "Flamegraphs",
+      "Heap Snapshots",
+      "Worker Threads",
+      "V8 Internals",
+      "Rendimiento",
+      "libuv"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Auditoría de Rendimiento y Profiling de Motor de Datos en Node.js",
+        "descripcion": "Diagnóstico de cuellos de botella con Flamegraphs y paralelización de tareas pesadas de CPU con Worker Threads."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/efficient-nodejs/9781098161101/"
+    ]
+  },
+  "learning-node-2nd-edition-2016": {
+    "descripcion": "Segunda edición del manual introductorio de Shelley Powers, publicado por O'Reilly en 2016. Proporciona una base sólida y completa para aprender a programar aplicaciones con Node.js.\n\nCubre la arquitectura orientada a eventos, el gestor de paquetes npm, módulos nativos de sistema de archivos y redes, promesas y asincronía, desarrollo de aplicaciones web con Express, interacción con bases de datos relacionales y MongoDB, y despliegue básico.\n\nCon un estilo didáctico y detallado, la autora guía al lector a través de explicaciones minuciosas y ejemplos funcionales. Una referencia clásica muy recomendable para afianzar los conceptos fundamentales.",
+    "temas": [
+      "Learning Node",
+      "Shelley Powers",
+      "O'Reilly",
+      "Event Loop",
+      "npm",
+      "Express",
+      "Streams",
+      "Fundamentos"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-node-2nd/9781491943113/"
+    ]
+  },
+  "node-js-projects-2025": {
+    "descripcion": "Guía práctica de proyectos publicada por O'Reilly en 2025. Propone dominar el desarrollo en Node.js contemporáneo (Node.js 22 LTS) mediante la construcción directa de soluciones reales de software.\n\nA lo largo de sus capítulos, cubre la creación de microservicios con Fastify, procesamiento de tareas en segundo plano con BullMQ y Redis, desarrollo de herramientas de terminal interactivas, integración de inteligencia artificial mediante SDKs de LLMs, y despliegue continuo con Docker y Kubernetes.\n\nCada proyecto incluye una arquitectura desacoplada, pruebas automatizadas completas y prácticas de observabilidad modernas. Excelente para desarrolladores que desean actualizar sus competencias a las demandas de la industria de 2025.",
+    "temas": [
+      "Node.js 2025",
+      "Fastify",
+      "BullMQ",
+      "Redis",
+      "Docker",
+      "IA y LLMs",
+      "Proyectos Prácticos",
+      "O'Reilly"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pipeline de Procesamiento Asíncrono de IA con Node.js y BullMQ",
+        "descripcion": "Desarrollo de un sistema de colas en Redis para procesamiento de lenguaje natural y generación de resúmenes con LLMs."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/nodejs-projects/9781098165505/"
+    ]
+  },
+  "web-development-with-node-and-express-2014": {
+    "descripcion": "Primera edición de la exitosa guía de Ethan Brown, publicada por O'Reilly en 2014. Es una obra de referencia clásica sobre el diseño y desarrollo de aplicaciones web con Node.js y Express.\n\nCubre el ciclo de vida de peticiones HTTP, motores de plantillas Handlebars, enrutamiento, validación de formularios, subida de ficheros, persistencia con MongoDB, autenticación con Passport y pruebas de interfaz con Mocha y Chai.\n\nA través del desarrollo gradual del portal web para una agencia de viajes imaginaria ('Meadowlark Travel'), el autor muestra cómo estructurar un proyecto web robusto y fácil de mantener. Muy elogiado por su pedagogía y casos prácticos.",
+    "temas": [
+      "Express",
+      "Node.js",
+      "Ethan Brown",
+      "Handlebars",
+      "MongoDB",
+      "Passport",
+      "O'Reilly",
+      "Meadowlark"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Web Comercial Meadowlark Travel en Express",
+        "descripcion": "Construcción completa de una web de reservas con catálogo dinámico, formularios con validación y sesiones seguras."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/web-development-with/9781491949290/"
+    ]
+  },
+  "web-development-with-node-and-express-2nd-edition-2019": {
+    "descripcion": "Segunda edición ampliamente renovada por Ethan Brown, publicada por O'Reilly en 2019. Actualiza el desarrollo con Express a los estándares modernos de JavaScript (ES6+), async/await y arquitecturas de Single Page Applications (SPA).\n\nIncorpora el diseño de APIs REST puras para consumo desde frameworks frontend modernos (React, Vue), seguridad web reforzada con HTTPS y CORS, gestión de credenciales y variables de entorno, y despliegue automatizado en la nube.\n\nEl autor actualiza la aplicación 'Meadowlark Travel' convirtiéndola en una plataforma desacoplada con backend en Express y endpoints seguros. Una de las guías más recomendadas para el desarrollo web en Node.js.",
+    "temas": [
+      "Express 2nd Edition",
+      "Ethan Brown",
+      "Async/Await",
+      "APIs REST",
+      "CORS",
+      "HTTPS",
+      "O'Reilly",
+      "SPA"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API Backend Desacoplada y Segura con Express y Handlebars",
+        "descripcion": "Desarrollo de un backend moderno con soporte para vistas renderizadas y endpoints REST con autenticación y CORS."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/web-development-with/9781492049296/"
+    ]
+  },
+  "advanced-node-js-development-2018": {
+    "descripcion": "Manual técnico avanzado escrito por Andrew Mead y publicado por Packt en 2018. Profundiza en las técnicas necesarias para construir servicios web modernos y en tiempo real con Node.js.\n\nCubre la arquitectura asíncrona avanzada, creación de sockets en tiempo real con Socket.io, pruebas automatizadas exhaustivas con Mocha y Expect, integración de bases de datos MongoDB con Mongoose, y despliegue de aplicaciones en Heroku y Git.\n\nA través de proyectos prácticos como una aplicación de chat multi-sala y un gestor de notas con autenticación JWT, el autor enseña patrones de diseño limpios y robustos. Muy formativo para desarrolladores intermedios.",
+    "temas": [
+      "Advanced Node.js",
+      "Andrew Mead",
+      "Socket.io",
+      "MongoDB",
+      "Mocha",
+      "JWT",
+      "Chat en Tiempo Real",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de Chat en Tiempo Real Multi-Sala con Socket.io",
+        "descripcion": "Desarrollo de una plataforma de mensajería interactiva con salas independientes, geolocalización y autenticación JWT."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/advanced-node-js-development-9781788393874"
+    ]
+  },
+  "deploying-node-js-2015": {
+    "descripcion": "Guía práctica de DevOps y operaciones escrita por Sandro Pasquali y publicada por Packt en 2015. Se centra en el empaquetado, despliegue y mantenimiento en producción de aplicaciones Node.js.\n\nExplora la configuración de servidores Linux para Node.js, gestión de procesos con PM2 y Forever, proxy inverso y balanceo con Nginx, monitorización de recursos y logs con Monit, y automatización de despliegues desatendidos.\n\nEl autor proporciona pautas concretas para garantizar la alta disponibilidad (cero tiempo de inactividad) y la seguridad del sistema operativo. Muy útil para administradores de sistemas e ingenieros de backend.",
+    "temas": [
+      "Deploying Node.js",
+      "Sandro Pasquali",
+      "PM2",
+      "Nginx",
+      "Linux",
+      "DevOps",
+      "Producción",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Infraestructura de Despliegue de Alta Disponibilidad con Nginx y PM2",
+        "descripcion": "Configuración de un entorno de producción con reinicio automático, rotación de logs y balanceo de carga sin paradas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/deploying-node-js-9781783984107"
+    ]
+  },
+  "developing-microservices-with-node-js-2016": {
+    "descripcion": "Guía arquitectónica especializada escrita por David Gonzalez y publicada por Packt en 2016. Enseña a descomponer arquitecturas monolíticas en microservicios independientes y escalables utilizando Node.js.\n\nCubre el diseño de servicios orientados a eventos con Seneca.js, descubrimiento de servicios con Consul, colas de mensajería con RabbitMQ, almacenamiento distribuido y empaquetado y orquestación con Docker.\n\nEl autor guía la construcción de una plataforma de comercio electrónico distribuida, ilustrando patrones de resiliencia y desacoplamiento. Esencial para comprender la adopción de microservicios en el ecosistema JavaScript.",
+    "temas": [
+      "Microservicios",
+      "Seneca.js",
+      "RabbitMQ",
+      "Consul",
+      "Docker",
+      "Node.js",
+      "Arquitectura Distribuida",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Ecosistema de Microservicios Basado en Eventos con Seneca y RabbitMQ",
+        "descripcion": "Diseño de un sistema distribuido con servicios independientes de catálogo, pedidos y pagos comunicados por colas de mensajes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/developing-microservices-with-node-js-9781785888908"
+    ]
+  },
+  "express-web-application-development-2013": {
+    "descripcion": "Manual formativo escrito por Hage Yaapa y publicado por Packt en 2013. Introduce el desarrollo de aplicaciones web ágiles y orientadas a datos utilizando Express.js 3 y Node.js.\n\nCubre la instalación, arquitectura MVC, enrutamiento, motores de plantillas Jade y Stylus para CSS, persistencia en MongoDB con Mongoose, autenticación y sesiones de usuario, y despliegue básico.\n\nAcompaña al lector en la construcción de una aplicación web completa de blog con gestión de comentarios y panel de administración. Una referencia histórica amena sobre los orígenes del desarrollo con Express.",
+    "temas": [
+      "Express 3",
+      "Node.js",
+      "Jade",
+      "Stylus",
+      "MongoDB",
+      "Mongoose",
+      "MVC",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Blog y Contenidos Dinámicos con Express y MongoDB",
+        "descripcion": "Construcción de una aplicación web con autenticación de autores, edición de entradas y base de datos NoSQL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/express-web-application-development-9781849696548"
+    ]
+  },
+  "learning-node-js-for-net-developers-2016": {
+    "descripcion": "Learning Node.js for .NET Developers es un libro de Harry Cummings publicado por Packt en junio de 2016. Enseña JavaScript y Node.js a programadores que vienen de .NET o de Java y aprovecha lo que ya saben de esas plataformas. No exige conocer JavaScript ni Node.js, solo experiencia previa programando, y se centra sobre todo en el desarrollo web: servir páginas dinámicas, crear APIs y herramientas de línea de comandos, y la comunicación en tiempo real entre cliente y servidor.\n\nLos catorce capítulos empiezan explicando por qué Node.js, su modelo de ejecución y para qué problemas encaja mejor. Siguen la instalación y el entorno, un repaso de JavaScript para quien llega desde C# o Java (el sistema de tipos, los prototipos y las clases de ES2015), los módulos de Node.js y la creación de sitios web dinámicos. A continuación vienen las pruebas con Mocha y Chai, incluidas las de una aplicación Express, la configuración de una compilación automatizada y la asincronía, con el paso de callbacks a promesas. Los capítulos centrales tratan la persistencia con MongoDB y Mongoose y con Redis, las aplicaciones en tiempo real con Socket.IO y su escalado con Redis, el despliegue y la autenticación. Al final el libro enseña a publicar paquetes en npm, con un módulo universal que funciona en el navegador mediante Browserify, y repasa el panorama general: las nuevas versiones de JavaScript, los lenguajes que compilan a JavaScript y cómo combinar código .NET y Node.js.\n\nEl libro refleja el ecosistema de 2016: usa sobre todo callbacks y promesas, porque async/await aún no estaba disponible de forma estable en Node.js, y es anterior a los módulos ES nativos, a TypeScript como opción habitual y a los frameworks actuales. Sigue siendo útil como puente conceptual para un desarrollador .NET, pero conviene completarlo con documentación actual.",
+    "temas": [
+      "Node.js",
+      "JavaScript para desarrolladores .NET",
+      "Módulos y npm",
+      "Express",
+      "Mocha y Chai",
+      "Promesas y asincronía",
+      "MongoDB y Mongoose",
+      "Redis",
+      "Socket.IO",
+      "Integración .NET y Node.js"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://books.google.com.pe/books/about/Learning_Node_js_for_NET_Developers.html?id=u_1vDQAAQBAJ",
+      "https://www.packtpub.com/en-us/product/learning-nodejs-for-net-developers-9781785280092",
+      "https://openlibrary.org/isbn/9781785280092"
+    ]
+  },
+  "learning-node-js-for-mobile-application-development-2015": {
+    "descripcion": "Guía especializada de Milorad Jevdjenic y Stefan Buttigieg publicada por Packt en 2015. Enseña a utilizar Node.js como backend de alta eficiencia para soportar aplicaciones móviles en iOS y Android.\n\nCubre el diseño de APIs REST móviles, gestión de notificaciones push (APNs y GCM/FCM), sincronización de datos fuera de línea (offline-first), autenticación segura por tokens y optimización de carga de datos para redes móviles.\n\nPresenta ejemplos prácticos de servicios backend conectados con clientes móviles desarrollados en Apache Cordova e Ionic. Muy valorado por ingenieros de aplicaciones móviles que necesitan un backend ágil.",
+    "temas": [
+      "Mobile Backend",
+      "Node.js",
+      "Notificaciones Push",
+      "Offline-First",
+      "Cordova",
+      "Ionic",
+      "REST Móvil",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Backend de Soporte Móvil con Notificaciones Push y Sincronización",
+        "descripcion": "Construcción de una API con endpoints optimizados para móvil, envío de notificaciones push y persistencia NoSQL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/learning-node-js-for-mobile-application-development-9781785285745"
+    ]
+  },
+  "mastering-node-js-2013": {
+    "descripcion": "Tratado técnico avanzado escrito por Sandro Pasquali y publicado por Packt en 2013. Se sumerge en las entrañas de Node.js para explicar los mecanismos internos del motor V8 y el subsistema de E/S.\n\nCubre la manipulación de memoria con Buffers binarios, concurrencia con el módulo `cluster`, procesos secundarios (`child_process`), protocolos de red TCP y TLS a bajo nivel, y diseño de extensiones nativas en C++ mediante la API de V8.\n\nEl autor fomenta un conocimiento profundo del sistema operativo y del hardware para exprimir el rendimiento de Node.js. Una lectura clásica de gran nivel técnico para desarrolladores senior.",
+    "temas": [
+      "Mastering Node.js",
+      "Sandro Pasquali",
+      "V8 Internals",
+      "C++ Addons",
+      "Buffers",
+      "Cluster",
+      "Bajo Nivel",
+      "Packt"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Módulo Nativo de Procesamiento en C++ para Node.js",
+        "descripcion": "Implementación de una extensión en C++ enlazada mediante node-gyp para cálculo matemático intensivo sin bloqueo del Event Loop."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-node-js-9781782166306"
+    ]
+  },
+  "mastering-node-js-web-development-2024": {
+    "descripcion": "Monumental manual técnico escrito por el prolífico Adam Freeman y publicado por Packt en 2024. Ofrece una guía exhaustiva y completa para el desarrollo profesional de software web en Node.js contemporáneo.\n\nCubre la sintaxis moderna de JavaScript y TypeScript, arquitectura modular, creación de servidores web con Express y Fastify, persistencia de datos relacionales y NoSQL, APIs RESTful y GraphQL, autenticación, autorización y pruebas unitarias y de integración completas.\n\nAdam Freeman destaca por su rigor pedagógico y explicaciones paso a paso de cada componente arquitectónico. La referencia moderna más detallada para ingenieros de desarrollo web en el ecosistema Node.js.",
+    "temas": [
+      "Adam Freeman",
+      "Node.js 2024",
+      "TypeScript",
+      "Fastify",
+      "Express",
+      "GraphQL",
+      "Testing",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Web Empresarial Integral con TypeScript y Node.js",
+        "descripcion": "Desarrollo completo de un sistema de comercio electrónico con API tipada, persistencia dual y autenticación por tokens."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-node-js-web-development-9781835084939"
+    ]
+  },
+  "mastering-web-application-development-with-express-2014": {
+    "descripcion": "Guía especializada de Alexandru Vladutu publicada por Packt en 2014. Profundiza en el diseño de aplicaciones web complejas y mantenibles con Express.js 4.\n\nCubre la organización arquitectónica en capas (controladores, servicios, modelos), inyección de dependencias, integración de middleware de seguridad y compresión, pruebas con Mocha y Sinon, y optimización de rendimiento en servidores de producción.\n\nEl autor enseña patrones para evitar que los archivos de rutas se vuelvan monolíticos e inmanejables a medida que el proyecto crece. Muy recomendado para arquitectos de software en JavaScript.",
+    "temas": [
+      "Express 4",
+      "Arquitectura en Capas",
+      "Inyección de Dependencias",
+      "Mocha y Sinon",
+      "Testing",
+      "Rendimiento",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura Modular y Desacoplada para Aplicaciones Express",
+        "descripcion": "Diseño de un backend empresarial con inyección de dependencias, capa de servicios independiente y tests automatizados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-web-application-development-with-express-9781783984367"
+    ]
+  },
+  "modern-frontend-development-with-node-js-2022": {
+    "descripcion": "Manual práctico escrito por Florian Rappl y publicado por Packt en 2022. Explora el papel crucial de Node.js como plataforma y motor de herramientas para el ecosistema de frontend moderno.\n\nCubre empaquetadores de código como Webpack, Rollup, Parcel y Vite, transpilación con Babel y TypeScript, formateo y linting con ESLint y Prettier, automatización de pruebas con Jest y Cypress, y creación de arquitecturas de Microfrontends.\n\nEl autor desmitifica la complejidad de las herramientas de compilación de frontend, enseñando a construir cadenas de herramientas eficientes y rápidas. Indispensable para cualquier desarrollador frontend moderno.",
+    "temas": [
+      "Frontend Tools",
+      "Vite",
+      "Webpack",
+      "ESLint",
+      "Microfrontends",
+      "Node.js",
+      "Babel",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Cadena de Construcción y Microfrontends con Node.js y Vite",
+        "descripcion": "Configuración de un entorno de desarrollo para microfrontends independientes con compilación optimizada y tests continuos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/modern-frontend-development-with-node-js-9781804618776"
+    ]
+  },
+  "node-cookbook-5th-edition-2024": {
+    "descripcion": "Quinta edición del prestigioso recetario técnico de Bethany Griggs (miembro del Comité Técnico de Dirección de Node.js) y Manuel Spigolon, publicado por Packt en 2024. Contiene soluciones modernas para Node.js 20/22 LTS.\n\nCubre recetas para diagnósticos y depuración con el inspector integrado de Node.js, desarrollo de microservicios y APIs ultrarrápidas con Fastify, uso de TypeScript nativo, seguridad en la cadena de dependencias (npm audit, SBOM), y observabilidad con OpenTelemetry.\n\nCon la autoridad técnica del equipo central de desarrollo de Node.js, ofrece las mejores prácticas contemporáneas para resolver problemas diarios con código conciso y seguro. La referencia de consulta más actualizada.",
+    "temas": [
+      "Node Cookbook 5th",
+      "Bethany Griggs",
+      "Fastify",
+      "Node 22 LTS",
+      "OpenTelemetry",
+      "Seguridad",
+      "Debugging",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Microservicio Observable y Seguro con Fastify y OpenTelemetry",
+        "descripcion": "Implementación de un servicio backend con esquemas JSON, recolección de trazas y protección contra vulnerabilidades."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/node-cookbook-fifth-edition-9781805125471"
+    ]
+  },
+  "node-cookbook-second-edition-2014": {
+    "descripcion": "Segunda edición del popular recetario de David Mark Clements, publicado por Packt en 2014. Contiene más de medio centenar de recetas prácticas con código listo para usar que abordan las necesidades cotidianas de los programadores de Node.js.\n\nCubre la manipulación de flujos de datos y archivos, creación de clientes y servidores de red, manejo de sockets con WebSockets, integración con bases de datos relacionales y CouchDB/MongoDB, y depuración y profiling.\n\nEl formato de problema-solución-discusión resulta sumamente conveniente para resolver dudas inmediatas en el desarrollo diario. Una referencia clásica y apreciada por la comunidad.",
+    "temas": [
+      "Node Cookbook 2nd",
+      "David Mark Clements",
+      "WebSockets",
+      "MongoDB",
+      "Streams",
+      "Networking",
+      "Recetas",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/node-cookbook-second-edition-9781783280438"
+    ]
+  },
+  "node-js-blueprints-2014": {
+    "descripcion": "Libro eminentemente práctico escrito por Krasimir Tsonev y publicado por Packt en 2014. Enseña a construir aplicaciones web diversas y completas a través de proyectos del mundo real.\n\nCubre el desarrollo de un gestor de blogs, una plataforma de chat colaborativo en tiempo real, un sistema de gestión de tareas con interfaz dinámica y una herramienta de automatización de pruebas.\n\nCada proyecto introduce librerías específicas del ecosistema de npm y buenas prácticas de arquitectura de software. Muy valorado por su enfoque centrado en la creación de aplicaciones funcionales de extremo a extremo.",
+    "temas": [
+      "Node.js Blueprints",
+      "Krasimir Tsonev",
+      "Proyectos Reales",
+      "Chat en Tiempo Real",
+      "Blog",
+      "npm",
+      "Arquitectura",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de Aplicaciones de Producción en Node.js (Blog, Chat y Tareas)",
+        "descripcion": "Construcción integral de cuatro productos web distintos utilizando patrones de arquitectura modular y bases de datos relacionales y NoSQL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/node-js-blueprints-9781783287314"
+    ]
+  },
+  "node-js-by-example-2015": {
+    "descripcion": "Manual formativo escrito por Krasimir Tsonev y publicado por Packt en 2015. Propone aprender Node.js a través de ejemplos prácticos y el desarrollo de aplicaciones completas paso a paso.\n\nExplora la creación de un servidor web estático, una aplicación de procesamiento de medios, un sistema de gestión de contenidos y una API RESTful modular conectada a bases de datos relacionales y NoSQL.\n\nEl autor utiliza un estilo directo y accesible con código muy limpio, guiando al lector desde los conceptos iniciales hasta el despliegue funcional. Excelente para desarrolladores con conocimientos básicos de JavaScript.",
+    "temas": [
+      "Node.js By Example",
+      "Krasimir Tsonev",
+      "APIs REST",
+      "Procesamiento de Medios",
+      "MongoDB",
+      "MVC",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor de Medios y API de Gestión de Contenidos en Node.js",
+        "descripcion": "Desarrollo de un backend completo con subida y procesamiento de imágenes, enrutamiento dinámico y persistencia de datos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/node-js-by-example-9781784395711"
+    ]
+  },
+  "node-js-design-patterns-2014": {
+    "descripcion": "Primera edición de la célebre obra de Mario Casciaro, publicada por Packt en 2014. Se consagró de inmediato como el libro de referencia indiscutible sobre patrones de diseño de software aplicados a Node.js.\n\nExplora el patrón Reactor y el bucle de eventos, patrones asíncronos (callbacks, promesas, generadores), Streams y patrones de procesamiento de flujos, y la adaptación a JavaScript de los patrones GoF clásicos (Factory, Proxy, Decorator, Strategy, Observer).\n\nMario Casciaro enseña a pensar en el estilo asíncrono y modular propio de Node.js, elevando la calidad y mantenibilidad del software. Una lectura fundacional para cualquier desarrollador serio de JavaScript del lado del servidor.",
+    "temas": [
+      "Node.js Design Patterns",
+      "Mario Casciaro",
+      "Patrón Reactor",
+      "Streams",
+      "Patrones GoF",
+      "Asincronía",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Librería de Componentes Modulares con Patrones Proxy y Decorator",
+        "descripcion": "Implementación de una arquitectura de plugins desacoplada mediante patrones creacionales y estructurales en Node.js."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.nodejsdesignpatterns.com/"
+    ]
+  },
+  "node-js-design-patterns-3rd-edition-2020": {
+    "descripcion": "Tercera edición de la obra maestra escrita por Mario Casciaro y Luciano Mammino, publicada por Packt en 2020. Considerada de forma unánime la biblia definitiva y el estándar de oro de la ingeniería de software con Node.js.\n\nCubre la sintaxis moderna (ESM vs CommonJS, async/await), programación asíncrona avanzada, Streams (pipeline, composiciones complejas), patrones creacionales, estructurales y de comportamiento, patrones de mensajería (Publish/Subscribe, Request/Response), escalabilidad y microservicios.\n\nCon más de 650 páginas de análisis técnico riguroso y ejemplos elegantes, es la obra más influyente y recomendada por toda la comunidad internacional de Node.js. Lectura obligatoria.",
+    "temas": [
+      "Design Patterns 3rd",
+      "Mario Casciaro",
+      "Luciano Mammino",
+      "ESM",
+      "Streams",
+      "Microservicios",
+      "Pub/Sub",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de Mensajería y Pipeline de Streams en Node.js",
+        "descripcion": "Construcción de un motor distribuido de procesamiento de datos con patrones Publish/Subscribe y transformación reactiva de Streams."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.nodejsdesignpatterns.com/"
+    ]
+  },
+  "node-js-design-patterns-4th-edition-2025": {
+    "descripcion": "Cuarta edición actualizada por Luciano Mammino y Mario Casciaro, publicada por Packt a principios de 2025. Adapta los patrones de diseño clásicos y modernos al ecosistema contemporáneo de Node.js 22+ y TypeScript.\n\nIncorpora el uso intensivo de TypeScript, nuevos primitivos del runtime (como `AsyncLocalStorage` para trazabilidad de contexto), microservicios orientados a eventos con Kafka, arquitecturas serverless en la nube, y observabilidad con OpenTelemetry.\n\nMantiene el rigor enciclopédico de sus predecesores mientras introduce soluciones a los desafíos arquitectónicos de los sistemas distribuidos modernos. Una obra cumbre de la literatura informática contemporánea.",
+    "temas": [
+      "Design Patterns 4th",
+      "Luciano Mammino",
+      "Mario Casciaro",
+      "TypeScript",
+      "AsyncLocalStorage",
+      "OpenTelemetry",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Distribuida de Microservicios Tipada con Patrones GoF y Cloud",
+        "descripcion": "Diseño de un sistema empresarial en TypeScript con trazabilidad AsyncLocalStorage, colas de eventos y patrones de resiliencia."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.nodejsdesignpatterns.com/"
+    ]
+  },
+  "node-js-essentials-2015": {
+    "descripcion": "Guía práctica y concisa escrita por Fabian Cook y publicada por Packt en 2015. Diseñada como una referencia rápida de los conceptos esenciales para crear aplicaciones web con Node.js.\n\nCubre la sintaxis básica, instalación de paquetes con npm, creación de servidores HTTP, manejo de eventos con EventEmitter, procesamiento de archivos con streams y persistencia básica en bases de datos relacionales y MongoDB.\n\nSu estilo directo y libre de rodeos permite a desarrolladores ocupados ponerse al día con los aspectos más útiles del runtime en poco tiempo. Ideal para consultas puntuales.",
+    "temas": [
+      "Node.js Essentials",
+      "Fabian Cook",
+      "npm",
+      "HTTP Server",
+      "Streams",
+      "EventEmitter",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/node-js-essentials-9781784395407"
+    ]
+  },
+  "node-js-for-beginners-2024": {
+    "descripcion": "Manual moderno para principiantes escrito por Ulises Gascón (miembro activo del Node.js Core Team) y publicado por Packt en 2024. Diseñado como una introducción rigurosa, amigable y actualizada al ecosistema de Node.js.\n\nExplora la instalación y configuración del entorno, gestión de paquetes moderna, el Event Loop explicado con analogías intuitivas, módulos ECMAScript (ESM), creación de servidores web con Express y Fastify, persistencia de datos y pruebas automatizadas con el test runner nativo de Node.js (`node:test`).\n\nEl autor destaca por un enfoque pedagógico transparente que inculca buenas prácticas de seguridad y estándares de la comunidad desde el primer día. Muy recomendado para quienes se inician hoy en Node.js.",
+    "temas": [
+      "Node.js para Principiantes",
+      "Ulises Gascón",
+      "Node Core Team",
+      "node:test",
+      "ESM",
+      "Fastify",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API Web y Suite de Pruebas con el Test Runner Nativo de Node.js",
+        "descripcion": "Construcción paso a paso de un servicio web modular validado con node:test y buenas prácticas de seguridad."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/node-js-for-beginners-9781800563452"
+    ]
+  },
+  "node-js-high-performance-2015": {
+    "descripcion": "Tratado técnico especializado de Diogo Resende publicado por Packt en 2015. Se centra en las técnicas y optimizaciones necesarias para conseguir el máximo rendimiento y menor latencia en aplicaciones Node.js.\n\nExplora el perfilado de CPU y memoria con V8 profiler, optimización de algoritmos asíncronos para evitar bloqueos del bucle de eventos, uso óptimo de Buffers y Streams para evitar copias de datos en memoria, compresión HTTP, y benchmarking con ApacheBench y wrk.\n\nEl autor comparte estrategias probadas para identificar y solucionar fugas de memoria y cuellos de botella en servidores con alta concurrencia. Una referencia indispensable para optimización en entornos de producción.",
+    "temas": [
+      "Alto Rendimiento",
+      "Diogo Resende",
+      "V8 Profiler",
+      "Memory Leaks",
+      "Event Loop Lag",
+      "wrk",
+      "Buffers",
+      "Packt"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Auditoría y Optimización de Servidor Web de Alta Frecuencia",
+        "descripcion": "Perfilado con V8 y reescritura de manejo de buffers logrando reducir el uso de RAM a la mitad y multiplicar el throughput por tres."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/node-js-high-performance-9781783554836"
+    ]
+  },
+  "node-js-web-development-5th-edition-2020": {
+    "descripcion": "Quinta edición de la reconocida guía de David Herron, publicada por Packt en 2020. Ofrece una formación completa para el desarrollo de aplicaciones web full-stack profesionales con Node.js 14 LTS.\n\nCubre la sintaxis moderna de ES2020, Express 4, autenticación con Passport y OAuth2, almacenamiento de datos en SQLite, MySQL y MongoDB, desarrollo de interfaces con Bootstrap y microservicios ligeros empaquetados con Docker.\n\nA través del desarrollo continuo de la aplicación de notas 'Notes App', enseña cómo evolucionar un proyecto desde un script básico hasta una arquitectura contenerizada y segura. Muy valorado por su estructura clara y proyectos reales.",
+    "temas": [
+      "Node.js Web Development",
+      "David Herron",
+      "Docker",
+      "Express",
+      "MongoDB",
+      "MySQL",
+      "Passport",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web Full-Stack Notes App con Docker y Express",
+        "descripcion": "Construcción integral de una plataforma multiusuario de gestión de notas con autenticación social y despliegue en contenedores."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/node-js-web-development-fifth-edition-9781838987381"
+    ]
+  },
+  "restful-web-api-design-with-node-js-2015": {
+    "descripcion": "Guía práctica escrita por Valentin Bojinov y publicada por Packt en 2015. Enseña a diseñar y programar APIs RESTful limpias, seguras y escalables utilizando Node.js y Express.\n\nCubre el modelado de recursos URI, métodos HTTP adecuados (GET, POST, PUT, DELETE, PATCH), negociación de contenido (JSON y XML), autenticación mediante tokens JWT y Basic Auth, pruebas con Mocha y documentación interactiva con Swagger.\n\nEl autor estructura el contenido con tutoriales paso a paso orientados a la producción. Una guía muy sólida para desarrolladores que implementan servicios backend en JavaScript.",
+    "temas": [
+      "RESTful APIs",
+      "Valentin Bojinov",
+      "Express",
+      "Swagger",
+      "JWT",
+      "Mocha",
+      "HTTP Methods",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API RESTful Comercial Documentada con Swagger y JWT",
+        "descripcion": "Desarrollo de un servicio web para gestión de catálogo y ventas con autenticación segura por tokens y especificación interactiva."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/restful-web-api-design-with-node-js-9781783985883"
+    ]
+  },
+  "supercharging-node-js-applications-with-sequelize-2022": {
+    "descripcion": "Monografía técnica escrita por Daniel Durante y publicada por Packt en 2022. Se especializa en la gestión y modelado de bases de datos relacionales en Node.js utilizando el ORM Sequelize.\n\nCubre la definición de modelos, tipos de datos y validaciones, gestión de migraciones y seeders de base de datos, asociaciones complejas (1:1, 1:N, N:M), consultas avanzadas y transacciones atómicas con PostgreSQL y MySQL, y optimización de rendimiento.\n\nAcompaña al lector en la construcción de una capa de acceso a datos para una aplicación empresarial. Indispensable para desarrolladores que trabajan con bases de datos relacionales en Node.js.",
+    "temas": [
+      "Sequelize",
+      "PostgreSQL",
+      "MySQL",
+      "ORM",
+      "Migraciones",
+      "Transacciones",
+      "Node.js",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Capa de Datos Empresarial con Sequelize y PostgreSQL",
+        "descripcion": "Diseño de un modelo relacional complejo con transacciones seguras, migraciones automatizadas y optimización de consultas SQL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/supercharging-node-js-applications-with-sequelize-9781801819770"
+    ]
+  },
+  "web-development-with-mongodb-and-nodejs-2015": {
+    "descripcion": "Manual exhaustivo escrito por Mithun Satheesh, Bruno Joseph D'mello y Jason Krol, publicado por Packt en 2015. Enseña a integrar Node.js con MongoDB para construir aplicaciones web orientadas a documentos.\n\nExplora la arquitectura sin esquema de MongoDB, controladores nativos y el ODM Mongoose, diseño de esquemas y validaciones, enrutamiento con Express, subida de archivos y pruebas automatizadas con Jasmine.\n\nA través de la construcción de una aplicación social para compartir imágenes ('Imgur clone'), los autores muestran cómo aprovechar la flexibilidad de MongoDB en proyectos web modernos. Una referencia formativa clásica.",
+    "temas": [
+      "MongoDB",
+      "Mongoose",
+      "Node.js",
+      "Express",
+      "Imgur Clone",
+      "NoSQL",
+      "Subida de Archivos",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Social de Imágenes con Node.js y MongoDB",
+        "descripcion": "Construcción completa de una web para compartir fotografías con procesamiento de miniaturas, comentarios y base de datos NoSQL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/web-development-with-mongodb-and-nodejs-second-edition-9781785287527"
+    ]
+  },
+  "a-developer-s-guide-to-the-node-js-reference-architecture-2024": {
+    "descripcion": "Guía oficial corporativa escrita por Michael Dawson y Luke Holmquist, publicada por Red Hat Developer en 2024. Establece la arquitectura de referencia recomendada por Red Hat e IBM para aplicaciones Node.js empresariales.\n\nCubre la selección de componentes clave: frameworks HTTP recomendados (Fastify/Express), estrategias de logging estructurado con Pino, monitorización con Prometheus, seguridad y gestión de dependencias, gestión de configuración y buenas prácticas en contenedores de OpenShift y Kubernetes.\n\nProporciona directrices contrastadas en entornos de misión crítica para garantizar la escalabilidad, mantenibilidad y seguridad del software. Lectura estratégica fundamental para directores de tecnología y arquitectos empresariales.",
+    "temas": [
+      "Reference Architecture",
+      "Red Hat",
+      "Michael Dawson",
+      "Fastify",
+      "Pino",
+      "OpenShift",
+      "Kubernetes",
+      "Empresarial"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de Referencia Empresarial en Node.js para Kubernetes",
+        "descripcion": "Diseño de una plantilla corporativa con health checks, métricas Prometheus, logging Pino y configuración desacoplada."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://developers.redhat.com/articles/node-js-reference-architecture"
+    ]
+  },
+  "node-js-the-comprehensive-guide-2022": {
+    "descripcion": "Monumental enciclopedia técnica de más de 800 páginas escrita por Sebastian Springer y publicada por Rheinwerk Computing en 2022. Ofrece una cobertura exhaustiva y profunda de Node.js en su versión 18 LTS.\n\nCubre desde los conceptos fundamentales del Event Loop, módulos nativos y arquitectura asíncrona, pasando por el diseño de APIs REST y GraphQL, WebSockets, bases de datos SQL y NoSQL, autenticación, seguridad, hasta testing y microservicios en la nube.\n\nEl autor destaca por su rigor técnico alemán y explicaciones detalladas que abarcan tanto la teoría de la computación como la práctica profesional. Considerado uno de los mejores manuales de referencia disponibles en Europa.",
+    "temas": [
+      "Rheinwerk",
+      "Sebastian Springer",
+      "Node.js 18 LTS",
+      "Event Loop",
+      "GraphQL",
+      "WebSockets",
+      "Testing",
+      "Enciclopedia"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Empresarial Completa con APIs REST y GraphQL en Node.js",
+        "descripcion": "Desarrollo de un sistema de gestión modular con soporte para consultas GraphQL, persistencia relacional y suite de tests."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.rheinwerk-verlag.de/node-js/"
+    ]
+  },
+  "node-js-novice-to-ninja-2022": {
+    "descripcion": "Manual práctico y ameno escrito por Craig Buckler y publicado por SitePoint en 2022. Diseñado para transformar a desarrolladores principiantes en profesionales seguros de Node.js.\n\nCubre la sintaxis contemporánea, manipulación de archivos y streams, creación de servidores web con Express, bases de datos SQLite y MongoDB, autenticación de usuarios, subida de ficheros, pruebas automatizadas y despliegue en la nube.\n\nA través del desarrollo gradual de proyectos atractivos, el autor enseña cómo evitar las trampas comunes de la asincronía y el desarrollo backend. Una lectura estimulante y accesible para cualquier programador.",
+    "temas": [
+      "Sitepoint",
+      "Craig Buckler",
+      "Novice to Ninja",
+      "Express",
+      "SQLite",
+      "MongoDB",
+      "Async/Await",
+      "Principiantes"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web Completa de Gestión de Tareas y Notas con Express",
+        "descripcion": "Construcción paso a paso de un portal interactivo con autenticación, validación de datos y persistencia en base de datos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.sitepoint.com/premium/books/node-js-novice-to-ninja"
+    ]
+  },
+  "smashing-node-js-javascript-everywhere-2012": {
+    "descripcion": "Obra histórica y revolucionaria escrita por Guillermo Rauch (creador de Socket.io y fundador de Vercel/Next.js) y publicada por Wiley en 2012. Fue el libro que proclamó el movimiento 'JavaScript Everywhere'.\n\nExplora la naturaleza no bloqueante de Node.js, programación de red con TCP y HTTP, manipulación de streams y buffers, el nacimiento de la comunicación bidireccional en tiempo real con Socket.io, y persistencia rápida con Redis y MongoDB.\n\nGuillermo Rauch combina explicaciones conceptuales brillantes con una visión vanguardista de la web interactiva moderna. Un clásico imprescindible de la historia de la programación web.",
+    "temas": [
+      "Guillermo Rauch",
+      "Socket.io",
+      "Vercel",
+      "JavaScript Everywhere",
+      "TCP/HTTP",
+      "Redis",
+      "Smashing Magazine",
+      "Wiley"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor de Chat y Colaboración en Tiempo Real con Socket.io",
+        "descripcion": "Construcción de una plataforma interactiva en vivo basada en WebSockets y almacenamiento en memoria Redis."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Smashing+Node+js%3A+JavaScript+Everywhere-p-9781119962595"
+    ]
+  },
+  "professional-node-js-2013": {
+    "descripcion": "Manual exhaustivo y autoritativo escrito por Pedro Teixeira (pionero y formador de Node.js) y publicado por Wrox en 2013. Diseñado como una referencia completa para el desarrollo corporativo en Node.js.\n\nCubre la arquitectura interna de eventos, manipulación de buffers binarios, control de flujo asíncrono con promesas y callbacks, servidores HTTP y HTTPS seguros, manipulación de bases de datos relacionales y CouchDB, y pruebas automatizadas con Mocha.\n\nPedro Teixeira ofrece explicaciones pausadas y profundas que consolidan la disciplina de ingeniería de software en JavaScript del lado del servidor. Una referencia clásica muy respetada.",
+    "temas": [
+      "Professional Node.js",
+      "Pedro Teixeira",
+      "Wrox",
+      "Buffers",
+      "HTTPS",
+      "Mocha",
+      "Control de Flujo",
+      "CouchDB"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor HTTP Seguro y Motor de Base de Datos en Node.js",
+        "descripcion": "Desarrollo de un servidor con soporte TLS/HTTPS, control de sesiones cifradas y persistencia documental."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Professional+Node+js%3A+Building+Javascript+Based+Scalable+Software-p-9781118185469"
+    ]
+  }
+}

@@ -1,0 +1,495 @@
+{
+  "beginning-postgresql-on-the-cloud-2018": {
+    "descripcion": "Guía práctica de Baji Shaik y Avinash Vallarapu dedicada al despliegue, configuración y gestión de PostgreSQL en plataformas de nube líderes (AWS RDS, Aurora, Google Cloud SQL y Azure Database for PostgreSQL).\n\nLos autores enseñan a dimensionar instancias de computación y almacenamiento, configurar parámetros de memoria del servidor en la nube, gestionar copias de seguridad automáticas y copias point-in-time recovery (PITR), y configurar réplicas de lectura para escalado horizontal. Además, abordan la migración de bases de datos locales hacia la nube con pg_dump y herramientas de replicación lógica.\n\nIdeal para ingenieros DevOps y administradores de bases de datos que operan PostgreSQL en arquitecturas cloud modernas.",
+    "temas": [
+      "PostgreSQL",
+      "Cloud Database",
+      "AWS RDS",
+      "Aurora",
+      "Google Cloud SQL",
+      "Azure PostgreSQL",
+      "PITR",
+      "Migración Cloud"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Infraestructura PostgreSQL de alta disponibilidad en AWS con réplicas de lectura",
+        "descripcion": "Aprovisionamiento y configuración de una base de datos gestionada con conmutación multi-zona y escalado de consultas de lectura."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mastering-postgresql-administration-2025": {
+    "descripcion": "Tratado técnico avanzado y contemporáneo de Y V Ravi Kumar, Arun Kumar Samayam y Phani Kadambari sobre la administración empresarial de PostgreSQL 16 y 17.\n\nLos autores profundizan en los aspectos más exigentes de la gestión en producción: afinamiento de memoria compartida (shared_buffers, work_mem), optimización del recolector de basura VACUUM y autovacuum, particionamiento declarativo a gran escala, replicación lógica bidireccional y seguridad avanzada con Row-Level Security (RLS) y encriptación transparente. Analiza herramientas de observabilidad como pg_stat_statements y Prometheus.\n\nUna lectura técnica indispensable para DBAs senior y arquitectos de datos que gestionan clústeres de PostgreSQL de misión crítica.",
+    "temas": [
+      "PostgreSQL 16",
+      "DBA",
+      "Autovacuum",
+      "shared_buffers",
+      "Particionamiento",
+      "Row-Level Security",
+      "pg_stat_statements",
+      "Replicación Lógica"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plan de tuning y mantenimiento automatizado para base de datos transaccional masiva",
+        "descripcion": "Configuración de políticas agresivas de autovacuum, particionamiento de tablas por rango y monitorización en tiempo real de consultas lentas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "postgresql-configuration-2020": {
+    "descripcion": "Manual especializado de Baji Shaik enfocado en desmitificar y ajustar de forma científica los más de 300 parámetros del archivo de configuración postgresql.conf.\n\nEl autor desglosa cada parámetro crítico: memoria y caché (shared_buffers, work_mem, maintenance_work_mem, effective_cache_size), disco y E/S (checkpoint_completion_target, wal_buffers), planificador de consultas (random_page_cost), registro de transacciones WAL y ajustes de autovacuum. Enseña a adaptar la configuración al perfil del servidor (OLTP transaccional vs OLAP analítico).\n\nUna guía de consulta obligatoria para administradores que buscan extraer el máximo rendimiento del hardware del servidor.",
+    "temas": [
+      "postgresql.conf",
+      "shared_buffers",
+      "work_mem",
+      "WAL",
+      "Checkpoints",
+      "random_page_cost",
+      "OLTP vs OLAP",
+      "Tuning"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "postgresql-query-optimization-2nd-edition-2024": {
+    "descripcion": "Segunda edición del tratado técnico magistral de Henrietta Dombrovskaya, Boris Novikov y Anna Bailliekova sobre optimización matemática y práctica de consultas en PostgreSQL.\n\nLos autores enseñan a analizar a fondo planes de ejecución con EXPLAIN (ANALYZE, BUFFERS), diagnosticar exploraciones secuenciales innecesarias y uniones lentas (Nested Loops, Hash Joins, Merge Joins), diseñar índices avanzados (B-Tree, BRIN para series temporales masivas, GIN para JSONB y GiST para datos geométricos), y reescribir consultas SQL para cooperar con el optimizador. Incluye casos forenses de problemas de escala.\n\nIndispensable para desarrolladores backend y analistas de datos que requieren respuestas subsegundo en bases de datos PostgreSQL de gran volumen.",
+    "temas": [
+      "Query Optimization",
+      "EXPLAIN BUFFERS",
+      "BRIN",
+      "GIN",
+      "JSONB",
+      "Hash Join",
+      "Índices Avanzados",
+      "PostgreSQL"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Optimización extrema de consultas analíticas con índices BRIN y GIN",
+        "descripcion": "Refactorización de consultas lentas sobre tablas de cientos de millones de filas reduciendo el tiempo de ejecución en más del 90% mediante índices especializados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "just-use-postgres-2025": {
+    "descripcion": "Tratado moderno y provocador de Denis Magda que argumenta y demuestra por qué la mayoría de arquitecturas de software modernas pueden consolidar sus múltiples tecnologías especializadas en una única base de datos: PostgreSQL.\n\nMagda expone cómo PostgreSQL puede reemplazar eficientemente almacenes de documentos NoSQL (gracias a JSONB y consultas indexadas con GIN), almacenes clave-valor y colas de trabajo (mediante SKIP LOCKED y LISTEN/NOTIFY), bases de datos de series temporales y almacenes vectoriales para inteligencia artificial y búsqueda semántica con la extensión pgvector. Analiza el ahorro radical en complejidad y costes operativos.\n\nUna lectura estratégica inspiradora para CTOs, arquitectos de software e ingenieros líderes que buscan simplificar su stack tecnológico.",
+    "temas": [
+      "Denis Magda",
+      "PostgreSQL",
+      "pgvector",
+      "JSONB",
+      "LISTEN/NOTIFY",
+      "SKIP LOCKED",
+      "Simplificación de Stack",
+      "IA Generativa"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Stack unificado sobre PostgreSQL: JSONB, Colas y Búsqueda Vectorial",
+        "descripcion": "Construcción de una arquitectura que gestiona documentos JSON, colas de mensajería sin contención y búsqueda semántica de embeddings con pgvector en una sola base de datos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mastering-postgresql-2026": {
+    "descripcion": "Obra magna y de vanguardia técnica escrita por Denis Magda y Jimmy Angelakos sobre las capacidades más avanzadas de PostgreSQL 17 y 18.\n\nLos autores analizan las innovaciones arquitectónicas recientes: mejoras en la gestión de memoria compartida, optimización de consultas paralelas, integración nativa de inferencia de inteligencia artificial mediante extensiones vectoriales, particionamiento multinivel y replicación lógica activa-activa. Además, abarca el empaquetado y orquestación con operadores de Kubernetes (CloudNativePG).\n\nEl texto de referencia de cabecera definitivo para liderar la ingeniería de bases de datos relacionales en la segunda mitad de la década.",
+    "temas": [
+      "PostgreSQL 17",
+      "Denis Magda",
+      "Jimmy Angelakos",
+      "CloudNativePG",
+      "Kubernetes",
+      "pgvector",
+      "Replicación Activa-Activa",
+      "High Performance"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Clúster PostgreSQL cloud-native en Kubernetes con CloudNativePG",
+        "descripcion": "Despliegue y administración de un clúster de alta disponibilidad con failover automático, respaldos continuos a S3 y particionamiento declarativo masivo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "postgis-in-action-2011": {
+    "descripcion": "La obra fundacional de Regina O. Obe y Leo S. Hsu sobre PostGIS, la extensión de base de datos geoespacial de código abierto por excelencia para PostgreSQL.\n\nLos autores enseñan los conceptos de los sistemas de información geográfica (SIG/GIS): tipos de datos espaciales (Geometry y Geography), proyecciones cartográficas y sistemas de referencia de coordenadas (SRID), funciones de relación espacial (ST_Intersects, ST_Contains, ST_Buffer) y creación de índices espaciales R-Tree con GiST. Muestran cómo integrar PostGIS con OpenLayers y GeoServer.\n\nUn clásico formativo de indiscutible prestigio técnico, indispensable para desarrolladores y analistas espaciales.",
+    "temas": [
+      "PostGIS",
+      "Regina Obe",
+      "Leo Hsu",
+      "GIS",
+      "Geometry y Geography",
+      "SRID",
+      "ST_Intersects",
+      "Manning"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor de consultas geoespaciales y cálculo de rutas con PostGIS",
+        "descripcion": "Construcción de una base de datos territorial que ejecuta consultas de proximidad espacial y cálculo de áreas de impacto geográfico."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "postgresql-mistakes-and-how-to-avoid-them-2025": {
+    "descripcion": "Tratado forense y preventivo de Jimmy Angelakos que recopila los errores de diseño, configuración y desarrollo más costosos observados en despliegues reales de PostgreSQL.\n\nAngelakos analiza antipatrones críticos: uso incorrecto de tipos de datos (como VARCHAR sin límite vs TEXT), malentendidos con transacciones largas y bloat de tablas por autovacuum deficiente, trampas con la ordenación de NULLs, dependencia peligrosa de offsets grandes en paginación y errores de configuración de pools de conexiones. Muestra la solución correcta y las métricas para verificarla.\n\nUna lectura obligatoria y altamente pragmática para desarrolladores backend y DBAs que desean evitar caídas y desastres de rendimiento en producción.",
+    "temas": [
+      "PostgreSQL Mistakes",
+      "Jimmy Angelakos",
+      "Table Bloat",
+      "Autovacuum",
+      "Pool de Conexiones",
+      "Paginación Eficiente",
+      "Antipatrones SQL",
+      "Manning"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "building-a-data-and-ai-platform-with-postgresql-2025": {
+    "descripcion": "Guía especializada de Tom Taulli, Benjamin Anderson y Jozef de Vries sobre la construcción de plataformas modernas de datos e inteligencia artificial centradas en PostgreSQL.\n\nLos autores enseñan a utilizar extensiones punteras como pgvector para almacenamiento y búsqueda de similitud de embeddings vectoriales (índices HNSW e IVFFlat), integración con modelos LLM y frameworks como LangChain y LlamaIndex, ingesta de flujos de datos en tiempo real y arquitectura de lagos de datos híbridos. Analiza técnicas de escalabilidad y particionamiento.\n\nRecomendado para ingenieros de inteligencia artificial, científicos de datos y arquitectos de software que construyen aplicaciones RAG sobre PostgreSQL.",
+    "temas": [
+      "pgvector",
+      "IA Generativa",
+      "RAG",
+      "Embeddings",
+      "HNSW",
+      "LangChain",
+      "PostgreSQL",
+      "Data Platform"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de búsqueda semántica y recuperación aumentada (RAG) en PostgreSQL",
+        "descripcion": "Implementación de una base de conocimiento corporativa que almacena documentos, genera embeddings vectoriales y ejecuta búsquedas semánticas ultrarrápidas con pgvector."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "postgresql-up-and-running-2nd-edition-2014": {
+    "descripcion": "Segunda edición de la concisa y popular guía de Regina O. Obe y Leo S. Hsu diseñada para poner en marcha y aprovechar rápidamente las capacidades clave de PostgreSQL 9.3 y 9.4.\n\nLos autores resumen la instalación, configuración básica de pg_hba.conf, utilidades psql, importación de datos con COPY, tipos de datos avanzados (arrays, hstore, JSON y JSONB nativo) y extensiones populares como tablefunc y PostGIS. Su enfoque directo permite familiarizarse con el motor sin perderse en teoría excesiva.\n\nUna excelente referencia de inicio rápido para programadores y administradores que adoptan PostgreSQL.",
+    "temas": [
+      "PostgreSQL Up and Running",
+      "Regina Obe",
+      "Leo Hsu",
+      "JSONB",
+      "hstore",
+      "pg_hba.conf",
+      "psql",
+      "O'Reilly"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "ai-ready-postgresql-18-2026": {
+    "descripcion": "Tratado técnico vanguardista de Vibhor Kumar y Marc Linster sobre las capacidades pioneras de PostgreSQL 18 para cargas de trabajo masivas de inteligencia artificial y analítica avanzada.\n\nLos autores analizan las innovaciones del motor: soporte acelerado por hardware para operaciones vectoriales, algoritmos de indexación de similitud semántica HNSW optimizados en memoria compartida, pipelines de inferencia integrados en base de datos, y particionamiento automático de colecciones de tensores masivas. Incluye directrices de seguridad y gobernanza de modelos de IA.\n\nIndispensable para arquitectos de inteligencia artificial y directores de ingeniería que proyectan infraestructuras analíticas de nueva generación.",
+    "temas": [
+      "PostgreSQL 18",
+      "IA",
+      "Vibhor Kumar",
+      "Marc Linster",
+      "HNSW",
+      "Embeddings",
+      "pgvector",
+      "Inferencia en BD"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor corporativo de recomendación y búsqueda multimodal en PostgreSQL 18",
+        "descripcion": "Diseño de un sistema de búsqueda semántica híbrida que combina filtros relacionales estrictos con similitud vectorial acelerada por hardware."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "learning-postgresql-2015": {
+    "descripcion": "Manual pedagógico y práctico de Salahaldin Juba, Achim Vannahme y Andrey Volkov orientado a aprender el desarrollo y diseño de bases de datos con PostgreSQL 9.4 y 9.5.\n\nLos autores enseñan a crear esquemas normalizados, escribir consultas SQL con funciones de ventana (window functions) y expresiones CTE, manipular estructuras no relacionales con JSONB, y programar funciones del lado del servidor en PL/pgSQL. Incluye conceptos de administración básica y copias de seguridad con pg_dump.\n\nMuy recomendable para desarrolladores web y de software que se inician en el motor de base de datos relacional de código abierto más avanzado.",
+    "temas": [
+      "Learning PostgreSQL",
+      "PL/pgSQL",
+      "Window Functions",
+      "CTE",
+      "JSONB",
+      "pg_dump",
+      "Packt",
+      "SQL"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de gestión comercial y catálogo dinámico con JSONB",
+        "descripcion": "Construcción de una base de datos con tablas relacionales para clientes y pedidos, y atributos flexibles de productos modelados en campos JSONB indexados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mastering-postgresql-15-5th-edition-2023": {
+    "descripcion": "Quinta edición del prestigioso y exhaustivo tratado de Hans-Jürgen Schönig, consultor internacional de PostgreSQL y CEO de Cybertec, adaptado a PostgreSQL 15.\n\nSchönig profundiza en temas avanzados de ingeniería: optimización extrema de consultas SQL, análisis de planes de ejecución y estimaciones del optimizador, diseño de índices especializados (GIN, GiST, SP-GiST, BRIN), transacciones y aislamiento Serializable (SSI), particionamiento declarativo a escala y replicación lógica. Analiza técnicas de auditoría forense y monitorización en tiempo real.\n\nUna de las mejores y más autorizadas obras de referencia sobre PostgreSQL contemporáneo, imprescindible para ingenieros senior y DBAs.",
+    "temas": [
+      "Hans-Jürgen Schönig",
+      "PostgreSQL 15",
+      "Cybertec",
+      "BRIN",
+      "GIN",
+      "Serializable Snapshot Isolation",
+      "Particionamiento",
+      "Optimización"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de base de datos financiera con aislamiento Serializable (SSI)",
+        "descripcion": "Implementación de una solución bancaria con particionamiento mensual de transacciones y garantías estrictas contra anomalías de escritura concurrente."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "postgresql-9-administration-cookbook-2nd-edition-2015": {
+    "descripcion": "Segunda edición del celebrado recetario de Simon Riggs (miembro del Core Team de PostgreSQL), Gianni Ciolli y Gabriele Bartolini sobre administración profesional de PostgreSQL 9.\n\nEl manual reúne más de 100 recetas prácticas para tareas críticas de producción: configuración óptima de memoria y checkpointing, copias de seguridad físicas y lógicas con pg_basebackup y RMAN-like tools (Barman), configuración de réplicas en streaming y conmutación por error, monitorización de actividad y bloqueo de consultas, y resolución de problemas de autovacuum.\n\nUna herramienta de cabecera clásica y muy valorada por administradores de sistemas y DBAs en entornos Linux corporativos.",
+    "temas": [
+      "Simon Riggs",
+      "PostgreSQL Administration",
+      "Cookbook",
+      "Barman",
+      "pg_basebackup",
+      "Streaming Replication",
+      "Autovacuum",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "postgresql-9-0-high-performance-2010": {
+    "descripcion": "Tratado técnico pionero de Gregory Smith sobre la optimización de rendimiento, dimensionamiento de hardware y ajuste del motor en PostgreSQL 9.0.\n\nSmith disecciona el impacto del hardware en la base de datos: subsistemas de almacenamiento en disco (RAID, SSDs tempranos), optimización del kernel de Linux (dirty pages, swappiness), memoria compartida shared_buffers, escritura de WAL y checkpoints, y la mecánica interna de vaciado de tablas con VACUUM. Introduce pgbench para realizar pruebas de carga reproducibles.\n\nUna obra formativa histórica de gran rigor científico, fundamental para comprender la ingeniería del rendimiento en PostgreSQL.",
+    "temas": [
+      "Gregory Smith",
+      "High Performance",
+      "pgbench",
+      "shared_buffers",
+      "Kernel Tuning",
+      "WAL",
+      "Checkpoints",
+      "Hardware"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "postgresql-developer-s-guide-2015": {
+    "descripcion": "Manual técnico de Ibrar Ahmed, Asif Fayyaz y Amjad Shahzad para desarrolladores que desean extender el motor de PostgreSQL mediante programación en C y lenguajes procedimentales.\n\nLos autores enseñan a interactuar con el código fuente del servidor: creación de tipos de datos definidos por el usuario, implementación de operadores y funciones agregadas personalizadas en C, desarrollo de extensiones empaquetadas con PGXS, y llamadas a la API de libpq. Además, aborda el uso de Foreign Data Wrappers (FDW) para consultar fuentes remotas.\n\nUna excelente guía de ingeniería avanzada para quienes necesitan extender las capacidades nativas del motor relacional.",
+    "temas": [
+      "Extensibilidad",
+      "PGXS",
+      "C API",
+      "libpq",
+      "FDW",
+      "Funciones C",
+      "Foreign Data Wrappers",
+      "PostgreSQL Internals"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Extensión personalizada en C con nuevo tipo de datos y operadores",
+        "descripcion": "Desarrollo de un paquete PGXS que define un tipo de dato geométrico especializado con operadores de comparación nativos compilados en C."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "postgresql-for-data-architects-2015": {
+    "descripcion": "Guía especializada de Jayadevan Maymala orientada a arquitectos de datos que diseñan modelos de almacenamiento empresarial y almacenes analíticos sobre PostgreSQL.\n\nEl autor enseña a modelar esquemas normalizados y esquemas en estrella (star schema) para Data Warehousing, implementar particionamiento de tablas con herencia y triggers, diseñar vistas materializadas para precalcular agregaciones pesadas, y gestionar la persistencia políglota con tipos JSONB y arrays. Incluye estrategias de archivado histórico de datos.\n\nMuy formativo para líderes técnicos y arquitectos responsables del diseño estructural de datos en medianas y grandes organizaciones.",
+    "temas": [
+      "Data Architecture",
+      "PostgreSQL",
+      "Star Schema",
+      "Vistas Materializadas",
+      "Particionamiento",
+      "JSONB",
+      "Data Warehousing",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Data Warehouse analítico con vistas materializadas y particionamiento",
+        "descripcion": "Construcción de un modelo dimensional en estrella para ventas corporativas con refresco programado de vistas materializadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "postgresql-high-availability-cookbook-2nd-edition-2017": {
+    "descripcion": "Segunda edición del recetario de Shaun M. Thomas dedicado al diseño e implementación de infraestructuras tolerantes a fallos y alta disponibilidad para PostgreSQL.\n\nEl texto ofrece recetas paso a paso para configurar replicación en streaming física (síncrona y asíncrona), gestión automatizada de failover con herramientas como Patroni, repmgr y Pacemaker, balanceo de carga de lectura con PgBouncer y HAProxy, y replicación lógica para migraciones con tiempo de inactividad cercano a cero. Incluye planes de recuperación ante desastres.\n\nIndispensable para ingenieros de fiabilidad (SRE) y administradores de bases de datos que operan sistemas PostgreSQL que no pueden permitirse caídas.",
+    "temas": [
+      "Alta Disponibilidad",
+      "Patroni",
+      "repmgr",
+      "PgBouncer",
+      "HAProxy",
+      "Streaming Replication",
+      "Failover",
+      "Cookbook"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Clúster PostgreSQL de alta disponibilidad gestionado con Patroni y etcd",
+        "descripcion": "Configuración completa de un clúster de tres nodos con consenso distribuido en etcd, failover automático en segundos y pool de conexiones PgBouncer."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "postgresql-replication-2nd-edition-2015": {
+    "descripcion": "Segunda edición del tratado técnico de Hans-Jürgen Schönig sobre las técnicas y arquitecturas de replicación en PostgreSQL 9.4 y 9.5.\n\nSchönig desglosa la replicación en streaming física basada en el registro de transacciones WAL (Write-Ahead Logging), configuración de slots de replicación para evitar pérdida de registros, replicación síncrona para cero pérdida de datos (RPO=0), replicación basada en disparadores (Slony-I) y el inicio de la replicación lógica moderna. Analiza cómo resolver cuellos de botella de red y latencia de réplicas.\n\nUna referencia técnica clásica muy respetada para entender los cimientos de la distribución de datos en PostgreSQL.",
+    "temas": [
+      "Replicación",
+      "Hans-Jürgen Schönig",
+      "WAL",
+      "Replication Slots",
+      "Streaming Replication",
+      "Slony",
+      "Alta Disponibilidad",
+      "Packt"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "postgresql-server-programming-2nd-edition-2015": {
+    "descripcion": "Segunda edición del manual de Usama Dar, Hannu Krosing, Jim Mlodgenski y Kirk Roybal dedicado a la programación avanzada de lógica de negocio dentro del servidor PostgreSQL.\n\nLos autores enseñan a dominar PL/pgSQL, escribir funciones complejas en lenguajes procedurales como PL/Python y PL/Perl, manipular cursores, crear disparadores de eventos (event triggers), y escribir extensiones de servidor compiladas en C. Además, cubre el uso del sistema de mensajería reactiva LISTEN y NOTIFY para comunicarse con aplicaciones cliente.\n\nUna excelente guía de programación del lado del servidor para desarrolladores que buscan aprovechar al máximo la programabilidad de PostgreSQL.",
+    "temas": [
+      "PL/pgSQL",
+      "Server Programming",
+      "PL/Python",
+      "Event Triggers",
+      "LISTEN/NOTIFY",
+      "Extensiones C",
+      "Packt",
+      "Lógica en BD"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de eventos reactivos y auditoría con PL/pgSQL y LISTEN/NOTIFY",
+        "descripcion": "Implementación de disparadores que notifican instantáneamente a servicios web externos ante modificaciones en tablas críticas sin sondeo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "postgresql-16-administration-cookbook-2023": {
+    "descripcion": "Recetario moderno y exhaustivo de Gianni Ciolli, Boriss Mejías, Jimmy Angelakos, Vibhor Kumar y Simon Riggs, adaptado por entero a PostgreSQL 16.\n\nLos autores recopilan más de 120 recetas prácticas actualizadas: uso de balanceo de carga de conexiones nativo en libpq, replicación lógica desde nodos en espera (standby servers), optimizaciones de compresión y descompresión de WAL, gestión segura de roles de administración delegados y observabilidad de consultas con pg_stat_io. Ofrece soluciones directas para resolver incidencias habituales en la nube y servidores propios.\n\nLa guía de recetas administrativas contemporánea más completa y autorizada para administradores de PostgreSQL 16.",
+    "temas": [
+      "PostgreSQL 16",
+      "Cookbook",
+      "pg_stat_io",
+      "Replicación Lógica",
+      "libpq Load Balancing",
+      "Simon Riggs",
+      "Gianni Ciolli",
+      "DBA"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "postgis-in-action-2nd-edition-2015": {
+    "descripcion": "Segunda edición ampliamente expandida y actualizada del bestseller de Regina O. Obe y Leo S. Hsu sobre PostGIS 2.x y PostgreSQL 9.x.\n\nLos autores profundizan en el manejo avanzado de datos espaciales: soporte integral para datos ráster (análisis y álgebra de mapas ráster), topologías espaciales para garantizar fronteras geográficas compartidas sin solapamientos, operaciones 3D y de elevación (TIN y Polyhedral Surface), y geocodificación de direcciones con el módulo TIGER Geocoder de EE.UU. Muestra la integración con MapServer, GeoServer y QGIS.\n\nLa obra maestra definitiva y enciclopédica sobre bases de datos geoespaciales, referente mundial indispensable para la comunidad SIG/GIS.",
+    "temas": [
+      "PostGIS 2.0",
+      "Regina Obe",
+      "Leo Hsu",
+      "Ráster",
+      "Topología Espacial",
+      "TIGER Geocoder",
+      "QGIS",
+      "GeoServer"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema territorial avanzado con combinación de capas vectoriales y ráster",
+        "descripcion": "Construcción de una base de datos territorial que cruza imágenes de satélite ráster con polígonos urbanísticos para evaluar riesgos medioambientales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

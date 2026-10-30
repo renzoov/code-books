@@ -1,0 +1,264 @@
+{
+  "learn-salesforce-lightning-2018": {
+    "descripcion": "Guía visual de Felicia Duarte y Rachelle Hoffman, publicada por Apress en 2018. Diseñada para orientar a administradores, analistas de negocio y usuarios comerciales en la transición hacia la interfaz moderna Salesforce Lightning Experience. Planteada como un manual práctico y sumamente visual para optimizar la productividad diaria en la plataforma CRM líder.\n\nEl texto desglosa la anatomía del interfaz Lightning: navegación por barras de aplicaciones, diseño de páginas personalizadas con el Lightning App Builder, gestión avanzada de prospectos (leads), cuentas, contactos y oportunidades de venta. Enseña a configurar vistas de lista basadas en Kanban, diseñar cuadros de mando interactivos e informes dinámicos, y utilizar utilidades de productividad como el asistente de ventas y la integración con correo electrónico.\n\nAcompañada de explicaciones paso a paso y capturas detalladas, la obra permite a los usuarios dominar las funciones nativas sin necesidad de escribir código. Es un manual muy accesible y eficaz para equipos comerciales que adoptan el ecosistema Lightning.",
+    "temas": [
+      "Salesforce Lightning",
+      "Lightning App Builder",
+      "Gestión de CRM",
+      "Tableros Kanban",
+      "Informes y Dashboards",
+      "Productividad de ventas",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3294-1"
+    ]
+  },
+  "practical-guide-to-salesforce-communities-2018": {
+    "descripcion": "Manual especializado de Philip Weinmeister (MVP de Salesforce y referente mundial en desarrollo declarativo), publicado por Apress en 2018. Enseña a diseñar, configurar y desplegar portales colaborativos para clientes, socios y empleados utilizando Salesforce Community Cloud (actualmente Experience Cloud).\n\nEl autor cubre la creación de comunidades mediante Community Builder y plantillas preconfiguradas (Lightning Community Templates), el diseño de páginas personalizadas con componentes Lightning declarativos, y la gestión de la seguridad, perfiles y licencias de usuarios comunitarios. Explica en profundidad cómo compartir datos de negocio de forma segura (casos de soporte, oportunidades de ventas con partners), crear flujos de autoservicio para clientes y aplicar estilos visuales corporativos alineados con la identidad de marca.\n\nA través de casos de uso empresariales reales, el libro muestra cómo transformar Salesforce en un centro de interacción externo altamente interactivo y seguro sin necesidad de desarrollo de código a medida. Es la guía definitiva sobre portales comunitarios en Salesforce.",
+    "temas": [
+      "Salesforce Communities",
+      "Experience Cloud",
+      "Community Builder",
+      "Componentes Lightning",
+      "Portales de autoservicio",
+      "Seguridad y licencias",
+      "Philip Weinmeister",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Comunitario de Soporte al Cliente",
+        "descripcion": "Construcción completa de una comunidad de autoservicio con Lightning Community Builder, base de conocimiento interactiva, gestión de tickets de soporte y personalización de marca."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3640-6",
+      "https://github.com/Apress/practical-guide-salesforce-communities"
+    ]
+  },
+  "practical-salesforce-development-without-code-2nd-edition-2019": {
+    "descripcion": "Segunda edición de la aclamada obra de Philip Weinmeister, publicada por Apress en 2019. Considerada la 'biblia' del desarrollo declarativo ('clicks, not code') en Salesforce, enseña a resolver problemas de negocio complejos aprovechando todas las herramientas nativas de la plataforma sin programar en Apex.\n\nLa obra abarca el modelado de datos declarativo (objetos estándar y personalizados, relaciones maestro-detalle y de búsqueda), reglas de validación avanzadas y campos de fórmula complejos. Dedica un estudio pormenorizado a las herramientas de automatización de procesos: Flow Builder (flujos de pantalla y flujos automáticos), Process Builder, flujos de aprobación y reglas de flujo de trabajo, junto con la construcción de interfaces personalizadas con Lightning App Builder.\n\nEl texto ofrece una metodología rigurosa para evaluar cuándo una solución declarativa es superior al código personalizado y cómo diseñar sistemas mantenibles, auditables y escalables. Es una lectura fundamental para administradores que desean convertirse en desarrolladores declarativos avanzados.",
+    "temas": [
+      "Salesforce Declarativo",
+      "Flow Builder",
+      "Process Builder",
+      "Lightning App Builder",
+      "Modelado de datos",
+      "Reglas de validación",
+      "Clicks Not Code",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema Integral de Automatización de Negocio sin Código",
+        "descripcion": "Diseño de una solución corporativa completa con Flow Builder que automatiza el proceso de admisión de clientes, aprobación de descuentos y generación de registros relacionados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4914-7",
+      "https://github.com/Apress/practical-salesforce-development-without-code-2e"
+    ]
+  },
+  "practical-salesforce-com-development-without-code-2014": {
+    "descripcion": "Primera edición de la influyente guía de Philip Weinmeister, publicada por Apress en 2014. Marcó un hito en la literatura de Salesforce al reivindicar la potencia del desarrollo declarativo frente a la tendencia habitual de programar en exceso con Apex y Visualforce.\n\nEl libro guía al lector a través de las capacidades fundamentales de la plataforma: creación de esquemas de datos personalizados, lógica condicional mediante fórmulas complejas, reglas de validación para garantizar la calidad de los datos y automatización mediante flujos de trabajo tradicionales (Workflow Rules), alertas de correo y procesos de aprobación secuenciales y paralelos. Además, introduce las primeras herramientas de automatización visual de la época.\n\nEl autor ilustra cada concepto con escenarios de negocio de la vida real, explicando las mejores prácticas para estructurar el CRM sin generar deuda técnica. Sentó las bases metodológicas que luego evolucionaron con la llegada del Lightning Experience.",
+    "temas": [
+      "Salesforce.com",
+      "Desarrollo declarativo",
+      "Workflow Rules",
+      "Fórmulas y validaciones",
+      "Procesos de aprobación",
+      "Modelado CRM",
+      "Philip Weinmeister"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Automatización Declarativa de Gestión de Ventas",
+        "descripcion": "Configuración de un flujo de trabajo para la gestión automática del ciclo de vida de oportunidades, con notificaciones por correo y validaciones escalonadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-0098-8"
+    ]
+  },
+  "pro-salesforce-analytics-cloud-2016": {
+    "descripcion": "Tratado técnico especializado de Helen Sun y William Smith, publicado por Apress en 2016. Proporciona una guía integral para implementar y optimizar soluciones de inteligencia de negocio empresarial utilizando Salesforce Analytics Cloud (actualmente Tableau CRM / CRM Analytics), impulsada por el motor 'Wave'. Dirigida a arquitectos de datos y consultores de BI.\n\nLos autores abordan el ciclo de vida completo de la analítica: ingestión y preparación de datos desde múltiples fuentes (internas de Salesforce y externas), diseño de flujos de datos (dataflows) y recetas de transformación, y modelado de conjuntos de datos multidimensionales. Enseña a formular consultas analíticas complejas mediante SAQL (Salesforce Analytics Query Language) y a diseñar cuadros de mando ejecutivos interactivos optimizados para navegación en escritorio y dispositivos móviles.\n\nEl libro combina consideraciones de arquitectura empresarial con ejercicios prácticos sobre casos de uso de ventas y servicios. Es una referencia especializada excelente para quienes diseñan plataformas de analítica predictiva y cuadros de mando en el ecosistema Salesforce.",
+    "temas": [
+      "Salesforce Analytics Cloud",
+      "Tableau CRM / Wave",
+      "SAQL",
+      "Dataflows",
+      "Dashboards interactivos",
+      "Inteligencia de negocio (BI)",
+      "Modelado de datos analítico"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Dashboard Ejecutivo de Rendimiento Comercial en Analytics Cloud",
+        "descripcion": "Construcción de un cuadro de mando interactivo con dataflows personalizados, consultas avanzadas en SAQL y filtros dinámicos para análisis de ventas y cuotas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1322-3",
+      "https://github.com/Apress/pro-salesforce-analytics-cloud"
+    ]
+  },
+  "salesforce-com-lightning-process-builder-and-visual-workflow-2016": {
+    "descripcion": "Guía especializada de Jonathan Keel y Philip Weinmeister, publicada por Apress en 2016. Se centra exclusivamente en el dominio de las dos herramientas declarativas más potentes de Salesforce para la automatización de flujos de trabajo: Lightning Process Builder y Cloud Flow Designer (precursores del actual Flow Builder).\n\nLos autores explican cuándo y cómo utilizar Process Builder para disparar acciones basadas en cambios en los registros (actualizaciones automáticas, creación de tareas, envíos de correo, invocación de otros procesos) y cómo diseñar flujos visuales interactivos guiados por pantalla para usuarios. Abordan la integración entre ambas herramientas, el manejo de bifurcaciones condicionales, la invocación de llamadas externas sin código y la gestión y resolución de errores en tiempo de ejecución.\n\nA través de casos de uso prácticos bien estructurados, el texto enseña a reemplazar código Apex innecesario por procesos visuales limpios y fáciles de mantener por el equipo de administración de Salesforce.",
+    "temas": [
+      "Salesforce Lightning",
+      "Process Builder",
+      "Visual Workflow (Flows)",
+      "Automatización de procesos",
+      "Flujos de pantalla",
+      "Clicks Not Code",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Flujo de Trabajo Automatizado y Asistente de Pantalla",
+        "descripcion": "Diseño de un asistente de flujo interactivo para atención al cliente conectado con Process Builder para actualizar estados y asignar tareas automáticamente."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2370-3",
+      "https://github.com/Apress/salesforce.com-lightning-process-builder-and-visual-workflow"
+    ]
+  },
+  "salesforce-crm-admin-cookbook-2013": {
+    "descripcion": "Recetario técnico de Paul Goodey publicado por Packt en 2013. Reúne más de 90 recetas prácticas orientadas a resolver los retos diarios de configuración, mantenimiento y seguridad a los que se enfrentan los administradores de Salesforce CRM. Orientado a profesionales de soporte y administradores certificados.\n\nLa obra ofrece soluciones inmediatas para optimizar la gestión de usuarios, perfiles y conjuntos de permisos (permission sets), configurar el modelo de seguridad y visibilidad de datos (OWD, roles, reglas de uso compartido), y automatizar reglas de asignación y escalamiento de casos de soporte. Cubre además la carga y depuración masiva de datos mediante Data Loader, la creación de plantillas de correo y la integración de aplicaciones desde el AppExchange.\n\nCada receta sigue la fórmula directa de Packt: definición del problema administrativo, pasos de configuración en la interfaz de Salesforce y explicación del porqué técnico. Es una herramienta de consulta inmediata muy útil para mantener una instancia corporativa de Salesforce organizada y segura.",
+    "temas": [
+      "Salesforce CRM",
+      "Administración",
+      "Seguridad y permisos",
+      "Data Loader",
+      "AppExchange",
+      "Reglas de asignación",
+      "Recetas de configuración",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/salesforce-crm-admin-cookbook-9781849688406",
+      "https://github.com/PacktPublishing/Salesforce-CRM-Admin-Cookbook"
+    ]
+  },
+  "salesforce-essentials-for-administrators-2015": {
+    "descripcion": "Manual formativo de Mohith Shrivastava publicado por Packt en 2015. Diseñado para preparar y dotar de competencias sólidas a administradores de Salesforce, sirviendo a la vez como guía práctica de estudio para las certificaciones oficiales de Salesforce Administrator (ADM 201).\n\nEl temario recorre exhaustivamente los dominios del examen: gestión de organizaciones y compañías, diseño de esquemas de datos relacionales estándar y personalizados, administración de seguridad a nivel de objeto, campo y registro, y creación de automatizaciones mediante reglas de flujo y procesos de aprobación. Detalla asimismo la gestión del ciclo de vida de los datos (importación, exportación, deduplicación) y la elaboración de informes tabulares, resumidos y matriciales con gráficos.\n\nEl texto incluye consejos de examen, escenarios del mundo real y preguntas de autoevaluación al final de cada capítulo. Es un libro de cabecera fundamental para quienes buscan consolidar su carrera profesional como administradores de Salesforce.",
+    "temas": [
+      "Salesforce Administrator",
+      "Certificación ADM 201",
+      "Seguridad y visibilidad",
+      "Gestión de datos",
+      "Informes y dashboards",
+      "Automatización de procesos",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/salesforce-essentials-for-administrators-9781782174097",
+      "https://github.com/PacktPublishing/Salesforce-Essentials-for-Administrators"
+    ]
+  },
+  "salesforce-reporting-and-dashboards-2015": {
+    "descripcion": "Guía especializada de Johan Yu, publicada por Packt en 2015. Se centra de manera monográfica en el diseño, elaboración y optimización de informes y paneles de control (dashboards) en Salesforce, convirtiendo los datos brutos del CRM en información estratégica para la toma de decisiones.\n\nEl autor desglosa los tipos de informes estándar y personalizados, enseñando a formular informes tabulares, de resumen, matriciales y combinados (joined reports). Explica el uso de fórmulas de resumen personalizadas, filtros lógicos y agrupaciones por fecha, así como el diseño de paneles de control ejecutivos con componentes visuales de alto impacto (gráficos de embudo, velocímetros, medidores). Dedica capítulos especiales a la programación de envíos automáticos de informes por correo y a la configuración de la seguridad para que cada usuario visualice únicamente sus métricas autorizadas.\n\nEl texto está lleno de ejemplos prácticos y capturas explicativas orientadas al negocio comercial y de atención al cliente. Es una referencia imprescindible para analistas y administradores encargados de la generación de reportes e inteligencia comercial en Salesforce.",
+    "temas": [
+      "Salesforce Reporting",
+      "Dashboards",
+      "Informes combinados (Joined Reports)",
+      "Fórmulas de resumen",
+      "Inteligencia comercial",
+      "Visualización de datos",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/salesforce-reporting-and-dashboards-9781785285752",
+      "https://github.com/PacktPublishing/Salesforce-Reporting-and-Dashboards"
+    ]
+  },
+  "salesforce-com-customization-handbook-2014": {
+    "descripcion": "Manual práctico de Rakesh Gupta y Sagar Pareek publicado por Packt en 2014. Diseñado para enseñar a administradores y consultores de Salesforce a personalizar y adaptar la plataforma CRM a las necesidades particulares de cada empresa utilizando exclusivamente herramientas nativas sin programación en Apex.\n\nEl contenido abarca la personalización de aplicaciones, objetos y campos, el diseño de esquemas de página personalizados con botones y vínculos de detalle, y la configuración de perfiles y roles para restringir accesos. Explica la automatización de procesos comerciales con reglas de flujo de trabajo, alertas y actualizaciones automáticas de campo, así como la configuración del portal de autoservicio y la consola de servicio (Service Cloud Console) para optimizar la atención de incidencias de soporte.\n\nLos autores estructuran las explicaciones alrededor de escenarios de empresas reales, proporcionando guías paso a paso fáciles de seguir. Es un libro formativo muy adecuado para consolidar habilidades prácticas en la administración y adaptación funcional de Salesforce.",
+    "temas": [
+      "Salesforce Customization",
+      "Service Cloud Console",
+      "Modelado de datos",
+      "Layouts de página",
+      "Workflow Rules",
+      "Consultoría CRM",
+      "Packt"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Personalización Integral de un CRM de Ventas y Soporte",
+        "descripcion": "Configuración completa de un entorno corporativo de Salesforce con objetos personalizados, reglas de asignación automática de casos y consolas optimizadas para agentes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/salesforcecom-customization-handbook-9781783559381",
+      "https://github.com/PacktPublishing/Salesforce.com-Customization-Handbook"
+    ]
+  },
+  "salesforce-com-for-dummies-6th-edition-2016": {
+    "descripcion": "Sexta edición de la popular guía de Jon Paz y Liz Kao, publicada por Wiley en 2016 dentro de la célebre serie 'For Dummies'. Diseñada con un lenguaje cercano y accesible para desmitificar el uso y la gestión de la plataforma Salesforce CRM tanto para usuarios noveles como para administradores en ciernes.\n\nEl libro guía al lector a través de los conceptos esenciales del CRM: navegación en la interfaz clásica y primeras interacciones con Lightning, gestión del embudo de ventas (leads, cuentas, contactos y oportunidades), y seguimiento de casos de atención al cliente. Enseña a personalizar vistas de lista, generar informes y gráficos básicos para reuniones ejecutivas, depurar datos duplicados y utilizar la aplicación móvil de Salesforce para trabajar en movimiento.\n\nFiel al estilo entretenido y pedagógico de la serie, el texto evita tecnicismos innecesarios y ofrece consejos prácticos sobre trampas comunes y trucos de productividad. Es la puerta de entrada perfecta para cualquier usuario comercial o administrativo que se enfrenta a Salesforce por primera vez.",
+    "temas": [
+      "Salesforce.com",
+      "CRM para principiantes",
+      "Embudo de ventas",
+      "Gestión de cuentas y leads",
+      "Informes básicos",
+      "Salesforce Mobile",
+      "Wiley For Dummies"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Salesforce+com+For+Dummies%2C+6th+Edition-p-9781119239314",
+      "https://www.dummies.com/"
+    ]
+  }
+}

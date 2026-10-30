@@ -1,0 +1,321 @@
+{
+  "beginning-blockchain-2018": {
+    "descripcion": "Guía técnica e introductoria publicada por Apress en 2018 que desmitifica los fundamentos de la tecnología de registros distribuidos sin limitarse a la especulación financiera. Los autores estructuran el contenido para desarrolladores de software, arquitectos técnicos y estudiantes que poseen nociones básicas de programación y redes, pero que parten desde cero en el paradigma de la descentralización.\n\nEl libro desglosa de manera rigurosa los pilares criptográficos que sustentan una cadena de bloques: funciones hash SHA-256, árboles de Merkle, criptografía de clave asimétrica y firmas digitales. Examina en detalle los mecanismos de consenso distribuido (Proof of Work, Proof of Stake, DPoS y PBFT) y la arquitectura interna de Bitcoin (modelo UTXO, minería, scripts y transacciones) y Ethereum (máquina virtual EVM, cuentas y gas). En su vertiente práctica, enseña a programar scripts en Node.js con la librería bitcoinjs-lib para crear y firmar transacciones de Bitcoin, a configurar redes privadas de Ethereum desde la consola con Go-Ethereum (geth) y archivos genesis.json, a redactar contratos inteligentes básicos en Solidity y a conectarlos a una interfaz web mediante Web3.js.\n\nEn la parte práctica se despliega una red privada local con geth y se desarrolla una aplicación descentralizada (DApp) elemental de extremo a extremo, complementada con ejercicios de interacción programática con Bitcoin. La gran aportación de la obra es su solidez teórica y claridad conceptual para entender cómo encajan las piezas matemáticas y distribuidas antes de picar código. Como punto a tener en cuenta, las versiones de Solidity y librerías auxiliares corresponden al estándar de 2018 (previas a Solidity 0.5), por lo que ciertas llamadas de la API de Web3.js y sintaxis de contratos deben cotejarse con la documentación moderna si se busca llevar proyectos a producción.",
+    "temas": [
+      "Blockchain",
+      "Bitcoin",
+      "Ethereum",
+      "Solidity",
+      "Criptografía",
+      "Geth",
+      "Web3.js",
+      "Node.js",
+      "bitcoinjs-lib",
+      "Mecanismos de consenso",
+      "DApps"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Red privada y DApp en Ethereum",
+        "descripcion": "Configuración y puesta en marcha de un entorno blockchain privado usando Go-Ethereum (geth) y genesis.json, sobre el cual se compila, despliega y consume un contrato inteligente en Solidity a través de Web3.js y Node.js."
+      },
+      {
+        "nombre": "Gestor de transacciones Bitcoin con bitcoinjs-lib",
+        "descripcion": "Desarrollo de scripts en Node.js para generar pares de claves criptográficas, calcular direcciones públicas y construir, firmar y emitir transacciones en la red de pruebas de Bitcoin."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3444-0",
+      "https://www.oreilly.com/library/view/beginning-blockchain/9781484234440/",
+      "https://github.com/Apress/beginning-blockchain"
+    ]
+  },
+  "beginning-ethereum-smart-contracts-programming-2019": {
+    "descripcion": "Manual práctico y pedagógico en el que Wei-Meng Lee introduce el desarrollo de contratos inteligentes en la plataforma Ethereum (orientado al estado del ecosistema en 2019 con Solidity 0.5.x y Web3.js 1.x). Está pensado para desarrolladores principiantes en Web3 que ya cuenten con conocimientos básicos de programación en Python o JavaScript y busquen una ruta accesible y libre de complejidades excesivas para empezar a programar en la cadena de bloques.\n\nEl temario arranca construyendo una cadena de bloques didáctica en Python para asimilar de forma visual el encadenamiento de bloques por hash y la prueba de trabajo (Proof of Work). Posteriormente, se adentra en Ethereum: explica cómo conectarse a la red mediante clientes y consolas, cómo configurar un entorno de pruebas privado local y el uso de la extensión MetaMask. En el apartado de contratos inteligentes, instruye en la sintaxis de Solidity mediante el entorno Remix IDE, el despliegue y pruebas locales con Ganache, la gestión de eventos de contratos, el consumo de funciones desde el frontend con la API de Web3.js y la implementación del estándar de tokens fungibles ERC-20.\n\nEl aprendizaje se articula a través de implementaciones guiadas paso a paso, culminando en la creación de una blockchain propia en Python, la emisión de un token ERC-20 y una aplicación descentralizada de lotería en línea que conecta la lógica en Solidity con una interfaz web. Su mayor valor reside en su enfoque multidisciplinar que combina Python y JavaScript, permitiendo entender la mecánica interna antes de aislarse en Solidity. Su principal limitación es que tanto la versión del compilador de Solidity como las APIs de Web3.js y MetaMask han evolucionado notablemente (introduciendo cambios disruptivos en llamadas asíncronas y tipado estricto), aspecto que conviene tener presente al adaptar el código a versiones contemporáneas.",
+    "temas": [
+      "Ethereum",
+      "Solidity",
+      "Python",
+      "JavaScript",
+      "Web3.js",
+      "MetaMask",
+      "Ganache",
+      "Remix IDE",
+      "Tokens ERC-20",
+      "Smart Contracts",
+      "DApps"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Blockchain didáctica en Python",
+        "descripcion": "Implementación desde cero de una cadena de bloques funcional en Python que modela transacciones, encadenamiento mediante funciones hash y el algoritmo de consenso Proof of Work."
+      },
+      {
+        "nombre": "Lotería en línea descentralizada (Online Lottery)",
+        "descripcion": "Aplicación descentralizada completa compuesta por un contrato en Solidity que administra compras de boletos y selección aleatoria del ganador, conectada a una interfaz web mediante Web3.js y MetaMask."
+      },
+      {
+        "nombre": "Contrato de token ERC-20",
+        "descripcion": "Codificación, verificación y despliegue de un contrato inteligente de token fungible personalizado cumpliendo con las especificaciones del estándar ERC-20 en una red de prueba."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5086-0",
+      "https://www.oreilly.com/library/view/beginning-ethereum-smart/9781484250860/",
+      "https://github.com/Apress/beg-ethereum-smart-contracts-prog"
+    ]
+  },
+  "blockchain-enabled-applications-2017": {
+    "descripcion": "Tratado conceptual, arquitectónico y estratégico escrito en 2017 por Vikram Dhillon, David Metcalf y Max Hooper que explora el ecosistema de blockchain más allá de su faceta como moneda virtual. Está dirigido a arquitectos de software, consultores tecnológicos, directores de innovación (CIOs/CTOs) y desarrolladores de nivel intermedio que necesitan evaluar la viabilidad técnica y empresarial de implantar registros distribuidos en organizaciones reales.\n\nEl texto ofrece un análisis riguroso de la génesis de Bitcoin tras la crisis financiera de 2008, los algoritmos de consenso y el hardware de minería, para luego adentrarse en la arquitectura de la máquina virtual de Ethereum (EVM) y el desarrollo de contratos con Solidity. Destaca por su cobertura de las Organizaciones Autónomas Descentralizadas (DAOs), incluyendo una autopsia técnica detallada del hackeo a «The DAO» en 2016 y la vulnerabilidad de reentrada. Además, examina marcos empresariales y consorcios como Hyperledger (Fabric y Sawtooth), plataformas de Blockchain-as-a-Service (BaaS) en Microsoft Azure e IBM Cloud, aplicaciones de computación de alto rendimiento (grid computing con proyectos como Golem) y la integración de registros distribuidos en ciencia abierta (Open Science) y expedientes médicos en salud.\n\nDado su carácter arquitectónico, el libro no incluye proyectos de programación paso a paso ni ejercicios de código guiados, sino esquemas de integración de sistemas, comparativas técnicas y el diseño conceptual para la creación de un consorcio sanitario. Su gran aportación es el marco metodológico «Lean Blockchain», que enseña a discernir cuándo un caso de uso requiere verdaderamente una cadena de bloques y cuándo basta con una base de datos distribuida convencional. Debe leerse como un manual de arquitectura, patrones de diseño y gobernanza, teniendo en cuenta que las ofertas en la nube y versiones de protocolos de 2017 han madurado y variado con los años.",
+    "temas": [
+      "Arquitectura Blockchain",
+      "Ethereum",
+      "Solidity",
+      "EVM",
+      "Hyperledger Fabric",
+      "DAOs",
+      "The DAO Hack",
+      "Sector salud",
+      "Consorcios empresariales",
+      "Blockchain-as-a-Service",
+      "Gobernanza"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3081-7",
+      "https://www.oreilly.com/library/view/blockchain-enabled-applications/9781484230817/"
+    ]
+  },
+  "ethereum-for-architects-and-developers-2019": {
+    "descripcion": "Guía técnica y metodológica publicada por Apress a finales de 2018 (catalogada con copyright 2019) en la que Debajani Mohanty aborda Ethereum desde una óptica de diseño de soluciones de nivel corporativo. Está orientada a arquitectos de software, diseñadores de sistemas y desarrolladores experimentados con conocimientos sólidos de programación orientada a objetos y arquitectura web que necesitan diseñar, desplegar y escalar aplicaciones descentralizadas (DApps) seguras.\n\nA nivel temático y práctico, la autora analiza en profundidad la arquitectura interna de Ethereum: la máquina virtual (EVM), el árbol de estado, la contabilidad y optimización del consumo de gas, y la seguridad en Solidity. Detalla el flujo de trabajo con herramientas como Remix, Geth, Ganache y MetaMask, la integración frontend con Web3.js, y el uso de los frameworks de compilación y orquestación Truffle y Embark. Sobresale su cobertura de tecnologías complementarias esenciales para la descentralización real: almacenamiento distribuido de ficheros con IPFS, inyección de datos del mundo exterior mediante el oráculo Oraclize (ahora Provable) y la formulación de pruebas unitarias automatizadas con Mocha y Chai.\n\nEl texto trasciende los ejercicios básicos al plantear casos de estudio arquitectónicos acompañados de contratos en Solidity para sectores reales: un sistema de registro de la propiedad inmobiliaria (Land Registry), trazabilidad en cadenas de suministro (Supply Chain), liquidación de pólizas de seguros y gestión de viajes. Su mayor fortaleza radica en que aborda decisiones críticas de producción (costes de transacción, almacenamiento off-chain y resiliencia ante vulnerabilidades). Es conveniente considerar que servicios como Oraclize han cambiado de nombre y los frameworks de compilación han incrementado sus versiones, pero los patrones de diseño y las pautas arquitectónicas se mantienen plenamente vigentes como referencia formativa.",
+    "temas": [
+      "Ethereum",
+      "Solidity",
+      "Arquitectura de software",
+      "Truffle",
+      "Embark",
+      "Web3.js",
+      "IPFS",
+      "Oraclize",
+      "Smart Contracts",
+      "Casos de estudio",
+      "Testing con Mocha"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de registro inmobiliario (Land Registry)",
+        "descripcion": "Diseño e implementación de un contrato inteligente en Solidity para gestionar de forma inmutable la titularidad, transferencias de propiedad y verificación de fincas sin intermediarios centrales."
+      },
+      {
+        "nombre": "DApp con almacenamiento IPFS y oráculo externo",
+        "descripcion": "Aplicación descentralizada que almacena documentos y activos fuera de la cadena mediante IPFS y consulta datos externos en tiempo real mediante el oráculo Oraclize para desencadenar lógica contractual."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4075-5",
+      "https://www.oreilly.com/library/view/ethereum-for-architects/9781484240991/",
+      "https://github.com/Apress/ethereum-for-architects-and-developers"
+    ]
+  },
+  "the-blockchain-developer-2019": {
+    "descripcion": "Extensa obra técnica de más de 500 páginas escrita por Elad Elrom en 2019 para desarrolladores que desean dominar la programación en blockchain desde un enfoque práctico y multiplataforma. Está pensada para programadores frontend y full-stack con conocimientos de JavaScript o TypeScript que desean ingresar al desarrollo Web3 aprendiendo a construir cadenas desde cero, programar contratos y crear interfaces de usuario robustas.\n\nEl núcleo del libro recorre el funcionamiento de los nodos y redes descentralizadas, e instruye al lector en el desarrollo práctico en cinco grandes ecosistemas: Bitcoin (interacción con Bitcoin Core, billeteras y transacciones mediante API RPC), Ethereum (Solidity, Truffle, Ganache y estándares de tokens ERC-20 y ERC-721), EOS.IO (contratos en C++ y herramientas de consola cleos/nodeos), NEO (contratos inteligentes compilados sobre NEO VM) y Hyperledger Fabric (cadenas permisionadas empresariales, Docker y chaincode). En la capa cliente, dedica secciones completas a la integración con Angular y TypeScript, conectando componentes UI con smart contracts mediante Web3.js, Truffle y la extensión MetaMask, abordando además directrices de seguridad, auditoría y cumplimiento normativo.\n\nLa propuesta práctica destaca por la construcción de una cadena de bloques funcional P2P en TypeScript con WebSockets y el desarrollo completo de una DApp con Angular que gestiona transacciones y lectura de estado en la blockchain de Ethereum. Su valor diferencial reside en evitar el monocultivo de Ethereum, ofreciendo una visión comparada entre redes públicas y permisionadas y dando al desarrollo del frontend la relevancia que merece en una aplicación real. Como contrapartida, la amplitud del temario hace que las secciones de NEO o EOS sean introductorias frente al bloque de Ethereum, y frameworks como Angular o herramientas de despliegue han avanzado de versión, por lo que el lector debe adaptar ciertas dependencias en proyectos actuales.",
+    "temas": [
+      "Blockchain",
+      "Ethereum",
+      "Solidity",
+      "Angular",
+      "TypeScript",
+      "Bitcoin",
+      "Hyperledger Fabric",
+      "EOS.IO",
+      "NEO",
+      "Truffle",
+      "Web3.js",
+      "MetaMask"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Red blockchain P2P en TypeScript",
+        "descripcion": "Implementación desde cero con Node.js y TypeScript de una cadena de bloques que gestiona bloques criptográficos, validación de transacciones y comunicación distribuida mediante WebSockets."
+      },
+      {
+        "nombre": "DApp cliente completa con Angular y MetaMask",
+        "descripcion": "Aplicación web desarrollada con Angular y TypeScript conectada a contratos inteligentes en Ethereum mediante Web3.js y Truffle, integrando MetaMask para la firma de transacciones."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4847-8",
+      "https://www.oreilly.com/library/view/the-blockchain-developer/9781484248478/",
+      "https://github.com/Apress/the-blockchain-developer"
+    ]
+  },
+  "building-ethereum-dapps-2019": {
+    "descripcion": "Guía práctica orientada a la ingeniería de software descentralizado en la que Roberto Infante conduce al lector por el ciclo completo de desarrollo de aplicaciones descentralizadas (DApps) sobre la cadena de bloques de Ethereum. La obra se sitúa en el ecosistema técnico de finales de la década de 2010 (con versiones de Solidity 0.4.x/0.5.x y Web3.js 1.0) y está dirigida a desarrolladores web e ingenieros de software con nivel intermedio en JavaScript o en algún lenguaje orientado a objetos. No exige experiencia previa en criptografía ni en arquitectura blockchain, aunque sí presupone soltura creando interfaces web y consumiendo APIs.\n\nEl texto aborda de manera sistemática tanto el backend descentralizado como la capa de presentación. Enseña a programar contratos inteligentes con Solidity, cubriendo tipos de datos, estructuras de control, modificadores de función, eventos, contratos abstractos e interfaces. En el plano de las herramientas del ecosistema, introduce el entorno de desarrollo Truffle para compilar, migrar y gestionar el ciclo de vida de los contratos, Ganache como red local de pruebas, la librería Mocha para pruebas unitarias automatizadas y Web3.js para comunicar la lógica en cadena con interfaces de usuario en JavaScript mediante MetaMask. Asimismo, profundiza en patrones de seguridad fundamentales para proteger los contratos contra ataques de reentrada (reentrancy) y desbordamientos numéricos.\n\nA lo largo de los capítulos se construyen ejemplos prácticos que culminan en el desarrollo de dos proyectos centrales: el contrato de criptoactivo SimpleCoin y una aplicación completa de votación descentralizada (Voting Dapp) con interfaz web y pruebas automatizadas. El mayor mérito del libro radica en conectar los contratos inteligentes con una interfaz frontend real, cubriendo el ciclo completo que habitualmente queda fragmentado en tutoriales dispersos. Conviene tener presente que, al datar de 2019, varias librerías y versiones de Solidity han evolucionado notablemente (en especial la transición comunitaria hacia Hardhat, Foundry y Ethers.js), por lo que el lector actual deberá centrarse en los patrones de arquitectura y adaptar la sintaxis a los estándares contemporáneos.",
+    "temas": [
+      "Ethereum",
+      "Solidity",
+      "DApps",
+      "Web3.js",
+      "Truffle",
+      "Ganache",
+      "Mocha",
+      "MetaMask",
+      "Smart contracts",
+      "Seguridad blockchain"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "SimpleCoin",
+        "descripcion": "Contrato inteligente de criptomoneda didáctica desarrollado en Solidity que gestiona saldos, acuñación y transferencias entre cuentas, validado mediante pruebas unitarias en Mocha y Truffle."
+      },
+      {
+        "nombre": "Voting Dapp (SimpleVoting)",
+        "descripcion": "Aplicación descentralizada completa de votación que integra un contrato inteligente para el registro y recuento de votos con una interfaz web interactiva conectada a través de Web3.js y MetaMask."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/building-ethereum-dapps",
+      "https://www.oreilly.com/library/view/building-ethereum-dapps/9781617295157/",
+      "https://www.amazon.com/Building-Ethereum-Dapps-Decentralized-applications/dp/1617295159"
+    ]
+  },
+  "bitcoin-for-the-befuddled-2014": {
+    "descripcion": "Obra divulgativa e introductoria en la que Chris Wilmer y Conrad Barski desmitifican el funcionamiento de Bitcoin y la tecnología de cadena de bloques que lo sustenta, situándose en el protocolo Bitcoin de 2014. El libro está concebido para lectores principiantes, curiosos tecnológicos o programadores que se sienten desorientados ante la densa jerga técnica y económica de las criptomonedas. No requiere conocimientos previos de criptografía ni de finanzas avanzadas, pues parte de conceptos elementales y recurre a un tono desenfadado acompañado de metáforas visuales y cómics ilustrados por el propio Barski.\n\nEl contenido desglosa con claridad pedagógica cómo opera la red Bitcoin de igual a igual (P2P), el libro de contabilidad distribuido, el mecanismo de consenso por prueba de trabajo (Proof of Work) y la minería. Explica los fundamentos matemáticos de la criptografía de clave asimétrica (claves públicas y privadas), las funciones hash criptográficas como SHA-256 y la generación de direcciones. En el ámbito práctico, enseña a operar con carteras digitales de software, estrategias de almacenamiento en frío (cold storage), generación de monederos en papel (paper wallets) y transacciones multifirma (multisig). En sus apéndices técnicos finales, muestra cómo interactuar programáticamente con la red mediante un script introductorio en JavaScript (\"Hello Money!\") y una guía sobre la librería BitcoinJ en Java.\n\nEl libro no plantea el desarrollo de aplicaciones completas, sino experimentos guiados para crear y proteger monederos, verificar transacciones y ejecutar scripts básicos de consulta en la red. Su principal valor reside en hacer transparentes conceptos abstractos y complejos sin recurrir a un formalismo matemático intimidante, ofreciendo una sólida comprensión intuitiva de la arquitectura original de Bitcoin. Como limitación temporal, fue publicado antes de importantes hitos del protocolo como SegWit, las direcciones nativas SegWit o la red Lightning, por lo que debe abordarse como un texto conceptual de fundamentos y contexto histórico más que como un manual de desarrollo moderno.",
+    "temas": [
+      "Bitcoin",
+      "Blockchain",
+      "Criptografía asimétrica",
+      "SHA-256",
+      "Minería y consenso",
+      "Proof of Work",
+      "Monederos digitales",
+      "Cold storage",
+      "Paper wallets",
+      "BitcoinJ",
+      "JavaScript"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/bitcoin",
+      "https://www.oreilly.com/library/view/bitcoin-for-the/9781492019978/",
+      "https://www.amazon.com/Bitcoin-Befuddled-Chris-Wilmer/dp/1593275730"
+    ]
+  },
+  "mastering-ethereum-2018": {
+    "descripcion": "Tratado técnico exhaustivo de referencia sobre la arquitectura e ingeniería de la plataforma Ethereum, escrito conjuntamente por Andreas M. Antonopoulos y el cofundador de Ethereum, Gavin Wood. La obra refleja el ecosistema técnico posterior a la bifurcación Homestead y previo a la transición a Proof of Stake (alrededor de 2018, abarcando versiones de Solidity 0.4.x/0.5.x y Vyper temprano). Está dirigida a desarrolladores experimentados, arquitectos de software, auditores y especialistas en seguridad que cuenten con una base sólida en programación (JavaScript, Python o C++), comprensión de sistemas distribuidos y fundamentos de criptografía y redes.\n\nEl texto profundiza en la estructura y funcionamiento interno de Ethereum: la Máquina Virtual de Ethereum (EVM), códigos de operación (opcodes), cálculo de gas y transición de estados del libro mayor global. Enseña programación de contratos inteligentes tanto en Solidity como en Vyper, abarcando estándares de tokens (ERC-20, ERC-721), oráculos de datos, clientes de red (Geth y Parity), criptografía de curvas elípticas (secp256k1 y keccak256), billeteras deterministas jerárquicas (BIP-32, BIP-39, BIP-44) y transacciones firmadas. Asimismo, cubre el ecosistema de aplicaciones descentralizadas utilizando Web3.js, Truffle y redes de almacenamiento y comunicación P2P como IPFS, Swarm y Whisper, dedicando un capítulo crucial al análisis de seguridad y mitigación de vulnerabilidades (ataques de reentrada, límites de gas y desbordamientos numéricos).\n\nA través del texto se analizan e implementan contratos y componentes fundamentales, destacando un contrato dispensador de éter (Faucet) y su extensión como token ERC-20 con distribución automatizada (METoken y METFaucet), además de patrones de arquitectura descentralizada. Se trata de una de las obras más rigurosas y autorizadas sobre el funcionamiento interno de la EVM y la ingeniería de protocolos Web3. Aunque el lector contemporáneo debe tener presente que Ethereum migró de Proof of Work a Proof of Stake (\"The Merge\") y que herramientas como Truffle han sido sucedidas por Hardhat y Foundry, el libro continúa siendo un pilar conceptual insustituible para comprender a fondo cómo opera la máquina de estados de Ethereum.",
+    "temas": [
+      "Ethereum",
+      "EVM",
+      "Solidity",
+      "Vyper",
+      "Smart contracts",
+      "ERC-20",
+      "ERC-721",
+      "Web3.js",
+      "Geth",
+      "Seguridad y auditoría",
+      "Criptografía secp256k1",
+      "Truffle"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "METoken (Mastering Ethereum Token)",
+        "descripcion": "Implementación didáctica completa de un token fungible bajo el estándar ERC-20 en Solidity, demostrando funciones de emisión, transferencias y delegación de saldo."
+      },
+      {
+        "nombre": "METFaucet",
+        "descripcion": "Contrato dispensador automatizado de tokens que implementa los métodos approve y transferFrom para suministrar cuotas controladas de METoken a usuarios que interactúan con la red de pruebas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/mastering-ethereum/9781491971932/",
+      "https://github.com/ethereumbook/ethereumbook",
+      "https://www.amazon.com/Mastering-Ethereum-Building-Smart-Contracts/dp/1491971940"
+    ]
+  },
+  "blockchain-for-dummies-2nd-edition-2019": {
+    "descripcion": "Manual de iniciación general en el que la emprendedora tecnológica Tiana Laurence explica de forma accesible qué es la tecnología de cadena de bloques y cuál es su impacto estratégico en diversas industrias, en una segunda edición actualizada a 2019. El libro está orientado a perfiles comerciales, consultores, gerentes de proyectos, entusiastas y estudiantes que deseen asimilar los principios de blockchain sin necesidad de contar con formación previa en programación, criptografía o matemáticas avanzadas.\n\nEl texto analiza el funcionamiento básico de los libros mayores distribuidos (ledgers), las redes descentralizadas y los mecanismos de consenso como Proof of Work y Proof of Stake. Realiza un recorrido comparativo por las cadenas públicas principales como Bitcoin, Ethereum y Ripple (XRP), al tiempo que examina soluciones corporativas permisionadas como Hyperledger Fabric, Microsoft Azure Blockchain Workbench e IBM Blockchain Platform. En su faceta práctica, enseña a dar los primeros pasos configurando carteras digitales (MetaMask, Jaxx), creando billeteras frías en papel, interactuando con dApps tempranas como CryptoKitties y levantando un entorno privado de Ethereum mediante contenedores Docker, además de delinear los conceptos para concebir un token ERC-20 y una organización autónoma descentralizada (DAO).\n\nLa obra ofrece tutoriales guiados para adquirir familiaridad con carteras, transacciones y la puesta en marcha de nodos locales básicos, priorizando la visión estratégica sobre la escritura de código complejo. Su principal virtud reside en proporcionar un marco de análisis claro para determinar cuándo una empresa realmente necesita una blockchain frente a una base de datos tradicional, analizando casos de uso en finanzas, seguros, trazabilidad en cadenas de suministro y sector público. Al tratarse de un texto divulgativo de nivel elemental, deja completamente de lado el diseño profundo de contratos inteligentes, la optimización de gas y la auditoría de seguridad, funcionando como un mapa de orientación conceptual y de negocio.",
+    "temas": [
+      "Blockchain",
+      "Bitcoin",
+      "Ethereum",
+      "Ripple",
+      "Hyperledger",
+      "Smart contracts",
+      "Docker",
+      "MetaMask",
+      "Consenso distribuido",
+      "Cadena de suministro",
+      "Tokens ERC-20"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Blockchain+For+Dummies%2C+2nd+Edition-p-9781119555018",
+      "https://www.oreilly.com/library/view/blockchain-for-dummies/9781119555018/",
+      "https://www.amazon.com/Blockchain-Dummies-Computer-Tech/dp/111955501X"
+    ]
+  },
+  "mastering-bitcoin-2nd-edition-2017": {
+    "descripcion": "Guía técnica canónica escrita por Andreas M. Antonopoulos que describe con rigor de ingeniería la arquitectura, los componentes criptográficos y el protocolo de la red Bitcoin. Esta segunda edición de 2017 incorpora importantes novedades del protocolo, especialmente el despliegue de Segregated Witness (SegWit), y está destinada a desarrolladores de software, ingenieros de sistemas, arquitectos de infraestructura y profesionales de seguridad. Para aprovecharla al máximo, se requiere fluidez en al menos un lenguaje de programación moderno (preferentemente Python o C++), manejo fluido de terminales Linux/Unix y familiaridad con conceptos elementales de redes TCP/IP y criptografía.\n\nEl libro examina la implementación de referencia Bitcoin Core (bitcoind y bitcoin-cli) y su consumo mediante la API JSON-RPC. Enseña a fondo la criptografía de curvas elípticas (secp256k1), funciones de dispersión (SHA-256, RIPEMD-160), formatos de direcciones (Base58Check y Bech32) y carteras jerárquicas deterministas según los estándares BIP-32, BIP-39 y BIP-44. Explica la estructura de las transacciones (entradas, salidas, UTXO, timelocks), el lenguaje de pila Bitcoin Script (scripts de bloqueo y desbloqueo, direcciones P2PKH y P2SH, multifirma) y el funcionamiento interno de SegWit para erradicar la maleabilidad de transacciones. Además, detalla el protocolo de red peer-to-peer, la conformación de bloques mediante árboles de Merkle, el consenso por minería y prueba de trabajo, la seguridad de nodos y la arquitectura preliminar de canales de pago y Lightning Network.\n\nA través de scripts en Python (utilizando herramientas como python-bitcoinlib y pycoin) y comandos de consola, el autor enseña a consultar nodos de la red, derivar claves y direcciones paso a paso, y ensamblar, serializar y firmar transacciones crudas directamente sin depender de carteras comerciales. Constituye la obra fundacional y de mayor referencia sobre la ingeniería técnica de Bitcoin. Conviene saber que no incluye desarrollos activados posteriormente, como las firmas Schnorr y la actualización Taproot (2021) o los protocolos de inscripción sobre satoshis, pero continúa siendo el texto definitivo e indispensable para comprender la base tecnológica y matemática de la red Bitcoin.",
+    "temas": [
+      "Bitcoin",
+      "Bitcoin Core",
+      "SegWit",
+      "Bitcoin Script",
+      "UTXO",
+      "Criptografía secp256k1",
+      "SHA-256",
+      "HD Wallets",
+      "Python",
+      "JSON-RPC",
+      "Proof of Work",
+      "Lightning Network"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/mastering-bitcoin-2nd/9781491954379/",
+      "https://github.com/bitcoinbook/bitcoinbook",
+      "https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain/dp/1491954388"
+    ]
+  }
+}

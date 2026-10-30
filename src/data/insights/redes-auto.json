@@ -1,0 +1,727 @@
+{
+  "network-programming-with-go-2017": {
+    "descripcion": "Guía práctica y formativa orientada a la programación de redes y sistemas distribuidos utilizando el lenguaje Go (Golang). El libro está concebido para desarrolladores de software con conocimientos básicos a intermedios de Go (sintaxis elemental, estructuras, tipos y uso básico de goroutines) que quieran comprender a fondo cómo interactúan los sistemas a través de la red, abarcando desde las capas de transporte de bajo nivel hasta servicios web y protocolos de aplicación contemporáneos.\n\nEl recorrido formativo parte de los conceptos del modelo OSI y la pila TCP/IP, para luego profundizar en el paquete estándar net de Go, abordando interfaces de red, resolución de nombres DNS, máscaras y sockets de flujo (TCP) y datagramas (UDP). Enseña técnicas de serialización y empaquetado de datos mediante formatos como JSON, XML, el formato binario nativo gob y Protocol Buffers, así como la gestión adecuada de juegos de caracteres UTF-8. En las capas superiores, profundiza en el uso de net/http para la construcción de clientes y servidores web, generación dinámica con html/template y text/template, seguridad y cifrado mediante TLS/HTTPS con certificados X.509, llamadas a procedimientos remotos con net/rpc y JSON-RPC, y el uso de canales de red.\n\nEl texto sigue un enfoque estructurado en torno a ejemplos funcionales y proyectos prácticos que el lector puede ejecutar y modificar directamente, como servidores de eco, servicios de sincronización horaria o un servidor web modular con soporte para servicios de consulta. No contiene tareas ni ejercicios académicos al final de los temas, pero su virtud principal consiste en enseñar cómo resolver problemas de red utilizando la biblioteca estándar y el modelo de concurrencia nativo de Go sin sobrecargar la solución con dependencias externas. Conviene tener familiaridad con la terminal de comandos y fundamentos de redes cliente-servidor.",
+    "temas": [
+      "Go (Golang)",
+      "Sockets TCP y UDP",
+      "Paquete net",
+      "net/http",
+      "Serialización (JSON, GOB, Protobuf)",
+      "TLS / HTTPS",
+      "RPC y JSON-RPC",
+      "html/template",
+      "Resolución DNS",
+      "Concurrencia con Goroutines"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidores y clientes de sockets concurrentes (Daytime y Echo)",
+        "descripcion": "Implementación de clientes y servidores de prueba sobre TCP y UDP utilizando el paquete net para la consulta horaria y la transmisión concurrente de mensajes."
+      },
+      {
+        "nombre": "Servidor web completo con contenido dinámico y servicios",
+        "descripcion": "Aplicación de servidor HTTP desarrollada con net/http y plantillas dinámicas que despacha archivos estáticos y ofrece un diccionario de términos y tarjetas de estudio (flashcards)."
+      },
+      {
+        "nombre": "Servicio de llamada a procedimientos remotos (RPC y JSON-RPC)",
+        "descripcion": "Arquitectura cliente-servidor para invocación remota de métodos a través de TCP y HTTP utilizando el paquete rpc de Go y serialización estructurada."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2692-6",
+      "https://www.amazon.com/Network-Programming-Go-Jan-Newmarch/dp/1484226917",
+      "https://github.com/jan-newmarch/network-programming-with-go"
+    ]
+  },
+  "java-network-programming-4th-edition-2013": {
+    "descripcion": "Tratado técnico y referente clásico sobre programación de comunicaciones en red en el ecosistema Java (adaptado para Java 7 y principios de Java 8 en su 4.ª edición). Escrito por Elliotte Rusty Harold, está dirigido a programadores Java de nivel básico a intermedio que posean soltura con la sintaxis del lenguaje, la programación orientada a objetos y las colecciones estándar, y deseen aprender a desarrollar aplicaciones interconectadas comprendiendo en detalle los protocolos y las capas de red subyacentes.\n\nLa obra cimenta las bases teóricas de la arquitectura de Internet y el flujo de datos mediante la API de I/O de Java (InputStream, OutputStream, streams de filtrado y buffers), junto con los conceptos esenciales de multihilo y concurrencia (Thread, Runnable, pools y ExecutorService). A continuación, enseña a resolver direcciones y nombres de host con InetAddress, y a gestionar recursos en la web mediante las clases URI, URL y URLConnection, prestando especial atención a las particularidades del protocolo HTTP (métodos, cookies, cabeceras y servicios REST). El núcleo del texto examina la programación de sockets cliente y servidor TCP (Socket y ServerSocket), conexiones seguras con SSL/TLS (JSSE), operaciones no bloqueantes de alto rendimiento mediante Java NIO (ByteBuffer, Channels y Selectors), paquetes UDP (DatagramPacket y DatagramSocket) y comunicación por multidifusión con MulticastSocket.\n\nEl aprendizaje se articula a través del desarrollo de programas reales de red: herramientas de sondeo, clientes de descarga y rastreo web, servidores de eco concurrentes y un servidor web HTTP completo capaz de despachar archivos y redirecciones. No incluye problemas ni ejercicios teóricos de autoevaluación al final de los capítulos, pero destaca por la solidez y el rigor de su código fuente frente a casos de latencia y saturación. Constituye una base imprescindible para comprender la fontanería de red de la JVM antes de adoptar frameworks de alto nivel como Netty o Spring Boot.",
+    "temas": [
+      "Java SE",
+      "Sockets TCP (Socket y ServerSocket)",
+      "Java NIO (Channels y Selectors)",
+      "Datagramas UDP",
+      "Multicast (MulticastSocket)",
+      "HTTP y URLConnection",
+      "SSL / TLS (JSSE)",
+      "InetAddress",
+      "Concurrencia (ExecutorService)",
+      "I/O Streams"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor web HTTP multihilo",
+        "descripcion": "Servidor HTTP desarrollado con ServerSocket y pools de hilos concurrentes, capaz de servir archivos estáticos, responder con cabeceras MIME y gestionar redirecciones."
+      },
+      {
+        "nombre": "Servidor y cliente no bloqueante con Java NIO",
+        "descripcion": "Implementación de alta concurrencia que multiplexa múltiples canales de conexión sobre un único hilo utilizando selectores, búferes y canales no bloqueantes."
+      },
+      {
+        "nombre": "Rastreador y descargador de recursos web",
+        "descripcion": "Herramienta cliente desarrollada con URL y URLConnection que analiza y descarga contenidos de Internet, procesando cabeceras de respuesta y cookies."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/java-network-programming/9781449365936/",
+      "https://www.amazon.com/Java-Network-Programming-Developing-Applications/dp/1449357679",
+      "https://www.cafeaulait.org/books/jnp4/"
+    ]
+  },
+  "learning-network-programming-with-java-2016": {
+    "descripcion": "Manual introductorio y didáctico centrado en el desarrollo de aplicaciones distribuidas y de red utilizando Java (Java 8). La obra de Richard M. Reese está orientada a desarrolladores con un nivel básico o intermedio en Java que conocen la programación orientada a objetos pero nunca han trabajado con programación de red, ofreciendo un itinerario progresivo y accesible para conectar aplicaciones entre sí de forma eficiente y segura.\n\nEl temario aborda el direccionamiento de red y la inspección de interfaces mediante las clases InetAddress y NetworkInterface, seguido de la comunicación básica cliente-servidor a través de sockets TCP y la gestión de protocolos de datagramas con UDP y multidifusión (multicast). Introduce el uso de la API de Java NIO mediante búferes (ByteBuffer), canales (SocketChannel) y selectores para mejorar el rendimiento frente a múltiples clientes simultáneos. Además, explora los fundamentos de las arquitecturas entre pares (Peer-to-Peer o P2P), técnicas de concurrencia y gestión de pools de hilos para garantizar la escalabilidad, el aseguramiento de conexiones con SSL/TLS y las pautas para resolver problemas de interoperabilidad en entornos operativos heterogéneos.\n\nEl autor guía al lector a través de ejemplos de código directos y la construcción progresiva de pequeñas aplicaciones funcionales, tales como sistemas de chat cliente-servidor, emisores y receptores de multidifusión y un nodo básico para redes peer-to-peer. No incorpora cuestionarios ni ejercicios formales de autoevaluación, destacando en cambio por su estilo directo, conciso y orientado a la práctica rápida sin exceso de carga teórica. Es un recurso idóneo para adquirir soltura inicial en comunicaciones de red con Java antes de afrontar arquitecturas distribuidas de mayor envergadura.",
+    "temas": [
+      "Java 8",
+      "Sockets TCP",
+      "UDP y Multicasting",
+      "Java NIO",
+      "Arquitectura Cliente/Servidor",
+      "Redes Peer-to-Peer (P2P)",
+      "Hilos y Escalabilidad",
+      "SSL / TLS",
+      "NetworkInterface",
+      "Interoperabilidad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de chat cliente-servidor multihilo",
+        "descripcion": "Aplicación de mensajería bidireccional basada en sockets TCP y pools de hilos en Java para permitir la conversación concurrente entre múltiples clientes conectados a un servidor central."
+      },
+      {
+        "nombre": "Transmisor y receptor de multidifusión (UDP Multicast)",
+        "descripcion": "Programa que utiliza datagramas UDP y grupos de multidifusión para transmitir información de manera simultánea y eficiente a múltiples nodos de la red local."
+      },
+      {
+        "nombre": "Nodo de comunicación Peer-to-Peer (P2P)",
+        "descripcion": "Prototipo de aplicación distribuida donde cada nodo implementa funciones tanto de cliente como de servidor para el intercambio directo de información entre pares."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/learning-network-programming-with-java-9781785885471",
+      "https://www.amazon.com/Learning-Network-Programming-Richard-Reese/dp/1785885479",
+      "https://www.oreilly.com/library/view/learning-network-programming/9781785885471/"
+    ]
+  },
+  "foundations-of-python-network-programming-3rd-edition-2014": {
+    "descripcion": "Obra de referencia clásica escrita por Brandon Rhodes y John Goerzen, cuya tercera edición reescribió y actualizó íntegramente los ejemplos para Python 3 (incorporando las novedades introducidas hasta Python 3.4). El libro está orientado a desarrolladores de software, ingenieros de sistemas y administradores con experiencia previa en la sintaxis de Python que desean dominar el funcionamiento interno de las redes de comunicaciones y la construcción de clientes y servidores robustos, partiendo desde los fundamentos del transporte hasta capas de aplicación complejas.\n\nEl texto desglosa minuciosamente la pila de protocolos de Internet y las bibliotecas correspondientes en Python. En capas bajas, analiza sockets TCP y UDP mediante el módulo nativo `socket`, resolución de nombres y consultas DNS con `dnspython`, estructuración de paquetes binarios y manejo de errores de red, además del cifrado y autenticación de conexiones con TLS/SSL (`ssl`). En niveles superiores, enseña el desarrollo de clientes y servidores HTTP utilizando `requests`, `urllib` y `http.server`, la integración con WSGI y frameworks como Flask y Django, el procesamiento y envío de correo con `email`, `smtplib`, `poplib` e `imaplib`, así como administración remota y transferencia mediante Telnet, SSH con Paramiko, FTP (`ftplib`), llamadas RPC (XML-RPC y JSON-RPC), y almacenamiento en caché y colas de mensajes con Memcached y RabbitMQ. Asimismo, cubre la transición entre bucles de eventos manuales y el framework asíncrono nativo `asyncio`.\n\nA través de una colección de servidores prototipo y el entorno de experimentación \"Network Playground\" (que recrea topologías con contenedores Docker en una sola máquina), el lector implementa diferentes arquitecturas de servidores: monoproceso, multihilo, multiproceso y orientadas a eventos. Su principal valor radica en la claridad conceptual y el rigor técnico con el que explica cómo viajan los datos y cómo evitar bloqueos de red o fugas de recursos antes de recurrir a abstracciones de alto nivel. Al publicarse en 2014, no abarca herramientas modernas de telemetría ni librerías de automatización de switches como Netmiko o Nornir, pero continúa siendo uno de los manuales fundacionales más sólidos para comprender la programación de red en Python.",
+    "temas": [
+      "Python 3",
+      "Sockets TCP y UDP",
+      "Protocolos de red",
+      "TLS/SSL",
+      "asyncio",
+      "HTTP y WSGI",
+      "DNS y dnspython",
+      "SSH y Paramiko",
+      "Email (SMTP, IMAP)",
+      "Arquitecturas de servidor",
+      "Memcached y RabbitMQ"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-5855-1",
+      "https://www.oreilly.com/library/view/foundations-of-python/9781430258544/",
+      "https://github.com/brandon-rhodes/fopnp"
+    ]
+  },
+  "python-networking-solutions-guide-2023": {
+    "descripcion": "Manual práctico y enfocado en la resolución de problemas operativos escrito por Tolga Koca y publicado por BPB Publications en 2023. La obra se centra en el uso de versiones modernas de Python 3 para transformar la administración tradicional de redes en un modelo de operaciones programable y automatizado. Está dirigido a administradores de sistemas, ingenieros de redes, especialistas de infraestructura y operadores de centros de datos que poseen conocimientos básicos de Python y desean erradicar las tareas manuales repetitivas en la línea de comandos de sus equipos.\n\nEl contenido estructura soluciones y scripts reutilizables para las actividades críticas de infraestructura. Enseña a interactuar y configurar de forma remota y segura equipos multifabricante (enrutadores, switches, servidores y firewalls) empleando bibliotecas clave como Paramiko y Netmiko. Aborda la recolección, parseo y monitoreo centralizado de eventos y registros con Syslog, la transferencia desatendida de archivos mediante SFTP/FTP, y la generación de gráficos de rendimiento y estado con Matplotlib. Además, cubre técnicas de diagnóstico y resolución de problemas (troubleshooting), scripts de seguridad y escaneo de puertos, empaquetado de software de automatización y la gestión programática de infraestructuras de red en la nube de Amazon Web Services (AWS) utilizando el SDK Boto3.\n\nEl libro adopta un esquema de recetas y soluciones modulares que el lector puede ensamblar en programas principales más complejos para su entorno empresarial. Su gran valor está en su aplicabilidad inmediata en redes corporativas e híbridas, acelerando tareas de aprovisionamiento masivo y reduciendo el margen de error humano en configuraciones de red. Prescinde de explicaciones teóricas extensas sobre el diseño interno de protocolos y de frameworks orquestadores como Ansible, concentrándose en el desarrollo directo con Python para resolver requerimientos cotidianos de administración.",
+    "temas": [
+      "Python 3",
+      "Automatización de redes",
+      "Netmiko",
+      "Paramiko",
+      "Configuración de switches y routers",
+      "Monitoreo de logs y Syslog",
+      "AWS y Boto3",
+      "Seguridad de red",
+      "Matplotlib",
+      "Troubleshooting",
+      "Transferencia SFTP"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bpbonline.com/products/python-networking-solutions-guide",
+      "https://www.amazon.com/Python-Networking-Solutions-Guide-environment/dp/935551357X"
+    ]
+  },
+  "learning-python-network-programming-2015": {
+    "descripcion": "Guía introductoria orientada al aprendizaje conceptual y técnico escrita por el Dr. M. Omar Faruque Sarker y Sam Washington, publicada por Packt Publishing en 2015. El texto emplea Python (con un enfoque principal en Python 3 y referencias de compatibilidad hacia Python 2.7) para conectar los conceptos teóricos de telecomunicaciones con el desarrollo de software aplicado a redes. Está dirigido a programadores principiantes en networking, estudiantes de ciencias de la computación y administradores de sistemas que dominan la sintaxis básica del lenguaje y desean aprender cómo viajan y se procesan los datos a través de las capas del modelo TCP/IP.\n\nEl temario ofrece un recorrido guiado por las tecnologías y módulos esenciales del ecosistema de redes. Cubre la captura e inspección de paquetes en interfaces locales apoyándose en Wireshark, manipulación y cálculo de bloques de direccionamiento IPv4 e IPv6, y consultas de resolución DNS. A nivel de aplicación, enseña a interactuar con recursos y servicios web mediante el protocolo HTTP empleando tanto `urllib` como la librería Requests, extracción de datos web estructurados mediante web scraping con BeautifulSoup, y gestión automatizada de correspondencia electrónica con SMTP, POP3 e IMAP. Finalmente, profundiza en la programación de bajo nivel con sockets TCP y UDP mediante el módulo nativo `socket`, abordando el diseño de servidores concurrentes mediante arquitecturas multihilo (multithreading) y asíncronas.\n\nA lo largo de sus capítulos se construyen pequeñas herramientas funcionales, como analizadores de paquetes, clientes de descarga web, extractores de información y servidores básicos de eco y mensajería. Su aporte principal es su valor pedagógico para desmitificar los niveles del stack de red, explicando claramente qué representa cada cabecera y cómo programar la interacción cliente-servidor desde cero. Al datar de 2015, deja fuera librerías contemporáneas de automatización empresarial como Scrapli o Nornir y herramientas de CI/CD para NetDevOps, funcionando como una base formativa sólida previa al uso de frameworks de infraestructura modernos.",
+    "temas": [
+      "Python",
+      "Modelo TCP/IP",
+      "Sockets TCP/UDP",
+      "Protocolo HTTP",
+      "Requests",
+      "BeautifulSoup",
+      "IPv4 e IPv6",
+      "DNS",
+      "Email (SMTP, IMAP)",
+      "Wireshark",
+      "Servidores multihilo"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/learning-python-network-programming-9781784396008",
+      "https://www.oreilly.com/library/view/learning-python-network/9781784396008/",
+      "https://www.amazon.com/Learning-Python-Network-Programming-Washington/dp/1784396001"
+    ]
+  },
+  "mastering-python-networking-4th-edition-2023": {
+    "descripcion": "Cuarta edición del manual de referencia más exhaustivo sobre automatización de redes y NetDevOps, desarrollado por Eric Chou y publicado por Packt Publishing en 2023. Actualizada a estándares modernos con Python 3.10+, esta edición está concebida para ingenieros de redes experimentados, arquitectos de infraestructura, ingenieros de confiabilidad de sitios (SRE) y desarrolladores de sistemas que cuentan con amplia experiencia en routing y switching tradicional y buscan liderar la transición hacia infraestructuras gobernadas por código, pipelines de integración continua y redes nativas de la nube.\n\nEl libro aborda en profundidad el abanico completo de metodologías y herramientas del ecosistema NetDevOps. Enseña interacción con dispositivos tanto heredados (mediante CLI y SSH con Netmiko, Scrapli y Paramiko) como modernos basados en APIs e Intent-Driven Networking utilizando NETCONF, RESTCONF, modelos YANG y `ncclient`. Detalla la automatización de configuraciones mediante módulos de Ansible, la estandarización y portabilidad del entorno de trabajo con Docker, y el desarrollo concurrente de alta escala con el framework nativo `asyncio`, `aiohttp` y `asyncssh`. Asimismo, examina el monitoreo y telemetría de red con SNMP, NetFlow y la pila Elastic (Elasticsearch, Logstash, Kibana), la automatización de redes en la nube pública para AWS (Boto3) y Azure (Azure SDK), el desarrollo de servicios web de red con Flask/FastAPI, el control de versiones con Git, la construcción de canalizaciones de integración continua con GitLab CI/CD, y la validación y verificación de cambios mediante Test-Driven Development (TDD) con PyTest, Batfish y pyATS/Genie.\n\nSu metodología articula explicaciones arquitectónicas de nivel corporativo con laboratorios prácticos avanzados para construir tuberías completas de validación y despliegue continuo de configuraciones antes de impactar producción. Su virtud sobresaliente es que enseña a aplicar formalmente las mejores prácticas de ingeniería de software a las operaciones de red a gran escala. No es un texto para principiantes: requiere conocimientos firmes de redes empresariales y Linux, constituyendo el recurso definitivo para profesionales que buscan dominar la programabilidad de redes moderna.",
+    "temas": [
+      "Python 3",
+      "NetDevOps",
+      "Ansible",
+      "Netmiko y Scrapli",
+      "NETCONF y RESTCONF",
+      "Docker",
+      "asyncio",
+      "Elastic Stack (ELK)",
+      "AWS y Azure Networking",
+      "GitLab CI/CD",
+      "pyATS y Batfish",
+      "Telemetría de red"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-python-networking-9781803234618",
+      "https://github.com/PacktPublishing/Mastering-Python-Networking-Fourth-Edition",
+      "https://www.oreilly.com/library/view/mastering-python-networking/9781803234618/"
+    ]
+  },
+  "practical-net-2-0-networking-projects-2007": {
+    "descripcion": "Guía técnica centrada en el desarrollo práctico de proyectos de red y comunicaciones de hardware escrita por Wei-Meng Lee y publicada por Apress en 2007. El libro utiliza el .NET Framework 2.0 y el .NET Compact Framework, apoyándose en C# (con mención a Visual Basic .NET) y Visual Studio 2005. Está dirigido a programadores .NET de nivel principiante e intermedio que dominan los conceptos esenciales del desarrollo de aplicaciones de escritorio y desean aprender a comunicar sistemas informáticos a través de redes locales, enlaces inalámbricos y dispositivos periféricos externos.\n\nEl núcleo del texto cubre las APIs de comunicaciones de .NET y su interacción con componentes de hardware. Enseña programación de sockets cliente-servidor mediante los espacios de nombres `System.Net` y `System.Net.Sockets` (`TcpListener`, `TcpClient` y `Socket`), comunicación por puerto serie utilizando la clase `SerialPort` para enlace entre PC de escritorio y Pocket PC, y conectividad inalámbrica de corto alcance con Bluetooth e infrarrojos (IrDA). Asimismo, profundiza en la recepción y parseo de sentencias NMEA procedentes de dispositivos GPS, la captura e integración de biometría dactilar conectando el SDK del Microsoft Fingerprint Reader para autenticación de usuarios, y la lectura y almacenamiento de identificadores provenientes de lectores de radiofrecuencia RFID.\n\nEl libro prescinde de largas disertaciones teóricas y adopta una estructura puramente basada en proyectos guiados paso a paso, donde cada capítulo culmina con una aplicación completa y operativa. Aporta un valor distintivo al enseñar cómo interactuar con el mundo físico y periféricos especializados, un área frecuentemente ignorada en manuales genéricos de .NET. Dado su año de publicación (2007), tecnologías móviles como Pocket PC, Windows Mobile o IrDA se encuentran tecnológicamente obsoletas, por lo que el interés del texto radica en su enfoque formativo sobre fundamentos de sockets y la comprensión o soporte de sistemas heredados de comunicaciones en .NET.",
+    "temas": [
+      ".NET Framework 2.0",
+      ".NET Compact Framework",
+      "Sockets TCP/IP",
+      "C#",
+      "Puerto serie (SerialPort)",
+      "Bluetooth",
+      "Infrarrojos (IrDA)",
+      "GPS y tramas NMEA",
+      "Biometría dactilar",
+      "RFID",
+      "Windows Mobile"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de mensajería y chat multiusuario",
+        "descripcion": "Sistema de chat cliente-servidor con arquitectura multihilo construido con sockets TCP/IP asíncronos en .NET Framework 2.0 que permite la comunicación concurrente entre múltiples clientes conectados."
+      },
+      {
+        "nombre": "Comunicador serie y Bluetooth con rastreo GPS",
+        "descripcion": "Herramienta de intercambio de datos entre PC de escritorio y dispositivos Pocket PC vía puerto serie y Bluetooth, combinada con la recepción y decodificación de coordenadas geográficas de un receptor GPS."
+      },
+      {
+        "nombre": "Módulo de autenticación biométrica por huella dactilar",
+        "descripcion": "Aplicación de escritorio en C# que integra el SDK de hardware de Microsoft Fingerprint Reader para registrar y autenticar identidades de usuarios mediante verificación biométrica."
+      },
+      {
+        "nombre": "Transferencia de archivos punto a punto por infrarrojos",
+        "descripcion": "Aplicación móvil para Windows Mobile desarrollada con .NET Compact Framework que gestiona el intercambio directo de información entre dispositivos a través de transceptores IrDA."
+      },
+      {
+        "nombre": "Sistema de lectura y gestión de etiquetas RFID",
+        "descripcion": "Aplicación orientada al control de inventario que interactúa con lectores de identificación por radiofrecuencia para capturar identificadores de etiquetas RFID y persistirlos en una base de datos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-0383-4",
+      "https://github.com/Apress/practical-.net-2.0-networking-projects",
+      "https://www.amazon.com/Practical-NET-2-0-Networking-Projects/dp/1590597902"
+    ]
+  },
+  "tcp-ip-illustrated-volume-1-2nd-edition-2012": {
+    "descripcion": "Segunda edición de la obra de referencia fundamental sobre la arquitectura y el funcionamiento de la suite de protocolos de Internet TCP/IP. Publicada con una revisión integral a cargo de Kevin R. Fall para actualizar el clásico imperecedero de W. Richard Stevens, esta entrega incorpora plenamente el estándar IPv6 junto a IPv4, tecnologías de capa de enlace contemporáneas como Wi-Fi (802.11) y Ethernet de alta velocidad, y prácticas modernas de seguridad de redes. Está pensada para ingenieros de redes, administradores de sistemas y desarrolladores de software de nivel intermedio que cuenten con conocimientos básicos sobre sistemas operativos y deseen dominar el comportamiento real de los paquetes en tránsito.\n\nEl libro aborda la arquitectura de Internet capa por capa mediante una metodología visual fundamentada en trazas reales de tráfico capturadas con herramientas de diagnóstico como Wireshark, tcpdump, traceroute, ping, dig y netcat. Explica el direccionamiento y la resolución en IPv4 e IPv6 a través de ARP, SLAAC, DHCPv4/v6 y DNS con extensiones DNSSEC. En la capa de transporte desmenuza de forma exhaustiva el protocolo UDP y, sobre todo, TCP: su máquina de estados finitos, establecimiento y cierre de conexiones, estimación del RTT, temporizadores de retransmisión, control de flujo con ventanas deslizantes y los algoritmos clásicos y modernos de control de congestión (Tahoe, Reno, NewReno, SACK). También profundiza en filtrado con cortafuegos, NAT, seguridad con TLS e IPsec, y protocolos de aplicación como HTTP, correo electrónico (SMTP e IMAP) y compartición de archivos (NFS y SMB/CIFS).\n\nCada capítulo incluye una sección de ejercicios analíticos y de diagnóstico técnico, respaldados por un apéndice con soluciones a problemas seleccionados para orientar el estudio independiente. En lugar de desarrollar aplicaciones de software desde cero, el lector ejercita la inspección crítica de paquetes, la decodificación de tramas y la resolución de anomalías de red en plataformas Linux, Windows y macOS. Su mayor valor reside en su rigor empírico y en explicar el porqué del diseño de cada protocolo sin quedarse en la teoría de los RFC. Deja fuera la programación de bajo nivel de sockets o el código del kernel, materias reservadas a otros volúmenes del autor, por lo que conviene dominar la terminal antes de abordarlo.",
+    "temas": [
+      "TCP/IP",
+      "IPv4 e IPv6",
+      "Protocolos de red",
+      "Wireshark",
+      "tcpdump",
+      "Control de congestión TCP",
+      "DNS y DNSSEC",
+      "Seguridad de red",
+      "TLS e IPsec",
+      "Diagnóstico de redes"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/tcp-ip-illustrated-volume-1-the-protocols-9780321336316",
+      "https://www.pearson.com/en-us/subject-catalog/p/tcp-ip-illustrated-volume-1-the-protocols/P200000000305",
+      "https://www.amazon.com/TCP-Illustrated-Protocols-Addison-Wesley-Professional/dp/0321336313"
+    ]
+  },
+  "tcp-ip-illustrated-volume-2-1995": {
+    "descripcion": "Segundo volumen de la trilogía cumbre de W. Richard Stevens y Gary R. Wright, dedicado íntegramente a desentrañar la implementación interna de la pila de protocolos TCP/IP en el núcleo del sistema operativo. La obra toma como base el código fuente real del kernel de 4.4BSD-Lite escrito en lenguaje C, una base de código histórica que sirvió como cimiento para las pilas de red de prácticamente todos los sistemas operativos modernos, incluidos FreeBSD, Linux, macOS y Windows. Está orientado a programadores de sistemas, desarrolladores de controladores y especialistas de red de nivel intermedio y avanzado con dominio sólido de C, punteros y nociones de arquitectura interna de Unix.\n\nA lo largo del texto se analizan minuciosamente cerca de 15.000 líneas de código fuente en C acompañadas de más de 500 diagramas de estructuras de datos y flujos de ejecución del kernel. El recorrido enseña la gestión de memoria interna mediante búferes mbuf (struct mbuf), la arquitectura de la capa de sockets y sus llamadas al sistema (sys_socket, sys_bind, sys_connect), y la comunicación con las interfaces de red mediante struct ifnet. En la capa de red examina el enrutamiento IP sustentado en tablas de árbol radix (Patricia trees), fragmentación, reensamblado, ICMP e IGMP para multidifusión. En el nivel de transporte desgrana la implementación completa de TCP: estructuras inpcb y tcpcb, temporizadores, procesamiento de entrada y salida, sincronización de secuencias, retransmisión rápida y recuperación rápida (Fast Retransmit/Fast Recovery) y el algoritmo de arranque lento (Slow Start).\n\nCada capítulo incluye ejercicios de razonamiento, diseño y depuración de código del kernel, cuyas soluciones a problemas seleccionados se detallan en el apéndice final. El libro no propone proyectos de desarrollo de aplicaciones para usuarios finales, sino un entrenamiento intensivo en la auditoría y comprensión del software de comunicaciones a nivel de sistema. Su valor formativo es histórico y fundamental, ya que desmitifica el funcionamiento interno de la pila de red en el sistema operativo. Dado que se escribió sobre la versión 4.4BSD-Lite de 1995, no incluye IPv6 ni extensiones contemporáneas como TCP BBR, y exige una lectura atenta de código de bajo nivel.",
+    "temas": [
+      "Kernel de red",
+      "4.4BSD-Lite",
+      "Lenguaje C",
+      "Estructuras mbuf",
+      "Sockets API",
+      "Pila TCP/IP",
+      "Árboles radix",
+      "Control de congestión TCP",
+      "Enrutamiento IP",
+      "Sistemas operativos Unix"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/tcp-ip-illustrated-volume-2-the-implementation-9780201633542",
+      "https://www.pearson.com/en-us/subject-catalog/p/tcp-ip-illustrated-volume-2-the-implementation/P200000000287",
+      "https://www.amazon.com/TCP-Illustrated-Vol-Implementation-Addison-Wesley/dp/020163354X"
+    ]
+  },
+  "tcp-ip-illustrated-volume-3-1996": {
+    "descripcion": "Tercera y última entrega de la serie creada por W. Richard Stevens, enfocada en optimizaciones transaccionales para conexiones de red y en protocolos de aplicación y de comunicación local en Unix. El libro examina con detalle la extensión experimental T/TCP (TCP for Transactions, RFC 1644), el protocolo de hipertexto HTTP en su versión inicial 1.0, el protocolo de transferencia de noticias NNTP y la implementación de los protocolos de dominio local de Unix. Está dirigido a ingenieros de software, administradores de sistemas y desarrolladores de nivel intermedio que posean conocimientos consolidados de la pila TCP/IP estándar y deseen explorar técnicas para acelerar intercambios cliente-servidor y la comunicación interproceso.\n\nEl temario está estructurado en tres partes claramente delimitadas. La primera analiza a fondo el diseño y la implementación en el código de 4.4BSD de T/TCP, explicando cómo evitar el triple apretón de manos inicial combinando la solicitud de conexión, los datos y el cierre para transacciones ultrarrápidas, examinando sus opciones de cabecera y el impacto en los temporizadores. La segunda parte disecciona el tráfico de paquetes de HTTP/1.0 (métodos GET, POST y HEAD, cabeceras y limitaciones de rendimiento) y de NNTP en redes Usenet. La tercera parte aborda los protocolos de dominio Unix (AF_UNIX / AF_LOCAL), explicando la transmisión local de flujos y datagramas, la gestión de control de flujo en el kernel y el mecanismo avanzado de transferencia de descriptores de archivos entre procesos no emparentados mediante sendmsg() y recvmsg().\n\nA diferencia de los dos volúmenes precedentes, este tomo no incluye ejercicios ni problemas al final de los capítulos, ni proyectos de construcción de software guiados paso a paso; su enfoque es puramente expositivo, respaldado por trazas de paquetes y análisis de código fuente. Aunque T/TCP cayó en desuso por vulnerabilidades de seguridad que más tarde inspiraron alternativas como TCP Fast Open o QUIC, el libro conserva un inmenso valor didáctico sobre diseño de protocolos y optimización de latencia. Su explicación de los sockets de dominio Unix y el paso de descriptores de archivo sigue siendo una de las mejores referencias técnicas existentes.",
+    "temas": [
+      "T/TCP",
+      "TCP for Transactions",
+      "HTTP 1.0",
+      "NNTP",
+      "UNIX Domain Sockets",
+      "IPC",
+      "Paso de descriptores de archivo",
+      "4.4BSD-Lite",
+      "Sockets API",
+      "Diseño de protocolos"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/tcp-ip-illustrated-volume-3-tcp-for-transactions-9780201634952",
+      "https://www.amazon.com/TCP-Illustrated-Transactions-Protocols-Addison-Wesley/dp/0201634953"
+    ]
+  },
+  "cognitive-networks-2014": {
+    "descripcion": "Volumen monográfico y académico editado por los investigadores Danda B. Rawat, Jaime Lloret Mauri, Javier Manuel Aguiar Pérez y Kayhan Zrar Ghafoor, publicado por CRC Press en 2014. El texto recopila los principales avances, modelos teóricos y aplicaciones en el ámbito de las redes cognitivas y la radio cognitiva (Cognitive Radio Networks, CRN). Examina cómo los sistemas de telecomunicación inalámbricos pueden sensar de forma inteligente su entorno electromagnético, razonar con modelos adaptativos, planificar transmisiones de forma autónoma y aprender de decisiones pasadas para optimizar la utilización del espectro radioeléctrico. Está orientado a investigadores, ingenieros de telecomunicaciones y estudiantes de posgrado de nivel intermedio o avanzado con bases sólidas en comunicaciones inalámbricas y procesamiento de señales.\n\nA lo largo de sus capítulos especializados, el libro profundiza en el acceso dinámico al espectro (Dynamic Spectrum Access, DSA) y en las técnicas de sensado de espectro radioeléctrico (Spectrum Sensing) para identificar canales disponibles y espacios blancos (white spaces) sin generar interferencias a usuarios licenciados. Presenta algoritmos de descubrimiento de nodos vecinos, protocolos de enrutamiento inteligente y energéticamente eficientes para redes ad hoc cognitivas (CRAHNs), y técnicas avanzadas de codificación de red (network coding) en canales oportunistas. Asimismo, expone casos de estudio y marcos de despliegue en redes vehiculares heterogéneas (VANETs), traspaso cognitivo (cognitive handover), sistemas ciberfísicos de transporte y normativas internacionales como IEEE 802.22 e IEEE 802.11af.\n\nAl ser una compilación de investigación avanzada, la obra adopta un enfoque teórico y conceptual sin ejercicios de autoevaluación al final de los capítulos ni proyectos prácticos de desarrollo de software guiados paso a paso. Su principal aporte es condensar el estado del arte y los desafíos de ingeniería en la gestión autónoma del espectro, sentando bases conceptuales para las arquitecturas de redes móviles 5G y de comunicaciones vehiculares autónomas. Deja fuera tutoriales de programación o laboratorios prácticos con plataformas SDR (como GNU Radio), por lo que resulta conveniente complementarlo con entornos de simulación de redes como NS-2, NS-3 o MATLAB para implementar experimentalmente los algoritmos expuestos.",
+    "temas": [
+      "Redes cognitivas",
+      "Radio cognitiva",
+      "Acceso dinámico al espectro (DSA)",
+      "Spectrum Sensing",
+      "Redes ad hoc cognitivas",
+      "Codificación de red",
+      "Redes vehiculares (VANET)",
+      "Sistemas ciberfísicos",
+      "IEEE 802.22",
+      "Telecomunicaciones inalámbricas"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Cognitive-Networks-Applications-and-Deployments/Mauri-Ghafoor-Rawat-Perez/p/book/9781482236996",
+      "https://www.taylorfrancis.com/books/edit/10.1201/b17578/cognitive-networks-jaime-lloret-kayhan-zrar-ghafoor-danda-rawat-javier-manuel-aguiar-perez",
+      "https://www.amazon.com/Cognitive-Networks-Applications-Deployments-Danda/dp/1482236997"
+    ]
+  },
+  "distributed-networks-2013": {
+    "descripcion": "Monografía académica y compilación de investigaciones coordinada por Qurban A. Memon, orientada a analizar la transición de los sistemas centralizados tradicionales hacia arquitecturas distribuidas y en red aplicadas a entornos civiles, de seguridad y de defensa. Situada en el estado del arte de las tecnologías distribuidas hacia 2013, está dirigida a investigadores, ingenieros de sistemas y estudiantes de posgrado en telecomunicaciones o ciencias de la computación que ya dominan conceptos esenciales de redes de datos, algoritmos distribuidos y fundamentos de aprendizaje automático.\n\nEl volumen se estructura en tres ejes temáticos: inteligencia en redes distribuidas, seguridad y aplicaciones empresariales emergentes. Detalla modelos colaborativos de pronóstico basados en regresión (cooperative regression), arquitecturas de agregación de datos procedentes de sensores mediante agentes móviles, protocolos para neutralizar intrusos en redes malladas inalámbricas (Wireless Mesh Networks) y algoritmos de aprendizaje semisupervisado para la identificación de tráfico BitTorrent y redes P2P. Además, examina la sincronización distribuida aplicada a la seguridad de la información, el uso de sensores basados en software (software sensors) para reconocer la actividad de los usuarios y estándares de interacción clínica inteligente como smartOR.\n\nLa obra adopta un formato analítico y metodológico riguroso, por lo que carece de tutoriales de implementación guiada paso a paso o ejercicios de programación convencionales. Su valor primordial reside en presentar formulaciones teóricas, análisis de rendimiento y marcos arquitectónicos para diseñar infraestructuras distribuidas tolerantes a fallos y resistentes a intrusiones; deja fuera el código fuente listo para producción y la configuración práctica de herramientas comerciales. Resulta ideal para quienes requieran fundamentar proyectos de investigación o diseñar sistemas autónomos a gran escala.",
+    "temas": [
+      "Redes distribuidas",
+      "Inteligencia en redes",
+      "Wireless Mesh Networks",
+      "Agentes móviles",
+      "Aprendizaje semisupervisado",
+      "Detección de tráfico P2P",
+      "Sensores de software",
+      "Sistemas multiagente",
+      "Detección de intrusiones",
+      "Ciberseguridad en redes"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Distributed-Networks-Intelligence-Security-and-Applications/Memon/p/book/9781466559578",
+      "https://www.oreilly.com/library/view/distributed-networks/9781466559585/",
+      "https://www.amazon.com/Distributed-Networks-Intelligence-Security-Applications/dp/1466559573"
+    ]
+  },
+  "introduction-to-computer-networks-and-cybersecurity-2013": {
+    "descripcion": "Tratado universitario exhaustivo de más de 1.300 páginas escrito por Chwan-Hwa Wu y J. David Irwin, cuya propuesta diferencial es enseñar redes de comunicación y ciberseguridad como una disciplina unificada, en lugar de tratar la seguridad como un módulo complementario tardío. Publicado en 2013 con base en los estándares consolidados de la pila TCP/IP, está dirigido a estudiantes de ingeniería informática, ciencias de la computación y administradores de sistemas en formación que buscan una base técnica profunda desde el nivel introductorio hasta niveles intermedios.\n\nEl temario recorre la arquitectura completa de la red y sus mecanismos de protección a través de múltiples capas: en el nivel de aplicación analiza HTTP, DNS, Active Directory, servicios web basados en XML y programación de sockets de red; en las capas inferiores aborda modulación, tramas Ethernet, conmutadores, redes de área local virtuales (VLAN) y comunicaciones inalámbricas (Wi-Fi y celulares); en el núcleo de red profundiza en IPv4, la transición a IPv6 y protocolos de enrutamiento como RIP, OSPF y BGP; y en el transporte examina el control de congestión y recuperación de pérdidas en TCP. En el ámbito de ciberseguridad, enseña en detalle criptografía simétrica (AES, DES) y asimétrica (RSA, PKI), funciones hash, cortafuegos de filtrado de paquetes y con inspección de estado (stateful inspection), sistemas de detección y prevención de intrusiones (IDS/IPS), protocolos SSL/TLS y redes privadas virtuales (IPsec VPN).\n\nEl texto complementa la teoría con ejemplos de programación de sockets (arquitectura cliente-servidor) y extensas colecciones de problemas y ejercicios cuantitativos al final de cada capítulo (cálculo de retardos, ancho de banda, fragmentación, subredes y criptoanálisis). Destaca por su capacidad para explicar la vulnerabilidad intrínseca de cada protocolo en el mismo momento en que se estudia su funcionamiento; no incluye proyectos de desarrollo de software integral guiados de principio a fin, pero su rigor analítico y pedagógico lo convierten en un manual de referencia formativo de largo alcance.",
+    "temas": [
+      "Pila TCP/IP",
+      "Modelo OSI",
+      "IPv6",
+      "Programación de sockets",
+      "Enrutamiento (OSPF, BGP)",
+      "Criptografía RSA y AES",
+      "SSL/TLS",
+      "Firewalls",
+      "Sistemas IDS/IPS",
+      "IPsec y VPN",
+      "VLAN",
+      "Seguridad inalámbrica"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Introduction-to-Computer-Networks-and-Cybersecurity/Wu-Irwin/p/book/9781466572133",
+      "https://www.taylorfrancis.com/books/mono/10.1201/b13998/introduction-computer-networks-cybersecurity-chwan-hwa-john-wu-david-irwin",
+      "https://www.oreilly.com/library/view/introduction-to-computer/9781466572140/",
+      "https://books.google.com/books?id=0e653t4j9bIC"
+    ]
+  },
+  "http-2-in-action-2019": {
+    "descripcion": "Guía práctica y rigurosa en la que Barry Pollard detalla el diseño, la implementación y la optimización del protocolo HTTP/2 (RFC 7540), contextualizando los motivos de su aparición frente a las limitaciones históricas de HTTP/1.1 y explorando el horizonte hacia HTTP/3 y QUIC. Está diseñada para desarrolladores web, arquitectos de software, administradores de sistemas y profesionales de rendimiento web con conocimientos básicos de la web (HTML, CSS, HTTP y TLS) que buscan dominar los cambios de arquitectura introducidos por los estándares binarios modernos.\n\nEl libro explica la mecánica interna del protocolo: la capa de entramado binario (frames como HEADERS, DATA y SETTINGS), la multiplexación de peticiones y respuestas sobre una única conexión TCP para eliminar el bloqueo en cabeza de línea (head-of-line blocking), la compresión de cabeceras mediante HPACK y el flujo de priorización de dependencias. Enseña a implementar HTTP/2 Server Push, a negociar protocolos de aplicación seguros mediante ALPN sobre TLS/HTTPS y a configurar entornos de producción reales en servidores web ampliamente utilizados como Apache (mod_http2), Nginx (módulo http_v2) y Node.js (módulo nativo http2). Asimismo, enseña a auditar, depurar y medir tráfico web usando herramientas clave como cURL, Google Chrome DevTools, Wireshark y el paquete de utilidades nghttp2.\n\nLa obra destaca por desmitificar las viejas técnicas de optimización web de HTTP/1.1 (como la concatenación masiva de scripts, el spriting de imágenes o el sharding de dominios), mostrando con métricas reales cuándo estas prácticas resultan contraproducentes en HTTP/2 y cuáles son las complejidades y limitaciones reales de Server Push en producción. No incluye ejercicios escolares con solución ni proyectos completos de creación de aplicaciones desde cero, pero ofrece ejemplos de configuración reproducibles y repositorios de prueba oficiales. Es un recurso indispensable para comprender a fondo la infraestructura web contemporánea.",
+    "temas": [
+      "HTTP/2",
+      "Multiplexación",
+      "Tramas binarias",
+      "Compresión HPACK",
+      "HTTP/2 Server Push",
+      "TLS y ALPN",
+      "Nginx",
+      "Apache",
+      "Node.js",
+      "Wireshark",
+      "cURL",
+      "HTTP/3 y QUIC"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/http2-in-action",
+      "https://github.com/tunetheweb/http2-in-action",
+      "https://www.oreilly.com/library/view/http2-in-action/9781617295164/",
+      "https://www.amazon.com/HTTP-Action-Barry-Pollard/dp/1617295168"
+    ]
+  },
+  "the-tcp-ip-guide-2005": {
+    "descripcion": "Obra de referencia enciclopédica y visualmente exhaustiva creada por Charles M. Kozierok, que desmenuza con precisión quirúrgica el conjunto completo de protocolos que integran la suite TCP/IP e Internet. Publicada en formato físico por No Starch Press tras el éxito de su portal de documentación técnica en línea (tcpipguide.com), está pensada para administradores de red, especialistas en infraestructura, ingenieros de soporte y estudiantes avanzados que necesitan comprender con absoluta claridad la arquitectura de comunicaciones sin perderse en el lenguaje críptico o fragmentado de los RFCs.\n\nEl manual desglosa cada protocolo desde la capa física y de enlace hasta la capa de aplicación: explica en profundidad el direccionamiento IPv4 (clases, máscaras de subred, subnetting, VLSM y CIDR), el protocolo de resolución de direcciones (ARP/RARP), traducción de direcciones de red (NAT) y mensajes ICMP, integrando la arquitectura de IPv6 de forma transversal. Profundiza en los mecanismos de transporte de TCP (apretón de manos de tres vías, desconexión ordenada, ventanas deslizantes, temporizadores, acuses de recibo y control de congestión) y UDP, y analiza protocolos de nivel superior esenciales como DNS, DHCP, BOOTP, SNMP, FTP, TFTP, SMTP, POP3, IMAP, Telnet y HTTP. La obra incluye más de 300 diagramas y tablas que ilustran cada estructura de paquete y campo de cabecera bit por bit.\n\nAl tratarse de una obra de referencia pura y consulta técnica, carece de ejercicios con respuestas o proyectos de programación guiados. Su valor incuestionable radica en su claridad pedagógica, la rigurosidad de sus diagramas y la capacidad de transformar conceptos complejos de telecomunicaciones en explicaciones transparentes y accesibles; como contrapartida natural debida a su año de publicación (2005), no abarca evoluciones recientes como HTTP/2, HTTP/3, TLS 1.3 o redes definidas por software (SDN). Aun así, continúa siendo uno de los tratados clásicos más respetados sobre la arquitectura fundacional de Internet.",
+    "temas": [
+      "Suite TCP/IP",
+      "Modelo OSI",
+      "IPv4 e IPv6",
+      "Subnetting y CIDR",
+      "Mecanismos de TCP",
+      "Control de congestión",
+      "DNS",
+      "DHCP",
+      "NAT e ICMP",
+      "Protocolos de enrutamiento",
+      "Protocolos de correo (SMTP, IMAP)",
+      "Arquitectura de red"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "http://www.tcpipguide.com/",
+      "https://nostarch.com/tcpip.htm",
+      "https://www.oreilly.com/library/view/the-tcpip-guide/159327047X/",
+      "https://www.amazon.com/TCP-Guide-Comprehensive-Illustrated-Protocols/dp/159327047X"
+    ]
+  },
+  "http-the-definitive-guide-2002": {
+    "descripcion": "Tratado de referencia clásico de la editorial O'Reilly escrito por David Gourley y Brian Totty (junto con Marjorie Sayer, Sailu Reddy y Anshu Aggarwal), enfocado en explicar cómo funciona realmente la World Wide Web bajo el capó a través del protocolo HTTP (centrado en HTTP/1.0 y HTTP/1.1, RFC 2616). Está dirigido a desarrolladores web, arquitectos de software, administradores de sistemas e ingenieros de rendimiento que cuentan con nociones elementales del funcionamiento de Internet y necesitan dominar la semántica, el ciclo de vida y los componentes intermedios de las comunicaciones web.\n\nEl texto descompone la anatomía de los mensajes HTTP (métodos GET, POST, PUT, DELETE, códigos de estado numéricos y cabeceras estándar), la gestión de conexiones TCP subyacentes (conexiones persistentes Keep-Alive, pipeline y latencias), y la función crítica de los elementos intermediarios de la red: servidores proxy, pasarelas (gateways), túneles y balanceadores de carga. Detalla las arquitecturas de caché web (validación de frescura mediante ETags, directivas Cache-Control y caducidad), mecanismos de autenticación (Basic y Digest Access Authentication), seguridad mediante HTTPS y capas SSL/TLS, gestión de sesiones y cookies, codificación de contenido (compresión gzip, juegos de caracteres e internacionalización) y el comportamiento de agentes autónomos, rastreadores web (web crawlers) y robots regulados por robots.txt.\n\nDiseñado como un manual arquitectónico y conceptual de consulta, el libro no contiene ejercicios prácticos ni proyectos guiados de desarrollo. Su aporte es histórico y fundacional: sienta las bases conceptuales indispensables sobre las que opera toda la infraestructura web, el diseño de APIs REST y las redes de entrega de contenido (CDN); como consideración, no cubre HTTP/2, HTTP/3 ni WebSockets al haberse publicado en 2002, pero su exposición sobre la semántica del protocolo, la negociación de contenidos y las capas de caché mantiene plena vigencia en la ingeniería web contemporánea.",
+    "temas": [
+      "HTTP/1.1",
+      "Cabeceras HTTP",
+      "Códigos de estado",
+      "Caché web y ETags",
+      "Proxies y Gateways",
+      "Cookies y estado",
+      "HTTPS y SSL/TLS",
+      "Digest Authentication",
+      "Conexiones persistentes TCP",
+      "Web Crawlers y robots.txt",
+      "Negociación de contenido"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/http-the-definitive/1565925092/",
+      "https://www.amazon.com/HTTP-Definitive-Guide-David-Gourley/dp/1565925092",
+      "https://books.google.com/books?id=f_86pZt1hssC"
+    ]
+  },
+  "mobile-and-web-messaging-2014": {
+    "descripcion": "Guía especializada en el diseño e implementación de sistemas de comunicación en tiempo real entre plataformas móviles y aplicaciones web mediante protocolos de mensajería estándar y ligeros. El texto aborda STOMP (versiones 1.1 y 1.2) y MQTT (versión 3.1) operando tanto sobre conexiones TCP directas como sobre WebSockets, evitando el sobrecosto de sondeo HTTP periódico. Está orientado a desarrolladores de software de nivel intermedio con nociones de Objective-C (para clientes iOS) y JavaScript elemental en el navegador, que buscan optimizar el consumo de batería, memoria y ancho de banda en redes inestables o de baja latencia.\n\nEl autor profundiza en los dos modelos arquitectónicos de mensajería más extendidos: punto a punto mediante colas y publicación/suscripción mediante tópicos. Enseña a desplegar y configurar intermediarios de mensajería como Apache ActiveMQ y Mosquitto, habilitando conectores WebSocket. En el ecosistema iOS, utiliza librerías nativas como StompKit y MQTTKit (desarrollada por el autor) combinadas con los frameworks CoreLocation y CoreMotion de Apple para capturar y emitir coordenadas GPS y telemetría de movimiento. En la capa web, implementa clientes basados en Stomp.js y la librería JavaScript de Eclipse Paho, además de abordar mecanismos avanzados de STOMP como selectores y filtrado de mensajes mediante cabeceras, acuses de recibo manuales (ACKs), transacciones y políticas de expiración y persistencia.\n\nEl contenido se valida mediante dos desarrollos prácticos guiados: un rastreador que envía la ubicación de un dispositivo iOS y la proyecta en un mapa web en vivo a través de STOMP, y un monitor de acelerómetro móvil que transmite variaciones de movimiento por MQTT hacia un panel web con alertas en tiempo real. La principal aportación del libro es contrastar con precisión cuándo conviene la legibilidad textual de STOMP frente a la mínima sobrecarga binaria de MQTT en entornos móviles. Como contrapartida, los ejemplos móviles emplean Objective-C en lugar de Swift y no cubre protocolos orientados a grandes volúmenes de datos como Apache Kafka o AMQP avanzado. Conviene contar con un entorno de desarrollo con Xcode y Node.js para reproducir los intermediarios y clientes.",
+    "temas": [
+      "STOMP",
+      "MQTT",
+      "WebSockets",
+      "Apache ActiveMQ",
+      "Mosquitto",
+      "iOS",
+      "Objective-C",
+      "Stomp.js",
+      "Eclipse Paho",
+      "CoreLocation",
+      "CoreMotion",
+      "Arquitectura publish-subscribe"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Rastreador GPS en tiempo real con STOMP",
+        "descripcion": "Aplicación iOS desarrollada en Objective-C que transmite coordenadas geográficas capturadas con CoreLocation hacia un broker Apache ActiveMQ, consumidas y renderizadas sobre un mapa web interactivo en el navegador mediante STOMP sobre WebSockets."
+      },
+      {
+        "nombre": "Monitor de telemetría y movimiento de dispositivo con MQTT",
+        "descripcion": "Sistema de monitoreo que captura datos de acelerómetro en iOS mediante CoreMotion y los emite por MQTT a un broker Mosquitto, permitiendo que un panel web suscrito reciba las lecturas en tiempo real y dispare alertas instantáneas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/mobile-and-web/9781491944745/",
+      "https://jmesnil.net/mobile-and-web-messaging/"
+    ]
+  },
+  "xmpp-the-definitive-guide-2009": {
+    "descripcion": "Obra canónica sobre el protocolo XMPP (Extensible Messaging and Presence Protocol) y las tecnologías Jabber, redactada por tres de sus principales arquitectos y miembros de la XSF (XMPP Standards Foundation). El libro expone las especificaciones de base (RFC 3920 y RFC 3921) y múltiples extensiones XEP para el transporte de flujos XML estructurados y asíncronos. Está orientado a desarrolladores de software, ingenieros de sistemas y arquitectos de redes de nivel básico a intermedio que conocen conceptos elementales de redes TCP/IP y XML, y que desean crear servicios federados, descentralizados y en tiempo real.\n\nEl texto analiza la arquitectura descentralizada cliente-servidor y servidor-servidor de XMPP, explicando la estructura de los identificadores de entidad (JIDs) y las tres primitivas de comunicación o stanzas: mensajes (<message>), presencia (<presence>) y solicitudes estructuradas (<iq>). Enseña la gestión de listas de contactos (rosters), intercambio de estados de suscripción, descubrimiento de servicios y capacidades (Service Discovery, XEP-0030), chats grupales multiusuario (MUC, XEP-0045) y patrones de publicación/suscripción (PubSub, XEP-0060). También cubre el uso de formularios dinámicos (Data Forms), transporte web mediante BOSH (XEP-0124/XEP-0206), seguridad con TLS y autenticación SASL, así como una panorámica de servidores consolidados como ejabberd y Prosody y bibliotecas de desarrollo en Python como SleekXMPP y xmpppy.\n\nEl aprendizaje práctico se consolida en su tercera sección con la construcción guiada de CheshiR, una red social y plataforma de microblogging inspirada en Twitter. A lo largo de sprints sucesivos, el libro muestra cómo transformar un bot conversacional inicial en un componente de servidor XMPP desacoplado y de alto rendimiento que administra registros de usuarios, seguidores y distribución masiva de estados. La obra destaca por su rigor conceptual y su visión de XMPP como bus de eventos universal más allá del chat tradicional; no obstante, al haberse publicado en 2009, no incluye extensiones modernas como XMPP sobre WebSockets (RFC 7395) ni cifrado OMEMO. Es ideal para comprender los fundamentos arquitectónicos antes de integrar librerías cliente actuales.",
+    "temas": [
+      "XMPP",
+      "Jabber",
+      "XML Stanzas",
+      "Mensajería instantánea",
+      "Presencia",
+      "Multi-User Chat (MUC)",
+      "PubSub",
+      "Service Discovery",
+      "BOSH",
+      "Python",
+      "ejabberd",
+      "Arquitectura cliente-servidor"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de microblogging CheshiR",
+        "descripcion": "Servicio de publicación y suscripción de estados en tiempo real implementado en Python y conectado a un servidor XMPP; evoluciona desde un bot de mensajería hasta un componente de servidor desacoplado capaz de gestionar registros de usuarios, listas de seguidores y difusión de publicaciones."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/xmpp-the-definitive/9780596521264/",
+      "https://xmpp.org/about/technology-overview/books/",
+      "https://www.goodreads.com/book/show/6045862-xmpp"
+    ]
+  },
+  "practical-xmpp-2016": {
+    "descripcion": "Manual enfocado en la aplicación práctica de XMPP para el desarrollo de servicios web modernos y aplicaciones interactivas en tiempo real, integrando el protocolo con el ecosistema de Node.js y navegadores. Explora las capacidades de mensajería instantánea, presencia y extensiones XEP prescindiendo del procesamiento farragoso de XML gracias a pasarelas WebSocket. Está dirigido a desarrolladores web de nivel intermedio que dominan JavaScript y Node.js y poseen nociones sobre protocolos bidireccionales basados en sockets y formatos JSON, interesados en diseñar aplicaciones descentralizadas y federadas.\n\nEl contenido arranca con la instalación y configuración local del servidor XMPP Prosody, examinando sus módulos de autenticación y puertos de conexión. Introduce a fondo xmpp-ftw (XMPP For The Web), una biblioteca creada por uno de los autores que actúa como puente traduciendo stanzas XML complejas a eventos JSON manejables mediante WebSockets y Primus. Enseña a programar bots de mensajería directa en Node.js, gestionar salas de chat multiusuario mediante MUC (XEP-0045), implementar suscripciones y eventos push mediante Publish-Subscribe (PubSub, XEP-0060), y desarrollar componentes externos de servidor que se comunican de forma desacoplada con el núcleo XMPP mediante sockets TCP.\n\nEl aprendizaje se desarrolla enteramente a través de proyectos reales: un bot conversacional básico, un cliente de chat multiusuario para el navegador, una pasarela de comentarios en tiempo real para páginas web estáticas y un juego multijugador bidimensional (XMPPong) renderizado con HTML5 Canvas cuyo estado se arbitra mediante un componente de servidor dedicado. El libro destaca por simplificar drásticamente la curva de adopción de XMPP en la web al trabajar con JSON; sin embargo, su alta dependencia de la librería xmpp-ftw restringe la portabilidad directa hacia alternativas más estándar como Strophe.js. Resulta un recurso idóneo para desarrolladores frontend y full-stack de JavaScript que buscan construir sistemas colaborativos en vivo.",
+    "temas": [
+      "XMPP",
+      "Node.js",
+      "WebSockets",
+      "xmpp-ftw",
+      "Prosody",
+      "JavaScript",
+      "HTML5 Canvas",
+      "Multi-User Chat (MUC)",
+      "PubSub",
+      "Bots conversacionales",
+      "Juegos multijugador"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Bot de chat uno a uno",
+        "descripcion": "Agente automatizado desarrollado en Node.js que se conecta al servidor Prosody, responde interactivamente a mensajes entrantes y notifica estados de presencia."
+      },
+      {
+        "nombre": "Cliente web de chat multiusuario (MUC)",
+        "descripcion": "Aplicación de mensajería grupal para navegadores web construida con Node.js y xmpp-ftw sobre WebSockets, que gestiona salas de conversación, entrada y salida de usuarios y envío de mensajes en vivo."
+      },
+      {
+        "nombre": "Comentarios en tiempo real para sitios estáticos",
+        "descripcion": "Módulo web que añade interactividad a páginas HTML estáticas usando XMPP PubSub para emitir y recibir actualizaciones y comentarios de lectores al instante sin recarga de página."
+      },
+      {
+        "nombre": "Videojuego multijugador XMPPong",
+        "descripcion": "Recreación del clásico Pong para dos jugadores construida con HTML5 Canvas y Node.js que sincroniza la física y marcadores mediante mensajes XMPP y un componente de servidor personalizado que oficia como árbitro."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/practical-xmpp-9781785287985",
+      "https://xmpp.org/about/technology-overview/books/"
+    ]
+  },
+  "computer-networking-9th-edition-2026": {
+    "descripcion": "Novena edición del prestigioso manual universitario de Kurose y Ross (publicada a mediados de 2025 con año de copyright 2026 por Pearson), reconocido internacionalmente por su pedagogía \"top-down\" (descendente), que arranca desde la capa de aplicación más tangible para el programador y desciende hasta la capa física. Esta edición moderniza profundamente los contenidos integrando los estándares vigentes: HTTP/3 sobre QUIC, redes celulares 5G (tanto RAN como Core), Wi-Fi 6, satélites LEO e innovaciones en seguridad como TLS 1.3 y WPA3. Está dirigido a estudiantes de ingeniería informática y desarrolladores principiantes en redes con nociones básicas de programación (preferiblemente en Python) y arquitectura de computadores.\n\nEl texto desmenuza con rigor cada estrato de la arquitectura de Internet: en aplicación analiza HTTP/1.1, HTTP/2, HTTP/3, DNS, correo electrónico (SMTP, IMAP), redes P2P y distribución de vídeo con streaming DASH y CDNs; en transporte aborda el diseño paso a paso de protocolos de transferencia confiable (RDT), multiplexación y algoritmos de control de congestión en TCP y UDP; en la capa de red divide el estudio en plano de datos (enrutamiento de paquetes, IPv4, IPv6, NAT, conmutación generalizada y OpenFlow/SDN) y plano de control (protocolos OSPF, BGP y controladores centralizados); en enlace examina tramas Ethernet, conmutadores, VLANs y centros de datos; y culmina con redes móviles (arquitectura 5G, movilidad y redes vehiculares e IoT) y seguridad criptográfica. Para el trabajo práctico, emplea el analizador de paquetes Wireshark y la API nativa de sockets de Python.\n\nComplementa su rigurosa fundamentación teórica con un extenso banco de ejercicios analíticos al final de cada capítulo, laboratorios guiados de inspección de tráfico real con Wireshark y asignaciones prácticas de programación de sockets en Python (como un servidor web concurrente, un proxy web con caché, comprobadores de latencia UDP e implementaciones de traceroute ICMP). Su mayor virtud reside en desmitificar los protocolos de comunicación desde el punto de vista del desarrollador de software sin perder solidez matemática. Deja fuera comandos específicos de configuración de hardware propietario (como routers Cisco o JunOS), concentrándose en principios de ingeniería duraderos y protocolos abiertos de Internet.",
+    "temas": [
+      "Redes de computadoras",
+      "Modelo TCP/IP",
+      "Wireshark",
+      "Python Sockets",
+      "HTTP/3 y QUIC",
+      "DNS",
+      "Control de congestión TCP",
+      "IPv6 y enrutamiento BGP",
+      "Redes 5G",
+      "Wi-Fi 6",
+      "TLS 1.3",
+      "SDN"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servidor web HTTP básico",
+        "descripcion": "Servidor HTTP concurrente programado en Python mediante la API socket que escucha peticiones GET, localiza y entrega documentos HTML y recursos estáticos, y genera respuestas con códigos y cabeceras de estado estándar."
+      },
+      {
+        "nombre": "Servidor proxy web con almacenamiento en caché",
+        "descripcion": "Proxy web multihilo desarrollado en Python que intercepta peticiones HTTP de navegadores, almacena copias locales en caché para optimizar solicitudes repetidas y reenvía el tráfico restante a los servidores web destino."
+      },
+      {
+        "nombre": "Utilidades de diagnóstico de red UDP y Traceroute ICMP",
+        "descripcion": "Herramientas de línea de comandos en Python que calculan tiempos de ida y vuelta (RTT) y tasas de pérdida de paquetes emulando ping sobre UDP, y rastrean las rutas y saltos intermedios mediante paquetes ICMP con valores incrementales de TTL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.pearson.com/en-us/subject-catalog/p/computer-networking-a-top-down-approach/P200000010908/9780138245597",
+      "https://gaia.cs.umass.edu/kurose_ross/",
+      "https://gaia.cs.umass.edu/kurose_ross/programming.htm"
+    ]
+  },
+  "sams-teach-yourself-tcpip-in-24-hours-4th-edition-2009": {
+    "descripcion": "Guía introductoria estructurada en 24 lecciones independientes de una hora diseñada para enseñar los fundamentos teóricos, la arquitectura y el funcionamiento operativo de la suite de protocolos TCP/IP y las redes de datos. La cuarta edición actualizó el temario integrando la evolución de las redes inalámbricas (802.11 Wi-Fi), tecnologías de banda ancha residencial, fundamentos del protocolo IPv6, control de spam y redes peer-to-peer (P2P). Está dirigida a administradores de sistemas principiantes, técnicos de soporte informático y estudiantes que necesitan comprender cómo viajan los datos en una red local o en Internet sin requerir formación matemática avanzada ni experiencia previa en programación.\n\nEl temario recorre las cuatro capas del modelo TCP/IP contrastándolas didácticamente con el modelo de referencia OSI: capa de acceso a red (Ethernet, Wi-Fi), capa de internet (formatos de datagramas IPv4 e IPv6, direccionamiento IP con clases, máscaras de subred, subnetting y CIDR), capa de transporte (diferencias entre TCP y UDP, control de flujo mediante ventanas deslizantes, puertos lógicos y establecimiento de conexiones de tres vías) y capa de aplicación (HTTP, SMTP, POP3, IMAP, FTP, Telnet y DNS). Enseña la configuración de direcciones automáticas con DHCP, enrutamiento estático y protocolos dinámicos, segmentación con firewalls perimetrales y el uso práctico de comandos de diagnóstico en consolas Windows y Unix/Linux como ping, traceroute / tracert, ipconfig / ifconfig, netstat, arp, nslookup y route.\n\nEl libro adopta una metodología de aprendizaje progresiva: cada capítulo concluye con una sección práctica de taller (\"Workshop\") que integra resúmenes, preguntas frecuentes, pruebas de autoevaluación tipo test y ejercicios guiados de cálculo de subredes e interpretación de diagnósticos, rematando en la última lección con un caso práctico simulado (\"siete días en la vida de un administrador de sistemas\") donde se planifica y despliega una red corporativa. Es un texto sumamente claro y accesible para afianzar conceptos previos a certificaciones como CompTIA Network+. No incluye proyectos de programación ni codificación de sockets, priorizando la comprensión conceptual y el diagnóstico administrativo de redes.",
+    "temas": [
+      "TCP/IP",
+      "Modelo OSI",
+      "Direccionamiento IPv4",
+      "Subnetting y CIDR",
+      "IPv6",
+      "Protocolos TCP y UDP",
+      "Enrutamiento",
+      "DNS",
+      "DHCP",
+      "Firewalls",
+      "Comandos de diagnóstico de red",
+      "Seguridad en redes"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/sams-teach-yourself-tcp-ip-in-24-hours-9780672329968",
+      "https://www.pearson.com/en-us/subject-catalog/p/sams-teach-yourself-tcp-ip-in-24-hours/P200000000301/9780672329968",
+      "https://www.goodreads.com/book/show/3472097-sams-teach-yourself-tcp-ip-in-24-hours"
+    ]
+  },
+  "computer-network-software-and-hardware-engineering-with-applications-2012": {
+    "descripcion": "Tratado técnico y académico de nivel universitario avanzado y posgrado en el que Norman F. Schneidewind (profesor emérito de la Naval Postgraduate School e IEEE Life Fellow) propone un enfoque holístico para la ingeniería de sistemas, integrando tres disciplinas que comúnmente se enseñan de forma aislada: diseño de computadores (hardware), redes de comunicación e ingeniería de software. La obra parte de la premisa de que el software no puede diseñarse en el vacío ignorando la infraestructura física ni el medio de red, orientándose a estudiantes de ingeniería informática y profesionales en activo que necesitan dominar la modelización cuantitativa de sistemas complejos. Se requieren conocimientos previos en programación, arquitectura de computadores elemental y fundamentos de redes.\n\nEl temario está estructurado rigurosamente en cinco bloques: ingeniería de computadores (lógica digital y diseño de microprocesadores con un caso de estudio); ingeniería de redes (sistemas en tiempo real, estándares y modelos de rendimiento para la Internet del futuro); procesos de ingeniería de software (métricas de calidad, mitigación de riesgos, seguridad y fiabilidad); integración cuantitativa de la fiabilidad entre hardware y software; y aplicaciones especializadas. A lo largo de sus páginas se estudian conceptos como el análisis y diseño orientado a objetos (OOAD) para software matemático, el uso de redes neuronales artificiales (ANN) para predecir fallos de software, la tecnología RFID, modelos de software orientados a señales en dispositivos móviles y formulaciones de disponibilidad y tolerancia a fallos.\n\nEl libro combina deducciones matemáticas formales y modelos estocásticos con problemas prácticos resueltos al final del texto, lo que permite ejercitar el cálculo analítico de métricas de fiabilidad, disponibilidad y mantenibilidad (RMA) y árboles de fallos. Su gran valor reside en proporcionar un marco analítico unificado para evaluar la confiabilidad de sistemas de misión crítica de punta a punta. No obstante, no es un manual de programación práctica ni incluye proyectos guiados de desarrollo de software con frameworks modernos; quienes busquen aprender a programar aplicaciones comerciales no encontrarán aquí guías de código paso a paso, sino fundamentos analíticos y de arquitectura de sistemas.",
+    "temas": [
+      "Ingeniería de sistemas",
+      "Arquitectura de computadores",
+      "Redes de comunicación",
+      "Lógica digital",
+      "Microprocesadores",
+      "Fiabilidad de software",
+      "Métricas RMA",
+      "Redes neuronales aplicadas",
+      "Ingeniería de dispositivos móviles",
+      "Modelado de rendimiento"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Computer%2C+Network%2C+Software%2C+and+Hardware+Engineering+with+Applications-p-9781118037454",
+      "https://ieeexplore.ieee.org/book/6204732",
+      "https://books.google.com/books?id=f_q4DwAAQBAJ"
+    ]
+  },
+  "history-of-wireless-2006": {
+    "descripcion": "Monografía monumental de carácter histórico y científico-técnico que reconstruye con minucioso detalle el desarrollo de las comunicaciones inalámbricas y la electrónica de soporte desde los primeros experimentos de magnetismo y electricidad en el siglo XIX hasta aproximadamente 1990. Elaborada por un panel de eminentes ingenieros de la IEEE (Tapan K. Sarkar, Robert Mailloux, Arthur Oliner, Magdalena Salazar-Palma y Dipak Sengupta), la obra adopta como principio que para entender plenamente una ciencia es indispensable comprender su historia. Está dirigida a estudiantes, ingenieros de telecomunicaciones, historiadores de la tecnología y apasionados de las redes que deseen conocer las raíces físicas y experimentales de la transmisión sin cables, sin exigir conocimientos matemáticos avanzados más allá de nociones básicas de física general.\n\nEl volumen analiza en profundidad la unificación del electromagnetismo por James Clerk Maxwell, los experimentos de Heinrich Hertz y las contribuciones teóricas de Oliver Heaviside. Rompiendo con la narrativa tradicional centrada exclusivamente en Guglielmo Marconi, rescata el papel de pioneros e investigadores a menudo olvidados o independientes —como Nikola Tesla, Jagadish Chandra Bose, Antonio Meucci, Nathan Stubblefield y John Ambrose Fleming— e investiga los aportes científicos de las escuelas alemana, soviética y japonesa. En el plano técnico, detalla la transición del telégrafo de chispa (spark-gap) y las transmisiones transatlánticas a los primeros tubos de vacío, la evolución del diseño de antenas, la teoría de guías de onda electromagnéticas y el surgimiento del radar y los arreglos de antenas en fase (phased arrays).\n\nAl tratarse de una obra historiográfica y de divulgación técnica rigurosa, no contiene ejercicios de código, problemas para resolver ni proyectos prácticos de laboratorio, sino transcripciones de correspondencia histórica, análisis de patentes originales y esquemas conceptuales de circuitos. Su mayor aportación es desmitificar la autoría única de la radio y otorgar un reconocimiento justo y plural a las múltiples ramas científicas internacionales que gestaron la tecnología inalámbrica. Conviene tener presente que no aborda estándares modernos de redes de datos (como Wi-Fi 802.11 o telefonía celular digital), sino los fundamentos electromagnéticos sobre los que se construyó toda la infraestructura de redes inalámbricas contemporánea.",
+    "temas": [
+      "Historia de la ciencia",
+      "Comunicaciones inalámbricas",
+      "Electromagnetismo",
+      "Ecuaciones de Maxwell",
+      "Telegrafía sin hilos",
+      "Evolución de antenas",
+      "Guías de onda",
+      "Tecnología de radar",
+      "Phased arrays",
+      "Válvulas y electrónica temprana"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/History+of+Wireless-p-9780471718147",
+      "https://ieeexplore.ieee.org/book/5237887",
+      "https://books.google.com/books?id=N7g8DwAAQBAJ"
+    ]
+  }
+}

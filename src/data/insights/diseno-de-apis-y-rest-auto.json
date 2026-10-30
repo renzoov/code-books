@@ -1,0 +1,580 @@
+{
+  "api-design-patterns-2021": {
+    "descripcion": "Tratado exhaustivo escrito por JJ Geewax, exingeniero de Google, que recopila y sistematiza las mejores prácticas y patrones de la industria para concebir APIs web predecibles, escalables y fáciles de consumir. El libro trasciende un lenguaje o framework concreto: expone soluciones aplicables tanto a arquitecturas REST sobre HTTP y JSON como a llamadas de procedimiento remoto basadas en Protocol Buffers (Protobuf) y gRPC. Está destinado a desarrolladores backend, ingenieros de software intermedios y arquitectos de sistemas que ya han implementado APIs básicas y buscan estandarizar el diseño de sus contratos de servicio internos y públicos.\n\nEl contenido se estructura como un catálogo detallado de patrones que resuelven retos comunes en el diseño de interfaces. Inicia con principios fundamentales como nomenclatura semántica, jerarquías de recursos parent-child, tipos de datos y métodos CRUD estándar. A continuación, profundiza en patrones avanzados: máscaras de campo (Field Masks) para actualizaciones parciales eficientes, operaciones de larga duración (LRO) con sondeo y cancelación asíncrona, tareas reejecutables, operaciones por lotes (batching), subrecursos singleton, relaciones polimórficas y referencias cruzadas. Asimismo, aborda la gestión colectiva de recursos con paginación basada en tokens, filtrado y ordenamiento, junto con garantías de seguridad y estabilidad: idempotencia mediante deduplicación de solicitudes, borrado lógico (soft delete) y estrategias de versionado y compatibilidad hacia atrás.\n\nCada capítulo incluye desafíos de diseño, escenarios guiados y ejercicios prácticos con los que el lector analiza las ventajas y contrapartidas de distintas decisiones estructurales. Su principal contribución es democratizar los estándares de diseño de APIs a gran escala desarrollados en Google, ofreciendo respuestas consistentes a problemas que suelen resolverse de forma improvisada. El libro prescinde deliberadamente de la implementación del código de servidor (bases de datos o frameworks como Express o Spring), concentrándose exclusivamente en la anatomía y el contrato de la API. Conviene tener experiencia previa con protocolos HTTP, APIs RESTful y formatos de intercambio de datos como JSON.",
+    "temas": [
+      "Diseño de APIs",
+      "REST",
+      "gRPC",
+      "Protocol Buffers",
+      "Field Masks",
+      "Paginación",
+      "Idempotencia",
+      "Versionado de APIs",
+      "OpenAPI",
+      "Arquitectura backend"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/api-design-patterns",
+      "https://www.goodreads.com/book/show/53325632-api-design-patterns",
+      "https://www.amazon.com/API-Design-Patterns-JJ-Geewax/dp/161729585X"
+    ]
+  },
+  "irresistible-apis-2016": {
+    "descripcion": "Guía estratégica y técnica en la que Kirsten Hunter, especialista en desarrollo de APIs con experiencia en Akamai y Yahoo!, expone una metodología integral para concebir, diseñar y mantener APIs web RESTful que los desarrolladores disfruten utilizar y que respondan a las metas del negocio. Apoyada en ejemplos de código con Node.js y Express, la obra está orientada a desarrolladores web de nivel intermedio, líderes técnicos y gestores de producto que necesitan alinear los requerimientos comerciales con una experiencia de desarrollo (DX) clara e intuitiva.\n\nEl libro profundiza en el enfoque API-First y el desarrollo guiado por diseño (Design-Driven Development), partiendo de la creación de perfiles de usuario (personas) y casos de uso antes de escribir código. Explica cómo modelar esquemas y contratos formales utilizando especificaciones como Swagger (OpenAPI), RAML y JSON Schema, detallando además los aspectos técnicos clave de los servicios REST: empleo riguroso de métodos y códigos de estado HTTP, diseño semántico de rutas (URIs), estructura de cargas JSON, autenticación mediante API keys y OAuth, control de tráfico (rate limiting) y diseño de mensajes de error consistentes. Dedica también un bloque importante a la creación de portales de documentación interactiva y kits de desarrollo (SDK).\n\nA lo largo de los capítulos, el lector aprende a formalizar contratos legibles por máquinas y a poner en marcha prototipos y servidores simulados (mocks) ejecutados sobre Node.js y Express. Su mayor aporte es fomentar una mentalidad de producto alrededor de las APIs, evitando que se conviertan en meros volcados técnicos de tablas de bases de datos. Al haberse publicado en 2016, las especificaciones utilizadas se basan en Swagger 2.0 y versiones tempranas de RAML (previas al estándar OpenAPI 3.x), y no cubre paradigmas modernos como GraphQL o gRPC, pero sus principios de diseño centrado en el desarrollador mantienen plena vigencia. Se recomienda tener conocimientos previos de desarrollo web con JavaScript y protocolos HTTP.",
+    "temas": [
+      "Diseño de APIs",
+      "REST",
+      "API-First",
+      "Developer Experience (DX)",
+      "OpenAPI",
+      "Swagger",
+      "RAML",
+      "Node.js",
+      "Express",
+      "JSON Schema"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/irresistible-apis",
+      "https://github.com/synedra/irresistible",
+      "https://www.goodreads.com/book/show/24998492-irresistible-apis"
+    ]
+  },
+  "designing-apis-with-swagger-and-openapi-2022": {
+    "descripcion": "Guía práctica y exhaustiva que enseña a diseñar APIs REST profesionales aplicando la filosofía API Design-First mediante la especificación OpenAPI (centrándose en OpenAPI 3.0 y 3.1) y el ecosistema de herramientas Swagger. Los autores Joshua S. Ponelat (colaborador central de Swagger) y Lukas L. Rosenstock orientan el contenido a desarrolladores de backend y frontend de nivel intermedio, así como arquitectos de software que ya cuentan con nociones básicas del protocolo HTTP y de formatos estructurados como JSON o YAML, y desean aprender a definir contratos de servicios sólidos y desacoplados antes de escribir código.\n\nEl libro detalla la sintaxis y estructura de los documentos OpenAPI en YAML y JSON, abarcando rutas (paths), operaciones HTTP, parámetros, cuerpos de solicitud, componentes reutilizables y esquemas de respuesta. Profundiza en el uso práctico de Swagger Editor, Swagger UI, Swagger Codegen y herramientas de servidores simulados (mock servers como Prism). Enseña además técnicas avanzadas de diseño: composición de esquemas con JSON Schema (allOf, oneOf, anyOf), paginación (mediante offsets y cursores), filtrado de colecciones, autenticación y autorización (claves de API, tokens Bearer, flujos OAuth 2.0), tratamiento estandarizado de errores con Problem Details (application/problem+json según el RFC 7807), control de versiones y prevención de cambios incompatibles (breaking changes).\n\nA lo largo de los capítulos se construye de forma continua el proyecto «FarmStall API», una interfaz para un mercado agrícola donde se consultan puestos y se envían opiniones. El lector define el contrato en OpenAPI, levanta un servidor mock para programar el frontend de forma independiente y genera la plantilla del backend en Node.js mediante Swagger Codegen para acoplar la solución completa. Su mayor virtud radica en inculcar un flujo de trabajo colaborativo riguroso que minimiza la fricción entre equipos; deja deliberadamente fuera la lógica de negocio profunda del servidor o el modelado de bases de datos relacionales, ya que su prioridad es la gobernanza y estandarización del contrato de la API. Conviene tener conocimientos básicos de JavaScript o Node.js para seguir la implementación del backend.",
+    "temas": [
+      "OpenAPI 3",
+      "Swagger Editor",
+      "Swagger Codegen",
+      "API Design-First",
+      "REST",
+      "JSON Schema",
+      "Mocking con Prism",
+      "Node.js",
+      "Problem Details (RFC 7807)",
+      "Autenticación OAuth2",
+      "Versionado de APIs"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "FarmStall API y aplicación web",
+        "descripcion": "API RESTful para un mercado agrícola diseñada paso a paso con la especificación OpenAPI 3 en Swagger Editor, que integra un servidor mock para desacoplar el frontend y la generación del backend en Node.js con Swagger Codegen."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/designing-apis-with-swagger-and-openapi",
+      "https://www.oreilly.com/library/view/designing-apis-with/9781617296833/",
+      "https://github.com/designapis/farmstall"
+    ]
+  },
+  "apis-2011": {
+    "descripcion": "Manual estratégico pionero que aborda las APIs como canales esenciales de distribución de productos y crecimiento empresarial, alejándose de la visión restrictiva de considerarlas simples interfaces de programación técnica. Firmado por Daniel Jacobson (antiguo director de ingeniería de APIs en Netflix y NPR), Greg Brail (arquitecto en Apigee) y Dan Woods, el libro está concebido para gerentes de producto, directores de tecnología, directores de desarrollo de negocio y arquitectos de software con conocimientos intermedios en sistemas web que necesitan liderar la transición hacia una economía de plataformas interconectadas.\n\nEl texto desglosa la cadena de valor de las APIs (propietarios de activos, proveedores del servicio y desarrolladores externos o internos) y examina los distintos modelos de apertura: APIs privadas internas, APIs para socios comerciales (partner APIs) y APIs públicas abiertas. Detalla la gestión de la experiencia del desarrollador (DX) como factor crítico de adopción, la infraestructura de pasarelas de enlace (API Gateways), el control de tráfico y limitación de peticiones (rate limiting), modelos de seguridad basados en claves de API y OAuth, la formalización de acuerdos de nivel de servicio (SLA), los marcos legales de propiedad intelectual y términos de uso, y las métricas e indicadores clave de rendimiento (KPIs) para evaluar el éxito comercial y técnico, respaldándose en casos emblemáticos de la época como Netflix, Twitter, Facebook y NPR.\n\nAl tratarse de una obra estratégica y de gestión técnica, no incluye proyectos de código ni ejercicios de programación paso a paso. Su aporte fundamental radica en enseñar a formular un plan de negocio y de gobernanza para APIs que alinee los intereses del equipo de ingeniería con los objetivos comerciales de la organización. Queda fuera la codificación de endpoints o el uso de frameworks específicos de programación. Es una lectura conceptual de gran valor para ingenieros que asumen roles directivos y necesitan entender la monetización, escalabilidad operativa y los riesgos regulatorios de exponer servicios en la web.",
+    "temas": [
+      "Estrategia de APIs",
+      "API as a Product",
+      "Cadena de valor",
+      "Developer Experience (DX)",
+      "API Gateway",
+      "Rate limiting",
+      "OAuth",
+      "Gobernanza de APIs",
+      "Métricas y KPIs",
+      "Modelos de negocio"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/apis-a-strategy/9781449318468/",
+      "https://books.google.com/books/about/APIs_A_Strategy_Guide.html?id=l4eXy67sIlgC",
+      "https://www.amazon.com/APIs-Strategy-Guide-Daniel-Jacobson/dp/1449308929"
+    ]
+  },
+  "rest-api-design-rulebook-2011": {
+    "descripcion": "Manual de estilo prescriptivo y conciso que compila una colección rigurosa de reglas normativas para diseñar interfaces web RESTful uniformes, intuitivas y predecibles. Escrito por Mark Massé, el libro está pensado para desarrolladores backend, diseñadores de software y arquitectos de nivel intermedio que conocen los conceptos elementales de la Web y buscan erradicar la ambigüedad, el desorden sintáctico y la disparidad de criterios en la construcción de endpoints HTTP.\n\nLa obra organiza sus directrices en categorías de diseño bien delimitadas: sintaxis de identificadores URI (jerarquías con barras oblicuas, uso de guiones frente a guiones bajos, omisión de extensiones de archivo o barras finales, y nomenclatura en plural para colecciones), modelado semántico de interacciones HTTP/1.1 (aprovechamiento estricto de métodos GET, POST, PUT, DELETE y PATCH según su seguridad e idempotencia), y aplicación sistemática de códigos de estado HTTP (200, 201, 204, 400, 404, entre otros). Asimismo, aborda la gestión de metadatos mediante cabeceras estándar para caché y negociación de contenido, la estructura de representaciones en formatos JSON y XML, la integración de hipermedios vinculados (HATEOAS), y la resolución de limitaciones de clientes navegadores a través de CORS, JSONP y métodos de tunelización. Como complemento, el autor expone su propuesta formal del lenguaje WRML (Web Resource Modeling Language).\n\nEl libro carece de proyectos integrales o ejercicios de codificación; funciona deliberadamente como una guía de referencia rápida y un estándar de ingeniería por el que contrastar cualquier diseño de API. Su mayor valor reside en clarificar debates habituales de equipo sobre nombres de rutas, códigos de retorno y convenciones HTTP, permitiendo elaborar contratos limpios y consistentes. Deja fuera la implementación técnica en lenguajes concretos, la autenticación avanzada y la persistencia en bases de datos. Es un texto ideal para consultar de forma continua al momento de escribir especificaciones técnicas de endpoints.",
+    "temas": [
+      "REST",
+      "Diseño de URIs",
+      "Métodos HTTP",
+      "Códigos de estado HTTP",
+      "HATEOAS",
+      "JSON",
+      "Cabeceras HTTP",
+      "CORS",
+      "Nomenclatura de recursos",
+      "Modelado de APIs"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/rest-api-design/9781449317904/",
+      "https://www.amazon.com/REST-API-Design-Rulebook-Masse/dp/1449310508",
+      "https://books.google.com/books/about/REST_API_Design_Rulebook.html?id=eabuzQEACAAJ"
+    ]
+  },
+  "rest-in-practice-2010": {
+    "descripcion": "Obra seminal sobre sistemas distribuidos que expone cómo trasladar los principios fundacionales de la Web y el estilo arquitectónico REST a entornos corporativos, superando el fuerte acoplamiento y la complejidad inherentes a los servicios web WS-* y SOAP. Ian Robinson, Jim Webber y Savas Parastatidis estructuran el contenido para ingenieros de software y arquitectos de nivel intermedio a avanzado que cuentan con experiencia en Java o .NET (C#) y desean comprender la verdadera naturaleza de REST más allá de las operaciones CRUD convencionales.\n\nEl texto desglosa minuciosamente el Modelo de Madurez de Richardson, guiando al lector desde el uso inicial de XML plano sobre HTTP (POX) hasta la adopción completa de hipermedios como motor del estado de la aplicación (HATEOAS). Aborda el diseño de contratos desacoplados, la gestión de transacciones web sin estado y la orquestación asíncrona mediante el estándar de sindicación Atom (RFC 4287) y el protocolo de publicación AtomPub (RFC 5023) para la integración de procesos empresariales. También profundiza en estrategias de escalado horizontal aprovechando la infraestructura de caché de HTTP (ETags, directivas Cache-Control y proxies intermedios), mecanismos de seguridad en transporte y autenticación (TLS, Basic, Digest, OAuth, OpenID), y principios de la Web Semántica y Linked Data (microformatos, RDF). Los ejemplos de código se implementan tanto en Java (con JAX-RS / Jersey) como en .NET (utilizando WCF Web HTTP).\n\nEl eje práctico transversal es el desarrollo del proyecto «Restbucks», una arquitectura completa de gestión de pedidos y cobros para una cadena internacional de cafeterías. Mediante este caso, se programa paso a paso el ciclo de vida de un pedido: solicitud, pago, preparación y entrega, donde el cliente navega entre estados guiado exclusivamente por los enlaces provistos por el servidor y coordina el cumplimiento de órdenes con feeds de AtomPub. Es una lectura indispensable para interiorizar el diseño de sistemas distribuidos tolerantes a fallos y desacoplados. No contempla estándares modernos como OpenAPI ni tecnologías web contemporáneas, pero su fundamento arquitectónico sobre el aprovechamiento integral de HTTP sigue siendo una referencia obligada.",
+    "temas": [
+      "REST",
+      "HATEOAS",
+      "Modelo de Madurez de Richardson",
+      "Java",
+      ".NET",
+      "Atom Syndication Format",
+      "AtomPub",
+      "Caché HTTP",
+      "Arquitectura orientada a recursos",
+      "Sistemas distribuidos",
+      "Seguridad web"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de pedidos Restbucks",
+        "descripcion": "Arquitectura distribuida para una cadena de cafeterías implementada en Java y .NET, donde la creación, pago y entrega de pedidos se coordinan mediante hipermedios y el protocolo AtomPub."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/rest-in-practice/9781449383312/",
+      "https://www.amazon.com/REST-Practice-Hypermedia-Systems-Architecture/dp/0596805829",
+      "https://books.google.com/books/about/REST_in_Practice.html?id=k7N6oM_s0BcC"
+    ]
+  },
+  "restful-web-apis-2013": {
+    "descripcion": "Tratado exhaustivo dedicado al diseño de APIs web evolutivas y resilientes al cambio mediante la aplicación rigurosa de hipermedios y perfiles semánticos. Escrito por Leonard Richardson, Mike Amundsen y Sam Ruby (autores y colaboradores del referente *RESTful Web Services*), el texto se dirige a desarrolladores web y arquitectos de software con conocimientos básicos o intermedios sobre el protocolo HTTP y formatos de intercambio de datos que desean superar las limitaciones de las APIs basadas en URLs rígidas y acopladas.\n\nEl libro profundiza en la distinción conceptual entre recursos y representaciones, demostrando cómo los enlaces y controles de hipermedios permiten a los clientes descubrir acciones dinámicamente sin codificar rutas estáticas en el cliente. Presenta y compara una amplia variedad de formatos de medios estandarizados (MIME types para hipermedia), entre los que destacan HAL (Hypertext Application Language), Collection+JSON, Siren, HTML con microformatos y AtomPub. Asimismo, enseña a resolver la ambigüedad del significado de los datos mediante perfiles como ALPS (Application-Level Profile Semantics) y XMDP, explora la integración de datos abiertos enlazados a través de JSON-LD y vocabularios web, y examina la extensión de los principios REST a dispositivos con recursos limitados mediante el protocolo CoAP. Las demostraciones prácticas y scripts de soporte se apoyan en HTTP y Node.js.\n\nEn su sección de diseños específicos de dominio, los autores implementan el proyecto interactivo «Maze+XML», un servidor y tres clientes desacoplados en Node.js que modelan un juego de exploración de laberintos. A través de este ejercicio, un cliente jugador, un creador de mapas y un lector de puntuaciones interactúan con el laberinto siguiendo únicamente las transiciones de estado expuestas en los enlaces XML del servidor. El libro aporta una comprensión inigualable del principio HATEOAS y del diseño semántico en la Web, aunque su densidad teórica exige concentración y deja de lado temas de desarrollo como frameworks de backend modernos, bases de datos o interfaces de usuario gráficas. Conviene tener familiaridad con peticiones HTTP y JavaScript para comprender el código complementario.",
+    "temas": [
+      "REST",
+      "HATEOAS",
+      "HAL",
+      "Collection+JSON",
+      "Siren",
+      "ALPS",
+      "JSON-LD",
+      "Hypermedia",
+      "Protocolo CoAP",
+      "Node.js",
+      "Semántica web"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Juego de laberinto Maze+XML",
+        "descripcion": "Servidor y clientes desacoplados en Node.js que implementan un juego de exploración de laberintos mediante un tipo de medio XML personalizado, guiando las acciones y navegación exclusivamente a través de controles de hipermedia."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/restful-web-apis/9781449359713/",
+      "https://www.amazon.com/RESTful-Web-APIs-Services-Changing/dp/1449358063",
+      "https://books.google.com/books/about/RESTful_Web_APIs.html?id=L8Y4AAAAQBAJ"
+    ]
+  },
+  "restful-web-clients-2016": {
+    "descripcion": "Guía especializada escrita por Mike Amundsen que aborda el desarrollo de clientes HTTP desde la perspectiva de la arquitectura REST y el principio del hipermedio como motor del estado de la aplicación (HATEOAS). Frente a la abundante literatura centrada en construir servicios web, esta obra se enfoca exclusivamente en cómo programar clientes verdaderamente desacoplados, flexibles y resistentes al cambio. Está dirigida a desarrolladores web, arquitectos de software e ingenieros frontend o backend de nivel intermedio que consumen APIs y poseen conocimientos básicos del protocolo HTTP, JavaScript o Node.js y formatos estructurados como JSON y HTML.\n\nEl texto enseña a estructurar clientes guiados por affordances dinámicas en lugar de acoplarse rígidamente a URLs cableadas. Introduce el patrón Representor para desacoplar el modelo interno de objetos del formato de transporte y analiza el ciclo RPW (Request, Parse, Wait Loop). Amundsen examina y contrasta diversos tipos de contenido hipermedia estandarizados, implementando clientes que interpretan HAL (Hypertext Application Language), extensiones HAL-FORMS, Siren, Collection+JSON y microformatos sobre HTML. Además, cubre especificaciones de diseño creadas para la obra como WeSTL (Web Service Transition Language) y cj-types, junto con estrategias de versionado resiliente que evitan roturas ante la evolución natural del servidor.\n\nLa parte práctica guía la construcción en Node.js y JavaScript de múltiples clientes de consola que interactúan con un servicio de procesamiento de tareas (Task Processing Service o TPS API), demostrando la evolución desde clientes JSON rígidos hasta implementaciones autónomas que leen transiciones en HAL, Siren y Collection+JSON. El valor diferencial del libro es rescatar el propósito original de REST demostrando que el cliente solo es verdaderamente desacoplado si navega mediante enlaces; no aborda frameworks frontend específicos (como React o Angular) ni persistencia en bases de datos, por lo que resulta ideal para quienes buscan solidez conceptual antes de consumir microservicios en producción.",
+    "temas": [
+      "Clientes REST",
+      "Hipermedia",
+      "HATEOAS",
+      "HAL",
+      "Siren",
+      "Collection+JSON",
+      "Representor Pattern",
+      "RPW Loop",
+      "Node.js",
+      "Versionado de APIs",
+      "Protocolo HTTP"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Clientes desacoplados para Task Processing Service (TPS)",
+        "descripcion": "Serie de aplicaciones cliente en Node.js y JavaScript que consumen los endpoints de una API de tareas mediante formatos hipermedia (HAL, Siren y Collection+JSON), interpretando enlaces y ejecutando transiciones dinámicas en tiempo de ejecución."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/restful-web-clients/9781491921890/",
+      "https://github.com/RWCBook",
+      "https://www.amazon.com/RESTful-Web-Clients-Enabling-Hypermedia/dp/1491921901"
+    ]
+  },
+  "restful-web-services-cookbook-2010": {
+    "descripcion": "Manual de referencia y recetario de arquitectura escrito por Subbu Allamaraju (arquitecto de software en Yahoo!) que reúne soluciones prácticas y fundamentadas a los dilemas cotidianos al diseñar y exponer APIs web sobre HTTP. El libro está orientado a ingenieros de software, desarrolladores de backend y arquitectos de nivel intermedio a avanzado que ya comprenden la teoría básica de REST y el funcionamiento elemental de la web, pero necesitan criterios rigurosos para resolver situaciones reales de diseño, escalabilidad y consistencia sin dogmatismos.\n\nOrganizado bajo la estructura canónica de recetas (problema, solución y discusión técnica), el contenido profundiza en el uso riguroso del protocolo HTTP y estándares web asociados. Enseña pautas para el diseño limpio de URIs, la semántica estricta de métodos (GET, POST, PUT, DELETE, PATCH), la modelización de recursos y representaciones en JSON y XML, la negociación de contenido mediante cabeceras (Accept, Content-Type) y el enlace de recursos con Web Linking (RFC 5988), Atom y AtomPub. Dedica secciones exhaustivas al almacenamiento en caché (Cache-Control, Expires, Vary), peticiones condicionales con ETags e If-Match/If-None-Match para control de concurrencia optimista, manejo de operaciones asíncronas con 202 Accepted, consultas complejas, seguridad (TLS, autenticación básica, digest y OAuth) y políticas de versionado.\n\nEl libro no construye una aplicación monolítica guiada, sino que desarrolla decenas de casos concretos ilustrados con intercambios reales de cabeceras, códigos de estado HTTP y cargas útiles. Su mayor virtud es su fidelidad a los mecanismos nativos de la web, enseñando a resolver la concurrencia y la caché sin inventar capas propietarias; por haberse publicado en 2010, deja fuera especificaciones modernas como OpenAPI/Swagger o tokens JWT, pero sus fundamentos arquitectónicos sobre idempotencia, consistencia y caché continúan siendo una referencia indispensable.",
+    "temas": [
+      "Protocolo HTTP",
+      "Diseño de URIs",
+      "Idempotencia",
+      "ETags",
+      "Caché HTTP",
+      "Negociación de contenido",
+      "Control de concurrencia",
+      "HATEOAS",
+      "AtomPub",
+      "Respuestas asíncronas",
+      "Seguridad web"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/restful-web-services/9780596809140/",
+      "https://www.amazon.com/RESTful-Web-Services-Cookbook-Solutions/dp/0596801688"
+    ]
+  },
+  "patterns-for-api-design-2022": {
+    "descripcion": "Tratado exhaustivo de arquitectura de software que condensa el diseño de contratos y servicios web en un catálogo formal de patrones de intercambio de mensajes desacoplados. Perteneciente a la Signature Series de Vaughn Vernon, la obra está concebida para arquitectos de software, diseñadores de APIs y desarrolladores senior que trabajan en sistemas distribuidos o microservicios y necesitan un marco común y sistemático para tomar decisiones de diseño fundamentadas, más allá de preferencias estéticas o modas tecnológicas.\n\nLos autores estructuran 44 patrones de diseño organizados en categorías clave: fundamentos y visibilidad del endpoint, roles y responsabilidades de las operaciones (Information Holder Resource, Processing Resource), representación y granularidad de mensajes (Data Transfer Objects, Parameter Objects, Error Payloads), refinamientos de calidad y rendimiento (Pagination, Request Bundling, Wish List, Rate Limiting) y evolución sostenible (garantías de ciclo de vida y versionado). Además, incluye 29 árboles de decisión arquitectónica y conecta estos patrones con tecnologías concretas como REST/JSON, especificaciones OpenAPI, AsyncAPI, GraphQL y gRPC.\n\nPara contrastar los patrones en un entorno realista, la obra utiliza como caso de estudio Lakeside Mutual, un proyecto de microservicios para el sector asegurador implementado con Spring Boot y tecnologías web abiertas. El libro aporta un vocabulario técnico riguroso que permite justificar los compromisos de diseño entre rendimiento, simplicidad y evolución a largo plazo; no es un recetario básico para principiantes que buscan crear su primer CRUD, sino una obra de referencia de alto nivel para diseñar interfaces robustas en organizaciones medianas y grandes.",
+    "temas": [
+      "Patrones de diseño",
+      "Arquitectura de APIs",
+      "Microservicios",
+      "Granularidad de mensajes",
+      "Paginación",
+      "Gobernanza de APIs",
+      "OpenAPI",
+      "GraphQL",
+      "gRPC",
+      "Versionado de contratos",
+      "Lakeside Mutual"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de microservicios Lakeside Mutual",
+        "descripcion": "Caso de estudio transversal que modela el núcleo de una compañía de seguros mediante microservicios, implementando patrones de recursos de información, procesamiento, contratos OpenAPI y versionado desacoplado sobre Spring Boot."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/patterns-for-api-design-simplifying-integration-with-9780137670109",
+      "https://api-patterns.org/",
+      "https://www.amazon.com/Patterns-API-Design-Simplifying-Integration/dp/0137670103"
+    ]
+  },
+  "mastering-rest-apis-2024": {
+    "descripcion": "Guía técnica integral orientada a la ingeniería práctica de APIs RESTful robustas, escalables y listas para producción en múltiples plataformas de backend contemporáneas. Escrito por Sivaraj Selvaraj y publicado por Apress en 2024, el libro está diseñado para desarrolladores web e ingenieros de software de nivel intermedio a avanzado que dominan al menos un lenguaje backend y buscan elevar sus competencias en diseño de endpoints, seguridad, gobernanza y despliegue empresarial.\n\nEl temario parte de los fundamentos y restricciones de la arquitectura REST para luego desplegar implementaciones funcionales paso a paso en seis marcos backend representativos: Node.js con Express, Ruby on Rails, Python con Django, PHP con Laravel, C# con ASP.NET Core y Java con Spring Boot, sumando un módulo dedicado a APIs serverless en la nube con AWS Lambda y Azure Functions. A través de estos ecosistemas se enseñan patrones de enrutamiento, controladores, integración con ORMs, validación y serialización de datos, autenticación mediante JSON Web Tokens (JWT) y OAuth, configuración de CORS, estrategias de versionado, observabilidad y patrones avanzados para microservicios y comunicación en tiempo real.\n\nEl lector construye servicios de API REST completos en cada una de las tecnologías abordadas, lo que permite comparar cómo resuelve cada marco el manejo de peticiones, la inyección de dependencias y la seguridad. Su valor primordial es ofrecer una perspectiva políglota y práctica en un único volumen actualizado; como contrapartida, al abarcar seis entornos distintos en unas 540 páginas, no reemplaza la documentación oficial especializada de cada framework para optimizaciones internas avanzadas de base de datos o tuning de bajo nivel.",
+    "temas": [
+      "APIs REST",
+      "Node.js",
+      "Express",
+      "Django",
+      "Laravel",
+      "Ruby on Rails",
+      "ASP.NET Core",
+      "Spring Boot",
+      "Serverless",
+      "Seguridad JWT",
+      "Microservicios"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servicios API REST multiplataforma",
+        "descripcion": "Desarrollo práctico de APIs backend con operaciones CRUD completas, serialización y autenticación basada en tokens estructuradas en Node.js (Express), Python (Django), PHP (Laravel), Ruby on Rails, C# (ASP.NET Core) y Java (Spring Boot)."
+      },
+      {
+        "nombre": "API REST Serverless en la nube",
+        "descripcion": "Construcción y despliegue de funciones backend orientadas a eventos utilizando servicios Function-as-a-Service (FaaS) en entornos serverless en la nube."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/979-8-8688-0309-3",
+      "https://www.oreilly.com/library/view/mastering-rest-apis/9798868803093/",
+      "https://www.amazon.com/Mastering-REST-APIs-Development-Techniques/dp/B0D9WMSF8C"
+    ]
+  },
+  "continuous-api-management-2nd-edition-2021": {
+    "descripcion": "Manual estratégico y organizativo que aborda la gestión de ecosistemas de APIs corporativas bajo el enfoque de API como producto (API-as-a-Product o AaaP). Coescrito por los referentes de la industria Mehdi Medjaoui, Erik Wilde, Ronnie Mitra y Mike Amundsen, el libro se enfoca en cómo equilibrar la velocidad y autonomía de los equipos de desarrollo con la gobernanza, estabilidad y seguridad que exige una organización. Está pensado para directores de tecnología, directores de producto de APIs (API Product Managers), arquitectos de sistemas e ingenieros líderes con experiencia previa en diseño de APIs que deben administrar catálogos extensos y heterogéneos.\n\nLa segunda edición profundiza en los diez pilares del trabajo de producto en APIs y presenta modelos de madurez aplicables tanto a interfaces individuales como a paisajes globales de servicios (API landscapes). Compara estilos arquitectónicos modernos (REST, GraphQL, gRPC y eventos asíncronos con Webhooks), detalla las cinco fases del ciclo de vida de un producto API (creación, publicación, explotación, mantenimiento y deprecación controlada), y aborda la definición de topologías de equipo, métricas de valor de negocio y diseño de portales para desarrolladores y puertas de enlace (API Gateways).\n\nEl libro tiene una vocación esencialmente metodológica, de gobernanza y de arquitectura empresarial, por lo que no propone proyectos de programación de código ni ejercicios técnicos de laboratorio paso a paso. Su mayor aportación es proporcionar herramientas analíticas para evitar la sobreplanificación temprana y el descontrol arquitectónico tardío, ayudando a sincronizar decisiones técnicas con objetivos de negocio; quienes busquen sintaxis de código o tutoriales de configuración técnica de un gateway en particular necesitarán acudir a guías de implementación complementarias.",
+    "temas": [
+      "API Management",
+      "API-as-a-Product",
+      "Gobernanza de APIs",
+      "Ciclo de vida de APIs",
+      "API Landscapes",
+      "REST vs GraphQL vs gRPC",
+      "Topología de equipos",
+      "Modelos de madurez",
+      "Deprecación de servicios",
+      "Estrategia digital"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/continuous-api-management-2nd/9781098103514/",
+      "https://www.amazon.com/Continuous-API-Management-Decisions-Landscape/dp/109810352X"
+    ]
+  },
+  "learning-api-styles-2025": {
+    "descripcion": "Obra de referencia y análisis comparativo publicada por O'Reilly en 2025, centrada en desmitificar los principales estilos de APIs contemporáneas y evaluar sus compromisos arquitectónicos (trade-offs). Lukasz Dynowski y Marcin Dulak orientan el texto a desarrolladores y arquitectos de software de nivel básico a intermedio que desean comprender el fundamento de cada modelo de comunicación antes de comprometerse con una solución tecnológica específica. Para aprovecharlo al máximo, es recomendable contar con conocimientos básicos de programación (preferentemente en Python) y nociones elementales del modelo cliente-servidor en la web.\n\nEl recorrido técnico parte de las capas fundamentales de red (sockets, TCP, modelos de transmisión) y los protocolos de la World Wide Web (HTTP/1.1, HTTP/2, HTTP/3 y QUIC) para adentrarse en la implementación concreta de diversos estilos: APIs REST con Django REST Framework, interfaces de consulta con GraphQL usando la biblioteca Strawberry, sindicación de contenidos mediante Web Feeds con Atom, llamadas a procedimiento remoto con gRPC y Protocol Buffers (Protobuf), eventos asíncronos mediante webhooks basados en la especificación standard-webhooks, comunicación bidireccional en tiempo real con WebSockets, y mensajería distribuida con colas respaldadas por RabbitMQ (AMQP).\n\nA lo largo de los capítulos se diseña y desarrolla un servicio central de ejemplo llamado Weather Forecast Service (WFS), que sirve como banco de pruebas unificado para poner en práctica y contrastar cada estilo de API bajo un mismo dominio funcional. Su principal virtud radica en el análisis objetivo de compensaciones entre rendimiento, acoplamiento, latencia y complejidad operativa, evitando posturas dogmáticas sobre qué arquitectura es mejor. No profundiza en patrones avanzados de orquestación de microservicios ni en service mesh, pero resulta un recurso formativo indispensable para seleccionar con fundamento técnico la interfaz adecuada para cada caso de uso.",
+    "temas": [
+      "Estilos de APIs",
+      "REST",
+      "GraphQL",
+      "gRPC",
+      "Webhooks",
+      "WebSockets",
+      "RabbitMQ",
+      "Protocol Buffers",
+      "Django REST Framework",
+      "HTTP/3",
+      "Protocolos de red"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Weather Forecast Service (WFS)",
+        "descripcion": "Servicio de pronóstico del tiempo implementado en Python con Django que sirve como laboratorio para materializar y comparar cada estilo de comunicación: endpoints REST con DRF, esquemas GraphQL con Strawberry, servicios gRPC con Protobuf, WebSockets, webhooks y colas de mensajes con RabbitMQ."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-api-styles/9781098160869/",
+      "https://learningapistyles.com/",
+      "https://github.com/ldynia/learning-api-styles"
+    ]
+  },
+  "mastering-api-architecture-2022": {
+    "descripcion": "Tratado exhaustivo de nivel avanzado publicado por O'Reilly en 2022, enfocado en el diseño, la operación, la seguridad y la evolución continua de plataformas empresariales basadas en APIs y microservicios. James Gough, Daniel Bryant y Matthew Auburn estructuran la obra para ingenieros experimentados, arquitectos de software y líderes técnicos que necesitan transformar sistemas monolíticos o monolitos modulares en ecosistemas distribuidos resilientes y desacoplados. Se asume que el lector cuenta con experiencia previa en desarrollo backend, conceptos de sistemas distribuidos y despliegue en entornos cloud o contenedores.\n\nEl contenido cubre de punta a punta el ciclo de vida y la infraestructura que rodea a las APIs: especificación rigurosa de contratos con OpenAPI y gRPC/Protobuf, estrategias de verificación mediante pruebas de componentes y contract testing con Testcontainers y Pact, gestión del tráfico norte-sur (North-South ingress) a través de API Gateways y del tráfico este-oeste (East-West) con mallas de servicios (Service Meshes como Envoy o Istio). En el ámbito operacional y de seguridad, profundiza en observabilidad (métricas, logging estructurado y trazabilidad distribuida), modelado de amenazas, autenticación y autorización con OAuth 2.0 y mTLS, mitigando riesgos identificados en el OWASP API Security Top 10.\n\nPara articular la teoría con el terreno práctico, los autores desarrollan un caso de estudio continuo centrado en un sistema de conferencias (Conference System), implementando en Java (mediante frameworks como Quarkus y Spring Boot) el servicio Attendees API, respaldado por diagramas de arquitectura C4 y registros de decisiones arquitectónicas (ADRs). Destaca especialmente por su enfoque pragmático sobre patrones de migración como el Strangler Fig y el análisis de costes operativos antes de introducir herramientas complejas. No es un manual para aprender sintaxis de código ni frameworks web desde cero, sino una guía de diseño y gobierno de sistemas para entornos de alta exigencia.",
+    "temas": [
+      "Arquitectura de APIs",
+      "Microservicios",
+      "API Gateways",
+      "Service Mesh",
+      "OpenAPI",
+      "gRPC",
+      "Contract Testing",
+      "OAuth 2.0",
+      "mTLS",
+      "Observabilidad",
+      "Strangler Fig Pattern"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Conference System y Attendees API",
+        "descripcion": "Sistema distribuido de gestión de conferencias desarrollado como caso de estudio en Java (Spring Boot y Quarkus) con soporte dual para REST y gRPC bajo contratos OpenAPI, integrando pruebas de contratos, pasarelas de API y despliegue en contenedores."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/mastering-api-architecture/9781492090625/",
+      "https://www.amazon.com/Mastering-API-Architecture-Operating-Connecting/dp/1492090630",
+      "https://github.com/masteringapi"
+    ]
+  },
+  "restful-web-api-patterns-and-practices-cookbook-2022": {
+    "descripcion": "Recetario técnico avanzado publicado por O'Reilly en 2022 en el que Mike Amundsen, referente internacional en arquitectura web, aborda la conexión, orquestación y evolución de microservicios y datos distribuidos sobre la web abierta. El libro está orientado a desarrolladores backend y arquitectos de software de nivel intermedio a avanzado que dominan el protocolo HTTP y las APIs REST convencionales, pero se enfrentan a problemas de acoplamiento rígido, rotura de clientes ante cambios de versión y dificultades de integración en sistemas descentralizados.\n\nEstructurado bajo el formato clásico de recetario (problema, solución y discusión técnica), el texto enseña a diseñar sistemas siguiendo la filosofía original de hipermedia y HATEOAS. Explora en detalle la creación de perfiles semánticos de aplicación con ALPS (Application-Level Profile Semantics), el uso de vocabularios y tipos de medios enriquecidos (HAL, Collection+JSON, Siren, Mason), mecanismos de descubrimiento e invocación en tiempo de ejecución (\"find-and-bind\") con el registro open-disco, y la implementación de acciones seguras e idempotentes. Los ejemplos e implementaciones utilizan Node.js, comandos cURL y utilidades de línea de comandos como hyper CLI para explorar y manipular recursos hipermedia.\n\nEn lugar de una sola aplicación monolítica tradicional, el libro proporciona un compendio de decenas de recetas funcionales que abarcan servicios generadores de UUID, registros descentralizados de microservicios y clientes autónomos guiados por estados y enlaces. Su mayor contribución es rescatar los principios arquitectónicos de Roy Fielding y Tim Berners-Lee para demostrar cómo la hipermedia reduce drásticamente el coste de mantenimiento y la fragilidad de las integraciones en producción. Requiere soltura en JavaScript/Node.js y una mente abierta para desligarse del enfoque tradicional centrado únicamente en endpoints CRUD fijos.",
+    "temas": [
+      "REST",
+      "Hipermedia",
+      "HATEOAS",
+      "ALPS",
+      "Microservicios",
+      "Catálogo de patrones",
+      "Service Registry",
+      "Idempotencia",
+      "Node.js",
+      "Sistemas distribuidos",
+      "Orquestación de APIs"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/restful-web-api/9781098106737/",
+      "https://www.amazon.com/RESTful-Web-Patterns-Practices-Cookbook/dp/109810674X",
+      "https://github.com/webapicookbook"
+    ]
+  },
+  "what-are-asynchronous-apis-2023": {
+    "descripcion": "Informe técnico y estratégico de 86 páginas publicado por O'Reilly en 2023, en el que Mike Amundsen y Ronnie Mitra analizan el cambio de paradigma desde las APIs síncronas de petición-respuesta (request-reply) hacia las arquitecturas reactivas y asíncronas orientadas a eventos. Está orientado a desarrolladores backend de nivel intermedio, líderes técnicos y arquitectos de software con experiencia en diseño de APIs REST que necesitan incorporar capacidades de tiempo real, transmisión continua de datos y procesamiento desacoplado en sus organizaciones.\n\nEl reporte define la distinción conceptual entre las interacciones \"RESTful\" y las comunicaciones \"EVENTful\", analizando patrones como la notificación de eventos, la transferencia de estado portada por eventos (event-carried state transfer), event sourcing y la delimitación entre eventos y comandos. Introduce formalmente la especificación AsyncAPI como estándar equivalente a OpenAPI para el modelado y la documentación de contratos de mensajes, y examina las tecnologías y protocolos que hacen posible la asincronía en la red: WebSockets, Webhooks, Server-Sent Events (SSE), MQTT, y plataformas de colas y streaming como RabbitMQ y Apache Kafka.\n\nAl tratarse de una monografía concisa, el texto no incluye la construcción paso a paso de un proyecto de código extenso ni recetas guiadas, sino que se centra en dotar al lector de criterios de diseño y discernimiento técnico. Su aporte principal reside en identificar con lucidez los retos operativos y arquitectónicos que acarrea la asincronía, tales como la consistencia eventual, la gestión de entregas duplicadas, el ordenamiento de mensajes y la complejidad de la observabilidad. Resulta una lectura preliminar de gran utilidad antes de embarcarse en implementaciones complejas basadas en brokers de mensajería.",
+    "temas": [
+      "APIs Asíncronas",
+      "AsyncAPI",
+      "Arquitectura orientada a eventos",
+      "WebSockets",
+      "Webhooks",
+      "Event-Carried State Transfer",
+      "RabbitMQ",
+      "Apache Kafka",
+      "Event Sourcing",
+      "Consistencia eventual"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/what-are-asynchronous/9781098140410/",
+      "https://www.amazon.com/What-Are-Asynchronous-APIs-Event-Driven-ebook/dp/B0BWK5M2G5"
+    ]
+  },
+  "the-design-of-web-apis-2019": {
+    "descripcion": "Guía metodológica y exhaustiva escrita por Arnaud Lauret (conocido en la industria como 'API Handyman') y publicada por Manning en 2019, dedicada exclusivamente a la fase de diseño de APIs web bajo un enfoque centrado en el consumidor (outside-in). La obra se fundamenta en los estándares modernos de la web, haciendo uso de HTTP y la especificación OpenAPI 3.0. Está dirigida a desarrolladores backend, arquitectos de software y líderes técnicos de nivel intermedio que ya comprenden los fundamentos del protocolo HTTP y buscan una metodología sistemática para diseñar interfaces intuitivas, predecibles y mantenibles antes de escribir una sola línea de código en el servidor.\n\nEl recorrido formativo enseña a descomponer objetivos de negocio en capacidades concretas mediante la herramienta API Goals Canvas. Lauret aborda en detalle el modelado de recursos, la jerarquía de URIs, el uso riguroso de métodos HTTP (GET, POST, PUT, DELETE y PATCH), la selección precisa de códigos de estado y la estructuración de cargas útiles de petición y respuesta. Asimismo, profundiza en la definición formal de esquemas con JSON Schema dentro de OpenAPI 3.0, patrones de seguridad (OAuth 2.0, API keys y alcances o scopes), optimización del rendimiento en red (paginación por cursor y desplazamiento, filtrado, almacenamiento en caché con ETags y operaciones por lotes) y técnicas para evolucionar contratos sin romper la retrocompatibilidad mediante políticas controladas de versionado y obsolescencia.\n\nA lo largo del libro no se construye una aplicación ejecutable ni se configura infraestructura, ya que el autor separa deliberadamente el diseño de la interfaz de los detalles de implementación (omitiendo frameworks backend, bases de datos o despliegues). En su lugar, todos los conceptos se aplican en el diseño de una API bancaria realista (gestión de cuentas, titulares y transferencias) y se afianzan mediante ejercicios prácticos al final de los capítulos, cuyas soluciones se incluyen en el apéndice. Es una lectura imprescindible que aporta rigor a la ergonomía de las interfaces de programación; conviene tener experiencia previa en consumo o creación básica de servicios web para aprovechar al máximo las sutilezas de diseño que plantea.",
+    "temas": [
+      "OpenAPI 3.0",
+      "REST",
+      "Diseño de APIs",
+      "HTTP",
+      "JSON Schema",
+      "Modelado de datos",
+      "OAuth 2.0",
+      "Seguridad en APIs",
+      "Versionado",
+      "Paginación y caché",
+      "API Goals Canvas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/the-design-of-web-apis",
+      "https://www.oreilly.com/library/view/the-design-of/9781617295102/",
+      "https://apihandyman.io/books/the-design-of-web-apis/"
+    ]
+  },
+  "designing-web-apis-2018": {
+    "descripcion": "Manual pragmático publicado por O'Reilly en 2018 y escrito por Brenda Jin, Saurabh Sahni y Amir Shevat (quienes lideraron iniciativas de plataforma e integración en Slack), orientado a concebir las APIs web como productos tecnológicos de primer nivel. Con un enfoque centrado en la experiencia del desarrollador (DX), la obra está pensada para desarrolladores backend, arquitectos y jefes de producto técnico de nivel intermedio que conocen los conceptos básicos de la web y necesitan tomar decisiones estratégicas de arquitectura, escalabilidad y gobernanza en interfaces destinadas tanto a consumo interno como a ecosistemas públicos de terceros.\n\nEl libro compara y analiza con claridad los principales paradigmas de comunicación web: los modelos tradicionales de petición-respuesta (REST, RPC y GraphQL) frente a los modelos dirigidos por eventos y streaming (Webhooks, WebSockets y Server-Sent Events). Enseña buenas prácticas para la nomenclatura de endpoints, uso semántico de verbos HTTP, códigos de estado y esquemas estandarizados de errores. Además, profundiza en especificaciones con OpenAPI (Swagger), mecanismos de autenticación y autorización (OAuth 2.0, OpenID Connect y claves de API), estrategias de escalabilidad en capas (balanceo de carga, limitación de peticiones o rate limiting y almacenamiento en caché con CDNs) y planes de gestión del cambio (estrategias de versionado en URL o cabeceras, políticas de obsolescencia y contratos no disruptivos).\n\nLa obra es eminentemente conceptual y estratégica: no guía la codificación paso a paso de un backend ni contiene ejercicios de programación, sino que ilustra cada patrón mediante hojas de trabajo de diseño (API Design Worksheets), listas de comprobación y estudios de casos reales basados en empresas líderes como Slack, Stripe, Twilio, GitHub y Facebook. Su gran fortaleza es abarcar todo el ciclo de vida del producto API, incluyendo el diseño de portales para desarrolladores, documentación interactiva y kits de desarrollo (SDKs); deja fuera la implementación concreta en lenguajes o bases de datos específicas. Resulta un recurso de alto valor para equipos que deseen establecer estándares de diseño y escalar su plataforma tecnológica.",
+    "temas": [
+      "REST",
+      "Webhooks",
+      "GraphQL",
+      "RPC",
+      "OpenAPI",
+      "OAuth 2.0",
+      "Rate Limiting",
+      "Diseño de APIs",
+      "Versionado",
+      "Developer Experience"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/designing-web-apis/9781492026914/",
+      "https://www.amazon.com/Designing-Web-APIs-Brenda-Jin/dp/1492026915"
+    ]
+  },
+  "principles-of-web-api-design-2021": {
+    "descripcion": "Tratado de referencia publicado por Addison-Wesley en 2021 dentro de la serie Vernon, escrito por el consultor y arquitecto James Higginbotham. La obra introduce una metodología estructurada para guiar el diseño de APIs web y microservicios a partir del valor de negocio que deben ofrecer. Aunque parte de principios fundamentales que la hacen accesible a quienes se inician en la arquitectura de APIs (nivel básico a intermedio), requiere conocimientos previos de desarrollo web y lógica de software para comprender cómo transformar flujos organizacionales en interfaces digitales reutilizables.\n\nHigginbotham introduce su método colaborativo ADDR (Align, Define, Design, Refine), integrando técnicas de diseño guiado por el dominio (Domain-Driven Design o DDD), Job Stories y talleres de EventStorming para identificar capacidades digitales y delimitar contextos de dominio (bounded contexts) sin caer en dependencias de bases de datos. A partir de esa alineación, aborda el diseño de interfaces según múltiples estilos arquitectónicos: APIs REST basadas en recursos y mensajes, llamadas RPC, consultas estructuradas mediante GraphQL y arquitecturas orientadas a eventos con AsyncAPI para streaming y mensajería asíncrona. También enseña a formalizar contratos con OpenAPI, formular estrategias de pruebas automatizadas y proteger las APIs mediante pasarelas (API gateways) y políticas de seguridad.\n\nEl libro no propone ejercicios de codificación ni construye una aplicación informática en un lenguaje concreto, sino que desarrolla un caso de estudio continuo de dominio empresarial donde se modelan colaborativamente capacidades, eventos y contratos de API a través de artefactos y diagramas de secuencia. Su aportación fundamental es desterrar el antipatrón de diseñar APIs exponiendo directamente esquemas relacionales o modelos de clases internas, enseñando a ver los contratos como acuerdos desacoplados entre productores y consumidores. Es una lectura esencial para aprender a dialogar entre negocio y desarrollo técnico antes de iniciar la implementación en microservicios.",
+    "temas": [
+      "Proceso ADDR",
+      "Diseño de APIs",
+      "REST",
+      "EventStorming",
+      "Domain-Driven Design",
+      "AsyncAPI",
+      "GraphQL",
+      "OpenAPI",
+      "Microservicios",
+      "Job Stories"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.pearson.com/en-us/subject-catalog/p/principles-of-web-api-design-delivering-value-with-apis-and-microservices/P200000009575",
+      "https://www.oreilly.com/library/view/principles-of-web/9780137355631/",
+      "https://launchany.com/principles-of-web-api-design/"
+    ]
+  },
+  "service-design-patterns-2011": {
+    "descripcion": "Obra fundamental sobre arquitectura de software empresarial escrita por Robert Daigneau, con prólogo de Martin Fowler y publicada por Addison-Wesley en 2011 dentro de su prestigiosa serie Signature. El texto está pensado para arquitectos de software, ingenieros de integración y desarrolladores sénior o intermedios con solidez en programación orientada a objetos (principalmente en Java o C#/.NET) que necesitan patrones formales para estructurar servicios web distribuidos, robustos y débilmente acoplados en entornos corporativos.\n\nEl libro se estructura como un catálogo exhaustivo de patrones de diseño clasificados por capas y responsabilidades: estilos de API (RPC API, Message API y Resource API), patrones de interacción entre cliente y servicio (Request/Response, Request/Acknowledge, negociación de tipos de contenido y Linked Service para navegación hipermedia/HATEOAS), gestión de peticiones y respuestas (Data Transfer Object o DTO, Service Controller, Request Mapper y Response Mapper), estilos de implementación interna (Transaction Script, Datasource Adapter, Operation Script, Command Invoker) y patrones de infraestructura (Service Interceptor, Asynchronous Response Handler, Idempotent Retry). Asimismo, contrasta de manera metódica los servicios basados en SOAP/WSDL con las arquitecturas RESTful sobre HTTP.\n\nAl ser un catálogo de patrones clásico, no se desarrolla un único proyecto integral de principio a fin ni se incluyen problemas o tareas para el lector; en cambio, cada patrón presenta su contexto, fuerzas motrices, soluciones y diagramas arquitectónicos, acompañados de fragmentos de código ilustrativos en Java (JAX-WS, JAX-RS) y .NET (WCF). Aunque tecnologías como WCF o las complejidades de WS-* han sido superadas por herramientas modernas, los conceptos de diseño desacoplado, idempotencia, resiliencia y evolución de esquemas (como los patrones Tolerant Reader y Consumer-Driven Contracts) siguen siendo vigentes y vitales en la ingeniería de microservicios actual.",
+    "temas": [
+      "Patrones de diseño",
+      "SOAP",
+      "REST",
+      "WSDL",
+      "Arquitectura de software",
+      "DTO",
+      "Idempotencia",
+      "JAX-RS",
+      "WCF",
+      "Tolerant Reader",
+      "Servicios distribuidos"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.informit.com/store/service-design-patterns-fundamental-design-solutions-9780321544209",
+      "https://martinfowler.com/books/daigneau.html",
+      "https://www.oreilly.com/library/view/service-design-patterns/9780132802611/"
+    ]
+  },
+  "pro-restful-apis-2017": {
+    "descripcion": "Guía técnica condensada de Sanjay Patni, publicada por Apress en 2017 y fundamentada en los programas académicos impartidos por el autor en la extensión de Silicon Valley de la Universidad de California Santa Cruz. La obra se orienta a desarrolladores web e ingenieros de software de nivel intermedio que dominan el lenguaje Java y la programación orientada a objetos, y buscan dominar de forma directa la especificación JAX-RS para construir, integrar y consumir servicios web basados en la arquitectura REST.\n\nEl contenido sigue una estructura descendente (top-down) que parte de los principios y restricciones de REST, pasando por el modelado de APIs con lenguajes de definición como RAML y la manipulación de formatos de intercambio de datos (JSON y XML). Luego se centra en la implementación práctica con JAX-RS y su implementación de referencia Jersey, cubriendo el ciclo de peticiones HTTP, anotaciones esenciales (@Path, @GET, @POST, @PUT, @DELETE, @Produces, @Consumes, @PathParam y @QueryParam) y la estructuración en capas de la cartera de APIs (Process, System y Experience APIs). Por último, explica la persistencia de datos mediante repositorios relacionales con MySQL y NoSQL con MongoDB, el consumo de servicios desde clientes Java y nociones de seguridad con OAuth 2.0, Spring Security y control de caché HTTP (ETags y cabeceras Cache-Control).\n\nA lo largo de sus 126 páginas, el libro presenta laboratorios prácticos y fragmentos de código orientados a construir endpoints RESTful en Java conectados a bases de datos relacionales y documentales, sin articular un proyecto integral de gran escala ni incorporar ejercicios evaluables para el estudiante. Su principal mérito radica en su brevedad y carácter directo para asimilar JAX-RS y el ecosistema Java sin rodeos teóricos innecesarios; no obstante, deja fuera estándares actuales como OpenAPI 3.0, Spring Boot o arquitecturas de microservicios en la nube. Conviene tener solidez previa en Java SE y configuración de proyectos Maven antes de leerlo.",
+    "temas": [
+      "JAX-RS",
+      "REST",
+      "Java",
+      "Jersey",
+      "JSON",
+      "XML",
+      "RAML",
+      "MySQL",
+      "MongoDB",
+      "OAuth 2.0",
+      "Caché HTTP"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2665-0",
+      "https://www.apress.com/gp/book/9781484226643",
+      "https://www.oreilly.com/library/view/pro-restful-apis/9781484226650/"
+    ]
+  }
+}

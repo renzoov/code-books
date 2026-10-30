@@ -1,0 +1,165 @@
+{
+  "build-ios-database-apps-with-swift-and-sqlite-2016": {
+    "descripcion": "Guía práctica de Kevin Languedoc enfocada en la integración y persistencia de datos relacionales en aplicaciones móviles para iOS utilizando el lenguaje Swift y la base de datos embebida SQLite.\n\nEl autor enseña a prescindir de la sobrecarga de Core Data cuando se requiere control SQL directo, detallando la interacción mediante la API en C de SQLite y librerías wrapper modernas como SQLite.swift y FMDB. Se abordan la creación de esquemas, migraciones de tablas, consultas parametrizadas para evitar inyecciones, transacciones y la sincronización asíncrona de datos con servicios web.\n\nIdeal para desarrolladores de iOS que buscan una alternativa ligera, portable y de alto rendimiento para gestionar datos locales estructurados en iPhones y iPads.",
+    "temas": [
+      "SQLite",
+      "iOS",
+      "Swift",
+      "Bases de Datos Móviles",
+      "SQLite.swift",
+      "FMDB",
+      "SQL Relacional",
+      "Mobile Offline"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Gestor de presupuestos personal para iOS con SQLite",
+        "descripcion": "Construcción de una app en Swift con operaciones CRUD sobre una base de datos SQLite local, transacciones seguras y gráficos estadísticos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "introducing-sqlite-for-mobile-developers-2015": {
+    "descripcion": "Manual introductorio y comparativo de Jesse Feiler sobre SQLite, diseñado para capacitar a desarrolladores móviles multiplataforma en la gestión eficiente de almacenamiento local en Android e iOS.\n\nEl libro compara el acceso nativo a SQLite en ambas plataformas: SQLiteOpenHelper en Android frente a librerías y frameworks en iOS. El autor detalla el diseño de esquemas normalizados, optimización de índices para dispositivos con recursos limitados, almacenamiento en memoria caché y estrategias para sincronizar datos locales con servidores remotos.\n\nUn recurso accesible y claro para programadores móviles que necesitan una base sólida sobre el motor relacional embebido más desplegado del mundo.",
+    "temas": [
+      "SQLite",
+      "Android",
+      "iOS",
+      "Mobile Development",
+      "SQLiteOpenHelper",
+      "Normalización",
+      "Índices",
+      "Sincronización"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Catálogo offline multiplataforma sincronizado",
+        "descripcion": "Implementación de una base de datos SQLite compartida conceptualmente entre clientes móviles para consulta sin conexión y sincronización por lotes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "the-definitive-guide-to-sqlite-2nd-edition-2010": {
+    "descripcion": "Segunda edición de la obra maestra y canónica de Grant Allen y Mike Owens, considerada unánimemente el tratado definitivo sobre la arquitectura, diseño y uso interno de SQLite.\n\nLos autores disecciona el motor completo: la máquina virtual de registros (VDBE), el compilador de consultas SQL, el subsistema de páginas y árboles B (B-Trees), el subsistema de bloqueo y control de concurrencia, y el registro de transacciones (journaling y WAL). Además, enseña a extender SQLite mediante funciones definidas por el usuario (UDFs) y tablas virtuales en C.\n\nLectura imprescindible para ingenieros de bases de datos, programadores de sistemas y desarrolladores que necesitan exprimir SQLite al máximo nivel de rendimiento y fiabilidad.",
+    "temas": [
+      "SQLite",
+      "Grant Allen",
+      "Mike Owens",
+      "VDBE",
+      "B-Tree",
+      "WAL",
+      "C API",
+      "Arquitectura de Bases de Datos"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de búsqueda con tablas virtuales y UDFs en C para SQLite",
+        "descripcion": "Desarrollo de una extensión personalizada en lenguaje C que añade funciones matemáticas y un módulo de tabla virtual personalizado a SQLite."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "essential-sqlalchemy-2nd-edition-2015": {
+    "descripcion": "Segunda edición de la reconocida guía de Jason Myers y Rick Copeland sobre SQLAlchemy, el toolkit y mapeador objeto-relacional (ORM) estándar de la industria en Python.\n\nLos autores cubren tanto SQLAlchemy Core (la capa de abstracción SQL basada en esquemas y expresiones) como SQLAlchemy ORM (la capa de asignación relacional de objetos). Se analizan consultas complejas con joins y agrupaciones, manejo de transacciones, relaciones uno a muchos y muchos a muchos, eventos y optimizaciones de rendimiento con SQLite, PostgreSQL y MySQL.\n\nUna referencia técnica indispensable para ingenieros de datos y desarrolladores backend en Python que interactúan con bases de datos relacionales.",
+    "temas": [
+      "SQLAlchemy",
+      "Python",
+      "ORM",
+      "SQLAlchemy Core",
+      "SQLite",
+      "PostgreSQL",
+      "Bases de Datos Relacionales",
+      "Transacciones"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de gestión comercial con SQLAlchemy ORM y SQLite",
+        "descripcion": "Construcción de un modelo de persistencia completo en Python con relaciones polimórficas, sesiones transaccionales y migraciones de esquema."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "using-sqlite-2010": {
+    "descripcion": "Guía práctica y metódica de Jay A. Kreibich para aprender a utilizar SQLite como motor de almacenamiento de propósito general en aplicaciones de escritorio, móviles y de servidor ligero.\n\nKreibich desglosa la sintaxis SQL soportada por SQLite, las peculiaridades del tipado dinámico (type affinity), el diseño de índices para optimizar consultas de lectura rápida, el uso de transacciones atómicas y la configuración de modos de bloqueo. Además, dedica secciones detalladas a la integración del motor en lenguajes como C, Python y Perl.\n\nUn manual de consulta muy valorado por su enfoque pragmático y explicaciones claras sobre cómo pensar con la filosofía zero-configuration de SQLite.",
+    "temas": [
+      "SQLite",
+      "Jay A. Kreibich",
+      "Type Affinity",
+      "Transacciones",
+      "Índices",
+      "C API",
+      "Zero-Configuration",
+      "Bases de Datos Embebidas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "android-sqlite-essentials-2014": {
+    "descripcion": "Manual práctico de Sunny Kumar Aditya y Vikash Kumar Karn sobre el uso eficiente de SQLite en el desarrollo de aplicaciones nativas para el sistema operativo Android.\n\nLos autores enseñan a crear y migrar esquemas con SQLiteOpenHelper, ejecutar operaciones CRUD mediante ContentProvider para compartir datos entre aplicaciones, optimizar cursores con CursorLoader para evitar bloqueos en el hilo principal de la UI, y cifrar la base de datos con SQLCipher para proteger la privacidad del usuario.\n\nMuy recomendable para desarrolladores Android que buscan implementar persistencia local segura, estructurada y sin fugas de memoria.",
+    "temas": [
+      "Android",
+      "SQLite",
+      "SQLiteOpenHelper",
+      "ContentProvider",
+      "CursorLoader",
+      "SQLCipher",
+      "Seguridad Móvil",
+      "Bases de Datos Locales"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de notas confidenciales cifradas con SQLCipher en Android",
+        "descripcion": "Desarrollo de una app con persistencia local en SQLite protegida por clave criptográfica, sincronización en background y ContentProvider seguro."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "learning-sqlite-for-ios-2016": {
+    "descripcion": "Guía especializada de Gene Da Rocha dedicada a la implementación de SQLite nativo en aplicaciones para el sistema operativo iOS utilizando Swift y Objective-C.\n\nEl autor enseña a estructurar bases de datos embebidas para móviles, manejar la API nativa libsqlite3 en C, realizar inserciones masivas con transacciones atómicas para máxima velocidad y diseñar esquemas normalizados para almacenamiento offline. Incluye comparaciones prácticas de rendimiento frente a Core Data y Realm.\n\nIdeal para desarrolladores iOS que requieren una solución de persistencia ligera, determinista y multiplataforma sin depender de frameworks opacos.",
+    "temas": [
+      "SQLite",
+      "iOS",
+      "Swift",
+      "libsqlite3",
+      "Persistencia Local",
+      "Core Data vs SQLite",
+      "Rendimiento Móvil",
+      "Transacciones"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Catálogo offline de alto rendimiento para iOS",
+        "descripcion": "Construcción de una aplicación móvil con carga instantánea de decenas de miles de registros utilizando consultas directas sobre SQLite nativo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

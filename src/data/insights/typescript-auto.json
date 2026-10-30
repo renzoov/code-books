@@ -1,0 +1,725 @@
+{
+  "essential-typescript-2019": {
+    "descripcion": "Primera edición de la guía de Adam Freeman sobre TypeScript, publicada por Apress con el subtítulo «From Beginner to Pro» y basada en TypeScript 3.5. Recorre el lenguaje desde cero hasta un nivel avanzado y está pensada para desarrolladores que ya programan en JavaScript, o que vienen de otros lenguajes, y quieren añadir tipado estático a sus proyectos. Incluye dos capítulos de repaso de JavaScript, así que no hace falta dominarlo a fondo, aunque sí conocer los conceptos básicos de programación.\n\nLa primera parte prepara el terreno con una aplicación de consola de tareas pendientes escrita en TypeScript (usa Inquirer para la interacción y Lowdb para guardar los datos), dos capítulos de repaso de JavaScript, el uso del compilador tsc y su configuración, y las pruebas y la depuración con Jest, ts-jest, TSLint y tsc-watch. La segunda parte es el núcleo del libro: tipos estáticos, funciones, arrays, tuplas y enums, objetos, clases e interfaces, genéricos básicos y avanzados (tipos condicionales, mapeados e indexados) y la convivencia con código JavaScript existente mediante archivos de declaración de tipos.\n\nLa tercera parte aplica lo aprendido en varias aplicaciones web: primero una aplicación independiente, sin framework, montada con webpack, ts-loader, Bootstrap, Axios y json-server como servicio web de prueba, y luego la misma idea construida con Angular, React y Vue.js, dos capítulos para cada uno. Su principal aporte es mostrar cómo encaja TypeScript en cada ecosistema y explicar con detalle el sistema de tipos. A cambio, las herramientas que usa ya están desactualizadas: TSLint está abandonado, los ejemplos usan webpack 4 y las versiones de los frameworks son de 2019. Quien empiece hoy hará mejor en leer ediciones posteriores (Essential TypeScript 4 o 5), aunque los capítulos sobre el sistema de tipos siguen siendo válidos casi por completo.",
+    "temas": [
+      "TypeScript 3.5",
+      "Tipos estáticos",
+      "Genéricos",
+      "Clases e interfaces",
+      "Compilador tsc",
+      "Jest",
+      "webpack",
+      "Archivos de declaración",
+      "Angular",
+      "React",
+      "Vue.js",
+      "json-server"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de tareas pendientes (todo)",
+        "descripcion": "Aplicación de consola en Node.js con la que se presenta el lenguaje en el primer capítulo. Usa Inquirer para los menús interactivos y Lowdb para guardar las tareas en un archivo JSON."
+      },
+      {
+        "nombre": "Aplicación web independiente",
+        "descripcion": "Aplicación web de dos capítulos sin framework, escrita en TypeScript y empaquetada con webpack y ts-loader. Usa Bootstrap para la interfaz, Axios para las peticiones HTTP y json-server como servicio REST de prueba."
+      },
+      {
+        "nombre": "Aplicaciones en Angular, React y Vue.js",
+        "descripcion": "La aplicación web se vuelve a construir con cada uno de los tres frameworks, dos capítulos por framework, para comparar cómo se integra TypeScript en cada uno de ellos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://eld.bl.uk/catalog/019524444",
+      "https://github.com/Apress/essential-typescript"
+    ]
+  },
+  "modern-typescript-2023": {
+    "descripcion": "«Modern TypeScript: A Practical Guide to Accelerate Your Development Velocity» es una guía práctica y concisa de Ben Beattie-Hood, ingeniero principal y formador con más de veinte años de experiencia, especializado en React y TypeScript. Publicada por Apress a finales de 2023, se basa en la versión actual del lenguaje en esa fecha (la serie TypeScript 5). Está dirigida a desarrolladores de frontend y de backend en JavaScript, de nivel intermedio a avanzado, que ya conocen JavaScript y quieren usar TypeScript a fondo para trabajar más rápido y con menos errores.\n\nEmpieza explicando cómo funciona TypeScript y dónde encaja en el ecosistema de JavaScript, y luego recorre el sistema de tipos: primitivos, interfaces, clases y funciones, tipado estructural, propiedades opcionales y tipos unión. En la parte avanzada trata los tipos mapeados, los tipos condicionales y los tipos calculados y recursivos, con ejemplos prácticos y avisos sobre los errores más comunes, extraídos de la experiencia del autor como formador. También dedica espacio a las herramientas del lenguaje, a las formas de depurar código TypeScript y a cómo preparar un proyecto para que siga siendo mantenible a medida que crece.\n\nEs un libro corto (nueve capítulos) que se centra en el lenguaje y no en un framework concreto, así que lo aprendido sirve igual para React, Node.js o cualquier otro entorno. Se aprende con fragmentos de código y explicaciones, sin construir una aplicación completa de principio a fin. Su punto fuerte es el tipado avanzado, que muchos manuales introductorios tratan por encima. No es un buen primer libro para quien todavía no conoce JavaScript moderno, y quien busque integración detallada con frameworks, bundlers o testing tendrá que completarlo con otras fuentes.",
+    "temas": [
+      "TypeScript 5",
+      "Sistema de tipos",
+      "Tipado estructural",
+      "Tipos unión",
+      "Tipos mapeados",
+      "Tipos condicionales",
+      "Tipos recursivos",
+      "Interfaces y clases",
+      "Depuración",
+      "Herramientas",
+      "Escalabilidad de proyectos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/978-1-4842-9722-3",
+      "https://www.goodreads.com/en/book/show/188549494-modern-typescript"
+    ]
+  },
+  "pro-typescript-2014": {
+    "descripcion": "«Pro TypeScript: Application-Scale JavaScript Development» es la primera edición del libro de Steve Fenton, desarrollador con más de una década de experiencia en aplicaciones JavaScript de gran tamaño y autor del primer libro publicado sobre TypeScript, en 2012. Publicado por Apress en 2014, corresponde a la época de TypeScript 1.x. Está pensado para programadores de nivel intermedio a avanzado, sobre todo los que vienen de lenguajes orientados a objetos como C# o Java y necesitan llevar JavaScript a proyectos grandes.\n\nEl libro empieza con las características del lenguaje y sigue con el sistema de tipos, la orientación a objetos en TypeScript y el funcionamiento del entorno de ejecución de JavaScript (ámbitos, eventos, contexto y prototipos). Después explica cómo ejecutar TypeScript en el navegador (manipulación del DOM, peticiones asíncronas y APIs del navegador) y en el servidor con Node.js. Trata también las excepciones, la gestión de memoria y el rendimiento, el uso de librerías JavaScript como jQuery, Knockout y AngularJS mediante archivos de declaración de tipos, y las pruebas automatizadas. Los apéndices incluyen una referencia rápida de JavaScript, las opciones del compilador, el uso de enums como banderas de bits y una introducción a los coding katas como forma de practicar.\n\nNo construye una aplicación completa: avanza con ejemplos de código breves en cada capítulo y, en lugar de ejercicios propios, recomienda colecciones de katas para practicar. Su valor está en los criterios de diseño y arquitectura para aplicaciones grandes y en su explicación del entorno de ejecución, que sigue siendo útil. Sin embargo, la parte técnica ha quedado muy desfasada: es anterior a let/const de uso general, los módulos ES, async/await, los tipos unión y el modo strict, y las librerías que cita están prácticamente abandonadas. Hoy conviene leerlo como complemento conceptual o buscar la segunda edición, de 2018.",
+    "temas": [
+      "TypeScript 1.x",
+      "Sistema de tipos",
+      "Programación orientada a objetos",
+      "Runtime de JavaScript",
+      "DOM",
+      "Node.js",
+      "Rendimiento y memoria",
+      "Archivos de declaración",
+      "jQuery",
+      "Knockout",
+      "AngularJS",
+      "Pruebas automatizadas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.springerprofessional.de/en/pro-typescript/1708452",
+      "https://typescript.developpez.com/livres/"
+    ]
+  },
+  "pro-typescript-2nd-edition-2017": {
+    "descripcion": "Segunda edición del libro de Steve Fenton sobre cómo usar TypeScript en aplicaciones JavaScript grandes, que el subtítulo llama \"application-scale\". Se publicó a finales de 2017 y trata la etapa de TypeScript 2.x. Está dirigido a desarrolladores web de nivel intermedio que ya dominan JavaScript y quieren una forma más estructurada y segura de escribir código que se pueda mantener. No hace falta experiencia previa con TypeScript, pero sí soltura con JavaScript y con la programación orientada a objetos.\n\nEl índice va de lo fundamental a lo práctico: características del lenguaje, organización del código con módulos y namespaces, el sistema de tipos a fondo (inferencia, tipos de unión e intersección, tuplas) y orientación a objetos en TypeScript, con principios de diseño y mixins. Siguen capítulos sobre el runtime de JavaScript, ejecutar TypeScript en el navegador y en el servidor con Node.js, excepciones, memoria y rendimiento, y uso de librerías JavaScript existentes mediante archivos de definición de tipos. El último capítulo trata las pruebas automatizadas. Respecto a la primera edición, esta revisa los cambios en módulos y namespaces, la inferencia, las opciones del compilador que conviene activar, async/await y el nuevo enfoque de los mixins. Los apéndices incluyen una referencia rápida de JavaScript, una guía del compilador de TypeScript, una explicación de los bitwise flags y una colección de coding katas.\n\nNo está organizado alrededor de un proyecto: es un libro conceptual con mucho código de ejemplo. La práctica guiada se concentra en los katas del apéndice, ejercicios cortos para afianzar el lenguaje mediante la repetición. Su punto fuerte es que explica el porqué del sistema de tipos y del diseño a escala, algo que muchos tutoriales omiten. Hay que tener en cuenta que es anterior a funciones posteriores como los tipos condicionales avanzados, los template literal types, los decoradores estándar o el operador satisfies. Además, las herramientas de compilación y de pruebas que menciona han cambiado mucho desde entonces. Sigue siendo útil para entender los fundamentos, pero conviene completarlo con la documentación actual.",
+    "temas": [
+      "TypeScript 2.x",
+      "Sistema de tipos",
+      "Inferencia de tipos",
+      "Módulos y namespaces",
+      "Programación orientada a objetos",
+      "Mixins",
+      "async/await",
+      "Node.js",
+      "Archivos de definición de tipos",
+      "Rendimiento y memoria",
+      "Pruebas automatizadas",
+      "Compilador tsc"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://eld.bl.uk/catalog/019183802",
+      "https://www.springer.com/gb/book/9781484232484"
+    ]
+  },
+  "typescript-revealed-2013": {
+    "descripcion": "Introducción breve, de unas cien páginas en tres capítulos, al lenguaje TypeScript creado por Anders Hejlsberg en Microsoft. Se publicó a comienzos de 2013, cuando TypeScript todavía estaba en versión preliminar (la serie 0.8), antes de la versión 1.0. Está pensado para los primeros desarrolladores que se acercaron al lenguaje y que ya conocían las herramientas de Microsoft y .NET, JavaScript o ambos.\n\nEl primer capítulo cuenta el origen de TypeScript, lo compara con JavaScript, advierte de errores frecuentes y explica la instalación y el paso de código JavaScript a TypeScript. El segundo, «The New Syntax», presenta lo que TypeScript añadía a JavaScript: el sistema de tipos con tipado estático e inferencia, funciones, clases con herencia mediante extends, interfaces y módulos. El tercero trata el compilador, los archivos de declaración (.d.ts) para usar librerías JavaScript existentes y la integración de TypeScript en proyectos ASP.NET, aplicaciones de Windows 8 y Node.js. También repasa las herramientas y el apoyo de la comunidad en ese momento.\n\nEs un recorrido rápido con ejemplos de código, sin ejercicios ni un proyecto completo. Hoy su valor es sobre todo histórico, porque muestra cómo nació el lenguaje. Para aprender TypeScript actual está muy desfasado: los módulos internos y externos de entonces se convirtieron en namespaces y módulos ES, el sistema de tipos creció enormemente (genéricos, uniones, tipos mapeados, modo estricto) y el entorno de herramientas no se parece al actual. Quien busque aprender TypeScript moderno debería elegir un libro más reciente.",
+    "temas": [
+      "TypeScript 0.8",
+      "TypeScript vs. JavaScript",
+      "Tipado estático",
+      "Inferencia de tipos",
+      "Clases e interfaces",
+      "Módulos",
+      "Archivos de declaración",
+      "Compilador",
+      "ASP.NET",
+      "Windows 8",
+      "Node.js"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.apress.com/gp/book/9781430257257",
+      "https://www.oreilly.com/library/view/typescript-revealed/9781430257257/",
+      "https://library.villanova.edu/Find/Record/1441896/TOC",
+      "https://github.com/Apress/typescript-revealed"
+    ]
+  },
+  "typescript-crash-course-2024": {
+    "descripcion": "Guía de BPB Publications, publicada en 2024, en la que Daniel Cavalcante enseña TypeScript moderno desde los conceptos básicos hasta funciones avanzadas, con un enfoque claramente práctico. Está dirigida a desarrolladores web e ingenieros que ya trabajan con JavaScript y quieren pasarse a TypeScript para escribir código más fiable y fácil de mantener, tanto en el frontend como en el backend. También dedica espacio a desmontar algunos mitos frecuentes sobre el lenguaje.\n\nLos primeros capítulos presentan el lenguaje, la instalación y la configuración del entorno, los fundamentos de los tipos y cómo estructurarlos y extenderlos (interfaces, alias de tipos, composición). Después llegan funciones avanzadas como los genéricos y los decoradores. La segunda mitad es aplicada: migrar a TypeScript una aplicación web escrita en JavaScript, añadir TypeScript a una aplicación React y usarlo en una aplicación de servidor con Node.js. Cierran el libro un capítulo sobre el build para producción y otro de buenas prácticas y siguientes pasos. Por el camino se escriben pruebas en TypeScript, se integran librerías de terceros con sus tipos y se habla de cómo elegir herramientas y frameworks.\n\nEl hilo conductor es una aplicación sencilla de tareas (Todo) que se trabaja con JavaScript, React y Node.js, de modo que el lector ve la misma idea en el navegador y en el servidor. Su mayor aporte es mostrar la migración de proyectos existentes, que es la situación más habitual en el trabajo real. Al ser un crash course, no profundiza en el sistema de tipos avanzado (tipos condicionales, tipos mapeados complejos) ni en arquitectura de aplicaciones grandes. Conviene llegar con buena base de JavaScript moderno y algo de experiencia con React y Node.js.",
+    "temas": [
+      "TypeScript",
+      "Configuración del entorno",
+      "Sistema de tipos",
+      "Interfaces y alias de tipos",
+      "Genéricos",
+      "Decoradores",
+      "Migración desde JavaScript",
+      "React",
+      "Node.js",
+      "Testing",
+      "Librerías de terceros",
+      "Build para producción"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de tareas (Todo)",
+        "descripcion": "Aplicación sencilla de lista de tareas que sirve de hilo conductor: se escribe con TypeScript, se integra con una interfaz en React y con un backend en Node.js, y se acompaña de pruebas y de la preparación del build para producción."
+      },
+      {
+        "nombre": "Migración de una aplicación web JavaScript a TypeScript",
+        "descripcion": "Se toma una aplicación web escrita en JavaScript y se convierte paso a paso a TypeScript, añadiendo tipos y configuración del compilador para hacerla más fiable y fácil de mantener."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bpbonline.com/products/typescript-crash-course",
+      "https://in.bpbonline.com/products/typescript-crash-course"
+    ]
+  },
+  "the-ultimate-typescript-developers-handbook-2024": {
+    "descripcion": "Manual autopublicado por Madison Giroux que presenta TypeScript paso a paso como una forma de escribir JavaScript más seguro, fácil de mantener y escalable. Las fichas de catálogo lo dirigen tanto a quienes empiezan desde cero como a desarrolladores de JavaScript que quieren añadir tipado estático a su trabajo. Lo más útil es llegar con bases de JavaScript moderno (funciones, objetos y promesas). Los listados no indican con qué versión de TypeScript trabaja.\n\nSegún su sumario, empieza por explicar qué es TypeScript y en qué se diferencia de JavaScript. Después repasa los fundamentos: variables, tipos de datos, arrays, tuplas, enums, inferencia y anotaciones de tipo. Luego trata las funciones (closures, sobrecargas, parámetros opcionales y el uso de this) y la programación orientada a objetos con clases, herencia, polimorfismo y modificadores de acceso. La parte avanzada cubre tipos unión e intersección, type guards, estrechamiento de tipos (narrowing), utility types y genéricos en interfaces, clases y funciones. Termina con módulos, namespaces y alias, y con programación asíncrona mediante Promises y async/await, incluido el manejo de errores.\n\nEs un recorrido clásico por el lenguaje, con ejemplos prácticos y buenas prácticas, pero sin proyectos guiados que se conozcan. No parece tratar la configuración de tsconfig.json, las herramientas de build ni la integración con frameworks como React, Angular o Node.js. Las fichas públicas apenas dan información sobre el autor y no hay reseñas, así que conviene tomarlo como un repaso introductorio y completarlo con el TypeScript Handbook oficial.",
+    "temas": [
+      "Fundamentos de TypeScript",
+      "Tipos e inferencia",
+      "Tuplas y enums",
+      "Funciones y sobrecargas",
+      "Clases y POO",
+      "Union e intersection types",
+      "Type guards y narrowing",
+      "Utility types",
+      "Genéricos",
+      "Módulos y namespaces",
+      "async/await"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "media",
+    "fuentes": [
+      "https://fable.co/book/the-ultimate-typescript-developers-handbook-a-comprehensive-journey-for-new-developers-by-madison-giroux-9798227431394",
+      "https://www.barnesandnoble.com/w/the-ultimate-typescript-developers-handbook-madison-giroux/1146979031"
+    ]
+  },
+  "essential-typescript-5-3rd-edition-2023": {
+    "descripcion": "Tercera edición de la guía de Adam Freeman, publicada por Manning en 2023 y actualizada a TypeScript 5, incluidos los nuevos decoradores estándar. Está escrita para desarrolladores de JavaScript que no han usado TypeScript: no exige experiencia previa con el lenguaje, pero sí soltura con JavaScript y con las herramientas habituales del ecosistema, como Node.js y npm.\n\nComo es habitual en Freeman, el libro avanza en tres etapas. Primero repasa el sistema de tipos de JavaScript para mostrar los problemas que resuelve TypeScript. Después estudia en detalle el tipado estático: configuración del compilador y de las herramientas de desarrollo, anotaciones de tipo, funciones y clases fuertemente tipadas, interfaces, genéricos, type guards y tipos avanzados, y la creación y el uso de archivos de declaración de tipos (.d.ts) para trabajar con librerías de JavaScript. Por último aplica todo a aplicaciones web reales con Angular y React, según indica Manning.\n\nEl libro alterna mucha explicación con ejemplos de código que se escriben y ejecutan capítulo a capítulo, y cierra con aplicaciones de ejemplo que llevan el lenguaje a un contexto real. Destaca por lo exhaustivo y por explicar el porqué de cada característica, aunque eso lo hace largo y a veces repetitivo. La parte de frameworks sirve para ver cómo se integra TypeScript, pero no enseña Angular ni React a fondo. Es una de las mejores opciones para pasar de JavaScript a TypeScript de forma sistemática.",
+    "temas": [
+      "TypeScript 5",
+      "Sistema de tipos de JavaScript",
+      "Configuración del compilador",
+      "Anotaciones de tipo",
+      "Funciones y clases tipadas",
+      "Genéricos",
+      "Type guards",
+      "Decoradores",
+      "Archivos de declaración",
+      "Angular",
+      "React"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicaciones web con Angular y React",
+        "descripcion": "En la última parte del libro se crean aplicaciones web de ejemplo con TypeScript usando Angular y React, para mostrar cómo se integra el tipado estático en cada framework y en su cadena de herramientas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/essential-typescript-5-third-edition"
+    ]
+  },
+  "total-typescript-2026": {
+    "descripcion": "Versión en libro de los cursos Total TypeScript de Matt Pocock, escrita junto a Taylor Bell y publicada por No Starch Press en 2026 con el subtítulo «The Essentials». Propone aprender TypeScript centrándose en el editor: en lugar de memorizar reglas, se aprende viendo lo que el compilador informa en tiempo real. Está pensado para desarrolladores con experiencia en JavaScript que quieren dominar TypeScript moderno y usarlo en proyectos reales, desde un nivel inicial hasta uno intermedio-avanzado.\n\nSus seis partes avanzan de forma acumulativa. Empieza con la preparación del entorno, el aprovechamiento del IDE (las «superpotencias» del editor) y el lugar de TypeScript en el proceso de desarrollo. Sigue con los tipos esenciales y las anotaciones, las uniones, los literales y el estrechamiento de tipos (narrowing). Luego trata objetos, mutabilidad, clases y las características exclusivas de TypeScript. La parte dedicada al compilador enseña a derivar tipos de otros tipos, a usar anotaciones y aserciones, y a entender los comportamientos más extraños del lenguaje («The Weird Parts»). Después explica módulos, scripts y archivos de declaración, y cómo configurar tsconfig.json para React, Node.js o librerías. Cierra con el diseño de tipos y la carpeta /utils, donde aparecen genéricos avanzados, type predicates y funciones de aserción.\n\nIncluye ejercicios a lo largo de los capítulos, que sirven como puntos de control al estilo de los cursos del autor, aunque no construye una aplicación concreta. Su gran aporte es enseñar a leer los mensajes de error y a pensar en transformaciones de tipos, algo que pocos libros explican tan bien; además lo avala el líder de desarrollo del equipo de TypeScript en Microsoft, Ryan Cavanaugh. No trata frameworks en profundidad: conviene conocer bien JavaScript y tener un editor como VS Code preparado para seguir los ejemplos.",
+    "temas": [
+      "TypeScript moderno",
+      "Flujo de trabajo en el IDE",
+      "Uniones y narrowing",
+      "Objetos y mutabilidad",
+      "Clases",
+      "Derivación de tipos",
+      "Genéricos",
+      "Type predicates y aserciones",
+      "Módulos y declaraciones",
+      "tsconfig.json",
+      "Diseño de tipos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/total-typescript",
+      "https://www.i-programmer.info/book-watch-archive/18835-total-typescript-no-starch-press.html"
+    ]
+  },
+  "ultimate-typescript-handbook-2023": {
+    "descripcion": "Manual de referencia práctico en el que Dan Wellman, desarrollador front-end británico con más de quince años de experiencia, recorre TypeScript desde sus fundamentos hasta temas avanzados del sistema de tipos. Se escribió cuando TypeScript acababa de llegar a la versión 5, aunque parte de los ejemplos se probaron con el compilador 4.7. Está dirigido a desarrolladores front-end que ya dominan JavaScript y quieren adoptar TypeScript, desde quienes empiezan con el lenguaje hasta perfiles intermedios que buscan una obra de consulta.\n\nLos trece capítulos siguen una progresión clara: ventajas de TypeScript, preparación del entorno de desarrollo, anotaciones de tipos básicas y uso del compilador tsc y sus opciones. Después vienen enums, interfaces y namespaces; objetos, arrays y tuplas; funciones y clases. La parte más avanzada trata el análisis de flujo de control (narrowing), la manipulación de tipos (genéricos, tipos condicionales y mapeados, utility types), el sistema de módulos y la creación de archivos de declaración .d.ts para tipar código JavaScript existente.\n\nCada tema se explica con ejemplos de código cortos y el libro cierra con un capítulo práctico que desarrolla paso a paso una aplicación web con Angular, donde se aplica lo aprendido en un entorno real. Su punto fuerte es la cobertura ordenada y completa del lenguaje, útil tanto para aprender como para consultar. En cambio, el proyecto final es único y está ligado a Angular, así que quien trabaje con React, Node.js u otros entornos tendrá que trasladar los conceptos por su cuenta. Tampoco profundiza en estrategias de migración ni en patrones de diseño de tipos al nivel de obras como Effective TypeScript.",
+    "temas": [
+      "TypeScript 5",
+      "Anotaciones de tipos",
+      "Compilador tsc",
+      "Enums",
+      "Interfaces",
+      "Namespaces",
+      "Tuplas",
+      "Clases",
+      "Control flow analysis",
+      "Manipulación de tipos",
+      "Módulos",
+      "Archivos de declaración",
+      "Angular"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación web con Angular",
+        "descripcion": "Capítulo final en el que se desarrolla paso a paso una aplicación web moderna con Angular y TypeScript, poniendo en práctica los tipos, las clases, los módulos y demás conceptos del libro."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://everand.com/book/670823677/Ultimate-Typescript-Handbook",
+      "https://www.storytel.com/th/books/ultimate-typescript-handbook-2579499"
+    ]
+  },
+  "effective-typescript-2019": {
+    "descripcion": "Primera edición de «Effective TypeScript: 62 Specific Ways to Improve Your TypeScript», de Dan Vanderkam. Siguiendo el formato de los clásicos Effective C++ y Effective Java, reúne 62 consejos breves y autónomos (ítems) para usar TypeScript mejor. Se publicó en la época de TypeScript 3.x y está pensado para desarrolladores que ya escriben TypeScript con soltura y quieren pasar del nivel intermedio al avanzado, entendiendo por qué el sistema de tipos se comporta como lo hace.\n\nLos ocho capítulos cubren la relación entre TypeScript y JavaScript, las opciones del compilador y la separación entre generación de código y comprobación de tipos. También tratan el sistema de tipos (tipos como conjuntos de valores, espacio de tipos frente a espacio de valores, type vs. interface, comprobación de propiedades excedentes) y la inferencia de tipos (widening, narrowing, cuándo anotar y cuándo dejar que el compilador infiera). Se suman el diseño de tipos que representen solo estados válidos, el manejo del tipo any y cómo acotarlo, las declaraciones y los paquetes @types de DefinitelyTyped, la escritura y ejecución del código (polyfills, depuración, target del compilador) y la migración gradual de proyectos JavaScript a TypeScript.\n\nNo es un libro de proyectos: cada ítem se apoya en fragmentos de código que muestran un error común y su solución, de modo que puede leerse en orden o consultarse por temas. Aporta criterio y comprensión profunda, algo que los tutoriales introductorios rara vez ofrecen. Conviene saber que no enseña TypeScript desde cero y que, por su fecha, no cubre novedades posteriores como satisfies, los template literal types o los decoradores estándar. Para un proyecto actual es preferible la segunda edición, aunque las ideas centrales siguen vigentes.",
+    "temas": [
+      "TypeScript 3",
+      "Sistema de tipos",
+      "Inferencia de tipos",
+      "Diseño de tipos",
+      "Tipo any",
+      "@types",
+      "Declaraciones de tipos",
+      "Migración desde JavaScript",
+      "Buenas prácticas"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://oreilly.com/library/view/effective-typescript/9781492053736",
+      "https://www.abebooks.com/Effective-TypeScript-62-Specific-Ways-Improve/32114769715/bd"
+    ]
+  },
+  "effective-typescript-2nd-edition-2024": {
+    "descripcion": "Segunda edición, revisada a fondo y ampliada, de «Effective TypeScript» de Dan Vanderkam: pasa de 62 a 83 ítems y crece alrededor de un 50 % para reflejar cómo se usa TypeScript en 2024, ya con TypeScript 5. Mantiene el formato de consejos concretos y autónomos al estilo de Effective C++ y Effective Java. Está dirigido a desarrolladores que ya trabajan con TypeScript y quieren dominar su sistema de tipos y escribir código más seguro y mantenible.\n\nSus diez capítulos tratan cómo encaja TypeScript con JavaScript, el sistema de tipos (tipos como conjuntos, espacio de tipos frente a espacio de valores), la inferencia y el narrowing, y el diseño de tipos que hagan imposibles los estados inválidos. Siguen las fuentes de falta de solidez (unsoundness) y el uso controlado de any, y dos capítulos nuevos: genéricos y programación a nivel de tipos (tipos condicionales, mapeados y template literal types, con cómo probarlos y mantener el rendimiento del compilador) y recetas de TypeScript para problemas habituales. Cierra con las declaraciones de tipos y @types, la escritura y ejecución del código y la modernización y migración de bases de código JavaScript.\n\nIgual que la primera edición, no incluye proyectos: cada ítem muestra con fragmentos de código un problema y su solución idiomática, lo que lo hace ideal para leer por partes o consultar. Es una de las mejores referencias para dar el salto a un nivel avanzado, sobre todo por la parte de programación a nivel de tipos, que la primera edición no cubría. No es una introducción al lenguaje, así que conviene haber escrito TypeScript antes. Para seguir las novedades posteriores a TypeScript 5.x, el blog del autor complementa bien el libro.",
+    "temas": [
+      "TypeScript 5",
+      "Sistema de tipos",
+      "Inferencia de tipos",
+      "Diseño de tipos",
+      "Tipo any",
+      "Genéricos",
+      "Programación a nivel de tipos",
+      "Recetas TypeScript",
+      "@types",
+      "Migración desde JavaScript",
+      "Buenas prácticas"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://effectivetypescript.com/",
+      "https://oreilly.com/library/view/effective-typescript/9781098155056"
+    ]
+  },
+  "learning-typescript-2022": {
+    "descripcion": "Introducción completa a TypeScript escrita por Josh Goldberg, mantenedor de typescript-eslint y colaborador del curso Learn TypeScript de Codecademy. Publicada por O'Reilly a mediados de 2022, trabaja con TypeScript 4.x. Su objetivo es llevar al lector desde no saber nada de tipos ni de sistemas de tipos hasta dominar los fundamentos del lenguaje. Está pensada para desarrolladores que ya programan en JavaScript, sean principiantes o con experiencia, y no exige haber usado antes un lenguaje con tipado estático.\n\nEl libro se organiza en cuatro partes. «Concepts» explica por qué existe TypeScript y cómo funcionan el sistema de tipos, la asignabilidad, las anotaciones, los tipos unión y literales, el narrowing, strictNullChecks, los alias de tipo, el tipado estructural y las intersecciones. «Features» cubre funciones (sobrecargas incluidas), arrays y tuplas, interfaces y su fusión, clases (abstractas y modificadores de visibilidad), tipos top como unknown, type predicates, keyof y typeof, aserciones, const assertions y genéricos, hasta el tipado de Promises. «Usage» se ocupa de los archivos de declaración .d.ts, DefinitelyTyped, las funciones del IDE (navegar, refactorizar y leer errores) y el compilador tsc con tsconfig.json: emisión, módulos, soporte para JavaScript y project references. La última parte, «Extra Credit», trata enums, namespaces, decoradores experimentales e importaciones type-only, y entra en los tipos mapeados, condicionales y de plantilla literal.\n\nCada capítulo tiene ejercicios prácticos en el sitio oficial learningtypescript.com, ordenados por dificultad: «appetizers» guiados, «entrees» más abiertos y «desserts» con un giro. En total son unos treinta, con nombres como The Typeinator, Hidash, Treasure Hunter o Zod Lite. Es uno de los mejores puntos de partida para aprender el lenguaje: explica con claridad por qué TypeScript se comporta como lo hace y no solo su sintaxis. A cambio, no enseña a integrarlo con frameworks como React, Angular o Node.js, ni profundiza en la programación avanzada a nivel de tipos. Para eso conviene seguir con un libro más avanzado o con un recetario.",
+    "temas": [
+      "TypeScript 4.x",
+      "Sistema de tipos",
+      "Uniones y literales",
+      "Narrowing",
+      "Interfaces",
+      "Clases",
+      "Genéricos",
+      "Type modifiers",
+      "Archivos de declaración",
+      "DefinitelyTyped",
+      "tsconfig",
+      "Tipos mapeados y condicionales"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.learningtypescript.com/",
+      "https://www.learningtypescript.com/projects",
+      "https://helion.pl/ksiazki/learning-typescript-josh-goldberg,e_2rzl.htm"
+    ]
+  },
+  "programming-typescript-2019": {
+    "descripcion": "Libro de Boris Cherny, publicado por O'Reilly en 2019, que explica a fondo TypeScript como una capa de tipado estático gradual sobre JavaScript. Su tesis central es que los tipos ayudan a detectar errores antes y permiten que equipos grandes trabajen sobre bases de código grandes. Corresponde a la época de TypeScript 3.x y está dirigido a programadores con un nivel intermedio de JavaScript. No hace falta haber usado TypeScript antes, pero sí estar cómodo con closures, prototipos y código asíncrono.\n\nEmpieza con una visión general del compilador, el sistema de tipos y la configuración del editor (tsconfig.json y TSLint). Luego repasa los tipos básicos (any, unknown, bigint, symbol, tuplas, never y enums) y dedica un capítulo amplio a las funciones: this, generadores, iteradores, sobrecargas, polimorfismo con genéricos y desarrollo guiado por tipos. Después vienen clases e interfaces, con mixins, decoradores y los patrones Factory y Builder, y un capítulo extenso de tipos avanzados: varianza, refinamiento, uniones discriminadas, keyof, Record, tipos mapeados, tipos condicionales con infer, type guards, tipos nominales simulados y vías de escape como las aserciones. La segunda mitad aborda el manejo de errores (null, excepciones y el tipo Option), la programación asíncrona (event loop, Promises, async/await, event emitters, y Web Workers y procesos hijo de Node.js con protocolos tipados) y el uso de TypeScript con React (TSX) y Angular 6/7. Cierra con APIs tipadas, módulos y namespaces, interoperabilidad con JavaScript (DefinitelyTyped, JSDoc y una migración en pasos hasta el modo strict), compilación, source maps, project references y publicación en npm.\n\nCasi todos los capítulos terminan con ejercicios, y los apéndices sirven de referencia rápida de operadores de tipos, utilidades, flags de seguridad de tsc y recetas para escribir archivos de declaración. No hay un proyecto conductor: el aprendizaje se basa en ejemplos y ejercicios. Destaca por su rigor conceptual, sobre todo en varianza, genéricos y manejo tipado de errores y concurrencia. Hay que tener en cuenta su fecha: no cubre novedades posteriores como los tipos de plantilla literal, satisfies o los decoradores estándar, y TSLint ya fue reemplazado por typescript-eslint.",
+    "temas": [
+      "TypeScript 3.x",
+      "Sistema de tipos",
+      "Genéricos",
+      "Clases e interfaces",
+      "Tipos avanzados",
+      "Tipos condicionales",
+      "Manejo de errores",
+      "Programación asíncrona",
+      "React y Angular",
+      "Migración desde JavaScript",
+      "Compilación y publicación en npm"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://ebookpoint.pl/ksiazki/programming-typescript-making-your-javascript-applications-scale-boris-cherny,e_13qs.htm",
+      "https://oreilly.com/library/view/programming-typescript/9781492037644"
+    ]
+  },
+  "typescript-cookbook-2023": {
+    "descripcion": "Recetario de Stefan Baumgartner, publicado por O'Reilly en 2023 con el subtítulo «Real World Type-Level Programming». Reúne más de cien recetas independientes organizadas en doce capítulos, y cada una plantea un problema cotidiano, propone una solución y explica por qué funciona. Trabaja con TypeScript 4.9/5.x: incluye satisfies y los parámetros genéricos const. Está dirigido a desarrolladores de nivel intermedio o avanzado que ya conocen bien JavaScript y los fundamentos de TypeScript y quieren dominar la programación a nivel de tipos.\n\nEl primer capítulo trata la configuración de proyectos: verificar tipos en JavaScript, migrar un proyecto, usar DefinitelyTyped, montar un proyecto full-stack y las pruebas, cargar módulos ESM y CommonJS en Node.js, trabajar con Deno y usar configuraciones predefinidas. Le siguen recetas sobre tipos básicos (any frente a unknown, tuplas, interfaces frente a alias de tipo, sobrecargas, symbols) y sobre el sistema de tipos: uniones discriminadas, comprobación exhaustiva con never, const context, type predicates, index signatures, enums y tipos nominales. El núcleo del libro son los genéricos, los tipos condicionales con infer, los tipos de plantilla literal (un sistema de eventos tipado, una función de formateo), las tuplas variádicas (tipar concat, promisify y curry) y los helper types propios, con la librería type-fest como complemento. También trata la librería estándar y su ampliación (Object.keys, Array.prototype.includes, extensión de módulos y globales), React (custom hooks, Context API, forwardRef genérico, HOCs, eventos sintéticos y componentes polimórficos), clases y decoradores. Cierra con estrategias de desarrollo de tipos: satisfies, pruebas de tipos complejos, validación en tiempo de ejecución con Zod, el TypeScript Playground y saber cuándo parar.\n\nNo se construye una aplicación: se practica receta a receta con fragmentos de código realistas, así que se puede leer en orden o consultar según el problema del momento. Es probablemente uno de los mejores recursos para pasar de usar TypeScript a escribir tipos expresivos y fáciles de mantener, y sus explicaciones del porqué valen tanto como las soluciones. No es un libro para empezar: quien no domine ya genéricos e inferencia se sentirá abrumado, y fuera de React no trata frameworks concretos.",
+    "temas": [
+      "TypeScript 5",
+      "Programación a nivel de tipos",
+      "Genéricos",
+      "Tipos condicionales",
+      "Template literal types",
+      "Tuplas variádicas",
+      "Helper types",
+      "React con TypeScript",
+      "Configuración de proyectos",
+      "Zod",
+      "satisfies",
+      "Decoradores"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://typescript-cookbook.com/",
+      "https://helion.pl/ksiazki/typescript-cookbook-stefan-baumgartner,e_3hp4.htm"
+    ]
+  },
+  "advanced-typescript-programming-projects-2019": {
+    "descripcion": "Libro de Peter O'Hanlon, publicado por Packt en 2019, que enseña TypeScript avanzado (versión 3.0) construyendo nueve aplicaciones de dominios muy distintos, cada una con un framework o una tecnología diferente. Está pensado para programadores y desarrolladores web que ya conocen TypeScript y quieren aplicarlo en proyectos complejos y realistas. No hace falta experiencia previa con Angular, React o Vue, aunque sí soltura con JavaScript moderno y con las herramientas habituales del desarrollo web.\n\nEl primer capítulo repasa funciones de TypeScript que otros libros suelen pasar por alto: tipos avanzados, decoradores, mixins, promesas y async/await, además de algunos patrones de diseño comunes. A partir de ahí cada capítulo presenta una pila distinta: TypeScript sin framework con Bootstrap, React, el stack MEAN (MongoDB, Express, Angular y Node.js), GraphQL con Apollo Server en Angular, Socket.IO para comunicación en tiempo real, Firebase como backend en la nube, Docker y microservicios con React, Vue.js con TensorFlow.js para aprendizaje automático en el navegador y, para terminar, ASP.NET Core combinando TypeScript con C#. Cada capítulo cierra con preguntas de repaso, que se resuelven en la sección de evaluaciones.\n\nEl valor del libro está en su amplitud: permite comparar cómo encaja TypeScript en ecosistemas muy diferentes, tanto en el cliente como en el servidor, y ofrece un muestrario de arquitecturas. Como contrapartida, cada tecnología se trata solo en un capítulo, sin la profundidad de un libro dedicado, y al ser de 2019 las versiones de Angular, React, Vue, TensorFlow.js y .NET Core han quedado bastante desfasadas: los ejemplos probablemente necesiten ajustes para funcionar hoy. Conviene verlo como una colección de proyectos guiados que sirve de inspiración, más que como una referencia actual de TypeScript.",
+    "temas": [
+      "TypeScript 3",
+      "Tipos avanzados",
+      "Async/await",
+      "React",
+      "Angular",
+      "Stack MEAN",
+      "GraphQL y Apollo",
+      "Socket.IO",
+      "Firebase",
+      "Docker y microservicios",
+      "Vue.js y TensorFlow.js",
+      "ASP.NET Core"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Editor de Markdown",
+        "descripcion": "Aplicación web hecha con TypeScript sin framework y estilizada con Bootstrap, que convierte texto Markdown en HTML en el navegador."
+      },
+      {
+        "nombre": "Gestor de contactos personales con React y Bootstrap",
+        "descripcion": "Aplicación React escrita en TypeScript para crear y gestionar una agenda de contactos, con interfaz basada en Bootstrap."
+      },
+      {
+        "nombre": "Galería de fotos con el stack MEAN",
+        "descripcion": "Aplicación full-stack con MongoDB, Express, Angular y Node.js para subir y mostrar imágenes, con TypeScript en el cliente y en el servidor."
+      },
+      {
+        "nombre": "Lista de tareas con GraphQL y Apollo",
+        "descripcion": "Aplicación de tareas en Angular que se comunica con un servidor Apollo mediante consultas y mutaciones GraphQL."
+      },
+      {
+        "nombre": "Sala de chat con Socket.IO",
+        "descripcion": "Aplicación de chat en tiempo real con Angular y Bootstrap en el cliente y Socket.IO para la comunicación bidireccional con el servidor."
+      },
+      {
+        "nombre": "Aplicación de mapas en la nube con Firebase",
+        "descripcion": "Aplicación Angular que muestra mapas y guarda los datos del usuario en Firebase como backend en la nube."
+      },
+      {
+        "nombre": "CRM con React y microservicios",
+        "descripcion": "Sistema de gestión de clientes con frontend en React y un backend dividido en microservicios que se ejecutan en contenedores Docker."
+      },
+      {
+        "nombre": "Reconocimiento de imágenes con Vue.js y TensorFlow.js",
+        "descripcion": "Aplicación Vue que usa modelos preentrenados de TensorFlow.js para clasificar imágenes directamente en el navegador."
+      },
+      {
+        "nombre": "Biblioteca musical con ASP.NET Core",
+        "descripcion": "Aplicación web en ASP.NET Core que combina C# en el servidor con TypeScript en el cliente para consultar y mostrar información musical."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/advanced-typescript-programming-projects-9781789133042",
+      "https://www.perlego.com/book/1031669/advanced-typescript-programming-projects-build-9-different-apps-with-typescript-3-and-javascript-frameworks-such-as-angular-react-and-vue-pdf",
+      "https://github.com/PacktPublishing/Advanced-TypeScript-3-Programming-Projects",
+      "https://www.oreilly.com/library/view/-/9781789133042"
+    ]
+  },
+  "clean-code-with-typescript-2026": {
+    "descripcion": "Guía práctica de Rukevwe Ojigbo y el Dr. Sanjay Krishna Anbalagan, publicada por Packt en 2026, sobre cómo escribir código TypeScript limpio, legible y fácil de mantener, ya actualizada a TypeScript 6. Va dirigida tanto a desarrolladores de JavaScript que empiezan con TypeScript como a programadores con experiencia que buscan prácticas listas para producción. Para sacarle partido conviene manejar JavaScript moderno y haber trabajado en algún proyecto de cierto tamaño.\n\nEl libro empieza con una introducción a TypeScript y sigue con los principios de las funciones limpias y la programación orientada a objetos en TypeScript. Después pasa a la organización de proyectos, las pruebas y el desarrollo guiado por pruebas (TDD), el manejo de errores, la depuración, las buenas prácticas de seguridad y la optimización del rendimiento. Más adelante dedica capítulos a los patrones de diseño aplicados a TypeScript, a funciones avanzadas del lenguaje como genéricos y tipos avanzados, y a configurar proyectos escalables. Los dos últimos capítulos tratan cómo construir aplicaciones full-stack y cómo mantener el código en sistemas que evolucionan con el tiempo.\n\nLa parte práctica se apoya en ejemplos guiados, como un proyecto que integra un modelo de lenguaje (LLM) y una aplicación full-stack en TypeScript. Además del lenguaje, aborda temas de arquitectura, colaboración en equipo y calidad del código a largo plazo. Es más un libro de criterios y buenas prácticas que un tutorial de un framework concreto: la información pública no detalla las librerías de testing ni el stack que usa, así que no esperes una guía a fondo de React, Node.js u otra tecnología. Encaja bien como continuación de un curso básico de TypeScript para quien quiera mejorar la calidad de su código.",
+    "temas": [
+      "TypeScript 6",
+      "Clean code",
+      "Funciones limpias",
+      "POO",
+      "Testing y TDD",
+      "Manejo de errores",
+      "Seguridad",
+      "Rendimiento",
+      "Patrones de diseño",
+      "Arquitectura escalable",
+      "Full-stack",
+      "Integración con LLM"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Proyecto de integración con un LLM",
+        "descripcion": "Ejemplo práctico que integra un modelo de lenguaje en una aplicación TypeScript siguiendo los principios de código limpio del libro."
+      },
+      {
+        "nombre": "Aplicación full-stack en TypeScript",
+        "descripcion": "Aplicación con frontend y backend escritos en TypeScript, que se usa en el capítulo 11 para aplicar la estructura de proyecto, las pruebas y las buenas prácticas vistas en el libro."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/clean-code-with-typescript-elevate-your-typescript-6-skills-with-clean-code-principles-and-producti-rukevwe-ojigbo-sanjay-krishna-anbalagan,e_4h44.htm",
+      "https://www.packtpub.com/en-SE/product/clean-code-with-typescript-9781835889565",
+      "https://www.oreilly.com/library/view/-/9781835889565/"
+    ]
+  },
+  "full-stack-web-development-with-typescript-5-2024": {
+    "descripcion": "Libro de Mykyta Chernenko, publicado por Packt en 2024, que enseña a crear aplicaciones web full-stack con TypeScript 5 usando un stack moderno: Bun y Hono en el backend, PostgreSQL como base de datos y Svelte en el frontend, con funciones de inteligencia artificial gracias a la API de OpenAI. Es para desarrolladores de nivel intermedio que saben JavaScript y quieren usar TypeScript en todas las capas de una aplicación. Los dos primeros capítulos repasan el lenguaje, así que no hace falta experiencia previa con TypeScript.\n\nEl recorrido empieza con los fundamentos de TypeScript y un capítulo a fondo sobre tipado, genéricos, clases e interfaces. Luego configura el entorno de backend con el runtime Bun y el framework Hono, construye la infraestructura del servidor y añade pruebas y validación. En el bloque de backend avanzado trata autenticación y autorización, seguridad, limitación de peticiones (throttling), caché y logging. Después se centra en PostgreSQL: conceptos básicos e instalación, acceso con librerías de consulta y acceso con el ORM Prisma. También explica cómo integrar APIs externas desde Hono y cómo configurar la API de OpenAI. Los últimos cuatro capítulos se dedican a Svelte, desde la configuración del proyecto hasta técnicas avanzadas.\n\nTodo el libro gira en torno a un único proyecto: una aplicación de chat al estilo de ChatGPT, que crece capítulo a capítulo y conecta frontend, backend, base de datos e IA. Su punto fuerte es usar herramientas recientes como Bun, Hono y Svelte en lugar del clásico Express con React, y explicar la pila completa en relativamente pocas páginas. A cambio, cada tema se ve de forma algo resumida, y no hay mucho sobre despliegue en producción ni sobre otros frameworks de frontend. Conviene tener una cuenta de OpenAI con clave de API y una instalación local de PostgreSQL para seguir los ejemplos.",
+    "temas": [
+      "TypeScript 5",
+      "Genéricos e interfaces",
+      "Bun",
+      "Hono",
+      "Testing y validación",
+      "Autenticación",
+      "Caché y throttling",
+      "PostgreSQL",
+      "Prisma ORM",
+      "OpenAI API",
+      "Svelte",
+      "Aplicación de chat"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de chat con IA al estilo ChatGPT",
+        "descripcion": "Aplicación full-stack con un backend en Bun y Hono (autenticación, validación, caché y logging), persistencia en PostgreSQL con Prisma, respuestas generadas por la API de OpenAI y una interfaz de chat hecha en Svelte."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://catalogue.packt.com/product/9781835885581",
+      "https://www.packtpub.com/en-PH/product/full-stack-web-development-with-typescript-5-9781835885581",
+      "https://www.oreilly.com/library/view/full-stack-web-development/9781835885581"
+    ]
+  },
+  "learning-typescript-2015": {
+    "descripcion": "Primera edición de la guía de Remo H. Jansen para aprender TypeScript paso a paso, publicada por Packt en 2015, cuando el lenguaje estaba en su rama 1.x (alrededor de TypeScript 1.5 y 1.6). Está dirigida a desarrolladores JavaScript que nunca han usado TypeScript: no hace falta conocerlo, pero sí manejar con soltura JavaScript y tener nociones básicas de desarrollo web.\n\nEl libro repasa los fundamentos del lenguaje (tipos, funciones, genéricos, clases e interfaces) y entra en temas que muchos manuales introductorios no tocan: cómo funciona el runtime de JavaScript por debajo (callbacks, promesas, contexto y gestión de memoria), la programación orientada a objetos según los principios SOLID y las funciones de ES6 y ES7 que TypeScript ya permitía usar. También dedica espacio al flujo de trabajo profesional: automatización de tareas con Gulp (la descripción también nombra Grunt), ejecución de pruebas con Karma y pruebas unitarias con Mocha, Chai y SinonJS. El objetivo general es escribir aplicaciones web modulares, escalables y fáciles de mantener.\n\nEl cierre es lo que más lo diferencia: se construye desde cero un pequeño framework para aplicaciones de una sola página (SPA), aplicando todo lo visto sobre arquitectura, módulos y pruebas. Es un ejercicio muy útil para entender cómo funcionan por dentro los frameworks MVC. Ten en cuenta la fecha: herramientas como Gulp, Karma o los sistemas de módulos de la época han quedado en buena parte desplazados por npm scripts, Webpack o Vite, ES Modules y Jest o Vitest, y el lenguaje ganó después muchas funciones de tipado avanzado (tipos condicionales, modo strict, etc.). La segunda edición, Learning TypeScript 2.x (2018), pone al día buena parte de este contenido.",
+    "temas": [
+      "TypeScript 1.x",
+      "Tipos y genéricos",
+      "Funciones y callbacks",
+      "Promesas",
+      "POO y SOLID",
+      "Runtime de JavaScript",
+      "ES6/ES7",
+      "Gulp",
+      "Karma",
+      "Mocha, Chai y SinonJS",
+      "Arquitectura SPA"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Framework SPA desde cero",
+        "descripcion": "Pequeño framework para aplicaciones de una sola página, escrito en TypeScript al final del libro, que reúne lo aprendido sobre módulos, POO, arquitectura y pruebas automatizadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.bookshare.org/browse/book/2361471",
+      "https://tenlong.com.tw/products/9781783985548",
+      "https://www.goodreads.com/work/editions/47224769-learning-typescript"
+    ]
+  },
+  "mastering-typescript-2015": {
+    "descripcion": "Primera edición, publicada por Packt en abril de 2015, del libro de Nathan Rozentals sobre TypeScript, escrita en la época de TypeScript 1.x, antes de Angular 2 y de los ES Modules. Va dirigida tanto a desarrolladores JavaScript que quieren pasarse a TypeScript como a quienes ya lo usan y quieren profundizar. Aunque el catálogo lo marca como avanzado, empieza por lo básico del lenguaje; lo que pide de verdad es soltura con JavaScript y algo de experiencia en desarrollo web en el navegador.\n\nRecorre el lenguaje de lo básico a lo avanzado (tipos, interfaces, clases, herencia y genéricos) y pone mucho peso en dos ejes: la programación orientada a objetos con patrones de diseño y el desarrollo guiado por pruebas (TDD). En la parte de pruebas trabaja con Jasmine y sus test runners para escribir tests unitarios y de integración. Muestra además cómo usar TypeScript con las librerías de la época, como Backbone, Marionette, AngularJS (1.x), Node.js y la carga de módulos con Require.js, incluidos los archivos de declaración para usar código JavaScript existente.\n\nCombina teoría con muchos ejemplos de código y de integración con frameworks, y el último capítulo es práctico: construye paso a paso una aplicación con Backbone y Marionette que reúne lo visto. Hoy su valor es sobre todo histórico o para mantener código heredado: Backbone, Marionette, AngularJS y Require.js ya casi no se usan, y el lenguaje cambió mucho después (modo strict, tipos condicionales, async/await). Si buscas aprender TypeScript actual, conviene más la cuarta edición (2021) o una posterior, que tratan TypeScript 4 y frameworks modernos.",
+    "temas": [
+      "TypeScript 1.x",
+      "Tipos e interfaces",
+      "Clases y herencia",
+      "Genéricos",
+      "Archivos de declaración",
+      "Patrones de diseño",
+      "TDD",
+      "Jasmine",
+      "Backbone y Marionette",
+      "AngularJS",
+      "Node.js",
+      "Require.js"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación con TypeScript, Backbone y Marionette",
+        "descripcion": "Aplicación de una sola página que se construye en el capítulo final con TypeScript sobre Backbone y Marionette (regiones y layouts), reuniendo lo visto sobre clases, módulos y librerías de terceros."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.bookshare.org/browse/book/2303420",
+      "https://tenlong.com.tw/products/9781784399665",
+      "https://subscription.packtpub.com/book/web-development/9781784399665/6/ch06lvl1sec44/integration-tests"
+    ]
+  },
+  "mastering-typescript-4th-edition-2021": {
+    "descripcion": "Cuarta edición, publicada por Packt en abril de 2021, de la guía de Nathan Rozentals, puesta al día para TypeScript 4 y orientada a construir aplicaciones web modulares de nivel empresarial. Sirve tanto a desarrolladores JavaScript que se inician en TypeScript (los primeros capítulos ponen el entorno en marcha rápido) como a quienes ya lo usan y quieren dominar sus funciones avanzadas. Se aprovecha mejor si ya tienes experiencia sólida con JavaScript y nociones de desarrollo frontend y backend.\n\nLa primera mitad cubre el lenguaje en profundidad: el sistema de tipos, interfaces, clases, herencia y módulos, genéricos e inferencia de tipos avanzada, programación asíncrona (promesas y async/await), decoradores, integración con JavaScript mediante archivos de declaración y las opciones estrictas del compilador. Después trabaja con RxJS y los Observables para transformar datos, y con pruebas unitarias y de integración usando Jest y Selenium dentro de un enfoque de desarrollo guiado por pruebas. La segunda mitad aplica TypeScript a frameworks: Angular, React y Vue en el frontend, Node.js con Express en el backend y una API serverless, además de patrones de diseño comunes.\n\nSegún el repositorio oficial de código, los últimos capítulos construyen aplicaciones concretas: una app de Angular, una lista de productos, un carrito de compras, una aplicación Node/Express y una API. Al final, las aplicaciones de los distintos frameworks se unen en un solo sitio con la técnica de micro front-ends. Su punto fuerte es mostrar el mismo lenguaje en varios ecosistemas y comparar los frameworks. A cambio, cada framework se ve solo de forma introductoria: no reemplaza a un libro dedicado a Angular, React o Vue. Para la parte serverless conviene tener una cuenta en la nube y saber lo básico de Node.js y npm.",
+    "temas": [
+      "TypeScript 4",
+      "Sistema de tipos",
+      "Genéricos",
+      "Decoradores",
+      "Async/await",
+      "Opciones strict",
+      "RxJS y Observables",
+      "Jest y Selenium",
+      "Angular, React y Vue",
+      "Node.js y Express",
+      "Serverless",
+      "Micro front-ends"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Angular",
+        "descripcion": "Aplicación web en Angular escrita en TypeScript, para ver cómo el framework usa decoradores, servicios y Observables de RxJS."
+      },
+      {
+        "nombre": "Lista de productos",
+        "descripcion": "Aplicación frontend que muestra un catálogo de productos con uno de los frameworks del libro, para comparar su enfoque con el de Angular."
+      },
+      {
+        "nombre": "Carrito de compras",
+        "descripcion": "Aplicación de carrito de compras con otro de los frameworks frontend tratados (React o Vue), escrita en TypeScript."
+      },
+      {
+        "nombre": "Aplicación Node/Express",
+        "descripcion": "Aplicación de servidor con Node.js y Express escrita en TypeScript."
+      },
+      {
+        "nombre": "API serverless",
+        "descripcion": "API sin servidor que sirve de backend para las aplicaciones frontend."
+      },
+      {
+        "nombre": "Sitio con micro front-ends",
+        "descripcion": "Integración de las aplicaciones de Angular, React y Vue en un único sitio web con la técnica de micro front-ends."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://github.com/PacktPublishing/Mastering-TypeScript-Fourth-Edition",
+      "https://www.oreilly.com/library/view/-/9781800564732",
+      "https://www.packtpub.com/en-de/product/mastering-typescript-9781800564732"
+    ]
+  },
+  "typescript-design-patterns-2016": {
+    "descripcion": "Repaso a los patrones de diseño clásicos aplicados a TypeScript, escrito por Vilic Vane, colaborador del propio proyecto TypeScript y con años de experiencia como ingeniero JavaScript. Se publicó en agosto de 2016, con TypeScript en plena transición de la serie 1.8 a la 2.0, así que el código es anterior a funciones modernas del sistema de tipos. Está pensado para desarrolladores intermedios que ya programan en TypeScript y quieren profundizar. No hace falta haber estudiado patrones de diseño antes, pero sí manejar con soltura las clases, interfaces y módulos del lenguaje.\n\nEl libro empieza preparando las herramientas: un proyecto con npm y Visual Studio Code, que usa TypeScript como servidor del lenguaje, y la compilación con tsc. Luego plantea el problema que intenta resolver, la complejidad creciente de las aplicaciones, y con esa base recorre las tres familias de patrones del catálogo GoF. Primero los creacionales, después los estructurales y, a lo largo de dos capítulos, los de comportamiento, entre ellos Strategy, State, Template Method, Observer y Visitor. Cada patrón se ilustra con ejemplos en TypeScript. Los capítulos finales salen del catálogo clásico: uno trata patrones y arquitecturas propios del ecosistema JavaScript/TypeScript, otro explica los principios SOLID de forma conceptual y el último aborda cómo organizar el flujo de trabajo y la configuración de una aplicación empresarial.\n\nNo se construye una aplicación completa: la práctica consiste en ejemplos cortos por capítulo, disponibles en el repositorio oficial de Packt y organizados en carpetas que se compilan por separado. Los capítulos de SOLID y de aplicación empresarial no traen código. Lo que más aporta es ver cómo los tipos estáticos y las interfaces de TypeScript dejan expresar los patrones de forma más clara que en JavaScript puro. En contra, tiene casi una década y algunas herramientas y convenciones han cambiado. Si buscas patrones con TypeScript 4 o 5 y su sistema de tipos avanzado, conviene complementarlo con un título más reciente.",
+    "temas": [
+      "TypeScript",
+      "Patrones de diseño",
+      "GoF",
+      "Patrones creacionales",
+      "Patrones estructurales",
+      "Patrones de comportamiento",
+      "Observer",
+      "Strategy",
+      "Visitor",
+      "SOLID",
+      "Arquitectura de software",
+      "Visual Studio Code"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://biblio.pl/szczegoly/e_3c4j_ebook/typescript-design-patterns-click-here-to-enter-text-vilic-vane?jezyk=en",
+      "https://github.com/PacktPublishing/TypeScript-Design-Patterns",
+      "https://www.oreilly.com/library/view/typescript-design-patterns/9781785280832"
+    ]
+  },
+  "typescript-essentials-2014": {
+    "descripcion": "Introducción breve a TypeScript para crear aplicaciones web, escrita por Christopher Nance y publicada por Packt en octubre de 2014, en la época de TypeScript 1.x y Visual Studio 2013. Sirve tanto a quien empieza en el desarrollo web como a ingenieros con experiencia. Solo da por sabido JavaScript básico, y la promesa es que el lector escriba código en TypeScript desde los primeros capítulos.\n\nEmpieza por las ventajas del tipado estático y la configuración del entorno: compilación desde la línea de comandos, integración con Visual Studio y opciones de build. Luego explica la base del lenguaje: tipos, funciones, interfaces, clases, miembros estáticos y de instancia, propiedades, enums, módulos internos y genéricos. Un capítulo se dedica al compilador: la versión de ECMAScript de salida, el control del JavaScript generado, los source maps y las opciones avanzadas. Otro trata la programación orientada a objetos (SOLID, herencia, encapsulación, abstracción, polimorfismo y sobrecarga de métodos). Después vienen los archivos de declaración (.d.ts) y la integración con librerías de terceros instaladas con NuGet: jQuery, Knockout y RequireJS. El cierre trata la depuración con source maps, el desarrollo guiado por pruebas y las pruebas unitarias.\n\nLa parte práctica gira en torno a una aplicación de dibujo que se crea en un capítulo y se amplía en otro. Su valor está en mostrar en pocas páginas el ciclo completo: escribir TypeScript, entender qué JavaScript genera e integrarlo con las librerías de la época. Eso sí, hoy está muy desactualizado. Usa módulos internos (ahora namespaces) en lugar de módulos ES, NuGet en lugar de npm y @types, y Knockout y RequireJS, que ya casi no se usan. Además, es anterior a TypeScript 2 y a funciones como los tipos estrictos frente a null o los tipos de unión avanzados. Hoy sirve sobre todo como referencia histórica o para mantener código heredado.",
+    "temas": [
+      "TypeScript 1.x",
+      "Tipos e interfaces",
+      "Clases",
+      "Módulos internos",
+      "Genéricos",
+      "Compilador tsc",
+      "Source maps",
+      "POO y SOLID",
+      "Archivos de declaración",
+      "jQuery",
+      "Knockout",
+      "RequireJS"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de dibujo sencilla",
+        "descripcion": "Aplicación web en TypeScript para dibujar formas básicas, con un motor propio que responde a los eventos del ratón y ofrece opciones al usuario. Más adelante se convierte a módulos AMD con RequireJS, se enlazan los controles con un ViewModel de Knockout, se genera un único archivo de salida y se le dan estilos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://books.google.com.pe/books/about/TypeScript_Essentials.html?id=Uob1BAAAQBAJ&redir_esc=y",
+      "https://www.everand.com/book/272073259/TypeScript-Essentials",
+      "https://www.oreilly.com/library/view/typescript-essentials/9781783985760/",
+      "https://www.packtpub.com/en-us/product/typescript-essentials-9781783985777"
+    ]
+  }
+}

@@ -1,0 +1,659 @@
+{
+  "asp-net-mvc-4-and-the-web-api-2013": {
+    "descripcion": "Manual práctico y enfocado en la transición hacia servicios RESTful escrito por Jamie Kurtz y publicado por Apress en 2013. Enseña a integrar ASP.NET MVC 4 con la entonces novedosa tecnología ASP.NET Web API.\n\nAborda el diseño de controladores duales (controladores MVC para vistas HTML y controladores ApiController para datos JSON/XML), inyección de dependencias, autenticación basada en tokens y consumo asíncrono con jQuery y Knockout.js.\n\nJamie Kurtz demuestra cómo transformar aplicaciones web tradicionales de servidor en sistemas modernos desacoplados. Muy útil para comprender la evolución del backend web en la plataforma .NET.",
+    "temas": [
+      "ASP.NET MVC 4",
+      "Web API",
+      "ApiController",
+      "Knockout.js",
+      "Inyección de Dependencias",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal de Gestión de Clientes con Vistas MVC y Endpoints Web API",
+        "descripcion": "Construcción de una aplicación web con renderizado de vistas en el servidor y carga asíncrona de datos vía JSON."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-4948-1"
+    ]
+  },
+  "asp-net-mvc-4-recipes-2013": {
+    "descripcion": "Recetario técnico de soluciones prácticas para ASP.NET MVC 4 escrito por John Ciliberti y publicado por Apress en 2013. Resuelve problemas habituales del ciclo de desarrollo web corporativo.\n\nContiene recetas para enrutamiento avanzado, filtros de acción y autorización personalizados, optimización con bundling y minificación, persistencia con Entity Framework y testing automatizado con Moq y MSTest.\n\nJohn Ciliberti estructura cada solución con explicaciones concisas y código listo para producción, ahorrando horas de investigación y depuración. Excelente guía de consulta rápida para proyectos MVC.",
+    "temas": [
+      "ASP.NET MVC 4",
+      "Recetas MVC",
+      "Filtros de Acción",
+      "Bundling",
+      "Moq",
+      "Apress"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-4774-6"
+    ]
+  },
+  "beginning-asp-net-mvc-4-2013": {
+    "descripcion": "Guía formativa e introductoria al desarrollo web con .NET escrita por José Rolando Guay Paz y publicada por Apress en 2013. Diseñada para aprender los fundamentos de ASP.NET MVC 4 desde cero.\n\nDesarrolla la arquitectura Modelo-Vista-Controlador, el motor de plantillas Razor, creación de formularios fuertemente tipados, validación de modelos con DataAnnotations y autenticación de usuarios con ASP.NET SimpleMembership.\n\nJosé Rolando Guay Paz adopta un ritmo didáctico gradual que permite a programadores de Windows Forms o Web Forms asimilar los modismos limpios del desarrollo MVC sin tropiezos. Muy adecuado para principiantes.",
+    "temas": [
+      "ASP.NET MVC 4",
+      "Razor",
+      "DataAnnotations",
+      "SimpleMembership",
+      "Principiantes",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal de Artículos y Noticias con ASP.NET MVC 4",
+        "descripcion": "Desarrollo paso a paso de una aplicación web con catálogo dinámico, registro de usuarios y panel de administración."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-5785-1"
+    ]
+  },
+  "mobile-asp-net-mvc-5-2013": {
+    "descripcion": "Manual práctico sobre diseño web móvil y responsivo escrito por Eric Sowell y publicado por Apress en 2013. Enseña a adaptar aplicaciones ASP.NET MVC 5 a dispositivos móviles y tabletas.\n\nCubre vistas móviles específicas mediante Display Modes, detección de User-Agent con 51Degrees.mobi, integración con jQuery Mobile para componentes táctiles y diseño responsivo con CSS media queries.\n\nEric Sowell proporciona una metodología clara para entregar experiencias optimizadas en smartphones sin necesidad de construir aplicaciones nativas independientes. Una referencia muy formativa sobre diseño móvil con .NET.",
+    "temas": [
+      "Mobile Web",
+      "ASP.NET MVC 5",
+      "Display Modes",
+      "jQuery Mobile",
+      "Diseño Responsivo",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Catálogo Comercial Web con Vistas Móviles Optimizadas",
+        "descripcion": "Construcción de un sitio que detecta dispositivos móviles y entrega vistas táctiles ligeras con jQuery Mobile."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-5978-7"
+    ]
+  },
+  "pro-asp-net-mvc-3-framework-2011": {
+    "descripcion": "Tratado canónico y reverenciado sobre la tercera versión del framework web escrito por Adam Freeman y Steven Sanderson, publicado por Apress en 2011. Estableció los estándares de arquitectura y desarrollo con ASP.NET MVC 3.\n\nProfundiza en el motor de vistas Razor, inyección de dependencias con Ninject, validación remota, desarrollo guiado por pruebas (TDD) con Moq, filtros globales y el desarrollo de la aplicación comercial SportsStore.\n\nAdam Freeman y Steven Sanderson ofrecen una pedagogía brillante y rigurosa que transformó la forma en que los desarrolladores de Microsoft construyen la web. Una de las obras más influyentes del ecosistema .NET.",
+    "temas": [
+      "ASP.NET MVC 3",
+      "Razor",
+      "SportsStore",
+      "Ninject",
+      "TDD",
+      "Steven Sanderson",
+      "Adam Freeman",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tienda en Línea Completa SportsStore con ASP.NET MVC 3 y Ninject",
+        "descripcion": "Construcción gradual de un e-commerce comercial con carrito de compras, catálogo paginado y cobertura completa de pruebas TDD."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-3404-3"
+    ]
+  },
+  "pro-asp-net-core-mvc-2-7th-edition-2017": {
+    "descripcion": "Séptima edición de la aclamada obra de referencia de Adam Freeman, publicada por Apress en 2017. Adaptada exhaustivamente a la revolución multiplataforma de ASP.NET Core 2.0.\n\nCubre la configuración modular con `Startup.cs`, inyección de dependencias nativa, Tag Helpers en vistas Razor, View Components, enrutamiento semántico, persistencia con Entity Framework Core 2 y seguridad con ASP.NET Core Identity.\n\nAdam Freeman utiliza el célebre proyecto SportsStore para guiar al lector en el dominio del nuevo runtime modular y ultrarrápido de Microsoft. La referencia de escritorio definitiva de la era .NET Core 2.",
+    "temas": [
+      "ASP.NET Core 2",
+      "Tag Helpers",
+      "View Components",
+      "SportsStore",
+      "EF Core",
+      "Adam Freeman",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Comercial SportsStore en ASP.NET Core 2 y EF Core",
+        "descripcion": "Desarrollo de un comercio electrónico completo con diseño responsivo, autenticación segura y persistencia en base de datos relacional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3150-0"
+    ]
+  },
+  "pro-asp-net-core-mvc-6th-edition-2016": {
+    "descripcion": "Sexta edición del manual de referencia de Adam Freeman, publicada por Apress en 2016. Documentó el lanzamiento histórico de ASP.NET Core 1.0 y la ruptura arquitectónica con el .NET Framework tradicional.\n\nAborda el nuevo pipeline de middlewares HTTP, inyección de dependencias de primer nivel, Tag Helpers como alternativa limpia a los HTML Helpers clásicos, empaquetado multiplataforma y despliegue en Linux y macOS con Kestrel.\n\nFreeman ofrece una guía imprescindible para entender las motivaciones de diseño detrás del rediseño completo del framework web de Microsoft. Un texto de enorme valor histórico y técnico.",
+    "temas": [
+      "ASP.NET Core 1.0",
+      "Kestrel",
+      "Middleware Pipeline",
+      "Tag Helpers",
+      "Multiplataforma",
+      "Adam Freeman",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación Web Multiplataforma Desplegada en Servidor Kestrel",
+        "descripcion": "Construcción y despliegue de una solución web con pipeline modular de middlewares y almacenamiento relacional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-0398-9"
+    ]
+  },
+  "pro-asp-net-mvc-2-framework-2010": {
+    "descripcion": "Tratado técnico pionero sobre la segunda generación del framework escrito por Steven Sanderson y publicado por Apress en 2010. Profundiza en las capacidades introducidas con ASP.NET MVC 2.\n\nExamina áreas para particionar aplicaciones complejas, plantillas de edición y visualización automáticas (`Html.EditorFor`), validación basada en DataAnnotations en cliente y servidor, acciones asíncronas con `AsyncController` y testing unitario.\n\nSteven Sanderson, creador posterior de Knockout.js y Blazor, demuestra una elegancia didáctica inigualable, enseñando patrones de diseño desacoplados y limpios. Un hito formativo esencial en la historia de ASP.NET.",
+    "temas": [
+      "ASP.NET MVC 2",
+      "EditorFor",
+      "AsyncController",
+      "Áreas",
+      "Steven Sanderson",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal de Comercio Electrónico SportsStore con ASP.NET MVC 2",
+        "descripcion": "Construcción paso a paso de una aplicación de catálogo con validación automática y pruebas unitarias con NUnit."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-2887-5"
+    ]
+  },
+  "pro-asp-net-mvc-4-4th-edition-2012": {
+    "descripcion": "Cuarta edición de la referencia indiscutida sobre desarrollo web corporativo escrita por Adam Freeman, publicada por Apress en 2012. Desarrolla las capacidades completas de ASP.NET MVC 4.\n\nAborda el motor Razor v2, soporte de Web API para servicios RESTful, visualización móvil adaptativa, controladores asíncronos con tareas `Task<ActionResult>`, bundling y minificación de recursos estáticos, y testing automatizado.\n\nFreeman mantiene la legendaria estructura en dos partes (fundamentos esenciales seguidos por el proyecto SportsStore y exploración detallada de cada API), permitiendo a los desarrolladores adquirir maestría técnica. Un clásico indispensable.",
+    "temas": [
+      "ASP.NET MVC 4",
+      "SportsStore",
+      "Razor v2",
+      "Controladores Asíncronos",
+      "Bundling",
+      "Adam Freeman",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Comercial SportsStore con ASP.NET MVC 4 y Entity Framework",
+        "descripcion": "Desarrollo completo de una tienda online con navegación por categorías, carrito de compras en sesión y panel administrativo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-4237-6"
+    ]
+  },
+  "pro-asp-net-mvc-5-2013": {
+    "descripcion": "Quinta edición monumental del bestseller de Adam Freeman, publicada por Apress en 2013. Es considerada la biblia definitiva y canónica sobre ASP.NET MVC 5 en el .NET Framework tradicional.\n\nCubre en profundidad enrutamiento basado en atributos (`[Route]`), autenticación moderna con ASP.NET Identity y proveedores OAuth (Google, Facebook), filtros de autenticación y anulación, y el desarrollo exhaustivo del proyecto SportsStore con Entity Framework 6.\n\nAdam Freeman ofrece más de 800 páginas de explicaciones rigurosas y código listo para producción que formaron a miles de ingenieros en todo el mundo. La obra cumbre sobre ASP.NET MVC 5.",
+    "temas": [
+      "ASP.NET MVC 5",
+      "Attribute Routing",
+      "ASP.NET Identity",
+      "SportsStore",
+      "EF6",
+      "Adam Freeman",
+      "Apress"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de E-Commerce SportsStore con ASP.NET Identity y EF6",
+        "descripcion": "Construcción integral de una tienda web comercial con enrutamiento semántico por atributos, roles de usuario y persistencia SQL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-6530-6"
+    ]
+  },
+  "pro-asp-net-mvc-5-platform-2014": {
+    "descripcion": "Tratado técnico avanzado y complementario de Adam Freeman, publicado por Apress en 2014. Profundiza en las interioridades del pipeline de ejecución y la extensibilidad del runtime de ASP.NET MVC 5.\n\nExamina los mecanismos internos de activación de controladores (IControllerFactory), resolución de dependencias con IDependencyResolver, model binders personalizados, value providers, motores de vista alternativos y filtros personalizados.\n\nAdam Freeman desvela cómo funciona el framework bajo el capó, capacitando a los ingenieros sénior para extender, personalizar y optimizar el comportamiento de MVC en escenarios corporativos complejos. Imprescindible para arquitectos de software.",
+    "temas": [
+      "MVC Platform",
+      "IControllerFactory",
+      "Model Binding",
+      "IDependencyResolver",
+      "Extensibilidad MVC",
+      "Adam Freeman",
+      "Apress"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-6542-9"
+    ]
+  },
+  "asp-net-mvc-8-fundamentals-2024": {
+    "descripcion": "Guía práctica y contemporánea de desarrollo web escrita por Madison Giroux y publicada en 2024. Diseñada para dominar la arquitectura MVC en el moderno runtime de .NET 8.\n\nAborda el enrutamiento moderno, controladores fuertemente tipados, Tag Helpers avanzados, validación de modelos, inyección de dependencias integrada, persistencia con Entity Framework Core 8 y contenedorización con Docker.\n\nMadison Giroux ofrece un enfoque conciso y actualizado que aprovecha las ganancias masivas de rendimiento y las nuevas sintaxis de C# 12 sobre .NET 8. Excelente como manual de inicio rápido para ingenieros web modernos.",
+    "temas": [
+      "ASP.NET MVC 8",
+      ".NET 8",
+      "Tag Helpers",
+      "EF Core 8",
+      "C# 12",
+      "Docker"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal de Gestión de Servicios y Clientes en .NET 8 MVC",
+        "descripcion": "Construcción de una aplicación web modular con persistencia relacional, validación estricta y contenedor Docker."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "asp-net-mvc-4-in-action-2012": {
+    "descripcion": "Tratado canónico y de máxima autoridad sobre buenas prácticas de arquitectura web escrito por Jeffrey Palermo, Jimmy Bogard, Eric Hexter, Matthew Hinze y Jeremy Skinner, publicado por Manning en 2012.\n\nAborda la arquitectura de cebolla (Onion Architecture), diseño de controladores delgados y modelos ricos, validación avanzada con FluentValidation, mapeo de objetos con AutoMapper, y testing automatizado con xUnit y WatiN.\n\nLos autores, figuras legendarias del desarrollo ágil y líderes de opinión en la comunidad de .NET, enseñan cómo construir aplicaciones web mantenibles a largo plazo evitando la putrefacción arquitectónica. Una obra maestra indispensable.",
+    "temas": [
+      "ASP.NET MVC 4 in Action",
+      "Onion Architecture",
+      "AutoMapper",
+      "FluentValidation",
+      "Jimmy Bogard",
+      "Jeffrey Palermo",
+      "Manning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Comercio Electrónico con Arquitectura Onion y AutoMapper",
+        "descripcion": "Diseño de una aplicación web desacoplada con núcleo de dominio independiente, validaciones fluidas y controladores delgados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/asp-net-mvc-4-in-action"
+    ]
+  },
+  "asp-net-mvc-in-action-2009": {
+    "descripcion": "Obra fundacional sobre arquitectura web ágil en .NET escrita por Jeffrey Palermo, Ben Scheirman y Jimmy Bogard, publicada por Manning en 2009. Marcó la pauta formativa en la primera versión de ASP.NET MVC.\n\nExplora la inversión de dependencias, diseño guiado por pruebas (TDD), enrutamiento semántico, model binders personalizados, integración con NHibernate y LINQ to SQL, y patrones de diseño limpios para la web.\n\nPalermo y Bogard introdujeron a miles de desarrolladores de Microsoft en la cultura del código limpio y las pruebas automatizadas, alejándose del modelo de eventos de Web Forms. Un clásico de enorme valor pedagógico e histórico.",
+    "temas": [
+      "ASP.NET MVC in Action",
+      "TDD",
+      "Inversión de Control",
+      "Código Limpio",
+      "Jimmy Bogard",
+      "Jeffrey Palermo",
+      "Manning"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Web de Gestión de Conferencias con TDD en ASP.NET MVC",
+        "descripcion": "Construcción paso a paso de una aplicación web guiada por pruebas unitarias y contenedores IoC."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/asp-net-mvc-in-action"
+    ]
+  },
+  "programming-microsoft-asp-net-mvc-2010": {
+    "descripcion": "Tratado exhaustivo y de profunda maestría técnica sobre ASP.NET MVC escrito por Dino Esposito y publicado por Microsoft Press en 2010. Examina la arquitectura del framework desde la perspectiva de la ingeniería corporativa.\n\nDetalla el ciclo de vida de peticiones HTTP, el enrutador de URL, controladores y acciones, enlace de datos (model binding), renderizado de vistas, seguridad web y estrategias de migración desde ASP.NET Web Forms.\n\nDino Esposito aporta su dilatada experiencia en consultoría técnica internacional, comparando rigurosamente cuándo conviene adoptar el patrón MVC frente a otros modelos arquitectónicos. Una referencia técnica de primer orden.",
+    "temas": [
+      "ASP.NET MVC",
+      "Dino Esposito",
+      "Ciclo de Vida HTTP",
+      "Model Binding",
+      "Seguridad Web",
+      "Microsoft Press"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Reserva de Alojamientos con ASP.NET MVC",
+        "descripcion": "Implementación de una arquitectura corporativa con controladores limpios, validaciones de seguridad y persistencia relacional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoft.com/"
+    ]
+  },
+  "programming-microsoft-asp-net-mvc-3rd-edition-2014": {
+    "descripcion": "Tercera edición de la aclamada obra de Dino Esposito, publicada por Microsoft Press en 2014. Actualizada para abarcar ASP.NET MVC 5 y las prácticas modernas de desarrollo web en .NET Framework 4.5+.\n\nProfundiza en el enrutamiento por atributos, autenticación con ASP.NET Identity, filtros de autorización, integración con Bootstrap para interfaces responsivas, optimización con bundling y minificación, y diseño para dispositivos móviles.\n\nEsposito desmenuza la anatomía de cada petición web en el servidor, capacitando a los ingenieros para diseñar sistemas de alto rendimiento y código mantenible. Una referencia indispensable para desarrolladores corporativos de .NET.",
+    "temas": [
+      "ASP.NET MVC 5",
+      "Dino Esposito",
+      "ASP.NET Identity",
+      "Bootstrap",
+      "Bundling",
+      "Microsoft Press"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Web Empresarial Responsivo con ASP.NET MVC 5 y Bootstrap",
+        "descripcion": "Desarrollo completo de una aplicación comercial con autenticación de dos factores, vistas adaptativas y optimización de rendimiento."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoft.com/"
+    ]
+  },
+  "murach-s-asp-net-core-mvc-2020": {
+    "descripcion": "Manual didáctico y formativo de referencia escrito por Mary Delamater y Joel Murach, publicado por Mike Murach & Associates en 2020. Enseña a construir aplicaciones web comerciales con ASP.NET Core MVC.\n\nEstructurado con la metodología clásica de Murach en páginas dobles enfrentadas (teoría en la izquierda, código y pantallas en la derecha), aborda controladores, vistas Razor, Tag Helpers, validación con DataAnnotations, persistencia con Entity Framework Core y autenticación Identity.\n\nLos autores facilitan un aprendizaje fluido y estructurado que conduce al estudiante desde conceptos básicos hasta la construcción de aplicaciones web completas listas para producción. Un texto de iniciación sumamente valorado.",
+    "temas": [
+      "Murach",
+      "ASP.NET Core MVC",
+      "Tag Helpers",
+      "EF Core",
+      "Razor Views",
+      "Joel Murach",
+      "Mary Delamater"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tienda de Guitarras en Línea con ASP.NET Core MVC y EF Core",
+        "descripcion": "Construcción paso a paso de un e-commerce con catálogo paginado, carrito de compras en sesión y panel administrativo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.murach.com/"
+    ]
+  },
+  "20-recipes-for-programming-mvc-3-2011": {
+    "descripcion": "Recetario conciso y práctico de soluciones web escrito por Jamie Munro y publicado por O'Reilly en 2011. Resuelve 20 retos cotidianos que enfrentan los desarrolladores al construir aplicaciones con ASP.NET MVC 3.\n\nContiene recetas para la integración de jQuery y Ajax, generación de gráficos dinámicos, autenticación con membresía personalizada, carga asíncrona de archivos, validación remota y optimización del SEO con rutas amigables.\n\nJamie Munro proporciona código directo y listo para usar sin rodeos teóricos, permitiendo a los ingenieros implementar funcionalidades específicas de forma ágil y eficiente. Excelente como guía de consulta rápida.",
+    "temas": [
+      "ASP.NET MVC 3",
+      "Recetas Web",
+      "jQuery Ajax",
+      "SEO",
+      "Validación Remota",
+      "Jamie Munro",
+      "O'Reilly"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/20-recipes-for/9781449312152/"
+    ]
+  },
+  "programming-asp-net-mvc-4-2012": {
+    "descripcion": "Manual exhaustivo y práctico sobre desarrollo web empresarial escrito por Jess Chadwick, Todd Snyder y Hrusikesh Panda, publicado por O'Reilly en 2012. Enseña a diseñar aplicaciones escalables con ASP.NET MVC 4.\n\nAborda el motor de vistas Razor, controladores asíncronos, integración con ASP.NET Web API para servicios RESTful, visualización adaptativa para navegadores móviles, autenticación con OAuth y pruebas unitarias con frameworks modernos.\n\nLos autores aportan un enfoque de ingeniería ágil que combina patrones de diseño consolidados con las novedades del framework para crear software duradero y de alta calidad. Muy recomendado para desarrolladores .NET.",
+    "temas": [
+      "ASP.NET MVC 4",
+      "Razor",
+      "Web API",
+      "OAuth",
+      "Controladores Asíncronos",
+      "Jess Chadwick",
+      "O'Reilly"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Colaboración de Equipos con ASP.NET MVC 4 y OAuth",
+        "descripcion": "Desarrollo de una solución web con autenticación social, vistas responsivas y servicios RESTful."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/programming-aspnet-mvc/9781449320317/"
+    ]
+  },
+  "programming-razor-2011": {
+    "descripcion": "Guía especializada y concisa sobre el motor de plantillas de vistas de Microsoft escrita por Jess Chadwick y publicada por O'Reilly en 2011. Desentraña la sintaxis y capacidades del motor Razor.\n\nExplora la transición fluida entre marcado HTML y código C#/VB.NET mediante el símbolo `@`, diseño de layouts maestros, secciones (`@section`), helpers personalizados (`@helper`), vistas parciales y renderizado fuera de contexto web.\n\nJess Chadwick explica con extraordinaria claridad por qué Razor revolucionó el desarrollo web en .NET al eliminar el farragoso marcado de tags `<% %>` de Web Forms. Un manual formativo breve y esencial para dominar las vistas en .NET.",
+    "temas": [
+      "Razor",
+      "View Engine",
+      "Layouts",
+      "Vistas Parciales",
+      "Helpers",
+      "Jess Chadwick",
+      "O'Reilly"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/programming-razor/9781449311001/"
+    ]
+  },
+  "asp-net-mvc-1-0-quickly-2009": {
+    "descripcion": "Manual de aprendizaje acelerado sobre la primera versión del framework web escrito por Maarten Balliauw y publicado por Packt en 2009. Introduce el desarrollo web desacoplado con ASP.NET MVC 1.0.\n\nAborda el ciclo de vida de peticiones, controladores y acciones, motor de vistas Web Forms clásico (archivos `.aspx`), enrutamiento semántico, inyección de dependencias con Unity y persistencia relacional con LINQ to SQL.\n\nMaarten Balliauw (JetBrains Developer Advocate) guía al programador a través de la transición desde Web Forms imperativo hacia el modelo declarativo y testeable de MVC. Una obra de consulta histórica muy apreciada.",
+    "temas": [
+      "ASP.NET MVC 1.0",
+      "Maarten Balliauw",
+      "LINQ to SQL",
+      "Unity IoC",
+      "Enrutamiento",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio Web de Noticias Comunitarias con ASP.NET MVC 1.0",
+        "descripcion": "Construcción paso a paso de un portal interactivo con controladores desacoplados y persistencia LINQ to SQL."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "learning-asp-net-core-mvc-programming-2016": {
+    "descripcion": "Guía práctica de desarrollo web moderno escrita por Mugilan T. S. Ragupathi y publicada por Packt en 2016. Enseña a construir aplicaciones web multiplataforma con ASP.NET Core MVC 1.0.\n\nCubre la configuración modular en `Startup.cs`, inyección de dependencias nativa, Tag Helpers en vistas Razor, enrutamiento semántico, persistencia con Entity Framework Core y autenticación de usuarios con ASP.NET Core Identity.\n\nMugilan Ragupathi ofrece un recorrido didáctico y directo que permite al programador familiarizarse con el nuevo ecosistema ligero y modular de .NET Core. Muy formativo para principiantes.",
+    "temas": [
+      "ASP.NET Core MVC",
+      "Tag Helpers",
+      "EF Core",
+      "Identity",
+      "Multiplataforma",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación de Registro y Gestión Médica con ASP.NET Core MVC",
+        "descripcion": "Construcción de un portal web con autenticación de usuarios, formularios con Tag Helpers y persistencia en base de datos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "introduction-to-the-development-of-web-applications-using-asp-net-core-mvc-2024": {
+    "descripcion": "Manual universitario estructurado y pedagógico escrito por el Dr. Răzvan Alexandru Mezei y publicado en 2024. Diseñado para la enseñanza universitaria del desarrollo de software web con ASP.NET Core MVC.\n\nDesarrolla los principios del patrón MVC, diseño de esquemas de datos con Entity Framework Core, enlace de datos fuertemente tipado en vistas, validaciones de seguridad, sesiones y pruebas unitarias de controladores.\n\nEl Dr. Mezei combina rigor académico con casos de estudio prácticos que acompañan al alumno en la asimilación gradual de conceptos de arquitectura de software web moderna. Excelente para asignaturas universitarias y autodidactas.",
+    "temas": [
+      "ASP.NET Core MVC",
+      "Educación Universitaria",
+      "EF Core",
+      "Validación",
+      "Arquitectura Web",
+      "Razvan Mezei"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema Universitario de Gestión Académica y Matrículas",
+        "descripcion": "Desarrollo completo de una aplicación web para registro de alumnos, asignaturas y calificaciones con Entity Framework Core."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "test-drive-asp-net-mvc-2010": {
+    "descripcion": "Guía práctica de desarrollo guiado por pruebas (TDD) escrita por Jonathan McCracken y publicada por The Pragmatic Bookshelf en 2010. Enseña a construir aplicaciones web robustas sobre ASP.NET MVC 2 aplicando TDD.\n\nCubre la creación de pruebas de controladores con NUnit y Moq, diseño de controladores delgados, desacoplamiento de la base de datos mediante el patrón Repository, pruebas de integración y automatización con herramientas de build.\n\nJonathan McCracken inculca la disciplina de escribir pruebas antes que el código de producción, demostrando cómo TDD previene regresiones y conduce a arquitecturas web limpias y modulares. Una referencia muy valorada en el desarrollo ágil.",
+    "temas": [
+      "TDD",
+      "ASP.NET MVC 2",
+      "NUnit",
+      "Moq",
+      "Repository Pattern",
+      "Pragmatic Bookshelf"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Gestión de Reservas Construida con TDD",
+        "descripcion": "Construcción paso a paso de una aplicación web donde cada controlador y servicio se implementa guiado por pruebas unitarias."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://pragprog.com/titles/jmtdd/test-drive-asp-net-mvc/"
+    ]
+  },
+  "professional-asp-net-mvc-1-0-2009": {
+    "descripcion": "Tratado histórico pionero sobre la primera versión oficial del framework escrito por Rob Conery, Scott Hanselman, Phil Haack y Scott Guthrie (vicepresidente ejecutivo de Cloud y AI en Microsoft), publicado por Wrox / Wiley en 2009.\n\nConocido en la industria como 'The Red Book', desmenuza los principios del patrón MVC, el enrutador de URLs, diseño de controladores, vistas y partials, formularios y model binding, y la célebre aplicación de ejemplo NerdDinner.\n\nEscrito por los arquitectos y diseñadores originales del framework en Microsoft, el libro combina autoridad técnica absoluta con una pedagogía accesible y amena. Una de las obras más influyentes en la historia moderna de .NET.",
+    "temas": [
+      "ASP.NET MVC 1.0",
+      "NerdDinner",
+      "Scott Guthrie",
+      "Scott Hanselman",
+      "Phil Haack",
+      "Rob Conery",
+      "Wrox",
+      "Wiley"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Social de Cenas y Eventos Comunitarios 'NerdDinner'",
+        "descripcion": "Construcción paso a paso de la célebre aplicación web con geolocalización de mapas, gestión de asistentes y control de acceso."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "professional-asp-net-mvc-3-2011": {
+    "descripcion": "Tratado exhaustivo y de máxima autoridad sobre ASP.NET MVC 3 escrito por Jon Galloway, Phil Haack, Brad Wilson y K. Scott Allen, publicado por Wrox / Wiley en 2011.\n\nExplora las grandes novedades de MVC 3: el motor de vistas Razor, inyección de dependencias nativa, validación remota, controladores asíncronos, filtros globales y el desarrollo completo de la tienda musical MvcMusicStore.\n\nEl cuarteto de autores, figuras legendarias de la comunidad y del equipo de producto de Microsoft, ofrece una cobertura técnica magistral de cada rincón del framework. La biblia indispensable para la versión 3 de MVC.",
+    "temas": [
+      "ASP.NET MVC 3",
+      "Razor",
+      "MvcMusicStore",
+      "Jon Galloway",
+      "Phil Haack",
+      "K. Scott Allen",
+      "Wrox",
+      "Wiley"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tienda Musical Virtual MvcMusicStore con ASP.NET MVC 3",
+        "descripcion": "Desarrollo integral de un comercio electrónico con catálogo musical por géneros, carrito de compras y panel administrativo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "professional-asp-net-mvc-4-2012": {
+    "descripcion": "Guía técnica exhaustiva de nivel profesional escrita por Jon Galloway, Phil Haack, Brad Wilson y K. Scott Allen, publicada por Wrox / Wiley en 2012. Analiza las innovaciones de ASP.NET MVC 4.\n\nCubre la creación de endpoints con ASP.NET Web API, soporte para vistas móviles adaptativas con Display Modes, tareas asíncronas con `async` y `await`, autenticación con OAuth/OpenID y empaquetado optimizado de scripts con Bundling.\n\nLos autores aportan patrones de arquitectura probados en aplicaciones de alto tráfico y análisis profundo de las decisiones de diseño del runtime. Una referencia técnica de consulta obligada.",
+    "temas": [
+      "ASP.NET MVC 4",
+      "Web API",
+      "OAuth",
+      "Display Modes",
+      "Async/Await",
+      "Jon Galloway",
+      "Wrox",
+      "Wiley"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma Web de Gestión Comercial con Vistas Móviles y Web API",
+        "descripcion": "Construcción de una aplicación con endpoints RESTful, autenticación federada con OAuth y optimización de recursos estáticos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "professional-asp-net-mvc-5-2014": {
+    "descripcion": "Tratado canónico de nivel profesional escrito por Jon Galloway, Brad Wilson, K. Scott Allen y David Matson, publicado por Wrox / Wiley en 2014. Es la obra insignia de la serie Wrox para ASP.NET MVC 5.\n\nAborda el enrutamiento por atributos (`[Route]`), autenticación moderna con ASP.NET Identity, filtros de autenticación y autorización, integración con Bootstrap 3 para diseño responsivo, y pruebas unitarias completas.\n\nLos autores ofrecen explicaciones autorizadas y detalladas que capacitan a los equipos de desarrollo para estructurar aplicaciones empresariales de gran escala con las mejores prácticas de la industria. Indispensable para desarrolladores .NET.",
+    "temas": [
+      "ASP.NET MVC 5",
+      "Attribute Routing",
+      "ASP.NET Identity",
+      "Bootstrap",
+      "Jon Galloway",
+      "K. Scott Allen",
+      "Wrox",
+      "Wiley"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal Corporativo de Comercio Electrónico con ASP.NET Identity",
+        "descripcion": "Construcción completa de una tienda online responsiva con autenticación de dos factores, roles de usuario y persistencia transaccional."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

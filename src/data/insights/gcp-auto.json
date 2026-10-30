@@ -1,0 +1,370 @@
+{
+  "become-gcp-cloud-digital-leader-certified-in-7-days-2024": {
+    "descripcion": "Guía acelerada de estudio diseñada para preparar el examen oficial Google Cloud Digital Leader, escrita por Abhinav Krishna Kaiser y publicada por Apress (Springer Nature) en 2024. El libro adopta un formato intensivo de siete jornadas orientado a directores de tecnología, gerentes de proyecto, líderes de negocio, consultores y profesionales técnicos de nivel básico a intermedio que buscan comprender el valor estratégico, económico y operativo de Google Cloud Platform (GCP) sin necesidad de contar con experiencia previa en programación ni administración de infraestructura.\n\nEl recorrido estructura los conceptos clave exigidos por Google: principios de computación en la nube, modelos de servicio (IaaS, PaaS, SaaS) y análisis de costos (CapEx vs. OpEx); infraestructura moderna y opciones de cómputo con Google Compute Engine, Google Kubernetes Engine (GKE), Cloud Run y Cloud Functions; ecosistema de datos y analítica con Cloud Storage, Cloud SQL, Cloud Spanner y BigQuery; adopción de inteligencia artificial y machine learning mediante Vertex AI, APIs cognitivas preentrenadas e IA generativa; y pilares de seguridad y confiabilidad mediante Cloud IAM, Cloud Monitoring, Cloud Logging y las prácticas de Site Reliability Engineering (SRE).\n\nCada jornada incluye síntesis conceptuales, preguntas de repaso y un simulacro de examen final con preguntas de opción múltiple estructuradas conforme al examen oficial. Su principal valor es condensar la toma de decisiones tecnológicas en el contexto empresarial de GCP de forma rápida y accesible. Al estar enfocado estrictamente en una certificación de perfil conceptual y directivo, deja fuera el trabajo práctico en la consola de comandos, el código y los despliegues técnicos detallados, por lo que ingenieros que busquen implementar soluciones deben considerarlo solo como un marco general antes de abordar exámenes técnicos como el Associate Cloud Engineer.",
+    "temas": [
+      "GCP",
+      "Cloud Digital Leader",
+      "Transformación digital",
+      "Google Compute Engine",
+      "Google Kubernetes Engine",
+      "BigQuery",
+      "Cloud Storage",
+      "Vertex AI",
+      "Site Reliability Engineering",
+      "Cloud IAM",
+      "Costes de la nube"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/979-8-8688-0438-0",
+      "https://www.amazon.com/Become-Cloud-Digital-Leader-Certified/dp/B0DF1W836K",
+      "https://www.oreilly.com/library/view/become-gcp-cloud/9798868804380/"
+    ]
+  },
+  "building-your-next-big-thing-with-google-cloud-platform-2015": {
+    "descripcion": "Publicada en 2015 por Apress, esta obra de Jose Ugia Gonzalez y S. P. T. Krishnan ofrece una panorámica técnica y arquitectónica de los servicios fundamentales de Google Cloud Platform (GCP) en su etapa de consolidación inicial. Está concebida para desarrolladores de software, ingenieros de sistemas y arquitectos empresariales de nivel intermedio que cuenten con experiencia en lenguajes como Python o Java y conozcan los fundamentos de redes y arquitecturas cliente-servidor, buscando migrar o crear soluciones escalables en la nube pública de Google.\n\nEl libro recorre los servicios troncales de computación, almacenamiento, mensajería y datos masivos de la plataforma mediante la consola web y el Google Cloud SDK. Enseña a desplegar y gestionar máquinas virtuales en Google Compute Engine, implementar aplicaciones web administradas con Google App Engine y Managed VMs, y orquestar contenedores Docker en Google Container Engine (la primera encarnación de GKE). En el plano de persistencia y comunicación, cubre el almacenamiento relacional con Google Cloud SQL, depósitos de objetos en Google Cloud Storage, bases de datos NoSQL con Google Cloud Datastore, mensajería asíncrona con Google Cloud Pub/Sub, resolución de nombres en Google Cloud DNS, creación de APIs con Google Cloud Endpoints y analítica y procesamiento de datos con Google BigQuery y Google Cloud Dataflow.\n\nLa práctica se apoya en scripts de automatización, autenticación con OAuth 2.0 y canalizaciones de datos en Java/Gradle, junto con componentes de backend orientados a servicios distribuidos. Su principal aportación es brindar una base arquitectónica coherente sobre el diseño desacoplado y tolerante a fallos característico de la infraestructura de Google. Como punto a tener en cuenta, su fecha de publicación (2015) deja fuera herramientas contemporáneas esenciales como Cloud Run, Kubernetes moderno o la suite de Vertex AI, por lo que su valor reside en asentar conceptos arquitectónicos clásicos más que en servir de referencia para implementaciones en producción actual.",
+    "temas": [
+      "Google Cloud Platform",
+      "Google Compute Engine",
+      "Google App Engine",
+      "Google Container Engine",
+      "Google Cloud Storage",
+      "Google Cloud SQL",
+      "Google Cloud Datastore",
+      "Google BigQuery",
+      "Google Cloud Dataflow",
+      "Google Cloud Pub/Sub",
+      "Google Cloud Endpoints"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1004-8",
+      "https://www.oreilly.com/library/view/building-your-next/9781484210055/"
+    ]
+  },
+  "cognitive-virtual-assistants-using-google-dialogflow-2020": {
+    "descripcion": "Guía práctica de Amit Agrawal y Navin Sabharwal enfocada en el diseño y despliegue de asistentes virtuales y chatbots inteligentes utilizando Google Dialogflow (específicamente Dialogflow ES). Está dirigida a desarrolladores web, ingenieros de software e interesados en inteligencia artificial aplicada con conocimientos previos de programación básica y consumo de APIs REST que desean dominar el desarrollo de agentes conversacionales para entornos corporativos.\n\nEl texto desmenuza el funcionamiento del procesamiento de lenguaje natural (NLP) en Dialogflow, explicando la configuración de agentes, intents, entidades predeterminadas y personalizadas, frases de entrenamiento y respuestas en lenguaje natural. Se detalla el diseño de diálogos ramificados mediante contextos de entrada y salida, intenciones de seguimiento (follow-up intents), eventos y parámetros. En el plano de backend, enseña a implementar lógica de fulfillment a través de webhooks desarrollados con Node.js en Google Cloud Functions (mediante el editor en línea integrado y servidores externos), incorporar análisis de sentimiento en tiempo real e integrar el asistente con canales externos como Facebook Messenger y aplicaciones web.\n\nEl aprendizaje se articula construyendo bots guiados paso a paso para casos de uso específicos de atención y consulta, destacando la interacción con servicios externos y el mantenimiento del estado de la conversación. El libro destaca por desmitificar la creación de flujos conversacionales no lineales y el uso de webhooks para respuestas dinámicas. Conviene tener presente que se enfoca en Dialogflow ES y no aborda Dialogflow CX (orientado a grandes call centers) ni los modelos generativos más recientes de Google Cloud, resultando idóneo para comprender la arquitectura tradicional basada en intención y entidad.",
+    "temas": [
+      "Google Dialogflow ES",
+      "Procesamiento de Lenguaje Natural",
+      "Intents y Entidades",
+      "Contextos Conversacionales",
+      "Fulfillment",
+      "Webhooks",
+      "Google Cloud Functions",
+      "Node.js",
+      "Análisis de Sentimiento",
+      "Facebook Messenger"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Asistente virtual de consulta meteorológica",
+        "descripcion": "Chatbot conversacional en Dialogflow que extrae entidades de fecha y ubicación, conectándose mediante webhooks en Node.js a una API climática externa para responder predicciones dinámicas."
+      },
+      {
+        "nombre": "Agente inteligente para el sector de viajes",
+        "descripcion": "Asistente orientado a reservas y gestión de itinerarios que maneja diálogos complejos mediante contextos y follow-up intents, integrado para interacción en plataformas de mensajería como Facebook Messenger."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5741-8",
+      "https://www.oreilly.com/library/view/cognitive-virtual-assistants/9781484257418/"
+    ]
+  },
+  "designing-applications-for-google-cloud-platform-2023": {
+    "descripcion": "Manual práctico escrito por Ashutosh Shashi centrado en el diseño, desarrollo y despliegue de aplicaciones nativas de la nube en Google Cloud Platform aprovechando el ecosistema Java moderno. Está dirigido a desarrolladores Java, arquitectos de software e ingenieros de la nube de nivel intermedio que dominan Java y Apache Maven y buscan aprender a estructurar arquitecturas empresariales confiables sobre los servicios administrados de GCP.\n\nEl libro guía al lector desde la preparación del espacio de trabajo con Google Cloud SDK y Cloud Shell, junto con la gestión de identidades y permisos mediante Cloud IAM. Enseña a desarrollar y empaquetar aplicaciones Java destinadas a Google App Engine y a vincularlas con las soluciones de persistencia del ecosistema: almacenamiento masivo de objetos con Google Cloud Storage, bases de datos relacionales gestionadas con Google Cloud SQL, almacenamiento NoSQL documental con Google Cloud Datastore / Firestore y bases de datos transaccionales de escala global con Google Cloud Spanner. También abarca tareas operativas como observabilidad, recopilación de métricas, diagnóstico de errores y optimización mediante Cloud Logging y Cloud Monitoring.\n\nLa parte aplicada se desarrolla implementando proyectos Java modulares con Maven y las librerías cliente oficiales de GCP (`google-cloud-java`), desplegándolos sobre App Engine y configurando accesos seguros a bases de datos relacionales y NoSQL. El mayor aporte del libro es servir como puente directo para que los desarrolladores backend en Java adopten la nube de Google sin rodeos conceptuales. No obstante, omite plataformas basadas en contenedores como Cloud Run o Kubernetes Engine (GKE), así como mensajería con Pub/Sub, concentrándose exclusivamente en arquitecturas centradas en App Engine y almacenamiento gestionado.",
+    "temas": [
+      "Google Cloud Platform",
+      "Java",
+      "Apache Maven",
+      "Google App Engine",
+      "Google Cloud Storage",
+      "Google Cloud SQL",
+      "Google Cloud Datastore",
+      "Google Cloud Spanner",
+      "Cloud IAM",
+      "Cloud SDK",
+      "Cloud Monitoring"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación empresarial Java en App Engine",
+        "descripcion": "Servicio backend construido en Java con Maven y desplegado en Google App Engine, conectado a Cloud SQL y Cloud Storage para persistencia relacional y gestión de archivos bajo políticas de Cloud IAM."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-9511-3",
+      "https://github.com/Apress/designing-applications-google-cloud-platform"
+    ]
+  },
+  "google-cloud-platform-gcp-professional-cloud-network-engineer-certification-companion-2024": {
+    "descripcion": "Voluminosa guía de estudio y referencia profesional elaborada por Dario Cabianca y publicada por Apress para preparar de forma integral la certificación oficial Google Cloud Certified Professional Cloud Network Engineer. Está dirigida a ingenieros de redes, administradores de sistemas y arquitectos cloud de nivel intermedio a avanzado que ya cuentan con bases sólidas en redes informáticas (modelo OSI, TCP/IP, direccionamiento CIDR, DNS y enrutamiento dinámico BGP) y necesitan profundizar en la implementación avanzada de redes en la infraestructura mundial de GCP.\n\nEl libro recorre con detalle exhaustivo los ocho dominios clave de la ingeniería de redes en Google Cloud: diseño, planificación y prototipado de redes virtuales globales (VPC), configuración de subredes e implementación de topologías multi-proyecto con Shared VPC y VPC Network Peering. Aborda la seguridad de acceso perimetral mediante VPC Service Controls, Private Google Access y Private Service Connect. Profundiza en el dimensionamiento y configuración de todas las familias de Google Cloud Load Balancing (HTTP(S), SSL Proxy, TCP Proxy y balanceadores internos/externos), servicios como Cloud DNS y Cloud NAT, y escenarios de conectividad híbrida mediante Cloud VPN (HA-VPN), Cloud Router y Cloud Interconnect (Dedicated y Partner). Por último, cubre la supervisión, análisis de flujo y resolución de incidencias con Network Intelligence Center, Firewall Insights, Packet Mirroring y VPC Flow Logs.\n\nEl aprendizaje combina explicaciones arquitectónicas profundas, comandos completos en Google Cloud CLI (`gcloud`), esquemas topológicos y análisis de casos prácticos que replican los escenarios reales planteados en el examen de certificación. Aporta una rigurosa especialización técnica difícil de encontrar en manuales introductorios de GCP, centrándose exclusivamente en redes de alta disponibilidad y seguridad perimetral. No cubre desarrollo de software ni despliegue de aplicaciones, ya que su propósito es el dominio absoluto del diseño, la conectividad y la operación de infraestructuras de red en la nube.",
+    "temas": [
+      "Google Cloud Platform",
+      "Certificación GCP Network Engineer",
+      "Virtual Private Cloud (VPC)",
+      "Shared VPC",
+      "VPC Service Controls",
+      "Cloud Load Balancing",
+      "Cloud Interconnect",
+      "Cloud VPN (HA-VPN)",
+      "Cloud Router y BGP",
+      "Network Intelligence Center",
+      "Cloud DNS y Cloud NAT"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-9354-6",
+      "https://www.oreilly.com/library/view/google-cloud-platform/9781484293546/"
+    ]
+  },
+  "google-cloud-platform-for-data-science-2023": {
+    "descripcion": "Publicado en 2023 por Apress, este libro de Shitalkumar R. Sukhdeve y Sandika S. Sukhdeve es un curso intensivo orientado a la ciencia de datos, el procesamiento masivo y el aprendizaje automático sobre Google Cloud Platform. Está destinado a científicos de datos, analistas de negocio, estudiantes e ingenieros de software de nivel intermedio o principiante en la nube que manejan nociones de Python y SQL y desean aprender a construir pipelines analíticos escalables aprovechando principalmente los servicios incluidos en el nivel gratuito (Free Tier) de GCP para minimizar costes.\n\nLa obra recorre el flujo integral de datos en siete capítulos prácticos. Comienza con la configuración de la cuenta y entorno en GCP y la integración con Google Colaboratory (Colab) para análisis interactivo en notebooks Jupyter. Enseña a estructurar almacenamiento de datos no estructurados en Google Cloud Storage y bases relacionales en Google Cloud SQL, ingestar streams de eventos mediante Google Cloud Pub/Sub, y diseñar pipelines de extracción, transformación y limpieza con Google Cloud Dataflow (Apache Beam) y Google Cloud Dataprep. En el apartado de inteligencia artificial y analítica, profundiza en el almacenamiento y consulta de grandes volúmenes de datos con Google BigQuery, la creación de modelos predictivos directos con SQL mediante BigQuery ML, el entrenamiento y despliegue en Vertex AI / AI Platform y la visualización ejecutiva en Looker Studio (anteriormente Google Data Studio).\n\nA través de ejercicios guiados, el lector aprende a conectar Colab con la nube, ejecutar consultas analíticas masivas, entrenar modelos de machine learning con sentencias SQL sencillas y publicar paneles interactivos de inteligencia de negocio. Su principal virtud es ofrecer una puerta de entrada accesible, ágil y económica a todo el espectro de datos de Google Cloud sin requerir experiencia previa en DevOps. No profundiza en arquitecturas complejas de Data Mesh, optimización avanzada de clústeres Spark en Dataproc ni flujos exhaustivos de MLOps en producción, posicionándose como una excelente rampa práctica de iniciación y consolidación de conceptos.",
+    "temas": [
+      "Google Cloud Platform",
+      "Data Science",
+      "Google BigQuery",
+      "BigQuery ML",
+      "Vertex AI",
+      "Google Colaboratory",
+      "Google Cloud Storage",
+      "Google Cloud Dataflow",
+      "Google Cloud Dataprep",
+      "Looker Studio",
+      "Google Cloud Pub/Sub"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-9688-2",
+      "https://www.oreilly.com/library/view/google-cloud-platform/9781484296882/"
+    ]
+  },
+  "hands-on-google-cloud-sql-and-cloud-spanner-2019": {
+    "descripcion": "Manual técnico publicado por Apress y escrito por Navin Sabharwal y Shakuntala Gupta Edward que se adentra en el ecosistema de bases de datos relacionales gestionadas dentro de Google Cloud Platform (GCP). Su contenido está actualizado a la madurez de los servicios de GCP hacia finales de 2019 e inicios de 2020. El libro está dirigido a administradores de bases de datos (DBAs), arquitectos de la nube e ingenieros de software que ya cuentan con fundamentos sólidos de SQL y diseño relacional, y que buscan migrar o desplegar bases de datos empresariales en la nube de Google.\n\nLa obra se estructura en torno a dos pilares fundamentales: Cloud SQL (para motores como MySQL, PostgreSQL y SQL Server) y Cloud Spanner (la base de datos NewSQL globalmente distribuida y con consistencia ACID). Enseña paso a paso a aprovisionar instancias mediante la consola de GCP y Cloud Shell, diseñar esquemas optimizados (como el intercalado de tablas en Spanner), configurar alta disponibilidad (HA), réplicas de lectura y copias de seguridad automáticas. En el plano de la programación, explica cómo interactuar con las bases de datos desde Python, empleando conectores específicos como google-cloud-spanner, mysql-connector-python o psycopg2, además de utilizar cuadernos de Jupyter para la ejecución de consultas y operaciones CRUD.\n\nA través de ejercicios guiados y scripts de apoyo, se practica la automatización administrativa, la monitorización de métricas de rendimiento y la planificación de migraciones desde bases de datos locales hacia GCP. Su principal aporte es desmitificar Cloud Spanner y compararlo objetivamente con Cloud SQL, ayudando al lector a identificar cuándo se requiere escalado horizontal global y cuándo basta una solución relacional tradicional gestionada. Deja fuera las alternativas NoSQL (como Bigtable o Firestore) y los motores analíticos como BigQuery, ya que se centra exclusivamente en cargas transaccionales relacionales. Resulta muy recomendable tener soltura previa con Python y la línea de comandos de Google Cloud SDK (gcloud).",
+    "temas": [
+      "Google Cloud Platform",
+      "Cloud SQL",
+      "Cloud Spanner",
+      "Bases de datos relacionales",
+      "MySQL",
+      "PostgreSQL",
+      "Python",
+      "Alta disponibilidad",
+      "Migración de bases de datos",
+      "NewSQL",
+      "gcloud CLI"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5537-7",
+      "https://www.amazon.com/Hands-Google-Cloud-Spanner-Administration/dp/148425536X"
+    ]
+  },
+  "implementing-identity-management-on-gcp-2025": {
+    "descripcion": "Guía técnica y concisa de Apress, elaborada por Advait Patel junto con Saai Krishnan Udayakumar y Hariharan Ragothaman, orientada a dominar la gestión de identidades y accesos (IAM) en Google Cloud Platform con las directrices de seguridad más recientes de 2025. El texto está pensado para especialistas en ciberseguridad cloud, ingenieros de identidad, arquitectos de soluciones y profesionales de SRE (Site Reliability Engineering) con experiencia intermedia en infraestructura cloud y familiaridad con conceptos de autenticación corporativa (directorios activos, SSO, SAML y OAuth/OIDC).\n\nEl contenido aborda en detalle tanto la identidad de la fuerza laboral (workforce) como la de clientes e identidades no humanas. Enseña a implementar jerarquías de recursos con el principio de mínimo privilegio, crear roles personalizados y gestionar Service Accounts con Workload Identity Federation para autenticación segura sin claves en entornos multinube (AWS, Azure o flujos de CI/CD como GitHub Actions). También cubre herramientas y servicios clave como Google Cloud IAM, Cloud Identity, Identity Platform, Cloud KMS, Sensitive Data Protection, Cloud Audit Logs, Policy Troubleshooter y la automatización de directivas mediante la CLI gcloud y plantillas de infraestructura como código (Terraform), cerrando con enfoques modernos de gobierno asistidos por inteligencia artificial.\n\nLa práctica se articula mediante recetas de configuración, auditorías de permisos y resolución de incidentes de acceso en escenarios híbridos y multinube. Su gran valor radica en su extrema especialización: en lugar de dispersarse en temas generales de GCP, resuelve de forma directa los problemas habituales de gobierno, cumplimiento normativo y filtración de credenciales estáticas. No cubre desarrollo general de aplicaciones ni despliegue de cómputo, por lo que conviene tener un proyecto activo de GCP y nociones de administración de sistemas para aprovechar al máximo las políticas de seguridad analizadas.",
+    "temas": [
+      "Google Cloud Platform",
+      "Cloud IAM",
+      "Workload Identity",
+      "Service Accounts",
+      "Seguridad en la nube",
+      "Federación de identidades",
+      "Cloud Identity",
+      "Auditoría de seguridad",
+      "Terraform",
+      "Cumplimiento normativo"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/979-8-8688-1697-0",
+      "https://www.oreilly.com/library/view/implementing-identity-management/9798868816970/"
+    ]
+  },
+  "gcp-in-action-2025": {
+    "descripcion": "Manual práctico y orientado al diseño de sistemas publicado por BPB Publications y escrito por Raymond Blum, Senior Staff Engineer en Google DeepMind. Basado en el estado moderno de Google Cloud Platform (edición 2025), el libro guía a desarrolladores de software, ingenieros backend y arquitectos cloud que ya saben programar y necesitan tomar decisiones técnicas acertadas para diseñar aplicaciones empresariales escalables, seguras y desacopladas en GCP sin perderse en el catálogo de servicios superpuestos de la plataforma.\n\nLa obra desglosa el ecosistema clasificando los servicios por responsabilidades de arquitectura y enseñando a elegir objetivamente entre alternativas como Cloud Run frente a App Engine o Compute Engine. Explica el diseño de fronteras de servicios independientes del backend (backend-agnostic interfaces), la integración de capas perimetrales para clientes web, móviles y de escritorio, y la orquestación asíncrona mediante Cloud Pub/Sub, Cloud Tasks y Cloud Load Balancing. Además, aborda el almacenamiento con bases de datos gestionadas (Cloud SQL, Cloud Spanner y Firestore), el control de acceso con Cloud IAM y la observabilidad continua con Cloud Monitoring y Cloud Logging.\n\nLa espina dorsal del libro es el desarrollo de un caso de estudio integral: la construcción de un sistema de votación global a gran escala (Global Voting System). A través de esta aplicación de referencia, el lector implementa tolerancia a fallos, mitigación de estrés en picos masivos de tráfico, persistencia inmutable del voto y clientes multiplataforma, aprendiendo además técnicas avanzadas de reemplazo y migración de componentes en aislamiento. Aporta una perspectiva pragmática de ingeniería sénior, omitiendo intencionalmente el aprendizaje automático masivo o la ciencia de datos para enfocarse en la fiabilidad de aplicaciones críticas de producción.",
+    "temas": [
+      "Google Cloud Platform",
+      "Arquitectura cloud",
+      "Cloud Run",
+      "App Engine",
+      "Cloud Pub/Sub",
+      "Cloud Spanner",
+      "Cloud Load Balancing",
+      "Sistemas distribuidos",
+      "Alta disponibilidad",
+      "Microservicios",
+      "Cloud Monitoring"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de votación global a gran escala",
+        "descripcion": "Implementación de referencia para gestionar votaciones de alta concurrencia con tolerancia a fallos, procesamiento desacoplado mediante colas de mensajes y clientes frontales para web, móvil y escritorio."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bpbonline.com/products/gcp-in-action",
+      "https://www.amazon.com/dp/9365890561"
+    ]
+  },
+  "google-cloud-platform-all-in-one-guide-2023": {
+    "descripcion": "Guía de referencia panorámica publicada por BPB Publications y escrita por Praveen Kukreti, orientada a ofrecer una visión global y práctica del ecosistema de Google Cloud Platform (alineada con la oferta tecnológica de 2023). Es un recurso pensado para desarrolladores principiantes en la nube, ingenieros de TI y administradores de sistemas que planean migrar infraestructuras tradicionales a GCP o prepararse de forma sólida para certificaciones profesionales como Google Cloud Associate Cloud Engineer.\n\nEl libro realiza un recorrido temático por todas las áreas del catálogo de GCP: infraestructura de cómputo (Compute Engine, Google Kubernetes Engine, App Engine y Cloud Functions), soluciones de almacenamiento (Cloud Storage) y bases de datos (Cloud SQL, Cloud Spanner, Cloud Bigtable y Firestore). Explica la configuración de redes virtuales mediante VPC, cortafuegos y balanceadores de carga, la gobernanza con Cloud IAM y Cloud Monitoring, y se adentra en el procesamiento de macrodatos e inteligencia artificial utilizando BigQuery, Pub/Sub, Dataflow, Dataproc, Vertex AI y cuadernos Jupyter, además de la orquestación con Cloud Composer y las herramientas de Database Migration Service.\n\nEl aprendizaje se complementa con casos de uso prácticos, despliegues paso a paso desde la consola web y la CLI gcloud, así como directrices de optimización de costes y uso eficiente de recursos. Su gran fortaleza es condensar en menos de 300 páginas la inmensidad de GCP con un lenguaje claro y accesible, sirviendo como mapa de ruta inicial antes de acometer especializaciones profundas. No construye un megaproyecto monolítico ni entra en código de backend complejo, por lo que deja fuera el diseño avanzado de software para concentrarse en la provisión y el entendimiento funcional de cada servicio.",
+    "temas": [
+      "Google Cloud Platform",
+      "Compute Engine",
+      "Google Kubernetes Engine",
+      "VPC",
+      "Cloud Storage",
+      "Cloud SQL",
+      "BigQuery",
+      "Vertex AI",
+      "Cloud IAM",
+      "Cloud Composer",
+      "Optimización de costes"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bpbonline.com/products/google-cloud-platform-all-in-one-guide",
+      "https://www.amazon.com/Google-Cloud-Platform-All-One/dp/9355513329"
+    ]
+  },
+  "scaling-google-cloud-platform-2023": {
+    "descripcion": "Manual avanzado de BPB Publications escrito por Swapnil Dubey, enfocado exhaustivamente en las estrategias de elasticidad, escalabilidad y Site Reliability Engineering (SRE) en Google Cloud Platform (reflejando la tecnología de finales de 2022 y 2023). Está dirigido a arquitectos de la nube, ingenieros DevOps, profesionales de SRE y desarrolladores sénior que ya conocen la operativa básica de GCP y necesitan diseñar sistemas capaces de soportar cargas masivas de trabajo sin degradación de rendimiento ni sobrecostes.\n\nEl texto examina cómo aplicar escalado manual, automático y predictivo a lo largo de las principales capas de la infraestructura de Google Cloud. Detalla la configuración de Managed Instance Groups (MIG) en Compute Engine, el escalado horizontal y vertical de pods y nodos en Google Kubernetes Engine (GKE), Google Cloud VMware Engine (GCVE), y plataformas serverless como Cloud Run, Cloud Functions y App Engine. Asimismo, profundiza en el ajuste de rendimiento y particionamiento en bases de datos de escala masiva como Cloud Bigtable y Cloud Spanner, y en el dimensionamiento de flujos de computación distribuida con Cloud Composer 2, Apache Spark en Dataproc y canalizaciones de Dataflow.\n\nA través de análisis arquitectónicos, métricas clave (KPIs de escalabilidad) y casos prácticos de SRE, se ejercita la definición de SLIs, SLOs y presupuestos de error (error budgets), así como el diagnóstico de cuellos de botella y la observabilidad con Cloud Monitoring y Cloud Trace. Su principal valor es abordar la nube desde la perspectiva del rendimiento bajo estrés y la eficiencia económica, un aspecto que los manuales introductorios suelen omitir. Deja de lado las explicaciones para principiantes y la sintaxis de programación básica, por lo que es imprescindible tener experiencia previa administrando servicios en GCP y comprendiendo sistemas distribuidos.",
+    "temas": [
+      "Google Cloud Platform",
+      "Escalabilidad",
+      "Site Reliability Engineering",
+      "Google Kubernetes Engine",
+      "Compute Engine",
+      "Cloud Run",
+      "Cloud Bigtable",
+      "Cloud Spanner",
+      "Cloud Dataflow",
+      "Dataproc",
+      "SLO y SLI",
+      "Elasticidad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://bpbonline.com/products/scaling-google-cloud-platform",
+      "https://www.amazon.com/dp/9355512848",
+      "https://www.goodreads.com/book/show/63345821-scaling-google-cloud-platform"
+    ]
+  },
+  "google-cloud-platform-in-action-2018": {
+    "descripcion": "Guía técnica integral y formativa sobre Google Cloud Platform (GCP) escrita por JJ Geewax, ingeniero de software de Google. La obra examina la infraestructura y los servicios gestionados de la nube de Google en su estado de madurez de 2018, sentando las bases conceptuales y prácticas de la computación distribuida. Está orientada a desarrolladores de software, ingenieros de operaciones y arquitectos de nivel básico a intermedio en la nube que cuenten con conocimientos generales de desarrollo web, línea de comandos (CLI) y bases de datos relacionales, sin requerir experiencia previa con GCP.\n\nEl libro realiza un desglose riguroso de los servicios principales de Google Cloud agrupados por responsabilidades arquitectónicas. En almacenamiento y bases de datos, enseña a trabajar con Cloud SQL (MySQL y PostgreSQL), almacenamiento documental con Cloud Datastore, bases de datos relacionales distribuidas globalmente con Cloud Spanner, almacenamiento NoSQL columnar masivo con Cloud Bigtable y almacenamiento de objetos con Cloud Storage. En el ámbito de cómputo, cubre la creación y gestión de máquinas virtuales en Compute Engine, orquestación de contenedores en Google Kubernetes Engine (GKE), despliegues en plataforma como servicio (PaaS) con App Engine y arquitecturas serverless con Cloud Functions y Node.js. Además, aborda redes con Cloud DNS, analítica a gran escala con BigQuery y Cloud Dataflow (Apache Beam), mensajería con Cloud Pub/Sub y servicios cognitivos de inteligencia artificial como Cloud Vision, Cloud Natural Language, Cloud Speech y Cloud Translation.\n\nA lo largo de los capítulos se practican casos reales, iniciando con el despliegue práctico paso a paso de una aplicación web de WordPress sobre Compute Engine respaldada por Cloud SQL y Cloud Storage, y continuando con microservicios serverless activados por eventos y consultas analíticas masivas sobre BigQuery. El gran valor del libro reside en la claridad con la que explica los aspectos arquitectónicos internos y los criterios de decisión para seleccionar la base de datos o el modelo de cómputo adecuado. Deja fuera servicios posteriores de Google Cloud (como Cloud Run o Vertex AI) y no incluye automatización declarativa con Terraform, centrándose en la consola, la CLI `gcloud` y los SDKs oficiales, por lo que resulta un recurso fundamental para consolidar los conceptos centrales de la nube de Google.",
+    "temas": [
+      "Google Cloud Platform",
+      "Compute Engine",
+      "Google Kubernetes Engine (GKE)",
+      "App Engine",
+      "Cloud Functions",
+      "Cloud SQL",
+      "Cloud Spanner",
+      "Cloud Bigtable",
+      "Cloud Storage",
+      "BigQuery",
+      "Cloud Pub/Sub",
+      "Machine Learning APIs"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Despliegue y escalado de WordPress en GCP",
+        "descripcion": "Instalación y configuración completa de un sitio web WordPress en producción utilizando Compute Engine para el servidor web, Cloud SQL para la base de datos relacional y Cloud Storage para los elementos multimedia."
+      },
+      {
+        "nombre": "Microservicios serverless y procesamiento de eventos",
+        "descripcion": "Construcción de arquitecturas sin servidor con Cloud Functions y Cloud Pub/Sub para procesar eventos asíncronos y consumir APIs de inteligencia artificial (Cloud Vision y Cloud Translation)."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/google-cloud-platform-in-action",
+      "https://www.oreilly.com/library/view/google-cloud-platform/9781617293528/"
+    ]
+  },
+  "practical-ai-on-the-google-cloud-platform-2021": {
+    "descripcion": "Manual exhaustivo y práctico enfocado en el desarrollo, entrenamiento e implementación de soluciones de inteligencia artificial y aprendizaje profundo (Deep Learning) aprovechando el ecosistema de Google Cloud Platform (GCP). Basado en las herramientas y servicios de Google Cloud disponibles en el periodo 2020-2021, está pensado para desarrolladores de software, científicos de datos e ingenieros de machine learning de nivel intermedio que dominen Python y posean fundamentos matemáticos elementales (álgebra lineal y conceptos básicos de optimización), pero que no dispongan de hardware local especializado ni experiencia avanzada en administración de infraestructura cloud.\n\nEl texto ofrece un recorrido minucioso que arranca con la preparación de datos y experimentación en Google Colab, Cloud Shell, BigQuery y Cloud Storage. Enseña a implementar soluciones predictivas tanto con herramientas gestionadas de bajo código como con modelos personalizados de aprendizaje profundo, cubriendo AutoML Tables, AutoML Vision y AutoML Natural Language. En el desarrollo con código, enseña a diseñar y entrenar redes neuronales convolucionales (CNNs) con TensorFlow y TensorFlow Hub para reconocimiento visual, indexación y análisis de video con Cloud Video Intelligence, procesamiento de lenguaje natural (NLP) con embeddings y construcción de chatbots inteligentes mediante Google Dialogflow. Asimismo, explora técnicas generativas avanzadas como Variational Autoencoders (VAE) y Redes Generativas Antagónicas (GANs, incluyendo Pix2Pix, CycleGAN y Self-Attention GAN con DeOldify), así como aprendizaje por refuerzo con SARSA, Expected SARSA y Deep Q-Networks (DQN).\n\nEl trabajo práctico se desarrolla mediante cuadernos interactivos en Google Colab vinculados a la nube: la creación de un asistente conversacional funcional en Dialogflow, modelos de síntesis y coloreado automático de imágenes antiguas mediante arquitecturas GAN, y la simulación y entrenamiento de un agente autónomo de toma de decisiones para conducción de taxis con Reinforcement Learning. La obra aporta una perspectiva muy completa que va desde APIs empaquetadas hasta arquitecturas avanzadas de investigación implementadas en Python. Conviene saber que las herramientas de AutoML aquí mostradas han sido unificadas posteriormente en la plataforma Vertex AI de Google Cloud, aunque los fundamentos de diseño de modelos, TensorFlow y Dialogflow se mantienen plenamente vigentes y formativos.",
+    "temas": [
+      "Google Cloud Platform",
+      "Deep Learning",
+      "Python",
+      "TensorFlow",
+      "AutoML",
+      "Google Colab",
+      "Computer Vision",
+      "Natural Language Processing (NLP)",
+      "Dialogflow",
+      "Generative Adversarial Networks (GAN)",
+      "Reinforcement Learning"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Asistente virtual conversacional con Dialogflow",
+        "descripcion": "Construcción de un chatbot interactivo capaz de comprender intenciones del usuario, capturar entidades y resolver solicitudes conectándose a servicios de backend mediante webhooks."
+      },
+      {
+        "nombre": "Restauración y coloreado de imágenes con GANs",
+        "descripcion": "Implementación y entrenamiento de modelos generativos antagónicos (Self-Attention GAN y Pix2Pix) en Google Colab y GCP para la reconstrucción y coloreado automático de imágenes en escala de grises."
+      },
+      {
+        "nombre": "Agente autónomo con Deep Reinforcement Learning",
+        "descripcion": "Modelado y entrenamiento de un agente inteligente en un entorno simulado de transporte utilizando algoritmos SARSA y redes neuronales profundas Deep Q-Networks (DQN) en Python."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/practical-ai-on/9781492075806/",
+      "https://www.amazon.com/Practical-Google-Cloud-Platform-State---Art/dp/1492075814"
+    ]
+  }
+}

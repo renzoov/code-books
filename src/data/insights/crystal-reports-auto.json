@@ -1,0 +1,117 @@
+{
+  "crystal-reports-para-visual-studio-net-vb-net-2002": {
+    "descripcion": "Manual pionero en español de Luis Miguel Blanco dedicado a la generación e integración de reportes empresariales utilizando Crystal Reports en Visual Studio .NET y VB.NET.\n\nEl autor enseña a diseñar plantillas de informes visuales, conectar reportes a bases de datos relacionales mediante ADO.NET (DataSets tipados), crear fórmulas de cálculo personalizadas con la sintaxis Crystal y Basic, y configurar filtros por parámetros dinámicos. Además, cubre el visor de CrystalReportViewer para Windows Forms y páginas ASP.NET.\n\nUna obra histórica fundamental en habla hispana que capacitó a los desarrolladores en la generación de reportes en los inicios de la plataforma .NET.",
+    "temas": [
+      "Crystal Reports",
+      "Visual Studio .NET",
+      "VB.NET",
+      "ADO.NET",
+      "Reportes",
+      "CrystalReportViewer",
+      "DataSets",
+      "Español"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Generador de reportes comerciales y facturación en VB.NET",
+        "descripcion": "Construcción de una suite de informes impresos con parámetros de rango de fechas, agrupamiento por cliente y totales generales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "crystal-reports-2008-the-complete-reference-2008": {
+    "descripcion": "Tratado enciclopédico definitivo de George Peck sobre Crystal Reports 2008, considerado la biblia de referencia mundial para diseñadores de reportes y desarrolladores de inteligencia de negocio.\n\nCon casi 1000 páginas, Peck disecciona cada aspecto de la herramienta: diseño visual de reportes pixel-perfect, agrupamientos multinivel, fórmulas avanzadas con Crystal Syntax y Basic Syntax, subreportes vinculados, gráficos interactivos y tablas dinámicas de referencias cruzadas (Cross-tabs). Además, detalla la publicación en servidores BusinessObjects Enterprise y Crystal Reports Server.\n\nLa guía de cabecera indiscutible e indispensable para cualquier profesional que diseña reportes de misión crítica para la toma de decisiones empresariales.",
+    "temas": [
+      "Crystal Reports 2008",
+      "George Peck",
+      "Complete Reference",
+      "Cross-Tabs",
+      "Fórmulas Crystal",
+      "Subreportes",
+      "BusinessObjects",
+      "BI"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite corporativa de informes financieros y cuadros de mando",
+        "descripcion": "Diseño de un catálogo de reportes ejecutivos con subreportes enlazados, gráficos de rendimiento y tablas dinámicas cruzadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "reporting-with-visual-studio-and-crystal-reports-2013": {
+    "descripcion": "Guía práctica de Mahmoud Elkoush orientada a la integración fluida de reportes complejos de Crystal Reports en aplicaciones empresariales de Visual Studio con C# y VB.NET.\n\nEl autor enseña a diseñar reportes enlazados a procedimientos almacenados y consultas SQL, transferir parámetros dinámicos desde el código hacia el motor de reportes, exportar automáticamente documentos a formatos PDF, Excel y Word sin intervención humana, y configurar la impresión directa hacia impresoras de red.\n\nMuy recomendable para desarrolladores de software de gestión que necesitan automatizar la emisión y exportación de documentos comerciales.",
+    "temas": [
+      "Crystal Reports",
+      "Visual Studio",
+      "C#",
+      "Exportación PDF",
+      "Procedimientos Almacenados",
+      "Automatización",
+      "Impresión",
+      "Reportes"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor automatizado de facturación y exportación a PDF",
+        "descripcion": "Desarrollo de un servicio en C# que genera facturas periódicas con Crystal Reports y las exporta a PDF para su envío por correo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "manual-del-desarrollador-del-sdk-net-de-sap-crystal-reports-para-visual-studio-2015": {
+    "descripcion": "Manual oficial de referencia técnica de SAP dedicado al SDK de .NET para Crystal Reports integrado en Microsoft Visual Studio.\n\nEl documento detalla el modelo de objetos de la API del SDK (ReportDocument, DataDefinition, Database, ExportOptions), la manipulación programática de conexiones de bases de datos en tiempo de ejecución, autenticación de conexiones, paso seguro de parámetros y el control granular del ciclo de vida del visor CrystalReportViewer. Incluye directrices de optimización de memoria y licenciamiento.\n\nLa guía técnica oficial de cabecera indispensable para ingenieros que integran el motor de informes de SAP en aplicaciones corporativas .NET.",
+    "temas": [
+      "SAP Crystal Reports",
+      "SDK .NET",
+      "ReportDocument",
+      "ExportOptions",
+      "C#",
+      "Visual Studio",
+      "Manual Oficial",
+      "Licenciamiento"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "professional-crystal-reports-for-visual-studio-net-2nd-edtion-2004": {
+    "descripcion": "Segunda edición de la reconocida guía de David McAmis en la serie Professional de Wrox, dedicada a la arquitectura y desarrollo de soluciones de reportes en la plataforma .NET.\n\nMcAmis aborda la arquitectura del motor embebido de Crystal Reports en .NET, enlace a DataSets de ADO.NET fuertemente tipados, integración en aplicaciones web con ASP.NET Web Forms y de escritorio con Windows Forms, parametrización dinámica y técnicas de exportación masiva. Incluye consejos para resolver problemas frecuentes de cuellos de botella y límites de licencias concurrentes.\n\nUna referencia formativa clásica muy respetada por desarrolladores corporativos de la era dorada de .NET Framework.",
+    "temas": [
+      "Crystal Reports",
+      "David McAmis",
+      "Wrox",
+      "Visual Studio .NET",
+      "ADO.NET",
+      "ASP.NET",
+      "Reportes Empresariales",
+      "C#"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal web de reportes corporativos en ASP.NET con Crystal Reports",
+        "descripcion": "Implementación de un centro de reportes seguro que permite a los usuarios filtrar registros y descargar informes generados al vuelo en PDF y Excel."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

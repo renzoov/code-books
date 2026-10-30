@@ -1,0 +1,207 @@
+{
+  "jumpstart-snowflake-2019": {
+    "descripcion": "Guía práctica de iniciación enfocada en el diseño, la administración y la explotación de almacenes de datos analíticos en la nube utilizando la plataforma Snowflake (Data Cloud). Publicada originalmente por Apress entre finales de 2019 y principios de 2020, está dirigida a ingenieros de datos, administradores de bases de datos, consultores de Business Intelligence y arquitectos de nivel básico a intermedio que cuentan con conocimientos de SQL y conceptos clásicos de data warehousing, pero que necesitan adaptarse a la arquitectura nativa en la nube sin requerir conocimientos avanzados previos de un proveedor de nube específico.\n\nEl libro detalla la arquitectura desacoplada de Snowflake en sus tres capas fundamentales: almacenamiento centralizado, procesamiento mediante almacenes virtuales (Virtual Warehouses) y servicios globales de gestión en la nube. Explica el uso tanto de la interfaz web como del cliente de consola SnowSQL, enseñando a configurar almacenes virtuales con auto-escalado horizontal y suspensión automática para controlar el consumo de créditos. Cubre la carga masiva de datos mediante el comando `COPY INTO` desde etapas internas y externas alojadas en nubes públicas (Amazon S3, Azure Blob Storage o Google Cloud Storage), así como la ingesta continua automatizada con Snowpipe. También aborda la manipulación de formatos semiestructurados (JSON, Avro, Parquet) con el tipo de datos nativo `VARIANT` y funciones SQL como `FLATTEN`, además de mecanismos de seguridad como RBAC (control de acceso basado en roles), cifrado, Time Travel, Fail-safe, Zero-Copy Cloning y compartición segura de datos (Secure Data Sharing).\n\nEn el plano práctico, el lector aprende a desplegar almacenes de cómputo virtual, cargar archivos estructurados y semiestructurados desde almacenamiento en la nube, clonar bases de datos enteras de desarrollo y pruebas de manera instantánea sin costo de almacenamiento físico adicional, y habilitar flujos de ingesta de datos en tiempo real con Snowpipe. Es un texto ágil y directo que facilita la transición técnica desde motores locales tradicionales (como Oracle, Teradata o SQL Server) hacia la nube. Al pertenecer a la primera edición, no contempla características más modernas como Snowpark, Streamlit o tablas Apache Iceberg, pero aporta con gran claridad los pilares arquitectónicos y operativos esenciales para dominar Snowflake.",
+    "temas": [
+      "Snowflake",
+      "Cloud Data Warehouse",
+      "SQL",
+      "Snowpipe",
+      "SnowSQL",
+      "Virtual Warehouses",
+      "Datos semiestructurados (JSON)",
+      "Zero-Copy Cloning",
+      "Time Travel",
+      "RBAC",
+      "Data Sharing",
+      "Migración a la nube"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Canalización de ingesta continua con Snowpipe",
+        "descripcion": "Configuración de etapas de almacenamiento en la nube e implementación de ingesta continua automatizada de archivos JSON hacia tablas relacionales de Snowflake utilizando Snowpipe y SQL."
+      },
+      {
+        "nombre": "Data warehouse seguro con Zero-Copy Cloning y Time Travel",
+        "descripcion": "Construcción y administración de un almacén analítico donde se configuran políticas de retención histórica con Time Travel y clonación instantánea de entornos de prueba sin duplicar almacenamiento físico."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5328-1",
+      "https://www.apress.com/gp/book/9781484253274",
+      "https://www.oreilly.com/library/view/jumpstart-snowflake/9781484253281/"
+    ]
+  },
+  "managing-peoplesoft-on-the-oracle-cloud-2019": {
+    "descripcion": "Manual técnico especializado enfocado en la migración, aprovisionamiento automatizado y gestión del ciclo de vida de aplicaciones empresariales ERP PeopleSoft dentro de Oracle Cloud Infrastructure (OCI). Escrito por Aaron Engelsrud y publicado en 2019, aborda las versiones de PeopleSoft Cloud Manager (en particular versiones 8 y 9) operando sobre OCI. La obra está dirigida a administradores de sistemas PeopleSoft, arquitectos de infraestructura y profesionales de TI de nivel intermedio que dominan el entorno tradicional local de PeopleTools, WebLogic y bases de datos Oracle, pero necesitan trasladar y operar sus entornos dentro de la nube pública de Oracle.\n\nEl texto desglosa de manera pormenorizada el funcionamiento y la configuración de PeopleSoft Cloud Manager como herramienta central de orquestación en OCI. Enseña a preparar los requisitos de red y seguridad en la nube (VCNs, subredes, listas de seguridad y políticas de IAM) y a instalar Cloud Manager desde el Oracle Cloud Marketplace. Explica la administración del Cloud Repository para gestionar canales de descarga automática desde My Oracle Support, parches de PeopleTools y PeopleSoft Update Images (PUIs). Además, profundiza en el diseño de topologías desacopladas para niveles web (WebLogic), servidores de aplicaciones (Tuxedo) y bases de datos Oracle, la creación de plantillas de entorno reutilizables para despliegues con un solo clic, y la metodología de migración \"Lift and Shift\" para empaquetar y transferir instancias locales hacia la nube, integrando PeopleSoft Update Manager (PUM) para actualizaciones y adopción selectiva de parches.\n\nLa parte práctica enseña a implementar una instancia de Cloud Manager, diseñar arquitecturas multicapa y realizar paso a paso el empaquetado y traslado de una instancia real de PeopleSoft desde un centro de datos tradicional hacia OCI. El libro aporta enorme valor a los equipos de operaciones al sistematizar procesos que manualmente consumían semanas, como la clonación de instancias o las pruebas de actualización de PeopleTools. Deja fuera el desarrollo funcional en PeopleCode y la personalización de módulos empresariales, centrándose exclusivamente en la infraestructura y la administración de plataformas. Es una guía de referencia clave para proyectos de migración empresarial hacia Oracle Cloud.",
+    "temas": [
+      "Oracle Cloud Infrastructure (OCI)",
+      "PeopleSoft",
+      "PeopleSoft Cloud Manager",
+      "PeopleTools",
+      "PeopleSoft Update Manager (PUM)",
+      "Lift and Shift",
+      "WebLogic",
+      "Tuxedo",
+      "Oracle Database",
+      "VCN",
+      "Migración ERP"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Despliegue de PeopleSoft Cloud Manager y topología multicapa",
+        "descripcion": "Instalación de PeopleSoft Cloud Manager en OCI, configuración de repositorios de software y diseño de topologías desacopladas para capas web, de aplicación (Tuxedo) y base de datos."
+      },
+      {
+        "nombre": "Migración Lift and Shift de PeopleSoft a OCI",
+        "descripcion": "Procedimiento guiado para empaquetar una aplicación PeopleSoft y su base de datos local, transferir los artefactos a almacenamiento de objetos y restaurarlos en Oracle Cloud Infrastructure."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4546-0",
+      "https://www.apress.com/gp/book/9781484245453",
+      "https://www.oreilly.com/library/view/managing-peoplesoft-on/9781484245460/"
+    ]
+  },
+  "practical-oracle-cloud-infrastructure-2020": {
+    "descripcion": "Guía técnica integral y práctica para la arquitectura, aprovisionamiento y administración de soluciones empresariales en Oracle Cloud Infrastructure (OCI). Escrita por Michał Tomasz Jakóbczyk y publicada en 2020, abarca la generación moderna de OCI (Gen 2), combinando servicios de infraestructura básica (IaaS) con tecnologías nativas de la nube (cloud-native). Está destinada a ingenieros de software, especialistas en DevOps, administradores de sistemas y arquitectos cloud de nivel intermedio que conocen fundamentos de Linux, redes TCP/IP y virtualización, y buscan dominar la plataforma de Oracle con un enfoque moderno de automatización.\n\nEl libro aborda detalladamente los componentes esenciales de IaaS: redes virtuales (Virtual Cloud Networks con subredes públicas y privadas, gateways de internet, NAT y Service Gateway), instancias de cómputo (máquinas virtuales y bare metal), almacenamiento en bloque (Block Volumes), almacenamiento de objetos (Object Storage) y File Storage Service. Enseña a gobernar la seguridad mediante IAM, políticas basadas en roles, compartimentos y grupos de seguridad de red (NSGs), haciendo especial hincapié en la automatización con HashiCorp Terraform y OCI CLI. Además, profundiza en bases de datos gestionadas con Oracle Autonomous Database (para cargas transaccionales ATP y analíticas ADW), empaquetado de contenedores con Docker, orquestación mediante Oracle Container Engine for Kubernetes (OKE) y arquitecturas serverless a través de Oracle Functions basadas en el proyecto de código abierto Fn Project.\n\nEn las secciones prácticas se construye una aplicación web REST distribuida detrás de un balanceador de carga de alta disponibilidad, se desarrollan plantillas completas de infraestructura como código en Terraform para levantar entornos completos de manera reproducible, y se configuran clústeres de Kubernetes (OKE) y microservicios serverless conectados a bases de datos autónomas. La obra aporta una visión renovada que trasciende el uso de OCI como mero repositorio de bases de datos, mostrándola como una plataforma robusta para arquitecturas modernas de microservicios y DevOps. Conviene tener cierta familiaridad previa con contenedores y sintaxis declarativa para aprovechar al máximo sus ejemplos de código.",
+    "temas": [
+      "Oracle Cloud Infrastructure (OCI)",
+      "Terraform",
+      "Infrastructure as Code (IaC)",
+      "Virtual Cloud Networks (VCN)",
+      "Compute",
+      "Autonomous Database",
+      "Kubernetes (OKE)",
+      "Serverless",
+      "Oracle Functions",
+      "Fn Project",
+      "Load Balancing",
+      "IAM"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servicio REST de alta disponibilidad con Load Balancer en OCI",
+        "descripcion": "Despliegue y configuración de una API REST distribuida en múltiples instancias de Compute dentro de una VCN privada, respaldada por un balanceador de carga para asegurar alta disponibilidad y resiliencia."
+      },
+      {
+        "nombre": "Infraestructura como Código integral con Terraform",
+        "descripcion": "Automatización declarativa del aprovisionamiento de redes virtuales, políticas de seguridad IAM, almacenamiento y servidores en OCI utilizando el proveedor oficial de Terraform."
+      },
+      {
+        "nombre": "Arquitectura de microservicios en Kubernetes (OKE) y funciones serverless",
+        "descripcion": "Orquestación y escalado de contenedores en Oracle Container Engine for Kubernetes complementados con funciones sin servidor ejecutadas mediante Oracle Functions y Fn Project."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-5506-3",
+      "https://www.apress.com/gp/book/9781484255056",
+      "https://www.oreilly.com/library/view/practical-oracle-cloud/9781484255063/"
+    ]
+  },
+  "cloud-native-patterns-2019": {
+    "descripcion": "Obra de referencia arquitectónica escrita por Cornelia Davis (exvicepresidenta de tecnología en Pivotal) orientada al diseño de software resiliente y tolerante a fallos continuos en plataformas de nube dinámicas. La autora establece desde el inicio que ser «cloud-native» no depende del lugar físico donde se aloja una aplicación, sino de cómo está estructurado su comportamiento e interacción ante la volatilidad de la infraestructura. El texto se apoya en Java y el ecosistema de Spring Boot (en su versión 2.x) junto con contenedores Docker para aterrizar los patrones en código ejecutable. Está dirigido a desarrolladores de nivel intermedio, ingenieros de backend y arquitectos de software con experiencia en programación orientada a objetos que deseen realizar la transición conceptual desde aplicaciones tradicionales hacia sistemas distribuidos a escala web.\n\nEl núcleo del libro profundiza en los principios y patrones imprescindibles para la nube distribuida: gestión de estado frente a servicios sin estado (statelessness), externalización y dinamismo de la configuración con Spring Cloud Config, y comunicación asíncrona mediante arquitecturas dirigidas por eventos y colas con RabbitMQ frente al acoplamiento de peticiones síncronas. Davis analiza el escalado horizontal con redundancia, el descubrimiento de servicios dinámico (Eureka), el enrutamiento inteligente (Ribbon) y la mitigación de fallos en cascada mediante cortocircuitos (circuit breakers con Hystrix/Resilience4j), reintentos con retardo y fallbacks. También examina la función de los API Gateways (Spring Cloud Gateway, Zuul), la introducción conceptual al service mesh con proxies sidecar y la observabilidad distribuida mediante métricas (Micrometer, Prometheus), registros centralizados y correlación de trazas (Zipkin).\n\nA lo largo de la obra se construye y transforma de manera iterativa «Abundant Sunshine», una aplicación agregadora de blogs gastronómicos que arranca como microservicios sencillos y se refactoriza para incorporar configuración remota, balanceo de carga, resiliencia ante caídas y despliegues sin tiempo de inactividad (blue-green y rolling updates). La gran fortaleza del libro radica en su profundidad didáctica: explica el porqué arquitectónico detrás de cada fallo y solución, formando un criterio sólido independiente de la herramienta puntual. Por otro lado, no profundiza en la administración de clústeres de Kubernetes (los contenedores se usan como plataforma de ejecución sin entrar en orquestación avanzada) ni en interfaces web. Conviene tener buen manejo previo de Java y Spring Boot para asimilar con fluidez el código de soporte.",
+    "temas": [
+      "Cloud-Native",
+      "Microservicios",
+      "Spring Boot",
+      "Resiliencia",
+      "Circuit Breakers",
+      "Event-Driven",
+      "RabbitMQ",
+      "Service Discovery",
+      "API Gateway",
+      "Observabilidad",
+      "Trazabilidad distribuida"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Abundant Sunshine",
+        "descripcion": "Aplicación de agregación de contenidos culinarios desarrollada con microservicios en Java y Spring Boot, refactorizada progresivamente para incorporar configuración desacoplada, eventos con RabbitMQ, cortocircuitos de resiliencia y observabilidad distribuida."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/cloud-native-patterns",
+      "https://github.com/cdavisafc/cloudnative-abundantsunshine",
+      "https://www.oreilly.com/library/view/cloud-native-patterns/9781617294297/"
+    ]
+  },
+  "serverless-programming-cookbook-2019": {
+    "descripcion": "Guía práctica en formato de recetario en la que Heartin Kanikathottu presenta soluciones modulares para construir, proteger y desplegar aplicaciones sin servidor en entornos de producción. Aunque incluye un capítulo introductorio comparativo sobre alternativas de otros proveedores de nube (Azure Functions, Google Cloud Functions e IBM Cloud Functions), la obra está enfocada casi en su totalidad en Amazon Web Services (AWS) utilizando Java (versiones 8 y 11) gestionado con Maven y la consola/CLI de AWS. Está dirigida a desarrolladores backend e ingenieros de nube de nivel intermedio que conocen Java y desean aprender a implementar patrones serverless corporativos sin verse limitados al uso habitual de Node.js o Python.\n\nEl contenido enseña a integrar los servicios neurálgicos de AWS mediante recetas prácticas: creación y empaquetado de funciones con AWS Lambda (manejando interfaces RequestHandler y eventos de plataforma), diseño y enrutamiento de APIs REST con Amazon API Gateway (con soporte para CORS y mapeo de solicitudes), y persistencia NoSQL eficiente con Amazon DynamoDB. También aborda la gestión de identidades y autenticación federada con Amazon Cognito (User Pools e Identity Pools), el alojamiento de aplicaciones web estáticas en Amazon S3 integradas con distribución global en Amazon CloudFront, gestión de dominios en Route 53 y certificados TLS con AWS Certificate Manager. Asimismo, instruye sobre mensajería asíncrona entre microservicios con Amazon SQS y SNS, supervisión y alarmas con Amazon CloudWatch, automatización mediante plantillas de AWS CloudFormation, e incursiones en flujos de datos con Amazon Kinesis, machine learning con Amazon ML y desarrollo de skills para Alexa.\n\nEn lugar de una sola aplicación de principio a fin, el libro proporciona un compendio de recetas y ejercicios autocontenidos que resuelven requerimientos habituales en producción (APIs protegidas, procesamiento de eventos de almacenamiento, canales de notificación y despliegues estáticos). Su principal aportación es brindar soluciones detalladas y código Java listo para usar en el ecosistema serverless de AWS, combinándolo con infraestructura como código nativa con CloudFormation. Como contrapartida, no cubre frameworks de mayor abstracción como Serverless Framework, SAM o AWS CDK, ni técnicas de compilación nativa (GraalVM / Quarkus) para reducir la latencia de arranque en frío (cold start) típica de la JVM. Se recomienda disponer de una cuenta de AWS activa y soltura trabajando con Maven.",
+    "temas": [
+      "Serverless",
+      "AWS Lambda",
+      "Java",
+      "Amazon API Gateway",
+      "Amazon DynamoDB",
+      "Amazon Cognito",
+      "Amazon S3",
+      "CloudFront",
+      "Amazon SQS",
+      "Amazon SNS",
+      "Amazon CloudWatch",
+      "AWS CloudFormation"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/serverless-programming-cookbook-9781788623797",
+      "https://github.com/PacktPublishing/Serverless-Programming-Cookbook",
+      "https://www.amazon.com/Serverless-Programming-Cookbook-practical-applications/dp/1788623795"
+    ]
+  },
+  "openstack-in-action-2016": {
+    "descripcion": "Manual técnico y práctico escrito por V. K. Cody Bumgardner que aborda la planificación, el despliegue manual y la administración de nubes privadas empresariales utilizando la plataforma de código abierto OpenStack (centrándose en versiones estables de la época como Kilo y Liberty sobre distribuciones Linux, principalmente Ubuntu Server). El libro está concebido para administradores de sistemas, ingenieros de infraestructura y arquitectos de TI que se inician en OpenStack (nivel básico en tecnologías IaaS libres), partiendo de conocimientos elementales de administración de sistemas Linux por terminal, nociones básicas de redes IP y conceptos generales de virtualización.\n\nLa obra desglosa en detalle los componentes fundacionales de la arquitectura OpenStack: el servicio de identidad y autorización Keystone, el motor de cómputo y gestión de máquinas virtuales Nova (interactuando con hipervisores KVM), el subsistema de redes definidas por software Neutron (configuración de bridges virtuales OVS, subredes, routers y direcciones IP flotantes), el catálogo y almacenamiento de imágenes Glance y el aprovisionamiento de volúmenes en bloque persistentes con Cinder. Adicionalmente, enseña a operar la interfaz gráfica de usuario Horizon, a automatizar la creación de recursos mediante plantillas de orquestación con Heat, a integrar almacenamiento distribuido y redundante con Ceph (tanto para bloques como para objetos) y a implementar despliegues automatizados en alta disponibilidad mediante Mirantis Fuel.\n\nEl itinerario formativo comienza con un laboratorio de pruebas rápido empleando DevStack para explorar la interfaz y la API de OpenStack, para luego acometer la construcción real paso a paso de un clúster multinodo dividido en nodo controlador (Controller), nodo de red (Network), almacenamiento y nodo de cómputo (Compute), culminando con un clúster Ceph integrado. Su gran valor pedagógico reside en que desmonta la aparente complejidad del framework al obligar a configurar y enlazar cada servicio directamente en sus archivos de configuración. No obstante, por su fecha de publicación (2016), herramientas como Fuel o la sintaxis de ciertos clientes CLI clásicos han sido reemplazadas en la actualidad por utilidades como Kolla-Ansible u OpenStack-Ansible, y no aborda contenedores ni orquestación con Kubernetes. Resulta indispensable contar con un entorno de virtualización o máquinas físicas con suficiente memoria RAM para reproducir el laboratorio distribuido.",
+    "temas": [
+      "OpenStack",
+      "Nube privada",
+      "IaaS",
+      "Keystone",
+      "Nova",
+      "Neutron",
+      "Glance",
+      "Cinder",
+      "Ceph",
+      "DevStack",
+      "KVM",
+      "Mirantis Fuel"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Clúster multinodo de nube privada OpenStack",
+        "descripcion": "Despliegue e instalación manual paso a paso de una infraestructura IaaS distribuida en servidores Linux, separando funciones en nodos de Controlador, Red, Cómputo (Nova/KVM) y Almacenamiento (Cinder/Glance)."
+      },
+      {
+        "nombre": "Clúster de almacenamiento distribuido Ceph",
+        "descripcion": "Instalación y configuración de un entorno de almacenamiento escalable y redundante con Ceph para actuar como backend de bloques y objetos integrado con OpenStack Cinder y Glance."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/openstack-in-action",
+      "https://www.oreilly.com/library/view/openstack-in-action/9781617292163/",
+      "https://github.com/codybum"
+    ]
+  }
+}

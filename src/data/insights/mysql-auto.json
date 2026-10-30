@@ -1,0 +1,490 @@
+{
+  "mysql-4th-edition-2008": {
+    "descripcion": "Cuarta edición de la clásica guía de referencia de Paul DuBois, considerada durante años la biblia introductoria y práctica de MySQL para administradores y programadores.\n\nDuBois cubre con rigor la sintaxis de consultas SQL, tipos de datos, índices, diseño de tablas con motores de almacenamiento MyISAM e InnoDB, y administración de usuarios y privilegios. Además, incluye capítulos detallados sobre programación de clientes en Perl (DBI), PHP (mysqli), Python y C, junto con optimizaciones de consultas.\n\nUna referencia técnica histórica de indiscutible valor formativo para cualquier profesional que interactúa con bases de datos relacionales de código abierto.",
+    "temas": [
+      "MySQL",
+      "Paul DuBois",
+      "SQL",
+      "InnoDB",
+      "Administración MySQL",
+      "PHP",
+      "Perl DBI",
+      "Optimización de Consultas"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "expert-mysql-2nd-edition-2012": {
+    "descripcion": "Segunda edición del tratado técnico avanzado de Charles Bell sobre la arquitectura interna, código fuente y extensibilidad del motor de base de datos MySQL.\n\nEl autor enseña a compilar el servidor desde el código fuente C/C++, depurarlo con GDB, escribir motores de almacenamiento personalizados (pluggable storage engines), crear funciones definidas por el usuario (UDFs) y desarrollar plugins para el subsistema de auditoría y autenticación. Explica detalladamente el optimizador de consultas y el analizador sintáctico.\n\nIndispensable para ingenieros de sistemas, desarrolladores de motores de base de datos y administradores senior que buscan modificar o extender MySQL.",
+    "temas": [
+      "MySQL Internals",
+      "Charles Bell",
+      "C++",
+      "Pluggable Storage Engines",
+      "UDF",
+      "Compilación",
+      "Plugins MySQL",
+      "GDB"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Motor de almacenamiento pluggable personalizado para MySQL",
+        "descripcion": "Implementación en C++ de un plugin de motor de almacenamiento que persiste datos tabulares en archivos planos cifrados."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "introducing-innodb-cluster-2018": {
+    "descripcion": "Guía especializada de Charles Bell dedicada a MySQL InnoDB Cluster, la solución nativa de alta disponibilidad y tolerancia a fallos introducida en MySQL 5.7 y 8.0.\n\nEl texto desglosa los tres pilares de la arquitectura: MySQL Group Replication (replicación síncrona basada en el protocolo Paxos), MySQL Shell (para aprovisionamiento y configuración mediante scripts) y MySQL Router (para enrutamiento transparente de peticiones de lectura y escritura). Bell enseña a recuperarse de caídas de nodos y resolver particiones de red.\n\nUna lectura esencial para administradores de bases de datos y arquitectos cloud que requieren alta disponibilidad sin recurrir a complejas soluciones de terceros.",
+    "temas": [
+      "InnoDB Cluster",
+      "MySQL 8.0",
+      "Group Replication",
+      "MySQL Router",
+      "MySQL Shell",
+      "Paxos",
+      "Alta Disponibilidad",
+      "Clustering"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Despliegue de un clúster InnoDB tolerante a fallos de tres nodos",
+        "descripcion": "Configuración completa de un grupo de replicación con failover automático y enrutamiento balanceado mediante MySQL Router."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "introducing-mysql-shell-2019": {
+    "descripcion": "Manual práctico de Charles Bell sobre MySQL Shell, la interfaz cliente avanzada y unificada para la administración de servidores MySQL y clústeres InnoDB.\n\nEl autor enseña a interactuar con MySQL mediante JavaScript, Python y SQL clásico dentro de una única terminal interactiva. Cubre el uso de la API X DevAPI para manipular colecciones de documentos JSON sin código SQL (modo NoSQL), scripts de automatización de copias de seguridad e inspección de esquemas, y utilidades de carga masiva de datos ultrarrápidas.\n\nRecomendado para DBAs y desarrolladores que desean modernizar sus flujos de trabajo administrativos y adoptar la automatización con scripts.",
+    "temas": [
+      "MySQL Shell",
+      "Charles Bell",
+      "JavaScript",
+      "Python",
+      "X DevAPI",
+      "Document Store",
+      "Automatización",
+      "NoSQL"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite de automatización de mantenimiento con scripts de Python en MySQL Shell",
+        "descripcion": "Desarrollo de scripts interactivos para validación de salud de clústeres, auditoría de tablas huérfanas y volcado paralelo de datos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "introducing-the-mysql-8-document-store-2018": {
+    "descripcion": "Guía especializada de Charles Bell sobre la capacidad Document Store de MySQL 8, que transforma la base de datos relacional en un potente almacén NoSQL de documentos JSON.\n\nEl autor explica cómo trabajar con colecciones de documentos sin definir esquemas fijos utilizando el protocolo X Protocol y la API X DevAPI. Enseña a realizar búsquedas mediante operadores de coincidencia JSON, generar índices funcionales sobre campos de documentos, y combinar en una misma transacción consultas relacionales tradicionales y operaciones documentales NoSQL con plenas garantías ACID.\n\nMuy valioso para equipos que necesitan la flexibilidad de MongoDB sin renunciar a la madurez transaccional de MySQL.",
+    "temas": [
+      "Document Store",
+      "MySQL 8.0",
+      "JSON",
+      "X DevAPI",
+      "NoSQL",
+      "Garantías ACID",
+      "X Protocol",
+      "Índices Funcionales"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Catálogo políglota combinando tablas relacionales y documentos JSON",
+        "descripcion": "Construcción de una aplicación web que almacena inventarios dinámicos como colecciones JSON y pedidos en tablas relacionales transaccionales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mysql-8-query-performance-tuning-2020": {
+    "descripcion": "Tratado técnico exhaustivo de Jesper Wisborg Krogh dedicado al diagnóstico, análisis y optimización extrema de consultas SQL en MySQL 8.0.\n\nEl autor disecciona las herramientas de observabilidad modernas: el esquema sys, Performance Schema, Information Schema y EXPLAIN ANALYZE con árboles de ejecución de consultas. Enseña a identificar cuellos de botella de bloqueos de transacciones (row locks, metadata locks), optimizar índices compuestos y de prefijo, y afinar parámetros del motor InnoDB (buffer pool, redo logs).\n\nUna obra maestra indispensable para administradores de bases de datos, ingenieros de rendimiento y desarrolladores backend que operan bases de datos MySQL de alta carga.",
+    "temas": [
+      "Query Tuning",
+      "MySQL 8.0",
+      "Performance Schema",
+      "EXPLAIN ANALYZE",
+      "InnoDB Buffer Pool",
+      "sys Schema",
+      "Índices",
+      "Locks"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Auditoría forense y optimización de base de datos de alta concurrencia",
+        "descripcion": "Análisis de consultas lentas mediante Performance Schema y reducción del tiempo de respuesta mediante reestructuración de índices y EXPLAIN ANALYZE."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mysql-connectorpython-revealed-2018": {
+    "descripcion": "Guía práctica de Jesper Wisborg Krogh sobre MySQL Connector/Python, el controlador oficial y nativo mantenido por Oracle para conectar aplicaciones Python con MySQL.\n\nEl libro detalla el uso del módulo estándar compatible con PEP 249 (Python DB-API), la gestión de pools de conexiones para aplicaciones web concurrentes, ejecución segura de consultas parametrizadas, llamadas a procedimientos almacenados y manejo de transacciones. Además, aborda el uso de la API moderna X DevAPI para interactuar con MySQL Document Store desde Python.\n\nRecomendado para programadores de Python que construyen APIs, microservicios y herramientas de procesamiento de datos sobre bases de datos MySQL.",
+    "temas": [
+      "MySQL Connector/Python",
+      "Python DB-API",
+      "PEP 249",
+      "X DevAPI",
+      "Pool de Conexiones",
+      "Transacciones",
+      "MySQL 8.0",
+      "Seguridad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API backend de procesamiento de órdenes con Connector/Python",
+        "descripcion": "Desarrollo de un servicio web en Flask/FastAPI conectado a MySQL mediante pools de conexiones persistentes y transacciones atómicas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mysql-for-the-internet-of-things-2016": {
+    "descripcion": "Manual práctico de Charles Bell orientado al diseño de arquitecturas de ingesta y almacenamiento de telemetría de sensores IoT utilizando MySQL.\n\nEl autor enseña a capturar datos desde dispositivos embebidos como Raspberry Pi y Arduino, transmitirlos mediante protocolos de mensajería ligera (MQTT) y persistirlos eficientemente en MySQL. Analiza técnicas de particionamiento de tablas por rangos de fecha para series temporales, purgado automatizado de datos antiguos y visualización de lecturas en paneles web.\n\nMuy formativo para ingenieros de hardware y desarrolladores IoT que requieren una base de datos relacional sólida y de bajo coste para proyectos de sensores conectados.",
+    "temas": [
+      "IoT",
+      "MySQL",
+      "Charles Bell",
+      "Raspberry Pi",
+      "Arduino",
+      "MQTT",
+      "Series Temporales",
+      "Particionamiento"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Estación de monitoreo ambiental IoT con almacenamiento en MySQL",
+        "descripcion": "Construcción de un sistema con sensores de temperatura y humedad que transmiten lecturas por MQTT hacia una base de datos particionada."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "the-definitive-guide-to-mysql-5-3rd-edition-2005": {
+    "descripcion": "Tercera edición de la clásica guía enciclopédica de Michael Kofler sobre MySQL 5.0, una de las versiones más trascendentales en la historia del motor de base de datos.\n\nKofler analiza las innovaciones revolucionarias de MySQL 5: procedimientos almacenados, funciones, disparadores (triggers), vistas (views) y transacciones compatibles con ACID mediante InnoDB. Además de la exhaustiva cobertura de SQL, enseña administración de servidores, copias de seguridad con mysqldump y conectividad con PHP y Java.\n\nUna referencia técnica histórica de gran impacto que acompañó a la industria en la profesionalización corporativa de MySQL.",
+    "temas": [
+      "MySQL 5.0",
+      "Michael Kofler",
+      "Procedimientos Almacenados",
+      "Triggers",
+      "Vistas",
+      "InnoDB",
+      "ACID",
+      "Administración"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "murach-s-mysql-2nd-edition-2015": {
+    "descripcion": "Segunda edición del celebrado manual práctico de Joel Murach sobre diseño, consulta y programación de bases de datos con MySQL 5.6 y 5.7.\n\nUtilizando el famoso método didáctico enfrentado de Murach, el libro enseña a formular consultas SQL simples y complejas (joins, subconsultas, agrupaciones con aggregate functions), diseñar bases de datos relacionales normalizadas, crear procedimientos almacenados, funciones y triggers, y gestionar la seguridad con phpMyAdmin y MySQL Workbench.\n\nEl texto de formación preferido por escuelas técnicas y universidades para cursos de diseño y administración de bases de datos.",
+    "temas": [
+      "Murach",
+      "MySQL",
+      "Joel Murach",
+      "SQL",
+      "Normalización",
+      "Procedimientos Almacenados",
+      "MySQL Workbench",
+      "Joins"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Base de datos comercial 'Guitar Shop' con procedimientos y vistas",
+        "descripcion": "Construcción completa de una base de datos relacional normalizada con tablas de productos y clientes, disparadores y consultas de facturación."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "high-performance-mysql-3rd-edition-2012": {
+    "descripcion": "La obra maestra canónica indiscutible y de referencia mundial sobre optimización, escalabilidad y alta disponibilidad de MySQL, escrita por los fundadores de Percona: Baron Schwartz, Peter Zaitsev y Vadim Tkachenko.\n\nLos autores diseccionan los secretos de producción más profundos: optimización de esquemas e índices, tuning riguroso del motor de almacenamiento InnoDB, perfilado con pt-query-digest (Percona Toolkit), replicación avanzada (semisíncrona, topologías en anillo y árbol), escalado horizontal mediante sharding y particionamiento, y conmutación por error ante desastres. Analiza el hardware del servidor y configuración del kernel de Linux.\n\nLectura obligatoria y biblia técnica de cabecera para todo DBA senior, ingeniero de infraestructura y arquitecto web de plataformas de tráfico masivo.",
+    "temas": [
+      "High Performance MySQL",
+      "Baron Schwartz",
+      "Peter Zaitsev",
+      "InnoDB Tuning",
+      "Percona Toolkit",
+      "Replicación",
+      "Sharding",
+      "DBA"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de base de datos MySQL escalable horizontalmente con sharding",
+        "descripcion": "Diseño de un clúster de alta disponibilidad con réplicas de lectura, failover automatizado y particionamiento de datos a nivel de aplicación."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "learning-mysql-2006": {
+    "descripcion": "Guía práctica de Hugh E. Williams y Seyed M.M. Tahaghoghi orientada a enseñar los fundamentos del diseño de bases de datos relacionales y el lenguaje SQL utilizando MySQL.\n\nLos autores explican desde la instalación hasta el modelado conceptual con diagramas entidad-relación, normalización de tablas, consultas SELECT con filtros y ordenamientos, transacciones y creación de aplicaciones dinámicas conectadas con PHP. Cada concepto se ilustra mediante ejemplos claros y accesibles.\n\nIdeal para desarrolladores noveles y estudiantes que buscan una comprensión sólida y libre de complicaciones teóricas sobre bases de datos.",
+    "temas": [
+      "Learning MySQL",
+      "Hugh E. Williams",
+      "SQL",
+      "Diagramas ER",
+      "Normalización",
+      "PHP",
+      "Bases de Datos Relacionales",
+      "Principiantes"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de gestión escolar con interfaz web en PHP y base de datos MySQL",
+        "descripcion": "Desarrollo de un modelo relacional para matrícula de alumnos y consulta de expedientes académicos mediante páginas dinámicas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mysql-cookbook-2nd-edition-2008": {
+    "descripcion": "Segunda edición del popular recetario de Paul DuBois que reúne más de 200 recetas de código para resolver problemas cotidianos de administración, consulta y desarrollo con MySQL.\n\nEl autor aborda la manipulación de cadenas y fechas, cálculos numéricos y estadísticos, generación de reportes y resúmenes tabulares, importación y exportación de datos (CSV, XML), y scripts de conexión en Perl, Python, PHP y Java. Cada solución incluye explicaciones detalladas sobre por qué funciona y sus implicaciones de rendimiento.\n\nUna herramienta de consulta de cabecera clásica y muy valiosa para cualquier desarrollador que trabaje habitualmente con consultas SQL.",
+    "temas": [
+      "MySQL Cookbook",
+      "Paul DuBois",
+      "Recetas SQL",
+      "Fechas y Cadenas",
+      "Importación CSV",
+      "Estadísticas",
+      "PHP",
+      "Python"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mysql-high-availability-2nd-edition-2014": {
+    "descripcion": "Segunda edición del tratado técnico de Charles Bell, Lars Thalmann y Mats Kindahl sobre la arquitectura de alta disponibilidad y tolerancia a fallos en MySQL.\n\nLos autores analizan las tecnologías clave para erradicar puntos únicos de fallo: replicación tradicional asíncrona y semisíncrona, MySQL Fabric para gestión automatizada de sharding y failover, clústeres NDB (MySQL Cluster) con almacenamiento en memoria distribuida y disponibilidad carrier-grade 'cinco nueves' (99.999%), y herramientas de monitorización continua.\n\nIndispensable para arquitectos de infraestructura, DBAs corporativos y operadores de telecomunicaciones que exigen disponibilidad ininterrumpida.",
+    "temas": [
+      "Alta Disponibilidad",
+      "MySQL Cluster",
+      "NDB",
+      "MySQL Fabric",
+      "Replicación Semisíncrona",
+      "Failover",
+      "Carrier-Grade",
+      "DevOps"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Clúster de alta disponibilidad NDB con tiempo de inactividad cero",
+        "descripcion": "Diseño y despliegue de una infraestructura MySQL Cluster con nodos de datos redundantes en memoria y failover transparente."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mysql-in-a-nutshell-2nd-edition-2008": {
+    "descripcion": "Segunda edición de la práctica guía de consulta de escritorio escrita por Russell Dyer sobre la sintaxis, comandos y funciones de MySQL 5.1.\n\nEl texto ofrece una referencia compacta y completa de sentencias SQL (DDL, DML, DCL), funciones integradas (matemáticas, de cadena, de fecha y hora), variables de configuración del servidor y comandos de utilidades como mysqldump, mysqladmin y mysqlcheck. Cada comando se documenta con su sintaxis exacta y ejemplos rápidos.\n\nEl recurso de escritorio ideal para tener a mano en todo momento sin depender de conexiones a internet ni documentación dispersa.",
+    "temas": [
+      "MySQL in a Nutshell",
+      "Russell Dyer",
+      "Referencia SQL",
+      "mysqldump",
+      "Variables de Configuración",
+      "DDL",
+      "DML",
+      "Comandos"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mysql-pocket-reference-2nd-edition-2007": {
+    "descripcion": "Guía ultracompacta de bolsillo de George Reese diseñada para proporcionar respuestas inmediatas sobre comandos y sintaxis de MySQL 5.0.\n\nEl manual resume los tipos de datos principales, operadores lógicos y de comparación, funciones estándar, sintaxis de consultas de unión y agrupamiento, y privilegios de administración. Su formato conciso facilita la resolución de dudas en segundos durante la jornada laboral.\n\nEl compañero indispensable para el bolsillo de cualquier administrador de sistemas y programador web.",
+    "temas": [
+      "Pocket Reference",
+      "MySQL",
+      "George Reese",
+      "Sintaxis SQL",
+      "Tipos de Datos",
+      "Referencia Rápida",
+      "Privilegios",
+      "O'Reilly"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mysql-stored-procedure-programming-2006": {
+    "descripcion": "Tratado técnico exhaustivo de Guy Harrison y Steven Feuerstein (la máxima autoridad mundial en PL/SQL) sobre la programación de lógica de negocio en el servidor MySQL 5.0.\n\nLos autores enseñan a dominar la sintaxis procedimental: variables locales, estructuras de control condicional y bucles, manejadores de errores y excepciones (handlers), cursores para procesamiento fila por fila, triggers para auditoría automática y funciones deterministas. Incluye directrices rigurosas sobre cuándo ejecutar lógica en la base de datos y cuándo en la capa de aplicación.\n\nUna de las mejores obras jamás escritas sobre procedimientos almacenados en MySQL, indispensable para programadores corporativos.",
+    "temas": [
+      "Procedimientos Almacenados",
+      "Guy Harrison",
+      "Steven Feuerstein",
+      "Triggers",
+      "Cursores",
+      "Manejo de Errores",
+      "Lógica de Negocio",
+      "MySQL 5"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Módulo transaccional de facturación y auditoría con procedimientos y triggers",
+        "descripcion": "Construcción de un conjunto de stored procedures con manejo estructurado de excepciones y triggers que registran cambios inmutables en tablas de historial."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mysql-troubleshooting-2012": {
+    "descripcion": "Guía forense y de resolución de incidencias de Sveta Smirnova, ingeniera senior de soporte principal en MySQL y Percona.\n\nLa autora expone una metodología sistemática para diagnosticar y resolver problemas en entornos de producción: caídas inesperadas del servidor (crashes), corrupción de tablas y páginas InnoDB, bloqueos y deadlocks de transacciones, degradación repentina de rendimiento y anomalías de replicación. Enseña a interpretar logs de error, volcados de memoria y el comando SHOW ENGINE INNODB STATUS.\n\nLectura obligatoria para administradores de bases de datos y operadores en guardia que deben responder ante emergencias de producción.",
+    "temas": [
+      "Troubleshooting",
+      "Sveta Smirnova",
+      "SHOW ENGINE INNODB STATUS",
+      "Deadlocks",
+      "Corrupción de Datos",
+      "Percona",
+      "Diagnóstico Forense",
+      "MySQL"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "understanding-mysql-internals-2007": {
+    "descripcion": "Tratado de ingeniería de bajo nivel de Sasha Pachev, uno de los desarrolladores originales del núcleo de MySQL, sobre el diseño de software interno del servidor.\n\nPachev disecciona la arquitectura modular de MySQL: la capa de concurrencia y gestión de subprocesos, el optimizador de consultas heurístico y de coste, la capa abstracta de interfaz de motores de almacenamiento (handler class), la estructura del registro binario (binlog) y el protocolo de red cliente-servidor. Explica la implementación en C/C++ de cada subsistema.\n\nUna obra de culto para programadores de sistemas, desarrolladores de motores de base de datos e investigadores informáticos.",
+    "temas": [
+      "MySQL Internals",
+      "Sasha Pachev",
+      "C/C++",
+      "Optimizador de Consultas",
+      "Handler Class",
+      "Binlog",
+      "Arquitectura de Software",
+      "Bajo Nivel"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "high-availability-mysql-cookbook-2010": {
+    "descripcion": "Recetario especializado de Alex Davies dedicado a la implementación práctica de arquitecturas tolerantes a fallos y alta disponibilidad para servidores MySQL en Linux.\n\nDavies reúne recetas para configurar replicación en anillo (ring replication), sincronización de almacenamiento a nivel de bloque con DRBD, conmutación automática por error con Heartbeat y Pacemaker, balanceo de carga de lectura con LVS y HAProxy, y replicación en memoria con MySQL Cluster. Cada solución incluye instrucciones de configuración paso a paso.\n\nUna referencia muy pragmática para administradores de sistemas y DevOps que gestionan infraestructuras web con requisitos de tiempo de actividad estricto.",
+    "temas": [
+      "Alta Disponibilidad",
+      "Cookbook",
+      "DRBD",
+      "Pacemaker",
+      "Heartbeat",
+      "HAProxy",
+      "Replicación",
+      "DevOps"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mastering-phpmyadmin-3-4-for-effective-mysql-management-2012": {
+    "descripcion": "Guía oficial y avanzada de Marc Delisle, desarrollador principal y mantenedor histórico de phpMyAdmin, sobre la administración visual integral de servidores MySQL.\n\nEl autor enseña a gestionar tablas, crear y modificar relaciones con el diseñador visual de esquemas, optimizar índices, administrar cuentas de usuarios y privilegios granulares, programar copias de seguridad automatizadas y monitorizar el rendimiento del servidor en tiempo real. Además, aborda la securización estricta de la instalación de phpMyAdmin en servidores expuestos.\n\nLa guía de cabecera autorizada indispensable para administradores y desarrolladores web que utilizan phpMyAdmin cotidianamente.",
+    "temas": [
+      "phpMyAdmin",
+      "Marc Delisle",
+      "Administración Visual",
+      "MySQL Workbench Alternative",
+      "Seguridad Web",
+      "Esquemas ER",
+      "Copias de Seguridad",
+      "DBA"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Entorno administrativo centralizado y seguro con phpMyAdmin",
+        "descripcion": "Configuración de una consola de administración con autenticación de dos factores, cifrado de credenciales y auditoría de cambios."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "mysql-administrator-s-bible-2009": {
+    "descripcion": "Tratado enciclopédico de Keith Murphy y Sheeri K. Cabral (renombrada DBA y conferenciante de la comunidad MySQL) sobre la administración profesional de bases de datos MySQL en producción.\n\nCon más de 900 páginas, los autores cubren desde la instalación y configuración óptima del archivo my.cnf, gestión de motores InnoDB y MyISAM, estrategias de backup físico y lógico (LVM snapshots, mysqldump, xtrabackup), seguridad y bastionado, hasta la depuración de bloqueos y optimización de rendimiento. Incluye scripts de mantenimiento y directrices de auditoría.\n\nUna de las guías administrativas más completas y autorizadas para DBAs profesionales y administradores de sistemas.",
+    "temas": [
+      "MySQL Bible",
+      "Sheeri K. Cabral",
+      "Keith Murphy",
+      "DBA",
+      "my.cnf",
+      "XtraBackup",
+      "LVM Snapshots",
+      "Seguridad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plan corporativo de continuidad de negocio y copias de seguridad automatizadas",
+        "descripcion": "Desarrollo de un framework de backups continuos con XtraBackup, verificación automática de restauración y monitorización de replicación."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

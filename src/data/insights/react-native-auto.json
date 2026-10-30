@@ -1,0 +1,292 @@
+{
+  "practical-react-native-2018": {
+    "descripcion": "Manual eminentemente práctico escrito por Frank Zammetti que enseña a desarrollar aplicaciones móviles nativas para iOS y Android utilizando React Native (en torno a las versiones 0.55–0.57 contemporáneas a 2018). La obra está orientada a desarrolladores web de nivel intermedio que ya dominan JavaScript moderno (ES6+) y los fundamentos de React, y que buscan dar el salto al desarrollo móvil profesional evitando los tutoriales triviales tipo «Hola Mundo» para enfrentarse a la arquitectura y ciclo de vida de proyectos completos.\n\nEl libro explica en detalle la configuración del entorno de trabajo con Node.js y la plataforma Expo, la maquetación de interfaces mediante Flexbox y el empleo de la biblioteca de interfaz NativeBase. En cuanto a arquitectura y flujo de información, aborda la navegación entre pantallas mediante React Navigation, la gestión centralizada del estado global con Redux, la persistencia local en dispositivo con AsyncStorage y la manipulación de estructuras de datos con Lodash. Además, cubre la sincronización en tiempo real integrando comunicación por WebSockets a través de un servidor backend de apoyo desarrollado con Node.js y Socket.io, así como el uso de la API Animated y posicionamiento absoluto para elementos interactivos.\n\nLa formación se articula en torno a tres desarrollos completos y desplegables: un selector interactivo de restaurantes con almacenamiento local, una aplicación de trivia multijugador conectada a un servidor en tiempo real y un videojuego móvil de rompecabezas deslizante. Su gran valor reside en abordar el ciclo completo de desarrollo incluyendo la infraestructura de servidor que muchas guías omiten; no obstante, al haberse publicado en 2018, la sintaxis se apoya en componentes de clase (previos a la popularización de los React Hooks) y versiones antiguas de React Navigation y Expo, por lo que el lector deberá adaptar las dependencias si reproduce el código en versiones modernas.",
+    "temas": [
+      "React Native",
+      "Expo",
+      "React Navigation",
+      "Redux",
+      "NativeBase",
+      "Node.js",
+      "Socket.io",
+      "WebSockets",
+      "AsyncStorage",
+      "Flexbox",
+      "Desarrollo de videojuegos móviles"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Restaurant Chooser",
+        "descripcion": "Aplicación para gestionar y seleccionar restaurantes de forma aleatoria o con filtros, implementando navegación entre pantallas con React Navigation, diseño con NativeBase y almacenamiento persistente local en el dispositivo."
+      },
+      {
+        "nombre": "React Native Trivia",
+        "descripcion": "Juego de preguntas y respuestas en tiempo real con soporte de partidas multijugador, donde se gestiona el estado global con Redux y se conecta la app móvil a un servidor Node.js mediante Socket.io."
+      },
+      {
+        "nombre": "FunTime Slide Tile Puzzle",
+        "descripcion": "Videojuego móvil de rompecabezas de cuadrícula deslizante que pone a prueba la lógica de bucles de juego, el renderizado condicional, el posicionamiento absoluto y las animaciones nativas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/9781484239391",
+      "https://www.oreilly.com/library/view/practical-react-native/9781484239391/",
+      "https://github.com/Apress/pract-react-native"
+    ]
+  },
+  "react-native-for-ios-development-2015": {
+    "descripcion": "Publicado por Apress en los comienzos de la plataforma (finales de 2015 y principios de 2016), este texto de Akshat Paul y Abhishek Nalwaya es una de las primeras obras dedicadas a React Native (versiones 0.14–0.20), cuando la tecnología estaba enfocada de manera exclusiva en el sistema operativo iOS de Apple. Está dirigido a desarrolladores web y de JavaScript de nivel intermedio que conocen los conceptos elementales de React (componentes, JSX, flujo unidireccional de datos) y desean trasladar esas habilidades al desarrollo de aplicaciones nativas para iPhone y iPad sin requerir experiencia previa en Objective-C o Swift.\n\nEl contenido recorre los fundamentos de la arquitectura del puente (bridge) entre JavaScript y los componentes nativos de Cocoa Touch. Analiza componentes esenciales de la época como NavigatorIOS, ListView, ScrollView y TouchableHighlight, junto con el motor de diseño Flexbox para maquetación flexible en pantallas móviles. En el plano de la gestión de datos, examina los patrones arquitectónicos Flux, Reflux y los primeros pasos de Redux, así como el acceso a capacidades del dispositivo como Geolocation (con pines sobre mapas nativos de Apple), persistencia mediante AsyncStorage, alertas nativas del sistema y peticiones asíncronas con Fetch API, XMLHttpRequest y WebSockets.\n\nLa obra se desarrolla mediante explicaciones teóricas y pequeños ejemplos de código orientados a entender el funcionamiento de cada componente y API, sin llegar a construir una aplicación grande e integral. Su mayor interés en la actualidad es su valor histórico y conceptual, ya que documenta el nacimiento del desarrollo móvil declarativo con React; no obstante, su código está completamente desfasado respecto al estándar actual (carece de soporte Android, emplea NavigatorIOS y ListView que fueron deprecados y se escribió con sintaxis ES5/ES6 temprana previa a los Hooks).",
+    "temas": [
+      "React Native",
+      "iOS",
+      "React",
+      "Flux",
+      "Redux",
+      "NavigatorIOS",
+      "Flexbox",
+      "AsyncStorage",
+      "Fetch API",
+      "Geolocation",
+      "WebSockets"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-1396-4",
+      "https://www.oreilly.com/library/view/react-native-for/9781484213964/",
+      "https://github.com/Apress/react-native-for-ios-dev"
+    ]
+  },
+  "react-native-for-mobile-development-2nd-edition-2019": {
+    "descripcion": "Segunda edición sustancialmente ampliada y reenfocada de la obra de Akshat Paul y Abhishek Nalwaya, adaptada a la consolidación de React Native (versiones 0.57–0.59) como solución multiplataforma unificada para iOS y Android. Está pensada para programadores web y móviles de nivel intermedio con conocimientos sólidos de JavaScript moderno (ES6/ES7) y nociones básicas de React que buscan una introducción técnica directa para crear aplicaciones nativas consistentes en ambos sistemas operativos móviles sin duplicar bases de código.\n\nEl temario cubre desde el ciclo de vida de los componentes y el renderizado con Flexbox hasta la gestión de estado predecible utilizando Redux (comparándolo detalladamente con el patrón Flux tradicional). Enseña a interactuar con hardware y sensores móviles a través de APIs de geolocalización, cámara nativa, alertas y almacenamiento en disco con AsyncStorage. Uno de sus capítulos clave profundiza en la creación de puentes nativos (native bridging), explicando cómo escribir módulos y métodos personalizados en Objective-C/Swift para iOS y Java para Android que se comunican bidireccionalmente con JavaScript. Por último, aborda las pruebas unitarias con Jest y los procedimientos para empaquetar y publicar aplicaciones tanto en la App Store de Apple como en Google Play Store.\n\nEl libro sigue una progresión pedagógica basada en recetas y módulos didácticos que ilustran cada concepto con ejemplos prácticos bien delimitados, priorizando la comprensión de la infraestructura y el puenteado nativo antes que la construcción de una aplicación masiva comercial. Constituye un excelente puente entre el desarrollo frontend y los entornos nativos (Xcode y Android Studio); se debe tener en cuenta que la edición se publicó justo antes del cambio generacional hacia React Hooks y la Nueva Arquitectura (TurboModules y Fabric), por lo que se basa fundamentalmente en componentes de clase.",
+    "temas": [
+      "React Native",
+      "Android",
+      "iOS",
+      "Redux",
+      "Native Bridging",
+      "Jest",
+      "AsyncStorage",
+      "Fetch API",
+      "Flexbox",
+      "Google Play Store",
+      "Apple App Store"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-4454-8",
+      "https://www.oreilly.com/library/view/react-native-for/9781484244548/",
+      "https://dl.acm.org/doi/10.5555/3318465",
+      "https://github.com/Apress/react-native-for-mobile-dev"
+    ]
+  },
+  "react-native-in-action-2019": {
+    "descripcion": "Obra didáctica publicada por Manning y escrita por Nader Dabit —reconocido instructor y formador del ecosistema móvil— que introduce de forma progresiva el desarrollo multiplataforma para iOS y Android con React Native (cubriendo las versiones 0.5x). El libro está dirigido a programadores web o de aplicaciones móviles que cuentan con un nivel inicial o intermedio en JavaScript (ES6) y desean aprender a construir experiencias móviles de alto rendimiento aprovechando el modelo mental declarativo de React.\n\nEl texto cubre con minuciosidad la creación de componentes personalizados, el diseño de interfaces fluidas mediante las propiedades de Flexbox y la implementación de transiciones complejas con la Animated API y PanResponder. En el ámbito del manejo de datos y arquitectura, explica la integración de Redux para la gestión del estado global de la aplicación, el uso de la Fetch API para conectarse a servicios REST remotos y la persistencia local con AsyncStorage. Asimismo, examina el sistema de rutas mediante React Navigation y dedica capítulos específicos a componentes y APIs exclusivas de iOS y Android para asegurar una experiencia fiel a cada plataforma.\n\nEl aprendizaje se consolida mediante tres aplicaciones prácticas desarrolladas a lo largo de los capítulos: una lista de tareas (Todo App) para asimilar el flujo de datos básico, una aplicación de ciudades y lugares (Cities App) con navegación multi-pantalla por pestañas, y una aplicación temática de Star Wars como proyecto final que consume la API REST de SWAPI e implementa listas optimizadas con FlatList, selectores y ventanas modales. El libro destaca por su claridad expositiva y su enfoque pragmático para resolver problemas cotidianos de UI y navegación; conviene considerar que, al publicarse en 2019, utiliza componentes basados en clases previos a los Hooks y versiones anteriores de React Navigation.",
+    "temas": [
+      "React Native",
+      "Redux",
+      "React Navigation",
+      "Animated API",
+      "Flexbox",
+      "FlatList",
+      "AsyncStorage",
+      "Fetch API",
+      "SWAPI",
+      "PanResponder",
+      "Desarrollo multiplataforma"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Todo App",
+        "descripcion": "Aplicación de tareas pendientes que sirve como primer contacto práctico para dominar la jerarquía de componentes, el manejo de eventos táctiles, el estado local y los estilos con Flexbox."
+      },
+      {
+        "nombre": "Cities App",
+        "descripcion": "Aplicación con navegación por pestañas y pilas de pantallas para registrar y explorar ciudades y lugares de interés, profundizando en la navegación estructurada y la manipulación de listas de datos."
+      },
+      {
+        "nombre": "Star Wars App",
+        "descripcion": "Aplicación capstone que consume la API pública SWAPI para mostrar personajes y vehículos de la saga, utilizando FlatList, modales interactivos, selectores y llamadas asíncronas con Fetch."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/react-native-in-action",
+      "https://www.oreilly.com/library/view/react-native-in/9781617294051/",
+      "https://github.com/dabit3/react-native-in-action"
+    ]
+  },
+  "fullstack-react-native-2017": {
+    "descripcion": "Volumen de referencia exhaustivo publicado por Newline (Fullstack.io) y redactado por Devin Abbott, Houssein Djirdeh, Anthony Accomazzo y Sophia Shoemaker, concebido como una guía integral para dominar React Native desde sus cimientos hasta el despliegue profesional en iOS y Android. El libro está diseñado para desarrolladores con conocimientos básicos o intermedios de JavaScript y React que desean sumergirse en el ecosistema móvil a través de una metodología rigurosa basada en el desarrollo guiado de aplicaciones reales de gran tamaño.\n\nA lo largo de sus más de 500 páginas, la obra aborda minuciosamente el ciclo de vida de componentes, el sistema de maquetación Flexbox, la arquitectura de rutas con React Navigation y el consumo de APIs remotas con Fetch. Profundiza notablemente en temas avanzados que suelen tratarse de forma superficial en otras obras, como la gestión del teclado con KeyboardAvoidingView, el acceso a APIs del sistema operativo como Geolocation y CameraRoll para fotos locales, la manipulación de gestos táctiles con PanResponder, la orquestación de animaciones con la Animated API y la escritura de módulos nativos en Java y Objective-C para comunicar código nativo con JavaScript.\n\nLa fortaleza indiscutible del libro es su orientación 100% práctica: cada gran bloque temático se enseña construyendo una aplicación completa, destacando una app de pronóstico del tiempo con API externa, un gestor de productividad con cronómetros interactivos, un clon del feed de fotos de Instagram, una aplicación de mensajería con soporte de cámara y teclado, y un juego interactivo de rompecabezas deslizante animado. Aporta una profundidad de ingeniería y código de producción sobresaliente; se debe considerar que, dada su fecha de publicación inicial, el código utiliza clases de ES6 y dependencias de la época, aunque sus patrones arquitectónicos y explicaciones de las APIs internas continúan siendo altamente formativos.",
+    "temas": [
+      "React Native",
+      "Expo",
+      "React Navigation",
+      "Animated API",
+      "PanResponder",
+      "CameraRoll",
+      "Native Modules",
+      "Flexbox",
+      "KeyboardAvoidingView",
+      "Fetch API",
+      "Unsplash API"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Weather App",
+        "descripcion": "Aplicación meteorológica que consulta una API externa para mostrar el clima y temperatura según la ciudad buscada, introduciendo la maquetación con Flexbox, el manejo de estados y peticiones asíncronas."
+      },
+      {
+        "nombre": "Time Tracker",
+        "descripcion": "Herramienta de productividad que permite crear, editar y cronometrar tareas en tiempo real de forma interactiva, reforzando la manipulación de estados y componentes modulares."
+      },
+      {
+        "nombre": "Instagram Image Feed",
+        "descripcion": "Clon del feed de Instagram que consume imágenes de la API de Unsplash, permitiendo al usuario visualizar publicaciones, agregar comentarios y navegar por galerías visuales."
+      },
+      {
+        "nombre": "Messaging App",
+        "descripcion": "Aplicación de mensajería interactiva que integra componentes de teclado personalizados, detección de conectividad de red, geolocalización y acceso al carrete multimedia del dispositivo con CameraRoll."
+      },
+      {
+        "nombre": "Animated Slider Puzzle",
+        "descripcion": "Videojuego de puzzle deslizante táctil que implementa animaciones fluidas con la Animated API y captura gestos de arrastre directos en pantalla mediante PanResponder."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.newline.co/fullstack-react-native",
+      "https://www.goodreads.com/book/show/36979219-fullstack-react-native"
+    ]
+  },
+  "getting-started-with-react-native-2015": {
+    "descripcion": "Introducción pionera al desarrollo móvil con React Native publicada a finales de 2015 por Ethan Holmes y Tom Bray, coincidiendo con la primera expansión del framework tras añadir soporte para Android además de iOS. Está orientada a desarrolladores web con conocimientos previos en JavaScript y nociones básicas de React que desean adentrarse en la creación de aplicaciones móviles nativas sin necesidad de aprender Objective-C, Swift o Java desde cero.\n\nEl libro aborda la arquitectura temprana de React Native y el funcionamiento del puente (bridge) de comunicación entre el runtime de JavaScript y los componentes nativos. Explica la preparación del entorno de trabajo con Xcode y Android Studio, el diseño de interfaces mediante Flexbox y StyleSheet, y el uso de componentes esenciales como View, Text, Image, TextInput y ListView. En el ámbito de APIs y librerías, cubre la navegación de pantallas con Navigator y Navigator.NavigationBar, la persistencia local de datos con AsyncStorage, la integración de mapas y coordenadas con MapView y la API de geolocalización, además del enlace con módulos nativos y dependencias de la comunidad como react-native-camera.\n\nA lo largo de sus capítulos prácticos se construye una aplicación móvil de toma de notas multimedia con geolocalización, donde el usuario puede redactar registros, guardarlos localmente, asociarles su posición geográfica en un mapa y capturar fotografías con la cámara del dispositivo. Su valor reside en documentar con sencillez los fundamentos del puente nativo y la transición mental de la web al móvil; sin embargo, al tratarse de una obra de 2015, sus patrones y componentes están ampliamente obsoletos frente a los estándares actuales (no incluye Hooks, Expo, React Navigation moderno ni la nueva arquitectura Fabric).",
+    "temas": [
+      "React Native",
+      "JavaScript",
+      "iOS",
+      "Android",
+      "AsyncStorage",
+      "Flexbox",
+      "MapView",
+      "react-native-camera",
+      "Navigator",
+      "Módulos nativos"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Aplicación móvil de toma de notas multimedia",
+        "descripcion": "Aplicación de notas para iOS y Android que permite crear, editar y persistir notas localmente mediante AsyncStorage, adjuntar fotografías capturadas con react-native-camera y geolocalizar los registros en pantalla con MapView."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/getting-started-with-react-native-9781785885181",
+      "https://www.oreilly.com/library/view/getting-started-with/9781785885181/"
+    ]
+  },
+  "mastering-react-native-2017": {
+    "descripcion": "Manual avanzado publicado por Eric Masiello y Jacob Friedmann a principios de 2017 que profundiza en la creación de aplicaciones móviles profesionales con React Native (en sus versiones 0.3x/0.4x). Está dirigido a desarrolladores front-end e ingenieros de JavaScript con nivel intermedio o avanzado que ya dominan los conceptos esenciales de React y desean llevar sus habilidades móviles al siguiente nivel, aprendiendo patrones de arquitectura empresarial, optimización y publicación en tiendas.\n\nLa obra desglosa técnicas avanzadas de maquetación con Flexbox y el uso exhaustivo de componentes nativos como ListView y WebView. En el núcleo arquitectónico, enseña a estructurar aplicaciones escalables combinando la arquitectura Flux y Redux con middlewares asíncronos para sincronizar datos con servicios remotos, ejemplificado mediante la API pública de The New York Times. Además, profundiza en el sistema de animación mediante Animated API y LayoutAnimation, la captura de gestos táctiles complejos con PanResponder, la creación de módulos nativos personalizados en Objective-C y Java, y la ejecución de pruebas unitarias con Jest.\n\nEl eje práctico del texto es la construcción de «RNNYT», un lector de noticias multiplataforma para iOS y Android que integra llamadas a la API de The New York Times, gestión de estado con Redux, un carrusel interactivo de bienvenida (onboarding) con animaciones fluidas y visualización de artículos completos en WebView. Es un libro de gran solidez conceptual en gestión de estado y rendimiento para su época, aunque deja fuera las innovaciones posteriores del ecosistema como React Hooks, React Navigation contemporáneo y los TurboModules.",
+    "temas": [
+      "React Native",
+      "Redux",
+      "Flux",
+      "JavaScript",
+      "Flexbox",
+      "Animated API",
+      "PanResponder",
+      "Jest",
+      "Módulos nativos",
+      "The New York Times API",
+      "iOS",
+      "Android"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "RNNYT (Lector de noticias de The New York Times)",
+        "descripcion": "Aplicación móvil completa para iOS y Android que consume la API REST de The New York Times, gestiona el estado global y la caché con Redux y Redux Thunk, presenta un carrusel de onboarding animado y maneja gestos de navegación y lectura con WebView."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/mastering-react-native-9781785885785",
+      "https://www.oreilly.com/library/view/mastering-react-native/9781785885785/"
+    ]
+  },
+  "react-and-react-native-5th-edition-2024": {
+    "descripcion": "Quinta edición de esta guía integral elaborada por Mikhail Sakhniuk y Adam Boduch en 2024, diseñada para ofrecer una panorámica completa del desarrollo multiplataforma contemporáneo con React 18 y React Native (versiones ~0.73/0.74). Está orientada a desarrolladores web de nivel intermedio con buen dominio de JavaScript que quieren consolidar su comprensión del ecosistema moderno y dar el salto hacia el desarrollo móvil y el tipado estático profesional con TypeScript.\n\nLa primera mitad del libro se enfoca en el desarrollo web y de escritorio, enseñando JSX, componentes funcionales y Hooks, la transición a TypeScript, enrutamiento, división de código con lazy y Suspense, integración de interfaces con Material-UI, consumo de datos con Fetch API, GraphQL y WebSockets, renderizado en servidor (SSR) y pruebas unitarias con Vitest. La segunda mitad se traslada a React Native, explorando la arquitectura interna del motor móvil, maquetación adaptativa con Flexbox, navegación de pantallas con React Navigation, listas con FlatList, geolocalización, modales, control de gestos táctiles, animaciones y persistencia local para soporte sin conexión (offline-first).\n\nEl enfoque del libro es modular y progresivo: en lugar de forzar un único proyecto gigante a través de sus 28 capítulos, construye ejemplos específicos y recetas funcionales para cada tecnología abordada (desde pruebas de componentes y clientes GraphQL hasta interfaces móviles con mapas y listas optimizadas). Su principal virtud es condensar en un único volumen coherente las prácticas recomendadas de React y React Native con TypeScript y Vitest; como contrapartida, no se detiene en profundidad en meta-frameworks como Next.js o Expo Router, sirviendo principalmente como una referencia sólida de arquitectura transversal.",
+    "temas": [
+      "React 18",
+      "React Native",
+      "TypeScript",
+      "Hooks",
+      "Vitest",
+      "Material-UI",
+      "GraphQL",
+      "WebSockets",
+      "Flexbox",
+      "Suspense",
+      "SSR",
+      "Offline First"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/react-and-react-native-9781805127307",
+      "https://github.com/PacktPublishing/React-and-React-Native-5E"
+    ]
+  },
+  "react-and-react-native-6th-edition-2026": {
+    "descripcion": "Sexta edición de la referencia multiplataforma de Packt, coescrita por Mikhail Sakhniuk, Rodrigo Lobenwein y Adam Boduch en 2026, actualizada a las versiones más recientes de React y React Native. Está pensada para programadores y desarrolladores front-end de nivel intermedio que conocen las bases de JavaScript y buscan dominar la creación de aplicaciones profesionales para la web y dispositivos móviles (iOS y Android) incorporando herramientas y flujos de trabajo modernos asistidos por inteligencia artificial.\n\nEl libro actualiza su ecosistema adoptando Vite como herramienta de construcción ágil e integrando TypeScript de forma sistemática a lo largo de toda la obra. Enseña componentes funcionales, Hooks avanzados, gestión de estado global, Suspense, consumo de APIs mediante GraphQL y WebSockets, renderizado del lado del servidor (SSR) y testing exhaustivo con Vitest. En la sección móvil, aborda el funcionamiento interno de React Native, diseño con Flexbox, navegación con React Navigation, rendimiento en listas con FlatList, sensores de geolocalización, mapas, animaciones y estrategias offline. Destaca la incorporación de un capítulo dedicado al desarrollo asistido por IA, que cubre la depuración asistida, la auditoría crítica de código generado por modelos de lenguaje y la prevención de antipatrones en React y React Native.\n\nLa metodología de aprendizaje es guiada y modular, permitiendo poner en práctica cada concepto técnico a través de ejemplos de código aplicados y ejercicios de depuración deliberada con apoyo de herramientas de IA. El gran aporte de esta edición es equilibrar los fundamentos arquitectónicos rigurosos con las exigencias actuales de productividad mediante inteligencia artificial y tipado estático estricto. Conviene tener fluidez con JavaScript moderno (ES6+) y terminal de comandos para aprovechar al máximo su contenido.",
+    "temas": [
+      "React",
+      "React Native",
+      "TypeScript",
+      "Vite",
+      "Vitest",
+      "Hooks",
+      "Inteligencia Artificial",
+      "Flexbox",
+      "SSR",
+      "GraphQL",
+      "Offline First",
+      "Cross-Platform"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/en-us/product/react-and-react-native-sixth-edition-9781835467268",
+      "https://github.com/PacktPublishing/React-and-React-Native-6E",
+      "https://www.oreilly.com/library/view/react-and-react/9781835467268/"
+    ]
+  }
+}

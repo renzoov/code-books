@@ -1,0 +1,672 @@
+{
+  "writing-a-compiler-in-go-2018": {
+    "descripcion": "Secuela directa del aclamado libro de Thorsten Ball sobre intérpretes, esta obra enseña a dar el salto hacia la compilación a bajo nivel transformando el lenguaje didáctico Monkey en un compilador de bytecode y una máquina virtual basada en pila (stack-based VM). El texto trabaja con Go (versiones 1.x) y está dirigido a desarrolladores de nivel intermedio que dominen la sintaxis y tipos del lenguaje (structs, interfaces, slices y punteros), siendo indispensable haber completado el libro previo o contar con sólida comprensión de árboles de sintaxis abstracta (AST) y análisis sintáctico.\n\nEl autor guía paso a paso en el diseño de un conjunto de instrucciones personalizadas (opcodes), la generación de bytecode a partir del AST de Monkey y la construcción del motor de ejecución de la máquina virtual. A lo largo del recorrido se implementan conceptos fundamentales como la tabla de símbolos (para resolver identificadores globales, locales, funciones integradas y variables libres), marcos de llamada (stack frames) para gestionar ámbitos de ejecución de funciones, llamadas recursivas y estructuras de datos como enteros, booleanos, cadenas, arreglos y tablas hash. Todo se desarrolla utilizando exclusivamente la biblioteca estándar de Go (paquetes fmt, bytes y testing), prescindiendo deliberadamente de generadores externos o librerías de terceros.\n\nEl libro sigue una rigurosa metodología guiada por pruebas (TDD), donde cada nueva instrucción de bytecode y operación de la máquina virtual se valida antes de integrarse en la consola interactiva REPL. Su mayor valor reside en desmitificar temas que suelen explicarse de forma densa e inescrutable en el entorno académico, demostrando con código limpio cómo un compilador de bytecode logra triplicar la velocidad del evaluador tree-walking. Como advertencia, no genera código máquina nativo para arquitecturas específicas (x86 o ARM) ni aborda optimizaciones complejas de compiladores modernos (como formas SSA), pero constituye una de las mejores y más transparentes puertas de entrada a la ingeniería de lenguajes y máquinas virtuales.",
+    "temas": [
+      "Go",
+      "Compiladores",
+      "Bytecode",
+      "Máquinas virtuales",
+      "Instrucciones y opcodes",
+      "Tabla de símbolos",
+      "Stack frames",
+      "Closures",
+      "Lenguaje Monkey",
+      "TDD"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Compilador y máquina virtual para Monkey",
+        "descripcion": "Compilador que transforma el AST del lenguaje Monkey en bytecode propio junto con una máquina virtual basada en pila con soporte para funciones, marcos de llamada, clausuras y un REPL interactivo, desarrollado exclusivamente con la biblioteca estándar de Go."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://compilerbook.com/",
+      "https://interpreterbook.com/",
+      "https://thorstenball.com/books/",
+      "https://www.goodreads.com/book/show/40608933-writing-a-compiler-in-go"
+    ]
+  },
+  "writing-an-interpreter-in-go-2016": {
+    "descripcion": "Guía técnica de referencia en la que Thorsten Ball enseña a construir un intérprete completo desde cero para Monkey, un lenguaje de programación dinámico con sintaxis similar a C. La obra utiliza Go estándar (1.x) y está orientada a desarrolladores de nivel intermedio que conocen las bases de Go (estructuras, interfaces, punteros y mapas) y desean comprender la mecánica interna de los lenguajes de programación sin tropezar con la abrumadora teoría matemática de los manuales universitarios tradicionales.\n\nEl núcleo del aprendizaje reside en la implementación manual de cada etapa del pipeline de interpretación: un analizador léxico (lexer) que tokeniza el código fuente carácter a carácter; un parser descendente recursivo complementado con la técnica de Pratt (Top-Down Operator Precedence) para procesar precedencia de operadores y generar el árbol de sintaxis abstracta (AST); un sistema de objetos en Go para representar los valores en tiempo de ejecución; y un evaluador recursivo tipo tree-walking. Se desarrollan desde cero tipos de datos primitivos, condicionales, funciones de primera clase, clausuras (closures), funciones integradas (como len), cadenas, arreglos y tablas hash, apoyándose únicamente en paquetes estándar como fmt, strings y testing.\n\nA través de un enfoque estricto de desarrollo guiado por pruebas (TDD), el lector construye una consola REPL interactiva totalmente funcional capaz de ejecutar código Monkey en tiempo real. Su gran mérito es la claridad quirúrgica con la que explica el parsing de Pratt y la gestión de entornos de variables (environment scopes), evitando dependencias como Lex, Yacc o ANTLR para que el desarrollador comprenda cada byte de código. Quedan fuera las fases de generación de bytecode y optimización en máquina virtual (tratadas en su secuela), pero es la introducción más práctica, amena y formativa disponible sobre construcción artesanal de intérpretes.",
+    "temas": [
+      "Go",
+      "Intérpretes",
+      "Lexer",
+      "Parser Pratt",
+      "AST (Abstract Syntax Tree)",
+      "Tree-walking evaluator",
+      "Closures",
+      "REPL",
+      "Lenguaje Monkey",
+      "TDD"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Intérprete y REPL interactivo del lenguaje Monkey",
+        "descripcion": "Intérprete completo tipo tree-walking para Monkey que incluye tokenizador, parser de Pratt para generar el AST, entorno de evaluación de variables, funciones de primera clase con clausuras y una consola REPL, creado íntegramente en Go estándar."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://interpreterbook.com/",
+      "https://thorstenball.com/books/",
+      "https://www.goodreads.com/book/show/32959828-writing-an-interpreter-in-go"
+    ]
+  },
+  "practical-operating-systems-2023": {
+    "descripcion": "Manual práctico e independiente de Amir Keivan Shafiei que busca aterrizar los principios teóricos de los sistemas operativos modernos mediante la programación en Python 3. Está pensado para estudiantes de informática, programadores autodidactas y administradores de sistemas de nivel intermedio que dominan los fundamentos de Python y quieren entender cómo el software interactúa con el hardware y el núcleo del sistema operativo, sin la necesidad de programar en C o ensamblador.\n\nEl libro desgrana la arquitectura de los sistemas operativos conectando conceptos teóricos con scripts y simulaciones prácticas: llamadas al sistema (syscalls), interrupciones, mecanismos de dual-mode, administración de estructuras de procesos (PCB), algoritmos clásicos de planificación de CPU, hilos y concurrencia con mecanismos de sincronización (cerrojos y semáforos), comunicación entre procesos (IPC), gestión de memoria virtual (paginación, tablas de páginas y fallos de página), y subsistemas de almacenamiento e I/O. Para ello se apoya en módulos estándar como os, sys, multiprocessing, threading, subprocess y herramientas de diagnóstico y métricas del sistema como la librería psutil.\n\nLa propuesta destaca por ofrecer simulaciones ejecutables e inspecciones del sistema operativo en vivo que permiten al lector visualizar en su propio ordenador cómo se comportan los bloqueos de hilos o la asignación de memoria. No se trata de un curso de desarrollo de kernels (no se construye un núcleo ejecutable bare-metal ni controladores de hardware), sino de una guía conceptual interactiva. Resulta sumamente útil para afianzar los conceptos fundamentales de sistemas operativos antes de enfrentarse a cursos universitarios avanzados o proyectos en C o Rust.",
+    "temas": [
+      "Sistemas operativos",
+      "Python 3",
+      "Gestión de procesos",
+      "Hilos y concurrencia",
+      "Sincronización (Mutex y Locks)",
+      "Llamadas al sistema (Syscalls)",
+      "Memoria virtual y paginación",
+      "Planificación de CPU",
+      "psutil",
+      "multiprocessing"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.amazon.com/dp/B0CMR5NRPP",
+      "https://www.abebooks.com/9798866315277/Practical-Operating-Systems-Hands-On-Approach-9798866315277/plp"
+    ]
+  },
+  "classic-computer-science-problems-in-python-2019": {
+    "descripcion": "Obra didáctica publicada por Manning en la que David Kopec aborda una amplia colección de problemas fundamentales de ciencias de la computación utilizando Python moderno (requiere Python 3.7 o superior). Está dirigida a desarrolladores con un nivel intermedio en Python que desean profundizar en el pensamiento algorítmico, refrescar conceptos de estructuras de datos o prepararse para entrevistas técnicas de programación, aprovechando características idiomáticas del lenguaje como anotaciones de tipo (type hints) y dataclasses.\n\nA lo largo de sus capítulos, el texto cubre técnicas fundamentales: recursión, memoización y compresión trivial mediante manipulación de bits; algoritmos de búsqueda en laberintos y grafos (búsqueda binaria, DFS, BFS y A*); un framework genérico para problemas de satisfacción de restricciones (CSP) aplicado a la coloración de mapas y el problema de las ocho reinas; algoritmos clásicos de grafos como Dijkstra y Jarník (Prim); optimización mediante algoritmos genéticos; agrupamiento con K-Means; una red neuronal básica implementada desde cero con función sigmoide y retropropagación; y algoritmos de búsqueda adversarial como Minimax con poda alfa-beta para juegos de tablero. Todo el código utiliza la biblioteca estándar de Python (typing, collections, heapq, math, random, dataclasses).\n\nEl libro propone un enfoque de resolución de problemas en el que se construyen motores algorítmicos reutilizables aplicados a rompecabezas concretos, acompañados de ejercicios prácticos al final de cada capítulo. Su mayor valor reside en mostrar cómo implementar algoritmos complejos con código limpio, tipado y sin recurrir a paquetes externos pesados. Conviene tener presente que no enseña desarrollo de aplicaciones web ni arquitecturas de software distribuidas, sino el núcleo de resolución lógica y algorítmica de la computación clásica.",
+    "temas": [
+      "Python 3.7",
+      "Algoritmos clásicos",
+      "Estructuras de datos",
+      "Búsqueda (A*, BFS, DFS)",
+      "Satisfacción de restricciones (CSP)",
+      "Algoritmos genéticos",
+      "K-Means",
+      "Redes neuronales desde cero",
+      "Minimax y Alpha-Beta",
+      "Teoría de grafos",
+      "Type hints"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/classic-computer-science-problems-in-python",
+      "https://github.com/davecom/ClassicComputerScienceProblemsInPython",
+      "https://www.oreilly.com/library/view/classic-computer-science/9781617295980/"
+    ]
+  },
+  "learn-computer-science-with-swift-2018": {
+    "descripcion": "Manual introductorio publicado por Apress en el que Jesse Feiler expone las bases del pensamiento computacional y la ciencia de la computación a través de Swift (Swift 4 en Xcode 9) y el entorno interactivo de Swift Playgrounds. El libro está concebido para principiantes absolutos, jóvenes profesionales y estudiantes sin experiencia previa en programación que desean iniciarse en los conceptos esenciales de la informática utilizando el ecosistema de desarrollo de Apple (iOS, macOS, watchOS y tvOS).\n\nEl temario aborda el pensamiento computacional desde sus cimientos: descomposición de problemas, reconocimiento de patrones, formulación lógica y validación algorítmica. En el plano técnico, enseña la sintaxis básica de Swift en Xcode Playgrounds, estructuras de control (condicionales, bucles, sentencias switch y enumeraciones), gestión de colecciones de datos (arreglos, diccionarios y conjuntos), principios de abstracción y modularización mediante la creación de frameworks reutilizables, control de versiones de código y la conexión de la lógica de programación con interfaces de usuario en plataformas Apple.\n\nEl aprendizaje se apoya en la experimentación directa con Swift Playgrounds, destacando prácticas guiadas de algoritmos como el proyecto de cálculo y patrones Numerology. Su principal virtud es ofrecer una entrada visual, interactiva y poco intimidante a la computación, permitiendo ver el resultado de cada línea de código de inmediato. Sin embargo, no profundiza en análisis formal de complejidad temporal (notación Big-O), estructuras de datos avanzadas ni desarrollo de aplicaciones completas listas para producción, por lo que funciona como un escalón inicial antes de abordar manuales de desarrollo avanzados en iOS o ciencias de la computación.",
+    "temas": [
+      "Swift 4",
+      "Swift Playgrounds",
+      "Xcode",
+      "Pensamiento computacional",
+      "Algoritmos",
+      "Estructuras de control",
+      "Colecciones y datos",
+      "Frameworks reutilizables",
+      "Desarrollo Apple",
+      "Lógica de programación"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Algoritmos interactivos con Numerology",
+        "descripcion": "Playground interactivo en Xcode desarrollado en Swift para ejercitar el diseño y ejecución de algoritmos mediante descomposición de problemas y reglas de reconocimiento de patrones numéricos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3066-4",
+      "https://github.com/Apress/learn-computer-science-with-swift",
+      "https://www.amazon.com/Learn-Computer-Science-Swift-Computation/dp/1484230653"
+    ]
+  },
+  "explorations-in-computing-2011": {
+    "descripcion": "Texto universitario introductorio creado por John S. Conery para acercar los fundamentos de las ciencias de la computación a estudiantes sin experiencia previa en programación, utilizando Ruby (entorno interactivo sobre Ruby 1.9) como vehículo pedagógico. Su planteamiento se aleja de la enseñanza árida de sintaxis para sumergir al lector en el pensamiento computacional mediante un enfoque de aprendizaje activo, estructurado a través de proyectos de laboratorio guiados paso a paso.\n\nEl contenido se articula alrededor de la consola interactiva IRB y la gema educativa RubyLabs, desarrollada específicamente para el curso. A través de módulos temáticos como BitLab, SortLab, RandomLab, ElizaLab y CorewarLab, el libro aborda la implementación de la criba de Eratóstenes para números primos, estrategias de búsqueda lineal y binaria, algoritmos de ordenamiento como Quicksort y Merge Sort, tablas hash y colisiones, codificación binaria y códigos de detección de errores. También profundiza en conceptos de arquitectura de computadores con el ciclo de instrucción sobre máquinas virtuales simplificadas, simulación de modelos físicos y heurísticas evolutivas para resolver el problema del viajero (TSP).\n\nEn cada capítulo el lector experimenta con proyectos prácticos de laboratorio, entre los que destacan un emulador de combate en memoria de instrucciones Corewar, un bot conversacional basado en reglas al estilo de ELIZA ('Ask Dr. Ruby'), una simulación del problema de los N-cuerpos para órbitas celestes y un algoritmo genético de optimización. La obra destaca por convertir ideas teóricas abstractas en experimentos tangibles y visuales gracias a las herramientas interactivas diseñadas por el autor. No cubre desarrollo de aplicaciones web ni el ecosistema comercial de Ruby on Rails, pues su objetivo exclusivo es cimentar las bases algorítmicas e intelectuales de la computación.",
+    "temas": [
+      "Ruby",
+      "RubyLabs",
+      "IRB",
+      "Algoritmos",
+      "Estructuras de datos",
+      "Criba de Eratóstenes",
+      "Búsqueda y ordenamiento",
+      "Tablas hash",
+      "Arquitectura de computadores",
+      "Simulaciones numéricas",
+      "Algoritmos genéticos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Simulador de combate de instrucciones Corewar",
+        "descripcion": "Máquina virtual interactiva en Ruby donde dos programas compiten por sobrescribir la memoria del sistema, ilustrando el ciclo de búsqueda y ejecución y la arquitectura interna de un procesador."
+      },
+      {
+        "nombre": "Bot conversacional 'Ask Dr. Ruby'",
+        "descripcion": "Programa de procesamiento de lenguaje natural rudimentario inspirado en ELIZA que analiza las respuestas del usuario mediante patrones de texto e interacciones guiadas en consola."
+      },
+      {
+        "nombre": "Simulación orbital de N-cuerpos ('The Music of the Spheres')",
+        "descripcion": "Modelo numérico gravitacional que calcula y visualiza las trayectorias de planetas en el sistema solar aplicando cálculos iterativos en Ruby."
+      },
+      {
+        "nombre": "Optimizador genético del problema del viajero (TSP)",
+        "descripcion": "Aplicación de algoritmos genéticos y heurísticas que evalúa combinaciones de rutas para aproximar soluciones óptimas a problemas NP-completos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Explorations-in-Computing-An-Introduction-to-Computer-Science/Conery/p/book/9781439806289",
+      "https://www.amazon.com/Explorations-Computing-Introduction-Computer-Textbooks/dp/1439806280",
+      "http://ix.cs.uoregon.edu/~conery/eic/"
+    ]
+  },
+  "computer-science-programming-basics-in-ruby-2013": {
+    "descripcion": "Manual introductorio publicado por O'Reilly y elaborado por David Grossman, Gideon Frieder y Ophir Frieder para servir de puente entre las matemáticas escolares y la ciencia de la computación. Emplea la sintaxis limpia y legible de Ruby (versión 1.9 / 2.0) y está dirigido a estudiantes de secundaria o primeros cursos universitarios sin experiencia previa en desarrollo de software, que necesitan comprender la diferencia esencial entre formular un algoritmo y escribir código de programación.\n\nEl temario comienza explicando a nivel de bloques los componentes físicos de una computadora (CPU, registros, memoria y buses) y avanza progresivamente por las construcciones elementales de la programación: variables, tipos numéricos, cadenas de texto y operadores lógicos. Posteriormente detalla bifurcaciones condicionales ('if', 'elsif', 'unless'), estructuras de repetición ('while', 'until'), manipulación de colecciones unidimensionales y bidimensionales con arreglos ('arrays'), algoritmos clásicos de búsqueda lineal y ordenamiento por comparación, fundamentos de programación orientada a objetos (creación de clases, métodos, estado interno y herencia) y persistencia mediante lectura y escritura de ficheros con la clase 'File' de Ruby.\n\nCada capítulo incluye ejercicios conceptuales y desafíos de codificación pensados para fijar las nociones analizadas, culminando en el desarrollo guiado de un juego interactivo de tres en raya (Tic-Tac-Toe) para la consola. Su principal virtud reside en su brevedad y claridad expositiva, evitando tecnicismos innecesarios para centrarse en los pilares del razonamiento algorítmico. Por su diseño conciso de menos de doscientas páginas, deja fuera estructuras de datos avanzadas, colecciones asociativas complejas como hashes y pruebas unitarias, funcionando como un escalón inicial antes de abordar cursos de programación más exhaustivos.",
+    "temas": [
+      "Ruby",
+      "Algoritmos",
+      "Arquitectura de computadores",
+      "Estructuras de control",
+      "Arreglos",
+      "Búsqueda lineal",
+      "Ordenamiento",
+      "Programación orientada a objetos",
+      "Herencia",
+      "Manejo de archivos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Juego interactivo de tres en raya (Tic-Tac-Toe)",
+        "descripcion": "Juego por turnos ejecutado en la terminal de Ruby que integra el uso de arreglos bidimensionales para el tablero, validación de movimientos del jugador, alternancia de turnos y comprobación de estados de victoria mediante clases y objetos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/computer-science-programming/9781449356835/",
+      "https://www.amazon.com/Computer-Science-Programming-Basics-Ruby/dp/1449355978"
+    ]
+  },
+  "understanding-computation-2013": {
+    "descripcion": "Tratado divulgativo y técnico escrito por Tom Stuart que traduce la teoría formal de la computación, tradicionalmente confinada al lenguaje matemático abstracto o a entornos funcionales académicos, a código ejecutable en Ruby (versión 2.0). Está concebido para desarrolladores en activo e ingenieros de software autodidactas que desean entender qué ocurre 'bajo el capó' de los lenguajes de programación, cómo se procesan las instrucciones y cuáles son los límites fundamentales de lo computable, contando únicamente con conocimientos previos básicos de programación.\n\nEl recorrido prescinde de librerías externas y se apoya en construcciones idiomáticas puras de Ruby para modelar las distintas facetas del cálculo formal. Cubre la definición de lenguajes mediante sintaxis y semántica operacional (de paso pequeño y de paso grande) y semántica denotacional, autómatas finitos deterministas (DFA) y no deterministas (NFA), autómatas de pila (PDA) para lenguajes libres de contexto, y máquinas de Turing estándar y universales. En su segunda mitad explora el cálculo lambda sin apoyos ('Programming with Nothing', derivando booleanos, números de Church, aritmética y el combinador Y exclusivamente mediante funciones anónimas), sistemas de reescritura de etiquetas ('tag systems'), autómatas celulares como la Regla 110, la indecidibilidad del problema de la parada ('Halting Problem') y la verificación de programas con sistemas de tipos estáticos e interpretación abstracta.\n\nEn lugar de listas convencionales de ejercicios, el libro propone la implementación completa y reproducible de máquinas de estados, evaluadores semánticos y simuladores computacionales desde cero en pequeños scripts de Ruby. Es una de las mejores obras para desmitificar compiladores, parsers y modelos de computabilidad, cambiando radicalmente la forma en que un programador concibe el software. Al ser un libro centrado en la teoría pura, no ofrece utilidades prácticas para desarrollo de aplicaciones comerciales ni optimización de código en entornos de producción.",
+    "temas": [
+      "Ruby",
+      "Teoría de la computación",
+      "Semántica operacional",
+      "Semántica denotacional",
+      "Autómatas finitos",
+      "Autómatas de pila",
+      "Máquinas de Turing",
+      "Cálculo Lambda",
+      "Autómatas celulares",
+      "Problema de la parada",
+      "Sistemas de tipos"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Intérprete y evaluador semántico del lenguaje 'Simple'",
+        "descripcion": "Intérprete para un lenguaje imperativo mínimo que implementa su árbol sintáctico abstracto, reglas de reducción de paso pequeño y paso grande, y su traducción a semántica denotacional en Ruby."
+      },
+      {
+        "nombre": "Motor de autómatas finitos y expresiones regulares",
+        "descripcion": "Simulador de autómatas finitos deterministas (DFA) y no deterministas (NFA) capaz de evaluar transiciones de estado y emparejar patrones de cadenas de texto equivalentes a expresiones regulares."
+      },
+      {
+        "nombre": "Simulador de Máquina de Turing Universal",
+        "descripcion": "Implementación ejecutable con cinta de memoria infinita, cabezal de lectura/escritura y tabla de transiciones, capaz de emular cualquier cálculo secuencial algorítmico."
+      },
+      {
+        "nombre": "Sistema de cálculo lambda puro ('Programming with Nothing')",
+        "descripcion": "Entorno computacional construido únicamente con lambdas y funciones anónimas de Ruby, implementando números de Church, operadores booleanos, listas enlazadas y recursión mediante el combinador Y."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/understanding-computation/9781449330118/",
+      "http://computationbook.com/",
+      "https://www.amazon.com/Understanding-Computation-Machines-Impossible-Programs/dp/1449329276"
+    ]
+  },
+  "computer-science-an-overview-12th-edition-2014": {
+    "descripcion": "Decimosegunda edición de uno de los libros de texto universitarios más influyentes y consolidados en la educación informática global, escrito por J. Glenn Brookshear y Dennis Brylow para cursos panorámicos de primer año (CS0 / CS1). Su enfoque es transversal e independiente del lenguaje, integrando en esta edición ejemplos e introducciones prácticas en Python 3 junto con fragmentos comparativos de C++, Java y SQL, sin requerir conocimientos previos para comprender cómo interactúan todos los estratos de la disciplina.\n\nLa obra cubre de manera enciclopédica doce áreas troncales de la informática: codificación y almacenamiento de datos (binario, enteros, punto flotante, compresión y códigos de error), arquitectura y circuitos de hardware (arquitectura Von Neumann, ciclo de instrucción de la CPU y lenguaje máquina), sistemas operativos (gestión de procesos, concurrencia, semáforos, bloqueos mutuos y seguridad), redes e Internet (protocolos TCP/IP, direccionamiento y la World Wide Web), diseño y análisis de algoritmos (eficiencia y notación Big-O), paradigmas de programación (imperativo, orientado a objetos, funcional y concurrente), ingeniería de software (ciclo de vida, metodologías ágiles y control de calidad), bases de datos relacionales y SQL, gráficos 3D por computadora y animación, fundamentos de inteligencia artificial y redes neuronales, y teoría de la computación con máquinas de Turing, problemas insolubles y complejidad computacional.\n\nEl texto prioriza la comprensión conceptual mediante más de mil preguntas de repaso, problemas de razonamiento lógico, trazas de pseudocódigo y debates éticos sobre el impacto social de la tecnología al término de cada capítulo. Su gran valor radica en ofrecer un mapa mental completo y coherente de toda la carrera informática antes de especializarse, permitiendo entender cómo se conectan el hardware físico, los sistemas de software y los límites teóricos del cálculo. No busca enseñar a desarrollar aplicaciones comerciales ni a construir un proyecto de software de principio a fin, sino dotar al estudiante de una visión holística y rigurosa.",
+    "temas": [
+      "Arquitectura de computadores",
+      "Sistemas operativos",
+      "Redes e Internet",
+      "Algoritmos",
+      "Estructuras de datos",
+      "Ingeniería de software",
+      "Bases de datos",
+      "Inteligencia artificial",
+      "Teoría de la computación",
+      "Python",
+      "Pensamiento computacional"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.pearson.com/en-us/subject-catalog/p/computer-science-an-overview/P200000003517",
+      "https://www.informit.com/store/computer-science-an-overview-9780133760064",
+      "https://www.amazon.com/Computer-Science-Overview-Glenn-Brookshear/dp/0133760065"
+    ]
+  },
+  "introduction-to-computer-science-using-python-2013": {
+    "descripcion": "Manual universitario introductorio redactado por Charles Dierbach (Towson University) para asignaturas troncales de programación de primer semestre (CS1), centrado en la metodología de resolución computacional de problemas antes de la escritura de código sintáctico. Trabaja con Python 3 sobre el entorno interactivo IDLE y está dirigido a estudiantes y autodidactas noveles sin experiencia previa en informática, guiándolos en el hábito de descomponer sistemáticamente un requerimiento analítico antes de implementarlo.\n\nEl contenido adopta una estructura pedagógica progresiva con orientación a objetos tardía ('objects-late'). Enseña tipos de datos, operadores aritméticos, estructuras condicionales ('if', 'elif', 'else'), bucles de repetición ('for', 'while'), funciones con modularidad y alcance de variables, manipulación de cadenas y listas, colecciones asociativas con diccionarios y conjuntos ('sets'), y gestión de archivos de texto con funciones del sistema. Para la comprensión intuitiva de la manipulación de objetos y métodos antes de definir clases propias, recurre a la librería gráfica estándar 'turtle', introduciendo más adelante la programación orientada a objetos formal con constructores '__init__', encapsulación, sobrecarga de operadores y algoritmos recursivos.\n\nA lo largo del libro se presentan secciones prácticas de prueba inmediata ('Let's Try It'), ejercicios de modificación y desarrollo completo de programas ('Program Development Problems'), entre los que destacan simulaciones visuales con múltiples tortugas concurrentes (como carreras o rebote de partículas) y procesadores por lotes de archivos de texto con estadísticas léxicas. La obra sobresale por inculcar buenas prácticas de diseño algorítmico, documentación y depuración de errores desde el primer día. Al orientarse a los fundamentos de la programación general, no cubre librerías de terceros especializadas en ciencia de datos (como NumPy o Pandas) ni desarrollo web con frameworks como Django o Flask.",
+    "temas": [
+      "Python 3",
+      "Resolución computacional de problemas",
+      "Estructuras de control",
+      "Listas y secuencias",
+      "Funciones",
+      "Turtle Graphics",
+      "Diccionarios y conjuntos",
+      "Manejo de archivos",
+      "Programación orientada a objetos",
+      "Recursión",
+      "Depuración"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Simulador gráfico de partículas y carreras con Turtle",
+        "descripcion": "Aplicación visual construida con el módulo turtle de Python que controla múltiples instancias de objetos simultáneos en pantalla para modelar carreras aleatorias o rebotes dinámicos contra límites geométricos."
+      },
+      {
+        "nombre": "Analizador léxico y estadístico de archivos de texto",
+        "descripcion": "Herramienta por lotes que procesa ficheros de texto plano para limpiar caracteres, desglosar palabras y computar métricas de frecuencia y vocabulario usando diccionarios y conjuntos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Introduction+to+Computer+Science+Using+Python%3A+A+Computational+Problem+Solving+Focus-p-9780470555156",
+      "https://www.amazon.com/Introduction-Computer-Science-Using-Python/dp/0470555157"
+    ]
+  },
+  "compiladores-principios-tecnicas-y-herramientas-2007": {
+    "descripcion": "Segunda edición ampliamente renovada y actualizada de la obra canónica de las ciencias de la computación (conocida como el «Libro del Dragón»), elaborada por Alfred V. Aho, Monica S. Lam, Ravi Sethi y Jeffrey D. Ullman. Está concebida para estudiantes avanzados de ingeniería informática, ciencias de la computación y desarrolladores de herramientas de desarrollo o máquinas virtuales. Para aprovecharlo se requieren bases sólidas en estructuras de datos, matemáticas discretas (grafos y teoría de conjuntos) y soltura en programación orientada a objetos o de sistemas con Java o C.\n\nEl manual disecciona paso a paso la arquitectura de un compilador a través de sus fases canónicas: análisis léxico mediante expresiones regulares y autómatas finitos (AFN/AFD), análisis sintáctico con gramáticas independientes del contexto (técnicas LL, LR, SLR, LALR), traducción dirigida por la sintaxis y generación de código intermedio (código de tres direcciones). Para su implementación práctica se apoya en herramientas estándar de la industria como Lex/Flex y Yacc/Bison, además de proveer una implementación de referencia en Java. Esta edición destaca por su extenso tratamiento de temas modernos: entornos de ejecución y gestión de memoria con recolectores de basura (*mark-and-sweep*, copiado y generacionales), optimizaciones independientes de la máquina (análisis de flujo de datos y eliminación de redundancia), paralelismo a nivel de instrucción (ILP, planificación de bucles y *software pipelining*), transformaciones de bucles para optimización de localidad en jerarquías de memoria caché y análisis interprocedimental con alias y punteros.\n\nA nivel práctico, el libro guía la construcción de un traductor dirigido por la sintaxis completo en Java que genera código intermedio para un lenguaje básico, complementado con una copiosa batería de ejercicios teóricos y de modelado al final de cada sección. Su gran mérito es aportar una base matemática y conceptual inigualable sobre cómo el software de alto nivel cobra vida y se optimiza eficientemente en hardware moderno; no obstante, no aborda las infraestructuras de compilación modulares contemporáneas como LLVM o backends de compilación JIT modernos, por lo que debe entenderse como el cimiento teórico fundamental para comprender cualquier tecnología de lenguajes.",
+    "temas": [
+      "Compiladores",
+      "Análisis léxico",
+      "Análisis sintáctico",
+      "Traducción dirigida por sintaxis",
+      "Código intermedio",
+      "Optimización de código",
+      "Lex / Flex",
+      "Yacc / Bison",
+      "Java",
+      "Recolección de basura",
+      "Paralelismo de instrucciones"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Traductor dirigido por sintaxis en Java",
+        "descripcion": "Construcción completa en Java del front-end de un compilador didáctico que realiza análisis léxico, análisis sintáctico y emisión de código intermedio en formato postfijo de tres direcciones para expresiones aritméticas y estructuras de control."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.pearson.com/en-us/subject-catalog/p/compilers-principles-techniques-and-tools/P200000003330",
+      "http://dragonbook.stanford.edu/",
+      "https://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811"
+    ]
+  },
+  "absolute-beginners-guide-to-computing-2016": {
+    "descripcion": "Guía práctica de iniciación integral escrita por Wallace Wang y publicada por Apress, orientada a usuarios sin experiencia previa en el uso de computadoras, personas mayores o profesionales que enfrentan la alfabetización digital. Tomando como base el sistema operativo Windows 10, el autor parte de un nivel cero absoluto y adopta un tono pedagógico, ameno y desprovisto de jerga técnica intimidante para brindar autonomía y confianza al interactuar con un ordenador personal.\n\nEl contenido abarca desde los fundamentos físicos y de interfaz (manejo del ratón, teclado, pantallas táctiles, el menú Inicio, la barra de tareas y el explorador de archivos para organizar carpetas y unidades) hasta el almacenamiento y sincronización en la nube mediante OneDrive. Enseña a configurar la conexión a redes Wi-Fi, utilizar navegadores web como Microsoft Edge y Google Chrome, redactar y gestionar correos electrónicos, realizar videollamadas con Skype y dar instrucciones al asistente por voz Cortana. También profundiza en el trabajo con dispositivos multimedia externos (cámaras fotográficas, memorias USB, smartphones e impresoras), reproducción musical en Groove Music, visualización y edición ligera de imágenes con la aplicación Fotos, subida de vídeos a YouTube, gestión de perfiles en redes sociales (Facebook y Twitter) y pautas de higiene digital y ciberseguridad con Windows Defender y buenas prácticas de contraseñas.\n\nEl aprendizaje se articula a través de recetas y tutoriales paso a paso pensados para que el lector replique cada acción directamente en su pantalla, desde la personalización del entorno hasta la resolución de problemas técnicos básicos y la instalación segura de aplicaciones desde la Tienda Windows. Es una obra de valor incalculable para perder el miedo a la informática doméstica y de oficina; sin embargo, no contiene conceptos de programación, desarrollo de software ni teoría computacional, por lo que su utilidad se restringe al dominio del rol de usuario final.",
+    "temas": [
+      "Alfabetización digital",
+      "Windows 10",
+      "Explorador de archivos",
+      "OneDrive",
+      "Navegación web",
+      "Microsoft Edge",
+      "Correo electrónico",
+      "Cortana",
+      "Gestión de periféricos",
+      "Seguridad informática básica"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2289-8",
+      "https://www.amazon.com/Absolute-Beginners-Guide-Computing-Wallace/dp/1484222888"
+    ]
+  },
+  "computing-a-historical-and-technical-perspective-2014": {
+    "descripcion": "Tratado académico riguroso que traza la evolución paralela de las matemáticas, los métodos de cálculo y las ciencias de la computación desde la antigüedad hasta la era contemporánea. Escrito por Barbara Kamiyama, Mariko Funada, Tom Altman y Yoshihide Igarashi para CRC Press, está dirigido a estudiantes de grado e investigadores de informática, matemáticas o historia de la ciencia con un nivel intermedio, que deseen entender las raíces conceptuales sobre las que se asienta la tecnología computacional moderna sin conformarse con una visión meramente anecdótica.\n\nEl libro expone los fundamentos matemáticos de los primeros sistemas de conteo (marcas en huesos del Paleolítico, fichas sumerias, la invención del cero y los sistemas numéricos posicionales), pasando por el álgebra euclidiana, los números primos, las fracciones decimales, los logaritmos y el funcionamiento mecánico del ábaco y las calculadoras históricas de Pascal, Leibniz y Babbage. Al abordar la era moderna, el texto analiza con profundidad técnica la teoría de la computabilidad (máquinas de Turing, funciones recursivas y sus límites insolubles), la evolución criptográfica (desde cifrados clásicos hasta la criptografía moderna de clave pública), la arquitectura de las primeras computadoras electrónicas, la teoría de la información de Claude Shannon, la cibernética de Wiener, los códigos detectores y correctores de errores (códigos de Hamming), los autómatas y lenguajes formales, la inteligencia artificial fundacional y el diseño formal de algoritmos, cerrando con la computación paralela y distribuida.\n\nCada capítulo concluye con ejercicios y problemas analíticos que invitan al estudiante a aplicar los conceptos matemáticos e históricos presentados. La obra destaca por conectar elegantemente la evolución cultural del ser humano con la formalidad de la computación teórica, aportando una visión panorámica indispensable para comprender el porqué de los paradigmas actuales; no obstante, su enfoque es enteramente conceptual y matemático, por lo que prescinde de talleres de programación aplicada en lenguajes específicos o desarrollo de software aplicativo.",
+    "temas": [
+      "Historia de la computación",
+      "Sistemas numéricos",
+      "Algoritmos clásicos",
+      "Computabilidad",
+      "Máquinas de Turing",
+      "Criptografía",
+      "Teoría de la información",
+      "Autómatas y lenguajes formales",
+      "Códigos de corrección de errores",
+      "Computación paralela"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Computing-A-Historical-and-Technical-Perspective/Igarashi-Altman-Funada-Kamiyama/p/book/9781482227413",
+      "https://www.amazon.com/Computing-Historical-Technical-Perspective-Yoshihide/dp/1482227416"
+    ]
+  },
+  "essentials-of-computer-architecture-2nd-edition-2017": {
+    "descripcion": "Manual universitario de referencia escrito por el distinguido docente Douglas Comer (Purdue University) que expone la arquitectura y organización de computadores desde la óptica directa del programador. Esta segunda edición revisada está dirigida a estudiantes universitarios de informática, ingeniería de software e ingenieros en ejercicio con nivel intermedio. El texto parte de la premisa de que los desarrolladores que comprenden el funcionamiento del hardware pueden escribir software sustancialmente más rápido, seguro y escalable, requiriendo como prerrequisito conocimientos básicos de programación estructurada en C o Java y nociones de lógica booleana.\n\nLa obra adopta un enfoque pedagógico descendente (*top-down*), desglosando cómo las construcciones de alto nivel de los lenguajes de programación se transforman y ejecutan físicamente. Explora la representación interna de datos (enteros con signo, complementos y el estándar de punto flotante IEEE 754), compuertas lógicas y diseño de circuitos digitales básicos, conjuntos de instrucciones y filosofías de diseño de procesadores (CISC vs. RISC, modos de direccionamiento, registros y el ciclo de ejecución *fetch-decode-execute*). Se profundiza exhaustivamente en la canalización (*pipelining*, riesgos y predicción de saltos), la jerarquía de memoria (memorias SRAM y DRAM, arquitectura de memorias caché mapeadas directamente y asociativas por conjuntos, políticas de reemplazo y escritura, y memoria virtual con paginación y TLB), los subsistemas de entrada/salida (buses del sistema, interrupciones hardware, acceso directo a memoria o DMA y controladores de dispositivos), concluyendo con el procesamiento paralelo moderno, arquitecturas multinúcleo con protocolos de coherencia de caché (MESI) y aceleración por GPU.\n\nA través de ejercicios analíticos de fin de capítulo y el uso de simuladores arquitectónicos que acompañan al libro, el lector evalúa de forma práctica el impacto real de fallos de caché, latencias de memoria y penalizaciones por predicción de saltos errónea sobre el rendimiento del código. El valor clave del libro reside en su equilibrio pedagógico: prescinde del exceso de detalle a nivel de diseño de silicio o transistores para centrarse en los conceptos que tienen impacto directo en la optimización de software. No enseña lenguajes de descripción de hardware como VHDL o Verilog para síntesis de circuitos en FPGA, sino que actúa como el puente perfecto entre el código fuente y el procesador físico.",
+    "temas": [
+      "Arquitectura de computadoras",
+      "Organización del procesador",
+      "CISC y RISC",
+      "Pipelining",
+      "Jerarquía de memoria",
+      "Memoria caché",
+      "Memoria virtual",
+      "Punto flotante IEEE 754",
+      "Entrada/Salida y DMA",
+      "Multinúcleo",
+      "Coherencia de caché"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Essentials-of-Computer-Architecture/Comer/p/book/9781138626591",
+      "https://www.cs.purdue.edu/homes/dec/books.html",
+      "https://www.amazon.com/Essentials-Computer-Architecture-Douglas-Comer/dp/1138626597"
+    ]
+  },
+  "introduction-to-programming-languages-2014": {
+    "descripcion": "Tratado exhaustivo sobre los fundamentos teóricos y las decisiones de diseño de los lenguajes de programación, escrito por Arvind Kumar Bansal (Kent State University) para CRC Press. Diseñado para cursos universitarios de nivel universitario inicial a intermedio, su propósito formativo es liberar al estudiante de la fijación sintáctica con un lenguaje concreto (como C++, Java o Python) para dotarlo de una comprensión abstracta de cómo funcionan los sistemas de tipos, la semántica formal y los entornos de ejecución en cualquier familia de lenguajes. Requiere haber cursado programación orientada a objetos o estructurada previa y nociones de estructuras de datos discretas.\n\nEl temario aborda el análisis sintáctico y semántico mediante gramáticas BNF y árboles de derivación, sistemas y teoría de tipos (tipado estático vs. dinámico, inferencia, equivalencia y polimorfismo paramétrico y por subtipado), así como la gestión interna de memoria y entornos de ejecución (marcos de activación en pila, registros y recolectores de basura en el montículo). Seguidamente, disecciona y compara en profundidad los grandes paradigmas de cómputo y sus mecanismos representativos: programación imperativa y estructurada (C, Pascal), programación orientada a objetos (Java, C++, Smalltalk), programación funcional y cálculo lambda (Lisp, Scheme, ML, Haskell), y programación lógica orientada a restricciones (Prolog). Adicionalmente, el texto destaca por incluir paradigmas avanzados frecuentemente omitidos en textos introductorios: programación concurrente y distribuida (hilos, monitores, paso de mensajes y el modelo CSP de Hoare), lenguajes de scripting y multimedia para la web (PHP, Python, JavaScript), lenguajes síncronos y modelos de programación orientados a agentes.\n\nLa práctica del texto se estructura en estudios comparativos de código entre distintos lenguajes y un exhaustivo conjunto de problemas conceptuales y de modelado al final de cada capítulo que desafían a razonar sobre la semántica de evaluación y la seguridad de tipos. Su aportación crucial es formar a desarrolladores e investigadores capaces de aprender o diseñar cualquier lenguaje nuevo en pocos días identificando sus mecanismos subyacentes; no se trata de un tutorial para aprender a programar aplicaciones comerciales de inicio a fin en un lenguaje específico, sino de una obra teórica de base que conviene estudiar tras haber experimentado previamente con al menos dos lenguajes de programación dispares.",
+    "temas": [
+      "Lenguajes de programación",
+      "Semántica y sintaxis",
+      "Sistemas de tipos",
+      "Programación funcional",
+      "Programación lógica",
+      "Programación orientada a objetos",
+      "Concurrencia y CSP",
+      "Gestión de memoria",
+      "Prolog",
+      "Haskell",
+      "Entornos de ejecución"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Introduction-to-Programming-Languages/Bansal/p/book/9781466565142",
+      "https://www.amazon.com/Introduction-Programming-Languages-Arvind-Bansal/dp/1466565149"
+    ]
+  },
+  "programming-languages-for-mis-2014": {
+    "descripcion": "Manual académico enfocado en dotar a futuros analistas y profesionales de los Sistemas de Información de Gestión (MIS / IS / IT) de una comprensión amplia y comparativa de los principales lenguajes y entornos de desarrollo empresarial utilizados en la industria. La obra está dirigida a estudiantes universitarios y profesionales de gestión tecnológica de nivel intermedio que cuentan con nociones elementales de computación y lógica, pero necesitan familiarizarse con la diversidad de paradigmas que sustentan los sistemas de información corporativos y las aplicaciones web de la época.\n\nEl contenido recorre de forma secuencial múltiples tecnologías esenciales en el entorno empresarial: programación estructurada y orientada a objetos en C++; desarrollo web del lado del cliente con HTML, hojas de estilo CSS y validación con JavaScript; creación de interfaces gráficas de usuario con VB.NET en Microsoft Visual Studio; desarrollo empresarial fuertemente tipado con C#.NET y creación de aplicaciones web dinámicas con ASP.NET; programación del lado del servidor con scripts PHP vinculados a bases de datos relacionales MySQL; consultas y manipulación de datos mediante SQL; e intercambio e interoperabilidad de información con XML y sus tecnologías asociadas como DTD, XML Schema y hojas de transformación XSLT.\n\nLa propuesta didáctica se divide en dos bloques: un módulo lectivo conceptual y un módulo de proyectos que establece especificaciones, pautas operativas y esquemas de informes técnicos para que el alumno aplique lo aprendido en laboratorios prácticos. El texto sobresale como una visión panorámica de conjunto que ayuda a discernir qué lenguaje adoptar según el problema de negocio planteado, aunque su cobertura de cada lenguaje es forzosamente introductoria y su marco tecnológico de 2014 no contempla la posterior evolución de los estándares web ni las arquitecturas en la nube contemporáneas.",
+    "temas": [
+      "Sistemas de información de gestión",
+      "C++",
+      "VB.NET",
+      "C#.NET",
+      "ASP.NET",
+      "PHP",
+      "MySQL",
+      "SQL",
+      "HTML y CSS",
+      "JavaScript",
+      "XML"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Módulo de proyectos de desarrollo web y bases de datos para MIS",
+        "descripcion": "Propuestas prácticas orientadas a construir aplicaciones de escritorio y páginas web conectadas a bases de datos relacionales mediante Visual Studio, PHP, MySQL y tecnologías de intercambio XML."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.routledge.com/Programming-Languages-for-MIS-Concepts-and-Practice/Wang-Wang/p/book/9781482222661",
+      "https://www.oreilly.com/library/view/programming-languages-for/9781482222661/",
+      "https://www.amazon.com/Programming-Languages-MIS-Concepts-Practice/dp/1482222667"
+    ]
+  },
+  "building-a-debugger-2025": {
+    "descripcion": "Guía técnica y práctica escrita por Sy Brand que desmitifica por completo la mecánica interna de las herramientas de depuración de software en entornos nativos. El libro está dirigido a programadores e ingenieros de software de nivel intermedio a avanzado que dominan el lenguaje C++ y se sienten cómodos trabajando en la terminal de Linux y con la arquitectura de procesadores x86_64, interesados en comprender cómo funcionan por dentro depuradores de la talla de GDB o LLDB a través de una implementación real paso a paso.\n\nA lo largo de sus capítulos, el autor enseña a interactuar directamente con el sistema operativo y el procesador: creación y control de procesos subordinados mediante las llamadas del sistema fork, exec y ptrace en Linux; lectura, volcado y alteración de registros de la CPU x64; establecimiento de breakpoints por software mediante la instrucción int 3 y sobreescritura de memoria; implementación de breakpoints y watchpoints por hardware usando los registros de depuración DR0 a DR7; análisis de ejecutables y bibliotecas en formato binario ELF; interpretación de la información de depuración en formato DWARF (tablas de líneas de código fuente, expresiones DWARF y Call Frame Information); desenrollado de la pila (stack unwinding) para generar trazas de llamadas completas; y gestión de señales UNIX, llamadas al sistema y depuración en entornos con múltiples hilos.\n\nEl núcleo del libro es el desarrollo integral y guiado de un depurador nativo de línea de comandos en C++ moderno denominado sdb (Sy Brand Debugger). Su aportación técnica es sobresaliente, ya que llena un vacío bibliográfico notable unificando conceptos de compiladores, sistemas operativos, formatos binarios y arquitectura de computadoras en un solo proyecto funcional; no obstante, su alcance se centra con exclusividad en la plataforma Linux y la arquitectura x64, dejando fuera arquitecturas como ARM y sistemas operativos como Windows.",
+    "temas": [
+      "Depuración nativa",
+      "C++ moderno",
+      "Arquitectura x64",
+      "Linux ptrace",
+      "Formato ELF",
+      "Información DWARF",
+      "Breakpoints y watchpoints",
+      "Stack unwinding",
+      "Llamadas al sistema",
+      "Multithreading"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "sdb (Sy Brand Debugger)",
+        "descripcion": "Depurador nativo completo para Linux en arquitectura x64 programado en C++ moderno, capaz de pausar y rastrear procesos con ptrace, manipular registros, gestionar puntos de interrupción por software y hardware, leer símbolos ELF/DWARF y reconstruir la pila de llamadas."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/building-a-debugger",
+      "https://github.com/TartanLlama/sdb",
+      "https://blog.tartanllama.xyz/posts/writing-a-linux-debugger/setup/",
+      "https://www.oreilly.com/library/view/building-a-debugger/9781098177546/"
+    ]
+  },
+  "how-computers-really-work-2021": {
+    "descripcion": "Tratado pedagógico y experimental escrito por Matthew Justice (veterano ingeniero de Microsoft) que traza un puente tangible entre la física electrónica y el software de alto nivel. La obra está concebida para desarrolladores de software, estudiantes de ciencias de la computación y entusiastas de nivel intermedio que conocen nociones básicas de programación y desean comprender a fondo qué ocurre en el interior de la máquina a cada paso, sin necesidad de poseer formación previa en ingeniería eléctrica.\n\nEl recorrido temático asciende progresivamente por todos los estratos de la computación: leyes fundamentales de los circuitos eléctricos (Ohm y Kirchhoff), señales de reloj y álgebra de Boole; diseño de compuertas lógicas digitales, decodificadores y sumadores de bits; funcionamiento interno de la memoria RAM y arquitectura de la CPU; traducción de instrucciones en código máquina y ensamblador; programación de bajo nivel y gestión de memoria con lenguaje C; abstracciones de alto nivel con scripts en Python; responsabilidades del sistema operativo en la administración de procesos, hilos y memoria virtual; y los fundamentos de las redes de datos, direccionamiento IP, sockets TCP/IP y el protocolo HTTP que sustenta la web.\n\nEl aprendizaje se afianza mediante 41 proyectos prácticos opcionales repartidos entre el ensamblado de circuitos físicos sobre protoboard (usando componentes discretos, multímetro y chips lógicos estándar) y el desarrollo de programas de red y utilidades en una Raspberry Pi (como escáneres de puertos y servidores web caseros). El libro proporciona una intuición visual inestimable para comprender la computadora como un todo integrado; por su propia naturaleza panorámica, sacrifica profundidad matemática y exhaustividad en cada tecnología, funcionando como un excelente mapa global antes de profundizar en compiladores o arquitectura avanzada.",
+    "temas": [
+      "Arquitectura de computadoras",
+      "Circuitos digitales",
+      "Puertas lógicas",
+      "Álgebra booleana",
+      "Lenguaje ensamblador",
+      "Lenguaje C",
+      "Python",
+      "Sistemas operativos",
+      "Redes TCP/IP",
+      "Raspberry Pi",
+      "Electrónica con protoboard"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Circuitos lógicos y sumador digital en protoboard",
+        "descripcion": "Construcción física sobre una placa de pruebas de circuitos con compuertas lógicas integradas, interruptores y diodos LED para verificar tablas de verdad y crear un sumador aritmético de bits funcional."
+      },
+      {
+        "nombre": "Laboratorio de software, ensamblador y red en Raspberry Pi",
+        "descripcion": "Serie de prácticas guiadas ejecutadas en Linux sobre una Raspberry Pi que abarcan la ejecución de código en ensamblador y C, análisis con depuradores y la programación de un escáner de puertos y un servidor web elemental en Python."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/how-computers-really-work",
+      "https://www.oreilly.com/library/view/how-computers-really/9781718500297/",
+      "https://www.amazon.com/How-Computers-Really-Work-Hands/dp/1718500298"
+    ]
+  },
+  "the-secret-life-of-programs-2019": {
+    "descripcion": "Manual divulgativo de arquitectura y fundamentos de sistemas escrito por el experimentado ingeniero Jon Steinhart y publicado por No Starch Press. Está orientado a desarrolladores principiantes e intermedios que ya dominan algún lenguaje de programación de alto nivel (como JavaScript, Python o Java) pero no han cursado una carrera tradicional en ciencias de la computación, con el propósito de revelarles los mecanismos invisibles que determinan la velocidad, la fiabilidad y el comportamiento de sus programas.\n\nLa obra desglosa con gran detalle la codificación binaria de números enteros, aritmética en complemento a dos, punto flotante bajo el estándar IEEE 754 y formatos de caracteres como ASCII y Unicode; la lógica combinacional y secuencial a nivel de transistores, compuertas y biestables (flip-flops); la anatomía de una computadora, incluyendo unidades aritmético-lógicas (ALU), registros de memoria y buses; la interacción entre compiladores, intérpretes, ensambladores y máquinas virtuales para transformar código fuente en instrucciones máquina; la arquitectura interna de los navegadores web modernos; problemas habituales en la programación concurrente como condiciones de carrera y bloqueos mutuos (deadlocks); así como nociones básicas de criptografía, seguridad y fiabilidad del software.\n\nEl planteamiento del libro es predominantemente conceptual y analítico, prescindiendo de problemas de examen o proyectos de programación continuados, y valiéndose de diagramas esquemáticos claros y pequeños fragmentos de código ilustrativos (en su mayoría en C y pseudocódigo). Su mayor aportación consiste en unir disciplinas que suelen estudiarse aisladas, otorgando al programador el criterio técnico necesario para anticipar cuellos de botella y comprender qué sucede en la máquina tras cada línea de código; no obstante, quien busque un manual práctico guiado con tareas de codificación paso a paso deberá complementar su lectura con proyectos personales.",
+    "temas": [
+      "Arquitectura de computadoras",
+      "Representación binaria",
+      "Lógica digital",
+      "Compiladores y ensambladores",
+      "Gestión de memoria",
+      "Concurrencia y deadlocks",
+      "Seguridad informática",
+      "Optimización de software",
+      "Navegadores web",
+      "Sistemas operativos"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/secretlifeofprograms",
+      "https://www.oreilly.com/library/view/the-secret-life/9781098124977/",
+      "https://www.amazon.com/Secret-Life-Programs-Understand-Computers/dp/1593279700"
+    ]
+  },
+  "write-great-code-volume-1-2nd-edition-2020": {
+    "descripcion": "Segunda edición minuciosamente revisada de la obra de referencia de Randall Hyde, diseñada para enseñar a los desarrolladores de alto nivel cómo piensa y opera realmente el hardware de la computadora. El libro está dirigido a programadores y estudiantes de informática de nivel básico e intermedio que ya programan en lenguajes modernos como C, C++, Java, C#, Swift o Python, y buscan perfeccionar la calidad y el rendimiento de su código entendiendo a bajo nivel cómo se traducen sus instrucciones en la máquina, sin necesidad de aprender a programar en ensamblador.\n\nEl autor profundiza exhaustivamente en la representación interna de datos: enteros con y sin signo, complemento a dos, números en punto flotante según la norma IEEE 754, operaciones aritméticas binarias y manipulación de bits; codificación de texto y manipulación eficiente de cadenas mediante ASCII y Unicode/UTF-8; organización física de la memoria, alineación de bytes y cálculo de direcciones para tipos compuestos como matrices, estructuras y punteros; fundamentos de lógica booleana y diseño digital; arquitectura de la CPU, segmentación de instrucciones (pipelining) y familias de conjuntos de instrucciones (ISA), integrando el funcionamiento de microprocesadores x86-64 y arquitecturas ARM contemporáneas; jerarquía de memorias, explotación efectiva de las cachés L1/L2/L3, latencias de la RAM y características de almacenamiento en unidades de estado sólido (SSD); junto con los mecanismos de comunicación de entrada/salida (I/O).\n\nEl enfoque de la obra es teórico y analítico, complementado con abundantes diagramas de disposición en memoria y ejemplos comparativos en diversos lenguajes que evidencian el coste en ciclos de reloj y consumo de memoria de cada decisión arquitectónica, prescindiendo deliberadamente de ejercicios de autoevaluación o proyectos cerrados. Su valor radica en dotar al desarrollador de un modelo mental riguroso para optimizar la localidad espacial y temporal de sus aplicaciones y evitar ineficiencias estructurales; como contrapartida, se centra en la máquina y en la representación de datos, delegando los aspectos de traducción de instrucciones y compilación en el segundo volumen de la serie.",
+    "temas": [
+      "Arquitectura de computadoras",
+      "Organización de memoria",
+      "Procesadores x86-64 y ARM",
+      "Representación numérica",
+      "Punto flotante IEEE 754",
+      "Aritmética binaria",
+      "Alineación de memoria",
+      "Jerarquía de caché",
+      "Tipos de datos compuestos",
+      "Optimización de software"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/write-great-code-volume-1-2nd-edition",
+      "https://www.oreilly.com/library/view/write-great-code/9781098124991/",
+      "https://www.amazon.com/Write-Great-Code-Vol-Understanding/dp/1718500360"
+    ]
+  },
+  "write-great-code-volume-2-2nd-edition-2020": {
+    "descripcion": "Segunda edición de la clásica obra de Randall Hyde, publicada por No Starch Press (2020), enfocada en desmitificar cómo los compiladores traducen el código de alto nivel a lenguaje máquina y cómo «pensar en bajo nivel» para producir código mucho más rápido y eficiente. Está dirigida a desarrolladores de nivel básico e intermedio que ya programan en lenguajes estructurados u orientados a objetos (como C, C++, Java, Swift o C#) pero desconocen el coste computacional exacto de las abstracciones que eligen y desean optimizar el rendimiento sin tener que programar manualmente en ensamblador.\n\nEl libro aborda en profundidad la anatomía de los compiladores modernos y cómo convierten constantes, variables, tipos primitivos, arrays, punteros y estructuras compuestas en datos máquina. Analiza la traducción de estructuras de control (bucles for, while, condicionales if-else, bifurcaciones switch/case), llamadas a subrutinas, gestión del call stack, mecanismos de paso de parámetros (por valor y por referencia) y la sobrecarga del despacho dinámico en métodos virtuales. Para ilustrarlo, examina la salida en código ensamblador generado por compiladores como GCC y Clang en arquitecturas modernas x86-64 y procesadores ARM (habituales en dispositivos móviles), además de inspeccionar arquitecturas basadas en pila como la Máquina Virtual de Java (JVM) y el Common Language Runtime (CLR) de Microsoft .NET.\n\nNo es un curso práctico para aprender a programar en ensamblador ni guía el desarrollo de un proyecto de software de principio a fin; su dinámica se basa en la disección meticulosa de fragmentos de código fuente y el análisis de su correspondiente desensamblado. Hyde aporta una intuición invaluable para identificar cuellos de botella generados inadvertidamente por abstracciones de alto nivel y seleccionar construcciones sintácticas amigables para el optimizador del compilador. Quedan fuera aspectos de hardware físico y microarquitectura (tratados en el volumen 1 de la saga), por lo que conviene contar con nociones elementales sobre la CPU y desenvolverse con soltura leyendo sintaxis similar a C.",
+    "temas": [
+      "Compiladores",
+      "Optimización de código",
+      "Arquitectura x86-64",
+      "Arquitectura ARM",
+      "Ensamblador",
+      "JVM",
+      ".NET CLR",
+      "Estructuras de control",
+      "Gestión de memoria",
+      "Punteros y arrays",
+      "Generación de código"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://nostarch.com/writegreatcode2",
+      "https://www.oreilly.com/library/view/write-great-code/9781718500389/",
+      "https://www.amazon.com/Write-Great-Code-Thinking-Low-Level/dp/1718500381"
+    ]
+  },
+  "understanding-compression-2016": {
+    "descripcion": "Guía conceptual y técnica publicada por O'Reilly Media en 2016, obra de Colt McAnlis y Aleks Haecky, orientada a explicar los principios y algoritmos fundamentales de compresión de datos de forma clara y accesible. Está pensada para ingenieros de software y desarrolladores de nivel intermedio (web, móvil y backend) que buscan reducir el consumo de ancho de banda, la latencia de transferencia de red y los costes de almacenamiento, sin requerir formación matemática avanzada ni especialización previa en teoría de señales.\n\nEl texto descompone metódicamente las principales familias de compresión mediante explicaciones intuitivas y ejemplos ilustrativos. Aborda la teoría de la información de Shannon, el concepto de entropía, la codificación por longitud de series (RLE) y los códigos de longitud variable. Enseña métodos estadísticos como la codificación Huffman y la codificación aritmética, transformaciones basadas en diccionarios como LZ77, LZ78 y LZW, y técnicas de modelado de contexto. Además, analiza los compromisos entre compresión con pérdidas (lossy) y sin pérdidas (lossless), el impacto del empaquetado de formatos serializados (JSON, Protocol Buffers, FlatBuffers) y las peculiaridades del tratamiento de imágenes en formatos como JPEG, PNG y WebP.\n\nEl libro no propone la construcción de un compresor completo de software ni un repositorio de ejercicios guiados de programación; su enfoque es fundamentalmente explicativo, empleando tablas, diagramas y analogías para comprender qué sucede a nivel de bits en cada etapa. Su gran valor reside en eliminar el misterio detrás de librerías como zlib, gzip o Brotli, brindando el criterio arquitectónico necesario para decidir qué técnica aplicar o cómo preparar y limpiar los datos antes de comprimirlos. Queda fuera la implementación de código en producción optimizado a bajo nivel, por lo que resulta ideal como base teórica antes de configurar middlewares o pipelines de transporte de datos.",
+    "temas": [
+      "Compresión de datos",
+      "Teoría de la información",
+      "Codificación Huffman",
+      "Algoritmo LZ77",
+      "Algoritmo LZ78",
+      "Codificación aritmética",
+      "Compresión con y sin pérdidas",
+      "Formatos de imagen",
+      "Serialización de datos",
+      "Optimización de ancho de banda"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/understanding-compression/9781491961520/",
+      "https://www.amazon.com/Understanding-Compression-Data-Modern-Developers/dp/1491961538",
+      "https://www.goodreads.com/book/show/29875881-understanding-compression"
+    ]
+  },
+  "fire-in-the-valley-2014": {
+    "descripcion": "Crónica histórica de referencia sobre el nacimiento, la explosión comercial y la transformación de la informática personal, adaptada y ampliada en su tercera edición por The Pragmatic Programmers (2014) de la mano de los periodistas tecnológicos Michael Swaine y Paul Freiberger. Es un libro narrativo de divulgación general para programadores, estudiantes y aficionados a la tecnología que desean entender las raíces socioculturales y empresariales que configuraron Silicon Valley y la industria de la computación, sin necesidad de conocimientos técnicos previos.\n\nLa obra reconstruye el surgimiento de los primeros microordenadores en la década de 1970, el espíritu colaborativo del Homebrew Computer Club y el impacto de máquinas pioneras como el MITS Altair 8800, el IMSAI 8080 y los míticos Apple I y II. Detalla la gestación del software que definió la era: el desarrollo del intérprete de BASIC por Bill Gates y Paul Allen, el auge de CP/M creado por Gary Kildall y la posterior adopción corporativa de MS-DOS junto al PC de IBM. Asimismo, relata la invención del ratón y la interfaz gráfica de usuario en Xerox PARC, las encarnizadas guerras comerciales entre Apple, Microsoft, Commodore e Intel, y amplía el recorrido en esta tercera edición hacia la era post-PC, explorando la influencia de la computación móvil, el software libre, la nube y el legado de Steve Jobs.\n\nAl tratarse de una investigación histórica y un relato documental de no ficción, no contiene ejercicios de código ni proyectos de programación. Su valor es formativo e inspirador: ofrece un contexto imprescindible para comprender por qué el software y el hardware evolucionaron hasta los estándares actuales y cómo las decisiones de un puñado de aficionados en talleres y garajes transformaron la sociedad global. No debe abordarse esperando especificaciones técnicas de bajo nivel, sino como una lectura enriquecedora que aporta perspectiva cultural a cualquier desarrollador de software.",
+    "temas": [
+      "Historia de la computación",
+      "Silicon Valley",
+      "Homebrew Computer Club",
+      "Altair 8800",
+      "Apple",
+      "Microsoft",
+      "Sistemas operativos",
+      "Xerox PARC",
+      "Revolución del PC",
+      "Era post-PC",
+      "Industria del software"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://pragprog.com/titles/fsfire/fire-in-the-valley-third-edition/",
+      "https://www.amazon.com/Fire-Valley-Birth-Personal-Computer/dp/1937785769",
+      "https://www.goodreads.com/book/show/20485603-fire-in-the-valley"
+    ]
+  }
+}

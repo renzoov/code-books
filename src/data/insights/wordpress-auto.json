@@ -1,0 +1,481 @@
+{
+  "building-your-online-store-with-wordpress-and-woocommerce-2018": {
+    "descripcion": "Manual práctico de Lisa Sims orientado a la creación y gestión de tiendas virtuales utilizando WordPress (versión 4.9 y principios de la 5.x) junto al plugin de comercio electrónico WooCommerce 3.x. La obra está dirigida a emprendedores, pequeños empresarios y profesionales digitales de nivel básico a intermedio que quieren comercializar productos en línea de manera autónoma sin necesidad de escribir código ni contar con experiencia previa en desarrollo web, bastando con un manejo elemental del ordenador e internet.\n\nEl libro explica paso a paso la configuración de la infraestructura comercial: selección y configuración de dominio y hosting, instalación de WordPress y activación de WooCommerce mediante su asistente inicial. Detalla la elección e instalación de temas optimizados para tiendas (como Storefront), la creación de catálogos con productos simples, variables (por atributos como talla o color) y descargables/virtuales, la integración de pasarelas de pago como PayPal y Stripe, la definición de zonas y tarifas de envío, el cálculo impositivo, el endurecimiento de la seguridad con certificados SSL y copias de respaldo, y la incorporación de extensiones de marketing y analítica para captar clientes.\n\nLa práctica se articula en torno a la construcción guiada de una tienda en línea operativa, configurando su catálogo, pasarelas de pago y simulando compras reales en entornos de prueba (sandbox) para verificar el procesamiento de pedidos y correos transaccionales. Su gran valor radica en su lenguaje directo y accesible para poner en marcha un negocio digital sin fricciones técnicas; no obstante, prescinde por completo del desarrollo de temas hijo con PHP, ganchos (hooks) de WooCommerce o maquetación avanzada con CSS. Resulta idóneo para quienes necesitan un canal de venta funcional sin depender de desarrolladores externos.",
+    "temas": [
+      "WordPress",
+      "WooCommerce",
+      "Comercio electrónico",
+      "Catálogo de productos",
+      "Productos variables",
+      "PayPal",
+      "Stripe",
+      "Pasarelas de pago",
+      "Envíos e impuestos",
+      "Seguridad en e-commerce"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tienda en línea integral con WordPress y WooCommerce",
+        "descripcion": "Comercio electrónico completo para productos físicos y digitales descargables, configurado con catálogo estructurado, pasarelas de pago como PayPal y Stripe, reglas de envío, cálculo impositivo y flujo de checkout optimizado."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3846-2",
+      "https://www.apress.com/gp/book/9781484238455",
+      "https://www.amazon.com/Building-Your-Online-WordPress-WooCommerce/dp/1484238458",
+      "https://www.oreilly.com/library/view/building-your-online/9781484238462/"
+    ]
+  },
+  "building-web-apps-with-wordpress-2014": {
+    "descripcion": "Obra especializada de Brian Messenlehner y Jason Coleman que propone utilizar WordPress (en sus versiones 3.8 y 3.9) no solo como un gestor de contenidos o blog, sino como un framework completo para el desarrollo de aplicaciones web. Está pensada para desarrolladores web y programadores PHP de nivel intermedio que ya conocen el funcionamiento básico de WordPress y desean construir plataformas complejas, requiriendo un dominio solvente de PHP orientado a objetos, MySQL, JavaScript y conceptos de arquitectura web.\n\nLos autores contrastan la arquitectura de WordPress con frameworks MVC tradicionales, enseñando a emplear temas como capas de presentación y plugins como controladores de lógica. El contenido cubre en profundidad la creación de Custom Post Types (CPTs) y taxonomías a medida, la gestión avanzada de usuarios, roles y capacidades (current_user_can), la manipulación directa de la base de datos y esquemas personalizados con la clase $wpdb, la implementación de interactividad asíncrona mediante AJAX y jQuery, la integración con APIs externas a través de la HTTP API de WordPress, la gestión de suscripciones de pago mediante plugins como Paid Memberships Pro, el desarrollo de redes WordPress Multisite y el empaquetado de aplicaciones móviles para iOS y Android utilizando PhoneGap/Apache Cordova.\n\nEl hilo conductor práctico del libro es el desarrollo y análisis de SchoolPress, una plataforma web de gestión escolar y red colaborativa que integra BuddyPress, CPTs y plugins a medida para coordinar aulas virtuales, tareas y calificaciones. El libro aporta una visión transformadora sobre el potencial de WordPress para productos digitales robustos y escalables; sin embargo, al pertenecer a la primera edición de 2014, no cubre la REST API oficial consolidada ni el editor de bloques Gutenberg, apoyándose en técnicas de AJAX clásico con admin-ajax.php. Es una referencia técnica muy formativa para comprender las tripas del CMS.",
+    "temas": [
+      "WordPress",
+      "PHP",
+      "Custom Post Types",
+      "Taxonomías",
+      "Hooks y Filtros",
+      "BuddyPress",
+      "WordPress Multisite",
+      "AJAX con jQuery",
+      "PhoneGap",
+      "Paid Memberships Pro",
+      "Escalabilidad y rendimiento"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "SchoolPress",
+        "descripcion": "Aplicación web de gestión escolar y aprendizaje social construida sobre WordPress Multisite y BuddyPress, que permite a profesores y estudiantes organizar aulas virtuales, publicar asignaciones mediante Custom Post Types y calificar entregas de forma colaborativa."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/building-web-apps/9781449364779/",
+      "https://www.amazon.com/Building-Web-Apps-WordPress-Application/dp/1449364402",
+      "https://github.com/strangerstudios/schoolpress"
+    ]
+  },
+  "wordpress-for-web-developers-2013": {
+    "descripcion": "Guía técnica escrita por Stephanie Leary (segunda edición que actualiza y reorganiza su obra previa Beginning WordPress 3) que acompaña a los profesionales web en la transición desde la administración de WordPress (versiones 3.5 y 3.6) hacia el desarrollo a medida. Está dirigida a diseñadores, maquetadores y programadores web principiantes o intermedios que dominan HTML y CSS y poseen nociones elementales de PHP, interesados en transformar WordPress en un gestor de contenidos profesional adaptado a las especificaciones de sus clientes.\n\nEl libro abarca desde la configuración del servidor y la puesta en marcha de redes WordPress Multisite hasta técnicas de optimización de rendimiento (caching, compresión de recursos) y endurecimiento de la seguridad. En la faceta de desarrollo, profundiza en la jerarquía de plantillas (Template Hierarchy), el bucle principal (The Loop), funciones de plantilla (template tags), diseño de temas hijos (child themes), uso del personalizador de temas (Theme Customizer) y programación en functions.php. Asimismo, aborda la creación de plugins propios apoyándose en la Settings API de WordPress, el registro de Custom Post Types, taxonomías personalizadas, shortcodes y widgets tanto para la barra lateral como para el panel de administración.\n\nLa parte práctica guía la creación desde cero de un tema personalizado adaptativo y el desarrollo de pequeños plugins funcionales para incorporar elementos dinámicos como widgets, atajos (shortcodes) y campos de perfil adicionales. El texto destaca por su claridad pedagógica para cerrar la brecha entre el diseño visual y el código PHP de WordPress, sin asumir conocimientos avanzados de programación orientada a objetos; no obstante, su contexto temporal excluye herramientas modernas como Gutenberg, React o la WP REST API. Es un excelente punto de partida para diseñadores que quieren empezar a programar en el ecosistema WordPress.",
+    "temas": [
+      "WordPress",
+      "Desarrollo de temas",
+      "Desarrollo de plugins",
+      "The Loop",
+      "Template Hierarchy",
+      "Child Themes",
+      "Custom Post Types",
+      "WordPress Multisite",
+      "Settings API",
+      "Seguridad y rendimiento"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tema personalizado para WordPress",
+        "descripcion": "Plantilla desarrollada desde cero respetando la jerarquía de archivos de WordPress, con maquetación CSS responsiva, soporte para The Loop, áreas de widgets, menús y opciones configurables desde el Theme Customizer."
+      },
+      {
+        "nombre": "Plugins de extensión funcional",
+        "descripcion": "Conjunto de complementos en PHP que registran Custom Post Types, taxonomías a medida, shortcodes para el editor y widgets personalizados para la barra lateral y el escritorio de administración."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-5867-4",
+      "https://www.apress.com/gp/book/9781430258667",
+      "https://www.amazon.com/WordPress-Web-Developers-Introduction-Professionals/dp/1430258668",
+      "https://www.goodreads.com/book/show/17675122-wordpress-for-web-developers"
+    ]
+  },
+  "head-first-wordpress-2010": {
+    "descripcion": "Introducción gráfica y formativa escrita por Jeff Siarto, perteneciente a la célebre serie Head First de O'Reilly, que enseña a dominar WordPress (versiones 2.9 y 3.0) mediante un enfoque basado en ciencias cognitivas y aprendizaje visual. Está concebida para principiantes absolutos, creadores de contenido, blogueros y entusiastas del diseño web que no tienen experiencia previa en programación, servidores ni bases de datos, y que desean comprender el funcionamiento interno de la plataforma sin verse abrumados por explicaciones densas o puramente teóricas.\n\nA través de ilustraciones, diagramas paso a paso y retos prácticos, la obra enseña a desplegar un servidor local o remoto, crear una base de datos MySQL y ejecutar la clásica instalación de WordPress configurando el archivo wp-config.php. Cubre la administración del panel de control, la organización de contenidos con categorías y etiquetas, la moderación de comentarios y prevención de spam mediante plugins como Akismet, y la personalización visual desglosando la estructura de archivos de plantilla PHP (header.php, footer.php, sidebar.php, index.php) y hojas de estilo CSS. Además, introduce la integración de multimedia (audio y video), la sindicación y publicación de canales de podcasting con RSS, la instalación de complementos esenciales y recomendaciones básicas de seguridad y velocidad de carga.\n\nEl lector aprende construyendo y personalizando de principio a fin su propio blog y sitio web interactivo, transformando maquetas HTML/CSS estáticas en plantillas dinámicas de WordPress e incorporando funciones multimedia y podcasting, todo reforzado con acertijos, cuestionarios y ejercicios visuales al final de cada capítulo. Su gran fortaleza es su accesibilidad pedagógica y el estímulo para perder el miedo a tocar código PHP básico; como aspecto a considerar, su publicación en 2010 hace que la interfaz y funciones como el gestor de menús moderno (wp_nav_menu), los bloques de Gutenberg o los estándares actuales de seguridad queden fuera. Resulta ideal como primer contacto conceptual con los fundamentos de un CMS.",
+    "temas": [
+      "WordPress",
+      "Instalación de CMS",
+      "MySQL",
+      "Plantillas PHP",
+      "CSS",
+      "Plugins de WordPress",
+      "Podcasting",
+      "Sindicación RSS",
+      "Gestión de comentarios",
+      "Optimización y seguridad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Blog personalizado con soporte multimedia",
+        "descripcion": "Sitio web y blog dinámico creado desde la configuración inicial de MySQL hasta la edición de plantillas PHP y estilos CSS, con integración de reproductores multimedia y sindicación de canales de podcasting vía RSS."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/head-first-wordpress/9780596806286/",
+      "https://www.amazon.com/Head-First-WordPress-Friendly-Creating/dp/0596806286",
+      "https://www.goodreads.com/book/show/7112028-head-first-wordpress"
+    ]
+  },
+  "wordpress-the-missing-manual-2012": {
+    "descripcion": "Manual exhaustivo y accesible orientado a principiantes y creadores de contenido que desean dominar WordPress en su versión 3.x (específicamente WordPress 3.3 y 3.4), sin asumir conocimientos previos de programación ni administración de servidores. Matthew MacDonald aborda con un lenguaje didáctico y libre de tecnicismos tanto la alternativa alojada en la nube (WordPress.com) como la instalación autónoma autoalojada (WordPress.org), explicando cuándo conviene elegir cada una y cómo dar los primeros pasos desde cero.\n\nA lo largo de sus capítulos se explican la configuración del entorno web (servidores LAMP o WAMP, hosting cPanel, clientes FTP y bases de datos MySQL), la gestión editorial de entradas, páginas estáticas, categorías, etiquetas y formatos de medios (galerías de imágenes, inserción de audio, vídeo y podcasts). Además, profundiza en el ecosistema de temas y widgets, el sistema de comentarios con moderación antispam mediante Akismet, la asignación de roles de usuario (administrador, editor, autor, colaborador), la optimización SEO básica mediante plugins y la personalización estética editando hojas de estilo CSS y nociones esenciales de plantillas PHP en temas hijo.\n\nLa obra guía al lector en la transformación paulatina de una bitácora personal en un sitio web profesional y corporativo con menús de navegación avanzados y formularios de contacto. Su mayor virtud radica en desmitificar el mantenimiento de un sitio WordPress, ofreciendo pautas sólidas sobre respaldos, seguridad contra ataques e intrusiones, y procesos de migración desde WordPress.com. Aunque no profundiza en desarrollo de plugins desde cero ni en arquitectura backend avanzada, es una referencia fundamental para administradores, redactores y diseñadores que necesitan entender a fondo cómo opera el gestor de contenidos.",
+    "temas": [
+      "WordPress 3",
+      "WordPress.com vs WordPress.org",
+      "Gestión de contenidos",
+      "Temas y Widgets",
+      "Roles de usuario",
+      "Galerías y multimedia",
+      "Plugins y extensiones",
+      "Optimización SEO",
+      "Seguridad y copias de seguridad",
+      "Migración web"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sitio web corporativo y blog multimedia",
+        "descripcion": "Construcción y configuración paso a paso de un sitio web funcional con blog integrado, menús personalizados, widgets, galerías interactivas, formulario de contacto y roles colaborativos sobre WordPress 3.x."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/wordpress-the-missing/9781449341909/",
+      "https://www.amazon.com/WordPress-Missing-Matthew-MacDonald/dp/1449309848",
+      "https://www.goodreads.com/book/show/13096232-wordpress"
+    ]
+  },
+  "wordpress-plugin-development-cookbook-2012": {
+    "descripcion": "Recetario eminentemente práctico enfocado en desarrolladores web y programadores PHP de nivel intermedio que desean crear extensiones a medida para WordPress 3.x (particularmente WordPress 3.4). La obra asume familiaridad con la sintaxis fundamental de PHP, nociones básicas de MySQL y JavaScript/HTML/CSS, y sitúa al lector directamente en el flujo de trabajo profesional de creación de plugins seguros y modulares.\n\nA través de más de 80 recetas guiadas, el autor desglosa el uso de los hooks del núcleo (actions y filters mediante add_action y add_filter), la Settings API, Options API, la clase WP_Widget, y la creación de tipos de contenido personalizados (Custom Post Types) y taxonomías con register_post_type y register_taxonomy, además de meta boxes en el panel de edición. También aborda la manipulación de la base de datos con la clase $wpdb y dbDelta, la inserción de scripts con wp_enqueue_script, la ejecución de peticiones asíncronas vía AJAX con admin-ajax.php, la seguridad mediante nonces y funciones de escape/sanitización (wp_nonce_field, esc_html), y la internacionalización (i18n) con Gettext y archivos .po y .mo.\n\nEl libro enseña a construir utilidades de software reales: shortcodes dinámicos, paneles de configuración en el dashboard, widgets interactivos y tablas personalizadas de base de datos para almacenar datos externos, culminando con el empaquetado y control de versiones con Subversion (SVN) para el repositorio oficial de WordPress.org. No aborda el desarrollo de temas ni la posterior REST API o el editor de bloques Gutenberg, pero constituye una base técnica indispensable sobre la arquitectura de extensiones del CMS.",
+    "temas": [
+      "WordPress 3",
+      "Desarrollo de plugins",
+      "Action y Filter Hooks",
+      "Settings API",
+      "Custom Post Types",
+      "Shortcodes",
+      "Widgets API",
+      "Base de datos y $wpdb",
+      "AJAX en WordPress",
+      "Seguridad y Nonces",
+      "Internacionalización (i18n)",
+      "Subversion (SVN)"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/product/wordpress-plugin-development-cookbook/9781849517683",
+      "https://www.amazon.com/WordPress-Plugin-Development-Cookbook-Lefebvre/dp/1849517681",
+      "https://www.goodreads.com/book/show/15729786-wordpress-plugin-development-cookbook",
+      "https://wpdeveloping.com/"
+    ]
+  },
+  "wordpress-theme-development-3rd-edition-2013": {
+    "descripcion": "Guía de iniciación al diseño y desarrollo de temas para WordPress 3.x (versión 3.5), escrita por Rachel McCollin y Tessa Blakeley Silver. Está dirigida a maquetadores y diseñadores web con conocimientos básicos o intermedios de HTML5 y CSS3 que desean dar el salto de sitios estáticos a plantillas dinámicas en WordPress, sin requerir una experiencia previa profunda en programación PHP.\n\nEl libro explica de forma gradual la jerarquía de plantillas de WordPress (Template Hierarchy), la conversión de maquetas estáticas en archivos modulares (header.php, footer.php, sidebar.php, index.php, single.php, page.php), el funcionamiento de The Loop y los template tags nativos. Asimismo, detalla cómo activar soporte de características nativas en functions.php (imágenes destacadas con add_theme_support, menús de navegación con wp_nav_menu, barras laterales con register_sidebar), la incorporación de estilos responsivos con CSS3 y la integración con el Personalizador de temas (Theme Customizer).\n\nA lo largo de la obra se construye un tema de WordPress completo y adaptable (responsive) desde el boceto inicial hasta su empaquetado final, aplicando validación de código, depuración, pautas de accesibilidad web y buenas prácticas de SEO. Deja fuera el desarrollo de plugins complejos y arquitecturas avanzadas tipo headless, pero constituye un recurso de aprendizaje altamente pedagógico para dominar cómo interactúan el frontend y el motor de plantillas clásico de WordPress.",
+    "temas": [
+      "WordPress 3.5",
+      "Desarrollo de temas",
+      "Template Hierarchy",
+      "The Loop",
+      "Template Tags",
+      "functions.php",
+      "HTML5 y CSS3",
+      "Diseño responsivo",
+      "Theme Customizer",
+      "Menús y Sidebars",
+      "Accesibilidad web"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tema personalizado responsivo para WordPress",
+        "descripcion": "Creación paso a paso de un tema de WordPress dinámico y adaptativo a partir de maquetas HTML5/CSS3, con jerarquía de plantillas completa, menús editables, áreas de widgets y soporte para el Personalizador nativo."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/product/wordpress-theme-development-beginners-guide-third-edition/9781849514224",
+      "https://www.amazon.com/WordPress-Theme-Development-Beginners-Guide/dp/1849514224",
+      "https://www.goodreads.com/book/show/17697473-wordpress-theme-development-beginner-s-guide"
+    ]
+  },
+  "wordpress-web-application-development-2nd-edition-2016": {
+    "descripcion": "Manual técnico que reimagina a WordPress en su versión 4.x (versiones 4.1 a 4.3) como un framework integral para el desarrollo de aplicaciones web complejas, superando su concepción clásica de gestor de blogs o contenidos. Está pensado para desarrolladores con base sólida en PHP, MySQL, JavaScript y administración de WordPress que buscan crear sistemas web interactivos, portales SaaS o herramientas corporativas aprovechando los componentes ya provistos por el núcleo del CMS.\n\nEl contenido analiza cómo implementar conceptos de arquitectura MVC sobre el modelo orientado a eventos y hooks de WordPress. Cubre la creación de esquemas y tablas personalizadas en MySQL mediante la clase $wpdb y dbDelta, la gestión granular de roles y capacidades con add_role y current_user_can, la construcción de interfaces enriquecidas en el panel de administración con WP_List_Table, y la reescritura de URLs con la Rewrite API (add_rewrite_rule). Además, enseña a integrar librerías JavaScript como jQuery y Backbone.js, consumir e interactuar con servicios externos mediante la HTTP API (wp_remote_get, wp_remote_post), e integrar los primeros pasos de la WP REST API y XML-RPC.\n\nA través de sus capítulos se desarrolla un proyecto central: una aplicación web de gestión de portafolios y proyectos para clientes (Portfolio Management Application), donde convergen autenticación de usuarios por roles, carga de archivos, seguimiento de tareas, listados dinámicos con AJAX y pasarelas de comunicación externa. Deja de lado los blogs convencionales y el maquetado visual de temas para centrarse en lógica de negocio, rendimiento y seguridad de aplicaciones. Resulta una lectura clave para transformar a WordPress en el backend de proyectos a medida.",
+    "temas": [
+      "WordPress 4",
+      "WordPress como framework",
+      "Arquitectura de aplicaciones web",
+      "Roles y capacidades",
+      "Base de datos y $wpdb",
+      "WP_List_Table",
+      "Rewrite API y Enrutamiento",
+      "AJAX y jQuery",
+      "Backbone.js",
+      "WP REST API",
+      "HTTP API"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portfolio Management Application",
+        "descripcion": "Aplicación web completa montada sobre WordPress para gestionar portafolios, proyectos, clientes y tareas, con paneles personalizados en el dashboard, tablas personalizadas de base de datos, control de acceso por roles y flujos asíncronos con AJAX."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.packtpub.com/product/wordpress-web-application-development-second-edition/9781783988563",
+      "https://www.amazon.com/WordPress-Application-Development-Rakhitha-Ratnayake/dp/1783988568",
+      "https://www.goodreads.com/book/show/25732159-wordpress-web-application-development---second-edition"
+    ]
+  },
+  "build-your-own-wicked-wordpress-themes-2010": {
+    "descripcion": "Manual práctico de diseño y desarrollo orientado a la creación de temas comerciales para WordPress en la era de transición hacia WordPress 3.0. Escrito por Allan Cole, Brandon R. Jones, Jeffrey Way y Raena Jackson Armitage, el texto está concebido para diseñadores web y maquetadores que dominan HTML y CSS y desean aprender a estructurar, personalizar y comercializar plantillas profesionales para clientes o mercados digitales.\n\nLa obra se centra en el uso de frameworks de temas —principalmente Thematic— para evitar reinventar la rueda y acelerar la producción mediante temas hijo (child themes). Aborda la planificación del diseño, wireframes, estructura de ficheros de plantillas, maquetación CSS avanzada con variantes de color, creación de widgets personalizados con la clase WP_Widget, y el desarrollo de un panel de opciones de tema (Theme Options panel) para que el usuario final configure logotipos, tipografías y esquemas cromáticos desde el área de administración sin tocar código.\n\nAdemás del código, el libro enseña a concebir y construir un tema comercial completo listo para su venta, aportando valiosas lecciones sobre empaquetado, soporte técnico, fijación de precios y estrategias de venta en marketplaces como ThemeForest. Aunque algunas tecnologías de la época (como el framework Thematic frente a los temas de bloques modernos o el Theme Customizer) han evolucionado, su metodología de conceptualización y enfoque de producto comercial siguen ofreciendo una perspectiva histórica y formativa muy instructiva.",
+    "temas": [
+      "WordPress 3.0",
+      "Desarrollo de temas",
+      "Frameworks de temas",
+      "Thematic Framework",
+      "Child Themes",
+      "HTML y CSS",
+      "Theme Options Panel",
+      "Widgets personalizados",
+      "Diseño web comercial",
+      "ThemeForest y Marketplaces"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tema hijo comercial basado en Thematic",
+        "descripcion": "Construcción de un tema prémium sobre el framework Thematic con maquetación personalizada en CSS, opciones configurables desde el panel de administración de WordPress y widgets específicos preparado para su venta en ThemeForest."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/build-your-own/9780980455298/",
+      "https://www.amazon.com/Build-Your-Wicked-WordPress-Themes/dp/0980455290",
+      "https://www.goodreads.com/book/show/9060088-build-your-own-wicked-wordpress-themes"
+    ]
+  },
+  "the-wordpress-anthology-2011": {
+    "descripcion": "Guía técnica y de desarrollo orientada a profundizar en las entrañas de WordPress para transformar la plataforma de un simple motor de blogs en un gestor de contenidos flexible y avanzado. Corresponde al ciclo de WordPress 3.x (específicamente entre las versiones 3.0 y 3.2), versión que revolucionó el ecosistema al integrar la gestión multisitio nativa y los tipos de contenido personalizados. Está dirigida a desarrolladores web, diseñadores y usuarios intermedios que ya dominan la administración básica de la plataforma y poseen conocimientos fundamentales de HTML, CSS y sintaxis básica de PHP.\n\nEl libro aborda detalladamente la arquitectura interna de WordPress y The Loop (el bucle fundamental de renderizado y consulta). Enseña a crear y registrar tipos de publicación personalizados (Custom Post Types) y taxonomías a medida mediante funciones como register_post_type y register_taxonomy, además de explorar la jerarquía de plantillas en el desarrollo de temas. Profundiza en la creación de plugins utilizando la API de plugins (hooks, filtros y acciones), la manipulación de la biblioteca multimedia y miniaturas destacadas, el aprovechamiento de APIs del núcleo como la Settings API y la Options API, el despliegue de redes mediante WordPress Multisite, y los procesos de internacionalización y localización con archivos .po y .mo usando Gettext, complementados con estrategias de SEO y analítica.\n\nEl texto adopta un formato modular de recetario práctico (cookbook) en el que se implementan extensiones funcionales, tipos de datos complejos y configuraciones de red centralizadas sin hackear los archivos del núcleo. Su principal fortaleza reside en enseñar las buenas prácticas de extensión de la API clásica de WordPress. No obstante, al haberse publicado en 2011, queda fuera la moderna REST API y el editor de bloques Gutenberg, por lo que sus métodos deben contextualizarse dentro del desarrollo tradicional basado puramente en plantillas PHP.",
+    "temas": [
+      "WordPress 3.x",
+      "The Loop",
+      "Custom Post Types",
+      "Custom Taxonomies",
+      "Desarrollo de plugins",
+      "Desarrollo de temas",
+      "Hooks y filtros",
+      "WordPress Multisite",
+      "Settings API",
+      "Internacionalización (i18n)",
+      "PHP"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/the-wordpress-anthology/9780987153005/",
+      "https://www.goodreads.com/book/show/11476621-the-wordpress-anthology",
+      "https://www.amazon.com/WordPress-Anthology-Mick-Olinik/dp/0987153001"
+    ]
+  },
+  "smashing-wordpress-4th-edition-2014": {
+    "descripcion": "Manual de desarrollo y diseño web de la serie Smashing Magazine enfocado en explotar las capacidades de WordPress como un sistema de gestión de contenidos (CMS) versátil más allá del formato clásico de bitácora personal. Esta 4.ª edición está actualizada para reflejar las características y la interfaz de WordPress 3.8. Está pensada para diseñadores y desarrolladores web principiantes o intermedios que cuentan con bases de HTML, CSS y fundamentos de programación en PHP y quieren aprender a construir sitios a medida con control total del código.\n\nEl contenido desmenuza la anatomía de una instalación de WordPress, la sintaxis del lenguaje de plantillas y el funcionamiento de The Loop. Enseña a estructurar y codificar temas personalizados desde cero, crear temas hijos (child themes) para preservar cambios, y aplicar principios de diseño adaptativo (responsive design). Cubre la integración con el Personalizador de temas (Theme Customizer), cabeceras y fondos personalizados, la programación de plugins y widgets sencillos, la estructuración de datos mediante Custom Post Types y Custom Taxonomies, y la personalización estética de la pantalla de inicio de sesión y el panel de administración, junto con pautas de optimización para motores de búsqueda (SEO) e integración con redes sociales.\n\nLa obra guía al lector mediante fragmentos de código e implementaciones aplicables a portales corporativos, galerías multimedia y sitios de comunidad, enfatizando no solo la técnica sino el diseño y la experiencia de usuario característicos de Smashing Magazine. Su límite radica en que se basa enteramente en la arquitectura tradicional de temas PHP y hojas de estilo CSS previa a Gutenberg y Full Site Editing (FSE). Conviene tener claro que enseña las bases del desarrollo clásico de plantillas antes de la era de los bloques.",
+    "temas": [
+      "WordPress 3.8",
+      "Desarrollo de temas",
+      "The Loop",
+      "Temas hijos (Child Themes)",
+      "Custom Post Types",
+      "Custom Taxonomies",
+      "Plugins y widgets",
+      "Theme Customizer",
+      "Diseño responsive",
+      "Personalización del admin",
+      "PHP y CSS"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Smashing+WordPress%3A+Beyond+the+Blog%2C+4th+Edition-p-9781118600757",
+      "https://www.oreilly.com/library/view/smashing-wordpress-beyond/9781118600757/",
+      "https://www.amazon.com/Smashing-WordPress-Beyond-Blog-Hedengren/dp/1118600753"
+    ]
+  },
+  "wordpress-all-in-one-for-dummies-4th-edition-2019": {
+    "descripcion": "Voluminosa guía de referencia estructurada en el formato de «8 libros en 1», orientada a cubrir de principio a fin la puesta en marcha, gestión, personalización y mantenimiento de sitios web con WordPress. Esta 4.ª edición incorpora los cambios introducidos a partir de WordPress 5.0, destacando especialmente el nuevo paradigma de edición por bloques Gutenberg. Resulta idónea para principiantes absolutos, creadores de contenido, blogueros y propietarios de pequeños negocios sin experiencia previa en programación que desean una referencia integral para su trabajo diario.\n\nA lo largo de sus ocho minilibros se enseña desde la contratación de hosting, configuración de dominios, bases de datos MySQL, servidores PHP y transferencias vía FTP, hasta la administración avanzada del escritorio. Profundiza en el flujo de publicación con el editor de bloques Gutenberg, gestión de contenido multimedia, organización con etiquetas y categorías, y configuración de roles de usuario en entornos colaborativos. Asimismo, detalla la selección, instalación y ajuste de temas y plugins, la aplicación de técnicas de posicionamiento SEO (mediante herramientas como Yoast SEO), integración con redes sociales, copias de seguridad, medidas básicas de seguridad y la creación y administración de redes centralizadas mediante WordPress Multisite.\n\nEl libro permite recorrer paso a paso la configuración de un portal web completo y funcional, brindando las directrices necesarias para gestionar desde un blog personal hasta una red de sitios independientes bajo un mismo panel. Su mayor mérito radica en condensar en un lenguaje accesible todo el abanico operativo de WordPress y su transición a la era de bloques. No aborda el desarrollo avanzado de software en PHP ni la creación programática de bloques con JavaScript y React, manteniéndose en un nivel de administración, configuración y personalización sin código o con ajustes menores.",
+    "temas": [
+      "WordPress 5.0",
+      "Editor de bloques (Gutenberg)",
+      "Panel de control (Dashboard)",
+      "Hosting y dominios",
+      "MySQL y PHP",
+      "Instalación y migración",
+      "Temas y plugins",
+      "Gestión de roles y usuarios",
+      "WordPress Multisite",
+      "SEO para WordPress",
+      "Seguridad y copias de seguridad"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/WordPress+All-in-One+For+Dummies%2C+4th+Edition-p-9781119553151",
+      "https://www.oreilly.com/library/view/wordpress-all-in-one-for/9781119553151/",
+      "https://www.amazon.com/WordPress-All-One-Dummies-Sabin-Wilson/dp/1119553155"
+    ]
+  },
+  "wordpress-for-dummies-8th-edition-2017": {
+    "descripcion": "Manual introductorio y accesible diseñado para aprender a crear, configurar y mantener sitios web y blogs personales o profesionales sin necesidad de programar. Esta 8.ª edición se sitúa en la etapa de madurez de WordPress 4.8 y 4.9, que representó la culminación de la interfaz clásica previa al lanzamiento de Gutenberg. Está orientado a usuarios sin conocimientos técnicos previos, redactores, profesionales independientes y emprendedores que desean entender cómo funciona WordPress y cuál es la alternativa más conveniente para sus necesidades.\n\nEl texto clarifica las diferencias fundamentales entre el servicio alojado (WordPress.com) y el software autoalojado de código abierto (WordPress.org), detallando los requisitos de alojamiento web e instalación rápida. Enseña a manejar el panel de administración, establecer una rutina de publicación de entradas y páginas estáticas, gestionar comentarios y administrar la biblioteca multimedia de imágenes, audio y vídeo. Además, explica cómo buscar e instalar temas y plugins en el repositorio oficial, realizar ajustes visuales mediante el Personalizador de temas (Customizer), incorporar menús y widgets, y aplicar estilos básicos con CSS para modificar aspectos puntuales de la apariencia.\n\nLa obra guía paso a paso al lector en la transformación de una instalación limpia en una web lista para publicar contenido, complementando cada sección con las clásicas recomendaciones de «The Part of Tens» (diez plugins indispensables y diez temas gratuitos populares). Su valor principal es desmitificar la parte técnica y ofrecer un camino despejado para principiantes. Sin embargo, al haberse publicado en 2017, enseña a publicar utilizando el editor clásico (TinyMCE), por lo que quienes utilicen versiones modernas de WordPress encontrarán una interfaz de edición sustancialmente distinta.",
+    "temas": [
+      "WordPress 4.8",
+      "WordPress.org vs WordPress.com",
+      "Panel de control (Dashboard)",
+      "Editor clásico (TinyMCE)",
+      "Theme Customizer",
+      "Widgets y menús",
+      "Instalación de temas",
+      "Plugins recomendados",
+      "Biblioteca de medios",
+      "CSS básico",
+      "Mantenimiento web"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/WordPress+For+Dummies%2C+8th+Edition-p-9781119325925",
+      "https://www.oreilly.com/library/view/wordpress-for-dummies/9781119325925/",
+      "https://www.amazon.com/WordPress-Dummies-Lisa-Sabin-Wilson/dp/1119325926"
+    ]
+  },
+  "wordpress-web-design-for-dummies-3rd-edition-2015": {
+    "descripcion": "Manual ilustrado a todo color centrado en el diseño estético, la maquetación y la personalización visual de sitios web creados con la versión autoalojada de WordPress. Corresponde al entorno de WordPress 4.x (analizando la estructura de temas contemporáneos de la época como Twenty Fifteen). Está concebido para diseñadores principiantes, blogueros y aficionados que ya conocen el uso básico del panel de control de WordPress y desean adquirir habilidades de diseño web y modificación de plantillas sin requerir formación avanzada en ingeniería de software.\n\nEl libro combina nociones fundamentales de diseño visual (teoría del color, tipografía web, jerarquía de navegación y planificación de layouts) con la implementación práctica en tecnologías web: HTML5, CSS y nociones básicas de sintaxis PHP. Explica cómo organizar un entorno de trabajo con editores de código y clientes FTP, disecciona la estructura modular de archivos de un tema de WordPress (header.php, footer.php, sidebar.php, style.css) y enseña a construir temas hijos (child themes) para aplicar personalizaciones seguras y diseños adaptables a dispositivos móviles (responsive web design). También presenta la configuración de WordPress como CMS y revisa plugins populares para extender el diseño y la funcionalidad, como WooCommerce, Jetpack, Yoast SEO y BackupBuddy.\n\nMediante ejemplos prácticos y la disección de plantillas preexistentes, el lector aprende a transformar temas predeterminados en sitios corporativos o portafolios con identidad propia, incluyendo consejos para desenvolverse en el diseño web profesional como freelance. Su principal cualidad es servir de puente entre el diseño gráfico y la arquitectura temática tradicional de WordPress. Conviene advertir que no cubre los temas basados en bloques (block themes), el archivo theme.json ni el editor de sitio completo (Full Site Editing), que reemplazaron gran parte de este flujo de trabajo en las versiones más modernas del CMS.",
+    "temas": [
+      "WordPress 4.x",
+      "Diseño web",
+      "HTML5 y CSS",
+      "Temas hijos (Child Themes)",
+      "Plantillas PHP",
+      "Estructura de temas",
+      "Diseño responsive",
+      "Tipografía y teoría del color",
+      "Twenty Fifteen",
+      "WordPress como CMS",
+      "Plugins de diseño"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/WordPress+Web+Design+For+Dummies%2C+3rd+Edition-p-9781119088646",
+      "https://www.oreilly.com/library/view/wordpress-web-design/9781119088646/",
+      "https://www.amazon.com/WordPress-Design-Dummies-Lisa-Sabin-Wilson/dp/1119088649"
+    ]
+  },
+  "professional-wordpress-plugin-development-2011": {
+    "descripcion": "Manual técnico de referencia escrito por Brad Williams, Ozh Richard y Justin Tadlock, enfocado en el diseño y la construcción profesional de extensiones para WordPress (específicamente la generación de WordPress 3.x sobre PHP 5 y MySQL). Está dirigido a desarrolladores web de nivel intermedio que ya poseen conocimientos sólidos de programación en PHP y consultas relacionales en MySQL, y que desean abandonar los añadidos improvisados en functions.php para estructurar extensiones limpias, modulares y mantenibles siguiendo los estándares oficiales de la plataforma.\n\nLa obra desglosa de manera exhaustiva las interfaces de programación fundamentales del núcleo de WordPress. Enseña a utilizar el sistema de ganchos mediante Action Hooks y Filter Hooks (con funciones clave como add_action, add_filter, apply_filters y do_action), a construir pantallas administrativas y opciones de configuración seguras con la Settings API, y a modelar estructuras de contenido avanzadas mediante Custom Post Types, taxonomías personalizadas y metaboxes. Asimismo, cubre el aseguramiento del código mediante el uso de nonces, sanitización y comprobación de roles y capacidades de usuario, junto con la integración de peticiones asíncronas con JavaScript y AJAX, la interacción con servicios externos vía la HTTP API (wp_remote_get, wp_remote_post), la automatización de tareas en segundo plano con WordPress Cron, la manipulación de enlaces permanentes con la Rewrite API y el soporte para entornos WordPress Multisite.\n\nA través de sus páginas se desarrollan múltiples plugins funcionales que abarcan desde paneles de control con formularios protegidos hasta widgets interactivos para la interfaz pública y extensiones adaptadas a redes multisitio. Su principal valor radica en haber fijado los cimientos metodológicos y las buenas prácticas del desarrollo en WordPress que aún se consideran estándar. Conviene tener presente que, al datar de 2011, no contempla avances contemporáneos como el editor de bloques Gutenberg, React ni la WP REST API moderna incorporada años después en el core, pero sigue siendo un recurso pedagógico excepcional para comprender la arquitectura interna clásica en PHP.",
+    "temas": [
+      "WordPress 3.x",
+      "Desarrollo de plugins",
+      "Action y Filter Hooks",
+      "Settings API",
+      "Custom Post Types",
+      "Taxonomías personalizadas",
+      "Seguridad y Nonces",
+      "Shortcode API",
+      "Widgets API",
+      "HTTP API",
+      "WordPress Cron",
+      "Multisite"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plugin de panel de administración y ajustes",
+        "descripcion": "Extensión que registra menús personalizados en el panel de WordPress mediante la Settings API, implementando validación de opciones, campos dinámicos y protección con nonces."
+      },
+      {
+        "nombre": "Plugin de tipos de contenido y metadatos",
+        "descripcion": "Módulo que registra Custom Post Types y taxonomías personalizadas con cajas de metadatos (metaboxes) personalizadas para ampliar la estructura de datos nativa de WordPress."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Professional+WordPress+Plugin+Development-p-9780470916223",
+      "https://www.oreilly.com/library/view/professional-wordpress-plugin/9780470916223/",
+      "https://justintadlock.com/archives/2011/02/08/professional-wordpress-plugin-development"
+    ]
+  },
+  "professional-wordpress-3rd-edition-2015": {
+    "descripcion": "Tercera edición de la reconocida guía de ingeniería web de Wrox, elaborada por Brad Williams, David Damstra y Hal Stern, centrada en aprovechar WordPress 4.1 no solo como gestor de bitácoras, sino como un framework de desarrollo de aplicaciones y un sistema de gestión de contenidos (CMS) empresarial completo. Está dirigida a desarrolladores web de nivel intermedio con experiencia previa en PHP, HTML5, CSS y MySQL que buscan comprender la arquitectura interna del motor y crear soluciones a medida para clientes corporativos.\n\nEl texto ofrece un recorrido minucioso por la anatomía del núcleo de WordPress y el ciclo de vida de las peticiones. Explica en detalle el funcionamiento del bucle principal mediante WP_Query y The Loop, el esquema de la base de datos relacional y las APIs de gestión de datos, incluyendo la Transients API y WP_Object_Cache para almacenamiento en caché. Aborda la creación de temas avanzados apoyándose en la jerarquía de plantillas (Template Hierarchy) y la Theme Customizer API, el desarrollo de plugins robustos, la estructuración de Custom Post Types y metadatos, la configuración de redes WordPress Multisite, y las pautas para diseñar migraciones de datos desde sistemas heredados, garantizando la seguridad frente a vulnerabilidades habituales como inyecciones SQL o ataques CSRF.\n\nEl libro guía al lector en la creación de temas completos optimizados para CMS y plugins personalizados que amplían la lógica de negocio corporativa, además de implementar entornos de red multisitio y procesos de migración asistida. Constituye un compendio indispensable para asimilar la mentalidad de desarrollo en el core tradicional de WordPress 4.x. Su límite natural es cronológico: no incluye la revolución de bloques de Gutenberg (surgida con WordPress 5.0) ni el desarrollo moderno con componentes React, por lo que es una lectura de base arquitectónica y backend en PHP que conviene complementar si se trabaja en proyectos basados en Full Site Editing.",
+    "temas": [
+      "WordPress 4.1",
+      "The Loop",
+      "WP_Query",
+      "Desarrollo de temas",
+      "Template Hierarchy",
+      "Theme Customizer",
+      "Desarrollo de plugins",
+      "Custom Post Types",
+      "Multisite",
+      "Migración de sitios",
+      "Seguridad en WordPress",
+      "Rendimiento y caché"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Tema personalizado para CMS corporativo",
+        "descripcion": "Diseño y codificación de un tema completo desde cero utilizando la jerarquía de plantillas de WordPress, The Loop, menús dinámicos e integración con la Theme Customizer API."
+      },
+      {
+        "nombre": "Extensión de tipos de contenido y flujo de publicación",
+        "descripcion": "Implementación de tipos de publicación personalizados y taxonomías con metaboxes administrativos para gestionar catálogos y estructuras de datos no convencionales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.wiley.com/en-us/Professional+WordPress%3A+Design+and+Development%2C+3rd+Edition-p-9781118987247",
+      "https://www.oreilly.com/library/view/professional-wordpress-design/9781118987247/",
+      "https://www.amazon.com/Professional-WordPress-Design-Development-Williams/dp/1118987241"
+    ]
+  }
+}

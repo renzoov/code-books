@@ -1,0 +1,88 @@
+---
+// Menú "Tecnologías": con decenas de secciones ya no caben en una fila, así que se agrupan por
+// categoría en un panel desplegable. El contenido (TechMenuList) se publica una vez en /tech-menu/ y
+// se carga al abrir el menú, para no repetir ~40 KB en cada página. La sección actual se muestra junto
+// al botón.
+import TechLogo from './TechLogo.astro';
+import { techHref, techBySlug } from '../lib/data';
+
+interface Props {
+  active?: string;
+}
+const { active } = Astro.props;
+const current = active ? techBySlug(active) : undefined;
+---
+
+<nav aria-label="Tecnologías" class="flex min-w-0 flex-1 items-center gap-2">
+  <details class="tech-menu relative" data-tech-menu>
+    <summary
+      class="flex cursor-pointer list-none items-center gap-1.5 rounded-full border border-line px-3 py-1 font-mono text-xs text-muted transition hover:text-white [&::-webkit-details-marker]:hidden"
+    >
+      Tecnologías
+      <svg viewBox="0 0 24 24" class="size-3.5 transition-transform [details[open]_&]:rotate-180" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="m6 9 6 6 6-6" />
+      </svg>
+    </summary>
+    <div
+      data-tech-menu-panel
+      data-active={active}
+      class="absolute left-0 top-full z-30 mt-2 max-h-[75vh] w-[min(46rem,calc(100vw-2rem))] overflow-y-auto rounded-xl border border-line bg-panel p-4 shadow-2xl shadow-black/60"
+    >
+      <p class="font-mono text-xs text-muted">Cargando tecnologías…</p>
+    </div>
+  </details>
+
+  {
+    current && (
+      <a
+        href={techHref(current.slug)}
+        class="hidden min-w-0 items-center gap-1.5 truncate rounded-full bg-panel px-3 py-1 font-mono text-xs text-white sm:flex"
+        style={`color:${current.color}`}
+      >
+        <TechLogo tech={current.slug} class="size-3.5 shrink-0" aria-hidden="true" />
+        <span class="truncate text-white">{current.nombre}</span>
+      </a>
+    )
+  }
+</nav>
+
+<script>
+  // Cerrar el menú al hacer clic fuera o con Escape. Se registra una sola vez y busca el menú en cada
+  // evento, porque el encabezado se reemplaza al navegar.
+  const menu = () => document.querySelector<HTMLDetailsElement>('[data-tech-menu]');
+
+  // Al abrir el menú se inserta la lista de /tech-menu/ (se descarga una vez) y se marca la sección
+  // actual. El evento toggle no burbujea, por eso se escucha en fase de captura.
+  let list: Promise<string> | undefined;
+  const loadList = () =>
+    (list ??= fetch('/tech-menu/')
+      .then((r) => r.text())
+      .then((html) => new DOMParser().parseFromString(html, 'text/html').querySelector('[data-tech-menu-list]')?.outerHTML ?? ''));
+
+  document.addEventListener(
+    'toggle',
+    async (ev) => {
+      const m = ev.target as HTMLElement;
+      if (!(m instanceof HTMLDetailsElement) || !m.matches('[data-tech-menu]') || !m.open) return;
+      const panel = m.querySelector<HTMLElement>('[data-tech-menu-panel]');
+      if (!panel || panel.querySelector('[data-tech-menu-list]')) return;
+      panel.innerHTML = await loadList();
+      const active = panel.dataset.active;
+      if (active) panel.querySelector(`a[href="/${active}"]`)?.setAttribute('aria-current', 'page');
+    },
+    true,
+  );
+  // Precarga la lista en segundo plano cuando el navegador está libre.
+  ('requestIdleCallback' in window ? requestIdleCallback : setTimeout)(() => loadList());
+  document.addEventListener('click', (ev) => {
+    const m = menu();
+    if (m?.open && !m.contains(ev.target as Node)) m.open = false;
+  });
+  document.addEventListener('keydown', (ev) => {
+    const m = menu();
+    if (ev.key === 'Escape' && m?.open) {
+      m.open = false;
+      m.querySelector('summary')?.focus();
+    }
+  });
+</script>

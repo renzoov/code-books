@@ -1,0 +1,208 @@
+{
+  "web-performance-in-action-2017": {
+    "descripcion": "Guía de Jeremy Wagner, desarrollador front-end y conferenciante especializado en rendimiento web, para que los sitios carguen y se pinten más rápido. Publicado por Manning a finales de 2016, con prólogo de Ethan Marcotte, se centra en técnicas aplicables a cualquier sitio y no en un framework concreto. Está pensado para desarrolladores con poca experiencia en optimización: basta con conocer HTML, CSS y JavaScript, aunque muchos ejemplos usan Git y Node.js.\n\nEl recorrido empieza por los fundamentos (cómo se mide el rendimiento y qué ocurre durante el renderizado) y por herramientas de análisis como Google PageSpeed Insights y las herramientas para desarrolladores del navegador. Después dedica capítulos a optimizar el CSS y extraer el CSS crítico, a las imágenes responsivas (srcset, picture) y su compresión, incluido WebP, a cargar tipografías web más rápido, y a mantener el JavaScript ligero, con un apéndice de equivalentes nativos a funciones habituales de jQuery. También trata los service workers para la caché, el ajuste de la entrega de recursos (compresión, caché HTTP, CDN, resource hints) y el impacto de HTTP/2 en las prácticas de optimización. Cierra automatizando todo el proceso con gulp.\n\nEl lector aplica las técnicas sobre sitios de ejemplo que se descargan con Git y se sirven con Node.js, y mide el antes y el después de cada cambio. Su punto fuerte es la amplitud y el tono didáctico: es una excelente puerta de entrada al rendimiento front-end. Hay que tener en cuenta que gulp ha sido desplazado por empaquetadores como webpack o Vite, que no aparecen métricas posteriores como las Core Web Vitals y que HTTP/2 se presenta todavía como el futuro. Los principios siguen siendo válidos, pero conviene complementarlo con material actual sobre Lighthouse y formatos como AVIF.",
+    "temas": [
+      "Rendimiento web",
+      "Renderizado",
+      "CSS crítico",
+      "Imágenes responsivas",
+      "Fuentes web",
+      "JavaScript",
+      "Service workers",
+      "Caché HTTP",
+      "HTTP/2",
+      "gulp",
+      "Node.js"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.manning.com/books/web-performance-in-action",
+      "https://www.oreilly.com/library/view/web-performance-in/9781617293771/kindle_split_003.html",
+      "https://www.manning.com/authors/jeremy-wagner"
+    ]
+  },
+  "building-scalable-web-sites-2006": {
+    "descripcion": "Libro clásico de Cal Henderson, entonces desarrollador principal de Flickr, que reúne su experiencia práctica en la construcción y el crecimiento de aplicaciones web de gran tráfico. Publicado por O'Reilly en 2006, en plena época de la Web 2.0, está pensado tanto para equipos de sitios pequeños que planean crecer como para quienes mantienen sistemas grandes. Va dirigido a desarrolladores y arquitectos de nivel intermedio con experiencia en aplicaciones web dinámicas, servidores y bases de datos relacionales.\n\nEl libro va más allá de la velocidad bruta. Comienza con la arquitectura de aplicaciones web (separación en capas, diseño de interfaces, planificación del hardware) y los entornos de desarrollo para equipos de programadores y diseñadores, con control de versiones y procesos de despliegue. Después trata la internacionalización y la localización, incluidos Unicode y UTF-8, la integridad de los datos y la seguridad (filtrado de HTML, XSS), la integración del correo electrónico con la aplicación y los servicios remotos y el procesamiento asíncrono. La segunda mitad se dedica a la escalabilidad propiamente dicha: identificar cuellos de botella, escalar vertical y horizontalmente, replicar y federar bases de datos MySQL, balancear la carga, recoger estadísticas y monitorizar con alertas, y por último diseñar y publicar APIs.\n\nNo hay un proyecto guiado: es un libro de arquitectura, con ejemplos (muchos de ellos en PHP y MySQL) que plantean un problema, sus consecuencias y la forma de mitigarlo o evitarlo. Su valor está en la mentalidad de diseñar pensando en la escala desde el principio y en las lecciones reales de Flickr. Algunos lectores consideran que los capítulos de seguridad y correo se alejan del tema central. Es un texto de 2006, anterior a la nube, los contenedores y las bases de datos NoSQL modernas, así que conviene leerlo como base conceptual e histórica y complementarlo con obras actuales sobre sistemas distribuidos.",
+    "temas": [
+      "Escalabilidad",
+      "Arquitectura web",
+      "Internacionalización",
+      "Unicode",
+      "Seguridad",
+      "Procesamiento asíncrono",
+      "Cuellos de botella",
+      "MySQL",
+      "Federación de datos",
+      "Balanceo de carga",
+      "Monitorización",
+      "APIs"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/building-scalable-web/0596102356",
+      "https://lwn.net/Articles/185173/",
+      "https://blog.kartones.net/post/book-review-building-scalable-websites/",
+      "https://jonhoyle.com/maccompanion/mirror/archives/september2006/books/buildingscalablewebsites.htm"
+    ]
+  },
+  "developing-large-web-applications-2010": {
+    "descripcion": "Kyle Loudon, que dirigía un equipo de desarrollo en Yahoo!, propone en este libro una forma de organizar el código de aplicaciones web grandes para que pueda crecer sin volverse imposible de mantener. Es de 2010 y trabaja con el stack típico de la época: HTML/XHTML, CSS, JavaScript, PHP y Ajax, con un enfoque cercano a LAMP. Está dirigido a desarrolladores de nivel intermedio que ya hacen sitios web y quieren pasar a proyectos más grandes o con varios equipos. Se espera que conozcas lo básico de HTML, CSS, JavaScript y PHP.\n\nEl hilo conductor es la modularidad. El primer capítulo plantea los principios del desarrollo a gran escala (el autor los llama sus diez «tenets») y el segundo aplica la orientación a objetos al diseño de páginas: encapsulación, visibilidad, bajo acoplamiento, diagramas UML y clases PHP de ejemplo. Después repasa cada capa. En HTML, marcado semántico, CSS en lugar de tablas, evitar etiquetas obsoletas y metadatos RDF. Luego dedica un capítulo a la organización de CSS y otro a JavaScript modular. Siguen los «data managers», que abstraen el acceso a fuentes de datos SQL y al intercambio con el back-end, y un capítulo de PHP a gran escala para construir páginas a partir de módulos reutilizables. Termina con Ajax, rendimiento y la arquitectura del proyecto, centrada sobre todo en la estructura de directorios y archivos.\n\nNo se construye una aplicación completa: los capítulos se apoyan en fragmentos de código bastante largos, sobre todo en PHP, que generan módulos y páginas. Aporta una visión ordenada de cómo separar responsabilidades en el front-end y entre las capas de un sitio. Las reseñas destacan el capítulo de rendimiento como el más útil, aunque remiten a los libros de Steve Souders para profundizar. Conviene saber lo que deja fuera: no habla de escalabilidad de servidores, granjas de servidores, la nube ni arquitectura distribuida. Además, propone escribir los módulos desde cero en vez de usar frameworks, y hoy los frameworks de componentes (React, Vue, Angular) resuelven buena parte de estos problemas. Sigue siendo una lectura útil por los principios, pero ten en cuenta que el código es de 2010.",
+    "temas": [
+      "Arquitectura front-end",
+      "Modularidad",
+      "Orientación a objetos",
+      "HTML semántico",
+      "CSS escalable",
+      "JavaScript modular",
+      "PHP",
+      "Abstracción de datos",
+      "SQL",
+      "Ajax",
+      "Rendimiento web"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.phpdeveloper.org.uk/?p=4442",
+      "https://informationr.net/ir/reviews/revs375.html",
+      "https://www.i-programmer.info/bookreviews/12-web-design-and-development-/923-developing-large-web-applications.html"
+    ]
+  },
+  "even-faster-web-sites-2009": {
+    "descripcion": "Es la continuación de «High Performance Web Sites»: Steve Souders, entonces en Google y antes responsable de rendimiento en Yahoo!, lleva la optimización del front-end más allá de sus 14 reglas originales. Salió en 2009, cuando se usaban Internet Explorer 6–8, Firefox 3 y las primeras versiones de Chrome, y las aplicaciones Ajax empezaban a cargar mucho JavaScript. Está dirigido a desarrolladores web de nivel intermedio que ya conocen HTTP, HTML, CSS y JavaScript, y que idealmente han aplicado las reglas del libro anterior.\n\nTiene 14 capítulos agrupados en tres áreas: JavaScript, red y navegador. Seis de ellos son de invitados reconocidos, como Douglas Crockford, Nicholas C. Zakas, Stoyan Stefanov, Nicole Sullivan, Dion Almaer, Ben Galbraith, Dylan Schiemann y Tony Gentilcore. En JavaScript trata el rendimiento de Ajax, cómo hacer que las aplicaciones respondan rápido, dividir la carga inicial, cargar scripts sin bloquear la página, coordinar scripts asíncronos que dependen entre sí, dónde colocar los scripts en línea y cómo escribir JavaScript eficiente. En red aborda Comet para conexiones de larga duración, problemas de compresión gzip que van más allá de activarla, optimización de imágenes, repartir recursos entre varios dominios (domain sharding) y enviar el documento por partes con chunked encoding. En navegador explica el costo real de los iframes y el de los selectores CSS complejos. Un apéndice repasa herramientas de medición como YSlow, Page Speed, Firebug, Fiddler y HttpWatch.\n\nEs un libro de técnicas, cada una explicada con mediciones y páginas de ejemplo, no de proyectos guiados. Su gran aporte es enseñar a pensar en cómo el navegador descarga, analiza y ejecuta los recursos, y muchas de sus ideas siguen vigentes: no bloquear el renderizado, dividir el JavaScript, enviar pronto el HTML y optimizar imágenes. Otras han quedado superadas: con HTTP/2 y HTTP/3 el domain sharding suele ser contraproducente, Comet se reemplazó por WebSocket y Server-Sent Events, y los atributos async y defer o los módulos ES ya resuelven la carga no bloqueante. Léelo como base conceptual y contrasta cada consejo con los navegadores y protocolos de hoy.",
+    "temas": [
+      "Rendimiento front-end",
+      "Carga no bloqueante de scripts",
+      "Ajax",
+      "JavaScript eficiente",
+      "Code splitting",
+      "Comet",
+      "Gzip",
+      "Optimización de imágenes",
+      "Domain sharding",
+      "Chunked encoding",
+      "Selectores CSS",
+      "Iframes"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/even-faster-web-sites-performance-best-practices-for-web-developers-steve-souders,e_2g39.htm",
+      "https://oreilly.com/library/view/even-faster-web/9780596803773"
+    ]
+  },
+  "high-performance-browser-networking-2013": {
+    "descripcion": "Ilya Grigorik, ingeniero de rendimiento web en Google y copresidente del grupo de trabajo de rendimiento web del W3C, explica cómo afectan la red, los protocolos y las APIs del navegador a la velocidad de las aplicaciones web. La edición impresa de O'Reilly es de 2013 y trataba HTTP/2 cuando todavía era un borrador. La versión en línea, gratuita en hpbn.co, se actualizó después con el estándar ya publicado. Está dirigido a desarrolladores web e ingenieros de rendimiento de nivel avanzado. No exige ser experto en redes, porque empieza por los fundamentos, pero sí ayuda conocer HTTP y JavaScript.\n\nTiene cuatro partes. «Networking 101» trata latencia y ancho de banda, TCP (handshake, control de congestión, slow start, bloqueo head-of-line), UDP y NAT, y TLS (handshake, reanudación de sesión, costo de cifrar). La segunda parte trata las redes inalámbricas: WiFi, redes móviles 3G y 4G/LTE, los estados de la radio y su consumo de batería, y cómo optimizar para redes móviles. La tercera recorre la historia de HTTP, ofrece una introducción al rendimiento web y analiza HTTP/1.x (keep-alive, pipelining, límites de conexiones y técnicas como concatenar recursos o usar sprites), HTTP/2 (multiplexación, frames, prioridades, compresión de cabeceras, server push) y la optimización de la entrega de aplicaciones. La cuarta estudia la capa de red del navegador y sus APIs: XMLHttpRequest, Server-Sent Events, WebSocket y WebRTC, con DataChannel, STUN, TURN e ICE.\n\nNo es un libro de recetas ni de proyectos: casi todo es explicación conceptual, con diagramas, mediciones y algunos fragmentos de código o configuración. Su valor está en entender por qué funcionan las optimizaciones, en lugar de memorizar reglas. Es de los libros más recomendados sobre rendimiento web y sus fundamentos de TCP, TLS y latencia siguen plenamente vigentes. Queda fuera lo posterior a su redacción: HTTP/3 y QUIC, TLS 1.3, 5G, Service Workers y las métricas modernas como Core Web Vitals. Conviene complementarlo con documentación actual sobre esos temas.",
+    "temas": [
+      "Latencia y ancho de banda",
+      "TCP",
+      "UDP",
+      "TLS",
+      "Redes móviles",
+      "WiFi",
+      "HTTP/1.1",
+      "HTTP/2",
+      "XMLHttpRequest",
+      "Server-Sent Events",
+      "WebSocket",
+      "WebRTC"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://hpbn.co/",
+      "https://www.oreilly.com/library/view/high-performance-browser-networking/9781449344757/"
+    ]
+  },
+  "high-performance-mobile-web-2015": {
+    "descripcion": "Maximiliano Firtman, especialista en web móvil, explica qué hace lentos a los sitios y aplicaciones web en teléfonos y cómo corregirlo. La edición de O'Reilly refleja el ecosistema de 2015–2016: iOS, Android y Windows, Chrome, Safari, Samsung Internet y Edge, la llegada de HTTP/2, las primeras Progressive Web Apps, los Service Workers y AMP. Está dirigido a desarrolladores y diseñadores web de nivel avanzado que ya conocen HTML, CSS, JavaScript y HTTP.\n\nEmpieza describiendo el mundo móvil: hardware, redes y estados de la radio, motores de renderizado, navegadores, web views y web apps instalables. Luego explica dónde medir (simuladores, emuladores, dispositivos reales, laboratorios en la nube y simulación de la conexión) y los fundamentos de la medición: gráficos waterfall, ruta crítica, formato HAR, Speed Index, el modelo RAIL, FPS y perfilado de CPU y memoria. También repasa herramientas como los inspectores remotos de Safari y Chrome, Charles, Fiddler, WebPagetest y PageSpeed Insights, y APIs como Navigation Timing, Resource Timing, User Timing, Beacon, Network Information, Page Visibility, requestAnimationFrame y requestIdleCallback. La parte de optimización cubre la primera visita (HTTP/2, compresión Brotli, HSTS, CSS no bloqueante, fuentes web, async y defer, imágenes responsivas con srcset y picture) y las visitas posteriores (Cache-Control, ETag, prefetching y resource hints, Application Cache y Service Workers con Cache Storage y Background Sync). También trata la respuesta a la interacción (retraso del toque, debouncing, Web Workers, eventos pasivos, Fetch, SSE y WebSockets), los costos del diseño responsive y técnicas extremas: la regla de los 14 KB, CSS crítico, lazy loading y los patrones PRPL y SD/HD. Cierra con AMP, Facebook Instant Articles, web views en iOS y Android, Custom Tabs, Safari View Controller y una lista de comprobación final.\n\nNo hay proyectos guiados: cada técnica se explica con ejemplos de código y configuración, y el último capítulo resume todo en una lista de comprobación aplicable a cualquier sitio. Es una obra muy completa y práctica para quien necesita sacar rendimiento real en redes móviles. Algunas partes han envejecido: Application Cache ya no existe, AMP e Instant Articles perdieron relevancia, Crosswalk está abandonado y muchas notas sobre navegadores concretos quedaron desactualizadas. Tampoco cubre las métricas actuales como Core Web Vitals ni HTTP/3. Los conceptos de medición, la ruta crítica, la caché y los Service Workers siguen siendo totalmente válidos.",
+    "temas": [
+      "Rendimiento web móvil",
+      "Medición de rendimiento",
+      "WebPagetest",
+      "Performance APIs",
+      "HTTP/2",
+      "Ruta crítica",
+      "Imágenes responsivas",
+      "Caché HTTP",
+      "Service Workers",
+      "Progressive Web Apps",
+      "AMP",
+      "Web views"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/e_0931.htm",
+      "https://oreilly.com/library/view/high-performance-mobile/9781491912546"
+    ]
+  },
+  "high-performance-web-sites-2007": {
+    "descripcion": "Es el libro que popularizó la optimización del front-end. Steve Souders, entonces responsable de rendimiento en Yahoo! (con el título de «Chief Performance Yahoo!»), reúne las 14 reglas que aplicó en páginas con muchísimo tráfico, como la portada y el buscador de Yahoo!. Su idea central es que la mayor parte del tiempo de carga de una página se pasa en el navegador y en la comunicación con el servidor, no en el back-end. Es de 2007 y se basa en los navegadores de esa época, Internet Explorer 6/7 y Firefox 2, y en Apache. Aunque es corto, va dirigido a desarrolladores front-end que ya entienden HTTP, HTML, CSS y JavaScript.\n\nLos dos primeros capítulos explican la importancia del rendimiento del front-end, su «regla de oro» y un repaso de HTTP: compresión, GET condicionales, Expires y keep-alive. Después dedica un capítulo a cada regla: hacer menos peticiones HTTP (mapas de imagen, sprites CSS, imágenes en línea, combinar scripts y hojas de estilo), usar una CDN, añadir cabeceras Expires y versionar los nombres de archivo, comprimir con gzip (mod_gzip y mod_deflate en Apache), poner las hojas de estilo arriba y los scripts abajo, evitar las expresiones CSS, servir JavaScript y CSS como archivos externos, reducir las consultas DNS, minificar JavaScript, evitar redirecciones, eliminar scripts duplicados, configurar los ETags y hacer cacheables las peticiones Ajax. El último capítulo analiza diez sitios importantes de la época (Amazon, AOL, CNN, eBay, Google, MSN, MySpace, Wikipedia, Yahoo! y YouTube) con YSlow, la extensión creada por el propio Souders.\n\nNo hay proyectos: cada regla viene con explicación, mediciones y páginas de ejemplo publicadas en el sitio del libro. Es un clásico breve y muy claro que sentó las bases de herramientas como YSlow y PageSpeed. Muchas reglas siguen vigentes, como usar caché, comprimir, minificar, usar una CDN, evitar redirecciones y no bloquear el renderizado. Otras han quedado obsoletas o hay que matizarlas: las expresiones CSS ya no existen, y con HTTP/2 y HTTP/3 combinar archivos y usar sprites pierde importancia. Hoy existen async, defer, Brotli y las métricas Core Web Vitals. Conviene leerlo como base y seguir con «Even Faster Web Sites» y «High Performance Browser Networking».",
+    "temas": [
+      "Rendimiento front-end",
+      "Peticiones HTTP",
+      "CSS sprites",
+      "CDN",
+      "Caché HTTP",
+      "Gzip",
+      "Carga de scripts",
+      "Minificación",
+      "DNS",
+      "Redirecciones",
+      "ETags",
+      "YSlow"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://helion.pl/ksiazki/e_2gep.htm",
+      "https://oreilly.com/library/view/high-performance-web/9780596529307/"
+    ]
+  },
+  "web-performance-daybook-2012": {
+    "descripcion": "Compilación editada por Stoyan Stefanov (referente en rendimiento web en Yahoo! y Facebook, y creador del Performance Calendar) y publicada por O'Reilly en 2012, que reúne las aportaciones de más de 30 expertos destacados de la industria como Steve Souders, Nicholas Zakas, Patrick Meenan, Tim Kadlec y Estelle Weyl. Está orientada a desarrolladores web, ingenieros de rendimiento y arquitectos front-end de nivel intermedio a avanzado que buscan optimizar la velocidad y la experiencia de usuario en aplicaciones web y entornos móviles.\n\nA diferencia de un manual convencional de principio a fin, la obra recopila artículos, estudios de caso y técnicas prácticas nacidas de la iniciativa anual del Performance Calendar. Aborda estrategias esenciales de optimización en el navegador y en el front-end: reducción del coste de ejecución y parseo de JavaScript, optimización del renderizado en dispositivos móviles, medición y aprovechamiento de métricas de red, auditorías avanzadas con herramientas especializadas como WebPageTest, y mejores prácticas para la entrega eficiente de imágenes y recursos críticos.\n\nNo plantea un proyecto guiado único, sino que funciona como un compendio especializado de lecciones aprendidas en producción, trucos de ingeniería y análisis empíricos explicados por quienes definieron los estándares de rendimiento web de esa era. Su principal atractivo es la variedad de enfoques y la profundidad de casos reales. Aunque algunas herramientas y protocolos han evolucionado (con la adopción de HTTP/2, HTTP/3 y las Core Web Vitals), los fundamentos sobre reducción de latencia, comprensión del motor del navegador y disciplina de medición siguen teniendo un gran valor formativo.",
+    "temas": [
+      "Rendimiento web",
+      "Optimización front-end",
+      "JavaScript",
+      "Rendimiento móvil",
+      "WebPageTest",
+      "Latencia de red",
+      "Renderizado en navegador",
+      "Métricas de rendimiento"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": false,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/web-performance-daybook/9781449332938/",
+      "https://calendar.perfplanet.com/"
+    ]
+  }
+}

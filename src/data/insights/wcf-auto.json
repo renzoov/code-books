@@ -1,0 +1,214 @@
+{
+  "pro-wcf-4-2nd-edition-2011": {
+    "descripcion": "Segunda edición del tratado técnico exhaustivo sobre Windows Communication Foundation escrito por Nishith Pathak y publicado por Apress en 2011. Analiza en profundidad la arquitectura de servicios distribuidos en .NET 4.\n\nDetalla contratos de servicio, contratos de datos y contratos de mensajes, enlaces de comunicación (BasicHttpBinding, NetTcpBinding, WSHttpBinding), configuración simplificada en .NET 4, servicios de enrutamiento (Routing Service) y seguridad avanzada con certificados y WS-Security.\n\nNishith Pathak aporta directrices consolidadas para diseñar servicios corporativos de misión crítica con alta interoperabilidad y rendimiento. Una referencia clásica fundamental sobre WCF.",
+    "temas": [
+      "WCF 4",
+      "Contratos de Servicio",
+      "NetTcpBinding",
+      "Routing Service",
+      "WS-Security",
+      "Nishith Pathak",
+      "Apress"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Pasarela de Enrutamiento y Balanceo de Carga con WCF Routing Service",
+        "descripcion": "Construcción de un router de mensajería SOAP que inspecciona cabeceras y redirige peticiones a diferentes servicios backend."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4302-3369-5"
+    ]
+  },
+  "windows-communication-foundation-4-step-by-step-2010": {
+    "descripcion": "Manual formativo paso a paso sobre desarrollo de servicios distribuidos escrito por John Sharp y publicado por Microsoft Press en 2010. Enseña a crear y consumir servicios WCF en .NET 4.\n\nCubre la definición de contratos, alojamiento de servicios (self-hosting, IIS, WAS), gestión de transacciones distribuidas, soporte REST con `webHttpBinding`, seguridad basada en Windows y federación de identidades.\n\nJohn Sharp destaca por una metodología estructurada y paciente orientada a laboratorios prácticos que aseguran que el estudiante comprenda cada pieza de la compleja arquitectura de WCF. Excelente para desarrolladores empresariales.",
+    "temas": [
+      "WCF 4",
+      "Step by Step",
+      "Self-Hosting",
+      "IIS WAS",
+      "Transacciones Distribuidas",
+      "John Sharp",
+      "Microsoft Press"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servicio Empresarial de Pedidos Transaccional con Alojamiento en IIS",
+        "descripcion": "Desarrollo de un servicio WCF con confirmación de entrega en dos fases y seguridad integrada de Windows."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.microsoft.com/"
+    ]
+  },
+  "learning-wcf-2007": {
+    "descripcion": "Obra formativa clásica y pedagógica sobre la plataforma de servicios distribuidos escrita por Michele Leroux Bustamante y publicada por O'Reilly en 2007. Introdujo WCF a la comunidad global de .NET.\n\nExplora la trinidad de WCF: dirección (Address), enlace (Binding) y contrato (Contract) - el modelo ABC -, control de concurrencia e instanciación (`InstanceContextMode`), manejo de fallos SOAP y configuración declarativa.\n\nMichele Leroux Bustamante, Microsoft Regional Director y referente en ciberseguridad, aporta un enfoque didáctico excepcional con diagramas claros del flujo de mensajes en los canales de WCF. Un hito formativo esencial.",
+    "temas": [
+      "Learning WCF",
+      "Modelo ABC",
+      "Address Binding Contract",
+      "Michele Leroux Bustamante",
+      "SOAP",
+      "O'Reilly"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servicio de Inventario Distribuido con Enlace NetTcp y Seguridad de Transporte",
+        "descripcion": "Construcción de una solución cliente-servidor con comunicación binaria rápida y manejo estructurado de excepciones FaultException."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/learning-wcf/0596101627/"
+    ]
+  },
+  "programming-wcf-services-4th-edition-2015": {
+    "descripcion": "Cuarta edición de la obra cumbre indiscutida sobre arquitectura de servicios distribuidos escrita por Juval Löwy y Michael Montgomery, publicada por O'Reilly en 2015. Es considerada la biblia maestra de WCF.\n\nDesarrolla en profundidad contratos de operaciones y datos, modelos de instanciación y concurrencia (Single, PerCall, PerSession), transacciones distribuidas con MSDTC, colas de mensajes duraderas con MSMQ, y diseño de frameworks de seguridad.\n\nJuval Löwy, arquitecto de software de renombre mundial y fundador de IDesign, presenta patrones arquitectónicos industriales rigurosos que van mucho más allá de la documentación oficial. La referencia técnica más influyente sobre WCF.",
+    "temas": [
+      "Programming WCF",
+      "Juval Lowy",
+      "MSMQ",
+      "MSDTC",
+      "Concurrencia",
+      "Patrones de Arquitectura",
+      "O'Reilly"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de Servicios Transaccionales Desacoplados con MSMQ y WCF",
+        "descripcion": "Diseño de un bus de servicios de misión crítica con colas de mensajes duraderas y compensación transaccional distribuida."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/programming-wcf-services/9781491944820/"
+    ]
+  },
+  "restful-net-2008": {
+    "descripcion": "Tratado técnico pionero sobre la adopción de los principios arquitectónicos REST en la plataforma Microsoft escrito por Jon Flanders y publicado por O'Reilly en 2008. Se enfoca en WCF WebHttpServices.\n\nExplora el diseño de URIs semánticas, mapeo de métodos HTTP (GET, POST, PUT, DELETE), negociación de contenido en XML y JSON con `WebGet` y `WebInvoke`, y sindicación de contenidos con canales RSS y Atom.\n\nJon Flanders enseña a los desarrolladores de .NET a alejarse de los pesados contratos RPC SOAP para abrazar la simplicidad y escalabilidad de la web abierta. Una lectura histórica clave en la transición hacia las APIs REST.",
+    "temas": [
+      "RESTful .NET",
+      "WCF REST",
+      "WebHttpBinding",
+      "JSON",
+      "Jon Flanders",
+      "O'Reilly"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "API RESTful de Publicación y Sindicación de Contenidos con WCF",
+        "descripcion": "Construcción de un servicio web que expone recursos en JSON y feeds RSS/Atom con soporte para almacenamiento en caché HTTP."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://www.oreilly.com/library/view/restful-net/9780596519209/"
+    ]
+  },
+  "microsoft-windows-communication-foundation-4-0-cookbook-for-developing-soa-applications-2010": {
+    "descripcion": "Recetario técnico práctico sobre arquitectura orientada a servicios (SOA) escrito por Steven Cheng y publicado por Packt en 2010. Proporciona soluciones directas a retos de integración empresarial con WCF 4.0.\n\nContiene recetas para la interoperabilidad heterogénea con clientes Java/Unix, configuración de bindings binarios y seguros, streaming masivo de archivos binarios, inspección de mensajes con interceptores (Message Inspectors) y monitorización con WMI.\n\nSteven Cheng estructura cada problema con recetas claras y reproducibles, ahorrando incontables horas de configuración en archivos `web.config` y `app.config`. Muy útil para administradores de sistemas y desarrolladores de integraciones.",
+    "temas": [
+      "WCF 4.0",
+      "Cookbook",
+      "SOA",
+      "Message Inspectors",
+      "Streaming",
+      "Packt"
+    ],
+    "enfoque": "ejercicios",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Servicio de Transferencia de Archivos de Gran Volumen con WCF Streaming",
+        "descripcion": "Implementación de canales de streaming con bajo consumo de memoria RAM y autenticación mediante certificados digitales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "wcf-4-0-multi-tier-services-development-with-linq-to-entities-2010": {
+    "descripcion": "Manual práctico sobre arquitectura de software multicapa escrito por Mike Liu y publicado por Packt en 2010. Enseña a integrar WCF 4.0 con Entity Framework 4 y LINQ to Entities.\n\nAborda la separación de capas: capa de presentación, capa de servicios WCF, capa de lógica de negocio y capa de persistencia con Entity Framework, resolución de referencias circulares en entidades serializadas y manejo transaccional.\n\nMike Liu adopta un enfoque paso a paso guiado por un proyecto comercial continuo, dotando al lector de una comprensión práctica sobre cómo estructurar sistemas corporativos limpios y escalables. Muy formativo para ingenieros .NET.",
+    "temas": [
+      "WCF 4.0",
+      "Arquitectura Multicapa",
+      "Entity Framework",
+      "LINQ to Entities",
+      "Serialización",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Sistema de Comercio Electrónico Multicapa con WCF y Entity Framework",
+        "descripcion": "Desarrollo completo de una solución empresarial con separación estricta de capas de datos, servicios y clientes."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "wcf-4-5-multi-layer-services-development-with-entity-framework-3rd-edition-2012": {
+    "descripcion": "Tercera edición del manual arquitectónico de Mike Liu, publicada por Packt en 2012. Actualizada para incorporar las capacidades de WCF 4.5 y Entity Framework 5 en Visual Studio 2012.\n\nCubre la generación de entidades con plantillas DbContext T4, llamadas asíncronas con la palabra clave `async` y `await` en servicios WCF, validación de datos en capas desacopladas y pruebas automatizadas con proyectos de test.\n\nLiu profundiza en la mantenibilidad del código base a largo plazo, enseñando a evitar el acoplamiento directo entre la base de datos y los contratos públicos de los servicios. Una referencia muy valorada en el desarrollo corporativo de .NET.",
+    "temas": [
+      "WCF 4.5",
+      "Entity Framework 5",
+      "DbContext",
+      "Async/Await",
+      "Arquitectura Multicapa",
+      "Packt"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Plataforma de Pagos y Facturación Multicapa Asíncrona con WCF 4.5",
+        "descripcion": "Construcción de una suite de servicios con llamadas no bloqueantes async/await y persistencia transaccional en SQL Server."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "professional-wcf-4-2010": {
+    "descripcion": "Tratado técnico exhaustivo sobre Windows Communication Foundation 4 escrito por Pablo Cibraro, Kurt Claeys, Fabio Cozzolino y Johann Grabner, publicado por Wrox / Wiley en 2010.\n\nExplora la arquitectura de canales, servicios de enrutamiento y descubrimiento dinámico (WS-Discovery), integración con Windows Workflow Foundation, REST con plantillas de URI, y seguridad avanzada con claims y WCF Data Services.\n\nPablo Cibraro y los coautores, líderes comunitarios y Microsoft MVPs, aportan patrones de diseño y recetas probadas en despliegues corporativos de gran escala. Una referencia clásica e indispensable para arquitectos de software en .NET.",
+    "temas": [
+      "WCF 4",
+      "WS-Discovery",
+      "Routing Service",
+      "Claims-based Security",
+      "WCF Data Services",
+      "Wrox",
+      "Wiley"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Red de Servicios SOA con Descubrimiento Dinámico y Seguridad por Claims",
+        "descripcion": "Implementación de un clúster de microservicios corporativos que se registran y descubren en tiempo de ejecución con WS-Discovery."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

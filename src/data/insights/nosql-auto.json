@@ -1,0 +1,155 @@
+{
+  "nosql-for-mere-mortals-2015": {
+    "descripcion": "Guía didáctica y exhaustiva de Dan Sullivan que desmitifica el universo de las bases de datos NoSQL para programadores, analistas y arquitectos de software.\n\nEl autor categoriza y analiza en detalle las cuatro grandes familias NoSQL: bases de datos clave-valor (Redis, Riak), columnares (Cassandra, HBase), orientadas a documentos (MongoDB, CouchDB) y de grafos (Neo4j). Sullivan explica el Teorema CAP, el modelo BASE frente a ACID, consistencia eventual y cómo elegir la tecnología óptima según los patrones de acceso de la aplicación.\n\nUna excelente obra formativa para comprender el panorama moderno de almacenamiento de datos sin prejuicios ni confusiones conceptuales.",
+    "temas": [
+      "NoSQL",
+      "Dan Sullivan",
+      "Teorema CAP",
+      "BASE vs ACID",
+      "Clave-Valor",
+      "Documentos",
+      "Columnares",
+      "Grafos"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "usage-driven-database-design-2017": {
+    "descripcion": "Tratado metodológico de George Tillmann sobre el diseño de bases de datos impulsado por el uso real y las consultas del negocio, unificando principios relacionales y NoSQL.\n\nTillmann expone cómo romper la rigidez del modelado tradicional en tercera forma normal cuando los requisitos de rendimiento y volumen demandan estructuras políglotas. Enseña a modelar a partir de los patrones de acceso, balancear la redundancia deliberada contra la consistencia, y seleccionar estrategias híbridas combinando motores SQL y NoSQL.\n\nIndispensable para arquitectos de datos y líderes técnicos que buscan soluciones pragmáticas alineadas con los casos de uso reales de la empresa.",
+    "temas": [
+      "Diseño de Bases de Datos",
+      "George Tillmann",
+      "Persistencia Políglota",
+      "NoSQL",
+      "RDBMS",
+      "Desnormalización",
+      "Patrones de Acceso",
+      "Arquitectura de Datos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de persistencia políglota para plataforma de comercio masivo",
+        "descripcion": "Diseño de un sistema que combina PostgreSQL para transacciones de compras, Redis para sesiones y MongoDB para el catálogo flexible de productos."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "making-sense-of-nosql-2013": {
+    "descripcion": "Guía analítica y arquitectónica de Dan McCreary y Ann Kelly dedicada a comprender los fundamentos teóricos y prácticos que impulsaron la explosión del movimiento NoSQL.\n\nLos autores profundizan en la necesidad de escalabilidad horizontal frente al escalado vertical tradicional, el Teorema CAP, la distribución de datos mediante tablas hash distribuidas (DHT) y consistencia eventual, y evalúan las fortalezas específicas de cada familia: clave-valor, documental, columnar y grafos. Incluye casos de estudio empresariales de grandes compañías tecnológicas.\n\nUna lectura técnica y estratégica de primer nivel para arquitectos que deben tomar decisiones de inversión y selección tecnológica en proyectos de datos masivos.",
+    "temas": [
+      "NoSQL",
+      "Dan McCreary",
+      "Ann Kelly",
+      "Teorema CAP",
+      "Manning",
+      "Escalabilidad Horizontal",
+      "Sistemas Distribuidos",
+      "Arquitectura"
+    ],
+    "enfoque": "teorico",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "exist-2014": {
+    "descripcion": "Guía especializada de Adam Retter y Erik Siegel sobre eXist-db, la plataforma de base de datos nativa de documentos XML de código abierto más avanzada y utilizada.\n\nLos autores enseñan a consultar, transformar y almacenar documentos jerárquicos estructurados utilizando XQuery, XPath y XSLT integrados en el motor. Abordan la indexación basada en rutas XML, búsquedas de texto completo con Lucene, seguridad de documentos y el desarrollo de aplicaciones web nativas completas basadas en estándares XML y REST.\n\nUna referencia técnica indispensable para ingenieros de gestión documental, humanidades digitales y desarrolladores que trabajan con grandes corpus de datos XML.",
+    "temas": [
+      "eXist-db",
+      "XML",
+      "XQuery",
+      "XPath",
+      "XSLT",
+      "Lucene",
+      "Bases de Datos Documentales",
+      "NoSQL"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Portal de archivo digital y búsqueda semántica en eXist-db",
+        "descripcion": "Construcción de una aplicación web con búsquedas complejas en XQuery sobre miles de documentos XML y renderizado dinámico con XSLT."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "seven-databases-in-seven-weeks-2012": {
+    "descripcion": "La célebre y revolucionaria obra de Eric Redmond y Jim R. Wilson que desafió el paradigma relacional tradicional guiando al lector a través de siete bases de datos punteras en siete semanas.\n\nLos autores exploran una tecnología distinta por semana: PostgreSQL (relacional avanzado con JSON), Riak (clave-valor distribuido), Apache HBase (columnar masivo), MongoDB (documental), Apache CouchDB (documental con replicación offline), Neo4j (grafos) y Redis (estructuras de datos en memoria). En cada caso, desentrañan el Teorema CAP, los patrones de modelado y cómo resolver problemas reales.\n\nUna de las lecturas más enriquecedoras, formativas y elogiadas de la literatura contemporánea sobre gestión y almacenamiento de datos.",
+    "temas": [
+      "Siete Bases de Datos",
+      "Pragmatic Bookshelf",
+      "Redis",
+      "Neo4j",
+      "MongoDB",
+      "PostgreSQL",
+      "HBase",
+      "Teorema CAP"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Suite comparativa de siete motores de datos para análisis políglota",
+        "descripcion": "Implementación de casos de uso específicos en cada una de las 7 bases de datos aprovechando las ventajas intrínsecas de cada paradigma."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "nosql-for-dummies-2015": {
+    "descripcion": "Manual amigable, estructurado y accesible de Adam Fowler perteneciente a la serie For Dummies, diseñado para introducir las bases de datos NoSQL a profesionales de cualquier trasfondo técnico.\n\nFowler explica de forma intuitiva las limitaciones de los sistemas relacionales tradicionales ante el Big Data, desglosando los conceptos clave: escalabilidad horizontal, alta velocidad de ingesta, modelos sin esquema y almacenamiento distribuido. Compara los motores líderes de la industria (MongoDB, Cassandra, Couchbase, Neo4j, Redis) y ofrece directrices claras sobre cómo migrarlos o combinarlos con SQL.\n\nEl punto de partida ideal para principiantes y directores de proyectos que necesitan comprender el impacto y posibilidades de la revolución NoSQL.",
+    "temas": [
+      "For Dummies",
+      "NoSQL",
+      "Adam Fowler",
+      "Big Data",
+      "MongoDB",
+      "Cassandra",
+      "Redis",
+      "Introducción"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": []
+  },
+  "professional-nosql-2011": {
+    "descripcion": "Tratado técnico exhaustivo de Shashank Tiwari sobre la arquitectura, diseño e implementación de sistemas basados en bases de datos NoSQL y distribuidas.\n\nTiwari examina las raíces matemáticas de los almacenes distribuidos: tablas hash distribuidas (DHT), protocolo Gossip, replicación Dynamo de Amazon, BigTable de Google, Teorema CAP y particionamiento consistente. Analiza implementaciones reales en MongoDB, CouchDB, Cassandra, HBase, Riak y Redis, ofreciendo patrones de modelado y estrategias de migración corporativa.\n\nUna de las obras tempranas más completas y autorizadas sobre la ingeniería de sistemas NoSQL para desarrolladores empresariales.",
+    "temas": [
+      "Professional NoSQL",
+      "Shashank Tiwari",
+      "Wrox",
+      "Dynamo",
+      "BigTable",
+      "Cassandra",
+      "MongoDB",
+      "Sistemas Distribuidos"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Arquitectura de almacenamiento distribuido para análisis de logs masivos",
+        "descripcion": "Diseño de un pipeline de ingesta de eventos utilizando bases de datos columnares y clave-valor con particionamiento consistente."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": []
+  }
+}

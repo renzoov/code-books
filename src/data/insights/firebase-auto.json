@@ -1,0 +1,91 @@
+{
+  "build-mobile-apps-with-ionic-4-and-firebase-2018": {
+    "descripcion": "Guía práctica y completa desarrollada por Fu Cheng que enseña a diseñar y construir aplicaciones móviles híbridas utilizando Ionic 4, Angular 6+ y TypeScript, integrando Firebase como plataforma Backend-as-a-Service (BaaS). Está dirigida a desarrolladores web e ingenieros frontend de nivel intermedio con bases firmes en JavaScript, TypeScript y conceptos generales de Angular que buscan crear aplicaciones móviles multiplataforma para iOS y Android sin tener que implementar ni administrar servidores propios.\n\nEl contenido profundiza en el cambio arquitectónico de Ionic 4, explicando su separación hacia Web Components estandarizados mediante la herramienta Stencil y la integración con Angular y su sistema de rutas (Angular Router). Enseña a diseñar interfaces fluidas con componentes como ion-list, ion-card, ion-grid, barras de pestañas (tabs), ventanas modales, hojas de acción (action sheets), popovers, menús laterales y controladores de gestos y teclado. En la capa de datos y reactividad, aborda el uso de RxJS y la integración de servicios de Firebase: autenticación de usuarios con Firebase Authentication (registro, inicio de sesión y gestión de credenciales), persistencia en la base de datos documental en tiempo real Cloud Firestore a través de la librería AngularFire2 (@angular/fire) y protección de navegación con Route Guards. También abarca el uso de plugins de Apache Cordova como InAppBrowser para abrir artículos web externos y Cordova Social Sharing para compartir contenidos en redes sociales, personalización visual con variables CSS, pruebas automatizadas de extremo a extremo con Protractor y preparación de empaquetado y despliegue con Ionic CLI y distribución a tiendas.\n\nEl eje pedagógico del libro es la construcción guiada de un cliente móvil completo para Hacker News, que consume su API en tiempo real para listar noticias destacadas, consultar hilos de comentarios anidados, abrir enlaces con el navegador interno, autenticar usuarios y sincronizar noticias favoritas en Cloud Firestore. Aporta un flujo de trabajo realista para entender la transición a Web Components y arquitecturas reactivas sin servidor. Conviene considerar que utiliza Apache Cordova como envoltorio nativo (el estándar dominante al momento de su publicación antes de la popularización masiva de Capacitor) y que se enfoca exclusivamente en el modelo NoSQL de Firebase.",
+    "temas": [
+      "Ionic 4",
+      "Angular",
+      "TypeScript",
+      "Firebase Authentication",
+      "Cloud Firestore",
+      "Web Components",
+      "Stencil",
+      "AngularFire",
+      "RxJS",
+      "Cordova",
+      "InAppBrowser"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Cliente móvil de Hacker News con Firebase",
+        "descripcion": "Aplicación híbrida multiplataforma que consume la API de Hacker News para explorar historias y comentarios anidados, e implementa autenticación de usuarios y base de datos Cloud Firestore para guardar noticias favoritas y compartirlas en redes sociales."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-3775-5",
+      "https://www.oreilly.com/library/view/build-mobile-apps/9781484237755/",
+      "https://www.amazon.com/dp/1484237740"
+    ]
+  },
+  "build-mobile-apps-with-ionic-2-and-firebase-2017": {
+    "descripcion": "Manual práctico orientado a desarrolladores frontend e intermedios que desean construir aplicaciones móviles híbridas modernas para iOS y Android utilizando Ionic 2, Angular 2 y TypeScript, apoyándose en Firebase como backend serverless. Los requisitos previos incluyen buen manejo de JavaScript y TypeScript, nociones básicas de la arquitectura de componentes de Angular y comprensión de flujos asíncronos en el navegador.\n\nEl libro aborda en detalle el ecosistema de Ionic 2 y Angular, articulando el desarrollo mediante programación reactiva con RxJS y tipado estricto. Explica el uso de componentes móviles esenciales (tarjetas, listas con carga diferida, barras de herramientas y menús laterales), el control de navegación y la gestión del estado global de la app. En la integración con Firebase, enseña a conectar y consultar la Realtime Database mediante DataSnapshots, implementar autenticación con usuario y contraseña, y almacenar preferencias locales. Además, utiliza el plugin nativo Cordova InAppBrowser a través de Ionic Native para abrir enlaces externos dentro de la aplicación e introduce pruebas unitarias con Jasmine y Karma.\n\nEl aprendizaje se articula a través de un proyecto integral que acompaña al lector paso a paso: un cliente completo para Hacker News que implementa desplazamiento infinito (infinite scroll), refresco interactivo (pull-to-refresh), lectura de noticias y comentarios, y marcado de artículos favoritos. Su punto fuerte es la rigurosidad con la que estructura el código modular y las pruebas automatizadas; como contrapartida, está escrito para la versión inicial de Firebase Realtime Database anterior a Cloud Firestore y para la versión 2 de Ionic, lo que exigirá adaptar ciertas directivas y paquetes al trabajar con versiones actuales del framework.",
+    "temas": [
+      "Ionic 2",
+      "Angular 2",
+      "TypeScript",
+      "Firebase Realtime Database",
+      "RxJS",
+      "Apache Cordova",
+      "Ionic Native",
+      "InAppBrowser",
+      "Jasmine",
+      "Karma",
+      "Híbrido móvil"
+    ],
+    "enfoque": "proyectos",
+    "tieneEjercicios": false,
+    "tieneProyectos": true,
+    "proyectos": [
+      {
+        "nombre": "Cliente móvil de Hacker News",
+        "descripcion": "Aplicación híbrida para iOS y Android que consume y sincroniza noticias y comentarios en tiempo real desde Firebase, incorporando infinite scroll, pull-to-refresh, gestión de favoritos y visualización de enlaces con InAppBrowser."
+      }
+    ],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2737-4",
+      "https://www.apress.com/gp/book/9781484227367",
+      "https://www.amazon.com/Build-Mobile-Apps-Ionic-Firebase/dp/1484227365"
+    ]
+  },
+  "the-definitive-guide-to-firebase-2017": {
+    "descripcion": "Guía técnica y de referencia escrita por Laurence Moroney (Developer Advocate en Google) para desarrolladores de Android y aplicaciones web que buscan acelerar el ciclo de vida de sus productos delegando el backend en Firebase. Está pensada para programadores con nivel básico o intermedio que ya conocen Java y el entorno de Android Studio, y desean añadir capacidades de nube, sincronización en tiempo real y servicios de monetización sin tener que diseñar ni administrar servidores propios.\n\nEl libro analiza de manera sistemática catorce servicios clave de la plataforma de Google agrupados en desarrollo, crecimiento y monetización. Enseña a implementar Firebase Authentication (correo, contraseñas y proveedores federados), sincronización NoSQL con Firebase Realtime Database, almacenamiento de archivos multimedia con Cloud Storage, funciones serverless con Cloud Functions y alojamiento web en Firebase Hosting. Asimismo, detalla el envío de notificaciones push y mensajería con Firebase Cloud Messaging (FCM), la indexación de contenidos en Google Search mediante App Indexing, la alteración dinámica de la interfaz con Remote Config, la adquisición de usuarios mediante Dynamic Links e Invites, la monetización con AdMob y el diagnóstico con Crash Reporting, Firebase Test Lab y Google Analytics for Firebase.\n\nLa metodología se basa en ejemplos y tutoriales prácticos por servicio en lugar de desarrollar una única aplicación monolítica, permitiendo al desarrollador aprender a configurar cada SDK, escuchar eventos de base de datos o subir capturas de la cámara paso a paso. Destaca por ofrecer patrones de diseño recomendados directamente por el equipo de Google y por cubrir el espectro completo de la plataforma en su momento de consolidación; como aspecto a considerar, la obra refleja el catálogo de Firebase de 2017 previo a la llegada de Cloud Firestore y Crashlytics, por lo que algunas APIs han evolucionado en las versiones contemporáneas de Google Cloud.",
+    "temas": [
+      "Firebase",
+      "Android",
+      "Java",
+      "Firebase Realtime Database",
+      "Firebase Authentication",
+      "Cloud Storage",
+      "Cloud Functions",
+      "Firebase Cloud Messaging",
+      "Remote Config",
+      "Dynamic Links",
+      "AdMob",
+      "Google Analytics"
+    ],
+    "enfoque": "mixto",
+    "tieneEjercicios": true,
+    "tieneProyectos": false,
+    "proyectos": [],
+    "confianza": "alta",
+    "fuentes": [
+      "https://link.springer.com/book/10.1007/978-1-4842-2943-9",
+      "https://www.apress.com/gp/book/9781484229422",
+      "https://www.amazon.com/Definitive-Guide-Firebase-Android-Platform/dp/1484229422"
+    ]
+  }
+}
