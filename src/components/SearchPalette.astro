@@ -1,9 +1,16 @@
+<!-- En el celular solo se ve la lupa: no hay espacio para el texto y no hay teclado para el atajo. -->
 <button
   id="search-open"
   type="button"
-  class="ml-auto hidden shrink-0 items-center gap-2 rounded-md border border-line px-2.5 py-1 font-mono text-xs text-muted hover:text-white sm:flex"
+  aria-label="Buscar libros"
+  class="ml-auto flex shrink-0 items-center gap-2 rounded-md border border-line px-2.5 py-1.5 font-mono text-xs text-muted hover:text-white sm:py-1"
 >
-  Buscar <kbd class="rounded border border-line px-1">Ctrl K</kbd>
+  <svg viewBox="0 0 24 24" class="size-4 sm:size-3.5" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+    <circle cx="11" cy="11" r="7" />
+    <path d="m20 20-3.5-3.5" />
+  </svg>
+  <span class="hidden sm:inline">Buscar</span>
+  <kbd class="hidden rounded border border-line px-1 sm:inline">Ctrl K</kbd>
 </button>
 
 <dialog id="search-dialog" class="m-auto mt-[12vh] w-[min(36rem,92vw)] rounded-xl border border-line bg-panel p-0 text-[#e7e9ee] backdrop:bg-black/60">
