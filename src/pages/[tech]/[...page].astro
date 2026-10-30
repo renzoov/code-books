@@ -52,11 +52,28 @@ const nextCovers = (
 </Layout>
 
 <script>
-  document.addEventListener('astro:page-load', () => {
+  // Espera a que carguen las portadas visibles de esta página (máximo 4 s) para no quitarles conexión.
+  const visibleCoversLoaded = () => {
+    const pending = [...document.querySelectorAll<HTMLImageElement>('a[data-book] img')].filter(
+      (img) => !img.complete && img.getBoundingClientRect().top < innerHeight,
+    );
+    const loaded = pending.map(
+      (img) =>
+        new Promise((done) => {
+          img.addEventListener('load', done, { once: true });
+          img.addEventListener('error', done, { once: true });
+        }),
+    );
+    return Promise.race([Promise.all(loaded), new Promise((done) => setTimeout(done, 4000))]);
+  };
+
+  document.addEventListener('astro:page-load', async () => {
     const list = document.querySelector<HTMLElement>('[data-next-covers]');
     if (!list) return;
     const conn = (navigator as Navigator & { connection?: { saveData?: boolean; effectiveType?: string } }).connection;
     if (conn?.saveData || /2g|3g/.test(conn?.effectiveType ?? '')) return;
+    await visibleCoversLoaded();
+    if (!list.isConnected) return; // ya se navegó a otra página
     for (const src of JSON.parse(list.dataset.nextCovers!) as string[]) {
       const link = document.createElement('link');
       link.rel = 'prefetch';

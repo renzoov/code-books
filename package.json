@@ -11,11 +11,12 @@
     "covers:optimize": "node scripts/optimize-covers.mjs",
     "insights": "node scripts/generate-insights.mjs",
     "check:insights": "node scripts/check-insights.mjs",
-    "prebuild": "npm run import",
+    "prebuild": "npm run import && npm run covers:placeholders",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "covers:placeholders": "node scripts/cover-placeholders.mjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",

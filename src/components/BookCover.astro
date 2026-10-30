@@ -1,6 +1,7 @@
 ---
 import { Image, getImage } from 'astro:assets';
 import { getCover, techBySlug, type Book } from '../lib/data';
+import placeholders from '../data/cover-placeholders.json';
 
 interface Props {
   book: Book;
@@ -17,18 +18,28 @@ const CARD_WIDTH = 160;
 // En el detalle la imagen grande es otro archivo y aún no está en caché al llegar desde la lista: mientras
 // carga se muestra de fondo la miniatura de la tarjeta, así la portada nunca se ve vacía durante el morph.
 const placeholder = morph && cover ? (await getImage({ src: cover, width: CARD_WIDTH })).src : undefined;
+// Miniatura borrosa de ~300 bytes incrustada en el HTML (scripts/cover-placeholders.mjs): la portada se ve al
+// instante aunque la imagen real tarde en llegar del CDN.
+const blur = cover ? (placeholders as Record<string, { src: string }>)[book.slug]?.src : undefined;
+const background = [placeholder, blur].map((src) => src && `url(${src})`).filter(Boolean).join(', ');
 // En las tarjetas el nombre de transición se asigna por JS solo al libro que se abre o al que se vuelve
 // (ver Layout.astro); si todas lo tuvieran, cada portada se animaría por separado del resto de su tarjeta.
-const morphProps = morph
-  ? {
-      style: `view-transition-name: cover-${book.techSlug}-${book.slug}${
-        placeholder ? `; background: url(${placeholder}) center / cover` : ''
-      }`,
-    }
-  : { 'data-morph': 'cover' };
+const morphProps = morph ? {} : { 'data-morph': 'cover' };
+const style =
+  [morph && `view-transition-name: cover-${book.techSlug}-${book.slug}`, background && `background-image: ${background}`]
+    .filter(Boolean)
+    .join('; ') || undefined;
 ---
 
-<div class:list={['relative aspect-[3/4] overflow-hidden rounded-md shadow-lg shadow-black/40', className]} {...morphProps}>
+<div
+  class:list={[
+    'relative aspect-[3/4] overflow-hidden rounded-md shadow-lg shadow-black/40',
+    cover && 'cover-skeleton',
+    className,
+  ]}
+  {...morphProps}
+  style={style}
+>
   {
     cover ? (
       <Image

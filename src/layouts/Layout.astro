@@ -52,6 +52,25 @@ const {
         });
       };
 
+      // Skeleton de portada: se apaga cuando su imagen carga o falla. "load" no burbujea, por eso se escucha en
+      // captura; las que ya estaban en caché antes de que corra este script se marcan en cada carga de página.
+      const markCover = (img: EventTarget | null) => {
+        if (img instanceof HTMLImageElement) img.parentElement?.closest('.cover-skeleton')?.classList.add('is-loaded');
+      };
+      document.addEventListener('load', (ev) => markCover(ev.target), true);
+      document.addEventListener(
+        'error',
+        (ev) => {
+          // Si la imagen falla queda la miniatura borrosa en vez del ícono de imagen rota.
+          if (ev.target instanceof HTMLImageElement && ev.target.closest('.cover-skeleton')) ev.target.style.visibility = 'hidden';
+          markCover(ev.target);
+        },
+        true,
+      );
+      document.addEventListener('astro:page-load', () => {
+        document.querySelectorAll<HTMLImageElement>('.cover-skeleton > img').forEach((img) => img.complete && markCover(img));
+      });
+
       let pendingTech: string | undefined;
 
       document.addEventListener('astro:before-preparation', (ev) => {

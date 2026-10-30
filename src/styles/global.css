@@ -74,6 +74,35 @@ html[data-astro-transition='back']::view-transition-new(root) {
   z-index: 100;
 }
 
+/* --- Skeleton de portada -------------------------------------------------------------------- */
+/* Mientras llega la imagen se ve la miniatura borrosa (o un gris si no hay) con un brillo que la recorre.
+   Layout.astro agrega .is-loaded al cargar la imagen (o si falla) y el brillo se detiene. */
+.cover-skeleton {
+  background-color: var(--color-line);
+  background-position: center;
+  background-size: cover;
+}
+.cover-skeleton > img {
+  position: relative;
+  z-index: 1;
+}
+.cover-skeleton:not(.is-loaded)::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(100deg, transparent 30%, rgb(255 255 255 / 0.16) 50%, transparent 70%);
+  background-size: 250% 100%;
+  animation: cover-shimmer 1.3s ease-in-out infinite;
+}
+@keyframes cover-shimmer {
+  from {
+    background-position: 100% 0;
+  }
+  to {
+    background-position: -50% 0;
+  }
+}
+
 :focus-visible {
   outline: 2px solid var(--accent, #818cf8);
   outline-offset: 2px;
