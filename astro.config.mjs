@@ -23,7 +23,8 @@ const excludeSourceExcels = () => ({
  * Reglas de caché (_headers, mismo formato en Netlify y Cloudflare Pages):
  * - /_astro/*: los archivos llevan un hash en el nombre (si cambian, cambia la URL), se guardan un año.
  * - Páginas: Netlify y Cloudflare sirven el HTML con max-age=0, y el navegador descarta lo precargado y lo
- *   vuelve a pedir al hacer clic. Con 5 minutos el clic usa la copia precargada.
+ *   vuelve a pedir al hacer clic. Con 1 minuto el clic usa la copia precargada (se suele hacer clic a los pocos
+ *   segundos) y una versión nueva del sitio llega casi enseguida a quien ya lo tenía abierto.
  * Cloudflare admite como máximo 100 reglas pero permite quitar una cabecera con "!": un comodín "/*" y se
  * reemplaza en /_astro/*. Netlify no admite "!" (combinaría las dos cabeceras), así que ahí va una regla por
  * sección. Cloudflare marca sus builds con CF_PAGES.
@@ -34,7 +35,7 @@ const cacheHeaders = () => ({
   hooks: {
     'astro:build:done': async ({ dir, logger }) => {
       const assets = 'Cache-Control: public, max-age=31536000, immutable';
-      const pages = 'Cache-Control: public, max-age=300, must-revalidate';
+      const pages = 'Cache-Control: public, max-age=60, must-revalidate';
       /** @type {[string, string[]][]} */
       let rules;
       if (process.env.CF_PAGES) {
