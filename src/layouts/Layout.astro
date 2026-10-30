@@ -71,6 +71,29 @@ const {
         document.querySelectorAll<HTMLImageElement>('.cover-skeleton > img').forEach((img) => img.complete && markCover(img));
       });
 
+      // Durante la animación entre páginas (~0,5 s) Chrome dirige todos los clics al <html>, así que un clic
+      // justo al llegar a una página no hacía nada. Ese clic termina la animación y se reenvía al elemento que
+      // quedó bajo el puntero (con las mismas teclas, para que Ctrl+clic siga abriendo otra pestaña).
+      let runningTransition: ViewTransition | undefined;
+      document.addEventListener('astro:before-swap', (ev) => {
+        const vt = (runningTransition = ev.viewTransition);
+        vt.finished.finally(() => runningTransition === vt && (runningTransition = undefined));
+      });
+      document.addEventListener(
+        'click',
+        (ev) => {
+          if (!runningTransition || ev.target !== document.documentElement || !ev.isTrusted) return;
+          ev.stopImmediatePropagation();
+          ev.preventDefault();
+          runningTransition.skipTransition();
+          requestAnimationFrame(() => {
+            const el = document.elementFromPoint(ev.clientX, ev.clientY);
+            if (el && el !== document.documentElement) el.dispatchEvent(new MouseEvent('click', ev));
+          });
+        },
+        true,
+      );
+
       let pendingTech: string | undefined;
 
       document.addEventListener('astro:before-preparation', (ev) => {
